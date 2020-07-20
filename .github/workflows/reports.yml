@@ -46,9 +46,10 @@ jobs:
         cat <<\EOF > README.md
         ## Recent releases to AliPhysics
         EOF
-        cat <<\EOF >> README.md
+        cat <<\EOF > releases.json
          ${{ steps.get_latest_releases.outputs.data }}
         EOF        
+        cat releases.json | jq '.repository.releases'
         cat releases.md
     - name: Commit and push if changed
       run: |-
