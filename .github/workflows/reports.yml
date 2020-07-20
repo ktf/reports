@@ -49,7 +49,7 @@ jobs:
         cat <<\EOF > releases.json
         ${{ steps.get_latest_releases.outputs.data }}
         EOF
-        cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" > README.md
+        cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
         cat README.md
     - name: Commit and push if changed
       run: |-
