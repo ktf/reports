@@ -49,7 +49,7 @@ jobs:
         cat <<\EOF > releases.json
          ${{ steps.get_latest_releases.outputs.data }}
         EOF        
-        cat releases.json | jq '.repository.releases'
+        cat releases.json | jq -r '.repository.releases' > releases.md
         cat releases.md
     - name: Commit and push if changed
       run: |-
