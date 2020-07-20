@@ -46,9 +46,8 @@ jobs:
         cat <<\EOF > README.md
         ## Recent releases to AliPhysics
         EOF
-        # cat <<\EOF | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
         cat <<\EOF | jq -r '.repository.releases.edges[].node' >> README.md
-        ${{ steps.get_latest_releases.outputs.data }}
+         ${{ steps.get_latest_releases.outputs.data }}
         EOF        
         cat releases.md
     - name: Commit and push if changed
