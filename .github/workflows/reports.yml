@@ -1,0 +1,62 @@
+name: Automatically create reports for AliPhysics / O2
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '32 * * * *'
+
+jobs:
+  build:
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - uses: actions/cache@v2
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - uses: octokit/graphql-action@v2.x
+      id: get_latest_releases
+      with:
+        query: |
+              {
+                repository(name: "AliPhysics", owner: "alisw") {
+                  releases(last:10) {
+                    edges {
+                      node {
+                        tagName
+                        createdAt
+                      }
+                    }
+                  }
+                }
+              }
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+            - name: Update README
+    - name: Update README
+      run: |-
+        cat <<\EOF > README.md
+        ## Recent releases to AliPhysics
+        EOF
+        cat <<\EOF | jq -r '.search.edges[].node | "- [\(.title)](\(.url))"' >> README.md
+        ${{ steps.get_latest_releases.outputs.data }}
+        EOF
+        cat releases.md
+    - name: Commit and push if changed
+      run: |-
+        git add .
+        git diff
+        git config --global user.email "github-action-bot@example.com"
+        git config --global user.name "GitHub Action Bot"
+        git commit -m "Updated README" -a || echo "No changes to commit"
+        git push
