@@ -44,14 +44,23 @@ jobs:
     - uses: octokit/graphql-action@v2.x
       id: get_latest_o2_prs
       with:
-        query: |
-              {
+        query: | 
+              { 
                 repository(name: "AliceO2", owner: "AliceO2Group") {
-                  releases(last:10) {
+                  pullRequests(last: 100) {
                     edges {
                       node {
-                        tagName
-                        publishedAt
+                        state
+                        mergedAt
+                        title
+                        author {
+                          login
+                        }
+                        files(last: 100) {
+                        edges {
+                        node {
+                          path
+                        }
                       }
                     }
                   }
