@@ -42,7 +42,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Update README
-      run: |-
+      run: |
         cat <<\EOF > README.md
         ## Recent releases to AliPhysics
         EOF
