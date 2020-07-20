@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-06-30T10:35:41Z",
-            "title": "Several fixes for GPU memory management and missing initialization",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChainContext.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-02T10:44:20Z",
             "title": "Add base class for TOF pid in analysis tasks",
             "author": {
@@ -3666,6 +3632,60 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/base/src/PowerSupplyUnit.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restore O2 compilation with --disable DebugGUI",
+            "author": {
+              "login": "ihrivnac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/FrameworkGUIDevicesGraph.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/PaletteHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDataRelayerUsage.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDebugger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDeviceInspector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDeviceInspector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/PaletteHelpers.cxx"
                   }
                 }
               ]
