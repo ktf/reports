@@ -67,5 +67,5 @@
   }
 }
 EOF        
-cat releases.json | jq '.repository.releases'
+cat releases.json | jq -r '.repository.releases' > releases.md
 cat releases.md
