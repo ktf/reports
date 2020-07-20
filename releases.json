@@ -1,4 +1,4 @@
- {
+{
   "repository": {
     "releases": {
       "edges": [
@@ -66,6 +66,3 @@
     }
   }
 }
-EOF        
-cat releases.json | jq -r '.repository.releases' > releases.md
-cat releases.md
