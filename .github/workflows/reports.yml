@@ -46,7 +46,7 @@ jobs:
         cat <<\EOF > README.md
         ## Recent releases to AliPhysics
         EOF
-        cat <<\EOF | jq -r '.repository.releases.edges[].node' >> README.md
+        cat <<\EOF >> README.md
          ${{ steps.get_latest_releases.outputs.data }}
         EOF        
         cat releases.md
