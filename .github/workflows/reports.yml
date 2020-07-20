@@ -41,6 +41,24 @@ jobs:
               }
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: octokit/graphql-action@v2.x
+      id: get_latest_o2_prs
+      with:
+        query: |
+              {
+                repository(name: "AliceO2", owner: "AliceO2Group") {
+                  releases(last:10) {
+                    edges {
+                      node {
+                        tagName
+                        publishedAt
+                      }
+                    }
+                  }
+                }
+              }
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Update README
       run: |
         cat <<\EOF > README.md
@@ -48,6 +66,9 @@ jobs:
         EOF
         cat <<\EOF > releases.json
         ${{ steps.get_latest_releases.outputs.data }}
+        EOF
+        cat <<\EOF > o2_prs.json
+        ${{ steps.get_latest_o2_prs.outputs.data }}
         EOF
         cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
         cat README.md
