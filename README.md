@@ -11,3 +11,4 @@
 - 2020-07-19 pbuehler: TBranches of type l (ULong64_t) have to be read back as long long unsigned
 - 2020-07-19 saganatt: DPL Analysis: Allow for nested filtering and partitioning on filtered
 - 2020-07-20 ktf: DPL: cleanup usage of context.state->streaming
+- 2020-07-21 ktf: DPL: pass --shm-mlock-segment to FairMQ
