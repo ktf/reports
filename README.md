@@ -1,5 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-54d-01: Done on 2020-07-19.
+- v5-09-02h-01: Done on 2020-07-21.
 ## Recent developments in O2 framework
 - 2020-07-14 aalkin: DPL Analysis: permit extending Joined tables
 - 2020-07-14 ktf: DPL: More preparations for multithreading
