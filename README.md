@@ -1,9 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-54d-01: Done on 2020-07-19.
 ## Recent developments in O2 framework
-- 2020-07-13 ktf: DPL: progress towards multithreading support
-- 2020-07-13 ktf: DPL: refactor stats accumulation
-- 2020-07-13 ktf: DPL: remove spurious printouts during topology creation
 - 2020-07-14 aalkin: DPL Analysis: permit extending Joined tables
 - 2020-07-14 ktf: DPL: More preparations for multithreading
 - 2020-07-15 ktf: DPL: use Tracy rather than custom tracing code
