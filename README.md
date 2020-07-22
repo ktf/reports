@@ -11,3 +11,4 @@
 - 2020-07-19 saganatt: DPL Analysis: Allow for nested filtering and partitioning on filtered
 - 2020-07-20 ktf: DPL: cleanup usage of context.state->streaming
 - 2020-07-21 ktf: DPL: pass --shm-mlock-segment to FairMQ
+- 2020-07-22 ktf: DPL: pass environment to children via --environment
