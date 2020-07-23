@@ -2,7 +2,6 @@
 - v5-09-54d-01: Done on 2020-07-19.
 - v5-09-02h-01: Done on 2020-07-21.
 ## Recent developments in O2 framework
-- 2020-07-15 ktf: DPL: use Tracy rather than custom tracing code
 - 2020-07-16 pbuehler: bug fix in AODReaderHelpers.cxx
 - 2020-07-18 pbuehler: Accept missing Data[Input,Output]Director in json file
 - 2020-07-19 ktf: DPL: proxy all parts when sending them to a non DPL device
