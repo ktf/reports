@@ -3,7 +3,6 @@
 - v5-09-02h-01: Done on 2020-07-21.
 - v5-09-54e-01: Done on 2020-07-23.
 ## Recent developments in O2 framework
-- 2020-07-16 pbuehler: bug fix in AODReaderHelpers.cxx
 - 2020-07-18 pbuehler: Accept missing Data[Input,Output]Director in json file
 - 2020-07-19 ktf: DPL: proxy all parts when sending them to a non DPL device
 - 2020-07-19 ktf: DPL: split data receiving and actual processing
