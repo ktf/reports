@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-07T23:28:28Z",
-            "title": "TF counter and runNumber in the DataHeader",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/src/DataHeader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/test/testDataHeader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/include/CTFWorkflow/CTFReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-03T08:17:57Z",
             "title": "revert back from bool columns to make track selection work again",
             "author": {
@@ -3676,6 +3632,25 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_Services.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixed track selection bug",
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/upcAnalysis.cxx"
                   }
                 }
               ]
