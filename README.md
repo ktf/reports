@@ -12,3 +12,4 @@
 - 2020-07-22 ktf: DPL driver: allow {timeslice0} and {timeslice1} in --environment
 - 2020-07-22 ktf: DPL: pass environment to children via --environment
 - 2020-07-23 ktf: DPL: add --post-fork-command (O2-1615)
+- 2020-07-24 ktf: DPL: improve logic for default shm-segment-size
