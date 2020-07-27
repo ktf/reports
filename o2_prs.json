@@ -3892,7 +3892,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-610, EMCAL-659] Output raw stream based on RawFileWriter",
+            "title": "[EMCAL-610, EMCAL-659, EMCAL-661] EMCAL digit to raw converter stand alone application",
             "author": {
               "login": "mfasDa"
             },
@@ -3900,7 +3900,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/RawWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawCreator.cxx"
                   }
                 },
                 {
