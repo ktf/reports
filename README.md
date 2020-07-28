@@ -8,3 +8,4 @@
 - 2020-07-23 ktf: DPL: add --post-fork-command (O2-1615)
 - 2020-07-24 ktf: DPL: improve logic for default shm-segment-size
 - 2020-07-27 ktf: DPL: use different logic to allocate shm-segment-size
+- 2020-07-28 ktf: DPL: open ipc socket in a tmp directory (O2-1512)
