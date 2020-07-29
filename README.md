@@ -9,3 +9,4 @@
 - 2020-07-27 ktf: DPL: use different logic to allocate shm-segment-size
 - 2020-07-28 ktf: DPL: open ipc socket in a tmp directory (O2-1512)
 - 2020-07-28 ktf: DPL: thread safe registry
+- 2020-07-29 aalkin: DPL Analysis: allow grouping on filtered iterator
