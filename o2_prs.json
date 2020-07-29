@@ -4,69 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-08T06:38:26Z",
-            "title": "DPL Analysis: prevent crashes in Filtered with empty tables in grouping",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-08T09:53:20Z",
-            "title": "raw-file-reader will create part per readout super-page in FMQ multiparts",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/include/DetectorsRaw/RawFileReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/rawfile-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Add functions in RawPixelReader.h for ITS QC online data processing",
@@ -3204,8 +3141,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-07-29T12:49:59Z",
             "title": "Add a proto PID response for TPC signals",
             "author": {
               "login": "njacazio"
@@ -3711,6 +3648,11 @@
                 },
                 {
                   "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/SymbolStatistics.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
                   }
                 },
@@ -3727,6 +3669,11 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/run/bin-encode-decode.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/src/SymbolStatistics.cxx"
                   }
                 },
                 {
@@ -3881,6 +3828,44 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/Expressions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EncodedBlocks::getData returns 0 if registry and payload are not set",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix in Generators CMake:",
+            "author": {
+              "login": "ihrivnac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
                   }
                 }
               ]
