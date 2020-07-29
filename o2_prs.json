@@ -5,64 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-07T06:50:03Z",
-            "title": "TRD: Minor fix Detector.cxx",
-            "author": {
-              "login": "jolopezl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-07T13:04:07Z",
-            "title": "DPL: misc fixes related to tracing app",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DriverInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FrameworkGUIDeviceInspector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-08T06:38:26Z",
             "title": "DPL Analysis: prevent crashes in Filtered with empty tables in grouping",
             "author": {
@@ -3870,8 +3812,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-07-29T07:45:03Z",
             "title": "add to RawPixelDecoder a public getter for links, their number",
             "author": {
               "login": "shahor02"
@@ -3881,6 +3823,64 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: allow grouping on filtered iterator",
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/filters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: fix for integer comparison in expressions",
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/filters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Expressions.cxx"
                   }
                 }
               ]
