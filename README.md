@@ -9,5 +9,6 @@
 - 2020-07-29 aalkin: DPL Analysis: allow grouping on filtered iterator
 - 2020-07-29 aalkin: DPL Analysis: fix for integer comparison in expressions
 - 2020-07-29 davidrohr: Add missing includes for Root 6.22
+- 2020-07-30 ktf: DPL: align to 64 bit C-array messages
 - 2020-07-30 ktf: DPL: move Service callback responsibility to ServiceRegistry
 - 2020-07-30 pzhristov: Replace the mother and daughter arrays by separate columns.
