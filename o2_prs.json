@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-15T20:24:42Z",
-            "title": "MFT: application of physics cuts and flags",
-            "author": {
-              "login": "bovulpes"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/MaterialManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/Barrel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/HeatExchanger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/data/simcuts.dat"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/include/MFTSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-10T14:23:42Z",
             "title": "DPL: make service resource monitoring play well with new services",
             "author": {
@@ -3951,6 +3907,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/test/benchmark_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/test/test_HistogramRegistry.cxx"
                   }
                 }
@@ -3981,6 +3942,35 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/taskdzero.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Replace the mother and daughter arrays by separate columns.",
+            "author": {
+              "login": "pzhristov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/MC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/mcHistograms.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
