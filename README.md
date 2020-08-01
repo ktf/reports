@@ -2,6 +2,7 @@
 - v5-09-20m-01: Done on 2020-08-01.
 - v5-09-24f-01: Done on 2020-08-01.
 - v5-09-38g-01: Done on 2020-08-01.
+- v5-09-54f-01: Done on 2020-08-01.
 ## Recent developments in O2 framework
 - 2020-07-27 ktf: DPL: use different logic to allocate shm-segment-size
 - 2020-07-28 ktf: DPL: open ipc socket in a tmp directory (O2-1512)
