@@ -13,4 +13,5 @@
 - 2020-07-30 ktf: DPL: align to 64 bit C-array messages
 - 2020-07-30 ktf: DPL: move Service callback responsibility to ServiceRegistry
 - 2020-07-30 pzhristov: Replace the mother and daughter arrays by separate columns.
+- 2020-08-01 davidrohr: Some improvements needed for good full system test performance
 - 2020-08-01 ktf: DPL: Always use boost::filesystem
