@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-12T20:48:23Z",
-            "title": "GPU: Fix broken optimization (obviosly not always power of 2...)",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-13T08:13:18Z",
             "title": "DPL: refactor stats accumulation",
             "author": {
@@ -4081,6 +4062,25 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/src/SymbolStatistics.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-08-02T07:31:18Z",
+            "title": "GPU: Disable OMP for TPC track output if MC labels are present since …",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
                   }
                 }
               ]
