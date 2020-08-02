@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-13T08:13:18Z",
-            "title": "DPL: refactor stats accumulation",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-15T09:07:29Z",
             "title": "Add FT0 CTF reading and writing",
             "author": {
@@ -3436,11 +3417,6 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/simulation/src/trap2cru.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/TRD/workflow/CMakeLists.txt"
                   }
                 },
@@ -4086,6 +4062,35 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix todo - use zOffset in track model compression",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
                   }
                 }
               ]
