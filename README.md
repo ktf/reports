@@ -15,3 +15,4 @@
 - 2020-07-30 pzhristov: Replace the mother and daughter arrays by separate columns.
 - 2020-08-01 davidrohr: Some improvements needed for good full system test performance
 - 2020-08-01 ktf: DPL: Always use boost::filesystem
+- 2020-08-03 aalkin: DPL Analysis: functions to perform index building
