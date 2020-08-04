@@ -15,3 +15,4 @@
 - 2020-08-01 davidrohr: Some improvements needed for good full system test performance
 - 2020-08-01 ktf: DPL: Always use boost::filesystem
 - 2020-08-03 aalkin: DPL Analysis: functions to perform index building
+- 2020-08-04 knopers8: [QC-378] Data Sampling: Support multiple parts in Dispatcher
