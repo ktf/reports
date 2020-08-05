@@ -4,8 +4,6 @@
 - v5-09-38g-01: Done on 2020-08-01.
 - v5-09-54f-01: Done on 2020-08-01.
 ## Recent developments in O2 framework
-- 2020-07-28 ktf: DPL: open ipc socket in a tmp directory (O2-1512)
-- 2020-07-28 ktf: DPL: thread safe registry
 - 2020-07-29 aalkin: DPL Analysis: allow grouping on filtered iterator
 - 2020-07-29 aalkin: DPL Analysis: fix for integer comparison in expressions
 - 2020-07-29 davidrohr: Add missing includes for Root 6.22
