@@ -5,35 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-19T19:21:01Z",
-            "title": "fix small bugs",
-            "author": {
-              "login": "AllaMaevskaya"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/DigitizationParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Digits2Raw.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-16T08:20:13Z",
             "title": "If requested QED is absent, throw an exception",
             "author": {
@@ -3563,8 +3534,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-05T07:23:48Z",
             "title": "fix write last channel",
             "author": {
               "login": "AllaMaevskaya"
@@ -3637,6 +3608,21 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-calibinfo-reader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Decoder.cxx"
                   }
                 },
                 {
@@ -3941,6 +3927,25 @@
                 {
                   "node": {
                     "path": "run/O2HitMerger.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Don't log to stdout",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
                   }
                 }
               ]
