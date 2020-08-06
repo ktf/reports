@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-16T14:37:40Z",
-            "title": "RawPixelDecoder allows user-defined DataOrigin (for QC)",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-16T12:11:39Z",
             "title": "bug fix in AODReaderHelpers.cxx",
             "author": {
@@ -2319,11 +2295,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/TRD/macros/ConvertRun2ToRun3Digits.C"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/TRD/macros/convertRun2ToRun3Digits.C"
                   }
                 },
@@ -3936,6 +3907,65 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/qa/GPUQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP TRD gen raw data",
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/LinkRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Trap2CRU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/TRDSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/trap2cru.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
                   }
                 }
               ]
