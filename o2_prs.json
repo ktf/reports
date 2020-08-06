@@ -5,88 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-17T19:56:44Z",
-            "title": "[EMCAL-658] Fix calculation of pos. in sm from global pos",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/GeometryBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/test/testGeometryRowColIndexing.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-17T13:26:36Z",
-            "title": "Introduce a Github Action to force cleanup of build status of a PR",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/clean-test.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-18T08:00:30Z",
-            "title": "Accept missing Data[Input,Output]Director in json file",
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataOutputDirector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-06T12:00:03Z",
             "title": "TPC CalDet wrapper",
             "author": {
@@ -3804,8 +3722,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-06T15:38:18Z",
             "title": "Ensure proper cleanup of process attributes",
             "author": {
               "login": "davidrohr"
@@ -3956,6 +3874,93 @@
                 {
                   "node": {
                     "path": "run/O2PrimaryServerDevice.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Forward some more FairMQ SHM command line arguments",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add DigitsWriter to data reader",
+            "author": {
+              "login": "AllaMaevskaya"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/include/FT0Workflow/FT0DigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/include/FT0Workflow/FT0Workflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/FT0DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/FT0Workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/ft0-flp-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ConfParam: Use numeric interpretation for char/unsigned char",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
                   }
                 }
               ]
