@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-16T17:21:26Z",
-            "title": "Simplify reconstruction of decay candidates.",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/trackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hfcandidatecreator2prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hftrackindexskimscreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-19T19:19:50Z",
-            "title": "fix in tof decoding to recover first readout window",
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/CompressedDecodingTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/compareTOFDigits.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-17T19:56:44Z",
             "title": "[EMCAL-658] Fix calculation of pos. in sm from global pos",
             "author": {
@@ -3981,6 +3918,44 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflow/include/TOFWorkflow/CompressedInspectorTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use the random seed from gRandom as default for Pythia8",
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2sim: Better init parameters in event server",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
                   }
                 }
               ]
