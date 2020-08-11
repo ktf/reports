@@ -5,54 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-21T19:34:22Z",
-            "title": "Get particle masses from the PDG database.",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hfcandidatecreator2prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hftrackindexskimscreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "test",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hfcandidatecreator2prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-21T19:59:30Z",
             "title": "Revert \"Add PID in hf vertexing\"",
             "author": {
@@ -4441,6 +4393,79 @@
                 {
                   "node": {
                     "path": "cmake/O2RootMacroExclusionList.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Momentum vector components added to the Muons table in AnalysisDataModel",
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/AnalysisCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/AnalysisCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/invMassAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Protection against out of bound access in CTF dictionaries",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
                   }
                 }
               ]
