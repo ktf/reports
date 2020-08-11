@@ -5,54 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-21T19:59:30Z",
-            "title": "Revert \"Add PID in hf vertexing\"",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hftrackindexskimscreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-22T07:35:23Z",
-            "title": "DPL: pass environment to children via --environment",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceExecution.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-22T14:33:16Z",
             "title": "DPL driver: allow {timeslice0} and {timeslice1} in --environment",
             "author": {
@@ -4457,7 +4409,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] Protection against out of bound access in CTF dictionaries",
+            "title": "Protection against out of bound access in CTF dictionaries",
             "author": {
               "login": "shahor02"
             },
@@ -4466,6 +4418,89 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add class for TRD constants",
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/CalDet.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[rANS] Memory optimized sparse SymbolTable",
+            "author": {
+              "login": "MichaelLettrich"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/Decoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/FrequencyTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/LiteralDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/LiteralEncoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/SymbolStatistics.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/src/SymbolStatistics.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransEncodeDecode.cxx"
                   }
                 }
               ]
