@@ -9,3 +9,5 @@
 - 2020-08-11 ktf: DPL: make RawDeviceService global
 - 2020-08-11 ktf: DPL: misc cleanups
 - 2020-08-11 pbuehler: throw runtime_error when file can not be read or tree does not exist
+- 2020-08-12 ktf: DPL: fix ServiceRegistry::active method when service is just declared (O2-1638)
+- 2020-08-12 ktf: DPL: force ignore SIGWINCH
