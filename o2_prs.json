@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-27T06:37:04Z",
-            "title": "Workarounds for HIP compiler performance issue and HIP runtime high CPU load",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-30T09:16:13Z",
             "title": "Fix ITS3 simulation",
             "author": {
@@ -4751,6 +4727,30 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Forward digits and digit MC labels to tracking in case of tpc-zs-on-the-fly, so we can create cluster MC labels",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
                   }
                 }
               ]
