@@ -11,3 +11,5 @@
 - 2020-08-11 pbuehler: throw runtime_error when file can not be read or tree does not exist
 - 2020-08-12 ktf: DPL: fix ServiceRegistry::active method when service is just declared (O2-1638)
 - 2020-08-12 ktf: DPL: force ignore SIGWINCH
+- 2020-08-12 ktf: DPL: make more services thread safe
+- 2020-08-12 ktf: DPL: preparatory work to run multithreaded
