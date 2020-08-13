@@ -4,174 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-07-28T08:23:13Z",
-            "title": "DPL: open ipc socket in a tmp directory (O2-1512)",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ChannelSpecHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-05T14:35:31Z",
-            "title": "(O2-1203) rANS library - deduplication and incompressible symbols",
-            "author": {
-              "login": "MichaelLettrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/Coder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/Decoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/DedupDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/DedupEncoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/Encoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/FrequencyTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/LiteralDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/LiteralEncoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/SymbolStatistics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/SymbolTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/Decoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/DecoderSymbol.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/Encoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/EncoderSymbol.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/ReverseSymbolLookupTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/SymbolStatistics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/helper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/rans.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/run/bin-encode-decode.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/src/FrequencyTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/src/SymbolStatistics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransEncodeDecode.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransFrequencyTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[EMCAL-610, EMCAL-659, EMCAL-661] EMCAL digit to raw converter stand alone application",
@@ -2653,8 +2485,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-13T07:20:31Z",
             "title": "TRD gen raw data",
             "author": {
               "login": "bazinski"
@@ -4891,6 +4723,54 @@
                 {
                   "node": {
                     "path": "macro/analyzeDigitLabels.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS: Respect debug level for logging",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Vertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Logger: Remove obsolete workarounds",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Logger/include/Framework/Logger.h"
                   }
                 }
               ]
