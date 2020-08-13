@@ -13,3 +13,4 @@
 - 2020-08-12 ktf: DPL: force ignore SIGWINCH
 - 2020-08-12 ktf: DPL: make more services thread safe
 - 2020-08-12 ktf: DPL: preparatory work to run multithreaded
+- 2020-08-13 davidrohr: Logger: Remove obsolete workarounds
