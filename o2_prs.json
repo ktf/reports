@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-07-30T05:45:20Z",
-            "title": "GPU: Fix incorrect number of blocks for TPC track merging on CPU with OMP without ompKernels",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-07-30T05:47:36Z",
             "title": "Fix defaults in TPC workflow and add some more options",
             "author": {
@@ -4816,8 +4797,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-14T16:08:47Z",
             "title": "[EMCAL-646] Fix encoding of the RCU trailer",
             "author": {
               "login": "mfasDa"
@@ -4929,8 +4910,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-14T16:15:36Z",
             "title": "Avoid non-const reference to bitfield",
             "author": {
               "login": "ktf"
@@ -4948,8 +4929,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-14T16:16:22Z",
             "title": "DPL: mark ConfigurationInterface and InfoLoggerContext as thread safe",
             "author": {
               "login": "ktf"
@@ -5146,6 +5127,45 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_Kernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-630] Adapt raw fitter spec to changes in raw decoding",
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterGamma2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterStandard.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
