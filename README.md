@@ -15,3 +15,4 @@
 - 2020-08-12 ktf: DPL: preparatory work to run multithreaded
 - 2020-08-13 davidrohr: Logger: Remove obsolete workarounds
 - 2020-08-13 saganatt: Added helper functions for most common combinations cases
+- 2020-08-14 ktf: Misc fixes towards MT.
