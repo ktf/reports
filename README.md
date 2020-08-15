@@ -17,4 +17,3 @@
 - 2020-08-14 ktf: Misc fixes towards MT.
 - 2020-08-14 njacazio: Fix momentum column in analysis data model
 - 2020-08-15 ktf: DPL: misc fixes
-- 2020-08-15 saganatt: DPL Analysis: Extended histogram registry to use TH2 and TH3
