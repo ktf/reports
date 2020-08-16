@@ -17,3 +17,5 @@
 - 2020-08-14 ktf: Misc fixes towards MT.
 - 2020-08-14 njacazio: Fix momentum column in analysis data model
 - 2020-08-15 ktf: DPL: misc fixes
+- 2020-08-16 aalkin: Migrate O2 to arrow 1.0
+- 2020-08-16 shahor02: Set boost parsing style explictily to exclude allow_guessing
