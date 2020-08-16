@@ -18,4 +18,5 @@
 - 2020-08-14 njacazio: Fix momentum column in analysis data model
 - 2020-08-15 ktf: DPL: misc fixes
 - 2020-08-16 aalkin: Migrate O2 to arrow 1.0
+- 2020-08-16 ktf: DPL GUI: display services information in Device Inspector
 - 2020-08-16 shahor02: Set boost parsing style explictily to exclude allow_guessing
