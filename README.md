@@ -1,7 +1,6 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
 - 2020-08-10 aalkin: DPL Analysis: templates to build and propagate custom index
-- 2020-08-10 ktf:  DPL: mark a few services as thread safe 
 - 2020-08-10 ktf: DPL Output Proxy: use the correct header / payload size
 - 2020-08-11 ktf: DPL: make DataProcessingStats threadsafe
 - 2020-08-11 ktf: DPL: make RawDeviceService global
