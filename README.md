@@ -18,3 +18,4 @@
 - 2020-08-16 ktf: DPL GUI: display services information in Device Inspector
 - 2020-08-16 shahor02: Set boost parsing style explictily to exclude allow_guessing
 - 2020-08-17 iarsene: Momentum vector components added to the Muons table in AnalysisDataModel
+- 2020-08-18 jgrosseo: adding transient collision id table for v0 and cascades
