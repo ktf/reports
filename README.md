@@ -19,3 +19,4 @@
 - 2020-08-16 shahor02: Set boost parsing style explictily to exclude allow_guessing
 - 2020-08-17 iarsene: Momentum vector components added to the Muons table in AnalysisDataModel
 - 2020-08-18 jgrosseo: adding transient collision id table for v0 and cascades
+- 2020-08-18 ktf: Revert "DPL Analysis: Extended histogram registry to use TH2 and TH3"
