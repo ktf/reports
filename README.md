@@ -1,9 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-08-11 ktf: DPL: make DataProcessingStats threadsafe
-- 2020-08-11 ktf: DPL: make RawDeviceService global
-- 2020-08-11 ktf: DPL: misc cleanups
-- 2020-08-11 pbuehler: throw runtime_error when file can not be read or tree does not exist
 - 2020-08-12 ktf: DPL: fix ServiceRegistry::active method when service is just declared (O2-1638)
 - 2020-08-12 ktf: DPL: force ignore SIGWINCH
 - 2020-08-12 ktf: DPL: make more services thread safe
