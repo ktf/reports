@@ -1,9 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-08-12 ktf: DPL: fix ServiceRegistry::active method when service is just declared (O2-1638)
-- 2020-08-12 ktf: DPL: force ignore SIGWINCH
-- 2020-08-12 ktf: DPL: make more services thread safe
-- 2020-08-12 ktf: DPL: preparatory work to run multithreaded
 - 2020-08-13 davidrohr: Logger: Remove obsolete workarounds
 - 2020-08-13 saganatt: Added helper functions for most common combinations cases
 - 2020-08-14 ktf: DPL: mark ConfigurationInterface and InfoLoggerContext as thread safe
