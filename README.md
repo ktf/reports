@@ -17,3 +17,4 @@
 - 2020-08-18 ktf: Revert "DPL Analysis: Extended histogram registry to use TH2 and TH3"
 - 2020-08-19 ktf: DPL: misc fixes
 - 2020-08-19 ktf: DPL: {cpu} expands to always the same CPU
+- 2020-08-20 saganatt: DPL Analysis: Extending Histogram Registry support to TH2, TH3 - corrected
