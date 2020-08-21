@@ -1,7 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-08-13 davidrohr: Logger: Remove obsolete workarounds
-- 2020-08-13 saganatt: Added helper functions for most common combinations cases
 - 2020-08-14 ktf: DPL: mark ConfigurationInterface and InfoLoggerContext as thread safe
 - 2020-08-14 ktf: Misc fixes towards MT.
 - 2020-08-14 njacazio: Fix momentum column in analysis data model
