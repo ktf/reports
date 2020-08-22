@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-11T23:46:45Z",
-            "title": "throw runtime_error when file can not be read or tree does not exist",
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataInputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataOutputDirector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-04T16:45:25Z",
             "title": "DPL Analysis: working fix for TrackType filter",
             "author": {
@@ -4537,6 +4503,16 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CATrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/ASoA.h"
                   }
                 },
@@ -4697,6 +4673,21 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/test/test_Services.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TMessageSerializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Variants.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Foundation/CMakeLists.txt"
                   }
                 },
@@ -4786,6 +4777,150 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Primary vertex finder",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Vertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/ReconstructionDataFormatsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/Vertex.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/test/testVertex.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/src/CommonDataFormatLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCEventLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/MCEventLabel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/SimulationDataLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testMCEventLabel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertex-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/DetectorsVertexingLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexerHelpers.cxx"
                   }
                 }
               ]
