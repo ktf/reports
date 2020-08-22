@@ -1,8 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-08-14 ktf: DPL: mark ConfigurationInterface and InfoLoggerContext as thread safe
-- 2020-08-14 ktf: Misc fixes towards MT.
-- 2020-08-14 njacazio: Fix momentum column in analysis data model
 - 2020-08-15 ktf: DPL: misc fixes
 - 2020-08-16 aalkin: Migrate O2 to arrow 1.0
 - 2020-08-16 ktf: DPL GUI: display services information in Device Inspector
