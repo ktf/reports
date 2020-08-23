@@ -1,4 +1,5 @@
 ## Recent releases to AliPhysics
+- v5-09-55-01: Done on 2020-08-23.
 ## Recent developments in O2 framework
 - 2020-08-16 aalkin: Migrate O2 to arrow 1.0
 - 2020-08-16 ktf: DPL GUI: display services information in Device Inspector
