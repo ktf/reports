@@ -5,35 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-04T16:45:25Z",
-            "title": "DPL Analysis: working fix for TrackType filter",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/filters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Expressions.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-04T16:45:47Z",
             "title": "ConfigurableParam: fix bug when using arrays of strings",
             "author": {
@@ -4926,6 +4897,40 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexerHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Don't obtain timer objects when they are not required",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl-common/GPUReconstructionOCL.cxx"
                   }
                 }
               ]
