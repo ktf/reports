@@ -11,3 +11,4 @@
 - 2020-08-19 ktf: DPL: {cpu} expands to always the same CPU
 - 2020-08-20 aalkin: DPL Analysis: function to get size of the original table from iterator
 - 2020-08-20 saganatt: DPL Analysis: Extending Histogram Registry support to TH2, TH3 - corrected
+- 2020-08-24 jgrosseo: using full tracks for V0 and cascades
