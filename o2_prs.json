@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-10T10:19:29Z",
-            "title": "Add RecoDecay class.",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/SecondaryVertexHF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/decayUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hfcandidatecreator2prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/hftrackindexskimscreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/vertexerhf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-10T08:53:05Z",
             "title": "Add dummy PATTERNS output to TOF decoder",
             "author": {
@@ -4854,6 +4810,11 @@
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
                 }
               ]
             }
@@ -5071,6 +5032,25 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use FAIR_MIN_SEVERITY=info for non-debug builts (changed to opt-in)",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2CompileFlags.cmake"
                   }
                 }
               ]
