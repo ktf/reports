@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-06T19:37:27Z",
-            "title": "o2sim: Better init parameters in event server",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-07T10:54:30Z",
             "title": "DPL: Forward some more FairMQ SHM command line arguments",
             "author": {
@@ -4728,8 +4709,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-25T06:39:21Z",
             "title": "Moved the DQ analysis tasks in dedicated PWGDQ directory",
             "author": {
               "login": "iarsene"
@@ -4800,8 +4781,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-25T06:43:13Z",
             "title": "Extend RecoDecay, candidate tables and tasks.",
             "author": {
               "login": "vkucera"
@@ -4836,6 +4817,35 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/taskdzero.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "splitting into weak decay index builder and tutorial task",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/weakDecayIndices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/weakDecayIteration.cxx"
                   }
                 }
               ]
