@@ -5,44 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-07T17:09:18Z",
-            "title": "Add a reset interval option for the TPC track interpolation workflow",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-10T07:48:51Z",
-            "title": "Add explicit template instantiation",
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/Painter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-10T10:19:29Z",
             "title": "Add RecoDecay class.",
             "author": {
@@ -4891,6 +4853,204 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix new codechecker errors from clang10",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/AnalysisCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/include/CPVSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/ClusterFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/GeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/CalibDB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterGamma2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterStandard.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterFinderOriginal.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalib/CalibDB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/GeometryParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/LHCClockCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFChannelCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/IT3/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/PostLS4/IT4/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterVSD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/CPVDigitizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/EMCALDigitizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/PHOSDigitizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/include/DataFlow/EPNReceiverDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/include/DataFlow/FLPSenderDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/include/DataFlow/HeartbeatSampler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/include/DataFlow/SubframeBuilderDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Publishers/include/Publishers/DataPublisherDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDevice.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: keep new code checker happy",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
                   }
                 }
               ]
