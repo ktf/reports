@@ -1,7 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-55-01: Done on 2020-08-23.
 ## Recent developments in O2 framework
-- 2020-08-17 iarsene: Momentum vector components added to the Muons table in AnalysisDataModel
 - 2020-08-18 aalkin: DPL Analysis: grouping with index tables
 - 2020-08-18 aalkin: DPL: add missing include arrow/config.h
 - 2020-08-18 jgrosseo: adding transient collision id table for v0 and cascades

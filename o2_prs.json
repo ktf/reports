@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-06T19:37:04Z",
-            "title": "Use the random seed from gRandom as default for Pythia8",
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-06T19:37:27Z",
             "title": "o2sim: Better init parameters in event server",
             "author": {
@@ -4800,8 +4781,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-24T23:34:27Z",
             "title": "Analysis: add a few more tables to the data model diagram",
             "author": {
               "login": "ktf"
@@ -4811,6 +4792,50 @@
                 {
                   "node": {
                     "path": "Analysis/DataModel/src/dumpDataModel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Extend RecoDecay, candidate tables and tasks.",
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/SecondaryVertexHF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/trackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/hfcandidatecreator2prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/hftrackindexskimscreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/taskdzero.cxx"
                   }
                 }
               ]
