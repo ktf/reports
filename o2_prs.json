@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-10T08:53:05Z",
-            "title": "Add dummy PATTERNS output to TOF decoder",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/CompressedDecodingTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-10T22:56:56Z",
             "title": "Support for external dictionaries in CTF encoding/decoding",
             "author": {
@@ -3309,6 +3290,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/CMakeLists.txt"
                   }
                 },
@@ -3335,6 +3321,11 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/raw/src/Cru2TrackletTranslator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
                   }
                 },
                 {
@@ -5061,6 +5052,120 @@
                 {
                   "node": {
                     "path": "dependencies/O2CompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Workflow for TOFcalibCollector",
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibInfoTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibInfoTOFshort.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/include/TOFWorkflow/CalibInfoReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/CalibInfoReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/RecoWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/TOFCalibWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/CalibTOFapi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFCalibCollector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFCalibCollector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFChannelCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/DataGeneratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/LHCClockCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFCalibCollectorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFCalibCollectorWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFChannelCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/tof-collect-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/tof-dummy-ccdb-for-calib.cxx"
                   }
                 }
               ]
