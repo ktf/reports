@@ -5,44 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-07T10:54:08Z",
-            "title": "DPL: Make sure forceful exit message is printed only once",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-07T10:53:55Z",
-            "title": "Fix logging to stdout",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-07T17:09:18Z",
             "title": "Add a reset interval option for the TPC track interpolation workflow",
             "author": {
@@ -4084,8 +4046,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-25T15:00:31Z",
             "title": "TPCClusterFinder: Fix mc propagation with ZS enabled.",
             "author": {
               "login": "fweig"
@@ -4840,8 +4802,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-25T15:01:27Z",
             "title": "Fix codechecker + gpu improvement",
             "author": {
               "login": "davidrohr"
@@ -4866,6 +4828,69 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes in doxygen:",
+            "author": {
+              "login": "ihrivnac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/Upgrades.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Use TPC ca-clusterer and on-the-fly zero-suppression as default",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
                   }
                 }
               ]
