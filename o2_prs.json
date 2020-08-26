@@ -5,168 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-12T09:12:14Z",
-            "title": "Extend O2 PID Parametrization",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/BetheBloch.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/PIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/PIDTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/ParamBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/TOFReso.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/TPCReso.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PIDBase/DetectorResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PIDBase/ParamBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/AnalysisDataModelLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/DetectorResponse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/PIDTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/PIDTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/ParamBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/handleParamTOFReso.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/handleParamTPCBetheBloch.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/spectraTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-10T21:05:23Z",
-            "title": "Fix the #define guard.",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/RecoDecay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-11T21:19:08Z",
-            "title": "Temp.fix for TOF raw->digit orbit reset to 0 (O2-1633)",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/CompressedDecodingTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-11T06:50:58Z",
             "title": "Fix memory corruption in debug code + unrelated stuff",
             "author": {
@@ -4410,8 +4248,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-26T08:08:29Z",
             "title": "DPL: used fixed notation for resource monitoring",
             "author": {
               "login": "ktf"
@@ -4555,8 +4393,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-26T07:34:36Z",
             "title": "GPU: Use TPC ca-clusterer and on-the-fly zero-suppression as default",
             "author": {
               "login": "davidrohr"
@@ -4805,6 +4643,11 @@
                   "node": {
                     "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataDescriptorMatcher.cxx"
+                  }
                 }
               ]
             }
@@ -5041,6 +4884,98 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexerHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix data race in ServiceRegistry::bindService",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ServiceRegistry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: function to attach dynamic columns to a table on the fly",
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/dynamicColumns.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Streamlining run2 and run3 collision - table matching",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/run2Matcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/run3Matcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/ZDCVZeroIteration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/custom_index.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
