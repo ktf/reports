@@ -9,4 +9,5 @@
 - 2020-08-24 jgrosseo: using full tracks for V0 and cascades
 - 2020-08-26 aalkin: DPL Analysis: fix a corner case in slicing/grouping
 - 2020-08-26 ktf: DPL: fix data race in ServiceRegistry::bindService
+- 2020-08-26 ktf: DPL: keep new code checker happy
 - 2020-08-26 ktf: DPL: used fixed notation for resource monitoring
