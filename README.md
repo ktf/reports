@@ -7,3 +7,4 @@
 - 2020-08-20 saganatt: DPL Analysis: Extending Histogram Registry support to TH2, TH3 - corrected
 - 2020-08-24 aalkin: DPL Analysis: introduce policies for index building
 - 2020-08-24 jgrosseo: using full tracks for V0 and cascades
+- 2020-08-26 aalkin: DPL Analysis: fix a corner case in slicing/grouping
