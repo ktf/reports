@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-11T23:31:47Z",
-            "title": "DPL: make DataProcessingStats threadsafe",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingStats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-12T11:08:30Z",
             "title": "DPL: preparatory work to run multithreaded",
             "author": {
@@ -4640,8 +4616,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-27T10:40:27Z",
             "title": "Fix wrong assert",
             "author": {
               "login": "shahor02"
@@ -4651,6 +4627,230 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Some preparation work to support GPU run-time-compilation in the future",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/RAWDataHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/RDHAny.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cell.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Definitions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/IndexTableUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/MathUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Road.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/include/DetectorsRaw/RDHUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TRDGeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TRDGeometryFlat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonAlgorithm.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonAlgorithmThrust.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonLogger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUDataTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUSettings.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtcPre.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMSliceTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/tools/rtc/rtcsource.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/tools/rtc/test.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/utils/bitfield.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/dEdx/GPUdEdx.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/FlatObject.h"
                   }
                 }
               ]
