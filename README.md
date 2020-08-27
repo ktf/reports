@@ -10,4 +10,5 @@
 - 2020-08-26 ktf: DPL: fix data race in ServiceRegistry::bindService
 - 2020-08-26 ktf: DPL: keep new code checker happy
 - 2020-08-26 ktf: DPL: used fixed notation for resource monitoring
+- 2020-08-27 aalkin: DPL Analysis: functions to attach dynamic or extended columns to a table on the fly
 - 2020-08-27 jgrosseo: Streamlining run2 and run3 collision - table matching
