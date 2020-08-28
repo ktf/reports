@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-13T06:26:02Z",
-            "title": "TPC: Forward digits and digit MC labels to tracking in case of tpc-zs-on-the-fly, so we can create cluster MC labels",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-13T10:24:17Z",
             "title": "CTF support for FV0 + related changes",
             "author": {
@@ -4806,6 +4782,30 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/include/rANS/internal/SymbolStatistics.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add tof ctf unit test",
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/test/test_ctf_io_tof.cxx"
                   }
                 }
               ]
