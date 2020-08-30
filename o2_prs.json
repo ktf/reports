@@ -5,45 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-21T11:27:18Z",
-            "title": "[EMCAL-630] Adapt raw fitter spec to changes in raw decoding",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterGamma2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterStandard.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-20T09:21:52Z",
             "title": "[MFT] Kalman update step moved to TrackParCovFwd",
             "author": {
@@ -3802,8 +3763,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-30T10:39:23Z",
             "title": "[ITSCA] Level 1 marks the end of the road",
             "author": {
               "login": "mpuccio"
@@ -4129,8 +4090,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-08-30T10:38:49Z",
             "title": "Optional use of FT0 time for ITS/TPC match selection or validation ",
             "author": {
               "login": "shahor02"
@@ -4220,6 +4181,90 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Complete RecoDecay. Update related tables and tasks.",
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/SecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/SecondaryVertexHF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/decayUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/trackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/dummy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/dumpDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/vertexerhf.cxx"
                   }
                 }
               ]
