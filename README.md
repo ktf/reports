@@ -12,3 +12,4 @@
 - 2020-08-27 jgrosseo: Streamlining run2 and run3 collision - table matching
 - 2020-08-28 aalkin: DPL Analysis: fix for index hierarchy not being bound
 - 2020-08-29 ktf: DPL: expose TimesliceIndex only through DataRelayer
+- 2020-08-31 ktf: Thread sanitizer fixes
