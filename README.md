@@ -1,6 +1,8 @@
 ## Recent releases to AliPhysics
 - v5-09-02i-01: Done on 2020-08-31.
 - v5-09-20n-01: Done on 2020-08-31.
+- v5-09-24g-01: Done on 2020-09-01.
+- v5-09-38h-01: Done on 2020-09-01.
 ## Recent developments in O2 framework
 - 2020-08-26 aalkin: DPL Analysis: fix a corner case in slicing/grouping
 - 2020-08-26 ktf: DPL: fix compilation in case DebugGUI is not there
