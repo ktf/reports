@@ -1,10 +1,7 @@
 ## Recent releases to AliPhysics
-- v5-09-55-01: Done on 2020-08-23.
 - v5-09-02i-01: Done on 2020-08-31.
 - v5-09-20n-01: Done on 2020-08-31.
 ## Recent developments in O2 framework
-- 2020-08-24 aalkin: DPL Analysis: introduce policies for index building
-- 2020-08-24 jgrosseo: using full tracks for V0 and cascades
 - 2020-08-26 aalkin: DPL Analysis: fix a corner case in slicing/grouping
 - 2020-08-26 ktf: DPL: fix compilation in case DebugGUI is not there
 - 2020-08-26 ktf: DPL: fix data race in ServiceRegistry::bindService
