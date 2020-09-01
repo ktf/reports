@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-17T14:52:33Z",
-            "title": "[EMCAL-646] Reject STU DDLs for FEE raw parsing",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/macros/RawFitterTESTs.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/run/rawReaderFile.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-18T21:10:09Z",
             "title": "DPL: improve error message when matching resources",
             "author": {
@@ -4372,8 +4348,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-01T09:14:57Z",
             "title": "change TOF digit structure: longBC to InteractionRecord",
             "author": {
               "login": "noferini"
@@ -4500,6 +4476,40 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/include/DetectorsVertexing/DCAFitterN.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Keep InvalidPatternID for pieces of huge clusters",
+            "author": {
+              "login": "iouribelikov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/reconstruction/src/CookedTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
                   }
                 }
               ]
