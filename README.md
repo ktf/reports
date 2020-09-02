@@ -15,3 +15,4 @@
 - 2020-08-29 ktf: DPL: expose TimesliceIndex only through DataRelayer
 - 2020-08-31 ktf: Thread sanitizer fixes
 - 2020-09-01 aalkin: DPL Analysis: fix for filtered grouping
+- 2020-09-02 aalkin: DPL Analysis: add test for filtered grouping

@@ -5,35 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-20T12:27:18Z",
-            "title": "DPL Analysis: Extending Histogram Registry support to TH2, TH3 - corrected",
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_HistogramRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-24T06:38:08Z",
             "title": "using full tracks for V0 and cascades",
             "author": {
@@ -4331,8 +4302,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-02T06:59:04Z",
             "title": "DPL Analysis: add test for filtered grouping",
             "author": {
               "login": "aalkin"
@@ -4405,6 +4376,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/test/test_Expressions.cxx"
                   }
                 }
@@ -4450,6 +4426,40 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add dilepton ee task",
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
                   }
                 }
               ]
