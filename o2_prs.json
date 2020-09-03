@@ -5,79 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-20T13:46:19Z",
-            "title": "DPL Analysis: function to get size of the original table from iterator",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-24T06:40:27Z",
-            "title": "Update in PID tasks and handlers of PID param",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/BetheBloch.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/TOFReso.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/TPCReso.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PIDBase/ParamBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/handleParamTPCBetheBloch.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/spectraTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/spectraTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-24T15:19:50Z",
             "title": "GPU: Query device timers only when debug mode enabled",
             "author": {
@@ -4410,6 +4337,204 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/correlationsCollection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Rdev evgen config",
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TriggerExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/hijing.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/pythia6.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_mpi.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_multiplicity.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TriggerExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/produce_QEDhits.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/adaptive_pythia8.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/aliroot_ampt.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/aliroot_hijing.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/signal_impactb.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/run.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPCClusterFinder: Fix memory issue introduced in #4238.",
+            "author": {
+              "login": "fweig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
                   }
                 }
               ]
