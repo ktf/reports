@@ -4,75 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "WIP TRD cru output to tracklets.",
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/Cru2TrackletTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/Cru2TrackletTranslator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/Cru2Tracklet.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/Cru2TrackletTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/Cru2TrackletTranslator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-08-20T15:45:44Z",
             "title": "Opt. to call carry-over method for last chunk to fix the trailer",
@@ -4455,6 +4386,35 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/src/RawFileWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-610] Fix segfault in Raw creator",
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/RCUTrailer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/Mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
                   }
                 }
               ]
