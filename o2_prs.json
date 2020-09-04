@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-25T06:24:27Z",
-            "title": "GPU: Don't obtain timer objects when they are not required",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl-common/GPUReconstructionOCL.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-26T09:27:18Z",
             "title": "Two-particle transverse momentum correlations task first commit",
             "author": {
@@ -4160,6 +4126,60 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/src/RawFileReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Interface and params for AEGIS Cosmics generator",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GenCosmicsParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmics.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmicsLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GenCosmicsParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2RootMacroExclusionList.cmake"
                   }
                 }
               ]
