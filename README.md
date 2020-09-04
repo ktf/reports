@@ -11,3 +11,4 @@
 - 2020-09-01 aalkin: DPL Analysis: fix for filtered grouping
 - 2020-09-02 aalkin: DPL Analysis: add test for filtered grouping
 - 2020-09-02 raymondEhlers: [EMCAL-668] Fix calo trigger AOD metadata
+- 2020-09-04 aalkin: DPL Analysis: ability to use some Configurables in filters
