@@ -5,7 +5,6 @@
 - v5-09-38h-01: Done on 2020-09-01.
 - v5-09-54g-01: Done on 2020-09-03.
 ## Recent developments in O2 framework
-- 2020-08-29 ktf: DPL: expose TimesliceIndex only through DataRelayer
 - 2020-08-31 ktf: Thread sanitizer fixes
 - 2020-09-01 aalkin: DPL Analysis: fix for filtered grouping
 - 2020-09-02 aalkin: DPL Analysis: add test for filtered grouping
