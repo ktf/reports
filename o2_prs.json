@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-27T10:30:36Z",
-            "title": "Fix in MC2ROFRecord::getNROFs getter",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/ROFRecord.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-25T06:39:21Z",
             "title": "Moved the DQ analysis tasks in dedicated PWGDQ directory",
             "author": {
@@ -2076,8 +2057,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-07T14:05:54Z",
             "title": "v1 of run2 tracklets multiplicity task",
             "author": {
               "login": "valzacc"
@@ -3369,11 +3350,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Analysis/Core/include/Analysis/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Analysis/DataModel/include/Analysis/ReducedInfoTables.h"
                   }
                 },
@@ -4475,6 +4451,45 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_RegionInfoCallbackService.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD tracker can handle time frames instead of single collisions only",
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerDebug.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/macros/run_trd_tracker.C"
                   }
                 }
               ]
