@@ -11,3 +11,4 @@
 - 2020-09-02 raymondEhlers: [EMCAL-668] Fix calo trigger AOD metadata
 - 2020-09-04 aalkin: DPL Analysis: ability to use some Configurables in filters
 - 2020-09-05 davidrohr: Fix missing includes
+- 2020-09-07 aalkin: DPL Analysis: redefine extended tables as Join
