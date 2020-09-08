@@ -5,70 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-25T13:37:07Z",
-            "title": "Changes needed for new GPU CI container",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/cuda/src/VertexerTraitsGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAInternals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/Findcub.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-26T08:08:29Z",
             "title": "DPL: used fixed notation for resource monitoring",
             "author": {
@@ -4495,6 +4431,55 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/include/DetectorsVertexing/DCAFitterN.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add RawDeviceService::waitFor method",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/RawDeviceService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/SimpleRawDeviceService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SimpleRawDeviceService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_SimpleDataProcessingDevice01.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_StaggeringWorkflow.cxx"
                   }
                 }
               ]
