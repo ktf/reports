@@ -5,54 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-26T08:08:29Z",
-            "title": "DPL: used fixed notation for resource monitoring",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ResourcesMonitoringHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-08-26T06:36:02Z",
-            "title": "DPL Analysis: fix a corner case in slicing/grouping",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Kernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Kernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-26T13:58:28Z",
             "title": "Add skeleton QA task",
             "author": {
@@ -2796,8 +2748,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-08T08:42:07Z",
             "title": "[ITSCA] Tracker performance tuning",
             "author": {
               "login": "mpuccio"
@@ -4386,8 +4338,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-08T09:21:08Z",
             "title": "Add task for nuclei",
             "author": {
               "login": "lbariogl"
@@ -4415,8 +4367,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-08T09:19:32Z",
             "title": "Fast DCAFitterN method to get track params at PCA w/o full propagation",
             "author": {
               "login": "shahor02"
@@ -4464,6 +4416,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/src/SimpleRawDeviceService.cxx"
                   }
                 },
@@ -4480,6 +4437,94 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_StaggeringWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: drop arrow v0.17 compatibility",
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Kernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use CCDB headers to get SOR timestamp for run",
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/RunToTimestamp.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/AnalysisCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/InsertNewRunToTimestamp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/RunToTimestamp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Scripts/insert_Run2_run_to_timestamps.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Scripts/inspect_Run2_run_to_timestamps.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/timestamp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/ccdbaccess.cxx"
                   }
                 }
               ]
