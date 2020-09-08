@@ -14,3 +14,4 @@
 - 2020-09-07 ktf: DPL: do proper endOfStream for test_RegionInfoCallbackService
 - 2020-09-08 aalkin: DPL Analysis: drop arrow v0.17 compatibility
 - 2020-09-08 aalkin: DPL Analysis: reintroduce TableTransform base class
+- 2020-09-08 ktf: DPL: add RawDeviceService::waitFor method
