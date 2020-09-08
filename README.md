@@ -12,3 +12,4 @@
 - 2020-09-05 davidrohr: Fix missing includes
 - 2020-09-07 aalkin: DPL Analysis: redefine extended tables as Join
 - 2020-09-07 ktf: DPL: do proper endOfStream for test_RegionInfoCallbackService
+- 2020-09-08 aalkin: DPL Analysis: reintroduce TableTransform base class
