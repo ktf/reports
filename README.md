@@ -14,4 +14,5 @@
 - 2020-09-08 ktf: DPL Foundation: use intrinsict for pack element, when available
 - 2020-09-08 ktf: DPL: add RawDeviceService::waitFor method
 - 2020-09-09 aalkin: DPL Analysis: adapt Attach/Extend to new Join
+- 2020-09-09 ktf: DPL Analysis: move ROOT helpers in a separate file
 - 2020-09-09 lbariogl: Add filters to nuclei task
