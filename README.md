@@ -12,3 +12,4 @@
 - 2020-09-09 aalkin: DPL Analysis: adapt Attach/Extend to new Join
 - 2020-09-09 ktf: DPL Analysis: move ROOT helpers in a separate file
 - 2020-09-09 lbariogl: Add filters to nuclei task
+- 2020-09-10 ktf: DPL Foundation: speedup has_type_at
