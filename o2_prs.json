@@ -5,35 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-26T14:15:41Z",
-            "title": "Reduce Host memory consumption for tpc tracking and fix a memory corruption error",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-31T11:58:38Z",
             "title": "Thread sanitizer fixes",
             "author": {
@@ -4180,6 +4151,35 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/clusterFinderDefs.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix trapsimulator defaults",
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/TrapConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/TrapConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
                   }
                 }
               ]
