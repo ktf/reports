@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-27T07:07:28Z",
-            "title": "More host memory optimizations for TPC workflow",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-28T11:11:37Z",
             "title": "Fix grouping of rare topologies",
             "author": {
@@ -4296,6 +4262,45 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "some refactoring in correlation container",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/CorrelationContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/CorrelationContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/correlations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/correlationsMixed.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/ZDCVZeroIteration.cxx"
                   }
                 }
               ]
