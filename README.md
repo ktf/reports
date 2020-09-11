@@ -14,3 +14,4 @@
 - 2020-09-09 lbariogl: Add filters to nuclei task
 - 2020-09-10 ktf: DPL Foundation: speedup has_type_at
 - 2020-09-10 ktf: DPL: hide a few more headers
+- 2020-09-11 aalkin: DPL Analysis: first draft for more generic index binding
