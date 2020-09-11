@@ -1,5 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-54g-01: Done on 2020-09-03.
+- v5-09-02j-01: Done on 2020-09-11.
 ## Recent developments in O2 framework
 - 2020-09-04 aalkin: DPL Analysis: ability to use some Configurables in filters
 - 2020-09-05 davidrohr: Fix missing includes
