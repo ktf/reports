@@ -16,3 +16,4 @@
 - 2020-09-10 ktf: DPL Foundation: speedup has_type_at
 - 2020-09-10 ktf: DPL: hide a few more headers
 - 2020-09-11 aalkin: DPL Analysis: first draft for more generic index binding
+- 2020-09-14 mfasDa: [EMCAL-668] Add track position on EMCAL surface to TRACKEXTRA table
