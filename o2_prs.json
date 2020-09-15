@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-07T08:35:17Z",
-            "title": "Add more decay configurations in share",
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/force_hadronic_D.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/force_hadronic_D_forceLcChannel1.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/force_hadronic_D_forceLcChannel2.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/force_hadronic_D_use4bodies.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/force_hadronic_D_useDtoV0.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/pythia8/decays/hypertriton.cfg"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-01T20:18:26Z",
             "title": "[MFT] Macro to generate MFT Cluster dictionary",
             "author": {
@@ -4182,8 +4138,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-15T13:52:08Z",
             "title": "DPL Analysis: First version of histogram registry writing",
             "author": {
               "login": "saganatt"
@@ -4266,6 +4222,30 @@
                 {
                   "node": {
                     "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fixing dynamic calculation of number of clusters",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/TrackSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
