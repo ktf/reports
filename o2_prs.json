@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-29T21:41:15Z",
-            "title": "Updated mat.budget LUT builder segmentation",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/test/buildMatBudLUT.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-30T01:45:05Z",
             "title": "Create output dir. if needed, use default digits name",
             "author": {
@@ -3809,8 +3785,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-15T18:01:39Z",
             "title": "TRD digitization: Application of new labels container structure",
             "author": {
               "login": "sawenzel"
@@ -3931,8 +3907,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-15T18:01:14Z",
             "title": "Fix clang-format in MID Encoder",
             "author": {
               "login": "dstocco"
@@ -4231,6 +4207,35 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix small logic bug in track selection",
+            "author": {
+              "login": "mkruegerGitHub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/TrackSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/trackselection.cxx"
                   }
                 }
               ]
