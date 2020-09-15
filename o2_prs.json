@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-29T22:19:48Z",
-            "title": "[EMCAL-610] Use mapping handler to access channel address mapping",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/RawWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-08-31T08:39:57Z",
             "title": "Add pt and eta resolution",
             "author": {
@@ -4062,7 +4038,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Ktf patch 24",
             "author": {
@@ -4236,6 +4212,120 @@
                 {
                   "node": {
                     "path": "Algorithm/include/Algorithm/BitstreamReader.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Classes to read DCS Data Points ",
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/CMakeLists.txt.mine"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/Clock.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointIdentifier.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointValue.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DeliveryType.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/GenericFunctions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/StringUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/Clock.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointCompositeObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointIdentifier.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointValue.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DeliveryType.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DetectorsDCSLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/GenericFunctions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/StringUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindADAPRO.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
