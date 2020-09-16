@@ -5,135 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-08-31T12:33:48Z",
-            "title": "Use vector instead of MCTruthContainer for ITS,TPC tracks",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckTracks.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/DisplayTrack.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/reconstruction/include/ITSReconstruction/CookedTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/reconstruction/src/CookedTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/CookedTrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TrackReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TrackReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/checkTOFMatching.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/runCATrackingClusterNative.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/run_trac_ca_its.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/run_trac_its.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-01T11:34:29Z",
             "title": "[EMCAL-651] Add const for cell indices in cluster",
             "author": {
@@ -1930,7 +1801,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Streamlining definition and reading of tables",
             "author": {
@@ -1940,17 +1811,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
                   }
                 },
                 {
@@ -1965,6 +1826,16 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/BoostOptionsRetriever.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/src/CommonDataProcessors.cxx"
                   }
                 },
@@ -1975,12 +1846,467 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/DriverInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDeviceInspector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SimpleRawDeviceService.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/src/TableTreeHelpers.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Kernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_RegionInfoCallbackService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_SimpleDataProcessingDevice01.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_StaggeringWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Pack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2D0Analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2SimpleTracksAnalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFChargeMapFiller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TriggerExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/hijing.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/pythia6.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_mpi.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_multiplicity.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TriggerExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthSourceSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthSourceSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthTestWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/etc/exampleDataSamplingConfig.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSampling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingCondition.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingConditionFactory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingReadoutAdapter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/scripts/o2-datasampling-benchmark.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionCustom.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionNConsecutive.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionPayloadSize.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionRandom.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingReadoutAdapter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingBenchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingParallel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingPodAndRoot.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingTimePipeline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSamplingCondition.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSamplingHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSamplingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/benchmark_FullVsDiff.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/benchmark_MergingCollections.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/benchmark_Types.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/produce_QEDhits.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/adaptive_pythia8.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/aliroot_ampt.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/aliroot_hijing.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/signal_impactb.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "scripts/profile-compilation-merge"
                   }
                 }
               ]
@@ -3681,6 +4007,16 @@
                 },
                 {
                   "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableReaderSimpleMuon.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/tableReaderMuonTest.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
@@ -4211,8 +4547,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-16T09:43:50Z",
             "title": "DPL: add helper to match only description",
             "author": {
               "login": "ktf"
@@ -4251,6 +4587,25 @@
                 {
                   "node": {
                     "path": ".travis.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-09-16T10:23:03Z",
+            "title": "GPU: Fix stupid 'typo'",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
                   }
                 }
               ]
