@@ -4,9 +4,6 @@
 - v5-09-24h-01: Done on 2020-09-12.
 - v5-09-38i-01: Done on 2020-09-12.
 ## Recent developments in O2 framework
-- 2020-09-09 aalkin: DPL Analysis: adapt Attach/Extend to new Join
-- 2020-09-09 ktf: DPL Analysis: move ROOT helpers in a separate file
-- 2020-09-09 lbariogl: Add filters to nuclei task
 - 2020-09-10 ktf: DPL Foundation: speedup has_type_at
 - 2020-09-10 ktf: DPL: hide a few more headers
 - 2020-09-11 aalkin: DPL Analysis: first draft for more generic index binding
