@@ -13,3 +13,4 @@
 - 2020-09-15 saganatt: DPL Analysis: First version of histogram registry writing
 - 2020-09-16 ktf: DPL: add helper to match only description
 - 2020-09-16 ktf: DPL: modernize namespaces
+- 2020-09-17 saganatt: DPL Analysis: Replace TList with TFolder for snapshoting histogram registry
