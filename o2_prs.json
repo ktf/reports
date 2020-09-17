@@ -5,83 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-08T06:53:11Z",
-            "title": "add dilepton ee task",
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-02T20:30:46Z",
-            "title": "Dont require 16B words for RORC detectors in RawFileWriter",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-03T14:45:57Z",
-            "title": "[EMCAL-610] Fix segfault in Raw creator",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/RCUTrailer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/Mapper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-04T08:11:23Z",
             "title": "unifying correlation example",
             "author": {
@@ -4461,6 +4384,503 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "temporarily removed the TPC and TOF pid response dependencies",
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/AnalysisCompositeCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/CorrelationContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/AnalysisCompositeCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/CorrelationContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/StrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/correlations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/multiplicityQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/spectraTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/AlignParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackIndex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackRef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/ReconstructionDataFormatsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/VtxTrackIndex.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/VtxTrackRef.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/FT0DigitWriterDPLSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/FT0DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/ReconstructionSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/VertexTrackMatcherSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/Encoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/CrateMasks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/Encoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/test/testRaw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/RawWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/VertexTrackMatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AODReaderHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataSpecUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDeviceInspector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/o2NullSink.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/TriggerExternalParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/hijing.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/pythia6.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_mpi.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_multiplicity.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TriggerExternalParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/produce_QEDhits.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/adaptive_pythia8.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/aliroot_ampt.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_AMPT/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/aliroot_hijing.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/AliRoot_Hijing/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Signal_ImpactB/signal_impactb.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/run.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "￼ removed tof and tpc pid response from table maker",
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Internal codes for centrality/multiplicity estimators names",
+            "author": {
+              "login": "victor-gonzalez"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/dptdptcorrelations.cxx"
                   }
                 }
               ]
