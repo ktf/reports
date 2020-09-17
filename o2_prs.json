@@ -5,49 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-02T07:54:39Z",
-            "title": "port from aliroot tracks xyzPxPyPz cov.matrix extraction",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Track.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Track.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-02T06:59:04Z",
-            "title": "DPL Analysis: add test for filtered grouping",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-04T08:23:11Z",
             "title": "DPL Analysis: ability to use some Configurables in filters",
             "author": {
@@ -3814,11 +3771,6 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/Calibration/CMakeLists.txt.mine"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/DCS/CMakeLists.txt"
                   }
                 },
@@ -3895,16 +3847,6 @@
                 {
                   "node": {
                     "path": "Detectors/DCS/src/StringUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindADAPRO.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
@@ -4408,8 +4350,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-17T12:05:35Z",
             "title": "Update spectra TPC task to fix json config issue",
             "author": {
               "login": "njacazio"
@@ -4531,6 +4473,69 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TrackSelection: add pt dependent dca cut",
+            "author": {
+              "login": "mkruegerGitHub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/TrackSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/trackselection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Improve DataSpecUtils",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataSpecUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/o2NullSink.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
                   }
                 }
               ]
