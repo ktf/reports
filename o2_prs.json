@@ -5,185 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-16T08:23:45Z",
-            "title": "Rdev evgen config",
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/TriggerExternalParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/QEDLoader.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/QEDepem.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/hijing.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/pythia6.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/trigger_mpi.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/trigger_multiplicity.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorExternalParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/TriggerExternalParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/DetectorSimulation.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/produce_QEDhits.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Adaptive_Pythia8/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Adaptive_Pythia8/adaptive_pythia8.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Adaptive_Pythia8/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_AMPT/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_AMPT/aliroot_ampt.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_AMPT/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_Hijing/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_Hijing/aliroot_hijing.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_Hijing/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HF_Embedding_Pythia8/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Signal_ImpactB/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Signal_ImpactB/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Signal_ImpactB/signal_impactb.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/run.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-05T10:52:37Z",
             "title": "TPCClusterFinder: Fix memory issue introduced in #4238.",
             "author": {
@@ -3685,7 +3506,17 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
                   }
                 }
               ]
@@ -5021,6 +4852,25 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/include/rANS/FrequencyTable.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix wrong casing for variables",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
