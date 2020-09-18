@@ -5,60 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-04T19:11:52Z",
-            "title": "Interface and params for AEGIS Cosmics generator",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GenCosmicsParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmics.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmicsLoader.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GenCosmicsParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-07T08:44:55Z",
             "title": "Changed the workflow of the tableReader task",
             "author": {
@@ -4649,8 +4595,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-18T13:56:35Z",
             "title": "Add TOF selection in track selection table",
             "author": {
               "login": "njacazio"
@@ -4718,7 +4664,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Vertexer speed up (Ruben) + fix to reject tracks with large IP to vertex in track preselection",
+            "title": "WIP: Vertexer speed up (Ruben) + fix to reject tracks with large IP to vertex in track preselection",
             "author": {
               "login": "ginnocen"
             },
@@ -4751,6 +4697,25 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGDQ/tableMaker_pp.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "reject tracks with very large IP from primary at preselection stage",
+            "author": {
+              "login": "ginnocen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
                   }
                 }
               ]
