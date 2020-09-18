@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-16T06:24:04Z",
-            "title": "[MCH] allow sending full HBframes in MCH custom raw page reader",
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-05T18:40:06Z",
             "title": "[EMCAL-610] Circumvent out-of-bounds error",
             "author": {
@@ -3791,7 +3772,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/AnalysisDataModel.cxx"
+                    "path": "Framework/Core/src/AnalysisDataModelHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisDataModelHelpers.h"
                   }
                 },
                 {
@@ -4481,8 +4467,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-18T12:20:53Z",
             "title": "MID CTF, related workflows, test + fixes",
             "author": {
               "login": "shahor02"
@@ -4669,8 +4655,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-18T12:10:54Z",
             "title": "DPL: add --dangling-outputs-policy",
             "author": {
               "login": "ktf"
@@ -4806,6 +4792,25 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/trackselection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fixing merging",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/CorrelationContainer.cxx"
                   }
                 }
               ]
