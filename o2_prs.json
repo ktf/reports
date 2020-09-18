@@ -4,45 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[MCH] added DPL message with orbits information",
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/OrbitInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/OrbitInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/digits-sink-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-09-16T06:24:04Z",
             "title": "[MCH] allow sending full HBframes in MCH custom raw page reader",
@@ -4735,6 +4696,11 @@
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowHelpers.cxx"
+                  }
                 }
               ]
             }
@@ -4771,8 +4737,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-18T10:15:26Z",
             "title": "DPL Analysis: update data model graph display",
             "author": {
               "login": "aalkin"
@@ -4811,6 +4777,35 @@
                 {
                   "node": {
                     "path": "scripts/profile-compilation"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add TOF selection in track selection table",
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/TrackSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/trackselection.cxx"
                   }
                 }
               ]
