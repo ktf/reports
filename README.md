@@ -4,7 +4,6 @@
 - v5-09-24h-01: Done on 2020-09-12.
 - v5-09-38i-01: Done on 2020-09-12.
 ## Recent developments in O2 framework
-- 2020-09-11 aalkin: DPL Analysis: first draft for more generic index binding
 - 2020-09-14 ktf: DPL: remove spurious message from Monitor::Cleanup
 - 2020-09-14 mfasDa: [EMCAL-668] Add track position on EMCAL surface to TRACKEXTRA table
 - 2020-09-15 jgrosseo: fixing dynamic calculation of number of clusters
