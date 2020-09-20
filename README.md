@@ -1,6 +1,4 @@
 ## Recent releases to AliPhysics
-- v5-09-02j-01: Done on 2020-09-11.
-- v5-09-20o-01: Done on 2020-09-11.
 - v5-09-24h-01: Done on 2020-09-12.
 - v5-09-38i-01: Done on 2020-09-12.
 ## Recent developments in O2 framework
