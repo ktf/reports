@@ -1,7 +1,6 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
 - 2020-09-14 ktf: DPL: remove spurious message from Monitor::Cleanup
-- 2020-09-14 mfasDa: [EMCAL-668] Add track position on EMCAL surface to TRACKEXTRA table
 - 2020-09-15 jgrosseo: fixing dynamic calculation of number of clusters
 - 2020-09-15 saganatt: DPL Analysis: First version of histogram registry writing
 - 2020-09-16 ktf: DPL: add helper to match only description
