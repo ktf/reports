@@ -5,65 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-09T10:03:57Z",
-            "title": "Use CCDB headers to get SOR timestamp for run",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/RunToTimestamp.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/AnalysisCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/InsertNewRunToTimestamp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/RunToTimestamp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Scripts/insert_Run2_run_to_timestamps.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Scripts/inspect_Run2_run_to_timestamps.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/timestamp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/ccdbaccess.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-14T13:29:29Z",
             "title": "[EMCAL-668] Add track position on EMCAL surface to TRACKEXTRA table",
             "author": {
@@ -3995,8 +3936,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-21T16:48:21Z",
             "title": "Corr update",
             "author": {
               "login": "jgrosseo"
@@ -4034,8 +3975,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-21T16:51:01Z",
             "title": "Move TOF/TPC tasks to dedicated directory",
             "author": {
               "login": "njacazio"
@@ -4060,6 +4001,30 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGLF/spectraTPC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add 3 prong secondary vertex histograms + fix histogram ranges",
+            "author": {
+              "login": "ginnocen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
                   }
                 }
               ]
