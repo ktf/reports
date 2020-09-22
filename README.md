@@ -15,3 +15,4 @@
 - 2020-09-21 jgrosseo: aligning sign of eta with AliRoot
 - 2020-09-21 knopers8: [QC-403] Protect pendingInfoRegions from concurrent access
 - 2020-09-21 pbuehler: Streamlining definition and reading of tables
+- 2020-09-22 ktf: DPL: speedup generic table reading
