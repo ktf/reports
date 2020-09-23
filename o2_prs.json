@@ -5,40 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-09T20:02:52Z",
-            "title": "DPL Analysis: move ROOT helpers in a separate file",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RootAnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2D0Analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2SimpleTracksAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-09T09:43:36Z",
             "title": "Profiling support",
             "author": {
@@ -3936,8 +3902,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-23T07:55:28Z",
             "title": "TrackSelection: drop TObject inheritance",
             "author": {
               "login": "mkruegerGitHub"
@@ -4005,6 +3971,25 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TableTreeHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "RootTreeWriter: Zero copy treatment of trivially messageable vectors",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/RootTreeWriter.h"
                   }
                 }
               ]
