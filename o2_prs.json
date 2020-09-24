@@ -5,59 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-14T20:28:52Z",
-            "title": "Validate ITS/TPC match by bunch filling scheme (except cosmics mode)",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Bracket.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-14T14:30:04Z",
-            "title": "DPL: remove spurious message from Monitor::Cleanup",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-15T18:01:39Z",
             "title": "TRD digitization: Application of new labels container structure",
             "author": {
@@ -3420,8 +3367,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-24T13:56:36Z",
             "title": "DPL: support multiplexing of dangling outputs",
             "author": {
               "login": "ktf"
@@ -3610,6 +3557,89 @@
                 {
                   "node": {
                     "path": "DataFormats/Reconstruction/src/Track.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Filling histograms in registry with expressions",
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/histogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Rename configurable param Pythia8 -> GeneratorPythia8",
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8Param.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/pythia8_userhooks_charm.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/o2sim_configuration_sgn.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Jet_Embedding_Pythia8/pythia8_userhooks_jets.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Jet_Embedding_Pythia8/run.sh"
                   }
                 }
               ]
