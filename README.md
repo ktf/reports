@@ -15,4 +15,5 @@
 - 2020-09-22 ktf: DPL: speedup generic table reading
 - 2020-09-23 mkruegerGitHub: HistHelpers: add some more features
 - 2020-09-23 saganatt: DPL: An attempt to make histogram registry examples more readable
+- 2020-09-24 ktf: DPL: improve InputRecord::size documentation 
 - 2020-09-24 sawenzel: RootTreeWriter: Zero copy treatment of trivially messageable vectors
