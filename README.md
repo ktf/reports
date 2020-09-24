@@ -19,4 +19,5 @@
 - 2020-09-24 ktf: DPL: improve InputRecord::size documentation 
 - 2020-09-24 ktf: DPL: introduce InputRecord::countValidInputs() (O2-1720)
 - 2020-09-24 ktf: DPL: support multiplexing of dangling outputs
+- 2020-09-24 saganatt: DPL Analysis: Filling histograms in registry with expressions
 - 2020-09-24 sawenzel: RootTreeWriter: Zero copy treatment of trivially messageable vectors
