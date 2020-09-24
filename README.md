@@ -17,4 +17,5 @@
 - 2020-09-23 saganatt: DPL: An attempt to make histogram registry examples more readable
 - 2020-09-24 ktf: DPL: hide column types from TableBuilder lambdas
 - 2020-09-24 ktf: DPL: improve InputRecord::size documentation 
+- 2020-09-24 ktf: DPL: introduce InputRecord::countValidInputs() (O2-1720)
 - 2020-09-24 sawenzel: RootTreeWriter: Zero copy treatment of trivially messageable vectors
