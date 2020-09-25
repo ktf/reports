@@ -1,4 +1,5 @@
 ## Recent releases to AliPhysics
+- v5-09-55a-01: Done on 2020-09-25.
 ## Recent developments in O2 framework
 - 2020-09-18 aalkin: DPL Analysis: declare projectors static so they are reused
 - 2020-09-18 ktf: DPL: add --dangling-outputs-policy
