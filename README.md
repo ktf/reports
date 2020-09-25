@@ -1,8 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-09-17 ktf: DPL: Improve DataSpecUtils
-- 2020-09-17 ktf: DPL: create matcher from description
-- 2020-09-17 saganatt: DPL Analysis: Replace TList with TFolder for snapshoting histogram registry
 - 2020-09-18 aalkin: DPL Analysis: declare projectors static so they are reused
 - 2020-09-18 ktf: DPL: add --dangling-outputs-policy
 - 2020-09-18 ktf: DPL: fix wrong casing for variables
