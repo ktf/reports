@@ -5,49 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-17T07:49:22Z",
-            "title": "Correctly encode the first event",
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/Encoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/test/testRaw.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-15T18:01:14Z",
-            "title": "Fix clang-format in MID Encoder",
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/Encoder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-17T07:48:41Z",
             "title": "Correctly read masks written in hexadecimal format",
             "author": {
@@ -3448,8 +3405,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-09-25T09:48:26Z",
             "title": "Add abs.charge data member to TrackPar (change in base track model)",
             "author": {
               "login": "shahor02"
@@ -3620,6 +3577,44 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGLF/lambdakzerofinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Proper protection in case BUILD_SIMULATION=OFF",
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "macro/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "No using namespace in include",
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/HistogramManager.h"
                   }
                 }
               ]
