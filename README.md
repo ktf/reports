@@ -1,5 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-55a-01: Done on 2020-09-25.
+- v5-09-54h-01: Done on 2020-09-26.
 ## Recent developments in O2 framework
 - 2020-09-21 aalkin: fixed bug with filter/grouping interaction
 - 2020-09-21 jgrosseo: aligning sign of eta with AliRoot

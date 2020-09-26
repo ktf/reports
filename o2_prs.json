@@ -4,35 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-15T20:50:48Z",
-            "title": "fix small logic bug in track selection",
-            "author": {
-              "login": "mkruegerGitHub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/TrackSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackselection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Update BitstreamReader.h",
@@ -3700,6 +3671,25 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TrackSelection: fix wrong calculation of dca",
+            "author": {
+              "login": "mkruegerGitHub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/trackselection.cxx"
                   }
                 }
               ]
