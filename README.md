@@ -1,9 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-55a-01: Done on 2020-09-25.
 ## Recent developments in O2 framework
-- 2020-09-18 aalkin: DPL Analysis: declare projectors static so they are reused
-- 2020-09-18 ktf: DPL: add --dangling-outputs-policy
-- 2020-09-18 ktf: DPL: fix wrong casing for variables
 - 2020-09-21 aalkin: fixed bug with filter/grouping interaction
 - 2020-09-21 jgrosseo: aligning sign of eta with AliRoot
 - 2020-09-21 knopers8: [QC-403] Protect pendingInfoRegions from concurrent access
