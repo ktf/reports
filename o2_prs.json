@@ -5,85 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-16T09:08:22Z",
-            "title": "Register contributions from all sources in vertex-track references",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackIndex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackRef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/ReconstructionDataFormatsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/VtxTrackIndex.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/VtxTrackRef.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/VertexTrackMatcherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexerHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/VertexTrackMatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-16T11:37:50Z",
             "title": "add vertex axis, new functions in corr container",
             "author": {
@@ -3570,6 +3491,45 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/DigitReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix processing of TDH.noData flag in ITS raw data + hack for ITS test data",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
                   }
                 }
               ]
