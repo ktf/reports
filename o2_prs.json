@@ -4,35 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-16T09:43:50Z",
-            "title": "DPL: add helper to match only description",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSpecUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Drop clang-formatter in Github actions",
@@ -3525,6 +3496,30 @@
                 {
                   "node": {
                     "path": "DataFormats/simulation/include/SimulationDataFormat/LabelContainer.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid non-trivial c-tor for ClusterNativeAccess, reset it by filling 0s",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
                   }
                 }
               ]
