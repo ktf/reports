@@ -17,3 +17,4 @@
 - 2020-09-28 jgrosseo: only stopping reader and let other tasks finish by end of stream
 - 2020-09-29 aalkin: DPL: added table builder warning for empty tables
 - 2020-09-29 jgrosseo: data model changes: track type and flags
+- 2020-09-29 ktf: DPL: avoid copying shared pointers while reading
