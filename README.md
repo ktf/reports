@@ -2,10 +2,6 @@
 - v5-09-55a-01: Done on 2020-09-25.
 - v5-09-54h-01: Done on 2020-09-26.
 ## Recent developments in O2 framework
-- 2020-09-21 aalkin: fixed bug with filter/grouping interaction
-- 2020-09-21 jgrosseo: aligning sign of eta with AliRoot
-- 2020-09-21 knopers8: [QC-403] Protect pendingInfoRegions from concurrent access
-- 2020-09-21 pbuehler: Streamlining definition and reading of tables
 - 2020-09-22 ktf: DPL: drop debug statements
 - 2020-09-22 ktf: DPL: speedup generic table reading
 - 2020-09-23 mkruegerGitHub: HistHelpers: add some more features
