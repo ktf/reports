@@ -2,8 +2,6 @@
 - v5-09-55a-01: Done on 2020-09-25.
 - v5-09-54h-01: Done on 2020-09-26.
 ## Recent developments in O2 framework
-- 2020-09-22 ktf: DPL: drop debug statements
-- 2020-09-22 ktf: DPL: speedup generic table reading
 - 2020-09-23 mkruegerGitHub: HistHelpers: add some more features
 - 2020-09-23 saganatt: DPL: An attempt to make histogram registry examples more readable
 - 2020-09-24 ktf: DPL: hide column types from TableBuilder lambdas
