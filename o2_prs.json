@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-17T19:28:52Z",
-            "title": "￼ removed tof and tpc pid response from table maker",
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-17T19:28:05Z",
             "title": "Internal codes for centrality/multiplicity estimators names",
             "author": {
@@ -3250,6 +3231,35 @@
                 {
                   "node": {
                     "path": "cmake/O2ReportNonTestedMacros.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add ROOT PCM file dependncies to ensure correct incremental rebuild of ROOT maps",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/AddRootDictionary.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2SetROOTPCMDependencies.cmake"
                   }
                 }
               ]
