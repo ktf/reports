@@ -17,3 +17,4 @@
 - 2020-09-29 jgrosseo: data model changes: track type and flags
 - 2020-09-29 ktf: DPL: avoid copying shared pointers while reading
 - 2020-09-30 aalkin: DPL Analysis: test for array and boolean column slicing
+- 2020-09-30 ktf: DPL Analysis: fix leaks in TreeToTable
