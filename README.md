@@ -16,3 +16,4 @@
 - 2020-09-29 ktf: DPL: avoid copying shared pointers while reading
 - 2020-09-30 aalkin: DPL Analysis: test for array and boolean column slicing
 - 2020-09-30 ktf: DPL Analysis: fix leaks in TreeToTable
+- 2020-10-01 ktf: DPL: avoid busy looping when in Idle state
