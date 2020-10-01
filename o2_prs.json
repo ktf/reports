@@ -4,25 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-20T14:37:48Z",
-            "title": "[EMCAL-534] Skip SOX raw headers",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/RawReaderMemory.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "WIP: Vertexer speed up (Ruben) + fix to reject tracks with large IP to vertex in track preselection",
@@ -3041,8 +3022,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-01T17:01:29Z",
             "title": "Bugfix in chamber search for TRD tracking",
             "author": {
               "login": "martenole"
@@ -3060,8 +3041,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-01T16:55:45Z",
             "title": "GPU: sort comparison function must return 0 for equals",
             "author": {
               "login": "davidrohr"
@@ -3165,6 +3146,35 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/clusterFinderDefs.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MFT] Improved track seed for low pt tracks & MCS effects evaluation",
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackFwd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/src/TrackFitter.cxx"
                   }
                 }
               ]
