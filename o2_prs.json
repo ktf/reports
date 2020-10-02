@@ -5,64 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-24T07:00:05Z",
-            "title": "Fix links to CMakeInstructions.md in the README of /Examples subfolders",
-            "author": {
-              "login": "aimeric-landou"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Examples/Ex2/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Examples/Ex3/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Examples/Ex4/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Examples/Ex5/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-18T18:39:05Z",
-            "title": "On track operation failure produce WARNING instead of ERROR",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Track.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Propagator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-20T07:54:58Z",
             "title": "Minor changes to debug histograms",
             "author": {
@@ -3191,6 +3133,74 @@
                 {
                   "node": {
                     "path": "prodtests/sim_challenge.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC workflow: Invert options for ca-clusterer and tpc-zs-on-the-fly",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: various fixes to MCH workflows",
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/include/MCHWorkflow/DataDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-to-digits-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/file-to-digits-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/raw-to-digits-workflow.cxx"
                   }
                 }
               ]
