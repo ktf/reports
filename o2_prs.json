@@ -5,60 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-21T13:15:07Z",
-            "title": "Various fixes for EMCAL workflows",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/Clusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/Clusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/ClusterizerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/CellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/emc-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-21T10:40:07Z",
             "title": "fixed bug with filter/grouping interaction",
             "author": {
@@ -2791,16 +2737,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUSettingsList.h"
                   }
                 },
@@ -2847,11 +2783,6 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/TPCCFCalibration.cxx"
                   }
                 },
                 {
@@ -3146,6 +3077,35 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update documentation on external generator",
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmics.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmicsLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/README.md"
                   }
                 }
               ]
