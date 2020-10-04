@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-21T13:56:17Z",
-            "title": "aligning sign of eta with AliRoot",
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-24T06:54:35Z",
             "title": "Fix namespace naming",
             "author": {
@@ -3136,6 +3117,30 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "HistHelpers: abstract histogram definition does not need to know root hist type",
+            "author": {
+              "login": "mkruegerGitHub"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/HistHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/histHelpersTest.cxx"
                   }
                 }
               ]
