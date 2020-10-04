@@ -1,5 +1,4 @@
 ## Recent releases to AliPhysics
-- v5-09-55a-01: Done on 2020-09-25.
 - v5-09-54h-01: Done on 2020-09-26.
 ## Recent developments in O2 framework
 - 2020-09-28 jgrosseo: only stopping reader and let other tasks finish by end of stream
