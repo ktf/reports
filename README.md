@@ -1,5 +1,4 @@
 ## Recent releases to AliPhysics
-- v5-09-54h-01: Done on 2020-09-26.
 ## Recent developments in O2 framework
 - 2020-09-28 jgrosseo: only stopping reader and let other tasks finish by end of stream
 - 2020-09-29 aalkin: DPL: added table builder warning for empty tables
