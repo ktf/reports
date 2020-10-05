@@ -5,75 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-25T08:33:16Z",
-            "title": "New digit label handling for ITSMFT ",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/ClustererSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/src/ClustererSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DigitPixelReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/PixelReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/DigitWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/readITSDigits.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-22T15:11:59Z",
             "title": "DPL: speedup generic table reading",
             "author": {
@@ -3186,6 +3117,75 @@
                 {
                   "node": {
                     "path": "macro/run_trac_ca_its.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "restructuring PWGJE",
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/JetFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetfinderhadronrecoil.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetskimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetsubstructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindFastJet.cmake"
                   }
                 }
               ]
