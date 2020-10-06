@@ -5,78 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-23T15:46:36Z",
-            "title": "Add task for spectra efficiency",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/mcspectraefficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-23T15:46:13Z",
-            "title": "PWGDQ: update track selection for dileptonEE",
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-23T15:45:57Z",
-            "title": "HistHelpers: add some more features",
-            "author": {
-              "login": "mkruegerGitHub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/HistHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/histHelpersTest.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-23T15:45:10Z",
             "title": "DPL: An attempt to make histogram registry examples more readable",
             "author": {
@@ -2191,6 +2119,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
                   }
                 },
@@ -2523,8 +2456,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-06T14:48:58Z",
             "title": "[FV0] pile-up simulation",
             "author": {
               "login": "arvindkhuntia"
@@ -3146,6 +3079,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "GPU/Common/GPUCommonTransform3D.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/TRDTracking/GPUTRDDef.h"
                   }
                 },
@@ -3241,6 +3179,93 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Disable o2sim_hepmc",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "first version of reduced table for CF",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/CFDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/correlations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/correlationsFiltered.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/filterCF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "modification: noise and time structure for digitization",
+            "author": {
+              "login": "mwinn2"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Simulation/include/MCHSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCHDigitizerSpec.cxx"
                   }
                 }
               ]
