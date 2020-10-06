@@ -10,3 +10,4 @@
 - 2020-10-03 aalkin: DPL Analysis: use arrow::Table::Slice directly
 - 2020-10-05 aalkin: DPL Analysis: more protections for empty tables
 - 2020-10-06 jgrosseo: fixing timestamp lookup
+- 2020-10-06 ktf: DPL: drop spurious printout
