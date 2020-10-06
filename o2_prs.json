@@ -4,59 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-23T07:55:28Z",
-            "title": "TrackSelection: drop TObject inheritance",
-            "author": {
-              "login": "mkruegerGitHub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/TrackSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackselection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-23T12:40:54Z",
-            "title": "Correct track selection according to FB96",
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGCF/AnalysisConfigurableCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGCF/dptdptcorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL Analysis: use ROOT bulk API",
@@ -2894,8 +2841,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-06T06:58:46Z",
             "title": "PWGHF: adding preselection cut on the candidate minimum pt for 2 and 3 prong",
             "author": {
               "login": "DelloStritto"
@@ -2913,8 +2860,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-06T06:58:06Z",
             "title": "PWGHF: Add 3-prong table, candidate creator, and D± task.",
             "author": {
               "login": "vkucera"
@@ -3181,6 +3128,49 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add FastJet::Contrib to cmake",
+            "author": {
+              "login": "qgp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindFastJet.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fixing timestamp lookup",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/centralityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelection.cxx"
                   }
                 }
               ]
