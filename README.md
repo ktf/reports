@@ -8,3 +8,4 @@
 - 2020-10-05 aalkin: DPL Analysis: more protections for empty tables
 - 2020-10-06 jgrosseo: fixing timestamp lookup
 - 2020-10-06 ktf: DPL: drop spurious printout
+- 2020-10-07 jgrosseo: changing default table name to O2<TREE> convention
