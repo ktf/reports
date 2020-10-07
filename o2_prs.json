@@ -4,123 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Initial commit for Raa analysis of charged particles",
-            "author": {
-              "login": "yelmard"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/raacharged.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-25T11:12:23Z",
-            "title": "TPC digitization: New const labelcontainer",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/IOMCTruthContainerView.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/PublisherSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/PublisherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/RootTreeReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TPCDigitRootWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-25T09:48:26Z",
-            "title": "Add abs.charge data member to TrackPar (change in base track model)",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/ITS/include/DataFormatsITS/TrackITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Track.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/PID.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/Track.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-09-24T18:43:41Z",
             "title": "DPL Analysis: Filling histograms in registry with expressions",
@@ -3143,6 +3026,11 @@
                   "node": {
                     "path": "Detectors/TOF/compression/src/Compressor.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/DecoderBase.h"
+                  }
                 }
               ]
             }
@@ -3150,8 +3038,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-07T14:06:03Z",
             "title": "moving pair cuts to separate file",
             "author": {
               "login": "jgrosseo"
@@ -3185,6 +3073,11 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataOutputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataOutputDirector.cxx"
                   }
                 }
               ]
@@ -3335,12 +3228,32 @@
                 },
                 {
                   "node": {
+                    "path": "DataFormats/simulation/test/testMCTruthContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ClustererSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/DigitReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/ClustererSpec.cxx"
                   }
                 },
                 {
@@ -3410,6 +3323,16 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "EventVisualisation/Detectors/src/DataInterpreterTPC.cxx"
                   }
                 },
@@ -3466,6 +3389,208 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/MCLabelAccumulator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FDDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthSourceSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/readITSDigits.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Utilities: add braces to single statements",
+            "author": {
+              "login": "anerokhi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/include/DataCompression/HuffmanCodec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/EPNReceiverDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/FLPSenderDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/FakeTimeframeBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/SubframeBuilderDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/TimeframeValidationTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/TimeframeValidatorDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataFlow/src/TimeframeWriterDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/O2MessageMonitor/src/O2MessageMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/PCG/include/PCG/pcg_extras.hpp"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/PCG/include/PCG/pcg_random.hpp"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Publishers/src/DataPublisherDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/Component.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/EventSampler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/HOMERFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/MessageFormat.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/SystemInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/WrapperDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/src/runComponent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/aliceHLTwrapper/test/testMessageFormat.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/EncoderSymbol.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/src/SymbolStatistics.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "use correct counters",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/filterCF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restore proper definition of GeometryManager::getSensID",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GeometryManager.cxx"
                   }
                 }
               ]
