@@ -4,30 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "added task for analysis challege: used for TPC trk efficiency of prim…",
-            "author": {
-              "login": "iravasen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackchecks.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-09-24T06:56:12Z",
             "title": "Acknowledge GBT Diagnostic, Calibration and Status words in ITS raw data",
@@ -3080,6 +3056,21 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TRDGeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/TRDGeometryFlat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/TRDGeometry.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/Common/GPUCommonTransform3D.h"
                   }
                 },
@@ -3296,6 +3287,25 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Must reset TRM TDC error counter in case header/trailer is not detected",
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
                   }
                 }
               ]
