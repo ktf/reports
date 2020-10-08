@@ -8,3 +8,4 @@
 - 2020-10-06 ktf: DPL: drop spurious printout
 - 2020-10-07 aalkin: DPL Analysis: workaround for arrow not serializing empty tables
 - 2020-10-07 jgrosseo: changing default table name to O2<TREE> convention
+- 2020-10-08 ktf: DPL Analysis: fix WritingCursor::reserve()
