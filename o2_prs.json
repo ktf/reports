@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-26T07:11:31Z",
-            "title": "Fix: default init. of some ClusterNativeAccess members",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-27T06:53:13Z",
             "title": "Add copyright notice ",
             "author": {
@@ -3452,6 +3433,11 @@
                 },
                 {
                   "node": {
+                    "path": "Analysis/Tutorials/src/ConfigurableCutLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Analysis/Tutorials/src/configurableCut.cxx"
                   }
                 },
@@ -3615,8 +3601,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-08T15:30:34Z",
             "title": "GPU: Fix TPC-TRD track relation for non-consecutive TPC track ids",
             "author": {
               "login": "davidrohr"
@@ -3631,6 +3617,50 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Several changes",
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/AnalysisCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/AnalysisCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
                   }
                 }
               ]
