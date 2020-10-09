@@ -5,79 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-29T11:43:56Z",
-            "title": "data model changes: track type and flags",
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/TrackSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataTypes.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: use arrow's own STL type conversion",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Kernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RootTableBuilderHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-29T13:58:06Z",
             "title": "Extract common job utility functions",
             "author": {
@@ -3786,6 +3713,49 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-10-09T12:29:18Z",
+            "title": "code-formatting workflow: fetch all history",
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/code-formatting.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MFT: add flag for MFT data in GBT data word",
+            "author": {
+              "login": "bovulpes"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTWord.h"
                   }
                 }
               ]
