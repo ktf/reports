@@ -10,3 +10,4 @@
 - 2020-10-08 davidrohr: Fix compiler warning
 - 2020-10-08 ktf: DPL Analysis: fix WritingCursor::reserve()
 - 2020-10-08 ktf: DPL Analysis: speedup insertion in basic columns
+- 2020-10-09 pbuehler: Write non-dangling outputs to file
