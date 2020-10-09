@@ -4,94 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-05T09:34:50Z",
-            "title": "RecoDecay + PWGHF maintenance and extension",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/CandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/SecondaryVertexHF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/trackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFD0CandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-28T17:30:29Z",
-            "title": "TrackSelection: fix wrong calculation of dca",
-            "author": {
-              "login": "mkruegerGitHub"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/trackUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackselection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "V0 finder: prefiltering tuning",
@@ -2739,8 +2651,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-09T08:17:04Z",
             "title": "Use ConstMCTruthContainer in TPC workflow",
             "author": {
               "login": "davidrohr"
@@ -3043,8 +2955,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-09T07:42:08Z",
             "title": "Utilities: add braces to single statements",
             "author": {
               "login": "anerokhi"
@@ -3716,6 +3628,49 @@
                 {
                   "node": {
                     "path": "Framework/Utils/include/DPLUtils/RootTreeWriter.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: remove old workaround for nullptr in Table constructor",
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix missing include",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ShmManager.h"
                   }
                 }
               ]
