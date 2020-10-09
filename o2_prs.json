@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-09-28T06:59:56Z",
-            "title": "Fix processing of TDH.noData flag in ITS raw data + hack for ITS test data",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-09-28T06:59:21Z",
-            "title": "Fixes for Root 6-22-02",
-            "author": {
-              "login": "pzhristov"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PIDBase/DetectorResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/LabelContainer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-09-28T06:58:52Z",
             "title": "Avoid non-trivial c-tor for ClusterNativeAccess, reset it by filling 0s",
             "author": {
@@ -3622,7 +3559,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Correct noise treatment for duplicated channels. Introduced geographical mapping of autotrigger bits",
             "author": {
@@ -3716,6 +3653,89 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/multiplicityTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Zdc dev Correct noise treatment for duplicated channels. Introduced geographical mapping of autotrigger bits",
+            "author": {
+              "login": "cortesep"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/BCData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/src/BCData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/src/ChannelData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-515] Use signed type for time calib values",
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/TimeCalibrationParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/TimeCalibrationParams.cxx"
                   }
                 }
               ]
