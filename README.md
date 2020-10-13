@@ -1,5 +1,7 @@
 ## Recent releases to AliPhysics
 - v5-09-56-01: Done on 2020-10-09.
+- v5-09-02k-01: Done on 2020-10-13.
+- v5-09-20p-01: Done on 2020-10-13.
 ## Recent developments in O2 framework
 - 2020-10-06 jgrosseo: fixing timestamp lookup
 - 2020-10-06 ktf: DPL: drop spurious printout
