@@ -15,6 +15,8 @@
 - 2020-10-10 aalkin: DPL Analysis: remove old workaround for nullptr in Table constructor
 - 2020-10-10 anerokhi: Framework: add braces to single statements
 - 2020-10-10 jgrosseo: adding example to iterate over muons
+- 2020-10-13 ekryshen: Run2V0 replaced with FV0A and FV0C
 - 2020-10-13 jgrosseo: enabling covariance on muons
 - 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
 - 2020-10-13 ktf: Revert "Write non-dangling outputs to file"
+- 2020-10-13 pbuehler: Adapt DataInputDirector to the new AO2D file format, which includes a subdirectory TF_%d per time frame
