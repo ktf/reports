@@ -14,3 +14,5 @@
 - 2020-10-10 aalkin: DPL Analysis: remove old workaround for nullptr in Table constructor
 - 2020-10-10 anerokhi: Framework: add braces to single statements
 - 2020-10-10 jgrosseo: adding example to iterate over muons
+- 2020-10-13 jgrosseo: enabling covariance on muons
+- 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
