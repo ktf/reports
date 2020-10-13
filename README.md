@@ -17,3 +17,4 @@
 - 2020-10-10 jgrosseo: adding example to iterate over muons
 - 2020-10-13 jgrosseo: enabling covariance on muons
 - 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
+- 2020-10-13 ktf: Revert "Write non-dangling outputs to file"
