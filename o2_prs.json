@@ -5,59 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-06T09:17:37Z",
-            "title": "Update documentation on external generator",
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmics.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmicsLoader.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-05T10:49:33Z",
-            "title": "Adjust handling of decoding in CONET mode",
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/DecoderBase.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-06T14:48:58Z",
             "title": "[FV0] pile-up simulation",
             "author": {
@@ -4161,6 +4108,104 @@
                 {
                   "node": {
                     "path": "Detectors/Passive/src/Shil.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add metadata to InputSpec",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/InputSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] update TOF and TPC PID workflow ",
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/PID/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/PID/PIDTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/PIDBase/DetectorResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/PIDTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/PIDTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTPC.cxx"
                   }
                 }
               ]
