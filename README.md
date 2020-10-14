@@ -18,3 +18,4 @@
 - 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
 - 2020-10-13 ktf: Revert "Write non-dangling outputs to file"
 - 2020-10-13 pbuehler: Adapt DataInputDirector to the new AO2D file format, which includes a subdirectory TF_%d per time frame
+- 2020-10-14 jgrosseo: fix alien reading
