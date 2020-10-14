@@ -4,8 +4,6 @@
 - v5-09-20p-01: Done on 2020-10-13.
 - v5-09-54i-01: Done on 2020-10-13.
 ## Recent developments in O2 framework
-- 2020-10-06 jgrosseo: fixing timestamp lookup
-- 2020-10-06 ktf: DPL: drop spurious printout
 - 2020-10-07 aalkin: DPL Analysis: workaround for arrow not serializing empty tables
 - 2020-10-07 jgrosseo: changing default table name to O2<TREE> convention
 - 2020-10-08 davidrohr: Fix compiler warning
