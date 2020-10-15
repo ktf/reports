@@ -21,3 +21,4 @@
 - 2020-10-14 jgrosseo: fix alien reading
 - 2020-10-14 knopers8: DPL: A method to check if one InputSpec includes other
 - 2020-10-14 ktf: DPL Foundation: add own runtime_error.
+- 2020-10-15 ktf: DPL: add metadata to InputSpec
