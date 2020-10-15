@@ -23,3 +23,4 @@
 - 2020-10-14 ktf: DPL Foundation: add own runtime_error.
 - 2020-10-15 ktf: DPL Analysis: rework TableToTree
 - 2020-10-15 ktf: DPL: add metadata to InputSpec
+- 2020-10-15 ktf: DPL: exit only the relevant devices when writing is complete.
