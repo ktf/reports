@@ -21,4 +21,5 @@
 - 2020-10-15 ktf: DPL Analysis: rework TableToTree
 - 2020-10-15 ktf: DPL: add metadata to InputSpec
 - 2020-10-15 ktf: DPL: exit only the relevant devices when writing is complete.
+- 2020-10-16 aalkin: DPL Analysis: protect expression application from empty table
 - 2020-10-16 ktf: DPL: use Framework/RuntimeError helpers throughout the framework
