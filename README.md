@@ -24,3 +24,4 @@
 - 2020-10-16 aalkin: DPL Analysis: protect expression application from empty table
 - 2020-10-16 ktf: DPL Analysis: use "Consume" as a policy for AOD writer
 - 2020-10-16 ktf: DPL: use Framework/RuntimeError helpers throughout the framework
+- 2020-10-16 pbuehler: Writes time frames into directories TF_%d of same file
