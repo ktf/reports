@@ -4,7 +4,6 @@
 - v5-09-20p-01: Done on 2020-10-13.
 - v5-09-54i-01: Done on 2020-10-13.
 ## Recent developments in O2 framework
-- 2020-10-09 pbuehler: Write non-dangling outputs to file
 - 2020-10-10 aalkin: DPL Analysis: remove old workaround for nullptr in Table constructor
 - 2020-10-10 anerokhi: Framework: add braces to single statements
 - 2020-10-10 jgrosseo: adding example to iterate over muons
