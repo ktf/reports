@@ -25,3 +25,4 @@
 - 2020-10-17 jgrosseo: fix for alien connection (will be updated by new reader)
 - 2020-10-17 mkruegerGitHub: HistogramRegistry: add support for all root histogram types
 - 2020-10-18 ktf: DPL: introduce metric observer callback
+- 2020-10-18 mkruegerGitHub: TrackQA: use HistogramRegistry
