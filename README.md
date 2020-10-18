@@ -1,12 +1,8 @@
 ## Recent releases to AliPhysics
-- v5-09-56-01: Done on 2020-10-09.
 - v5-09-02k-01: Done on 2020-10-13.
 - v5-09-20p-01: Done on 2020-10-13.
 - v5-09-54i-01: Done on 2020-10-13.
 ## Recent developments in O2 framework
-- 2020-10-10 aalkin: DPL Analysis: remove old workaround for nullptr in Table constructor
-- 2020-10-10 anerokhi: Framework: add braces to single statements
-- 2020-10-10 jgrosseo: adding example to iterate over muons
 - 2020-10-13 ekryshen: Run2V0 replaced with FV0A and FV0C
 - 2020-10-13 jgrosseo: enabling covariance on muons
 - 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
