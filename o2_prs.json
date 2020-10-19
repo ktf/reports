@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-07T17:55:28Z",
-            "title": "use correct counters",
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGCF/filterCF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-08T07:39:52Z",
             "title": "Restore proper definition of GeometryManager::getSensID",
             "author": {
@@ -2965,8 +2946,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-19T14:42:26Z",
             "title": "[QC-338] Facilitate creating a Dispatcher without configuration files",
             "author": {
               "login": "knopers8"
@@ -4101,7 +4082,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "PHOS raw data decoder taking input from the file",
             "author": {
@@ -4159,12 +4140,22 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Framework/Core/include/Framework/CommonDataProcessors.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/DataInputDirector.h"
                   }
                 },
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/DataOutputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
                   }
                 },
                 {
@@ -4185,6 +4176,16 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataOutputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.h"
                   }
                 },
                 {
@@ -4344,8 +4345,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-19T14:41:55Z",
             "title": "DPL: improve metrics for arrow messages",
             "author": {
               "login": "ktf"
@@ -4373,8 +4374,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-19T14:24:00Z",
             "title": "TPCClusterFinder: Set single-flag on created clusters.",
             "author": {
               "login": "fweig"
@@ -4716,6 +4717,25 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-450] Allow for output proxy channels which aren't \"downstream\"",
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]

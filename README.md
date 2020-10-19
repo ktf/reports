@@ -27,3 +27,4 @@
 - 2020-10-18 ktf: DPL: introduce metric observer callback
 - 2020-10-18 mkruegerGitHub: TrackQA: use HistogramRegistry
 - 2020-10-19 ktf: DPL: add tracking of AOD messages created / destroyed.
+- 2020-10-19 ktf: DPL: improve metrics for arrow messages
