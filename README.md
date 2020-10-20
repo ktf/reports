@@ -2,6 +2,8 @@
 - v5-09-02k-01: Done on 2020-10-13.
 - v5-09-20p-01: Done on 2020-10-13.
 - v5-09-54i-01: Done on 2020-10-13.
+- v5-09-02l-01: Done on 2020-10-20.
+- v5-09-20q-01: Done on 2020-10-20.
 ## Recent developments in O2 framework
 - 2020-10-13 ekryshen: Run2V0 replaced with FV0A and FV0C
 - 2020-10-13 jgrosseo: enabling covariance on muons
@@ -29,3 +31,4 @@
 - 2020-10-19 ktf: DPL: add tracking of AOD messages created / destroyed.
 - 2020-10-19 ktf: DPL: improve metrics for arrow messages
 - 2020-10-20 knopers8: [QC-450] Allow for output proxy channels which aren't "downstream"
+- 2020-10-20 ktf: DPL: add Lifetime::Signal to trigger processing on a signal
