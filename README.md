@@ -28,3 +28,4 @@
 - 2020-10-18 mkruegerGitHub: TrackQA: use HistogramRegistry
 - 2020-10-19 ktf: DPL: add tracking of AOD messages created / destroyed.
 - 2020-10-19 ktf: DPL: improve metrics for arrow messages
+- 2020-10-20 knopers8: [QC-450] Allow for output proxy channels which aren't "downstream"
