@@ -5,73 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-08T17:41:17Z",
-            "title": "DPL Analysis: speedup insertion in basic columns",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Analysis: speedup table-maker",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-08T18:31:09Z",
-            "title": "Add macro to dump TRD transf matrices from AliRoot",
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/createGeo.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/dumpTRDClusterMatrices.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-08T15:30:34Z",
             "title": "GPU: Fix TPC-TRD track relation for non-consecutive TPC track ids",
             "author": {
@@ -5171,8 +5104,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-20T14:56:22Z",
             "title": "Revert \"DPL Analysis: use index-builder similar to aod-spawner for pr…",
             "author": {
               "login": "jgrosseo"
@@ -5266,6 +5199,208 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/trackselection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fill method with variable arguments",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/StepTHn.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update of AOD reader / writer",
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/ANALYSIS.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonDataProcessors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataInputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataOutputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataInputDirector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "conet mode enabled in TOF decoding and reco + fixes for CTF",
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/CTF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/src/CTF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/src/DataFormatsTOFLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/WindowFiller.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/Decoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/CTFCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Decoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Encoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/CompressedDecodingTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFDigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/CompressedDecodingTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFDigitWriterSpec.cxx"
                   }
                 }
               ]
