@@ -10,7 +10,6 @@
 - 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
 - 2020-10-13 ktf: Revert "Write non-dangling outputs to file"
 - 2020-10-13 pbuehler: Adapt DataInputDirector to the new AO2D file format, which includes a subdirectory TF_%d per time frame
-- 2020-10-14 aalkin: DPL Analysis: tutorial task demonstrating configurable-wrapped class
 - 2020-10-14 davidrohr: Add missing include for ROOT 6.22
 - 2020-10-14 jgrosseo: fix alien reading
 - 2020-10-14 knopers8: DPL: A method to check if one InputSpec includes other
@@ -30,5 +29,6 @@
 - 2020-10-18 mkruegerGitHub: TrackQA: use HistogramRegistry
 - 2020-10-19 ktf: DPL: add tracking of AOD messages created / destroyed.
 - 2020-10-19 ktf: DPL: improve metrics for arrow messages
+- 2020-10-20 aalkin: DPL Analysis: use index-builder similar to aod-spawner for predefined index tables
 - 2020-10-20 knopers8: [QC-450] Allow for output proxy channels which aren't "downstream"
 - 2020-10-20 ktf: DPL: add Lifetime::Signal to trigger processing on a signal
