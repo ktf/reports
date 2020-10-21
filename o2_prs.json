@@ -4,70 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Correct noise treatment for duplicated channels. Introduced geographical mapping of autotrigger bits",
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/BCData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/BCData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/ChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/CreateSimCondition.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-10-09T09:29:15Z",
             "title": "Fix code-formatting workflow",
@@ -5581,6 +5517,35 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Change ITS/MFT GBT data ERRORCHECK, new error for unknown GBT word",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DecodingStat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
                   }
                 }
               ]
