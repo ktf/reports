@@ -30,3 +30,4 @@
 - 2020-10-20 ktf: DPL: add Lifetime::Signal to trigger processing on a signal
 - 2020-10-21 mkruegerGitHub: HistogramRegistry: allow for grouping of histograms in output file
 - 2020-10-21 mkruegerGitHub: HistogramRegistry: write output into (sub-)directories
+- 2020-10-21 pbuehler: Update of AOD reader / writer
