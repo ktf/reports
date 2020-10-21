@@ -28,3 +28,4 @@
 - 2020-10-20 jgrosseo: Revert "DPL Analysis: use index-builder similar to aod-spawner for pr…
 - 2020-10-20 knopers8: [QC-450] Allow for output proxy channels which aren't "downstream"
 - 2020-10-20 ktf: DPL: add Lifetime::Signal to trigger processing on a signal
+- 2020-10-21 mkruegerGitHub: HistogramRegistry: allow for grouping of histograms in output file
