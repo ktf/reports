@@ -5,11 +5,6 @@
 - v5-09-02l-01: Done on 2020-10-20.
 - v5-09-20q-01: Done on 2020-10-20.
 ## Recent developments in O2 framework
-- 2020-10-13 ekryshen: Run2V0 replaced with FV0A and FV0C
-- 2020-10-13 jgrosseo: enabling covariance on muons
-- 2020-10-13 ktf: DPL Analysis: send prebuilt tables on finalise, not postRun
-- 2020-10-13 ktf: Revert "Write non-dangling outputs to file"
-- 2020-10-13 pbuehler: Adapt DataInputDirector to the new AO2D file format, which includes a subdirectory TF_%d per time frame
 - 2020-10-14 davidrohr: Add missing include for ROOT 6.22
 - 2020-10-14 jgrosseo: fix alien reading
 - 2020-10-14 knopers8: DPL: A method to check if one InputSpec includes other
