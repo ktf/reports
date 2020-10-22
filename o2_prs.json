@@ -5,84 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-10T07:43:57Z",
-            "title": "Analysis: update multiplicity table producer to use current features",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/multiplicityTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Zdc dev Correct noise treatment for duplicated channels. Introduced geographical mapping of autotrigger bits",
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/BCData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/BCData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/ChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-10T14:09:49Z",
             "title": "[EMCAL-515] Use signed type for time calib values",
             "author": {
@@ -2356,6 +2278,51 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/EVE/DisplayEventsComp.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckDigits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckTopologies.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/test/DisplayTrack.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/reconstruction/include/ITSReconstruction/CookedTracker.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/ITS/reconstruction/include/ITSReconstruction/RecoGeomHelper.h"
                   }
                 },
@@ -2771,11 +2738,6 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/Common/GPUCommonMath.h"
                   }
                 },
@@ -2792,46 +2754,6 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingCondition.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingPolicy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/DataSamplingPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/test/test_DataSampling.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/test/test_DataSamplingPolicy.cxx"
                   }
                 },
                 {
@@ -4393,8 +4315,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T07:50:23Z",
             "title": "[QC-447] Allow to specify OutputSpecs of DataSamplingPolicies",
             "author": {
               "login": "knopers8"
@@ -5561,6 +5483,59 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/FDDDigitWriterSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL GUI: add support for latest ImGUI",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDebugger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve metric creation",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceMetricsInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceMetricsInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DeviceMetricsInfo.cxx"
                   }
                 }
               ]
