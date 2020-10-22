@@ -5,54 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-10T14:09:49Z",
-            "title": "[EMCAL-515] Use signed type for time calib values",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/TimeCalibrationParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/src/TimeCalibrationParams.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Analysis: update event selection task to current features",
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-10T14:18:37Z",
             "title": "Dev zdcmap - Geographical mapping of autotrigger bits and correct treatment of noise of duplicate channels",
             "author": {
@@ -3120,12 +3072,17 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[TEST - Don't merge] Add class for TPC refit",
+            "title": "Add class for TPC refit",
             "author": {
               "login": "davidrohr"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
@@ -3203,7 +3160,17 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
                   }
                 },
                 {
@@ -3652,8 +3619,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T09:11:51Z",
             "title": "Analysis: make readability-braces-around-statements happy",
             "author": {
               "login": "anerokhi"
@@ -4013,8 +3980,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T09:25:07Z",
             "title": "DataFormats: make readability-braces-around-statements happy",
             "author": {
               "login": "anerokhi"
@@ -5536,6 +5503,44 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_DeviceMetricsInfo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve class checkin handling",
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/TreeStream.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T09:10:58Z",
+            "title": "Add missing include again",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataInputDirector.cxx"
                   }
                 }
               ]
