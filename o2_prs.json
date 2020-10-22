@@ -5,103 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-09T17:24:06Z",
-            "title": "Add some checks to TPC workflow and remove obsolete code",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-10T07:43:11Z",
-            "title": "Update tutorial for ccdb/timestamp access",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/ccdbaccess.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-13T07:57:28Z",
-            "title": "TPC Workflow: Fix TPC Completion Policy",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CATrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCSectorCompletionPolicy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-raw-to-digits-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-10T07:42:40Z",
             "title": "PWGHF: Adjust names of HF-related files and variables. Move trackUtilities.h to Analysis/Core. Split histograms.",
             "author": {
@@ -2074,8 +1977,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T18:14:26Z",
             "title": "O2-1702 [math_utils] refactor and extend o2::mathutils",
             "author": {
               "login": "MichaelLettrich"
@@ -5372,8 +5275,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T17:40:25Z",
             "title": "DPL GUI: add support for latest ImGUI",
             "author": {
               "login": "ktf"
@@ -5741,6 +5644,123 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-10-22T18:15:01Z",
+            "title": "Temporary fix to make new math utils compatible to QC",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelReader.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "revert temporary changes that were required to keep new math_utils compatible to QC",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelReader.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: make readability-braces-around-statements happy",
+            "author": {
+              "login": "anerokhi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/SplineHelper1D.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/devtools/IrregularSpline1D.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/devtools/IrregularSpline2D3D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/devtools/IrregularSpline2D3DCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/devtools/RegularSpline1D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/FlatObject.h"
                   }
                 }
               ]

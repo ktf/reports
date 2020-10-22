@@ -25,4 +25,6 @@
 - 2020-10-21 mkruegerGitHub: HistogramRegistry: allow for grouping of histograms in output file
 - 2020-10-21 mkruegerGitHub: HistogramRegistry: write output into (sub-)directories
 - 2020-10-21 pbuehler: Update of AOD reader / writer
+- 2020-10-22 MichaelLettrich: O2-1702 [math_utils] refactor and extend o2::mathutils
 - 2020-10-22 davidrohr: Add missing include again
+- 2020-10-22 ktf: DPL GUI: add support for latest ImGUI
