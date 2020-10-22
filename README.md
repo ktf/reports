@@ -1,6 +1,7 @@
 ## Recent releases to AliPhysics
 - v5-09-02l-01: Done on 2020-10-20.
 - v5-09-20q-01: Done on 2020-10-20.
+- v5-09-56a-01: Done on 2020-10-22.
 ## Recent developments in O2 framework
 - 2020-10-15 ktf: DPL Analysis: rework TableToTree
 - 2020-10-15 ktf: DPL: add metadata to InputSpec
