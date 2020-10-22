@@ -28,3 +28,4 @@
 - 2020-10-22 MichaelLettrich: O2-1702 [math_utils] refactor and extend o2::mathutils
 - 2020-10-22 davidrohr: Add missing include again
 - 2020-10-22 ktf: DPL GUI: add support for latest ImGUI
+- 2020-10-22 ktf: DPL: fix parsing of inputspec metadata
