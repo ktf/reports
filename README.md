@@ -26,3 +26,4 @@
 - 2020-10-22 davidrohr: Add missing include again
 - 2020-10-22 ktf: DPL GUI: add support for latest ImGUI
 - 2020-10-22 ktf: DPL: fix parsing of inputspec metadata
+- 2020-10-23 aalkin: DPL Analysis: re-introduce index-builder after fix for input metadata

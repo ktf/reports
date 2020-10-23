@@ -4,69 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-13T21:13:48Z",
-            "title": "Adapt DataInputDirector to the new AO2D file format, which includes a subdirectory TF_%d per time frame",
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataInputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataInputDirector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-19T09:10:41Z",
-            "title": "[QC-428] Standalone Data Sampling executable",
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/dataSamplingStandalone.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "V0 finder + related workflows and fixes",
@@ -4639,8 +4576,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T13:44:26Z",
             "title": "Force tree to have N entries consistent with that of branches",
             "author": {
               "login": "shahor02"
@@ -5344,6 +5281,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/simulation/macro/createResidualDistortionObject.C"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TPC/simulation/test/testTPCSimulation.cxx"
                   }
                 },
@@ -5373,8 +5315,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T14:02:07Z",
             "title": "DPL Analysis: re-introduce index-builder after fix for input metadata",
             "author": {
               "login": "aalkin"
@@ -5432,8 +5374,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T14:04:06Z",
             "title": "GPU: Add chi2 output to refit",
             "author": {
               "login": "davidrohr"
@@ -5485,8 +5427,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T13:36:43Z",
             "title": "taskwrapper: catch assertion failed",
             "author": {
               "login": "sawenzel"
@@ -5496,6 +5438,64 @@
                 {
                   "node": {
                     "path": "Utilities/Tools/jobutils.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Misc fixes toward rate limiting",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceMetricsInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceMetricsInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDebugger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DeviceMetricsInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add new plots for QA task",
+            "author": {
+              "login": "hzanoli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/qaTask.cxx"
                   }
                 }
               ]
