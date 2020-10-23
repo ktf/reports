@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-13T21:10:55Z",
-            "title": "Run2V0 replaced with FV0A and FV0C",
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/aodDataModelGraph.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/eventSelectionQa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/multiplicityTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/ZDCVZeroIteration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-12T12:27:00Z",
             "title": "Drop clang-format checker from travis.",
             "author": {
@@ -5358,7 +5314,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Test] Make more parts of TrackParCov and Propagator compatible to GPU",
+            "title": "Make more parts of TrackParCov and Propagator compatible to GPU",
             "author": {
               "login": "davidrohr"
             },
@@ -5376,7 +5332,17 @@
                 },
                 {
                   "node": {
+                    "path": "Common/MathUtils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/CartesianGPU.h"
                   }
                 },
                 {
@@ -5486,6 +5452,40 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add chi2 output to refit",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/runTPCRefit.C"
                   }
                 }
               ]
