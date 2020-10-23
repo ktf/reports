@@ -27,3 +27,5 @@
 - 2020-10-22 ktf: DPL GUI: add support for latest ImGUI
 - 2020-10-22 ktf: DPL: fix parsing of inputspec metadata
 - 2020-10-23 aalkin: DPL Analysis: re-introduce index-builder after fix for input metadata
+- 2020-10-23 davidrohr: Fix integer trancation of payload size to 32 bits
+- 2020-10-23 ktf: Misc fixes toward rate limiting

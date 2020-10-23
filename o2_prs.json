@@ -5,65 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-12T17:59:22Z",
-            "title": "Analysis: speed up PID",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/PIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PID/PIDTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/PIDBase/DetectorResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/DetectorResponse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/PIDTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/PIDTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-13T11:42:11Z",
             "title": "enabling covariance on muons",
             "author": {
@@ -5287,8 +5228,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T21:14:42Z",
             "title": "Misc fixes toward rate limiting",
             "author": {
               "login": "ktf"
@@ -5361,6 +5302,25 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/SliceTracker/GPUTPCTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-10-23T21:25:03Z",
+            "title": "Fix integer trancation of payload size to 32 bits",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
                   }
                 }
               ]
