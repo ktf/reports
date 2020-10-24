@@ -3,12 +3,6 @@
 - v5-09-20q-01: Done on 2020-10-20.
 - v5-09-56a-01: Done on 2020-10-22.
 ## Recent developments in O2 framework
-- 2020-10-16 aalkin: DPL Analysis: protect expression application from empty table
-- 2020-10-16 jgrosseo: fixing double delete
-- 2020-10-16 jgrosseo: tables for run 3 matcher
-- 2020-10-16 ktf: DPL Analysis: use "Consume" as a policy for AOD writer
-- 2020-10-16 ktf: DPL: use Framework/RuntimeError helpers throughout the framework
-- 2020-10-16 pbuehler: Writes time frames into directories TF_%d of same file
 - 2020-10-17 jgrosseo: fix for alien connection (will be updated by new reader)
 - 2020-10-17 mkruegerGitHub: HistogramRegistry: add support for all root histogram types
 - 2020-10-18 ktf: DPL: introduce metric observer callback
