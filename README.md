@@ -21,3 +21,5 @@
 - 2020-10-23 ktf: Misc fixes toward rate limiting
 - 2020-10-24 davidrohr: Add option for shm-segment-id
 - 2020-10-24 mkruegerGitHub: HistogramRegistry: several new features
+- 2020-10-26 mkruegerGitHub: HistogramRegistry: improve output sorting
+- 2020-10-26 pbuehler: Enable reader / writer to use TF numbers consistently in input / output
