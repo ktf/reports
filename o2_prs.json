@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-14T14:04:10Z",
-            "title": "DPL: A method to check if one InputSpec includes other",
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSpecUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-13T19:27:52Z",
-            "title": "Update to TPC spectra task and added PID QA plots to PID tasks",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-14T11:46:43Z",
             "title": "Added T0 timing and multiplicity",
             "author": {
@@ -1695,31 +1632,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPhysicalTrackModel.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
                   }
                 }
@@ -2936,7 +2848,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
+                    "path": "Framework/Core/include/Framework/ArrowContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonMessageBackends.h"
                   }
                 },
                 {
@@ -2946,17 +2863,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/DeviceState.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Lifetime.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/include/Framework/ServiceSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
                   }
                 },
                 {
@@ -2966,7 +2878,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessor.cxx"
                   }
                 },
                 {
@@ -2976,7 +2893,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                    "path": "Framework/Core/src/DriverInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FrameworkGUIDebugger.cxx"
                   }
                 },
                 {
@@ -3137,6 +3059,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexParams.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Calibration/src/DetectorsCalibrationLinkDef.h"
                   }
                 },
@@ -3148,6 +3075,11 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/src/MeanVertexData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexParams.cxx"
                   }
                 },
                 {
@@ -5411,6 +5343,69 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-10-26T14:07:32Z",
+            "title": "Simple GRID submission tool",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/grid_submit.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Default TPC compression track model implemented",
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPhysicalTrackModel.cxx"
                   }
                 }
               ]
