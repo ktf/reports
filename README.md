@@ -3,8 +3,6 @@
 - v5-09-20q-01: Done on 2020-10-20.
 - v5-09-56a-01: Done on 2020-10-22.
 ## Recent developments in O2 framework
-- 2020-10-19 ktf: DPL: add tracking of AOD messages created / destroyed.
-- 2020-10-19 ktf: DPL: improve metrics for arrow messages
 - 2020-10-20 aalkin: DPL Analysis: use index-builder similar to aod-spawner for predefined index tables
 - 2020-10-20 jgrosseo: Revert "DPL Analysis: use index-builder similar to aod-spawner for pr…
 - 2020-10-20 knopers8: [QC-450] Allow for output proxy channels which aren't "downstream"
