@@ -21,3 +21,4 @@
 - 2020-10-24 mkruegerGitHub: HistogramRegistry: several new features
 - 2020-10-26 mkruegerGitHub: HistogramRegistry: improve output sorting
 - 2020-10-26 pbuehler: Enable reader / writer to use TF numbers consistently in input / output
+- 2020-10-27 ktf: DPL: initial attempt at rate limiting.
