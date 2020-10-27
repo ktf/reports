@@ -5,79 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-14T18:57:29Z",
-            "title": "DPL Foundation: add own runtime_error.",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Foundation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/RuntimeError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/src/RuntimeError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/test/test_RuntimeError.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-16T08:52:02Z",
-            "title": "Writes time frames into directories TF_%d of same file",
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataInputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataOutputDirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-15T09:43:16Z",
             "title": "adapt ClusterNativeHelper file reading to new data structures for clusters and MC",
             "author": {
@@ -5501,6 +5428,49 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/tpcits-match-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix: libfmt does not allow non-void* ptrs, triggers assertion",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGCF/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix compiler warnings (implicit signed/unsigned cast / irrelevant const specifier)",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/ConstMCTruthContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTruthContainer.h"
                   }
                 }
               ]
