@@ -4,63 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD initial compressed header.",
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/CompressedHeader.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-15T11:05:16Z",
-            "title": "Don't git fetch --unshallow, as we've already got a full clone",
-            "author": {
-              "login": "TimoWilken"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/code-formatting.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-15T14:30:12Z",
-            "title": "DPL: exit only the relevant devices when writing is complete.",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-10-19T14:42:26Z",
             "title": "[QC-338] Facilitate creating a Dispatcher without configuration files",
@@ -737,7 +680,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "new interface for 1D and 2D splines, ND splines",
+            "title": "[WIP] new interface for 1D and 2D splines, ND splines",
             "author": {
               "login": "sgorbuno"
             },
@@ -5216,6 +5159,113 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/display/GPUDisplayKeys.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Port TPC Rejection MC study code to Run 3 MCTruthContainer",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCCompLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/display/GPUDisplayKeys.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/qa/GPUQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Script for the full system test",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "enable input file names with leading \"file://\"",
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataInputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataInputDirector.cxx"
                   }
                 }
               ]
