@@ -18,3 +18,5 @@
 - 2020-10-26 mkruegerGitHub: HistogramRegistry: improve output sorting
 - 2020-10-26 pbuehler: Enable reader / writer to use TF numbers consistently in input / output
 - 2020-10-27 ktf: DPL: initial attempt at rate limiting.
+- 2020-10-28 ktf: DPL: fix persisting ROOT serialised options (O2-1690)
+- 2020-10-28 ktf: DPL: fix test for ConfigurationOptionsRetriever on macOS
