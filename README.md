@@ -19,3 +19,5 @@
 - 2020-10-27 ktf: DPL: initial attempt at rate limiting.
 - 2020-10-28 ktf: DPL: fix persisting ROOT serialised options (O2-1690)
 - 2020-10-28 ktf: DPL: fix test for ConfigurationOptionsRetriever on macOS
+- 2020-10-28 mkruegerGitHub: HistogramRegistry: add sanity check for histogram names
+- 2020-10-28 pbuehler: Enable using file names with leading file://
