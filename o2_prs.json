@@ -4,35 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: improve ability to forward messages to an output",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_WorkflowHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-10-17T06:43:40Z",
             "title": "Overload InputSpecsForPolicy with shared_ptr",
@@ -4546,8 +4517,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-28T20:55:41Z",
             "title": "Port TPC Rejection MC study code to Run 3 MCTruthContainer",
             "author": {
               "login": "davidrohr"
@@ -4686,8 +4657,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-10-28T21:06:45Z",
             "title": "Fix in material LUT step sign definition",
             "author": {
               "login": "shahor02"
@@ -4776,6 +4747,25 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use simple TF counter in CTF name instead of 1st TF orbit",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
