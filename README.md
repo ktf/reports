@@ -17,4 +17,5 @@
 - 2020-10-29 ktf: DPL: avoid concurrent access to mPendingRegionInfos
 - 2020-10-29 vkucera: PWGHF: Add MC matching.
 - 2020-10-30 jgrosseo: different formatting of severe error summary
+- 2020-10-30 mkruegerGitHub: HistogramRegistry: provide some rough size estimates for the histograms
 - 2020-10-30 njacazio: Extend QA task, fix MC particles eta
