@@ -1,7 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-10-24 davidrohr: Add option for shm-segment-id
-- 2020-10-24 mkruegerGitHub: HistogramRegistry: several new features
 - 2020-10-26 mkruegerGitHub: HistogramRegistry: improve output sorting
 - 2020-10-26 pbuehler: Enable reader / writer to use TF numbers consistently in input / output
 - 2020-10-28 ktf: DPL: fix persisting ROOT serialised options (O2-1690)
