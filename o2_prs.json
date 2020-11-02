@@ -5,70 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-21T06:36:20Z",
-            "title": "Split track extension and selection",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/TrackSelectionDefaults.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/TrackSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/ALICE3/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/ALICE3/alice3-trackselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackextension.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/trackselection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-27T08:10:55Z",
             "title": "fill method with variable arguments",
             "author": {
@@ -4395,6 +4331,40 @@
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "removing obsolete matcher tasks",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/run2Matcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/run3Matcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/ZDCVZeroIteration.cxx"
                   }
                 }
               ]
