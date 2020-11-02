@@ -14,3 +14,5 @@
 - 2020-10-30 njacazio: Extend QA task, fix MC particles eta
 - 2020-11-01 ktf: DPL: hopefully fix current CPU detection
 - 2020-11-01 ktf: Improve debugging abilities
+- 2020-11-02 mkruegerGitHub: HistogramRegistry: add print function
+- 2020-11-02 saganatt: Merged hist and output obj sinks
