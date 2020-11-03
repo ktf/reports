@@ -1,8 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-10-26 mkruegerGitHub: HistogramRegistry: improve output sorting
-- 2020-10-26 pbuehler: Enable reader / writer to use TF numbers consistently in input / output
 - 2020-10-28 ktf: DPL: fix persisting ROOT serialised options (O2-1690)
 - 2020-10-28 ktf: DPL: fix test for ConfigurationOptionsRetriever on macOS
 - 2020-10-28 mkruegerGitHub: HistogramRegistry: add sanity check for histogram names
