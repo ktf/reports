@@ -17,3 +17,4 @@
 - 2020-11-02 mkruegerGitHub: HistogramRegistry: remove fillWeight
 - 2020-11-02 saganatt: Merged hist and output obj sinks
 - 2020-11-03 jgrosseo: moving StepTHn to AnalysisTools folder
+- 2020-11-03 sy-c: removed obsolete DataBlock references
