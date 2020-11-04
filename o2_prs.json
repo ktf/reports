@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-22T18:15:01Z",
-            "title": "Temporary fix to make new math utils compatible to QC",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelReader.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-23T20:14:27Z",
             "title": "revert temporary changes that were required to keep new math_utils compatible to QC",
             "author": {
@@ -4855,6 +4836,45 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/HistogramRegistry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix digit sorting",
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/LinkRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/DataFormatsTRDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/LinkRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
                   }
                 }
               ]
