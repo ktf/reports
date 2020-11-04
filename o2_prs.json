@@ -6,95 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "WIP ZDC Digits2raw",
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RawEventData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/BCData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/RawEventData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digits2Raw.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/raw-parser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Raw data and CTF for FDD",
             "author": {
               "login": "mbroz84"
@@ -4086,11 +3997,6 @@
                   "node": {
                     "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.h"
                   }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
                 }
               ]
             }
@@ -4950,8 +4856,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-04T08:31:41Z",
             "title": "DPL: improve rate limit",
             "author": {
               "login": "ktf"
@@ -5005,6 +4911,40 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-471] Do not create a Dispatcher if there are no policies",
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
                   }
                 }
               ]
