@@ -1,10 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-10-28 ktf: DPL: fix persisting ROOT serialised options (O2-1690)
-- 2020-10-28 ktf: DPL: fix test for ConfigurationOptionsRetriever on macOS
-- 2020-10-28 mkruegerGitHub: HistogramRegistry: add sanity check for histogram names
-- 2020-10-28 pbuehler: Enable using file names with leading file://
 - 2020-10-29 aalkin: DPL Analysis: fix for bool serialization from structs and example update
 - 2020-10-29 ktf: DPL: avoid concurrent access to mPendingRegionInfos
 - 2020-10-29 vkucera: PWGHF: Add MC matching.
