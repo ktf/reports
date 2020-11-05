@@ -16,4 +16,5 @@
 - 2020-11-03 sy-c: removed obsolete DataBlock references
 - 2020-11-04 ktf: DPL: improve rate limit
 - 2020-11-04 pbuehler: Update CompletionPolicy of internal-dpl-aod-writer
+- 2020-11-05 aalkin: DPL: Add array support to Variant
 - 2020-11-05 mkruegerGitHub: HistogramRegistry: add function to check if name is already used
