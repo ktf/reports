@@ -17,3 +17,4 @@
 - 2020-11-05 ktf: DPL: make ProcessingContext forward declare its contents
 - 2020-11-05 mkruegerGitHub: HistogramRegistry: add function to check if name is already used
 - 2020-11-05 pzhristov: Include what is needed (Root 6.23.01)
+- 2020-11-06 ktf: DPL GUI: allow attaching more than one debugger
