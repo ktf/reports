@@ -1,9 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-10-29 aalkin: DPL Analysis: fix for bool serialization from structs and example update
-- 2020-10-29 ktf: DPL: avoid concurrent access to mPendingRegionInfos
-- 2020-10-29 vkucera: PWGHF: Add MC matching.
 - 2020-10-30 jgrosseo: different formatting of severe error summary
 - 2020-10-30 mkruegerGitHub: HistogramRegistry: provide some rough size estimates for the histograms
 - 2020-10-30 njacazio: Extend QA task, fix MC particles eta
