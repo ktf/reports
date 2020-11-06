@@ -5,88 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-24T21:02:49Z",
-            "title": "Add option for shm-segment-id",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToDDS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-24T22:08:35Z",
-            "title": "Allow skipping MC in MID ditis reader and do this in DigitsToRawWorkflow",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/DigitReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DigitsToRawWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/RawWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/RecoWorkflowMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-24T11:30:24Z",
-            "title": "taskwrapper: simple mechanism to allow task skipping",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/Tools/jobutils.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-26T10:10:10Z",
             "title": "TRD: Fix trigger records (digitizer), and MC step size (hits)",
             "author": {
@@ -4815,6 +4733,88 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/PostLS4/IT4/simulation/src/V3Services.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Include multi-pixel clusters into the noise calibration",
+            "author": {
+              "login": "iouribelikov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/ClusterPattern.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/TopologyDictionary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/TopologyDictionary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/Calib/MakeNoiseMapFromClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-11-06T12:29:52Z",
+            "title": "Rename MID option to use the name parameter name as other detectors",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix full-system-test benchmark after change in MID workflow",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
                   }
                 }
               ]
