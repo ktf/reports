@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-26T10:10:10Z",
-            "title": "TRD: Fix trigger records (digitizer), and MC step size (hits)",
-            "author": {
-              "login": "jolopezl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/Digit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/analyzeDigitLabels.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-24T22:02:08Z",
-            "title": "Add fixed margin to projected size of rANS encoder output",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-25T21:07:35Z",
             "title": "option to disable MID tracks output to root file",
             "author": {
@@ -4804,8 +4741,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-06T12:43:32Z",
             "title": "Fix full-system-test benchmark after change in MID workflow",
             "author": {
               "login": "davidrohr"
@@ -4815,6 +4752,49 @@
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Better cleanup in taskwrapper: Avoid leaving behind dev/shm segments",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC Workflow: Fix workflow in case creating only clusters but no tracs with ca-clusterer",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
                   }
                 }
               ]
