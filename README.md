@@ -1,9 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-10-30 jgrosseo: different formatting of severe error summary
-- 2020-10-30 mkruegerGitHub: HistogramRegistry: provide some rough size estimates for the histograms
-- 2020-10-30 njacazio: Extend QA task, fix MC particles eta
 - 2020-11-01 ktf: DPL: hopefully fix current CPU detection
 - 2020-11-01 ktf: Improve debugging abilities
 - 2020-11-02 mkruegerGitHub: HistogramRegistry: add print function
