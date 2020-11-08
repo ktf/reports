@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-28T07:56:49Z",
-            "title": "fixing nsigma return in D0 selection",
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFD0CandidateSelector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-28T16:25:47Z",
             "title": "Fill TPC vdrift calib info during TPC/ITS matching if requested, + related",
             "author": {
@@ -4403,6 +4384,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckTopologies.C"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/ITS/reconstruction/src/CookedTracker.cxx"
                   }
                 },
@@ -5260,6 +5246,25 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/entropy-encoder-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-11-08T19:10:47Z",
+            "title": "full_system_test: Remove spurious symbol",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
                   }
                 }
               ]
