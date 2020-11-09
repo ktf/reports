@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-28T20:55:41Z",
-            "title": "Port TPC Rejection MC study code to Run 3 MCTruthContainer",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCCompLabel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/display/GPUDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/qa/GPUQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/qa/GPUQA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-28T13:11:56Z",
             "title": "Script for the full system test",
             "author": {
@@ -5165,6 +5121,30 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added MC events to min/max glob. BC finder",
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
