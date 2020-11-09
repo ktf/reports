@@ -16,3 +16,4 @@
 - 2020-11-06 ktf: DPL GUI: allow attaching more than one debugger
 - 2020-11-06 ktf: DPL: keep running when in EOF
 - 2020-11-06 ktf: DPL: use enum for AOD dumping logic
+- 2020-11-09 ktf: DPL: do not invoke end of stream for pipe devices
