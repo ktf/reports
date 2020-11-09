@@ -1,8 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-11-01 ktf: DPL: hopefully fix current CPU detection
-- 2020-11-01 ktf: Improve debugging abilities
 - 2020-11-02 mkruegerGitHub: HistogramRegistry: add print function
 - 2020-11-02 mkruegerGitHub: HistogramRegistry: remove fillWeight
 - 2020-11-02 saganatt: Merged hist and output obj sinks
