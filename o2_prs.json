@@ -5,44 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-28T06:57:48Z",
-            "title": "DPL: fix persisting ROOT serialised options (O2-1690)",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-28T06:57:11Z",
-            "title": "DPL: fix test for ConfigurationOptionsRetriever on macOS",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ConfigurationOptionsRetriever.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-28T19:44:26Z",
             "title": "Add plot of track length to trackqa task",
             "author": {
@@ -5119,8 +5081,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-09T11:16:06Z",
             "title": "GPU: Reject tracks with too large fraction of ignored clusters",
             "author": {
               "login": "davidrohr"
@@ -5130,6 +5092,54 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: do not invoke end of stream for pipe devices",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add Dplus variables and histograms",
+            "author": {
+              "login": "fcatalan92"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskDPlus.cxx"
                   }
                 }
               ]
