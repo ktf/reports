@@ -5,30 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-28T08:38:55Z",
-            "title": "Fix compiler warnings (implicit signed/unsigned cast / irrelevant const specifier)",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/ConstMCTruthContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTruthContainer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-28T06:57:48Z",
             "title": "DPL: fix persisting ROOT serialised options (O2-1690)",
             "author": {
@@ -5105,8 +5081,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-09T09:15:04Z",
             "title": "Suppress TOF ctf input mode: digits input will be provided by CTFreader w-flow",
             "author": {
               "login": "shahor02"
@@ -5135,6 +5111,25 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Reject tracks with too large fraction of ignored clusters",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
                   }
                 }
               ]
