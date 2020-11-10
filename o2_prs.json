@@ -3119,8 +3119,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-10T12:21:47Z",
             "title": "[QC-471] Do not create a Dispatcher if there are no policies",
             "author": {
               "login": "knopers8"
@@ -4959,7 +4959,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add timers for MFT and FT0 reco. workflows",
+            "title": "Add timers for MFT, FT0, TPC reco. workflows",
             "author": {
               "login": "shahor02"
             },
@@ -4983,6 +4983,21 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/EntropyDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyDecoderSpec.cxx"
                   }
                 }
               ]
