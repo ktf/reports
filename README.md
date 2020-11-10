@@ -15,3 +15,4 @@
 - 2020-11-06 ktf: DPL: use enum for AOD dumping logic
 - 2020-11-09 ktf: DPL: do not invoke end of stream for pipe devices
 - 2020-11-09 ktf: DPL: variable names should be camel-cased, starting with lowercase
+- 2020-11-10 ktf: DPL: do proper ZMQ polling to avoid deadlocking
