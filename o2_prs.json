@@ -3482,27 +3482,12 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "HistogramRegistry: hash histogram names at compile-time",
+            "title": "HistogramRegistry: enable compile-time hasing of hist names",
             "author": {
               "login": "mkruegerGitHub"
             },
             "files": {
               "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC.cxx"
-                  }
-                },
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/HistogramRegistry.h"
@@ -3511,6 +3496,11 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
                   }
                 }
               ]
