@@ -5,59 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-10-29T12:56:48Z",
-            "title": "Run full system test in CPU+GPU mode",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-10-29T21:41:50Z",
-            "title": "PWGHF: Add MC matching.",
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/RecoDecay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-29T21:40:19Z",
             "title": "Make the return type explicit.",
             "author": {
@@ -5275,6 +5222,44 @@
                 {
                   "node": {
                     "path": "Analysis/DataModel/include/Analysis/TrackSelectionTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-11-11T20:57:45Z",
+            "title": "DPL: fix naming for internal-dpl-***aod***-index-builder",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-11-11T20:59:48Z",
+            "title": "Revert \"DPL: keep polling when one EoS received\"",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
