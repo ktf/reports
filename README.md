@@ -14,3 +14,4 @@
 - 2020-11-09 ktf: DPL: variable names should be camel-cased, starting with lowercase
 - 2020-11-10 ktf: DPL: do proper ZMQ polling to avoid deadlocking
 - 2020-11-10 ktf: DPL: keep polling when one EoS received
+- 2020-11-11 anerokhi: Residuals: make readability-braces-around-statements happy
