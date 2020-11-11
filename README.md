@@ -1,7 +1,6 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
 - 2020-11-04 ktf: DPL: improve rate limit
-- 2020-11-04 pbuehler: Update CompletionPolicy of internal-dpl-aod-writer
 - 2020-11-05 aalkin: DPL: Add array support to Variant
 - 2020-11-05 ktf: DPL: make ProcessingContext forward declare its contents
 - 2020-11-05 mkruegerGitHub: HistogramRegistry: add function to check if name is already used
