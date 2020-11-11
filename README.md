@@ -1,8 +1,5 @@
 ## Recent releases to AliPhysics
-- v5-09-56b-01: Done on 2020-11-02.
 ## Recent developments in O2 framework
-- 2020-11-03 jgrosseo: moving StepTHn to AnalysisTools folder
-- 2020-11-03 sy-c: removed obsolete DataBlock references
 - 2020-11-04 ktf: DPL: improve rate limit
 - 2020-11-04 pbuehler: Update CompletionPolicy of internal-dpl-aod-writer
 - 2020-11-05 aalkin: DPL: Add array support to Variant
