@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-01T07:40:55Z",
-            "title": "Improve debugging abilities",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonMessageBackends.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FrameworkGUIDebugger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ResourcesMonitoringHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ResourcesMonitoringHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-10-29T18:10:39Z",
             "title": "DPL: avoid concurrent access to mPendingRegionInfos",
             "author": {
@@ -3281,6 +3237,21 @@
                   "node": {
                     "path": "GPU/GPUTracking/GPUTrackingLinkDef_O2.h"
                   }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/macros/run_trd_tracker.C"
+                  }
                 }
               ]
             }
@@ -5155,8 +5126,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-11T10:52:17Z",
             "title": "Provide TPC Tracking QA to QC (Part 1)",
             "author": {
               "login": "davidrohr"
@@ -5280,6 +5251,30 @@
                 {
                   "node": {
                     "path": "CCDB/test/testCcdbApi_alien.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adjust to production CCDB",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/efficiencyGlobal.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/efficiencyPerRun.cxx"
                   }
                 }
               ]
