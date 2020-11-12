@@ -1,4 +1,6 @@
 ## Recent releases to AliPhysics
+- v5-09-20r-01: Done on 2020-11-12.
+- v5-09-24i-01: Done on 2020-11-12.
 ## Recent developments in O2 framework
 - 2020-11-05 aalkin: DPL: Add array support to Variant
 - 2020-11-05 ktf: DPL: make ProcessingContext forward declare its contents
