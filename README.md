@@ -15,3 +15,4 @@
 - 2020-11-11 anerokhi: Residuals: make readability-braces-around-statements happy
 - 2020-11-11 ktf: DPL: fix naming for internal-dpl-***aod***-index-builder
 - 2020-11-11 ktf: Revert "DPL: keep polling when one EoS received"
+- 2020-11-12 ktf: DPL: fix name of global-analysis-file-sink
