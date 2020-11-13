@@ -16,3 +16,4 @@
 - 2020-11-12 ktf: DPL: consider internal-dpl-injected devices as real devices
 - 2020-11-12 ktf: DPL: fix name of global-analysis-file-sink
 - 2020-11-12 ktf: DPL: improve DataSpecUtils
+- 2020-11-13 vfeuilla: Small Updates for dimuon analysis
