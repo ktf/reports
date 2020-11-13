@@ -1,6 +1,7 @@
 ## Recent releases to AliPhysics
 - v5-09-20r-01: Done on 2020-11-12.
 - v5-09-24i-01: Done on 2020-11-12.
+- v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
 - 2020-11-06 ktf: DPL Analysis: do not write to disk TFN output.
 - 2020-11-06 ktf: DPL GUI: allow attaching more than one debugger
