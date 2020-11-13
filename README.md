@@ -2,10 +2,6 @@
 - v5-09-20r-01: Done on 2020-11-12.
 - v5-09-24i-01: Done on 2020-11-12.
 ## Recent developments in O2 framework
-- 2020-11-05 aalkin: DPL: Add array support to Variant
-- 2020-11-05 ktf: DPL: make ProcessingContext forward declare its contents
-- 2020-11-05 mkruegerGitHub: HistogramRegistry: add function to check if name is already used
-- 2020-11-05 pzhristov: Include what is needed (Root 6.23.01)
 - 2020-11-06 ktf: DPL Analysis: do not write to disk TFN output.
 - 2020-11-06 ktf: DPL GUI: allow attaching more than one debugger
 - 2020-11-06 ktf: DPL: keep running when in EOF
