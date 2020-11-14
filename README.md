@@ -3,10 +3,6 @@
 - v5-09-24i-01: Done on 2020-11-12.
 - v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
-- 2020-11-06 ktf: DPL Analysis: do not write to disk TFN output.
-- 2020-11-06 ktf: DPL GUI: allow attaching more than one debugger
-- 2020-11-06 ktf: DPL: keep running when in EOF
-- 2020-11-06 ktf: DPL: use enum for AOD dumping logic
 - 2020-11-09 ktf: DPL: do not invoke end of stream for pipe devices
 - 2020-11-09 ktf: DPL: variable names should be camel-cased, starting with lowercase
 - 2020-11-10 ktf: DPL: do proper ZMQ polling to avoid deadlocking
