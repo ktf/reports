@@ -16,3 +16,4 @@
 - 2020-11-13 ktf: DPL: introduce --no-cleanup option to avoid cleaning shared memory
 - 2020-11-13 vfeuilla: Small Updates for dimuon analysis
 - 2020-11-16 Barthelemy: [O2-1749] Forward declare inputrecord
+- 2020-11-16 ktf: DPL: allow GUI to run with an empty workflow
