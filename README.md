@@ -17,4 +17,5 @@
 - 2020-11-16 ktf: DPL: allow GUI to run with an empty workflow
 - 2020-11-17 ktf: DPL: allow multiple workflows in the same session
 - 2020-11-17 ktf: DPL: fix for messages >2GB
+- 2020-11-17 ktf: DPL: misc fixes
 - 2020-11-17 ktf: DPL: workaround cling issue with std::variant
