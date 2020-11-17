@@ -3,8 +3,6 @@
 - v5-09-24i-01: Done on 2020-11-12.
 - v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
-- 2020-11-09 ktf: DPL: do not invoke end of stream for pipe devices
-- 2020-11-09 ktf: DPL: variable names should be camel-cased, starting with lowercase
 - 2020-11-10 ktf: DPL: do proper ZMQ polling to avoid deadlocking
 - 2020-11-10 ktf: DPL: keep polling when one EoS received
 - 2020-11-11 anerokhi: Residuals: make readability-braces-around-statements happy
