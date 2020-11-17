@@ -15,3 +15,4 @@
 - 2020-11-13 vfeuilla: Small Updates for dimuon analysis
 - 2020-11-16 Barthelemy: [O2-1749] Forward declare inputrecord
 - 2020-11-16 ktf: DPL: allow GUI to run with an empty workflow
+- 2020-11-17 ktf: DPL: fix for messages >2GB
