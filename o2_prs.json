@@ -4,25 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add more impact parameter plots for the QA",
-            "author": {
-              "login": "hzanoli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/qaTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-11-05T07:02:21Z",
             "title": "new MCH track format + update of tracking workflows",
@@ -4252,8 +4233,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-17T13:17:27Z",
             "title": "fix AliRoot compilation of splines",
             "author": {
               "login": "sgorbuno"
@@ -4526,6 +4507,45 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/OutputSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve treatment of MID raw data consistency check",
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/QC/exe/raw-checker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/QC/include/MIDQC/GBTRawDataChecker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/QC/include/MIDQC/RawDataChecker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/QC/src/GBTRawDataChecker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/QC/src/RawDataChecker.cxx"
                   }
                 }
               ]
