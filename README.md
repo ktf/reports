@@ -17,4 +17,5 @@
 - 2020-11-17 ktf: DPL: fix for messages >2GB
 - 2020-11-17 ktf: DPL: misc fixes
 - 2020-11-17 ktf: DPL: workaround cling issue with std::variant
+- 2020-11-18 ktf: DPL: Improve partialMatch(OutputSpec...)
 - 2020-11-18 ktf: DPL: more hiding of std::variant from ROOT
