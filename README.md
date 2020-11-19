@@ -3,9 +3,6 @@
 - v5-09-24i-01: Done on 2020-11-12.
 - v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
-- 2020-11-11 anerokhi: Residuals: make readability-braces-around-statements happy
-- 2020-11-11 ktf: DPL: fix naming for internal-dpl-***aod***-index-builder
-- 2020-11-11 ktf: Revert "DPL: keep polling when one EoS received"
 - 2020-11-12 ktf: DPL: consider internal-dpl-injected devices as real devices
 - 2020-11-12 ktf: DPL: fix name of global-analysis-file-sink
 - 2020-11-12 ktf: DPL: improve DataSpecUtils
