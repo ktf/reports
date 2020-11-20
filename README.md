@@ -3,9 +3,6 @@
 - v5-09-24i-01: Done on 2020-11-12.
 - v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
-- 2020-11-12 ktf: DPL: consider internal-dpl-injected devices as real devices
-- 2020-11-12 ktf: DPL: fix name of global-analysis-file-sink
-- 2020-11-12 ktf: DPL: improve DataSpecUtils
 - 2020-11-13 ktf: DPL: introduce --no-cleanup option to avoid cleaning shared memory
 - 2020-11-13 vfeuilla: Small Updates for dimuon analysis
 - 2020-11-16 Barthelemy: [O2-1749] Forward declare inputrecord
@@ -16,4 +13,5 @@
 - 2020-11-17 ktf: DPL: workaround cling issue with std::variant
 - 2020-11-18 ktf: DPL: Improve partialMatch(OutputSpec...)
 - 2020-11-18 ktf: DPL: more hiding of std::variant from ROOT
+- 2020-11-19 ktf: DPL: fix warning in benchmark_WorkflowHelpers.cxx
 - 2020-11-19 ktf: Rate limiting

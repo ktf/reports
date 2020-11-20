@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-06T12:43:32Z",
-            "title": "Fix full-system-test benchmark after change in MID workflow",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-06T13:44:59Z",
             "title": "Better cleanup in taskwrapper: Avoid leaving behind dev/shm segments",
             "author": {
@@ -2301,7 +2282,17 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                    "path": "Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 },
                 {
@@ -3931,8 +3922,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-19T23:52:30Z",
             "title": "DPL: fix warning in benchmark_WorkflowHelpers.cxx",
             "author": {
               "login": "ktf"
@@ -3971,6 +3962,25 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/display/GPUDisplay.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: automatic input proxy",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
