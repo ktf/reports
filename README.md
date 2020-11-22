@@ -1,5 +1,4 @@
 ## Recent releases to AliPhysics
-- v5-09-54j-01: Done on 2020-11-13.
 ## Recent developments in O2 framework
 - 2020-11-16 ktf: DPL: allow GUI to run with an empty workflow
 - 2020-11-17 ktf: DPL: allow multiple workflows in the same session
