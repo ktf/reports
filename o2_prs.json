@@ -4,40 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-06T19:32:37Z",
-            "title": "GPU: Add an option to the TPC workflow to scale all buffer size estimations with a factor",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP] MCH: added error handler in raw decoder",
@@ -4001,6 +3967,60 @@
                 {
                   "node": {
                     "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Make cascade producer filter as well if asked to",
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/StrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/aodDataModelGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadefinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroproducer.cxx"
                   }
                 }
               ]
