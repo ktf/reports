@@ -12,5 +12,6 @@
 - 2020-11-20 aalkin: DPL Analysis: adapt the internals to Configurable<vector>
 - 2020-11-20 ktf: DPL: introduce "Optional" lifetime
 - 2020-11-22 ktf: DPL: fix DDS config generation with empty --channel-prefix
+- 2020-11-23 ktf: DPL: allow Lifetime::Optional to work with ORIGIN/DESCRIPTION
 - 2020-11-23 ktf: DPL: drop check of InputSpec.h in dictionaries
 - 2020-11-23 ktf: DPL: report metrics by device id, not device role
