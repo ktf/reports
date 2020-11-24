@@ -14,5 +14,6 @@
 - 2020-11-23 ktf: DPL: allow Lifetime::Optional to work with ORIGIN/DESCRIPTION
 - 2020-11-23 ktf: DPL: drop check of InputSpec.h in dictionaries
 - 2020-11-23 ktf: DPL: report metrics by device id, not device role
+- 2020-11-24 ktf: DPL Analysis: actually delete a tree once done
 - 2020-11-24 ktf: DPL Analysis: add metrics for bytes read
 - 2020-11-24 ktf: DPL: do not crash when --dump-workflow-file is used (O2-1843)
