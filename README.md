@@ -15,3 +15,4 @@
 - 2020-11-24 ktf: DPL: do not crash when --dump-workflow-file is used (O2-1843)
 - 2020-11-25 ktf: DPL Analysis: add metric for read calls
 - 2020-11-25 ktf: DPL: avoid segmentation violation when infos is empty
+- 2020-11-25 ktf: DPL: fix compilation of DPL_ENABLE_BACKTRACE

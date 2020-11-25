@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-13T08:12:30Z",
-            "title": "Small Updates for dimuon analysis",
-            "author": {
-              "login": "vfeuilla"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/Analysis/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/Analysis/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonMuMu.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker_pp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-16T14:18:24Z",
-            "title": "Decrease verbosity of ITS-TPC matching",
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-17T08:54:46Z",
             "title": "Uniformize MID workflows",
             "author": {
@@ -3215,8 +3152,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-25T13:01:42Z",
             "title": "GPU TPC QA: Use MCKinematicsReader to obtain MC truth",
             "author": {
               "login": "davidrohr"
@@ -3258,8 +3195,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-25T13:04:36Z",
             "title": "GPU: Add missing configKeyValues dictionary",
             "author": {
               "login": "davidrohr"
@@ -3346,6 +3283,44 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DeviceConfigInfo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-11-25T13:12:44Z",
+            "title": "DPL: fix compilation of DPL_ENABLE_BACKTRACE",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Update GPUTrackingLinkDef_O2.h",
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/GPUTrackingLinkDef_O2.h"
                   }
                 }
               ]
