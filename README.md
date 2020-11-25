@@ -13,3 +13,4 @@
 - 2020-11-24 ktf: DPL Analysis: actually delete a tree once done
 - 2020-11-24 ktf: DPL Analysis: add metrics for bytes read
 - 2020-11-24 ktf: DPL: do not crash when --dump-workflow-file is used (O2-1843)
+- 2020-11-25 ktf: DPL Analysis: add metric for read calls
