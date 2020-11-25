@@ -16,3 +16,4 @@
 - 2020-11-25 ktf: DPL Analysis: add metric for read calls
 - 2020-11-25 ktf: DPL: avoid segmentation violation when infos is empty
 - 2020-11-25 ktf: DPL: fix compilation of DPL_ENABLE_BACKTRACE
+- 2020-11-25 saganatt: [DPL Analysis] Helper to create partitions in process() + extended expressions to int64_t
