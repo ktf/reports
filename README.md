@@ -1,7 +1,5 @@
 ## Recent releases to AliPhysics
 ## Recent developments in O2 framework
-- 2020-11-18 ktf: DPL: Improve partialMatch(OutputSpec...)
-- 2020-11-18 ktf: DPL: more hiding of std::variant from ROOT
 - 2020-11-19 ktf: DPL: fix warning in benchmark_WorkflowHelpers.cxx
 - 2020-11-19 ktf: Rate limiting
 - 2020-11-20 aalkin: DPL Analysis: adapt the internals to Configurable<vector>
