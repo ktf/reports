@@ -4,25 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL: workaround FairMQ Socket::Receive API issue for messages > 2GB",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-11-17T20:09:58Z",
             "title": "Add QC Task for TPC Tracking QA",
@@ -3106,8 +3087,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-29T13:07:47Z",
             "title": "Fixed unit test Detectors/CTF/test/test_ctf_io_ft0.cxx",
             "author": {
               "login": "AllaMaevskaya"
@@ -3471,6 +3452,45 @@
                 {
                   "node": {
                     "path": "cmake/O2RootMacroExclusionList.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Fixed OutputObj sink to process custom TList correctly",
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/histogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/OutputObjHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
                   }
                 }
               ]
