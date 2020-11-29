@@ -5,50 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-18T11:56:00Z",
-            "title": "Fix TString::Tokenize-related memleaks",
-            "author": {
-              "login": "anerokhi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/HistogramManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonMuMu.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker_pp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-17T17:57:00Z",
             "title": "DPL: workaround cling issue with std::variant",
             "author": {
@@ -3441,6 +3397,45 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/simulation/include/TPCSimulation/SpaceCharge.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "RecoDecay + HF: Extend MC matching to support multi-stage decays and better particle origin tracking.",
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/Analysis/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/Analysis/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
                   }
                 }
               ]
