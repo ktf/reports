@@ -4,45 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-17T15:20:17Z",
-            "title": "Improve treatment of MID raw data consistency check",
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/exe/raw-checker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/include/MIDQC/GBTRawDataChecker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/include/MIDQC/RawDataChecker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/src/GBTRawDataChecker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/src/RawDataChecker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "TPCClusterFinder: Add optional filter for noisy pads.",
@@ -2756,8 +2717,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-11-30T07:13:05Z",
             "title": "Quick fix: change of trigger in dimuon task",
             "author": {
               "login": "vfeuilla"
@@ -3436,6 +3397,25 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"Exclude testCcdbApi_alien.cxx (#4941)\"",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/CMakeLists.txt"
                   }
                 }
               ]
