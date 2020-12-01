@@ -9,3 +9,4 @@
 - 2020-11-25 saganatt: [DPL Analysis] Helper to create partitions in process() + extended expressions to int64_t
 - 2020-11-26 mkruegerGitHub: DPL: add helpers for compile-time strings
 - 2020-11-30 ktf: DPL Analysis: disable TTreeCache
+- 2020-12-01 jgrosseo: keeping first error message (for Grid harvesting)
