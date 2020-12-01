@@ -5,69 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-18T18:58:26Z",
-            "title": "Addition of a TableMaker for Muon Only",
-            "author": {
-              "login": "vfeuilla"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMakerMuon_pp.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-19T14:20:26Z",
-            "title": "(O2-1203) [rANS] Iterators for tranforming rANS input/Output ",
-            "author": {
-              "login": "MichaelLettrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/rANS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/benchmarks/bench_ransCombinedIterator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/utils/CombinedIterator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransCombinedIterator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-20T13:40:59Z",
             "title": "Changes to strangeness tables: filter at producer level",
             "author": {
@@ -3602,7 +3539,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DO NOT MERGE - Unit test for EMC CCDB",
+            "title": "Unit test for EMC CCDB + Fix",
             "author": {
               "login": "sawenzel"
             },
@@ -3615,7 +3552,55 @@
                 },
                 {
                   "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "CCDB/test/testCcdbApi_EMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DO NOT MERGE: test",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "keeping first error message (for Grid harvesting)",
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
