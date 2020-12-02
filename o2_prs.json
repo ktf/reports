@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-19T23:52:30Z",
-            "title": "DPL: fix warning in benchmark_WorkflowHelpers.cxx",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_WorkflowHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-20T08:08:37Z",
             "title": "Some improvements to TPC tracking visualization",
             "author": {
@@ -3411,6 +3392,11 @@
                   "node": {
                     "path": "prodtests/full-system-test/start_tmux.sh"
                   }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
                 }
               ]
             }
@@ -3511,6 +3497,60 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve event generation starting from O2 kinematics",
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Pythia6Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/Pythia8Generator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Pythia6Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Pythia8Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/JustPrimaryKinematics/run.sh"
                   }
                 }
               ]
