@@ -13,4 +13,5 @@
 - 2020-12-02 aalkin: DPL Analysis: ability to Join with index tables
 - 2020-12-02 aalkin: DPL Analysis: easy way to filter a table on the fly
 - 2020-12-02 ktf: DPL Analysis: tweak ROOT caching and prefetching
+- 2020-12-02 mkruegerGitHub: DPL: add compile-time string concat and support std::string_view
 - 2020-12-02 mkruegerGitHub: DPL: add type trait helper for compile-time strings
