@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-19T21:40:37Z",
-            "title": "GPU: Fix segfault when one TPC sector is empty and data is passed to …",
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-19T23:52:30Z",
             "title": "DPL: fix warning in benchmark_WorkflowHelpers.cxx",
             "author": {
@@ -3403,6 +3384,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "prodtests/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "prodtests/full-system-test/datadistribution.sh"
                   }
                 },
@@ -3414,6 +3400,11 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/raw-reader.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/setenv.sh"
                   }
                 },
                 {
@@ -3491,6 +3482,35 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_StringHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] KrCluster adjusted for leader pad method and no more clusters found over ROC boundaries.",
+            "author": {
+              "login": "HauenderPhilip"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrBoxClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
                   }
                 }
               ]
