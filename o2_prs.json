@@ -4,25 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-22T08:58:59Z",
-            "title": "CcdbApi improvements",
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Make cascade producer filter as well if asked to",
@@ -3715,8 +3696,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-12-03T14:30:02Z",
             "title": "Fix array out of bounds segfault after unexpected end of payload",
             "author": {
               "login": "davidrohr"
@@ -3726,6 +3707,25 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Don't build cpulimit tool with glibc >= 2.32 since it will fail",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/CMakeLists.txt"
                   }
                 }
               ]
