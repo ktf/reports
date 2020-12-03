@@ -11,3 +11,4 @@
 - 2020-12-02 ktf: DPL Analysis: tweak ROOT caching and prefetching
 - 2020-12-02 mkruegerGitHub: DPL: add compile-time string concat and support std::string_view
 - 2020-12-02 mkruegerGitHub: DPL: add type trait helper for compile-time strings
+- 2020-12-03 ktf: DPL Analysis: metric for files opened
