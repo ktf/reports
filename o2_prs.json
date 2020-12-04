@@ -5,78 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-26T07:49:44Z",
-            "title": "[EMCAL-610] Fix channel header in payload encoding",
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/macros/RawFitterTESTs.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/RawWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add solid table to be written to file",
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-11-24T18:19:47Z",
-            "title": "minor fix ",
-            "author": {
-              "login": "AllaMaevskaya"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/raw/include/FT0Raw/DataBlockFT0.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/reconstruction/include/FT0Reconstruction/CTFCoder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-11-26T07:48:48Z",
             "title": "DCS proxy to retrieve DCS DPs from ADAPOS",
             "author": {
@@ -4212,8 +4140,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T20:55:26Z",
             "title": "DPL: drop \"using namespace\" at top-level",
             "author": {
               "login": "ktf"
@@ -4276,6 +4204,98 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/CTFCoderBase.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bugfixes, use _as for filters (necessary)",
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/cascadeproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroconsumer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/lambdakzeroproducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T20:48:12Z",
+            "title": "Fix another EMCAL out of bounds error",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T21:32:52Z",
+            "title": "Add storing CTF / Reading input from CTF / Run asynchronous reconstruction to full system test",
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/setenv.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
                   }
                 }
               ]
