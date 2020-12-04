@@ -1,7 +1,6 @@
 ## Recent releases to AliPhysics
 - v5-09-54k-01: Done on 2020-12-02.
 ## Recent developments in O2 framework
-- 2020-11-26 mkruegerGitHub: DPL: add helpers for compile-time strings
 - 2020-11-30 ktf: DPL Analysis: disable TTreeCache
 - 2020-12-01 jgrosseo: keeping first error message (for Grid harvesting)
 - 2020-12-01 ktf: DPL Analysis: report bytes read in kB
