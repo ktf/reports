@@ -17,3 +17,4 @@
 - 2020-12-03 ktf: DPL Analysis: metric for files opened
 - 2020-12-04 aalkin: DPL Analysis: helper to transfer index bindings
 - 2020-12-04 aalkin: DPL: send config as a JSON when possible
+- 2020-12-04 ktf: DPL: allow configuring FairMQ channels used by DPL

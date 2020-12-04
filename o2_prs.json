@@ -5,25 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-11-23T19:12:39Z",
-            "title": "DPL: allow Lifetime::Optional to work with ORIGIN/DESCRIPTION",
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-02T07:38:05Z",
             "title": "First commit of the DQ FilterPP, CutsLibrary and HistogramsLibrary",
             "author": {
@@ -4090,8 +4071,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T12:20:58Z",
             "title": "DPL: allow configuring FairMQ channels used by DPL",
             "author": {
               "login": "ktf"
@@ -4174,8 +4155,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T12:12:28Z",
             "title": "GPU: Fix codechecker violations",
             "author": {
               "login": "davidrohr"
@@ -4198,8 +4179,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2020-12-04T12:22:27Z",
             "title": "More improvements to full system test scripts + documentation",
             "author": {
               "login": "davidrohr"
@@ -4286,6 +4267,95 @@
                 {
                   "node": {
                     "path": "Analysis/Tutorials/src/compatibleBCs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese)",
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RecEvent.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/src/BCData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/src/RawEventData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digits2Raw.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/digi2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/raw-parser.cxx"
                   }
                 }
               ]
