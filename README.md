@@ -21,3 +21,4 @@
 - 2020-12-04 ktf: DPL: drop "using namespace" at top-level
 - 2020-12-05 aalkin: DPL Analysis: add handlers for nested arrays in struct configurables
 - 2020-12-05 aalkin: DPL Analysis: table slicing helper
+- 2020-12-07 ktf: DPL: improve startup performance
