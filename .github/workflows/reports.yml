@@ -82,11 +82,12 @@ jobs:
         ${{ steps.get_latest_o2_prs.outputs.data }}
         EOF
         cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
-        for x in Algorithm Analysis Common DataFormats Detectors EventVisualisation Examples Framework Generators Jenkinsfile Steer Testing Utilities; do
+        for x in Algorithm Analysis Common DataFormats Detectors EventVisualisation Examples Framework Generators Steer Testing Utilities; do
           cat o2_prs.json | jq ".repository.pullRequests.edges[].node | select(.files.edges[].node.path | test(\"$x\")) | del(.files) | select(.state == \"MERGED\" and .mergedAt >= \"$(date -v -7d +%Y-%m-%d)\")" > $x_prs.json
           cat <<EOF >> README.md
         ## Recent developments in O2 - $x
         EOF
+          cat $x_prs.json
           cat $x_prs.json | jq -r '"- \(.mergedAt | split("T")[0]) \(.author.login): \(.title)"' | sort -u >> README.md
         done
         cat README.md
