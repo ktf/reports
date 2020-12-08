@@ -20,6 +20,7 @@
 - 2020-12-06 jgrosseo: Copying of index bindings
 - 2020-12-06 mkruegerGitHub: TrackSelection: revert to uint8_t columns
 - 2020-12-06 nburmaso: Update for Run3 subtask
+- 2020-12-08 victor-gonzalez: Getting prepared for boolean columns
 ## Recent developments in O2 - Common
 - 2020-12-01 saganatt: DPL Analysis: Fixed OutputObj sink to process custom TList correctly
 - 2020-12-04 davidrohr: GPU: Fix codechecker violations
