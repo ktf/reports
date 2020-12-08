@@ -86,7 +86,6 @@
 - 2020-12-03 sawenzel: Improve event generation starting from O2 kinematics
 - 2020-12-07 preghenella: Pythia8 and selective transport improvements
 - 2020-12-07 shahor02: use gSystem->Load w/o explicit shlib extension
-## Recent developments in O2 - Jenkinsfile
 ## Recent developments in O2 - Steer
 ## Recent developments in O2 - Testing
 ## Recent developments in O2 - Utilities
