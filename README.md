@@ -20,4 +20,5 @@
 - 2020-12-05 aalkin: DPL Analysis: add handlers for nested arrays in struct configurables
 - 2020-12-05 aalkin: DPL Analysis: table slicing helper
 - 2020-12-07 ktf: DPL: improve startup performance
+- 2020-12-08 ktf: DPL GUI: add buttons to debug / profile the driver
 - 2020-12-08 ktf: DPL: attempt at supporting cloned processors
