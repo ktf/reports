@@ -6,7 +6,6 @@
 - v5-09-20s-01: Done on 2020-12-04.
 - v5-09-54l-01: Done on 2020-12-07.
 ## Recent developments in O2 framework
-- 2020-11-30 ktf: DPL Analysis: disable TTreeCache
 - 2020-12-01 jgrosseo: keeping first error message (for Grid harvesting)
 - 2020-12-01 ktf: DPL Analysis: report bytes read in kB
 - 2020-12-01 saganatt: DPL Analysis: Fixed OutputObj sink to process custom TList correctly
