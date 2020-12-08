@@ -10,7 +10,6 @@
 - 2020-12-01 ktf: DPL Analysis: report bytes read in kB
 - 2020-12-01 saganatt: DPL Analysis: Fixed OutputObj sink to process custom TList correctly
 - 2020-12-02 aalkin: DPL Analysis: ability to Join with index tables
-- 2020-12-02 aalkin: DPL Analysis: easy way to filter a table on the fly
 - 2020-12-02 ktf: DPL Analysis: tweak ROOT caching and prefetching
 - 2020-12-02 mkruegerGitHub: DPL: add compile-time string concat and support std::string_view
 - 2020-12-02 mkruegerGitHub: DPL: add type trait helper for compile-time strings
