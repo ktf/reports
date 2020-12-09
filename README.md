@@ -22,6 +22,7 @@
 - [#5025](https://github.com/AliceO2Group/AliceO2/pull/5025) 2020-12-08: Getting prepared for boolean columns by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Common
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [#4952](https://github.com/AliceO2Group/AliceO2/pull/4952) 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
 - [#4981](https://github.com/AliceO2Group/AliceO2/pull/4981) 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
@@ -52,7 +53,6 @@
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#4936](https://github.com/AliceO2Group/AliceO2/pull/4936) 2020-12-02: DPL: add type trait helper for compile-time strings by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
 - [#4940](https://github.com/AliceO2Group/AliceO2/pull/4940) 2020-12-02: DPL Analysis: ability to Join with index tables by [@aalkin](https://github.com/aalkin)
 - [#4971](https://github.com/AliceO2Group/AliceO2/pull/4971) 2020-12-03: DPL Analysis: metric for files opened by [@ktf](https://github.com/ktf)
 - [#4973](https://github.com/AliceO2Group/AliceO2/pull/4973) 2020-12-02: DPL Analysis: tweak ROOT caching and prefetching by [@ktf](https://github.com/ktf)
