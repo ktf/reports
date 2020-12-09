@@ -28,7 +28,6 @@
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#4935](https://github.com/AliceO2Group/AliceO2/pull/4935) 2020-12-02: TPCClusterFinder: Rename TPCCalibration class to TPCPadGainCalib. by [@fweig](https://github.com/fweig)
 - [#4944](https://github.com/AliceO2Group/AliceO2/pull/4944) 2020-12-03: [MCH] Move geometry into its own package. by [@aphecetche](https://github.com/aphecetche)
 - [#4952](https://github.com/AliceO2Group/AliceO2/pull/4952) 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
 - [#4953](https://github.com/AliceO2Group/AliceO2/pull/4953) 2020-12-02: Code to write and reconstruct raw data analysis by [@peressounko](https://github.com/peressounko)
