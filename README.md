@@ -64,6 +64,7 @@
 - [#5006](https://github.com/AliceO2Group/AliceO2/pull/5006) 2020-12-04: DPL: drop "using namespace" at top-level by [@ktf](https://github.com/ktf)
 - [#5018](https://github.com/AliceO2Group/AliceO2/pull/5018) 2020-12-07: DPL: improve startup performance by [@ktf](https://github.com/ktf)
 - [#5027](https://github.com/AliceO2Group/AliceO2/pull/5027) 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
+- [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
 - [#5029](https://github.com/AliceO2Group/AliceO2/pull/5029) 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
 - [#5030](https://github.com/AliceO2Group/AliceO2/pull/5030) 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
