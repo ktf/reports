@@ -6,73 +6,73 @@
 - v5-09-20s-01: Done on 2020-12-04.
 - v5-09-54l-01: Done on 2020-12-07.
 ## Recent developments in O2 - Algorithm
-- 2020-12-04 @davidrohr: GPU: Fix codechecker violations
+- 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- 2020-12-02 @aalkin: DPL Analysis: ability to Join with index tables
-- 2020-12-02 @vkucera: RecoDecay + PWGHF: Extend MC matching to support multi-stage decays and better particle origin tracking.
-- 2020-12-03 @ddobrigk: Centrality work towards vertex-Z profiles for CCDB
-- 2020-12-04 @aalkin: DPL Analysis: helper to transfer index bindings
-- 2020-12-04 @jgrosseo: reworking include directories
-- 2020-12-05 @aalkin: DPL Analysis: add handlers for nested arrays in struct configurables
-- 2020-12-05 @aalkin: DPL Analysis: table slicing helper
-- 2020-12-06 @ddobrigk: Bugfixes, use _as for filters (necessary)
-- 2020-12-06 @jgrosseo: Copying of index bindings
-- 2020-12-06 @mkruegerGitHub: TrackSelection: revert to uint8_t columns
-- 2020-12-06 @nburmaso: Update for Run3 subtask
-- 2020-12-08 @victor-gonzalez: Getting prepared for boolean columns
+- 2020-12-02: DPL Analysis: ability to Join with index tables by [@aalkin](https://github.com/aalkin)
+- 2020-12-02: RecoDecay + PWGHF: Extend MC matching to support multi-stage decays and better particle origin tracking. by [@vkucera](https://github.com/vkucera)
+- 2020-12-03: Centrality work towards vertex-Z profiles for CCDB by [@ddobrigk](https://github.com/ddobrigk)
+- 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
+- 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
+- 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
+- 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
+- 2020-12-06: Bugfixes, use _as for filters (necessary) by [@ddobrigk](https://github.com/ddobrigk)
+- 2020-12-06: Copying of index bindings by [@jgrosseo](https://github.com/jgrosseo)
+- 2020-12-06: TrackSelection: revert to uint8_t columns by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
+- 2020-12-06: Update for Run3 subtask by [@nburmaso](https://github.com/nburmaso)
+- 2020-12-08: Getting prepared for boolean columns by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Common
-- 2020-12-04 @davidrohr: GPU: Fix codechecker violations
+- 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- 2020-12-03 @noferini: Fix for tof calibration object and clustering
-- 2020-12-03 @shahor02: PHOS CTF writing/reading
-- 2020-12-05 @shahor02: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese)
-- 2020-12-07 @preghenella: Pythia8 and selective transport improvements
+- 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
+- 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
+- 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
+- 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Detectors
-- 2020-12-02 @fweig: TPCClusterFinder: Rename TPCCalibration class to TPCPadGainCalib.
-- 2020-12-02 @peressounko: Code to write and reconstruct raw data analysis
-- 2020-12-02 @shahor02: Add ITS/MFT trigger counter to link statistics
-- 2020-12-03 @aphecetche: [MCH] Move geometry into its own package.
-- 2020-12-03 @davidrohr: Fix array out of bounds segfault after unexpected end of payload
-- 2020-12-03 @mfasDa: [EMCAL-630] Decrease verbosity of RCU trailer using log framework
-- 2020-12-03 @noferini: Fix for tof calibration object and clustering
-- 2020-12-03 @shahor02: PHOS CTF writing/reading
-- 2020-12-04 @davidrohr: Add option to ctf writer to store both dictionary and ctf or none
-- 2020-12-04 @davidrohr: Fix another EMCAL out of bounds error
-- 2020-12-04 @ihrivnac: Updates in Doxygen:
-- 2020-12-04 @shahor02: Check CTFdict existence before trying to load
-- 2020-12-04 @shahor02: Fix in accounting cached V0
-- 2020-12-05 @shahor02: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese)
-- 2020-12-05 @shahor02: decrease verbosity of EMCAL RawReaderMemory
-- 2020-12-06 @nburmaso: Small update for the converter
-- 2020-12-07 @bovulpes: MFT: further optimizations in the tracker
-- 2020-12-07 @shahor02: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec
-- 2020-12-07 @shahor02: use gSystem->Load w/o explicit shlib extension
-- 2020-12-08 @nburmaso: Fix for MCTruth label checks
-- 2020-12-08 @shahor02: Fixes for DCS->DPL proxy
+- 2020-12-02: Add ITS/MFT trigger counter to link statistics by [@shahor02](https://github.com/shahor02)
+- 2020-12-02: Code to write and reconstruct raw data analysis by [@peressounko](https://github.com/peressounko)
+- 2020-12-02: TPCClusterFinder: Rename TPCCalibration class to TPCPadGainCalib. by [@fweig](https://github.com/fweig)
+- 2020-12-03: Fix array out of bounds segfault after unexpected end of payload by [@davidrohr](https://github.com/davidrohr)
+- 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
+- 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
+- 2020-12-03: [EMCAL-630] Decrease verbosity of RCU trailer using log framework by [@mfasDa](https://github.com/mfasDa)
+- 2020-12-03: [MCH] Move geometry into its own package. by [@aphecetche](https://github.com/aphecetche)
+- 2020-12-04: Add option to ctf writer to store both dictionary and ctf or none by [@davidrohr](https://github.com/davidrohr)
+- 2020-12-04: Check CTFdict existence before trying to load by [@shahor02](https://github.com/shahor02)
+- 2020-12-04: Fix another EMCAL out of bounds error by [@davidrohr](https://github.com/davidrohr)
+- 2020-12-04: Fix in accounting cached V0 by [@shahor02](https://github.com/shahor02)
+- 2020-12-04: Updates in Doxygen: by [@ihrivnac](https://github.com/ihrivnac)
+- 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
+- 2020-12-05: decrease verbosity of EMCAL RawReaderMemory by [@shahor02](https://github.com/shahor02)
+- 2020-12-06: Small update for the converter by [@nburmaso](https://github.com/nburmaso)
+- 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
+- 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
+- 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
+- 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
+- 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
-- 2020-12-03 @sawenzel: Improve event generation starting from O2 kinematics
-- 2020-12-07 @preghenella: Pythia8 and selective transport improvements
+- 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
+- 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- 2020-12-02 @aalkin: DPL Analysis: ability to Join with index tables
-- 2020-12-02 @ktf: DPL Analysis: tweak ROOT caching and prefetching
-- 2020-12-02 @mkruegerGitHub: DPL: add compile-time string concat and support std::string_view
-- 2020-12-02 @mkruegerGitHub: DPL: add type trait helper for compile-time strings
-- 2020-12-03 @ktf: DPL Analysis: metric for files opened
-- 2020-12-04 @aalkin: DPL Analysis: helper to transfer index bindings
-- 2020-12-04 @ktf: DPL: allow configuring FairMQ channels used by DPL
-- 2020-12-04 @ktf: DPL: drop "using namespace" at top-level
-- 2020-12-05 @aalkin: DPL Analysis: add handlers for nested arrays in struct configurables
-- 2020-12-05 @aalkin: DPL Analysis: table slicing helper
-- 2020-12-07 @ktf: DPL: improve startup performance
-- 2020-12-08 @ktf: DPL GUI: add buttons to debug / profile the driver
-- 2020-12-08 @ktf: DPL: attempt at supporting cloned processors
-- 2020-12-08 @ktf: DPL: better error message when DPL_ENABLE_STACKTRACE not set
+- 2020-12-02: DPL Analysis: ability to Join with index tables by [@aalkin](https://github.com/aalkin)
+- 2020-12-02: DPL Analysis: tweak ROOT caching and prefetching by [@ktf](https://github.com/ktf)
+- 2020-12-02: DPL: add compile-time string concat and support std::string_view by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
+- 2020-12-02: DPL: add type trait helper for compile-time strings by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
+- 2020-12-03: DPL Analysis: metric for files opened by [@ktf](https://github.com/ktf)
+- 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
+- 2020-12-04: DPL: allow configuring FairMQ channels used by DPL by [@ktf](https://github.com/ktf)
+- 2020-12-04: DPL: drop "using namespace" at top-level by [@ktf](https://github.com/ktf)
+- 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
+- 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
+- 2020-12-07: DPL: improve startup performance by [@ktf](https://github.com/ktf)
+- 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
+- 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
+- 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- 2020-12-03 @sawenzel: Improve event generation starting from O2 kinematics
-- 2020-12-07 @preghenella: Pythia8 and selective transport improvements
-- 2020-12-07 @shahor02: use gSystem->Load w/o explicit shlib extension
+- 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
+- 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
+- 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- 2020-12-03 @sawenzel: Possibility of CPU load-limiting (multi-process) tasks
-- 2020-12-03 @sawenzel: Update cpulimit.c
-- 2020-12-04 @ihrivnac: Updates in Doxygen:
-- 2020-12-04 @jgrosseo: reworking include directories
+- 2020-12-03: Possibility of CPU load-limiting (multi-process) tasks by [@sawenzel](https://github.com/sawenzel)
+- 2020-12-03: Update cpulimit.c by [@sawenzel](https://github.com/sawenzel)
+- 2020-12-04: Updates in Doxygen: by [@ihrivnac](https://github.com/ihrivnac)
+- 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
