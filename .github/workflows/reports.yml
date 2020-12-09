@@ -88,7 +88,7 @@ jobs:
             cat <<EOF >> README.md
         ## Recent developments in O2 - $x
         EOF
-            cat $x_prs.json | jq -r '"- \(.mergedAt | split("T")[0]) @\(.author.login): \(.title)"' | sort -u >> README.md
+            cat $x_prs.json | jq -r '"- \(.mergedAt | split("T")[0]): \(.title) by [@\(.author.login)](https://github.com/\(.author.login))"' | sort -u >> README.md
           fi
         done
         cat README.md
