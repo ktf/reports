@@ -8,7 +8,6 @@
 ## Recent developments in O2 - Algorithm
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [#4940](https://github.com/AliceO2Group/AliceO2/pull/4940) 2020-12-02: DPL Analysis: ability to Join with index tables by [@aalkin](https://github.com/aalkin)
 - [#4947](https://github.com/AliceO2Group/AliceO2/pull/4947) 2020-12-02: RecoDecay + PWGHF: Extend MC matching to support multi-stage decays and better particle origin tracking. by [@vkucera](https://github.com/vkucera)
 - [#4983](https://github.com/AliceO2Group/AliceO2/pull/4983) 2020-12-03: Centrality work towards vertex-Z profiles for CCDB by [@ddobrigk](https://github.com/ddobrigk)
 - [#4989](https://github.com/AliceO2Group/AliceO2/pull/4989) 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
@@ -53,7 +52,6 @@
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#4940](https://github.com/AliceO2Group/AliceO2/pull/4940) 2020-12-02: DPL Analysis: ability to Join with index tables by [@aalkin](https://github.com/aalkin)
 - [#4971](https://github.com/AliceO2Group/AliceO2/pull/4971) 2020-12-03: DPL Analysis: metric for files opened by [@ktf](https://github.com/ktf)
 - [#4973](https://github.com/AliceO2Group/AliceO2/pull/4973) 2020-12-02: DPL Analysis: tweak ROOT caching and prefetching by [@ktf](https://github.com/ktf)
 - [#4975](https://github.com/AliceO2Group/AliceO2/pull/4975) 2020-12-02: DPL: add compile-time string concat and support std::string_view by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
@@ -67,6 +65,7 @@
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
 - [#5029](https://github.com/AliceO2Group/AliceO2/pull/5029) 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
 - [#5030](https://github.com/AliceO2Group/AliceO2/pull/5030) 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
+- [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
