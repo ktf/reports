@@ -29,7 +29,6 @@
 - 2020-12-07 preghenella: Pythia8 and selective transport improvements
 ## Recent developments in O2 - Detectors
 - 2020-12-02 fweig: TPCClusterFinder: Rename TPCCalibration class to TPCPadGainCalib.
-- 2020-12-02 nburmaso: Adding McParticles and McTrackLabels to the converter
 - 2020-12-02 peressounko: Code to write and reconstruct raw data analysis
 - 2020-12-02 shahor02: Add ITS/MFT trigger counter to link statistics
 - 2020-12-03 aphecetche: [MCH] Move geometry into its own package.
