@@ -28,7 +28,6 @@
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#4944](https://github.com/AliceO2Group/AliceO2/pull/4944) 2020-12-03: [MCH] Move geometry into its own package. by [@aphecetche](https://github.com/aphecetche)
 - [#4952](https://github.com/AliceO2Group/AliceO2/pull/4952) 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
 - [#4981](https://github.com/AliceO2Group/AliceO2/pull/4981) 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
