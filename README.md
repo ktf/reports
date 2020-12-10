@@ -18,6 +18,7 @@
 - [#5015](https://github.com/AliceO2Group/AliceO2/pull/5015) 2020-12-06: TrackSelection: revert to uint8_t columns by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
 - [#5016](https://github.com/AliceO2Group/AliceO2/pull/5016) 2020-12-06: Update for Run3 subtask by [@nburmaso](https://github.com/nburmaso)
 - [#5025](https://github.com/AliceO2Group/AliceO2/pull/5025) 2020-12-08: Getting prepared for boolean columns by [@victor-gonzalez](https://github.com/victor-gonzalez)
+- [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
@@ -44,6 +45,7 @@
 - [#5012](https://github.com/AliceO2Group/AliceO2/pull/5012) 2020-12-05: decrease verbosity of EMCAL RawReaderMemory by [@shahor02](https://github.com/shahor02)
 - [#5014](https://github.com/AliceO2Group/AliceO2/pull/5014) 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
+- [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Examples
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
@@ -60,6 +62,7 @@
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
 - [#5029](https://github.com/AliceO2Group/AliceO2/pull/5029) 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
 - [#5030](https://github.com/AliceO2Group/AliceO2/pull/5030) 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
+- [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
