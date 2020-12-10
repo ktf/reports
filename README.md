@@ -46,6 +46,7 @@
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
+- [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
