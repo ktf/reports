@@ -1,4 +1,4 @@
-## Recent releases to AliPhysics
+## Recent O2 releases
 - v5-09-38j-01: Done on 2020-12-04.
 - v5-09-24j-01: Done on 2020-12-04.
 - v5-09-02m-01: Done on 2020-12-04.
