@@ -5,6 +5,7 @@
 - v5-09-20s-01: Done on 2020-12-04.
 - v5-09-54l-01: Done on 2020-12-07.
 ## Recent O2 releases
+- v20.49: Done on 2020-12-11.
 ## Recent developments in O2 - Algorithm
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
