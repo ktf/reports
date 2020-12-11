@@ -1,9 +1,10 @@
-## Recent O2 releases
+## Recent AliPhysics releases
 - v5-09-38j-01: Done on 2020-12-04.
 - v5-09-24j-01: Done on 2020-12-04.
 - v5-09-02m-01: Done on 2020-12-04.
 - v5-09-20s-01: Done on 2020-12-04.
 - v5-09-54l-01: Done on 2020-12-07.
+## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
@@ -45,6 +46,7 @@
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
+- [#5033](https://github.com/AliceO2Group/AliceO2/pull/5033) 2020-12-11: [ITS] Remove unused classes by [@mconcas](https://github.com/mconcas)
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
