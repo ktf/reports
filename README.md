@@ -46,6 +46,7 @@
 - [#5014](https://github.com/AliceO2Group/AliceO2/pull/5014) 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
+- [#5020](https://github.com/AliceO2Group/AliceO2/pull/5020) 2020-12-11: [ITS-ntracker] Add material budget fix and chi2 selection by [@mconcas](https://github.com/mconcas)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 - [#5033](https://github.com/AliceO2Group/AliceO2/pull/5033) 2020-12-11: [ITS] Remove unused classes by [@mconcas](https://github.com/mconcas)
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
