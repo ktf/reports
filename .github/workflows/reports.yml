@@ -24,6 +24,24 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     - uses: octokit/graphql-action@v2.x
+      id: get_latest_o2_releases
+      with:
+        query: |
+              {
+                repository(name: "AliceO2", owner: "AliceO2Group") {
+                  releases(last:14) {
+                    edges {
+                      node {
+                        tagName
+                        publishedAt
+                      }
+                    }
+                  }
+                }
+              }
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: octokit/graphql-action@v2.x
       id: get_latest_releases
       with:
         query: |
@@ -73,16 +91,23 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Update README
       run: |
-        cat <<\EOF > README.md
-        ## Recent releases to AliPhysics
-        EOF
         cat <<\EOF > releases.json
+        ${{ steps.get_latest_releases.outputs.data }}
+        EOF
+        cat <<\EOF > o2_releases.json
         ${{ steps.get_latest_releases.outputs.data }}
         EOF
         cat <<\EOF > o2_prs.json
         ${{ steps.get_latest_o2_prs.outputs.data }}
         EOF
+        cat <<\EOF > README.md
+        ## Recent AliPhysics releases
+        EOF
         cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
+        cat <<\EOF > README.md
+        ## Recent O2 releases
+        EOF
+        cat o2_releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
         for x in Algorithm Analysis Common DataFormats Detectors EventVisualisation Examples Framework Generators Steer Testing Utilities; do
           cat o2_prs.json | jq ".repository.pullRequests.edges[].node | select(.files.edges[].node.path | test(\"$x\")) | del(.files) | select(.state == \"MERGED\" and .mergedAt >= \"$(date -v -7d +%Y-%m-%d)\")" > $x_prs.json
           if [ ! X`jq -s length $x_prs.json` = X0 ]; then 
