@@ -95,7 +95,7 @@ jobs:
         ${{ steps.get_latest_releases.outputs.data }}
         EOF
         cat <<\EOF > o2_releases.json
-        ${{ steps.get_latest_releases.outputs.data }}
+        ${{ steps.get_latest_o2_releases.outputs.data }}
         EOF
         cat <<\EOF > o2_prs.json
         ${{ steps.get_latest_o2_prs.outputs.data }}
@@ -104,7 +104,7 @@ jobs:
         ## Recent AliPhysics releases
         EOF
         cat releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
-        cat <<\EOF > README.md
+        cat <<\EOF >> README.md
         ## Recent O2 releases
         EOF
         cat o2_releases.json | jq -r ".repository.releases.edges[].node | select(.publishedAt > \"$(date -v -8d +%Y-%m-%d)\") | \"- \(.tagName): Done on \(.publishedAt | split(\"T\")[0]).\"" >> README.md
