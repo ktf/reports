@@ -1,5 +1,4 @@
 ## Recent releases to AliPhysics
-- v5-09-54k-01: Done on 2020-12-02.
 - v5-09-38j-01: Done on 2020-12-04.
 - v5-09-24j-01: Done on 2020-12-04.
 - v5-09-02m-01: Done on 2020-12-04.
@@ -8,7 +7,6 @@
 ## Recent developments in O2 - Algorithm
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [#4983](https://github.com/AliceO2Group/AliceO2/pull/4983) 2020-12-03: Centrality work towards vertex-Z profiles for CCDB by [@ddobrigk](https://github.com/ddobrigk)
 - [#4989](https://github.com/AliceO2Group/AliceO2/pull/4989) 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
 - [#4990](https://github.com/AliceO2Group/AliceO2/pull/4990) 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
 - [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
@@ -23,18 +21,12 @@
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [#4952](https://github.com/AliceO2Group/AliceO2/pull/4952) 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
-- [#4981](https://github.com/AliceO2Group/AliceO2/pull/4981) 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [#4952](https://github.com/AliceO2Group/AliceO2/pull/4952) 2020-12-03: Fix for tof calibration object and clustering by [@noferini](https://github.com/noferini)
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
-- [#4981](https://github.com/AliceO2Group/AliceO2/pull/4981) 2020-12-03: PHOS CTF writing/reading by [@shahor02](https://github.com/shahor02)
-- [#4984](https://github.com/AliceO2Group/AliceO2/pull/4984) 2020-12-03: Fix array out of bounds segfault after unexpected end of payload by [@davidrohr](https://github.com/davidrohr)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
-- [#4993](https://github.com/AliceO2Group/AliceO2/pull/4993) 2020-12-03: [EMCAL-630] Decrease verbosity of RCU trailer using log framework by [@mfasDa](https://github.com/mfasDa)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5002](https://github.com/AliceO2Group/AliceO2/pull/5002) 2020-12-06: Small update for the converter by [@nburmaso](https://github.com/nburmaso)
 - [#5003](https://github.com/AliceO2Group/AliceO2/pull/5003) 2020-12-04: Add option to ctf writer to store both dictionary and ctf or none by [@davidrohr](https://github.com/davidrohr)
@@ -50,10 +42,8 @@
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
-- [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#4971](https://github.com/AliceO2Group/AliceO2/pull/4971) 2020-12-03: DPL Analysis: metric for files opened by [@ktf](https://github.com/ktf)
 - [#4990](https://github.com/AliceO2Group/AliceO2/pull/4990) 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
 - [#4995](https://github.com/AliceO2Group/AliceO2/pull/4995) 2020-12-04: DPL: allow configuring FairMQ channels used by DPL by [@ktf](https://github.com/ktf)
 - [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
@@ -67,11 +57,8 @@
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [#4977](https://github.com/AliceO2Group/AliceO2/pull/4977) 2020-12-03: Improve event generation starting from O2 kinematics by [@sawenzel](https://github.com/sawenzel)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Utilities
-- [#4970](https://github.com/AliceO2Group/AliceO2/pull/4970) 2020-12-03: Possibility of CPU load-limiting (multi-process) tasks by [@sawenzel](https://github.com/sawenzel)
-- [#4987](https://github.com/AliceO2Group/AliceO2/pull/4987) 2020-12-03: Update cpulimit.c by [@sawenzel](https://github.com/sawenzel)
 - [#4989](https://github.com/AliceO2Group/AliceO2/pull/4989) 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
 - [#5005](https://github.com/AliceO2Group/AliceO2/pull/5005) 2020-12-04: Updates in Doxygen: by [@ihrivnac](https://github.com/ihrivnac)
