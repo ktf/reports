@@ -29,6 +29,7 @@
 - [#5041](https://github.com/AliceO2Group/AliceO2/pull/5041) 2020-12-11: Use value_t instead of double by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
+- [#5049](https://github.com/AliceO2Group/AliceO2/pull/5049) 2020-12-11: Add DAQ SystemID Unloaded [O2-1918] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
@@ -47,6 +48,7 @@
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
+- [#5054](https://github.com/AliceO2Group/AliceO2/pull/5054) 2020-12-11: Add braces in oneliners of PHOS code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
