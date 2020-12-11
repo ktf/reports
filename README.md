@@ -20,9 +20,11 @@
 ## Recent developments in O2 - Common
 - [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
+- [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
+- [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
@@ -40,6 +42,7 @@
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
+- [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
