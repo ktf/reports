@@ -6,11 +6,7 @@
 - v5-09-54l-01: Done on 2020-12-07.
 ## Recent O2 releases
 - v20.49: Done on 2020-12-11.
-## Recent developments in O2 - Algorithm
-- [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [#4989](https://github.com/AliceO2Group/AliceO2/pull/4989) 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
-- [#4990](https://github.com/AliceO2Group/AliceO2/pull/4990) 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
 - [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
 - [#5000](https://github.com/AliceO2Group/AliceO2/pull/5000) 2020-12-06: Copying of index bindings by [@jgrosseo](https://github.com/jgrosseo)
 - [#5004](https://github.com/AliceO2Group/AliceO2/pull/5004) 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
@@ -22,7 +18,6 @@
 - [#5039](https://github.com/AliceO2Group/AliceO2/pull/5039) 2020-12-11: Fixed bug for nested AnalysisCompositeCuts; removed duplicated histogram classes from TableReader by [@iarsene](https://github.com/iarsene)
 - [#5042](https://github.com/AliceO2Group/AliceO2/pull/5042) 2020-12-11: Change to new TPCrefit check: finders by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [#4996](https://github.com/AliceO2Group/AliceO2/pull/4996) 2020-12-04: GPU: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
@@ -37,11 +32,6 @@
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5002](https://github.com/AliceO2Group/AliceO2/pull/5002) 2020-12-06: Small update for the converter by [@nburmaso](https://github.com/nburmaso)
-- [#5003](https://github.com/AliceO2Group/AliceO2/pull/5003) 2020-12-04: Add option to ctf writer to store both dictionary and ctf or none by [@davidrohr](https://github.com/davidrohr)
-- [#5005](https://github.com/AliceO2Group/AliceO2/pull/5005) 2020-12-04: Updates in Doxygen: by [@ihrivnac](https://github.com/ihrivnac)
-- [#5007](https://github.com/AliceO2Group/AliceO2/pull/5007) 2020-12-04: Fix in accounting cached V0 by [@shahor02](https://github.com/shahor02)
-- [#5008](https://github.com/AliceO2Group/AliceO2/pull/5008) 2020-12-04: Check CTFdict existence before trying to load by [@shahor02](https://github.com/shahor02)
-- [#5010](https://github.com/AliceO2Group/AliceO2/pull/5010) 2020-12-04: Fix another EMCAL out of bounds error by [@davidrohr](https://github.com/davidrohr)
 - [#5012](https://github.com/AliceO2Group/AliceO2/pull/5012) 2020-12-05: decrease verbosity of EMCAL RawReaderMemory by [@shahor02](https://github.com/shahor02)
 - [#5014](https://github.com/AliceO2Group/AliceO2/pull/5014) 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
@@ -56,11 +46,8 @@
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#4990](https://github.com/AliceO2Group/AliceO2/pull/4990) 2020-12-04: DPL Analysis: helper to transfer index bindings by [@aalkin](https://github.com/aalkin)
-- [#4995](https://github.com/AliceO2Group/AliceO2/pull/4995) 2020-12-04: DPL: allow configuring FairMQ channels used by DPL by [@ktf](https://github.com/ktf)
 - [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
 - [#5004](https://github.com/AliceO2Group/AliceO2/pull/5004) 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
-- [#5006](https://github.com/AliceO2Group/AliceO2/pull/5006) 2020-12-04: DPL: drop "using namespace" at top-level by [@ktf](https://github.com/ktf)
 - [#5018](https://github.com/AliceO2Group/AliceO2/pull/5018) 2020-12-07: DPL: improve startup performance by [@ktf](https://github.com/ktf)
 - [#5027](https://github.com/AliceO2Group/AliceO2/pull/5027) 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
@@ -72,6 +59,3 @@
 ## Recent developments in O2 - Generators
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
-## Recent developments in O2 - Utilities
-- [#4989](https://github.com/AliceO2Group/AliceO2/pull/4989) 2020-12-04: reworking include directories by [@jgrosseo](https://github.com/jgrosseo)
-- [#5005](https://github.com/AliceO2Group/AliceO2/pull/5005) 2020-12-04: Updates in Doxygen: by [@ihrivnac](https://github.com/ihrivnac)
