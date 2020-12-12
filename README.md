@@ -19,11 +19,13 @@
 - [#5042](https://github.com/AliceO2Group/AliceO2/pull/5042) 2020-12-11: Change to new TPCrefit check: finders by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
+- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 - [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5041](https://github.com/AliceO2Group/AliceO2/pull/5041) 2020-12-11: Use value_t instead of double by [@davidrohr](https://github.com/davidrohr)
+- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 - [#5049](https://github.com/AliceO2Group/AliceO2/pull/5049) 2020-12-11: Add DAQ SystemID Unloaded [O2-1918] by [@shahor02](https://github.com/shahor02)
@@ -39,10 +41,12 @@
 - [#5020](https://github.com/AliceO2Group/AliceO2/pull/5020) 2020-12-11: [ITS-ntracker] Add material budget fix and chi2 selection by [@mconcas](https://github.com/mconcas)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 - [#5033](https://github.com/AliceO2Group/AliceO2/pull/5033) 2020-12-11: [ITS] Remove unused classes by [@mconcas](https://github.com/mconcas)
+- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 - [#5054](https://github.com/AliceO2Group/AliceO2/pull/5054) 2020-12-11: Add braces in oneliners of PHOS code by [@shahor02](https://github.com/shahor02)
+- [#5055](https://github.com/AliceO2Group/AliceO2/pull/5055) 2020-12-12: Change more Double_t to float in TrackParCov propagator by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
