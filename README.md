@@ -1,15 +1,9 @@
 ## Recent AliPhysics releases
-- v5-09-38j-01: Done on 2020-12-04.
-- v5-09-24j-01: Done on 2020-12-04.
-- v5-09-02m-01: Done on 2020-12-04.
-- v5-09-20s-01: Done on 2020-12-04.
 - v5-09-54l-01: Done on 2020-12-07.
 ## Recent O2 releases
 - v20.49: Done on 2020-12-11.
 ## Recent developments in O2 - Analysis
-- [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
 - [#5000](https://github.com/AliceO2Group/AliceO2/pull/5000) 2020-12-06: Copying of index bindings by [@jgrosseo](https://github.com/jgrosseo)
-- [#5004](https://github.com/AliceO2Group/AliceO2/pull/5004) 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
 - [#5009](https://github.com/AliceO2Group/AliceO2/pull/5009) 2020-12-06: Bugfixes, use _as for filters (necessary) by [@ddobrigk](https://github.com/ddobrigk)
 - [#5015](https://github.com/AliceO2Group/AliceO2/pull/5015) 2020-12-06: TrackSelection: revert to uint8_t columns by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
 - [#5016](https://github.com/AliceO2Group/AliceO2/pull/5016) 2020-12-06: Update for Run3 subtask by [@nburmaso](https://github.com/nburmaso)
@@ -23,7 +17,6 @@
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
-- [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5041](https://github.com/AliceO2Group/AliceO2/pull/5041) 2020-12-11: Use value_t instead of double by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
@@ -32,9 +25,7 @@
 ## Recent developments in O2 - Detectors
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
-- [#5001](https://github.com/AliceO2Group/AliceO2/pull/5001) 2020-12-05: Multiple fixes for ZDC, raw data creation (former PR4658 from P.Cortese) by [@shahor02](https://github.com/shahor02)
 - [#5002](https://github.com/AliceO2Group/AliceO2/pull/5002) 2020-12-06: Small update for the converter by [@nburmaso](https://github.com/nburmaso)
-- [#5012](https://github.com/AliceO2Group/AliceO2/pull/5012) 2020-12-05: decrease verbosity of EMCAL RawReaderMemory by [@shahor02](https://github.com/shahor02)
 - [#5014](https://github.com/AliceO2Group/AliceO2/pull/5014) 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
@@ -50,8 +41,6 @@
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#4999](https://github.com/AliceO2Group/AliceO2/pull/4999) 2020-12-05: DPL Analysis: table slicing helper by [@aalkin](https://github.com/aalkin)
-- [#5004](https://github.com/AliceO2Group/AliceO2/pull/5004) 2020-12-05: DPL Analysis: add handlers for nested arrays in struct configurables by [@aalkin](https://github.com/aalkin)
 - [#5018](https://github.com/AliceO2Group/AliceO2/pull/5018) 2020-12-07: DPL: improve startup performance by [@ktf](https://github.com/ktf)
 - [#5027](https://github.com/AliceO2Group/AliceO2/pull/5027) 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
