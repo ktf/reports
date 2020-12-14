@@ -36,6 +36,7 @@
 - [#5055](https://github.com/AliceO2Group/AliceO2/pull/5055) 2020-12-12: Change more Double_t to float in TrackParCov propagator by [@davidrohr](https://github.com/davidrohr)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
+- [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Examples
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
