@@ -29,6 +29,7 @@
 - [#5020](https://github.com/AliceO2Group/AliceO2/pull/5020) 2020-12-11: [ITS-ntracker] Add material budget fix and chi2 selection by [@mconcas](https://github.com/mconcas)
 - [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 - [#5033](https://github.com/AliceO2Group/AliceO2/pull/5033) 2020-12-11: [ITS] Remove unused classes by [@mconcas](https://github.com/mconcas)
+- [#5040](https://github.com/AliceO2Group/AliceO2/pull/5040) 2020-12-14: Adding truncation + some minor changes by [@nburmaso](https://github.com/nburmaso)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
