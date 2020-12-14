@@ -8,6 +8,7 @@
 - [#5039](https://github.com/AliceO2Group/AliceO2/pull/5039) 2020-12-11: Fixed bug for nested AnalysisCompositeCuts; removed duplicated histogram classes from TableReader by [@iarsene](https://github.com/iarsene)
 - [#5042](https://github.com/AliceO2Group/AliceO2/pull/5042) 2020-12-11: Change to new TPCrefit check: finders by [@ddobrigk](https://github.com/ddobrigk)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
+- [#5060](https://github.com/AliceO2Group/AliceO2/pull/5060) 2020-12-14: Fix finder -> problems with partitioning to be checked by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
