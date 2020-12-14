@@ -54,3 +54,5 @@
 ## Recent developments in O2 - Generators
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
 - [#4991](https://github.com/AliceO2Group/AliceO2/pull/4991) 2020-12-07: Pythia8 and selective transport improvements by [@preghenella](https://github.com/preghenella)
+## Recent developments in O2 - Utilities
+- [#5037](https://github.com/AliceO2Group/AliceO2/pull/5037) 2020-12-14: Drop untested / unused hough transform code by [@ktf](https://github.com/ktf)
