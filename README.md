@@ -3,10 +3,6 @@
 ## Recent O2 releases
 - v20.49: Done on 2020-12-11.
 ## Recent developments in O2 - Analysis
-- [#5000](https://github.com/AliceO2Group/AliceO2/pull/5000) 2020-12-06: Copying of index bindings by [@jgrosseo](https://github.com/jgrosseo)
-- [#5009](https://github.com/AliceO2Group/AliceO2/pull/5009) 2020-12-06: Bugfixes, use _as for filters (necessary) by [@ddobrigk](https://github.com/ddobrigk)
-- [#5015](https://github.com/AliceO2Group/AliceO2/pull/5015) 2020-12-06: TrackSelection: revert to uint8_t columns by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
-- [#5016](https://github.com/AliceO2Group/AliceO2/pull/5016) 2020-12-06: Update for Run3 subtask by [@nburmaso](https://github.com/nburmaso)
 - [#5025](https://github.com/AliceO2Group/AliceO2/pull/5025) 2020-12-08: Getting prepared for boolean columns by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5039](https://github.com/AliceO2Group/AliceO2/pull/5039) 2020-12-11: Fixed bug for nested AnalysisCompositeCuts; removed duplicated histogram classes from TableReader by [@iarsene](https://github.com/iarsene)
@@ -26,7 +22,6 @@
 ## Recent developments in O2 - Detectors
 - [#4980](https://github.com/AliceO2Group/AliceO2/pull/4980) 2020-12-07: MFT: further optimizations in the tracker by [@bovulpes](https://github.com/bovulpes)
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
-- [#5002](https://github.com/AliceO2Group/AliceO2/pull/5002) 2020-12-06: Small update for the converter by [@nburmaso](https://github.com/nburmaso)
 - [#5014](https://github.com/AliceO2Group/AliceO2/pull/5014) 2020-12-07: Fix: Proper treatment of --disable-mc in PHOS CellConverterSpec by [@shahor02](https://github.com/shahor02)
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
