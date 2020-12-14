@@ -48,6 +48,7 @@
 - [#5029](https://github.com/AliceO2Group/AliceO2/pull/5029) 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
 - [#5030](https://github.com/AliceO2Group/AliceO2/pull/5030) 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
+- [#5035](https://github.com/AliceO2Group/AliceO2/pull/5035) 2020-12-14: DPL Analysis: fix for parsing non-integer arrays in configurables by [@aalkin](https://github.com/aalkin)
 - [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 - [#5048](https://github.com/AliceO2Group/AliceO2/pull/5048) 2020-12-11: DPL: allow customization of FairMQ channels from command line by [@ktf](https://github.com/ktf)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mkruegerGitHub](https://github.com/mkruegerGitHub)
