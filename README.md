@@ -10,6 +10,8 @@
 - [#5042](https://github.com/AliceO2Group/AliceO2/pull/5042) 2020-12-11: Change to new TPCrefit check: finders by [@ddobrigk](https://github.com/ddobrigk)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mario-krueger](https://github.com/mario-krueger)
 - [#5060](https://github.com/AliceO2Group/AliceO2/pull/5060) 2020-12-14: Fix finder -> problems with partitioning to be checked by [@ddobrigk](https://github.com/ddobrigk)
+- [#5063](https://github.com/AliceO2Group/AliceO2/pull/5063) 2020-12-14: DPL Analysis: add string array Configurable by [@aalkin](https://github.com/aalkin)
+- [#5064](https://github.com/AliceO2Group/AliceO2/pull/5064) 2020-12-14: Using histogram registry fill by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
@@ -55,6 +57,7 @@
 - [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 - [#5048](https://github.com/AliceO2Group/AliceO2/pull/5048) 2020-12-11: DPL: allow customization of FairMQ channels from command line by [@ktf](https://github.com/ktf)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mario-krueger](https://github.com/mario-krueger)
+- [#5063](https://github.com/AliceO2Group/AliceO2/pull/5063) 2020-12-14: DPL Analysis: add string array Configurable by [@aalkin](https://github.com/aalkin)
 - [#5065](https://github.com/AliceO2Group/AliceO2/pull/5065) 2020-12-14: DPL: add file read name metric by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#4988](https://github.com/AliceO2Group/AliceO2/pull/4988) 2020-12-07: use gSystem->Load w/o explicit shlib extension by [@shahor02](https://github.com/shahor02)
