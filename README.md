@@ -17,6 +17,7 @@
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
+- [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5041](https://github.com/AliceO2Group/AliceO2/pull/5041) 2020-12-11: Use value_t instead of double by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
@@ -24,6 +25,7 @@
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
 - [#5049](https://github.com/AliceO2Group/AliceO2/pull/5049) 2020-12-11: Add DAQ SystemID Unloaded [O2-1918] by [@shahor02](https://github.com/shahor02)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
+- [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
@@ -41,6 +43,7 @@
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
+- [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5027](https://github.com/AliceO2Group/AliceO2/pull/5027) 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
