@@ -56,5 +56,6 @@
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mario-krueger](https://github.com/mario-krueger)
 - [#5063](https://github.com/AliceO2Group/AliceO2/pull/5063) 2020-12-14: DPL Analysis: add string array Configurable by [@aalkin](https://github.com/aalkin)
 - [#5065](https://github.com/AliceO2Group/AliceO2/pull/5065) 2020-12-14: DPL: add file read name metric by [@ktf](https://github.com/ktf)
+- [#5068](https://github.com/AliceO2Group/AliceO2/pull/5068) 2020-12-15: DPL Analysis: make sure each hash in histogram registry is unique by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Utilities
 - [#5037](https://github.com/AliceO2Group/AliceO2/pull/5037) 2020-12-14: Drop untested / unused hough transform code by [@ktf](https://github.com/ktf)
