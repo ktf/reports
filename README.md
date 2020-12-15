@@ -12,6 +12,7 @@
 - [#5060](https://github.com/AliceO2Group/AliceO2/pull/5060) 2020-12-14: Fix finder -> problems with partitioning to be checked by [@ddobrigk](https://github.com/ddobrigk)
 - [#5063](https://github.com/AliceO2Group/AliceO2/pull/5063) 2020-12-14: DPL Analysis: add string array Configurable by [@aalkin](https://github.com/aalkin)
 - [#5064](https://github.com/AliceO2Group/AliceO2/pull/5064) 2020-12-14: Using histogram registry fill by [@jgrosseo](https://github.com/jgrosseo)
+- [#5066](https://github.com/AliceO2Group/AliceO2/pull/5066) 2020-12-15: Analysis: extend histogram registry example by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Common
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
