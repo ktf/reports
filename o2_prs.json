@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-02T13:10:39Z",
-            "title": "Add some scripts related to running the full system test",
-            "number": 4972,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/datadistribution.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/raw-reader.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/setenv.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/start_tmux.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-02T06:37:18Z",
             "title": "DPL Analysis: tweak ROOT caching and prefetching",
             "number": 4973,
@@ -4966,6 +4916,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "A ROOT serializable key-value store",
+            "number": 5072,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/RootSerializableKeyValueStore.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/CommonUtilsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/RootSerializableKeyValueStore.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testRootSerializableKeyValueStore.cxx"
                   }
                 }
               ]
