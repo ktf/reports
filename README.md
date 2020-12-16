@@ -1,10 +1,8 @@
 ## Recent AliPhysics releases
-- v5-09-54l-01: Done on 2020-12-07.
 - v5-09-56c-01: Done on 2020-12-14.
 ## Recent O2 releases
 - v20.49: Done on 2020-12-11.
 ## Recent developments in O2 - Analysis
-- [#5025](https://github.com/AliceO2Group/AliceO2/pull/5025) 2020-12-08: Getting prepared for boolean columns by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5039](https://github.com/AliceO2Group/AliceO2/pull/5039) 2020-12-11: Fixed bug for nested AnalysisCompositeCuts; removed duplicated histogram classes from TableReader by [@iarsene](https://github.com/iarsene)
 - [#5042](https://github.com/AliceO2Group/AliceO2/pull/5042) 2020-12-11: Change to new TPCrefit check: finders by [@ddobrigk](https://github.com/ddobrigk)
@@ -27,10 +25,8 @@
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5017](https://github.com/AliceO2Group/AliceO2/pull/5017) 2020-12-08: Fixes for DCS->DPL proxy by [@shahor02](https://github.com/shahor02)
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5020](https://github.com/AliceO2Group/AliceO2/pull/5020) 2020-12-11: [ITS-ntracker] Add material budget fix and chi2 selection by [@mconcas](https://github.com/mconcas)
-- [#5031](https://github.com/AliceO2Group/AliceO2/pull/5031) 2020-12-08: Fix for MCTruth label checks by [@nburmaso](https://github.com/nburmaso)
 - [#5033](https://github.com/AliceO2Group/AliceO2/pull/5033) 2020-12-11: [ITS] Remove unused classes by [@mconcas](https://github.com/mconcas)
 - [#5036](https://github.com/AliceO2Group/AliceO2/pull/5036) 2020-12-14: First version of pedestal calibration workflow raw data -> ccdb by [@wiechula](https://github.com/wiechula)
 - [#5040](https://github.com/AliceO2Group/AliceO2/pull/5040) 2020-12-14: Adding truncation + some minor changes by [@nburmaso](https://github.com/nburmaso)
@@ -45,10 +41,7 @@
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5027](https://github.com/AliceO2Group/AliceO2/pull/5027) 2020-12-08: DPL: attempt at supporting cloned processors by [@ktf](https://github.com/ktf)
 - [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
-- [#5029](https://github.com/AliceO2Group/AliceO2/pull/5029) 2020-12-08: DPL GUI: add buttons to debug / profile the driver by [@ktf](https://github.com/ktf)
-- [#5030](https://github.com/AliceO2Group/AliceO2/pull/5030) 2020-12-08: DPL: better error message when DPL_ENABLE_STACKTRACE not set by [@ktf](https://github.com/ktf)
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5035](https://github.com/AliceO2Group/AliceO2/pull/5035) 2020-12-14: DPL Analysis: fix for parsing non-integer arrays in configurables by [@aalkin](https://github.com/aalkin)
 - [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
