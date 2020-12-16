@@ -38,6 +38,7 @@
 - [#5044](https://github.com/AliceO2Group/AliceO2/pull/5044) 2020-12-10: Decouple VMC libs from o2-sim by [@sawenzel](https://github.com/sawenzel)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5046](https://github.com/AliceO2Group/AliceO2/pull/5046) 2020-12-10: Support for FLUKA VMC backend in O2 by [@sawenzel](https://github.com/sawenzel)
+- [#5047](https://github.com/AliceO2Group/AliceO2/pull/5047) 2020-12-16: TOF DCS Processor by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5054](https://github.com/AliceO2Group/AliceO2/pull/5054) 2020-12-11: Add braces in oneliners of PHOS code by [@shahor02](https://github.com/shahor02)
 - [#5055](https://github.com/AliceO2Group/AliceO2/pull/5055) 2020-12-12: Change more Double_t to float in TrackParCov propagator by [@davidrohr](https://github.com/davidrohr)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
