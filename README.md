@@ -41,6 +41,7 @@
 - [#5054](https://github.com/AliceO2Group/AliceO2/pull/5054) 2020-12-11: Add braces in oneliners of PHOS code by [@shahor02](https://github.com/shahor02)
 - [#5055](https://github.com/AliceO2Group/AliceO2/pull/5055) 2020-12-12: Change more Double_t to float in TrackParCov propagator by [@davidrohr](https://github.com/davidrohr)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
+- [#5057](https://github.com/AliceO2Group/AliceO2/pull/5057) 2020-12-16: Update of water and air cooling by [@frmanso](https://github.com/frmanso)
 - [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
