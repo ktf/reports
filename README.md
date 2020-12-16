@@ -14,6 +14,7 @@
 - [#5064](https://github.com/AliceO2Group/AliceO2/pull/5064) 2020-12-14: Using histogram registry fill by [@jgrosseo](https://github.com/jgrosseo)
 - [#5066](https://github.com/AliceO2Group/AliceO2/pull/5066) 2020-12-15: Analysis: extend histogram registry example by [@mario-krueger](https://github.com/mario-krueger)
 - [#5071](https://github.com/AliceO2Group/AliceO2/pull/5071) 2020-12-16: DPL: initial support for plugin based algorithms by [@ktf](https://github.com/ktf)
+- [#5073](https://github.com/AliceO2Group/AliceO2/pull/5073) 2020-12-16: DPL: allow decoupling from JAlien and retrieve JAlienFile, if available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
@@ -54,5 +55,6 @@
 - [#5065](https://github.com/AliceO2Group/AliceO2/pull/5065) 2020-12-14: DPL: add file read name metric by [@ktf](https://github.com/ktf)
 - [#5068](https://github.com/AliceO2Group/AliceO2/pull/5068) 2020-12-15: DPL Analysis: make sure each hash in histogram registry is unique by [@mario-krueger](https://github.com/mario-krueger)
 - [#5071](https://github.com/AliceO2Group/AliceO2/pull/5071) 2020-12-16: DPL: initial support for plugin based algorithms by [@ktf](https://github.com/ktf)
+- [#5073](https://github.com/AliceO2Group/AliceO2/pull/5073) 2020-12-16: DPL: allow decoupling from JAlien and retrieve JAlienFile, if available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [#5037](https://github.com/AliceO2Group/AliceO2/pull/5037) 2020-12-14: Drop untested / unused hough transform code by [@ktf](https://github.com/ktf)
