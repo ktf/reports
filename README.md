@@ -46,6 +46,7 @@
 - [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
+- [#5078](https://github.com/AliceO2Group/AliceO2/pull/5078) 2020-12-17: Parent TrackPar/Cov creator for DCAFitterN by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5035](https://github.com/AliceO2Group/AliceO2/pull/5035) 2020-12-14: DPL Analysis: fix for parsing non-integer arrays in configurables by [@aalkin](https://github.com/aalkin)
