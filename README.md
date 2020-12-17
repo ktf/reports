@@ -16,7 +16,6 @@
 - [#5071](https://github.com/AliceO2Group/AliceO2/pull/5071) 2020-12-16: DPL: initial support for plugin based algorithms by [@ktf](https://github.com/ktf)
 - [#5073](https://github.com/AliceO2Group/AliceO2/pull/5073) 2020-12-16: DPL: allow decoupling from JAlien and retrieve JAlienFile, if available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [#5024](https://github.com/AliceO2Group/AliceO2/pull/5024) 2020-12-09: GPU: Tune some kernel parameters for AMD Vega by [@davidrohr](https://github.com/davidrohr)
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5045](https://github.com/AliceO2Group/AliceO2/pull/5045) 2020-12-11: [ALICE3] Rename PostLS4 and IT4 to ALICE3 and TRK by [@mconcas](https://github.com/mconcas)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
@@ -47,10 +46,8 @@
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5028](https://github.com/AliceO2Group/AliceO2/pull/5028) 2020-12-09: DPL: syntactic sugar for --clone <template>:<instance number> by [@ktf](https://github.com/ktf)
 - [#5034](https://github.com/AliceO2Group/AliceO2/pull/5034) 2020-12-10: Moving StepTHn to Framework by [@jgrosseo](https://github.com/jgrosseo)
 - [#5035](https://github.com/AliceO2Group/AliceO2/pull/5035) 2020-12-14: DPL Analysis: fix for parsing non-integer arrays in configurables by [@aalkin](https://github.com/aalkin)
-- [#5038](https://github.com/AliceO2Group/AliceO2/pull/5038) 2020-12-09: DPL: allow adding suffix to all dataprocessors in a workflow by [@ktf](https://github.com/ktf)
 - [#5048](https://github.com/AliceO2Group/AliceO2/pull/5048) 2020-12-11: DPL: allow customization of FairMQ channels from command line by [@ktf](https://github.com/ktf)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mario-krueger](https://github.com/mario-krueger)
 - [#5063](https://github.com/AliceO2Group/AliceO2/pull/5063) 2020-12-14: DPL Analysis: add string array Configurable by [@aalkin](https://github.com/aalkin)
