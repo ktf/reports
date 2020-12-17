@@ -27,6 +27,7 @@
 - [#5049](https://github.com/AliceO2Group/AliceO2/pull/5049) 2020-12-11: Add DAQ SystemID Unloaded [O2-1918] by [@shahor02](https://github.com/shahor02)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
+- [#5077](https://github.com/AliceO2Group/AliceO2/pull/5077) 2020-12-17: Tmp.fix in TrackParCov c-tor from Cartesian cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5019](https://github.com/AliceO2Group/AliceO2/pull/5019) 2020-12-10: NFC: Fix codechecker for the ITS GPU code by [@mpuccio](https://github.com/mpuccio)
 - [#5020](https://github.com/AliceO2Group/AliceO2/pull/5020) 2020-12-11: [ITS-ntracker] Add material budget fix and chi2 selection by [@mconcas](https://github.com/mconcas)

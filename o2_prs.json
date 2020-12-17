@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-03T12:31:58Z",
-            "title": "Improve event generation starting from O2 kinematics",
-            "number": 4977,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorFromFile.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Pythia6Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Pythia8Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Pythia6Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Pythia8Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/JustPrimaryKinematics/run.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-12-07T14:33:58Z",
-            "title": "bugfix in ND splines",
-            "number": 4978,
-            "author": {
-              "login": "sgorbuno"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/SplineSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-02T15:27:06Z",
             "title": "Minor improvements to GPU standalone benchmark",
             "number": 4979,
@@ -5061,6 +4986,46 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2020-12-17T19:07:38Z",
+            "title": "Tmp.fix in TrackParCov c-tor from Cartesian cov.matrix",
+            "number": 5077,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Parent TrackPar/Cov creator for DCAFitterN",
+            "number": 5078,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/DCAFitterN.h"
                   }
                 }
               ]
