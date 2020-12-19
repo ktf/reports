@@ -13,6 +13,7 @@
 - [#5071](https://github.com/AliceO2Group/AliceO2/pull/5071) 2020-12-16: DPL: initial support for plugin based algorithms by [@ktf](https://github.com/ktf)
 - [#5073](https://github.com/AliceO2Group/AliceO2/pull/5073) 2020-12-16: DPL: allow decoupling from JAlien and retrieve JAlienFile, if available by [@ktf](https://github.com/ktf)
 - [#5081](https://github.com/AliceO2Group/AliceO2/pull/5081) 2020-12-18: DPL: Use JAliEn::JAliEn rather than XRootD::Client to enable support by [@ktf](https://github.com/ktf)
+- [#5084](https://github.com/AliceO2Group/AliceO2/pull/5084) 2020-12-19: Add X at minimum to v0data table by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
