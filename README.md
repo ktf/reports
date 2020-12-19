@@ -34,6 +34,7 @@
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 - [#5076](https://github.com/AliceO2Group/AliceO2/pull/5076) 2020-12-17: [ITS][ntracker-workflow] Add --configKeyValue for MB LUT by [@mconcas](https://github.com/mconcas)
 - [#5078](https://github.com/AliceO2Group/AliceO2/pull/5078) 2020-12-17: Parent TrackPar/Cov creator for DCAFitterN by [@shahor02](https://github.com/shahor02)
+- [#5088](https://github.com/AliceO2Group/AliceO2/pull/5088) 2020-12-19: MFT: fix lanes mapping for decoding commissionning data and for worki… by [@bovulpes](https://github.com/bovulpes)
 ## Recent developments in O2 - Framework
 - [#5035](https://github.com/AliceO2Group/AliceO2/pull/5035) 2020-12-14: DPL Analysis: fix for parsing non-integer arrays in configurables by [@aalkin](https://github.com/aalkin)
 - [#5050](https://github.com/AliceO2Group/AliceO2/pull/5050) 2020-12-14: DPL Analysis: use compile-time hashed histogram names in registry by [@mario-krueger](https://github.com/mario-krueger)
