@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-56c-01: Done on 2020-12-14.
 ## Recent O2 releases
-- v20.49: Done on 2020-12-11.
 ## Recent developments in O2 - Algorithm
 - [#5071](https://github.com/AliceO2Group/AliceO2/pull/5071) 2020-12-16: DPL: initial support for plugin based algorithms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
@@ -15,19 +14,15 @@
 - [#5081](https://github.com/AliceO2Group/AliceO2/pull/5081) 2020-12-18: DPL: Use JAliEn::JAliEn rather than XRootD::Client to enable support by [@ktf](https://github.com/ktf)
 - [#5084](https://github.com/AliceO2Group/AliceO2/pull/5084) 2020-12-19: Add X at minimum to v0data table by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 - [#5077](https://github.com/AliceO2Group/AliceO2/pull/5077) 2020-12-17: Tmp.fix in TrackParCov c-tor from Cartesian cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5036](https://github.com/AliceO2Group/AliceO2/pull/5036) 2020-12-14: First version of pedestal calibration workflow raw data -> ccdb by [@wiechula](https://github.com/wiechula)
 - [#5040](https://github.com/AliceO2Group/AliceO2/pull/5040) 2020-12-14: Adding truncation + some minor changes by [@nburmaso](https://github.com/nburmaso)
-- [#5043](https://github.com/AliceO2Group/AliceO2/pull/5043) 2020-12-12: Make TrackPar(Cov) compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5047](https://github.com/AliceO2Group/AliceO2/pull/5047) 2020-12-16: TOF DCS Processor by [@chiarazampolli](https://github.com/chiarazampolli)
-- [#5055](https://github.com/AliceO2Group/AliceO2/pull/5055) 2020-12-12: Change more Double_t to float in TrackParCov propagator by [@davidrohr](https://github.com/davidrohr)
 - [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5057](https://github.com/AliceO2Group/AliceO2/pull/5057) 2020-12-16: Update of water and air cooling by [@frmanso](https://github.com/frmanso)
 - [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
