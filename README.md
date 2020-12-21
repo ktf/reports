@@ -16,16 +16,13 @@
 ## Recent developments in O2 - Common
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 - [#5077](https://github.com/AliceO2Group/AliceO2/pull/5077) 2020-12-17: Tmp.fix in TrackParCov c-tor from Cartesian cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5036](https://github.com/AliceO2Group/AliceO2/pull/5036) 2020-12-14: First version of pedestal calibration workflow raw data -> ccdb by [@wiechula](https://github.com/wiechula)
 - [#5040](https://github.com/AliceO2Group/AliceO2/pull/5040) 2020-12-14: Adding truncation + some minor changes by [@nburmaso](https://github.com/nburmaso)
 - [#5047](https://github.com/AliceO2Group/AliceO2/pull/5047) 2020-12-16: TOF DCS Processor by [@chiarazampolli](https://github.com/chiarazampolli)
-- [#5056](https://github.com/AliceO2Group/AliceO2/pull/5056) 2020-12-13: Eliminate mass argument from track mat.corrections and propagation interfaces by [@shahor02](https://github.com/shahor02)
 - [#5057](https://github.com/AliceO2Group/AliceO2/pull/5057) 2020-12-16: Update of water and air cooling by [@frmanso](https://github.com/frmanso)
-- [#5058](https://github.com/AliceO2Group/AliceO2/pull/5058) 2020-12-13: Reject outliers when building ITS/MFT clusters dictionary by [@shahor02](https://github.com/shahor02)
 - [#5059](https://github.com/AliceO2Group/AliceO2/pull/5059) 2020-12-14: TPC drift gas settings in case FLUKA is used by [@amorsch](https://github.com/amorsch)
 - [#5067](https://github.com/AliceO2Group/AliceO2/pull/5067) 2020-12-15: Increase the margin of CTF block size to 10KB by [@shahor02](https://github.com/shahor02)
 - [#5076](https://github.com/AliceO2Group/AliceO2/pull/5076) 2020-12-17: [ITS][ntracker-workflow] Add --configKeyValue for MB LUT by [@mconcas](https://github.com/mconcas)
