@@ -15,6 +15,7 @@
 - [#5057](https://github.com/AliceO2Group/AliceO2/pull/5057) 2020-12-16: Update of water and air cooling by [@frmanso](https://github.com/frmanso)
 - [#5076](https://github.com/AliceO2Group/AliceO2/pull/5076) 2020-12-17: [ITS][ntracker-workflow] Add --configKeyValue for MB LUT by [@mconcas](https://github.com/mconcas)
 - [#5078](https://github.com/AliceO2Group/AliceO2/pull/5078) 2020-12-17: Parent TrackPar/Cov creator for DCAFitterN by [@shahor02](https://github.com/shahor02)
+- [#5083](https://github.com/AliceO2Group/AliceO2/pull/5083) 2020-12-23: Executable for chunk large raw-data files by [@shahor02](https://github.com/shahor02)
 - [#5088](https://github.com/AliceO2Group/AliceO2/pull/5088) 2020-12-19: MFT: fix lanes mapping for decoding commissionning data and for worki… by [@bovulpes](https://github.com/bovulpes)
 - [#5089](https://github.com/AliceO2Group/AliceO2/pull/5089) 2020-12-22: real LUT in CCDB by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5091](https://github.com/AliceO2Group/AliceO2/pull/5091) 2020-12-22: MFT: eliminate sqrt where possible by [@bovulpes](https://github.com/bovulpes)
