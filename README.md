@@ -16,5 +16,6 @@
 - [#5092](https://github.com/AliceO2Group/AliceO2/pull/5092) 2020-12-23: ZDC Workflow to inspect raw data by [@cortesep](https://github.com/cortesep)
 - [#5094](https://github.com/AliceO2Group/AliceO2/pull/5094) 2020-12-24: GPU: Some work towards making the o2 propagator work on GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5096](https://github.com/AliceO2Group/AliceO2/pull/5096) 2020-12-25: Add possibility to use the GPUPolynomialField in the O2 propagator and make the O2 propagator compile on GPU by [@davidrohr](https://github.com/davidrohr)
+- [#5097](https://github.com/AliceO2Group/AliceO2/pull/5097) 2020-12-25: TPC Tracking: Workaround for 0-cluster tracks by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5081](https://github.com/AliceO2Group/AliceO2/pull/5081) 2020-12-18: DPL: Use JAliEn::JAliEn rather than XRootD::Client to enable support by [@ktf](https://github.com/ktf)
