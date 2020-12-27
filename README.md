@@ -13,3 +13,5 @@
 - [#5094](https://github.com/AliceO2Group/AliceO2/pull/5094) 2020-12-24: GPU: Some work towards making the o2 propagator work on GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5096](https://github.com/AliceO2Group/AliceO2/pull/5096) 2020-12-25: Add possibility to use the GPUPolynomialField in the O2 propagator and make the O2 propagator compile on GPU by [@davidrohr](https://github.com/davidrohr)
 - [#5097](https://github.com/AliceO2Group/AliceO2/pull/5097) 2020-12-25: TPC Tracking: Workaround for 0-cluster tracks by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Framework
+- [#5098](https://github.com/AliceO2Group/AliceO2/pull/5098) 2020-12-27: DPL: use RawDeviceService to sleep in example by [@ktf](https://github.com/ktf)
