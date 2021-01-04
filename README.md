@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-- [#5013](https://github.com/AliceO2Group/AliceO2/pull/5013) 2021-01-04: PWGHF: Update of the Lc->pKpi selector and task by [@DelloStritto](https://github.com/DelloStritto)
 ## Recent developments in O2 - Common
 - [#5100](https://github.com/AliceO2Group/AliceO2/pull/5100) 2020-12-28: GPU: Make more headers compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
