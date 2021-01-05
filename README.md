@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [#5026](https://github.com/AliceO2Group/AliceO2/pull/5026) 2021-01-05: Convert collision time to ps in TOF PID response by [@njacazio](https://github.com/njacazio)
 - [#5074](https://github.com/AliceO2Group/AliceO2/pull/5074) 2021-01-05:  Initial version of EMCAL Correction Task by [@raymondEhlers](https://github.com/raymondEhlers)
 ## Recent developments in O2 - DataFormats
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
