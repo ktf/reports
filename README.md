@@ -20,3 +20,4 @@
 ## Recent developments in O2 - Framework
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
+- [#5124](https://github.com/AliceO2Group/AliceO2/pull/5124) 2021-01-05: DPL: do not compile GUISupport if AliceO2::DebugGUI is not found by [@ktf](https://github.com/ktf)
