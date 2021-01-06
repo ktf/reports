@@ -18,6 +18,7 @@
 - [#5111](https://github.com/AliceO2Group/AliceO2/pull/5111) 2021-01-06: Rdev tof updates by [@preghenella](https://github.com/preghenella)
 - [#5116](https://github.com/AliceO2Group/AliceO2/pull/5116) 2021-01-05: Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model by [@davidrohr](https://github.com/davidrohr)
 - [#5118](https://github.com/AliceO2Group/AliceO2/pull/5118) 2021-01-04: Default mat.corr. is with LUT, fall-back to TGeo if LUT is not set by [@shahor02](https://github.com/shahor02)
+- [#5121](https://github.com/AliceO2Group/AliceO2/pull/5121) 2021-01-06: Match all subspecs unless one subspec is passed explicitely by [@dstocco](https://github.com/dstocco)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
