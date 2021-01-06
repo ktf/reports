@@ -12,8 +12,6 @@
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5101](https://github.com/AliceO2Group/AliceO2/pull/5101) 2020-12-29: [EMCAL-675] Handling of pages without trailer by [@mfasDa](https://github.com/mfasDa)
-- [#5102](https://github.com/AliceO2Group/AliceO2/pull/5102) 2020-12-29: Drop bad assert by [@ktf](https://github.com/ktf)
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5105](https://github.com/AliceO2Group/AliceO2/pull/5105) 2021-01-04: Disable CA_DEBUG in ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5116](https://github.com/AliceO2Group/AliceO2/pull/5116) 2021-01-05: Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model by [@davidrohr](https://github.com/davidrohr)
