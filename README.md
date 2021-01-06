@@ -21,5 +21,6 @@
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
 - [#5124](https://github.com/AliceO2Group/AliceO2/pull/5124) 2021-01-05: DPL: do not compile GUISupport if AliceO2::DebugGUI is not found by [@ktf](https://github.com/ktf)
+- [#5126](https://github.com/AliceO2Group/AliceO2/pull/5126) 2021-01-06: DPL: add helper to printout current state by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
