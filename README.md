@@ -11,6 +11,7 @@
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
+- [#5087](https://github.com/AliceO2Group/AliceO2/pull/5087) 2021-01-06: Bugfix in digits->raw->cell chain by [@peressounko](https://github.com/peressounko)
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5105](https://github.com/AliceO2Group/AliceO2/pull/5105) 2021-01-04: Disable CA_DEBUG in ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5111](https://github.com/AliceO2Group/AliceO2/pull/5111) 2021-01-06: Rdev tof updates by [@preghenella](https://github.com/preghenella)
