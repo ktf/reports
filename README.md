@@ -2,7 +2,6 @@
 ## Recent O2 releases
 - v21.01: Done on 2021-01-05.
 ## Recent developments in O2 - Analysis
-- [#5026](https://github.com/AliceO2Group/AliceO2/pull/5026) 2021-01-05: Convert collision time to ps in TOF PID response by [@njacazio](https://github.com/njacazio)
 - [#5074](https://github.com/AliceO2Group/AliceO2/pull/5074) 2021-01-05:  Initial version of EMCAL Correction Task by [@raymondEhlers](https://github.com/raymondEhlers)
 - [#5086](https://github.com/AliceO2Group/AliceO2/pull/5086) 2021-01-05: Use Dynamic columns for the expected PID signals by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
