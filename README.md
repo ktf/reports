@@ -25,5 +25,8 @@
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
 - [#5124](https://github.com/AliceO2Group/AliceO2/pull/5124) 2021-01-05: DPL: do not compile GUISupport if AliceO2::DebugGUI is not found by [@ktf](https://github.com/ktf)
 - [#5126](https://github.com/AliceO2Group/AliceO2/pull/5126) 2021-01-06: DPL: add helper to printout current state by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [#5082](https://github.com/AliceO2Group/AliceO2/pull/5082) 2021-01-06: Fill PDG code database before event generation by [@mpuccio](https://github.com/mpuccio)
+- [#5114](https://github.com/AliceO2Group/AliceO2/pull/5114) 2021-01-06: Rdev evgen updates by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Utilities
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
