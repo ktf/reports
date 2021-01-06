@@ -13,6 +13,7 @@
 ## Recent developments in O2 - Detectors
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5105](https://github.com/AliceO2Group/AliceO2/pull/5105) 2021-01-04: Disable CA_DEBUG in ITS Tracking by [@davidrohr](https://github.com/davidrohr)
+- [#5111](https://github.com/AliceO2Group/AliceO2/pull/5111) 2021-01-06: Rdev tof updates by [@preghenella](https://github.com/preghenella)
 - [#5116](https://github.com/AliceO2Group/AliceO2/pull/5116) 2021-01-05: Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model by [@davidrohr](https://github.com/davidrohr)
 - [#5118](https://github.com/AliceO2Group/AliceO2/pull/5118) 2021-01-04: Default mat.corr. is with LUT, fall-back to TGeo if LUT is not set by [@shahor02](https://github.com/shahor02)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
