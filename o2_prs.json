@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-12-08T15:10:36Z",
-            "title": "Fix for MCTruth label checks",
-            "number": 5031,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Drop initial prototype of dataflow setup",
@@ -4594,8 +4574,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-07T09:06:28Z",
             "title": "[ITS] Various fix for codechecker and Clang",
             "number": 5130,
             "author": {
@@ -4661,6 +4641,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/ClusterLines.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Disable some ROCm CMake warnings",
+            "number": 5131,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
                   }
                 }
               ]
