@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-11T09:04:29Z",
-            "title": "Fixed bug for nested AnalysisCompositeCuts; removed duplicated histogram classes from TableReader",
-            "number": 5039,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/AnalysisCompositeCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/AnalysisCompositeCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-14T08:50:21Z",
             "title": "Adding truncation + some minor changes",
             "number": 5040,
@@ -4265,6 +4235,11 @@
                 },
                 {
                   "node": {
+                    "path": "run/SimExamples/Custom_EventInfo/read_event_info.macro"
+                  }
+                },
+                {
+                  "node": {
                     "path": "run/SimExamples/Custom_EventInfo/run.sh"
                   }
                 },
@@ -4546,6 +4521,51 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/reducedEventAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-677] Propagate trigger bits from RDH to TriggerRecord",
+            "number": 5139,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/TriggerRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/TriggerRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/EMCALDigitizerSpec.cxx"
                   }
                 }
               ]
