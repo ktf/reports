@@ -13,6 +13,7 @@
 ## Recent developments in O2 - DataFormats
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Detectors
 - [#5087](https://github.com/AliceO2Group/AliceO2/pull/5087) 2021-01-06: Bugfix in digits->raw->cell chain by [@peressounko](https://github.com/peressounko)
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
@@ -24,6 +25,7 @@
 - [#5121](https://github.com/AliceO2Group/AliceO2/pull/5121) 2021-01-06: Match all subspecs unless one subspec is passed explicitely by [@dstocco](https://github.com/dstocco)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5130](https://github.com/AliceO2Group/AliceO2/pull/5130) 2021-01-07: [ITS] Various fix for codechecker and Clang by [@mconcas](https://github.com/mconcas)
+- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5140](https://github.com/AliceO2Group/AliceO2/pull/5140) 2021-01-08: Fix: do not invoke FIT recpoints reader with --use-fit in raw data input mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
@@ -33,5 +35,7 @@
 ## Recent developments in O2 - Generators
 - [#5082](https://github.com/AliceO2Group/AliceO2/pull/5082) 2021-01-06: Fill PDG code database before event generation by [@mpuccio](https://github.com/mpuccio)
 - [#5114](https://github.com/AliceO2Group/AliceO2/pull/5114) 2021-01-06: Rdev evgen updates by [@preghenella](https://github.com/preghenella)
+## Recent developments in O2 - Steer
+- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
