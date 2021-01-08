@@ -9,6 +9,7 @@
 ## Recent developments in O2 - Common
 - [#5072](https://github.com/AliceO2Group/AliceO2/pull/5072) 2021-01-05: A ROOT serializable key-value store by [@sawenzel](https://github.com/sawenzel)
 - [#5116](https://github.com/AliceO2Group/AliceO2/pull/5116) 2021-01-05: Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model by [@davidrohr](https://github.com/davidrohr)
+- [#5134](https://github.com/AliceO2Group/AliceO2/pull/5134) 2021-01-08: RootSerializableKeyValueStore: Add print function by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
