@@ -24,6 +24,7 @@
 - [#5121](https://github.com/AliceO2Group/AliceO2/pull/5121) 2021-01-06: Match all subspecs unless one subspec is passed explicitely by [@dstocco](https://github.com/dstocco)
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5130](https://github.com/AliceO2Group/AliceO2/pull/5130) 2021-01-07: [ITS] Various fix for codechecker and Clang by [@mconcas](https://github.com/mconcas)
+- [#5140](https://github.com/AliceO2Group/AliceO2/pull/5140) 2021-01-08: Fix: do not invoke FIT recpoints reader with --use-fit in raw data input mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
