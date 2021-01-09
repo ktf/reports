@@ -15,6 +15,7 @@
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
+- [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5087](https://github.com/AliceO2Group/AliceO2/pull/5087) 2021-01-06: Bugfix in digits->raw->cell chain by [@peressounko](https://github.com/peressounko)
 - [#5104](https://github.com/AliceO2Group/AliceO2/pull/5104) 2021-01-04: Use DBSCAN for Time-Z clustering in PVertexing, debris reduction by [@shahor02](https://github.com/shahor02)
@@ -29,6 +30,7 @@
 - [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
 - [#5140](https://github.com/AliceO2Group/AliceO2/pull/5140) 2021-01-08: Fix: do not invoke FIT recpoints reader with --use-fit in raw data input mode by [@shahor02](https://github.com/shahor02)
+- [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5099](https://github.com/AliceO2Group/AliceO2/pull/5099) 2021-01-04: DPL: move GUI to a plugin by [@ktf](https://github.com/ktf)
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
