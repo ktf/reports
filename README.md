@@ -6,6 +6,7 @@
 - [#5086](https://github.com/AliceO2Group/AliceO2/pull/5086) 2021-01-05: Use Dynamic columns for the expected PID signals by [@njacazio](https://github.com/njacazio)
 - [#5125](https://github.com/AliceO2Group/AliceO2/pull/5125) 2021-01-06: Fix nCand=0 case by [@aimeric-landou](https://github.com/aimeric-landou)
 - [#5127](https://github.com/AliceO2Group/AliceO2/pull/5127) 2021-01-07: Subscribe PID tasks to collisions by [@njacazio](https://github.com/njacazio)
+- [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [#5072](https://github.com/AliceO2Group/AliceO2/pull/5072) 2021-01-05: A ROOT serializable key-value store by [@sawenzel](https://github.com/sawenzel)
 - [#5116](https://github.com/AliceO2Group/AliceO2/pull/5116) 2021-01-05: Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model by [@davidrohr](https://github.com/davidrohr)
@@ -40,6 +41,7 @@
 - [#5113](https://github.com/AliceO2Group/AliceO2/pull/5113) 2021-01-04: DPL: drop unneeded include statements by [@ktf](https://github.com/ktf)
 - [#5124](https://github.com/AliceO2Group/AliceO2/pull/5124) 2021-01-05: DPL: do not compile GUISupport if AliceO2::DebugGUI is not found by [@ktf](https://github.com/ktf)
 - [#5126](https://github.com/AliceO2Group/AliceO2/pull/5126) 2021-01-06: DPL: add helper to printout current state by [@ktf](https://github.com/ktf)
+- [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [#5082](https://github.com/AliceO2Group/AliceO2/pull/5082) 2021-01-06: Fill PDG code database before event generation by [@mpuccio](https://github.com/mpuccio)
 - [#5114](https://github.com/AliceO2Group/AliceO2/pull/5114) 2021-01-06: Rdev evgen updates by [@preghenella](https://github.com/preghenella)
