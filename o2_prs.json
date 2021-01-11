@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-11T09:04:41Z",
-            "title": "DPL: allow customization of FairMQ channels from command line",
-            "number": 5048,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ChannelConfigurationPolicyHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ChannelSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/WorkflowCustomizationHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ChannelConfigurationPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ChannelConfigurationPolicyHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ChannelSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/Mocking.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-11T15:53:21Z",
             "title": "Add DAQ SystemID Unloaded [O2-1918]",
             "number": 5049,
@@ -4251,6 +4181,81 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ALICE 3] Add separate class to describe A3 beam pipe + 12-layer A3 layout",
+            "number": 5148,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/include/A3DetectorsPassive/A3PassiveBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/include/A3DetectorsPassive/A3Pipe.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/A3PassiveBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/A3PassiveLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/A3Pipe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/include/TRKSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
                   }
                 }
               ]
