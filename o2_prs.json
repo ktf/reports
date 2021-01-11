@@ -5,166 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-10T20:31:15Z",
-            "title": "Support for FLUKA VMC backend in O2",
-            "number": 5046,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/Stack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/data/coreFlukaVmc.inp"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/FlukaConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/SimSetup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindFlukaVMC.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2FindDependenciesFromAliBuild.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2SimulationDependencies.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-12-16T22:10:35Z",
-            "title": "TOF DCS Processor",
-            "number": 5047,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DataPointGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DetectorsDCSLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/DCSRandomDataGeneratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Geo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Geo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/macros/makeCCDBEntryForDCS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/TOFCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/TOFDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/tof-dcs-data-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-11T09:04:41Z",
             "title": "DPL: allow customization of FairMQ channels from command line",
             "number": 5048,
@@ -4316,6 +4156,101 @@
                 {
                   "node": {
                     "path": "macro/analyzeDigitLabels.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Change Tau0 max to 10 mm in Pythia8 configurations",
+            "number": 5146,
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/pythia8_hf.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/pythia8_hi.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/egconfig/pythia8_inel.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Adaptive_Pythia8/pythia8_inel.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Custom_EventInfo/pythia8_inel.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HF_Embedding_Pythia8/pythia8_ccbar.template"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Jet_Embedding_Pythia8/pythia8_hard.cfg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FV0][O2-1849] Trigger inputs for CTP simulation",
+            "number": 5147,
+            "author": {
+              "login": "mslupeck"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/BCData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/DataFormatsFV0LinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FV0DigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
                   }
                 }
               ]
