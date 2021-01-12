@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-12-11T09:07:35Z",
-            "title": "Drop obsolete badge",
-            "number": 5051,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWGHF: do not merge yet: Add efficiency and fix impact parameter calculation",
@@ -3615,6 +3595,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Analysis/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Analysis/Core/CMakeLists.txt"
                   }
                 },
@@ -3625,62 +3610,67 @@
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGDQ/AnalysisCompositeCut.cxx"
+                    "path": "Analysis/PWGDQ/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGDQ/AnalysisCompositeCut.h"
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/AnalysisCompositeCut.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGDQ/AnalysisCut.cxx"
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/AnalysisCut.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGDQ/AnalysisCut.h"
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/AnalysisCompositeCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/AnalysisCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/HistogramManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/PWGDQCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/HistogramManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/HistogramManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/PWGDQCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/VarManager.h"
                   }
                 },
                 {
@@ -4196,6 +4186,31 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Small fixes",
+            "number": 5151,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
                   }
                 }
               ]
