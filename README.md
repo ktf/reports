@@ -60,3 +60,4 @@
 ## Recent developments in O2 - Utilities
 - [#5122](https://github.com/AliceO2Group/AliceO2/pull/5122) 2021-01-05: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5151](https://github.com/AliceO2Group/AliceO2/pull/5151) 2021-01-12: Small fixes by [@sawenzel](https://github.com/sawenzel)
+- [#5156](https://github.com/AliceO2Group/AliceO2/pull/5156) 2021-01-12: o2-sim: Better signal propagation; small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
