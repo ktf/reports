@@ -6,6 +6,7 @@
 - [#5127](https://github.com/AliceO2Group/AliceO2/pull/5127) 2021-01-07: Subscribe PID tasks to collisions by [@njacazio](https://github.com/njacazio)
 - [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 - [#5138](https://github.com/AliceO2Group/AliceO2/pull/5138) 2021-01-12: PWGDQ utility classes moved from AnalysisCore to Analysis/Tasks/PWGDQ by [@iarsene](https://github.com/iarsene)
+- [#5155](https://github.com/AliceO2Group/AliceO2/pull/5155) 2021-01-13: Add multiplicity distribution task by [@jgrosseo](https://github.com/jgrosseo)
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
