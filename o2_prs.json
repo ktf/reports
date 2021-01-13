@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-18T20:32:10Z",
-            "title": "DPL: Use JAliEn::JAliEn rather than XRootD::Client to enable support",
-            "number": 5081,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-06T17:09:50Z",
             "title": "Fill PDG code database before event generation",
             "number": 5082,
@@ -3864,8 +3844,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-13T20:54:43Z",
             "title": "AliEn metrics",
             "number": 5177,
             "author": {
@@ -3959,8 +3939,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-13T20:50:20Z",
             "title": "Work towards getting the TPC Tracking QA run standalone from a tracks ROOT file",
             "number": 5179,
             "author": {
@@ -4026,6 +4006,41 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflow/src/CompressedDecodingTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Standalone TPC Tracking QA (independent from o2-tpc-reco-workflow)",
+            "number": 5181,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TrackReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TrackReaderWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/qa/GPUQA.cxx"
                   }
                 }
               ]

@@ -9,6 +9,7 @@
 - [#5155](https://github.com/AliceO2Group/AliceO2/pull/5155) 2021-01-13: Add multiplicity distribution task by [@jgrosseo](https://github.com/jgrosseo)
 - [#5158](https://github.com/AliceO2Group/AliceO2/pull/5158) 2021-01-13: use filters by [@jgrosseo](https://github.com/jgrosseo)
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
+- [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 - [#5134](https://github.com/AliceO2Group/AliceO2/pull/5134) 2021-01-08: RootSerializableKeyValueStore: Add print function by [@sawenzel](https://github.com/sawenzel)
@@ -40,6 +41,7 @@
 - [#5153](https://github.com/AliceO2Group/AliceO2/pull/5153) 2021-01-12: Avoid 2D params in SVertexer configurable params by [@shahor02](https://github.com/shahor02)
 - [#5164](https://github.com/AliceO2Group/AliceO2/pull/5164) 2021-01-13: Allow multiple test workflows with non-overlapping TF-ids by [@shahor02](https://github.com/shahor02)
 - [#5175](https://github.com/AliceO2Group/AliceO2/pull/5175) 2021-01-13: GPU: remove leftover debug messages by [@davidrohr](https://github.com/davidrohr)
+- [#5179](https://github.com/AliceO2Group/AliceO2/pull/5179) 2021-01-13: Work towards getting the TPC Tracking QA run standalone from a tracks ROOT file by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -48,6 +50,7 @@
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
 - [#5165](https://github.com/AliceO2Group/AliceO2/pull/5165) 2021-01-13: DPL utils: allow customising output-proxy by [@ktf](https://github.com/ktf)
 - [#5168](https://github.com/AliceO2Group/AliceO2/pull/5168) 2021-01-13: DPL: increase max size of string metrics to 256 bytes by [@ktf](https://github.com/ktf)
+- [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [#5082](https://github.com/AliceO2Group/AliceO2/pull/5082) 2021-01-06: Fill PDG code database before event generation by [@mpuccio](https://github.com/mpuccio)
 - [#5114](https://github.com/AliceO2Group/AliceO2/pull/5114) 2021-01-06: Rdev evgen updates by [@preghenella](https://github.com/preghenella)
