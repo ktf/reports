@@ -37,6 +37,7 @@
 - [#5144](https://github.com/AliceO2Group/AliceO2/pull/5144) 2021-01-10: Fix: increment EMCAL TriggerRecord class version by [@shahor02](https://github.com/shahor02)
 - [#5147](https://github.com/AliceO2Group/AliceO2/pull/5147) 2021-01-12: [FV0][O2-1849] Trigger inputs for CTP simulation by [@mslupeck](https://github.com/mslupeck)
 - [#5153](https://github.com/AliceO2Group/AliceO2/pull/5153) 2021-01-12: Avoid 2D params in SVertexer configurable params by [@shahor02](https://github.com/shahor02)
+- [#5164](https://github.com/AliceO2Group/AliceO2/pull/5164) 2021-01-13: Allow multiple test workflows with non-overlapping TF-ids by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
