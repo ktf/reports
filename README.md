@@ -44,6 +44,7 @@
 - [#5126](https://github.com/AliceO2Group/AliceO2/pull/5126) 2021-01-06: DPL: add helper to printout current state by [@ktf](https://github.com/ktf)
 - [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
+- [#5165](https://github.com/AliceO2Group/AliceO2/pull/5165) 2021-01-13: DPL utils: allow customising output-proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5082](https://github.com/AliceO2Group/AliceO2/pull/5082) 2021-01-06: Fill PDG code database before event generation by [@mpuccio](https://github.com/mpuccio)
 - [#5114](https://github.com/AliceO2Group/AliceO2/pull/5114) 2021-01-06: Rdev evgen updates by [@preghenella](https://github.com/preghenella)
