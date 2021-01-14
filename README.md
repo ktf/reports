@@ -39,6 +39,8 @@
 - [#5175](https://github.com/AliceO2Group/AliceO2/pull/5175) 2021-01-13: GPU: remove leftover debug messages by [@davidrohr](https://github.com/davidrohr)
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5179](https://github.com/AliceO2Group/AliceO2/pull/5179) 2021-01-13: Work towards getting the TPC Tracking QA run standalone from a tracks ROOT file by [@davidrohr](https://github.com/davidrohr)
+- [#5180](https://github.com/AliceO2Group/AliceO2/pull/5180) 2021-01-14: Do not encode TDC errors to compressed output stream by [@preghenella](https://github.com/preghenella)
+- [#5181](https://github.com/AliceO2Group/AliceO2/pull/5181) 2021-01-14: Standalone TPC Tracking QA (independent from o2-tpc-reco-workflow) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -60,3 +62,4 @@
 - [#5151](https://github.com/AliceO2Group/AliceO2/pull/5151) 2021-01-12: Small fixes by [@sawenzel](https://github.com/sawenzel)
 - [#5156](https://github.com/AliceO2Group/AliceO2/pull/5156) 2021-01-12: o2-sim: Better signal propagation; small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
 - [#5169](https://github.com/AliceO2Group/AliceO2/pull/5169) 2021-01-13: jobutils: exit workflows on first task error by [@sawenzel](https://github.com/sawenzel)
+- [#5172](https://github.com/AliceO2Group/AliceO2/pull/5172) 2021-01-14: Fix o2_add_dpl_workflow on Ubuntu and some other systems by [@davidrohr](https://github.com/davidrohr)
