@@ -9,6 +9,7 @@
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
 - [#5174](https://github.com/AliceO2Group/AliceO2/pull/5174) 2021-01-14: Add histrogram register and track selection by [@lbariogl](https://github.com/lbariogl)
 - [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
+- [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 - [#5134](https://github.com/AliceO2Group/AliceO2/pull/5134) 2021-01-08: RootSerializableKeyValueStore: Add print function by [@sawenzel](https://github.com/sawenzel)
@@ -52,6 +53,7 @@
 - [#5165](https://github.com/AliceO2Group/AliceO2/pull/5165) 2021-01-13: DPL utils: allow customising output-proxy by [@ktf](https://github.com/ktf)
 - [#5168](https://github.com/AliceO2Group/AliceO2/pull/5168) 2021-01-13: DPL: increase max size of string metrics to 256 bytes by [@ktf](https://github.com/ktf)
 - [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
+- [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 - [#5152](https://github.com/AliceO2Group/AliceO2/pull/5152) 2021-01-12: Revert "Populate event header with information of the current Pythia8… by [@sawenzel](https://github.com/sawenzel)
