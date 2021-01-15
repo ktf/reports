@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Draft HFMCValidation Heavy Flavour Monte Carlo validation",
-            "number": 5095,
-            "author": {
-              "login": "apalasciano"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFMCMatchingValidation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2020-12-25T12:29:48Z",
             "title": "Add possibility to use the GPUPolynomialField in the O2 propagator and make the O2 propagator compile on GPU",
@@ -3635,7 +3615,32 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Utils/include/DPLUtils/RootTreeWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FDDDigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitRootWriterSpec.cxx"
                   }
                 }
               ]
@@ -3836,6 +3841,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/clusterFinderDefs.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix for 2 readers and 1 input file",
+            "number": 5195,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
                   }
                 }
               ]
