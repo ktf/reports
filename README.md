@@ -44,6 +44,7 @@
 - [#5180](https://github.com/AliceO2Group/AliceO2/pull/5180) 2021-01-14: Do not encode TDC errors to compressed output stream by [@preghenella](https://github.com/preghenella)
 - [#5181](https://github.com/AliceO2Group/AliceO2/pull/5181) 2021-01-14: Standalone TPC Tracking QA (independent from o2-tpc-reco-workflow) by [@davidrohr](https://github.com/davidrohr)
 - [#5185](https://github.com/AliceO2Group/AliceO2/pull/5185) 2021-01-14: Add TPC QC histograms for (limited) monitoring of cluster rejection on the fly while processing without MC information by [@davidrohr](https://github.com/davidrohr)
+- [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5192](https://github.com/AliceO2Group/AliceO2/pull/5192) 2021-01-15: FT0 LUT prepared as Singleton for DigitBlockFT0 usage by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Examples
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
@@ -55,6 +56,7 @@
 - [#5168](https://github.com/AliceO2Group/AliceO2/pull/5168) 2021-01-13: DPL: increase max size of string metrics to 256 bytes by [@ktf](https://github.com/ktf)
 - [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
+- [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5189](https://github.com/AliceO2Group/AliceO2/pull/5189) 2021-01-15: DPL: add `--forwarding-policy none` to help message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
@@ -65,6 +67,7 @@
 - [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
 - [#5147](https://github.com/AliceO2Group/AliceO2/pull/5147) 2021-01-12: [FV0][O2-1849] Trigger inputs for CTP simulation by [@mslupeck](https://github.com/mslupeck)
+- [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [#5151](https://github.com/AliceO2Group/AliceO2/pull/5151) 2021-01-12: Small fixes by [@sawenzel](https://github.com/sawenzel)
 - [#5156](https://github.com/AliceO2Group/AliceO2/pull/5156) 2021-01-12: o2-sim: Better signal propagation; small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
