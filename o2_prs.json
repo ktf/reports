@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2020-12-19T14:01:47Z",
-            "title": "MFT: fix lanes mapping for decoding commissionning data and for worki…",
-            "number": 5088,
-            "author": {
-              "login": "bovulpes"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/ChipMappingMFT.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/MC2RawEncoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2020-12-22T21:07:34Z",
             "title": "real LUT in CCDB",
             "number": 5089,
@@ -3324,8 +3284,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-15T08:15:54Z",
             "title": "Create a PR with new CHANGELOG entries",
             "number": 5170,
             "author": {
@@ -3981,6 +3941,166 @@
                 {
                   "node": {
                     "path": "Framework/Utils/include/DPLUtils/RootTreeWriter.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "The following changelog has been automatically generated.",
+            "number": 5188,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/LinkRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/CompressedRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/ConfigEvenParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/CruCompressorTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/DigitsParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/EpnDataReaderTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/include/TRDRaw/TrackletsParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/CompressedRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/CruCompressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/CruCompressorTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/CruRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/DigitsParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/EpnDataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/EpnDataReaderTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/raw/src/TrackletsParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/trap2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2021-01-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2021-01-o2_releases.json"
                   }
                 }
               ]
