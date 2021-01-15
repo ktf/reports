@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5127](https://github.com/AliceO2Group/AliceO2/pull/5127) 2021-01-07: Subscribe PID tasks to collisions by [@njacazio](https://github.com/njacazio)
 - [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 - [#5138](https://github.com/AliceO2Group/AliceO2/pull/5138) 2021-01-12: PWGDQ utility classes moved from AnalysisCore to Analysis/Tasks/PWGDQ by [@iarsene](https://github.com/iarsene)
 - [#5155](https://github.com/AliceO2Group/AliceO2/pull/5155) 2021-01-13: Add multiplicity distribution task by [@jgrosseo](https://github.com/jgrosseo)
@@ -29,7 +28,6 @@
 ## Recent developments in O2 - Detectors
 - [#5128](https://github.com/AliceO2Group/AliceO2/pull/5128) 2021-01-10: bugfix in SpaceCharge distortion class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
-- [#5130](https://github.com/AliceO2Group/AliceO2/pull/5130) 2021-01-07: [ITS] Various fix for codechecker and Clang by [@mconcas](https://github.com/mconcas)
 - [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
 - [#5140](https://github.com/AliceO2Group/AliceO2/pull/5140) 2021-01-08: Fix: do not invoke FIT recpoints reader with --use-fit in raw data input mode by [@shahor02](https://github.com/shahor02)
