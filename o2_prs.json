@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2020-12-24T13:43:15Z",
-            "title": "GPU: Some work towards making the o2 propagator work on GPU",
-            "number": 5094,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackLTIntegral.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackLTIntegral.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Propagator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Draft HFMCValidation Heavy Flavour Monte Carlo validation",
@@ -3709,8 +3674,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-15T12:36:18Z",
             "title": "DPL: add `--forwarding-policy none` to help message",
             "number": 5189,
             "author": {
@@ -3763,6 +3728,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "CHANGELOG.md"
+                  }
+                },
                 {
                   "node": {
                     "path": "doc/data/2021-01-o2_prs.json"
@@ -3841,6 +3811,31 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/calibration/src/TOFFEElightReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Put reasonable max time bin for triggered TPC data",
+            "number": 5194,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/clusterFinderDefs.h"
                   }
                 }
               ]
