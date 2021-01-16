@@ -9,16 +9,15 @@
 - [#5174](https://github.com/AliceO2Group/AliceO2/pull/5174) 2021-01-14: Add histrogram register and track selection by [@lbariogl](https://github.com/lbariogl)
 - [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
+- [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
-- [#5134](https://github.com/AliceO2Group/AliceO2/pull/5134) 2021-01-08: RootSerializableKeyValueStore: Add print function by [@sawenzel](https://github.com/sawenzel)
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
+- [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
-- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
 - [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
 - [#5142](https://github.com/AliceO2Group/AliceO2/pull/5142) 2021-01-09: Several unrelated fixes in GPU code by [@davidrohr](https://github.com/davidrohr)
 - [#5144](https://github.com/AliceO2Group/AliceO2/pull/5144) 2021-01-10: Fix: increment EMCAL TriggerRecord class version by [@shahor02](https://github.com/shahor02)
@@ -26,12 +25,10 @@
 - [#5163](https://github.com/AliceO2Group/AliceO2/pull/5163) 2021-01-12: Bring back info treatment in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5192](https://github.com/AliceO2Group/AliceO2/pull/5192) 2021-01-15: FT0 LUT prepared as Singleton for DigitBlockFT0 usage by [@afurs](https://github.com/afurs)
+- [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
 - [#5128](https://github.com/AliceO2Group/AliceO2/pull/5128) 2021-01-10: bugfix in SpaceCharge distortion class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
-- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
-- [#5140](https://github.com/AliceO2Group/AliceO2/pull/5140) 2021-01-08: Fix: do not invoke FIT recpoints reader with --use-fit in raw data input mode by [@shahor02](https://github.com/shahor02)
 - [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
 - [#5143](https://github.com/AliceO2Group/AliceO2/pull/5143) 2021-01-11: Fixes for OMP and for dumping events for the standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [#5144](https://github.com/AliceO2Group/AliceO2/pull/5144) 2021-01-10: Fix: increment EMCAL TriggerRecord class version by [@shahor02](https://github.com/shahor02)
@@ -46,6 +43,7 @@
 - [#5185](https://github.com/AliceO2Group/AliceO2/pull/5185) 2021-01-14: Add TPC QC histograms for (limited) monitoring of cluster rejection on the fly while processing without MC information by [@davidrohr](https://github.com/davidrohr)
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5192](https://github.com/AliceO2Group/AliceO2/pull/5192) 2021-01-15: FT0 LUT prepared as Singleton for DigitBlockFT0 usage by [@afurs](https://github.com/afurs)
+- [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Examples
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -58,14 +56,13 @@
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5189](https://github.com/AliceO2Group/AliceO2/pull/5189) 2021-01-15: DPL: add `--forwarding-policy none` to help message by [@ktf](https://github.com/ktf)
+- [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 - [#5152](https://github.com/AliceO2Group/AliceO2/pull/5152) 2021-01-12: Revert "Populate event header with information of the current Pythia8… by [@sawenzel](https://github.com/sawenzel)
 - [#5163](https://github.com/AliceO2Group/AliceO2/pull/5163) 2021-01-12: Bring back info treatment in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
-- [#5135](https://github.com/AliceO2Group/AliceO2/pull/5135) 2021-01-08: Add trigger inputs branch  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [#5139](https://github.com/AliceO2Group/AliceO2/pull/5139) 2021-01-08: [EMCAL-677] Propagate trigger bits from RDH to TriggerRecord by [@mfasDa](https://github.com/mfasDa)
 - [#5147](https://github.com/AliceO2Group/AliceO2/pull/5147) 2021-01-12: [FV0][O2-1849] Trigger inputs for CTP simulation by [@mslupeck](https://github.com/mslupeck)
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
@@ -74,3 +71,4 @@
 - [#5169](https://github.com/AliceO2Group/AliceO2/pull/5169) 2021-01-13: jobutils: exit workflows on first task error by [@sawenzel](https://github.com/sawenzel)
 - [#5172](https://github.com/AliceO2Group/AliceO2/pull/5172) 2021-01-14: Fix o2_add_dpl_workflow on Ubuntu and some other systems by [@davidrohr](https://github.com/davidrohr)
 - [#5196](https://github.com/AliceO2Group/AliceO2/pull/5196) 2021-01-15: small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
+- [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
