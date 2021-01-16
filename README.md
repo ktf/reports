@@ -10,6 +10,7 @@
 - [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
+- [#5200](https://github.com/AliceO2Group/AliceO2/pull/5200) 2021-01-16: PWGHF changing default preselection values for hyperloop by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
