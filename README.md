@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
 - [#5138](https://github.com/AliceO2Group/AliceO2/pull/5138) 2021-01-12: PWGDQ utility classes moved from AnalysisCore to Analysis/Tasks/PWGDQ by [@iarsene](https://github.com/iarsene)
+- [#5150](https://github.com/AliceO2Group/AliceO2/pull/5150) 2021-01-16: PWGHF: fix of the histogram registry in the Lc task by [@DelloStritto](https://github.com/DelloStritto)
 - [#5155](https://github.com/AliceO2Group/AliceO2/pull/5155) 2021-01-13: Add multiplicity distribution task by [@jgrosseo](https://github.com/jgrosseo)
 - [#5158](https://github.com/AliceO2Group/AliceO2/pull/5158) 2021-01-13: use filters by [@jgrosseo](https://github.com/jgrosseo)
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
