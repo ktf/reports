@@ -20,8 +20,6 @@
 ## Recent developments in O2 - DataFormats
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
 - [#5133](https://github.com/AliceO2Group/AliceO2/pull/5133) 2021-01-11: Populate MC event header with information from current Pythia8 event by [@preghenella](https://github.com/preghenella)
-- [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
-- [#5142](https://github.com/AliceO2Group/AliceO2/pull/5142) 2021-01-09: Several unrelated fixes in GPU code by [@davidrohr](https://github.com/davidrohr)
 - [#5144](https://github.com/AliceO2Group/AliceO2/pull/5144) 2021-01-10: Fix: increment EMCAL TriggerRecord class version by [@shahor02](https://github.com/shahor02)
 - [#5147](https://github.com/AliceO2Group/AliceO2/pull/5147) 2021-01-12: [FV0][O2-1849] Trigger inputs for CTP simulation by [@mslupeck](https://github.com/mslupeck)
 - [#5163](https://github.com/AliceO2Group/AliceO2/pull/5163) 2021-01-12: Bring back info treatment in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
@@ -31,7 +29,6 @@
 ## Recent developments in O2 - Detectors
 - [#5128](https://github.com/AliceO2Group/AliceO2/pull/5128) 2021-01-10: bugfix in SpaceCharge distortion class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5129](https://github.com/AliceO2Group/AliceO2/pull/5129) 2021-01-11: CPV raw writing and reconstruction by [@peressounko](https://github.com/peressounko)
-- [#5141](https://github.com/AliceO2Group/AliceO2/pull/5141) 2021-01-09: Use GPUTPCO2InterfaceRefit for TPC-ITS matches refit + misc fixes. by [@shahor02](https://github.com/shahor02)
 - [#5143](https://github.com/AliceO2Group/AliceO2/pull/5143) 2021-01-11: Fixes for OMP and for dumping events for the standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [#5144](https://github.com/AliceO2Group/AliceO2/pull/5144) 2021-01-10: Fix: increment EMCAL TriggerRecord class version by [@shahor02](https://github.com/shahor02)
 - [#5147](https://github.com/AliceO2Group/AliceO2/pull/5147) 2021-01-12: [FV0][O2-1849] Trigger inputs for CTP simulation by [@mslupeck](https://github.com/mslupeck)
