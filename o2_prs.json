@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-04T18:56:01Z",
-            "title": "Some minor improvements for GPU code",
-            "number": 5115,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl-common/GPUReconstructionOCL.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-05T09:40:39Z",
             "title": "Global (currently TPC only) refit on GPU using either GPU or TrackParCov track model",
             "number": 5116,
@@ -3120,136 +3080,6 @@
                 },
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/LinkRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/CompressedRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/ConfigEvenParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/CruCompressorTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/CruRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/DigitsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/EpnDataReaderTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/include/TRDRaw/TrackletsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/CompressedRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/CruCompressor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/CruCompressorTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/CruRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/DigitsParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/EpnDataReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/EpnDataReaderTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/raw/src/TrackletsParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/trap2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "doc/data/2021-01-o2_prs.json"
                   }
                 }
@@ -4046,6 +3876,26 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/pidTPC_tiny.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-01-18T09:32:17Z",
+            "title": "Only run reports.yml in AliceO2Group/AliceO2",
+            "number": 5215,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/reports.yml"
                   }
                 }
               ]
