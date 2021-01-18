@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-05T18:25:39Z",
-            "title": "DPL: do not compile GUISupport if AliceO2::DebugGUI is not found",
-            "number": 5124,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-06T15:40:54Z",
             "title": "Fix nCand=0 case",
             "number": 5125,
@@ -3886,6 +3861,36 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Shift decay type values to allow usage in arrays and bitmaps.",
+            "number": 5224,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
                   }
                 }
               ]
