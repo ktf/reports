@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-57-01: Done on 2021-01-18.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [#5132](https://github.com/AliceO2Group/AliceO2/pull/5132) 2021-01-11: Introduced 2d arrays in Variant by [@aalkin](https://github.com/aalkin)
