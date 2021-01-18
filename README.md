@@ -12,6 +12,7 @@
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
 - [#5200](https://github.com/AliceO2Group/AliceO2/pull/5200) 2021-01-16: PWGHF changing default preselection values for hyperloop by [@nzardosh](https://github.com/nzardosh)
+- [#5204](https://github.com/AliceO2Group/AliceO2/pull/5204) 2021-01-18: PWGHF: Use pre-selections for Dplus by [@fcatalan92](https://github.com/fcatalan92)
 - [#5205](https://github.com/AliceO2Group/AliceO2/pull/5205) 2021-01-18: Change task names, move initializers by [@ddobrigk](https://github.com/ddobrigk)
 - [#5210](https://github.com/AliceO2Group/AliceO2/pull/5210) 2021-01-18: small bug (re)fix, tpc momentum for dedx instead pvtx by [@akalweit](https://github.com/akalweit)
 ## Recent developments in O2 - Common
