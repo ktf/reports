@@ -48,6 +48,7 @@
 - [#5202](https://github.com/AliceO2Group/AliceO2/pull/5202) 2021-01-16: [EMCAL-630] Store result of the raw fit as energy by [@mfasDa](https://github.com/mfasDa)
 - [#5208](https://github.com/AliceO2Group/AliceO2/pull/5208) 2021-01-18: TPC-ITS matching will use tpc-reco-workflow or on-the-fly created shared cl.map  by [@shahor02](https://github.com/shahor02)
 - [#5216](https://github.com/AliceO2Group/AliceO2/pull/5216) 2021-01-19: TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper by [@davidrohr](https://github.com/davidrohr)
+- [#5225](https://github.com/AliceO2Group/AliceO2/pull/5225) 2021-01-19: [EMCAL-630] Fix assignment of energy and time by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [#5159](https://github.com/AliceO2Group/AliceO2/pull/5159) 2021-01-14: fix to allow iteratorAt on filtered tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5160](https://github.com/AliceO2Group/AliceO2/pull/5160) 2021-01-12: add alien SE by [@jgrosseo](https://github.com/jgrosseo)
