@@ -15,6 +15,7 @@
 - [#5204](https://github.com/AliceO2Group/AliceO2/pull/5204) 2021-01-18: PWGHF: Use pre-selections for Dplus by [@fcatalan92](https://github.com/fcatalan92)
 - [#5205](https://github.com/AliceO2Group/AliceO2/pull/5205) 2021-01-18: Change task names, move initializers by [@ddobrigk](https://github.com/ddobrigk)
 - [#5210](https://github.com/AliceO2Group/AliceO2/pull/5210) 2021-01-18: small bug (re)fix, tpc momentum for dedx instead pvtx by [@akalweit](https://github.com/akalweit)
+- [#5223](https://github.com/AliceO2Group/AliceO2/pull/5223) 2021-01-19: PWGHF : syncing decays in the preselection with enums used for MC by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
