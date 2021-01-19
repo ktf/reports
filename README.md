@@ -67,6 +67,7 @@
 - [#5189](https://github.com/AliceO2Group/AliceO2/pull/5189) 2021-01-15: DPL: add `--forwarding-policy none` to help message by [@ktf](https://github.com/ktf)
 - [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
 - [#5203](https://github.com/AliceO2Group/AliceO2/pull/5203) 2021-01-17: DPL: move driver communication to a separate Service by [@ktf](https://github.com/ktf)
+- [#5229](https://github.com/AliceO2Group/AliceO2/pull/5229) 2021-01-19: raw-parser logs DataHeader and DataProcessingHeader info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [#5152](https://github.com/AliceO2Group/AliceO2/pull/5152) 2021-01-12: Revert "Populate event header with information of the current Pythia8… by [@sawenzel](https://github.com/sawenzel)
 - [#5163](https://github.com/AliceO2Group/AliceO2/pull/5163) 2021-01-12: Bring back info treatment in MCEventHeader by [@sawenzel](https://github.com/sawenzel)
