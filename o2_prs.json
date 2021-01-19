@@ -5,111 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-11T08:46:01Z",
-            "title": "Populate MC event header with information from current Pythia8 event",
-            "number": 5133,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/RootSerializableKeyValueStore.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCEventHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/MCEventHeader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia8.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/DetectorSimulation.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Adaptive_Pythia8/adaptive_pythia8.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/AliRoot_AMPT/aliroot_ampt.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/generator.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/pythia8_inel.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/read_event_info.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/sim.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HF_Embedding_Pythia8/GeneratorHF.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Signal_ImpactB/signal_impactb.macro"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-08T08:24:42Z",
             "title": "RootSerializableKeyValueStore: Add print function",
             "number": 5134,
@@ -3806,6 +3701,51 @@
                 {
                   "node": {
                     "path": "Analysis/Core/include/AnalysisCore/HFConfigurables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC Workflow / Tracking: Remove dead codee",
+            "number": 5233,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/GPUCATracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/runCATrackingClusterNative.C"
                   }
                 }
               ]
