@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-06T10:24:09Z",
-            "title": "DPL: add helper to printout current state",
-            "number": 5126,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DriverInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DriverInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-07T07:41:07Z",
-            "title": "Subscribe PID tasks to collisions",
-            "number": 5127,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-10T14:00:40Z",
             "title": "bugfix in SpaceCharge distortion class",
             "number": 5128,
@@ -3896,6 +3841,46 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bugfix: WorkflowHelper.h was not installled",
+            "number": 5226,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Check for selective primary transport also in case of parallel sim",
+            "number": 5227,
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/Stack.cxx"
                   }
                 }
               ]
