@@ -42,6 +42,7 @@
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [#5148](https://github.com/AliceO2Group/AliceO2/pull/5148) 2021-01-20: [ALICE 3] Add separate class to describe A3 beam pipe + 12-layer A3 layout by [@mconcas](https://github.com/mconcas)
 - [#5164](https://github.com/AliceO2Group/AliceO2/pull/5164) 2021-01-13: Allow multiple test workflows with non-overlapping TF-ids by [@shahor02](https://github.com/shahor02)
 - [#5175](https://github.com/AliceO2Group/AliceO2/pull/5175) 2021-01-13: GPU: remove leftover debug messages by [@davidrohr](https://github.com/davidrohr)
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
