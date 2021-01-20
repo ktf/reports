@@ -18,6 +18,7 @@
 - [#5214](https://github.com/AliceO2Group/AliceO2/pull/5214) 2021-01-20: Add tables for the compressed Nsigma values by [@njacazio](https://github.com/njacazio)
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5223](https://github.com/AliceO2Group/AliceO2/pull/5223) 2021-01-19: PWGHF : syncing decays in the preselection with enums used for MC by [@nzardosh](https://github.com/nzardosh)
+- [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - Common
 - [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
@@ -53,6 +54,7 @@
 - [#5225](https://github.com/AliceO2Group/AliceO2/pull/5225) 2021-01-19: [EMCAL-630] Fix assignment of energy and time by [@mfasDa](https://github.com/mfasDa)
 - [#5226](https://github.com/AliceO2Group/AliceO2/pull/5226) 2021-01-19: Bugfix: WorkflowHelper.h was not installled by [@davidrohr](https://github.com/davidrohr)
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
+- [#5233](https://github.com/AliceO2Group/AliceO2/pull/5233) 2021-01-20: TPC Workflow / Tracking: Remove dead codee by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5159](https://github.com/AliceO2Group/AliceO2/pull/5159) 2021-01-14: fix to allow iteratorAt on filtered tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5165](https://github.com/AliceO2Group/AliceO2/pull/5165) 2021-01-13: DPL utils: allow customising output-proxy by [@ktf](https://github.com/ktf)
