@@ -4,176 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Prototype for background-on-signal filtering for ITS digitization (WIP)",
-            "number": 5137,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-12T14:31:51Z",
-            "title": "PWGDQ utility classes moved from AnalysisCore to Analysis/Tasks/PWGDQ",
-            "number": 5138,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/AnalysisCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/AnalysisCompositeCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/AnalysisCut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/AnalysisCompositeCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/AnalysisCut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/HistogramManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/PWGDQCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/dileptonMuMu.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/filterPP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMakerMuon_pp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker_pp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/reducedEventAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-01-08T20:28:09Z",
             "title": "[EMCAL-677] Propagate trigger bits from RDH to TriggerRecord",
@@ -3811,6 +3641,86 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/RootConfigParamHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adding protection for float truncation",
+            "number": 5237,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/detail/TypeTruncation.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix missing TPC split task in CMakeFile",
+            "number": 5238,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/spectraTOF_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/spectraTOF_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/spectraTPC_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/spectraTPC_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOF_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOF_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTPC_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
                   }
                 }
               ]
