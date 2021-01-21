@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-12T12:13:05Z",
-            "title": "Revert \"Populate event header with information of the current Pythia8…",
-            "number": 5152,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-12T14:57:36Z",
-            "title": "Avoid 2D params in SVertexer configurable params",
-            "number": 5153,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: publish aod-file-read-path metric",
@@ -2329,8 +2284,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-21T17:26:42Z",
             "title": "introduce MCH ROFRecord.h + modify tracking workflows to process several ROF per TF",
             "number": 5222,
             "author": {
@@ -3786,6 +3741,46 @@
                 {
                   "node": {
                     "path": "doc/data/2021-01-o2_releases.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Workflow: use existing PR if creation fails",
+            "number": 5252,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/reports.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID: Add single task for all tiny TPC PID information",
+            "number": 5253,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
                   }
                 }
               ]
