@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL: publish aod-file-read-path metric",
-            "number": 5154,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-13T08:03:14Z",
-            "title": "Add multiplicity distribution task",
-            "number": 5155,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGCF/correlations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGCF/filterCF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/multiplicityEventTrackSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-01-12T17:22:43Z",
             "title": "o2-sim: Better signal propagation; small fix in jobutils",
@@ -3781,6 +3726,56 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/pidTPC_tiny.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: speed up single channel output proxy",
+            "number": 5254,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adding collision selections",
+            "number": 5255,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCReference.cxx"
                   }
                 }
               ]
