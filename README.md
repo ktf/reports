@@ -38,7 +38,6 @@
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5148](https://github.com/AliceO2Group/AliceO2/pull/5148) 2021-01-20: [ALICE 3] Add separate class to describe A3 beam pipe + 12-layer A3 layout by [@mconcas](https://github.com/mconcas)
 - [#5180](https://github.com/AliceO2Group/AliceO2/pull/5180) 2021-01-14: Do not encode TDC errors to compressed output stream by [@preghenella](https://github.com/preghenella)
 - [#5181](https://github.com/AliceO2Group/AliceO2/pull/5181) 2021-01-14: Standalone TPC Tracking QA (independent from o2-tpc-reco-workflow) by [@davidrohr](https://github.com/davidrohr)
 - [#5185](https://github.com/AliceO2Group/AliceO2/pull/5185) 2021-01-14: Add TPC QC histograms for (limited) monitoring of cluster rejection on the fly while processing without MC information by [@davidrohr](https://github.com/davidrohr)
