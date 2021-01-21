@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Change Tau0 max to 10 mm in Pythia8 configurations",
-            "number": 5146,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_hf.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_hi.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/egconfig/pythia8_inel.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Adaptive_Pythia8/pythia8_inel.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/pythia8_inel.cfg"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/HF_Embedding_Pythia8/pythia8_ccbar.template"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Jet_Embedding_Pythia8/pythia8_hard.cfg"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-01-12T10:53:10Z",
             "title": "[FV0][O2-1849] Trigger inputs for CTP simulation",
@@ -3696,6 +3646,26 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGLF/lambdakzerobuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-526] Set message level to debug1 to avoid flood",
+            "number": 5246,
+            "author": {
+              "login": "Barthelemy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
