@@ -21,6 +21,7 @@
 - [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
 - [#5238](https://github.com/AliceO2Group/AliceO2/pull/5238) 2021-01-20: Fix missing TPC split task in CMakeFile by [@njacazio](https://github.com/njacazio)
 - [#5245](https://github.com/AliceO2Group/AliceO2/pull/5245) 2021-01-21: fix filtering and minor edits by [@aimeric-landou](https://github.com/aimeric-landou)
+- [#5253](https://github.com/AliceO2Group/AliceO2/pull/5253) 2021-01-21: PID: Add single task for all tiny TPC PID information by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
