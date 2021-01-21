@@ -3,7 +3,6 @@
 ## Recent O2 releases
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
-- [#5150](https://github.com/AliceO2Group/AliceO2/pull/5150) 2021-01-16: PWGHF: fix of the histogram registry in the Lc task by [@DelloStritto](https://github.com/DelloStritto)
 - [#5174](https://github.com/AliceO2Group/AliceO2/pull/5174) 2021-01-14: Add histrogram register and track selection by [@lbariogl](https://github.com/lbariogl)
 - [#5182](https://github.com/AliceO2Group/AliceO2/pull/5182) 2021-01-19: Add split tables per particle species in PID response by [@njacazio](https://github.com/njacazio)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
