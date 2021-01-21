@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-57-01: Done on 2021-01-18.
 ## Recent O2 releases
+- v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
 - [#5150](https://github.com/AliceO2Group/AliceO2/pull/5150) 2021-01-16: PWGHF: fix of the histogram registry in the Lc task by [@DelloStritto](https://github.com/DelloStritto)
 - [#5174](https://github.com/AliceO2Group/AliceO2/pull/5174) 2021-01-14: Add histrogram register and track selection by [@lbariogl](https://github.com/lbariogl)
