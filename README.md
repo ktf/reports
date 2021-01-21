@@ -20,6 +20,7 @@
 - [#5224](https://github.com/AliceO2Group/AliceO2/pull/5224) 2021-01-20: PWGHF: Shift decay type values to allow usage in arrays and bitmaps. by [@vkucera](https://github.com/vkucera)
 - [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
 - [#5238](https://github.com/AliceO2Group/AliceO2/pull/5238) 2021-01-20: Fix missing TPC split task in CMakeFile by [@njacazio](https://github.com/njacazio)
+- [#5245](https://github.com/AliceO2Group/AliceO2/pull/5245) 2021-01-21: fix filtering and minor edits by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -58,6 +59,7 @@
 - [#5233](https://github.com/AliceO2Group/AliceO2/pull/5233) 2021-01-20: TPC Workflow / Tracking: Remove dead codee by [@davidrohr](https://github.com/davidrohr)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
+- [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5159](https://github.com/AliceO2Group/AliceO2/pull/5159) 2021-01-14: fix to allow iteratorAt on filtered tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
