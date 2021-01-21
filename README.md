@@ -3,10 +3,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [#5150](https://github.com/AliceO2Group/AliceO2/pull/5150) 2021-01-16: PWGHF: fix of the histogram registry in the Lc task by [@DelloStritto](https://github.com/DelloStritto)
-- [#5155](https://github.com/AliceO2Group/AliceO2/pull/5155) 2021-01-13: Add multiplicity distribution task by [@jgrosseo](https://github.com/jgrosseo)
-- [#5158](https://github.com/AliceO2Group/AliceO2/pull/5158) 2021-01-13: use filters by [@jgrosseo](https://github.com/jgrosseo)
 - [#5174](https://github.com/AliceO2Group/AliceO2/pull/5174) 2021-01-14: Add histrogram register and track selection by [@lbariogl](https://github.com/lbariogl)
-- [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5182](https://github.com/AliceO2Group/AliceO2/pull/5182) 2021-01-19: Add split tables per particle species in PID response by [@njacazio](https://github.com/njacazio)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5195](https://github.com/AliceO2Group/AliceO2/pull/5195) 2021-01-15: fix for 2 readers and 1 input file by [@jgrosseo](https://github.com/jgrosseo)
@@ -24,7 +21,6 @@
 - [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
 - [#5238](https://github.com/AliceO2Group/AliceO2/pull/5238) 2021-01-20: Fix missing TPC split task in CMakeFile by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5184](https://github.com/AliceO2Group/AliceO2/pull/5184) 2021-01-14: Update CommonUtilsLinkDef.h by [@sawenzel](https://github.com/sawenzel)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5203](https://github.com/AliceO2Group/AliceO2/pull/5203) 2021-01-17: DPL: move driver communication to a separate Service by [@ktf](https://github.com/ktf)
@@ -33,7 +29,6 @@
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5237](https://github.com/AliceO2Group/AliceO2/pull/5237) 2021-01-20: adding protection for float truncation by [@nzardosh](https://github.com/nzardosh)
 ## Recent developments in O2 - DataFormats
-- [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
 - [#5192](https://github.com/AliceO2Group/AliceO2/pull/5192) 2021-01-15: FT0 LUT prepared as Singleton for DigitBlockFT0 usage by [@afurs](https://github.com/afurs)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5216](https://github.com/AliceO2Group/AliceO2/pull/5216) 2021-01-19: TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper by [@davidrohr](https://github.com/davidrohr)
@@ -43,10 +38,6 @@
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5148](https://github.com/AliceO2Group/AliceO2/pull/5148) 2021-01-20: [ALICE 3] Add separate class to describe A3 beam pipe + 12-layer A3 layout by [@mconcas](https://github.com/mconcas)
-- [#5164](https://github.com/AliceO2Group/AliceO2/pull/5164) 2021-01-13: Allow multiple test workflows with non-overlapping TF-ids by [@shahor02](https://github.com/shahor02)
-- [#5175](https://github.com/AliceO2Group/AliceO2/pull/5175) 2021-01-13: GPU: remove leftover debug messages by [@davidrohr](https://github.com/davidrohr)
-- [#5178](https://github.com/AliceO2Group/AliceO2/pull/5178) 2021-01-13: Fixes in entropy compression memory management by [@shahor02](https://github.com/shahor02)
-- [#5179](https://github.com/AliceO2Group/AliceO2/pull/5179) 2021-01-13: Work towards getting the TPC Tracking QA run standalone from a tracks ROOT file by [@davidrohr](https://github.com/davidrohr)
 - [#5180](https://github.com/AliceO2Group/AliceO2/pull/5180) 2021-01-14: Do not encode TDC errors to compressed output stream by [@preghenella](https://github.com/preghenella)
 - [#5181](https://github.com/AliceO2Group/AliceO2/pull/5181) 2021-01-14: Standalone TPC Tracking QA (independent from o2-tpc-reco-workflow) by [@davidrohr](https://github.com/davidrohr)
 - [#5185](https://github.com/AliceO2Group/AliceO2/pull/5185) 2021-01-14: Add TPC QC histograms for (limited) monitoring of cluster rejection on the fly while processing without MC information by [@davidrohr](https://github.com/davidrohr)
@@ -69,9 +60,6 @@
 - [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [#5159](https://github.com/AliceO2Group/AliceO2/pull/5159) 2021-01-14: fix to allow iteratorAt on filtered tables by [@jgrosseo](https://github.com/jgrosseo)
-- [#5165](https://github.com/AliceO2Group/AliceO2/pull/5165) 2021-01-13: DPL utils: allow customising output-proxy by [@ktf](https://github.com/ktf)
-- [#5168](https://github.com/AliceO2Group/AliceO2/pull/5168) 2021-01-13: DPL: increase max size of string metrics to 256 bytes by [@ktf](https://github.com/ktf)
-- [#5177](https://github.com/AliceO2Group/AliceO2/pull/5177) 2021-01-13: AliEn metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5183](https://github.com/AliceO2Group/AliceO2/pull/5183) 2021-01-14: Adding opening and run time metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5189](https://github.com/AliceO2Group/AliceO2/pull/5189) 2021-01-15: DPL: add `--forwarding-policy none` to help message by [@ktf](https://github.com/ktf)
@@ -82,7 +70,6 @@
 ## Recent developments in O2 - Steer
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [#5169](https://github.com/AliceO2Group/AliceO2/pull/5169) 2021-01-13: jobutils: exit workflows on first task error by [@sawenzel](https://github.com/sawenzel)
 - [#5172](https://github.com/AliceO2Group/AliceO2/pull/5172) 2021-01-14: Fix o2_add_dpl_workflow on Ubuntu and some other systems by [@davidrohr](https://github.com/davidrohr)
 - [#5196](https://github.com/AliceO2Group/AliceO2/pull/5196) 2021-01-15: small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
