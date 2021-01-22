@@ -40,6 +40,7 @@
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
+- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Detectors
 - [#5186](https://github.com/AliceO2Group/AliceO2/pull/5186) 2021-01-17: GPU: Add option to tpc-reco-workflow to ship shared cluster map created during tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
@@ -61,6 +62,7 @@
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
 - [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
+- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Framework
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5189](https://github.com/AliceO2Group/AliceO2/pull/5189) 2021-01-15: DPL: add `--forwarding-policy none` to help message by [@ktf](https://github.com/ktf)
@@ -72,6 +74,7 @@
 ## Recent developments in O2 - Steer
 - [#5187](https://github.com/AliceO2Group/AliceO2/pull/5187) 2021-01-15: Fix: remap RootTreeWriter branches only once by [@shahor02](https://github.com/shahor02)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
+- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Utilities
 - [#5196](https://github.com/AliceO2Group/AliceO2/pull/5196) 2021-01-15: small fix in jobutils by [@sawenzel](https://github.com/sawenzel)
 - [#5199](https://github.com/AliceO2Group/AliceO2/pull/5199) 2021-01-15: (O2-1203) [CTF] use merging/splitting iterators during CTF ecoding/decoding for TPC   by [@MichaelLettrich](https://github.com/MichaelLettrich)
