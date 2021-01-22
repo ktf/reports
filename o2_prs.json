@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-12T19:08:58Z",
-            "title": "add alien SE",
-            "number": 5160,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-15T14:58:15Z",
             "title": "DPL: do not mask errors when generating workflows",
             "number": 5161,
@@ -3716,7 +3696,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Draft: First version of skimming for Lc",
+            "title": "PWGHF: First version of skimming for Lc --> K0s+p",
             "number": 5257,
             "author": {
               "login": "chiarazampolli"
@@ -4266,6 +4246,36 @@
                 {
                   "node": {
                     "path": "macro/runTPCRefit.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID: Remove exp values from tiny PID tables",
+            "number": 5260,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOF_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
                   }
                 }
               ]
