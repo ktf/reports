@@ -59,6 +59,7 @@
 - [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
 - [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
+- [#5256](https://github.com/AliceO2Group/AliceO2/pull/5256) 2021-01-23: file reader for TPC Tracks and Clusters (+ MC info) by [@tklemenz](https://github.com/tklemenz)
 - [#5262](https://github.com/AliceO2Group/AliceO2/pull/5262) 2021-01-23: adding macro to create space charge density maps from simulations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 - [#5268](https://github.com/AliceO2Group/AliceO2/pull/5268) 2021-01-23: Fix: default TPC reco output names propagated to dependent code by [@shahor02](https://github.com/shahor02)
