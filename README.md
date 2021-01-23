@@ -38,6 +38,7 @@
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
+- [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5186](https://github.com/AliceO2Group/AliceO2/pull/5186) 2021-01-17: GPU: Add option to tpc-reco-workflow to ship shared cluster map created during tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5197](https://github.com/AliceO2Group/AliceO2/pull/5197) 2021-01-20: Fixed memory leak in DataContainer3D by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -57,6 +58,7 @@
 - [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
 - [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
+- [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5203](https://github.com/AliceO2Group/AliceO2/pull/5203) 2021-01-17: DPL: move driver communication to a separate Service by [@ktf](https://github.com/ktf)
 - [#5229](https://github.com/AliceO2Group/AliceO2/pull/5229) 2021-01-19: raw-parser logs DataHeader and DataProcessingHeader info by [@shahor02](https://github.com/shahor02)
