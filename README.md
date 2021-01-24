@@ -4,7 +4,6 @@
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
 - [#5182](https://github.com/AliceO2Group/AliceO2/pull/5182) 2021-01-19: Add split tables per particle species in PID response by [@njacazio](https://github.com/njacazio)
-- [#5200](https://github.com/AliceO2Group/AliceO2/pull/5200) 2021-01-16: PWGHF changing default preselection values for hyperloop by [@nzardosh](https://github.com/nzardosh)
 - [#5201](https://github.com/AliceO2Group/AliceO2/pull/5201) 2021-01-20: PWGHF, RecoDecay: Add gen. level pT of matched D0 candidates. by [@vkucera](https://github.com/vkucera)
 - [#5204](https://github.com/AliceO2Group/AliceO2/pull/5204) 2021-01-18: PWGHF: Use pre-selections for Dplus by [@fcatalan92](https://github.com/fcatalan92)
 - [#5205](https://github.com/AliceO2Group/AliceO2/pull/5205) 2021-01-18: Change task names, move initializers by [@ddobrigk](https://github.com/ddobrigk)
@@ -44,7 +43,6 @@
 - [#5186](https://github.com/AliceO2Group/AliceO2/pull/5186) 2021-01-17: GPU: Add option to tpc-reco-workflow to ship shared cluster map created during tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5197](https://github.com/AliceO2Group/AliceO2/pull/5197) 2021-01-20: Fixed memory leak in DataContainer3D by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5198](https://github.com/AliceO2Group/AliceO2/pull/5198) 2021-01-18: small improvement in fake track rejection by [@pillot](https://github.com/pillot)
-- [#5202](https://github.com/AliceO2Group/AliceO2/pull/5202) 2021-01-16: [EMCAL-630] Store result of the raw fit as energy by [@mfasDa](https://github.com/mfasDa)
 - [#5208](https://github.com/AliceO2Group/AliceO2/pull/5208) 2021-01-18: TPC-ITS matching will use tpc-reco-workflow or on-the-fly created shared cl.map  by [@shahor02](https://github.com/shahor02)
 - [#5216](https://github.com/AliceO2Group/AliceO2/pull/5216) 2021-01-19: TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper by [@davidrohr](https://github.com/davidrohr)
 - [#5220](https://github.com/AliceO2Group/AliceO2/pull/5220) 2021-01-20: SpaceCharge: added function to set the density and potential directly by [@matthias-kleiner](https://github.com/matthias-kleiner)
