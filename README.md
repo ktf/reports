@@ -24,7 +24,6 @@
 - [#5265](https://github.com/AliceO2Group/AliceO2/pull/5265) 2021-01-24: PWGHF: Little fix of the J/ψ → e+ e- code. by [@vkucera](https://github.com/vkucera)
 - [#5270](https://github.com/AliceO2Group/AliceO2/pull/5270) 2021-01-23: Revert "Add full table writing tasks for D0 and Lc (#4910)" by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
-- [#5203](https://github.com/AliceO2Group/AliceO2/pull/5203) 2021-01-17: DPL: move driver communication to a separate Service by [@ktf](https://github.com/ktf)
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
@@ -41,7 +40,6 @@
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5186](https://github.com/AliceO2Group/AliceO2/pull/5186) 2021-01-17: GPU: Add option to tpc-reco-workflow to ship shared cluster map created during tracking by [@davidrohr](https://github.com/davidrohr)
 - [#5197](https://github.com/AliceO2Group/AliceO2/pull/5197) 2021-01-20: Fixed memory leak in DataContainer3D by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5198](https://github.com/AliceO2Group/AliceO2/pull/5198) 2021-01-18: small improvement in fake track rejection by [@pillot](https://github.com/pillot)
 - [#5208](https://github.com/AliceO2Group/AliceO2/pull/5208) 2021-01-18: TPC-ITS matching will use tpc-reco-workflow or on-the-fly created shared cl.map  by [@shahor02](https://github.com/shahor02)
@@ -65,7 +63,6 @@
 - [#5269](https://github.com/AliceO2Group/AliceO2/pull/5269) 2021-01-23: Create TPC output tracks directly in O2 format on the GPU and write directly to SHM buffer by [@davidrohr](https://github.com/davidrohr)
 - [#5271](https://github.com/AliceO2Group/AliceO2/pull/5271) 2021-01-23: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [#5203](https://github.com/AliceO2Group/AliceO2/pull/5203) 2021-01-17: DPL: move driver communication to a separate Service by [@ktf](https://github.com/ktf)
 - [#5229](https://github.com/AliceO2Group/AliceO2/pull/5229) 2021-01-19: raw-parser logs DataHeader and DataProcessingHeader info by [@shahor02](https://github.com/shahor02)
 - [#5231](https://github.com/AliceO2Group/AliceO2/pull/5231) 2021-01-19: Make sure benchmark::benchmark stays optional (O2-1973) by [@ktf](https://github.com/ktf)
 - [#5254](https://github.com/AliceO2Group/AliceO2/pull/5254) 2021-01-22: DPL: speed up single channel output proxy by [@ktf](https://github.com/ktf)
