@@ -22,6 +22,7 @@
 - [#5260](https://github.com/AliceO2Group/AliceO2/pull/5260) 2021-01-22: PID: Remove exp values from tiny PID tables by [@njacazio](https://github.com/njacazio)
 - [#5265](https://github.com/AliceO2Group/AliceO2/pull/5265) 2021-01-24: PWGHF: Little fix of the J/ψ → e+ e- code. by [@vkucera](https://github.com/vkucera)
 - [#5270](https://github.com/AliceO2Group/AliceO2/pull/5270) 2021-01-23: Revert "Add full table writing tasks for D0 and Lc (#4910)" by [@ginnocen](https://github.com/ginnocen)
+- [#5275](https://github.com/AliceO2Group/AliceO2/pull/5275) 2021-01-25: updating nuclei task for skimming by [@akalweit](https://github.com/akalweit)
 ## Recent developments in O2 - Common
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5228](https://github.com/AliceO2Group/AliceO2/pull/5228) 2021-01-19: o2-sim: Make configfile prefixed with correct name by [@sawenzel](https://github.com/sawenzel)
