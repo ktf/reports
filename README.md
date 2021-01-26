@@ -4,10 +4,7 @@
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
 - [#5201](https://github.com/AliceO2Group/AliceO2/pull/5201) 2021-01-20: PWGHF, RecoDecay: Add gen. level pT of matched D0 candidates. by [@vkucera](https://github.com/vkucera)
-- [#5204](https://github.com/AliceO2Group/AliceO2/pull/5204) 2021-01-18: PWGHF: Use pre-selections for Dplus by [@fcatalan92](https://github.com/fcatalan92)
-- [#5205](https://github.com/AliceO2Group/AliceO2/pull/5205) 2021-01-18: Change task names, move initializers by [@ddobrigk](https://github.com/ddobrigk)
 - [#5206](https://github.com/AliceO2Group/AliceO2/pull/5206) 2021-01-19: TableMaker task updated to use configurables for system type, event and track selections by [@iarsene](https://github.com/iarsene)
-- [#5210](https://github.com/AliceO2Group/AliceO2/pull/5210) 2021-01-18: small bug (re)fix, tpc momentum for dedx instead pvtx by [@akalweit](https://github.com/akalweit)
 - [#5214](https://github.com/AliceO2Group/AliceO2/pull/5214) 2021-01-20: Add tables for the compressed Nsigma values by [@njacazio](https://github.com/njacazio)
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5218](https://github.com/AliceO2Group/AliceO2/pull/5218) 2021-01-20: PWGHF: Adding flag selection in the hadron tasks by [@DelloStritto](https://github.com/DelloStritto)
@@ -45,8 +42,6 @@
 - [#5286](https://github.com/AliceO2Group/AliceO2/pull/5286) 2021-01-25: Fix daughter labels when running parallel merger by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Detectors
 - [#5197](https://github.com/AliceO2Group/AliceO2/pull/5197) 2021-01-20: Fixed memory leak in DataContainer3D by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [#5198](https://github.com/AliceO2Group/AliceO2/pull/5198) 2021-01-18: small improvement in fake track rejection by [@pillot](https://github.com/pillot)
-- [#5208](https://github.com/AliceO2Group/AliceO2/pull/5208) 2021-01-18: TPC-ITS matching will use tpc-reco-workflow or on-the-fly created shared cl.map  by [@shahor02](https://github.com/shahor02)
 - [#5216](https://github.com/AliceO2Group/AliceO2/pull/5216) 2021-01-19: TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper by [@davidrohr](https://github.com/davidrohr)
 - [#5220](https://github.com/AliceO2Group/AliceO2/pull/5220) 2021-01-20: SpaceCharge: added function to set the density and potential directly by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5221](https://github.com/AliceO2Group/AliceO2/pull/5221) 2021-01-19: refactor TRD digit class by [@bazinski](https://github.com/bazinski)
