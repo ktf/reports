@@ -3,7 +3,6 @@
 ## Recent O2 releases
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
-- [#5201](https://github.com/AliceO2Group/AliceO2/pull/5201) 2021-01-20: PWGHF, RecoDecay: Add gen. level pT of matched D0 candidates. by [@vkucera](https://github.com/vkucera)
 - [#5206](https://github.com/AliceO2Group/AliceO2/pull/5206) 2021-01-19: TableMaker task updated to use configurables for system type, event and track selections by [@iarsene](https://github.com/iarsene)
 - [#5214](https://github.com/AliceO2Group/AliceO2/pull/5214) 2021-01-20: Add tables for the compressed Nsigma values by [@njacazio](https://github.com/njacazio)
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
