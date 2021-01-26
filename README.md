@@ -42,7 +42,6 @@
 - [#5281](https://github.com/AliceO2Group/AliceO2/pull/5281) 2021-01-25: Fix: increment MCEventHeader class version by [@shahor02](https://github.com/shahor02)
 - [#5286](https://github.com/AliceO2Group/AliceO2/pull/5286) 2021-01-25: Fix daughter labels when running parallel merger by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Detectors
-- [#5197](https://github.com/AliceO2Group/AliceO2/pull/5197) 2021-01-20: Fixed memory leak in DataContainer3D by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5216](https://github.com/AliceO2Group/AliceO2/pull/5216) 2021-01-19: TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper by [@davidrohr](https://github.com/davidrohr)
 - [#5220](https://github.com/AliceO2Group/AliceO2/pull/5220) 2021-01-20: SpaceCharge: added function to set the density and potential directly by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5221](https://github.com/AliceO2Group/AliceO2/pull/5221) 2021-01-19: refactor TRD digit class by [@bazinski](https://github.com/bazinski)
