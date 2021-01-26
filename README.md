@@ -73,6 +73,7 @@
 - [#5236](https://github.com/AliceO2Group/AliceO2/pull/5236) 2021-01-25: DPL Analysis: consolidated Variant conversions by [@aalkin](https://github.com/aalkin)
 - [#5254](https://github.com/AliceO2Group/AliceO2/pull/5254) 2021-01-22: DPL: speed up single channel output proxy by [@ktf](https://github.com/ktf)
 - [#5282](https://github.com/AliceO2Group/AliceO2/pull/5282) 2021-01-25: DPL: refactor how we process control messages by [@ktf](https://github.com/ktf)
+- [#5283](https://github.com/AliceO2Group/AliceO2/pull/5283) 2021-01-26: DPL: introduce a WebSocketHandler by [@ktf](https://github.com/ktf)
 - [#5294](https://github.com/AliceO2Group/AliceO2/pull/5294) 2021-01-26: DPL: use pid_t to refer to pids by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
