@@ -82,3 +82,4 @@
 - [#5271](https://github.com/AliceO2Group/AliceO2/pull/5271) 2021-01-23: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5287](https://github.com/AliceO2Group/AliceO2/pull/5287) 2021-01-25: jobutils improvements by [@sawenzel](https://github.com/sawenzel)
 - [#5291](https://github.com/AliceO2Group/AliceO2/pull/5291) 2021-01-26: Hide stderr output of lsof in jobutils by [@davidrohr](https://github.com/davidrohr)
+- [#5297](https://github.com/AliceO2Group/AliceO2/pull/5297) 2021-01-26: Add JOBUTILS_JOB_SKIPCREATEDONE option, and do not wipe ctf_dictionar… by [@davidrohr](https://github.com/davidrohr)
