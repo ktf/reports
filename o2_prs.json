@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-19T08:45:42Z",
-            "title": "TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper",
-            "number": 5216,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNativeHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/WorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/src/WorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ClusterSharingMapSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ZSSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-20T07:27:02Z",
-            "title": "Setting up Skimming Tasks - spectraTPC",
-            "number": 5217,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/DataModel/LFDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/LFDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCAnalyser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCReference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/TypeTruncation.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-20T15:07:12Z",
             "title": "PWGHF: Adding flag selection in the hadron tasks",
             "number": 5218,
@@ -4661,6 +4541,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fixing calculation of z-slice for hits with z<0",
+            "number": 5316,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/macro/createSCHistosFromHits.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix TRD digit constructor w/o channel ID",
+            "number": 5317,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/Digit.cxx"
                   }
                 }
               ]

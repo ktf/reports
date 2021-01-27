@@ -3,7 +3,6 @@
 ## Recent O2 releases
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
-- [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5218](https://github.com/AliceO2Group/AliceO2/pull/5218) 2021-01-20: PWGHF: Adding flag selection in the hadron tasks by [@DelloStritto](https://github.com/DelloStritto)
 - [#5224](https://github.com/AliceO2Group/AliceO2/pull/5224) 2021-01-20: PWGHF: Shift decay type values to allow usage in arrays and bitmaps. by [@vkucera](https://github.com/vkucera)
 - [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
@@ -21,7 +20,6 @@
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5237](https://github.com/AliceO2Group/AliceO2/pull/5237) 2021-01-20: adding protection for float truncation by [@nzardosh](https://github.com/nzardosh)
 - [#5247](https://github.com/AliceO2Group/AliceO2/pull/5247) 2021-01-21: Fix compiler warning about signed / unsigned int by [@davidrohr](https://github.com/davidrohr)
