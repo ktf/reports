@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
@@ -13,6 +14,7 @@
 - [#5258](https://github.com/AliceO2Group/AliceO2/pull/5258) 2021-01-22: Analysis/Task/PWGDQ: remove unnecessary macro by [@dsekihat](https://github.com/dsekihat)
 - [#5260](https://github.com/AliceO2Group/AliceO2/pull/5260) 2021-01-22: PID: Remove exp values from tiny PID tables by [@njacazio](https://github.com/njacazio)
 - [#5265](https://github.com/AliceO2Group/AliceO2/pull/5265) 2021-01-24: PWGHF: Little fix of the J/ψ → e+ e- code. by [@vkucera](https://github.com/vkucera)
+- [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5270](https://github.com/AliceO2Group/AliceO2/pull/5270) 2021-01-23: Revert "Add full table writing tasks for D0 and Lc (#4910)" by [@ginnocen](https://github.com/ginnocen)
 - [#5275](https://github.com/AliceO2Group/AliceO2/pull/5275) 2021-01-25: updating nuclei task for skimming by [@akalweit](https://github.com/akalweit)
 - [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
@@ -54,9 +56,11 @@
 - [#5279](https://github.com/AliceO2Group/AliceO2/pull/5279) 2021-01-26: CPV geometry fix, run3 raw format. fix O2-1991 by [@peressounko](https://github.com/peressounko)
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 - [#5285](https://github.com/AliceO2Group/AliceO2/pull/5285) 2021-01-25: Fixes for TPC buffer alignment / 0-size buffers by [@davidrohr](https://github.com/davidrohr)
+- [#5302](https://github.com/AliceO2Group/AliceO2/pull/5302) 2021-01-27: Remove std::memcpy while processing data in compressor task by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5236](https://github.com/AliceO2Group/AliceO2/pull/5236) 2021-01-25: DPL Analysis: consolidated Variant conversions by [@aalkin](https://github.com/aalkin)
 - [#5254](https://github.com/AliceO2Group/AliceO2/pull/5254) 2021-01-22: DPL: speed up single channel output proxy by [@ktf](https://github.com/ktf)
+- [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5282](https://github.com/AliceO2Group/AliceO2/pull/5282) 2021-01-25: DPL: refactor how we process control messages by [@ktf](https://github.com/ktf)
 - [#5283](https://github.com/AliceO2Group/AliceO2/pull/5283) 2021-01-26: DPL: introduce a WebSocketHandler by [@ktf](https://github.com/ktf)
 - [#5293](https://github.com/AliceO2Group/AliceO2/pull/5293) 2021-01-26: DPL: Adds Variant JSON helpers by [@aalkin](https://github.com/aalkin)
