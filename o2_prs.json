@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-20T07:28:18Z",
-            "title": "Add tables for the compressed Nsigma values",
-            "number": 5214,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTOF_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTPC_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-18T09:32:17Z",
-            "title": "Only run reports.yml in AliceO2Group/AliceO2",
-            "number": 5215,
-            "author": {
-              "login": "TimoWilken"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/reports.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-19T08:45:42Z",
             "title": "TPC Workflow: Move cluster / digit reading from tpc tracking spec into a helper",
             "number": 5216,
@@ -3916,7 +3846,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add full table writing tasks for D0 and Lc",
+            "title": "PWG-HF: Add full table writing tasks for D0 and Lc",
             "number": 5295,
             "author": {
               "login": "njacazio"
@@ -3926,6 +3856,16 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFD0CandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
                   }
                 },
                 {
@@ -3946,7 +3886,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add protection in RecoDecay before asking particle mass",
+            "title": "PWG-HF: Add protection in RecoDecay before asking particle mass",
             "number": 5296,
             "author": {
               "login": "njacazio"
@@ -4419,8 +4359,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-27T11:07:59Z",
             "title": "GPU: Apparently one must not do find_package(ROCM)",
             "number": 5307,
             "author": {
@@ -4656,6 +4596,71 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_Variants.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-01-27T11:09:10Z",
+            "title": "Fix for alienv environment detection in full system test + minor unrelated fixes",
+            "number": 5314,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/tools/testCL.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/datadistribution.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/raw-reader.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Merge options on dump",
+            "number": 5315,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DriverInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
