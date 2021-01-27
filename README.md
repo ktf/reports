@@ -19,6 +19,7 @@
 - [#5275](https://github.com/AliceO2Group/AliceO2/pull/5275) 2021-01-25: updating nuclei task for skimming by [@akalweit](https://github.com/akalweit)
 - [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
+- [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [#5217](https://github.com/AliceO2Group/AliceO2/pull/5217) 2021-01-20: Setting up Skimming Tasks - spectraTPC by [@nzardosh](https://github.com/nzardosh)
 - [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
@@ -69,6 +70,7 @@
 - [#5301](https://github.com/AliceO2Group/AliceO2/pull/5301) 2021-01-26: DPL: improve WebSockets support by [@ktf](https://github.com/ktf)
 - [#5310](https://github.com/AliceO2Group/AliceO2/pull/5310) 2021-01-27: Drop obsolete analysis example by [@ktf](https://github.com/ktf)
 - [#5312](https://github.com/AliceO2Group/AliceO2/pull/5312) 2021-01-27: DPL: include what you use by [@ktf](https://github.com/ktf)
+- [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
