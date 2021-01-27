@@ -63,6 +63,7 @@
 - [#5294](https://github.com/AliceO2Group/AliceO2/pull/5294) 2021-01-26: DPL: use pid_t to refer to pids by [@ktf](https://github.com/ktf)
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5301](https://github.com/AliceO2Group/AliceO2/pull/5301) 2021-01-26: DPL: improve WebSockets support by [@ktf](https://github.com/ktf)
+- [#5312](https://github.com/AliceO2Group/AliceO2/pull/5312) 2021-01-27: DPL: include what you use by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
