@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-22T17:33:09Z",
-            "title": "pileup check: fix type comparison",
-            "number": 5235,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "macro/analyzeDigitLabels.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-25T08:15:52Z",
             "title": "DPL Analysis: consolidated Variant conversions",
             "number": 5236,
@@ -2475,37 +2455,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/DriverClient.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/include/Framework/DriverInfo.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/Base64.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Base64.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.h"
                   }
                 },
                 {
@@ -2520,32 +2475,7 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SHA1.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SHA1.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TextDriverClient.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TextDriverClient.h"
+                    "path": "Framework/Core/src/DeviceSpecHelpers.h"
                   }
                 },
                 {
@@ -2555,17 +2485,12 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/WSDriverClient.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/test/test_HTTPParser.cxx"
+                    "path": "Framework/Core/test/test_DeviceSpecHelpers.cxx"
                   }
                 },
                 {
@@ -4501,6 +4426,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WSDriverClient.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: generalise option merging",
+            "number": 5335,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DeviceSpecHelpers.cxx"
                   }
                 }
               ]
