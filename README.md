@@ -55,9 +55,11 @@
 - [#5294](https://github.com/AliceO2Group/AliceO2/pull/5294) 2021-01-26: DPL: use pid_t to refer to pids by [@ktf](https://github.com/ktf)
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5301](https://github.com/AliceO2Group/AliceO2/pull/5301) 2021-01-26: DPL: improve WebSockets support by [@ktf](https://github.com/ktf)
+- [#5304](https://github.com/AliceO2Group/AliceO2/pull/5304) 2021-01-28: DPL: propaedeutic for WS based DriverClient by [@ktf](https://github.com/ktf)
 - [#5310](https://github.com/AliceO2Group/AliceO2/pull/5310) 2021-01-27: Drop obsolete analysis example by [@ktf](https://github.com/ktf)
 - [#5312](https://github.com/AliceO2Group/AliceO2/pull/5312) 2021-01-27: DPL: include what you use by [@ktf](https://github.com/ktf)
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
+- [#5315](https://github.com/AliceO2Group/AliceO2/pull/5315) 2021-01-28: Merge options on dump by [@ktf](https://github.com/ktf)
 - [#5321](https://github.com/AliceO2Group/AliceO2/pull/5321) 2021-01-27: DPL: Fix labeled array exception by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
