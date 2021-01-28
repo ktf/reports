@@ -20,7 +20,6 @@
 - [#5247](https://github.com/AliceO2Group/AliceO2/pull/5247) 2021-01-21: Fix compiler warning about signed / unsigned int by [@davidrohr](https://github.com/davidrohr)
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5222](https://github.com/AliceO2Group/AliceO2/pull/5222) 2021-01-21: introduce MCH ROFRecord.h + modify tracking workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [#5281](https://github.com/AliceO2Group/AliceO2/pull/5281) 2021-01-25: Fix: increment MCEventHeader class version by [@shahor02](https://github.com/shahor02)
 - [#5286](https://github.com/AliceO2Group/AliceO2/pull/5286) 2021-01-25: Fix daughter labels when running parallel merger by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Detectors
-- [#5222](https://github.com/AliceO2Group/AliceO2/pull/5222) 2021-01-21: introduce MCH ROFRecord.h + modify tracking workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
 - [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5249](https://github.com/AliceO2Group/AliceO2/pull/5249) 2021-01-26: TPCClusterFinder: Improve performance of noisy pad filter on CPU. by [@fweig](https://github.com/fweig)
