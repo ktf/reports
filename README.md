@@ -3,9 +3,6 @@
 ## Recent O2 releases
 - v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
-- [#5224](https://github.com/AliceO2Group/AliceO2/pull/5224) 2021-01-20: PWGHF: Shift decay type values to allow usage in arrays and bitmaps. by [@vkucera](https://github.com/vkucera)
-- [#5232](https://github.com/AliceO2Group/AliceO2/pull/5232) 2021-01-20: PWGHF : further restricitng HF preselection for hyperloop testing by [@nzardosh](https://github.com/nzardosh)
-- [#5238](https://github.com/AliceO2Group/AliceO2/pull/5238) 2021-01-20: Fix missing TPC split task in CMakeFile by [@njacazio](https://github.com/njacazio)
 - [#5245](https://github.com/AliceO2Group/AliceO2/pull/5245) 2021-01-21: fix filtering and minor edits by [@aimeric-landou](https://github.com/aimeric-landou)
 - [#5253](https://github.com/AliceO2Group/AliceO2/pull/5253) 2021-01-21: PID: Add single task for all tiny TPC PID information by [@njacazio](https://github.com/njacazio)
 - [#5255](https://github.com/AliceO2Group/AliceO2/pull/5255) 2021-01-22: adding collision selections by [@nzardosh](https://github.com/nzardosh)
@@ -20,14 +17,11 @@
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
-- [#5237](https://github.com/AliceO2Group/AliceO2/pull/5237) 2021-01-20: adding protection for float truncation by [@nzardosh](https://github.com/nzardosh)
 - [#5247](https://github.com/AliceO2Group/AliceO2/pull/5247) 2021-01-21: Fix compiler warning about signed / unsigned int by [@davidrohr](https://github.com/davidrohr)
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5222](https://github.com/AliceO2Group/AliceO2/pull/5222) 2021-01-21: introduce MCH ROFRecord.h + modify tracking workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
-- [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
@@ -36,9 +30,6 @@
 ## Recent developments in O2 - Detectors
 - [#5222](https://github.com/AliceO2Group/AliceO2/pull/5222) 2021-01-21: introduce MCH ROFRecord.h + modify tracking workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5230](https://github.com/AliceO2Group/AliceO2/pull/5230) 2021-01-22: Pileup and calibration DA for PHOS and CPV by [@peressounko](https://github.com/peressounko)
-- [#5233](https://github.com/AliceO2Group/AliceO2/pull/5233) 2021-01-20: TPC Workflow / Tracking: Remove dead codee by [@davidrohr](https://github.com/davidrohr)
-- [#5234](https://github.com/AliceO2Group/AliceO2/pull/5234) 2021-01-20: Abstract and track aggregated containers/indices + use in vertexers by [@shahor02](https://github.com/shahor02)
-- [#5239](https://github.com/AliceO2Group/AliceO2/pull/5239) 2021-01-20: Fix Z position of ML/OL modules to be symmetric wrt half stave center by [@mario6829](https://github.com/mario6829)
 - [#5242](https://github.com/AliceO2Group/AliceO2/pull/5242) 2021-01-21: Simplifications for TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5249](https://github.com/AliceO2Group/AliceO2/pull/5249) 2021-01-26: TPCClusterFinder: Improve performance of noisy pad filter on CPU. by [@fweig](https://github.com/fweig)
 - [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
