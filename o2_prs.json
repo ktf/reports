@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-20T15:36:16Z",
-            "title": "Fix missing TPC split task in CMakeFile",
-            "number": 5238,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTOF_split.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTOF_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTPC_split.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraTPC_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF_split.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTOF_tiny.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC_split.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-20T15:21:39Z",
             "title": "Fix Z position of ML/OL modules to be symmetric wrt half stave center",
             "number": 5239,
@@ -4486,6 +4426,56 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/base/test/testDigit.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: first implementation of Xic->pKpi filtering",
+            "number": 5338,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/HFConfigurables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFXicCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
                   }
                 }
               ]
