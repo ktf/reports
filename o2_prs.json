@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-20T19:02:18Z",
-            "title": "[O2-1977][CMake](fix) Filter out macros in build directory if any",
-            "number": 5241,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "cmake/O2GetListOfMacros.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-21T08:42:46Z",
             "title": "Simplifications for TPC workflow",
             "number": 5242,
@@ -2280,6 +2260,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/include/Framework/ControlService.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/DeviceState.h"
                   }
                 },
@@ -2291,6 +2276,21 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlServiceHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlServiceHelpers.h"
                   }
                 },
                 {
@@ -3249,8 +3249,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-01-29T16:27:04Z",
             "title": "Allow copy elision when returning object",
             "number": 5311,
             "author": {
@@ -4275,11 +4275,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
                   }
                 },
@@ -4496,6 +4491,126 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"Implementation of simulation inhibit-pause-trigger-continue f…",
+            "number": 5341,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromO2KineParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/check_kine.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/check_kine_labels.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/read_kine.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/sim_step1.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/sim_step2.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/transport_pi0.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/trigger_pi0.macro"
                   }
                 }
               ]
