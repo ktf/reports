@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-25T08:15:52Z",
-            "title": "DPL Analysis: consolidated Variant conversions",
-            "number": 5236,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariantJSONHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariantPropertyTreeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariantStringHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/PropertyTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/RootConfigParamHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-20T15:02:03Z",
             "title": "adding protection for float truncation",
             "number": 5237,
@@ -4466,6 +4421,56 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_DeviceSpecHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "First implementation of Xic->pKpi filtering",
+            "number": 5336,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/HFConfigurables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFXicCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
                   }
                 }
               ]

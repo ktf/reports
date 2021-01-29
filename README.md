@@ -43,7 +43,6 @@
 - [#5322](https://github.com/AliceO2Group/AliceO2/pull/5322) 2021-01-28: Add default file name to TPC PublisherSpec by [@shahor02](https://github.com/shahor02)
 - [#5327](https://github.com/AliceO2Group/AliceO2/pull/5327) 2021-01-28: Compressor out one part for input subspec, regardless input struct by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5236](https://github.com/AliceO2Group/AliceO2/pull/5236) 2021-01-25: DPL Analysis: consolidated Variant conversions by [@aalkin](https://github.com/aalkin)
 - [#5254](https://github.com/AliceO2Group/AliceO2/pull/5254) 2021-01-22: DPL: speed up single channel output proxy by [@ktf](https://github.com/ktf)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5282](https://github.com/AliceO2Group/AliceO2/pull/5282) 2021-01-25: DPL: refactor how we process control messages by [@ktf](https://github.com/ktf)
