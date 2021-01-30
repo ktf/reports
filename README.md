@@ -56,6 +56,7 @@
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 - [#5315](https://github.com/AliceO2Group/AliceO2/pull/5315) 2021-01-28: Merge options on dump by [@ktf](https://github.com/ktf)
 - [#5321](https://github.com/AliceO2Group/AliceO2/pull/5321) 2021-01-27: DPL: Fix labeled array exception by [@aalkin](https://github.com/aalkin)
+- [#5324](https://github.com/AliceO2Group/AliceO2/pull/5324) 2021-01-30: DPL: Improve LabeledArray by [@aalkin](https://github.com/aalkin)
 - [#5334](https://github.com/AliceO2Group/AliceO2/pull/5334) 2021-01-29: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
 - [#5335](https://github.com/AliceO2Group/AliceO2/pull/5335) 2021-01-29: DPL: generalise option merging by [@ktf](https://github.com/ktf)
 - [#5339](https://github.com/AliceO2Group/AliceO2/pull/5339) 2021-01-30: DPL: refactor Control parsing helpers by [@ktf](https://github.com/ktf)
