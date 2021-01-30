@@ -1,11 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
-- v21.03: Done on 2021-01-21.
 ## Recent developments in O2 - Analysis
-- [#5255](https://github.com/AliceO2Group/AliceO2/pull/5255) 2021-01-22: adding collision selections by [@nzardosh](https://github.com/nzardosh)
-- [#5258](https://github.com/AliceO2Group/AliceO2/pull/5258) 2021-01-22: Analysis/Task/PWGDQ: remove unnecessary macro by [@dsekihat](https://github.com/dsekihat)
-- [#5260](https://github.com/AliceO2Group/AliceO2/pull/5260) 2021-01-22: PID: Remove exp values from tiny PID tables by [@njacazio](https://github.com/njacazio)
 - [#5265](https://github.com/AliceO2Group/AliceO2/pull/5265) 2021-01-24: PWGHF: Little fix of the J/ψ → e+ e- code. by [@vkucera](https://github.com/vkucera)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5270](https://github.com/AliceO2Group/AliceO2/pull/5270) 2021-01-23: Revert "Add full table writing tasks for D0 and Lc (#4910)" by [@ginnocen](https://github.com/ginnocen)
@@ -17,7 +13,6 @@
 ## Recent developments in O2 - Common
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 - [#5281](https://github.com/AliceO2Group/AliceO2/pull/5281) 2021-01-25: Fix: increment MCEventHeader class version by [@shahor02](https://github.com/shahor02)
@@ -27,7 +22,6 @@
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [#5249](https://github.com/AliceO2Group/AliceO2/pull/5249) 2021-01-26: TPCClusterFinder: Improve performance of noisy pad filter on CPU. by [@fweig](https://github.com/fweig)
-- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 - [#5256](https://github.com/AliceO2Group/AliceO2/pull/5256) 2021-01-23: file reader for TPC Tracks and Clusters (+ MC info) by [@tklemenz](https://github.com/tklemenz)
 - [#5262](https://github.com/AliceO2Group/AliceO2/pull/5262) 2021-01-23: adding macro to create space charge density maps from simulations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5267](https://github.com/AliceO2Group/AliceO2/pull/5267) 2021-01-23: Fix in indexing for Vertex-Track matching by [@shahor02](https://github.com/shahor02)
@@ -49,7 +43,6 @@
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [#5254](https://github.com/AliceO2Group/AliceO2/pull/5254) 2021-01-22: DPL: speed up single channel output proxy by [@ktf](https://github.com/ktf)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5282](https://github.com/AliceO2Group/AliceO2/pull/5282) 2021-01-25: DPL: refactor how we process control messages by [@ktf](https://github.com/ktf)
 - [#5283](https://github.com/AliceO2Group/AliceO2/pull/5283) 2021-01-26: DPL: introduce a WebSocketHandler by [@ktf](https://github.com/ktf)
@@ -69,8 +62,6 @@
 ## Recent developments in O2 - Generators
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-- [#5250](https://github.com/AliceO2Group/AliceO2/pull/5250) 2021-01-22: Raw2Digits and Trigger by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Utilities
 - [#5271](https://github.com/AliceO2Group/AliceO2/pull/5271) 2021-01-23: Fix codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5287](https://github.com/AliceO2Group/AliceO2/pull/5287) 2021-01-25: jobutils improvements by [@sawenzel](https://github.com/sawenzel)
