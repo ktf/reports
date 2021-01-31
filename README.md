@@ -18,6 +18,7 @@
 - [#5286](https://github.com/AliceO2Group/AliceO2/pull/5286) 2021-01-25: Fix daughter labels when running parallel merger by [@preghenella](https://github.com/preghenella)
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5319](https://github.com/AliceO2Group/AliceO2/pull/5319) 2021-01-28: Add GPU standalone benchmark to normal O2 build by [@davidrohr](https://github.com/davidrohr)
+- [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -33,6 +34,7 @@
 - [#5320](https://github.com/AliceO2Group/AliceO2/pull/5320) 2021-01-27: Add option to create an o2 propagator instance uninitialized to be used with external matLut / gpuFieldMap by [@davidrohr](https://github.com/davidrohr)
 - [#5322](https://github.com/AliceO2Group/AliceO2/pull/5322) 2021-01-28: Add default file name to TPC PublisherSpec by [@shahor02](https://github.com/shahor02)
 - [#5327](https://github.com/AliceO2Group/AliceO2/pull/5327) 2021-01-28: Compressor out one part for input subspec, regardless input struct by [@preghenella](https://github.com/preghenella)
+- [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
