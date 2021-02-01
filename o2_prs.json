@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-28T08:41:47Z",
-            "title": "The following changelog has been automatically generated.",
-            "number": 5251,
-            "author": {
-              "login": "github-actions"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CHANGELOG.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2021-01-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2021-01-o2_releases.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-22T08:44:35Z",
-            "title": "Workflow: use existing PR if creation fails",
-            "number": 5252,
-            "author": {
-              "login": "TimoWilken"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/reports.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-21T21:15:30Z",
-            "title": "PID: Add single task for all tiny TPC PID information",
-            "number": 5253,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/pidTPC_tiny.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-22T13:34:37Z",
             "title": "DPL: speed up single channel output proxy",
             "number": 5254,
@@ -4389,8 +4319,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-02-01T13:06:43Z",
             "title": "[CMake] Fix for ENABLE_UPGRADES=OFF",
             "number": 5346,
             "author": {
@@ -4546,6 +4476,191 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/raw-to-digits-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: make sure more options are uniform across workflows",
+            "number": 5351,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Analysis/PWGDQ: update dileptonEE and VarManager",
+            "number": 5352,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/dileptonEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"Revert \"Implementation of simulation inhibit-pause-trigger-co…",
+            "number": 5353,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/Stack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromFile.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorFromO2KineParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromO2KineParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/check_kine.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/check_kine_labels.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/read_kine.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/sim_step1.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/sim_step2.ini"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/transport_pi0.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/trigger_pi0.macro"
                   }
                 }
               ]
