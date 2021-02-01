@@ -32,6 +32,7 @@
 - [#5280](https://github.com/AliceO2Group/AliceO2/pull/5280) 2021-01-25: Use global track indices for cross-detector matches by [@shahor02](https://github.com/shahor02)
 - [#5285](https://github.com/AliceO2Group/AliceO2/pull/5285) 2021-01-25: Fixes for TPC buffer alignment / 0-size buffers by [@davidrohr](https://github.com/davidrohr)
 - [#5302](https://github.com/AliceO2Group/AliceO2/pull/5302) 2021-01-27: Remove std::memcpy while processing data in compressor task by [@preghenella](https://github.com/preghenella)
+- [#5309](https://github.com/AliceO2Group/AliceO2/pull/5309) 2021-02-01: corrected cdrum geometry, added heat strips by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5311](https://github.com/AliceO2Group/AliceO2/pull/5311) 2021-01-29: Allow copy elision when returning object by [@mpuccio](https://github.com/mpuccio)
 - [#5320](https://github.com/AliceO2Group/AliceO2/pull/5320) 2021-01-27: Add option to create an o2 propagator instance uninitialized to be used with external matLut / gpuFieldMap by [@davidrohr](https://github.com/davidrohr)
 - [#5322](https://github.com/AliceO2Group/AliceO2/pull/5322) 2021-01-28: Add default file name to TPC PublisherSpec by [@shahor02](https://github.com/shahor02)
