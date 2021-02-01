@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-22T08:17:11Z",
-            "title": "adding collision selections",
-            "number": 5255,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/spectraTPCReference.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-23T19:09:24Z",
             "title": "file reader for TPC Tracks and Clusters (+ MC info)",
             "number": 5256,
@@ -3936,7 +3911,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: DO NOT MERGE first implementation of Xic->pKpi filtering",
+            "title": "PWGHF: first implementation of Xic->pKpi filtering",
             "number": 5338,
             "author": {
               "login": "mfaggin"
@@ -4741,6 +4716,36 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBase.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Switch to truncation from MathUtils. Supress TPC tracks filling by default",
+            "number": 5355,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
