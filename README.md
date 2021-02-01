@@ -2,7 +2,6 @@
 - v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5265](https://github.com/AliceO2Group/AliceO2/pull/5265) 2021-01-24: PWGHF: Little fix of the J/ψ → e+ e- code. by [@vkucera](https://github.com/vkucera)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5275](https://github.com/AliceO2Group/AliceO2/pull/5275) 2021-01-25: updating nuclei task for skimming by [@akalweit](https://github.com/akalweit)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
