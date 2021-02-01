@@ -19,6 +19,7 @@
 - [#5319](https://github.com/AliceO2Group/AliceO2/pull/5319) 2021-01-28: Add GPU standalone benchmark to normal O2 build by [@davidrohr](https://github.com/davidrohr)
 - [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
+- [#5347](https://github.com/AliceO2Group/AliceO2/pull/5347) 2021-02-01: Set TrackPar default PID to pion, add PID argument to c-tors by [@shahor02](https://github.com/shahor02)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5249](https://github.com/AliceO2Group/AliceO2/pull/5249) 2021-01-26: TPCClusterFinder: Improve performance of noisy pad filter on CPU. by [@fweig](https://github.com/fweig)
