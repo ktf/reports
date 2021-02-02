@@ -2,7 +2,6 @@
 - v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5263](https://github.com/AliceO2Group/AliceO2/pull/5263) 2021-02-02: PWGHF: Add a flag to the different LcpKpi decay channels by [@DelloStritto](https://github.com/DelloStritto)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
 - [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
