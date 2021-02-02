@@ -6,6 +6,7 @@
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
 - [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
+- [#5295](https://github.com/AliceO2Group/AliceO2/pull/5295) 2021-02-02: PWGHF: Add full table writing tasks for D0 and Lc by [@njacazio](https://github.com/njacazio)
 - [#5296](https://github.com/AliceO2Group/AliceO2/pull/5296) 2021-02-01: PWGHF: Add protection in RecoDecay before asking particle mass by [@njacazio](https://github.com/njacazio)
 - [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5303](https://github.com/AliceO2Group/AliceO2/pull/5303) 2021-02-01: RecoDecay: getDaughters: Skip PDG check for the original particle. by [@vkucera](https://github.com/vkucera)
