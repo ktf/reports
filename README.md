@@ -2,6 +2,7 @@
 - v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [#5263](https://github.com/AliceO2Group/AliceO2/pull/5263) 2021-02-02: PWGHF: Add a flag to the different LcpKpi decay channels by [@DelloStritto](https://github.com/DelloStritto)
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
 - [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
@@ -10,6 +11,7 @@
 - [#5303](https://github.com/AliceO2Group/AliceO2/pull/5303) 2021-02-01: RecoDecay: getDaughters: Skip PDG check for the original particle. by [@vkucera](https://github.com/vkucera)
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 - [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
+- [#5345](https://github.com/AliceO2Group/AliceO2/pull/5345) 2021-02-02: PWGHF: Add a skeleton for HF + track task by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -29,6 +31,7 @@
 - [#5326](https://github.com/AliceO2Group/AliceO2/pull/5326) 2021-02-01: carryOverMethod implemented by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5327](https://github.com/AliceO2Group/AliceO2/pull/5327) 2021-01-28: Compressor out one part for input subspec, regardless input struct by [@preghenella](https://github.com/preghenella)
 - [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
+- [#5344](https://github.com/AliceO2Group/AliceO2/pull/5344) 2021-02-02: ALICE3toAO2D macro for tests by [@ddobrigk](https://github.com/ddobrigk)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
