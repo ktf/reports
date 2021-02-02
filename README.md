@@ -59,6 +59,8 @@
 - [#5340](https://github.com/AliceO2Group/AliceO2/pull/5340) 2021-01-29: DPL: Do not use sleep by [@ktf](https://github.com/ktf)
 - [#5342](https://github.com/AliceO2Group/AliceO2/pull/5342) 2021-01-30: DPL: incrementally reduce the amount of messages shown by [@ktf](https://github.com/ktf)
 - [#5343](https://github.com/AliceO2Group/AliceO2/pull/5343) 2021-01-30: DPL: add ability to dump stacktrace on a signal [O2-2009] by [@ktf](https://github.com/ktf)
+- [#5351](https://github.com/AliceO2Group/AliceO2/pull/5351) 2021-02-02: DPL: make sure more options are uniform across workflows by [@ktf](https://github.com/ktf)
+- [#5356](https://github.com/AliceO2Group/AliceO2/pull/5356) 2021-02-02: DPL Analysis: Allow extracting compound tables for spawner/builder/etc. by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
