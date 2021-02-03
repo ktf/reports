@@ -23,6 +23,7 @@
 - [#5347](https://github.com/AliceO2Group/AliceO2/pull/5347) 2021-02-01: Set TrackPar default PID to pion, add PID argument to c-tors by [@shahor02](https://github.com/shahor02)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
+- [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5302](https://github.com/AliceO2Group/AliceO2/pull/5302) 2021-01-27: Remove std::memcpy while processing data in compressor task by [@preghenella](https://github.com/preghenella)
@@ -39,6 +40,7 @@
 - [#5344](https://github.com/AliceO2Group/AliceO2/pull/5344) 2021-02-02: ALICE3toAO2D macro for tests by [@ddobrigk](https://github.com/ddobrigk)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 - [#5350](https://github.com/AliceO2Group/AliceO2/pull/5350) 2021-02-02: MCH: implement custom inputs spec for raw decoder by [@aferrero2707](https://github.com/aferrero2707)
+- [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5364](https://github.com/AliceO2Group/AliceO2/pull/5364) 2021-02-02: Templatize PrimaryVertexer inputs by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
