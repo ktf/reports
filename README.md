@@ -4,10 +4,8 @@
 ## Recent developments in O2 - Analysis
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
-- [#5288](https://github.com/AliceO2Group/AliceO2/pull/5288) 2021-01-26: PWGHF: Update selection on Dplus flag by [@fcatalan92](https://github.com/fcatalan92)
 - [#5295](https://github.com/AliceO2Group/AliceO2/pull/5295) 2021-02-02: PWGHF: Add full table writing tasks for D0 and Lc by [@njacazio](https://github.com/njacazio)
 - [#5296](https://github.com/AliceO2Group/AliceO2/pull/5296) 2021-02-01: PWGHF: Add protection in RecoDecay before asking particle mass by [@njacazio](https://github.com/njacazio)
-- [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
 - [#5303](https://github.com/AliceO2Group/AliceO2/pull/5303) 2021-02-01: RecoDecay: getDaughters: Skip PDG check for the original particle. by [@vkucera](https://github.com/vkucera)
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 - [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
@@ -24,7 +22,6 @@
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [#5279](https://github.com/AliceO2Group/AliceO2/pull/5279) 2021-01-26: CPV geometry fix, run3 raw format. fix O2-1991 by [@peressounko](https://github.com/peressounko)
 - [#5302](https://github.com/AliceO2Group/AliceO2/pull/5302) 2021-01-27: Remove std::memcpy while processing data in compressor task by [@preghenella](https://github.com/preghenella)
 - [#5309](https://github.com/AliceO2Group/AliceO2/pull/5309) 2021-02-01: corrected cdrum geometry, added heat strips by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5311](https://github.com/AliceO2Group/AliceO2/pull/5311) 2021-01-29: Allow copy elision when returning object by [@mpuccio](https://github.com/mpuccio)
@@ -45,11 +42,6 @@
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
-- [#5283](https://github.com/AliceO2Group/AliceO2/pull/5283) 2021-01-26: DPL: introduce a WebSocketHandler by [@ktf](https://github.com/ktf)
-- [#5293](https://github.com/AliceO2Group/AliceO2/pull/5293) 2021-01-26: DPL: Adds Variant JSON helpers by [@aalkin](https://github.com/aalkin)
-- [#5294](https://github.com/AliceO2Group/AliceO2/pull/5294) 2021-01-26: DPL: use pid_t to refer to pids by [@ktf](https://github.com/ktf)
-- [#5299](https://github.com/AliceO2Group/AliceO2/pull/5299) 2021-01-26: removing TPerfStats by [@jgrosseo](https://github.com/jgrosseo)
-- [#5301](https://github.com/AliceO2Group/AliceO2/pull/5301) 2021-01-26: DPL: improve WebSockets support by [@ktf](https://github.com/ktf)
 - [#5304](https://github.com/AliceO2Group/AliceO2/pull/5304) 2021-01-28: DPL: propaedeutic for WS based DriverClient by [@ktf](https://github.com/ktf)
 - [#5310](https://github.com/AliceO2Group/AliceO2/pull/5310) 2021-01-27: Drop obsolete analysis example by [@ktf](https://github.com/ktf)
 - [#5312](https://github.com/AliceO2Group/AliceO2/pull/5312) 2021-01-27: DPL: include what you use by [@ktf](https://github.com/ktf)
@@ -69,6 +61,3 @@
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [#5291](https://github.com/AliceO2Group/AliceO2/pull/5291) 2021-01-26: Hide stderr output of lsof in jobutils by [@davidrohr](https://github.com/davidrohr)
-- [#5297](https://github.com/AliceO2Group/AliceO2/pull/5297) 2021-01-26: Add JOBUTILS_JOB_SKIPCREATEDONE option, and do not wipe ctf_dictionar… by [@davidrohr](https://github.com/davidrohr)
