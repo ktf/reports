@@ -32,6 +32,7 @@
 - [#5322](https://github.com/AliceO2Group/AliceO2/pull/5322) 2021-01-28: Add default file name to TPC PublisherSpec by [@shahor02](https://github.com/shahor02)
 - [#5326](https://github.com/AliceO2Group/AliceO2/pull/5326) 2021-02-01: carryOverMethod implemented by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5327](https://github.com/AliceO2Group/AliceO2/pull/5327) 2021-01-28: Compressor out one part for input subspec, regardless input struct by [@preghenella](https://github.com/preghenella)
+- [#5328](https://github.com/AliceO2Group/AliceO2/pull/5328) 2021-02-03: [MUON] Introduce list of DCS aliases names for MCH and MID. by [@aphecetche](https://github.com/aphecetche)
 - [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
 - [#5337](https://github.com/AliceO2Group/AliceO2/pull/5337) 2021-02-02: TRD Digit bug fix by [@bazinski](https://github.com/bazinski)
