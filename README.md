@@ -9,6 +9,7 @@
 - [#5313](https://github.com/AliceO2Group/AliceO2/pull/5313) 2021-01-27: DPL / DPL Analysis: Introduce LabeledArray as an option for Variant by [@aalkin](https://github.com/aalkin)
 - [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
 - [#5345](https://github.com/AliceO2Group/AliceO2/pull/5345) 2021-02-02: PWGHF: Add a skeleton for HF + track task by [@ginnocen](https://github.com/ginnocen)
+- [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
 ## Recent developments in O2 - Common
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
