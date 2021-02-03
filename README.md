@@ -2,7 +2,6 @@
 - v5-09-57a-01: Done on 2021-01-27.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5277](https://github.com/AliceO2Group/AliceO2/pull/5277) 2021-01-27: PWGHF: Add simple task dedicated to efficiency and one for QA by [@njacazio](https://github.com/njacazio)
 - [#5295](https://github.com/AliceO2Group/AliceO2/pull/5295) 2021-02-02: PWGHF: Add full table writing tasks for D0 and Lc by [@njacazio](https://github.com/njacazio)
 - [#5296](https://github.com/AliceO2Group/AliceO2/pull/5296) 2021-02-01: PWGHF: Add protection in RecoDecay before asking particle mass by [@njacazio](https://github.com/njacazio)
@@ -41,7 +40,6 @@
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [#5266](https://github.com/AliceO2Group/AliceO2/pull/5266) 2021-01-27: DPL Analysis: make HistogramRegistry support StepTHn by [@mario-krueger](https://github.com/mario-krueger)
 - [#5304](https://github.com/AliceO2Group/AliceO2/pull/5304) 2021-01-28: DPL: propaedeutic for WS based DriverClient by [@ktf](https://github.com/ktf)
 - [#5310](https://github.com/AliceO2Group/AliceO2/pull/5310) 2021-01-27: Drop obsolete analysis example by [@ktf](https://github.com/ktf)
 - [#5312](https://github.com/AliceO2Group/AliceO2/pull/5312) 2021-01-27: DPL: include what you use by [@ktf](https://github.com/ktf)
