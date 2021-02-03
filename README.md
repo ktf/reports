@@ -44,6 +44,7 @@
 - [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5364](https://github.com/AliceO2Group/AliceO2/pull/5364) 2021-02-02: Templatize PrimaryVertexer inputs by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
+- [#5375](https://github.com/AliceO2Group/AliceO2/pull/5375) 2021-02-03: Digits labels should be read via ConstMCTruthContainer by [@shahor02](https://github.com/shahor02)
 - [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
