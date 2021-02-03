@@ -10,6 +10,7 @@
 - [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
 - [#5345](https://github.com/AliceO2Group/AliceO2/pull/5345) 2021-02-02: PWGHF: Add a skeleton for HF + track task by [@ginnocen](https://github.com/ginnocen)
 - [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
+- [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -56,6 +57,7 @@
 - [#5343](https://github.com/AliceO2Group/AliceO2/pull/5343) 2021-01-30: DPL: add ability to dump stacktrace on a signal [O2-2009] by [@ktf](https://github.com/ktf)
 - [#5351](https://github.com/AliceO2Group/AliceO2/pull/5351) 2021-02-02: DPL: make sure more options are uniform across workflows by [@ktf](https://github.com/ktf)
 - [#5356](https://github.com/AliceO2Group/AliceO2/pull/5356) 2021-02-02: DPL Analysis: Allow extracting compound tables for spawner/builder/etc. by [@aalkin](https://github.com/aalkin)
+- [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
