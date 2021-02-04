@@ -5,141 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-25T10:48:36Z",
-            "title": "Cosmic tracking mode added for ITS",
-            "number": 5278,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/its-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/run_trac_ca_its.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-26T07:16:47Z",
-            "title": "CPV geometry fix, run3 raw format. fix O2-1991",
-            "number": 5279,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CPVCalibWorkflow/src/CPVGainCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CPVCalibWorkflow/src/CPVPedestalCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/RawDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/RawWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/GeometryParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/RawWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-25T10:49:03Z",
             "title": "Use global track indices for cross-detector matches",
             "number": 5280,
@@ -4321,6 +4186,96 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix: further cleanup of redundant labels",
+            "number": 5378,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/NameConf.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/RecoWorkflowWithTPCSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Leave tracks where they are if they cannot be transported to the reference X",
+            "number": 5379,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
                   }
                 }
               ]
