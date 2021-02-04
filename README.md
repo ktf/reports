@@ -13,6 +13,7 @@
 - [#5284](https://github.com/AliceO2Group/AliceO2/pull/5284) 2021-02-04: Add WS DPL DriverClient. by [@ktf](https://github.com/ktf)
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 - [#5371](https://github.com/AliceO2Group/AliceO2/pull/5371) 2021-02-03: DPL: send error count in a delayed manner by [@ktf](https://github.com/ktf)
+- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5319](https://github.com/AliceO2Group/AliceO2/pull/5319) 2021-01-28: Add GPU standalone benchmark to normal O2 build by [@davidrohr](https://github.com/davidrohr)
@@ -25,6 +26,7 @@
 - [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
 - [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
+- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5309](https://github.com/AliceO2Group/AliceO2/pull/5309) 2021-02-01: corrected cdrum geometry, added heat strips by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5311](https://github.com/AliceO2Group/AliceO2/pull/5311) 2021-01-29: Allow copy elision when returning object by [@mpuccio](https://github.com/mpuccio)
@@ -43,6 +45,8 @@
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
 - [#5375](https://github.com/AliceO2Group/AliceO2/pull/5375) 2021-02-03: Digits labels should be read via ConstMCTruthContainer by [@shahor02](https://github.com/shahor02)
 - [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
+- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
+- [#5381](https://github.com/AliceO2Group/AliceO2/pull/5381) 2021-02-04: Little fix in CheckClusters.C needed after the changes intoduced in PR #4777 by [@iouribelikov](https://github.com/iouribelikov)
 ## Recent developments in O2 - Examples
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
