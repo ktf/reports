@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5296](https://github.com/AliceO2Group/AliceO2/pull/5296) 2021-02-01: PWGHF: Add protection in RecoDecay before asking particle mass by [@njacazio](https://github.com/njacazio)
 - [#5303](https://github.com/AliceO2Group/AliceO2/pull/5303) 2021-02-01: RecoDecay: getDaughters: Skip PDG check for the original particle. by [@vkucera](https://github.com/vkucera)
 - [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
 - [#5345](https://github.com/AliceO2Group/AliceO2/pull/5345) 2021-02-02: PWGHF: Add a skeleton for HF + track task by [@ginnocen](https://github.com/ginnocen)
