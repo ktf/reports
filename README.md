@@ -63,6 +63,7 @@
 - [#5372](https://github.com/AliceO2Group/AliceO2/pull/5372) 2021-02-03: DPL: lower severity for debug message by [@ktf](https://github.com/ktf)
 - [#5373](https://github.com/AliceO2Group/AliceO2/pull/5373) 2021-02-03: DPL: enable exception / segmentation fault backtrace by default by [@ktf](https://github.com/ktf)
 - [#5380](https://github.com/AliceO2Group/AliceO2/pull/5380) 2021-02-04: CCDB log improvement + DPL summary of most severe error by [@jgrosseo](https://github.com/jgrosseo)
+- [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5305](https://github.com/AliceO2Group/AliceO2/pull/5305) 2021-01-29: Implementation of simulation inhibit-pause-trigger-continue features by [@preghenella](https://github.com/preghenella)
 - [#5341](https://github.com/AliceO2Group/AliceO2/pull/5341) 2021-01-29: Revert "Implementation of simulation inhibit-pause-trigger-continue f… by [@sawenzel](https://github.com/sawenzel)
