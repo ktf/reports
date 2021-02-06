@@ -64,3 +64,5 @@
 - [#5395](https://github.com/AliceO2Group/AliceO2/pull/5395) 2021-02-06: DPL: allow parallel WS backed drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [#5398](https://github.com/AliceO2Group/AliceO2/pull/5398) 2021-02-06: Some improvements for running the full system test in the CI (and the first test for the full-system-test-CI) by [@davidrohr](https://github.com/davidrohr)
