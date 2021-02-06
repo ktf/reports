@@ -56,5 +56,6 @@
 - [#5380](https://github.com/AliceO2Group/AliceO2/pull/5380) 2021-02-04: CCDB log improvement + DPL summary of most severe error by [@jgrosseo](https://github.com/jgrosseo)
 - [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
 - [#5389](https://github.com/AliceO2Group/AliceO2/pull/5389) 2021-02-05: DPL: do not open a websocket for devices by [@ktf](https://github.com/ktf)
+- [#5395](https://github.com/AliceO2Group/AliceO2/pull/5395) 2021-02-06: DPL: allow parallel WS backed drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
