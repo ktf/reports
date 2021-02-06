@@ -10,6 +10,7 @@
 - [#5348](https://github.com/AliceO2Group/AliceO2/pull/5348) 2021-01-31: Misc. trivial hot fixes by [@shahor02](https://github.com/shahor02)
 - [#5371](https://github.com/AliceO2Group/AliceO2/pull/5371) 2021-02-03: DPL: send error count in a delayed manner by [@ktf](https://github.com/ktf)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
+- [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#5329](https://github.com/AliceO2Group/AliceO2/pull/5329) 2021-01-31: TOF-TPC matching creates TOF-constrained TPC tracks, optionally refit  by [@shahor02](https://github.com/shahor02)
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
@@ -20,6 +21,8 @@
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
 - [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
+- [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
+- [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5309](https://github.com/AliceO2Group/AliceO2/pull/5309) 2021-02-01: corrected cdrum geometry, added heat strips by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5326](https://github.com/AliceO2Group/AliceO2/pull/5326) 2021-02-01: carryOverMethod implemented by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -39,7 +42,9 @@
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5381](https://github.com/AliceO2Group/AliceO2/pull/5381) 2021-02-04: Little fix in CheckClusters.C needed after the changes intoduced in PR #4777 by [@iouribelikov](https://github.com/iouribelikov)
 - [#5382](https://github.com/AliceO2Group/AliceO2/pull/5382) 2021-02-04: MFT: fix after the changes intoduced in PR #4777 by [@bovulpes](https://github.com/bovulpes)
+- [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5385](https://github.com/AliceO2Group/AliceO2/pull/5385) 2021-02-05: example macro for Milestone Week 2 - CCDB test by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
