@@ -48,10 +48,6 @@
 ## Recent developments in O2 - Examples
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [#5324](https://github.com/AliceO2Group/AliceO2/pull/5324) 2021-01-30: DPL: Improve LabeledArray by [@aalkin](https://github.com/aalkin)
-- [#5339](https://github.com/AliceO2Group/AliceO2/pull/5339) 2021-01-30: DPL: refactor Control parsing helpers by [@ktf](https://github.com/ktf)
-- [#5342](https://github.com/AliceO2Group/AliceO2/pull/5342) 2021-01-30: DPL: incrementally reduce the amount of messages shown by [@ktf](https://github.com/ktf)
-- [#5343](https://github.com/AliceO2Group/AliceO2/pull/5343) 2021-01-30: DPL: add ability to dump stacktrace on a signal [O2-2009] by [@ktf](https://github.com/ktf)
 - [#5351](https://github.com/AliceO2Group/AliceO2/pull/5351) 2021-02-02: DPL: make sure more options are uniform across workflows by [@ktf](https://github.com/ktf)
 - [#5356](https://github.com/AliceO2Group/AliceO2/pull/5356) 2021-02-02: DPL Analysis: Allow extracting compound tables for spawner/builder/etc. by [@aalkin](https://github.com/aalkin)
 - [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
