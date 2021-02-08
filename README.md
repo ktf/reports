@@ -21,7 +21,6 @@
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5309](https://github.com/AliceO2Group/AliceO2/pull/5309) 2021-02-01: corrected cdrum geometry, added heat strips by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5326](https://github.com/AliceO2Group/AliceO2/pull/5326) 2021-02-01: carryOverMethod implemented by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5328](https://github.com/AliceO2Group/AliceO2/pull/5328) 2021-02-03: [MUON] Introduce list of DCS aliases names for MCH and MID. by [@aphecetche](https://github.com/aphecetche)
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
