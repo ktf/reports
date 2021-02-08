@@ -56,6 +56,7 @@
 - [#5389](https://github.com/AliceO2Group/AliceO2/pull/5389) 2021-02-05: DPL: do not open a websocket for devices by [@ktf](https://github.com/ktf)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
 - [#5395](https://github.com/AliceO2Group/AliceO2/pull/5395) 2021-02-06: DPL: allow parallel WS backed drivers by [@ktf](https://github.com/ktf)
+- [#5412](https://github.com/AliceO2Group/AliceO2/pull/5412) 2021-02-08: DPL: handle splitted websocket header by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
