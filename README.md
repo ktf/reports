@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5330](https://github.com/AliceO2Group/AliceO2/pull/5330) 2021-02-01: PWGHF: Fix MC matching flags. by [@vkucera](https://github.com/vkucera)
 - [#5345](https://github.com/AliceO2Group/AliceO2/pull/5345) 2021-02-02: PWGHF: Add a skeleton for HF + track task by [@ginnocen](https://github.com/ginnocen)
 - [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
 - [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
@@ -12,7 +11,6 @@
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
-- [#5347](https://github.com/AliceO2Group/AliceO2/pull/5347) 2021-02-01: Set TrackPar default PID to pion, add PID argument to c-tors by [@shahor02](https://github.com/shahor02)
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 - [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
@@ -22,7 +20,6 @@
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [#5326](https://github.com/AliceO2Group/AliceO2/pull/5326) 2021-02-01: carryOverMethod implemented by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5328](https://github.com/AliceO2Group/AliceO2/pull/5328) 2021-02-03: [MUON] Introduce list of DCS aliases names for MCH and MID. by [@aphecetche](https://github.com/aphecetche)
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
 - [#5337](https://github.com/AliceO2Group/AliceO2/pull/5337) 2021-02-02: TRD Digit bug fix by [@bazinski](https://github.com/bazinski)
