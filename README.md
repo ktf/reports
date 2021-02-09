@@ -38,6 +38,7 @@
 - [#5385](https://github.com/AliceO2Group/AliceO2/pull/5385) 2021-02-05: example macro for Milestone Week 2 - CCDB test by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5386](https://github.com/AliceO2Group/AliceO2/pull/5386) 2021-02-08: Fix conversion from string to seconds by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
+- [#5406](https://github.com/AliceO2Group/AliceO2/pull/5406) 2021-02-09: Executable to retrieve the CCDB entries for the Milestone Week 2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 - [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
