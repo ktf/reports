@@ -20,7 +20,6 @@
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [#5328](https://github.com/AliceO2Group/AliceO2/pull/5328) 2021-02-03: [MUON] Introduce list of DCS aliases names for MCH and MID. by [@aphecetche](https://github.com/aphecetche)
 - [#5332](https://github.com/AliceO2Group/AliceO2/pull/5332) 2021-02-02: Fixing module numbering; handling pedestal runs by [@peressounko](https://github.com/peressounko)
 - [#5337](https://github.com/AliceO2Group/AliceO2/pull/5337) 2021-02-02: TRD Digit bug fix by [@bazinski](https://github.com/bazinski)
 - [#5344](https://github.com/AliceO2Group/AliceO2/pull/5344) 2021-02-02: ALICE3toAO2D macro for tests by [@ddobrigk](https://github.com/ddobrigk)
@@ -41,6 +40,7 @@
 - [#5406](https://github.com/AliceO2Group/AliceO2/pull/5406) 2021-02-09: Executable to retrieve the CCDB entries for the Milestone Week 2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 - [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
+- [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Examples
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -58,5 +58,7 @@
 - [#5412](https://github.com/AliceO2Group/AliceO2/pull/5412) 2021-02-08: DPL: handle splitted websocket header by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5353](https://github.com/AliceO2Group/AliceO2/pull/5353) 2021-02-02: Revert "Revert "Implementation of simulation inhibit-pause-trigger-co… by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Steer
+- [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Utilities
 - [#5398](https://github.com/AliceO2Group/AliceO2/pull/5398) 2021-02-06: Some improvements for running the full system test in the CI (and the first test for the full-system-test-CI) by [@davidrohr](https://github.com/davidrohr)
