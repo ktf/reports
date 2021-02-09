@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-01-27T20:49:09Z",
-            "title": "Add option to create an o2 propagator instance uninitialized to be used with external matLut / gpuFieldMap",
-            "number": 5320,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Propagator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-01-27T19:11:58Z",
             "title": "DPL: Fix labeled array exception",
             "number": 5321,
@@ -4550,6 +4520,46 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/src/Painter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Apply git clang-format to Analysis.",
+            "number": 5420,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/ConfigurableCutLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/dynamicColumns.cxx"
                   }
                 }
               ]
