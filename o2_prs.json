@@ -4,101 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "PWGHF: first implementation of Xic->pKpi filtering",
-            "number": 5338,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/HFConfigurables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFXicCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-30T01:21:22Z",
-            "title": "DPL: refactor Control parsing helpers",
-            "number": 5339,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ControlService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlServiceHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlServiceHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-01-29T18:14:39Z",
             "title": "DPL: Do not use sleep",
@@ -5125,7 +5030,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[Detectors/EMCAL/calibration/]: Add the basic calibration workflow.",
+            "title": "[EMCAL-565]: Add the basic calibration workflow.",
             "number": 5437,
             "author": {
               "login": "hjbossi"
@@ -5180,6 +5085,61 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RecoWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update QA tasks for vertexing and MC PID",
+            "number": 5438,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/qaTaskEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/qaTaskSimple.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOFqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add option to fix SEED for full system test",
+            "number": 5439,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
                   }
                 }
               ]
