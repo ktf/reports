@@ -5,6 +5,7 @@
 - [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
 - [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
+- [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
 ## Recent developments in O2 - Common
 - [#5371](https://github.com/AliceO2Group/AliceO2/pull/5371) 2021-02-03: DPL: send error count in a delayed manner by [@ktf](https://github.com/ktf)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
