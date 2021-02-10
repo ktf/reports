@@ -9,6 +9,7 @@
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
+- [#5427](https://github.com/AliceO2Group/AliceO2/pull/5427) 2021-02-10: Apply git clang-format to GPU. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
 - [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
