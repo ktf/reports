@@ -1,5 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+- v21.05: Done on 2021-02-10.
 ## Recent developments in O2 - Analysis
 - [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
 - [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
