@@ -2,31 +2,21 @@
 ## Recent O2 releases
 - v21.05: Done on 2021-02-10.
 ## Recent developments in O2 - Analysis
-- [#5352](https://github.com/AliceO2Group/AliceO2/pull/5352) 2021-02-03: Analysis/PWGDQ: update dileptonEE and VarManager by [@dsekihat](https://github.com/dsekihat)
-- [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
 - [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
 ## Recent developments in O2 - Common
-- [#5371](https://github.com/AliceO2Group/AliceO2/pull/5371) 2021-02-03: DPL: send error count in a delayed manner by [@ktf](https://github.com/ktf)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
 - [#5427](https://github.com/AliceO2Group/AliceO2/pull/5427) 2021-02-10: Apply git clang-format to GPU. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
-- [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
-- [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
-- [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [#5354](https://github.com/AliceO2Group/AliceO2/pull/5354) 2021-02-03: Fixes in FDD  by [@shahor02](https://github.com/shahor02)
 - [#5355](https://github.com/AliceO2Group/AliceO2/pull/5355) 2021-02-04: Switch to truncation from MathUtils. Supress TPC tracks filling by default by [@nburmaso](https://github.com/nburmaso)
-- [#5366](https://github.com/AliceO2Group/AliceO2/pull/5366) 2021-02-03: Fixes in MCCompLabel, cleanup of redundant labels in matching by [@shahor02](https://github.com/shahor02)
-- [#5375](https://github.com/AliceO2Group/AliceO2/pull/5375) 2021-02-03: Digits labels should be read via ConstMCTruthContainer by [@shahor02](https://github.com/shahor02)
-- [#5376](https://github.com/AliceO2Group/AliceO2/pull/5376) 2021-02-03: Fix: ensure exact target X assignment in track propagation by [@shahor02](https://github.com/shahor02)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5381](https://github.com/AliceO2Group/AliceO2/pull/5381) 2021-02-04: Little fix in CheckClusters.C needed after the changes intoduced in PR #4777 by [@iouribelikov](https://github.com/iouribelikov)
 - [#5382](https://github.com/AliceO2Group/AliceO2/pull/5382) 2021-02-04: MFT: fix after the changes intoduced in PR #4777 by [@bovulpes](https://github.com/bovulpes)
@@ -39,10 +29,6 @@
 - [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
 - [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Framework
-- [#5368](https://github.com/AliceO2Group/AliceO2/pull/5368) 2021-02-03: Splitting IO and wait time in metrics by [@jgrosseo](https://github.com/jgrosseo)
-- [#5371](https://github.com/AliceO2Group/AliceO2/pull/5371) 2021-02-03: DPL: send error count in a delayed manner by [@ktf](https://github.com/ktf)
-- [#5372](https://github.com/AliceO2Group/AliceO2/pull/5372) 2021-02-03: DPL: lower severity for debug message by [@ktf](https://github.com/ktf)
-- [#5373](https://github.com/AliceO2Group/AliceO2/pull/5373) 2021-02-03: DPL: enable exception / segmentation fault backtrace by default by [@ktf](https://github.com/ktf)
 - [#5380](https://github.com/AliceO2Group/AliceO2/pull/5380) 2021-02-04: CCDB log improvement + DPL summary of most severe error by [@jgrosseo](https://github.com/jgrosseo)
 - [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
 - [#5389](https://github.com/AliceO2Group/AliceO2/pull/5389) 2021-02-05: DPL: do not open a websocket for devices by [@ktf](https://github.com/ktf)
