@@ -24,7 +24,6 @@
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5355](https://github.com/AliceO2Group/AliceO2/pull/5355) 2021-02-04: Switch to truncation from MathUtils. Supress TPC tracks filling by default by [@nburmaso](https://github.com/nburmaso)
 - [#5377](https://github.com/AliceO2Group/AliceO2/pull/5377) 2021-02-11: TRD: Add Configurable TRDSimParams (O2-1807) by [@jolopezl](https://github.com/jolopezl)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5381](https://github.com/AliceO2Group/AliceO2/pull/5381) 2021-02-04: Little fix in CheckClusters.C needed after the changes intoduced in PR #4777 by [@iouribelikov](https://github.com/iouribelikov)
