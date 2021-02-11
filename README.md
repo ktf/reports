@@ -32,6 +32,7 @@
 - [#5406](https://github.com/AliceO2Group/AliceO2/pull/5406) 2021-02-09: Executable to retrieve the CCDB entries for the Milestone Week 2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
+- [#5418](https://github.com/AliceO2Group/AliceO2/pull/5418) 2021-02-11: TRD trigger records for raw data input and trigger record bug fix by [@jbarrella](https://github.com/jbarrella)
 - [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5425](https://github.com/AliceO2Group/AliceO2/pull/5425) 2021-02-11: GPU: Add SMatrixGPU and Fwd decls by [@mconcas](https://github.com/mconcas)
