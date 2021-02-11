@@ -5,6 +5,8 @@
 - [#5358](https://github.com/AliceO2Group/AliceO2/pull/5358) 2021-02-11: PWGHF: rework b+ task template with grouping by [@aalkin](https://github.com/aalkin)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
 - [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
+- [#5420](https://github.com/AliceO2Group/AliceO2/pull/5420) 2021-02-11: Apply git clang-format to Analysis. by [@vkucera](https://github.com/vkucera)
+- [#5421](https://github.com/AliceO2Group/AliceO2/pull/5421) 2021-02-11: add (DCA,Pt,Mass) histogram to analyser - switch to histogram registry by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
@@ -51,6 +53,7 @@
 - [#5395](https://github.com/AliceO2Group/AliceO2/pull/5395) 2021-02-06: DPL: allow parallel WS backed drivers by [@ktf](https://github.com/ktf)
 - [#5412](https://github.com/AliceO2Group/AliceO2/pull/5412) 2021-02-08: DPL: handle splitted websocket header by [@ktf](https://github.com/ktf)
 - [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
+- [#5417](https://github.com/AliceO2Group/AliceO2/pull/5417) 2021-02-11: DPL: unify JSON representation of arrays in Variant by [@aalkin](https://github.com/aalkin)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Generators
