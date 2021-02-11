@@ -18,6 +18,7 @@
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
+- [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [#5355](https://github.com/AliceO2Group/AliceO2/pull/5355) 2021-02-04: Switch to truncation from MathUtils. Supress TPC tracks filling by default by [@nburmaso](https://github.com/nburmaso)
 - [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
@@ -31,8 +32,11 @@
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 - [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
+- [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5425](https://github.com/AliceO2Group/AliceO2/pull/5425) 2021-02-11: GPU: Add SMatrixGPU and Fwd decls by [@mconcas](https://github.com/mconcas)
 - [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
+## Recent developments in O2 - EventVisualisation
+- [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
 - [#5380](https://github.com/AliceO2Group/AliceO2/pull/5380) 2021-02-04: CCDB log improvement + DPL summary of most severe error by [@jgrosseo](https://github.com/jgrosseo)
 - [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
@@ -42,6 +46,7 @@
 - [#5412](https://github.com/AliceO2Group/AliceO2/pull/5412) 2021-02-08: DPL: handle splitted websocket header by [@ktf](https://github.com/ktf)
 - [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
+- [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Generators
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
@@ -49,3 +54,4 @@
 ## Recent developments in O2 - Utilities
 - [#5398](https://github.com/AliceO2Group/AliceO2/pull/5398) 2021-02-06: Some improvements for running the full system test in the CI (and the first test for the full-system-test-CI) by [@davidrohr](https://github.com/davidrohr)
 - [#5422](https://github.com/AliceO2Group/AliceO2/pull/5422) 2021-02-10: jobutils/taskwrapper: use fairmq-shmmonitor by [@sawenzel](https://github.com/sawenzel)
+- [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
