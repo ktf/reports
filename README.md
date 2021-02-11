@@ -22,6 +22,7 @@
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5411](https://github.com/AliceO2Group/AliceO2/pull/5411) 2021-02-08: Developments for pedestal calibration in DPL + misc by [@wiechula](https://github.com/wiechula)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
+- [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5355](https://github.com/AliceO2Group/AliceO2/pull/5355) 2021-02-04: Switch to truncation from MathUtils. Supress TPC tracks filling by default by [@nburmaso](https://github.com/nburmaso)
 - [#5377](https://github.com/AliceO2Group/AliceO2/pull/5377) 2021-02-11: TRD: Add Configurable TRDSimParams (O2-1807) by [@jolopezl](https://github.com/jolopezl)
