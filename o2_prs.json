@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-01-31T21:33:09Z",
-            "title": "Misc. trivial hot fixes",
-            "number": 5348,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/common/include/CommonDataFormat/AbstractRefAccessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "The following changelog has been automatically generated.",
@@ -4999,6 +4969,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendGlut.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/display/GPUDisplayBackendGlut.h"
                   }
                 },
@@ -5060,6 +5035,31 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC CDBInterface: enable fetching CalPad from any path in CCDB",
+            "number": 5448,
+            "author": {
+              "login": "tklemenz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CDBInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/CDBInterface.cxx"
                   }
                 }
               ]
