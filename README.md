@@ -2,6 +2,7 @@
 ## Recent O2 releases
 - v21.05: Done on 2021-02-10.
 ## Recent developments in O2 - Analysis
+- [#5358](https://github.com/AliceO2Group/AliceO2/pull/5358) 2021-02-11: PWGHF: rework b+ task template with grouping by [@aalkin](https://github.com/aalkin)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
 - [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
 ## Recent developments in O2 - Common
