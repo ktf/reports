@@ -42,6 +42,7 @@
 - [#5441](https://github.com/AliceO2Group/AliceO2/pull/5441) 2021-02-11: Reintroduce Wrapper Volume 0 for IB Layers of ITS3 Upgrade by [@mario6829](https://github.com/mario6829)
 - [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
+- [#5453](https://github.com/AliceO2Group/AliceO2/pull/5453) 2021-02-12: [EMCAL-650] Split payload per SRU link by [@hahassan7](https://github.com/hahassan7)
 - [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
