@@ -40,6 +40,7 @@
 - [#5434](https://github.com/AliceO2Group/AliceO2/pull/5434) 2021-02-11: Implementation of CYSS support cylinder in ITS geometry by [@mario6829](https://github.com/mario6829)
 - [#5435](https://github.com/AliceO2Group/AliceO2/pull/5435) 2021-02-11: remove obsolete check by [@wiechula](https://github.com/wiechula)
 - [#5441](https://github.com/AliceO2Group/AliceO2/pull/5441) 2021-02-11: Reintroduce Wrapper Volume 0 for IB Layers of ITS3 Upgrade by [@mario6829](https://github.com/mario6829)
+- [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 - [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
