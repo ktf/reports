@@ -8,7 +8,6 @@
 - [#5420](https://github.com/AliceO2Group/AliceO2/pull/5420) 2021-02-11: Apply git clang-format to Analysis. by [@vkucera](https://github.com/vkucera)
 - [#5421](https://github.com/AliceO2Group/AliceO2/pull/5421) 2021-02-11: add (DCA,Pt,Mass) histogram to analyser - switch to histogram registry by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
-- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
@@ -16,7 +15,6 @@
 - [#5427](https://github.com/AliceO2Group/AliceO2/pull/5427) 2021-02-10: Apply git clang-format to GPU. by [@vkucera](https://github.com/vkucera)
 - [#5440](https://github.com/AliceO2Group/AliceO2/pull/5440) 2021-02-11: Fix mem problems related to RootSerializableKeyValStore by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
@@ -25,9 +23,6 @@
 - [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5377](https://github.com/AliceO2Group/AliceO2/pull/5377) 2021-02-11: TRD: Add Configurable TRDSimParams (O2-1807) by [@jolopezl](https://github.com/jolopezl)
-- [#5378](https://github.com/AliceO2Group/AliceO2/pull/5378) 2021-02-04: Fix: further cleanup of redundant labels by [@shahor02](https://github.com/shahor02)
-- [#5381](https://github.com/AliceO2Group/AliceO2/pull/5381) 2021-02-04: Little fix in CheckClusters.C needed after the changes intoduced in PR #4777 by [@iouribelikov](https://github.com/iouribelikov)
-- [#5382](https://github.com/AliceO2Group/AliceO2/pull/5382) 2021-02-04: MFT: fix after the changes intoduced in PR #4777 by [@bovulpes](https://github.com/bovulpes)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
 - [#5385](https://github.com/AliceO2Group/AliceO2/pull/5385) 2021-02-05: example macro for Milestone Week 2 - CCDB test by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5386](https://github.com/AliceO2Group/AliceO2/pull/5386) 2021-02-08: Fix conversion from string to seconds by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -48,7 +43,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
-- [#5380](https://github.com/AliceO2Group/AliceO2/pull/5380) 2021-02-04: CCDB log improvement + DPL summary of most severe error by [@jgrosseo](https://github.com/jgrosseo)
 - [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
 - [#5389](https://github.com/AliceO2Group/AliceO2/pull/5389) 2021-02-05: DPL: do not open a websocket for devices by [@ktf](https://github.com/ktf)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
