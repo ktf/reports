@@ -40,6 +40,7 @@
 - [#5434](https://github.com/AliceO2Group/AliceO2/pull/5434) 2021-02-11: Implementation of CYSS support cylinder in ITS geometry by [@mario6829](https://github.com/mario6829)
 - [#5435](https://github.com/AliceO2Group/AliceO2/pull/5435) 2021-02-11: remove obsolete check by [@wiechula](https://github.com/wiechula)
 - [#5441](https://github.com/AliceO2Group/AliceO2/pull/5441) 2021-02-11: Reintroduce Wrapper Volume 0 for IB Layers of ITS3 Upgrade by [@mario6829](https://github.com/mario6829)
+- [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
