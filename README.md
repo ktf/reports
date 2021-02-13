@@ -23,7 +23,6 @@
 ## Recent developments in O2 - Detectors
 - [#5377](https://github.com/AliceO2Group/AliceO2/pull/5377) 2021-02-11: TRD: Add Configurable TRDSimParams (O2-1807) by [@jolopezl](https://github.com/jolopezl)
 - [#5383](https://github.com/AliceO2Group/AliceO2/pull/5383) 2021-02-06: [ITS vertexer] Fix compilation with ITS debug by [@mconcas](https://github.com/mconcas)
-- [#5385](https://github.com/AliceO2Group/AliceO2/pull/5385) 2021-02-05: example macro for Milestone Week 2 - CCDB test by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5386](https://github.com/AliceO2Group/AliceO2/pull/5386) 2021-02-08: Fix conversion from string to seconds by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5394](https://github.com/AliceO2Group/AliceO2/pull/5394) 2021-02-12: [MCH] Introduce DCS processor by [@aphecetche](https://github.com/aphecetche)
 - [#5397](https://github.com/AliceO2Group/AliceO2/pull/5397) 2021-02-06: fix: missing reset in its CompressedClusters by [@shahor02](https://github.com/shahor02)
@@ -49,8 +48,6 @@
 ## Recent developments in O2 - Examples
 - [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5387](https://github.com/AliceO2Group/AliceO2/pull/5387) 2021-02-05: DPL: improve reliability of --driver-client-backend ws:// by [@ktf](https://github.com/ktf)
-- [#5389](https://github.com/AliceO2Group/AliceO2/pull/5389) 2021-02-05: DPL: do not open a websocket for devices by [@ktf](https://github.com/ktf)
 - [#5390](https://github.com/AliceO2Group/AliceO2/pull/5390) 2021-02-08: DPL: fix for sending configuration with spaces by [@aalkin](https://github.com/aalkin)
 - [#5395](https://github.com/AliceO2Group/AliceO2/pull/5395) 2021-02-06: DPL: allow parallel WS backed drivers by [@ktf](https://github.com/ktf)
 - [#5412](https://github.com/AliceO2Group/AliceO2/pull/5412) 2021-02-08: DPL: handle splitted websocket header by [@ktf](https://github.com/ktf)
