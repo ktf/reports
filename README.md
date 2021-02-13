@@ -43,6 +43,7 @@
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 - [#5453](https://github.com/AliceO2Group/AliceO2/pull/5453) 2021-02-12: [EMCAL-650] Split payload per SRU link by [@hahassan7](https://github.com/hahassan7)
 - [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5468](https://github.com/AliceO2Group/AliceO2/pull/5468) 2021-02-13: Remove ApplyCarryOverToLastPage in EMC mc->raw, use const TrailerSize by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
@@ -56,6 +57,7 @@
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5449](https://github.com/AliceO2Group/AliceO2/pull/5449) 2021-02-11: DPL: make --fairmq-ipc-prefix homogeneous by [@ktf](https://github.com/ktf)
+- [#5466](https://github.com/AliceO2Group/AliceO2/pull/5466) 2021-02-13: DPL: fix naming of rcvBufSize, sndBufSize by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
