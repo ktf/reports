@@ -60,3 +60,4 @@
 - [#5422](https://github.com/AliceO2Group/AliceO2/pull/5422) 2021-02-10: jobutils/taskwrapper: use fairmq-shmmonitor by [@sawenzel](https://github.com/sawenzel)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5444](https://github.com/AliceO2Group/AliceO2/pull/5444) 2021-02-11: Catch ROOT 'fatal in' / simplify fairmq-shmmonitor usage by [@sawenzel](https://github.com/sawenzel)
+- [#5464](https://github.com/AliceO2Group/AliceO2/pull/5464) 2021-02-14: Print out some indication where the error was found in the log file by [@davidrohr](https://github.com/davidrohr)
