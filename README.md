@@ -7,6 +7,7 @@
 - [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
 - [#5420](https://github.com/AliceO2Group/AliceO2/pull/5420) 2021-02-11: Apply git clang-format to Analysis. by [@vkucera](https://github.com/vkucera)
 - [#5421](https://github.com/AliceO2Group/AliceO2/pull/5421) 2021-02-11: add (DCA,Pt,Mass) histogram to analyser - switch to histogram registry by [@aimeric-landou](https://github.com/aimeric-landou)
+- [#5475](https://github.com/AliceO2Group/AliceO2/pull/5475) 2021-02-15: PID: Merge split tasks into one configurable by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
 - [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
