@@ -37,6 +37,7 @@
 - [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
 - [#5453](https://github.com/AliceO2Group/AliceO2/pull/5453) 2021-02-12: [EMCAL-650] Split payload per SRU link by [@hahassan7](https://github.com/hahassan7)
 - [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5463](https://github.com/AliceO2Group/AliceO2/pull/5463) 2021-02-16: [MCH] modify (pre)clustering workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5468](https://github.com/AliceO2Group/AliceO2/pull/5468) 2021-02-13: Remove ApplyCarryOverToLastPage in EMC mc->raw, use const TrailerSize by [@shahor02](https://github.com/shahor02)
 - [#5471](https://github.com/AliceO2Group/AliceO2/pull/5471) 2021-02-15: [PHOS] Add missing include (when using Root 6.22/06) by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
