@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-05T18:31:29Z",
-            "title": "example macro for Milestone Week 2 - CCDB test",
-            "number": 5385,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/populateCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/populateCCDB.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-08T08:44:45Z",
             "title": "Fix conversion from string to seconds",
             "number": 5386,
@@ -4335,6 +4305,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[CTest] Disable some tests in Debug mode",
+            "number": 5485,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Mapping/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTestWrapper.cmake"
                   }
                 }
               ]
