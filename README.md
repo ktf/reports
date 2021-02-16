@@ -2,6 +2,7 @@
 - v5-09-57b-01: Done on 2021-02-15.
 ## Recent O2 releases
 - v21.05: Done on 2021-02-10.
+- v21.07: Done on 2021-02-16.
 ## Recent developments in O2 - Analysis
 - [#5393](https://github.com/AliceO2Group/AliceO2/pull/5393) 2021-02-10: PWGHF: Change the eta cut with the Y cut in the tasks by [@DelloStritto](https://github.com/DelloStritto)
 - [#5420](https://github.com/AliceO2Group/AliceO2/pull/5420) 2021-02-11: Apply git clang-format to Analysis. by [@vkucera](https://github.com/vkucera)
@@ -53,6 +54,7 @@
 - [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
 - [#5449](https://github.com/AliceO2Group/AliceO2/pull/5449) 2021-02-11: DPL: make --fairmq-ipc-prefix homogeneous by [@ktf](https://github.com/ktf)
 - [#5452](https://github.com/AliceO2Group/AliceO2/pull/5452) 2021-02-15: DPL Analysis: fix for malformed slice for the last entry in grouping by [@aalkin](https://github.com/aalkin)
+- [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
 - [#5466](https://github.com/AliceO2Group/AliceO2/pull/5466) 2021-02-13: DPL: fix naming of rcvBufSize, sndBufSize by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
