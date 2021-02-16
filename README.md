@@ -41,6 +41,7 @@
 - [#5463](https://github.com/AliceO2Group/AliceO2/pull/5463) 2021-02-16: [MCH] modify (pre)clustering workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5468](https://github.com/AliceO2Group/AliceO2/pull/5468) 2021-02-13: Remove ApplyCarryOverToLastPage in EMC mc->raw, use const TrailerSize by [@shahor02](https://github.com/shahor02)
 - [#5471](https://github.com/AliceO2Group/AliceO2/pull/5471) 2021-02-15: [PHOS] Add missing include (when using Root 6.22/06) by [@aphecetche](https://github.com/aphecetche)
+- [#5484](https://github.com/AliceO2Group/AliceO2/pull/5484) 2021-02-16: [EMCAL-680][O2-1904] Cleaning the buffer by reference by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
