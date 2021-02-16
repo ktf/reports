@@ -19,7 +19,6 @@
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5377](https://github.com/AliceO2Group/AliceO2/pull/5377) 2021-02-11: TRD: Add Configurable TRDSimParams (O2-1807) by [@jolopezl](https://github.com/jolopezl)
 - [#5394](https://github.com/AliceO2Group/AliceO2/pull/5394) 2021-02-12: [MCH] Introduce DCS processor by [@aphecetche](https://github.com/aphecetche)
 - [#5406](https://github.com/AliceO2Group/AliceO2/pull/5406) 2021-02-09: Executable to retrieve the CCDB entries for the Milestone Week 2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
