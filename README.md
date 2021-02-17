@@ -58,6 +58,7 @@
 - [#5452](https://github.com/AliceO2Group/AliceO2/pull/5452) 2021-02-15: DPL Analysis: fix for malformed slice for the last entry in grouping by [@aalkin](https://github.com/aalkin)
 - [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
 - [#5466](https://github.com/AliceO2Group/AliceO2/pull/5466) 2021-02-13: DPL: fix naming of rcvBufSize, sndBufSize by [@ktf](https://github.com/ktf)
+- [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
