@@ -44,6 +44,7 @@
 - [#5478](https://github.com/AliceO2Group/AliceO2/pull/5478) 2021-02-17: macro to read TOF DCS entries by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5480](https://github.com/AliceO2Group/AliceO2/pull/5480) 2021-02-17: Implementation of cylinder and foam wedges for IB support in ITS3 geometry by [@mario6829](https://github.com/mario6829)
 - [#5484](https://github.com/AliceO2Group/AliceO2/pull/5484) 2021-02-16: [EMCAL-680][O2-1904] Cleaning the buffer by reference by [@hahassan7](https://github.com/hahassan7)
+- [#5490](https://github.com/AliceO2Group/AliceO2/pull/5490) 2021-02-17: Fix number of DDLs for DCS processing by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
