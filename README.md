@@ -42,6 +42,7 @@
 - [#5471](https://github.com/AliceO2Group/AliceO2/pull/5471) 2021-02-15: [PHOS] Add missing include (when using Root 6.22/06) by [@aphecetche](https://github.com/aphecetche)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5478](https://github.com/AliceO2Group/AliceO2/pull/5478) 2021-02-17: macro to read TOF DCS entries by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5480](https://github.com/AliceO2Group/AliceO2/pull/5480) 2021-02-17: Implementation of cylinder and foam wedges for IB support in ITS3 geometry by [@mario6829](https://github.com/mario6829)
 - [#5484](https://github.com/AliceO2Group/AliceO2/pull/5484) 2021-02-16: [EMCAL-680][O2-1904] Cleaning the buffer by reference by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
@@ -62,6 +63,7 @@
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
+- [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
 - [#5422](https://github.com/AliceO2Group/AliceO2/pull/5422) 2021-02-10: jobutils/taskwrapper: use fairmq-shmmonitor by [@sawenzel](https://github.com/sawenzel)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
