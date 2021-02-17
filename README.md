@@ -15,11 +15,13 @@
 - [#5440](https://github.com/AliceO2Group/AliceO2/pull/5440) 2021-02-11: Fix mem problems related to RootSerializableKeyValStore by [@sawenzel](https://github.com/sawenzel)
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
+- [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
+- [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5416](https://github.com/AliceO2Group/AliceO2/pull/5416) 2021-02-11: [Alice 3] Update TRK readme by [@mconcas](https://github.com/mconcas)
@@ -43,6 +45,7 @@
 - [#5480](https://github.com/AliceO2Group/AliceO2/pull/5480) 2021-02-17: Implementation of cylinder and foam wedges for IB support in ITS3 geometry by [@mario6829](https://github.com/mario6829)
 - [#5484](https://github.com/AliceO2Group/AliceO2/pull/5484) 2021-02-16: [EMCAL-680][O2-1904] Cleaning the buffer by reference by [@hahassan7](https://github.com/hahassan7)
 - [#5490](https://github.com/AliceO2Group/AliceO2/pull/5490) 2021-02-17: Fix number of DDLs for DCS processing by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
