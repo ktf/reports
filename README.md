@@ -21,14 +21,11 @@
 - [#5445](https://github.com/AliceO2Group/AliceO2/pull/5445) 2021-02-11: Fix codechecker errors by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5394](https://github.com/AliceO2Group/AliceO2/pull/5394) 2021-02-12: [MCH] Introduce DCS processor by [@aphecetche](https://github.com/aphecetche)
-- [#5406](https://github.com/AliceO2Group/AliceO2/pull/5406) 2021-02-09: Executable to retrieve the CCDB entries for the Milestone Week 2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5410](https://github.com/AliceO2Group/AliceO2/pull/5410) 2021-02-11: Fixes for TOF CTF creation by [@noferini](https://github.com/noferini)
 - [#5416](https://github.com/AliceO2Group/AliceO2/pull/5416) 2021-02-11: [Alice 3] Update TRK readme by [@mconcas](https://github.com/mconcas)
 - [#5418](https://github.com/AliceO2Group/AliceO2/pull/5418) 2021-02-11: TRD trigger records for raw data input and trigger record bug fix by [@jbarrella](https://github.com/jbarrella)
-- [#5419](https://github.com/AliceO2Group/AliceO2/pull/5419) 2021-02-09: [TPC] fix check for number of provided canvases by [@wiechula](https://github.com/wiechula)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5425](https://github.com/AliceO2Group/AliceO2/pull/5425) 2021-02-11: GPU: Add SMatrixGPU and Fwd decls by [@mconcas](https://github.com/mconcas)
-- [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
 - [#5428](https://github.com/AliceO2Group/AliceO2/pull/5428) 2021-02-11: Fix TPC digit reading macro after switch to ConstMCTruthContainer by [@shahor02](https://github.com/shahor02)
 - [#5434](https://github.com/AliceO2Group/AliceO2/pull/5434) 2021-02-11: Implementation of CYSS support cylinder in ITS geometry by [@mario6829](https://github.com/mario6829)
 - [#5435](https://github.com/AliceO2Group/AliceO2/pull/5435) 2021-02-11: remove obsolete check by [@wiechula](https://github.com/wiechula)
@@ -60,7 +57,6 @@
 ## Recent developments in O2 - Generators
 - [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
-- [#5426](https://github.com/AliceO2Group/AliceO2/pull/5426) 2021-02-09: [EMCAL-614] Fixing the pileup simulation by [@hahassan7](https://github.com/hahassan7)
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [#5422](https://github.com/AliceO2Group/AliceO2/pull/5422) 2021-02-10: jobutils/taskwrapper: use fairmq-shmmonitor by [@sawenzel](https://github.com/sawenzel)
