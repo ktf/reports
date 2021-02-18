@@ -4,101 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Developments for pedestal calibration in DPL",
-            "number": 5396,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppressionLinkBased.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/TPCBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibPedestal.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibPedestalParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibRawBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/drawPulser.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/runPedestal.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/runPulser.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalDetMergerPublisherSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibProcessingHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPedestalSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalDetMergerPublisherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-calib-pedestal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-02-06T10:57:03Z",
             "title": "fix: missing reset in its CompressedClusters",
@@ -4451,6 +4356,26 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/EMCALDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: fix the PID in the Lc->pKpi selector",
+            "number": 5496,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFLcCandidateSelector.cxx"
                   }
                 }
               ]

@@ -8,10 +8,7 @@
 - [#5421](https://github.com/AliceO2Group/AliceO2/pull/5421) 2021-02-11: add (DCA,Pt,Mass) histogram to analyser - switch to histogram registry by [@aimeric-landou](https://github.com/aimeric-landou)
 - [#5475](https://github.com/AliceO2Group/AliceO2/pull/5475) 2021-02-15: PID: Merge split tasks into one configurable by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
-- [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
 - [#5425](https://github.com/AliceO2Group/AliceO2/pull/5425) 2021-02-11: GPU: Add SMatrixGPU and Fwd decls by [@mconcas](https://github.com/mconcas)
-- [#5427](https://github.com/AliceO2Group/AliceO2/pull/5427) 2021-02-10: Apply git clang-format to GPU. by [@vkucera](https://github.com/vkucera)
 - [#5440](https://github.com/AliceO2Group/AliceO2/pull/5440) 2021-02-11: Fix mem problems related to RootSerializableKeyValStore by [@sawenzel](https://github.com/sawenzel)
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
@@ -51,9 +48,7 @@
 ## Recent developments in O2 - Examples
 - [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5414](https://github.com/AliceO2Group/AliceO2/pull/5414) 2021-02-10: Changed log message from WARNING to DEBUG. by [@pbuehler](https://github.com/pbuehler)
 - [#5417](https://github.com/AliceO2Group/AliceO2/pull/5417) 2021-02-11: DPL: unify JSON representation of arrays in Variant by [@aalkin](https://github.com/aalkin)
-- [#5423](https://github.com/AliceO2Group/AliceO2/pull/5423) 2021-02-10: Monitoring usage cleanup in DPL by [@ktf](https://github.com/ktf)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5432](https://github.com/AliceO2Group/AliceO2/pull/5432) 2021-02-15: DPL: check for bind result as well. by [@ktf](https://github.com/ktf)
 - [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
@@ -62,13 +57,10 @@
 - [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
 - [#5466](https://github.com/AliceO2Group/AliceO2/pull/5466) 2021-02-13: DPL: fix naming of rcvBufSize, sndBufSize by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [#5429](https://github.com/AliceO2Group/AliceO2/pull/5429) 2021-02-10: Apply git clang-format to Generators. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Steer
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
-- [#5422](https://github.com/AliceO2Group/AliceO2/pull/5422) 2021-02-10: jobutils/taskwrapper: use fairmq-shmmonitor by [@sawenzel](https://github.com/sawenzel)
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
 - [#5444](https://github.com/AliceO2Group/AliceO2/pull/5444) 2021-02-11: Catch ROOT 'fatal in' / simplify fairmq-shmmonitor usage by [@sawenzel](https://github.com/sawenzel)
 - [#5464](https://github.com/AliceO2Group/AliceO2/pull/5464) 2021-02-14: Print out some indication where the error was found in the log file by [@davidrohr](https://github.com/davidrohr)
