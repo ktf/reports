@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-02-09T16:34:25Z",
-            "title": "Executable to retrieve the CCDB entries for the Milestone Week 2",
-            "number": 5406,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/cdbSizeV0.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/populateCCDB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/retrieveFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/retrieveFromCCDB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/macros/makeCCDBEntryForDCS.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "modify (pre)clustering workflows to process several ROF per TF",
@@ -4059,8 +4004,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-02-18T16:17:37Z",
             "title": "[EMCAL-650] Add setters for ALTRO config and error counters",
             "number": 5493,
             "author": {
@@ -4541,6 +4486,36 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/IT3/simulation/src/V3Layer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Storing DCS DPs at least every \"x\" seconds",
+            "number": 5506,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
                   }
                 }
               ]

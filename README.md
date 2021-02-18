@@ -45,6 +45,7 @@
 - [#5482](https://github.com/AliceO2Group/AliceO2/pull/5482) 2021-02-18: [MCH] o2-mch-dcs-ccdb CLI can upload MCH/DCSConfig to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [#5484](https://github.com/AliceO2Group/AliceO2/pull/5484) 2021-02-16: [EMCAL-680][O2-1904] Cleaning the buffer by reference by [@hahassan7](https://github.com/hahassan7)
 - [#5490](https://github.com/AliceO2Group/AliceO2/pull/5490) 2021-02-17: Fix number of DDLs for DCS processing by [@chiarazampolli](https://github.com/chiarazampolli)
+- [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [#5424](https://github.com/AliceO2Group/AliceO2/pull/5424) 2021-02-11: [O2-2018] Changes to allow usage of either v2 or v3 of Microsoft GSL. by [@aphecetche](https://github.com/aphecetche)
