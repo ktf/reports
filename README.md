@@ -10,9 +10,11 @@
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
+- [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
+- [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
@@ -32,6 +34,8 @@
 - [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5498](https://github.com/AliceO2Group/AliceO2/pull/5498) 2021-02-18: [MCH][DCS] Couple of bug fixes following MW2 tests by [@aphecetche](https://github.com/aphecetche)
+- [#5504](https://github.com/AliceO2Group/AliceO2/pull/5504) 2021-02-19: Bugfix: Loading gain map for the KrBoxClusterFinder should now work by [@HauenderPhilip](https://github.com/HauenderPhilip)
+- [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
