@@ -17,6 +17,7 @@
 - [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 - [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
+- [#5451](https://github.com/AliceO2Group/AliceO2/pull/5451) 2021-02-19: [MCH] fix bug in Segmentation::findPadPairByPosition by [@aphecetche](https://github.com/aphecetche)
 - [#5453](https://github.com/AliceO2Group/AliceO2/pull/5453) 2021-02-12: [EMCAL-650] Split payload per SRU link by [@hahassan7](https://github.com/hahassan7)
 - [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5463](https://github.com/AliceO2Group/AliceO2/pull/5463) 2021-02-16: [MCH] modify (pre)clustering workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
