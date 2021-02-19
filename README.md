@@ -14,10 +14,12 @@
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
+- [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
 - [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
 - [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 - [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
