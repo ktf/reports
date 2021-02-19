@@ -35,6 +35,7 @@
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5498](https://github.com/AliceO2Group/AliceO2/pull/5498) 2021-02-18: [MCH][DCS] Couple of bug fixes following MW2 tests by [@aphecetche](https://github.com/aphecetche)
 - [#5504](https://github.com/AliceO2Group/AliceO2/pull/5504) 2021-02-19: Bugfix: Loading gain map for the KrBoxClusterFinder should now work by [@HauenderPhilip](https://github.com/HauenderPhilip)
+- [#5509](https://github.com/AliceO2Group/AliceO2/pull/5509) 2021-02-19: [EMCAL-650] Fix encoding RCU ID and trailer word order by [@mfasDa](https://github.com/mfasDa)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
@@ -45,6 +46,7 @@
 - [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
 - [#5466](https://github.com/AliceO2Group/AliceO2/pull/5466) 2021-02-13: DPL: fix naming of rcvBufSize, sndBufSize by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
+- [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
