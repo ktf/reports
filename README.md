@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [#5475](https://github.com/AliceO2Group/AliceO2/pull/5475) 2021-02-15: PID: Merge split tasks into one configurable by [@njacazio](https://github.com/njacazio)
 - [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
+- [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
