@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-11T12:39:17Z",
-            "title": "DPL: unify JSON representation of arrays in Variant",
-            "number": 5417,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariantPropertyTreeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/PropertyTreeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-11T11:48:39Z",
             "title": "TRD trigger records for raw data input and trigger record bug fix",
             "number": 5418,
@@ -4444,8 +4419,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-02-19T12:38:39Z",
             "title": "Add TPC-TOF matching to async workflow of FST",
             "number": 5515,
             "author": {
@@ -4476,6 +4451,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-682,EMCAL-660,EMCAL-650] Discarding empty links in raw payload",
+            "number": 5517,
+            "author": {
+              "login": "hahassan7"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/Mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/RawWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
                   }
                 }
               ]
