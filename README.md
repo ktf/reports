@@ -42,6 +42,7 @@
 - [#5506](https://github.com/AliceO2Group/AliceO2/pull/5506) 2021-02-19: Storing DCS DPs at least every "x" seconds by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5509](https://github.com/AliceO2Group/AliceO2/pull/5509) 2021-02-19: [EMCAL-650] Fix encoding RCU ID and trailer word order by [@mfasDa](https://github.com/mfasDa)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
+- [#5517](https://github.com/AliceO2Group/AliceO2/pull/5517) 2021-02-19: [EMCAL-682,EMCAL-660,EMCAL-650] Discarding empty links in raw payload by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Examples
 - [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
