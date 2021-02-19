@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-11T11:48:39Z",
-            "title": "TRD trigger records for raw data input and trigger record bug fix",
-            "number": 5418,
-            "author": {
-              "login": "jbarrella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/macros/convertRun2ToRun3Digits.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-09T13:33:08Z",
             "title": "[TPC] fix check for number of provided canvases",
             "number": 5419,
@@ -4491,6 +4471,521 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/simulation/src/RawWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Hcone geometry",
+            "number": 5518,
+            "author": {
+              "login": "carlos-soncco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/Clusters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/Helpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/TrackCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/Tracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/Tracks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/macro/runClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/macro/runPID.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/macro/runTracks.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Clusters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Helpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/PID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/TPCQCLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/TrackCuts.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Tracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Tracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/test/test_Clusters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/test/test_PID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/test/test_TrackCuts.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/test/test_Tracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/AdcClockMonitor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/BoxClusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/ClusterContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/ClustererTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/DigitalCurrentClusterIntegrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/GBTFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/GBTFrameContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/GPUCATracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/HalfSAMPAData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/HardwareClusterDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/HwClusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/HwClustererParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrBoxClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/RawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/RawReaderCRU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/RawReaderEventSync.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/SyncPatternMonitor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/TPCCATracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/TPCFastTransformHelperO2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/RawClusterFinder.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/convertTracks.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/createTPCSpaceChargeCorrection.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/dEdxRes.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/findKrBoxCluster.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/getTPCTransformationExample.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/readClusterMCtruth.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/readClusters.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/runRawClusterFinder.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/runRecoFromDigits.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/testClustererData.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/testRawRead.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/macro/testTracks.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/run/rawReaderCRU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/run/readGBTFrames.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/run/readRawData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/AdcClockMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/BoxClusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/CTFCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/ClusterContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/ClustererTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/DigitalCurrentClusterIntegrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GBTFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GBTFrameContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/HalfSAMPAData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/HardwareClusterDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/HwClusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/HwClustererParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/RawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/RawReaderCRU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/RawReaderEventSync.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/SyncPatternMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/TPCCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/TPCFastTransformHelperO2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/TPCReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testGPUCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCAdcClockMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCCATracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCHwClusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/test/testTPCSyncPatternMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/data/simcuts.dat"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/CommonMode.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitGlobalPad.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitTime.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/ElectronTransport.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/GEMAmplification.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/PadResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Point.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/SAMPAProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/SpaceCharge.h"
                   }
                 }
               ]
