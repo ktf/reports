@@ -20,6 +20,7 @@
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
+- [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
 - [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
@@ -42,6 +43,7 @@
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 - [#5517](https://github.com/AliceO2Group/AliceO2/pull/5517) 2021-02-19: [EMCAL-682,EMCAL-660,EMCAL-650] Discarding empty links in raw payload by [@hahassan7](https://github.com/hahassan7)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
+- [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5432](https://github.com/AliceO2Group/AliceO2/pull/5432) 2021-02-15: DPL: check for bind result as well. by [@ktf](https://github.com/ktf)
 - [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
