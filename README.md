@@ -20,12 +20,8 @@
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
-- [#5442](https://github.com/AliceO2Group/AliceO2/pull/5442) 2021-02-12: Fixes for thread safety of CCDB manager and MW2 CDB tests by [@shahor02](https://github.com/shahor02)
-- [#5447](https://github.com/AliceO2Group/AliceO2/pull/5447) 2021-02-12: TPConly-TOF matching improvement by [@noferini](https://github.com/noferini)
 - [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
 - [#5451](https://github.com/AliceO2Group/AliceO2/pull/5451) 2021-02-19: [MCH] fix bug in Segmentation::findPadPairByPosition by [@aphecetche](https://github.com/aphecetche)
-- [#5453](https://github.com/AliceO2Group/AliceO2/pull/5453) 2021-02-12: [EMCAL-650] Split payload per SRU link by [@hahassan7](https://github.com/hahassan7)
-- [#5456](https://github.com/AliceO2Group/AliceO2/pull/5456) 2021-02-12: Initializing dcs-proxy from CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5463](https://github.com/AliceO2Group/AliceO2/pull/5463) 2021-02-16: [MCH] modify (pre)clustering workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
 - [#5468](https://github.com/AliceO2Group/AliceO2/pull/5468) 2021-02-13: Remove ApplyCarryOverToLastPage in EMC mc->raw, use const TrailerSize by [@shahor02](https://github.com/shahor02)
 - [#5471](https://github.com/AliceO2Group/AliceO2/pull/5471) 2021-02-15: [PHOS] Add missing include (when using Root 6.22/06) by [@aphecetche](https://github.com/aphecetche)
@@ -43,8 +39,6 @@
 - [#5509](https://github.com/AliceO2Group/AliceO2/pull/5509) 2021-02-19: [EMCAL-650] Fix encoding RCU ID and trailer word order by [@mfasDa](https://github.com/mfasDa)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 - [#5517](https://github.com/AliceO2Group/AliceO2/pull/5517) 2021-02-19: [EMCAL-682,EMCAL-660,EMCAL-650] Discarding empty links in raw payload by [@hahassan7](https://github.com/hahassan7)
-## Recent developments in O2 - Examples
-- [#5443](https://github.com/AliceO2Group/AliceO2/pull/5443) 2021-02-12: Added macro to read event info from a Pythia8 heavy-ion simulation header by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5432](https://github.com/AliceO2Group/AliceO2/pull/5432) 2021-02-15: DPL: check for bind result as well. by [@ktf](https://github.com/ktf)
 - [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
