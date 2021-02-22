@@ -9,6 +9,7 @@
 - [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
+- [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
