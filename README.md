@@ -58,5 +58,3 @@
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Utilities
-- [#5464](https://github.com/AliceO2Group/AliceO2/pull/5464) 2021-02-14: Print out some indication where the error was found in the log file by [@davidrohr](https://github.com/davidrohr)
