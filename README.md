@@ -13,9 +13,11 @@
 ## Recent developments in O2 - Common
 - [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
+- [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
+- [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
@@ -51,11 +53,13 @@
 - [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
 - [#5452](https://github.com/AliceO2Group/AliceO2/pull/5452) 2021-02-15: DPL Analysis: fix for malformed slice for the last entry in grouping by [@aalkin](https://github.com/aalkin)
 - [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
+- [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
 - [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
 - [#5503](https://github.com/AliceO2Group/AliceO2/pull/5503) 2021-02-19: DPL: Properly close websockets when peer quits / dies (O2-2062) by [@ktf](https://github.com/ktf)
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
 - [#5516](https://github.com/AliceO2Group/AliceO2/pull/5516) 2021-02-19: DPL: mitigate issue with libuv port finder (O2-2034) by [@ktf](https://github.com/ktf)
+- [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
