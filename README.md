@@ -6,9 +6,11 @@
 ## Recent developments in O2 - Analysis
 - [#5438](https://github.com/AliceO2Group/AliceO2/pull/5438) 2021-02-23: PWGHF: Update QA tasks for vertexing and MC PID by [@njacazio](https://github.com/njacazio)
 - [#5473](https://github.com/AliceO2Group/AliceO2/pull/5473) 2021-02-20: PWGHF: rapidity cut apply in Jpsi task by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
+- [#5487](https://github.com/AliceO2Group/AliceO2/pull/5487) 2021-02-23: skimming : adding UPC and additional functionality to LF by [@nzardosh](https://github.com/nzardosh)
 - [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
+- [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
@@ -55,6 +57,7 @@
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
 - [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
+- [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5503](https://github.com/AliceO2Group/AliceO2/pull/5503) 2021-02-19: DPL: Properly close websockets when peer quits / dies (O2-2062) by [@ktf](https://github.com/ktf)
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
 - [#5516](https://github.com/AliceO2Group/AliceO2/pull/5516) 2021-02-19: DPL: mitigate issue with libuv port finder (O2-2034) by [@ktf](https://github.com/ktf)
