@@ -5,13 +5,11 @@
 - v21.07: Done on 2021-02-16.
 ## Recent developments in O2 - Analysis
 - [#5473](https://github.com/AliceO2Group/AliceO2/pull/5473) 2021-02-20: PWGHF: rapidity cut apply in Jpsi task by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
-- [#5475](https://github.com/AliceO2Group/AliceO2/pull/5475) 2021-02-15: PID: Merge split tasks into one configurable by [@njacazio](https://github.com/njacazio)
 - [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
 - [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
 ## Recent developments in O2 - Common
-- [#5472](https://github.com/AliceO2Group/AliceO2/pull/5472) 2021-02-15: GPU: test SMatrixGPU with OpenCL2.0 by [@mconcas](https://github.com/mconcas)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
@@ -28,10 +26,8 @@
 - [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5437](https://github.com/AliceO2Group/AliceO2/pull/5437) 2021-02-19: [EMCAL-565]: Add the basic calibration workflow. by [@hjbossi](https://github.com/hjbossi)
-- [#5448](https://github.com/AliceO2Group/AliceO2/pull/5448) 2021-02-15: TPC CDBInterface: enable fetching CalPad from any path in CCDB by [@tklemenz](https://github.com/tklemenz)
 - [#5451](https://github.com/AliceO2Group/AliceO2/pull/5451) 2021-02-19: [MCH] fix bug in Segmentation::findPadPairByPosition by [@aphecetche](https://github.com/aphecetche)
 - [#5463](https://github.com/AliceO2Group/AliceO2/pull/5463) 2021-02-16: [MCH] modify (pre)clustering workflows to process several ROF per TF by [@pillot](https://github.com/pillot)
-- [#5471](https://github.com/AliceO2Group/AliceO2/pull/5471) 2021-02-15: [PHOS] Add missing include (when using Root 6.22/06) by [@aphecetche](https://github.com/aphecetche)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5478](https://github.com/AliceO2Group/AliceO2/pull/5478) 2021-02-17: macro to read TOF DCS entries by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5480](https://github.com/AliceO2Group/AliceO2/pull/5480) 2021-02-17: Implementation of cylinder and foam wedges for IB support in ITS3 geometry by [@mario6829](https://github.com/mario6829)
@@ -52,9 +48,6 @@
 - [#5523](https://github.com/AliceO2Group/AliceO2/pull/5523) 2021-02-21: Fix in TrackCosmic N clusters assignment by [@shahor02](https://github.com/shahor02)
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5432](https://github.com/AliceO2Group/AliceO2/pull/5432) 2021-02-15: DPL: check for bind result as well. by [@ktf](https://github.com/ktf)
-- [#5446](https://github.com/AliceO2Group/AliceO2/pull/5446) 2021-02-15: DPL: add helper for matcher creation by [@ktf](https://github.com/ktf)
-- [#5452](https://github.com/AliceO2Group/AliceO2/pull/5452) 2021-02-15: DPL Analysis: fix for malformed slice for the last entry in grouping by [@aalkin](https://github.com/aalkin)
 - [#5462](https://github.com/AliceO2Group/AliceO2/pull/5462) 2021-02-16: DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966) by [@ktf](https://github.com/ktf)
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
@@ -64,6 +57,5 @@
 - [#5516](https://github.com/AliceO2Group/AliceO2/pull/5516) 2021-02-19: DPL: mitigate issue with libuv port finder (O2-2034) by [@ktf](https://github.com/ktf)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [#5474](https://github.com/AliceO2Group/AliceO2/pull/5474) 2021-02-15: Improvements in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
