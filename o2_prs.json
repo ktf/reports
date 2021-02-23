@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-11T10:54:12Z",
-            "title": "Implementation of CYSS support cylinder in ITS geometry",
-            "number": 5434,
-            "author": {
-              "login": "mario6829"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/V3Services.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/V3Services.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-11T15:51:55Z",
             "title": "remove obsolete check",
             "number": 5435,
@@ -5010,12 +4975,57 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digits2Raw.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
                   }
                 },
                 {
                   "node": {
+                    "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Steer/DigitizerWorkflow/src/ZDCDigitWriterSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add getters for global pos/slope of TRD tracklets",
+            "number": 5534,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/Tracklet64.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
                   }
                 }
               ]
