@@ -4,7 +4,6 @@
 ## Recent O2 releases
 - v21.07: Done on 2021-02-16.
 ## Recent developments in O2 - Analysis
-- [#5438](https://github.com/AliceO2Group/AliceO2/pull/5438) 2021-02-23: PWGHF: Update QA tasks for vertexing and MC PID by [@njacazio](https://github.com/njacazio)
 - [#5473](https://github.com/AliceO2Group/AliceO2/pull/5473) 2021-02-20: PWGHF: rapidity cut apply in Jpsi task by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [#5487](https://github.com/AliceO2Group/AliceO2/pull/5487) 2021-02-23: skimming : adding UPC and additional functionality to LF by [@nzardosh](https://github.com/nzardosh)
 - [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
