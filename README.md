@@ -18,6 +18,7 @@
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
+- [#5542](https://github.com/AliceO2Group/AliceO2/pull/5542) 2021-02-24: GPU: Fix SMatrixGPU syntax by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
