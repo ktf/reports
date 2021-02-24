@@ -21,6 +21,7 @@
 ## Recent developments in O2 - DataFormats
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
+- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5507](https://github.com/AliceO2Group/AliceO2/pull/5507) 2021-02-22: TRD renamed HitType to Hit, own file and moved to DataFormats by [@bazinski](https://github.com/bazinski)
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
@@ -37,6 +38,7 @@
 - [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
 - [#5494](https://github.com/AliceO2Group/AliceO2/pull/5494) 2021-02-17: Fix: suppress partial c-tor of AbstractRef + related fixes by [@shahor02](https://github.com/shahor02)
 - [#5498](https://github.com/AliceO2Group/AliceO2/pull/5498) 2021-02-18: [MCH][DCS] Couple of bug fixes following MW2 tests by [@aphecetche](https://github.com/aphecetche)
+- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5504](https://github.com/AliceO2Group/AliceO2/pull/5504) 2021-02-19: Bugfix: Loading gain map for the KrBoxClusterFinder should now work by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [#5506](https://github.com/AliceO2Group/AliceO2/pull/5506) 2021-02-19: Storing DCS DPs at least every "x" seconds by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -61,4 +63,5 @@
 - [#5537](https://github.com/AliceO2Group/AliceO2/pull/5537) 2021-02-24: DPL: fix multithreading issues in WS driver by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5477](https://github.com/AliceO2Group/AliceO2/pull/5477) 2021-02-17: MCKinematicsReader fixing memory leak by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
