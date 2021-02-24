@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-12T20:31:08Z",
-            "title": "Fixes for thread safety of CCDB manager and MW2 CDB tests",
-            "number": 5442,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/BasicCCDBManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/cdbSizeV0.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/populateCCDB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/retrieveFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/retrieveFromCCDB.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-12T08:00:37Z",
             "title": "Added macro to read event info from a Pythia8 heavy-ion simulation header",
             "number": 5443,
@@ -5011,6 +4956,26 @@
                 {
                   "node": {
                     "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackIndex.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix SMatrixGPU syntax",
+            "number": 5542,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
                   }
                 }
               ]
