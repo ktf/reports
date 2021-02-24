@@ -54,6 +54,7 @@
 - [#5523](https://github.com/AliceO2Group/AliceO2/pull/5523) 2021-02-21: Fix in TrackCosmic N clusters assignment by [@shahor02](https://github.com/shahor02)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
+- [#5544](https://github.com/AliceO2Group/AliceO2/pull/5544) 2021-02-24: Changes in PVertexer to handle samples with different scales of time error by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5491](https://github.com/AliceO2Group/AliceO2/pull/5491) 2021-02-17: DPL: add support for multi-cut frames (O2-2050) by [@ktf](https://github.com/ktf)
