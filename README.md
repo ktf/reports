@@ -26,6 +26,7 @@
 - [#5514](https://github.com/AliceO2Group/AliceO2/pull/5514) 2021-02-19: Extend PVertexer to use all tracks with ITS contribution + related changes by [@shahor02](https://github.com/shahor02)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
 - [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
+- [#5541](https://github.com/AliceO2Group/AliceO2/pull/5541) 2021-02-24: define default c-tor (coding violation) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5451](https://github.com/AliceO2Group/AliceO2/pull/5451) 2021-02-19: [MCH] fix bug in Segmentation::findPadPairByPosition by [@aphecetche](https://github.com/aphecetche)
 - [#5476](https://github.com/AliceO2Group/AliceO2/pull/5476) 2021-02-17: Cosmics matcher + related changes by [@shahor02](https://github.com/shahor02)
