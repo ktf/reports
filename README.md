@@ -27,7 +27,6 @@
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5541](https://github.com/AliceO2Group/AliceO2/pull/5541) 2021-02-24: define default c-tor (coding violation) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5451](https://github.com/AliceO2Group/AliceO2/pull/5451) 2021-02-19: [MCH] fix bug in Segmentation::findPadPairByPosition by [@aphecetche](https://github.com/aphecetche)
 - [#5482](https://github.com/AliceO2Group/AliceO2/pull/5482) 2021-02-18: [MCH] o2-mch-dcs-ccdb CLI can upload MCH/DCSConfig to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
 - [#5498](https://github.com/AliceO2Group/AliceO2/pull/5498) 2021-02-18: [MCH][DCS] Couple of bug fixes following MW2 tests by [@aphecetche](https://github.com/aphecetche)
