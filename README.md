@@ -27,6 +27,7 @@
 - [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5541](https://github.com/AliceO2Group/AliceO2/pull/5541) 2021-02-24: define default c-tor (coding violation) by [@shahor02](https://github.com/shahor02)
+- [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 - [#5482](https://github.com/AliceO2Group/AliceO2/pull/5482) 2021-02-18: [MCH] o2-mch-dcs-ccdb CLI can upload MCH/DCSConfig to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
@@ -46,6 +47,7 @@
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
 - [#5544](https://github.com/AliceO2Group/AliceO2/pull/5544) 2021-02-24: Changes in PVertexer to handle samples with different scales of time error by [@shahor02](https://github.com/shahor02)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
+- [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
