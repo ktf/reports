@@ -55,7 +55,9 @@
 - [#5516](https://github.com/AliceO2Group/AliceO2/pull/5516) 2021-02-19: DPL: mitigate issue with libuv port finder (O2-2034) by [@ktf](https://github.com/ktf)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 - [#5529](https://github.com/AliceO2Group/AliceO2/pull/5529) 2021-02-23: DPL: thread safety issue in WSDriverClient::tell by [@ktf](https://github.com/ktf)
+- [#5535](https://github.com/AliceO2Group/AliceO2/pull/5535) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 - [#5537](https://github.com/AliceO2Group/AliceO2/pull/5537) 2021-02-24: DPL: fix multithreading issues in WS driver by [@ktf](https://github.com/ktf)
+- [#5547](https://github.com/AliceO2Group/AliceO2/pull/5547) 2021-02-25: DPL: work around ICE reported in O2-2035 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
