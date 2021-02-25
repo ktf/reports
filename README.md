@@ -64,6 +64,7 @@
 - [#5537](https://github.com/AliceO2Group/AliceO2/pull/5537) 2021-02-24: DPL: fix multithreading issues in WS driver by [@ktf](https://github.com/ktf)
 - [#5543](https://github.com/AliceO2Group/AliceO2/pull/5543) 2021-02-25: Print PID of driver process when starting by [@ktf](https://github.com/ktf)
 - [#5547](https://github.com/AliceO2Group/AliceO2/pull/5547) 2021-02-25: DPL: work around ICE reported in O2-2035 by [@ktf](https://github.com/ktf)
+- [#5561](https://github.com/AliceO2Group/AliceO2/pull/5561) 2021-02-25: Revert "DPL: switch to ws:// as default client for self hosted" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)

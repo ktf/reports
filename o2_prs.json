@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Add Dplus selector",
-            "number": 5461,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFDplusToPiKPiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskDPlus.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-02-16T17:18:58Z",
             "title": "DPL: Dropped obsolete messages with faster rates and input wildcards (O2-1924, O2-1919, O2-1966)",
@@ -4961,6 +4921,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/hip/include/ITStrackingHIP/VertexerTraitsHIP.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-02-25T20:34:06Z",
+            "title": "Revert \"DPL: switch to ws:// as default client for self hosted\"",
+            "number": 5561,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DriverInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
