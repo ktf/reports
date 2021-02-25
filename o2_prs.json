@@ -1066,7 +1066,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "WIP: Add table for HMPID",
+            "title": "PID: Add table for HMPID/RICH",
             "number": 5481,
             "author": {
               "login": "njacazio"
@@ -1075,12 +1075,22 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGLF/CMakeLists.txt"
+                    "path": "Analysis/DataModel/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGLF/spectraHMPID.cxx"
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/ALICE3/RICH.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/ALICE3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/ALICE3/pidRICHqa.cxx"
                   }
                 },
                 {
@@ -4969,8 +4979,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-02-25T10:21:53Z",
             "title": "Full system test: Remove unneeded option, ws backend is default now",
             "number": 5552,
             "author": {
