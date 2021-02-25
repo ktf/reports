@@ -10,6 +10,7 @@
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
 - [#5521](https://github.com/AliceO2Group/AliceO2/pull/5521) 2021-02-23: RecoDecay: Improve azimuth calculations. by [@vkucera](https://github.com/vkucera)
+- [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Common
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5513](https://github.com/AliceO2Group/AliceO2/pull/5513) 2021-02-19: enable writing and reading of empty tables by [@pbuehler](https://github.com/pbuehler)
@@ -44,6 +45,7 @@
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
 - [#5544](https://github.com/AliceO2Group/AliceO2/pull/5544) 2021-02-24: Changes in PVertexer to handle samples with different scales of time error by [@shahor02](https://github.com/shahor02)
+- [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Framework
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
