@@ -3801,7 +3801,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add getters for global pos/slope of TRD tracklets",
+            "title": "Add getters for global pos/slope of TRD tracklets + MC labels",
             "number": 5534,
             "author": {
               "login": "martenole"
@@ -3825,7 +3825,27 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/TrapSimulator.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
                   }
                 }
               ]
@@ -4266,7 +4286,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Alice3: fix beampipe Y coordinate",
+            "title": "[WIP] Alice3: fix beampipe Y coordinate",
             "number": 5548,
             "author": {
               "login": "mconcas"
