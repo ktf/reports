@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Analysis
 - [#5473](https://github.com/AliceO2Group/AliceO2/pull/5473) 2021-02-20: PWGHF: rapidity cut apply in Jpsi task by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [#5487](https://github.com/AliceO2Group/AliceO2/pull/5487) 2021-02-23: skimming : adding UPC and additional functionality to LF by [@nzardosh](https://github.com/nzardosh)
-- [#5489](https://github.com/AliceO2Group/AliceO2/pull/5489) 2021-02-18: Use a job pool for analysis tutorial by [@ktf](https://github.com/ktf)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
@@ -31,9 +30,6 @@
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5482](https://github.com/AliceO2Group/AliceO2/pull/5482) 2021-02-18: [MCH] o2-mch-dcs-ccdb CLI can upload MCH/DCSConfig to CCDB by [@aphecetche](https://github.com/aphecetche)
-- [#5493](https://github.com/AliceO2Group/AliceO2/pull/5493) 2021-02-18: [EMCAL-650] Add setters for ALTRO config and error counters by [@mfasDa](https://github.com/mfasDa)
-- [#5498](https://github.com/AliceO2Group/AliceO2/pull/5498) 2021-02-18: [MCH][DCS] Couple of bug fixes following MW2 tests by [@aphecetche](https://github.com/aphecetche)
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5504](https://github.com/AliceO2Group/AliceO2/pull/5504) 2021-02-19: Bugfix: Loading gain map for the KrBoxClusterFinder should now work by [@HauenderPhilip](https://github.com/HauenderPhilip)
