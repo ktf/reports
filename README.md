@@ -47,6 +47,7 @@
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
+- [#5557](https://github.com/AliceO2Group/AliceO2/pull/5557) 2021-02-26: Compilation fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5492](https://github.com/AliceO2Group/AliceO2/pull/5492) 2021-02-19: DPL: print associated message when catching unhandled exceptions by [@ktf](https://github.com/ktf)
