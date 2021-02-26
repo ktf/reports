@@ -9,6 +9,7 @@
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
 - [#5521](https://github.com/AliceO2Group/AliceO2/pull/5521) 2021-02-23: RecoDecay: Improve azimuth calculations. by [@vkucera](https://github.com/vkucera)
+- [#5539](https://github.com/AliceO2Group/AliceO2/pull/5539) 2021-02-26: Major changes in tableReader and tableMaker tasks by [@iarsene](https://github.com/iarsene)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Common
 - [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
