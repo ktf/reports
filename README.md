@@ -2,7 +2,6 @@
 - v5-09-56d-01: Done on 2021-02-18.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5473](https://github.com/AliceO2Group/AliceO2/pull/5473) 2021-02-20: PWGHF: rapidity cut apply in Jpsi task by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [#5487](https://github.com/AliceO2Group/AliceO2/pull/5487) 2021-02-23: skimming : adding UPC and additional functionality to LF by [@nzardosh](https://github.com/nzardosh)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5500](https://github.com/AliceO2Group/AliceO2/pull/5500) 2021-02-19: PID: Add spectra task for PiKaPr only by [@njacazio](https://github.com/njacazio)
