@@ -15,6 +15,7 @@
 - [#5542](https://github.com/AliceO2Group/AliceO2/pull/5542) 2021-02-24: GPU: Fix SMatrixGPU syntax by [@mconcas](https://github.com/mconcas)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
+- [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
@@ -50,6 +51,8 @@
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5570](https://github.com/AliceO2Group/AliceO2/pull/5570) 2021-02-26: Fix for the out_of_range exception and small clean-ups by [@nburmaso](https://github.com/nburmaso)
 - [#5574](https://github.com/AliceO2Group/AliceO2/pull/5574) 2021-02-26: Fix: MID digi2raw must read configKeyValues by [@shahor02](https://github.com/shahor02)
+- [#5577](https://github.com/AliceO2Group/AliceO2/pull/5577) 2021-02-27: Option to detect TF from orbit and SOX info instead of TType by [@shahor02](https://github.com/shahor02)
+- [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
