@@ -68,3 +68,4 @@
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
+- [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
