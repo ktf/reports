@@ -10,7 +10,6 @@
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
-- [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5542](https://github.com/AliceO2Group/AliceO2/pull/5542) 2021-02-24: GPU: Fix SMatrixGPU syntax by [@mconcas](https://github.com/mconcas)
@@ -52,7 +51,6 @@
 - [#5570](https://github.com/AliceO2Group/AliceO2/pull/5570) 2021-02-26: Fix for the out_of_range exception and small clean-ups by [@nburmaso](https://github.com/nburmaso)
 - [#5574](https://github.com/AliceO2Group/AliceO2/pull/5574) 2021-02-26: Fix: MID digi2raw must read configKeyValues by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5479](https://github.com/AliceO2Group/AliceO2/pull/5479) 2021-02-22: DPL: add facility field to InfoLogger output by [@ktf](https://github.com/ktf)
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
 - [#5529](https://github.com/AliceO2Group/AliceO2/pull/5529) 2021-02-23: DPL: thread safety issue in WSDriverClient::tell by [@ktf](https://github.com/ktf)
