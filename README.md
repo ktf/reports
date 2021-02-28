@@ -22,8 +22,6 @@
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5507](https://github.com/AliceO2Group/AliceO2/pull/5507) 2021-02-22: TRD renamed HitType to Hit, own file and moved to DataFormats by [@bazinski](https://github.com/bazinski)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
-- [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
-- [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5541](https://github.com/AliceO2Group/AliceO2/pull/5541) 2021-02-24: define default c-tor (coding violation) by [@shahor02](https://github.com/shahor02)
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
@@ -36,8 +34,6 @@
 - [#5507](https://github.com/AliceO2Group/AliceO2/pull/5507) 2021-02-22: TRD renamed HitType to Hit, own file and moved to DataFormats by [@bazinski](https://github.com/bazinski)
 - [#5508](https://github.com/AliceO2Group/AliceO2/pull/5508) 2021-02-26: [MCH] Add cluster transformation workflow. by [@aphecetche](https://github.com/aphecetche)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
-- [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
-- [#5522](https://github.com/AliceO2Group/AliceO2/pull/5522) 2021-02-20: ZDC CTF machinery by [@shahor02](https://github.com/shahor02)
 - [#5523](https://github.com/AliceO2Group/AliceO2/pull/5523) 2021-02-21: Fix in TrackCosmic N clusters assignment by [@shahor02](https://github.com/shahor02)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
@@ -67,5 +63,4 @@
 - [#5567](https://github.com/AliceO2Group/AliceO2/pull/5567) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
-- [#5520](https://github.com/AliceO2Group/AliceO2/pull/5520) 2021-02-20:  ZDC ModuleTriggers and Pedestal digitization + multiple fixes  by [@shahor02](https://github.com/shahor02)
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
