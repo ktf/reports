@@ -35,7 +35,6 @@
 - [#5507](https://github.com/AliceO2Group/AliceO2/pull/5507) 2021-02-22: TRD renamed HitType to Hit, own file and moved to DataFormats by [@bazinski](https://github.com/bazinski)
 - [#5508](https://github.com/AliceO2Group/AliceO2/pull/5508) 2021-02-26: [MCH] Add cluster transformation workflow. by [@aphecetche](https://github.com/aphecetche)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
-- [#5523](https://github.com/AliceO2Group/AliceO2/pull/5523) 2021-02-21: Fix in TrackCosmic N clusters assignment by [@shahor02](https://github.com/shahor02)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5527](https://github.com/AliceO2Group/AliceO2/pull/5527) 2021-02-22: Port missing getMatrix method from aliroot by [@shahor02](https://github.com/shahor02)
 - [#5528](https://github.com/AliceO2Group/AliceO2/pull/5528) 2021-02-26: Correctly pass arguments to function by [@dstocco](https://github.com/dstocco)
