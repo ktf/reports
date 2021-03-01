@@ -72,6 +72,7 @@
 - [#5567](https://github.com/AliceO2Group/AliceO2/pull/5567) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 - [#5580](https://github.com/AliceO2Group/AliceO2/pull/5580) 2021-03-01: DPL: move can_assign helper to the only used place by [@ktf](https://github.com/ktf)
 - [#5582](https://github.com/AliceO2Group/AliceO2/pull/5582) 2021-02-28: DPL: improve message when driver client is not yet connected by [@ktf](https://github.com/ktf)
+- [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
