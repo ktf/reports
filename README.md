@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5487](https://github.com/AliceO2Group/AliceO2/pull/5487) 2021-02-23: skimming : adding UPC and additional functionality to LF by [@nzardosh](https://github.com/nzardosh)
 - [#5497](https://github.com/AliceO2Group/AliceO2/pull/5497) 2021-02-22: UPC forward muon analysis by [@aga01935](https://github.com/aga01935)
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5512](https://github.com/AliceO2Group/AliceO2/pull/5512) 2021-02-22: use Filter tool for dcanegtopv, dcapostopv, dcav0dau by [@aimeric-landou](https://github.com/aimeric-landou)
@@ -50,10 +49,13 @@
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5570](https://github.com/AliceO2Group/AliceO2/pull/5570) 2021-02-26: Fix for the out_of_range exception and small clean-ups by [@nburmaso](https://github.com/nburmaso)
+- [#5572](https://github.com/AliceO2Group/AliceO2/pull/5572) 2021-03-01: Fix number of foam wedges at 90deg, add carbon fleece with glue by [@mario6829](https://github.com/mario6829)
 - [#5574](https://github.com/AliceO2Group/AliceO2/pull/5574) 2021-02-26: Fix: MID digi2raw must read configKeyValues by [@shahor02](https://github.com/shahor02)
+- [#5576](https://github.com/AliceO2Group/AliceO2/pull/5576) 2021-03-01: [EMCAL-684] Add mapping for FEC index by [@mfasDa](https://github.com/mfasDa)
 - [#5577](https://github.com/AliceO2Group/AliceO2/pull/5577) 2021-02-27: Option to detect TF from orbit and SOX info instead of TType by [@shahor02](https://github.com/shahor02)
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
+- [#5584](https://github.com/AliceO2Group/AliceO2/pull/5584) 2021-03-01: Including Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Framework
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
