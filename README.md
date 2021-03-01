@@ -31,6 +31,7 @@
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
+- [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
@@ -59,6 +60,7 @@
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5584](https://github.com/AliceO2Group/AliceO2/pull/5584) 2021-03-01: Including Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
+- [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5524](https://github.com/AliceO2Group/AliceO2/pull/5524) 2021-02-22: DPL: introduce preExit callbacks for services (O2-2067) by [@ktf](https://github.com/ktf)
