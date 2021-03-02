@@ -43,6 +43,7 @@
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 - [#5557](https://github.com/AliceO2Group/AliceO2/pull/5557) 2021-02-26: Compilation fixes by [@davidrohr](https://github.com/davidrohr)
+- [#5559](https://github.com/AliceO2Group/AliceO2/pull/5559) 2021-03-02: A and C side cables  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5570](https://github.com/AliceO2Group/AliceO2/pull/5570) 2021-02-26: Fix for the out_of_range exception and small clean-ups by [@nburmaso](https://github.com/nburmaso)
