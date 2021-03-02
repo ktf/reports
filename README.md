@@ -8,6 +8,7 @@
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
 - [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
+- [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5542](https://github.com/AliceO2Group/AliceO2/pull/5542) 2021-02-24: GPU: Fix SMatrixGPU syntax by [@mconcas](https://github.com/mconcas)
@@ -58,6 +59,7 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5591](https://github.com/AliceO2Group/AliceO2/pull/5591) 2021-03-02: Fix ITS tracking: async/sync settings swapping, not vertexing in cosmics by [@shahor02](https://github.com/shahor02)
+- [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
 - [#5529](https://github.com/AliceO2Group/AliceO2/pull/5529) 2021-02-23: DPL: thread safety issue in WSDriverClient::tell by [@ktf](https://github.com/ktf)
