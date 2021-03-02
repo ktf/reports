@@ -6,31 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP][EMCAL-681] pileup simulation for pre-trigger bunches",
-            "number": 5495,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/EMCALDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGHF: fix the PID in the Lc->pKpi selector",
             "number": 5496,
             "author": {
@@ -5206,6 +5181,46 @@
                 {
                   "node": {
                     "path": "doc/data/2021-03-o2_prs.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove non-templated DCAFitter (overridden by DCAFitterN)",
+            "number": 5595,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/validation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/DCAFitter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/DCAFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/DetectorsBaseLinkDef.h"
                   }
                 }
               ]
