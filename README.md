@@ -16,7 +16,6 @@
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
@@ -28,7 +27,6 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5505](https://github.com/AliceO2Group/AliceO2/pull/5505) 2021-02-26: Cleanup IT3 Detector class by [@mconcas](https://github.com/mconcas)
 - [#5508](https://github.com/AliceO2Group/AliceO2/pull/5508) 2021-02-26: [MCH] Add cluster transformation workflow. by [@aphecetche](https://github.com/aphecetche)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
@@ -69,5 +67,4 @@
 - [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
