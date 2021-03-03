@@ -27,7 +27,6 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [#5508](https://github.com/AliceO2Group/AliceO2/pull/5508) 2021-02-26: [MCH] Add cluster transformation workflow. by [@aphecetche](https://github.com/aphecetche)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5528](https://github.com/AliceO2Group/AliceO2/pull/5528) 2021-02-26: Correctly pass arguments to function by [@dstocco](https://github.com/dstocco)
