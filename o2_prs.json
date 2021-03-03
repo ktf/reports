@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-23T08:36:14Z",
-            "title": "Adapt TRAP simulator spec for new digit format ",
-            "number": 5501,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/Tracklet64.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/Digit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/Digit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/macros/convertRun2ToRun3Digits.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/TrapSimulator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorWorkFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-23T08:40:38Z",
             "title": "DPL Analysis: rudimentary support for configurable axes",
             "number": 5502,
@@ -4435,6 +4365,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digits2Raw.h"
                   }
                 },
@@ -4491,6 +4426,11 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/ZDCDigitWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ZDCDigitizerSpec.cxx"
                   }
                 }
               ]
@@ -5191,6 +5131,26 @@
                 {
                   "node": {
                     "path": "Analysis/Core/src/JetFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: simplify method analysis task introspection",
+            "number": 5601,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
                   }
                 }
               ]
