@@ -68,3 +68,5 @@
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
+## Recent developments in O2 - Utilities
+- [#5604](https://github.com/AliceO2Group/AliceO2/pull/5604) 2021-03-03: less verbose output from jobutils by [@sawenzel](https://github.com/sawenzel)
