@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
-- [#5521](https://github.com/AliceO2Group/AliceO2/pull/5521) 2021-02-23: RecoDecay: Improve azimuth calculations. by [@vkucera](https://github.com/vkucera)
 - [#5539](https://github.com/AliceO2Group/AliceO2/pull/5539) 2021-02-26: Major changes in tableReader and tableMaker tasks by [@iarsene](https://github.com/iarsene)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
@@ -18,7 +16,6 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
-- [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
 - [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
@@ -31,7 +28,6 @@
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
-- [#5501](https://github.com/AliceO2Group/AliceO2/pull/5501) 2021-02-23: Adapt TRAP simulator spec for new digit format  by [@martenole](https://github.com/martenole)
 - [#5505](https://github.com/AliceO2Group/AliceO2/pull/5505) 2021-02-26: Cleanup IT3 Detector class by [@mconcas](https://github.com/mconcas)
 - [#5508](https://github.com/AliceO2Group/AliceO2/pull/5508) 2021-02-26: [MCH] Add cluster transformation workflow. by [@aphecetche](https://github.com/aphecetche)
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
@@ -60,8 +56,6 @@
 - [#5591](https://github.com/AliceO2Group/AliceO2/pull/5591) 2021-03-02: Fix ITS tracking: async/sync settings swapping, not vertexing in cosmics by [@shahor02](https://github.com/shahor02)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5502](https://github.com/AliceO2Group/AliceO2/pull/5502) 2021-02-23: DPL Analysis: rudimentary support for configurable axes by [@mario-krueger](https://github.com/mario-krueger)
-- [#5529](https://github.com/AliceO2Group/AliceO2/pull/5529) 2021-02-23: DPL: thread safety issue in WSDriverClient::tell by [@ktf](https://github.com/ktf)
 - [#5535](https://github.com/AliceO2Group/AliceO2/pull/5535) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 - [#5537](https://github.com/AliceO2Group/AliceO2/pull/5537) 2021-02-24: DPL: fix multithreading issues in WS driver by [@ktf](https://github.com/ktf)
 - [#5543](https://github.com/AliceO2Group/AliceO2/pull/5543) 2021-02-25: Print PID of driver process when starting by [@ktf](https://github.com/ktf)
