@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-22T18:55:57Z",
-            "title": "TRD renamed HitType to Hit, own file and moved to DataFormats",
-            "number": 5507,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/DataFormatsTRDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/macros/CheckHits.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/TRDSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/analyzeHits.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-26T19:04:48Z",
             "title": "[MCH] Add cluster transformation workflow.",
             "number": 5508,
@@ -5060,6 +4990,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": ".github/workflows/code-formatting.yml"
+                  }
+                },
+                {
+                  "node": {
                     "path": "CHANGELOG.md"
                   }
                 },
@@ -5966,6 +5901,26 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/HMPIDDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix PR target for clang-format action",
+            "number": 5607,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/code-formatting.yml"
                   }
                 }
               ]
