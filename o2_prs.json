@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-19T15:50:05Z",
-            "title": "DPL: Properly close websockets when peer quits / dies (O2-2062)",
-            "number": 5503,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-19T08:21:38Z",
             "title": "Bugfix: Loading gain map for the KrBoxClusterFinder should now work",
             "number": 5504,
@@ -5146,6 +5121,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TableBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: do not use --driver-client-backend  when dumping DDS config",
+            "number": 5603,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
                   }
                 }
               ]
