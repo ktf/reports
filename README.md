@@ -1,5 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+- v21.09: Done on 2021-03-03.
 ## Recent developments in O2 - Analysis
 - [#5539](https://github.com/AliceO2Group/AliceO2/pull/5539) 2021-02-26: Major changes in tableReader and tableMaker tasks by [@iarsene](https://github.com/iarsene)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
@@ -66,6 +67,7 @@
 - [#5580](https://github.com/AliceO2Group/AliceO2/pull/5580) 2021-03-01: DPL: move can_assign helper to the only used place by [@ktf](https://github.com/ktf)
 - [#5582](https://github.com/AliceO2Group/AliceO2/pull/5582) 2021-02-28: DPL: improve message when driver client is not yet connected by [@ktf](https://github.com/ktf)
 - [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
+- [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5499](https://github.com/AliceO2Group/AliceO2/pull/5499) 2021-02-24: CPV run3 geometry and readout by [@peressounko](https://github.com/peressounko)
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
