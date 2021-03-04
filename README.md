@@ -46,6 +46,7 @@
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5591](https://github.com/AliceO2Group/AliceO2/pull/5591) 2021-03-02: Fix ITS tracking: async/sync settings swapping, not vertexing in cosmics by [@shahor02](https://github.com/shahor02)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
+- [#5609](https://github.com/AliceO2Group/AliceO2/pull/5609) 2021-03-04: Upgrade: fix duplicate guard. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [#5535](https://github.com/AliceO2Group/AliceO2/pull/5535) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 - [#5543](https://github.com/AliceO2Group/AliceO2/pull/5543) 2021-02-25: Print PID of driver process when starting by [@ktf](https://github.com/ktf)
