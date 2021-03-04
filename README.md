@@ -5,8 +5,10 @@
 - [#5539](https://github.com/AliceO2Group/AliceO2/pull/5539) 2021-02-26: Major changes in tableReader and tableMaker tasks by [@iarsene](https://github.com/iarsene)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
+- [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
+- [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
@@ -50,6 +52,7 @@
 - [#5535](https://github.com/AliceO2Group/AliceO2/pull/5535) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
 - [#5543](https://github.com/AliceO2Group/AliceO2/pull/5543) 2021-02-25: Print PID of driver process when starting by [@ktf](https://github.com/ktf)
 - [#5547](https://github.com/AliceO2Group/AliceO2/pull/5547) 2021-02-25: DPL: work around ICE reported in O2-2035 by [@ktf](https://github.com/ktf)
+- [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5561](https://github.com/AliceO2Group/AliceO2/pull/5561) 2021-02-25: Revert "DPL: switch to ws:// as default client for self hosted" by [@ktf](https://github.com/ktf)
 - [#5563](https://github.com/AliceO2Group/AliceO2/pull/5563) 2021-02-25: DPL: fix memory leak in ws:// driver. by [@ktf](https://github.com/ktf)
 - [#5567](https://github.com/AliceO2Group/AliceO2/pull/5567) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
@@ -57,6 +60,7 @@
 - [#5582](https://github.com/AliceO2Group/AliceO2/pull/5582) 2021-02-28: DPL: improve message when driver client is not yet connected by [@ktf](https://github.com/ktf)
 - [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
+- [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
 - [#5603](https://github.com/AliceO2Group/AliceO2/pull/5603) 2021-03-03: DPL: do not use --driver-client-backend  when dumping DDS config by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - Steer
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
