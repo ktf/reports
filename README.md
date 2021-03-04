@@ -8,8 +8,6 @@
 - [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-- [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
-- [#5542](https://github.com/AliceO2Group/AliceO2/pull/5542) 2021-02-24: GPU: Fix SMatrixGPU syntax by [@mconcas](https://github.com/mconcas)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
@@ -17,9 +15,7 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
-- [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
-- [#5541](https://github.com/AliceO2Group/AliceO2/pull/5541) 2021-02-24: define default c-tor (coding violation) by [@shahor02](https://github.com/shahor02)
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
@@ -28,11 +24,9 @@
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
-- [#5525](https://github.com/AliceO2Group/AliceO2/pull/5525) 2021-02-24: Raw file writer by [@gvolpe79](https://github.com/gvolpe79)
 - [#5528](https://github.com/AliceO2Group/AliceO2/pull/5528) 2021-02-26: Correctly pass arguments to function by [@dstocco](https://github.com/dstocco)
 - [#5531](https://github.com/AliceO2Group/AliceO2/pull/5531) 2021-02-26: Implemented a setValue function for CalDet objects by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
-- [#5544](https://github.com/AliceO2Group/AliceO2/pull/5544) 2021-02-24: Changes in PVertexer to handle samples with different scales of time error by [@shahor02](https://github.com/shahor02)
 - [#5545](https://github.com/AliceO2Group/AliceO2/pull/5545) 2021-02-25: Fixes for Root master after v6-23-01 by [@pzhristov](https://github.com/pzhristov)
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
@@ -54,7 +48,6 @@
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5535](https://github.com/AliceO2Group/AliceO2/pull/5535) 2021-02-25: DPL: switch to ws:// as default client for self hosted by [@ktf](https://github.com/ktf)
-- [#5537](https://github.com/AliceO2Group/AliceO2/pull/5537) 2021-02-24: DPL: fix multithreading issues in WS driver by [@ktf](https://github.com/ktf)
 - [#5543](https://github.com/AliceO2Group/AliceO2/pull/5543) 2021-02-25: Print PID of driver process when starting by [@ktf](https://github.com/ktf)
 - [#5547](https://github.com/AliceO2Group/AliceO2/pull/5547) 2021-02-25: DPL: work around ICE reported in O2-2035 by [@ktf](https://github.com/ktf)
 - [#5561](https://github.com/AliceO2Group/AliceO2/pull/5561) 2021-02-25: Revert "DPL: switch to ws:// as default client for self hosted" by [@ktf](https://github.com/ktf)
