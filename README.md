@@ -10,6 +10,7 @@
 - [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 - [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
+- [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
@@ -67,6 +68,8 @@
 - [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 - [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
+- [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
+- [#5602](https://github.com/AliceO2Group/AliceO2/pull/5602) 2021-03-04: DPL: simplify TableBuilder API by [@alibuild](https://github.com/alibuild)
 - [#5603](https://github.com/AliceO2Group/AliceO2/pull/5603) 2021-03-03: DPL: do not use --driver-client-backend  when dumping DDS config by [@alibuild](https://github.com/alibuild)
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
