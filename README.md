@@ -16,7 +16,6 @@
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
 - [#5546](https://github.com/AliceO2Group/AliceO2/pull/5546) 2021-02-25: fill calib infos during clusterization if requested by [@noferini](https://github.com/noferini)
 - [#5551](https://github.com/AliceO2Group/AliceO2/pull/5551) 2021-02-25: Extend p.vertex/track matching to all track types by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [#5510](https://github.com/AliceO2Group/AliceO2/pull/5510) 2021-02-26: fix position and slope bit sizes in TrackletMCMData struct by [@bazinski](https://github.com/bazinski)
 - [#5528](https://github.com/AliceO2Group/AliceO2/pull/5528) 2021-02-26: Correctly pass arguments to function by [@dstocco](https://github.com/dstocco)
 - [#5531](https://github.com/AliceO2Group/AliceO2/pull/5531) 2021-02-26: Implemented a setValue function for CalDet objects by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
