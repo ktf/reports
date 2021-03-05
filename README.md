@@ -46,6 +46,7 @@
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5609](https://github.com/AliceO2Group/AliceO2/pull/5609) 2021-03-04: Upgrade: fix duplicate guard. by [@ktf](https://github.com/ktf)
+- [#5612](https://github.com/AliceO2Group/AliceO2/pull/5612) 2021-03-05: Suppress some info output at higher logging severities by [@davidrohr](https://github.com/davidrohr)
 - [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
