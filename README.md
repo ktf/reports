@@ -25,7 +25,6 @@
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5531](https://github.com/AliceO2Group/AliceO2/pull/5531) 2021-02-26: Implemented a setValue function for CalDet objects by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
 - [#5548](https://github.com/AliceO2Group/AliceO2/pull/5548) 2021-03-05: ALICE3: Improve beampipe geometry and fix position by [@mconcas](https://github.com/mconcas)
 - [#5557](https://github.com/AliceO2Group/AliceO2/pull/5557) 2021-02-26: Compilation fixes by [@davidrohr](https://github.com/davidrohr)
