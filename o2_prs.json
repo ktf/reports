@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-25T08:21:54Z",
-            "title": "DPL: switch to ws:// as default client for self hosted",
-            "number": 5535,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DriverInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-25T08:00:09Z",
             "title": "Warn about unavailable AliEn connection only when needed.",
             "number": 5536,
@@ -2665,6 +2635,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TRD/simulation/README.md"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/simulation/include/TRDSimulation/Trap2CRU.h"
                   }
                 },
@@ -4026,7 +4001,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Recodecay & PWGHF: Improve MC matching.",
+            "title": "RecoDecay & PWGHF: Improve MC matching.",
             "number": 5618,
             "author": {
               "login": "vkucera"
@@ -4746,6 +4721,51 @@
                 {
                   "node": {
                     "path": "run/SimExamples/Custom_EventInfo/read_event_info_pythia8hi.macro"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Examples of external generators moved to O2DPG (get rid of AEGIS)",
+            "number": 5635,
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmics.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmicsLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/hijing.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2RootMacroExclusionList.cmake"
                   }
                 }
               ]
