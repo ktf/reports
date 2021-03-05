@@ -49,6 +49,8 @@
 - [#5609](https://github.com/AliceO2Group/AliceO2/pull/5609) 2021-03-04: Upgrade: fix duplicate guard. by [@ktf](https://github.com/ktf)
 - [#5612](https://github.com/AliceO2Group/AliceO2/pull/5612) 2021-03-05: Suppress some info output at higher logging severities by [@davidrohr](https://github.com/davidrohr)
 - [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
+- [#5614](https://github.com/AliceO2Group/AliceO2/pull/5614) 2021-03-05: Removed overlaps in cdrum by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
+- [#5628](https://github.com/AliceO2Group/AliceO2/pull/5628) 2021-03-05: Split tracks table into three tables by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Framework
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
