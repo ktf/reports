@@ -21,6 +21,7 @@
 ## Recent developments in O2 - DataFormats
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
+- [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
@@ -39,6 +40,7 @@
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5584](https://github.com/AliceO2Group/AliceO2/pull/5584) 2021-03-01: Including Rtypes.h by [@pzhristov](https://github.com/pzhristov)
+- [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5591](https://github.com/AliceO2Group/AliceO2/pull/5591) 2021-03-02: Fix ITS tracking: async/sync settings swapping, not vertexing in cosmics by [@shahor02](https://github.com/shahor02)
@@ -62,6 +64,7 @@
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Utilities
 - [#5604](https://github.com/AliceO2Group/AliceO2/pull/5604) 2021-03-03: less verbose output from jobutils by [@sawenzel](https://github.com/sawenzel)
 - [#5615](https://github.com/AliceO2Group/AliceO2/pull/5615) 2021-03-04: Use o2_add_executable for Data Sampling benchmark workflow by [@knopers8](https://github.com/knopers8)
