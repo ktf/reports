@@ -18,14 +18,12 @@
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
 - [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 - [#5590](https://github.com/AliceO2Group/AliceO2/pull/5590) 2021-03-01: Additional documentation and cleanup for TRAPsim by [@martenole](https://github.com/martenole)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5534](https://github.com/AliceO2Group/AliceO2/pull/5534) 2021-02-28: Add getters for global pos/slope of TRD tracklets + MC labels by [@martenole](https://github.com/martenole)
 - [#5548](https://github.com/AliceO2Group/AliceO2/pull/5548) 2021-03-05: ALICE3: Improve beampipe geometry and fix position by [@mconcas](https://github.com/mconcas)
 - [#5557](https://github.com/AliceO2Group/AliceO2/pull/5557) 2021-02-26: Compilation fixes by [@davidrohr](https://github.com/davidrohr)
 - [#5559](https://github.com/AliceO2Group/AliceO2/pull/5559) 2021-03-02: A and C side cables  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
