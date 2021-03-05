@@ -12,6 +12,7 @@
 - [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
+- [#5631](https://github.com/AliceO2Group/AliceO2/pull/5631) 2021-03-05: PWGHF: fix wrong casting of track index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
