@@ -2,7 +2,6 @@
 ## Recent O2 releases
 - v21.09: Done on 2021-03-03.
 ## Recent developments in O2 - Analysis
-- [#5539](https://github.com/AliceO2Group/AliceO2/pull/5539) 2021-02-26: Major changes in tableReader and tableMaker tasks by [@iarsene](https://github.com/iarsene)
 - [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
