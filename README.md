@@ -2,7 +2,6 @@
 ## Recent O2 releases
 - v21.09: Done on 2021-03-03.
 ## Recent developments in O2 - Analysis
-- [#5550](https://github.com/AliceO2Group/AliceO2/pull/5550) 2021-02-26: Add flag to switch off TPC cluster selection by [@ginnocen](https://github.com/ginnocen)
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
 - [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
@@ -13,12 +12,10 @@
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5631](https://github.com/AliceO2Group/AliceO2/pull/5631) 2021-03-05: PWGHF: fix wrong casting of track index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
@@ -26,14 +23,9 @@
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5548](https://github.com/AliceO2Group/AliceO2/pull/5548) 2021-03-05: ALICE3: Improve beampipe geometry and fix position by [@mconcas](https://github.com/mconcas)
-- [#5557](https://github.com/AliceO2Group/AliceO2/pull/5557) 2021-02-26: Compilation fixes by [@davidrohr](https://github.com/davidrohr)
 - [#5559](https://github.com/AliceO2Group/AliceO2/pull/5559) 2021-03-02: A and C side cables  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [#5560](https://github.com/AliceO2Group/AliceO2/pull/5560) 2021-02-26: Fix some codechecker violations by [@davidrohr](https://github.com/davidrohr)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
-- [#5569](https://github.com/AliceO2Group/AliceO2/pull/5569) 2021-02-26: Modifications to auto-detect and decode link-base zero suppression by [@wiechula](https://github.com/wiechula)
-- [#5570](https://github.com/AliceO2Group/AliceO2/pull/5570) 2021-02-26: Fix for the out_of_range exception and small clean-ups by [@nburmaso](https://github.com/nburmaso)
 - [#5572](https://github.com/AliceO2Group/AliceO2/pull/5572) 2021-03-01: Fix number of foam wedges at 90deg, add carbon fleece with glue by [@mario6829](https://github.com/mario6829)
-- [#5574](https://github.com/AliceO2Group/AliceO2/pull/5574) 2021-02-26: Fix: MID digi2raw must read configKeyValues by [@shahor02](https://github.com/shahor02)
 - [#5576](https://github.com/AliceO2Group/AliceO2/pull/5576) 2021-03-01: [EMCAL-684] Add mapping for FEC index by [@mfasDa](https://github.com/mfasDa)
 - [#5577](https://github.com/AliceO2Group/AliceO2/pull/5577) 2021-02-27: Option to detect TF from orbit and SOX info instead of TType by [@shahor02](https://github.com/shahor02)
 - [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
