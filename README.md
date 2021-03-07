@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Analysis
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
-- [#5581](https://github.com/AliceO2Group/AliceO2/pull/5581) 2021-02-27: PWGHF: Revert "Add flag to switch off TPC cluster selection" by [@ginnocen](https://github.com/ginnocen)
 - [#5595](https://github.com/AliceO2Group/AliceO2/pull/5595) 2021-03-02: Remove non-templated DCAFitter (overridden by DCAFitterN) by [@shahor02](https://github.com/shahor02)
 - [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
 - [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
@@ -12,7 +11,6 @@
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5631](https://github.com/AliceO2Group/AliceO2/pull/5631) 2021-03-05: PWGHF: fix wrong casting of track index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5586](https://github.com/AliceO2Group/AliceO2/pull/5586) 2021-03-01: o2-sim: Provide standalone MC header information by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -28,8 +26,6 @@
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
 - [#5572](https://github.com/AliceO2Group/AliceO2/pull/5572) 2021-03-01: Fix number of foam wedges at 90deg, add carbon fleece with glue by [@mario6829](https://github.com/mario6829)
 - [#5576](https://github.com/AliceO2Group/AliceO2/pull/5576) 2021-03-01: [EMCAL-684] Add mapping for FEC index by [@mfasDa](https://github.com/mfasDa)
-- [#5577](https://github.com/AliceO2Group/AliceO2/pull/5577) 2021-02-27: Option to detect TF from orbit and SOX info instead of TType by [@shahor02](https://github.com/shahor02)
-- [#5578](https://github.com/AliceO2Group/AliceO2/pull/5578) 2021-02-27: Misc fixes in propagator  by [@shahor02](https://github.com/shahor02)
 - [#5583](https://github.com/AliceO2Group/AliceO2/pull/5583) 2021-03-01: Track source masks + possibility to select sources for p.vertexing and cosmics workflows by [@shahor02](https://github.com/shahor02)
 - [#5584](https://github.com/AliceO2Group/AliceO2/pull/5584) 2021-03-01: Including Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
@@ -59,7 +55,6 @@
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
-- [#5575](https://github.com/AliceO2Group/AliceO2/pull/5575) 2021-02-27: MCKinematicsReader: adding destructor by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Utilities
 - [#5604](https://github.com/AliceO2Group/AliceO2/pull/5604) 2021-03-03: less verbose output from jobutils by [@sawenzel](https://github.com/sawenzel)
