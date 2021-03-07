@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-25T09:11:50Z",
-            "title": "fill calib infos during clusterization if requested",
-            "number": 5546,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibInfoCluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/src/CalibInfoCluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/src/DataFormatsTOFLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFCalClusInfoWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/TOFCalClusInfoWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/TOFClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/cluster-calib.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-25T08:07:21Z",
             "title": "DPL: work around ICE reported in O2-2035",
             "number": 5547,
@@ -4851,6 +4771,31 @@
                 {
                   "node": {
                     "path": "CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "New options: writing tables directly into a .root file and MC tracks filtering.",
+            "number": 5646,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
