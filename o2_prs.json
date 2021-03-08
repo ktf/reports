@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-02-25T09:33:20Z",
-            "title": "Extend p.vertex/track matching to all track types",
-            "number": 5551,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalTrackID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/common/include/CommonDataFormat/AbstractRef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/VertexTrackMatcherSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/VertexTrackMatcherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/VertexTrackMatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-02-25T10:21:53Z",
             "title": "Full system test: Remove unneeded option, ws backend is default now",
             "number": 5552,
@@ -5481,6 +5416,31 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: proper redirection to --forwarding-destination none",
+            "number": 5651,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
