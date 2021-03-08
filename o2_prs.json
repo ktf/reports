@@ -6,31 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD TrackletTransformer patch",
-            "number": 5553,
-            "author": {
-              "login": "jbarrella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Initial data formats for tagging data quality",
             "number": 5554,
             "author": {
@@ -5145,12 +5120,27 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
                   }
                 },
                 {
                   "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
                   }
                 }
               ]
@@ -5456,6 +5446,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/simulation/src/EMCALSimulationLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Generate a o2-build-database.json file",
+            "number": 5653,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "version/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "version/RecordBuildDetails.py"
                   }
                 }
               ]
