@@ -45,7 +45,6 @@
 - [#5558](https://github.com/AliceO2Group/AliceO2/pull/5558) 2021-03-04: [DPL Analysis] Simple workflow suffix solution by [@saganatt](https://github.com/saganatt)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
 - [#5580](https://github.com/AliceO2Group/AliceO2/pull/5580) 2021-03-01: DPL: move can_assign helper to the only used place by [@ktf](https://github.com/ktf)
-- [#5582](https://github.com/AliceO2Group/AliceO2/pull/5582) 2021-02-28: DPL: improve message when driver client is not yet connected by [@ktf](https://github.com/ktf)
 - [#5587](https://github.com/AliceO2Group/AliceO2/pull/5587) 2021-03-01: DPL: require --aod-writer-keep to be homogeneous by [@ktf](https://github.com/ktf)
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 - [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
