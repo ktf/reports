@@ -29,6 +29,7 @@
 - [#5612](https://github.com/AliceO2Group/AliceO2/pull/5612) 2021-03-05: Suppress some info output at higher logging severities by [@davidrohr](https://github.com/davidrohr)
 - [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5614](https://github.com/AliceO2Group/AliceO2/pull/5614) 2021-03-05: Removed overlaps in cdrum by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
+- [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5628](https://github.com/AliceO2Group/AliceO2/pull/5628) 2021-03-05: Split tracks table into three tables by [@nburmaso](https://github.com/nburmaso)
 - [#5639](https://github.com/AliceO2Group/AliceO2/pull/5639) 2021-03-06: RawFileWriter::addData optionally transfers detectoField to RDH by [@shahor02](https://github.com/shahor02)
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
@@ -54,6 +55,7 @@
 - [#5655](https://github.com/AliceO2Group/AliceO2/pull/5655) 2021-03-09: Protect cpuid.h, it cannot be used on Mac M1 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
+- [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [#5604](https://github.com/AliceO2Group/AliceO2/pull/5604) 2021-03-03: less verbose output from jobutils by [@sawenzel](https://github.com/sawenzel)
