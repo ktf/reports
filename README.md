@@ -45,6 +45,7 @@
 - [#5603](https://github.com/AliceO2Group/AliceO2/pull/5603) 2021-03-03: DPL: do not use --driver-client-backend  when dumping DDS config by [@alibuild](https://github.com/alibuild)
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
+- [#5651](https://github.com/AliceO2Group/AliceO2/pull/5651) 2021-03-09: DPL: proper redirection to --forwarding-destination none by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Utilities
