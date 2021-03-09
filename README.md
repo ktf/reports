@@ -51,6 +51,7 @@
 - [#5623](https://github.com/AliceO2Group/AliceO2/pull/5623) 2021-03-09: Adding Forward (MFT+Muon) tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5633](https://github.com/AliceO2Group/AliceO2/pull/5633) 2021-03-09: Adapting to updated vertex selection in converter by [@jgrosseo](https://github.com/jgrosseo)
 - [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
+- [#5647](https://github.com/AliceO2Group/AliceO2/pull/5647) 2021-03-09: Misc cleanups by [@ktf](https://github.com/ktf)
 - [#5649](https://github.com/AliceO2Group/AliceO2/pull/5649) 2021-03-09: DPL Analysis: avoid std::function in literal node by [@ktf](https://github.com/ktf)
 - [#5651](https://github.com/AliceO2Group/AliceO2/pull/5651) 2021-03-09: DPL: proper redirection to --forwarding-destination none by [@ktf](https://github.com/ktf)
 - [#5655](https://github.com/AliceO2Group/AliceO2/pull/5655) 2021-03-09: Protect cpuid.h, it cannot be used on Mac M1 by [@pzhristov](https://github.com/pzhristov)
