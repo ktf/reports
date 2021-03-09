@@ -47,7 +47,9 @@
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
+- [#5649](https://github.com/AliceO2Group/AliceO2/pull/5649) 2021-03-09: DPL Analysis: avoid std::function in literal node by [@ktf](https://github.com/ktf)
 - [#5651](https://github.com/AliceO2Group/AliceO2/pull/5651) 2021-03-09: DPL: proper redirection to --forwarding-destination none by [@ktf](https://github.com/ktf)
+- [#5655](https://github.com/AliceO2Group/AliceO2/pull/5655) 2021-03-09: Protect cpuid.h, it cannot be used on Mac M1 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Utilities
