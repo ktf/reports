@@ -11,6 +11,7 @@
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5631](https://github.com/AliceO2Group/AliceO2/pull/5631) 2021-03-05: PWGHF: fix wrong casting of track index by [@aalkin](https://github.com/aalkin)
+- [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - DataFormats
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
@@ -45,6 +46,7 @@
 - [#5603](https://github.com/AliceO2Group/AliceO2/pull/5603) 2021-03-03: DPL: do not use --driver-client-backend  when dumping DDS config by [@alibuild](https://github.com/alibuild)
 - [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
+- [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
 - [#5651](https://github.com/AliceO2Group/AliceO2/pull/5651) 2021-03-09: DPL: proper redirection to --forwarding-destination none by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
