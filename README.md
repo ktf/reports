@@ -52,6 +52,7 @@
 - [#5655](https://github.com/AliceO2Group/AliceO2/pull/5655) 2021-03-09: Protect cpuid.h, it cannot be used on Mac M1 by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
+- [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [#5604](https://github.com/AliceO2Group/AliceO2/pull/5604) 2021-03-03: less verbose output from jobutils by [@sawenzel](https://github.com/sawenzel)
 - [#5615](https://github.com/AliceO2Group/AliceO2/pull/5615) 2021-03-04: Use o2_add_executable for Data Sampling benchmark workflow by [@knopers8](https://github.com/knopers8)
