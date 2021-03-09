@@ -19,7 +19,6 @@
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5559](https://github.com/AliceO2Group/AliceO2/pull/5559) 2021-03-02: A and C side cables  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5566](https://github.com/AliceO2Group/AliceO2/pull/5566) 2021-03-04: Renaming index columns for TF merging by [@jgrosseo](https://github.com/jgrosseo)
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5591](https://github.com/AliceO2Group/AliceO2/pull/5591) 2021-03-02: Fix ITS tracking: async/sync settings swapping, not vertexing in cosmics by [@shahor02](https://github.com/shahor02)
