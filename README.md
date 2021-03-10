@@ -33,6 +33,7 @@
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
+- [#5571](https://github.com/AliceO2Group/AliceO2/pull/5571) 2021-03-10: DPL: fix threading issue in ServiceRegistry by [@ktf](https://github.com/ktf)
 - [#5596](https://github.com/AliceO2Group/AliceO2/pull/5596) 2021-03-03: Revert "DPL: add wildcards when creating matchers via DataDescriptorQueryBuilder::parse" by [@ktf](https://github.com/ktf)
 - [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
 - [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
