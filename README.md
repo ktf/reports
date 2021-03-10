@@ -33,6 +33,7 @@
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5644](https://github.com/AliceO2Group/AliceO2/pull/5644) 2021-03-07: Do not limit number of entries RootTreeWriter can store by [@shahor02](https://github.com/shahor02)
 - [#5648](https://github.com/AliceO2Group/AliceO2/pull/5648) 2021-03-08: [R3C-469] [MCH] Update Electronic Mapping from Pt2 by [@aphecetche](https://github.com/aphecetche)
+- [#5659](https://github.com/AliceO2Group/AliceO2/pull/5659) 2021-03-10: How to aggregate calib data from different EPNs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
