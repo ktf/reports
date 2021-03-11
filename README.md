@@ -22,6 +22,7 @@
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
+- [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -36,6 +37,7 @@
 - [#5614](https://github.com/AliceO2Group/AliceO2/pull/5614) 2021-03-05: Removed overlaps in cdrum by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5619](https://github.com/AliceO2Group/AliceO2/pull/5619) 2021-03-10: [MCH] fix broken workflows by [@pillot](https://github.com/pillot)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
+- [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5628](https://github.com/AliceO2Group/AliceO2/pull/5628) 2021-03-05: Split tracks table into three tables by [@nburmaso](https://github.com/nburmaso)
 - [#5639](https://github.com/AliceO2Group/AliceO2/pull/5639) 2021-03-06: RawFileWriter::addData optionally transfers detectoField to RDH by [@shahor02](https://github.com/shahor02)
