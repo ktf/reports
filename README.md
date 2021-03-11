@@ -13,6 +13,7 @@
 - [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
 - [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
+- [#5684](https://github.com/AliceO2Group/AliceO2/pull/5684) 2021-03-11: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
