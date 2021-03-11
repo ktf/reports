@@ -18,6 +18,7 @@
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
+- [#5588](https://github.com/AliceO2Group/AliceO2/pull/5588) 2021-03-11: TRD Fix mc 2 raw data generation by [@bazinski](https://github.com/bazinski)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
@@ -25,6 +26,7 @@
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
+- [#5588](https://github.com/AliceO2Group/AliceO2/pull/5588) 2021-03-11: TRD Fix mc 2 raw data generation by [@bazinski](https://github.com/bazinski)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5608](https://github.com/AliceO2Group/AliceO2/pull/5608) 2021-03-11: [TPC] Add krypton cluster finder workflow, extend pedestal workflow by [@wiechula](https://github.com/wiechula)
