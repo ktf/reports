@@ -12,6 +12,7 @@
 - [#5633](https://github.com/AliceO2Group/AliceO2/pull/5633) 2021-03-09: Adapting to updated vertex selection in converter by [@jgrosseo](https://github.com/jgrosseo)
 - [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
 - [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
+- [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
