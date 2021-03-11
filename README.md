@@ -13,11 +13,13 @@
 - [#5640](https://github.com/AliceO2Group/AliceO2/pull/5640) 2021-03-09: [DPL Analysis] Canonical task names by [@saganatt](https://github.com/saganatt)
 - [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
+- [#5671](https://github.com/AliceO2Group/AliceO2/pull/5671) 2021-03-11: DPL Analysis: allow to omit LabeledArray labels in JSON by [@aalkin](https://github.com/aalkin)
 - [#5684](https://github.com/AliceO2Group/AliceO2/pull/5684) 2021-03-11: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
+- [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5588](https://github.com/AliceO2Group/AliceO2/pull/5588) 2021-03-11: TRD Fix mc 2 raw data generation by [@bazinski](https://github.com/bazinski)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
@@ -72,10 +74,13 @@
 - [#5655](https://github.com/AliceO2Group/AliceO2/pull/5655) 2021-03-09: Protect cpuid.h, it cannot be used on Mac M1 by [@pzhristov](https://github.com/pzhristov)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 - [#5667](https://github.com/AliceO2Group/AliceO2/pull/5667) 2021-03-10: Support ptree entries with dot in the name by [@aalkin](https://github.com/aalkin)
+- [#5671](https://github.com/AliceO2Group/AliceO2/pull/5671) 2021-03-11: DPL Analysis: allow to omit LabeledArray labels in JSON by [@aalkin](https://github.com/aalkin)
 - [#5673](https://github.com/AliceO2Group/AliceO2/pull/5673) 2021-03-10: DPL: do not wait for data if a new state is pending in FairMQ by [@ktf](https://github.com/ktf)
 - [#5676](https://github.com/AliceO2Group/AliceO2/pull/5676) 2021-03-11: Misc fixes by [@ktf](https://github.com/ktf)
 - [#5678](https://github.com/AliceO2Group/AliceO2/pull/5678) 2021-03-11: DPL: fix use after free spotted by ASAN by [@ktf](https://github.com/ktf)
 - [#5679](https://github.com/AliceO2Group/AliceO2/pull/5679) 2021-03-11: DPL: Unblock the event loop when undergoing state transitions by [@ktf](https://github.com/ktf)
+- [#5682](https://github.com/AliceO2Group/AliceO2/pull/5682) 2021-03-11: DPL: dummy-sink can discard dangling outputs as they arrive by [@ktf](https://github.com/ktf)
+- [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
