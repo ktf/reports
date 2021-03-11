@@ -25,6 +25,7 @@
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
+- [#5608](https://github.com/AliceO2Group/AliceO2/pull/5608) 2021-03-11: [TPC] Add krypton cluster finder workflow, extend pedestal workflow by [@wiechula](https://github.com/wiechula)
 - [#5609](https://github.com/AliceO2Group/AliceO2/pull/5609) 2021-03-04: Upgrade: fix duplicate guard. by [@ktf](https://github.com/ktf)
 - [#5612](https://github.com/AliceO2Group/AliceO2/pull/5612) 2021-03-05: Suppress some info output at higher logging severities by [@davidrohr](https://github.com/davidrohr)
 - [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
