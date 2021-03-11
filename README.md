@@ -14,11 +14,13 @@
 - [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
+- [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
+- [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -31,17 +33,20 @@
 - [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5614](https://github.com/AliceO2Group/AliceO2/pull/5614) 2021-03-05: Removed overlaps in cdrum by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5619](https://github.com/AliceO2Group/AliceO2/pull/5619) 2021-03-10: [MCH] fix broken workflows by [@pillot](https://github.com/pillot)
+- [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5628](https://github.com/AliceO2Group/AliceO2/pull/5628) 2021-03-05: Split tracks table into three tables by [@nburmaso](https://github.com/nburmaso)
 - [#5639](https://github.com/AliceO2Group/AliceO2/pull/5639) 2021-03-06: RawFileWriter::addData optionally transfers detectoField to RDH by [@shahor02](https://github.com/shahor02)
 - [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5644](https://github.com/AliceO2Group/AliceO2/pull/5644) 2021-03-07: Do not limit number of entries RootTreeWriter can store by [@shahor02](https://github.com/shahor02)
+- [#5646](https://github.com/AliceO2Group/AliceO2/pull/5646) 2021-03-11: New options: writing tables directly into a .root file and MC tracks filtering. by [@nburmaso](https://github.com/nburmaso)
 - [#5648](https://github.com/AliceO2Group/AliceO2/pull/5648) 2021-03-08: [R3C-469] [MCH] Update Electronic Mapping from Pt2 by [@aphecetche](https://github.com/aphecetche)
 - [#5652](https://github.com/AliceO2Group/AliceO2/pull/5652) 2021-03-11: [EMCAL-685] Implementation of a ring buffer for EMCAL digits by [@hahassan7](https://github.com/hahassan7)
 - [#5659](https://github.com/AliceO2Group/AliceO2/pull/5659) 2021-03-10: How to aggregate calib data from different EPNs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5668](https://github.com/AliceO2Group/AliceO2/pull/5668) 2021-03-11: Fix digit sharing in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5670](https://github.com/AliceO2Group/AliceO2/pull/5670) 2021-03-11: Add spec to decode MID raw data from a single GBT link by [@dstocco](https://github.com/dstocco)
+- [#5675](https://github.com/AliceO2Group/AliceO2/pull/5675) 2021-03-11: [MCH] Use aligned geometry if any by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
