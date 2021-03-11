@@ -40,6 +40,7 @@
 - [#5659](https://github.com/AliceO2Group/AliceO2/pull/5659) 2021-03-10: How to aggregate calib data from different EPNs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5668](https://github.com/AliceO2Group/AliceO2/pull/5668) 2021-03-11: Fix digit sharing in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
+- [#5670](https://github.com/AliceO2Group/AliceO2/pull/5670) 2021-03-11: Add spec to decode MID raw data from a single GBT link by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -60,6 +61,7 @@
 - [#5673](https://github.com/AliceO2Group/AliceO2/pull/5673) 2021-03-10: DPL: do not wait for data if a new state is pending in FairMQ by [@ktf](https://github.com/ktf)
 - [#5676](https://github.com/AliceO2Group/AliceO2/pull/5676) 2021-03-11: Misc fixes by [@ktf](https://github.com/ktf)
 - [#5678](https://github.com/AliceO2Group/AliceO2/pull/5678) 2021-03-11: DPL: fix use after free spotted by ASAN by [@ktf](https://github.com/ktf)
+- [#5679](https://github.com/AliceO2Group/AliceO2/pull/5679) 2021-03-11: DPL: Unblock the event loop when undergoing state transitions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5585](https://github.com/AliceO2Group/AliceO2/pull/5585) 2021-03-05: Raw to digits by [@cortesep](https://github.com/cortesep)
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
