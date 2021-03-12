@@ -48,6 +48,7 @@
 - [#5668](https://github.com/AliceO2Group/AliceO2/pull/5668) 2021-03-11: Fix digit sharing in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5670](https://github.com/AliceO2Group/AliceO2/pull/5670) 2021-03-11: Add spec to decode MID raw data from a single GBT link by [@dstocco](https://github.com/dstocco)
+- [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5675](https://github.com/AliceO2Group/AliceO2/pull/5675) 2021-03-11: [MCH] Use aligned geometry if any by [@pillot](https://github.com/pillot)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
@@ -70,6 +71,7 @@
 - [#5679](https://github.com/AliceO2Group/AliceO2/pull/5679) 2021-03-11: DPL: Unblock the event loop when undergoing state transitions by [@ktf](https://github.com/ktf)
 - [#5682](https://github.com/AliceO2Group/AliceO2/pull/5682) 2021-03-11: DPL: dummy-sink can discard dangling outputs as they arrive by [@ktf](https://github.com/ktf)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
+- [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
