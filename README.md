@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-56e-01: Done on 2021-03-08.
 ## Recent O2 releases
+- v21.10: Done on 2021-03-12.
 ## Recent developments in O2 - Analysis
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5623](https://github.com/AliceO2Group/AliceO2/pull/5623) 2021-03-09: Adding Forward (MFT+Muon) tables by [@jgrosseo](https://github.com/jgrosseo)
