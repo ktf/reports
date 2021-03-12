@@ -1,11 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-56e-01: Done on 2021-03-08.
 ## Recent O2 releases
-- v21.09: Done on 2021-03-03.
 ## Recent developments in O2 - Analysis
-- [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
-- [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
-- [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5623](https://github.com/AliceO2Group/AliceO2/pull/5623) 2021-03-09: Adding Forward (MFT+Muon) tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5631](https://github.com/AliceO2Group/AliceO2/pull/5631) 2021-03-05: PWGHF: fix wrong casting of track index by [@aalkin](https://github.com/aalkin)
@@ -23,7 +19,6 @@
 ## Recent developments in O2 - DataFormats
 - [#5588](https://github.com/AliceO2Group/AliceO2/pull/5588) 2021-03-11: TRD Fix mc 2 raw data generation by [@bazinski](https://github.com/bazinski)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
-- [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
 - [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
@@ -33,11 +28,8 @@
 ## Recent developments in O2 - Detectors
 - [#5588](https://github.com/AliceO2Group/AliceO2/pull/5588) 2021-03-11: TRD Fix mc 2 raw data generation by [@bazinski](https://github.com/bazinski)
 - [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
-- [#5598](https://github.com/AliceO2Group/AliceO2/pull/5598) 2021-03-04: Couple of GPU developments by [@davidrohr](https://github.com/davidrohr)
 - [#5608](https://github.com/AliceO2Group/AliceO2/pull/5608) 2021-03-11: [TPC] Add krypton cluster finder workflow, extend pedestal workflow by [@wiechula](https://github.com/wiechula)
-- [#5609](https://github.com/AliceO2Group/AliceO2/pull/5609) 2021-03-04: Upgrade: fix duplicate guard. by [@ktf](https://github.com/ktf)
 - [#5612](https://github.com/AliceO2Group/AliceO2/pull/5612) 2021-03-05: Suppress some info output at higher logging severities by [@davidrohr](https://github.com/davidrohr)
-- [#5613](https://github.com/AliceO2Group/AliceO2/pull/5613) 2021-03-04: Fix delay in raw file reader workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5614](https://github.com/AliceO2Group/AliceO2/pull/5614) 2021-03-05: Removed overlaps in cdrum by [@MarekKowalski1504](https://github.com/MarekKowalski1504)
 - [#5619](https://github.com/AliceO2Group/AliceO2/pull/5619) 2021-03-10: [MCH] fix broken workflows by [@pillot](https://github.com/pillot)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
@@ -60,10 +52,6 @@
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5599](https://github.com/AliceO2Group/AliceO2/pull/5599) 2021-03-04: Fix for sparse index builder skipping entries by [@aalkin](https://github.com/aalkin)
-- [#5601](https://github.com/AliceO2Group/AliceO2/pull/5601) 2021-03-04: DPL: simplify method analysis task introspection by [@alibuild](https://github.com/alibuild)
-- [#5602](https://github.com/AliceO2Group/AliceO2/pull/5602) 2021-03-04: DPL: simplify TableBuilder API by [@alibuild](https://github.com/alibuild)
-- [#5610](https://github.com/AliceO2Group/AliceO2/pull/5610) 2021-03-04: Better message by [@jgrosseo](https://github.com/jgrosseo)
 - [#5611](https://github.com/AliceO2Group/AliceO2/pull/5611) 2021-03-05: Renaming charge() to sign() by [@jgrosseo](https://github.com/jgrosseo)
 - [#5623](https://github.com/AliceO2Group/AliceO2/pull/5623) 2021-03-09: Adding Forward (MFT+Muon) tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5633](https://github.com/AliceO2Group/AliceO2/pull/5633) 2021-03-09: Adapting to updated vertex selection in converter by [@jgrosseo](https://github.com/jgrosseo)
@@ -84,5 +72,3 @@
 ## Recent developments in O2 - Steer
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [#5615](https://github.com/AliceO2Group/AliceO2/pull/5615) 2021-03-04: Use o2_add_executable for Data Sampling benchmark workflow by [@knopers8](https://github.com/knopers8)
