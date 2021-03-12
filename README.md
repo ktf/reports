@@ -51,6 +51,7 @@
 - [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5675](https://github.com/AliceO2Group/AliceO2/pull/5675) 2021-03-11: [MCH] Use aligned geometry if any by [@pillot](https://github.com/pillot)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
+- [#5688](https://github.com/AliceO2Group/AliceO2/pull/5688) 2021-03-12: Improved README by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
