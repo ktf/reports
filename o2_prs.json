@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Remove unneeded and broken fairlogger includes",
-            "number": 5589,
-            "author": {
-              "login": "Barthelemy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-03-01T21:46:32Z",
             "title": "Additional documentation and cleanup for TRAPsim",
@@ -4721,6 +4686,31 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/testMacros/README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-03-12T11:39:19Z",
+            "title": "Add script of additional tests to run in the CI based on the full system test data",
+            "number": 5689,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test_ci_extra_tests.sh"
                   }
                 }
               ]
