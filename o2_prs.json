@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-01T21:22:56Z",
-            "title": "GPU: Fix race condition in TPC ClusterFinder",
-            "number": 5592,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFCheckPadBaseline.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-02T07:26:58Z",
             "title": "GPU: Fix some possible race conditions",
             "number": 5593,
@@ -4681,6 +4661,31 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/taskDPlus.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] set cluster resolution",
+            "number": 5692,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterFinderOriginal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterFinderOriginal.cxx"
                   }
                 }
               ]
