@@ -49,6 +49,7 @@
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5688](https://github.com/AliceO2Group/AliceO2/pull/5688) 2021-03-12: Improved README by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5694](https://github.com/AliceO2Group/AliceO2/pull/5694) 2021-03-13: Do not quit after processing one TF in event loop by [@davidrohr](https://github.com/davidrohr)
+- [#5698](https://github.com/AliceO2Group/AliceO2/pull/5698) 2021-03-13: [EMCAL-693] Minor fixes in documetation of the CaloRawFitter classes by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
