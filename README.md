@@ -48,6 +48,7 @@
 - [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5675](https://github.com/AliceO2Group/AliceO2/pull/5675) 2021-03-11: [MCH] Use aligned geometry if any by [@pillot](https://github.com/pillot)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
+- [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5688](https://github.com/AliceO2Group/AliceO2/pull/5688) 2021-03-12: Improved README by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
@@ -73,3 +74,4 @@
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
+- [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
