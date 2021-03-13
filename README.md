@@ -17,7 +17,6 @@
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
 - [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
@@ -26,7 +25,6 @@
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5597](https://github.com/AliceO2Group/AliceO2/pull/5597) 2021-03-08: add tool for processing cosmics in real time with TOF by [@noferini](https://github.com/noferini)
 - [#5608](https://github.com/AliceO2Group/AliceO2/pull/5608) 2021-03-11: [TPC] Add krypton cluster finder workflow, extend pedestal workflow by [@wiechula](https://github.com/wiechula)
 - [#5619](https://github.com/AliceO2Group/AliceO2/pull/5619) 2021-03-10: [MCH] fix broken workflows by [@pillot](https://github.com/pillot)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
