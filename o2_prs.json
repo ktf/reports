@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-03-04T09:23:19Z",
-            "title": "Fix for sparse index builder skipping entries",
-            "number": 5599,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DO NOT MERGE Test clang-format auto-PR",
@@ -4396,6 +4366,66 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CaloRawFitterGamma2.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0 CTF stores gate value + proper usage of DigitizationParams",
+            "number": 5699,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/CTF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/test/test_ctf_io_ft0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/include/FT0Reconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/CTFCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/CollisionTimeRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/DigitizationParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FT0DigitizerSpec.cxx"
                   }
                 }
               ]
