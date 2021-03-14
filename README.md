@@ -23,6 +23,7 @@
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
+- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5608](https://github.com/AliceO2Group/AliceO2/pull/5608) 2021-03-11: [TPC] Add krypton cluster finder workflow, extend pedestal workflow by [@wiechula](https://github.com/wiechula)
 - [#5619](https://github.com/AliceO2Group/AliceO2/pull/5619) 2021-03-10: [MCH] fix broken workflows by [@pillot](https://github.com/pillot)
@@ -48,6 +49,7 @@
 - [#5694](https://github.com/AliceO2Group/AliceO2/pull/5694) 2021-03-13: Do not quit after processing one TF in event loop by [@davidrohr](https://github.com/davidrohr)
 - [#5695](https://github.com/AliceO2Group/AliceO2/pull/5695) 2021-03-14: [EMCAL-610, EMCAL-630] Decrease verbosity in raw creator and raw to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [#5698](https://github.com/AliceO2Group/AliceO2/pull/5698) 2021-03-13: [EMCAL-693] Minor fixes in documetation of the CaloRawFitter classes by [@mfasDa](https://github.com/mfasDa)
+- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -73,3 +75,4 @@
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5654](https://github.com/AliceO2Group/AliceO2/pull/5654) 2021-03-09: MCReader: release early by [@sawenzel](https://github.com/sawenzel)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
