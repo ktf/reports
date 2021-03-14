@@ -21,7 +21,6 @@
 - [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
 - [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
-- [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -32,8 +31,6 @@
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
-- [#5639](https://github.com/AliceO2Group/AliceO2/pull/5639) 2021-03-06: RawFileWriter::addData optionally transfers detectoField to RDH by [@shahor02](https://github.com/shahor02)
-- [#5641](https://github.com/AliceO2Group/AliceO2/pull/5641) 2021-03-06: Complete ZDC CTF content and encoding/decoding workflows by [@shahor02](https://github.com/shahor02)
 - [#5644](https://github.com/AliceO2Group/AliceO2/pull/5644) 2021-03-07: Do not limit number of entries RootTreeWriter can store by [@shahor02](https://github.com/shahor02)
 - [#5646](https://github.com/AliceO2Group/AliceO2/pull/5646) 2021-03-11: New options: writing tables directly into a .root file and MC tracks filtering. by [@nburmaso](https://github.com/nburmaso)
 - [#5648](https://github.com/AliceO2Group/AliceO2/pull/5648) 2021-03-08: [R3C-469] [MCH] Update Electronic Mapping from Pt2 by [@aphecetche](https://github.com/aphecetche)
