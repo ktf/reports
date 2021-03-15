@@ -42,6 +42,7 @@
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5670](https://github.com/AliceO2Group/AliceO2/pull/5670) 2021-03-11: Add spec to decode MID raw data from a single GBT link by [@dstocco](https://github.com/dstocco)
 - [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
+- [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
 - [#5675](https://github.com/AliceO2Group/AliceO2/pull/5675) 2021-03-11: [MCH] Use aligned geometry if any by [@pillot](https://github.com/pillot)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
