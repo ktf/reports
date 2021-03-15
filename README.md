@@ -52,6 +52,8 @@
 - [#5695](https://github.com/AliceO2Group/AliceO2/pull/5695) 2021-03-14: [EMCAL-610, EMCAL-630] Decrease verbosity in raw creator and raw to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [#5698](https://github.com/AliceO2Group/AliceO2/pull/5698) 2021-03-13: [EMCAL-693] Minor fixes in documetation of the CaloRawFitter classes by [@mfasDa](https://github.com/mfasDa)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
+- [#5702](https://github.com/AliceO2Group/AliceO2/pull/5702) 2021-03-15: MFT: add extension for the full chip mapping access by [@bovulpes](https://github.com/bovulpes)
+- [#5709](https://github.com/AliceO2Group/AliceO2/pull/5709) 2021-03-15: Remove hacks to extract TF 1st orbit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5634](https://github.com/AliceO2Group/AliceO2/pull/5634) 2021-03-08: Added macro to read event info from a Pythia8 heavy-ion simulation he… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
