@@ -16,6 +16,7 @@
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
+- [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5617](https://github.com/AliceO2Group/AliceO2/pull/5617) 2021-03-15: Fixed of FDD digit2raw and digit writer/reader by [@mbroz84](https://github.com/mbroz84)
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
@@ -73,6 +74,7 @@
 - [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
 - [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
 - [#5701](https://github.com/AliceO2Group/AliceO2/pull/5701) 2021-03-15: DPL: make sure firstTFOrbit is set correctly by [@ktf](https://github.com/ktf)
+- [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5617](https://github.com/AliceO2Group/AliceO2/pull/5617) 2021-03-15: Fixed of FDD digit2raw and digit writer/reader by [@mbroz84](https://github.com/mbroz84)
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
