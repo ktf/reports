@@ -69,6 +69,7 @@
 - [#5682](https://github.com/AliceO2Group/AliceO2/pull/5682) 2021-03-11: DPL: dummy-sink can discard dangling outputs as they arrive by [@ktf](https://github.com/ktf)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
 - [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
+- [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [#5624](https://github.com/AliceO2Group/AliceO2/pull/5624) 2021-03-09: HMPID: cleaned up version of PR5606 + fixes by [@shahor02](https://github.com/shahor02)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
