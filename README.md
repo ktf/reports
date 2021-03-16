@@ -13,6 +13,7 @@
 - [#5684](https://github.com/AliceO2Group/AliceO2/pull/5684) 2021-03-11: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
+- [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
@@ -37,6 +38,7 @@
 - [#5646](https://github.com/AliceO2Group/AliceO2/pull/5646) 2021-03-11: New options: writing tables directly into a .root file and MC tracks filtering. by [@nburmaso](https://github.com/nburmaso)
 - [#5652](https://github.com/AliceO2Group/AliceO2/pull/5652) 2021-03-11: [EMCAL-685] Implementation of a ring buffer for EMCAL digits by [@hahassan7](https://github.com/hahassan7)
 - [#5657](https://github.com/AliceO2Group/AliceO2/pull/5657) 2021-03-12: ITS: Improve CheckClusters.C, mv CheckTopologies.C by [@mconcas](https://github.com/mconcas)
+- [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5659](https://github.com/AliceO2Group/AliceO2/pull/5659) 2021-03-10: How to aggregate calib data from different EPNs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5668](https://github.com/AliceO2Group/AliceO2/pull/5668) 2021-03-11: Fix digit sharing in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
 - [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
