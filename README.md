@@ -26,6 +26,7 @@
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
+- [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [#5620](https://github.com/AliceO2Group/AliceO2/pull/5620) 2021-03-11: [MRRTF-99] Add support for MCH UserLogic Raw Data Format V1 by [@aphecetche](https://github.com/aphecetche)
 - [#5622](https://github.com/AliceO2Group/AliceO2/pull/5622) 2021-03-11: TRD tracking with ITS-TPC tracks and TRD tracklets in Run 3 format by [@martenole](https://github.com/martenole)
@@ -54,6 +55,7 @@
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
 - [#5702](https://github.com/AliceO2Group/AliceO2/pull/5702) 2021-03-15: MFT: add extension for the full chip mapping access by [@bovulpes](https://github.com/bovulpes)
 - [#5704](https://github.com/AliceO2Group/AliceO2/pull/5704) 2021-03-16: FT0 mc->raw->digits test added to full_system_test_ci_extra_tests by [@shahor02](https://github.com/shahor02)
+- [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
 - [#5709](https://github.com/AliceO2Group/AliceO2/pull/5709) 2021-03-15: Remove hacks to extract TF 1st orbit by [@shahor02](https://github.com/shahor02)
 - [#5712](https://github.com/AliceO2Group/AliceO2/pull/5712) 2021-03-16: [EMCAL-610] Fix undefined behaviour in bunch encoding by [@mfasDa](https://github.com/mfasDa)
 - [#5713](https://github.com/AliceO2Group/AliceO2/pull/5713) 2021-03-16: Placate readability-braces-around-statements by [@TimoWilken](https://github.com/TimoWilken)
