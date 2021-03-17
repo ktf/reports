@@ -18,7 +18,6 @@
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5627](https://github.com/AliceO2Group/AliceO2/pull/5627) 2021-03-11: [R3C-465] MCH: pedestals calibration workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5646](https://github.com/AliceO2Group/AliceO2/pull/5646) 2021-03-11: New options: writing tables directly into a .root file and MC tracks filtering. by [@nburmaso](https://github.com/nburmaso)
 - [#5652](https://github.com/AliceO2Group/AliceO2/pull/5652) 2021-03-11: [EMCAL-685] Implementation of a ring buffer for EMCAL digits by [@hahassan7](https://github.com/hahassan7)
