@@ -2,6 +2,7 @@
 - v5-09-57c-01: Done on 2021-03-12.
 ## Recent O2 releases
 - v21.10: Done on 2021-03-12.
+- v21.11: Done on 2021-03-17.
 ## Recent developments in O2 - Analysis
 - [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
