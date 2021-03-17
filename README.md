@@ -8,6 +8,7 @@
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
 - [#5671](https://github.com/AliceO2Group/AliceO2/pull/5671) 2021-03-11: DPL Analysis: allow to omit LabeledArray labels in JSON by [@aalkin](https://github.com/aalkin)
 - [#5684](https://github.com/AliceO2Group/AliceO2/pull/5684) 2021-03-11: Fix missing include by [@davidrohr](https://github.com/davidrohr)
+- [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
@@ -72,6 +73,7 @@
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5715](https://github.com/AliceO2Group/AliceO2/pull/5715) 2021-03-17: DPL: allow selecting failure level (O2-2154) by [@ktf](https://github.com/ktf)
 - [#5722](https://github.com/AliceO2Group/AliceO2/pull/5722) 2021-03-17: DPL: do not do a lookup by string every time we receive a message by [@ktf](https://github.com/ktf)
+- [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
