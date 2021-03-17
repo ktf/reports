@@ -64,6 +64,8 @@
 - [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
 - [#5701](https://github.com/AliceO2Group/AliceO2/pull/5701) 2021-03-15: DPL: make sure firstTFOrbit is set correctly by [@ktf](https://github.com/ktf)
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
+- [#5715](https://github.com/AliceO2Group/AliceO2/pull/5715) 2021-03-17: DPL: allow selecting failure level (O2-2154) by [@ktf](https://github.com/ktf)
+- [#5722](https://github.com/AliceO2Group/AliceO2/pull/5722) 2021-03-17: DPL: do not do a lookup by string every time we receive a message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
