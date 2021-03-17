@@ -39,6 +39,7 @@
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5688](https://github.com/AliceO2Group/AliceO2/pull/5688) 2021-03-12: Improved README by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
+- [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
 - [#5694](https://github.com/AliceO2Group/AliceO2/pull/5694) 2021-03-13: Do not quit after processing one TF in event loop by [@davidrohr](https://github.com/davidrohr)
 - [#5695](https://github.com/AliceO2Group/AliceO2/pull/5695) 2021-03-14: [EMCAL-610, EMCAL-630] Decrease verbosity in raw creator and raw to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [#5697](https://github.com/AliceO2Group/AliceO2/pull/5697) 2021-03-16: Don't request quitting in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
