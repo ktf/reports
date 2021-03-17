@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-06T18:55:13Z",
-            "title": "Add / improve a couple of scripts related to the full system test",
-            "number": 5632,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/convert-raw-to-tf-file.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/datadistribution.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/gen_rdo_cfg.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/generate_timeframe_files.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/start_tmux.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-09T07:37:34Z",
             "title": "Adapting to updated vertex selection in converter",
             "number": 5633,
@@ -4326,6 +4281,36 @@
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD digitizer: add shared pads + fix pileup logic",
+            "number": 5732,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
