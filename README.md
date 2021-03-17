@@ -68,6 +68,7 @@
 - [#5676](https://github.com/AliceO2Group/AliceO2/pull/5676) 2021-03-11: Misc fixes by [@ktf](https://github.com/ktf)
 - [#5678](https://github.com/AliceO2Group/AliceO2/pull/5678) 2021-03-11: DPL: fix use after free spotted by ASAN by [@ktf](https://github.com/ktf)
 - [#5679](https://github.com/AliceO2Group/AliceO2/pull/5679) 2021-03-11: DPL: Unblock the event loop when undergoing state transitions by [@ktf](https://github.com/ktf)
+- [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
 - [#5682](https://github.com/AliceO2Group/AliceO2/pull/5682) 2021-03-11: DPL: dummy-sink can discard dangling outputs as they arrive by [@ktf](https://github.com/ktf)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
 - [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
