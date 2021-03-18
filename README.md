@@ -17,7 +17,6 @@
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5646](https://github.com/AliceO2Group/AliceO2/pull/5646) 2021-03-11: New options: writing tables directly into a .root file and MC tracks filtering. by [@nburmaso](https://github.com/nburmaso)
 - [#5652](https://github.com/AliceO2Group/AliceO2/pull/5652) 2021-03-11: [EMCAL-685] Implementation of a ring buffer for EMCAL digits by [@hahassan7](https://github.com/hahassan7)
 - [#5657](https://github.com/AliceO2Group/AliceO2/pull/5657) 2021-03-12: ITS: Improve CheckClusters.C, mv CheckTopologies.C by [@mconcas](https://github.com/mconcas)
@@ -72,6 +70,5 @@
 - [#5722](https://github.com/AliceO2Group/AliceO2/pull/5722) 2021-03-17: DPL: do not do a lookup by string every time we receive a message by [@ktf](https://github.com/ktf)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
-- [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
