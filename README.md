@@ -4,14 +4,12 @@
 - v21.10: Done on 2021-03-12.
 - v21.11: Done on 2021-03-17.
 ## Recent developments in O2 - Analysis
-- [#5663](https://github.com/AliceO2Group/AliceO2/pull/5663) 2021-03-10: Remove TaskName by [@jgrosseo](https://github.com/jgrosseo)
 - [#5665](https://github.com/AliceO2Group/AliceO2/pull/5665) 2021-03-11: AOD Merger by [@jgrosseo](https://github.com/jgrosseo)
 - [#5671](https://github.com/AliceO2Group/AliceO2/pull/5671) 2021-03-11: DPL Analysis: allow to omit LabeledArray labels in JSON by [@aalkin](https://github.com/aalkin)
 - [#5684](https://github.com/AliceO2Group/AliceO2/pull/5684) 2021-03-11: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
-- [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5685](https://github.com/AliceO2Group/AliceO2/pull/5685) 2021-03-11: DPL: mark the global file sink as an actual device consuming data by [@ktf](https://github.com/ktf)
@@ -19,7 +17,6 @@
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5637](https://github.com/AliceO2Group/AliceO2/pull/5637) 2021-03-13: Add option to disable MC labels in TRD TRAP sim by [@martenole](https://github.com/martenole)
-- [#5661](https://github.com/AliceO2Group/AliceO2/pull/5661) 2021-03-10: TrackPar fix: redefine alpha convention to have track valid by [@shahor02](https://github.com/shahor02)
 - [#5677](https://github.com/AliceO2Group/AliceO2/pull/5677) 2021-03-11: Optimize V0 finder loops, add multithreading  by [@shahor02](https://github.com/shahor02)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
@@ -32,9 +29,7 @@
 - [#5652](https://github.com/AliceO2Group/AliceO2/pull/5652) 2021-03-11: [EMCAL-685] Implementation of a ring buffer for EMCAL digits by [@hahassan7](https://github.com/hahassan7)
 - [#5657](https://github.com/AliceO2Group/AliceO2/pull/5657) 2021-03-12: ITS: Improve CheckClusters.C, mv CheckTopologies.C by [@mconcas](https://github.com/mconcas)
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
-- [#5659](https://github.com/AliceO2Group/AliceO2/pull/5659) 2021-03-10: How to aggregate calib data from different EPNs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5668](https://github.com/AliceO2Group/AliceO2/pull/5668) 2021-03-11: Fix digit sharing in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
-- [#5669](https://github.com/AliceO2Group/AliceO2/pull/5669) 2021-03-10: Including again Rtypes.h by [@pzhristov](https://github.com/pzhristov)
 - [#5670](https://github.com/AliceO2Group/AliceO2/pull/5670) 2021-03-11: Add spec to decode MID raw data from a single GBT link by [@dstocco](https://github.com/dstocco)
 - [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
@@ -58,11 +53,9 @@
 - [#5713](https://github.com/AliceO2Group/AliceO2/pull/5713) 2021-03-16: Placate readability-braces-around-statements by [@TimoWilken](https://github.com/TimoWilken)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
+- [#5729](https://github.com/AliceO2Group/AliceO2/pull/5729) 2021-03-18: Cascade finder enabled: hypothesis checker fixed, cuts improved by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5660](https://github.com/AliceO2Group/AliceO2/pull/5660) 2021-03-10: Provide run number to infologger by [@ktf](https://github.com/ktf)
-- [#5667](https://github.com/AliceO2Group/AliceO2/pull/5667) 2021-03-10: Support ptree entries with dot in the name by [@aalkin](https://github.com/aalkin)
 - [#5671](https://github.com/AliceO2Group/AliceO2/pull/5671) 2021-03-11: DPL Analysis: allow to omit LabeledArray labels in JSON by [@aalkin](https://github.com/aalkin)
-- [#5673](https://github.com/AliceO2Group/AliceO2/pull/5673) 2021-03-10: DPL: do not wait for data if a new state is pending in FairMQ by [@ktf](https://github.com/ktf)
 - [#5676](https://github.com/AliceO2Group/AliceO2/pull/5676) 2021-03-11: Misc fixes by [@ktf](https://github.com/ktf)
 - [#5678](https://github.com/AliceO2Group/AliceO2/pull/5678) 2021-03-11: DPL: fix use after free spotted by ASAN by [@ktf](https://github.com/ktf)
 - [#5679](https://github.com/AliceO2Group/AliceO2/pull/5679) 2021-03-11: DPL: Unblock the event loop when undergoing state transitions by [@ktf](https://github.com/ktf)
