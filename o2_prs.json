@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Examples of external generators moved to O2DPG (get rid of AEGIS)",
-            "number": 5635,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmics.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/GenCosmicsLoader.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/QEDLoader.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/QEDepem.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/hijing.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-03-08T14:18:00Z",
             "title": "Library to keep track of (build) versions/revisions",
@@ -4426,6 +4371,41 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGUD/upcForward.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Trigger selection adjusted. Fired class accounting added",
+            "number": 5735,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/TriggerAliases.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/TriggerAliases.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]
