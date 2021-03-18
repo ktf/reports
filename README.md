@@ -53,6 +53,7 @@
 - [#5712](https://github.com/AliceO2Group/AliceO2/pull/5712) 2021-03-16: [EMCAL-610] Fix undefined behaviour in bunch encoding by [@mfasDa](https://github.com/mfasDa)
 - [#5713](https://github.com/AliceO2Group/AliceO2/pull/5713) 2021-03-16: Placate readability-braces-around-statements by [@TimoWilken](https://github.com/TimoWilken)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
+- [#5718](https://github.com/AliceO2Group/AliceO2/pull/5718) 2021-03-18:     [EMCAL-610, EMCAL-630] Handle Zero-Suppresion in the raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5729](https://github.com/AliceO2Group/AliceO2/pull/5729) 2021-03-18: Cascade finder enabled: hypothesis checker fixed, cuts improved by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
