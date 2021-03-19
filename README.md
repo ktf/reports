@@ -63,6 +63,7 @@
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 - [#5736](https://github.com/AliceO2Group/AliceO2/pull/5736) 2021-03-18: DPL: DDS configuration improvements (O2-2166) by [@ktf](https://github.com/ktf)
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
+- [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
