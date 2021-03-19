@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "New Version library to host various versioning information",
-            "number": 5643,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "version/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "version/O2Version.cxx.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "version/O2Version.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-03-07T17:53:44Z",
             "title": "Do not limit number of entries RootTreeWriter can store",
@@ -4026,6 +3981,111 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move DataHeader to use fmt::format",
+            "number": 5743,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeaderHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/src/DataHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/test/testDataHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/src/dcs-proxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/test/testRawReaderWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCSectorCompletionPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/LinkZSToDigitsSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TrackReaderWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/raw/src/raw-parser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecordWalker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/flpQualification.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/raw-parser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/test_RootTreeWriterWorkflow.cxx"
                   }
                 }
               ]
