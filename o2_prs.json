@@ -4,126 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-03-08T08:27:22Z",
-            "title": "[R3C-469] [MCH] Update Electronic Mapping from Pt2",
-            "number": 5648,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/include/MCHRawElecMap/Mapper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH10L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH10R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH6R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH7L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH7R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH8L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH8R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH9L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH9R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperGenerated.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/Mapper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/elecmap.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/gen.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/testElectronicMapper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-03-09T06:59:04Z",
-            "title": "DPL Analysis: avoid std::function in literal node",
-            "number": 5649,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[O2-2082] Do not include FairLogger.h",
@@ -1616,7 +1496,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Remove Dplus device names",
+            "title": "PWGHF: Fix Dplus selector device name",
             "number": 5691,
             "author": {
               "login": "fcatalan92"
@@ -1626,11 +1506,6 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/HFDplusToPiKPiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskDPlus.cxx"
                   }
                 }
               ]
@@ -4081,6 +3956,56 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-547] Make retrieveFromTFile public",
+            "number": 5748,
+            "author": {
+              "login": "Barthelemy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Add support for optional origin and description",
+            "number": 5749,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataSpecUtils.cxx"
                   }
                 },
                 {
