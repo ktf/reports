@@ -44,6 +44,7 @@
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
 - [#5729](https://github.com/AliceO2Group/AliceO2/pull/5729) 2021-03-18: Cascade finder enabled: hypothesis checker fixed, cuts improved by [@shahor02](https://github.com/shahor02)
+- [#5746](https://github.com/AliceO2Group/AliceO2/pull/5746) 2021-03-19: hotfix for FT0 PR5728 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
 - [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
