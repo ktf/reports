@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-07T17:53:44Z",
-            "title": "Do not limit number of entries RootTreeWriter can store",
-            "number": 5644,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDCalibratedTrackletWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrapRawWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/ZDCDigitWriterDPLSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-09T07:02:24Z",
             "title": "Less conservative size for the analysis job pool",
             "number": 5645,
@@ -4081,6 +4041,41 @@
                 {
                   "node": {
                     "path": "Framework/Utils/test/test_RootTreeWriterWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: Add missing hit dictionary",
+            "number": 5744,
+            "author": {
+              "login": "jolopezl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/DataFormatsTRDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/duplicateHits.C"
                   }
                 }
               ]
