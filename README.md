@@ -4,9 +4,11 @@
 - v21.10: Done on 2021-03-12.
 - v21.11: Done on 2021-03-17.
 ## Recent developments in O2 - Analysis
+- [#5705](https://github.com/AliceO2Group/AliceO2/pull/5705) 2021-03-19: PWGHF: Fix for Dplus selector by [@fcatalan92](https://github.com/fcatalan92)
 - [#5719](https://github.com/AliceO2Group/AliceO2/pull/5719) 2021-03-18: New tables, green for transient tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 - [#5735](https://github.com/AliceO2Group/AliceO2/pull/5735) 2021-03-19: Trigger selection adjusted. Fired class accounting added by [@ekryshen](https://github.com/ekryshen)
+- [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
