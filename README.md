@@ -26,6 +26,7 @@
 - [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
+- [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
@@ -53,6 +54,7 @@
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5746](https://github.com/AliceO2Group/AliceO2/pull/5746) 2021-03-19: hotfix for FT0 PR5728 by [@shahor02](https://github.com/shahor02)
+- [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
