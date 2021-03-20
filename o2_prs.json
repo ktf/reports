@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-12T11:24:22Z",
-            "title": "ITS: Improve CheckClusters.C, mv CheckTopologies.C",
-            "number": 5657,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckClusters.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/CreateDictionaries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/run_test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/run_workflows.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-16T08:45:07Z",
             "title": "Add MID DCS Processor",
             "number": 5658,
@@ -4166,6 +4126,46 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/workflow/src/ft0-flp-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "BC selection task and alias accounting added",
+            "number": 5757,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/EventSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelectionQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
                   }
                 }
               ]
