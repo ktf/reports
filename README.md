@@ -24,13 +24,10 @@
 - [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - Detectors
-- [#5657](https://github.com/AliceO2Group/AliceO2/pull/5657) 2021-03-12: ITS: Improve CheckClusters.C, mv CheckTopologies.C by [@mconcas](https://github.com/mconcas)
 - [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
-- [#5672](https://github.com/AliceO2Group/AliceO2/pull/5672) 2021-03-12: [EMCAL-686] Implement error handling in Raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
 - [#5680](https://github.com/AliceO2Group/AliceO2/pull/5680) 2021-03-13:  Digitization parameters as ConfigurableParam and unit test  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [#5688](https://github.com/AliceO2Group/AliceO2/pull/5688) 2021-03-12: Improved README by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
 - [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
 - [#5694](https://github.com/AliceO2Group/AliceO2/pull/5694) 2021-03-13: Do not quit after processing one TF in event loop by [@davidrohr](https://github.com/davidrohr)
@@ -54,7 +51,6 @@
 - [#5746](https://github.com/AliceO2Group/AliceO2/pull/5746) 2021-03-19: hotfix for FT0 PR5728 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
-- [#5687](https://github.com/AliceO2Group/AliceO2/pull/5687) 2021-03-12: DPL GUI: improve display of many devices (O2-2114) by [@ktf](https://github.com/ktf)
 - [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
 - [#5701](https://github.com/AliceO2Group/AliceO2/pull/5701) 2021-03-15: DPL: make sure firstTFOrbit is set correctly by [@ktf](https://github.com/ktf)
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
