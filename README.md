@@ -43,6 +43,7 @@
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
 - [#5729](https://github.com/AliceO2Group/AliceO2/pull/5729) 2021-03-18: Cascade finder enabled: hypothesis checker fixed, cuts improved by [@shahor02](https://github.com/shahor02)
+- [#5738](https://github.com/AliceO2Group/AliceO2/pull/5738) 2021-03-21: MCH: added statistics logging in decoder and calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [#5739](https://github.com/AliceO2Group/AliceO2/pull/5739) 2021-03-19: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
