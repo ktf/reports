@@ -63,5 +63,6 @@
 - [#5736](https://github.com/AliceO2Group/AliceO2/pull/5736) 2021-03-18: DPL: DDS configuration improvements (O2-2166) by [@ktf](https://github.com/ktf)
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
 - [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
+- [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Steer
 - [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
