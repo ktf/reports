@@ -48,6 +48,7 @@
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5746](https://github.com/AliceO2Group/AliceO2/pull/5746) 2021-03-19: hotfix for FT0 PR5728 by [@shahor02](https://github.com/shahor02)
+- [#5752](https://github.com/AliceO2Group/AliceO2/pull/5752) 2021-03-21: Possibility to limit max orbit processed by RawFileWriter by [@shahor02](https://github.com/shahor02)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
