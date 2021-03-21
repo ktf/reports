@@ -9,7 +9,6 @@
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
 - [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
@@ -26,7 +25,6 @@
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [#5658](https://github.com/AliceO2Group/AliceO2/pull/5658) 2021-03-16: Add MID DCS Processor by [@aphecetche](https://github.com/aphecetche)
 - [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
