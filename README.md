@@ -7,6 +7,7 @@
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
 - [#5735](https://github.com/AliceO2Group/AliceO2/pull/5735) 2021-03-19: Trigger selection adjusted. Fired class accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
+- [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -60,4 +61,5 @@
 - [#5736](https://github.com/AliceO2Group/AliceO2/pull/5736) 2021-03-18: DPL: DDS configuration improvements (O2-2166) by [@ktf](https://github.com/ktf)
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
 - [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
+- [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
