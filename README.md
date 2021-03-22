@@ -5,6 +5,7 @@
 - [#5705](https://github.com/AliceO2Group/AliceO2/pull/5705) 2021-03-19: PWGHF: Fix for Dplus selector by [@fcatalan92](https://github.com/fcatalan92)
 - [#5719](https://github.com/AliceO2Group/AliceO2/pull/5719) 2021-03-18: New tables, green for transient tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
+- [#5734](https://github.com/AliceO2Group/AliceO2/pull/5734) 2021-03-22: Additional Trigger/RunNumbers and Histograms by [@aga01935](https://github.com/aga01935)
 - [#5735](https://github.com/AliceO2Group/AliceO2/pull/5735) 2021-03-19: Trigger selection adjusted. Fired class accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
