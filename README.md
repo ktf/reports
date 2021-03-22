@@ -16,7 +16,6 @@
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - DataFormats
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
 - [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
@@ -29,9 +28,7 @@
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
 - [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
-- [#5695](https://github.com/AliceO2Group/AliceO2/pull/5695) 2021-03-14: [EMCAL-610, EMCAL-630] Decrease verbosity in raw creator and raw to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [#5697](https://github.com/AliceO2Group/AliceO2/pull/5697) 2021-03-16: Don't request quitting in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
-- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
 - [#5702](https://github.com/AliceO2Group/AliceO2/pull/5702) 2021-03-15: MFT: add extension for the full chip mapping access by [@bovulpes](https://github.com/bovulpes)
 - [#5704](https://github.com/AliceO2Group/AliceO2/pull/5704) 2021-03-16: FT0 mc->raw->digits test added to full_system_test_ci_extra_tests by [@shahor02](https://github.com/shahor02)
 - [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
@@ -64,5 +61,3 @@
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
 - [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
 - [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
-## Recent developments in O2 - Steer
-- [#5699](https://github.com/AliceO2Group/AliceO2/pull/5699) 2021-03-14: FT0 CTF stores gate value + proper usage of DigitizationParams by [@shahor02](https://github.com/shahor02)
