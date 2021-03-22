@@ -25,6 +25,7 @@
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
+- [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -55,6 +56,7 @@
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
+- [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
 - [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
