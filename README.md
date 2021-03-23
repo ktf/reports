@@ -16,6 +16,7 @@
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
+- [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
