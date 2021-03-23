@@ -12,7 +12,6 @@
 - [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
@@ -27,15 +26,12 @@
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5674](https://github.com/AliceO2Group/AliceO2/pull/5674) 2021-03-15: TRD fix event counter for raw data by [@bazinski](https://github.com/bazinski)
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
 - [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
 - [#5697](https://github.com/AliceO2Group/AliceO2/pull/5697) 2021-03-16: Don't request quitting in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
-- [#5702](https://github.com/AliceO2Group/AliceO2/pull/5702) 2021-03-15: MFT: add extension for the full chip mapping access by [@bovulpes](https://github.com/bovulpes)
 - [#5704](https://github.com/AliceO2Group/AliceO2/pull/5704) 2021-03-16: FT0 mc->raw->digits test added to full_system_test_ci_extra_tests by [@shahor02](https://github.com/shahor02)
 - [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
-- [#5709](https://github.com/AliceO2Group/AliceO2/pull/5709) 2021-03-15: Remove hacks to extract TF 1st orbit by [@shahor02](https://github.com/shahor02)
 - [#5712](https://github.com/AliceO2Group/AliceO2/pull/5712) 2021-03-16: [EMCAL-610] Fix undefined behaviour in bunch encoding by [@mfasDa](https://github.com/mfasDa)
 - [#5713](https://github.com/AliceO2Group/AliceO2/pull/5713) 2021-03-16: Placate readability-braces-around-statements by [@TimoWilken](https://github.com/TimoWilken)
 - [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -59,9 +55,6 @@
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
-- [#5693](https://github.com/AliceO2Group/AliceO2/pull/5693) 2021-03-15: Show one ERROR per device and do not return exitCode=1 by [@davidrohr](https://github.com/davidrohr)
-- [#5701](https://github.com/AliceO2Group/AliceO2/pull/5701) 2021-03-15: DPL: make sure firstTFOrbit is set correctly by [@ktf](https://github.com/ktf)
-- [#5711](https://github.com/AliceO2Group/AliceO2/pull/5711) 2021-03-15: DPL: use correct capitalisation for runNumber by [@ktf](https://github.com/ktf)
 - [#5715](https://github.com/AliceO2Group/AliceO2/pull/5715) 2021-03-17: DPL: allow selecting failure level (O2-2154) by [@ktf](https://github.com/ktf)
 - [#5722](https://github.com/AliceO2Group/AliceO2/pull/5722) 2021-03-17: DPL: do not do a lookup by string every time we receive a message by [@ktf](https://github.com/ktf)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
