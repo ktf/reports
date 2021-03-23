@@ -10,6 +10,7 @@
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
+- [#5761](https://github.com/AliceO2Group/AliceO2/pull/5761) 2021-03-23: Getting rid of explicit task names when feasible by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Common
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
