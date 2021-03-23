@@ -55,6 +55,7 @@
 - [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
+- [#5769](https://github.com/AliceO2Group/AliceO2/pull/5769) 2021-03-23: TPC: Use OpenMP parallel digit publishing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
 - [#5715](https://github.com/AliceO2Group/AliceO2/pull/5715) 2021-03-17: DPL: allow selecting failure level (O2-2154) by [@ktf](https://github.com/ktf)
