@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-11T14:52:39Z",
-            "title": "Fix missing include",
-            "number": 5684,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/AODMerger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-11T22:12:18Z",
             "title": "DPL: mark the global file sink as an actual device consuming data",
             "number": 5685,
@@ -4576,6 +4556,126 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP: Extend PID: add hmpid, ALICE3 and fast parametrization",
+            "number": 5784,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/pidRICHqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/BetheBloch.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TOFReso.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TOFResoALICE3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TPCReso.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/AnalysisDataModelLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTOFReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTOFResoALICE3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTPCBetheBloch.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTOF_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTOF_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTPC_split.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTPC_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/qaHMPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/pidTOFqa.cxx"
                   }
                 }
               ]
