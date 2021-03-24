@@ -64,5 +64,6 @@
 - [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
 - [#5770](https://github.com/AliceO2Group/AliceO2/pull/5770) 2021-03-23: DPL: add --no-batch option to force GUI usage by [@ktf](https://github.com/ktf)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
+- [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
