@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-11T06:14:11Z",
-            "title": "DPL: fix use after free spotted by ASAN",
-            "number": 5678,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-11T09:34:04Z",
             "title": "DPL: Unblock the event loop when undergoing state transitions",
             "number": 5679,
@@ -4626,6 +4606,71 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackletWord.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Reconstruct the full command and propagate it to workflow dump tools",
+            "number": 5778,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommandInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DriverControl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommandInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/O2ControlHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
                   }
                 }
               ]
