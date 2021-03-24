@@ -18,6 +18,7 @@
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
+- [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
@@ -68,6 +69,7 @@
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
 - [#5776](https://github.com/AliceO2Group/AliceO2/pull/5776) 2021-03-24: DPL: add constructor for origin only InputSpec by [@ktf](https://github.com/ktf)
+- [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5780](https://github.com/AliceO2Group/AliceO2/pull/5780) 2021-03-24: DPL: provide documentation on how to customise InfoLoggerContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
