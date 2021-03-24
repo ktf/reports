@@ -19,7 +19,6 @@
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5723](https://github.com/AliceO2Group/AliceO2/pull/5723) 2021-03-17: Add cascade finder to SVertexer by [@shahor02](https://github.com/shahor02)
 - [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
@@ -29,13 +28,7 @@
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [#5690](https://github.com/AliceO2Group/AliceO2/pull/5690) 2021-03-16: [MCH] Small improvement in documentation by [@aphecetche](https://github.com/aphecetche)
 - [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
-- [#5697](https://github.com/AliceO2Group/AliceO2/pull/5697) 2021-03-16: Don't request quitting in TRDTrapSimulatorSpec by [@martenole](https://github.com/martenole)
-- [#5704](https://github.com/AliceO2Group/AliceO2/pull/5704) 2021-03-16: FT0 mc->raw->digits test added to full_system_test_ci_extra_tests by [@shahor02](https://github.com/shahor02)
-- [#5707](https://github.com/AliceO2Group/AliceO2/pull/5707) 2021-03-16: MCLabels in clusters; Fix to read full raw payload; remove Publisher by [@peressounko](https://github.com/peressounko)
-- [#5712](https://github.com/AliceO2Group/AliceO2/pull/5712) 2021-03-16: [EMCAL-610] Fix undefined behaviour in bunch encoding by [@mfasDa](https://github.com/mfasDa)
-- [#5713](https://github.com/AliceO2Group/AliceO2/pull/5713) 2021-03-16: Placate readability-braces-around-statements by [@TimoWilken](https://github.com/TimoWilken)
 - [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5717](https://github.com/AliceO2Group/AliceO2/pull/5717) 2021-03-17: trigger record with digits and tracklets by [@bazinski](https://github.com/bazinski)
 - [#5718](https://github.com/AliceO2Group/AliceO2/pull/5718) 2021-03-18:     [EMCAL-610, EMCAL-630] Handle Zero-Suppresion in the raw fitter by [@mfasDa](https://github.com/mfasDa)
