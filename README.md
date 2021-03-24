@@ -69,6 +69,7 @@
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
 - [#5776](https://github.com/AliceO2Group/AliceO2/pull/5776) 2021-03-24: DPL: add constructor for origin only InputSpec by [@ktf](https://github.com/ktf)
+- [#5780](https://github.com/AliceO2Group/AliceO2/pull/5780) 2021-03-24: DPL: provide documentation on how to customise InfoLoggerContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
