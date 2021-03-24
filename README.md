@@ -27,6 +27,7 @@
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
+- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [#5683](https://github.com/AliceO2Group/AliceO2/pull/5683) 2021-03-17: [Tracking] Templetize Propagator and TrackLTIntegral to allow double precision by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5692](https://github.com/AliceO2Group/AliceO2/pull/5692) 2021-03-17: [MCH] set cluster resolution by [@pillot](https://github.com/pillot)
@@ -49,6 +50,7 @@
 - [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
+- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5769](https://github.com/AliceO2Group/AliceO2/pull/5769) 2021-03-23: TPC: Use OpenMP parallel digit publishing by [@sawenzel](https://github.com/sawenzel)
 - [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
 - [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
@@ -69,3 +71,4 @@
 - [#5776](https://github.com/AliceO2Group/AliceO2/pull/5776) 2021-03-24: DPL: add constructor for origin only InputSpec by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
+- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
