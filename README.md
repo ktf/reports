@@ -55,7 +55,6 @@
 - [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
 - [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5681](https://github.com/AliceO2Group/AliceO2/pull/5681) 2021-03-17: DPL Analysis: add a separate type for an extension table by [@aalkin](https://github.com/aalkin)
 - [#5715](https://github.com/AliceO2Group/AliceO2/pull/5715) 2021-03-17: DPL: allow selecting failure level (O2-2154) by [@ktf](https://github.com/ktf)
 - [#5722](https://github.com/AliceO2Group/AliceO2/pull/5722) 2021-03-17: DPL: do not do a lookup by string every time we receive a message by [@ktf](https://github.com/ktf)
 - [#5725](https://github.com/AliceO2Group/AliceO2/pull/5725) 2021-03-17: Reducing includes and use of TMath by [@jgrosseo](https://github.com/jgrosseo)
