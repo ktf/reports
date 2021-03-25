@@ -9,6 +9,7 @@
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
+- [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5761](https://github.com/AliceO2Group/AliceO2/pull/5761) 2021-03-23: Getting rid of explicit task names when feasible by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
@@ -52,6 +53,7 @@
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
+- [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5770](https://github.com/AliceO2Group/AliceO2/pull/5770) 2021-03-23: DPL: add --no-batch option to force GUI usage by [@ktf](https://github.com/ktf)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
