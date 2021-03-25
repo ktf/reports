@@ -62,6 +62,7 @@
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
 - [#5776](https://github.com/AliceO2Group/AliceO2/pull/5776) 2021-03-24: DPL: add constructor for origin only InputSpec by [@ktf](https://github.com/ktf)
+- [#5778](https://github.com/AliceO2Group/AliceO2/pull/5778) 2021-03-25: DPL: Reconstruct the full command and propagate it to workflow dump tools by [@knopers8](https://github.com/knopers8)
 - [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5780](https://github.com/AliceO2Group/AliceO2/pull/5780) 2021-03-24: DPL: provide documentation on how to customise InfoLoggerContext by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
