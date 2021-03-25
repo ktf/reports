@@ -64,6 +64,7 @@
 - [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5780](https://github.com/AliceO2Group/AliceO2/pull/5780) 2021-03-24: DPL: provide documentation on how to customise InfoLoggerContext by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
+- [#5787](https://github.com/AliceO2Group/AliceO2/pull/5787) 2021-03-25: DPL: add tfCounter to Lifetime::Optional objects by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
