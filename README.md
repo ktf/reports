@@ -52,6 +52,7 @@
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
+- [#5796](https://github.com/AliceO2Group/AliceO2/pull/5796) 2021-03-26: Correct treatment of HBFUtils.orbitFirst in TPC raw converter and use DataHeader::firstTForbit by [@davidrohr](https://github.com/davidrohr)
 - [#5800](https://github.com/AliceO2Group/AliceO2/pull/5800) 2021-03-26: Improve debug output of TPC-ITS matcher by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
