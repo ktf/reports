@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-16T17:12:31Z",
-            "title": "MCLabels in clusters; Fix to read full raw payload; remove Publisher",
-            "number": 5707,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/PublisherSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/PublisherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-15T21:57:42Z",
             "title": "Make analysis job pool default to total memory / 8GB",
             "number": 5708,
@@ -5341,6 +5286,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make sure to store number representation of char parameters",
+            "number": 5807,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
                   }
                 }
               ]
