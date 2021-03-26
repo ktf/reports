@@ -3270,26 +3270,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/MUON/MCH/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/PedestalDigit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/MCHBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/PedestalDigit.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/MUON/MCH/Calibration/CMakeLists.txt"
                   }
                 },
@@ -3305,7 +3285,7 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MCH/Calibration/include/MCHCalibration/PedestalProcessor.h"
+                    "path": "Detectors/MUON/MCH/Calibration/include/MCHCalibration/PedestalDigit.h"
                   }
                 },
                 {
@@ -3320,7 +3300,7 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MCH/Calibration/src/MCHChannelCalibratorSpec.h"
+                    "path": "Detectors/MUON/MCH/Calibration/src/PedestalCalibSpec.h"
                   }
                 },
                 {
@@ -3335,7 +3315,17 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/MUON/MCH/Calibration/src/pedestals-decoding-workflow.cxx"
+                    "path": "Detectors/MUON/MCH/Calibration/src/pedestal-decoding-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Calibration/test/run-tfbuilder.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Calibration/test/test-mch-pedestal-calibration.sh"
                   }
                 }
               ]
@@ -5274,8 +5264,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-03-26T17:48:57Z",
             "title": "DPL: add \"dpl/\" prefix to task name (O2-2195)",
             "number": 5806,
             "author": {
