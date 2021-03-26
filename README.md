@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [#5705](https://github.com/AliceO2Group/AliceO2/pull/5705) 2021-03-19: PWGHF: Fix for Dplus selector by [@fcatalan92](https://github.com/fcatalan92)
 - [#5734](https://github.com/AliceO2Group/AliceO2/pull/5734) 2021-03-22: Additional Trigger/RunNumbers and Histograms by [@aga01935](https://github.com/aga01935)
 - [#5735](https://github.com/AliceO2Group/AliceO2/pull/5735) 2021-03-19: Trigger selection adjusted. Fired class accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
