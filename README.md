@@ -18,12 +18,14 @@
 - [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
+- [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
+- [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
@@ -45,6 +47,7 @@
 - [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
+- [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
 - [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
