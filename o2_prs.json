@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[EMCAL-565]: Add utilities for Boost histograms.",
-            "number": 5706,
-            "author": {
-              "login": "hjbossi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EMCALChannelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/EMCALChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/testWorkflow/EMCALChannelCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/doxymodules.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RecoWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-03-16T17:12:31Z",
             "title": "MCLabels in clusters; Fix to read full raw payload; remove Publisher",
@@ -5359,8 +5279,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-03-26T13:45:46Z",
             "title": "Analysis/Task/PWGDQ: implement event mixing in dileptonEE",
             "number": 5804,
             "author": {
@@ -5391,6 +5311,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add \"dpl/\" prefix to task name (O2-2195)",
+            "number": 5806,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
                   }
                 }
               ]
