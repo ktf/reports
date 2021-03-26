@@ -11,6 +11,7 @@
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5790](https://github.com/AliceO2Group/AliceO2/pull/5790) 2021-03-25: warning when filter is not respected by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
+- [#5716](https://github.com/AliceO2Group/AliceO2/pull/5716) 2021-03-26: [WiP][EMCAL-565]: Add utilities for Boost histograms. by [@hjbossi](https://github.com/hjbossi)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
