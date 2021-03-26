@@ -1,9 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-- v21.11: Done on 2021-03-17.
 ## Recent developments in O2 - Analysis
 - [#5705](https://github.com/AliceO2Group/AliceO2/pull/5705) 2021-03-19: PWGHF: Fix for Dplus selector by [@fcatalan92](https://github.com/fcatalan92)
-- [#5719](https://github.com/AliceO2Group/AliceO2/pull/5719) 2021-03-18: New tables, green for transient tables by [@jgrosseo](https://github.com/jgrosseo)
 - [#5734](https://github.com/AliceO2Group/AliceO2/pull/5734) 2021-03-22: Additional Trigger/RunNumbers and Histograms by [@aga01935](https://github.com/aga01935)
 - [#5735](https://github.com/AliceO2Group/AliceO2/pull/5735) 2021-03-19: Trigger selection adjusted. Fired class accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5737](https://github.com/AliceO2Group/AliceO2/pull/5737) 2021-03-19: PWGHF: Make minimisation method configurable. by [@vkucera](https://github.com/vkucera)
@@ -21,7 +19,6 @@
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
 - [#5744](https://github.com/AliceO2Group/AliceO2/pull/5744) 2021-03-19: TRD: Add missing hit dictionary by [@jolopezl](https://github.com/jolopezl)
 - [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
@@ -29,10 +26,7 @@
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [#5718](https://github.com/AliceO2Group/AliceO2/pull/5718) 2021-03-18:     [EMCAL-610, EMCAL-630] Handle Zero-Suppresion in the raw fitter by [@mfasDa](https://github.com/mfasDa)
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
-- [#5728](https://github.com/AliceO2Group/AliceO2/pull/5728) 2021-03-18: FT0 update (raw, digit writer/reader, trigger input) by [@afurs](https://github.com/afurs)
-- [#5729](https://github.com/AliceO2Group/AliceO2/pull/5729) 2021-03-18: Cascade finder enabled: hypothesis checker fixed, cuts improved by [@shahor02](https://github.com/shahor02)
 - [#5732](https://github.com/AliceO2Group/AliceO2/pull/5732) 2021-03-22: TRD digitizer: add shared pads + fix pileup logic by [@martenole](https://github.com/martenole)
 - [#5738](https://github.com/AliceO2Group/AliceO2/pull/5738) 2021-03-21: MCH: added statistics logging in decoder and calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [#5739](https://github.com/AliceO2Group/AliceO2/pull/5739) 2021-03-19: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
@@ -52,7 +46,6 @@
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5736](https://github.com/AliceO2Group/AliceO2/pull/5736) 2021-03-18: DPL: DDS configuration improvements (O2-2166) by [@ktf](https://github.com/ktf)
 - [#5741](https://github.com/AliceO2Group/AliceO2/pull/5741) 2021-03-19: DPL: do not schedule processes when running with --dds by [@ktf](https://github.com/ktf)
 - [#5742](https://github.com/AliceO2Group/AliceO2/pull/5742) 2021-03-19: DPL: reduce chances of dropping messages by [@ktf](https://github.com/ktf)
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
