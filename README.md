@@ -53,6 +53,7 @@
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
 - [#5800](https://github.com/AliceO2Group/AliceO2/pull/5800) 2021-03-26: Improve debug output of TPC-ITS matcher by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
+- [#5802](https://github.com/AliceO2Group/AliceO2/pull/5802) 2021-03-27: Flag FATAL errors with bit in RDH.detectorField by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
