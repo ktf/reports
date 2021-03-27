@@ -28,6 +28,7 @@
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
+- [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
 - [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
@@ -54,6 +55,7 @@
 - [#5800](https://github.com/AliceO2Group/AliceO2/pull/5800) 2021-03-26: Improve debug output of TPC-ITS matcher by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5802](https://github.com/AliceO2Group/AliceO2/pull/5802) 2021-03-27: Flag FATAL errors with bit in RDH.detectorField by [@preghenella](https://github.com/preghenella)
+- [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
