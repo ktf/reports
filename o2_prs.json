@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-15T16:23:43Z",
-            "title": "DPL: use correct capitalisation for runNumber",
-            "number": 5711,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-16T08:14:43Z",
             "title": "[EMCAL-610] Fix undefined behaviour in bunch encoding",
             "number": 5712,
@@ -5306,6 +5286,71 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: separate pileup implementation from digitizer",
+            "number": 5811,
+            "author": {
+              "login": "jolopezl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/ADCArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/PileupTool.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/PileupTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/test/testPileupTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
                   }
                 }
               ]
