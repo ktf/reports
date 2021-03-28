@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [#5734](https://github.com/AliceO2Group/AliceO2/pull/5734) 2021-03-22: Additional Trigger/RunNumbers and Histograms by [@aga01935](https://github.com/aga01935)
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
-- [#5753](https://github.com/AliceO2Group/AliceO2/pull/5753) 2021-03-20: aligning filtered correlations to default correlation task by [@jgrosseo](https://github.com/jgrosseo)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5761](https://github.com/AliceO2Group/AliceO2/pull/5761) 2021-03-23: Getting rid of explicit task names when feasible by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
@@ -11,7 +10,6 @@
 - [#5804](https://github.com/AliceO2Group/AliceO2/pull/5804) 2021-03-26: Analysis/Task/PWGDQ: implement event mixing in dileptonEE by [@dsekihat](https://github.com/dsekihat)
 ## Recent developments in O2 - Common
 - [#5716](https://github.com/AliceO2Group/AliceO2/pull/5716) 2021-03-26: [WiP][EMCAL-565]: Add utilities for Boost histograms. by [@hjbossi](https://github.com/hjbossi)
-- [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
 - [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
@@ -21,8 +19,6 @@
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
-- [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
-- [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
@@ -35,12 +31,9 @@
 - [#5732](https://github.com/AliceO2Group/AliceO2/pull/5732) 2021-03-22: TRD digitizer: add shared pads + fix pileup logic by [@martenole](https://github.com/martenole)
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5738](https://github.com/AliceO2Group/AliceO2/pull/5738) 2021-03-21: MCH: added statistics logging in decoder and calibrator by [@aferrero2707](https://github.com/aferrero2707)
-- [#5745](https://github.com/AliceO2Group/AliceO2/pull/5745) 2021-03-20: Enable uniform magnetic field on SimConfig and GRPObject by [@rpezzi](https://github.com/rpezzi)
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
 - [#5752](https://github.com/AliceO2Group/AliceO2/pull/5752) 2021-03-21: Possibility to limit max orbit processed by RawFileWriter by [@shahor02](https://github.com/shahor02)
-- [#5754](https://github.com/AliceO2Group/AliceO2/pull/5754) 2021-03-20: [MID] Global renaming for better clarity by [@dstocco](https://github.com/dstocco)
 - [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
-- [#5756](https://github.com/AliceO2Group/AliceO2/pull/5756) 2021-03-20: FT0 fix in filenames, store triggerInput only in digitization mode by [@shahor02](https://github.com/shahor02)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5769](https://github.com/AliceO2Group/AliceO2/pull/5769) 2021-03-23: TPC: Use OpenMP parallel digit publishing by [@sawenzel](https://github.com/sawenzel)
