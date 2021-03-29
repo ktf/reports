@@ -7,6 +7,7 @@
 - [#5761](https://github.com/AliceO2Group/AliceO2/pull/5761) 2021-03-23: Getting rid of explicit task names when feasible by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5790](https://github.com/AliceO2Group/AliceO2/pull/5790) 2021-03-25: warning when filter is not respected by [@jgrosseo](https://github.com/jgrosseo)
+- [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5804](https://github.com/AliceO2Group/AliceO2/pull/5804) 2021-03-26: Analysis/Task/PWGDQ: implement event mixing in dileptonEE by [@dsekihat](https://github.com/dsekihat)
 ## Recent developments in O2 - Common
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
@@ -61,6 +62,7 @@
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5787](https://github.com/AliceO2Group/AliceO2/pull/5787) 2021-03-25: DPL: add tfCounter to Lifetime::Optional objects by [@ktf](https://github.com/ktf)
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
+- [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
