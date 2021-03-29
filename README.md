@@ -18,6 +18,7 @@
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 - [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
+- [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
@@ -27,7 +28,6 @@
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [#5714](https://github.com/AliceO2Group/AliceO2/pull/5714) 2021-03-22:  A-side support frame by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
 - [#5732](https://github.com/AliceO2Group/AliceO2/pull/5732) 2021-03-22: TRD digitizer: add shared pads + fix pileup logic by [@martenole](https://github.com/martenole)
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
