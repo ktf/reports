@@ -9,7 +9,6 @@
 - [#5790](https://github.com/AliceO2Group/AliceO2/pull/5790) 2021-03-25: warning when filter is not respected by [@jgrosseo](https://github.com/jgrosseo)
 - [#5804](https://github.com/AliceO2Group/AliceO2/pull/5804) 2021-03-26: Analysis/Task/PWGDQ: implement event mixing in dileptonEE by [@dsekihat](https://github.com/dsekihat)
 ## Recent developments in O2 - Common
-- [#5716](https://github.com/AliceO2Group/AliceO2/pull/5716) 2021-03-26: [WiP][EMCAL-565]: Add utilities for Boost histograms. by [@hjbossi](https://github.com/hjbossi)
 - [#5763](https://github.com/AliceO2Group/AliceO2/pull/5763) 2021-03-23: Improved and GPU-enabled looper merging by [@davidrohr](https://github.com/davidrohr)
 - [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
