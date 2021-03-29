@@ -65,6 +65,7 @@
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
+- [#5817](https://github.com/AliceO2Group/AliceO2/pull/5817) 2021-03-29: DPL: refactor metrics helpers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
