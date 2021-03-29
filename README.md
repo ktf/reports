@@ -18,6 +18,7 @@
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 - [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
+- [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
@@ -27,6 +28,7 @@
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
+- [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
 - [#5732](https://github.com/AliceO2Group/AliceO2/pull/5732) 2021-03-22: TRD digitizer: add shared pads + fix pileup logic by [@martenole](https://github.com/martenole)
@@ -48,6 +50,7 @@
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5802](https://github.com/AliceO2Group/AliceO2/pull/5802) 2021-03-27: Flag FATAL errors with bit in RDH.detectorField by [@preghenella](https://github.com/preghenella)
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
+- [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5813](https://github.com/AliceO2Group/AliceO2/pull/5813) 2021-03-29: TPC Workflow: Add some timing measurements for the overhead of output message allocation by [@davidrohr](https://github.com/davidrohr)
 - [#5816](https://github.com/AliceO2Group/AliceO2/pull/5816) 2021-03-29: TPC sector treatment in ChunkedDigitPublisher by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
