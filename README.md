@@ -31,10 +31,7 @@
 - [#5726](https://github.com/AliceO2Group/AliceO2/pull/5726) 2021-03-22: Clean-up for the BC table by [@nburmaso](https://github.com/nburmaso)
 - [#5732](https://github.com/AliceO2Group/AliceO2/pull/5732) 2021-03-22: TRD digitizer: add shared pads + fix pileup logic by [@martenole](https://github.com/martenole)
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
-- [#5738](https://github.com/AliceO2Group/AliceO2/pull/5738) 2021-03-21: MCH: added statistics logging in decoder and calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [#5751](https://github.com/AliceO2Group/AliceO2/pull/5751) 2021-03-22: Reduce memory footprint of TPC digitization in GRID mode by [@sawenzel](https://github.com/sawenzel)
-- [#5752](https://github.com/AliceO2Group/AliceO2/pull/5752) 2021-03-21: Possibility to limit max orbit processed by RawFileWriter by [@shahor02](https://github.com/shahor02)
-- [#5755](https://github.com/AliceO2Group/AliceO2/pull/5755) 2021-03-21: [CTF] tests: no need to link to CTFWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [#5759](https://github.com/AliceO2Group/AliceO2/pull/5759) 2021-03-22: TRD CTF by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5769](https://github.com/AliceO2Group/AliceO2/pull/5769) 2021-03-23: TPC: Use OpenMP parallel digit publishing by [@sawenzel](https://github.com/sawenzel)
@@ -53,7 +50,6 @@
 ## Recent developments in O2 - Framework
 - [#5747](https://github.com/AliceO2Group/AliceO2/pull/5747) 2021-03-22: DPL Analysis: Add an extra metadata field to ConfigParamSpec to use with Configurable by [@aalkin](https://github.com/aalkin)
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
-- [#5750](https://github.com/AliceO2Group/AliceO2/pull/5750) 2021-03-21: [O2-2088] Provide a valid AliECS workflow dump from DPL by [@knopers8](https://github.com/knopers8)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5770](https://github.com/AliceO2Group/AliceO2/pull/5770) 2021-03-23: DPL: add --no-batch option to force GUI usage by [@ktf](https://github.com/ktf)
 - [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
