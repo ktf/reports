@@ -40,6 +40,7 @@
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
+- [#5794](https://github.com/AliceO2Group/AliceO2/pull/5794) 2021-03-29: TPC: improve pedestal workflow, add digit occupancy by [@wiechula](https://github.com/wiechula)
 - [#5796](https://github.com/AliceO2Group/AliceO2/pull/5796) 2021-03-26: Correct treatment of HBFUtils.orbitFirst in TPC raw converter and use DataHeader::firstTForbit by [@davidrohr](https://github.com/davidrohr)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
