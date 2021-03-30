@@ -42,6 +42,7 @@
 - [#5796](https://github.com/AliceO2Group/AliceO2/pull/5796) 2021-03-26: Correct treatment of HBFUtils.orbitFirst in TPC raw converter and use DataHeader::firstTForbit by [@davidrohr](https://github.com/davidrohr)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
+- [#5799](https://github.com/AliceO2Group/AliceO2/pull/5799) 2021-03-30: Switch from vector to unordered_map for MC particles enumeration by [@nburmaso](https://github.com/nburmaso)
 - [#5800](https://github.com/AliceO2Group/AliceO2/pull/5800) 2021-03-26: Improve debug output of TPC-ITS matcher by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5802](https://github.com/AliceO2Group/AliceO2/pull/5802) 2021-03-27: Flag FATAL errors with bit in RDH.detectorField by [@preghenella](https://github.com/preghenella)
