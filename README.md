@@ -21,6 +21,7 @@
 ## Recent developments in O2 - DataFormats
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
+- [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
@@ -32,6 +33,7 @@
 - [#5769](https://github.com/AliceO2Group/AliceO2/pull/5769) 2021-03-23: TPC: Use OpenMP parallel digit publishing by [@sawenzel](https://github.com/sawenzel)
 - [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
 - [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
+- [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
