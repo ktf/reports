@@ -27,6 +27,7 @@
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
+- [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
@@ -48,6 +49,7 @@
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5813](https://github.com/AliceO2Group/AliceO2/pull/5813) 2021-03-29: TPC Workflow: Add some timing measurements for the overhead of output message allocation by [@davidrohr](https://github.com/davidrohr)
 - [#5816](https://github.com/AliceO2Group/AliceO2/pull/5816) 2021-03-29: TPC sector treatment in ChunkedDigitPublisher by [@sawenzel](https://github.com/sawenzel)
+- [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
@@ -64,6 +66,7 @@
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 - [#5817](https://github.com/AliceO2Group/AliceO2/pull/5817) 2021-03-29: DPL: refactor metrics helpers by [@ktf](https://github.com/ktf)
+- [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
