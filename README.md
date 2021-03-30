@@ -55,6 +55,7 @@
 - [#5813](https://github.com/AliceO2Group/AliceO2/pull/5813) 2021-03-29: TPC Workflow: Add some timing measurements for the overhead of output message allocation by [@davidrohr](https://github.com/davidrohr)
 - [#5816](https://github.com/AliceO2Group/AliceO2/pull/5816) 2021-03-29: TPC sector treatment in ChunkedDigitPublisher by [@sawenzel](https://github.com/sawenzel)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
+- [#5823](https://github.com/AliceO2Group/AliceO2/pull/5823) 2021-03-30: Fix the header for the logging by [@Barthelemy](https://github.com/Barthelemy)
 - [#5824](https://github.com/AliceO2Group/AliceO2/pull/5824) 2021-03-30: If you manage your memory yourself, at least do it properly by [@davidrohr](https://github.com/davidrohr)
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -75,6 +76,7 @@
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 - [#5817](https://github.com/AliceO2Group/AliceO2/pull/5817) 2021-03-29: DPL: refactor metrics helpers by [@ktf](https://github.com/ktf)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
+- [#5827](https://github.com/AliceO2Group/AliceO2/pull/5827) 2021-03-30: DPL: adapt to arrow 3.0 API changes by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
