@@ -29,6 +29,7 @@
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
+- [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
@@ -53,6 +54,7 @@
 - [#5813](https://github.com/AliceO2Group/AliceO2/pull/5813) 2021-03-29: TPC Workflow: Add some timing measurements for the overhead of output message allocation by [@davidrohr](https://github.com/davidrohr)
 - [#5816](https://github.com/AliceO2Group/AliceO2/pull/5816) 2021-03-29: TPC sector treatment in ChunkedDigitPublisher by [@sawenzel](https://github.com/sawenzel)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
+- [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
