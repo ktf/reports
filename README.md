@@ -56,6 +56,7 @@
 - [#5823](https://github.com/AliceO2Group/AliceO2/pull/5823) 2021-03-30: Fix the header for the logging by [@Barthelemy](https://github.com/Barthelemy)
 - [#5824](https://github.com/AliceO2Group/AliceO2/pull/5824) 2021-03-30: If you manage your memory yourself, at least do it properly by [@davidrohr](https://github.com/davidrohr)
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
+- [#5831](https://github.com/AliceO2Group/AliceO2/pull/5831) 2021-03-31: TPC digit publisher: Fix activeSector mask by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
