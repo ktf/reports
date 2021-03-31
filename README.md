@@ -76,6 +76,7 @@
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 - [#5827](https://github.com/AliceO2Group/AliceO2/pull/5827) 2021-03-30: DPL: adapt to arrow 3.0 API changes by [@aalkin](https://github.com/aalkin)
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
+- [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
