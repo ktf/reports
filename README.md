@@ -18,7 +18,6 @@
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
@@ -30,7 +29,6 @@
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
