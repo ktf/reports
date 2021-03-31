@@ -49,6 +49,7 @@
 - [#5809](https://github.com/AliceO2Group/AliceO2/pull/5809) 2021-03-27: [MCH] change digit ADC format from ulong to uint by [@pillot](https://github.com/pillot)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5813](https://github.com/AliceO2Group/AliceO2/pull/5813) 2021-03-29: TPC Workflow: Add some timing measurements for the overhead of output message allocation by [@davidrohr](https://github.com/davidrohr)
+- [#5815](https://github.com/AliceO2Group/AliceO2/pull/5815) 2021-03-31: TPC workflow: Add handling of 0xDEADBEEF and FLP/DISTSUBTIMEFRAME/0 messages by [@davidrohr](https://github.com/davidrohr)
 - [#5816](https://github.com/AliceO2Group/AliceO2/pull/5816) 2021-03-29: TPC sector treatment in ChunkedDigitPublisher by [@sawenzel](https://github.com/sawenzel)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 - [#5823](https://github.com/AliceO2Group/AliceO2/pull/5823) 2021-03-30: Fix the header for the logging by [@Barthelemy](https://github.com/Barthelemy)
