@@ -32,6 +32,7 @@
 ## Recent developments in O2 - Detectors
 - [#5733](https://github.com/AliceO2Group/AliceO2/pull/5733) 2021-03-26: Optionally extract GBT calib data with digits, unify ITS/MFT digits readers by [@shahor02](https://github.com/shahor02)
 - [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
+- [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
 - [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
