@@ -3,12 +3,10 @@
 - v21.13: Done on 2021-03-30.
 ## Recent developments in O2 - Analysis
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
-- [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
 - [#5790](https://github.com/AliceO2Group/AliceO2/pull/5790) 2021-03-25: warning when filter is not respected by [@jgrosseo](https://github.com/jgrosseo)
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5804](https://github.com/AliceO2Group/AliceO2/pull/5804) 2021-03-26: Analysis/Task/PWGDQ: implement event mixing in dileptonEE by [@dsekihat](https://github.com/dsekihat)
 ## Recent developments in O2 - Common
-- [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
@@ -18,7 +16,6 @@
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
 - [#5798](https://github.com/AliceO2Group/AliceO2/pull/5798) 2021-03-27: Fixes for TPC-TOF matching in cosmics (Francesco) by [@shahor02](https://github.com/shahor02)
@@ -30,10 +27,7 @@
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
-- [#5773](https://github.com/AliceO2Group/AliceO2/pull/5773) 2021-03-24: MFT: bug fix in configurable tracker parameters by [@bovulpes](https://github.com/bovulpes)
-- [#5775](https://github.com/AliceO2Group/AliceO2/pull/5775) 2021-03-24: raw-file-reader sends FLP/DISTSUBTIMEFRAME/0 like DD by [@shahor02](https://github.com/shahor02)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
@@ -60,14 +54,8 @@
 - [#5833](https://github.com/AliceO2Group/AliceO2/pull/5833) 2021-03-31: Exclude MFT from chip ordering check by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [#5749](https://github.com/AliceO2Group/AliceO2/pull/5749) 2021-03-24: DPL: Add support for optional origin and description by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
-- [#5771](https://github.com/AliceO2Group/AliceO2/pull/5771) 2021-03-24: DPL Analysis: Fix canonized task names for Clang by [@saganatt](https://github.com/saganatt)
-- [#5774](https://github.com/AliceO2Group/AliceO2/pull/5774) 2021-03-24: DPL: allow driver communicate with devices by [@ktf](https://github.com/ktf)
-- [#5776](https://github.com/AliceO2Group/AliceO2/pull/5776) 2021-03-24: DPL: add constructor for origin only InputSpec by [@ktf](https://github.com/ktf)
 - [#5778](https://github.com/AliceO2Group/AliceO2/pull/5778) 2021-03-25: DPL: Reconstruct the full command and propagate it to workflow dump tools by [@knopers8](https://github.com/knopers8)
-- [#5779](https://github.com/AliceO2Group/AliceO2/pull/5779) 2021-03-24: DPL: avoid reading garbage in the rate limiting by [@ktf](https://github.com/ktf)
-- [#5780](https://github.com/AliceO2Group/AliceO2/pull/5780) 2021-03-24: DPL: provide documentation on how to customise InfoLoggerContext by [@ktf](https://github.com/ktf)
 - [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5787](https://github.com/AliceO2Group/AliceO2/pull/5787) 2021-03-25: DPL: add tfCounter to Lifetime::Optional objects by [@ktf](https://github.com/ktf)
 - [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
@@ -80,6 +68,5 @@
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
 - [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [#5764](https://github.com/AliceO2Group/AliceO2/pull/5764) 2021-03-24: [MCH] [MRRTF-107] Move Digit class from MCHBase to DataFormatsMCH by [@aphecetche](https://github.com/aphecetche)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
