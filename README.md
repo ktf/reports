@@ -73,7 +73,9 @@
 - [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5841](https://github.com/AliceO2Group/AliceO2/pull/5841) 2021-04-01: DPL GUI: add legend, bettwe colors by [@ktf](https://github.com/ktf)
+- [#5842](https://github.com/AliceO2Group/AliceO2/pull/5842) 2021-04-01: DPL: clean slot when it needs to be reused by [@ktf](https://github.com/ktf)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
+- [#5845](https://github.com/AliceO2Group/AliceO2/pull/5845) 2021-04-01: DPL GUI: improve legend by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
