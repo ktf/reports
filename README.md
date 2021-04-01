@@ -26,6 +26,7 @@
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
+- [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
@@ -53,6 +54,7 @@
 - [#5831](https://github.com/AliceO2Group/AliceO2/pull/5831) 2021-03-31: TPC digit publisher: Fix activeSector mask by [@sawenzel](https://github.com/sawenzel)
 - [#5833](https://github.com/AliceO2Group/AliceO2/pull/5833) 2021-03-31: Exclude MFT from chip ordering check by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
+- [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
 - [#5778](https://github.com/AliceO2Group/AliceO2/pull/5778) 2021-03-25: DPL: Reconstruct the full command and propagate it to workflow dump tools by [@knopers8](https://github.com/knopers8)
@@ -67,6 +69,7 @@
 - [#5827](https://github.com/AliceO2Group/AliceO2/pull/5827) 2021-03-30: DPL: adapt to arrow 3.0 API changes by [@aalkin](https://github.com/aalkin)
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
 - [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
+- [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5841](https://github.com/AliceO2Group/AliceO2/pull/5841) 2021-04-01: DPL GUI: add legend, bettwe colors by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
