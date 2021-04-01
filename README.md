@@ -67,6 +67,7 @@
 - [#5827](https://github.com/AliceO2Group/AliceO2/pull/5827) 2021-03-30: DPL: adapt to arrow 3.0 API changes by [@aalkin](https://github.com/aalkin)
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
 - [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
+- [#5841](https://github.com/AliceO2Group/AliceO2/pull/5841) 2021-04-01: DPL GUI: add legend, bettwe colors by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
