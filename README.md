@@ -31,6 +31,7 @@
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
+- [#5783](https://github.com/AliceO2Group/AliceO2/pull/5783) 2021-04-01: SpaceCharge: Adding calculation of local distortion/correction vectors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
 - [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [#5794](https://github.com/AliceO2Group/AliceO2/pull/5794) 2021-03-29: TPC: improve pedestal workflow, add digit occupancy by [@wiechula](https://github.com/wiechula)
