@@ -66,6 +66,7 @@
 - [#5842](https://github.com/AliceO2Group/AliceO2/pull/5842) 2021-04-01: DPL: clean slot when it needs to be reused by [@ktf](https://github.com/ktf)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 - [#5845](https://github.com/AliceO2Group/AliceO2/pull/5845) 2021-04-01: DPL GUI: improve legend by [@ktf](https://github.com/ktf)
+- [#5849](https://github.com/AliceO2Group/AliceO2/pull/5849) 2021-04-02: Fix color usage in Debug GUI (avoid ambiguous static initialization order) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
