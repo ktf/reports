@@ -2,15 +2,11 @@
 ## Recent O2 releases
 - v21.13: Done on 2021-03-30.
 ## Recent developments in O2 - Analysis
-- [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
-- [#5790](https://github.com/AliceO2Group/AliceO2/pull/5790) 2021-03-25: warning when filter is not respected by [@jgrosseo](https://github.com/jgrosseo)
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5804](https://github.com/AliceO2Group/AliceO2/pull/5804) 2021-03-26: Analysis/Task/PWGDQ: implement event mixing in dileptonEE by [@dsekihat](https://github.com/dsekihat)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
 - [#5788](https://github.com/AliceO2Group/AliceO2/pull/5788) 2021-03-26: o2-sim: Simple z-dependent R-cut (for ZDC) by [@sawenzel](https://github.com/sawenzel)
-- [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
 - [#5801](https://github.com/AliceO2Group/AliceO2/pull/5801) 2021-03-26: Rename misleading uint indicatation in constant: ms->mus by [@shahor02](https://github.com/shahor02)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
 - [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
@@ -33,8 +29,6 @@
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5782](https://github.com/AliceO2Group/AliceO2/pull/5782) 2021-03-26: ALICE3: Fix vacuum inside inner beampipe by [@mconcas](https://github.com/mconcas)
 - [#5783](https://github.com/AliceO2Group/AliceO2/pull/5783) 2021-04-01: SpaceCharge: Adding calculation of local distortion/correction vectors by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [#5785](https://github.com/AliceO2Group/AliceO2/pull/5785) 2021-03-25: raw-file-reader can optionally drop some TFs by [@shahor02](https://github.com/shahor02)
-- [#5786](https://github.com/AliceO2Group/AliceO2/pull/5786) 2021-03-25: Use "expired messages" mechanism for ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [#5794](https://github.com/AliceO2Group/AliceO2/pull/5794) 2021-03-29: TPC: improve pedestal workflow, add digit occupancy by [@wiechula](https://github.com/wiechula)
 - [#5796](https://github.com/AliceO2Group/AliceO2/pull/5796) 2021-03-26: Correct treatment of HBFUtils.orbitFirst in TPC raw converter and use DataHeader::firstTForbit by [@davidrohr](https://github.com/davidrohr)
 - [#5797](https://github.com/AliceO2Group/AliceO2/pull/5797) 2021-03-26: Improve treatment of run/TF/digitization_sampling_start in digitization and digit->raw conversion by [@shahor02](https://github.com/shahor02)
@@ -58,11 +52,6 @@
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [#5757](https://github.com/AliceO2Group/AliceO2/pull/5757) 2021-03-25: BC selection task and alias accounting added by [@ekryshen](https://github.com/ekryshen)
-- [#5778](https://github.com/AliceO2Group/AliceO2/pull/5778) 2021-03-25: DPL: Reconstruct the full command and propagate it to workflow dump tools by [@knopers8](https://github.com/knopers8)
-- [#5781](https://github.com/AliceO2Group/AliceO2/pull/5781) 2021-03-25: DPL: slight improvement in performance of the rate limiter by [@ktf](https://github.com/ktf)
-- [#5787](https://github.com/AliceO2Group/AliceO2/pull/5787) 2021-03-25: DPL: add tfCounter to Lifetime::Optional objects by [@ktf](https://github.com/ktf)
-- [#5789](https://github.com/AliceO2Group/AliceO2/pull/5789) 2021-03-25: DPL: separate arrow related services own file by [@ktf](https://github.com/ktf)
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5805](https://github.com/AliceO2Group/AliceO2/pull/5805) 2021-03-30: DPL: do not poll for configuration if there was none provided by [@ktf](https://github.com/ktf)
 - [#5806](https://github.com/AliceO2Group/AliceO2/pull/5806) 2021-03-26: DPL: add "dpl/" prefix to task name (O2-2195) by [@ktf](https://github.com/ktf)
