@@ -14,6 +14,7 @@
 - [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
+- [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
@@ -27,6 +28,7 @@
 - [#5828](https://github.com/AliceO2Group/AliceO2/pull/5828) 2021-03-30: Fix: vector<o2::zdc::Hit> was not declared in LinkDef by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
+- [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
