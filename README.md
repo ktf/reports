@@ -55,6 +55,7 @@
 - [#5833](https://github.com/AliceO2Group/AliceO2/pull/5833) 2021-03-31: Exclude MFT from chip ordering check by [@shahor02](https://github.com/shahor02)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
+- [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5805](https://github.com/AliceO2Group/AliceO2/pull/5805) 2021-03-30: DPL: do not poll for configuration if there was none provided by [@ktf](https://github.com/ktf)
