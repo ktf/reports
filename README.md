@@ -7,11 +7,13 @@
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
+- [#5758](https://github.com/AliceO2Group/AliceO2/pull/5758) 2021-04-04: ctpdev by [@lietava](https://github.com/lietava)
 - [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
+- [#5758](https://github.com/AliceO2Group/AliceO2/pull/5758) 2021-04-04: ctpdev by [@lietava](https://github.com/lietava)
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5808](https://github.com/AliceO2Group/AliceO2/pull/5808) 2021-03-30: GPU: Reactivate option to process only individual TPC sectors by [@davidrohr](https://github.com/davidrohr)
@@ -22,6 +24,7 @@
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [#5758](https://github.com/AliceO2Group/AliceO2/pull/5758) 2021-04-04: ctpdev by [@lietava](https://github.com/lietava)
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
@@ -42,6 +45,7 @@
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
+- [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
 - [#5853](https://github.com/AliceO2Group/AliceO2/pull/5853) 2021-04-03: Optional debug tree output for cosmics matcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
@@ -60,3 +64,5 @@
 - [#5849](https://github.com/AliceO2Group/AliceO2/pull/5849) 2021-04-02: Fix color usage in Debug GUI (avoid ambiguous static initialization order) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Steer
+- [#5758](https://github.com/AliceO2Group/AliceO2/pull/5758) 2021-04-04: ctpdev by [@lietava](https://github.com/lietava)
