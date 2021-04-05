@@ -43,6 +43,7 @@
 - [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
 - [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
 - [#5853](https://github.com/AliceO2Group/AliceO2/pull/5853) 2021-04-03: Optional debug tree output for cosmics matcher by [@shahor02](https://github.com/shahor02)
+- [#5859](https://github.com/AliceO2Group/AliceO2/pull/5859) 2021-04-05: Some unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5805](https://github.com/AliceO2Group/AliceO2/pull/5805) 2021-03-30: DPL: do not poll for configuration if there was none provided by [@ktf](https://github.com/ktf)
