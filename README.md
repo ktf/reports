@@ -7,7 +7,6 @@
 - [#5803](https://github.com/AliceO2Group/AliceO2/pull/5803) 2021-03-29: DPL Analysis: fix configurables placeholders in expressions by [@aalkin](https://github.com/aalkin)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [#5807](https://github.com/AliceO2Group/AliceO2/pull/5807) 2021-03-28: Make sure to store number representation of char parameters by [@sawenzel](https://github.com/sawenzel)
 - [#5810](https://github.com/AliceO2Group/AliceO2/pull/5810) 2021-03-29: remove TPCITS dependence of other matchers by [@shahor02](https://github.com/shahor02)
 - [#5814](https://github.com/AliceO2Group/AliceO2/pull/5814) 2021-03-29: Fix to silence compilation warning by [@shahor02](https://github.com/shahor02)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
