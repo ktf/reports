@@ -4,6 +4,7 @@
 ## Recent developments in O2 - Algorithm
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
+- [#5793](https://github.com/AliceO2Group/AliceO2/pull/5793) 2021-04-06: PWGHF: Adapt selectors/tasks with 2D configurables by [@aalkin](https://github.com/aalkin)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
