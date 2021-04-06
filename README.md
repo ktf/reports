@@ -5,6 +5,7 @@
 - [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
 - [#5793](https://github.com/AliceO2Group/AliceO2/pull/5793) 2021-04-06: PWGHF: Adapt selectors/tasks with 2D configurables by [@aalkin](https://github.com/aalkin)
+- [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
@@ -40,6 +41,7 @@
 ## Recent developments in O2 - Framework
 - [#5805](https://github.com/AliceO2Group/AliceO2/pull/5805) 2021-03-30: DPL: do not poll for configuration if there was none provided by [@ktf](https://github.com/ktf)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
+- [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5827](https://github.com/AliceO2Group/AliceO2/pull/5827) 2021-03-30: DPL: adapt to arrow 3.0 API changes by [@aalkin](https://github.com/aalkin)
 - [#5829](https://github.com/AliceO2Group/AliceO2/pull/5829) 2021-04-01: Misc cleanups by [@ktf](https://github.com/ktf)
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
