@@ -5,131 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-02T12:41:59Z",
-            "title": "Initial FIT (FT0) calibration workflow",
-            "number": 5762,
-            "author": {
-              "login": "Kavaldrin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/ChannelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0CalibrationInfoObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0CalibrationObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0ChannelDataTimeSlotContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/makeDummyFT0CalibObjectInCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelDataTimeSlotContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelCalibration-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0TFProcessor-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationAlgorithmGetter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/src/FITCalibrationAlgorithmGetter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/src/FITCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-23T09:18:47Z",
             "title": "Improved and GPU-enabled looper merging",
             "number": 5763,
@@ -4269,8 +4144,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-04-06T08:06:31Z",
             "title": "DPL Analysis: Fix and an example for combinations with partitions",
             "number": 5839,
             "author": {
@@ -5111,6 +4986,26 @@
                 {
                   "node": {
                     "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: throw exception if bad type requested for option",
+            "number": 5862,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
                   }
                 }
               ]

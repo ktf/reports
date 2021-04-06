@@ -1,16 +1,14 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 - v21.13: Done on 2021-03-30.
-## Recent developments in O2 - Algorithm
-- [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
 - [#5793](https://github.com/AliceO2Group/AliceO2/pull/5793) 2021-04-06: PWGHF: Adapt selectors/tasks with 2D configurables by [@aalkin](https://github.com/aalkin)
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
+- [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5808](https://github.com/AliceO2Group/AliceO2/pull/5808) 2021-03-30: GPU: Reactivate option to process only individual TPC sectors by [@davidrohr](https://github.com/davidrohr)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
@@ -19,7 +17,6 @@
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5762](https://github.com/AliceO2Group/AliceO2/pull/5762) 2021-04-02: Initial FIT (FT0) calibration workflow by [@Kavaldrin](https://github.com/Kavaldrin)
 - [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5783](https://github.com/AliceO2Group/AliceO2/pull/5783) 2021-04-01: SpaceCharge: Adding calculation of local distortion/correction vectors by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -47,6 +44,7 @@
 - [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
 - [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
+- [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5841](https://github.com/AliceO2Group/AliceO2/pull/5841) 2021-04-01: DPL GUI: add legend, bettwe colors by [@ktf](https://github.com/ktf)
 - [#5842](https://github.com/AliceO2Group/AliceO2/pull/5842) 2021-04-01: DPL: clean slot when it needs to be reused by [@ktf](https://github.com/ktf)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
