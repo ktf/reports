@@ -20,7 +20,6 @@
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [#5772](https://github.com/AliceO2Group/AliceO2/pull/5772) 2021-03-31: [R3C-465] MCH: customize the  completion policy in pedestals workflow by [@aferrero2707](https://github.com/aferrero2707)
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5783](https://github.com/AliceO2Group/AliceO2/pull/5783) 2021-04-01: SpaceCharge: Adding calculation of local distortion/correction vectors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5799](https://github.com/AliceO2Group/AliceO2/pull/5799) 2021-03-30: Switch from vector to unordered_map for MC particles enumeration by [@nburmaso](https://github.com/nburmaso)
