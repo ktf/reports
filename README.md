@@ -9,6 +9,7 @@
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
+- [#5861](https://github.com/AliceO2Group/AliceO2/pull/5861) 2021-04-06: [GPU] Fix codechecker violation by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [#5777](https://github.com/AliceO2Group/AliceO2/pull/5777) 2021-03-30: TRD tracker can use transformer/calibrated tracklets as input directly by [@martenole](https://github.com/martenole)
 - [#5808](https://github.com/AliceO2Group/AliceO2/pull/5808) 2021-03-30: GPU: Reactivate option to process only individual TPC sectors by [@davidrohr](https://github.com/davidrohr)
