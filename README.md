@@ -39,7 +39,9 @@
 - [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
 - [#5853](https://github.com/AliceO2Group/AliceO2/pull/5853) 2021-04-03: Optional debug tree output for cosmics matcher by [@shahor02](https://github.com/shahor02)
 - [#5859](https://github.com/AliceO2Group/AliceO2/pull/5859) 2021-04-05: Some unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
+- [#5863](https://github.com/AliceO2Group/AliceO2/pull/5863) 2021-04-06: recover TPC-TOF matching perf in Pb-Pb sim by [@noferini](https://github.com/noferini)
 - [#5865](https://github.com/AliceO2Group/AliceO2/pull/5865) 2021-04-06: Fix in CPV clusterer TriggerRecord creation by [@shahor02](https://github.com/shahor02)
+- [#5869](https://github.com/AliceO2Group/AliceO2/pull/5869) 2021-04-06: [TPC] adapt task name, fix event definition by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [#5805](https://github.com/AliceO2Group/AliceO2/pull/5805) 2021-03-30: DPL: do not poll for configuration if there was none provided by [@ktf](https://github.com/ktf)
 - [#5819](https://github.com/AliceO2Group/AliceO2/pull/5819) 2021-03-30: Add fmt support for DataHeader by [@ktf](https://github.com/ktf)
