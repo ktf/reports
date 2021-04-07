@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-24T13:02:43Z",
-            "title": "DPL: add constructor for origin only InputSpec",
-            "number": 5776,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_InputSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-30T07:33:16Z",
             "title": "TRD tracker can use transformer/calibrated tracklets as input directly",
             "number": 5777,
@@ -4751,6 +4721,46 @@
                 {
                   "node": {
                     "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ITS][tracking] Use propagator in ITS tracker",
+            "number": 5876,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_trac_ca_its.C"
                   }
                 }
               ]
