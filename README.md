@@ -54,6 +54,7 @@
 - [#5845](https://github.com/AliceO2Group/AliceO2/pull/5845) 2021-04-01: DPL GUI: improve legend by [@ktf](https://github.com/ktf)
 - [#5846](https://github.com/AliceO2Group/AliceO2/pull/5846) 2021-04-06: [O2-2180] AliECS dump improvements by [@knopers8](https://github.com/knopers8)
 - [#5849](https://github.com/AliceO2Group/AliceO2/pull/5849) 2021-04-02: Fix color usage in Debug GUI (avoid ambiguous static initialization order) by [@davidrohr](https://github.com/davidrohr)
+- [#5862](https://github.com/AliceO2Group/AliceO2/pull/5862) 2021-04-07: DPL: throw exception if bad type requested for option by [@ktf](https://github.com/ktf)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
