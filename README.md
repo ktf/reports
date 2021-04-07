@@ -7,6 +7,7 @@
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5843](https://github.com/AliceO2Group/AliceO2/pull/5843) 2021-04-01: Rename GlobalTrack to Track + code checker by [@jgrosseo](https://github.com/jgrosseo)
 - [#5866](https://github.com/AliceO2Group/AliceO2/pull/5866) 2021-04-07: Connecting to AliEn by [@jgrosseo](https://github.com/jgrosseo)
+- [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
@@ -47,5 +48,6 @@
 - [#5845](https://github.com/AliceO2Group/AliceO2/pull/5845) 2021-04-01: DPL GUI: improve legend by [@ktf](https://github.com/ktf)
 - [#5846](https://github.com/AliceO2Group/AliceO2/pull/5846) 2021-04-06: [O2-2180] AliECS dump improvements by [@knopers8](https://github.com/knopers8)
 - [#5849](https://github.com/AliceO2Group/AliceO2/pull/5849) 2021-04-02: Fix color usage in Debug GUI (avoid ambiguous static initialization order) by [@davidrohr](https://github.com/davidrohr)
+- [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
