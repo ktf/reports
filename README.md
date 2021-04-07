@@ -23,7 +23,6 @@
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5783](https://github.com/AliceO2Group/AliceO2/pull/5783) 2021-04-01: SpaceCharge: Adding calculation of local distortion/correction vectors by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5815](https://github.com/AliceO2Group/AliceO2/pull/5815) 2021-03-31: TPC workflow: Add handling of 0xDEADBEEF and FLP/DISTSUBTIMEFRAME/0 messages by [@davidrohr](https://github.com/davidrohr)
