@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-25T14:06:54Z",
-            "title": "DPL: Reconstruct the full command and propagate it to workflow dump tools",
-            "number": 5778,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CommandInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DriverControl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommandInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowSerializationHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-03-24T16:19:03Z",
-            "title": "DPL: avoid reading garbage in the rate limiting",
-            "number": 5779,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonMessageBackends.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-24T15:01:09Z",
             "title": "DPL: provide documentation on how to customise InfoLoggerContext",
             "number": 5780,
@@ -4706,6 +4621,71 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_Expressions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "A tool to combine multiple TTrees into one (union of branches)",
+            "number": 5878,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/TreeMergerTool.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add X(3872) candidate creator",
+            "number": 5879,
+            "author": {
+              "login": "rspijkers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreatorX.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskX.cxx"
                   }
                 }
               ]
