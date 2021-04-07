@@ -10,6 +10,7 @@
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
 - [#5861](https://github.com/AliceO2Group/AliceO2/pull/5861) 2021-04-06: [GPU] Fix codechecker violation by [@mconcas](https://github.com/mconcas)
+- [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
