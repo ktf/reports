@@ -1,6 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-- v21.13: Done on 2021-03-30.
 ## Recent developments in O2 - Analysis
 - [#5793](https://github.com/AliceO2Group/AliceO2/pull/5793) 2021-04-06: PWGHF: Adapt selectors/tasks with 2D configurables by [@aalkin](https://github.com/aalkin)
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
@@ -17,7 +16,6 @@
 ## Recent developments in O2 - DataFormats
 - [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
-- [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
@@ -25,10 +23,6 @@
 ## Recent developments in O2 - Detectors
 - [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
-- [#5815](https://github.com/AliceO2Group/AliceO2/pull/5815) 2021-03-31: TPC workflow: Add handling of 0xDEADBEEF and FLP/DISTSUBTIMEFRAME/0 messages by [@davidrohr](https://github.com/davidrohr)
-- [#5831](https://github.com/AliceO2Group/AliceO2/pull/5831) 2021-03-31: TPC digit publisher: Fix activeSector mask by [@sawenzel](https://github.com/sawenzel)
-- [#5833](https://github.com/AliceO2Group/AliceO2/pull/5833) 2021-03-31: Exclude MFT from chip ordering check by [@shahor02](https://github.com/shahor02)
-- [#5835](https://github.com/AliceO2Group/AliceO2/pull/5835) 2021-03-31: Fixes for the --tpc-sectors option in the TPC workflow by [@davidrohr](https://github.com/davidrohr)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
 - [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
@@ -43,8 +37,6 @@
 ## Recent developments in O2 - Framework
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5829](https://github.com/AliceO2Group/AliceO2/pull/5829) 2021-04-01: Misc cleanups by [@ktf](https://github.com/ktf)
-- [#5830](https://github.com/AliceO2Group/AliceO2/pull/5830) 2021-03-31: DPL: allow specifying the ccdb-path as part of the InputSpec by [@ktf](https://github.com/ktf)
-- [#5834](https://github.com/AliceO2Group/AliceO2/pull/5834) 2021-03-31: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5841](https://github.com/AliceO2Group/AliceO2/pull/5841) 2021-04-01: DPL GUI: add legend, bettwe colors by [@ktf](https://github.com/ktf)
