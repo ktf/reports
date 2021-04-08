@@ -25,6 +25,7 @@
 - [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5837](https://github.com/AliceO2Group/AliceO2/pull/5837) 2021-04-01: Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector by [@davidrohr](https://github.com/davidrohr)
+- [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
 - [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
 - [#5853](https://github.com/AliceO2Group/AliceO2/pull/5853) 2021-04-03: Optional debug tree output for cosmics matcher by [@shahor02](https://github.com/shahor02)
