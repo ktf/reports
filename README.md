@@ -13,6 +13,7 @@
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
 - [#5861](https://github.com/AliceO2Group/AliceO2/pull/5861) 2021-04-06: [GPU] Fix codechecker violation by [@mconcas](https://github.com/mconcas)
 - [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
+- [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
