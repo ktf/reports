@@ -8,6 +8,7 @@
 - [#5866](https://github.com/AliceO2Group/AliceO2/pull/5866) 2021-04-07: Connecting to AliEn by [@jgrosseo](https://github.com/jgrosseo)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
+- [#5884](https://github.com/AliceO2Group/AliceO2/pull/5884) 2021-04-08: PWGHF: Fix matching bug. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
