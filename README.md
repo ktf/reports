@@ -42,6 +42,7 @@
 - [#5862](https://github.com/AliceO2Group/AliceO2/pull/5862) 2021-04-07: DPL: throw exception if bad type requested for option by [@ktf](https://github.com/ktf)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
+- [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
 - [#5881](https://github.com/AliceO2Group/AliceO2/pull/5881) 2021-04-08: DPL: provide a `--spawners <N>` option by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
