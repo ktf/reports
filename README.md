@@ -15,13 +15,11 @@
 - [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
 - [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
@@ -48,5 +46,4 @@
 ## Recent developments in O2 - Generators
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
-- [#5795](https://github.com/AliceO2Group/AliceO2/pull/5795) 2021-04-07: HMPID_NewDigitStructure by [@fapfap69](https://github.com/fapfap69)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
