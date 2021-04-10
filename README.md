@@ -33,6 +33,7 @@
 - [#5869](https://github.com/AliceO2Group/AliceO2/pull/5869) 2021-04-06: [TPC] adapt task name, fix event definition by [@wiechula](https://github.com/wiechula)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
+- [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
@@ -44,6 +45,7 @@
 - [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
 - [#5881](https://github.com/AliceO2Group/AliceO2/pull/5881) 2021-04-08: DPL: provide a `--spawners <N>` option by [@ktf](https://github.com/ktf)
 - [#5903](https://github.com/AliceO2Group/AliceO2/pull/5903) 2021-04-10: DPL: do not allocate handle in separate thread by [@ktf](https://github.com/ktf)
+- [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
