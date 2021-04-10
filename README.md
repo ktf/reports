@@ -9,20 +9,17 @@
 - [#5884](https://github.com/AliceO2Group/AliceO2/pull/5884) 2021-04-08: PWGHF: Fix matching bug. by [@vkucera](https://github.com/vkucera)
 - [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
 - [#5861](https://github.com/AliceO2Group/AliceO2/pull/5861) 2021-04-06: [GPU] Fix codechecker violation by [@mconcas](https://github.com/mconcas)
 - [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
 - [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
-- [#5851](https://github.com/AliceO2Group/AliceO2/pull/5851) 2021-04-02: Add std::hash for InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
-- [#5847](https://github.com/AliceO2Group/AliceO2/pull/5847) 2021-04-02: Fix in raw FMQ channel config. in raw-file-reader by [@shahor02](https://github.com/shahor02)
 - [#5850](https://github.com/AliceO2Group/AliceO2/pull/5850) 2021-04-04: [EMCAL-600] Remove dead code by [@mfasDa](https://github.com/mfasDa)
 - [#5853](https://github.com/AliceO2Group/AliceO2/pull/5853) 2021-04-03: Optional debug tree output for cosmics matcher by [@shahor02](https://github.com/shahor02)
 - [#5859](https://github.com/AliceO2Group/AliceO2/pull/5859) 2021-04-05: Some unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
@@ -37,7 +34,6 @@
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5846](https://github.com/AliceO2Group/AliceO2/pull/5846) 2021-04-06: [O2-2180] AliECS dump improvements by [@knopers8](https://github.com/knopers8)
-- [#5849](https://github.com/AliceO2Group/AliceO2/pull/5849) 2021-04-02: Fix color usage in Debug GUI (avoid ambiguous static initialization order) by [@davidrohr](https://github.com/davidrohr)
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
 - [#5862](https://github.com/AliceO2Group/AliceO2/pull/5862) 2021-04-07: DPL: throw exception if bad type requested for option by [@ktf](https://github.com/ktf)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
