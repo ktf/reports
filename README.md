@@ -47,3 +47,5 @@
 - [#5857](https://github.com/AliceO2Group/AliceO2/pull/5857) 2021-04-03: Fix incomplete definition of GeneratorExternalParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
+## Recent developments in O2 - Utilities
+- [#5902](https://github.com/AliceO2Group/AliceO2/pull/5902) 2021-04-10: jobutils: Detect libc++abi exception by [@sawenzel](https://github.com/sawenzel)
