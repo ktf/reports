@@ -31,6 +31,7 @@
 - [#5867](https://github.com/AliceO2Group/AliceO2/pull/5867) 2021-04-08: MC->Raw converters uses HBFUtils settings from digitization stage by [@shahor02](https://github.com/shahor02)
 - [#5869](https://github.com/AliceO2Group/AliceO2/pull/5869) 2021-04-06: [TPC] adapt task name, fix event definition by [@wiechula](https://github.com/wiechula)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
+- [#5887](https://github.com/AliceO2Group/AliceO2/pull/5887) 2021-04-11: CPV fix simulation workflow by [@sevdokim](https://github.com/sevdokim)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
