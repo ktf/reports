@@ -16,6 +16,7 @@
 - [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
+- [#5907](https://github.com/AliceO2Group/AliceO2/pull/5907) 2021-04-11: Always set ConfigurableParam provenance, add provenance getter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
