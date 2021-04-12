@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-29T08:40:44Z",
-            "title": "Fix to silence compilation warning",
-            "number": 5814,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-31T17:25:24Z",
             "title": "TPC workflow: Add handling of 0xDEADBEEF and FLP/DISTSUBTIMEFRAME/0 messages",
             "number": 5815,
@@ -4611,6 +4591,71 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FDD/workflow/include/FDDWorkflow/RawDataReaderSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "￼ Several changes (add support for MUON Run3 data model, removed TaskName, etc.)",
+            "number": 5914,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/dileptonMuMu.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/filterPP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMakerMuon_pp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
                   }
                 }
               ]
