@@ -27,6 +27,7 @@
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
+- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -44,6 +45,7 @@
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
 - [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
 - [#5908](https://github.com/AliceO2Group/AliceO2/pull/5908) 2021-04-12: DataHeader::firstTForbit injection configuration for root-file driven reco workflows by [@shahor02](https://github.com/shahor02)
+- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
@@ -60,5 +62,6 @@
 - [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
+- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [#5902](https://github.com/AliceO2Group/AliceO2/pull/5902) 2021-04-10: jobutils: Detect libc++abi exception by [@sawenzel](https://github.com/sawenzel)
