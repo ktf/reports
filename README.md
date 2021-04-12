@@ -55,6 +55,7 @@
 - [#5897](https://github.com/AliceO2Group/AliceO2/pull/5897) 2021-04-10: StepTHn: use AddAt rather than Get+Set by [@ktf](https://github.com/ktf)
 - [#5903](https://github.com/AliceO2Group/AliceO2/pull/5903) 2021-04-10: DPL: do not allocate handle in separate thread by [@ktf](https://github.com/ktf)
 - [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
+- [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
