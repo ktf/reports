@@ -19,6 +19,7 @@
 - [#5907](https://github.com/AliceO2Group/AliceO2/pull/5907) 2021-04-11: Always set ConfigurableParam provenance, add provenance getter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
+- [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
@@ -26,6 +27,7 @@
 ## Recent developments in O2 - Detectors
 - [#5811](https://github.com/AliceO2Group/AliceO2/pull/5811) 2021-04-06: TRD: separate pileup implementation from digitizer by [@jolopezl](https://github.com/jolopezl)
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
+- [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
 - [#5859](https://github.com/AliceO2Group/AliceO2/pull/5859) 2021-04-05: Some unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5863](https://github.com/AliceO2Group/AliceO2/pull/5863) 2021-04-06: recover TPC-TOF matching perf in Pb-Pb sim by [@noferini](https://github.com/noferini)
