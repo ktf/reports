@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-03-29T20:26:23Z",
-            "title": "TPC Workflow: Add some timing measurements for the overhead of output message allocation",
-            "number": 5813,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CATrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CATrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-03-29T08:40:44Z",
             "title": "Fix to silence compilation warning",
             "number": 5814,
@@ -4456,7 +4426,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "trd raw data reconstruction compressed and not.",
+            "title": "trd raw data reconstruction, compressed and not.",
             "number": 5912,
             "author": {
               "login": "bazinski"
@@ -4606,6 +4576,41 @@
                 {
                   "node": {
                     "path": "Framework/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FDD: Singleton for LookupTable",
+            "number": 5913,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/raw/include/FDDRaw/DigitBlockFDD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/raw/src/DigitBlockFDD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/include/FDDWorkflow/RawDataReaderSpec.h"
                   }
                 }
               ]
