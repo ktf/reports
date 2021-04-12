@@ -1,5 +1,8 @@
 ## Recent AliPhysics releases
 - v5-09-57d-01: Done on 2021-04-12.
+- v5-09-56f-01: Done on 2021-04-12.
+- v5-09-54m-01: Done on 2021-04-12.
+- v5-09-55b-01: Done on 2021-04-12.
 ## Recent O2 releases
 - v21.14: Done on 2021-04-11.
 ## Recent developments in O2 - Analysis
