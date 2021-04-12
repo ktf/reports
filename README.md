@@ -26,6 +26,7 @@
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
+- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -42,6 +43,7 @@
 - [#5887](https://github.com/AliceO2Group/AliceO2/pull/5887) 2021-04-11: CPV fix simulation workflow by [@sevdokim](https://github.com/sevdokim)
 - [#5895](https://github.com/AliceO2Group/AliceO2/pull/5895) 2021-04-11: fix for TOF cosmic calib by [@noferini](https://github.com/noferini)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
+- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
 - [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
 - [#5908](https://github.com/AliceO2Group/AliceO2/pull/5908) 2021-04-12: DataHeader::firstTForbit injection configuration for root-file driven reco workflows by [@shahor02](https://github.com/shahor02)
@@ -62,6 +64,7 @@
 - [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
+- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [#5902](https://github.com/AliceO2Group/AliceO2/pull/5902) 2021-04-10: jobutils: Detect libc++abi exception by [@sawenzel](https://github.com/sawenzel)
