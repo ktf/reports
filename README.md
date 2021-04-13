@@ -12,6 +12,7 @@
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
 - [#5884](https://github.com/AliceO2Group/AliceO2/pull/5884) 2021-04-08: PWGHF: Fix matching bug. by [@vkucera](https://github.com/vkucera)
 - [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
+- [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
 - [#5914](https://github.com/AliceO2Group/AliceO2/pull/5914) 2021-04-13: ￼ Several changes (add support for MUON Run3 data model, removed TaskName, etc.) by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Common
 - [#5854](https://github.com/AliceO2Group/AliceO2/pull/5854) 2021-04-06: ConfigurableParam::updateFromFile can be called for selected params by [@shahor02](https://github.com/shahor02)
