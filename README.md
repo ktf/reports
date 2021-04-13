@@ -47,6 +47,7 @@
 - [#5867](https://github.com/AliceO2Group/AliceO2/pull/5867) 2021-04-08: MC->Raw converters uses HBFUtils settings from digitization stage by [@shahor02](https://github.com/shahor02)
 - [#5869](https://github.com/AliceO2Group/AliceO2/pull/5869) 2021-04-06: [TPC] adapt task name, fix event definition by [@wiechula](https://github.com/wiechula)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
+- [#5876](https://github.com/AliceO2Group/AliceO2/pull/5876) 2021-04-13: ITS-tracking: Use propagator in ITS tracker by [@mconcas](https://github.com/mconcas)
 - [#5887](https://github.com/AliceO2Group/AliceO2/pull/5887) 2021-04-11: CPV fix simulation workflow by [@sevdokim](https://github.com/sevdokim)
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5895](https://github.com/AliceO2Group/AliceO2/pull/5895) 2021-04-11: fix for TOF cosmic calib by [@noferini](https://github.com/noferini)
