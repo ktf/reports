@@ -6,7 +6,6 @@
 ## Recent O2 releases
 - v21.14: Done on 2021-04-11.
 ## Recent developments in O2 - Analysis
-- [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5866](https://github.com/AliceO2Group/AliceO2/pull/5866) 2021-04-07: Connecting to AliEn by [@jgrosseo](https://github.com/jgrosseo)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
@@ -54,7 +53,6 @@
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5820](https://github.com/AliceO2Group/AliceO2/pull/5820) 2021-04-06: DPL Analysis: Use new configurable alias for AxisSpec by [@saganatt](https://github.com/saganatt)
 - [#5839](https://github.com/AliceO2Group/AliceO2/pull/5839) 2021-04-06: DPL Analysis: Fix and an example for combinations with partitions by [@saganatt](https://github.com/saganatt)
 - [#5846](https://github.com/AliceO2Group/AliceO2/pull/5846) 2021-04-06: [O2-2180] AliECS dump improvements by [@knopers8](https://github.com/knopers8)
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
