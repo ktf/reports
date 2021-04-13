@@ -24,9 +24,11 @@
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5821](https://github.com/AliceO2Group/AliceO2/pull/5821) 2021-04-12: First implementation of PHOS trigger by [@peressounko](https://github.com/peressounko)
+- [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
+- [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
@@ -36,6 +38,7 @@
 ## Recent developments in O2 - Detectors
 - [#5821](https://github.com/AliceO2Group/AliceO2/pull/5821) 2021-04-12: First implementation of PHOS trigger by [@peressounko](https://github.com/peressounko)
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
+- [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5863](https://github.com/AliceO2Group/AliceO2/pull/5863) 2021-04-06: recover TPC-TOF matching perf in Pb-Pb sim by [@noferini](https://github.com/noferini)
@@ -45,6 +48,7 @@
 - [#5869](https://github.com/AliceO2Group/AliceO2/pull/5869) 2021-04-06: [TPC] adapt task name, fix event definition by [@wiechula](https://github.com/wiechula)
 - [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5887](https://github.com/AliceO2Group/AliceO2/pull/5887) 2021-04-11: CPV fix simulation workflow by [@sevdokim](https://github.com/sevdokim)
+- [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5895](https://github.com/AliceO2Group/AliceO2/pull/5895) 2021-04-11: fix for TOF cosmic calib by [@noferini](https://github.com/noferini)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
