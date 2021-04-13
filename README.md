@@ -59,6 +59,7 @@
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
 - [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
 - [#5881](https://github.com/AliceO2Group/AliceO2/pull/5881) 2021-04-08: DPL: provide a `--spawners <N>` option by [@ktf](https://github.com/ktf)
+- [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5897](https://github.com/AliceO2Group/AliceO2/pull/5897) 2021-04-10: StepTHn: use AddAt rather than Get+Set by [@ktf](https://github.com/ktf)
 - [#5903](https://github.com/AliceO2Group/AliceO2/pull/5903) 2021-04-10: DPL: do not allocate handle in separate thread by [@ktf](https://github.com/ktf)
 - [#5905](https://github.com/AliceO2Group/AliceO2/pull/5905) 2021-04-10:  AutoSave option for RootTreeWriter  by [@shahor02](https://github.com/shahor02)
