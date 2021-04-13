@@ -34,7 +34,6 @@
 - [#5821](https://github.com/AliceO2Group/AliceO2/pull/5821) 2021-04-12: First implementation of PHOS trigger by [@peressounko](https://github.com/peressounko)
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
-- [#5859](https://github.com/AliceO2Group/AliceO2/pull/5859) 2021-04-05: Some unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5863](https://github.com/AliceO2Group/AliceO2/pull/5863) 2021-04-06: recover TPC-TOF matching perf in Pb-Pb sim by [@noferini](https://github.com/noferini)
 - [#5864](https://github.com/AliceO2Group/AliceO2/pull/5864) 2021-04-07: Fix in script by [@chiarazampolli](https://github.com/chiarazampolli)
