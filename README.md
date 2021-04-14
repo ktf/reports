@@ -17,6 +17,7 @@
 - [#5914](https://github.com/AliceO2Group/AliceO2/pull/5914) 2021-04-13: ￼ Several changes (add support for MUON Run3 data model, removed TaskName, etc.) by [@iarsene](https://github.com/iarsene)
 - [#5915](https://github.com/AliceO2Group/AliceO2/pull/5915) 2021-04-14: PID: Move from large tables to split tables by [@njacazio](https://github.com/njacazio)
 - [#5928](https://github.com/AliceO2Group/AliceO2/pull/5928) 2021-04-14: Update trackextension.cxx by [@ddobrigk](https://github.com/ddobrigk)
+- [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
 ## Recent developments in O2 - Common
 - [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
 - [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
