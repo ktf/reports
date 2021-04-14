@@ -15,6 +15,7 @@
 - [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
 - [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
 - [#5914](https://github.com/AliceO2Group/AliceO2/pull/5914) 2021-04-13: ￼ Several changes (add support for MUON Run3 data model, removed TaskName, etc.) by [@iarsene](https://github.com/iarsene)
+- [#5915](https://github.com/AliceO2Group/AliceO2/pull/5915) 2021-04-14: PID: Move from large tables to split tables by [@njacazio](https://github.com/njacazio)
 - [#5928](https://github.com/AliceO2Group/AliceO2/pull/5928) 2021-04-14: Update trackextension.cxx by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
