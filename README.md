@@ -80,5 +80,6 @@
 - [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
+- [#5925](https://github.com/AliceO2Group/AliceO2/pull/5925) 2021-04-14: CTP: digitizer should always send output, even if empty by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [#5902](https://github.com/AliceO2Group/AliceO2/pull/5902) 2021-04-10: jobutils: Detect libc++abi exception by [@sawenzel](https://github.com/sawenzel)
