@@ -22,6 +22,7 @@
 - [#5907](https://github.com/AliceO2Group/AliceO2/pull/5907) 2021-04-11: Always set ConfigurableParam provenance, add provenance getter by [@shahor02](https://github.com/shahor02)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
+- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -36,6 +37,7 @@
 - [#5913](https://github.com/AliceO2Group/AliceO2/pull/5913) 2021-04-13: FDD: Singleton for LookupTable by [@afurs](https://github.com/afurs)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
+- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
@@ -58,6 +60,7 @@
 - [#5913](https://github.com/AliceO2Group/AliceO2/pull/5913) 2021-04-13: FDD: Singleton for LookupTable by [@afurs](https://github.com/afurs)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
+- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
 - [#5862](https://github.com/AliceO2Group/AliceO2/pull/5862) 2021-04-07: DPL: throw exception if bad type requested for option by [@ktf](https://github.com/ktf)
