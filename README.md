@@ -7,6 +7,7 @@
 - v21.14: Done on 2021-04-11.
 - v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
+- [#5832](https://github.com/AliceO2Group/AliceO2/pull/5832) 2021-04-14: PWGHF: Adapt track index skim creator with 2D configurables by [@fgrosa](https://github.com/fgrosa)
 - [#5866](https://github.com/AliceO2Group/AliceO2/pull/5866) 2021-04-07: Connecting to AliEn by [@jgrosseo](https://github.com/jgrosseo)
 - [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
 - [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
