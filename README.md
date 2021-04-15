@@ -8,9 +8,6 @@
 - v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
 - [#5832](https://github.com/AliceO2Group/AliceO2/pull/5832) 2021-04-14: PWGHF: Adapt track index skim creator with 2D configurables by [@fgrosa](https://github.com/fgrosa)
-- [#5866](https://github.com/AliceO2Group/AliceO2/pull/5866) 2021-04-07: Connecting to AliEn by [@jgrosseo](https://github.com/jgrosseo)
-- [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
-- [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
 - [#5884](https://github.com/AliceO2Group/AliceO2/pull/5884) 2021-04-08: PWGHF: Fix matching bug. by [@vkucera](https://github.com/vkucera)
 - [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
 - [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
@@ -19,7 +16,6 @@
 - [#5928](https://github.com/AliceO2Group/AliceO2/pull/5928) 2021-04-14: Update trackextension.cxx by [@ddobrigk](https://github.com/ddobrigk)
 - [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
 ## Recent developments in O2 - Common
-- [#5874](https://github.com/AliceO2Group/AliceO2/pull/5874) 2021-04-07: GPU: Fix compiler warning by [@davidrohr](https://github.com/davidrohr)
 - [#5878](https://github.com/AliceO2Group/AliceO2/pull/5878) 2021-04-08: A tool to combine multiple TTrees into one (union of branches) by [@sawenzel](https://github.com/sawenzel)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
@@ -30,8 +26,6 @@
 ## Recent developments in O2 - DataFormats
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
-- [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
-- [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
@@ -46,10 +40,7 @@
 - [#5844](https://github.com/AliceO2Group/AliceO2/pull/5844) 2021-04-08: Run 2 enums from DataTypes by [@ddobrigk](https://github.com/ddobrigk)
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
-- [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
-- [#5864](https://github.com/AliceO2Group/AliceO2/pull/5864) 2021-04-07: Fix in script by [@chiarazampolli](https://github.com/chiarazampolli)
 - [#5867](https://github.com/AliceO2Group/AliceO2/pull/5867) 2021-04-08: MC->Raw converters uses HBFUtils settings from digitization stage by [@shahor02](https://github.com/shahor02)
-- [#5872](https://github.com/AliceO2Group/AliceO2/pull/5872) 2021-04-07: Fixes for TPC workflow for running with digits and without mc labels by [@davidrohr](https://github.com/davidrohr)
 - [#5876](https://github.com/AliceO2Group/AliceO2/pull/5876) 2021-04-13: ITS-tracking: Use propagator in ITS tracker by [@mconcas](https://github.com/mconcas)
 - [#5887](https://github.com/AliceO2Group/AliceO2/pull/5887) 2021-04-11: CPV fix simulation workflow by [@sevdokim](https://github.com/sevdokim)
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
@@ -67,9 +58,6 @@
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
-- [#5862](https://github.com/AliceO2Group/AliceO2/pull/5862) 2021-04-07: DPL: throw exception if bad type requested for option by [@ktf](https://github.com/ktf)
-- [#5868](https://github.com/AliceO2Group/AliceO2/pull/5868) 2021-04-07: DPL Analysis: Make filter/table matching rely on a type hash rather than a string name by [@aalkin](https://github.com/aalkin)
-- [#5877](https://github.com/AliceO2Group/AliceO2/pull/5877) 2021-04-07: DPL Analysis: add bitwise operations support to expressions by [@aalkin](https://github.com/aalkin)
 - [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
 - [#5881](https://github.com/AliceO2Group/AliceO2/pull/5881) 2021-04-08: DPL: provide a `--spawners <N>` option by [@ktf](https://github.com/ktf)
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
@@ -80,7 +68,6 @@
 - [#5921](https://github.com/AliceO2Group/AliceO2/pull/5921) 2021-04-13: DPL: resume old behavior for timer in AOD limiter by [@ktf](https://github.com/ktf)
 - [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [#5860](https://github.com/AliceO2Group/AliceO2/pull/5860) 2021-04-07: TRD TRAP simulation uses OpenMP by [@martenole](https://github.com/martenole)
 - [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 - [#5925](https://github.com/AliceO2Group/AliceO2/pull/5925) 2021-04-14: CTP: digitizer should always send output, even if empty by [@shahor02](https://github.com/shahor02)
