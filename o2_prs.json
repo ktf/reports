@@ -4,101 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[MFT] Setting up noise calibration workflow",
-            "number": 5836,
-            "author": {
-              "login": "rpezzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseSlotCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/macros/MakeNoiseMapFromClusters.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/macros/MakeNoiseMapFromDigits.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/MFTCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseSlotCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/testWorkflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/calibration/testWorkflow/mft-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/src/mft-cluster-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-04-01T07:16:12Z",
             "title": "Add option to create uninitialized std::vector as output message via DataAllocator::UninitializedVector",
@@ -4556,6 +4461,41 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/TrapConfigHandler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add support for exporting merged workflows to DDS",
+            "number": 5936,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_FrameworkDataFlowToDDS.cxx"
                   }
                 }
               ]
