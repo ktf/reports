@@ -7,7 +7,6 @@
 - v21.14: Done on 2021-04-11.
 - v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
-- [#5832](https://github.com/AliceO2Group/AliceO2/pull/5832) 2021-04-14: PWGHF: Adapt track index skim creator with 2D configurables by [@fgrosa](https://github.com/fgrosa)
 - [#5884](https://github.com/AliceO2Group/AliceO2/pull/5884) 2021-04-08: PWGHF: Fix matching bug. by [@vkucera](https://github.com/vkucera)
 - [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
 - [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
