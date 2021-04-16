@@ -21,6 +21,7 @@
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
+- [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -35,6 +36,7 @@
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
+- [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -55,6 +57,7 @@
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
+- [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
 - [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
@@ -66,6 +69,7 @@
 - [#5921](https://github.com/AliceO2Group/AliceO2/pull/5921) 2021-04-13: DPL: resume old behavior for timer in AOD limiter by [@ktf](https://github.com/ktf)
 - [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
 - [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
+- [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
