@@ -13,6 +13,7 @@
 - [#5915](https://github.com/AliceO2Group/AliceO2/pull/5915) 2021-04-14: PID: Move from large tables to split tables by [@njacazio](https://github.com/njacazio)
 - [#5928](https://github.com/AliceO2Group/AliceO2/pull/5928) 2021-04-14: Update trackextension.cxx by [@ddobrigk](https://github.com/ddobrigk)
 - [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
+- [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Common
 - [#5899](https://github.com/AliceO2Group/AliceO2/pull/5899) 2021-04-10: CTF name contains run, TF 1st orbit and ID, + misc fixes by [@shahor02](https://github.com/shahor02)
 - [#5904](https://github.com/AliceO2Group/AliceO2/pull/5904) 2021-04-11: Fix for index shift in detector list by [@mconcas](https://github.com/mconcas)
@@ -68,6 +69,7 @@
 - [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
 - [#5921](https://github.com/AliceO2Group/AliceO2/pull/5921) 2021-04-13: DPL: resume old behavior for timer in AOD limiter by [@ktf](https://github.com/ktf)
 - [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
+- [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
