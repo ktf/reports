@@ -20,6 +20,7 @@
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
+- [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - DataFormats
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -53,6 +54,7 @@
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
+- [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
 - [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
