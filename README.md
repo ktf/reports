@@ -37,6 +37,7 @@
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
+- [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
 - [#5856](https://github.com/AliceO2Group/AliceO2/pull/5856) 2021-04-13:  [MCH] [MRRTF-114] Add MCHDigitIO debug library. by [@aphecetche](https://github.com/aphecetche)
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
@@ -58,6 +59,7 @@
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
+- [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5897](https://github.com/AliceO2Group/AliceO2/pull/5897) 2021-04-10: StepTHn: use AddAt rather than Get+Set by [@ktf](https://github.com/ktf)
