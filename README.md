@@ -60,6 +60,7 @@
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
+- [#5949](https://github.com/AliceO2Group/AliceO2/pull/5949) 2021-04-17: RawFileWriter: fix in orbit limiting mechanism by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5897](https://github.com/AliceO2Group/AliceO2/pull/5897) 2021-04-10: StepTHn: use AddAt rather than Get+Set by [@ktf](https://github.com/ktf)
