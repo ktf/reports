@@ -7,7 +7,6 @@
 - v21.14: Done on 2021-04-11.
 - v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
-- [#5885](https://github.com/AliceO2Group/AliceO2/pull/5885) 2021-04-09: PWGHF: fix off-by-one bug in findBin() by [@aalkin](https://github.com/aalkin)
 - [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
 - [#5914](https://github.com/AliceO2Group/AliceO2/pull/5914) 2021-04-13: ￼ Several changes (add support for MUON Run3 data model, removed TaskName, etc.) by [@iarsene](https://github.com/iarsene)
 - [#5915](https://github.com/AliceO2Group/AliceO2/pull/5915) 2021-04-14: PID: Move from large tables to split tables by [@njacazio](https://github.com/njacazio)
@@ -60,8 +59,6 @@
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [#5852](https://github.com/AliceO2Group/AliceO2/pull/5852) 2021-04-09: DPL: allow custom orbit when using timer / enumeration by [@ktf](https://github.com/ktf)
-- [#5880](https://github.com/AliceO2Group/AliceO2/pull/5880) 2021-04-09: DPL GUI: propagate information about uint32 metrics by [@ktf](https://github.com/ktf)
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5897](https://github.com/AliceO2Group/AliceO2/pull/5897) 2021-04-10: StepTHn: use AddAt rather than Get+Set by [@ktf](https://github.com/ktf)
 - [#5903](https://github.com/AliceO2Group/AliceO2/pull/5903) 2021-04-10: DPL: do not allocate handle in separate thread by [@ktf](https://github.com/ktf)
