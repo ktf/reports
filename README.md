@@ -61,6 +61,7 @@
 - [#5949](https://github.com/AliceO2Group/AliceO2/pull/5949) 2021-04-17: RawFileWriter: fix in orbit limiting mechanism by [@shahor02](https://github.com/shahor02)
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 - [#5954](https://github.com/AliceO2Group/AliceO2/pull/5954) 2021-04-17: Fix for the out-of-bounds access bug by [@nburmaso](https://github.com/nburmaso)
+- [#5956](https://github.com/AliceO2Group/AliceO2/pull/5956) 2021-04-18: Command line configuration for FLUKA by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
