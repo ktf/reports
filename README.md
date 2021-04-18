@@ -61,6 +61,8 @@
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 - [#5954](https://github.com/AliceO2Group/AliceO2/pull/5954) 2021-04-17: Fix for the out-of-bounds access bug by [@nburmaso](https://github.com/nburmaso)
 - [#5956](https://github.com/AliceO2Group/AliceO2/pull/5956) 2021-04-18: Command line configuration for FLUKA by [@amorsch](https://github.com/amorsch)
+## Recent developments in O2 - Examples
+- [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
