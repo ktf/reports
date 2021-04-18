@@ -71,6 +71,7 @@
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
+- [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
 - [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
