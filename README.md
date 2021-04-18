@@ -36,6 +36,7 @@
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [#5858](https://github.com/AliceO2Group/AliceO2/pull/5858) 2021-04-12: FIT: Large opitmisation(RawReader) and type checking(DataBlockWrapper) for FITRaw, 'expired message' mechanism for FT0 DPL workflow by [@afurs](https://github.com/afurs)
 - [#5876](https://github.com/AliceO2Group/AliceO2/pull/5876) 2021-04-13: ITS-tracking: Use propagator in ITS tracker by [@mconcas](https://github.com/mconcas)
@@ -58,6 +59,7 @@
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5949](https://github.com/AliceO2Group/AliceO2/pull/5949) 2021-04-17: RawFileWriter: fix in orbit limiting mechanism by [@shahor02](https://github.com/shahor02)
+- [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 - [#5954](https://github.com/AliceO2Group/AliceO2/pull/5954) 2021-04-17: Fix for the out-of-bounds access bug by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
