@@ -58,6 +58,7 @@
 - [#5954](https://github.com/AliceO2Group/AliceO2/pull/5954) 2021-04-17: Fix for the out-of-bounds access bug by [@nburmaso](https://github.com/nburmaso)
 - [#5956](https://github.com/AliceO2Group/AliceO2/pull/5956) 2021-04-18: Command line configuration for FLUKA by [@amorsch](https://github.com/amorsch)
 - [#5959](https://github.com/AliceO2Group/AliceO2/pull/5959) 2021-04-19: Fix: add missing option to its digit reader by [@shahor02](https://github.com/shahor02)
+- [#5960](https://github.com/AliceO2Group/AliceO2/pull/5960) 2021-04-19: Fix: add missing option to its cluster reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
