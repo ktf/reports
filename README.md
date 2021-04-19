@@ -14,6 +14,7 @@
 - [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5957](https://github.com/AliceO2Group/AliceO2/pull/5957) 2021-04-18: Revert "Update trackextension.cxx" by [@ktf](https://github.com/ktf)
+- [#5962](https://github.com/AliceO2Group/AliceO2/pull/5962) 2021-04-19: Removed nuclei PID from tableMaker and filterPP; few fixes by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Common
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
