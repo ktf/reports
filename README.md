@@ -31,6 +31,7 @@
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
+- [#5941](https://github.com/AliceO2Group/AliceO2/pull/5941) 2021-04-19: Improvements for Flag Reasons and TRFCollections by [@knopers8](https://github.com/knopers8)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
