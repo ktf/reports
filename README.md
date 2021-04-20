@@ -47,6 +47,7 @@
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [#5931](https://github.com/AliceO2Group/AliceO2/pull/5931) 2021-04-17: add TOF cluster info reader by [@noferini](https://github.com/noferini)
+- [#5932](https://github.com/AliceO2Group/AliceO2/pull/5932) 2021-04-20: [MRRTF-111] [MCH] Debug workflow to generate random digits by [@aphecetche](https://github.com/aphecetche)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
