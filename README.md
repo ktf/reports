@@ -4,7 +4,6 @@
 - v5-09-54m-01: Done on 2021-04-12.
 - v5-09-55b-01: Done on 2021-04-12.
 ## Recent O2 releases
-- v21.14: Done on 2021-04-11.
 - v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
 - [#5892](https://github.com/AliceO2Group/AliceO2/pull/5892) 2021-04-13: Add Armenteros-podolanski vars to str tables by [@ddobrigk](https://github.com/ddobrigk)
@@ -25,8 +24,6 @@
 ## Recent developments in O2 - DataFormats
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
-- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
-- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 - [#5913](https://github.com/AliceO2Group/AliceO2/pull/5913) 2021-04-13: FDD: Singleton for LookupTable by [@afurs](https://github.com/afurs)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
@@ -41,9 +38,6 @@
 - [#5876](https://github.com/AliceO2Group/AliceO2/pull/5876) 2021-04-13: ITS-tracking: Use propagator in ITS tracker by [@mconcas](https://github.com/mconcas)
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
-- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
-- [#5908](https://github.com/AliceO2Group/AliceO2/pull/5908) 2021-04-12: DataHeader::firstTForbit injection configuration for root-file driven reco workflows by [@shahor02](https://github.com/shahor02)
-- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 - [#5913](https://github.com/AliceO2Group/AliceO2/pull/5913) 2021-04-13: FDD: Singleton for LookupTable by [@afurs](https://github.com/afurs)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
@@ -64,7 +58,6 @@
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
-- [#5910](https://github.com/AliceO2Group/AliceO2/pull/5910) 2021-04-12: Revert "StepTHn: use AddAt rather than Get+Set" by [@ktf](https://github.com/ktf)
 - [#5921](https://github.com/AliceO2Group/AliceO2/pull/5921) 2021-04-13: DPL: resume old behavior for timer in AOD limiter by [@ktf](https://github.com/ktf)
 - [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
@@ -72,6 +65,4 @@
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [#5901](https://github.com/AliceO2Group/AliceO2/pull/5901) 2021-04-12: HBFUtils.nHBFperTF is stored in GRP, re-set default to 256 by [@shahor02](https://github.com/shahor02)
-- [#5909](https://github.com/AliceO2Group/AliceO2/pull/5909) 2021-04-12: HMPID CTF by [@shahor02](https://github.com/shahor02)
 - [#5925](https://github.com/AliceO2Group/AliceO2/pull/5925) 2021-04-14: CTP: digitizer should always send output, even if empty by [@shahor02](https://github.com/shahor02)
