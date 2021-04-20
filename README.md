@@ -54,6 +54,7 @@
 - [#5946](https://github.com/AliceO2Group/AliceO2/pull/5946) 2021-04-20: [MRRTF-33] Update the MID CRU User Logic data format by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5949](https://github.com/AliceO2Group/AliceO2/pull/5949) 2021-04-17: RawFileWriter: fix in orbit limiting mechanism by [@shahor02](https://github.com/shahor02)
+- [#5950](https://github.com/AliceO2Group/AliceO2/pull/5950) 2021-04-20: [MRRTF-116] [MCH] Make digit binary files 100% reproducibles by [@aphecetche](https://github.com/aphecetche)
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 - [#5954](https://github.com/AliceO2Group/AliceO2/pull/5954) 2021-04-17: Fix for the out-of-bounds access bug by [@nburmaso](https://github.com/nburmaso)
 - [#5956](https://github.com/AliceO2Group/AliceO2/pull/5956) 2021-04-18: Command line configuration for FLUKA by [@amorsch](https://github.com/amorsch)
