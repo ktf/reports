@@ -5,106 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-08T22:29:55Z",
-            "title": "MC->Raw converters uses HBFUtils settings from digitization stage",
-            "number": 5867,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/RawCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/RawCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/simulation/src/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/digits-to-raw-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Encoder/Digit/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/digits-to-raw-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/simulation/src/RawCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/run/convertDigitsToRawZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-07T07:32:29Z",
             "title": "DPL Analysis: Make filter/table matching rely on a type hash rather than a string name",
             "number": 5868,
@@ -5141,6 +5041,61 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/base/src/HalfCone.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Software event filtering for Run 3 pp",
+            "number": 5967,
+            "author": {
+              "login": "strogolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/cefp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/centralEventFilterProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/centralEventFilterProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/filterTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
                   }
                 }
               ]
