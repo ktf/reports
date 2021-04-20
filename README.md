@@ -13,6 +13,7 @@
 - [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5957](https://github.com/AliceO2Group/AliceO2/pull/5957) 2021-04-18: Revert "Update trackextension.cxx" by [@ktf](https://github.com/ktf)
+- [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 - [#5962](https://github.com/AliceO2Group/AliceO2/pull/5962) 2021-04-19: Removed nuclei PID from tableMaker and filterPP; few fixes by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Common
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -55,6 +56,7 @@
 - [#5956](https://github.com/AliceO2Group/AliceO2/pull/5956) 2021-04-18: Command line configuration for FLUKA by [@amorsch](https://github.com/amorsch)
 - [#5959](https://github.com/AliceO2Group/AliceO2/pull/5959) 2021-04-19: Fix: add missing option to its digit reader by [@shahor02](https://github.com/shahor02)
 - [#5960](https://github.com/AliceO2Group/AliceO2/pull/5960) 2021-04-19: Fix: add missing option to its cluster reader by [@shahor02](https://github.com/shahor02)
+- [#5963](https://github.com/AliceO2Group/AliceO2/pull/5963) 2021-04-20: Adding std vector header by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
@@ -66,5 +68,6 @@
 - [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
+- [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [#5925](https://github.com/AliceO2Group/AliceO2/pull/5925) 2021-04-14: CTP: digitizer should always send output, even if empty by [@shahor02](https://github.com/shahor02)
