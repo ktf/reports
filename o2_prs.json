@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGGA addition to O2 - first simple gamma jet analysis (WiP)",
-            "number": 5871,
-            "author": {
-              "login": "mikesas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGGA/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGGA/gammaJet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-04-07T06:37:56Z",
             "title": "Fixes for TPC workflow for running with digits and without mc labels",
@@ -5340,6 +5310,211 @@
                 {
                   "node": {
                     "path": "Detectors/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Json reader",
+            "number": 5971,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataInterpreter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOffline.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/VisualisationConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/DataSourceOffline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/ConversionConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/src/VisualisationCluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataInterpreterVSD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataReaderITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataReaderJSON.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataReaderTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/include/EventVisualisationDetectors/DataReaderVSD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataInterpreterITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataInterpreterTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataInterpreterVSD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataReaderJSON.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataReaderTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Detectors/src/DataReaderVSD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/Initializer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/Options.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Initializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Options.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/main.cxx"
                   }
                 }
               ]
