@@ -15,6 +15,7 @@
 - [#5957](https://github.com/AliceO2Group/AliceO2/pull/5957) 2021-04-18: Revert "Update trackextension.cxx" by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 - [#5962](https://github.com/AliceO2Group/AliceO2/pull/5962) 2021-04-19: Removed nuclei PID from tableMaker and filterPP; few fixes by [@iarsene](https://github.com/iarsene)
+- [#5964](https://github.com/AliceO2Group/AliceO2/pull/5964) 2021-04-20: PWGHF: Several minor code improvements. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
@@ -39,6 +40,7 @@
 - [#5876](https://github.com/AliceO2Group/AliceO2/pull/5876) 2021-04-13: ITS-tracking: Use propagator in ITS tracker by [@mconcas](https://github.com/mconcas)
 - [#5894](https://github.com/AliceO2Group/AliceO2/pull/5894) 2021-04-13: TRD calibration subdirectory added by [@martenole](https://github.com/martenole)
 - [#5898](https://github.com/AliceO2Group/AliceO2/pull/5898) 2021-04-13: [MCH] [MRRTF-110] Convert bad channel Root file to CSV by [@aphecetche](https://github.com/aphecetche)
+- [#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
 - [#5913](https://github.com/AliceO2Group/AliceO2/pull/5913) 2021-04-13: FDD: Singleton for LookupTable by [@afurs](https://github.com/afurs)
 - [#5917](https://github.com/AliceO2Group/AliceO2/pull/5917) 2021-04-13: [Tracking] Updates and fixes  - preparations for alignment code  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5918](https://github.com/AliceO2Group/AliceO2/pull/5918) 2021-04-13: Define DetID::mask_t as bitset<32> regardless on nDetectors by [@shahor02](https://github.com/shahor02)
@@ -49,6 +51,7 @@
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
+- [#5946](https://github.com/AliceO2Group/AliceO2/pull/5946) 2021-04-20: [MRRTF-33] Update the MID CRU User Logic data format by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5949](https://github.com/AliceO2Group/AliceO2/pull/5949) 2021-04-17: RawFileWriter: fix in orbit limiting mechanism by [@shahor02](https://github.com/shahor02)
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
@@ -57,12 +60,14 @@
 - [#5959](https://github.com/AliceO2Group/AliceO2/pull/5959) 2021-04-19: Fix: add missing option to its digit reader by [@shahor02](https://github.com/shahor02)
 - [#5960](https://github.com/AliceO2Group/AliceO2/pull/5960) 2021-04-19: Fix: add missing option to its cluster reader by [@shahor02](https://github.com/shahor02)
 - [#5963](https://github.com/AliceO2Group/AliceO2/pull/5963) 2021-04-20: Adding std vector header by [@matthiasrichter](https://github.com/matthiasrichter)
+- [#5966](https://github.com/AliceO2Group/AliceO2/pull/5966) 2021-04-20: New MFT readout cables by [@frmanso](https://github.com/frmanso)
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [#5883](https://github.com/AliceO2Group/AliceO2/pull/5883) 2021-04-13: DPL GUI: report correct status when done by [@ktf](https://github.com/ktf)
 - [#5921](https://github.com/AliceO2Group/AliceO2/pull/5921) 2021-04-13: DPL: resume old behavior for timer in AOD limiter by [@ktf](https://github.com/ktf)
 - [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
+- [#5924](https://github.com/AliceO2Group/AliceO2/pull/5924) 2021-04-20: AliECS dump: connect to the correct pipelined devices by [@knopers8](https://github.com/knopers8)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
