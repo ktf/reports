@@ -25,6 +25,7 @@
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
 - [#5948](https://github.com/AliceO2Group/AliceO2/pull/5948) 2021-04-17: bug fix for separate raw files name by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
+- [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
@@ -47,6 +48,8 @@
 - [#5960](https://github.com/AliceO2Group/AliceO2/pull/5960) 2021-04-19: Fix: add missing option to its cluster reader by [@shahor02](https://github.com/shahor02)
 - [#5963](https://github.com/AliceO2Group/AliceO2/pull/5963) 2021-04-20: Adding std vector header by [@matthiasrichter](https://github.com/matthiasrichter)
 - [#5966](https://github.com/AliceO2Group/AliceO2/pull/5966) 2021-04-20: New MFT readout cables by [@frmanso](https://github.com/frmanso)
+- [#5970](https://github.com/AliceO2Group/AliceO2/pull/5970) 2021-04-21: [O2-1702] port alignment framework from aliroot by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 - [#5980](https://github.com/AliceO2Group/AliceO2/pull/5980) 2021-04-21: Two minor fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
