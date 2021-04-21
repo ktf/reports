@@ -16,6 +16,7 @@
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5938](https://github.com/AliceO2Group/AliceO2/pull/5938) 2021-04-19: ConfigurableParam to set I/O paths for ConfigurableParam  by [@shahor02](https://github.com/shahor02)
+- [#5975](https://github.com/AliceO2Group/AliceO2/pull/5975) 2021-04-21: Some improvements for GPU and FST by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
