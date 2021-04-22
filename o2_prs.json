@@ -3126,7 +3126,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "MFT: reshuffle the global chip ID to be entropy compatible with the CTF",
+            "title": "MFT:  introduce a cluster reader; remove some temporary fixes",
             "number": 5943,
             "author": {
               "login": "bovulpes"
@@ -3135,32 +3135,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/IOUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/Tracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/TrackerConfig.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/ITSMFT/MFT/tracking/src/IOUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/src/Tracker.cxx"
                   }
                 },
                 {
@@ -3170,27 +3145,7 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/mft-cluster-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/ChipMappingMFT.cxx"
                   }
                 }
               ]
@@ -5733,8 +5688,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-04-22T07:06:31Z",
             "title": "Static conversion trklt to spacepoint added",
             "number": 5984,
             "author": {
