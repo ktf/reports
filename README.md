@@ -56,3 +56,4 @@
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
+- [#5968](https://github.com/AliceO2Group/AliceO2/pull/5968) 2021-04-22: DPL: Limit DataOrigin to 4 characters (not 16) when dumping by [@knopers8](https://github.com/knopers8)
