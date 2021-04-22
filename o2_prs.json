@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-11T13:49:36Z",
-            "title": "CPV fix simulation workflow",
-            "number": 5887,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalib/Pedestals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/CalibParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/Pedestals.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/RawWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/RawWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/testsimulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/testsimulation/plot_clu_cpv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/testsimulation/plot_dig_cpv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/testsimulation/plot_hit_cpv.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/RawToDigitConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-08T13:56:27Z",
             "title": "Add extra back-up pattern to .gitignore",
             "number": 5888,
@@ -5685,6 +5595,161 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID: extend QA, add parametrizations for the TOF",
+            "number": 5987,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/include/ALICE3Analysis/RICH.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-qa-multiplicity.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-trackextension.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-trackselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/pidRICHqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/BetheBloch.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/DetectorResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/ParamBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TOFReso.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TOFResoALICE3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/TPCReso.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/AnalysisDataModelLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/ParamBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTOFReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTOFResoALICE3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/handleParamTPCBetheBloch.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTOF_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidTPC_tiny.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/qaHMPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/qaTOFMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
