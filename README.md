@@ -45,6 +45,7 @@
 - [#5970](https://github.com/AliceO2Group/AliceO2/pull/5970) 2021-04-21: [O2-1702] port alignment framework from aliroot by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 - [#5980](https://github.com/AliceO2Group/AliceO2/pull/5980) 2021-04-21: Two minor fixes by [@davidrohr](https://github.com/davidrohr)
+- [#5993](https://github.com/AliceO2Group/AliceO2/pull/5993) 2021-04-22: TPC Workflow: Bugfix: Can create shared cluster map also if clusters … by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
