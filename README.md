@@ -1,24 +1,18 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-- v21.15: Done on 2021-04-13.
 ## Recent developments in O2 - Analysis
-- [#5915](https://github.com/AliceO2Group/AliceO2/pull/5915) 2021-04-14: PID: Move from large tables to split tables by [@njacazio](https://github.com/njacazio)
-- [#5928](https://github.com/AliceO2Group/AliceO2/pull/5928) 2021-04-14: Update trackextension.cxx by [@ddobrigk](https://github.com/ddobrigk)
-- [#5929](https://github.com/AliceO2Group/AliceO2/pull/5929) 2021-04-14: Updated Forward Muon Analysis Codes by [@aga01935](https://github.com/aga01935)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
 - [#5957](https://github.com/AliceO2Group/AliceO2/pull/5957) 2021-04-18: Revert "Update trackextension.cxx" by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 - [#5962](https://github.com/AliceO2Group/AliceO2/pull/5962) 2021-04-19: Removed nuclei PID from tableMaker and filterPP; few fixes by [@iarsene](https://github.com/iarsene)
 - [#5964](https://github.com/AliceO2Group/AliceO2/pull/5964) 2021-04-20: PWGHF: Several minor code improvements. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
-- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5938](https://github.com/AliceO2Group/AliceO2/pull/5938) 2021-04-19: ConfigurableParam to set I/O paths for ConfigurableParam  by [@shahor02](https://github.com/shahor02)
 - [#5975](https://github.com/AliceO2Group/AliceO2/pull/5975) 2021-04-21: Some improvements for GPU and FST by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5941](https://github.com/AliceO2Group/AliceO2/pull/5941) 2021-04-19: Improvements for Flag Reasons and TRFCollections by [@knopers8](https://github.com/knopers8)
@@ -28,7 +22,6 @@
 - [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
-- [#5923](https://github.com/AliceO2Group/AliceO2/pull/5923) 2021-04-14: Option to write/read CTF and CTF_dict to/from arbitrary directories by [@shahor02](https://github.com/shahor02)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [#5931](https://github.com/AliceO2Group/AliceO2/pull/5931) 2021-04-17: add TOF cluster info reader by [@noferini](https://github.com/noferini)
@@ -55,7 +48,6 @@
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5922](https://github.com/AliceO2Group/AliceO2/pull/5922) 2021-04-14: DPL: handle 100% CPU usage on exit by [@ktf](https://github.com/ktf)
 - [#5924](https://github.com/AliceO2Group/AliceO2/pull/5924) 2021-04-20: AliECS dump: connect to the correct pipelined devices by [@knopers8](https://github.com/knopers8)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
@@ -64,5 +56,3 @@
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
-## Recent developments in O2 - Steer
-- [#5925](https://github.com/AliceO2Group/AliceO2/pull/5925) 2021-04-14: CTP: digitizer should always send output, even if empty by [@shahor02](https://github.com/shahor02)
