@@ -13,7 +13,6 @@
 - [#5938](https://github.com/AliceO2Group/AliceO2/pull/5938) 2021-04-19: ConfigurableParam to set I/O paths for ConfigurableParam  by [@shahor02](https://github.com/shahor02)
 - [#5975](https://github.com/AliceO2Group/AliceO2/pull/5975) 2021-04-21: Some improvements for GPU and FST by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5941](https://github.com/AliceO2Group/AliceO2/pull/5941) 2021-04-19: Improvements for Flag Reasons and TRFCollections by [@knopers8](https://github.com/knopers8)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
@@ -28,7 +27,6 @@
 - [#5931](https://github.com/AliceO2Group/AliceO2/pull/5931) 2021-04-17: add TOF cluster info reader by [@noferini](https://github.com/noferini)
 - [#5932](https://github.com/AliceO2Group/AliceO2/pull/5932) 2021-04-20: [MRRTF-111] [MCH] Debug workflow to generate random digits by [@aphecetche](https://github.com/aphecetche)
 - [#5933](https://github.com/AliceO2Group/AliceO2/pull/5933) 2021-04-21: [QC-369] Remove deprecated method to retrieve data from CCDB by [@Barthelemy](https://github.com/Barthelemy)
-- [#5934](https://github.com/AliceO2Group/AliceO2/pull/5934) 2021-04-15: Fix in cosmic track time assignment by [@shahor02](https://github.com/shahor02)
 - [#5935](https://github.com/AliceO2Group/AliceO2/pull/5935) 2021-04-16: TRD FeeParam singleton is made thread-safe for OMP by [@martenole](https://github.com/martenole)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5945](https://github.com/AliceO2Group/AliceO2/pull/5945) 2021-04-17: Initialize patterns to 0 and add comparison operator by [@dstocco](https://github.com/dstocco)
@@ -58,7 +56,6 @@
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
-- [#5936](https://github.com/AliceO2Group/AliceO2/pull/5936) 2021-04-15: DPL: add support for exporting merged workflows to DDS by [@ktf](https://github.com/ktf)
 - [#5937](https://github.com/AliceO2Group/AliceO2/pull/5937) 2021-04-16: All root tree reader/writer devices got --input-dir and --output-dir options by [@shahor02](https://github.com/shahor02)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
