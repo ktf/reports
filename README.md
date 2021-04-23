@@ -50,6 +50,7 @@
 - [#5980](https://github.com/AliceO2Group/AliceO2/pull/5980) 2021-04-21: Two minor fixes by [@davidrohr](https://github.com/davidrohr)
 - [#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
 - [#5993](https://github.com/AliceO2Group/AliceO2/pull/5993) 2021-04-22: TPC Workflow: Bugfix: Can create shared cluster map also if clusters … by [@davidrohr](https://github.com/davidrohr)
+- [#5994](https://github.com/AliceO2Group/AliceO2/pull/5994) 2021-04-23: Provide a generic reader for tracks and hits of different (barrel) detectors as library and as dpl executable by [@davidrohr](https://github.com/davidrohr)
 - [#5997](https://github.com/AliceO2Group/AliceO2/pull/5997) 2021-04-23: Fix copy and paste error by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
