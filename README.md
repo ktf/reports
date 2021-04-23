@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-57e-01: Done on 2021-04-23.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [#5930](https://github.com/AliceO2Group/AliceO2/pull/5930) 2021-04-16: Reformatting of AnalysisDataModel.h by [@pbuehler](https://github.com/pbuehler)
