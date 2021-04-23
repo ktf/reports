@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-04-10T06:42:20Z",
-            "title": "CTF name contains run, TF 1st orbit and ID, + misc fixes",
-            "number": 5899,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/NameConf.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/src/NameConf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: make sure the WSDriverClient flushes only on main thread",
@@ -6009,6 +5969,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/Workflow/CMakeLists.txt"
                   }
                 },
@@ -6410,6 +6375,26 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-04-23T20:15:58Z",
+            "title": "fix in GlobalTrackID::getSourcesNames format",
+            "number": 5999,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/GlobalTrackID.cxx"
                   }
                 }
               ]

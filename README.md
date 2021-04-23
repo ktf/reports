@@ -23,6 +23,7 @@
 - [#5951](https://github.com/AliceO2Group/AliceO2/pull/5951) 2021-04-18: [MRRTF-109] Add MCH CTF by [@aphecetche](https://github.com/aphecetche)
 - [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 - [#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
+- [#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
