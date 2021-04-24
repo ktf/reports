@@ -20,6 +20,7 @@
 - [#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 - [#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
 - [#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
+- [#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
@@ -48,6 +49,7 @@
 - [#5993](https://github.com/AliceO2Group/AliceO2/pull/5993) 2021-04-22: TPC Workflow: Bugfix: Can create shared cluster map also if clusters … by [@davidrohr](https://github.com/davidrohr)
 - [#5994](https://github.com/AliceO2Group/AliceO2/pull/5994) 2021-04-23: Provide a generic reader for tracks and hits of different (barrel) detectors as library and as dpl executable by [@davidrohr](https://github.com/davidrohr)
 - [#5997](https://github.com/AliceO2Group/AliceO2/pull/5997) 2021-04-23: Fix copy and paste error by [@davidrohr](https://github.com/davidrohr)
+- [#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
