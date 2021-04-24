@@ -59,3 +59,4 @@
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 - [#5968](https://github.com/AliceO2Group/AliceO2/pull/5968) 2021-04-22: DPL: Limit DataOrigin to 4 characters (not 16) when dumping by [@knopers8](https://github.com/knopers8)
+- [#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
