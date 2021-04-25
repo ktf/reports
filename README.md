@@ -51,7 +51,7 @@
 ## Recent developments in O2 - Examples
 - [#5939](https://github.com/AliceO2Group/AliceO2/pull/5939) 2021-04-18: Code to run simulation and analysis to inspect primary/secondary trac… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [#5924](https://github.com/AliceO2Group/AliceO2/pull/5924) 2021-04-20: AliECS dump: connect to the correct pipelined devices by [@knopers8](https://github.com/knopers8)
+- [\#5924](https://github.com/AliceO2Group/AliceO2/pull/5924) 2021-04-20: AliECS dump: connect to the correct pipelined devices by [@knopers8](https://github.com/knopers8)
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [#5958](https://github.com/AliceO2Group/AliceO2/pull/5958) 2021-04-18: DPL: allow introspection of running workflow from InitContext by [@ktf](https://github.com/ktf)
