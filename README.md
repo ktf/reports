@@ -45,6 +45,7 @@
 - [#5994](https://github.com/AliceO2Group/AliceO2/pull/5994) 2021-04-23: Provide a generic reader for tracks and hits of different (barrel) detectors as library and as dpl executable by [@davidrohr](https://github.com/davidrohr)
 - [#5997](https://github.com/AliceO2Group/AliceO2/pull/5997) 2021-04-23: Fix copy and paste error by [@davidrohr](https://github.com/davidrohr)
 - [#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
+- [#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
