@@ -47,6 +47,7 @@
 - [\#5998](https://github.com/AliceO2Group/AliceO2/pull/5998) 2021-04-25: Add MC collision labels to AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 - [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
+- [\#6004](https://github.com/AliceO2Group/AliceO2/pull/6004) 2021-04-25: Reduce a bit the library dependencies by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
