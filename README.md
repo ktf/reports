@@ -6,6 +6,7 @@
 - [#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
 - [#5962](https://github.com/AliceO2Group/AliceO2/pull/5962) 2021-04-19: Removed nuclei PID from tableMaker and filterPP; few fixes by [@iarsene](https://github.com/iarsene)
 - [#5964](https://github.com/AliceO2Group/AliceO2/pull/5964) 2021-04-20: PWGHF: Several minor code improvements. by [@vkucera](https://github.com/vkucera)
+- [#5988](https://github.com/AliceO2Group/AliceO2/pull/5988) 2021-04-25: Analysis/Task/PWGDQ: add a sample task for V0 selection by [@dsekihat](https://github.com/dsekihat)
 - [#5992](https://github.com/AliceO2Group/AliceO2/pull/5992) 2021-04-23: [CMake] Fix CMP0115 warnings with CMake 3.20 by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Common
 - [#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
