@@ -20,7 +20,6 @@
 - [\#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#5906](https://github.com/AliceO2Group/AliceO2/pull/5906) 2021-04-20: [MCH] Small utility to export mapping to a simple Root tree by [@aphecetche](https://github.com/aphecetche)
 - [\#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
 - [\#5927](https://github.com/AliceO2Group/AliceO2/pull/5927) 2021-04-20: readout.exe renaming by [@sy-c](https://github.com/sy-c)
 - [\#5932](https://github.com/AliceO2Group/AliceO2/pull/5932) 2021-04-20: [MRRTF-111] [MCH] Debug workflow to generate random digits by [@aphecetche](https://github.com/aphecetche)
