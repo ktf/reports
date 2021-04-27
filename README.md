@@ -9,6 +9,7 @@
 - [\#5988](https://github.com/AliceO2Group/AliceO2/pull/5988) 2021-04-25: Analysis/Task/PWGDQ: add a sample task for V0 selection by [@dsekihat](https://github.com/dsekihat)
 - [\#5992](https://github.com/AliceO2Group/AliceO2/pull/5992) 2021-04-23: [CMake] Fix CMP0115 warnings with CMake 3.20 by [@aphecetche](https://github.com/aphecetche)
 - [\#6005](https://github.com/AliceO2Group/AliceO2/pull/6005) 2021-04-27: Remove virtual before override by [@njacazio](https://github.com/njacazio)
+- [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6007](https://github.com/AliceO2Group/AliceO2/pull/6007) 2021-04-27: PID: autoenabling the tables needed for analysis by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [\#5926](https://github.com/AliceO2Group/AliceO2/pull/5926) 2021-04-20: infologger renaming by [@sy-c](https://github.com/sy-c)
@@ -52,3 +53,4 @@
 - [\#5968](https://github.com/AliceO2Group/AliceO2/pull/5968) 2021-04-22: DPL: Limit DataOrigin to 4 characters (not 16) when dumping by [@knopers8](https://github.com/knopers8)
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
+- [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
