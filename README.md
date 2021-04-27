@@ -1,5 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-57e-01: Done on 2021-04-23.
+- v5-09-57f-01: Done on 2021-04-27.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#5961](https://github.com/AliceO2Group/AliceO2/pull/5961) 2021-04-20: DPL Analysis: enable index tables building from joins by [@aalkin](https://github.com/aalkin)
