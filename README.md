@@ -19,6 +19,7 @@
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [\#5933](https://github.com/AliceO2Group/AliceO2/pull/5933) 2021-04-21: [QC-369] Remove deprecated method to retrieve data from CCDB by [@Barthelemy](https://github.com/Barthelemy)
+- [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5970](https://github.com/AliceO2Group/AliceO2/pull/5970) 2021-04-21: [O2-1702] port alignment framework from aliroot by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 - [\#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
