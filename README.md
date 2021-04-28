@@ -41,3 +41,4 @@
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
+- [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
