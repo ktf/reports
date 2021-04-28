@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-57e-01: Done on 2021-04-23.
 - v5-09-57f-01: Done on 2021-04-27.
+- v5-09-57g-01: Done on 2021-04-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
@@ -19,6 +20,7 @@
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [\#5933](https://github.com/AliceO2Group/AliceO2/pull/5933) 2021-04-21: [QC-369] Remove deprecated method to retrieve data from CCDB by [@Barthelemy](https://github.com/Barthelemy)
+- [\#5943](https://github.com/AliceO2Group/AliceO2/pull/5943) 2021-04-28: MFT:  introduce a cluster reader; remove some temporary fixes by [@bovulpes](https://github.com/bovulpes)
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5970](https://github.com/AliceO2Group/AliceO2/pull/5970) 2021-04-21: [O2-1702] port alignment framework from aliroot by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
