@@ -3,6 +3,8 @@
 - v5-09-57f-01: Done on 2021-04-27.
 - v5-09-57g-01: Done on 2021-04-28.
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5988](https://github.com/AliceO2Group/AliceO2/pull/5988) 2021-04-25: Analysis/Task/PWGDQ: add a sample task for V0 selection by [@dsekihat](https://github.com/dsekihat)
@@ -16,11 +18,13 @@
 - [\#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
 - [\#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
+- [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - Detectors
 - [\#5943](https://github.com/AliceO2Group/AliceO2/pull/5943) 2021-04-28: MFT:  introduce a cluster reader; remove some temporary fixes by [@bovulpes](https://github.com/bovulpes)
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 - [\#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
+- [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 - [\#5991](https://github.com/AliceO2Group/AliceO2/pull/5991) 2021-04-23: [MCH] move *all* pixels to be kept at the beginning by [@pillot](https://github.com/pillot)
 - [\#5993](https://github.com/AliceO2Group/AliceO2/pull/5993) 2021-04-22: TPC Workflow: Bugfix: Can create shared cluster map also if clusters … by [@davidrohr](https://github.com/davidrohr)
 - [\#5994](https://github.com/AliceO2Group/AliceO2/pull/5994) 2021-04-23: Provide a generic reader for tracks and hits of different (barrel) detectors as library and as dpl executable by [@davidrohr](https://github.com/davidrohr)
@@ -30,6 +34,7 @@
 - [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
 - [\#6004](https://github.com/AliceO2Group/AliceO2/pull/6004) 2021-04-25: Reduce a bit the library dependencies by [@davidrohr](https://github.com/davidrohr)
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
+- [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - EventVisualisation
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
