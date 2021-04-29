@@ -11,21 +11,15 @@
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6007](https://github.com/AliceO2Group/AliceO2/pull/6007) 2021-04-27: PID: autoenabling the tables needed for analysis by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [\#5975](https://github.com/AliceO2Group/AliceO2/pull/5975) 2021-04-21: Some improvements for GPU and FST by [@davidrohr](https://github.com/davidrohr)
 - [\#5977](https://github.com/AliceO2Group/AliceO2/pull/5977) 2021-04-23: Revert "GPU: test SMatrixGPU with OpenCL2.0" by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
-- [\#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
 - [\#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
 - [\#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#5933](https://github.com/AliceO2Group/AliceO2/pull/5933) 2021-04-21: [QC-369] Remove deprecated method to retrieve data from CCDB by [@Barthelemy](https://github.com/Barthelemy)
 - [\#5943](https://github.com/AliceO2Group/AliceO2/pull/5943) 2021-04-28: MFT:  introduce a cluster reader; remove some temporary fixes by [@bovulpes](https://github.com/bovulpes)
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
-- [\#5970](https://github.com/AliceO2Group/AliceO2/pull/5970) 2021-04-21: [O2-1702] port alignment framework from aliroot by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
-- [\#5979](https://github.com/AliceO2Group/AliceO2/pull/5979) 2021-04-21: Move globaltracking::RecoContainer into a separate data formats library by [@davidrohr](https://github.com/davidrohr)
-- [\#5980](https://github.com/AliceO2Group/AliceO2/pull/5980) 2021-04-21: Two minor fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#5982](https://github.com/AliceO2Group/AliceO2/pull/5982) 2021-04-22: FIT: some fixes by [@afurs](https://github.com/afurs)
 - [\#5991](https://github.com/AliceO2Group/AliceO2/pull/5991) 2021-04-23: [MCH] move *all* pixels to be kept at the beginning by [@pillot](https://github.com/pillot)
 - [\#5993](https://github.com/AliceO2Group/AliceO2/pull/5993) 2021-04-22: TPC Workflow: Bugfix: Can create shared cluster map also if clusters … by [@davidrohr](https://github.com/davidrohr)
