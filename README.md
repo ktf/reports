@@ -34,6 +34,7 @@
 - [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
 - [\#6004](https://github.com/AliceO2Group/AliceO2/pull/6004) 2021-04-25: Reduce a bit the library dependencies by [@davidrohr](https://github.com/davidrohr)
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
+- [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - EventVisualisation
 - [\#5971](https://github.com/AliceO2Group/AliceO2/pull/5971) 2021-04-22: Json reader by [@jmyrcha](https://github.com/jmyrcha)
