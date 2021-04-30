@@ -15,6 +15,7 @@
 ## Recent developments in O2 - Common
 - [\#5977](https://github.com/AliceO2Group/AliceO2/pull/5977) 2021-04-23: Revert "GPU: test SMatrixGPU with OpenCL2.0" by [@mconcas](https://github.com/mconcas)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
+- [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
@@ -37,6 +38,7 @@
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6028](https://github.com/AliceO2Group/AliceO2/pull/6028) 2021-04-30: HMPID: Fix several memory errors in the raw writer by [@davidrohr](https://github.com/davidrohr)
+- [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
@@ -44,3 +46,5 @@
 - [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
 - [\#6024](https://github.com/AliceO2Group/AliceO2/pull/6024) 2021-04-30: Use a 64bit metric for the arrow delta. by [@ktf](https://github.com/ktf)
 - [\#6025](https://github.com/AliceO2Group/AliceO2/pull/6025) 2021-04-29: DPL: remove debug template instanciation by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
