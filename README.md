@@ -38,4 +38,5 @@
 - [\#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
+- [\#6024](https://github.com/AliceO2Group/AliceO2/pull/6024) 2021-04-30: Use a 64bit metric for the arrow delta. by [@ktf](https://github.com/ktf)
 - [\#6025](https://github.com/AliceO2Group/AliceO2/pull/6025) 2021-04-29: DPL: remove debug template instanciation by [@ktf](https://github.com/ktf)
