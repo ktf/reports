@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-15T20:55:19Z",
-            "title": "Fix in cosmic track time assignment",
-            "number": 5934,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackCosmics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchCosmics.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-16T08:20:01Z",
             "title": "TRD FeeParam singleton is made thread-safe for OMP",
             "number": 5935,
@@ -6845,6 +6820,41 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/GRPUpdaterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "gammaTask first prototype",
+            "number": 6034,
+            "author": {
+              "login": "sstiefel19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGGA/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGGA/myGammaTask3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGGA/myGammaTask3.h"
                   }
                 }
               ]
