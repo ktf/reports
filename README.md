@@ -32,6 +32,7 @@
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
+- [\#6028](https://github.com/AliceO2Group/AliceO2/pull/6028) 2021-04-30: HMPID: Fix several memory errors in the raw writer by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5989](https://github.com/AliceO2Group/AliceO2/pull/5989) 2021-04-24: DPL: fix in booking metrics by [@ktf](https://github.com/ktf)
