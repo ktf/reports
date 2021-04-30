@@ -29,6 +29,7 @@
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 - [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
 - [\#6004](https://github.com/AliceO2Group/AliceO2/pull/6004) 2021-04-25: Reduce a bit the library dependencies by [@davidrohr](https://github.com/davidrohr)
+- [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
