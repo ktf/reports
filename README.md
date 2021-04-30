@@ -51,3 +51,4 @@
 - [\#6025](https://github.com/AliceO2Group/AliceO2/pull/6025) 2021-04-29: DPL: remove debug template instanciation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
+- [\#6033](https://github.com/AliceO2Group/AliceO2/pull/6033) 2021-04-30: Digitization: Prevent race conditions when updating GRP by [@sawenzel](https://github.com/sawenzel)
