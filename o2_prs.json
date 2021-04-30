@@ -5,121 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-16T12:18:57Z",
-            "title": "Reformatting of AnalysisDataModel.h",
-            "number": 5930,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/CFDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/EMCALClusters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/EventSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/StrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/TrackSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-04-17T18:07:24Z",
-            "title": "add TOF cluster info reader",
-            "number": 5931,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/CalibClusReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/CalibClusReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/cluscal-reader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-20T13:45:54Z",
             "title": "[MRRTF-111] [MCH] Debug workflow to generate random digits",
             "number": 5932,
@@ -6745,6 +6630,156 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-04-30T09:17:09Z",
+            "title": "Improvements for 8 GPU full system test on EPN",
+            "number": 6030,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/datadistribution.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/start_tmux.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make more code compatible to GPU",
+            "number": 6031,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalTrackID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackTPCITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/TimeStamp.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl-common/GPUReconstructionOCL.cl"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingTRD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/tools/testCL.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDO2BaseTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/GPUCommonBitSet.h"
                   }
                 }
               ]
