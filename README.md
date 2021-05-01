@@ -8,17 +8,14 @@
 ## Recent developments in O2 - Analysis
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#5988](https://github.com/AliceO2Group/AliceO2/pull/5988) 2021-04-25: Analysis/Task/PWGDQ: add a sample task for V0 selection by [@dsekihat](https://github.com/dsekihat)
-- [\#5992](https://github.com/AliceO2Group/AliceO2/pull/5992) 2021-04-23: [CMake] Fix CMP0115 warnings with CMake 3.20 by [@aphecetche](https://github.com/aphecetche)
 - [\#6005](https://github.com/AliceO2Group/AliceO2/pull/6005) 2021-04-27: Remove virtual before override by [@njacazio](https://github.com/njacazio)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6007](https://github.com/AliceO2Group/AliceO2/pull/6007) 2021-04-27: PID: autoenabling the tables needed for analysis by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [\#5977](https://github.com/AliceO2Group/AliceO2/pull/5977) 2021-04-23: Revert "GPU: test SMatrixGPU with OpenCL2.0" by [@mconcas](https://github.com/mconcas)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#5999](https://github.com/AliceO2Group/AliceO2/pull/5999) 2021-04-23: fix in GlobalTrackID::getSourcesNames format by [@shahor02](https://github.com/shahor02)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
@@ -27,9 +24,6 @@
 - [\#5943](https://github.com/AliceO2Group/AliceO2/pull/5943) 2021-04-28: MFT:  introduce a cluster reader; remove some temporary fixes by [@bovulpes](https://github.com/bovulpes)
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
-- [\#5991](https://github.com/AliceO2Group/AliceO2/pull/5991) 2021-04-23: [MCH] move *all* pixels to be kept at the beginning by [@pillot](https://github.com/pillot)
-- [\#5994](https://github.com/AliceO2Group/AliceO2/pull/5994) 2021-04-23: Provide a generic reader for tracks and hits of different (barrel) detectors as library and as dpl executable by [@davidrohr](https://github.com/davidrohr)
-- [\#5997](https://github.com/AliceO2Group/AliceO2/pull/5997) 2021-04-23: Fix copy and paste error by [@davidrohr](https://github.com/davidrohr)
 - [\#5998](https://github.com/AliceO2Group/AliceO2/pull/5998) 2021-04-25: Add MC collision labels to AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#6000](https://github.com/AliceO2Group/AliceO2/pull/6000) 2021-04-24: Cell bits reordered; Geometry fixed; LG/HG ratio fixes by [@peressounko](https://github.com/peressounko)
 - [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
