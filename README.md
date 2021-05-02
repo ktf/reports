@@ -18,6 +18,7 @@
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
+- [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
@@ -33,6 +34,7 @@
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
