@@ -33,6 +33,7 @@
 - [\#6028](https://github.com/AliceO2Group/AliceO2/pull/6028) 2021-04-30: HMPID: Fix several memory errors in the raw writer by [@davidrohr](https://github.com/davidrohr)
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
+- [\#6038](https://github.com/AliceO2Group/AliceO2/pull/6038) 2021-05-02:  Raw decoding optimized; Made Mapping singleton; Semigauss raw fitter added; by [@peressounko](https://github.com/peressounko)
 - [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
