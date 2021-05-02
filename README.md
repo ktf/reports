@@ -19,7 +19,6 @@
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#5943](https://github.com/AliceO2Group/AliceO2/pull/5943) 2021-04-28: MFT:  introduce a cluster reader; remove some temporary fixes by [@bovulpes](https://github.com/bovulpes)
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 - [\#5998](https://github.com/AliceO2Group/AliceO2/pull/5998) 2021-04-25: Add MC collision labels to AOD by [@nburmaso](https://github.com/nburmaso)
