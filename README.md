@@ -8,6 +8,7 @@
 - [\#6005](https://github.com/AliceO2Group/AliceO2/pull/6005) 2021-04-27: Remove virtual before override by [@njacazio](https://github.com/njacazio)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6007](https://github.com/AliceO2Group/AliceO2/pull/6007) 2021-04-27: PID: autoenabling the tables needed for analysis by [@njacazio](https://github.com/njacazio)
+- [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
@@ -35,6 +36,7 @@
 ## Recent developments in O2 - Framework
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
+- [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6024](https://github.com/AliceO2Group/AliceO2/pull/6024) 2021-04-30: Use a 64bit metric for the arrow delta. by [@ktf](https://github.com/ktf)
 - [\#6025](https://github.com/AliceO2Group/AliceO2/pull/6025) 2021-04-29: DPL: remove debug template instanciation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
