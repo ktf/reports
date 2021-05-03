@@ -14,6 +14,7 @@
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
+- [\#6013](https://github.com/AliceO2Group/AliceO2/pull/6013) 2021-05-03: TRD: Better handling of labels at the digitizer by [@jolopezl](https://github.com/jolopezl)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6031](https://github.com/AliceO2Group/AliceO2/pull/6031) 2021-04-30: Make more code compatible to GPU by [@davidrohr](https://github.com/davidrohr)
@@ -26,6 +27,7 @@
 - [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
+- [\#6013](https://github.com/AliceO2Group/AliceO2/pull/6013) 2021-05-03: TRD: Better handling of labels at the digitizer by [@jolopezl](https://github.com/jolopezl)
 - [\#6014](https://github.com/AliceO2Group/AliceO2/pull/6014) 2021-04-29: TRD: Move Digit class to DataFormatsTRD by [@jolopezl](https://github.com/jolopezl)
 - [\#6020](https://github.com/AliceO2Group/AliceO2/pull/6020) 2021-04-30: GPU: Adapt DetID and GlobalTrackID for GPU usage by [@davidrohr](https://github.com/davidrohr)
 - [\#6028](https://github.com/AliceO2Group/AliceO2/pull/6028) 2021-04-30: HMPID: Fix several memory errors in the raw writer by [@davidrohr](https://github.com/davidrohr)
