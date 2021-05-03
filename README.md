@@ -42,3 +42,5 @@
 ## Recent developments in O2 - Steer
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6033](https://github.com/AliceO2Group/AliceO2/pull/6033) 2021-04-30: Digitization: Prevent race conditions when updating GRP by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#6048](https://github.com/AliceO2Group/AliceO2/pull/6048) 2021-05-03: jobutils: More robust return code determination by [@sawenzel](https://github.com/sawenzel)
