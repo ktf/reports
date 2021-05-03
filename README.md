@@ -5,8 +5,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
-- [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
-- [\#5988](https://github.com/AliceO2Group/AliceO2/pull/5988) 2021-04-25: Analysis/Task/PWGDQ: add a sample task for V0 selection by [@dsekihat](https://github.com/dsekihat)
 - [\#6005](https://github.com/AliceO2Group/AliceO2/pull/6005) 2021-04-27: Remove virtual before override by [@njacazio](https://github.com/njacazio)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6007](https://github.com/AliceO2Group/AliceO2/pull/6007) 2021-04-27: PID: autoenabling the tables needed for analysis by [@njacazio](https://github.com/njacazio)
@@ -22,9 +20,6 @@
 ## Recent developments in O2 - Detectors
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
-- [\#5998](https://github.com/AliceO2Group/AliceO2/pull/5998) 2021-04-25: Add MC collision labels to AOD by [@nburmaso](https://github.com/nburmaso)
-- [\#6002](https://github.com/AliceO2Group/AliceO2/pull/6002) 2021-04-25: Add a gpu-reco-workflow for GPU reconstruction by [@davidrohr](https://github.com/davidrohr)
-- [\#6004](https://github.com/AliceO2Group/AliceO2/pull/6004) 2021-04-25: Reduce a bit the library dependencies by [@davidrohr](https://github.com/davidrohr)
 - [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
 - [\#6009](https://github.com/AliceO2Group/AliceO2/pull/6009) 2021-04-27: Remove some obsolete classes in the TPC reco / workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
@@ -37,7 +32,6 @@
 - [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#5987](https://github.com/AliceO2Group/AliceO2/pull/5987) 2021-04-25: PID: extend QA, add parametrizations for the TOF by [@njacazio](https://github.com/njacazio)
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
 - [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
 - [\#6024](https://github.com/AliceO2Group/AliceO2/pull/6024) 2021-04-30: Use a 64bit metric for the arrow delta. by [@ktf](https://github.com/ktf)
