@@ -23,6 +23,7 @@
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
 - [\#6046](https://github.com/AliceO2Group/AliceO2/pull/6046) 2021-05-03: Fix in GlobalTrackID::includesDet method by [@shahor02](https://github.com/shahor02)
 - [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
+- [\#6059](https://github.com/AliceO2Group/AliceO2/pull/6059) 2021-05-04: Add missing header to ROOTMAP by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
