@@ -41,6 +41,7 @@
 - [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
+- [\#6047](https://github.com/AliceO2Group/AliceO2/pull/6047) 2021-05-04: Use InputHelper in global workflows, avoid global DataRequest + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#6006](https://github.com/AliceO2Group/AliceO2/pull/6006) 2021-04-27: DPL Analysis: add table name to spawner errors by [@aalkin](https://github.com/aalkin)
