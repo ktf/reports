@@ -27,7 +27,6 @@
 - [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6059](https://github.com/AliceO2Group/AliceO2/pull/6059) 2021-05-04: Add missing header to ROOTMAP by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#5969](https://github.com/AliceO2Group/AliceO2/pull/5969) 2021-04-28: Matching TPC-only tracks to TRD tracklets by [@martenole](https://github.com/martenole)
 - [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 - [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
