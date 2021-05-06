@@ -1,5 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-57f-01: Done on 2021-04-27.
 - v5-09-57g-01: Done on 2021-04-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
@@ -49,7 +48,6 @@
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6060](https://github.com/AliceO2Group/AliceO2/pull/6060) 2021-05-04: MCH: adapted page reader output spec to three-letters standard by [@aferrero2707](https://github.com/aferrero2707)
 ## Recent developments in O2 - Framework
-- [\#6018](https://github.com/AliceO2Group/AliceO2/pull/6018) 2021-04-28: DPL: fix for XCode 12.5 by [@ktf](https://github.com/ktf)
 - [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6024](https://github.com/AliceO2Group/AliceO2/pull/6024) 2021-04-30: Use a 64bit metric for the arrow delta. by [@ktf](https://github.com/ktf)
 - [\#6025](https://github.com/AliceO2Group/AliceO2/pull/6025) 2021-04-29: DPL: remove debug template instanciation by [@ktf](https://github.com/ktf)
