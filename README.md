@@ -62,6 +62,7 @@
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6068](https://github.com/AliceO2Group/AliceO2/pull/6068) 2021-05-05: DPL: drop unneeded header. by [@ktf](https://github.com/ktf)
 - [\#6071](https://github.com/AliceO2Group/AliceO2/pull/6071) 2021-05-05: AliECS dump: parametrize session id by [@knopers8](https://github.com/knopers8)
+- [\#6072](https://github.com/AliceO2Group/AliceO2/pull/6072) 2021-05-06: DPL: allow for custom channel selection in multi output proxy by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Steer
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6033](https://github.com/AliceO2Group/AliceO2/pull/6033) 2021-04-30: Digitization: Prevent race conditions when updating GRP by [@sawenzel](https://github.com/sawenzel)
