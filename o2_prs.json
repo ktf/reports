@@ -5,146 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-29T15:42:00Z",
-            "title": "[FIT] calibration workflow refactoring",
-            "number": 5985,
-            "author": {
-              "login": "Kavaldrin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0CalibrationInfoObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0ChannelTimeCalibrationObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0ChannelTimeTimeSlotContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0DummyCalibrationObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/makeDummyFT0CalibObjectInCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelDataTimeSlotContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelTimeCalibrationObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelTimeTimeSlotContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0Calibration-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0CalibrationDummy-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibration-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibrationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0TFProcessor-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationAlgorithmGetter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationObjectProducer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/src/FITCalibrationAlgorithmGetter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/src/FITCalibrationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-22T20:50:06Z",
             "title": "Make radial offset static class member",
             "number": 5986,
@@ -6416,6 +6276,36 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] add optional protections against high-occupancy DE and/or event",
+            "number": 6085,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/PreClustering/include/MCHPreClustering/PreClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/PreClustering/src/PreClusterFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/PreClusterFinderSpec.cxx"
                   }
                 }
               ]

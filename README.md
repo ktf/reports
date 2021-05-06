@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-57g-01: Done on 2021-04-28.
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 ## Recent developments in O2 - Analysis
 - [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6032](https://github.com/AliceO2Group/AliceO2/pull/6032) 2021-05-04: PWGLF: Clean spectra tasks by [@njacazio](https://github.com/njacazio)
@@ -33,7 +31,6 @@
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#5985](https://github.com/AliceO2Group/AliceO2/pull/5985) 2021-04-29: [FIT] calibration workflow refactoring by [@Kavaldrin](https://github.com/Kavaldrin)
 - [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
 - [\#6012](https://github.com/AliceO2Group/AliceO2/pull/6012) 2021-04-29: TRD: Fix FeeParam variable initialization by [@jolopezl](https://github.com/jolopezl)
 - [\#6013](https://github.com/AliceO2Group/AliceO2/pull/6013) 2021-05-03: TRD: Better handling of labels at the digitizer by [@jolopezl](https://github.com/jolopezl)
