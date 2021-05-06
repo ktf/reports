@@ -29,6 +29,7 @@
 - [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6059](https://github.com/AliceO2Group/AliceO2/pull/6059) 2021-05-04: Add missing header to ROOTMAP by [@davidrohr](https://github.com/davidrohr)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
+- [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6008](https://github.com/AliceO2Group/AliceO2/pull/6008) 2021-04-30: FV0: simulate CFD threshold and dead-time by [@hcab14](https://github.com/hcab14)
@@ -50,7 +51,9 @@
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6060](https://github.com/AliceO2Group/AliceO2/pull/6060) 2021-05-04: MCH: adapted page reader output spec to three-letters standard by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
+- [\#6065](https://github.com/AliceO2Group/AliceO2/pull/6065) 2021-05-06: fluka input data filename corrected by [@amorsch](https://github.com/amorsch)
 - [\#6066](https://github.com/AliceO2Group/AliceO2/pull/6066) 2021-05-06: TRD track readers + requested changes from PR6057 by [@martenole](https://github.com/martenole)
+- [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 - [\#6079](https://github.com/AliceO2Group/AliceO2/pull/6079) 2021-05-06: FT0,FDD Fix copy-paste errors in ini files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -67,5 +70,6 @@
 - [\#6029](https://github.com/AliceO2Group/AliceO2/pull/6029) 2021-04-30: Common files like GRP, geometry, matLUT can be loaded from other dirs + related changes. by [@shahor02](https://github.com/shahor02)
 - [\#6033](https://github.com/AliceO2Group/AliceO2/pull/6033) 2021-04-30: Digitization: Prevent race conditions when updating GRP by [@sawenzel](https://github.com/sawenzel)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#6048](https://github.com/AliceO2Group/AliceO2/pull/6048) 2021-05-03: jobutils: More robust return code determination by [@sawenzel](https://github.com/sawenzel)
