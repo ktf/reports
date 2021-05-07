@@ -4,6 +4,7 @@
 - [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6032](https://github.com/AliceO2Group/AliceO2/pull/6032) 2021-05-04: PWGLF: Clean spectra tasks by [@njacazio](https://github.com/njacazio)
 - [\#6041](https://github.com/AliceO2Group/AliceO2/pull/6041) 2021-05-04: PWGHF: Add pt dependent mass histograms for mc task by [@ginnocen](https://github.com/ginnocen)
+- [\#6043](https://github.com/AliceO2Group/AliceO2/pull/6043) 2021-05-07: PWGHF: Add PID track selector class. by [@vkucera](https://github.com/vkucera)
 - [\#6058](https://github.com/AliceO2Group/AliceO2/pull/6058) 2021-05-04: Rename option in TOF MC QA by [@njacazio](https://github.com/njacazio)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6068](https://github.com/AliceO2Group/AliceO2/pull/6068) 2021-05-05: DPL: drop unneeded header. by [@ktf](https://github.com/ktf)
