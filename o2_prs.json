@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-25T16:23:46Z",
-            "title": "Add MC collision labels to AOD",
-            "number": 5998,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-23T20:15:58Z",
             "title": "fix in GlobalTrackID::getSourcesNames format",
             "number": 5999,
@@ -5719,8 +5699,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-05-07T22:23:01Z",
             "title": "Follow-up to #6084, add ClassDefs for TRD track classes and restore compilation in AliRoot",
             "number": 6089,
             "author": {
@@ -6081,6 +6061,41 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-05-07T22:30:24Z",
+            "title": "Fix 2 minor issues when reading TRD tracks",
+            "number": 6098,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrackReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackWriterSpec.cxx"
                   }
                 }
               ]
