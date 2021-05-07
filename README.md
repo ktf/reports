@@ -57,6 +57,7 @@
 - [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 - [\#6079](https://github.com/AliceO2Group/AliceO2/pull/6079) 2021-05-06: FT0,FDD Fix copy-paste errors in ini files by [@shahor02](https://github.com/shahor02)
+- [\#6083](https://github.com/AliceO2Group/AliceO2/pull/6083) 2021-05-07: Log only 1st instances of Alpide/GBT errors in ITS/MFT, summarize on EOS by [@shahor02](https://github.com/shahor02)
 - [\#6084](https://github.com/AliceO2Group/AliceO2/pull/6084) 2021-05-07: Create a class TrackTRD in o2::trd::dataformats, and add more TRD support to generic readers / recocontainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6086](https://github.com/AliceO2Group/AliceO2/pull/6086) 2021-05-06: Use new clang version, enable more OpenCL extensions, revert workarounds by [@davidrohr](https://github.com/davidrohr)
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
