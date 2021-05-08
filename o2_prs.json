@@ -4,141 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-04-30T08:37:48Z",
-            "title": "FV0: simulate CFD threshold and dead-time",
-            "number": 6008,
-            "author": {
-              "login": "hcab14"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/base/include/FV0Base/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/FV0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-04-27T06:42:45Z",
-            "title": "Remove some obsolete classes in the TPC reco / workflow",
-            "number": 6009,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/GPUCATracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/TPCTrackingDigitsPreCheck.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/GPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCReconstructionLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCTrackingDigitsPreCheck.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/test/testGPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ZSSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ZSSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUDataTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/runTPCRefit.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Added missing event selection criteria",
@@ -5639,8 +5504,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-05-08T17:54:59Z",
             "title": "DPL GUI: support for multiple axis",
             "number": 6100,
             "author": {
@@ -6056,6 +5921,131 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use createTracksVariadic instead of createTracksWithMatchingTimeInfo",
+            "number": 6108,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchCosmics.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: introduce RoFRecord in decoder",
+            "number": 6109,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/ROFFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/ROFFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/UserLogicElinkDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/testDigitsTimeComputation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/testROFFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/DsElecId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
                   }
                 }
               ]
