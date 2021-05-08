@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-04-25T09:02:45Z",
-            "title": "Add a gpu-reco-workflow for GPU reconstruction",
-            "number": 6002,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/cosmics-match-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/tpcits-match-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-interpolation-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCSectorCompletionPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TrackReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/TPCSectorCompletionPolicy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test_pipeline.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-04-25T20:38:16Z",
             "title": "Several unrelated fixes for AliRoot, OpenCL, compiler / build issues",
             "number": 6003,
@@ -6011,6 +5901,151 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "boost::filesystem -> std::filesystem",
+            "number": 6102,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/StringUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testCompStream.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testMemFileHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/CTFCoderBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/test/buildMatBudLUT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/RawCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/RawCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/simulation/src/digit2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/GEMAmplification.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/digi2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ChannelSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/test_RootTreeWriterWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/GRPUpdaterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataCompression/test/test_HuffmanCodec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingBenchmark.cxx"
                   }
                 }
               ]
