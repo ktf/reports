@@ -34,6 +34,7 @@
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
 - [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
+- [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6013](https://github.com/AliceO2Group/AliceO2/pull/6013) 2021-05-03: TRD: Better handling of labels at the digitizer by [@jolopezl](https://github.com/jolopezl)
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
@@ -64,6 +65,7 @@
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
 - [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6101](https://github.com/AliceO2Group/AliceO2/pull/6101) 2021-05-08: TRD Bugfix: TPC track id is overwritten during loading by [@davidrohr](https://github.com/davidrohr)
+- [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6051](https://github.com/AliceO2Group/AliceO2/pull/6051) 2021-05-03: DPL Analysis: fix for spawner trying to create a projector for a table with empty schema by [@aalkin](https://github.com/aalkin)
