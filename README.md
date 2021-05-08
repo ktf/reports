@@ -21,6 +21,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#6013](https://github.com/AliceO2Group/AliceO2/pull/6013) 2021-05-03: TRD: Better handling of labels at the digitizer by [@jolopezl](https://github.com/jolopezl)
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
+- [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
 - [\#6046](https://github.com/AliceO2Group/AliceO2/pull/6046) 2021-05-03: Fix in GlobalTrackID::includesDet method by [@shahor02](https://github.com/shahor02)
@@ -39,6 +40,7 @@
 - [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
 - [\#6038](https://github.com/AliceO2Group/AliceO2/pull/6038) 2021-05-02:  Raw decoding optimized; Made Mapping singleton; Semigauss raw fitter added; by [@peressounko](https://github.com/peressounko)
 - [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
 - [\#6047](https://github.com/AliceO2Group/AliceO2/pull/6047) 2021-05-04: Use InputHelper in global workflows, avoid global DataRequest + related fixes by [@shahor02](https://github.com/shahor02)
@@ -58,6 +60,7 @@
 - [\#6085](https://github.com/AliceO2Group/AliceO2/pull/6085) 2021-05-08: [MCH] add optional protections against high-occupancy DE and/or event by [@pillot](https://github.com/pillot)
 - [\#6086](https://github.com/AliceO2Group/AliceO2/pull/6086) 2021-05-06: Use new clang version, enable more OpenCL extensions, revert workarounds by [@davidrohr](https://github.com/davidrohr)
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
+- [\#6092](https://github.com/AliceO2Group/AliceO2/pull/6092) 2021-05-08: Multithread version of populateCCDB used at MW2 by [@shahor02](https://github.com/shahor02)
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
 - [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6101](https://github.com/AliceO2Group/AliceO2/pull/6101) 2021-05-08: TRD Bugfix: TPC track id is overwritten during loading by [@davidrohr](https://github.com/davidrohr)
@@ -72,6 +75,7 @@
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
 - [\#6087](https://github.com/AliceO2Group/AliceO2/pull/6087) 2021-05-07: DPL GUI: improve profiler / debugger support by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
+- [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
