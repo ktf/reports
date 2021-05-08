@@ -81,3 +81,4 @@
 ## Recent developments in O2 - Utilities
 - [\#6048](https://github.com/AliceO2Group/AliceO2/pull/6048) 2021-05-03: jobutils: More robust return code determination by [@sawenzel](https://github.com/sawenzel)
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
+- [\#6105](https://github.com/AliceO2Group/AliceO2/pull/6105) 2021-05-08: jobutils: Fix propagation of return codes by [@sawenzel](https://github.com/sawenzel)
