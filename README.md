@@ -40,7 +40,6 @@
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
 - [\#6038](https://github.com/AliceO2Group/AliceO2/pull/6038) 2021-05-02:  Raw decoding optimized; Made Mapping singleton; Semigauss raw fitter added; by [@peressounko](https://github.com/peressounko)
-- [\#6039](https://github.com/AliceO2Group/AliceO2/pull/6039) 2021-05-01: add FT0 recpoints reader to InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6042](https://github.com/AliceO2Group/AliceO2/pull/6042) 2021-05-02: RecoContainer: considers simpler contributors if derived track was rejected by [@shahor02](https://github.com/shahor02)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
