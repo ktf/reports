@@ -36,6 +36,8 @@
 - [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 - [\#6108](https://github.com/AliceO2Group/AliceO2/pull/6108) 2021-05-09: Use createTracksVariadic instead of createTracksWithMatchingTimeInfo by [@shahor02](https://github.com/shahor02)
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
+- [\#6114](https://github.com/AliceO2Group/AliceO2/pull/6114) 2021-05-09: Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually by [@davidrohr](https://github.com/davidrohr)
+- [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
@@ -68,6 +70,8 @@
 - [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 - [\#6108](https://github.com/AliceO2Group/AliceO2/pull/6108) 2021-05-09: Use createTracksVariadic instead of createTracksWithMatchingTimeInfo by [@shahor02](https://github.com/shahor02)
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
+- [\#6114](https://github.com/AliceO2Group/AliceO2/pull/6114) 2021-05-09: Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually by [@davidrohr](https://github.com/davidrohr)
+- [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6051](https://github.com/AliceO2Group/AliceO2/pull/6051) 2021-05-03: DPL Analysis: fix for spawner trying to create a projector for a table with empty schema by [@aalkin](https://github.com/aalkin)
