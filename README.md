@@ -2,7 +2,6 @@
 - v5-09-55c-01: Done on 2021-05-07.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6032](https://github.com/AliceO2Group/AliceO2/pull/6032) 2021-05-04: PWGLF: Clean spectra tasks by [@njacazio](https://github.com/njacazio)
 - [\#6041](https://github.com/AliceO2Group/AliceO2/pull/6041) 2021-05-04: PWGHF: Add pt dependent mass histograms for mc task by [@ginnocen](https://github.com/ginnocen)
 - [\#6043](https://github.com/AliceO2Group/AliceO2/pull/6043) 2021-05-07: PWGHF: Add PID track selector class. by [@vkucera](https://github.com/vkucera)
@@ -39,6 +38,7 @@
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
 - [\#6114](https://github.com/AliceO2Group/AliceO2/pull/6114) 2021-05-09: Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually by [@davidrohr](https://github.com/davidrohr)
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
+- [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
@@ -74,8 +74,8 @@
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
 - [\#6114](https://github.com/AliceO2Group/AliceO2/pull/6114) 2021-05-09: Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually by [@davidrohr](https://github.com/davidrohr)
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
+- [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6019](https://github.com/AliceO2Group/AliceO2/pull/6019) 2021-05-03: DPL Analysis: preliminary work for multiple process() functions by [@aalkin](https://github.com/aalkin)
 - [\#6051](https://github.com/AliceO2Group/AliceO2/pull/6051) 2021-05-03: DPL Analysis: fix for spawner trying to create a projector for a table with empty schema by [@aalkin](https://github.com/aalkin)
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
