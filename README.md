@@ -53,6 +53,7 @@
 - [\#6065](https://github.com/AliceO2Group/AliceO2/pull/6065) 2021-05-06: fluka input data filename corrected by [@amorsch](https://github.com/amorsch)
 - [\#6066](https://github.com/AliceO2Group/AliceO2/pull/6066) 2021-05-06: TRD track readers + requested changes from PR6057 by [@martenole](https://github.com/martenole)
 - [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
+- [\#6069](https://github.com/AliceO2Group/AliceO2/pull/6069) 2021-05-09: Tested with the Entropy Encoder. OK by [@fapfap69](https://github.com/fapfap69)
 - [\#6070](https://github.com/AliceO2Group/AliceO2/pull/6070) 2021-05-08: reducing granularity in PoissonSolver test by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 - [\#6079](https://github.com/AliceO2Group/AliceO2/pull/6079) 2021-05-06: FT0,FDD Fix copy-paste errors in ini files by [@shahor02](https://github.com/shahor02)
