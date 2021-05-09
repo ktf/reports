@@ -77,7 +77,9 @@
 - [\#6072](https://github.com/AliceO2Group/AliceO2/pull/6072) 2021-05-06: DPL: allow for custom channel selection in multi output proxy by [@knopers8](https://github.com/knopers8)
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
 - [\#6087](https://github.com/AliceO2Group/AliceO2/pull/6087) 2021-05-07: DPL GUI: improve profiler / debugger support by [@ktf](https://github.com/ktf)
+- [\#6091](https://github.com/AliceO2Group/AliceO2/pull/6091) 2021-05-09: Introduce Resource management by [@ktf](https://github.com/ktf)
 - [\#6100](https://github.com/AliceO2Group/AliceO2/pull/6100) 2021-05-08: DPL GUI: support for multiple axis by [@ktf](https://github.com/ktf)
+- [\#6106](https://github.com/AliceO2Group/AliceO2/pull/6106) 2021-05-09: DPL: Print out Device name of missing input [O2-2317] by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
