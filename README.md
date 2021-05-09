@@ -18,6 +18,7 @@
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
 - [\#6086](https://github.com/AliceO2Group/AliceO2/pull/6086) 2021-05-06: Use new clang version, enable more OpenCL extensions, revert workarounds by [@davidrohr](https://github.com/davidrohr)
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
+- [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
@@ -67,6 +68,7 @@
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
 - [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6101](https://github.com/AliceO2Group/AliceO2/pull/6101) 2021-05-08: TRD Bugfix: TPC track id is overwritten during loading by [@davidrohr](https://github.com/davidrohr)
+- [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 - [\#6108](https://github.com/AliceO2Group/AliceO2/pull/6108) 2021-05-09: Use createTracksVariadic instead of createTracksWithMatchingTimeInfo by [@shahor02](https://github.com/shahor02)
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
@@ -84,12 +86,15 @@
 - [\#6087](https://github.com/AliceO2Group/AliceO2/pull/6087) 2021-05-07: DPL GUI: improve profiler / debugger support by [@ktf](https://github.com/ktf)
 - [\#6091](https://github.com/AliceO2Group/AliceO2/pull/6091) 2021-05-09: Introduce Resource management by [@ktf](https://github.com/ktf)
 - [\#6100](https://github.com/AliceO2Group/AliceO2/pull/6100) 2021-05-08: DPL GUI: support for multiple axis by [@ktf](https://github.com/ktf)
+- [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6106](https://github.com/AliceO2Group/AliceO2/pull/6106) 2021-05-09: DPL: Print out Device name of missing input [O2-2317] by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
+- [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6048](https://github.com/AliceO2Group/AliceO2/pull/6048) 2021-05-03: jobutils: More robust return code determination by [@sawenzel](https://github.com/sawenzel)
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
+- [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6105](https://github.com/AliceO2Group/AliceO2/pull/6105) 2021-05-08: jobutils: Fix propagation of return codes by [@sawenzel](https://github.com/sawenzel)
