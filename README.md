@@ -75,6 +75,7 @@
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6122](https://github.com/AliceO2Group/AliceO2/pull/6122) 2021-05-10: Add --loop and --delay options to o2-ctf-reader-workflow by [@shahor02](https://github.com/shahor02)
+- [\#6123](https://github.com/AliceO2Group/AliceO2/pull/6123) 2021-05-10: Fix type of aod-timeframe-id to uint64 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#6051](https://github.com/AliceO2Group/AliceO2/pull/6051) 2021-05-03: DPL Analysis: fix for spawner trying to create a projector for a table with empty schema by [@aalkin](https://github.com/aalkin)
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
