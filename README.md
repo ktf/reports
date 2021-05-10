@@ -63,6 +63,7 @@
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6092](https://github.com/AliceO2Group/AliceO2/pull/6092) 2021-05-08: Multithread version of populateCCDB used at MW2 by [@shahor02](https://github.com/shahor02)
 - [\#6093](https://github.com/AliceO2Group/AliceO2/pull/6093) 2021-05-10: Explicitly add direct dependencies by [@dstocco](https://github.com/dstocco)
+- [\#6094](https://github.com/AliceO2Group/AliceO2/pull/6094) 2021-05-10: Fix crash occurring when MID decoder spec is stopped without having collected data by [@dstocco](https://github.com/dstocco)
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
 - [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6101](https://github.com/AliceO2Group/AliceO2/pull/6101) 2021-05-08: TRD Bugfix: TPC track id is overwritten during loading by [@davidrohr](https://github.com/davidrohr)
