@@ -20,7 +20,6 @@
 - [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
 - [\#6046](https://github.com/AliceO2Group/AliceO2/pull/6046) 2021-05-03: Fix in GlobalTrackID::includesDet method by [@shahor02](https://github.com/shahor02)
@@ -41,7 +40,6 @@
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6026](https://github.com/AliceO2Group/AliceO2/pull/6026) 2021-05-03: TRD tracking adaptions in view of GPU processing by [@martenole](https://github.com/martenole)
 - [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
