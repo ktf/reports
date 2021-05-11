@@ -10,6 +10,7 @@
 - [\#6073](https://github.com/AliceO2Group/AliceO2/pull/6073) 2021-05-06: Merging same and mixed event correlation analysis by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6080](https://github.com/AliceO2Group/AliceO2/pull/6080) 2021-05-07: improving configuration harvesting by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6096](https://github.com/AliceO2Group/AliceO2/pull/6096) 2021-05-10: Rework of some tutorials by [@pbuehler](https://github.com/pbuehler)
+- [\#6118](https://github.com/AliceO2Group/AliceO2/pull/6118) 2021-05-11: PID: rename default PID tables and tasks by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
