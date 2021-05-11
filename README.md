@@ -86,6 +86,7 @@
 - [\#6100](https://github.com/AliceO2Group/AliceO2/pull/6100) 2021-05-08: DPL GUI: support for multiple axis by [@ktf](https://github.com/ktf)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6106](https://github.com/AliceO2Group/AliceO2/pull/6106) 2021-05-09: DPL: Print out Device name of missing input [O2-2317] by [@ktf](https://github.com/ktf)
+- [\#6133](https://github.com/AliceO2Group/AliceO2/pull/6133) 2021-05-11: DPL: improve documentation for DPL metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
