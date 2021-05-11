@@ -21,9 +21,6 @@
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
-- [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
-- [\#6046](https://github.com/AliceO2Group/AliceO2/pull/6046) 2021-05-03: Fix in GlobalTrackID::includesDet method by [@shahor02](https://github.com/shahor02)
-- [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6059](https://github.com/AliceO2Group/AliceO2/pull/6059) 2021-05-04: Add missing header to ROOTMAP by [@davidrohr](https://github.com/davidrohr)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
@@ -40,11 +37,8 @@
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6036](https://github.com/AliceO2Group/AliceO2/pull/6036) 2021-05-03: Ensure MFT digits are decoded in chipID increasing order by [@shahor02](https://github.com/shahor02)
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
-- [\#6045](https://github.com/AliceO2Group/AliceO2/pull/6045) 2021-05-03: Adapt ITS-TPC matching combined or separate ITS-(TPC,TPC-TOF) input by [@shahor02](https://github.com/shahor02)
 - [\#6047](https://github.com/AliceO2Group/AliceO2/pull/6047) 2021-05-04: Use InputHelper in global workflows, avoid global DataRequest + related fixes by [@shahor02](https://github.com/shahor02)
-- [\#6050](https://github.com/AliceO2Group/AliceO2/pull/6050) 2021-05-03: IDC data format + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6053](https://github.com/AliceO2Group/AliceO2/pull/6053) 2021-05-08: [MFT] Adds configuration methods to the MFT track fitter by [@rpezzi](https://github.com/rpezzi)
 - [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6060](https://github.com/AliceO2Group/AliceO2/pull/6060) 2021-05-04: MCH: adapted page reader output spec to three-letters standard by [@aferrero2707](https://github.com/aferrero2707)
@@ -78,7 +72,6 @@
 - [\#6122](https://github.com/AliceO2Group/AliceO2/pull/6122) 2021-05-10: Add --loop and --delay options to o2-ctf-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#6123](https://github.com/AliceO2Group/AliceO2/pull/6123) 2021-05-10: Fix type of aod-timeframe-id to uint64 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#6051](https://github.com/AliceO2Group/AliceO2/pull/6051) 2021-05-03: DPL Analysis: fix for spawner trying to create a projector for a table with empty schema by [@aalkin](https://github.com/aalkin)
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6068](https://github.com/AliceO2Group/AliceO2/pull/6068) 2021-05-05: DPL: drop unneeded header. by [@ktf](https://github.com/ktf)
@@ -96,7 +89,6 @@
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#6048](https://github.com/AliceO2Group/AliceO2/pull/6048) 2021-05-03: jobutils: More robust return code determination by [@sawenzel](https://github.com/sawenzel)
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6105](https://github.com/AliceO2Group/AliceO2/pull/6105) 2021-05-08: jobutils: Fix propagation of return codes by [@sawenzel](https://github.com/sawenzel)
