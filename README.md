@@ -2,7 +2,6 @@
 - v5-09-55c-01: Done on 2021-05-07.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6032](https://github.com/AliceO2Group/AliceO2/pull/6032) 2021-05-04: PWGLF: Clean spectra tasks by [@njacazio](https://github.com/njacazio)
 - [\#6041](https://github.com/AliceO2Group/AliceO2/pull/6041) 2021-05-04: PWGHF: Add pt dependent mass histograms for mc task by [@ginnocen](https://github.com/ginnocen)
 - [\#6043](https://github.com/AliceO2Group/AliceO2/pull/6043) 2021-05-07: PWGHF: Add PID track selector class. by [@vkucera](https://github.com/vkucera)
 - [\#6058](https://github.com/AliceO2Group/AliceO2/pull/6058) 2021-05-04: Rename option in TOF MC QA by [@njacazio](https://github.com/njacazio)
