@@ -36,6 +36,7 @@
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
+- [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 - [\#6138](https://github.com/AliceO2Group/AliceO2/pull/6138) 2021-05-12: TrackPar::setPID will not alter the charge by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6053](https://github.com/AliceO2Group/AliceO2/pull/6053) 2021-05-08: [MFT] Adds configuration methods to the MFT track fitter by [@rpezzi](https://github.com/rpezzi)
@@ -71,6 +72,7 @@
 - [\#6123](https://github.com/AliceO2Group/AliceO2/pull/6123) 2021-05-10: Fix type of aod-timeframe-id to uint64 by [@sawenzel](https://github.com/sawenzel)
 - [\#6127](https://github.com/AliceO2Group/AliceO2/pull/6127) 2021-05-12: MID raw data checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
+- [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
@@ -88,6 +90,7 @@
 - [\#6133](https://github.com/AliceO2Group/AliceO2/pull/6133) 2021-05-11: DPL: improve documentation for DPL metrics by [@ktf](https://github.com/ktf)
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
 - [\#6137](https://github.com/AliceO2Group/AliceO2/pull/6137) 2021-05-12: DPL GUI: use id rather than device name to identify metrics by [@ktf](https://github.com/ktf)
+- [\#6139](https://github.com/AliceO2Group/AliceO2/pull/6139) 2021-05-12: DPL: fix off by one error in metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
