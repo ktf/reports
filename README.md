@@ -71,6 +71,7 @@
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
 - [\#6122](https://github.com/AliceO2Group/AliceO2/pull/6122) 2021-05-10: Add --loop and --delay options to o2-ctf-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#6123](https://github.com/AliceO2Group/AliceO2/pull/6123) 2021-05-10: Fix type of aod-timeframe-id to uint64 by [@sawenzel](https://github.com/sawenzel)
+- [\#6127](https://github.com/AliceO2Group/AliceO2/pull/6127) 2021-05-12: MID raw data checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
