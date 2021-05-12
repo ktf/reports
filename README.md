@@ -73,6 +73,7 @@
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 - [\#6141](https://github.com/AliceO2Group/AliceO2/pull/6141) 2021-05-12: Fix in TPC-ITS matching: cleaunup of prev TF reco buffers was incomplete by [@shahor02](https://github.com/shahor02)
+- [\#6145](https://github.com/AliceO2Group/AliceO2/pull/6145) 2021-05-12: make sure MFT digi2raw creates 1 file per link if requested by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
