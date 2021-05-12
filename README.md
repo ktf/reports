@@ -85,6 +85,7 @@
 - [\#6100](https://github.com/AliceO2Group/AliceO2/pull/6100) 2021-05-08: DPL GUI: support for multiple axis by [@ktf](https://github.com/ktf)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6106](https://github.com/AliceO2Group/AliceO2/pull/6106) 2021-05-09: DPL: Print out Device name of missing input [O2-2317] by [@ktf](https://github.com/ktf)
+- [\#6126](https://github.com/AliceO2Group/AliceO2/pull/6126) 2021-05-12: DPL: Propagate labels to DeviceSpec by [@knopers8](https://github.com/knopers8)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
 - [\#6133](https://github.com/AliceO2Group/AliceO2/pull/6133) 2021-05-11: DPL: improve documentation for DPL metrics by [@ktf](https://github.com/ktf)
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
