@@ -88,6 +88,7 @@
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
 - [\#6133](https://github.com/AliceO2Group/AliceO2/pull/6133) 2021-05-11: DPL: improve documentation for DPL metrics by [@ktf](https://github.com/ktf)
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
+- [\#6137](https://github.com/AliceO2Group/AliceO2/pull/6137) 2021-05-12: DPL GUI: use id rather than device name to identify metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
