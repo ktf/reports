@@ -2,9 +2,7 @@
 - v5-09-55c-01: Done on 2021-05-07.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6041](https://github.com/AliceO2Group/AliceO2/pull/6041) 2021-05-04: PWGHF: Add pt dependent mass histograms for mc task by [@ginnocen](https://github.com/ginnocen)
 - [\#6043](https://github.com/AliceO2Group/AliceO2/pull/6043) 2021-05-07: PWGHF: Add PID track selector class. by [@vkucera](https://github.com/vkucera)
-- [\#6058](https://github.com/AliceO2Group/AliceO2/pull/6058) 2021-05-04: Rename option in TOF MC QA by [@njacazio](https://github.com/njacazio)
 - [\#6063](https://github.com/AliceO2Group/AliceO2/pull/6063) 2021-05-05: Split HistogramRegistry headers + AxisConfigurables in Correlations  by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6068](https://github.com/AliceO2Group/AliceO2/pull/6068) 2021-05-05: DPL: drop unneeded header. by [@ktf](https://github.com/ktf)
 - [\#6073](https://github.com/AliceO2Group/AliceO2/pull/6073) 2021-05-06: Merging same and mixed event correlation analysis by [@jgrosseo](https://github.com/jgrosseo)
@@ -12,7 +10,6 @@
 - [\#6096](https://github.com/AliceO2Group/AliceO2/pull/6096) 2021-05-10: Rework of some tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6118](https://github.com/AliceO2Group/AliceO2/pull/6118) 2021-05-11: PID: rename default PID tables and tasks by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6062](https://github.com/AliceO2Group/AliceO2/pull/6062) 2021-05-05: DPL: add a DataTakingContext to be filled with run related constants by [@ktf](https://github.com/ktf)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
@@ -21,7 +18,6 @@
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
-- [\#6059](https://github.com/AliceO2Group/AliceO2/pull/6059) 2021-05-04: Add missing header to ROOTMAP by [@davidrohr](https://github.com/davidrohr)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6067](https://github.com/AliceO2Group/AliceO2/pull/6067) 2021-05-06: New CPV data format by [@sevdokim](https://github.com/sevdokim)
 - [\#6077](https://github.com/AliceO2Group/AliceO2/pull/6077) 2021-05-06: Multiple fixes for PVertexing and related classes by [@shahor02](https://github.com/shahor02)
@@ -40,10 +36,7 @@
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
-- [\#6047](https://github.com/AliceO2Group/AliceO2/pull/6047) 2021-05-04: Use InputHelper in global workflows, avoid global DataRequest + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#6053](https://github.com/AliceO2Group/AliceO2/pull/6053) 2021-05-08: [MFT] Adds configuration methods to the MFT track fitter by [@rpezzi](https://github.com/rpezzi)
-- [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
-- [\#6060](https://github.com/AliceO2Group/AliceO2/pull/6060) 2021-05-04: MCH: adapted page reader output spec to three-letters standard by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6064](https://github.com/AliceO2Group/AliceO2/pull/6064) 2021-05-06: GPU Workflow: Add helper class to fill GPUIOPtr from RecoContainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6065](https://github.com/AliceO2Group/AliceO2/pull/6065) 2021-05-06: fluka input data filename corrected by [@amorsch](https://github.com/amorsch)
 - [\#6066](https://github.com/AliceO2Group/AliceO2/pull/6066) 2021-05-06: TRD track readers + requested changes from PR6057 by [@martenole](https://github.com/martenole)
@@ -90,7 +83,6 @@
 - [\#6133](https://github.com/AliceO2Group/AliceO2/pull/6133) 2021-05-11: DPL: improve documentation for DPL metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
-- [\#6057](https://github.com/AliceO2Group/AliceO2/pull/6057) 2021-05-04: Work on TRD in the GPU workflow, move around several files and reduce dependencies, some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
