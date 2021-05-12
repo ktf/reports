@@ -37,6 +37,7 @@
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
+- [\#6138](https://github.com/AliceO2Group/AliceO2/pull/6138) 2021-05-12: TrackPar::setPID will not alter the charge by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6040](https://github.com/AliceO2Group/AliceO2/pull/6040) 2021-05-08: Ctp configuration mostly by [@lietava](https://github.com/lietava)
 - [\#6053](https://github.com/AliceO2Group/AliceO2/pull/6053) 2021-05-08: [MFT] Adds configuration methods to the MFT track fitter by [@rpezzi](https://github.com/rpezzi)
