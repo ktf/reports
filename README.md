@@ -74,8 +74,10 @@
 - [\#6127](https://github.com/AliceO2Group/AliceO2/pull/6127) 2021-05-12: MID raw data checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
+- [\#6131](https://github.com/AliceO2Group/AliceO2/pull/6131) 2021-05-13: Check/enforce that all links got AddData call in every IR it processed by [@shahor02](https://github.com/shahor02)
 - [\#6141](https://github.com/AliceO2Group/AliceO2/pull/6141) 2021-05-12: Fix in TPC-ITS matching: cleaunup of prev TF reco buffers was incomplete by [@shahor02](https://github.com/shahor02)
 - [\#6145](https://github.com/AliceO2Group/AliceO2/pull/6145) 2021-05-12: make sure MFT digi2raw creates 1 file per link if requested by [@shahor02](https://github.com/shahor02)
+- [\#6147](https://github.com/AliceO2Group/AliceO2/pull/6147) 2021-05-13: [EMCAL-699] Add RCU trailer also for links without payload by [@mfasDa](https://github.com/mfasDa)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6072](https://github.com/AliceO2Group/AliceO2/pull/6072) 2021-05-06: DPL: allow for custom channel selection in multi output proxy by [@knopers8](https://github.com/knopers8)
@@ -91,6 +93,7 @@
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
 - [\#6137](https://github.com/AliceO2Group/AliceO2/pull/6137) 2021-05-12: DPL GUI: use id rather than device name to identify metrics by [@ktf](https://github.com/ktf)
 - [\#6139](https://github.com/AliceO2Group/AliceO2/pull/6139) 2021-05-12: DPL: fix off by one error in metrics by [@ktf](https://github.com/ktf)
+- [\#6140](https://github.com/AliceO2Group/AliceO2/pull/6140) 2021-05-13: DPL: improve signaling logic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6082](https://github.com/AliceO2Group/AliceO2/pull/6082) 2021-05-06: Some fixes in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
