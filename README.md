@@ -32,7 +32,6 @@
 - [\#6138](https://github.com/AliceO2Group/AliceO2/pull/6138) 2021-05-12: TrackPar::setPID will not alter the charge by [@shahor02](https://github.com/shahor02)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6053](https://github.com/AliceO2Group/AliceO2/pull/6053) 2021-05-08: [MFT] Adds configuration methods to the MFT track fitter by [@rpezzi](https://github.com/rpezzi)
 - [\#6069](https://github.com/AliceO2Group/AliceO2/pull/6069) 2021-05-09: Tested with the Entropy Encoder. OK by [@fapfap69](https://github.com/fapfap69)
 - [\#6070](https://github.com/AliceO2Group/AliceO2/pull/6070) 2021-05-08: reducing granularity in PoissonSolver test by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
