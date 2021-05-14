@@ -3245,7 +3245,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[MFT] Standalone vertex association (time-bracket matching)",
+            "title": "[MFT] Standalone vertex matching (time-bracket) & AOD table production",
             "number": 6120,
             "author": {
               "login": "rpezzi"
@@ -3270,6 +3270,26 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 },
                 {
