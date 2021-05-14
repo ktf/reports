@@ -65,6 +65,7 @@
 - [\#6145](https://github.com/AliceO2Group/AliceO2/pull/6145) 2021-05-12: make sure MFT digi2raw creates 1 file per link if requested by [@shahor02](https://github.com/shahor02)
 - [\#6147](https://github.com/AliceO2Group/AliceO2/pull/6147) 2021-05-13: [EMCAL-699] Add RCU trailer also for links without payload by [@mfasDa](https://github.com/mfasDa)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
+- [\#6156](https://github.com/AliceO2Group/AliceO2/pull/6156) 2021-05-14: throw exception with message instead of cout + exit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
 - [\#6087](https://github.com/AliceO2Group/AliceO2/pull/6087) 2021-05-07: DPL GUI: improve profiler / debugger support by [@ktf](https://github.com/ktf)
