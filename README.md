@@ -51,6 +51,7 @@
 - [\#6108](https://github.com/AliceO2Group/AliceO2/pull/6108) 2021-05-09: Use createTracksVariadic instead of createTracksWithMatchingTimeInfo by [@shahor02](https://github.com/shahor02)
 - [\#6111](https://github.com/AliceO2Group/AliceO2/pull/6111) 2021-05-09: Add PVertex to RecoContainer and InputHelper, deploy in workflows by [@shahor02](https://github.com/shahor02)
 - [\#6114](https://github.com/AliceO2Group/AliceO2/pull/6114) 2021-05-09: Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually by [@davidrohr](https://github.com/davidrohr)
+- [\#6115](https://github.com/AliceO2Group/AliceO2/pull/6115) 2021-05-14: channel offsets in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6116](https://github.com/AliceO2Group/AliceO2/pull/6116) 2021-05-09: RecoContainer was requesting ITS MC labels instead of TPC labels by [@davidrohr](https://github.com/davidrohr)
 - [\#6119](https://github.com/AliceO2Group/AliceO2/pull/6119) 2021-05-09: 2 minor bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
