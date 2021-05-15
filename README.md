@@ -27,6 +27,7 @@
 - [\#6138](https://github.com/AliceO2Group/AliceO2/pull/6138) 2021-05-12: TrackPar::setPID will not alter the charge by [@shahor02](https://github.com/shahor02)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 - [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
+- [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6069](https://github.com/AliceO2Group/AliceO2/pull/6069) 2021-05-09: Tested with the Entropy Encoder. OK by [@fapfap69](https://github.com/fapfap69)
 - [\#6070](https://github.com/AliceO2Group/AliceO2/pull/6070) 2021-05-08: reducing granularity in PoissonSolver test by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -60,6 +61,7 @@
 - [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
 - [\#6156](https://github.com/AliceO2Group/AliceO2/pull/6156) 2021-05-14: throw exception with message instead of cout + exit by [@shahor02](https://github.com/shahor02)
 - [\#6157](https://github.com/AliceO2Group/AliceO2/pull/6157) 2021-05-15: Add MaxDXYIni cut on DCAFitterN seed XY DCA by [@shahor02](https://github.com/shahor02)
+- [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
 - [\#6091](https://github.com/AliceO2Group/AliceO2/pull/6091) 2021-05-09: Introduce Resource management by [@ktf](https://github.com/ktf)
