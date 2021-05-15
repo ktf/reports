@@ -2,23 +2,18 @@
 - v5-09-55c-01: Done on 2021-05-07.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6080](https://github.com/AliceO2Group/AliceO2/pull/6080) 2021-05-07: improving configuration harvesting by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6095](https://github.com/AliceO2Group/AliceO2/pull/6095) 2021-05-12: Fix check on enabled tables by [@njacazio](https://github.com/njacazio)
 - [\#6096](https://github.com/AliceO2Group/AliceO2/pull/6096) 2021-05-10: Rework of some tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6118](https://github.com/AliceO2Group/AliceO2/pull/6118) 2021-05-11: PID: rename default PID tables and tasks by [@njacazio](https://github.com/njacazio)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Common
-- [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
 - [\#6146](https://github.com/AliceO2Group/AliceO2/pull/6146) 2021-05-13: Fix + Improvement for CUDA RTC compilation by [@davidrohr](https://github.com/davidrohr)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#6084](https://github.com/AliceO2Group/AliceO2/pull/6084) 2021-05-07: Create a class TrackTRD in o2::trd::dataformats, and add more TRD support to generic readers / recocontainer by [@davidrohr](https://github.com/davidrohr)
-- [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
-- [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
 - [\#6107](https://github.com/AliceO2Group/AliceO2/pull/6107) 2021-05-10: Cleanup for TRD tracking by [@martenole](https://github.com/martenole)
 - [\#6108](https://github.com/AliceO2Group/AliceO2/pull/6108) 2021-05-09: Use createTracksVariadic instead of createTracksWithMatchingTimeInfo by [@shahor02](https://github.com/shahor02)
@@ -35,15 +30,11 @@
 - [\#6069](https://github.com/AliceO2Group/AliceO2/pull/6069) 2021-05-09: Tested with the Entropy Encoder. OK by [@fapfap69](https://github.com/fapfap69)
 - [\#6070](https://github.com/AliceO2Group/AliceO2/pull/6070) 2021-05-08: reducing granularity in PoissonSolver test by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#6083](https://github.com/AliceO2Group/AliceO2/pull/6083) 2021-05-07: Log only 1st instances of Alpide/GBT errors in ITS/MFT, summarize on EOS by [@shahor02](https://github.com/shahor02)
-- [\#6084](https://github.com/AliceO2Group/AliceO2/pull/6084) 2021-05-07: Create a class TrackTRD in o2::trd::dataformats, and add more TRD support to generic readers / recocontainer by [@davidrohr](https://github.com/davidrohr)
 - [\#6085](https://github.com/AliceO2Group/AliceO2/pull/6085) 2021-05-08: [MCH] add optional protections against high-occupancy DE and/or event by [@pillot](https://github.com/pillot)
-- [\#6090](https://github.com/AliceO2Group/AliceO2/pull/6090) 2021-05-07: Fix file name building by [@fcatalan92](https://github.com/fcatalan92)
 - [\#6092](https://github.com/AliceO2Group/AliceO2/pull/6092) 2021-05-08: Multithread version of populateCCDB used at MW2 by [@shahor02](https://github.com/shahor02)
 - [\#6093](https://github.com/AliceO2Group/AliceO2/pull/6093) 2021-05-10: Explicitly add direct dependencies by [@dstocco](https://github.com/dstocco)
 - [\#6094](https://github.com/AliceO2Group/AliceO2/pull/6094) 2021-05-10: Fix crash occurring when MID decoder spec is stopped without having collected data by [@dstocco](https://github.com/dstocco)
 - [\#6097](https://github.com/AliceO2Group/AliceO2/pull/6097) 2021-05-08: If we use a template for the creator callback, we can pass in different track types by [@davidrohr](https://github.com/davidrohr)
-- [\#6098](https://github.com/AliceO2Group/AliceO2/pull/6098) 2021-05-07: Fix 2 minor issues when reading TRD tracks by [@davidrohr](https://github.com/davidrohr)
 - [\#6101](https://github.com/AliceO2Group/AliceO2/pull/6101) 2021-05-08: TRD Bugfix: TPC track id is overwritten during loading by [@davidrohr](https://github.com/davidrohr)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 - [\#6104](https://github.com/AliceO2Group/AliceO2/pull/6104) 2021-05-08: RecoContainer should create sharedClusterMap only if both clusters and tracks are requested by [@davidrohr](https://github.com/davidrohr)
@@ -68,7 +59,6 @@
 - [\#6156](https://github.com/AliceO2Group/AliceO2/pull/6156) 2021-05-14: throw exception with message instead of cout + exit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6078](https://github.com/AliceO2Group/AliceO2/pull/6078) 2021-05-08: [QC-579] Fix detecting overlapping inputs in DataSpecUtils::includes and Data Sampling by [@knopers8](https://github.com/knopers8)
-- [\#6087](https://github.com/AliceO2Group/AliceO2/pull/6087) 2021-05-07: DPL GUI: improve profiler / debugger support by [@ktf](https://github.com/ktf)
 - [\#6091](https://github.com/AliceO2Group/AliceO2/pull/6091) 2021-05-09: Introduce Resource management by [@ktf](https://github.com/ktf)
 - [\#6100](https://github.com/AliceO2Group/AliceO2/pull/6100) 2021-05-08: DPL GUI: support for multiple axis by [@ktf](https://github.com/ktf)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
