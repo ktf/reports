@@ -67,6 +67,7 @@
 - [\#6139](https://github.com/AliceO2Group/AliceO2/pull/6139) 2021-05-12: DPL: fix off by one error in metrics by [@ktf](https://github.com/ktf)
 - [\#6140](https://github.com/AliceO2Group/AliceO2/pull/6140) 2021-05-13: DPL: improve signaling logic by [@ktf](https://github.com/ktf)
 - [\#6163](https://github.com/AliceO2Group/AliceO2/pull/6163) 2021-05-16: DPL: implement ability for devices to watch driver messages by [@ktf](https://github.com/ktf)
+- [\#6165](https://github.com/AliceO2Group/AliceO2/pull/6165) 2021-05-16: Move SHA1 algorithm in 3rdparty header only library by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
