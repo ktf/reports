@@ -46,6 +46,7 @@
 - [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 - [\#6131](https://github.com/AliceO2Group/AliceO2/pull/6131) 2021-05-13: Check/enforce that all links got AddData call in every IR it processed by [@shahor02](https://github.com/shahor02)
 - [\#6141](https://github.com/AliceO2Group/AliceO2/pull/6141) 2021-05-12: Fix in TPC-ITS matching: cleaunup of prev TF reco buffers was incomplete by [@shahor02](https://github.com/shahor02)
+- [\#6142](https://github.com/AliceO2Group/AliceO2/pull/6142) 2021-05-16: [MCH] fix workflow option by [@pillot](https://github.com/pillot)
 - [\#6145](https://github.com/AliceO2Group/AliceO2/pull/6145) 2021-05-12: make sure MFT digi2raw creates 1 file per link if requested by [@shahor02](https://github.com/shahor02)
 - [\#6147](https://github.com/AliceO2Group/AliceO2/pull/6147) 2021-05-13: [EMCAL-699] Add RCU trailer also for links without payload by [@mfasDa](https://github.com/mfasDa)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
@@ -53,6 +54,7 @@
 - [\#6156](https://github.com/AliceO2Group/AliceO2/pull/6156) 2021-05-14: throw exception with message instead of cout + exit by [@shahor02](https://github.com/shahor02)
 - [\#6157](https://github.com/AliceO2Group/AliceO2/pull/6157) 2021-05-15: Add MaxDXYIni cut on DCAFitterN seed XY DCA by [@shahor02](https://github.com/shahor02)
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6091](https://github.com/AliceO2Group/AliceO2/pull/6091) 2021-05-09: Introduce Resource management by [@ktf](https://github.com/ktf)
 - [\#6102](https://github.com/AliceO2Group/AliceO2/pull/6102) 2021-05-09: boost::filesystem -> std::filesystem by [@shahor02](https://github.com/shahor02)
