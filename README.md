@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#6095](https://github.com/AliceO2Group/AliceO2/pull/6095) 2021-05-12: Fix check on enabled tables by [@njacazio](https://github.com/njacazio)
 - [\#6096](https://github.com/AliceO2Group/AliceO2/pull/6096) 2021-05-10: Rework of some tutorials by [@pbuehler](https://github.com/pbuehler)
@@ -13,6 +15,7 @@
 - [\#6146](https://github.com/AliceO2Group/AliceO2/pull/6146) 2021-05-13: Fix + Improvement for CUDA RTC compilation by [@davidrohr](https://github.com/davidrohr)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 - [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
+- [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6107](https://github.com/AliceO2Group/AliceO2/pull/6107) 2021-05-10: Cleanup for TRD tracking by [@martenole](https://github.com/martenole)
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
