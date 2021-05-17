@@ -12,7 +12,6 @@
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
 - [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6107](https://github.com/AliceO2Group/AliceO2/pull/6107) 2021-05-10: Cleanup for TRD tracking by [@martenole](https://github.com/martenole)
 - [\#6121](https://github.com/AliceO2Group/AliceO2/pull/6121) 2021-05-11: Modify internals of RecoContainer, add fwd-declared getters + support for S-vertices (also in InputHelper) by [@shahor02](https://github.com/shahor02)
 - [\#6128](https://github.com/AliceO2Group/AliceO2/pull/6128) 2021-05-11: Fix some issues in GPUWorkflowHelper needed for TRD Workflow + unrealted stuff by [@davidrohr](https://github.com/davidrohr)
@@ -22,7 +21,6 @@
 - [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6093](https://github.com/AliceO2Group/AliceO2/pull/6093) 2021-05-10: Explicitly add direct dependencies by [@dstocco](https://github.com/dstocco)
 - [\#6094](https://github.com/AliceO2Group/AliceO2/pull/6094) 2021-05-10: Fix crash occurring when MID decoder spec is stopped without having collected data by [@dstocco](https://github.com/dstocco)
 - [\#6107](https://github.com/AliceO2Group/AliceO2/pull/6107) 2021-05-10: Cleanup for TRD tracking by [@martenole](https://github.com/martenole)
@@ -47,6 +45,7 @@
 - [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
 - [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
 - [\#6172](https://github.com/AliceO2Group/AliceO2/pull/6172) 2021-05-17: Fix in VertexTrackMatcher ITS track time treatment by [@shahor02](https://github.com/shahor02)
+- [\#6180](https://github.com/AliceO2Group/AliceO2/pull/6180) 2021-05-17: Add default c-tors to PVertex debug dump objects by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6126](https://github.com/AliceO2Group/AliceO2/pull/6126) 2021-05-12: DPL: Propagate labels to DeviceSpec by [@knopers8](https://github.com/knopers8)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
