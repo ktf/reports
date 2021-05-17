@@ -7,6 +7,7 @@
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
+- [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
 - [\#6146](https://github.com/AliceO2Group/AliceO2/pull/6146) 2021-05-13: Fix + Improvement for CUDA RTC compilation by [@davidrohr](https://github.com/davidrohr)
@@ -59,3 +60,4 @@
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6163](https://github.com/AliceO2Group/AliceO2/pull/6163) 2021-05-16: DPL: implement ability for devices to watch driver messages by [@ktf](https://github.com/ktf)
 - [\#6165](https://github.com/AliceO2Group/AliceO2/pull/6165) 2021-05-16: Move SHA1 algorithm in 3rdparty header only library by [@davidrohr](https://github.com/davidrohr)
+- [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
