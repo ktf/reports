@@ -9,6 +9,7 @@
 - [\#6135](https://github.com/AliceO2Group/AliceO2/pull/6135) 2021-05-12: DPL: introduce accumulated metric for total bytes processed (O2-2324) by [@ktf](https://github.com/ktf)
 - [\#6146](https://github.com/AliceO2Group/AliceO2/pull/6146) 2021-05-13: Fix + Improvement for CUDA RTC compilation by [@davidrohr](https://github.com/davidrohr)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
+- [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6081](https://github.com/AliceO2Group/AliceO2/pull/6081) 2021-05-12: TOF calibration with cosmics + improvements for TimeCalibration framework by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6107](https://github.com/AliceO2Group/AliceO2/pull/6107) 2021-05-10: Cleanup for TRD tracking by [@martenole](https://github.com/martenole)
@@ -43,6 +44,7 @@
 - [\#6157](https://github.com/AliceO2Group/AliceO2/pull/6157) 2021-05-15: Add MaxDXYIni cut on DCAFitterN seed XY DCA by [@shahor02](https://github.com/shahor02)
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
+- [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6126](https://github.com/AliceO2Group/AliceO2/pull/6126) 2021-05-12: DPL: Propagate labels to DeviceSpec by [@knopers8](https://github.com/knopers8)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
