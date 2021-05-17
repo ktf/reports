@@ -45,6 +45,7 @@
 - [\#6157](https://github.com/AliceO2Group/AliceO2/pull/6157) 2021-05-15: Add MaxDXYIni cut on DCAFitterN seed XY DCA by [@shahor02](https://github.com/shahor02)
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
+- [\#6166](https://github.com/AliceO2Group/AliceO2/pull/6166) 2021-05-17: Changes for Root v6-24 by [@pzhristov](https://github.com/pzhristov)
 - [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
 - [\#6172](https://github.com/AliceO2Group/AliceO2/pull/6172) 2021-05-17: Fix in VertexTrackMatcher ITS track time treatment by [@shahor02](https://github.com/shahor02)
 - [\#6180](https://github.com/AliceO2Group/AliceO2/pull/6180) 2021-05-17: Add default c-tors to PVertex debug dump objects by [@shahor02](https://github.com/shahor02)
