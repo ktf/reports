@@ -5515,13 +5515,23 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Analysis: remove deprecated HistHelpers tutorial",
+            "title": "Analysis: remove deprecated HistHelpers",
             "number": 6176,
             "author": {
               "login": "mario-krueger"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/HistHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/trackchecks.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Analysis/Tutorials/CMakeLists.txt"
