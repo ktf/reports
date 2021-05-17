@@ -34,6 +34,7 @@
 - [\#6131](https://github.com/AliceO2Group/AliceO2/pull/6131) 2021-05-13: Check/enforce that all links got AddData call in every IR it processed by [@shahor02](https://github.com/shahor02)
 - [\#6141](https://github.com/AliceO2Group/AliceO2/pull/6141) 2021-05-12: Fix in TPC-ITS matching: cleaunup of prev TF reco buffers was incomplete by [@shahor02](https://github.com/shahor02)
 - [\#6142](https://github.com/AliceO2Group/AliceO2/pull/6142) 2021-05-16: [MCH] fix workflow option by [@pillot](https://github.com/pillot)
+- [\#6144](https://github.com/AliceO2Group/AliceO2/pull/6144) 2021-05-17: Executable to compare the User Logic raw data with the common logic one by [@dstocco](https://github.com/dstocco)
 - [\#6145](https://github.com/AliceO2Group/AliceO2/pull/6145) 2021-05-12: make sure MFT digi2raw creates 1 file per link if requested by [@shahor02](https://github.com/shahor02)
 - [\#6147](https://github.com/AliceO2Group/AliceO2/pull/6147) 2021-05-13: [EMCAL-699] Add RCU trailer also for links without payload by [@mfasDa](https://github.com/mfasDa)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
