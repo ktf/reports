@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#6095](https://github.com/AliceO2Group/AliceO2/pull/6095) 2021-05-12: Fix check on enabled tables by [@njacazio](https://github.com/njacazio)
 - [\#6118](https://github.com/AliceO2Group/AliceO2/pull/6118) 2021-05-11: PID: rename default PID tables and tasks by [@njacazio](https://github.com/njacazio)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
@@ -51,6 +50,7 @@
 - [\#6172](https://github.com/AliceO2Group/AliceO2/pull/6172) 2021-05-17: Fix in VertexTrackMatcher ITS track time treatment by [@shahor02](https://github.com/shahor02)
 - [\#6177](https://github.com/AliceO2Group/AliceO2/pull/6177) 2021-05-18: Add FT0 Channels to RecPointReader and RecContainer by [@shahor02](https://github.com/shahor02)
 - [\#6180](https://github.com/AliceO2Group/AliceO2/pull/6180) 2021-05-17: Add default c-tors to PVertex debug dump objects by [@shahor02](https://github.com/shahor02)
+- [\#6195](https://github.com/AliceO2Group/AliceO2/pull/6195) 2021-05-18: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [\#6126](https://github.com/AliceO2Group/AliceO2/pull/6126) 2021-05-12: DPL: Propagate labels to DeviceSpec by [@knopers8](https://github.com/knopers8)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
