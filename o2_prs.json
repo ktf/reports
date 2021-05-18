@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-05-07T13:27:49Z",
-            "title": "DPL GUI: improve profiler / debugger support",
-            "number": 6087,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDeviceInspector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP] Fix dy calculation in TRD TrackletTransformer",
@@ -5640,6 +5615,336 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "moved Calib objects to DataFormats; Reimplement clusters as obj. with…",
+            "number": 6187,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/BadChannelMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/CalibParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Pedestals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/TriggerMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/BadChannelMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/CalibParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/DataFormatsPHOSLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/Pedestals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/TriggerMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/base/include/PHOSBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/base/src/Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/PHOSCalibWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalib/CalibDB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/ETCalibHistos.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSEnergyCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSEnergyCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSHGLGRatioCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSPedestalCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSRunbyrunCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSRunbyrunCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSTurnonCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSTurnonCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/RingBuffer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/TurnOnHistos.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/macros/PostBadMapCCDB.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/macros/PostCalibCCDB.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/CalibDB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSBadMapCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSCalibWorkflowLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSHGLGRatioCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSPedestalCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSTurnonCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSTurnonCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/TurnOnHistos.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/FullCluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/FullCluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/PHOSReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/simulation/include/PHOSSimulation/RawWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/CellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
                   }
                 }
               ]
