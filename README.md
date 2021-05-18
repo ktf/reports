@@ -59,3 +59,4 @@
 - [\#6163](https://github.com/AliceO2Group/AliceO2/pull/6163) 2021-05-16: DPL: implement ability for devices to watch driver messages by [@ktf](https://github.com/ktf)
 - [\#6165](https://github.com/AliceO2Group/AliceO2/pull/6165) 2021-05-16: Move SHA1 algorithm in 3rdparty header only library by [@davidrohr](https://github.com/davidrohr)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
