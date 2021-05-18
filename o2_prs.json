@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-08T17:54:59Z",
-            "title": "DPL GUI: support for multiple axis",
-            "number": 6100,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-08T07:39:49Z",
             "title": "TRD Bugfix: TPC track id is overwritten during loading",
             "number": 6101,
@@ -6020,6 +6000,36 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0: correct treatment of missing TF",
+            "number": 6200,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/include/FT0Workflow/FT0DataReaderDPLSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITDataReaderDPLSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec.cxx"
                   }
                 }
               ]
