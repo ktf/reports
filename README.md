@@ -52,6 +52,8 @@
 - [\#6180](https://github.com/AliceO2Group/AliceO2/pull/6180) 2021-05-17: Add default c-tors to PVertex debug dump objects by [@shahor02](https://github.com/shahor02)
 - [\#6188](https://github.com/AliceO2Group/AliceO2/pull/6188) 2021-05-19: Log statistics on track to vertex assignment by [@shahor02](https://github.com/shahor02)
 - [\#6189](https://github.com/AliceO2Group/AliceO2/pull/6189) 2021-05-18: Fix in composition of ITS/MFT dictionary name by [@shahor02](https://github.com/shahor02)
+- [\#6192](https://github.com/AliceO2Group/AliceO2/pull/6192) 2021-05-19: MCH: check HB packet validity in UL decoder by [@aferrero2707](https://github.com/aferrero2707)
+- [\#6193](https://github.com/AliceO2Group/AliceO2/pull/6193) 2021-05-19: MCH: improved time frame grouping in CRU page reader by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6195](https://github.com/AliceO2Group/AliceO2/pull/6195) 2021-05-18: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 - [\#6199](https://github.com/AliceO2Group/AliceO2/pull/6199) 2021-05-18: Fix HMPID stream decoder workflow writing output at end of run not at endOfStream by [@davidrohr](https://github.com/davidrohr)
 - [\#6205](https://github.com/AliceO2Group/AliceO2/pull/6205) 2021-05-19: [MFT] Marking reconstructed tracks on the MC AOD table by [@rpezzi](https://github.com/rpezzi)
