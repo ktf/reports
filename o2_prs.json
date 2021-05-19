@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-08T07:39:49Z",
-            "title": "TRD Bugfix: TPC track id is overwritten during loading",
-            "number": 6101,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-09T19:04:36Z",
             "title": "boost::filesystem -> std::filesystem",
             "number": 6102,
@@ -6030,6 +6010,26 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/workflow/src/DataDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add detection of trailing whitespaces in the CI tests",
+            "number": 6201,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/space-checker.yml"
                   }
                 }
               ]
