@@ -4,6 +4,7 @@
 - [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
+- [\#6143](https://github.com/AliceO2Group/AliceO2/pull/6143) 2021-05-19: Adjusting the muon iterator tutorial analysis task by [@mguilbau](https://github.com/mguilbau)
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6171](https://github.com/AliceO2Group/AliceO2/pull/6171) 2021-05-18: Fix filter by [@jgrosseo](https://github.com/jgrosseo)
