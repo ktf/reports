@@ -7,6 +7,7 @@
 - [\#6143](https://github.com/AliceO2Group/AliceO2/pull/6143) 2021-05-19: Adjusting the muon iterator tutorial analysis task by [@mguilbau](https://github.com/mguilbau)
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
+- [\#6160](https://github.com/AliceO2Group/AliceO2/pull/6160) 2021-05-19: Analysis/Task/PWGDQ: update v0selector by [@dsekihat](https://github.com/dsekihat)
 - [\#6171](https://github.com/AliceO2Group/AliceO2/pull/6171) 2021-05-18: Fix filter by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6176](https://github.com/AliceO2Group/AliceO2/pull/6176) 2021-05-18: Analysis: remove deprecated HistHelpers by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
