@@ -52,6 +52,7 @@
 - [\#6189](https://github.com/AliceO2Group/AliceO2/pull/6189) 2021-05-18: Fix in composition of ITS/MFT dictionary name by [@shahor02](https://github.com/shahor02)
 - [\#6195](https://github.com/AliceO2Group/AliceO2/pull/6195) 2021-05-18: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 - [\#6199](https://github.com/AliceO2Group/AliceO2/pull/6199) 2021-05-18: Fix HMPID stream decoder workflow writing output at end of run not at endOfStream by [@davidrohr](https://github.com/davidrohr)
+- [\#6205](https://github.com/AliceO2Group/AliceO2/pull/6205) 2021-05-19: [MFT] Marking reconstructed tracks on the MC AOD table by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Framework
 - [\#6126](https://github.com/AliceO2Group/AliceO2/pull/6126) 2021-05-12: DPL: Propagate labels to DeviceSpec by [@knopers8](https://github.com/knopers8)
 - [\#6132](https://github.com/AliceO2Group/AliceO2/pull/6132) 2021-05-12: Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN by [@iarsene](https://github.com/iarsene)
