@@ -17,6 +17,7 @@
 - [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6120](https://github.com/AliceO2Group/AliceO2/pull/6120) 2021-05-18: [MFT] Standalone vertex matching (time-bracket) & AOD table production by [@rpezzi](https://github.com/rpezzi)
+- [\#6129](https://github.com/AliceO2Group/AliceO2/pull/6129) 2021-05-19: Cluster finder for ITS3 by [@mpuccio](https://github.com/mpuccio)
 - [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 - [\#6138](https://github.com/AliceO2Group/AliceO2/pull/6138) 2021-05-12: TrackPar::setPID will not alter the charge by [@shahor02](https://github.com/shahor02)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
@@ -27,6 +28,7 @@
 - [\#6115](https://github.com/AliceO2Group/AliceO2/pull/6115) 2021-05-14: channel offsets in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6120](https://github.com/AliceO2Group/AliceO2/pull/6120) 2021-05-18: [MFT] Standalone vertex matching (time-bracket) & AOD table production by [@rpezzi](https://github.com/rpezzi)
 - [\#6127](https://github.com/AliceO2Group/AliceO2/pull/6127) 2021-05-12: MID raw data checker workflow by [@dstocco](https://github.com/dstocco)
+- [\#6129](https://github.com/AliceO2Group/AliceO2/pull/6129) 2021-05-19: Cluster finder for ITS3 by [@mpuccio](https://github.com/mpuccio)
 - [\#6130](https://github.com/AliceO2Group/AliceO2/pull/6130) 2021-05-12: TRD tracking developments by [@martenole](https://github.com/martenole)
 - [\#6131](https://github.com/AliceO2Group/AliceO2/pull/6131) 2021-05-13: Check/enforce that all links got AddData call in every IR it processed by [@shahor02](https://github.com/shahor02)
 - [\#6141](https://github.com/AliceO2Group/AliceO2/pull/6141) 2021-05-12: Fix in TPC-ITS matching: cleaunup of prev TF reco buffers was incomplete by [@shahor02](https://github.com/shahor02)
