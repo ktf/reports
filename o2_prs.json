@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-09T11:50:42Z",
-            "title": "Improvements to GPU visualization and some related fixes",
-            "number": 6110,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/O2GPUDPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-09T11:11:51Z",
             "title": "Add PVertex to RecoContainer and InputHelper, deploy in workflows",
             "number": 6111,
@@ -4082,11 +4032,6 @@
                   "node": {
                     "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
                   }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/RecPointReaderSpec.cxx"
-                  }
                 }
               ]
             }
@@ -6756,6 +6701,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/utils/qconfig.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-05-19T20:15:07Z",
+            "title": "Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov)",
+            "number": 6210,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/RecPointReaderSpec.cxx"
                   }
                 }
               ]
