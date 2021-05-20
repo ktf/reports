@@ -10,6 +10,7 @@
 - [\#6171](https://github.com/AliceO2Group/AliceO2/pull/6171) 2021-05-18: Fix filter by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6176](https://github.com/AliceO2Group/AliceO2/pull/6176) 2021-05-18: Analysis: remove deprecated HistHelpers by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6191](https://github.com/AliceO2Group/AliceO2/pull/6191) 2021-05-20: Further updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Common
 - [\#6146](https://github.com/AliceO2Group/AliceO2/pull/6146) 2021-05-13: Fix + Improvement for CUDA RTC compilation by [@davidrohr](https://github.com/davidrohr)
 - [\#6149](https://github.com/AliceO2Group/AliceO2/pull/6149) 2021-05-13: Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp  by [@shahor02](https://github.com/shahor02)
