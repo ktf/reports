@@ -48,6 +48,7 @@
 - [\#6189](https://github.com/AliceO2Group/AliceO2/pull/6189) 2021-05-18: Fix in composition of ITS/MFT dictionary name by [@shahor02](https://github.com/shahor02)
 - [\#6192](https://github.com/AliceO2Group/AliceO2/pull/6192) 2021-05-19: MCH: check HB packet validity in UL decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6193](https://github.com/AliceO2Group/AliceO2/pull/6193) 2021-05-19: MCH: improved time frame grouping in CRU page reader by [@aferrero2707](https://github.com/aferrero2707)
+- [\#6194](https://github.com/AliceO2Group/AliceO2/pull/6194) 2021-05-20: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 - [\#6195](https://github.com/AliceO2Group/AliceO2/pull/6195) 2021-05-18: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 - [\#6198](https://github.com/AliceO2Group/AliceO2/pull/6198) 2021-05-20: Fix in ITS digits->raw conversion by [@shahor02](https://github.com/shahor02)
 - [\#6199](https://github.com/AliceO2Group/AliceO2/pull/6199) 2021-05-18: Fix HMPID stream decoder workflow writing output at end of run not at endOfStream by [@davidrohr](https://github.com/davidrohr)
