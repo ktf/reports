@@ -50,6 +50,7 @@
 - [\#6193](https://github.com/AliceO2Group/AliceO2/pull/6193) 2021-05-19: MCH: improved time frame grouping in CRU page reader by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6195](https://github.com/AliceO2Group/AliceO2/pull/6195) 2021-05-18: Update CompressorTask.cxx by [@preghenella](https://github.com/preghenella)
 - [\#6199](https://github.com/AliceO2Group/AliceO2/pull/6199) 2021-05-18: Fix HMPID stream decoder workflow writing output at end of run not at endOfStream by [@davidrohr](https://github.com/davidrohr)
+- [\#6200](https://github.com/AliceO2Group/AliceO2/pull/6200) 2021-05-20: FT0: correct treatment of missing TF by [@shahor02](https://github.com/shahor02)
 - [\#6205](https://github.com/AliceO2Group/AliceO2/pull/6205) 2021-05-19: [MFT] Marking reconstructed tracks on the MC AOD table by [@rpezzi](https://github.com/rpezzi)
 - [\#6207](https://github.com/AliceO2Group/AliceO2/pull/6207) 2021-05-20: [MCH] prepare setup for run3 by [@pillot](https://github.com/pillot)
 - [\#6210](https://github.com/AliceO2Group/AliceO2/pull/6210) 2021-05-19: Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov) by [@shahor02](https://github.com/shahor02)
