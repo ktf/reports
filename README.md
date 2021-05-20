@@ -16,6 +16,7 @@
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
 - [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
+- [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#6120](https://github.com/AliceO2Group/AliceO2/pull/6120) 2021-05-18: [MFT] Standalone vertex matching (time-bracket) & AOD table production by [@rpezzi](https://github.com/rpezzi)
 - [\#6129](https://github.com/AliceO2Group/AliceO2/pull/6129) 2021-05-19: Cluster finder for ITS3 by [@mpuccio](https://github.com/mpuccio)
@@ -63,5 +64,6 @@
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
+- [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
