@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-09T15:34:56Z",
-            "title": "Split container-creation and ioptr-setting during o2::trd::getRecoInputContainer in 2 parts to be used individually",
-            "number": 6114,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RecoInputContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/helper/src/GPUWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/O2GPUDPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-14T12:04:03Z",
             "title": "channel offsets in reconstruction",
             "number": 6115,
@@ -6776,6 +6746,41 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Test PR to debug failing CI in https://github.com/AliceO2Group/AliceO2/pull/5556",
+            "number": 6214,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/space-checker.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/qaTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/qaTaskSimple.cxx"
                   }
                 }
               ]
