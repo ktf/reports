@@ -55,6 +55,7 @@
 - [\#6199](https://github.com/AliceO2Group/AliceO2/pull/6199) 2021-05-18: Fix HMPID stream decoder workflow writing output at end of run not at endOfStream by [@davidrohr](https://github.com/davidrohr)
 - [\#6200](https://github.com/AliceO2Group/AliceO2/pull/6200) 2021-05-20: FT0: correct treatment of missing TF by [@shahor02](https://github.com/shahor02)
 - [\#6205](https://github.com/AliceO2Group/AliceO2/pull/6205) 2021-05-19: [MFT] Marking reconstructed tracks on the MC AOD table by [@rpezzi](https://github.com/rpezzi)
+- [\#6206](https://github.com/AliceO2Group/AliceO2/pull/6206) 2021-05-20: minor fixes in TPC CalArray and TPC/qc PID by [@tklemenz](https://github.com/tklemenz)
 - [\#6207](https://github.com/AliceO2Group/AliceO2/pull/6207) 2021-05-20: [MCH] prepare setup for run3 by [@pillot](https://github.com/pillot)
 - [\#6210](https://github.com/AliceO2Group/AliceO2/pull/6210) 2021-05-19: Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
