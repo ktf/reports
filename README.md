@@ -25,7 +25,6 @@
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6177](https://github.com/AliceO2Group/AliceO2/pull/6177) 2021-05-18: Add FT0 Channels to RecPointReader and RecContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6115](https://github.com/AliceO2Group/AliceO2/pull/6115) 2021-05-14: channel offsets in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6120](https://github.com/AliceO2Group/AliceO2/pull/6120) 2021-05-18: [MFT] Standalone vertex matching (time-bracket) & AOD table production by [@rpezzi](https://github.com/rpezzi)
 - [\#6129](https://github.com/AliceO2Group/AliceO2/pull/6129) 2021-05-19: Cluster finder for ITS3 by [@mpuccio](https://github.com/mpuccio)
 - [\#6131](https://github.com/AliceO2Group/AliceO2/pull/6131) 2021-05-13: Check/enforce that all links got AddData call in every IR it processed by [@shahor02](https://github.com/shahor02)
@@ -65,5 +64,6 @@
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
+- [\#6215](https://github.com/AliceO2Group/AliceO2/pull/6215) 2021-05-20: DPL: hotfix for resource manager by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
