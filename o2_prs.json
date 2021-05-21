@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-12T12:14:17Z",
-            "title": "DPL: Propagate labels to DeviceSpec",
-            "number": 6126,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-12T09:41:54Z",
             "title": "MID raw data checker workflow",
             "number": 6127,
@@ -6508,6 +6473,61 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGMM: prototype for Run3 multiplicity",
+            "number": 6226,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGMM/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGMM/dNdetaRun2Tracklets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGMM/dndeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGMM/run2dndeta.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisTask.h"
