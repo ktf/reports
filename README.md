@@ -23,6 +23,7 @@
 - [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
 - [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6177](https://github.com/AliceO2Group/AliceO2/pull/6177) 2021-05-18: Add FT0 Channels to RecPointReader and RecContainer by [@shahor02](https://github.com/shahor02)
+- [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#6129](https://github.com/AliceO2Group/AliceO2/pull/6129) 2021-05-19: Cluster finder for ITS3 by [@mpuccio](https://github.com/mpuccio)
 - [\#6142](https://github.com/AliceO2Group/AliceO2/pull/6142) 2021-05-16: [MCH] fix workflow option by [@pillot](https://github.com/pillot)
@@ -52,6 +53,7 @@
 - [\#6206](https://github.com/AliceO2Group/AliceO2/pull/6206) 2021-05-20: minor fixes in TPC CalArray and TPC/qc PID by [@tklemenz](https://github.com/tklemenz)
 - [\#6207](https://github.com/AliceO2Group/AliceO2/pull/6207) 2021-05-20: [MCH] prepare setup for run3 by [@pillot](https://github.com/pillot)
 - [\#6210](https://github.com/AliceO2Group/AliceO2/pull/6210) 2021-05-19: Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov) by [@shahor02](https://github.com/shahor02)
+- [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#6175](https://github.com/AliceO2Group/AliceO2/pull/6175) 2021-05-20: implementation of active watching folder for files with tracks by [@jmyrcha](https://github.com/jmyrcha)
 - [\#6186](https://github.com/AliceO2Group/AliceO2/pull/6186) 2021-05-20: saving tracks from workflow to jsons by [@jmyrcha](https://github.com/jmyrcha)
@@ -71,6 +73,7 @@
 - [\#6212](https://github.com/AliceO2Group/AliceO2/pull/6212) 2021-05-21: DPL: add test for ability to create transport by [@ktf](https://github.com/ktf)
 - [\#6215](https://github.com/AliceO2Group/AliceO2/pull/6215) 2021-05-20: DPL: hotfix for resource manager by [@ktf](https://github.com/ktf)
 - [\#6218](https://github.com/AliceO2Group/AliceO2/pull/6218) 2021-05-21: DPL: properly handle SIGTERM by [@ktf](https://github.com/ktf)
+- [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Generators
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
