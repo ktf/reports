@@ -11,6 +11,7 @@
 - [\#6176](https://github.com/AliceO2Group/AliceO2/pull/6176) 2021-05-18: Analysis: remove deprecated HistHelpers by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6191](https://github.com/AliceO2Group/AliceO2/pull/6191) 2021-05-20: Further updates of tutorials by [@pbuehler](https://github.com/pbuehler)
+- [\#6220](https://github.com/AliceO2Group/AliceO2/pull/6220) 2021-05-21: Event selection adapted to Run2 and Run3 MC by [@ekryshen](https://github.com/ekryshen)
 ## Recent developments in O2 - Common
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
