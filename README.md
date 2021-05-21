@@ -56,11 +56,13 @@
 - [\#6186](https://github.com/AliceO2Group/AliceO2/pull/6186) 2021-05-20: saving tracks from workflow to jsons by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
+- [\#6221](https://github.com/AliceO2Group/AliceO2/pull/6221) 2021-05-21: o2-sim: Improve communication between primary server and transport wo… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6163](https://github.com/AliceO2Group/AliceO2/pull/6163) 2021-05-16: DPL: implement ability for devices to watch driver messages by [@ktf](https://github.com/ktf)
 - [\#6165](https://github.com/AliceO2Group/AliceO2/pull/6165) 2021-05-16: Move SHA1 algorithm in 3rdparty header only library by [@davidrohr](https://github.com/davidrohr)
+- [\#6178](https://github.com/AliceO2Group/AliceO2/pull/6178) 2021-05-21: AliECS dump: A bunch of various improvements by [@knopers8](https://github.com/knopers8)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
