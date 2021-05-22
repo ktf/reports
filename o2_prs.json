@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-12T08:58:22Z",
-            "title": "Changes to enable the use of fwdtrack model in the DQ analysis framework; Added computation of 2-track secondary vertices using the DCAFitterN",
-            "number": 6132,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableMakerMuon_pp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-11T11:09:53Z",
             "title": "DPL: improve documentation for DPL metrics",
             "number": 6133,
@@ -6536,6 +6471,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/utils/qconfig.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not use printf",
+            "number": 6232,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/eventSelection.cxx"
                   }
                 }
               ]
