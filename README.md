@@ -51,6 +51,7 @@
 - [\#6207](https://github.com/AliceO2Group/AliceO2/pull/6207) 2021-05-20: [MCH] prepare setup for run3 by [@pillot](https://github.com/pillot)
 - [\#6210](https://github.com/AliceO2Group/AliceO2/pull/6210) 2021-05-19: Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov) by [@shahor02](https://github.com/shahor02)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
+- [\#6229](https://github.com/AliceO2Group/AliceO2/pull/6229) 2021-05-22: GPU: Option renaming, and grouping of TRD and TPC options by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#6175](https://github.com/AliceO2Group/AliceO2/pull/6175) 2021-05-20: implementation of active watching folder for files with tracks by [@jmyrcha](https://github.com/jmyrcha)
 - [\#6186](https://github.com/AliceO2Group/AliceO2/pull/6186) 2021-05-20: saving tracks from workflow to jsons by [@jmyrcha](https://github.com/jmyrcha)
