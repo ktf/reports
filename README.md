@@ -20,8 +20,6 @@
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
-- [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6177](https://github.com/AliceO2Group/AliceO2/pull/6177) 2021-05-18: Add FT0 Channels to RecPointReader and RecContainer by [@shahor02](https://github.com/shahor02)
 - [\#6187](https://github.com/AliceO2Group/AliceO2/pull/6187) 2021-05-22: moved Calib objects to DataFormats; Reimplement clusters as obj. with… by [@peressounko](https://github.com/peressounko)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
@@ -30,9 +28,6 @@
 - [\#6144](https://github.com/AliceO2Group/AliceO2/pull/6144) 2021-05-17: Executable to compare the User Logic raw data with the common logic one by [@dstocco](https://github.com/dstocco)
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6151](https://github.com/AliceO2Group/AliceO2/pull/6151) 2021-05-17: New MFT Power cables and services update by [@frmanso](https://github.com/frmanso)
-- [\#6152](https://github.com/AliceO2Group/AliceO2/pull/6152) 2021-05-15: FIT: Large FITRaw upgrade by [@afurs](https://github.com/afurs)
-- [\#6157](https://github.com/AliceO2Group/AliceO2/pull/6157) 2021-05-15: Add MaxDXYIni cut on DCAFitterN seed XY DCA by [@shahor02](https://github.com/shahor02)
-- [\#6161](https://github.com/AliceO2Group/AliceO2/pull/6161) 2021-05-15: Add cosmics to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
 - [\#6166](https://github.com/AliceO2Group/AliceO2/pull/6166) 2021-05-17: Changes for Root v6-24 by [@pzhristov](https://github.com/pzhristov)
 - [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
