@@ -24,11 +24,9 @@
 - [\#6187](https://github.com/AliceO2Group/AliceO2/pull/6187) 2021-05-22: moved Calib objects to DataFormats; Reimplement clusters as obj. with… by [@peressounko](https://github.com/peressounko)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#6142](https://github.com/AliceO2Group/AliceO2/pull/6142) 2021-05-16: [MCH] fix workflow option by [@pillot](https://github.com/pillot)
 - [\#6144](https://github.com/AliceO2Group/AliceO2/pull/6144) 2021-05-17: Executable to compare the User Logic raw data with the common logic one by [@dstocco](https://github.com/dstocco)
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6151](https://github.com/AliceO2Group/AliceO2/pull/6151) 2021-05-17: New MFT Power cables and services update by [@frmanso](https://github.com/frmanso)
-- [\#6164](https://github.com/AliceO2Group/AliceO2/pull/6164) 2021-05-16: Compatibility to boost 1.76 by [@davidrohr](https://github.com/davidrohr)
 - [\#6166](https://github.com/AliceO2Group/AliceO2/pull/6166) 2021-05-17: Changes for Root v6-24 by [@pzhristov](https://github.com/pzhristov)
 - [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
 - [\#6172](https://github.com/AliceO2Group/AliceO2/pull/6172) 2021-05-17: Fix in VertexTrackMatcher ITS track time treatment by [@shahor02](https://github.com/shahor02)
@@ -61,8 +59,6 @@
 ## Recent developments in O2 - Framework
 - [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
-- [\#6163](https://github.com/AliceO2Group/AliceO2/pull/6163) 2021-05-16: DPL: implement ability for devices to watch driver messages by [@ktf](https://github.com/ktf)
-- [\#6165](https://github.com/AliceO2Group/AliceO2/pull/6165) 2021-05-16: Move SHA1 algorithm in 3rdparty header only library by [@davidrohr](https://github.com/davidrohr)
 - [\#6178](https://github.com/AliceO2Group/AliceO2/pull/6178) 2021-05-21: AliECS dump: A bunch of various improvements by [@knopers8](https://github.com/knopers8)
 - [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
