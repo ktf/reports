@@ -65,6 +65,7 @@
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
+- [\#6239](https://github.com/AliceO2Group/AliceO2/pull/6239) 2021-05-25: Fix: QED interaction sampler was using default BC scheme by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
