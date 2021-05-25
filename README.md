@@ -9,6 +9,7 @@
 - [\#6220](https://github.com/AliceO2Group/AliceO2/pull/6220) 2021-05-21: Event selection adapted to Run2 and Run3 MC by [@ekryshen](https://github.com/ekryshen)
 - [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
+- [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Common
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
@@ -41,6 +42,7 @@
 - [\#6233](https://github.com/AliceO2Group/AliceO2/pull/6233) 2021-05-23: Suppress leftover PHOSCalib directory [fix for PR6187] by [@shahor02](https://github.com/shahor02)
 - [\#6234](https://github.com/AliceO2Group/AliceO2/pull/6234) 2021-05-23: fix in CCDB populator documentation by [@shahor02](https://github.com/shahor02)
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
+- [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - EventVisualisation
 - [\#6175](https://github.com/AliceO2Group/AliceO2/pull/6175) 2021-05-20: implementation of active watching folder for files with tracks by [@jmyrcha](https://github.com/jmyrcha)
 - [\#6186](https://github.com/AliceO2Group/AliceO2/pull/6186) 2021-05-20: saving tracks from workflow to jsons by [@jmyrcha](https://github.com/jmyrcha)
