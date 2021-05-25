@@ -1,22 +1,15 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 - [\#6143](https://github.com/AliceO2Group/AliceO2/pull/6143) 2021-05-19: Adjusting the muon iterator tutorial analysis task by [@mguilbau](https://github.com/mguilbau)
-- [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
-- [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6160](https://github.com/AliceO2Group/AliceO2/pull/6160) 2021-05-19: Analysis/Task/PWGDQ: update v0selector by [@dsekihat](https://github.com/dsekihat)
 - [\#6171](https://github.com/AliceO2Group/AliceO2/pull/6171) 2021-05-18: Fix filter by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6176](https://github.com/AliceO2Group/AliceO2/pull/6176) 2021-05-18: Analysis: remove deprecated HistHelpers by [@mario-krueger](https://github.com/mario-krueger)
-- [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6191](https://github.com/AliceO2Group/AliceO2/pull/6191) 2021-05-20: Further updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6220](https://github.com/AliceO2Group/AliceO2/pull/6220) 2021-05-21: Event selection adapted to Run2 and Run3 MC by [@ekryshen](https://github.com/ekryshen)
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#6167](https://github.com/AliceO2Group/AliceO2/pull/6167) 2021-05-17: Some GPU code cleanups and improvements, mostly related to RTC by [@davidrohr](https://github.com/davidrohr)
-- [\#6173](https://github.com/AliceO2Group/AliceO2/pull/6173) 2021-05-17: GPU: Split host and GPU code during CUDA compilation, mostly for faster compilation by [@davidrohr](https://github.com/davidrohr)
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -25,14 +18,8 @@
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#6144](https://github.com/AliceO2Group/AliceO2/pull/6144) 2021-05-17: Executable to compare the User Logic raw data with the common logic one by [@dstocco](https://github.com/dstocco)
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#6151](https://github.com/AliceO2Group/AliceO2/pull/6151) 2021-05-17: New MFT Power cables and services update by [@frmanso](https://github.com/frmanso)
-- [\#6166](https://github.com/AliceO2Group/AliceO2/pull/6166) 2021-05-17: Changes for Root v6-24 by [@pzhristov](https://github.com/pzhristov)
-- [\#6169](https://github.com/AliceO2Group/AliceO2/pull/6169) 2021-05-17: PVertexing: optional afterburner for track-vertex reattachment by [@shahor02](https://github.com/shahor02)
-- [\#6172](https://github.com/AliceO2Group/AliceO2/pull/6172) 2021-05-17: Fix in VertexTrackMatcher ITS track time treatment by [@shahor02](https://github.com/shahor02)
 - [\#6177](https://github.com/AliceO2Group/AliceO2/pull/6177) 2021-05-18: Add FT0 Channels to RecPointReader and RecContainer by [@shahor02](https://github.com/shahor02)
-- [\#6180](https://github.com/AliceO2Group/AliceO2/pull/6180) 2021-05-17: Add default c-tors to PVertex debug dump objects by [@shahor02](https://github.com/shahor02)
 - [\#6187](https://github.com/AliceO2Group/AliceO2/pull/6187) 2021-05-22: moved Calib objects to DataFormats; Reimplement clusters as obj. with… by [@peressounko](https://github.com/peressounko)
 - [\#6188](https://github.com/AliceO2Group/AliceO2/pull/6188) 2021-05-19: Log statistics on track to vertex assignment by [@shahor02](https://github.com/shahor02)
 - [\#6189](https://github.com/AliceO2Group/AliceO2/pull/6189) 2021-05-18: Fix in composition of ITS/MFT dictionary name by [@shahor02](https://github.com/shahor02)
@@ -60,10 +47,7 @@
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 - [\#6221](https://github.com/AliceO2Group/AliceO2/pull/6221) 2021-05-21: o2-sim: Improve communication between primary server and transport wo… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#6158](https://github.com/AliceO2Group/AliceO2/pull/6158) 2021-05-17: Cleaning and updates of tutorials by [@pbuehler](https://github.com/pbuehler)
-- [\#6159](https://github.com/AliceO2Group/AliceO2/pull/6159) 2021-05-17: DPL Analysis: store created histograms in unique_ptrs by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6178](https://github.com/AliceO2Group/AliceO2/pull/6178) 2021-05-21: AliECS dump: A bunch of various improvements by [@knopers8](https://github.com/knopers8)
-- [\#6182](https://github.com/AliceO2Group/AliceO2/pull/6182) 2021-05-17: Fix comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
