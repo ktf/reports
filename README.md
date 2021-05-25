@@ -50,6 +50,7 @@
 ## Recent developments in O2 - Framework
 - [\#6178](https://github.com/AliceO2Group/AliceO2/pull/6178) 2021-05-21: AliECS dump: A bunch of various improvements by [@knopers8](https://github.com/knopers8)
 - [\#6184](https://github.com/AliceO2Group/AliceO2/pull/6184) 2021-05-18: Documentation of the Analysis Framework is moved by [@pbuehler](https://github.com/pbuehler)
+- [\#6197](https://github.com/AliceO2Group/AliceO2/pull/6197) 2021-05-25: Have to use FATAL message to catch failure condition in workflow unit… by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 - [\#6212](https://github.com/AliceO2Group/AliceO2/pull/6212) 2021-05-21: DPL: add test for ability to create transport by [@ktf](https://github.com/ktf)
