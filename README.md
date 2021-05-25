@@ -7,6 +7,7 @@
 - [\#6176](https://github.com/AliceO2Group/AliceO2/pull/6176) 2021-05-18: Analysis: remove deprecated HistHelpers by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6191](https://github.com/AliceO2Group/AliceO2/pull/6191) 2021-05-20: Further updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6220](https://github.com/AliceO2Group/AliceO2/pull/6220) 2021-05-21: Event selection adapted to Run2 and Run3 MC by [@ekryshen](https://github.com/ekryshen)
+- [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -54,6 +55,7 @@
 - [\#6212](https://github.com/AliceO2Group/AliceO2/pull/6212) 2021-05-21: DPL: add test for ability to create transport by [@ktf](https://github.com/ktf)
 - [\#6215](https://github.com/AliceO2Group/AliceO2/pull/6215) 2021-05-20: DPL: hotfix for resource manager by [@ktf](https://github.com/ktf)
 - [\#6218](https://github.com/AliceO2Group/AliceO2/pull/6218) 2021-05-21: DPL: properly handle SIGTERM by [@ktf](https://github.com/ktf)
+- [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 - [\#6238](https://github.com/AliceO2Group/AliceO2/pull/6238) 2021-05-25: DPL Analysis: Update histogram registry spec to make it more distinguishable by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Generators
