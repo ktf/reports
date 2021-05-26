@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6143](https://github.com/AliceO2Group/AliceO2/pull/6143) 2021-05-19: Adjusting the muon iterator tutorial analysis task by [@mguilbau](https://github.com/mguilbau)
 - [\#6160](https://github.com/AliceO2Group/AliceO2/pull/6160) 2021-05-19: Analysis/Task/PWGDQ: update v0selector by [@dsekihat](https://github.com/dsekihat)
 - [\#6191](https://github.com/AliceO2Group/AliceO2/pull/6191) 2021-05-20: Further updates of tutorials by [@pbuehler](https://github.com/pbuehler)
 - [\#6220](https://github.com/AliceO2Group/AliceO2/pull/6220) 2021-05-21: Event selection adapted to Run2 and Run3 MC by [@ekryshen](https://github.com/ekryshen)
