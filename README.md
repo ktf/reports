@@ -8,7 +8,6 @@
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Common
-- [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -17,7 +16,6 @@
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#6150](https://github.com/AliceO2Group/AliceO2/pull/6150) 2021-05-19: CCDB populator will match payload and wrapper according to DataDescription by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6187](https://github.com/AliceO2Group/AliceO2/pull/6187) 2021-05-22: moved Calib objects to DataFormats; Reimplement clusters as obj. with… by [@peressounko](https://github.com/peressounko)
 - [\#6188](https://github.com/AliceO2Group/AliceO2/pull/6188) 2021-05-19: Log statistics on track to vertex assignment by [@shahor02](https://github.com/shahor02)
 - [\#6192](https://github.com/AliceO2Group/AliceO2/pull/6192) 2021-05-19: MCH: check HB packet validity in UL decoder by [@aferrero2707](https://github.com/aferrero2707)
