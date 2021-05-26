@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-13T07:50:25Z",
-            "title": "Misc. fixes: settable path for collisioncontext, kill CTFwriter for empty grp ",
-            "number": 6149,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/NameConf.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/src/NameConf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/ctf-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-19T20:54:19Z",
             "title": "CCDB populator will match payload and wrapper according to DataDescription",
             "number": 6150,
@@ -6406,6 +6361,51 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Empty TF protection; CalibDiff combined to one vector",
+            "number": 6249,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/CalibParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Pedestals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSPedestalCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSHGLGRatioCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSPedestalCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
