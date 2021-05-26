@@ -63,3 +63,4 @@
 ## Recent developments in O2 - Utilities
 - [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6208](https://github.com/AliceO2Group/AliceO2/pull/6208) 2021-05-20: Dropping old / obsolete / unmaintained code by [@ktf](https://github.com/ktf)
+- [\#6245](https://github.com/AliceO2Group/AliceO2/pull/6245) 2021-05-26: Grep logfile always as ascii file not as binary in jobutils.sh by [@davidrohr](https://github.com/davidrohr)
