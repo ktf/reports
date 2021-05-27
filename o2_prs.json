@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-15T22:13:50Z",
-            "title": "Add cosmics to RecoContainer and InputHelper",
-            "number": 6161,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/include/GlobalTrackingWorkflowHelpers/InputHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL: only build AnalysisSupport if BUILD_ANALYSIS is there",
-            "number": 6162,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-16T07:27:56Z",
             "title": "DPL: implement ability for devices to watch driver messages",
             "number": 6163,
@@ -5816,6 +5761,66 @@
                 {
                   "node": {
                     "path": "Analysis/Core/src/AODMerger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Inclusion of CosTheta variable in the helicity reference frame ",
+            "number": 6261,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/HistogramsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "More fixes in doxygen:",
+            "number": 6262,
+            "author": {
+              "login": "ihrivnac"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/Readme.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/README.md"
                   }
                 }
               ]
