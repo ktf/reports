@@ -6,6 +6,7 @@
 - [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
+- [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
 - [\#6211](https://github.com/AliceO2Group/AliceO2/pull/6211) 2021-05-20: DPL: use Resource Manager to optimize shared memory usage by [@ktf](https://github.com/ktf)
@@ -48,6 +49,7 @@
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 - [\#6238](https://github.com/AliceO2Group/AliceO2/pull/6238) 2021-05-25: DPL Analysis: Update histogram registry spec to make it more distinguishable by [@saganatt](https://github.com/saganatt)
 - [\#6241](https://github.com/AliceO2Group/AliceO2/pull/6241) 2021-05-26: Fix parsing for InputSpec with DataOrigin only by [@shahor02](https://github.com/shahor02)
+- [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
 - [\#6256](https://github.com/AliceO2Group/AliceO2/pull/6256) 2021-05-27: DPL: improve workflow validation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6181](https://github.com/AliceO2Group/AliceO2/pull/6181) 2021-05-20: Introducing simulation as a service by [@sawenzel](https://github.com/sawenzel)
