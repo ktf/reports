@@ -6,6 +6,7 @@
 - [\#6232](https://github.com/AliceO2Group/AliceO2/pull/6232) 2021-05-22: Do not use printf by [@ktf](https://github.com/ktf)
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
+- [\#6255](https://github.com/AliceO2Group/AliceO2/pull/6255) 2021-05-28: PWGHF: Fix track selection in index skimming by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
 - [\#6187](https://github.com/AliceO2Group/AliceO2/pull/6187) 2021-05-22: moved Calib objects to DataFormats; Reimplement clusters as obj. with… by [@peressounko](https://github.com/peressounko)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
