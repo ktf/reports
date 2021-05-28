@@ -30,6 +30,7 @@
 - [\#6178](https://github.com/AliceO2Group/AliceO2/pull/6178) 2021-05-21: AliECS dump: A bunch of various improvements by [@knopers8](https://github.com/knopers8)
 - [\#6197](https://github.com/AliceO2Group/AliceO2/pull/6197) 2021-05-25: Have to use FATAL message to catch failure condition in workflow unit… by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6212](https://github.com/AliceO2Group/AliceO2/pull/6212) 2021-05-21: DPL: add test for ability to create transport by [@ktf](https://github.com/ktf)
+- [\#6217](https://github.com/AliceO2Group/AliceO2/pull/6217) 2021-05-28: DPL Analysis: send the size of the tables as metric by [@ktf](https://github.com/ktf)
 - [\#6218](https://github.com/AliceO2Group/AliceO2/pull/6218) 2021-05-21: DPL: properly handle SIGTERM by [@ktf](https://github.com/ktf)
 - [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
