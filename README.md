@@ -17,6 +17,7 @@
 - [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6228](https://github.com/AliceO2Group/AliceO2/pull/6228) 2021-05-21: missing includes to compile with gcc11 by [@wiechula](https://github.com/wiechula)
 - [\#6229](https://github.com/AliceO2Group/AliceO2/pull/6229) 2021-05-22: GPU: Option renaming, and grouping of TRD and TPC options by [@davidrohr](https://github.com/davidrohr)
+- [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6233](https://github.com/AliceO2Group/AliceO2/pull/6233) 2021-05-23: Suppress leftover PHOSCalib directory [fix for PR6187] by [@shahor02](https://github.com/shahor02)
 - [\#6234](https://github.com/AliceO2Group/AliceO2/pull/6234) 2021-05-23: fix in CCDB populator documentation by [@shahor02](https://github.com/shahor02)
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
