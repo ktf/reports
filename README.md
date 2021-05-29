@@ -31,6 +31,7 @@
 - [\#6241](https://github.com/AliceO2Group/AliceO2/pull/6241) 2021-05-26: Fix parsing for InputSpec with DataOrigin only by [@shahor02](https://github.com/shahor02)
 - [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
 - [\#6256](https://github.com/AliceO2Group/AliceO2/pull/6256) 2021-05-27: DPL: improve workflow validation by [@ktf](https://github.com/ktf)
+- [\#6268](https://github.com/AliceO2Group/AliceO2/pull/6268) 2021-05-29: DPL: rationalise parent-child communication by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6239](https://github.com/AliceO2Group/AliceO2/pull/6239) 2021-05-25: Fix: QED interaction sampler was using default BC scheme by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
