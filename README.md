@@ -5,6 +5,7 @@
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
 - [\#6255](https://github.com/AliceO2Group/AliceO2/pull/6255) 2021-05-28: PWGHF: Fix track selection in index skimming by [@vkucera](https://github.com/vkucera)
+- [\#6271](https://github.com/AliceO2Group/AliceO2/pull/6271) 2021-05-30: PWGHF: Switch MC on by default by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
