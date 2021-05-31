@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-17T12:37:59Z",
-            "title": "Use correct type in sim duplication tool",
-            "number": 6179,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "macro/duplicateHits.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-17T13:04:46Z",
             "title": "Add default c-tors to PVertex debug dump objects",
             "number": 6180,
@@ -5271,6 +5251,41 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/CTPDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Treat FLUKA_VMC like a real plugin",
+            "number": 6279,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/FlukaConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/FlukaRuntimeConfig.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2FindDependenciesFromAliBuild.cmake"
                   }
                 }
               ]
