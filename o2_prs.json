@@ -5,146 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-20T12:09:06Z",
-            "title": "implementation of active watching folder for files with tracks",
-            "number": 6175,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOffline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOnline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/FileWatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOffline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/FileWatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManagerFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/Initializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/Options.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/Initializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/MultiView.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/Options.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/main.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-05-18T19:12:55Z",
-            "title": "Analysis: remove deprecated HistHelpers",
-            "number": 6176,
-            "author": {
-              "login": "mario-krueger"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/HistHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGLF/trackchecks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/histHelpersTest.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-18T07:40:34Z",
             "title": "Add FT0 Channels to RecPointReader and RecContainer",
             "number": 6177,
@@ -3257,6 +3117,11 @@
                   "node": {
                     "path": "Analysis/Tasks/PWGMM/run2dndeta.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
                 }
               ]
             }
@@ -5321,6 +5186,46 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: fix bug in unassigned grouping",
+            "number": 6275,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL DDS: use id rather than name for task id",
+            "number": 6276,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
                   }
                 }
               ]
