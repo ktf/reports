@@ -5,176 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-20T15:22:02Z",
-            "title": "Introducing simulation as a service",
-            "number": 6181,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/include/Steer/O2MCApplication.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2HitMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/PrimaryServerState.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_basic/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/broker.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/duplicateHits.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/sim_step1.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/sim_step2.ini"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/transport_pi0.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/trigger_pi0.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimPublishChannelHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2-sim-client.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2simtopology_template.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-05-17T14:43:17Z",
-            "title": "Fix comment",
-            "number": 6182,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Update CompressorTask.cxx",
-            "number": 6183,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-18T07:07:02Z",
             "title": "Documentation of the Analysis Framework is moved",
             "number": 6184,
@@ -4989,8 +4819,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-05-31T13:29:57Z",
             "title": "RawFileWriter can handle empty HBF fillers of >8KB",
             "number": 6272,
             "author": {
@@ -5291,6 +5121,86 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2sim: Cleanup tmp files",
+            "number": 6281,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2simtopology_template.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Return optional port in DataSampling::PortForPolicy",
+            "number": 6282,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSampling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: cleanup AODReaderHelpers.cxx",
+            "number": 6283,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
                   }
                 }
               ]

@@ -19,6 +19,7 @@
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 - [\#6262](https://github.com/AliceO2Group/AliceO2/pull/6262) 2021-05-27: More fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
+- [\#6272](https://github.com/AliceO2Group/AliceO2/pull/6272) 2021-05-31: RawFileWriter can handle empty HBF fillers of >8KB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6197](https://github.com/AliceO2Group/AliceO2/pull/6197) 2021-05-25: Have to use FATAL message to catch failure condition in workflow unit… by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6217](https://github.com/AliceO2Group/AliceO2/pull/6217) 2021-05-28: DPL Analysis: send the size of the tables as metric by [@ktf](https://github.com/ktf)
