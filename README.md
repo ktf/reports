@@ -15,8 +15,6 @@
 ## Recent developments in O2 - Detectors
 - [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
-- [\#6233](https://github.com/AliceO2Group/AliceO2/pull/6233) 2021-05-23: Suppress leftover PHOSCalib directory [fix for PR6187] by [@shahor02](https://github.com/shahor02)
-- [\#6234](https://github.com/AliceO2Group/AliceO2/pull/6234) 2021-05-23: fix in CCDB populator documentation by [@shahor02](https://github.com/shahor02)
 - [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
