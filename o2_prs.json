@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-20T12:16:55Z",
-            "title": "Update CompressorTask.cxx",
-            "number": 6194,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-18T14:24:35Z",
             "title": "Update CompressorTask.cxx",
             "number": 6195,
@@ -3580,12 +3560,77 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/test-raw2digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/benchmark/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/test/run_trivial_trapsimulator.sh"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Generators/share/egconfig/pythia8_ppb.cfg"
                   }
                 },
                 {
                   "node": {
+                    "path": "Generators/share/egconfig/pythia8_userhooks_charm.C"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Inspect_Hits/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Jet_Embedding_Pythia8/pythia8_userhooks_jets.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Jet_Embedding_Pythia8/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/JustPrimaryKinematics/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Selective_Transport_pi0/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/StepMonitoring/Simple1/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/startSim.sh"
                   }
                 }
               ]
@@ -4685,6 +4730,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/workflow/readers/include/TPCReaderWorkflow/TPCSectorCompletionPolicy.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/CMakeLists.txt"
                   }
                 },
@@ -4756,6 +4806,41 @@
                 {
                   "node": {
                     "path": "Framework/Utils/test/test_RootTreeWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: avoid using HB packets to compute digits time",
+            "number": 6294,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/testDigitsTimeComputation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
                   }
                 }
               ]
