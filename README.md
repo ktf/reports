@@ -24,7 +24,6 @@
 - [\#6272](https://github.com/AliceO2Group/AliceO2/pull/6272) 2021-05-31: RawFileWriter can handle empty HBF fillers of >8KB by [@shahor02](https://github.com/shahor02)
 - [\#6279](https://github.com/AliceO2Group/AliceO2/pull/6279) 2021-06-01: Treat FLUKA_VMC like a real plugin by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#6197](https://github.com/AliceO2Group/AliceO2/pull/6197) 2021-05-25: Have to use FATAL message to catch failure condition in workflow unit… by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6217](https://github.com/AliceO2Group/AliceO2/pull/6217) 2021-05-28: DPL Analysis: send the size of the tables as metric by [@ktf](https://github.com/ktf)
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
