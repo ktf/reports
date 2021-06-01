@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-20T12:07:37Z",
-            "title": "Fix in ITS digits->raw conversion",
-            "number": 6198,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/digi2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/ChipMappingITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-18T19:52:16Z",
             "title": "Fix HMPID stream decoder workflow writing output at end of run not at endOfStream",
             "number": 6199,
@@ -4861,6 +4831,26 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix in requesting FT0 data for PVertex validation",
+            "number": 6298,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
                   }
                 }
               ]
