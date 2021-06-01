@@ -12,14 +12,11 @@
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
-- [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 - [\#6247](https://github.com/AliceO2Group/AliceO2/pull/6247) 2021-05-28: Headers: remove unneeded traits by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
-- [\#6236](https://github.com/AliceO2Group/AliceO2/pull/6236) 2021-05-24: BadChannelsMap renamed by [@peressounko](https://github.com/peressounko)
 - [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 - [\#6262](https://github.com/AliceO2Group/AliceO2/pull/6262) 2021-05-27: More fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
@@ -40,5 +37,4 @@
 ## Recent developments in O2 - Steer
 - [\#6239](https://github.com/AliceO2Group/AliceO2/pull/6239) 2021-05-25: Fix: QED interaction sampler was using default BC scheme by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#6202](https://github.com/AliceO2Group/AliceO2/pull/6202) 2021-05-24: rANS: allow encoders/decoders with empty dictionaries by [@shahor02](https://github.com/shahor02)
 - [\#6245](https://github.com/AliceO2Group/AliceO2/pull/6245) 2021-05-26: Grep logfile always as ascii file not as binary in jobutils.sh by [@davidrohr](https://github.com/davidrohr)
