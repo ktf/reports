@@ -8,6 +8,7 @@
 - [\#6260](https://github.com/AliceO2Group/AliceO2/pull/6260) 2021-05-30: support unassigned indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6266](https://github.com/AliceO2Group/AliceO2/pull/6266) 2021-05-30: Add flag to check if a track has TOF by [@njacazio](https://github.com/njacazio)
 - [\#6271](https://github.com/AliceO2Group/AliceO2/pull/6271) 2021-05-30: PWGHF: Switch MC on by default by [@vkucera](https://github.com/vkucera)
+- [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -36,6 +37,7 @@
 - [\#6268](https://github.com/AliceO2Group/AliceO2/pull/6268) 2021-05-29: DPL: rationalise parent-child communication by [@ktf](https://github.com/ktf)
 - [\#6276](https://github.com/AliceO2Group/AliceO2/pull/6276) 2021-05-31: DPL DDS: use id rather than name for task id by [@ktf](https://github.com/ktf)
 - [\#6283](https://github.com/AliceO2Group/AliceO2/pull/6283) 2021-06-01: DPL: cleanup AODReaderHelpers.cxx by [@ktf](https://github.com/ktf)
+- [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 - [\#6290](https://github.com/AliceO2Group/AliceO2/pull/6290) 2021-06-01: DPL: reduce template instanciation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6239](https://github.com/AliceO2Group/AliceO2/pull/6239) 2021-05-25: Fix: QED interaction sampler was using default BC scheme by [@shahor02](https://github.com/shahor02)
