@@ -27,6 +27,7 @@
 - [\#6267](https://github.com/AliceO2Group/AliceO2/pull/6267) 2021-06-01: [MCH] use configurable parameters for MCH tracking by [@pillot](https://github.com/pillot)
 - [\#6272](https://github.com/AliceO2Group/AliceO2/pull/6272) 2021-05-31: RawFileWriter can handle empty HBF fillers of >8KB by [@shahor02](https://github.com/shahor02)
 - [\#6279](https://github.com/AliceO2Group/AliceO2/pull/6279) 2021-06-01: Treat FLUKA_VMC like a real plugin by [@sawenzel](https://github.com/sawenzel)
+- [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6217](https://github.com/AliceO2Group/AliceO2/pull/6217) 2021-05-28: DPL Analysis: send the size of the tables as metric by [@ktf](https://github.com/ktf)
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
