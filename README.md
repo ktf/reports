@@ -11,6 +11,7 @@
 - [\#6273](https://github.com/AliceO2Group/AliceO2/pull/6273) 2021-06-02: Fixing typo in VarManager by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
+- [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
@@ -49,6 +50,7 @@
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 - [\#6290](https://github.com/AliceO2Group/AliceO2/pull/6290) 2021-06-01: DPL: reduce template instanciation by [@ktf](https://github.com/ktf)
+- [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Utilities
