@@ -13,11 +13,13 @@
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
+- [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 - [\#6247](https://github.com/AliceO2Group/AliceO2/pull/6247) 2021-05-28: Headers: remove unneeded traits by [@ktf](https://github.com/ktf)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
+- [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
@@ -26,6 +28,7 @@
 - [\#6262](https://github.com/AliceO2Group/AliceO2/pull/6262) 2021-05-27: More fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6267](https://github.com/AliceO2Group/AliceO2/pull/6267) 2021-06-01: [MCH] use configurable parameters for MCH tracking by [@pillot](https://github.com/pillot)
 - [\#6272](https://github.com/AliceO2Group/AliceO2/pull/6272) 2021-05-31: RawFileWriter can handle empty HBF fillers of >8KB by [@shahor02](https://github.com/shahor02)
+- [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6279](https://github.com/AliceO2Group/AliceO2/pull/6279) 2021-06-01: Treat FLUKA_VMC like a real plugin by [@sawenzel](https://github.com/sawenzel)
 - [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework

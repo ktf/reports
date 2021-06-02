@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-18T19:52:16Z",
-            "title": "Fix HMPID stream decoder workflow writing output at end of run not at endOfStream",
-            "number": 6199,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-05-20T08:23:30Z",
-            "title": "FT0: correct treatment of missing TF",
-            "number": 6200,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/include/FT0Workflow/FT0DataReaderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITDataReaderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-19T07:31:30Z",
             "title": "Add detection of trailing whitespaces in the CI tests",
             "number": 6201,
@@ -3929,9 +3879,9 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "WIP: Avoid inclusion of Vc/Vc in RandomRing",
+            "state": "MERGED",
+            "mergedAt": "2021-06-02T09:49:19Z",
+            "title": "Avoid inclusion of Vc/Vc in RandomRing",
             "number": 6274,
             "author": {
               "login": "sawenzel"
@@ -4851,6 +4801,51 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: Improved signal handling",
+            "number": 6299,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2SimDeviceRunner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-06-02T09:58:24Z",
+            "title": "Add back cerrno",
+            "number": 6300,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
                   }
                 }
               ]
