@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
-- [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
 - [\#6255](https://github.com/AliceO2Group/AliceO2/pull/6255) 2021-05-28: PWGHF: Fix track selection in index skimming by [@vkucera](https://github.com/vkucera)
 - [\#6260](https://github.com/AliceO2Group/AliceO2/pull/6260) 2021-05-30: support unassigned indices by [@jgrosseo](https://github.com/jgrosseo)
@@ -18,7 +16,6 @@
 ## Recent developments in O2 - Detectors
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
-- [\#6237](https://github.com/AliceO2Group/AliceO2/pull/6237) 2021-05-25: Fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6242](https://github.com/AliceO2Group/AliceO2/pull/6242) 2021-05-26: [TRD] remove tabs and trailing whitespaces by [@martenole](https://github.com/martenole)
 - [\#6262](https://github.com/AliceO2Group/AliceO2/pull/6262) 2021-05-27: More fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6267](https://github.com/AliceO2Group/AliceO2/pull/6267) 2021-06-01: [MCH] use configurable parameters for MCH tracking by [@pillot](https://github.com/pillot)
@@ -27,8 +24,6 @@
 ## Recent developments in O2 - Framework
 - [\#6217](https://github.com/AliceO2Group/AliceO2/pull/6217) 2021-05-28: DPL Analysis: send the size of the tables as metric by [@ktf](https://github.com/ktf)
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
-- [\#6225](https://github.com/AliceO2Group/AliceO2/pull/6225) 2021-05-25: DPL Analysis: Handle unassigned (-1) index in grouping by [@aalkin](https://github.com/aalkin)
-- [\#6238](https://github.com/AliceO2Group/AliceO2/pull/6238) 2021-05-25: DPL Analysis: Update histogram registry spec to make it more distinguishable by [@saganatt](https://github.com/saganatt)
 - [\#6240](https://github.com/AliceO2Group/AliceO2/pull/6240) 2021-05-28: DPL: improve shared memory handling in AOD by [@ktf](https://github.com/ktf)
 - [\#6241](https://github.com/AliceO2Group/AliceO2/pull/6241) 2021-05-26: Fix parsing for InputSpec with DataOrigin only by [@shahor02](https://github.com/shahor02)
 - [\#6254](https://github.com/AliceO2Group/AliceO2/pull/6254) 2021-05-27: Avoid tuple in analysis task by [@ktf](https://github.com/ktf)
@@ -39,7 +34,5 @@
 - [\#6283](https://github.com/AliceO2Group/AliceO2/pull/6283) 2021-06-01: DPL: cleanup AODReaderHelpers.cxx by [@ktf](https://github.com/ktf)
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 - [\#6290](https://github.com/AliceO2Group/AliceO2/pull/6290) 2021-06-01: DPL: reduce template instanciation by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#6239](https://github.com/AliceO2Group/AliceO2/pull/6239) 2021-05-25: Fix: QED interaction sampler was using default BC scheme by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6245](https://github.com/AliceO2Group/AliceO2/pull/6245) 2021-05-26: Grep logfile always as ascii file not as binary in jobutils.sh by [@davidrohr](https://github.com/davidrohr)
