@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGMM: update and enable run2 dNdeta task",
-            "number": 6204,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGMM/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGMM/dNdetaRun2Tracklets.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGMM/run2dndeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-05-19T17:38:57Z",
             "title": "[MFT] Marking reconstructed tracks on the MC AOD table",
@@ -4376,6 +4341,96 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/base/src/PatchPanel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS tracking will produce output with reconstructed IRFrames (IR brackets)",
+            "number": 6304,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/IRFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/src/CommonDataFormatLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/include/GlobalTrackingWorkflowHelpers/InputHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/IRFrameReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/IRFrameWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/CookedTrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/IRFrameReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/IRFrameWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]
