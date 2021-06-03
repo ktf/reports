@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-19T20:15:07Z",
-            "title": "Fix for a typo in FT0 RecPointReaderSpec (from N.Burmasov)",
-            "number": 6210,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/RecPointReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-20T10:57:08Z",
             "title": "DPL: use Resource Manager to optimize shared memory usage",
             "number": 6211,
@@ -4185,6 +4165,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/DigitizationParameters.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/Digitizer.h"
                   }
                 },
@@ -4236,6 +4221,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/benchmark_WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-06-03T10:11:20Z",
+            "title": "use track PID instead of fixed pion in tof correction",
+            "number": 6310,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
                   }
                 }
               ]
