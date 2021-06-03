@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Update Xi_c task",
-            "number": 6213,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/HFSelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFXicToPKPiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Test PR to debug failing CI in https://github.com/AliceO2Group/AliceO2/pull/5556",
@@ -4141,6 +4111,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Data Sampling: remove the possibility to use raw FairMQ channel",
+            "number": 6313,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/test_DataSampling.json"
                   }
                 }
               ]
