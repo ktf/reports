@@ -25,6 +25,7 @@
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
+- [\#6258](https://github.com/AliceO2Group/AliceO2/pull/6258) 2021-06-03: add tof file proxy for data w/o rdh by [@noferini](https://github.com/noferini)
 - [\#6262](https://github.com/AliceO2Group/AliceO2/pull/6262) 2021-05-27: More fixes in doxygen: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 - [\#6267](https://github.com/AliceO2Group/AliceO2/pull/6267) 2021-06-01: [MCH] use configurable parameters for MCH tracking by [@pillot](https://github.com/pillot)
