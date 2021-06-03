@@ -14,6 +14,7 @@
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
 - [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 - [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
+- [\#6314](https://github.com/AliceO2Group/AliceO2/pull/6314) 2021-06-03: add chi2PCA for X by [@rspijkers](https://github.com/rspijkers)
 ## Recent developments in O2 - Common
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
