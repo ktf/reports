@@ -41,6 +41,7 @@
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 - [\#6310](https://github.com/AliceO2Group/AliceO2/pull/6310) 2021-06-03: use track PID instead of fixed pion in tof correction by [@shahor02](https://github.com/shahor02)
+- [\#6321](https://github.com/AliceO2Group/AliceO2/pull/6321) 2021-06-04: [ITS-GPU] Fix warning in CI by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
