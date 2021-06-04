@@ -11,6 +11,7 @@
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6289](https://github.com/AliceO2Group/AliceO2/pull/6289) 2021-06-01: DPL: avoid dependency on boost for trivial stuff by [@ktf](https://github.com/ktf)
+- [\#6296](https://github.com/AliceO2Group/AliceO2/pull/6296) 2021-06-04: Updates for dimuon and Electron-Muon analysis by [@vfeuilla](https://github.com/vfeuilla)
 - [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 - [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6314](https://github.com/AliceO2Group/AliceO2/pull/6314) 2021-06-03: add chi2PCA for X by [@rspijkers](https://github.com/rspijkers)
