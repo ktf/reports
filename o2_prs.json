@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-05-31T13:49:58Z",
-            "title": "dcs-config-proxy and sample consumer workflow",
-            "number": 6222,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-test-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Sort tracks table by collisionID",
@@ -4231,6 +4186,196 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/cuda/src/Context.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FITRaw: common digit2raw procedure is applied(implemented only for FV0)",
+            "number": 6322,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/ChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/ChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/BCData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/ChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/raw/include/FDDRaw/RawWriterFDD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/raw/src/RawWriterFDD.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/reconstruction/src/test-raw2digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/raw/include/FT0Raw/RawWriterFT0.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/raw/src/RawWriterFT0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/test-raw2digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/raw/include/FV0Raw/RawWriterFV0.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/raw/src/RawWriterFV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/reconstruction/src/test-raw2digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/digit2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DataBlockBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DataBlockFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBaseFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawWriterFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/src/RawWriterFIT.cxx"
                   }
                 }
               ]

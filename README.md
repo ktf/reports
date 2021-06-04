@@ -19,18 +19,15 @@
 - [\#6316](https://github.com/AliceO2Group/AliceO2/pull/6316) 2021-06-03: Add RICH information for Jpsi analysis by [@ginnocen](https://github.com/ginnocen)
 - [\#6317](https://github.com/AliceO2Group/AliceO2/pull/6317) 2021-06-03: add Ct, Y, and chi2PCA to jpsi task by [@rspijkers](https://github.com/rspijkers)
 ## Recent developments in O2 - Common
-- [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6247](https://github.com/AliceO2Group/AliceO2/pull/6247) 2021-05-28: Headers: remove unneeded traits by [@ktf](https://github.com/ktf)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6258](https://github.com/AliceO2Group/AliceO2/pull/6258) 2021-06-03: add tof file proxy for data w/o rdh by [@noferini](https://github.com/noferini)
@@ -47,7 +44,6 @@
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6240](https://github.com/AliceO2Group/AliceO2/pull/6240) 2021-05-28: DPL: improve shared memory handling in AOD by [@ktf](https://github.com/ktf)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6266](https://github.com/AliceO2Group/AliceO2/pull/6266) 2021-05-30: Add flag to check if a track has TOF by [@njacazio](https://github.com/njacazio)
