@@ -29,6 +29,7 @@
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
+- [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6230](https://github.com/AliceO2Group/AliceO2/pull/6230) 2021-05-28: MFT Noise calibration by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
@@ -43,6 +44,7 @@
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
+- [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 - [\#6310](https://github.com/AliceO2Group/AliceO2/pull/6310) 2021-06-03: use track PID instead of fixed pion in tof correction by [@shahor02](https://github.com/shahor02)
 - [\#6321](https://github.com/AliceO2Group/AliceO2/pull/6321) 2021-06-04: [ITS-GPU] Fix warning in CI by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
