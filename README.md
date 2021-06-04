@@ -20,10 +20,12 @@
 ## Recent developments in O2 - Common
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
+- [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6222](https://github.com/AliceO2Group/AliceO2/pull/6222) 2021-05-31: dcs-config-proxy and sample consumer workflow by [@shahor02](https://github.com/shahor02)
 - [\#6247](https://github.com/AliceO2Group/AliceO2/pull/6247) 2021-05-28: Headers: remove unneeded traits by [@ktf](https://github.com/ktf)
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
+- [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
@@ -36,6 +38,7 @@
 - [\#6272](https://github.com/AliceO2Group/AliceO2/pull/6272) 2021-05-31: RawFileWriter can handle empty HBF fillers of >8KB by [@shahor02](https://github.com/shahor02)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6279](https://github.com/AliceO2Group/AliceO2/pull/6279) 2021-06-01: Treat FLUKA_VMC like a real plugin by [@sawenzel](https://github.com/sawenzel)
+- [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
@@ -60,5 +63,7 @@
 - [\#6309](https://github.com/AliceO2Group/AliceO2/pull/6309) 2021-06-04: DPL: improve error handling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
+## Recent developments in O2 - Steer
+- [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
