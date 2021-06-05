@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-21T12:52:42Z",
-            "title": "missing includes to compile with gcc11",
-            "number": 6228,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Clustering/include/MIDClustering/PreClustersDE.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceMetricsHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-22T10:27:14Z",
             "title": "GPU: Option renaming, and grouping of TRD and TPC options",
             "number": 6229,
@@ -4216,6 +4181,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Initial version of event filter for diffractive events",
+            "number": 6328,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/CutHolderLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/cutHolder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/cutHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/PWGUD/diffractionSelectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/filterTables.h"
                   }
                 }
               ]
