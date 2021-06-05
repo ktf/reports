@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[QC-585] Improve logs and metrics in Mergers",
-            "number": 6227,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/include/Mergers/IntegratingMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/include/Mergers/MergeInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/include/Mergers/MergerConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/FullHistoryMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-05-21T12:52:42Z",
             "title": "missing includes to compile with gcc11",
@@ -4231,6 +4191,31 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "StepTHn: dont instantiate heavy part of Fill() for each template",
+            "number": 6327,
+            "author": {
+              "login": "mario-krueger"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StepTHn.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StepTHn.cxx"
                   }
                 }
               ]
