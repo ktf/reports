@@ -18,6 +18,7 @@
 - [\#6315](https://github.com/AliceO2Group/AliceO2/pull/6315) 2021-06-03: add ct and Y histos for X by [@rspijkers](https://github.com/rspijkers)
 - [\#6316](https://github.com/AliceO2Group/AliceO2/pull/6316) 2021-06-03: Add RICH information for Jpsi analysis by [@ginnocen](https://github.com/ginnocen)
 - [\#6317](https://github.com/AliceO2Group/AliceO2/pull/6317) 2021-06-03: add Ct, Y, and chi2PCA to jpsi task by [@rspijkers](https://github.com/rspijkers)
+- [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Common
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
@@ -64,6 +65,7 @@
 - [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 - [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6309](https://github.com/AliceO2Group/AliceO2/pull/6309) 2021-06-04: DPL: improve error handling by [@ktf](https://github.com/ktf)
+- [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Generators
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
