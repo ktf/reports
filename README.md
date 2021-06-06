@@ -60,7 +60,6 @@
 ## Recent developments in O2 - Framework
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6266](https://github.com/AliceO2Group/AliceO2/pull/6266) 2021-05-30: Add flag to check if a track has TOF by [@njacazio](https://github.com/njacazio)
-- [\#6268](https://github.com/AliceO2Group/AliceO2/pull/6268) 2021-05-29: DPL: rationalise parent-child communication by [@ktf](https://github.com/ktf)
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6276](https://github.com/AliceO2Group/AliceO2/pull/6276) 2021-05-31: DPL DDS: use id rather than name for task id by [@ktf](https://github.com/ktf)
 - [\#6283](https://github.com/AliceO2Group/AliceO2/pull/6283) 2021-06-01: DPL: cleanup AODReaderHelpers.cxx by [@ktf](https://github.com/ktf)
