@@ -22,6 +22,7 @@
 - [\#6333](https://github.com/AliceO2Group/AliceO2/pull/6333) 2021-06-07: Add MID and RICH in TrackSelectorPID by [@vkucera](https://github.com/vkucera)
 - [\#6341](https://github.com/AliceO2Group/AliceO2/pull/6341) 2021-06-07: Add J/ψ → μ+ μ− matching by [@vkucera](https://github.com/vkucera)
 - [\#6342](https://github.com/AliceO2Group/AliceO2/pull/6342) 2021-06-07: Add muon channel in the skim by [@ginnocen](https://github.com/ginnocen)
+- [\#6343](https://github.com/AliceO2Group/AliceO2/pull/6343) 2021-06-07: Apply soft track selection by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
@@ -57,6 +58,7 @@
 - [\#6321](https://github.com/AliceO2Group/AliceO2/pull/6321) 2021-06-04: [ITS-GPU] Fix warning in CI by [@mconcas](https://github.com/mconcas)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6326](https://github.com/AliceO2Group/AliceO2/pull/6326) 2021-06-05: Misc. fixes for secondary vertexing by [@shahor02](https://github.com/shahor02)
+- [\#6336](https://github.com/AliceO2Group/AliceO2/pull/6336) 2021-06-07: o2-sim: Stability fix by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
