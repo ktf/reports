@@ -18,6 +18,7 @@
 - [\#6317](https://github.com/AliceO2Group/AliceO2/pull/6317) 2021-06-03: add Ct, Y, and chi2PCA to jpsi task by [@rspijkers](https://github.com/rspijkers)
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6330](https://github.com/AliceO2Group/AliceO2/pull/6330) 2021-06-05: PWGHF: Update Xi_c task by [@ginnocen](https://github.com/ginnocen)
+- [\#6333](https://github.com/AliceO2Group/AliceO2/pull/6333) 2021-06-07: Add MID and RICH in TrackSelectorPID by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
