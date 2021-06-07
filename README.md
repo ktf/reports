@@ -3,10 +3,7 @@
 ## Recent developments in O2 - Algorithm
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#6260](https://github.com/AliceO2Group/AliceO2/pull/6260) 2021-05-30: support unassigned indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6261](https://github.com/AliceO2Group/AliceO2/pull/6261) 2021-06-04: Inclusion of CosTheta variable in the helicity reference frame  by [@lucamicheletti93](https://github.com/lucamicheletti93)
-- [\#6266](https://github.com/AliceO2Group/AliceO2/pull/6266) 2021-05-30: Add flag to check if a track has TOF by [@njacazio](https://github.com/njacazio)
-- [\#6271](https://github.com/AliceO2Group/AliceO2/pull/6271) 2021-05-30: PWGHF: Switch MC on by default by [@vkucera](https://github.com/vkucera)
 - [\#6273](https://github.com/AliceO2Group/AliceO2/pull/6273) 2021-06-02: Fixing typo in VarManager by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
@@ -59,7 +56,6 @@
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
-- [\#6266](https://github.com/AliceO2Group/AliceO2/pull/6266) 2021-05-30: Add flag to check if a track has TOF by [@njacazio](https://github.com/njacazio)
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6276](https://github.com/AliceO2Group/AliceO2/pull/6276) 2021-05-31: DPL DDS: use id rather than name for task id by [@ktf](https://github.com/ktf)
 - [\#6283](https://github.com/AliceO2Group/AliceO2/pull/6283) 2021-06-01: DPL: cleanup AODReaderHelpers.cxx by [@ktf](https://github.com/ktf)
