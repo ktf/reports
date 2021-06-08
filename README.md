@@ -60,6 +60,7 @@
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6326](https://github.com/AliceO2Group/AliceO2/pull/6326) 2021-06-05: Misc. fixes for secondary vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6336](https://github.com/AliceO2Group/AliceO2/pull/6336) 2021-06-07: o2-sim: Stability fix by [@sawenzel](https://github.com/sawenzel)
+- [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
