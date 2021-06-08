@@ -48,6 +48,7 @@
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6291](https://github.com/AliceO2Group/AliceO2/pull/6291) 2021-06-07: [MCH] use configurable parameters for MCH clustering by [@pillot](https://github.com/pillot)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
+- [\#6294](https://github.com/AliceO2Group/AliceO2/pull/6294) 2021-06-08: MCH: avoid using HB packets to compute digits time by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
