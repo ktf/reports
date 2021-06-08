@@ -6,56 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[MFT] Add a geometry misaligner ",
-            "number": 6251,
-            "author": {
-              "login": "robincaron13"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/include/MFTBase/MFTBaseParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/include/MFTSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/include/MFTSimulation/GeometryMisAligner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/GeometryMisAligner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/simulation/src/MFTSimulationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Drop test for symbol names",
             "number": 6252,
             "author": {
@@ -4245,17 +4195,62 @@
                 },
                 {
                   "node": {
+                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Analysis/Tasks/PWGHF/HFCandidateCreatorX.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFJpsiToEECandidateSelector.cxx"
+                    "path": "Analysis/Tasks/PWGHF/HFJpsiCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFXToJpsiPiPiCandidateSelector.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: syntactic sugar for WorkflowOptions",
+            "number": 6351,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ConfigurableHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
                   }
                 }
               ]
