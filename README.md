@@ -6,6 +6,7 @@
 - [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
+- [\#6292](https://github.com/AliceO2Group/AliceO2/pull/6292) 2021-06-09: [o2femtodream] First functional prototype of the filtering by [@a-mathis](https://github.com/a-mathis)
 - [\#6296](https://github.com/AliceO2Group/AliceO2/pull/6296) 2021-06-04: Updates for dimuon and Electron-Muon analysis by [@vfeuilla](https://github.com/vfeuilla)
 - [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
 - [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
