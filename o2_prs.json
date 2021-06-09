@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Task for Bplus analysis including candidate creator and selector",
-            "number": 6265,
-            "author": {
-              "login": "deepathoms"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/HFSelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFBPlusToD0PiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreatorBPlus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskBPlus.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-05-30T20:03:47Z",
             "title": "Add flag to check if a track has TOF",
@@ -5011,6 +4961,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add fast LTintegral method and use in TOF-constrained TPC tracks refit",
+            "number": 6365,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]
