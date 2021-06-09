@@ -23,6 +23,7 @@
 - [\#6342](https://github.com/AliceO2Group/AliceO2/pull/6342) 2021-06-07: Add muon channel in the skim by [@ginnocen](https://github.com/ginnocen)
 - [\#6343](https://github.com/AliceO2Group/AliceO2/pull/6343) 2021-06-07: Apply soft track selection by [@vkucera](https://github.com/vkucera)
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
+- [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
@@ -74,6 +75,8 @@
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6345](https://github.com/AliceO2Group/AliceO2/pull/6345) 2021-06-08: DPL Analysis: out-of-Line LabelMap by [@ktf](https://github.com/ktf)
+- [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
+- [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
