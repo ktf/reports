@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#6261](https://github.com/AliceO2Group/AliceO2/pull/6261) 2021-06-04: Inclusion of CosTheta variable in the helicity reference frame  by [@lucamicheletti93](https://github.com/lucamicheletti93)
 - [\#6273](https://github.com/AliceO2Group/AliceO2/pull/6273) 2021-06-02: Fixing typo in VarManager by [@mcoquet642](https://github.com/mcoquet642)
@@ -31,7 +29,6 @@
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
@@ -40,7 +37,6 @@
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6258](https://github.com/AliceO2Group/AliceO2/pull/6258) 2021-06-03: add tof file proxy for data w/o rdh by [@noferini](https://github.com/noferini)
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
@@ -63,7 +59,6 @@
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
 - [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
@@ -81,5 +76,3 @@
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Utilities
-- [\#6253](https://github.com/AliceO2Group/AliceO2/pull/6253) 2021-06-02: Drop o2::byte by [@ktf](https://github.com/ktf)
