@@ -78,6 +78,7 @@
 - [\#6345](https://github.com/AliceO2Group/AliceO2/pull/6345) 2021-06-08: DPL Analysis: out-of-Line LabelMap by [@ktf](https://github.com/ktf)
 - [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
+- [\#6354](https://github.com/AliceO2Group/AliceO2/pull/6354) 2021-06-09: DPL: extend call_if_defined to have a fallback if not defined by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
