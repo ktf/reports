@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-28T07:21:50Z",
-            "title": "PWGHF: Fix track selection in index skimming",
-            "number": 6255,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFTrackIndexSkimsCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-27T17:55:45Z",
             "title": "DPL: improve workflow validation",
             "number": 6256,
@@ -4256,6 +4231,61 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/include/Framework/CheckTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCHRaw: add Solar2Link mapper",
+            "number": 6355,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/include/MCHRawElecMap/DsElecId.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/include/MCHRawElecMap/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperDummy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperGenerated.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperImplHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/Mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/cli.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/testElectronicMapper.cxx"
                   }
                 }
               ]
