@@ -28,6 +28,7 @@
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
+- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -36,6 +37,7 @@
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
+- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [\#6258](https://github.com/AliceO2Group/AliceO2/pull/6258) 2021-06-03: add tof file proxy for data w/o rdh by [@noferini](https://github.com/noferini)
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
@@ -57,6 +59,7 @@
 - [\#6336](https://github.com/AliceO2Group/AliceO2/pull/6336) 2021-06-07: o2-sim: Stability fix by [@sawenzel](https://github.com/sawenzel)
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
 - [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
+- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
