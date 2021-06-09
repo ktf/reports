@@ -39,7 +39,6 @@
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#6258](https://github.com/AliceO2Group/AliceO2/pull/6258) 2021-06-03: add tof file proxy for data w/o rdh by [@noferini](https://github.com/noferini)
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 - [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
@@ -60,6 +59,7 @@
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
 - [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
+- [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
