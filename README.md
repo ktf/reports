@@ -77,3 +77,5 @@
 - [\#6263](https://github.com/AliceO2Group/AliceO2/pull/6263) 2021-06-02: pythia8 generator flag will start empty pythia8 config, make sure you… by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Utilities
+- [\#6313](https://github.com/AliceO2Group/AliceO2/pull/6313) 2021-06-09: Data Sampling: remove the possibility to use raw FairMQ channel by [@knopers8](https://github.com/knopers8)
