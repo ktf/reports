@@ -18,6 +18,7 @@
 - [\#6343](https://github.com/AliceO2Group/AliceO2/pull/6343) 2021-06-07: Apply soft track selection by [@vkucera](https://github.com/vkucera)
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
+- [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
@@ -55,6 +56,7 @@
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
 - [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
 - [\#6346](https://github.com/AliceO2Group/AliceO2/pull/6346) 2021-06-09: add DEADBEEF check in TOF decoder spec by [@noferini](https://github.com/noferini)
+- [\#6349](https://github.com/AliceO2Group/AliceO2/pull/6349) 2021-06-10: TPC: enable sampling of raw data for QC task by [@tklemenz](https://github.com/tklemenz)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
