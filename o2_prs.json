@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-05-30T06:27:33Z",
-            "title": "PWGHF: Switch MC on by default",
-            "number": 6271,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskBPlus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskDPlus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskLc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskLcK0sP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskX.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-05-31T13:29:57Z",
             "title": "RawFileWriter can handle empty HBF fillers of >8KB",
             "number": 6272,
@@ -4900,6 +4835,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/MUON/MCH/Raw/test/testClosureCoDec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Raw/include/DetectorsRaw/HBFUtils.h"
                   }
                 },
@@ -4961,6 +4901,41 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGDQ/v0selector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use explicit struct rather than std::pair",
+            "number": 6371,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonDataProcessors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
