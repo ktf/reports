@@ -66,6 +66,8 @@
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6354](https://github.com/AliceO2Group/AliceO2/pull/6354) 2021-06-09: DPL: extend call_if_defined to have a fallback if not defined by [@ktf](https://github.com/ktf)
 - [\#6357](https://github.com/AliceO2Group/AliceO2/pull/6357) 2021-06-10: DPL: make topology creation customizable by [@ktf](https://github.com/ktf)
+- [\#6364](https://github.com/AliceO2Group/AliceO2/pull/6364) 2021-06-10: DPL Analysis: eliminate 50K std::decay_t by [@ktf](https://github.com/ktf)
+- [\#6369](https://github.com/AliceO2Group/AliceO2/pull/6369) 2021-06-10: DPL: use correct name for output proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
