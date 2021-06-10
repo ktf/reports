@@ -61,6 +61,7 @@
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
+- [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
@@ -78,6 +79,7 @@
 - [\#6369](https://github.com/AliceO2Group/AliceO2/pull/6369) 2021-06-10: DPL: use correct name for output proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
+- [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6313](https://github.com/AliceO2Group/AliceO2/pull/6313) 2021-06-09: Data Sampling: remove the possibility to use raw FairMQ channel by [@knopers8](https://github.com/knopers8)
