@@ -75,3 +75,4 @@
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6313](https://github.com/AliceO2Group/AliceO2/pull/6313) 2021-06-09: Data Sampling: remove the possibility to use raw FairMQ channel by [@knopers8](https://github.com/knopers8)
+- [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
