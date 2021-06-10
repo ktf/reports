@@ -1,15 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6273](https://github.com/AliceO2Group/AliceO2/pull/6273) 2021-06-02: Fixing typo in VarManager by [@mcoquet642](https://github.com/mcoquet642)
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
-- [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
 - [\#6292](https://github.com/AliceO2Group/AliceO2/pull/6292) 2021-06-09: [o2femtodream] First functional prototype of the filtering by [@a-mathis](https://github.com/a-mathis)
 - [\#6296](https://github.com/AliceO2Group/AliceO2/pull/6296) 2021-06-04: Updates for dimuon and Electron-Muon analysis by [@vfeuilla](https://github.com/vfeuilla)
-- [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
-- [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6314](https://github.com/AliceO2Group/AliceO2/pull/6314) 2021-06-03: add chi2PCA for X by [@rspijkers](https://github.com/rspijkers)
 - [\#6315](https://github.com/AliceO2Group/AliceO2/pull/6315) 2021-06-03: add ct and Y histos for X by [@rspijkers](https://github.com/rspijkers)
 - [\#6316](https://github.com/AliceO2Group/AliceO2/pull/6316) 2021-06-03: Add RICH information for Jpsi analysis by [@ginnocen](https://github.com/ginnocen)
@@ -23,7 +19,6 @@
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
@@ -32,20 +27,17 @@
 ## Recent developments in O2 - DataFormats
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
-- [\#6300](https://github.com/AliceO2Group/AliceO2/pull/6300) 2021-06-02: Add back cerrno by [@ktf](https://github.com/ktf)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#6274](https://github.com/AliceO2Group/AliceO2/pull/6274) 2021-06-02: Avoid inclusion of Vc/Vc in RandomRing by [@sawenzel](https://github.com/sawenzel)
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6291](https://github.com/AliceO2Group/AliceO2/pull/6291) 2021-06-07: [MCH] use configurable parameters for MCH clustering by [@pillot](https://github.com/pillot)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
 - [\#6294](https://github.com/AliceO2Group/AliceO2/pull/6294) 2021-06-08: MCH: avoid using HB packets to compute digits time by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
-- [\#6298](https://github.com/AliceO2Group/AliceO2/pull/6298) 2021-06-02: Fix in requesting FT0 data for PVertex validation by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 - [\#6307](https://github.com/AliceO2Group/AliceO2/pull/6307) 2021-06-09: Rdev compressor rdh protect by [@preghenella](https://github.com/preghenella)
@@ -64,11 +56,8 @@
 ## Recent developments in O2 - Framework
 - [\#6275](https://github.com/AliceO2Group/AliceO2/pull/6275) 2021-06-03: DPL Analysis: fix bug in unassigned grouping by [@aalkin](https://github.com/aalkin)
 - [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
-- [\#6284](https://github.com/AliceO2Group/AliceO2/pull/6284) 2021-06-02: documentation of data model. renaming unassigned tracks table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
-- [\#6301](https://github.com/AliceO2Group/AliceO2/pull/6301) 2021-06-02: DPL Analysis: fix AnalysisTask test after renaming data model table by [@aalkin](https://github.com/aalkin)
-- [\#6302](https://github.com/AliceO2Group/AliceO2/pull/6302) 2021-06-02: DPL Analysis: avoid instantiating HistFactory functions for each TU by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6309](https://github.com/AliceO2Group/AliceO2/pull/6309) 2021-06-04: DPL: improve error handling by [@ktf](https://github.com/ktf)
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
