@@ -38,6 +38,7 @@
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
 - [\#6294](https://github.com/AliceO2Group/AliceO2/pull/6294) 2021-06-08: MCH: avoid using HB packets to compute digits time by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6297](https://github.com/AliceO2Group/AliceO2/pull/6297) 2021-06-03: Fix in SVertices attachment to RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#6303](https://github.com/AliceO2Group/AliceO2/pull/6303) 2021-06-10: Materials inside the MFT patch panel by [@frmanso](https://github.com/frmanso)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
 - [\#6307](https://github.com/AliceO2Group/AliceO2/pull/6307) 2021-06-09: Rdev compressor rdh protect by [@preghenella](https://github.com/preghenella)
