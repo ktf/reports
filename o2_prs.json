@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-01T06:31:08Z",
-            "title": "Treat FLUKA_VMC like a real plugin",
-            "number": 6279,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/FlukaConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/FlukaRuntimeConfig.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2FindDependenciesFromAliBuild.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-06-07T16:48:55Z",
-            "title": "PID: Check that the TOF exp mom is positive",
-            "number": 6280,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-01T06:29:30Z",
             "title": "o2sim: Cleanup tmp files",
             "number": 6281,
@@ -4823,6 +4763,46 @@
             "mergedAt": "2021-06-10T16:06:41Z",
             "title": "Adjust mass histogram according to channel",
             "number": 6378,
+            "author": {
+              "login": "ginnocen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-06-10T16:12:56Z",
+            "title": "Fix Clang",
+            "number": 6379,
+            "author": {
+              "login": "ginnocen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-06-10T16:17:28Z",
+            "title": "Clang (#6379)",
+            "number": 6380,
             "author": {
               "login": "ginnocen"
             },

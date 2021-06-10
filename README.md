@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
 - [\#6292](https://github.com/AliceO2Group/AliceO2/pull/6292) 2021-06-09: [o2femtodream] First functional prototype of the filtering by [@a-mathis](https://github.com/a-mathis)
 - [\#6296](https://github.com/AliceO2Group/AliceO2/pull/6296) 2021-06-04: Updates for dimuon and Electron-Muon analysis by [@vfeuilla](https://github.com/vfeuilla)
@@ -21,6 +20,8 @@
 - [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
 - [\#6377](https://github.com/AliceO2Group/AliceO2/pull/6377) 2021-06-10: Devrun5 muon by [@ginnocen](https://github.com/ginnocen)
 - [\#6378](https://github.com/AliceO2Group/AliceO2/pull/6378) 2021-06-10: Adjust mass histogram according to channel by [@ginnocen](https://github.com/ginnocen)
+- [\#6379](https://github.com/AliceO2Group/AliceO2/pull/6379) 2021-06-10: Fix Clang by [@ginnocen](https://github.com/ginnocen)
+- [\#6380](https://github.com/AliceO2Group/AliceO2/pull/6380) 2021-06-10: Clang (#6379) by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
@@ -62,7 +63,6 @@
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6280](https://github.com/AliceO2Group/AliceO2/pull/6280) 2021-06-07: PID: Check that the TOF exp mom is positive by [@njacazio](https://github.com/njacazio)
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
 - [\#6309](https://github.com/AliceO2Group/AliceO2/pull/6309) 2021-06-04: DPL: improve error handling by [@ktf](https://github.com/ktf)
