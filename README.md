@@ -28,6 +28,7 @@
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
+- [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
@@ -64,7 +65,9 @@
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
+- [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
+- [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6288](https://github.com/AliceO2Group/AliceO2/pull/6288) 2021-06-07: DPL Analysis: extern declaration for common table types by [@ktf](https://github.com/ktf)
 - [\#6293](https://github.com/AliceO2Group/AliceO2/pull/6293) 2021-06-04: DPL: hide InputSpan from common headers by [@ktf](https://github.com/ktf)
@@ -85,6 +88,7 @@
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
+- [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6313](https://github.com/AliceO2Group/AliceO2/pull/6313) 2021-06-09: Data Sampling: remove the possibility to use raw FairMQ channel by [@knopers8](https://github.com/knopers8)
 - [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
