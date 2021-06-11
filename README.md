@@ -60,6 +60,7 @@
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
+- [\#6363](https://github.com/AliceO2Group/AliceO2/pull/6363) 2021-06-11: [TPC] add ROC title + cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
