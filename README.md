@@ -63,6 +63,7 @@
 - [\#6345](https://github.com/AliceO2Group/AliceO2/pull/6345) 2021-06-08: DPL Analysis: out-of-Line LabelMap by [@ktf](https://github.com/ktf)
 - [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
+- [\#6353](https://github.com/AliceO2Group/AliceO2/pull/6353) 2021-06-11: Avoid data copy in the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6354](https://github.com/AliceO2Group/AliceO2/pull/6354) 2021-06-09: DPL: extend call_if_defined to have a fallback if not defined by [@ktf](https://github.com/ktf)
 - [\#6357](https://github.com/AliceO2Group/AliceO2/pull/6357) 2021-06-10: DPL: make topology creation customizable by [@ktf](https://github.com/ktf)
 - [\#6364](https://github.com/AliceO2Group/AliceO2/pull/6364) 2021-06-10: DPL Analysis: eliminate 50K std::decay_t by [@ktf](https://github.com/ktf)
