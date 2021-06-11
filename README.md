@@ -15,6 +15,7 @@
 - [\#6378](https://github.com/AliceO2Group/AliceO2/pull/6378) 2021-06-10: Adjust mass histogram according to channel by [@ginnocen](https://github.com/ginnocen)
 - [\#6379](https://github.com/AliceO2Group/AliceO2/pull/6379) 2021-06-10: Fix Clang by [@ginnocen](https://github.com/ginnocen)
 - [\#6380](https://github.com/AliceO2Group/AliceO2/pull/6380) 2021-06-10: Clang (#6379) by [@ginnocen](https://github.com/ginnocen)
+- [\#6401](https://github.com/AliceO2Group/AliceO2/pull/6401) 2021-06-11: Add task to check contaminations by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
