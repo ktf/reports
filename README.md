@@ -72,6 +72,7 @@
 - [\#6369](https://github.com/AliceO2Group/AliceO2/pull/6369) 2021-06-10: DPL: use correct name for output proxy by [@ktf](https://github.com/ktf)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
 - [\#6373](https://github.com/AliceO2Group/AliceO2/pull/6373) 2021-06-11: Adding benchmark workflow for the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#6383](https://github.com/AliceO2Group/AliceO2/pull/6383) 2021-06-11: DPL: optimize handling of splitParts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
