@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-02T09:24:04Z",
-            "title": "Fix in requesting FT0 data for PVertex validation",
-            "number": 6298,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-06-04T05:15:51Z",
-            "title": "o2-sim: Improved signal handling",
-            "number": 6299,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2simtopology_template.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-02T09:58:24Z",
             "title": "Add back cerrno",
             "number": 6300,
@@ -4529,8 +4474,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-06-11T20:40:56Z",
             "title": "Add bit counting to GPUCommonBitSet",
             "number": 6384,
             "author": {
@@ -5516,6 +5461,126 @@
                 {
                   "node": {
                     "path": "DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes",
+            "number": 6398,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUMemorySizeScalers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUErrorCodes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUErrors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfiguration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCClusterFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CTF writer: optionally accumulate CTFs until min-file-size obtained",
+            "number": 6399,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/include/CTFWorkflow/CTFWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/ctf-writer-workflow.cxx"
                   }
                 }
               ]

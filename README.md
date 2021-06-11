@@ -22,6 +22,7 @@
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
+- [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
