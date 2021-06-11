@@ -33,6 +33,7 @@
 - [\#6319](https://github.com/AliceO2Group/AliceO2/pull/6319) 2021-06-04: Generate header providing build-time ENABLE_UPGRADES status by [@shahor02](https://github.com/shahor02)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
+- [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6287](https://github.com/AliceO2Group/AliceO2/pull/6287) 2021-06-04: Fixes for alignment framework by [@shahor02](https://github.com/shahor02)
 - [\#6291](https://github.com/AliceO2Group/AliceO2/pull/6291) 2021-06-07: [MCH] use configurable parameters for MCH clustering by [@pillot](https://github.com/pillot)
@@ -58,6 +59,7 @@
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
+- [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
