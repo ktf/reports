@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6292](https://github.com/AliceO2Group/AliceO2/pull/6292) 2021-06-09: [o2femtodream] First functional prototype of the filtering by [@a-mathis](https://github.com/a-mathis)
 - [\#6296](https://github.com/AliceO2Group/AliceO2/pull/6296) 2021-06-04: Updates for dimuon and Electron-Muon analysis by [@vfeuilla](https://github.com/vfeuilla)
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6328](https://github.com/AliceO2Group/AliceO2/pull/6328) 2021-06-10: Initial version of event filter for diffractive events by [@pbuehler](https://github.com/pbuehler)
