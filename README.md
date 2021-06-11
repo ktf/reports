@@ -31,7 +31,6 @@
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6294](https://github.com/AliceO2Group/AliceO2/pull/6294) 2021-06-08: MCH: avoid using HB packets to compute digits time by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6303](https://github.com/AliceO2Group/AliceO2/pull/6303) 2021-06-10: Materials inside the MFT patch panel by [@frmanso](https://github.com/frmanso)
 - [\#6304](https://github.com/AliceO2Group/AliceO2/pull/6304) 2021-06-04: ITS tracking will produce output with reconstructed IRFrames (IR brackets) by [@shahor02](https://github.com/shahor02)
 - [\#6306](https://github.com/AliceO2Group/AliceO2/pull/6306) 2021-06-04: Add unassigned tracks as the last entry of the Vtx->Track refs by [@shahor02](https://github.com/shahor02)
