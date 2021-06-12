@@ -16,6 +16,9 @@
 - [\#6379](https://github.com/AliceO2Group/AliceO2/pull/6379) 2021-06-10: Fix Clang by [@ginnocen](https://github.com/ginnocen)
 - [\#6380](https://github.com/AliceO2Group/AliceO2/pull/6380) 2021-06-10: Clang (#6379) by [@ginnocen](https://github.com/ginnocen)
 - [\#6401](https://github.com/AliceO2Group/AliceO2/pull/6401) 2021-06-11: Add task to check contaminations by [@ginnocen](https://github.com/ginnocen)
+- [\#6404](https://github.com/AliceO2Group/AliceO2/pull/6404) 2021-06-12: Add study for particle ration and PID contamination by [@ginnocen](https://github.com/ginnocen)
+- [\#6405](https://github.com/AliceO2Group/AliceO2/pull/6405) 2021-06-12: Devrun5 by [@ginnocen](https://github.com/ginnocen)
+- [\#6406](https://github.com/AliceO2Group/AliceO2/pull/6406) 2021-06-12: Fix name by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
@@ -23,11 +26,13 @@
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
+- [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
+- [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6307](https://github.com/AliceO2Group/AliceO2/pull/6307) 2021-06-09: Rdev compressor rdh protect by [@preghenella](https://github.com/preghenella)
 - [\#6308](https://github.com/AliceO2Group/AliceO2/pull/6308) 2021-06-10: number of channels according LUT by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -52,6 +57,7 @@
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6388](https://github.com/AliceO2Group/AliceO2/pull/6388) 2021-06-11: estimateLTFast fix: comment unused zdca (may be used later) by [@shahor02](https://github.com/shahor02)
 - [\#6394](https://github.com/AliceO2Group/AliceO2/pull/6394) 2021-06-12: MFT: rename macro for dictionary creation; fix dictionary function call; move ClusterPattern init before loop by [@bovulpes](https://github.com/bovulpes)
+- [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
