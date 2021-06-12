@@ -36,7 +36,6 @@
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6308](https://github.com/AliceO2Group/AliceO2/pull/6308) 2021-06-10: number of channels according LUT by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6326](https://github.com/AliceO2Group/AliceO2/pull/6326) 2021-06-05: Misc. fixes for secondary vertexing by [@shahor02](https://github.com/shahor02)
@@ -61,6 +60,7 @@
 - [\#6398](https://github.com/AliceO2Group/AliceO2/pull/6398) 2021-06-12: Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
+- [\#6408](https://github.com/AliceO2Group/AliceO2/pull/6408) 2021-06-12: Fix in MFT tracking: set cluster pattern in the loop by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
