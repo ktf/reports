@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-09T15:32:55Z",
-            "title": "Rdev compressor rdh protect",
-            "number": 6307,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/CompressorTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/DecoderBase.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-10T08:16:53Z",
             "title": "number of channels according LUT",
             "number": 6308,
@@ -5311,6 +5266,26 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/qaPidRejection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-06-12T18:10:11Z",
+            "title": "Fix track PID for cases where RICH or MID is not available",
+            "number": 6407,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/TrackSelectorPID.h"
                   }
                 }
               ]
