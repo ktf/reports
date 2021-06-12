@@ -28,7 +28,6 @@
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#6303](https://github.com/AliceO2Group/AliceO2/pull/6303) 2021-06-10: Materials inside the MFT patch panel by [@frmanso](https://github.com/frmanso)
 - [\#6307](https://github.com/AliceO2Group/AliceO2/pull/6307) 2021-06-09: Rdev compressor rdh protect by [@preghenella](https://github.com/preghenella)
 - [\#6308](https://github.com/AliceO2Group/AliceO2/pull/6308) 2021-06-10: number of channels according LUT by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
