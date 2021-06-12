@@ -21,6 +21,7 @@
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
+- [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
@@ -48,7 +49,9 @@
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
+- [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6388](https://github.com/AliceO2Group/AliceO2/pull/6388) 2021-06-11: estimateLTFast fix: comment unused zdca (may be used later) by [@shahor02](https://github.com/shahor02)
+- [\#6394](https://github.com/AliceO2Group/AliceO2/pull/6394) 2021-06-12: MFT: rename macro for dictionary creation; fix dictionary function call; move ClusterPattern init before loop by [@bovulpes](https://github.com/bovulpes)
 ## Recent developments in O2 - Framework
 - [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
