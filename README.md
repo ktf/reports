@@ -20,6 +20,7 @@
 - [\#6405](https://github.com/AliceO2Group/AliceO2/pull/6405) 2021-06-12: Devrun5 by [@ginnocen](https://github.com/ginnocen)
 - [\#6406](https://github.com/AliceO2Group/AliceO2/pull/6406) 2021-06-12: Fix name by [@ginnocen](https://github.com/ginnocen)
 - [\#6407](https://github.com/AliceO2Group/AliceO2/pull/6407) 2021-06-12: Fix track PID for cases where RICH or MID is not available by [@vkucera](https://github.com/vkucera)
+- [\#6410](https://github.com/AliceO2Group/AliceO2/pull/6410) 2021-06-12: Add e/pi selection by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
