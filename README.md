@@ -1,9 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6328](https://github.com/AliceO2Group/AliceO2/pull/6328) 2021-06-10: Initial version of event filter for diffractive events by [@pbuehler](https://github.com/pbuehler)
-- [\#6330](https://github.com/AliceO2Group/AliceO2/pull/6330) 2021-06-05: PWGHF: Update Xi_c task by [@ginnocen](https://github.com/ginnocen)
 - [\#6333](https://github.com/AliceO2Group/AliceO2/pull/6333) 2021-06-07: Add MID and RICH in TrackSelectorPID by [@vkucera](https://github.com/vkucera)
 - [\#6341](https://github.com/AliceO2Group/AliceO2/pull/6341) 2021-06-07: Add J/ψ → μ+ μ− matching by [@vkucera](https://github.com/vkucera)
 - [\#6342](https://github.com/AliceO2Group/AliceO2/pull/6342) 2021-06-07: Add muon channel in the skim by [@ginnocen](https://github.com/ginnocen)
@@ -22,7 +20,6 @@
 - [\#6407](https://github.com/AliceO2Group/AliceO2/pull/6407) 2021-06-12: Fix track PID for cases where RICH or MID is not available by [@vkucera](https://github.com/vkucera)
 - [\#6410](https://github.com/AliceO2Group/AliceO2/pull/6410) 2021-06-12: Add e/pi selection by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
-- [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
@@ -30,16 +27,12 @@
 - [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6320](https://github.com/AliceO2Group/AliceO2/pull/6320) 2021-06-05: Some higher level filesystem utility by [@sawenzel](https://github.com/sawenzel)
-- [\#6322](https://github.com/AliceO2Group/AliceO2/pull/6322) 2021-06-05: FITRaw: common digit2raw procedure is applied(implemented only for FV0) by [@afurs](https://github.com/afurs)
-- [\#6326](https://github.com/AliceO2Group/AliceO2/pull/6326) 2021-06-05: Misc. fixes for secondary vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6336](https://github.com/AliceO2Group/AliceO2/pull/6336) 2021-06-07: o2-sim: Stability fix by [@sawenzel](https://github.com/sawenzel)
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
 - [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
@@ -63,8 +56,6 @@
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 - [\#6408](https://github.com/AliceO2Group/AliceO2/pull/6408) 2021-06-12: Fix in MFT tracking: set cluster pattern in the loop by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6323](https://github.com/AliceO2Group/AliceO2/pull/6323) 2021-06-05: DPL Analysis: avoid instantiating HistogramRegistry functions per histogram name by [@mario-krueger](https://github.com/mario-krueger)
-- [\#6327](https://github.com/AliceO2Group/AliceO2/pull/6327) 2021-06-05: StepTHn: dont instantiate heavy part of Fill() for each template by [@mario-krueger](https://github.com/mario-krueger)
 - [\#6345](https://github.com/AliceO2Group/AliceO2/pull/6345) 2021-06-08: DPL Analysis: out-of-Line LabelMap by [@ktf](https://github.com/ktf)
 - [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
