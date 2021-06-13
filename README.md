@@ -30,6 +30,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
+- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
@@ -51,6 +52,7 @@
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
+- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6388](https://github.com/AliceO2Group/AliceO2/pull/6388) 2021-06-11: estimateLTFast fix: comment unused zdca (may be used later) by [@shahor02](https://github.com/shahor02)
 - [\#6394](https://github.com/AliceO2Group/AliceO2/pull/6394) 2021-06-12: MFT: rename macro for dictionary creation; fix dictionary function call; move ClusterPattern init before loop by [@bovulpes](https://github.com/bovulpes)
 - [\#6398](https://github.com/AliceO2Group/AliceO2/pull/6398) 2021-06-12: Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes by [@davidrohr](https://github.com/davidrohr)
@@ -77,5 +79,6 @@
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
+- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
 - [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
