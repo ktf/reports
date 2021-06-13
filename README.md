@@ -75,5 +75,4 @@
 - [\#6367](https://github.com/AliceO2Group/AliceO2/pull/6367) 2021-06-10: Due to G4 the alignment must be applied in the MCApplication::MisalignGeometry by [@shahor02](https://github.com/shahor02)
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#6313](https://github.com/AliceO2Group/AliceO2/pull/6313) 2021-06-09: Data Sampling: remove the possibility to use raw FairMQ channel by [@knopers8](https://github.com/knopers8)
 - [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
