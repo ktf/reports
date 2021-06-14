@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-04T15:51:10Z",
-            "title": "[ITS-GPU] Fix warning in CI",
-            "number": 6321,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/cuda/src/Context.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-05T18:57:39Z",
             "title": "FITRaw: common digit2raw procedure is applied(implemented only for FV0)",
             "number": 6322,
@@ -5591,6 +5571,31 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MID] DPL workflow to send MID tracks read from a root file",
+            "number": 6421,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/tracks-reader-workflow.cxx"
                   }
                 }
               ]
