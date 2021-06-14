@@ -9,6 +9,7 @@
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
+- [\#6370](https://github.com/AliceO2Group/AliceO2/pull/6370) 2021-06-14: Analysis/Tasksk/PWGDQ: update v0selector for std::map by [@dsekihat](https://github.com/dsekihat)
 - [\#6377](https://github.com/AliceO2Group/AliceO2/pull/6377) 2021-06-10: Devrun5 muon by [@ginnocen](https://github.com/ginnocen)
 - [\#6378](https://github.com/AliceO2Group/AliceO2/pull/6378) 2021-06-10: Adjust mass histogram according to channel by [@ginnocen](https://github.com/ginnocen)
 - [\#6379](https://github.com/AliceO2Group/AliceO2/pull/6379) 2021-06-10: Fix Clang by [@ginnocen](https://github.com/ginnocen)
