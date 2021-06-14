@@ -20,6 +20,7 @@
 - [\#6406](https://github.com/AliceO2Group/AliceO2/pull/6406) 2021-06-12: Fix name by [@ginnocen](https://github.com/ginnocen)
 - [\#6407](https://github.com/AliceO2Group/AliceO2/pull/6407) 2021-06-12: Fix track PID for cases where RICH or MID is not available by [@vkucera](https://github.com/vkucera)
 - [\#6410](https://github.com/AliceO2Group/AliceO2/pull/6410) 2021-06-12: Add e/pi selection by [@vkucera](https://github.com/vkucera)
+- [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
