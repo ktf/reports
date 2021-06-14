@@ -23,6 +23,7 @@
 - [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
+- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
@@ -31,6 +32,7 @@
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
+- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
@@ -47,6 +49,7 @@
 - [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
 - [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
+- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6363](https://github.com/AliceO2Group/AliceO2/pull/6363) 2021-06-11: [TPC] add ROC title + cleanup by [@wiechula](https://github.com/wiechula)
@@ -85,5 +88,6 @@
 - [\#6368](https://github.com/AliceO2Group/AliceO2/pull/6368) 2021-06-10: Check consistency of HBFUtil settings by [@shahor02](https://github.com/shahor02)
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
+- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#6414](https://github.com/AliceO2Group/AliceO2/pull/6414) 2021-06-14: jobutils: catch libc fatal error messages by [@sawenzel](https://github.com/sawenzel)
