@@ -61,6 +61,7 @@
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 - [\#6408](https://github.com/AliceO2Group/AliceO2/pull/6408) 2021-06-12: Fix in MFT tracking: set cluster pattern in the loop by [@shahor02](https://github.com/shahor02)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
+- [\#6416](https://github.com/AliceO2Group/AliceO2/pull/6416) 2021-06-14: Include TKey.h by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Framework
 - [\#6345](https://github.com/AliceO2Group/AliceO2/pull/6345) 2021-06-08: DPL Analysis: out-of-Line LabelMap by [@ktf](https://github.com/ktf)
 - [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
@@ -83,3 +84,4 @@
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
 - [\#6376](https://github.com/AliceO2Group/AliceO2/pull/6376) 2021-06-10: few fixes by [@sawenzel](https://github.com/sawenzel)
+- [\#6414](https://github.com/AliceO2Group/AliceO2/pull/6414) 2021-06-14: jobutils: catch libc fatal error messages by [@sawenzel](https://github.com/sawenzel)
