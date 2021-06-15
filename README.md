@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6328](https://github.com/AliceO2Group/AliceO2/pull/6328) 2021-06-10: Initial version of event filter for diffractive events by [@pbuehler](https://github.com/pbuehler)
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
