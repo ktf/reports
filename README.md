@@ -18,6 +18,7 @@
 - [\#6410](https://github.com/AliceO2Group/AliceO2/pull/6410) 2021-06-12: Add e/pi selection by [@vkucera](https://github.com/vkucera)
 - [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
 - [\#6425](https://github.com/AliceO2Group/AliceO2/pull/6425) 2021-06-15: Changes in e/pi rejection by [@vkucera](https://github.com/vkucera)
+- [\#6429](https://github.com/AliceO2Group/AliceO2/pull/6429) 2021-06-15: Fix missing ; by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Common
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
