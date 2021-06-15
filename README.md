@@ -2,10 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6328](https://github.com/AliceO2Group/AliceO2/pull/6328) 2021-06-10: Initial version of event filter for diffractive events by [@pbuehler](https://github.com/pbuehler)
-- [\#6333](https://github.com/AliceO2Group/AliceO2/pull/6333) 2021-06-07: Add MID and RICH in TrackSelectorPID by [@vkucera](https://github.com/vkucera)
-- [\#6341](https://github.com/AliceO2Group/AliceO2/pull/6341) 2021-06-07: Add J/ψ → μ+ μ− matching by [@vkucera](https://github.com/vkucera)
-- [\#6342](https://github.com/AliceO2Group/AliceO2/pull/6342) 2021-06-07: Add muon channel in the skim by [@ginnocen](https://github.com/ginnocen)
-- [\#6343](https://github.com/AliceO2Group/AliceO2/pull/6343) 2021-06-07: Apply soft track selection by [@vkucera](https://github.com/vkucera)
 - [\#6350](https://github.com/AliceO2Group/AliceO2/pull/6350) 2021-06-08: Add J/ψ → μ+ μ− selection in selector by [@vkucera](https://github.com/vkucera)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
@@ -40,7 +36,6 @@
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6336](https://github.com/AliceO2Group/AliceO2/pull/6336) 2021-06-07: o2-sim: Stability fix by [@sawenzel](https://github.com/sawenzel)
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
 - [\#6344](https://github.com/AliceO2Group/AliceO2/pull/6344) 2021-06-08: Do not use C++11 range loop with OpenMP by [@ktf](https://github.com/ktf)
 - [\#6346](https://github.com/AliceO2Group/AliceO2/pull/6346) 2021-06-09: add DEADBEEF check in TOF decoder spec by [@noferini](https://github.com/noferini)
