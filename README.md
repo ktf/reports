@@ -37,6 +37,7 @@
 - [\#6397](https://github.com/AliceO2Group/AliceO2/pull/6397) 2021-06-12: Drop usage of flat_map by [@ktf](https://github.com/ktf)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
+- [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6338](https://github.com/AliceO2Group/AliceO2/pull/6338) 2021-06-09: o2sim will apply alignment to active modules only by [@shahor02](https://github.com/shahor02)
@@ -62,6 +63,7 @@
 - [\#6398](https://github.com/AliceO2Group/AliceO2/pull/6398) 2021-06-12: Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
+- [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6408](https://github.com/AliceO2Group/AliceO2/pull/6408) 2021-06-12: Fix in MFT tracking: set cluster pattern in the loop by [@shahor02](https://github.com/shahor02)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6416](https://github.com/AliceO2Group/AliceO2/pull/6416) 2021-06-14: Include TKey.h by [@pzhristov](https://github.com/pzhristov)
