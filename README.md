@@ -18,6 +18,8 @@
 - [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
 - [\#6425](https://github.com/AliceO2Group/AliceO2/pull/6425) 2021-06-15: Changes in e/pi rejection by [@vkucera](https://github.com/vkucera)
 - [\#6429](https://github.com/AliceO2Group/AliceO2/pull/6429) 2021-06-15: Fix missing ; by [@vkucera](https://github.com/vkucera)
+- [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
+- [\#6435](https://github.com/AliceO2Group/AliceO2/pull/6435) 2021-06-16: cleanup in order to prepare for bigger modifications by [@akalweit](https://github.com/akalweit)
 ## Recent developments in O2 - Common
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -79,6 +81,7 @@
 - [\#6373](https://github.com/AliceO2Group/AliceO2/pull/6373) 2021-06-11: Adding benchmark workflow for the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6383](https://github.com/AliceO2Group/AliceO2/pull/6383) 2021-06-11: DPL: optimize handling of splitParts by [@ktf](https://github.com/ktf)
 - [\#6395](https://github.com/AliceO2Group/AliceO2/pull/6395) 2021-06-12: DPL: dump per arrow table metrics by [@ktf](https://github.com/ktf)
+- [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Steer
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
