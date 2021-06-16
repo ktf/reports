@@ -20,6 +20,7 @@
 - [\#6429](https://github.com/AliceO2Group/AliceO2/pull/6429) 2021-06-15: Fix missing ; by [@vkucera](https://github.com/vkucera)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
 - [\#6435](https://github.com/AliceO2Group/AliceO2/pull/6435) 2021-06-16: cleanup in order to prepare for bigger modifications by [@akalweit](https://github.com/akalweit)
+- [\#6448](https://github.com/AliceO2Group/AliceO2/pull/6448) 2021-06-16: Fix selection on MID, only PIDAccepted kept by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -68,7 +69,6 @@
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6348](https://github.com/AliceO2Group/AliceO2/pull/6348) 2021-06-09: DPL: make sure that const services use the const API by [@ktf](https://github.com/ktf)
 - [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6353](https://github.com/AliceO2Group/AliceO2/pull/6353) 2021-06-11: Avoid data copy in the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6354](https://github.com/AliceO2Group/AliceO2/pull/6354) 2021-06-09: DPL: extend call_if_defined to have a fallback if not defined by [@ktf](https://github.com/ktf)
