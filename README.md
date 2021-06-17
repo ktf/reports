@@ -44,7 +44,6 @@
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Detectors
-- [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
