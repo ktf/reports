@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
 - [\#6370](https://github.com/AliceO2Group/AliceO2/pull/6370) 2021-06-14: Analysis/Tasksk/PWGDQ: update v0selector for std::map by [@dsekihat](https://github.com/dsekihat)
 - [\#6374](https://github.com/AliceO2Group/AliceO2/pull/6374) 2021-06-15: Add 2D histograms for pt jpsi vs pt daughter by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
@@ -24,7 +23,6 @@
 - [\#6449](https://github.com/AliceO2Group/AliceO2/pull/6449) 2021-06-16: Propagate fixed MID sel by [@ginnocen](https://github.com/ginnocen)
 - [\#6450](https://github.com/AliceO2Group/AliceO2/pull/6450) 2021-06-16: propagate changes by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
-- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6365](https://github.com/AliceO2Group/AliceO2/pull/6365) 2021-06-10: Add fast LTintegral method and use in TOF-constrained TPC tracks refit by [@shahor02](https://github.com/shahor02)
 - [\#6371](https://github.com/AliceO2Group/AliceO2/pull/6371) 2021-06-10: DPL: use explicit struct rather than std::pair by [@ktf](https://github.com/ktf)
@@ -33,7 +31,6 @@
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
@@ -44,9 +41,7 @@
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6352](https://github.com/AliceO2Group/AliceO2/pull/6352) 2021-06-09: MCHRaw: Introduce a few new types to clarify some interfaces. by [@aphecetche](https://github.com/aphecetche)
 - [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
-- [\#6358](https://github.com/AliceO2Group/AliceO2/pull/6358) 2021-06-09: number ther errors sent to DCS by [@shahor02](https://github.com/shahor02)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
 - [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6361](https://github.com/AliceO2Group/AliceO2/pull/6361) 2021-06-10: TPC Digitizer: Respect HBFUtils.firstOrbitSampled by [@davidrohr](https://github.com/davidrohr)
@@ -70,9 +65,7 @@
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6351](https://github.com/AliceO2Group/AliceO2/pull/6351) 2021-06-09: DPL: syntactic sugar for WorkflowOptions by [@ktf](https://github.com/ktf)
 - [\#6353](https://github.com/AliceO2Group/AliceO2/pull/6353) 2021-06-11: Avoid data copy in the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
-- [\#6354](https://github.com/AliceO2Group/AliceO2/pull/6354) 2021-06-09: DPL: extend call_if_defined to have a fallback if not defined by [@ktf](https://github.com/ktf)
 - [\#6357](https://github.com/AliceO2Group/AliceO2/pull/6357) 2021-06-10: DPL: make topology creation customizable by [@ktf](https://github.com/ktf)
 - [\#6364](https://github.com/AliceO2Group/AliceO2/pull/6364) 2021-06-10: DPL Analysis: eliminate 50K std::decay_t by [@ktf](https://github.com/ktf)
 - [\#6366](https://github.com/AliceO2Group/AliceO2/pull/6366) 2021-06-10: Implementing forwarding of EOS also in the DPL MultiOutputProxy by [@matthiasrichter](https://github.com/matthiasrichter)
