@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6356](https://github.com/AliceO2Group/AliceO2/pull/6356) 2021-06-10: Fix selector to allow compatibility with MID  by [@ginnocen](https://github.com/ginnocen)
 - [\#6370](https://github.com/AliceO2Group/AliceO2/pull/6370) 2021-06-14: Analysis/Tasksk/PWGDQ: update v0selector for std::map by [@dsekihat](https://github.com/dsekihat)
 - [\#6374](https://github.com/AliceO2Group/AliceO2/pull/6374) 2021-06-15: Add 2D histograms for pt jpsi vs pt daughter by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [\#6377](https://github.com/AliceO2Group/AliceO2/pull/6377) 2021-06-10: Devrun5 muon by [@ginnocen](https://github.com/ginnocen)
