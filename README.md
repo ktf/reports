@@ -42,6 +42,7 @@
 - [\#6400](https://github.com/AliceO2Group/AliceO2/pull/6400) 2021-06-12: TRD in Full System Test by [@davidrohr](https://github.com/davidrohr)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
+- [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Detectors
 - [\#6355](https://github.com/AliceO2Group/AliceO2/pull/6355) 2021-06-10: MCHRaw: add Solar2Link mapper by [@aphecetche](https://github.com/aphecetche)
 - [\#6359](https://github.com/AliceO2Group/AliceO2/pull/6359) 2021-06-10: add global matcher (wip) and re-organize TOF I/O specs in one lib by [@noferini](https://github.com/noferini)
@@ -67,6 +68,7 @@
 - [\#6421](https://github.com/AliceO2Group/AliceO2/pull/6421) 2021-06-17: [MID] DPL workflow to send MID tracks read from a root file by [@pillot](https://github.com/pillot)
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
+- [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Framework
 - [\#6357](https://github.com/AliceO2Group/AliceO2/pull/6357) 2021-06-10: DPL: make topology creation customizable by [@ktf](https://github.com/ktf)
 - [\#6364](https://github.com/AliceO2Group/AliceO2/pull/6364) 2021-06-10: DPL Analysis: eliminate 50K std::decay_t by [@ktf](https://github.com/ktf)
