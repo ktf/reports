@@ -66,7 +66,6 @@
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6353](https://github.com/AliceO2Group/AliceO2/pull/6353) 2021-06-11: Avoid data copy in the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6357](https://github.com/AliceO2Group/AliceO2/pull/6357) 2021-06-10: DPL: make topology creation customizable by [@ktf](https://github.com/ktf)
 - [\#6364](https://github.com/AliceO2Group/AliceO2/pull/6364) 2021-06-10: DPL Analysis: eliminate 50K std::decay_t by [@ktf](https://github.com/ktf)
 - [\#6366](https://github.com/AliceO2Group/AliceO2/pull/6366) 2021-06-10: Implementing forwarding of EOS also in the DPL MultiOutputProxy by [@matthiasrichter](https://github.com/matthiasrichter)
