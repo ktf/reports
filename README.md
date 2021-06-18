@@ -57,6 +57,7 @@
 - [\#6373](https://github.com/AliceO2Group/AliceO2/pull/6373) 2021-06-11: Adding benchmark workflow for the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6383](https://github.com/AliceO2Group/AliceO2/pull/6383) 2021-06-11: DPL: optimize handling of splitParts by [@ktf](https://github.com/ktf)
 - [\#6395](https://github.com/AliceO2Group/AliceO2/pull/6395) 2021-06-12: DPL: dump per arrow table metrics by [@ktf](https://github.com/ktf)
+- [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
 - [\#6441](https://github.com/AliceO2Group/AliceO2/pull/6441) 2021-06-16: DPL: introduce different outcomes for not handling data by [@ktf](https://github.com/ktf)
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
