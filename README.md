@@ -20,13 +20,11 @@
 - [\#6449](https://github.com/AliceO2Group/AliceO2/pull/6449) 2021-06-16: Propagate fixed MID sel by [@ginnocen](https://github.com/ginnocen)
 - [\#6450](https://github.com/AliceO2Group/AliceO2/pull/6450) 2021-06-16: propagate changes by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
-- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
@@ -37,7 +35,6 @@
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Detectors
-- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6362](https://github.com/AliceO2Group/AliceO2/pull/6362) 2021-06-11: Developments and fixes for TPC processing by [@davidrohr](https://github.com/davidrohr)
 - [\#6363](https://github.com/AliceO2Group/AliceO2/pull/6363) 2021-06-11: [TPC] add ROC title + cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
@@ -68,6 +65,5 @@
 ## Recent developments in O2 - Steer
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
-- [\#6360](https://github.com/AliceO2Group/AliceO2/pull/6360) 2021-06-14: [rANS] refactor and improve robustness of rANS library by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6414](https://github.com/AliceO2Group/AliceO2/pull/6414) 2021-06-14: jobutils: catch libc fatal error messages by [@sawenzel](https://github.com/sawenzel)
 - [\#6438](https://github.com/AliceO2Group/AliceO2/pull/6438) 2021-06-16: jobutils: Allow debugging in case of problems by [@sawenzel](https://github.com/sawenzel)
