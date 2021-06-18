@@ -62,6 +62,7 @@
 - [\#6395](https://github.com/AliceO2Group/AliceO2/pull/6395) 2021-06-12: DPL: dump per arrow table metrics by [@ktf](https://github.com/ktf)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
 - [\#6441](https://github.com/AliceO2Group/AliceO2/pull/6441) 2021-06-16: DPL: introduce different outcomes for not handling data by [@ktf](https://github.com/ktf)
+- [\#6454](https://github.com/AliceO2Group/AliceO2/pull/6454) 2021-06-18: DPL: improve SimpleSink by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
