@@ -40,6 +40,7 @@
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
+- [\#6386](https://github.com/AliceO2Group/AliceO2/pull/6386) 2021-06-18: MCH: do not throw exception when linkID equals 15 by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6388](https://github.com/AliceO2Group/AliceO2/pull/6388) 2021-06-11: estimateLTFast fix: comment unused zdca (may be used later) by [@shahor02](https://github.com/shahor02)
 - [\#6394](https://github.com/AliceO2Group/AliceO2/pull/6394) 2021-06-12: MFT: rename macro for dictionary creation; fix dictionary function call; move ClusterPattern init before loop by [@bovulpes](https://github.com/bovulpes)
 - [\#6398](https://github.com/AliceO2Group/AliceO2/pull/6398) 2021-06-12: Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes by [@davidrohr](https://github.com/davidrohr)
