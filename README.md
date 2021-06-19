@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#6370](https://github.com/AliceO2Group/AliceO2/pull/6370) 2021-06-14: Analysis/Tasksk/PWGDQ: update v0selector for std::map by [@dsekihat](https://github.com/dsekihat)
 - [\#6374](https://github.com/AliceO2Group/AliceO2/pull/6374) 2021-06-15: Add 2D histograms for pt jpsi vs pt daughter by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
-- [\#6401](https://github.com/AliceO2Group/AliceO2/pull/6401) 2021-06-11: Add task to check contaminations by [@ginnocen](https://github.com/ginnocen)
 - [\#6404](https://github.com/AliceO2Group/AliceO2/pull/6404) 2021-06-12: Add study for particle ration and PID contamination by [@ginnocen](https://github.com/ginnocen)
 - [\#6405](https://github.com/AliceO2Group/AliceO2/pull/6405) 2021-06-12: Devrun5 by [@ginnocen](https://github.com/ginnocen)
 - [\#6406](https://github.com/AliceO2Group/AliceO2/pull/6406) 2021-06-12: Fix name by [@ginnocen](https://github.com/ginnocen)
@@ -21,7 +20,6 @@
 - [\#6450](https://github.com/AliceO2Group/AliceO2/pull/6450) 2021-06-16: propagate changes by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - Common
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
-- [\#6384](https://github.com/AliceO2Group/AliceO2/pull/6384) 2021-06-11: Add bit counting to GPUCommonBitSet by [@shahor02](https://github.com/shahor02)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
 - [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -38,7 +36,6 @@
 - [\#6382](https://github.com/AliceO2Group/AliceO2/pull/6382) 2021-06-12: [MRRTF-117] Various Encoder fixes. by [@aphecetche](https://github.com/aphecetche)
 - [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6386](https://github.com/AliceO2Group/AliceO2/pull/6386) 2021-06-18: MCH: do not throw exception when linkID equals 15 by [@aferrero2707](https://github.com/aferrero2707)
-- [\#6388](https://github.com/AliceO2Group/AliceO2/pull/6388) 2021-06-11: estimateLTFast fix: comment unused zdca (may be used later) by [@shahor02](https://github.com/shahor02)
 - [\#6394](https://github.com/AliceO2Group/AliceO2/pull/6394) 2021-06-12: MFT: rename macro for dictionary creation; fix dictionary function call; move ClusterPattern init before loop by [@bovulpes](https://github.com/bovulpes)
 - [\#6398](https://github.com/AliceO2Group/AliceO2/pull/6398) 2021-06-12: Improvements for TPC processing, mostly for cosmetics, and some minor unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6399](https://github.com/AliceO2Group/AliceO2/pull/6399) 2021-06-12: CTF writer: optionally accumulate CTFs until min-file-size obtained by [@shahor02](https://github.com/shahor02)
@@ -53,8 +50,6 @@
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6457](https://github.com/AliceO2Group/AliceO2/pull/6457) 2021-06-18: Add protection for dropped TFs by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
-- [\#6373](https://github.com/AliceO2Group/AliceO2/pull/6373) 2021-06-11: Adding benchmark workflow for the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
-- [\#6383](https://github.com/AliceO2Group/AliceO2/pull/6383) 2021-06-11: DPL: optimize handling of splitParts by [@ktf](https://github.com/ktf)
 - [\#6395](https://github.com/AliceO2Group/AliceO2/pull/6395) 2021-06-12: DPL: dump per arrow table metrics by [@ktf](https://github.com/ktf)
 - [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
