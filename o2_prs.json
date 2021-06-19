@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-10T19:25:35Z",
-            "title": "Add fast LTintegral method and use in TOF-constrained TPC tracks refit",
-            "number": 6365,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Propagator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-10T07:12:56Z",
             "title": "Implementing forwarding of EOS also in the DPL MultiOutputProxy",
             "number": 6366,
@@ -5291,6 +5251,81 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[O2-2132] CMake: get rid of custom test wrapper script",
+            "number": 6465,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".cmake-format.py"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Mapping/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTest.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTestCommand.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTestRootMacro.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTestWrapper.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2CompileFlags.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "tests/O2SetupTesting.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "tests/tests-wrapper.sh.in"
                   }
                 }
               ]
