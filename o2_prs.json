@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-14T08:27:01Z",
-            "title": "Analysis/Tasksk/PWGDQ: update v0selector for std::map",
-            "number": 6370,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGDQ/v0selector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-10T17:53:08Z",
             "title": "DPL: use explicit struct rather than std::pair",
             "number": 6371,
@@ -5311,6 +5291,31 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/base/src/Geo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix invalid headers sent by TOF and add some protection in header parsing",
+            "number": 6470,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
