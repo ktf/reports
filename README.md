@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6374](https://github.com/AliceO2Group/AliceO2/pull/6374) 2021-06-15: Add 2D histograms for pt jpsi vs pt daughter by [@zhangbiao-phy](https://github.com/zhangbiao-phy)
 - [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
 - [\#6425](https://github.com/AliceO2Group/AliceO2/pull/6425) 2021-06-15: Changes in e/pi rejection by [@vkucera](https://github.com/vkucera)
 - [\#6426](https://github.com/AliceO2Group/AliceO2/pull/6426) 2021-06-17: Add PWGPP directory for common QA tools by [@njacazio](https://github.com/njacazio)
