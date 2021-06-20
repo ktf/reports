@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-11T06:48:07Z",
-            "title": "Adding benchmark workflow for the DPL proxies",
-            "number": 6373,
-            "author": {
-              "login": "matthiasrichter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_ExternalFairMQDeviceProxies.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-15T10:16:13Z",
             "title": "Add 2D histograms for pt jpsi vs pt daughter",
             "number": 6374,
@@ -5306,6 +5281,26 @@
                 {
                   "node": {
                     "path": "dependencies/O2CompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MFT: Fix array size (spotted with address sanitizer)",
+            "number": 6473,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/base/src/Flex.cxx"
                   }
                 }
               ]
