@@ -35,6 +35,7 @@
 - [\#6464](https://github.com/AliceO2Group/AliceO2/pull/6464) 2021-06-20: Add MFT-specific fillDecodedDigits, use/reset ordering helper by [@shahor02](https://github.com/shahor02)
 - [\#6467](https://github.com/AliceO2Group/AliceO2/pull/6467) 2021-06-20: trivial fix to suppress the snprintf warning by [@shahor02](https://github.com/shahor02)
 - [\#6469](https://github.com/AliceO2Group/AliceO2/pull/6469) 2021-06-20: Fix typo in the fmt::format by [@shahor02](https://github.com/shahor02)
+- [\#6477](https://github.com/AliceO2Group/AliceO2/pull/6477) 2021-06-20: Fix typo in PVertexer debris cleanup by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
