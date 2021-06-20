@@ -32,6 +32,7 @@
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#6453](https://github.com/AliceO2Group/AliceO2/pull/6453) 2021-06-20: [MCH] fixed memory leak in pedestals decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6457](https://github.com/AliceO2Group/AliceO2/pull/6457) 2021-06-18: Add protection for dropped TFs by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
