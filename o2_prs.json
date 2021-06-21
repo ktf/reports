@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-10T16:12:56Z",
-            "title": "Fix Clang",
-            "number": 6379,
-            "author": {
-              "login": "ginnocen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-10T16:17:28Z",
             "title": "Clang (#6379)",
             "number": 6380,
@@ -5311,6 +5291,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Geometry/Test/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: apparently memcpy(something, 0, 0) is UB",
+            "number": 6479,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
                   }
                 }
               ]
