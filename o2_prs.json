@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-13T21:46:13Z",
-            "title": "MCHSimulation: Rewrite digitizer to make it simpler and faster.",
-            "number": 6385,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MCH/include/DataFormatsMCH/ROFRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DevIO/Digits/DigitWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/include/MCHSimulation/DEDigitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/include/MCHSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/include/MCHSimulation/DigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/DEDigitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/DigitizerParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/MCHSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/inspect-collision-context.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/test/testDigitization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/test/testDigitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/MCHDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-18T13:19:11Z",
             "title": "MCH: do not throw exception when linkID equals 15",
             "number": 6386,
@@ -5186,6 +5096,36 @@
                 {
                   "node": {
                     "path": "GPU/GPUbenchmark/hip/.gitignore"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CMake: remove files that are no longer required ",
+            "number": 6485,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2FindDependenciesFromAliBuild.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2RecipeAdapter.cmake"
                   }
                 }
               ]
