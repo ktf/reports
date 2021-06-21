@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-11T20:40:56Z",
-            "title": "Add bit counting to GPUCommonBitSet",
-            "number": 6384,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonMath.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Utils/GPUCommonBitSet.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-13T21:46:13Z",
             "title": "MCHSimulation: Rewrite digitizer to make it simpler and faster.",
             "number": 6385,
@@ -5161,6 +5136,56 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/CPVDigitizerSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[GPU/Full System Test] Skeleton for GPU standalone benchmarking",
+            "number": 6484,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Common.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/benchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/hip/.gitignore"
                   }
                 }
               ]
