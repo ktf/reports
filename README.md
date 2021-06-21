@@ -15,6 +15,7 @@
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
 - [\#6386](https://github.com/AliceO2Group/AliceO2/pull/6386) 2021-06-18: MCH: do not throw exception when linkID equals 15 by [@aferrero2707](https://github.com/aferrero2707)
@@ -26,9 +27,12 @@
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6453](https://github.com/AliceO2Group/AliceO2/pull/6453) 2021-06-20: [MCH] fixed memory leak in pedestals decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6457](https://github.com/AliceO2Group/AliceO2/pull/6457) 2021-06-18: Add protection for dropped TFs by [@dstocco](https://github.com/dstocco)
+- [\#6463](https://github.com/AliceO2Group/AliceO2/pull/6463) 2021-06-21: [O2-2401] Correction of variables initialization by [@frmanso](https://github.com/frmanso)
 - [\#6464](https://github.com/AliceO2Group/AliceO2/pull/6464) 2021-06-20: Add MFT-specific fillDecodedDigits, use/reset ordering helper by [@shahor02](https://github.com/shahor02)
 - [\#6467](https://github.com/AliceO2Group/AliceO2/pull/6467) 2021-06-20: trivial fix to suppress the snprintf warning by [@shahor02](https://github.com/shahor02)
 - [\#6469](https://github.com/AliceO2Group/AliceO2/pull/6469) 2021-06-20: Fix typo in the fmt::format by [@shahor02](https://github.com/shahor02)
+- [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
+- [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 - [\#6477](https://github.com/AliceO2Group/AliceO2/pull/6477) 2021-06-20: Fix typo in PVertexer debris cleanup by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
@@ -37,6 +41,7 @@
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
 - [\#6451](https://github.com/AliceO2Group/AliceO2/pull/6451) 2021-06-19: DPL: introduce Backpressure policy by [@ktf](https://github.com/ktf)
 - [\#6454](https://github.com/AliceO2Group/AliceO2/pull/6454) 2021-06-18: DPL: improve SimpleSink by [@ktf](https://github.com/ktf)
+- [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#6414](https://github.com/AliceO2Group/AliceO2/pull/6414) 2021-06-14: jobutils: catch libc fatal error messages by [@sawenzel](https://github.com/sawenzel)
 - [\#6438](https://github.com/AliceO2Group/AliceO2/pull/6438) 2021-06-16: jobutils: Allow debugging in case of problems by [@sawenzel](https://github.com/sawenzel)
