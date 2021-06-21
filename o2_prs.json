@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-10T16:17:28Z",
-            "title": "Clang (#6379)",
-            "number": 6380,
-            "author": {
-              "login": "ginnocen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-15T10:24:38Z",
             "title": "FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM",
             "number": 6381,
@@ -5311,6 +5291,56 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID: Implement Bayesian PID response",
+            "number": 6480,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/DetectorResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDTOF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/PIDTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/PID/ParamBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/pidBayes.cxx"
                   }
                 }
               ]
