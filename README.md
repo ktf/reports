@@ -11,20 +11,14 @@
 - [\#6448](https://github.com/AliceO2Group/AliceO2/pull/6448) 2021-06-16: Fix selection on MID, only PIDAccepted kept by [@ginnocen](https://github.com/ginnocen)
 - [\#6449](https://github.com/AliceO2Group/AliceO2/pull/6449) 2021-06-16: Propagate fixed MID sel by [@ginnocen](https://github.com/ginnocen)
 - [\#6450](https://github.com/AliceO2Group/AliceO2/pull/6450) 2021-06-16: propagate changes by [@ginnocen](https://github.com/ginnocen)
-## Recent developments in O2 - Common
-- [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
-- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Detectors
 - [\#6381](https://github.com/AliceO2Group/AliceO2/pull/6381) 2021-06-15: FIT: new lib DataFormatsFIT, common for all three FIT subdetectors, new bit added to TCM by [@afurs](https://github.com/afurs)
-- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 - [\#6386](https://github.com/AliceO2Group/AliceO2/pull/6386) 2021-06-18: MCH: do not throw exception when linkID equals 15 by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#6412](https://github.com/AliceO2Group/AliceO2/pull/6412) 2021-06-13: Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#6416](https://github.com/AliceO2Group/AliceO2/pull/6416) 2021-06-14: Include TKey.h by [@pzhristov](https://github.com/pzhristov)
 - [\#6421](https://github.com/AliceO2Group/AliceO2/pull/6421) 2021-06-17: [MID] DPL workflow to send MID tracks read from a root file by [@pillot](https://github.com/pillot)
 - [\#6422](https://github.com/AliceO2Group/AliceO2/pull/6422) 2021-06-14: [O2-2381] Fix off-by-one error in noise generation of MCH Digitizer by [@aphecetche](https://github.com/aphecetche)
@@ -43,8 +37,6 @@
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
 - [\#6451](https://github.com/AliceO2Group/AliceO2/pull/6451) 2021-06-19: DPL: introduce Backpressure policy by [@ktf](https://github.com/ktf)
 - [\#6454](https://github.com/AliceO2Group/AliceO2/pull/6454) 2021-06-18: DPL: improve SimpleSink by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#6385](https://github.com/AliceO2Group/AliceO2/pull/6385) 2021-06-13: MCHSimulation: Rewrite digitizer to make it simpler and faster. by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Utilities
 - [\#6414](https://github.com/AliceO2Group/AliceO2/pull/6414) 2021-06-14: jobutils: catch libc fatal error messages by [@sawenzel](https://github.com/sawenzel)
 - [\#6438](https://github.com/AliceO2Group/AliceO2/pull/6438) 2021-06-16: jobutils: Allow debugging in case of problems by [@sawenzel](https://github.com/sawenzel)
