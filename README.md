@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6411](https://github.com/AliceO2Group/AliceO2/pull/6411) 2021-06-14: Simplify selector initialisation. Add comparison of e/pi selections. by [@vkucera](https://github.com/vkucera)
+- [\#6415](https://github.com/AliceO2Group/AliceO2/pull/6415) 2021-06-21: PWGHF: Updates to DDbar correlation task configurators to allow running on Hyperloop by [@fcolamar](https://github.com/fcolamar)
 - [\#6425](https://github.com/AliceO2Group/AliceO2/pull/6425) 2021-06-15: Changes in e/pi rejection by [@vkucera](https://github.com/vkucera)
 - [\#6426](https://github.com/AliceO2Group/AliceO2/pull/6426) 2021-06-17: Add PWGPP directory for common QA tools by [@njacazio](https://github.com/njacazio)
 - [\#6428](https://github.com/AliceO2Group/AliceO2/pull/6428) 2021-06-17: ALICE3: Add FTOF table and QA by [@njacazio](https://github.com/njacazio)
