@@ -17,6 +17,7 @@
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
+- [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -36,6 +37,7 @@
 - [\#6478](https://github.com/AliceO2Group/AliceO2/pull/6478) 2021-06-21: Fix missing ROOT dependencies (Headers were there, but typeinfo was not linked by [@davidrohr](https://github.com/davidrohr)
 - [\#6481](https://github.com/AliceO2Group/AliceO2/pull/6481) 2021-06-22: inf. loop fixed; hwerror handling improved by [@peressounko](https://github.com/peressounko)
 - [\#6482](https://github.com/AliceO2Group/AliceO2/pull/6482) 2021-06-22: snprintf -> fmt::format to suppress warnings by [@shahor02](https://github.com/shahor02)
+- [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6488](https://github.com/AliceO2Group/AliceO2/pull/6488) 2021-06-22: CPV digi2raw must set triggered mode to write SOX by [@shahor02](https://github.com/shahor02)
 - [\#6495](https://github.com/AliceO2Group/AliceO2/pull/6495) 2021-06-22: Bug fix: use correct index over neighbour boards by [@dstocco](https://github.com/dstocco)
@@ -50,5 +52,7 @@
 - [\#6468](https://github.com/AliceO2Group/AliceO2/pull/6468) 2021-06-21: Add virtual destructors to allow save casting to base class in web socket handling avoiding new / delete mismatch by [@davidrohr](https://github.com/davidrohr)
 - [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
 - [\#6479](https://github.com/AliceO2Group/AliceO2/pull/6479) 2021-06-21: DPL: apparently memcpy(something, 0, 0) is UB by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Utilities
 - [\#6438](https://github.com/AliceO2Group/AliceO2/pull/6438) 2021-06-16: jobutils: Allow debugging in case of problems by [@sawenzel](https://github.com/sawenzel)
