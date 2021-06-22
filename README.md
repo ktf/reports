@@ -34,6 +34,7 @@
 - [\#6477](https://github.com/AliceO2Group/AliceO2/pull/6477) 2021-06-20: Fix typo in PVertexer debris cleanup by [@shahor02](https://github.com/shahor02)
 - [\#6478](https://github.com/AliceO2Group/AliceO2/pull/6478) 2021-06-21: Fix missing ROOT dependencies (Headers were there, but typeinfo was not linked by [@davidrohr](https://github.com/davidrohr)
 - [\#6482](https://github.com/AliceO2Group/AliceO2/pull/6482) 2021-06-22: snprintf -> fmt::format to suppress warnings by [@shahor02](https://github.com/shahor02)
+- [\#6495](https://github.com/AliceO2Group/AliceO2/pull/6495) 2021-06-22: Bug fix: use correct index over neighbour boards by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#6417](https://github.com/AliceO2Group/AliceO2/pull/6417) 2021-06-18: [OCTRL-496] AliECS dump: allow to preserve raw FMQ channels by [@knopers8](https://github.com/knopers8)
 - [\#6434](https://github.com/AliceO2Group/AliceO2/pull/6434) 2021-06-16: Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables by [@iarsene](https://github.com/iarsene)
