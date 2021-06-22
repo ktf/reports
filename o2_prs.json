@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Rdev pythia8 process name and code",
-            "number": 6389,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Custom_EventInfo/read_event_info_pythia8.macro"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "TRD limit raw digits from MC like real data",
@@ -5171,6 +5146,31 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/simulation/src/RawCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Add possibility to read StfBuilder files directly in raw reader",
+            "number": 6489,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/RawReaderCRU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/RawReaderCRU.cxx"
                   }
                 }
               ]
