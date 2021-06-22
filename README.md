@@ -12,12 +12,10 @@
 - [\#6449](https://github.com/AliceO2Group/AliceO2/pull/6449) 2021-06-16: Propagate fixed MID sel by [@ginnocen](https://github.com/ginnocen)
 - [\#6450](https://github.com/AliceO2Group/AliceO2/pull/6450) 2021-06-16: propagate changes by [@ginnocen](https://github.com/ginnocen)
 ## Recent developments in O2 - DataFormats
-- [\#6396](https://github.com/AliceO2Group/AliceO2/pull/6396) 2021-06-21: ZDC New format for RecEvent and calibration objects for TDC and energy by [@cortesep](https://github.com/cortesep)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#6396](https://github.com/AliceO2Group/AliceO2/pull/6396) 2021-06-21: ZDC New format for RecEvent and calibration objects for TDC and energy by [@cortesep](https://github.com/cortesep)
 - [\#6403](https://github.com/AliceO2Group/AliceO2/pull/6403) 2021-06-15: Slew correction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6421](https://github.com/AliceO2Group/AliceO2/pull/6421) 2021-06-17: [MID] DPL workflow to send MID tracks read from a root file by [@pillot](https://github.com/pillot)
 - [\#6436](https://github.com/AliceO2Group/AliceO2/pull/6436) 2021-06-15: TPCITS matching needs only TPC,ITS clusters, regardless of sources by [@shahor02](https://github.com/shahor02)
