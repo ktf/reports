@@ -34,6 +34,7 @@
 - [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 - [\#6477](https://github.com/AliceO2Group/AliceO2/pull/6477) 2021-06-20: Fix typo in PVertexer debris cleanup by [@shahor02](https://github.com/shahor02)
 - [\#6478](https://github.com/AliceO2Group/AliceO2/pull/6478) 2021-06-21: Fix missing ROOT dependencies (Headers were there, but typeinfo was not linked by [@davidrohr](https://github.com/davidrohr)
+- [\#6481](https://github.com/AliceO2Group/AliceO2/pull/6481) 2021-06-22: inf. loop fixed; hwerror handling improved by [@peressounko](https://github.com/peressounko)
 - [\#6482](https://github.com/AliceO2Group/AliceO2/pull/6482) 2021-06-22: snprintf -> fmt::format to suppress warnings by [@shahor02](https://github.com/shahor02)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6488](https://github.com/AliceO2Group/AliceO2/pull/6488) 2021-06-22: CPV digi2raw must set triggered mode to write SOX by [@shahor02](https://github.com/shahor02)
