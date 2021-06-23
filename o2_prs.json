@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-12T07:42:18Z",
-            "title": "TRD remove unused array causing segfaults for large datasets",
-            "number": 6402,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-15T16:01:20Z",
             "title": "Slew correction",
             "number": 6403,
@@ -3494,7 +3469,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "MFT: Fix array size (spotted with address sanitizer)",
             "number": 6473,
@@ -4631,6 +4606,66 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MRRTF-126] Add MCH reco workflow",
+            "number": 6502,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterTransformerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterTransformerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackAtVertexSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackAtVtxStruct.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/clusters-transformer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/tracks-file-dumper.cxx"
                   }
                 }
               ]
