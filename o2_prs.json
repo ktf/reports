@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-14T17:38:46Z",
-            "title": "Simplify selector initialisation. Add comparison of e/pi selections.",
-            "number": 6411,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/qaPidRejection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-13T21:03:50Z",
             "title": "Complete RecoContainer support of TRD tracks, use TRD in P/S-Vertexing",
             "number": 6412,
@@ -4581,6 +4561,31 @@
                 {
                   "node": {
                     "path": "Detectors/gconfig/g4config.in"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix for empty frames",
+            "number": 6511,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
                   }
                 }
               ]
