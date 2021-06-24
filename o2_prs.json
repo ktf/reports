@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-18T18:01:55Z",
-            "title": "[OCTRL-496] AliECS dump: allow to preserve raw FMQ channels",
-            "number": 6417,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/O2ControlLabels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlLabels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-14T19:46:20Z",
             "title": "GPU: Fix some upper bounds for memory buffers, some were too high causing integer overflows",
             "number": 6418,
@@ -4966,6 +4936,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/test/testTPCMapper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add code to enable multithreaded dispatch",
+            "number": 6517,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
