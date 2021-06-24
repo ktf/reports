@@ -4,6 +4,7 @@
 - [\#6415](https://github.com/AliceO2Group/AliceO2/pull/6415) 2021-06-21: PWGHF: Updates to DDbar correlation task configurators to allow running on Hyperloop by [@fcolamar](https://github.com/fcolamar)
 - [\#6426](https://github.com/AliceO2Group/AliceO2/pull/6426) 2021-06-17: Add PWGPP directory for common QA tools by [@njacazio](https://github.com/njacazio)
 - [\#6428](https://github.com/AliceO2Group/AliceO2/pull/6428) 2021-06-17: ALICE3: Add FTOF table and QA by [@njacazio](https://github.com/njacazio)
+- [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
@@ -21,6 +22,7 @@
 - [\#6458](https://github.com/AliceO2Group/AliceO2/pull/6458) 2021-06-22: Raw: make the output directory creation more robust. by [@aphecetche](https://github.com/aphecetche)
 - [\#6463](https://github.com/AliceO2Group/AliceO2/pull/6463) 2021-06-21: [O2-2401] Correction of variables initialization by [@frmanso](https://github.com/frmanso)
 - [\#6464](https://github.com/AliceO2Group/AliceO2/pull/6464) 2021-06-20: Add MFT-specific fillDecodedDigits, use/reset ordering helper by [@shahor02](https://github.com/shahor02)
+- [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6467](https://github.com/AliceO2Group/AliceO2/pull/6467) 2021-06-20: trivial fix to suppress the snprintf warning by [@shahor02](https://github.com/shahor02)
 - [\#6469](https://github.com/AliceO2Group/AliceO2/pull/6469) 2021-06-20: Fix typo in the fmt::format by [@shahor02](https://github.com/shahor02)
 - [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
@@ -44,6 +46,7 @@
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
 - [\#6451](https://github.com/AliceO2Group/AliceO2/pull/6451) 2021-06-19: DPL: introduce Backpressure policy by [@ktf](https://github.com/ktf)
 - [\#6454](https://github.com/AliceO2Group/AliceO2/pull/6454) 2021-06-18: DPL: improve SimpleSink by [@ktf](https://github.com/ktf)
+- [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6468](https://github.com/AliceO2Group/AliceO2/pull/6468) 2021-06-21: Add virtual destructors to allow save casting to base class in web socket handling avoiding new / delete mismatch by [@davidrohr](https://github.com/davidrohr)
 - [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
 - [\#6479](https://github.com/AliceO2Group/AliceO2/pull/6479) 2021-06-21: DPL: apparently memcpy(something, 0, 0) is UB by [@ktf](https://github.com/ktf)
