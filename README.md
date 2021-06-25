@@ -4,6 +4,7 @@
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6503](https://github.com/AliceO2Group/AliceO2/pull/6503) 2021-06-25: adding meta data to aod merger by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6521](https://github.com/AliceO2Group/AliceO2/pull/6521) 2021-06-25: Include TMap.h (Root v6-24) by [@pzhristov](https://github.com/pzhristov)
+- [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
@@ -11,6 +12,7 @@
 - [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 - [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
+- [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Detectors
 - [\#6430](https://github.com/AliceO2Group/AliceO2/pull/6430) 2021-06-23: Updated copyright headers in all files with new text … by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6453](https://github.com/AliceO2Group/AliceO2/pull/6453) 2021-06-20: [MCH] fixed memory leak in pedestals decoder by [@aferrero2707](https://github.com/aferrero2707)
@@ -39,6 +41,7 @@
 - [\#6506](https://github.com/AliceO2Group/AliceO2/pull/6506) 2021-06-23: make ccdb-url a ZDC device option, rather than global of w.flow by [@shahor02](https://github.com/shahor02)
 - [\#6510](https://github.com/AliceO2Group/AliceO2/pull/6510) 2021-06-23: Updated g4config.in: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
+- [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
 - [\#6451](https://github.com/AliceO2Group/AliceO2/pull/6451) 2021-06-19: DPL: introduce Backpressure policy by [@ktf](https://github.com/ktf)
