@@ -38,6 +38,7 @@
 - [\#6505](https://github.com/AliceO2Group/AliceO2/pull/6505) 2021-06-25: Correction of the numbering of ts array by [@frmanso](https://github.com/frmanso)
 - [\#6506](https://github.com/AliceO2Group/AliceO2/pull/6506) 2021-06-23: make ccdb-url a ZDC device option, rather than global of w.flow by [@shahor02](https://github.com/shahor02)
 - [\#6510](https://github.com/AliceO2Group/AliceO2/pull/6510) 2021-06-23: Updated g4config.in: by [@ihrivnac](https://github.com/ihrivnac)
+- [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [\#6445](https://github.com/AliceO2Group/AliceO2/pull/6445) 2021-06-18: DPL: expire SHM memory offers by [@ktf](https://github.com/ktf)
 - [\#6451](https://github.com/AliceO2Group/AliceO2/pull/6451) 2021-06-19: DPL: introduce Backpressure policy by [@ktf](https://github.com/ktf)
