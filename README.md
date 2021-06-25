@@ -1,21 +1,16 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6426](https://github.com/AliceO2Group/AliceO2/pull/6426) 2021-06-17: Add PWGPP directory for common QA tools by [@njacazio](https://github.com/njacazio)
-- [\#6428](https://github.com/AliceO2Group/AliceO2/pull/6428) 2021-06-17: ALICE3: Add FTOF table and QA by [@njacazio](https://github.com/njacazio)
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6471](https://github.com/AliceO2Group/AliceO2/pull/6471) 2021-06-21: Fix array out of bounds access in TOF clusterizer by [@davidrohr](https://github.com/davidrohr)
 - [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6421](https://github.com/AliceO2Group/AliceO2/pull/6421) 2021-06-17: [MID] DPL workflow to send MID tracks read from a root file by [@pillot](https://github.com/pillot)
 - [\#6430](https://github.com/AliceO2Group/AliceO2/pull/6430) 2021-06-23: Updated copyright headers in all files with new text … by [@ihrivnac](https://github.com/ihrivnac)
-- [\#6447](https://github.com/AliceO2Group/AliceO2/pull/6447) 2021-06-17: read number of channels from Geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6453](https://github.com/AliceO2Group/AliceO2/pull/6453) 2021-06-20: [MCH] fixed memory leak in pedestals decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6457](https://github.com/AliceO2Group/AliceO2/pull/6457) 2021-06-18: Add protection for dropped TFs by [@dstocco](https://github.com/dstocco)
 - [\#6458](https://github.com/AliceO2Group/AliceO2/pull/6458) 2021-06-22: Raw: make the output directory creation more robust. by [@aphecetche](https://github.com/aphecetche)
