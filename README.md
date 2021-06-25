@@ -35,6 +35,7 @@
 - [\#6497](https://github.com/AliceO2Group/AliceO2/pull/6497) 2021-06-22: Do not use std::array in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 - [\#6501](https://github.com/AliceO2Group/AliceO2/pull/6501) 2021-06-22: ZDC Digits2Raw: labels are not guaranteed to be present by [@shahor02](https://github.com/shahor02)
 - [\#6504](https://github.com/AliceO2Group/AliceO2/pull/6504) 2021-06-23: CPV: Never take ownership CCDB objects by [@shahor02](https://github.com/shahor02)
+- [\#6505](https://github.com/AliceO2Group/AliceO2/pull/6505) 2021-06-25: Correction of the numbering of ts array by [@frmanso](https://github.com/frmanso)
 - [\#6506](https://github.com/AliceO2Group/AliceO2/pull/6506) 2021-06-23: make ccdb-url a ZDC device option, rather than global of w.flow by [@shahor02](https://github.com/shahor02)
 - [\#6510](https://github.com/AliceO2Group/AliceO2/pull/6510) 2021-06-23: Updated g4config.in: by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
