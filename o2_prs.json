@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-17T09:50:33Z",
-            "title": "ALICE3: Add FTOF table and QA",
-            "number": 6428,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/include/ALICE3Analysis/FTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/src/pidFTOFqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/src/pidRICHqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PID/qaTOFMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-15T10:42:39Z",
             "title": "Fix missing ;",
             "number": 6429,
@@ -4896,6 +4856,26 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/workflow/src/zdc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move to proper logger + protect file reads [O2-2423]",
+            "number": 6528,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/centralEventFilterProcessor.cxx"
                   }
                 }
               ]
