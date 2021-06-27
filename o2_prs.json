@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-16T09:17:44Z",
-            "title": "Deprecated Muons data table removed from data model. Temporarily PWGUD/upcForward.cxx task commented out from CMakeLists until the Muons table dependence will be replaced with the new tables",
-            "number": 6434,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGUD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/verifyAODFile.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-16T09:15:50Z",
             "title": "cleanup in order to prepare for bigger modifications",
             "number": 6435,
@@ -4301,6 +4271,91 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Support multiple jet tables, full jets, and jet matching",
+            "number": 6534,
+            "author": {
+              "login": "raymondEhlers"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/JetUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/AnalysisJetsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/src/JetUtilities.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/src/aodDataModelGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetmatching.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGJE/jetsubstructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/SkimmingTutorials/jetProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/SkimmingTutorials/jetSpectraReference.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/jetAnalysis.cxx"
                   }
                 }
               ]
