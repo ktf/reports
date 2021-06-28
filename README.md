@@ -51,6 +51,7 @@
 - [\#6470](https://github.com/AliceO2Group/AliceO2/pull/6470) 2021-06-21: Fix invalid headers sent by TOF and add some protection in header parsing by [@davidrohr](https://github.com/davidrohr)
 - [\#6479](https://github.com/AliceO2Group/AliceO2/pull/6479) 2021-06-21: DPL: apparently memcpy(something, 0, 0) is UB by [@ktf](https://github.com/ktf)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
+- [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
 - [\#6517](https://github.com/AliceO2Group/AliceO2/pull/6517) 2021-06-28: DPL: add code to enable multithreaded dispatch by [@ktf](https://github.com/ktf)
 - [\#6524](https://github.com/AliceO2Group/AliceO2/pull/6524) 2021-06-27: DPL: add api to easily load and act on a plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
