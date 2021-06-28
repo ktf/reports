@@ -3,12 +3,14 @@
 ## Recent developments in O2 - Analysis
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6503](https://github.com/AliceO2Group/AliceO2/pull/6503) 2021-06-25: adding meta data to aod merger by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6513](https://github.com/AliceO2Group/AliceO2/pull/6513) 2021-06-28: PWGPP: Enable all species by default by [@njacazio](https://github.com/njacazio)
 - [\#6520](https://github.com/AliceO2Group/AliceO2/pull/6520) 2021-06-27: Split J/ψ selector to ALICE 2 and 3 by [@vkucera](https://github.com/vkucera)
 - [\#6521](https://github.com/AliceO2Group/AliceO2/pull/6521) 2021-06-25: Include TMap.h (Root v6-24) by [@pzhristov](https://github.com/pzhristov)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
+- [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6446](https://github.com/AliceO2Group/AliceO2/pull/6446) 2021-06-28: DCS config data format by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6455](https://github.com/AliceO2Group/AliceO2/pull/6455) 2021-06-26: TOF matcher workflow re-arranged by [@noferini](https://github.com/noferini)
@@ -42,6 +44,7 @@
 - [\#6518](https://github.com/AliceO2Group/AliceO2/pull/6518) 2021-06-27: fix for cpv clusterer by [@sevdokim](https://github.com/sevdokim)
 - [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
+- [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6468](https://github.com/AliceO2Group/AliceO2/pull/6468) 2021-06-21: Add virtual destructors to allow save casting to base class in web socket handling avoiding new / delete mismatch by [@davidrohr](https://github.com/davidrohr)
