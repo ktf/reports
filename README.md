@@ -6,6 +6,7 @@
 - [\#6513](https://github.com/AliceO2Group/AliceO2/pull/6513) 2021-06-28: PWGPP: Enable all species by default by [@njacazio](https://github.com/njacazio)
 - [\#6520](https://github.com/AliceO2Group/AliceO2/pull/6520) 2021-06-27: Split J/ψ selector to ALICE 2 and 3 by [@vkucera](https://github.com/vkucera)
 - [\#6521](https://github.com/AliceO2Group/AliceO2/pull/6521) 2021-06-25: Include TMap.h (Root v6-24) by [@pzhristov](https://github.com/pzhristov)
+- [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
@@ -53,6 +54,7 @@
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
 - [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
 - [\#6517](https://github.com/AliceO2Group/AliceO2/pull/6517) 2021-06-28: DPL: add code to enable multithreaded dispatch by [@ktf](https://github.com/ktf)
+- [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6524](https://github.com/AliceO2Group/AliceO2/pull/6524) 2021-06-27: DPL: add api to easily load and act on a plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
