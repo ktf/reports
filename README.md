@@ -8,6 +8,7 @@
 - [\#6521](https://github.com/AliceO2Group/AliceO2/pull/6521) 2021-06-25: Include TMap.h (Root v6-24) by [@pzhristov](https://github.com/pzhristov)
 - [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
+- [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
@@ -46,6 +47,7 @@
 - [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
+- [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6468](https://github.com/AliceO2Group/AliceO2/pull/6468) 2021-06-21: Add virtual destructors to allow save casting to base class in web socket handling avoiding new / delete mismatch by [@davidrohr](https://github.com/davidrohr)
