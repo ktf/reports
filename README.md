@@ -41,6 +41,7 @@
 - [\#6510](https://github.com/AliceO2Group/AliceO2/pull/6510) 2021-06-23: Updated g4config.in: by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6514](https://github.com/AliceO2Group/AliceO2/pull/6514) 2021-06-27: swap HG/LG channels by [@peressounko](https://github.com/peressounko)
 - [\#6518](https://github.com/AliceO2Group/AliceO2/pull/6518) 2021-06-27: fix for cpv clusterer by [@sevdokim](https://github.com/sevdokim)
+- [\#6522](https://github.com/AliceO2Group/AliceO2/pull/6522) 2021-06-29: alignment of FT0 modules by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
