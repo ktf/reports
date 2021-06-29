@@ -14,14 +14,12 @@
 - [\#6490](https://github.com/AliceO2Group/AliceO2/pull/6490) 2021-06-22: DPL: provide level everywhere when mapping FairLogger to InfoLogger by [@ktf](https://github.com/ktf)
 - [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#6446](https://github.com/AliceO2Group/AliceO2/pull/6446) 2021-06-28: DCS config data format by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6455](https://github.com/AliceO2Group/AliceO2/pull/6455) 2021-06-26: TOF matcher workflow re-arranged by [@noferini](https://github.com/noferini)
 - [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - Detectors
-- [\#6446](https://github.com/AliceO2Group/AliceO2/pull/6446) 2021-06-28: DCS config data format by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6455](https://github.com/AliceO2Group/AliceO2/pull/6455) 2021-06-26: TOF matcher workflow re-arranged by [@noferini](https://github.com/noferini)
 - [\#6458](https://github.com/AliceO2Group/AliceO2/pull/6458) 2021-06-22: Raw: make the output directory creation more robust. by [@aphecetche](https://github.com/aphecetche)
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
