@@ -30,6 +30,7 @@
 - [\#6486](https://github.com/AliceO2Group/AliceO2/pull/6486) 2021-06-22: suppress overlaps check option in AlignParam::apply by [@shahor02](https://github.com/shahor02)
 - [\#6488](https://github.com/AliceO2Group/AliceO2/pull/6488) 2021-06-22: CPV digi2raw must set triggered mode to write SOX by [@shahor02](https://github.com/shahor02)
 - [\#6489](https://github.com/AliceO2Group/AliceO2/pull/6489) 2021-06-24: TPC: Add possibility to read StfBuilder files directly in raw reader by [@wiechula](https://github.com/wiechula)
+- [\#6491](https://github.com/AliceO2Group/AliceO2/pull/6491) 2021-06-29: MCH: remove usage of to-be-banned #pragma once by [@aphecetche](https://github.com/aphecetche)
 - [\#6495](https://github.com/AliceO2Group/AliceO2/pull/6495) 2021-06-22: Bug fix: use correct index over neighbour boards by [@dstocco](https://github.com/dstocco)
 - [\#6497](https://github.com/AliceO2Group/AliceO2/pull/6497) 2021-06-22: Do not use std::array in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 - [\#6501](https://github.com/AliceO2Group/AliceO2/pull/6501) 2021-06-22: ZDC Digits2Raw: labels are not guaranteed to be present by [@shahor02](https://github.com/shahor02)
