@@ -53,3 +53,5 @@
 - [\#6524](https://github.com/AliceO2Group/AliceO2/pull/6524) 2021-06-27: DPL: add api to easily load and act on a plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6483](https://github.com/AliceO2Group/AliceO2/pull/6483) 2021-06-22: CPV missing TF handling by [@sevdokim](https://github.com/sevdokim)
+## Recent developments in O2 - Utilities
+- [\#6542](https://github.com/AliceO2Group/AliceO2/pull/6542) 2021-06-29: Fixes for M1 by [@pzhristov](https://github.com/pzhristov)
