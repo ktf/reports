@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-16T22:01:15Z",
-            "title": "Fix selection on MID, only PIDAccepted kept",
-            "number": 6448,
-            "author": {
-              "login": "ginnocen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFJpsiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/qaPidRejection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-16T22:09:56Z",
             "title": "Propagate fixed MID sel",
             "number": 6449,
@@ -4601,6 +4576,36 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGGA/gammaConversions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add columns to store decision of each J/ψ selector step",
+            "number": 6548,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFJpsiCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/taskJpsi.cxx"
                   }
                 }
               ]
