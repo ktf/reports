@@ -13,11 +13,9 @@
 ## Recent developments in O2 - Common
 - [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#6455](https://github.com/AliceO2Group/AliceO2/pull/6455) 2021-06-26: TOF matcher workflow re-arranged by [@noferini](https://github.com/noferini)
 - [\#6527](https://github.com/AliceO2Group/AliceO2/pull/6527) 2021-06-25: Updated copyright headers in files omitted in the previous update by [@ihrivnac](https://github.com/ihrivnac)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
 ## Recent developments in O2 - Detectors
-- [\#6455](https://github.com/AliceO2Group/AliceO2/pull/6455) 2021-06-26: TOF matcher workflow re-arranged by [@noferini](https://github.com/noferini)
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6489](https://github.com/AliceO2Group/AliceO2/pull/6489) 2021-06-24: TPC: Add possibility to read StfBuilder files directly in raw reader by [@wiechula](https://github.com/wiechula)
 - [\#6491](https://github.com/AliceO2Group/AliceO2/pull/6491) 2021-06-29: MCH: remove usage of to-be-banned #pragma once by [@aphecetche](https://github.com/aphecetche)
