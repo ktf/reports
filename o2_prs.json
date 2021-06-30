@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[EMCAL-565]: Modified BoostHistogramUtils after testing.",
-            "number": 6460,
-            "author": {
-              "login": "hjbossi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALSlotCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibrationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-06-22T07:06:42Z",
             "title": "CcdbApi: Option to build/use local cache on the fly",
@@ -1830,22 +1795,17 @@
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/EventRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/EventRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DataReaderTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/EventRecord.h"
                   }
                 },
                 {
@@ -1861,6 +1821,11 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/EventRecord.cxx"
                   }
                 }
               ]
@@ -4366,6 +4331,41 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/base/src/PatchPanel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-110] Performance improvements in Dispatcher",
+            "number": 6560,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/DataSamplingPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
                   }
                 }
               ]
