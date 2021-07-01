@@ -30,6 +30,7 @@
 - [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 - [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 - [\#6541](https://github.com/AliceO2Group/AliceO2/pull/6541) 2021-06-29: TPC: finalize trigger handling + unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
+- [\#6554](https://github.com/AliceO2Group/AliceO2/pull/6554) 2021-07-01: [O2-2419] No exe in libraries please by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
