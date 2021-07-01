@@ -30,6 +30,7 @@
 - [\#6505](https://github.com/AliceO2Group/AliceO2/pull/6505) 2021-06-25: Correction of the numbering of ts array by [@frmanso](https://github.com/frmanso)
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6514](https://github.com/AliceO2Group/AliceO2/pull/6514) 2021-06-27: swap HG/LG channels by [@peressounko](https://github.com/peressounko)
+- [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
 - [\#6518](https://github.com/AliceO2Group/AliceO2/pull/6518) 2021-06-27: fix for cpv clusterer by [@sevdokim](https://github.com/sevdokim)
 - [\#6522](https://github.com/AliceO2Group/AliceO2/pull/6522) 2021-06-29: alignment of FT0 modules by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6525](https://github.com/AliceO2Group/AliceO2/pull/6525) 2021-06-25: Bug fix in computing angular position of step supports on IB Side C End Wheels by [@mario6829](https://github.com/mario6829)
