@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-21T06:22:35Z",
-            "title": "[O2-2401] Correction of variables initialization",
-            "number": 6463,
-            "author": {
-              "login": "frmanso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/HeatExchanger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-20T14:15:45Z",
             "title": "Add MFT-specific fillDecodedDigits, use/reset ordering helper",
             "number": 6464,
@@ -796,7 +776,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[GPU/Full System Test] Skeleton for GPU standalone benchmarking",
+            "title": "[GPU/Full System Test] GPU standalone benchmarking",
             "number": 6484,
             "author": {
               "login": "mconcas"
@@ -4381,6 +4361,46 @@
                 {
                   "node": {
                     "path": "macro/build_geometry.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "trd fix corrupt data at end of digits",
+            "number": 6563,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DataReaderTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
                   }
                 }
               ]
