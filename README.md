@@ -20,6 +20,7 @@
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
 - [\#6489](https://github.com/AliceO2Group/AliceO2/pull/6489) 2021-06-24: TPC: Add possibility to read StfBuilder files directly in raw reader by [@wiechula](https://github.com/wiechula)
 - [\#6491](https://github.com/AliceO2Group/AliceO2/pull/6491) 2021-06-29: MCH: remove usage of to-be-banned #pragma once by [@aphecetche](https://github.com/aphecetche)
+- [\#6502](https://github.com/AliceO2Group/AliceO2/pull/6502) 2021-07-01: [MRRTF-126] Add MCH reco workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#6505](https://github.com/AliceO2Group/AliceO2/pull/6505) 2021-06-25: Correction of the numbering of ts array by [@frmanso](https://github.com/frmanso)
 - [\#6514](https://github.com/AliceO2Group/AliceO2/pull/6514) 2021-06-27: swap HG/LG channels by [@peressounko](https://github.com/peressounko)
 - [\#6518](https://github.com/AliceO2Group/AliceO2/pull/6518) 2021-06-27: fix for cpv clusterer by [@sevdokim](https://github.com/sevdokim)
@@ -30,6 +31,7 @@
 - [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 - [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 - [\#6541](https://github.com/AliceO2Group/AliceO2/pull/6541) 2021-06-29: TPC: finalize trigger handling + unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
+- [\#6552](https://github.com/AliceO2Group/AliceO2/pull/6552) 2021-07-01: Fix the global angular position of staves in OB layers by [@mario6829](https://github.com/mario6829)
 - [\#6554](https://github.com/AliceO2Group/AliceO2/pull/6554) 2021-07-01: [O2-2419] No exe in libraries please by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
 - [\#6466](https://github.com/AliceO2Group/AliceO2/pull/6466) 2021-06-24: Move MFT track labels to a separate table + some cleanups by [@nburmaso](https://github.com/nburmaso)
