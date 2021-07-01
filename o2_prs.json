@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[O2-2132] CMake: get rid of custom test wrapper script",
-            "number": 6465,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".cmake-format.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Mapping/test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddTest.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddTestCommand.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddTestRootMacro.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2AddTestWrapper.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "tests/O2SetupTesting.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "tests/tests-wrapper.sh.in"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-06-24T13:16:30Z",
             "title": "Move MFT track labels to a separate table + some cleanups",
@@ -4396,6 +4331,31 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGHF/qaPidRejection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make Alpide decoding errors treatment more robust",
+            "number": 6565,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DecodingStat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RUDecodeData.h"
                   }
                 }
               ]
