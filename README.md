@@ -44,6 +44,7 @@
 - [\#6552](https://github.com/AliceO2Group/AliceO2/pull/6552) 2021-07-01: Fix the global angular position of staves in OB layers by [@mario6829](https://github.com/mario6829)
 - [\#6554](https://github.com/AliceO2Group/AliceO2/pull/6554) 2021-07-01: [O2-2419] No exe in libraries please by [@aphecetche](https://github.com/aphecetche)
 - [\#6559](https://github.com/AliceO2Group/AliceO2/pull/6559) 2021-07-01: Cables to the MFT and FIT patch panel by [@frmanso](https://github.com/frmanso)
+- [\#6565](https://github.com/AliceO2Group/AliceO2/pull/6565) 2021-07-02: Make Alpide decoding errors treatment more robust by [@shahor02](https://github.com/shahor02)
 - [\#6566](https://github.com/AliceO2Group/AliceO2/pull/6566) 2021-07-02: FITRaw: hotfix for #6562 by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
 - [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
