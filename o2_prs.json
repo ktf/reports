@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-20T19:38:19Z",
-            "title": "Fix typo in the fmt::format",
-            "number": 6469,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Geo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-21T06:20:02Z",
             "title": "Fix invalid headers sent by TOF and add some protection in header parsing",
             "number": 6470,
@@ -4356,6 +4336,31 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/calibration/src/TOFChannelCalibrator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not consider type {DPL/EOS} as unknown in the raw proxy",
+            "number": 6569,
+            "author": {
+              "login": "matthiasrichter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ExternalFairMQDeviceWorkflow.cxx"
                   }
                 }
               ]
