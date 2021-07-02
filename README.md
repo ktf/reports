@@ -55,5 +55,6 @@
 - [\#6524](https://github.com/AliceO2Group/AliceO2/pull/6524) 2021-06-27: DPL: add api to easily load and act on a plugin by [@ktf](https://github.com/ktf)
 - [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
+- [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6542](https://github.com/AliceO2Group/AliceO2/pull/6542) 2021-06-29: Fixes for M1 by [@pzhristov](https://github.com/pzhristov)
