@@ -12,6 +12,7 @@
 - [\#6545](https://github.com/AliceO2Group/AliceO2/pull/6545) 2021-06-30: PWGHF: Add message for hyperloop tests by [@fgrosa](https://github.com/fgrosa)
 - [\#6547](https://github.com/AliceO2Group/AliceO2/pull/6547) 2021-06-30: PWGGA/gammaConversionsMC by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
+- [\#6571](https://github.com/AliceO2Group/AliceO2/pull/6571) 2021-07-02: Fix obsolete copyright headers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
