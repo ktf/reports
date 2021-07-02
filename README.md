@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
 - [\#6503](https://github.com/AliceO2Group/AliceO2/pull/6503) 2021-06-25: adding meta data to aod merger by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6513](https://github.com/AliceO2Group/AliceO2/pull/6513) 2021-06-28: PWGPP: Enable all species by default by [@njacazio](https://github.com/njacazio)
 - [\#6520](https://github.com/AliceO2Group/AliceO2/pull/6520) 2021-06-27: Split J/ψ selector to ALICE 2 and 3 by [@vkucera](https://github.com/vkucera)
@@ -45,6 +46,7 @@
 - [\#6559](https://github.com/AliceO2Group/AliceO2/pull/6559) 2021-07-01: Cables to the MFT and FIT patch panel by [@frmanso](https://github.com/frmanso)
 - [\#6566](https://github.com/AliceO2Group/AliceO2/pull/6566) 2021-07-02: FITRaw: hotfix for #6562 by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
+- [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
 - [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
 - [\#6517](https://github.com/AliceO2Group/AliceO2/pull/6517) 2021-06-28: DPL: add code to enable multithreaded dispatch by [@ktf](https://github.com/ktf)
 - [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
