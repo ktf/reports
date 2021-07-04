@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Fix in stored vectors size, resize them and pad with 0s",
-            "number": 6476,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-06-20T22:54:14Z",
             "title": "Fix typo in PVertexer debris cleanup",
@@ -4481,6 +4461,61 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/tracks-writer-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: Remove TRDBase/Digit.h",
+            "number": 6576,
+            "author": {
+              "login": "jolopezl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/ConvertRun2DigitsAndTracklets.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/convertRun2ToRun3Digits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CompressedRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DataReaderTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DigitsParser.cxx"
                   }
                 }
               ]
