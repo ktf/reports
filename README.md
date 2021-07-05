@@ -51,5 +51,6 @@
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
 - [\#6569](https://github.com/AliceO2Group/AliceO2/pull/6569) 2021-07-05: Do not consider type {DPL/EOS} as unknown in the raw proxy by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#6578](https://github.com/AliceO2Group/AliceO2/pull/6578) 2021-07-05: DPL Analysis: demote message to info by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6542](https://github.com/AliceO2Group/AliceO2/pull/6542) 2021-06-29: Fixes for M1 by [@pzhristov](https://github.com/pzhristov)
