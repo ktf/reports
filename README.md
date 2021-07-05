@@ -40,6 +40,7 @@
 - [\#6566](https://github.com/AliceO2Group/AliceO2/pull/6566) 2021-07-02: FITRaw: hotfix for #6562 by [@afurs](https://github.com/afurs)
 - [\#6570](https://github.com/AliceO2Group/AliceO2/pull/6570) 2021-07-04: Fix division by zero in MFT TrackFitter by [@sawenzel](https://github.com/sawenzel)
 - [\#6572](https://github.com/AliceO2Group/AliceO2/pull/6572) 2021-07-04: AOD conversion: Correct indexing of MCparticle to MCCollision by [@sawenzel](https://github.com/sawenzel)
+- [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
 - [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
