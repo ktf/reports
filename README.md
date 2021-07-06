@@ -13,6 +13,7 @@
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
@@ -20,6 +21,7 @@
 - [\#6496](https://github.com/AliceO2Group/AliceO2/pull/6496) 2021-07-01: [EMCAL-630, EMCAL-700] Fix handling of cell indices from module indices by [@mfasDa](https://github.com/mfasDa)
 - [\#6502](https://github.com/AliceO2Group/AliceO2/pull/6502) 2021-07-01: [MRRTF-126] Add MCH reco workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6512](https://github.com/AliceO2Group/AliceO2/pull/6512) 2021-07-01: [MRRTF-132] MCHRaw: implement missing TF handling by [@aphecetche](https://github.com/aphecetche)
 - [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
 - [\#6522](https://github.com/AliceO2Group/AliceO2/pull/6522) 2021-06-29: alignment of FT0 modules by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
