@@ -19,7 +19,6 @@
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6496](https://github.com/AliceO2Group/AliceO2/pull/6496) 2021-07-01: [EMCAL-630, EMCAL-700] Fix handling of cell indices from module indices by [@mfasDa](https://github.com/mfasDa)
 - [\#6502](https://github.com/AliceO2Group/AliceO2/pull/6502) 2021-07-01: [MRRTF-126] Add MCH reco workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
