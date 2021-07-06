@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#6528](https://github.com/AliceO2Group/AliceO2/pull/6528) 2021-07-06: Move to proper logger + protect file reads [O2-2423] by [@mpuccio](https://github.com/mpuccio)
 - [\#6545](https://github.com/AliceO2Group/AliceO2/pull/6545) 2021-06-30: PWGHF: Add message for hyperloop tests by [@fgrosa](https://github.com/fgrosa)
 - [\#6547](https://github.com/AliceO2Group/AliceO2/pull/6547) 2021-06-30: PWGGA/gammaConversionsMC by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
