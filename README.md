@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
 - [\#6545](https://github.com/AliceO2Group/AliceO2/pull/6545) 2021-06-30: PWGHF: Add message for hyperloop tests by [@fgrosa](https://github.com/fgrosa)
 - [\#6547](https://github.com/AliceO2Group/AliceO2/pull/6547) 2021-06-30: PWGGA/gammaConversionsMC by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
@@ -40,7 +39,6 @@
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
-- [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
 - [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
 - [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
