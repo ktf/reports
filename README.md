@@ -51,6 +51,7 @@
 - [\#6569](https://github.com/AliceO2Group/AliceO2/pull/6569) 2021-07-05: Do not consider type {DPL/EOS} as unknown in the raw proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6578](https://github.com/AliceO2Group/AliceO2/pull/6578) 2021-07-05: DPL Analysis: demote message to info by [@ktf](https://github.com/ktf)
 - [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
+- [\#6600](https://github.com/AliceO2Group/AliceO2/pull/6600) 2021-07-06: DPL Analysis: correctly track consumed offers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
