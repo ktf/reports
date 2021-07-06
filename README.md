@@ -7,6 +7,7 @@
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6571](https://github.com/AliceO2Group/AliceO2/pull/6571) 2021-07-02: Fix obsolete copyright headers by [@shahor02](https://github.com/shahor02)
+- [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
@@ -45,6 +46,7 @@
 - [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
 - [\#6569](https://github.com/AliceO2Group/AliceO2/pull/6569) 2021-07-05: Do not consider type {DPL/EOS} as unknown in the raw proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6578](https://github.com/AliceO2Group/AliceO2/pull/6578) 2021-07-05: DPL Analysis: demote message to info by [@ktf](https://github.com/ktf)
+- [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
