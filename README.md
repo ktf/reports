@@ -2,9 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
-- [\#6513](https://github.com/AliceO2Group/AliceO2/pull/6513) 2021-06-28: PWGPP: Enable all species by default by [@njacazio](https://github.com/njacazio)
-- [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
-- [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 - [\#6545](https://github.com/AliceO2Group/AliceO2/pull/6545) 2021-06-30: PWGHF: Add message for hyperloop tests by [@fgrosa](https://github.com/fgrosa)
 - [\#6547](https://github.com/AliceO2Group/AliceO2/pull/6547) 2021-06-30: PWGGA/gammaConversionsMC by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
@@ -13,7 +10,6 @@
 ## Recent developments in O2 - Common
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
-- [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
@@ -28,8 +24,6 @@
 - [\#6522](https://github.com/AliceO2Group/AliceO2/pull/6522) 2021-06-29: alignment of FT0 modules by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
 - [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
-- [\#6537](https://github.com/AliceO2Group/AliceO2/pull/6537) 2021-06-28: Add missing includes by [@davidrohr](https://github.com/davidrohr)
-- [\#6538](https://github.com/AliceO2Group/AliceO2/pull/6538) 2021-06-28: Workarounds for fmt 8.0.0 by [@davidrohr](https://github.com/davidrohr)
 - [\#6541](https://github.com/AliceO2Group/AliceO2/pull/6541) 2021-06-29: TPC: finalize trigger handling + unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
@@ -44,9 +38,6 @@
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [\#6498](https://github.com/AliceO2Group/AliceO2/pull/6498) 2021-07-02: Add first task of the LUT maker from fullsim by [@njacazio](https://github.com/njacazio)
-- [\#6499](https://github.com/AliceO2Group/AliceO2/pull/6499) 2021-06-28: A new attempt to add an option to disable exception catching by [@davidrohr](https://github.com/davidrohr)
-- [\#6517](https://github.com/AliceO2Group/AliceO2/pull/6517) 2021-06-28: DPL: add code to enable multithreaded dispatch by [@ktf](https://github.com/ktf)
-- [\#6523](https://github.com/AliceO2Group/AliceO2/pull/6523) 2021-06-28: correct names for mcparticle mother and daughter indices by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
 - [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
