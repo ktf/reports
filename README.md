@@ -43,6 +43,7 @@
 ## Recent developments in O2 - Framework
 - [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
+- [\#6543](https://github.com/AliceO2Group/AliceO2/pull/6543) 2021-07-07: DPL Analysis: Slice and Array index columns by [@aalkin](https://github.com/aalkin)
 - [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
