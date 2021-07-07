@@ -18,7 +18,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
-- [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
@@ -27,10 +26,7 @@
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6512](https://github.com/AliceO2Group/AliceO2/pull/6512) 2021-07-01: [MRRTF-132] MCHRaw: implement missing TF handling by [@aphecetche](https://github.com/aphecetche)
 - [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
-- [\#6522](https://github.com/AliceO2Group/AliceO2/pull/6522) 2021-06-29: alignment of FT0 modules by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
-- [\#6533](https://github.com/AliceO2Group/AliceO2/pull/6533) 2021-06-29: TRD: Fix TRD digit method names by [@jolopezl](https://github.com/jolopezl)
-- [\#6541](https://github.com/AliceO2Group/AliceO2/pull/6541) 2021-06-29: TPC: finalize trigger handling + unrelated fixes and improvements by [@wiechula](https://github.com/wiechula)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 - [\#6552](https://github.com/AliceO2Group/AliceO2/pull/6552) 2021-07-01: Fix the global angular position of staves in OB layers by [@mario6829](https://github.com/mario6829)
@@ -54,5 +50,3 @@
 - [\#6600](https://github.com/AliceO2Group/AliceO2/pull/6600) 2021-07-06: DPL Analysis: correctly track consumed offers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#6542](https://github.com/AliceO2Group/AliceO2/pull/6542) 2021-06-29: Fixes for M1 by [@pzhristov](https://github.com/pzhristov)
