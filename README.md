@@ -17,6 +17,7 @@
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
+- [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
 - [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
@@ -34,6 +35,7 @@
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
+- [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
 - [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
 - [\#6589](https://github.com/AliceO2Group/AliceO2/pull/6589) 2021-07-07: Fixes for TPC-ITS matching in ITS triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6597](https://github.com/AliceO2Group/AliceO2/pull/6597) 2021-07-08: C side modules positions and FV0 alignment by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
