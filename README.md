@@ -56,6 +56,7 @@
 - [\#6578](https://github.com/AliceO2Group/AliceO2/pull/6578) 2021-07-05: DPL Analysis: demote message to info by [@ktf](https://github.com/ktf)
 - [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6600](https://github.com/AliceO2Group/AliceO2/pull/6600) 2021-07-06: DPL Analysis: correctly track consumed offers by [@ktf](https://github.com/ktf)
+- [\#6606](https://github.com/AliceO2Group/AliceO2/pull/6606) 2021-07-08: DPL Analysis: demote shm accounting messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
