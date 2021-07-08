@@ -39,6 +39,7 @@
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
 - [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
 - [\#6589](https://github.com/AliceO2Group/AliceO2/pull/6589) 2021-07-07: Fixes for TPC-ITS matching in ITS triggered mode by [@shahor02](https://github.com/shahor02)
+- [\#6597](https://github.com/AliceO2Group/AliceO2/pull/6597) 2021-07-08: C side modules positions and FV0 alignment by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6598](https://github.com/AliceO2Group/AliceO2/pull/6598) 2021-07-07: TPC: Improve detection/removal of duplicate digits by [@wiechula](https://github.com/wiechula)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
