@@ -12,16 +12,13 @@
 - [\#6588](https://github.com/AliceO2Group/AliceO2/pull/6588) 2021-07-06: PWGGA/gammaConv add mc version by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6593](https://github.com/AliceO2Group/AliceO2/pull/6593) 2021-07-06: Remove remaining pragma once by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6512](https://github.com/AliceO2Group/AliceO2/pull/6512) 2021-07-01: [MRRTF-132] MCHRaw: implement missing TF handling by [@aphecetche](https://github.com/aphecetche)
 - [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
