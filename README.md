@@ -18,6 +18,7 @@
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
+- [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [\#6509](https://github.com/AliceO2Group/AliceO2/pull/6509) 2021-07-01: [CTF] Fix out-of-bounds memory access in EncodedBlocks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
@@ -34,6 +35,7 @@
 - [\#6570](https://github.com/AliceO2Group/AliceO2/pull/6570) 2021-07-04: Fix division by zero in MFT TrackFitter by [@sawenzel](https://github.com/sawenzel)
 - [\#6572](https://github.com/AliceO2Group/AliceO2/pull/6572) 2021-07-04: AOD conversion: Correct indexing of MCparticle to MCCollision by [@sawenzel](https://github.com/sawenzel)
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
+- [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
 - [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
 - [\#6589](https://github.com/AliceO2Group/AliceO2/pull/6589) 2021-07-07: Fixes for TPC-ITS matching in ITS triggered mode by [@shahor02](https://github.com/shahor02)
