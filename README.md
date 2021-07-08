@@ -14,12 +14,10 @@
 ## Recent developments in O2 - Common
 - [\#6536](https://github.com/AliceO2Group/AliceO2/pull/6536) 2021-07-01: DPL: use provided size for shared memory limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6544](https://github.com/AliceO2Group/AliceO2/pull/6544) 2021-07-01: [MFT] Fixes for forward track dataformat and track fitting  by [@rpezzi](https://github.com/rpezzi)
 - [\#6546](https://github.com/AliceO2Group/AliceO2/pull/6546) 2021-07-01: FIT update by [@afurs](https://github.com/afurs)
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#6511](https://github.com/AliceO2Group/AliceO2/pull/6511) 2021-07-06: TRD fix for empty frames by [@bazinski](https://github.com/bazinski)
 - [\#6512](https://github.com/AliceO2Group/AliceO2/pull/6512) 2021-07-01: [MRRTF-132] MCHRaw: implement missing TF handling by [@aphecetche](https://github.com/aphecetche)
 - [\#6515](https://github.com/AliceO2Group/AliceO2/pull/6515) 2021-07-01: ZDC digits 2 raw fix by [@cortesep](https://github.com/cortesep)
 - [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
