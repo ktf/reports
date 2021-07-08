@@ -3,8 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#6528](https://github.com/AliceO2Group/AliceO2/pull/6528) 2021-07-06: Move to proper logger + protect file reads [O2-2423] by [@mpuccio](https://github.com/mpuccio)
 - [\#6530](https://github.com/AliceO2Group/AliceO2/pull/6530) 2021-07-06: First step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
-- [\#6545](https://github.com/AliceO2Group/AliceO2/pull/6545) 2021-06-30: PWGHF: Add message for hyperloop tests by [@fgrosa](https://github.com/fgrosa)
-- [\#6547](https://github.com/AliceO2Group/AliceO2/pull/6547) 2021-06-30: PWGGA/gammaConversionsMC by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6548](https://github.com/AliceO2Group/AliceO2/pull/6548) 2021-07-01: Add columns to store decision of each J/ψ selector step by [@vkucera](https://github.com/vkucera)
 - [\#6556](https://github.com/AliceO2Group/AliceO2/pull/6556) 2021-07-06: lambdakzeroanalysis: add configurable for Dca histograms binning by [@aimeric-landou](https://github.com/aimeric-landou)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
@@ -37,6 +35,7 @@
 - [\#6572](https://github.com/AliceO2Group/AliceO2/pull/6572) 2021-07-04: AOD conversion: Correct indexing of MCparticle to MCCollision by [@sawenzel](https://github.com/sawenzel)
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
 - [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
+- [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
 - [\#6589](https://github.com/AliceO2Group/AliceO2/pull/6589) 2021-07-07: Fixes for TPC-ITS matching in ITS triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6598](https://github.com/AliceO2Group/AliceO2/pull/6598) 2021-07-07: TPC: Improve detection/removal of duplicate digits by [@wiechula](https://github.com/wiechula)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
