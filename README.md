@@ -32,6 +32,7 @@
 - [\#6552](https://github.com/AliceO2Group/AliceO2/pull/6552) 2021-07-01: Fix the global angular position of staves in OB layers by [@mario6829](https://github.com/mario6829)
 - [\#6554](https://github.com/AliceO2Group/AliceO2/pull/6554) 2021-07-01: [O2-2419] No exe in libraries please by [@aphecetche](https://github.com/aphecetche)
 - [\#6559](https://github.com/AliceO2Group/AliceO2/pull/6559) 2021-07-01: Cables to the MFT and FIT patch panel by [@frmanso](https://github.com/frmanso)
+- [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
 - [\#6565](https://github.com/AliceO2Group/AliceO2/pull/6565) 2021-07-02: Make Alpide decoding errors treatment more robust by [@shahor02](https://github.com/shahor02)
 - [\#6566](https://github.com/AliceO2Group/AliceO2/pull/6566) 2021-07-02: FITRaw: hotfix for #6562 by [@afurs](https://github.com/afurs)
 - [\#6570](https://github.com/AliceO2Group/AliceO2/pull/6570) 2021-07-04: Fix division by zero in MFT TrackFitter by [@sawenzel](https://github.com/sawenzel)
