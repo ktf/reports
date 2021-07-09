@@ -10,6 +10,7 @@
 - [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6588](https://github.com/AliceO2Group/AliceO2/pull/6588) 2021-07-06: PWGGA/gammaConv add mc version by [@sstiefel19](https://github.com/sstiefel19)
 - [\#6593](https://github.com/AliceO2Group/AliceO2/pull/6593) 2021-07-06: Remove remaining pragma once by [@sawenzel](https://github.com/sawenzel)
+- [\#6618](https://github.com/AliceO2Group/AliceO2/pull/6618) 2021-07-09: [O2-2452] DPL Analysis: Fix extended tables example to account for unassigned tracks by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 - [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
@@ -48,3 +49,4 @@
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
+- [\#6620](https://github.com/AliceO2Group/AliceO2/pull/6620) 2021-07-09: It's enough to use MCHeader file to create digi context by [@sawenzel](https://github.com/sawenzel)
