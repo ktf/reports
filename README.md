@@ -36,6 +36,7 @@
 - [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6543](https://github.com/AliceO2Group/AliceO2/pull/6543) 2021-07-07: DPL Analysis: Slice and Array index columns by [@aalkin](https://github.com/aalkin)
 - [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
+- [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
 - [\#6569](https://github.com/AliceO2Group/AliceO2/pull/6569) 2021-07-05: Do not consider type {DPL/EOS} as unknown in the raw proxy by [@matthiasrichter](https://github.com/matthiasrichter)
