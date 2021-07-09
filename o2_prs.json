@@ -4,151 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Adding Preshower detector (PSR) for ALICE3 simulation",
-            "number": 6519,
-            "author": {
-              "login": "an15ms157"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/src/DetID.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/MaterialManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/FT3/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/base/include/PSRBase/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/base/src/GeometryTGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/base/src/PSRBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/data/simcuts.dat"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/include/PSRSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/include/PSRSimulation/PSRLayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/src/PSRLayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ALICE3/PSR/simulation/src/PSRSimulationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/build_geometry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/duplicateHits.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2HitMerger.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-06-27T20:49:14Z",
             "title": "Split J/ψ selector to ALICE 2 and 3",
@@ -4331,6 +4186,36 @@
                 {
                   "node": {
                     "path": "Analysis/Tutorials/src/extendedTables.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event filter: Add first implementation of event filter for HF",
+            "number": 6619,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/HfFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/filterTables.h"
                   }
                 }
               ]
