@@ -5,7 +5,6 @@
 - [\#6530](https://github.com/AliceO2Group/AliceO2/pull/6530) 2021-07-06: First step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6556](https://github.com/AliceO2Group/AliceO2/pull/6556) 2021-07-06: lambdakzeroanalysis: add configurable for Dca histograms binning by [@aimeric-landou](https://github.com/aimeric-landou)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
-- [\#6571](https://github.com/AliceO2Group/AliceO2/pull/6571) 2021-07-02: Fix obsolete copyright headers by [@shahor02](https://github.com/shahor02)
 - [\#6583](https://github.com/AliceO2Group/AliceO2/pull/6583) 2021-07-08: PWGHF: Update names of configurables and some comments by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6588](https://github.com/AliceO2Group/AliceO2/pull/6588) 2021-07-06: PWGGA/gammaConv add mc version by [@sstiefel19](https://github.com/sstiefel19)
@@ -18,8 +17,6 @@
 - [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
 - [\#6532](https://github.com/AliceO2Group/AliceO2/pull/6532) 2021-07-08: Kr-BoxClusterFinder can now take arbitrary amounts of timebins by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
-- [\#6565](https://github.com/AliceO2Group/AliceO2/pull/6565) 2021-07-02: Make Alpide decoding errors treatment more robust by [@shahor02](https://github.com/shahor02)
-- [\#6566](https://github.com/AliceO2Group/AliceO2/pull/6566) 2021-07-02: FITRaw: hotfix for #6562 by [@afurs](https://github.com/afurs)
 - [\#6570](https://github.com/AliceO2Group/AliceO2/pull/6570) 2021-07-04: Fix division by zero in MFT TrackFitter by [@sawenzel](https://github.com/sawenzel)
 - [\#6572](https://github.com/AliceO2Group/AliceO2/pull/6572) 2021-07-04: AOD conversion: Correct indexing of MCparticle to MCCollision by [@sawenzel](https://github.com/sawenzel)
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
@@ -34,9 +31,7 @@
 ## Recent developments in O2 - Examples
 - [\#6604](https://github.com/AliceO2Group/AliceO2/pull/6604) 2021-07-08: o2-sim: Ensure correct order of events in output file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#6526](https://github.com/AliceO2Group/AliceO2/pull/6526) 2021-07-02: DPL: dump metrics every three minutes if enabled by [@ktf](https://github.com/ktf)
 - [\#6543](https://github.com/AliceO2Group/AliceO2/pull/6543) 2021-07-07: DPL Analysis: Slice and Array index columns by [@aalkin](https://github.com/aalkin)
-- [\#6549](https://github.com/AliceO2Group/AliceO2/pull/6549) 2021-07-02: DPL: expire shm mem offers by [@ktf](https://github.com/ktf)
 - [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
 - [\#6557](https://github.com/AliceO2Group/AliceO2/pull/6557) 2021-07-04: [O2-2424] DPL Analysis: Rework slicing algorithm for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
