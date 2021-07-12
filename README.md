@@ -30,6 +30,7 @@
 - [\#6598](https://github.com/AliceO2Group/AliceO2/pull/6598) 2021-07-07: TPC: Improve detection/removal of duplicate digits by [@wiechula](https://github.com/wiechula)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
+- [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#6604](https://github.com/AliceO2Group/AliceO2/pull/6604) 2021-07-08: o2-sim: Ensure correct order of events in output file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
