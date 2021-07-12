@@ -26,6 +26,7 @@
 - [\#6597](https://github.com/AliceO2Group/AliceO2/pull/6597) 2021-07-08: C side modules positions and FV0 alignment by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6598](https://github.com/AliceO2Group/AliceO2/pull/6598) 2021-07-07: TPC: Improve detection/removal of duplicate digits by [@wiechula](https://github.com/wiechula)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
+- [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
 - [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
@@ -45,4 +46,5 @@
 ## Recent developments in O2 - Steer
 - [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
+- [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6620](https://github.com/AliceO2Group/AliceO2/pull/6620) 2021-07-09: It's enough to use MCHeader file to create digi context by [@sawenzel](https://github.com/sawenzel)
