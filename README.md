@@ -14,7 +14,6 @@
 - [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Detectors
-- [\#6531](https://github.com/AliceO2Group/AliceO2/pull/6531) 2021-07-05: TPC CDBInterface: pick specific file from CCDB with timestamp and met… by [@tklemenz](https://github.com/tklemenz)
 - [\#6532](https://github.com/AliceO2Group/AliceO2/pull/6532) 2021-07-08: Kr-BoxClusterFinder can now take arbitrary amounts of timebins by [@HauenderPhilip](https://github.com/HauenderPhilip)
 - [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
 - [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
