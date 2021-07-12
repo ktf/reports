@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6528](https://github.com/AliceO2Group/AliceO2/pull/6528) 2021-07-06: Move to proper logger + protect file reads [O2-2423] by [@mpuccio](https://github.com/mpuccio)
 - [\#6530](https://github.com/AliceO2Group/AliceO2/pull/6530) 2021-07-06: First step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6556](https://github.com/AliceO2Group/AliceO2/pull/6556) 2021-07-06: lambdakzeroanalysis: add configurable for Dca histograms binning by [@aimeric-landou](https://github.com/aimeric-landou)
 - [\#6583](https://github.com/AliceO2Group/AliceO2/pull/6583) 2021-07-08: PWGHF: Update names of configurables and some comments by [@chiarazampolli](https://github.com/chiarazampolli)
