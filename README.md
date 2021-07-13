@@ -32,6 +32,7 @@
 - [\#6611](https://github.com/AliceO2Group/AliceO2/pull/6611) 2021-07-12:  [FV0] (1) Add separate waveforms for ring 1-4 and ring 5 and  (2) take care of adc overflow by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6624](https://github.com/AliceO2Group/AliceO2/pull/6624) 2021-07-13: trd fix sending whole messages by [@bazinski](https://github.com/bazinski)
+- [\#6625](https://github.com/AliceO2Group/AliceO2/pull/6625) 2021-07-13: add DistStf as mandatory input for TOF decoder by [@noferini](https://github.com/noferini)
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
 - [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
