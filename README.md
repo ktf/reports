@@ -35,6 +35,7 @@
 - [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
+- [\#6637](https://github.com/AliceO2Group/AliceO2/pull/6637) 2021-07-13: Do not LOG(INFO) from device configuration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#6604](https://github.com/AliceO2Group/AliceO2/pull/6604) 2021-07-08: o2-sim: Ensure correct order of events in output file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework

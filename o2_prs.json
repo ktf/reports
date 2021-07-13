@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-06-28T10:07:28Z",
-            "title": "Add missing includes",
-            "number": 6537,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/StringUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/AliasExpander.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DevIO/Digits/DigitFileFormat.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-06-28T19:29:50Z",
             "title": "Workarounds for fmt 8.0.0",
             "number": 6538,
@@ -3751,6 +3721,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-07-13T16:25:19Z",
+            "title": "Do not LOG(INFO) from device configuration",
+            "number": 6637,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
