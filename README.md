@@ -47,6 +47,7 @@
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
 - [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
 - [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
+- [\#6633](https://github.com/AliceO2Group/AliceO2/pull/6633) 2021-07-13: Fix order to align with hyperloop by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
