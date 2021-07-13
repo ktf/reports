@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Support multiple jet tables, full jets, and jet matching",
-            "number": 6534,
-            "author": {
-              "login": "raymondEhlers"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/JetUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Core/src/AnalysisJetsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/Jet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/src/aodDataModelGraph.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGJE/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGJE/jetfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGJE/jetfinderhf.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGJE/jetmatching.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGJE/jetsubstructure.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/jetProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/SkimmingTutorials/jetSpectraReference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tutorials/src/jetAnalysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-06-28T11:43:05Z",
             "title": "Ignore .devcontainer/ and .devcontainer.json",
@@ -3901,6 +3821,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/Variant.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Analysis/PWGDQ: merge v0selector in DQ",
+            "number": 6634,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/DataModel/include/AnalysisDataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/include/PWGDQCore/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/PWGDQ/src/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGDQ/v0selector.cxx"
                   }
                 }
               ]
