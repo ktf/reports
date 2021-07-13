@@ -15,9 +15,7 @@
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Detectors
 - [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
-- [\#6574](https://github.com/AliceO2Group/AliceO2/pull/6574) 2021-07-05: fix in RDH update for CRU det. in trig. mode by [@shahor02](https://github.com/shahor02)
 - [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
-- [\#6579](https://github.com/AliceO2Group/AliceO2/pull/6579) 2021-07-05: Fixing typo on MB support shelf name by [@mario6829](https://github.com/mario6829)
 - [\#6581](https://github.com/AliceO2Group/AliceO2/pull/6581) 2021-07-12: TRD move tracklethalfchamber header  by [@bazinski](https://github.com/bazinski)
 - [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
 - [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
@@ -36,10 +34,7 @@
 ## Recent developments in O2 - Framework
 - [\#6543](https://github.com/AliceO2Group/AliceO2/pull/6543) 2021-07-07: DPL Analysis: Slice and Array index columns by [@aalkin](https://github.com/aalkin)
 - [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
-- [\#6558](https://github.com/AliceO2Group/AliceO2/pull/6558) 2021-07-05: DPL: export environment variables when dumping DDS config. by [@ktf](https://github.com/ktf)
-- [\#6569](https://github.com/AliceO2Group/AliceO2/pull/6569) 2021-07-05: Do not consider type {DPL/EOS} as unknown in the raw proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
-- [\#6578](https://github.com/AliceO2Group/AliceO2/pull/6578) 2021-07-05: DPL Analysis: demote message to info by [@ktf](https://github.com/ktf)
 - [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
 - [\#6600](https://github.com/AliceO2Group/AliceO2/pull/6600) 2021-07-06: DPL Analysis: correctly track consumed offers by [@ktf](https://github.com/ktf)
 - [\#6606](https://github.com/AliceO2Group/AliceO2/pull/6606) 2021-07-08: DPL Analysis: demote shm accounting messages by [@ktf](https://github.com/ktf)
@@ -47,7 +42,6 @@
 - [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
 - [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#6582](https://github.com/AliceO2Group/AliceO2/pull/6582) 2021-07-05: Enable GRP semaphore by default / automatic removal by [@sawenzel](https://github.com/sawenzel)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6620](https://github.com/AliceO2Group/AliceO2/pull/6620) 2021-07-09: It's enough to use MCHeader file to create digi context by [@sawenzel](https://github.com/sawenzel)
