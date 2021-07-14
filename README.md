@@ -26,6 +26,7 @@
 - [\#6597](https://github.com/AliceO2Group/AliceO2/pull/6597) 2021-07-08: C side modules positions and FV0 alignment by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6598](https://github.com/AliceO2Group/AliceO2/pull/6598) 2021-07-07: TPC: Improve detection/removal of duplicate digits by [@wiechula](https://github.com/wiechula)
 - [\#6599](https://github.com/AliceO2Group/AliceO2/pull/6599) 2021-07-07: Store det.mask in gGeoMnager and use in misalignment by [@shahor02](https://github.com/shahor02)
+- [\#6603](https://github.com/AliceO2Group/AliceO2/pull/6603) 2021-07-14: Improvements to TRD digit converter macro by [@jbarrella](https://github.com/jbarrella)
 - [\#6605](https://github.com/AliceO2Group/AliceO2/pull/6605) 2021-07-12: MCH: Include CH6L in electronic mapping by [@aphecetche](https://github.com/aphecetche)
 - [\#6611](https://github.com/AliceO2Group/AliceO2/pull/6611) 2021-07-12:  [FV0] (1) Add separate waveforms for ring 1-4 and ring 5 and  (2) take care of adc overflow by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
@@ -35,6 +36,7 @@
 - [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
+- [\#6636](https://github.com/AliceO2Group/AliceO2/pull/6636) 2021-07-14: Missing CMake entry in #6305 by [@badarots](https://github.com/badarots)
 - [\#6637](https://github.com/AliceO2Group/AliceO2/pull/6637) 2021-07-13: Do not LOG(INFO) from device configuration by [@shahor02](https://github.com/shahor02)
 - [\#6638](https://github.com/AliceO2Group/AliceO2/pull/6638) 2021-07-14: [EMCAL-630] Move to gamma2 raw fitter by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
