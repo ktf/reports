@@ -1,11 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6556](https://github.com/AliceO2Group/AliceO2/pull/6556) 2021-07-06: lambdakzeroanalysis: add configurable for Dca histograms binning by [@aimeric-landou](https://github.com/aimeric-landou)
 - [\#6583](https://github.com/AliceO2Group/AliceO2/pull/6583) 2021-07-08: PWGHF: Update names of configurables and some comments by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
-- [\#6588](https://github.com/AliceO2Group/AliceO2/pull/6588) 2021-07-06: PWGGA/gammaConv add mc version by [@sstiefel19](https://github.com/sstiefel19)
-- [\#6593](https://github.com/AliceO2Group/AliceO2/pull/6593) 2021-07-06: Remove remaining pragma once by [@sawenzel](https://github.com/sawenzel)
 - [\#6618](https://github.com/AliceO2Group/AliceO2/pull/6618) 2021-07-09: [O2-2452] DPL Analysis: Fix extended tables example to account for unassigned tracks by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
@@ -44,8 +40,6 @@
 - [\#6543](https://github.com/AliceO2Group/AliceO2/pull/6543) 2021-07-07: DPL Analysis: Slice and Array index columns by [@aalkin](https://github.com/aalkin)
 - [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
-- [\#6586](https://github.com/AliceO2Group/AliceO2/pull/6586) 2021-07-06: DPL Analysis: fix filtered grouping for merged AODs by [@aalkin](https://github.com/aalkin)
-- [\#6600](https://github.com/AliceO2Group/AliceO2/pull/6600) 2021-07-06: DPL Analysis: correctly track consumed offers by [@ktf](https://github.com/ktf)
 - [\#6606](https://github.com/AliceO2Group/AliceO2/pull/6606) 2021-07-08: DPL Analysis: demote shm accounting messages by [@ktf](https://github.com/ktf)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
 - [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
