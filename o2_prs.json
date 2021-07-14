@@ -6,26 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "DPL Analysis: port bulk IO patch",
-            "number": 6539,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "[WIP] Use RecoContainer for TPC interpolation workflow",
             "number": 6540,
             "author": {
@@ -3721,6 +3701,41 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "use Nchannels as FT0 constants",
+            "number": 6639,
+            "author": {
+              "login": "AllaMaevskaya"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/base/include/FT0Base/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0CalibCollectorWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/readFT0digits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/readFT0hits.C"
                   }
                 }
               ]
