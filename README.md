@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#6583](https://github.com/AliceO2Group/AliceO2/pull/6583) 2021-07-08: PWGHF: Update names of configurables and some comments by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6618](https://github.com/AliceO2Group/AliceO2/pull/6618) 2021-07-09: [O2-2452] DPL Analysis: Fix extended tables example to account for unassigned tracks by [@aalkin](https://github.com/aalkin)
+- [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 ## Recent developments in O2 - Common
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
