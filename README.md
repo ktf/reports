@@ -16,6 +16,7 @@
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
+- [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
 - [\#6563](https://github.com/AliceO2Group/AliceO2/pull/6563) 2021-07-14: trd fix corrupt data at end of digits by [@bazinski](https://github.com/bazinski)
@@ -41,6 +42,7 @@
 - [\#6637](https://github.com/AliceO2Group/AliceO2/pull/6637) 2021-07-13: Do not LOG(INFO) from device configuration by [@shahor02](https://github.com/shahor02)
 - [\#6638](https://github.com/AliceO2Group/AliceO2/pull/6638) 2021-07-14: [EMCAL-630] Move to gamma2 raw fitter by default by [@mfasDa](https://github.com/mfasDa)
 - [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Examples
 - [\#6604](https://github.com/AliceO2Group/AliceO2/pull/6604) 2021-07-08: o2-sim: Ensure correct order of events in output file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -56,3 +58,4 @@
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6620](https://github.com/AliceO2Group/AliceO2/pull/6620) 2021-07-09: It's enough to use MCHeader file to create digi context by [@sawenzel](https://github.com/sawenzel)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
+- [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
