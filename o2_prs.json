@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-07-01T20:34:36Z",
-            "title": "Cables to the MFT and FIT patch panel",
-            "number": 6559,
-            "author": {
-              "login": "frmanso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/PatchPanel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[QC-110] Performance improvements in Dispatcher",
@@ -2720,12 +2700,32 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Analysis/ALICE3/src/alice3-qa-singleparticle.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Analysis/Core/include/AnalysisCore/MC.h"
                   }
                 },
                 {
                   "node": {
                     "path": "Analysis/Core/include/AnalysisCore/RecoDecay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGGA/gammaConversionsmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCorrelatorD0D0bar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGHF/HFCorrelatorDplusDminus.cxx"
                   }
                 },
                 {
@@ -4471,6 +4471,26 @@
                 {
                   "node": {
                     "path": "Utilities/DataSampling/include/DataSampling/Dispatcher.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "thread-safe version of Gaussian fit with error extraction",
+            "number": 6659,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/fit.h"
                   }
                 }
               ]
