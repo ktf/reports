@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6583](https://github.com/AliceO2Group/AliceO2/pull/6583) 2021-07-08: PWGHF: Update names of configurables and some comments by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#6618](https://github.com/AliceO2Group/AliceO2/pull/6618) 2021-07-09: [O2-2452] DPL Analysis: Fix extended tables example to account for unassigned tracks by [@aalkin](https://github.com/aalkin)
 - [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
@@ -10,23 +9,16 @@
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
-- [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6562](https://github.com/AliceO2Group/AliceO2/pull/6562) 2021-07-08: Fix some of the ALICE 3 geometry issues by [@mconcas](https://github.com/mconcas)
 - [\#6563](https://github.com/AliceO2Group/AliceO2/pull/6563) 2021-07-14: trd fix corrupt data at end of digits by [@bazinski](https://github.com/bazinski)
-- [\#6575](https://github.com/AliceO2Group/AliceO2/pull/6575) 2021-07-08: [MRRTF-131] MCH: Add reader and writer specs for TrackMCH by [@aphecetche](https://github.com/aphecetche)
 - [\#6576](https://github.com/AliceO2Group/AliceO2/pull/6576) 2021-07-14: TRD: Remove TRDBase/Digit.h by [@jolopezl](https://github.com/jolopezl)
 - [\#6581](https://github.com/AliceO2Group/AliceO2/pull/6581) 2021-07-12: TRD move tracklethalfchamber header  by [@bazinski](https://github.com/bazinski)
-- [\#6585](https://github.com/AliceO2Group/AliceO2/pull/6585) 2021-07-08: TRD tracking improvements by [@martenole](https://github.com/martenole)
-- [\#6587](https://github.com/AliceO2Group/AliceO2/pull/6587) 2021-07-08: [MRRTF-122] Add MCH to FST by [@aphecetche](https://github.com/aphecetche)
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
-- [\#6597](https://github.com/AliceO2Group/AliceO2/pull/6597) 2021-07-08: C side modules positions and FV0 alignment by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6603](https://github.com/AliceO2Group/AliceO2/pull/6603) 2021-07-14: Improvements to TRD digit converter macro by [@jbarrella](https://github.com/jbarrella)
 - [\#6605](https://github.com/AliceO2Group/AliceO2/pull/6605) 2021-07-12: MCH: Include CH6L in electronic mapping by [@aphecetche](https://github.com/aphecetche)
 - [\#6611](https://github.com/AliceO2Group/AliceO2/pull/6611) 2021-07-12:  [FV0] (1) Add separate waveforms for ring 1-4 and ring 5 and  (2) take care of adc overflow by [@arvindkhuntia](https://github.com/arvindkhuntia)
@@ -43,12 +35,9 @@
 - [\#6638](https://github.com/AliceO2Group/AliceO2/pull/6638) 2021-07-14: [EMCAL-630] Move to gamma2 raw fitter by default by [@mfasDa](https://github.com/mfasDa)
 - [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
-## Recent developments in O2 - Examples
-- [\#6604](https://github.com/AliceO2Group/AliceO2/pull/6604) 2021-07-08: o2-sim: Ensure correct order of events in output file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
-- [\#6606](https://github.com/AliceO2Group/AliceO2/pull/6606) 2021-07-08: DPL Analysis: demote shm accounting messages by [@ktf](https://github.com/ktf)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
 - [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
 - [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
