@@ -37,7 +37,6 @@
 - [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Framework
-- [\#6553](https://github.com/AliceO2Group/AliceO2/pull/6553) 2021-07-09: DPL: process region callbacks as early as possible by [@ktf](https://github.com/ktf)
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
 - [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
