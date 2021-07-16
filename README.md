@@ -15,6 +15,7 @@
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
+- [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#6563](https://github.com/AliceO2Group/AliceO2/pull/6563) 2021-07-14: trd fix corrupt data at end of digits by [@bazinski](https://github.com/bazinski)
 - [\#6576](https://github.com/AliceO2Group/AliceO2/pull/6576) 2021-07-14: TRD: Remove TRDBase/Digit.h by [@jolopezl](https://github.com/jolopezl)
@@ -36,6 +37,8 @@
 - [\#6638](https://github.com/AliceO2Group/AliceO2/pull/6638) 2021-07-14: [EMCAL-630] Move to gamma2 raw fitter by default by [@mfasDa](https://github.com/mfasDa)
 - [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
+- [\#6649](https://github.com/AliceO2Group/AliceO2/pull/6649) 2021-07-16: [MID] An obvious fix by [@anerokhi](https://github.com/anerokhi)
+- [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
