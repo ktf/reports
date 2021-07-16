@@ -8,6 +8,7 @@
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
+- [\#6650](https://github.com/AliceO2Group/AliceO2/pull/6650) 2021-07-16: MathUtils: Fix a copy-paste bug by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - DataFormats
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
