@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
+- [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6626](https://github.com/AliceO2Group/AliceO2/pull/6626) 2021-07-10: [O2-2461] MCHRaw: bc offset should be applied before the rollover by [@aphecetche](https://github.com/aphecetche)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -50,6 +51,7 @@
 - [\#6633](https://github.com/AliceO2Group/AliceO2/pull/6633) 2021-07-13: Fix order to align with hyperloop by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 - [\#6643](https://github.com/AliceO2Group/AliceO2/pull/6643) 2021-07-15: DPL: fix idling readers by [@ktf](https://github.com/ktf)
+- [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6645](https://github.com/AliceO2Group/AliceO2/pull/6645) 2021-07-15: DPL Analysis: better tweaking of default aod-memory-rate-limit by [@ktf](https://github.com/ktf)
 - [\#6646](https://github.com/AliceO2Group/AliceO2/pull/6646) 2021-07-15: DPL GUI: fix switch-case fallthrough by [@anerokhi](https://github.com/anerokhi)
 - [\#6647](https://github.com/AliceO2Group/AliceO2/pull/6647) 2021-07-16: DPL: fix unassigned variable by [@anerokhi](https://github.com/anerokhi)
