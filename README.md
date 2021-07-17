@@ -46,6 +46,7 @@
 - [\#6649](https://github.com/AliceO2Group/AliceO2/pull/6649) 2021-07-16: [MID] An obvious fix by [@anerokhi](https://github.com/anerokhi)
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
+- [\#6660](https://github.com/AliceO2Group/AliceO2/pull/6660) 2021-07-17: TPCReconstruction: Fix typo by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Framework
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
