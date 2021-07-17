@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6618](https://github.com/AliceO2Group/AliceO2/pull/6618) 2021-07-09: [O2-2452] DPL Analysis: Fix extended tables example to account for unassigned tracks by [@aalkin](https://github.com/aalkin)
 - [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 ## Recent developments in O2 - Common
@@ -47,7 +46,6 @@
 ## Recent developments in O2 - Framework
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
-- [\#6616](https://github.com/AliceO2Group/AliceO2/pull/6616) 2021-07-09: [O2-2453] DPL Analysis: Fix integer result type inference for expressions by [@aalkin](https://github.com/aalkin)
 - [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
 - [\#6633](https://github.com/AliceO2Group/AliceO2/pull/6633) 2021-07-13: Fix order to align with hyperloop by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
@@ -57,6 +55,5 @@
 - [\#6647](https://github.com/AliceO2Group/AliceO2/pull/6647) 2021-07-16: DPL: fix unassigned variable by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Steer
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
-- [\#6620](https://github.com/AliceO2Group/AliceO2/pull/6620) 2021-07-09: It's enough to use MCHeader file to create digi context by [@sawenzel](https://github.com/sawenzel)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
