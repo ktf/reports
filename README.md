@@ -10,6 +10,7 @@
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6650](https://github.com/AliceO2Group/AliceO2/pull/6650) 2021-07-16: MathUtils: Fix a copy-paste bug by [@anerokhi](https://github.com/anerokhi)
+- [\#6659](https://github.com/AliceO2Group/AliceO2/pull/6659) 2021-07-17: thread-safe version of Gaussian fit with error extraction by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
