@@ -21,7 +21,6 @@
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6563](https://github.com/AliceO2Group/AliceO2/pull/6563) 2021-07-14: trd fix corrupt data at end of digits by [@bazinski](https://github.com/bazinski)
 - [\#6576](https://github.com/AliceO2Group/AliceO2/pull/6576) 2021-07-14: TRD: Remove TRDBase/Digit.h by [@jolopezl](https://github.com/jolopezl)
 - [\#6581](https://github.com/AliceO2Group/AliceO2/pull/6581) 2021-07-12: TRD move tracklethalfchamber header  by [@bazinski](https://github.com/bazinski)
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
