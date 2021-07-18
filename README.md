@@ -20,6 +20,7 @@
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
+- [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6576](https://github.com/AliceO2Group/AliceO2/pull/6576) 2021-07-14: TRD: Remove TRDBase/Digit.h by [@jolopezl](https://github.com/jolopezl)
 - [\#6581](https://github.com/AliceO2Group/AliceO2/pull/6581) 2021-07-12: TRD move tracklethalfchamber header  by [@bazinski](https://github.com/bazinski)
@@ -44,7 +45,9 @@
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 - [\#6660](https://github.com/AliceO2Group/AliceO2/pull/6660) 2021-07-17: TPCReconstruction: Fix typo by [@anerokhi](https://github.com/anerokhi)
+- [\#6663](https://github.com/AliceO2Group/AliceO2/pull/6663) 2021-07-18: Remove leftover count increment by [@anerokhi](https://github.com/anerokhi)
 - [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
+- [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
