@@ -59,6 +59,7 @@
 - [\#6645](https://github.com/AliceO2Group/AliceO2/pull/6645) 2021-07-15: DPL Analysis: better tweaking of default aod-memory-rate-limit by [@ktf](https://github.com/ktf)
 - [\#6646](https://github.com/AliceO2Group/AliceO2/pull/6646) 2021-07-15: DPL GUI: fix switch-case fallthrough by [@anerokhi](https://github.com/anerokhi)
 - [\#6647](https://github.com/AliceO2Group/AliceO2/pull/6647) 2021-07-16: DPL: fix unassigned variable by [@anerokhi](https://github.com/anerokhi)
+- [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Steer
 - [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
