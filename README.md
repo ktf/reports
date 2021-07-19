@@ -7,6 +7,7 @@
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
+- [\#6683](https://github.com/AliceO2Group/AliceO2/pull/6683) 2021-07-19: Fix compilation issue on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
