@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-02T13:31:18Z",
-            "title": "Fix obsolete copyright headers",
-            "number": 6571,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/src/alice3-lutmaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/src/alice3-qa-singleparticle.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/switchToAliRootLicense.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-04T15:22:10Z",
             "title": "AOD conversion: Correct indexing of MCparticle to MCCollision",
             "number": 6572,
@@ -4501,6 +4471,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/tracks-file-dumper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not ignore O2_BUILTIN_(UN)LIKELY parameter",
+            "number": 6671,
+            "author": {
+              "login": "anerokhi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/CompilerBuiltins.h"
                   }
                 }
               ]
