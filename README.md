@@ -52,6 +52,7 @@
 - [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
+- [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
 - [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
