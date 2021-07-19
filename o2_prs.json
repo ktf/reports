@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implementation of the ITS Half Barrels",
-            "number": 6584,
-            "author": {
-              "login": "mario6829"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/GeometryTGeo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/base/src/GeometryTGeo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/ITSMisaligner.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/V3Layer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/V3Layer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-07-08T20:43:55Z",
             "title": "TRD tracking improvements",
@@ -4351,6 +4301,51 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGPP/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EPN GPU test: Improve benchmark",
+            "number": 6684,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/benchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/macro/showBenchmarks.C"
                   }
                 }
               ]
