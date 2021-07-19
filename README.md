@@ -51,7 +51,10 @@
 - [\#6663](https://github.com/AliceO2Group/AliceO2/pull/6663) 2021-07-18: Remove leftover count increment by [@anerokhi](https://github.com/anerokhi)
 - [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
+- [\#6668](https://github.com/AliceO2Group/AliceO2/pull/6668) 2021-07-19: Fix invalid iterator use UB by [@anerokhi](https://github.com/anerokhi)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
+- [\#6673](https://github.com/AliceO2Group/AliceO2/pull/6673) 2021-07-19: Remove obsolete functions form Geo.cxx by [@fapfap69](https://github.com/fapfap69)
+- [\#6674](https://github.com/AliceO2Group/AliceO2/pull/6674) 2021-07-19: Safer way to erase TimeSlots by [@shahor02](https://github.com/shahor02)
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
