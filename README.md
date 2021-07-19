@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
+- [\#6628](https://github.com/AliceO2Group/AliceO2/pull/6628) 2021-07-19: "Update femtodream: V0 selection class and Math class" by [@sartozza](https://github.com/sartozza)
 - [\#6634](https://github.com/AliceO2Group/AliceO2/pull/6634) 2021-07-17: Analysis/PWGDQ: merge v0selector in DQ by [@dsekihat](https://github.com/dsekihat)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
