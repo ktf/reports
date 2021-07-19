@@ -12,6 +12,7 @@
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6650](https://github.com/AliceO2Group/AliceO2/pull/6650) 2021-07-16: MathUtils: Fix a copy-paste bug by [@anerokhi](https://github.com/anerokhi)
 - [\#6659](https://github.com/AliceO2Group/AliceO2/pull/6659) 2021-07-17: thread-safe version of Gaussian fit with error extraction by [@shahor02](https://github.com/shahor02)
+- [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - DataFormats
 - [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -49,6 +50,7 @@
 - [\#6663](https://github.com/AliceO2Group/AliceO2/pull/6663) 2021-07-18: Remove leftover count increment by [@anerokhi](https://github.com/anerokhi)
 - [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
+- [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Framework
 - [\#6577](https://github.com/AliceO2Group/AliceO2/pull/6577) 2021-07-12: DPL Analysis: add unsigned int types to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
@@ -60,6 +62,7 @@
 - [\#6645](https://github.com/AliceO2Group/AliceO2/pull/6645) 2021-07-15: DPL Analysis: better tweaking of default aod-memory-rate-limit by [@ktf](https://github.com/ktf)
 - [\#6646](https://github.com/AliceO2Group/AliceO2/pull/6646) 2021-07-15: DPL GUI: fix switch-case fallthrough by [@anerokhi](https://github.com/anerokhi)
 - [\#6647](https://github.com/AliceO2Group/AliceO2/pull/6647) 2021-07-16: DPL: fix unassigned variable by [@anerokhi](https://github.com/anerokhi)
+- [\#6651](https://github.com/AliceO2Group/AliceO2/pull/6651) 2021-07-19: Silence the most annoying unused variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
