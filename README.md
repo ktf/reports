@@ -53,6 +53,7 @@
 - [\#6674](https://github.com/AliceO2Group/AliceO2/pull/6674) 2021-07-19: Safer way to erase TimeSlots by [@shahor02](https://github.com/shahor02)
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 - [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
+- [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#6633](https://github.com/AliceO2Group/AliceO2/pull/6633) 2021-07-13: Fix order to align with hyperloop by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
