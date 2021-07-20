@@ -8,6 +8,7 @@
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
+- [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
 - [\#6683](https://github.com/AliceO2Group/AliceO2/pull/6683) 2021-07-19: Fix compilation issue on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -62,6 +63,7 @@
 - [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
+- [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
 - [\#6682](https://github.com/AliceO2Group/AliceO2/pull/6682) 2021-07-20: DPL: misc cleanups by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
