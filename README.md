@@ -62,6 +62,7 @@
 - [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
+- [\#6682](https://github.com/AliceO2Group/AliceO2/pull/6682) 2021-07-20: DPL: misc cleanups by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
