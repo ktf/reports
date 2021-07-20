@@ -9,6 +9,7 @@
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
+- [\#6678](https://github.com/AliceO2Group/AliceO2/pull/6678) 2021-07-20: PID: Add description of PID tables by [@njacazio](https://github.com/njacazio)
 - [\#6683](https://github.com/AliceO2Group/AliceO2/pull/6683) 2021-07-19: Fix compilation issue on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
