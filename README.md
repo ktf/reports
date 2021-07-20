@@ -17,7 +17,6 @@
 - [\#6659](https://github.com/AliceO2Group/AliceO2/pull/6659) 2021-07-17: thread-safe version of Gaussian fit with error extraction by [@shahor02](https://github.com/shahor02)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - DataFormats
-- [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
@@ -27,14 +26,9 @@
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6596](https://github.com/AliceO2Group/AliceO2/pull/6596) 2021-07-12: Add more information to TrackExtra table by [@nburmaso](https://github.com/nburmaso)
 - [\#6603](https://github.com/AliceO2Group/AliceO2/pull/6603) 2021-07-14: Improvements to TRD digit converter macro by [@jbarrella](https://github.com/jbarrella)
-- [\#6605](https://github.com/AliceO2Group/AliceO2/pull/6605) 2021-07-12: MCH: Include CH6L in electronic mapping by [@aphecetche](https://github.com/aphecetche)
-- [\#6611](https://github.com/AliceO2Group/AliceO2/pull/6611) 2021-07-12:  [FV0] (1) Add separate waveforms for ring 1-4 and ring 5 and  (2) take care of adc overflow by [@arvindkhuntia](https://github.com/arvindkhuntia)
-- [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6624](https://github.com/AliceO2Group/AliceO2/pull/6624) 2021-07-13: trd fix sending whole messages by [@bazinski](https://github.com/bazinski)
 - [\#6625](https://github.com/AliceO2Group/AliceO2/pull/6625) 2021-07-13: add DistStf as mandatory input for TOF decoder by [@noferini](https://github.com/noferini)
-- [\#6627](https://github.com/AliceO2Group/AliceO2/pull/6627) 2021-07-12: Dont disable FillEmptyHBF for CRU det. in triggered mode by [@shahor02](https://github.com/shahor02)
 - [\#6631](https://github.com/AliceO2Group/AliceO2/pull/6631) 2021-07-13: [CTF] Bugfix swaped entries in literals metadata by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
@@ -57,8 +51,6 @@
 - [\#6674](https://github.com/AliceO2Group/AliceO2/pull/6674) 2021-07-19: Safer way to erase TimeSlots by [@shahor02](https://github.com/shahor02)
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
-- [\#6607](https://github.com/AliceO2Group/AliceO2/pull/6607) 2021-07-12: DPL Analysis: make all indices behave consistently with Filtered binding by [@aalkin](https://github.com/aalkin)
-- [\#6621](https://github.com/AliceO2Group/AliceO2/pull/6621) 2021-07-12: DPL: force processing of region callback without waiting for data by [@ktf](https://github.com/ktf)
 - [\#6633](https://github.com/AliceO2Group/AliceO2/pull/6633) 2021-07-13: Fix order to align with hyperloop by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 - [\#6643](https://github.com/AliceO2Group/AliceO2/pull/6643) 2021-07-15: DPL: fix idling readers by [@ktf](https://github.com/ktf)
@@ -71,6 +63,5 @@
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Steer
-- [\#6614](https://github.com/AliceO2Group/AliceO2/pull/6614) 2021-07-12: [EMCAL-694] Summing all digits within one tower using SDigitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#6632](https://github.com/AliceO2Group/AliceO2/pull/6632) 2021-07-13: Option to scale global material density for systematic studies by [@sawenzel](https://github.com/sawenzel)
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
