@@ -28,6 +28,7 @@
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
+- [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
 - [\#6603](https://github.com/AliceO2Group/AliceO2/pull/6603) 2021-07-14: Improvements to TRD digit converter macro by [@jbarrella](https://github.com/jbarrella)
 - [\#6624](https://github.com/AliceO2Group/AliceO2/pull/6624) 2021-07-13: trd fix sending whole messages by [@bazinski](https://github.com/bazinski)
@@ -50,6 +51,7 @@
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6668](https://github.com/AliceO2Group/AliceO2/pull/6668) 2021-07-19: Fix invalid iterator use UB by [@anerokhi](https://github.com/anerokhi)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
+- [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6673](https://github.com/AliceO2Group/AliceO2/pull/6673) 2021-07-19: Remove obsolete functions form Geo.cxx by [@fapfap69](https://github.com/fapfap69)
 - [\#6674](https://github.com/AliceO2Group/AliceO2/pull/6674) 2021-07-19: Safer way to erase TimeSlots by [@shahor02](https://github.com/shahor02)
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
