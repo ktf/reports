@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-56g-01: Done on 2021-07-21.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6623](https://github.com/AliceO2Group/AliceO2/pull/6623) 2021-07-15: Make json workflow description avalable for cefp by [@mpuccio](https://github.com/mpuccio)
