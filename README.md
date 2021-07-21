@@ -27,7 +27,6 @@
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
-- [\#6603](https://github.com/AliceO2Group/AliceO2/pull/6603) 2021-07-14: Improvements to TRD digit converter macro by [@jbarrella](https://github.com/jbarrella)
 - [\#6635](https://github.com/AliceO2Group/AliceO2/pull/6635) 2021-07-14: [CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly by [@sevdokim](https://github.com/sevdokim)
 - [\#6636](https://github.com/AliceO2Group/AliceO2/pull/6636) 2021-07-14: Missing CMake entry in #6305 by [@badarots](https://github.com/badarots)
 - [\#6638](https://github.com/AliceO2Group/AliceO2/pull/6638) 2021-07-14: [EMCAL-630] Move to gamma2 raw fitter by default by [@mfasDa](https://github.com/mfasDa)
