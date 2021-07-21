@@ -61,5 +61,6 @@
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
 - [\#6682](https://github.com/AliceO2Group/AliceO2/pull/6682) 2021-07-20: DPL: misc cleanups by [@ktf](https://github.com/ktf)
+- [\#6699](https://github.com/AliceO2Group/AliceO2/pull/6699) 2021-07-21: Make building without tests possible again by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Steer
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
