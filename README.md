@@ -28,6 +28,7 @@
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
+- [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
@@ -47,7 +48,11 @@
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 - [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
 - [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
+- [\#6694](https://github.com/AliceO2Group/AliceO2/pull/6694) 2021-07-22: MFT: add tracker option for clusters full scan by [@bovulpes](https://github.com/bovulpes)
+- [\#6703](https://github.com/AliceO2Group/AliceO2/pull/6703) 2021-07-22: Alice 3: embedding FT3 inner disks in BP vacuum by [@mconcas](https://github.com/mconcas)
 - [\#6707](https://github.com/AliceO2Group/AliceO2/pull/6707) 2021-07-21: Rework filling process for MC track labels by [@nburmaso](https://github.com/nburmaso)
+- [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
+- [\#6713](https://github.com/AliceO2Group/AliceO2/pull/6713) 2021-07-22: [EMCAL-701] Add protection for missing / empty timeframes by [@mfasDa](https://github.com/mfasDa)
 - [\#6717](https://github.com/AliceO2Group/AliceO2/pull/6717) 2021-07-22: CTFs written *.root.part file and renamed to *.root on file close by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
