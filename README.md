@@ -48,6 +48,7 @@
 - [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
 - [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
 - [\#6707](https://github.com/AliceO2Group/AliceO2/pull/6707) 2021-07-21: Rework filling process for MC track labels by [@nburmaso](https://github.com/nburmaso)
+- [\#6717](https://github.com/AliceO2Group/AliceO2/pull/6717) 2021-07-22: CTFs written *.root.part file and renamed to *.root on file close by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 - [\#6643](https://github.com/AliceO2Group/AliceO2/pull/6643) 2021-07-15: DPL: fix idling readers by [@ktf](https://github.com/ktf)
@@ -66,5 +67,7 @@
 - [\#6702](https://github.com/AliceO2Group/AliceO2/pull/6702) 2021-07-21: DPL: use old value for maxMemory by [@ktf](https://github.com/ktf)
 - [\#6705](https://github.com/AliceO2Group/AliceO2/pull/6705) 2021-07-22: Adding DPL parser tool for raw page sequences provided by DPL input. by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Steer
 - [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
