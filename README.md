@@ -31,6 +31,7 @@
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
+- [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6649](https://github.com/AliceO2Group/AliceO2/pull/6649) 2021-07-16: [MID] An obvious fix by [@anerokhi](https://github.com/anerokhi)
@@ -57,6 +58,7 @@
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6713](https://github.com/AliceO2Group/AliceO2/pull/6713) 2021-07-22: [EMCAL-701] Add protection for missing / empty timeframes by [@mfasDa](https://github.com/mfasDa)
 - [\#6717](https://github.com/AliceO2Group/AliceO2/pull/6717) 2021-07-22: CTFs written *.root.part file and renamed to *.root on file close by [@shahor02](https://github.com/shahor02)
+- [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
