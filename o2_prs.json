@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-14T14:05:11Z",
-            "title": "[CPV] Fix for CPV/RawReaderMemory to handle HBF orbits properly",
-            "number": 6635,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/RawFormats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/RawReaderMemory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/RawDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/RawReaderMemory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/cpv-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-14T08:41:54Z",
             "title": "Missing CMake entry in #6305",
             "number": 6636,
@@ -4506,6 +4461,76 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGCF/dptdptcorrelations-simchl.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Support for remote DebugGUI",
+            "number": 6735,
+            "author": {
+              "login": "luigifusco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DebugGUI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DriverServerContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/GuiCallbackContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HTTPParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Endian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/NoDebugGUI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/Plugin.cxx"
                   }
                 }
               ]
