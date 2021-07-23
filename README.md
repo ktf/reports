@@ -13,6 +13,8 @@
 - [\#6689](https://github.com/AliceO2Group/AliceO2/pull/6689) 2021-07-20: Use array delete by [@anerokhi](https://github.com/anerokhi)
 - [\#6698](https://github.com/AliceO2Group/AliceO2/pull/6698) 2021-07-22: Preparing nuclei-task for pilot testbeam and MC validation by [@akalweit](https://github.com/akalweit)
 - [\#6706](https://github.com/AliceO2Group/AliceO2/pull/6706) 2021-07-22: PWGPP: apply reco. ev. cut on tracks as well by [@njacazio](https://github.com/njacazio)
+- [\#6714](https://github.com/AliceO2Group/AliceO2/pull/6714) 2021-07-23: Less verbose output from analysis-validation task by [@sawenzel](https://github.com/sawenzel)
+- [\#6720](https://github.com/AliceO2Group/AliceO2/pull/6720) 2021-07-23: PWGHF: Fix pT tolerance application in preselection by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Common
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6650](https://github.com/AliceO2Group/AliceO2/pull/6650) 2021-07-16: MathUtils: Fix a copy-paste bug by [@anerokhi](https://github.com/anerokhi)
