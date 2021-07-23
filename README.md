@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Analysis
 - [\#6628](https://github.com/AliceO2Group/AliceO2/pull/6628) 2021-07-19: "Update femtodream: V0 selection class and Math class" by [@sartozza](https://github.com/sartozza)
 - [\#6634](https://github.com/AliceO2Group/AliceO2/pull/6634) 2021-07-17: Analysis/PWGDQ: merge v0selector in DQ by [@dsekihat](https://github.com/dsekihat)
-- [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
@@ -22,7 +21,6 @@
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
 - [\#6655](https://github.com/AliceO2Group/AliceO2/pull/6655) 2021-07-16: Fix typo in RecoContainer concerning V0s by [@sawenzel](https://github.com/sawenzel)
@@ -30,8 +28,6 @@
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6639](https://github.com/AliceO2Group/AliceO2/pull/6639) 2021-07-15: use Nchannels as FT0 constants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#6640](https://github.com/AliceO2Group/AliceO2/pull/6640) 2021-07-15: Add V0s table to the converter by [@nburmaso](https://github.com/nburmaso)
 - [\#6648](https://github.com/AliceO2Group/AliceO2/pull/6648) 2021-07-16: Extend detectors CTFHeader by format version and dict. timestamp by [@shahor02](https://github.com/shahor02)
 - [\#6649](https://github.com/AliceO2Group/AliceO2/pull/6649) 2021-07-16: [MID] An obvious fix by [@anerokhi](https://github.com/anerokhi)
 - [\#6653](https://github.com/AliceO2Group/AliceO2/pull/6653) 2021-07-16: ZDC Bug fix by [@cortesep](https://github.com/cortesep)
@@ -55,11 +51,7 @@
 - [\#6713](https://github.com/AliceO2Group/AliceO2/pull/6713) 2021-07-22: [EMCAL-701] Add protection for missing / empty timeframes by [@mfasDa](https://github.com/mfasDa)
 - [\#6717](https://github.com/AliceO2Group/AliceO2/pull/6717) 2021-07-22: CTFs written *.root.part file and renamed to *.root on file close by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6641](https://github.com/AliceO2Group/AliceO2/pull/6641) 2021-07-15: Export Framework headers required for O2Physics by [@TimoWilken](https://github.com/TimoWilken)
-- [\#6643](https://github.com/AliceO2Group/AliceO2/pull/6643) 2021-07-15: DPL: fix idling readers by [@ktf](https://github.com/ktf)
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
-- [\#6645](https://github.com/AliceO2Group/AliceO2/pull/6645) 2021-07-15: DPL Analysis: better tweaking of default aod-memory-rate-limit by [@ktf](https://github.com/ktf)
-- [\#6646](https://github.com/AliceO2Group/AliceO2/pull/6646) 2021-07-15: DPL GUI: fix switch-case fallthrough by [@anerokhi](https://github.com/anerokhi)
 - [\#6647](https://github.com/AliceO2Group/AliceO2/pull/6647) 2021-07-16: DPL: fix unassigned variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6651](https://github.com/AliceO2Group/AliceO2/pull/6651) 2021-07-19: Silence the most annoying unused variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
@@ -74,5 +66,3 @@
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
-## Recent developments in O2 - Steer
-- [\#6642](https://github.com/AliceO2Group/AliceO2/pull/6642) 2021-07-15: A utility to engineer collision structures in a timeframe by [@sawenzel](https://github.com/sawenzel)
