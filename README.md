@@ -46,6 +46,7 @@
 - [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 - [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
 - [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
+- [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
 - [\#6691](https://github.com/AliceO2Group/AliceO2/pull/6691) 2021-07-23: AO2D: extend writing of tracks and particles by [@njacazio](https://github.com/njacazio)
 - [\#6694](https://github.com/AliceO2Group/AliceO2/pull/6694) 2021-07-22: MFT: add tracker option for clusters full scan by [@bovulpes](https://github.com/bovulpes)
 - [\#6703](https://github.com/AliceO2Group/AliceO2/pull/6703) 2021-07-22: Alice 3: embedding FT3 inner disks in BP vacuum by [@mconcas](https://github.com/mconcas)
