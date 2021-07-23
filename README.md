@@ -2,7 +2,6 @@
 - v5-09-56g-01: Done on 2021-07-21.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6634](https://github.com/AliceO2Group/AliceO2/pull/6634) 2021-07-17: Analysis/PWGDQ: merge v0selector in DQ by [@dsekihat](https://github.com/dsekihat)
 - [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
