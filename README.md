@@ -2,7 +2,6 @@
 - v5-09-56g-01: Done on 2021-07-21.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
 - [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
@@ -17,7 +16,6 @@
 - [\#6714](https://github.com/AliceO2Group/AliceO2/pull/6714) 2021-07-23: Less verbose output from analysis-validation task by [@sawenzel](https://github.com/sawenzel)
 - [\#6720](https://github.com/AliceO2Group/AliceO2/pull/6720) 2021-07-23: PWGHF: Fix pT tolerance application in preselection by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Common
-- [\#6659](https://github.com/AliceO2Group/AliceO2/pull/6659) 2021-07-17: thread-safe version of Gaussian fit with error extraction by [@shahor02](https://github.com/shahor02)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
@@ -28,7 +26,6 @@
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6660](https://github.com/AliceO2Group/AliceO2/pull/6660) 2021-07-17: TPCReconstruction: Fix typo by [@anerokhi](https://github.com/anerokhi)
 - [\#6663](https://github.com/AliceO2Group/AliceO2/pull/6663) 2021-07-18: Remove leftover count increment by [@anerokhi](https://github.com/anerokhi)
 - [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
@@ -53,7 +50,6 @@
 - [\#6725](https://github.com/AliceO2Group/AliceO2/pull/6725) 2021-07-24: [EMCAL-703] Add optional settable subspecification for raw to digits output by [@mfasDa](https://github.com/mfasDa)
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [\#6644](https://github.com/AliceO2Group/AliceO2/pull/6644) 2021-07-17: DPL Analysis: add an exception on incorrect join by [@aalkin](https://github.com/aalkin)
 - [\#6651](https://github.com/AliceO2Group/AliceO2/pull/6651) 2021-07-19: Silence the most annoying unused variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
