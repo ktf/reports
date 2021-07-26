@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-16T11:55:30Z",
-            "title": "[MID] An obvious fix",
-            "number": 6649,
-            "author": {
-              "login": "anerokhi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/exe/raw-ul-checker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-07-16T08:30:12Z",
-            "title": "MathUtils: Fix a copy-paste bug",
-            "number": 6650,
-            "author": {
-              "login": "anerokhi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/MathUtils/include/MathUtils/detail/IntervalXY.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-19T07:55:00Z",
             "title": "Silence the most annoying unused variable",
             "number": 6651,
@@ -4429,7 +4389,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Use refernce to const",
             "number": 6745,
@@ -4556,6 +4516,106 @@
                 {
                   "node": {
                     "path": "Analysis/Tasks/PWGLF/NucleiSpectraTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Shorthand isPrimaryParticle",
+            "number": 6749,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-lutmaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/alice3-qa-singleparticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/pidFTOFqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/ALICE3/src/pidRICHqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Core/include/AnalysisCore/MC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PID/qaTOFMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/NucleiSpectraEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/raacharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGLF/trackchecks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGPP/qaEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tasks/PWGPP/qaEventTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/mcHistograms.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: sanitize writing of tables",
+            "number": 6750,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableTreeHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
                   }
                 }
               ]
