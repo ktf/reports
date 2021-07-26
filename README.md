@@ -49,6 +49,7 @@
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6725](https://github.com/AliceO2Group/AliceO2/pull/6725) 2021-07-24: [EMCAL-703] Add optional settable subspecification for raw to digits output by [@mfasDa](https://github.com/mfasDa)
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
+- [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Framework
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
