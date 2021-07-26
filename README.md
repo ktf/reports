@@ -21,14 +21,10 @@
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6663](https://github.com/AliceO2Group/AliceO2/pull/6663) 2021-07-18: Remove leftover count increment by [@anerokhi](https://github.com/anerokhi)
-- [\#6664](https://github.com/AliceO2Group/AliceO2/pull/6664) 2021-07-18: MatchTPCITS: fix leftover declaration of variable by [@anerokhi](https://github.com/anerokhi)
-- [\#6666](https://github.com/AliceO2Group/AliceO2/pull/6666) 2021-07-18: Misc unrelated fixes  by [@shahor02](https://github.com/shahor02)
 - [\#6668](https://github.com/AliceO2Group/AliceO2/pull/6668) 2021-07-19: Fix invalid iterator use UB by [@anerokhi](https://github.com/anerokhi)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
@@ -51,7 +47,6 @@
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
 - [\#6651](https://github.com/AliceO2Group/AliceO2/pull/6651) 2021-07-19: Silence the most annoying unused variable by [@anerokhi](https://github.com/anerokhi)
-- [\#6662](https://github.com/AliceO2Group/AliceO2/pull/6662) 2021-07-18: DPL GUI: Fix format specifiers for (u)int64_t by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
