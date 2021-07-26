@@ -19,6 +19,7 @@
 ## Recent developments in O2 - Common
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
+- [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -59,6 +60,7 @@
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6702](https://github.com/AliceO2Group/AliceO2/pull/6702) 2021-07-21: DPL: use old value for maxMemory by [@ktf](https://github.com/ktf)
 - [\#6705](https://github.com/AliceO2Group/AliceO2/pull/6705) 2021-07-22: Adding DPL parser tool for raw page sequences provided by DPL input. by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
