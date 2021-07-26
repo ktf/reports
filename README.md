@@ -15,6 +15,7 @@
 - [\#6706](https://github.com/AliceO2Group/AliceO2/pull/6706) 2021-07-22: PWGPP: apply reco. ev. cut on tracks as well by [@njacazio](https://github.com/njacazio)
 - [\#6714](https://github.com/AliceO2Group/AliceO2/pull/6714) 2021-07-23: Less verbose output from analysis-validation task by [@sawenzel](https://github.com/sawenzel)
 - [\#6720](https://github.com/AliceO2Group/AliceO2/pull/6720) 2021-07-23: PWGHF: Fix pT tolerance application in preselection by [@fgrosa](https://github.com/fgrosa)
+- [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Common
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
