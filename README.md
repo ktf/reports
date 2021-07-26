@@ -50,7 +50,6 @@
 - [\#6725](https://github.com/AliceO2Group/AliceO2/pull/6725) 2021-07-24: [EMCAL-703] Add optional settable subspecification for raw to digits output by [@mfasDa](https://github.com/mfasDa)
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Framework
-- [\#6651](https://github.com/AliceO2Group/AliceO2/pull/6651) 2021-07-19: Silence the most annoying unused variable by [@anerokhi](https://github.com/anerokhi)
 - [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
 - [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
