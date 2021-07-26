@@ -22,10 +22,12 @@
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+- [\#6654](https://github.com/AliceO2Group/AliceO2/pull/6654) 2021-07-26: TRD fix endpoint/side confusion, sort tracklets by [@bazinski](https://github.com/bazinski)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [\#6654](https://github.com/AliceO2Group/AliceO2/pull/6654) 2021-07-26: TRD fix endpoint/side confusion, sort tracklets by [@bazinski](https://github.com/bazinski)
 - [\#6668](https://github.com/AliceO2Group/AliceO2/pull/6668) 2021-07-19: Fix invalid iterator use UB by [@anerokhi](https://github.com/anerokhi)
 - [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
