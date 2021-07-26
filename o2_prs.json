@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-16T12:53:21Z",
-            "title": "ZDC Bug fix",
-            "number": 6653,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RecEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/src/ZDCEnergyParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/src/ZDCTowerParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-26T08:59:01Z",
             "title": "TRD fix endpoint/side confusion, sort tracklets",
             "number": 6654,
@@ -4171,6 +4141,56 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Introducing conditional expressions",
+            "number": 6753,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/Tutorials/src/conditionalExpressions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/BasicOps.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ExpressionHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Expressions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Expressions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Expressions.cxx"
                   }
                 }
               ]
