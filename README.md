@@ -62,7 +62,10 @@
 - [\#6705](https://github.com/AliceO2Group/AliceO2/pull/6705) 2021-07-22: Adding DPL parser tool for raw page sequences provided by DPL input. by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
+- [\#6726](https://github.com/AliceO2Group/AliceO2/pull/6726) 2021-07-26: DPL RootTreeWriter: always amend branch name(s) if the callback is configured by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 - [\#6750](https://github.com/AliceO2Group/AliceO2/pull/6750) 2021-07-26: DPL Analysis: sanitize writing of tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
+## Recent developments in O2 - Utilities
+- [\#6743](https://github.com/AliceO2Group/AliceO2/pull/6743) 2021-07-26: [QC-626] Data Sampling: Support again varying subspecs in different parts by [@knopers8](https://github.com/knopers8)
