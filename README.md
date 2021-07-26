@@ -40,6 +40,7 @@
 - [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6691](https://github.com/AliceO2Group/AliceO2/pull/6691) 2021-07-23: AO2D: extend writing of tracks and particles by [@njacazio](https://github.com/njacazio)
+- [\#6693](https://github.com/AliceO2Group/AliceO2/pull/6693) 2021-07-26: TPC: Update laser track drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#6694](https://github.com/AliceO2Group/AliceO2/pull/6694) 2021-07-22: MFT: add tracker option for clusters full scan by [@bovulpes](https://github.com/bovulpes)
 - [\#6703](https://github.com/AliceO2Group/AliceO2/pull/6703) 2021-07-22: Alice 3: embedding FT3 inner disks in BP vacuum by [@mconcas](https://github.com/mconcas)
 - [\#6707](https://github.com/AliceO2Group/AliceO2/pull/6707) 2021-07-21: Rework filling process for MC track labels by [@nburmaso](https://github.com/nburmaso)
