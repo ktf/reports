@@ -19,6 +19,7 @@
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
+- [\#6744](https://github.com/AliceO2Group/AliceO2/pull/6744) 2021-07-27: A couple of unrelated fixes / improvements for the full system test by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
@@ -53,6 +54,7 @@
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
 - [\#6726](https://github.com/AliceO2Group/AliceO2/pull/6726) 2021-07-26: DPL RootTreeWriter: always amend branch name(s) if the callback is configured by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
+- [\#6744](https://github.com/AliceO2Group/AliceO2/pull/6744) 2021-07-27: A couple of unrelated fixes / improvements for the full system test by [@davidrohr](https://github.com/davidrohr)
 - [\#6750](https://github.com/AliceO2Group/AliceO2/pull/6750) 2021-07-26: DPL Analysis: sanitize writing of tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
