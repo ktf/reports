@@ -38,6 +38,7 @@
 - [\#6703](https://github.com/AliceO2Group/AliceO2/pull/6703) 2021-07-22: Alice 3: embedding FT3 inner disks in BP vacuum by [@mconcas](https://github.com/mconcas)
 - [\#6707](https://github.com/AliceO2Group/AliceO2/pull/6707) 2021-07-21: Rework filling process for MC track labels by [@nburmaso](https://github.com/nburmaso)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
+- [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#6713](https://github.com/AliceO2Group/AliceO2/pull/6713) 2021-07-22: [EMCAL-701] Add protection for missing / empty timeframes by [@mfasDa](https://github.com/mfasDa)
 - [\#6717](https://github.com/AliceO2Group/AliceO2/pull/6717) 2021-07-22: CTFs written *.root.part file and renamed to *.root on file close by [@shahor02](https://github.com/shahor02)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
