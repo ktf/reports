@@ -14,6 +14,7 @@
 - [\#6720](https://github.com/AliceO2Group/AliceO2/pull/6720) 2021-07-23: PWGHF: Fix pT tolerance application in preselection by [@fgrosa](https://github.com/fgrosa)
 - [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6742](https://github.com/AliceO2Group/AliceO2/pull/6742) 2021-07-26: PWGPP/qaEfficiency: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
+- [\#6748](https://github.com/AliceO2Group/AliceO2/pull/6748) 2021-07-27: Several small bugfixes (mostly histogram binning and filling) by [@akalweit](https://github.com/akalweit)
 - [\#6749](https://github.com/AliceO2Group/AliceO2/pull/6749) 2021-07-27: Shorthand isPrimaryParticle by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
