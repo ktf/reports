@@ -14,6 +14,7 @@
 - [\#6720](https://github.com/AliceO2Group/AliceO2/pull/6720) 2021-07-23: PWGHF: Fix pT tolerance application in preselection by [@fgrosa](https://github.com/fgrosa)
 - [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6742](https://github.com/AliceO2Group/AliceO2/pull/6742) 2021-07-26: PWGPP/qaEfficiency: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
+- [\#6749](https://github.com/AliceO2Group/AliceO2/pull/6749) 2021-07-27: Shorthand isPrimaryParticle by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
