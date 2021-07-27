@@ -2,11 +2,8 @@
 - v5-09-56g-01: Done on 2021-07-21.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6656](https://github.com/AliceO2Group/AliceO2/pull/6656) 2021-07-19: PWGPP: Update efficiency task by [@njacazio](https://github.com/njacazio)
-- [\#6665](https://github.com/AliceO2Group/AliceO2/pull/6665) 2021-07-19: Jet code: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
 - [\#6678](https://github.com/AliceO2Group/AliceO2/pull/6678) 2021-07-20: PID: Add description of PID tables by [@njacazio](https://github.com/njacazio)
-- [\#6683](https://github.com/AliceO2Group/AliceO2/pull/6683) 2021-07-19: Fix compilation issue on macOS by [@ktf](https://github.com/ktf)
 - [\#6686](https://github.com/AliceO2Group/AliceO2/pull/6686) 2021-07-23: [o2femtodream] First prototype analysis task for track-track femto by [@a-mathis](https://github.com/a-mathis)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6689](https://github.com/AliceO2Group/AliceO2/pull/6689) 2021-07-20: Use array delete by [@anerokhi](https://github.com/anerokhi)
@@ -18,7 +15,6 @@
 - [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6742](https://github.com/AliceO2Group/AliceO2/pull/6742) 2021-07-26: PWGPP/qaEfficiency: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
 ## Recent developments in O2 - Common
-- [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
@@ -28,12 +24,7 @@
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6668](https://github.com/AliceO2Group/AliceO2/pull/6668) 2021-07-19: Fix invalid iterator use UB by [@anerokhi](https://github.com/anerokhi)
-- [\#6669](https://github.com/AliceO2Group/AliceO2/pull/6669) 2021-07-19: Remove dangling throw by [@anerokhi](https://github.com/anerokhi)
 - [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
-- [\#6673](https://github.com/AliceO2Group/AliceO2/pull/6673) 2021-07-19: Remove obsolete functions form Geo.cxx by [@fapfap69](https://github.com/fapfap69)
-- [\#6674](https://github.com/AliceO2Group/AliceO2/pull/6674) 2021-07-19: Safer way to erase TimeSlots by [@shahor02](https://github.com/shahor02)
-- [\#6675](https://github.com/AliceO2Group/AliceO2/pull/6675) 2021-07-19: TPC: make canvas own histograms by [@wiechula](https://github.com/wiechula)
 - [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
 - [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
 - [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
@@ -51,8 +42,6 @@
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
 - [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Framework
-- [\#6667](https://github.com/AliceO2Group/AliceO2/pull/6667) 2021-07-19: Add va_end by [@anerokhi](https://github.com/anerokhi)
-- [\#6671](https://github.com/AliceO2Group/AliceO2/pull/6671) 2021-07-19: Do not ignore O2_BUILTIN_(UN)LIKELY parameter by [@anerokhi](https://github.com/anerokhi)
 - [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
 - [\#6682](https://github.com/AliceO2Group/AliceO2/pull/6682) 2021-07-20: DPL: misc cleanups by [@ktf](https://github.com/ktf)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
