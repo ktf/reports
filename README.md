@@ -14,6 +14,7 @@
 - [\#6748](https://github.com/AliceO2Group/AliceO2/pull/6748) 2021-07-27: Several small bugfixes (mostly histogram binning and filling) by [@akalweit](https://github.com/akalweit)
 - [\#6749](https://github.com/AliceO2Group/AliceO2/pull/6749) 2021-07-27: Shorthand isPrimaryParticle by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
+- [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
@@ -25,6 +26,7 @@
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
+- [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
@@ -56,6 +58,7 @@
 - [\#6750](https://github.com/AliceO2Group/AliceO2/pull/6750) 2021-07-26: DPL Analysis: sanitize writing of tables by [@ktf](https://github.com/ktf)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
+- [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Utilities
