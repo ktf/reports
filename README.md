@@ -1,5 +1,9 @@
 ## Recent AliPhysics releases
 - v5-09-56g-01: Done on 2021-07-21.
+- v5-09-02n-01: Done on 2021-07-28.
+- v5-09-38k-01: Done on 2021-07-28.
+- v5-09-20t-01: Done on 2021-07-28.
+- v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6686](https://github.com/AliceO2Group/AliceO2/pull/6686) 2021-07-23: [o2femtodream] First prototype analysis task for track-track femto by [@a-mathis](https://github.com/a-mathis)
@@ -28,6 +32,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
+- [\#6732](https://github.com/AliceO2Group/AliceO2/pull/6732) 2021-07-28: TRD Make TrackletHCHeader optional by [@bazinski](https://github.com/bazinski)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
@@ -47,6 +52,7 @@
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6725](https://github.com/AliceO2Group/AliceO2/pull/6725) 2021-07-24: [EMCAL-703] Add optional settable subspecification for raw to digits output by [@mfasDa](https://github.com/mfasDa)
 - [\#6728](https://github.com/AliceO2Group/AliceO2/pull/6728) 2021-07-23: Fix fatal bit in detector field by [@preghenella](https://github.com/preghenella)
+- [\#6732](https://github.com/AliceO2Group/AliceO2/pull/6732) 2021-07-28: TRD Make TrackletHCHeader optional by [@bazinski](https://github.com/bazinski)
 - [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
