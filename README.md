@@ -57,6 +57,7 @@
 - [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
+- [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Framework
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6699](https://github.com/AliceO2Group/AliceO2/pull/6699) 2021-07-21: Make building without tests possible again by [@anerokhi](https://github.com/anerokhi)
