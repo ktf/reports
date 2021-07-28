@@ -14,6 +14,7 @@
 - [\#6748](https://github.com/AliceO2Group/AliceO2/pull/6748) 2021-07-27: Several small bugfixes (mostly histogram binning and filling) by [@akalweit](https://github.com/akalweit)
 - [\#6749](https://github.com/AliceO2Group/AliceO2/pull/6749) 2021-07-27: Shorthand isPrimaryParticle by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
+- [\#6758](https://github.com/AliceO2Group/AliceO2/pull/6758) 2021-07-28: Task based central trigger processor by [@mpuccio](https://github.com/mpuccio)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
