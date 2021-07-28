@@ -76,4 +76,5 @@
 ## Recent developments in O2 - Generators
 - [\#6719](https://github.com/AliceO2Group/AliceO2/pull/6719) 2021-07-22: Allow to set continueMode for GeneratorFromO2Kine by [@preghenella](https://github.com/preghenella)
 ## Recent developments in O2 - Utilities
+- [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6743](https://github.com/AliceO2Group/AliceO2/pull/6743) 2021-07-26: [QC-626] Data Sampling: Support again varying subspecs in different parts by [@knopers8](https://github.com/knopers8)
