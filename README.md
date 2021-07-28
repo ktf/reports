@@ -2,11 +2,8 @@
 - v5-09-56g-01: Done on 2021-07-21.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
-- [\#6678](https://github.com/AliceO2Group/AliceO2/pull/6678) 2021-07-20: PID: Add description of PID tables by [@njacazio](https://github.com/njacazio)
 - [\#6686](https://github.com/AliceO2Group/AliceO2/pull/6686) 2021-07-23: [o2femtodream] First prototype analysis task for track-track femto by [@a-mathis](https://github.com/a-mathis)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
-- [\#6689](https://github.com/AliceO2Group/AliceO2/pull/6689) 2021-07-20: Use array delete by [@anerokhi](https://github.com/anerokhi)
 - [\#6691](https://github.com/AliceO2Group/AliceO2/pull/6691) 2021-07-23: AO2D: extend writing of tracks and particles by [@njacazio](https://github.com/njacazio)
 - [\#6698](https://github.com/AliceO2Group/AliceO2/pull/6698) 2021-07-22: Preparing nuclei-task for pilot testbeam and MC validation by [@akalweit](https://github.com/akalweit)
 - [\#6706](https://github.com/AliceO2Group/AliceO2/pull/6706) 2021-07-22: PWGPP: apply reco. ev. cut on tracks as well by [@njacazio](https://github.com/njacazio)
@@ -24,15 +21,11 @@
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
 - [\#6744](https://github.com/AliceO2Group/AliceO2/pull/6744) 2021-07-27: A couple of unrelated fixes / improvements for the full system test by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6724](https://github.com/AliceO2Group/AliceO2/pull/6724) 2021-07-23: Refurbished TPC-ITS afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#6672](https://github.com/AliceO2Group/AliceO2/pull/6672) 2021-07-20: Fix fp conversion and bc addressing by [@cortesep](https://github.com/cortesep)
-- [\#6677](https://github.com/AliceO2Group/AliceO2/pull/6677) 2021-07-20: TRD raw reader can dump to file by [@martenole](https://github.com/martenole)
-- [\#6680](https://github.com/AliceO2Group/AliceO2/pull/6680) 2021-07-20: Add README for TRD reco workflow by [@martenole](https://github.com/martenole)
 - [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6691](https://github.com/AliceO2Group/AliceO2/pull/6691) 2021-07-23: AO2D: extend writing of tracks and particles by [@njacazio](https://github.com/njacazio)
@@ -50,8 +43,6 @@
 - [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6676](https://github.com/AliceO2Group/AliceO2/pull/6676) 2021-07-20: DPL Analysis: fix and update table builder by [@aalkin](https://github.com/aalkin)
-- [\#6682](https://github.com/AliceO2Group/AliceO2/pull/6682) 2021-07-20: DPL: misc cleanups by [@ktf](https://github.com/ktf)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6699](https://github.com/AliceO2Group/AliceO2/pull/6699) 2021-07-21: Make building without tests possible again by [@anerokhi](https://github.com/anerokhi)
 - [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
