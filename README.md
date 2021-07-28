@@ -8,6 +8,7 @@
 ## Recent developments in O2 - Analysis
 - [\#6686](https://github.com/AliceO2Group/AliceO2/pull/6686) 2021-07-23: [o2femtodream] First prototype analysis task for track-track femto by [@a-mathis](https://github.com/a-mathis)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6690](https://github.com/AliceO2Group/AliceO2/pull/6690) 2021-07-28: Add dynamic columns for daughter prongs by [@ddobrigk](https://github.com/ddobrigk)
 - [\#6691](https://github.com/AliceO2Group/AliceO2/pull/6691) 2021-07-23: AO2D: extend writing of tracks and particles by [@njacazio](https://github.com/njacazio)
 - [\#6698](https://github.com/AliceO2Group/AliceO2/pull/6698) 2021-07-22: Preparing nuclei-task for pilot testbeam and MC validation by [@akalweit](https://github.com/akalweit)
 - [\#6706](https://github.com/AliceO2Group/AliceO2/pull/6706) 2021-07-22: PWGPP: apply reco. ev. cut on tracks as well by [@njacazio](https://github.com/njacazio)
