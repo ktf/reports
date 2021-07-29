@@ -60,6 +60,7 @@
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
+- [\#6766](https://github.com/AliceO2Group/AliceO2/pull/6766) 2021-07-29: Add multithreading to ITS-TPC afterburner by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6705](https://github.com/AliceO2Group/AliceO2/pull/6705) 2021-07-22: Adding DPL parser tool for raw page sequences provided by DPL input. by [@matthiasrichter](https://github.com/matthiasrichter)
