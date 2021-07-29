@@ -22,6 +22,7 @@
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
 - [\#6758](https://github.com/AliceO2Group/AliceO2/pull/6758) 2021-07-28: Task based central trigger processor by [@mpuccio](https://github.com/mpuccio)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
+- [\#6760](https://github.com/AliceO2Group/AliceO2/pull/6760) 2021-07-29: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Common
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
