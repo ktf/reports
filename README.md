@@ -23,7 +23,6 @@
 - [\#6758](https://github.com/AliceO2Group/AliceO2/pull/6758) 2021-07-28: Task based central trigger processor by [@mpuccio](https://github.com/mpuccio)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6723](https://github.com/AliceO2Group/AliceO2/pull/6723) 2021-07-22: ignore values <=1 in log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6731](https://github.com/AliceO2Group/AliceO2/pull/6731) 2021-07-23: DPL: populate DataTakingContext from data by [@ktf](https://github.com/ktf)
@@ -46,7 +45,6 @@
 - [\#6693](https://github.com/AliceO2Group/AliceO2/pull/6693) 2021-07-26: TPC: Update laser track drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#6694](https://github.com/AliceO2Group/AliceO2/pull/6694) 2021-07-22: MFT: add tracker option for clusters full scan by [@bovulpes](https://github.com/bovulpes)
 - [\#6703](https://github.com/AliceO2Group/AliceO2/pull/6703) 2021-07-22: Alice 3: embedding FT3 inner disks in BP vacuum by [@mconcas](https://github.com/mconcas)
-- [\#6707](https://github.com/AliceO2Group/AliceO2/pull/6707) 2021-07-21: Rework filling process for MC track labels by [@nburmaso](https://github.com/nburmaso)
 - [\#6708](https://github.com/AliceO2Group/AliceO2/pull/6708) 2021-07-22: FIT: update from FEE, new field in raw data by [@afurs](https://github.com/afurs)
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#6713](https://github.com/AliceO2Group/AliceO2/pull/6713) 2021-07-22: [EMCAL-701] Add protection for missing / empty timeframes by [@mfasDa](https://github.com/mfasDa)
@@ -62,9 +60,6 @@
 - [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Framework
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
-- [\#6699](https://github.com/AliceO2Group/AliceO2/pull/6699) 2021-07-21: Make building without tests possible again by [@anerokhi](https://github.com/anerokhi)
-- [\#6701](https://github.com/AliceO2Group/AliceO2/pull/6701) 2021-07-21: DPL: use C++20 aggregate initialisers for services by [@ktf](https://github.com/ktf)
-- [\#6702](https://github.com/AliceO2Group/AliceO2/pull/6702) 2021-07-21: DPL: use old value for maxMemory by [@ktf](https://github.com/ktf)
 - [\#6705](https://github.com/AliceO2Group/AliceO2/pull/6705) 2021-07-22: Adding DPL parser tool for raw page sequences provided by DPL input. by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6710](https://github.com/AliceO2Group/AliceO2/pull/6710) 2021-07-22: DPL: websocket RFC requires encoding using network byte order by [@ktf](https://github.com/ktf)
