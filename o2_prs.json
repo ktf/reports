@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-19T19:22:42Z",
-            "title": "Remove obsolete functions form Geo.cxx",
-            "number": 6673,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/base/include/HMPIDBase/Geo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/base/src/Geo.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-19T19:26:10Z",
             "title": "Safer way to erase TimeSlots",
             "number": 6674,
@@ -4286,6 +4261,46 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/emc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP: Improve GPU benchmark",
+            "number": 6773,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/benchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/macro/showBenchmarks.C"
                   }
                 }
               ]
