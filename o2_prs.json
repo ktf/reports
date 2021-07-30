@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-19T15:01:30Z",
-            "title": "Fix compilation issue on macOS",
-            "number": 6683,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGPP/qaEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-20T06:56:19Z",
             "title": "EPN GPU test: Improve benchmark",
             "number": 6684,
@@ -4431,6 +4411,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Return ptr when adding histogram to registry",
+            "number": 6783,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/cefpTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Analysis/EventFiltering/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HistogramRegistry.cxx"
                   }
                 }
               ]
