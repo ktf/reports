@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add table for ALICE3 Outer Barrel TOF",
-            "number": 6681,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/include/ALICE3Analysis/OuterTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/ALICE3/src/alice3-pidTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-07-20T07:01:16Z",
             "title": "DPL: misc cleanups",
@@ -4401,6 +4376,31 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Reader of TOF matched tracks, ITSTPC/TPC tracks for TOF QC",
+            "number": 6781,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/recoTracks-reader.cxx"
                   }
                 }
               ]
