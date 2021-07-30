@@ -57,6 +57,8 @@
 - [\#6766](https://github.com/AliceO2Group/AliceO2/pull/6766) 2021-07-29: Add multithreading to ITS-TPC afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
+## Recent developments in O2 - EventVisualisation
+- [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
