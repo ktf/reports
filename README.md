@@ -35,6 +35,7 @@
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
+- [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6685](https://github.com/AliceO2Group/AliceO2/pull/6685) 2021-07-23: New Beam Pipe Support on the C side by [@frmanso](https://github.com/frmanso)
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
@@ -52,6 +53,7 @@
 - [\#6752](https://github.com/AliceO2Group/AliceO2/pull/6752) 2021-07-29: add one parameter to the o2-hmpid-raw-to-digits-stream-workflow in order by [@fapfap69](https://github.com/fapfap69)
 - [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
 - [\#6766](https://github.com/AliceO2Group/AliceO2/pull/6766) 2021-07-29: Add multithreading to ITS-TPC afterburner by [@shahor02](https://github.com/shahor02)
+- [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6688](https://github.com/AliceO2Group/AliceO2/pull/6688) 2021-07-23: Self index columns by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
@@ -63,6 +65,7 @@
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
+- [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6743](https://github.com/AliceO2Group/AliceO2/pull/6743) 2021-07-26: [QC-626] Data Sampling: Support again varying subspecs in different parts by [@knopers8](https://github.com/knopers8)
