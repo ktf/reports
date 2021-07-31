@@ -44,6 +44,7 @@
 - [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
 - [\#6766](https://github.com/AliceO2Group/AliceO2/pull/6766) 2021-07-29: Add multithreading to ITS-TPC afterburner by [@shahor02](https://github.com/shahor02)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
+- [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6784](https://github.com/AliceO2Group/AliceO2/pull/6784) 2021-07-30: set global reader default tracks/clusters request to none by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
