@@ -34,7 +34,6 @@
 ## Recent developments in O2 - Detectors
 - [\#6693](https://github.com/AliceO2Group/AliceO2/pull/6693) 2021-07-26: TPC: Update laser track drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
-- [\#6725](https://github.com/AliceO2Group/AliceO2/pull/6725) 2021-07-24: [EMCAL-703] Add optional settable subspecification for raw to digits output by [@mfasDa](https://github.com/mfasDa)
 - [\#6732](https://github.com/AliceO2Group/AliceO2/pull/6732) 2021-07-28: TRD Make TrackletHCHeader optional by [@bazinski](https://github.com/bazinski)
 - [\#6733](https://github.com/AliceO2Group/AliceO2/pull/6733) 2021-07-28: [FV0] Reconstruction skeleton by [@mslupeck](https://github.com/mslupeck)
 - [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
