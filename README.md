@@ -31,6 +31,7 @@
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
+- [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
@@ -44,6 +45,7 @@
 - [\#6752](https://github.com/AliceO2Group/AliceO2/pull/6752) 2021-07-29: add one parameter to the o2-hmpid-raw-to-digits-stream-workflow in order by [@fapfap69](https://github.com/fapfap69)
 - [\#6761](https://github.com/AliceO2Group/AliceO2/pull/6761) 2021-07-28: [MFT] Standalone tracks with ambiguous vertices marked as orphans by [@rpezzi](https://github.com/rpezzi)
 - [\#6766](https://github.com/AliceO2Group/AliceO2/pull/6766) 2021-07-29: Add multithreading to ITS-TPC afterburner by [@shahor02](https://github.com/shahor02)
+- [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
