@@ -17,6 +17,7 @@
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 - [\#6760](https://github.com/AliceO2Group/AliceO2/pull/6760) 2021-07-29: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6765](https://github.com/AliceO2Group/AliceO2/pull/6765) 2021-07-29: Track extension runs over all tracks by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
@@ -46,6 +47,7 @@
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
+- [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
 - [\#6784](https://github.com/AliceO2Group/AliceO2/pull/6784) 2021-07-30: set global reader default tracks/clusters request to none by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
@@ -60,6 +62,7 @@
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
+- [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
