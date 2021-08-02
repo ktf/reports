@@ -19,6 +19,7 @@
 - [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 - [\#6789](https://github.com/AliceO2Group/AliceO2/pull/6789) 2021-08-02: Next step in the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
+- [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
@@ -34,6 +35,7 @@
 - [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
+- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6693](https://github.com/AliceO2Group/AliceO2/pull/6693) 2021-07-26: TPC: Update laser track drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
@@ -51,8 +53,10 @@
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
 - [\#6784](https://github.com/AliceO2Group/AliceO2/pull/6784) 2021-07-30: set global reader default tracks/clusters request to none by [@shahor02](https://github.com/shahor02)
+- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
+- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6726](https://github.com/AliceO2Group/AliceO2/pull/6726) 2021-07-26: DPL RootTreeWriter: always amend branch name(s) if the callback is configured by [@matthiasrichter](https://github.com/matthiasrichter)
@@ -66,6 +70,7 @@
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
+- [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#6743](https://github.com/AliceO2Group/AliceO2/pull/6743) 2021-07-26: [QC-626] Data Sampling: Support again varying subspecs in different parts by [@knopers8](https://github.com/knopers8)
