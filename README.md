@@ -35,6 +35,7 @@
 - [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
+- [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
@@ -52,6 +53,7 @@
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
 - [\#6784](https://github.com/AliceO2Group/AliceO2/pull/6784) 2021-07-30: set global reader default tracks/clusters request to none by [@shahor02](https://github.com/shahor02)
+- [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
