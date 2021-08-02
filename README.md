@@ -5,7 +5,6 @@
 - v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6690](https://github.com/AliceO2Group/AliceO2/pull/6690) 2021-07-28: Add dynamic columns for daughter prongs by [@ddobrigk](https://github.com/ddobrigk)
 - [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6738](https://github.com/AliceO2Group/AliceO2/pull/6738) 2021-07-30: DPL Analysis: Configurable process switches by [@aalkin](https://github.com/aalkin)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
