@@ -37,7 +37,6 @@
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6693](https://github.com/AliceO2Group/AliceO2/pull/6693) 2021-07-26: TPC: Update laser track drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#6732](https://github.com/AliceO2Group/AliceO2/pull/6732) 2021-07-28: TRD Make TrackletHCHeader optional by [@bazinski](https://github.com/bazinski)
 - [\#6733](https://github.com/AliceO2Group/AliceO2/pull/6733) 2021-07-28: [FV0] Reconstruction skeleton by [@mslupeck](https://github.com/mslupeck)
