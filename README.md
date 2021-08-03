@@ -65,5 +65,6 @@
 - [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 - [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
+- [\#6793](https://github.com/AliceO2Group/AliceO2/pull/6793) 2021-08-03: DPL Analysis: adjust spawner/builder/reader if the workflow has been altered via configuration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
