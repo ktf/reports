@@ -5,10 +5,8 @@
 - v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6734](https://github.com/AliceO2Group/AliceO2/pull/6734) 2021-07-26: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6738](https://github.com/AliceO2Group/AliceO2/pull/6738) 2021-07-30: DPL Analysis: Configurable process switches by [@aalkin](https://github.com/aalkin)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
-- [\#6742](https://github.com/AliceO2Group/AliceO2/pull/6742) 2021-07-26: PWGPP/qaEfficiency: Prevent expensive copying by [@anerokhi](https://github.com/anerokhi)
 - [\#6748](https://github.com/AliceO2Group/AliceO2/pull/6748) 2021-07-27: Several small bugfixes (mostly histogram binning and filling) by [@akalweit](https://github.com/akalweit)
 - [\#6749](https://github.com/AliceO2Group/AliceO2/pull/6749) 2021-07-27: Shorthand isPrimaryParticle by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
@@ -21,7 +19,6 @@
 - [\#6789](https://github.com/AliceO2Group/AliceO2/pull/6789) 2021-08-02: Next step in the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6744](https://github.com/AliceO2Group/AliceO2/pull/6744) 2021-07-27: A couple of unrelated fixes / improvements for the full system test by [@davidrohr](https://github.com/davidrohr)
 - [\#6764](https://github.com/AliceO2Group/AliceO2/pull/6764) 2021-07-28: median/MAD estimator + more robust log-normal fit by [@shahor02](https://github.com/shahor02)
@@ -41,7 +38,6 @@
 - [\#6711](https://github.com/AliceO2Group/AliceO2/pull/6711) 2021-07-27: [CPV] Fix RawWriter & proper CCDB handling in Digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#6732](https://github.com/AliceO2Group/AliceO2/pull/6732) 2021-07-28: TRD Make TrackletHCHeader optional by [@bazinski](https://github.com/bazinski)
 - [\#6733](https://github.com/AliceO2Group/AliceO2/pull/6733) 2021-07-28: [FV0] Reconstruction skeleton by [@mslupeck](https://github.com/mslupeck)
-- [\#6737](https://github.com/AliceO2Group/AliceO2/pull/6737) 2021-07-26: [PHS] Corrupted raw data handling improved; Alignment from surway2019 updated;  by [@peressounko](https://github.com/peressounko)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6751](https://github.com/AliceO2Group/AliceO2/pull/6751) 2021-07-27: Account ITS-TPC AfterBurner tracks in AOD producer by [@shahor02](https://github.com/shahor02)
 - [\#6752](https://github.com/AliceO2Group/AliceO2/pull/6752) 2021-07-29: add one parameter to the o2-hmpid-raw-to-digits-stream-workflow in order by [@fapfap69](https://github.com/fapfap69)
@@ -59,12 +55,9 @@
 - [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6709](https://github.com/AliceO2Group/AliceO2/pull/6709) 2021-07-26: DPL: introduce driverStart callback for services by [@ktf](https://github.com/ktf)
-- [\#6726](https://github.com/AliceO2Group/AliceO2/pull/6726) 2021-07-26: DPL RootTreeWriter: always amend branch name(s) if the callback is configured by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#6738](https://github.com/AliceO2Group/AliceO2/pull/6738) 2021-07-30: DPL Analysis: Configurable process switches by [@aalkin](https://github.com/aalkin)
 - [\#6744](https://github.com/AliceO2Group/AliceO2/pull/6744) 2021-07-27: A couple of unrelated fixes / improvements for the full system test by [@davidrohr](https://github.com/davidrohr)
 - [\#6747](https://github.com/AliceO2Group/AliceO2/pull/6747) 2021-07-28: DPL: avoid warning about uninitialised usage by [@ktf](https://github.com/ktf)
-- [\#6750](https://github.com/AliceO2Group/AliceO2/pull/6750) 2021-07-26: DPL Analysis: sanitize writing of tables by [@ktf](https://github.com/ktf)
 - [\#6753](https://github.com/AliceO2Group/AliceO2/pull/6753) 2021-07-27: DPL Analysis: Introducing conditional expressions by [@aalkin](https://github.com/aalkin)
 - [\#6755](https://github.com/AliceO2Group/AliceO2/pull/6755) 2021-07-27: DPL: automatically load objecs from CCDB by [@ktf](https://github.com/ktf)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
@@ -74,4 +67,3 @@
 - [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#6730](https://github.com/AliceO2Group/AliceO2/pull/6730) 2021-07-28: [rANS] Fix missing Encoder normalization initialization in Constructor by [@MichaelLettrich](https://github.com/MichaelLettrich)
-- [\#6743](https://github.com/AliceO2Group/AliceO2/pull/6743) 2021-07-26: [QC-626] Data Sampling: Support again varying subspecs in different parts by [@knopers8](https://github.com/knopers8)
