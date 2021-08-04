@@ -5,7 +5,6 @@
 - v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6704](https://github.com/AliceO2Group/AliceO2/pull/6704) 2021-08-03: PWGLF: Add task for ID RAA by [@lewis206](https://github.com/lewis206)
 - [\#6738](https://github.com/AliceO2Group/AliceO2/pull/6738) 2021-07-30: DPL Analysis: Configurable process switches by [@aalkin](https://github.com/aalkin)
 - [\#6739](https://github.com/AliceO2Group/AliceO2/pull/6739) 2021-07-28: Use ClassDefNV when there are no virtual functions by [@anerokhi](https://github.com/anerokhi)
 - [\#6758](https://github.com/AliceO2Group/AliceO2/pull/6758) 2021-07-28: Task based central trigger processor by [@mpuccio](https://github.com/mpuccio)
