@@ -3886,7 +3886,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: generalize cluster QC",
+            "title": "TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup",
             "number": 6798,
             "author": {
               "login": "wiechula"
@@ -3915,6 +3915,21 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.sh"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TPC/qc/include/TPCQC/Clusters.h"
                   }
                 },
@@ -3936,6 +3951,11 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/macro/findKrBoxCluster.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
                   }
                 },
                 {
