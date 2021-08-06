@@ -3744,8 +3744,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-08-06T12:27:49Z",
             "title": "TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup",
             "number": 6798,
             "author": {
@@ -4066,7 +4066,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD: Introduce strict matching mode",
+            "title": "TRD: Introduce strict matching mode + MC labels for tracks",
             "number": 6805,
             "author": {
               "login": "martenole"
@@ -4075,7 +4075,62 @@
               "edges": [
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDTrackReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/src/TRDTrackReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/src/TRDTrackWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/src/TRDTrackletReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
                   }
                 },
                 {
