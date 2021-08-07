@@ -16,6 +16,7 @@
 ## Recent developments in O2 - Detectors
 - [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
+- [\#6777](https://github.com/AliceO2Group/AliceO2/pull/6777) 2021-08-07: [ALICE3 - FT3] Enable beampipe fix for custom layout file by [@rpezzi](https://github.com/rpezzi)
 - [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
 - [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
@@ -23,6 +24,7 @@
 - [\#6795](https://github.com/AliceO2Group/AliceO2/pull/6795) 2021-08-03: ITS digi2raw mapping updated + options of per-flp output by [@shahor02](https://github.com/shahor02)
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6802](https://github.com/AliceO2Group/AliceO2/pull/6802) 2021-08-04: Write CTFs to <partion_id>-<run_id> dir if partition is available by [@shahor02](https://github.com/shahor02)
+- [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
