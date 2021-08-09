@@ -29,6 +29,7 @@
 - [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
+- [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
