@@ -15,6 +15,7 @@
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
+- [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6777](https://github.com/AliceO2Group/AliceO2/pull/6777) 2021-08-07: [ALICE3 - FT3] Enable beampipe fix for custom layout file by [@rpezzi](https://github.com/rpezzi)
@@ -30,6 +31,7 @@
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
+- [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
