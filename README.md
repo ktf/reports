@@ -39,3 +39,4 @@
 - [\#6793](https://github.com/AliceO2Group/AliceO2/pull/6793) 2021-08-03: DPL Analysis: adjust spawner/builder/reader if the workflow has been altered via configuration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
+- [\#6813](https://github.com/AliceO2Group/AliceO2/pull/6813) 2021-08-09: [QC-443] Data Sampling: ptree interfaces for everything by [@knopers8](https://github.com/knopers8)
