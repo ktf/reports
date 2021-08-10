@@ -21,6 +21,7 @@
 - [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
+- [\#6816](https://github.com/AliceO2Group/AliceO2/pull/6816) 2021-08-10: Part of modifications for the barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
