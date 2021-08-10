@@ -4,6 +4,7 @@
 - [\#6754](https://github.com/AliceO2Group/AliceO2/pull/6754) 2021-08-07: Adding MC functionality in the PWGDQ framework by [@iarsene](https://github.com/iarsene)
 ## Recent developments in O2 - Common
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
+- [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
@@ -26,6 +27,7 @@
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6793](https://github.com/AliceO2Group/AliceO2/pull/6793) 2021-08-03: DPL Analysis: adjust spawner/builder/reader if the workflow has been altered via configuration by [@aalkin](https://github.com/aalkin)
+- [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6813](https://github.com/AliceO2Group/AliceO2/pull/6813) 2021-08-09: [QC-443] Data Sampling: ptree interfaces for everything by [@knopers8](https://github.com/knopers8)
