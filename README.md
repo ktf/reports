@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6754](https://github.com/AliceO2Group/AliceO2/pull/6754) 2021-08-07: Adding MC functionality in the PWGDQ framework by [@iarsene](https://github.com/iarsene)
+- [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
@@ -23,6 +24,7 @@
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6816](https://github.com/AliceO2Group/AliceO2/pull/6816) 2021-08-10: Part of modifications for the barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
+- [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
