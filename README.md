@@ -18,6 +18,7 @@
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
+- [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6777](https://github.com/AliceO2Group/AliceO2/pull/6777) 2021-08-07: [ALICE3 - FT3] Enable beampipe fix for custom layout file by [@rpezzi](https://github.com/rpezzi)
 - [\#6794](https://github.com/AliceO2Group/AliceO2/pull/6794) 2021-08-04: [EMCAL-630] Skip TRU and LEDMON cells in raw->cell conversion by [@mfasDa](https://github.com/mfasDa)
@@ -35,6 +36,7 @@
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6828](https://github.com/AliceO2Group/AliceO2/pull/6828) 2021-08-11: [MCH] add track MC label finder workflow and update track I/O by [@pillot](https://github.com/pillot)
+- [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
