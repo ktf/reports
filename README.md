@@ -4,6 +4,7 @@
 - [\#6754](https://github.com/AliceO2Group/AliceO2/pull/6754) 2021-08-07: Adding MC functionality in the PWGDQ framework by [@iarsene](https://github.com/iarsene)
 - [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
+- [\#6797](https://github.com/AliceO2Group/AliceO2/pull/6797) 2021-08-11: [EMCAL-565]: Added conversion tools to convert ROOTTH1 and TH2 histog… by [@hjbossi](https://github.com/hjbossi)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
