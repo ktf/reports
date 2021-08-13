@@ -41,8 +41,6 @@
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6835](https://github.com/AliceO2Group/AliceO2/pull/6835) 2021-08-12: Refer ITS track cluster indices to TF start rather than ROF by [@shahor02](https://github.com/shahor02)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - EventVisualisation
-- [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
