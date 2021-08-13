@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-07-26T20:29:42Z",
-            "title": "DPL Analysis: sanitize writing of tables",
-            "number": 6750,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableTreeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-07-27T07:50:06Z",
             "title": "Account ITS-TPC AfterBurner tracks in AOD producer",
             "number": 6751,
@@ -4821,6 +4796,56 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/src/Painter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add DCS DP simulation + unrelated updates",
+            "number": 6850,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/Utils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/testWorkflow/tpc-dcs-sim-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrBoxClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrBoxClusterFinderParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
                   }
                 }
               ]
