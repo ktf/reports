@@ -46,6 +46,7 @@
 - [\#6840](https://github.com/AliceO2Group/AliceO2/pull/6840) 2021-08-13: Documentation for the o2-mid-raw-checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6844](https://github.com/AliceO2Group/AliceO2/pull/6844) 2021-08-13: Add halfBarrels to ITS misaligner, use local CCDB as default by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
+- [\#6769](https://github.com/AliceO2Group/AliceO2/pull/6769) 2021-08-13: DPL Analysis: simplify code in spawner / indexer by [@ktf](https://github.com/ktf)
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
