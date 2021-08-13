@@ -42,6 +42,7 @@
 - [\#6835](https://github.com/AliceO2Group/AliceO2/pull/6835) 2021-08-12: Refer ITS track cluster indices to TF start rather than ROF by [@shahor02](https://github.com/shahor02)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6838](https://github.com/AliceO2Group/AliceO2/pull/6838) 2021-08-13: [O2-2500] revert bug in TRD digitwriter by [@bazinski](https://github.com/bazinski)
+- [\#6844](https://github.com/AliceO2Group/AliceO2/pull/6844) 2021-08-13: Add halfBarrels to ITS misaligner, use local CCDB as default by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
