@@ -30,11 +30,13 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6828](https://github.com/AliceO2Group/AliceO2/pull/6828) 2021-08-11: [MCH] add track MC label finder workflow and update track I/O by [@pillot](https://github.com/pillot)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
+- [\#6833](https://github.com/AliceO2Group/AliceO2/pull/6833) 2021-08-15: [FV0] Time offsets calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#6835](https://github.com/AliceO2Group/AliceO2/pull/6835) 2021-08-12: Refer ITS track cluster indices to TF start rather than ROF by [@shahor02](https://github.com/shahor02)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6838](https://github.com/AliceO2Group/AliceO2/pull/6838) 2021-08-13: [O2-2500] revert bug in TRD digitwriter by [@bazinski](https://github.com/bazinski)
 - [\#6840](https://github.com/AliceO2Group/AliceO2/pull/6840) 2021-08-13: Documentation for the o2-mid-raw-checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6844](https://github.com/AliceO2Group/AliceO2/pull/6844) 2021-08-13: Add halfBarrels to ITS misaligner, use local CCDB as default by [@shahor02](https://github.com/shahor02)
+- [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#6769](https://github.com/AliceO2Group/AliceO2/pull/6769) 2021-08-13: DPL Analysis: simplify code in spawner / indexer by [@ktf](https://github.com/ktf)
