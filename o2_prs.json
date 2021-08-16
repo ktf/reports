@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-07-27T07:27:17Z",
-            "title": "DPL: automatically load objecs from CCDB",
-            "number": 6755,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/SerializationMethods.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRefUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/test_CCDBFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL Analysis: avoid producing the same DYN table twice",
@@ -4751,6 +4691,71 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MFT DCS Processor",
+            "number": 6855,
+            "author": {
+              "login": "syano0822"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/include/MFTCondition/MFTDCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/src/MFTConditionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/src/MFTDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/src/dcs-check-ccdb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/mft-dcs-data-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/mft-dcs-sim-workflow.cxx"
                   }
                 }
               ]
