@@ -5,7 +5,6 @@
 - v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6758](https://github.com/AliceO2Group/AliceO2/pull/6758) 2021-07-28: Task based central trigger processor by [@mpuccio](https://github.com/mpuccio)
 - [\#6759](https://github.com/AliceO2Group/AliceO2/pull/6759) 2021-07-28: DPL: fix handling of timepipelining in reader by [@ktf](https://github.com/ktf)
 - [\#6760](https://github.com/AliceO2Group/AliceO2/pull/6760) 2021-07-29: Next step towards the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6765](https://github.com/AliceO2Group/AliceO2/pull/6765) 2021-07-29: Track extension runs over all tracks by [@jgrosseo](https://github.com/jgrosseo)
