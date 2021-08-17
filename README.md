@@ -27,6 +27,7 @@
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6841](https://github.com/AliceO2Group/AliceO2/pull/6841) 2021-08-13: [O2-2495] Rewrite TreeMerger tool to not use RDataFrame.snapshot by [@sawenzel](https://github.com/sawenzel)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
+- [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
@@ -103,6 +104,7 @@
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6853](https://github.com/AliceO2Group/AliceO2/pull/6853) 2021-08-16: DPL Analysis: Combinations buffer overflow by [@saganatt](https://github.com/saganatt)
+- [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6812](https://github.com/AliceO2Group/AliceO2/pull/6812) 2021-08-10: [QC-630] Data Sampling: Match the host name to the machine list by [@knopers8](https://github.com/knopers8)
