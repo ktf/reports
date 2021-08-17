@@ -18,7 +18,6 @@
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6847](https://github.com/AliceO2Group/AliceO2/pull/6847) 2021-08-17: PWGHF: Modification of D0 task for step-by-step efficiency by [@strogolo](https://github.com/strogolo)
 ## Recent developments in O2 - Common
-- [\#6764](https://github.com/AliceO2Group/AliceO2/pull/6764) 2021-07-28: median/MAD estimator + more robust log-normal fit by [@shahor02](https://github.com/shahor02)
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6797](https://github.com/AliceO2Group/AliceO2/pull/6797) 2021-08-11: [EMCAL-565]: Added conversion tools to convert ROOTTH1 and TH2 histog… by [@hjbossi](https://github.com/hjbossi)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
