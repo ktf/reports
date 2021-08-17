@@ -86,6 +86,7 @@
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#6852](https://github.com/AliceO2Group/AliceO2/pull/6852) 2021-08-16: Compute end value only once in the for loop by [@dstocco](https://github.com/dstocco)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
+- [\#6858](https://github.com/AliceO2Group/AliceO2/pull/6858) 2021-08-17: remove unneeded include and library by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - EventVisualisation
 - [\#6767](https://github.com/AliceO2Group/AliceO2/pull/6767) 2021-07-30: add parameters to eve workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
