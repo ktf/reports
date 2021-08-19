@@ -82,7 +82,6 @@
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6769](https://github.com/AliceO2Group/AliceO2/pull/6769) 2021-08-13: DPL Analysis: simplify code in spawner / indexer by [@ktf](https://github.com/ktf)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
