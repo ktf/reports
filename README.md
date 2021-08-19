@@ -1,8 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-02n-01: Done on 2021-07-28.
-- v5-09-38k-01: Done on 2021-07-28.
-- v5-09-20t-01: Done on 2021-07-28.
-- v5-09-24k-01: Done on 2021-07-28.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
