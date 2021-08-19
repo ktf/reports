@@ -24,7 +24,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -39,7 +38,6 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6768](https://github.com/AliceO2Group/AliceO2/pull/6768) 2021-08-02: [CPV] Fix CPV calibration objects by [@sevdokim](https://github.com/sevdokim)
 - [\#6770](https://github.com/AliceO2Group/AliceO2/pull/6770) 2021-07-30: Add InputRecord::getFirstValid() and use it instead of getByPos(0) by [@shahor02](https://github.com/shahor02)
 - [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6777](https://github.com/AliceO2Group/AliceO2/pull/6777) 2021-08-07: [ALICE3 - FT3] Enable beampipe fix for custom layout file by [@rpezzi](https://github.com/rpezzi)
