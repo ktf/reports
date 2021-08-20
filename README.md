@@ -24,7 +24,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
@@ -39,9 +38,7 @@
 ## Recent developments in O2 - Detectors
 - [\#6775](https://github.com/AliceO2Group/AliceO2/pull/6775) 2021-07-31: TPC: Update Kr cluster finder workflow + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#6777](https://github.com/AliceO2Group/AliceO2/pull/6777) 2021-08-07: [ALICE3 - FT3] Enable beampipe fix for custom layout file by [@rpezzi](https://github.com/rpezzi)
-- [\#6779](https://github.com/AliceO2Group/AliceO2/pull/6779) 2021-07-30: make Cell HG/LG consistent with Mapping by [@peressounko](https://github.com/peressounko)
 - [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
-- [\#6784](https://github.com/AliceO2Group/AliceO2/pull/6784) 2021-07-30: set global reader default tracks/clusters request to none by [@shahor02](https://github.com/shahor02)
 - [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6794](https://github.com/AliceO2Group/AliceO2/pull/6794) 2021-08-04: [EMCAL-630] Skip TRU and LEDMON cells in raw->cell conversion by [@mfasDa](https://github.com/mfasDa)
