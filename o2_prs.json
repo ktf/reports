@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "WIP: Improve GPU benchmark",
-            "number": 6773,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/Shared/Kernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/Shared/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/benchmark.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUbenchmark/macro/showBenchmarks.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-07-29T14:22:30Z",
             "title": "Script to update data model files",
@@ -5649,8 +5609,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-08-20T14:17:14Z",
             "title": "Adapt datamodel-doc to cope with O2 and O2Physics",
             "number": 6872,
             "author": {
@@ -5666,6 +5626,26 @@
                 {
                   "node": {
                     "path": "scripts/datamodel-doc/inputCard.xml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-08-20T14:24:21Z",
+            "title": "Checkout O2Physics for data model documentation",
+            "number": 6873,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
                   }
                 }
               ]
