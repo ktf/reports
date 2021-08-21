@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
@@ -76,7 +75,6 @@
 - [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6778](https://github.com/AliceO2Group/AliceO2/pull/6778) 2021-08-02: DPL Analysis: Iterator binding fix by [@aalkin](https://github.com/aalkin)
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
 - [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
