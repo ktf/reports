@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
-- [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 - [\#6789](https://github.com/AliceO2Group/AliceO2/pull/6789) 2021-08-02: Next step in the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 - [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
@@ -77,7 +76,6 @@
 ## Recent developments in O2 - Framework
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
-- [\#6787](https://github.com/AliceO2Group/AliceO2/pull/6787) 2021-08-01: DPL Analysis: fix amending copy instead of an actual entry by [@aalkin](https://github.com/aalkin)
 - [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 - [\#6791](https://github.com/AliceO2Group/AliceO2/pull/6791) 2021-08-16: DPL: Return the result code if noCatch is enabled by [@knopers8](https://github.com/knopers8)
 - [\#6793](https://github.com/AliceO2Group/AliceO2/pull/6793) 2021-08-03: DPL Analysis: adjust spawner/builder/reader if the workflow has been altered via configuration by [@aalkin](https://github.com/aalkin)
