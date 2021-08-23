@@ -77,6 +77,7 @@
 - [\#6878](https://github.com/AliceO2Group/AliceO2/pull/6878) 2021-08-23: DPL: handle region notifications as required by GPU processing by [@ktf](https://github.com/ktf)
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
 - [\#6886](https://github.com/AliceO2Group/AliceO2/pull/6886) 2021-08-23: Preparation for Arrow 5.0.0 by [@pzhristov](https://github.com/pzhristov)
+- [\#6889](https://github.com/AliceO2Group/AliceO2/pull/6889) 2021-08-23: DPL: correctly report consumed shared memory by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6812](https://github.com/AliceO2Group/AliceO2/pull/6812) 2021-08-10: [QC-630] Data Sampling: Match the host name to the machine list by [@knopers8](https://github.com/knopers8)
