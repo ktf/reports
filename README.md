@@ -77,6 +77,7 @@
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6860](https://github.com/AliceO2Group/AliceO2/pull/6860) 2021-08-18: DPL: reduce iterations in the slow consumer test by [@ktf](https://github.com/ktf)
 - [\#6862](https://github.com/AliceO2Group/AliceO2/pull/6862) 2021-08-18: DPL: avoid one more race condition by [@ktf](https://github.com/ktf)
+- [\#6878](https://github.com/AliceO2Group/AliceO2/pull/6878) 2021-08-23: DPL: handle region notifications as required by GPU processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6812](https://github.com/AliceO2Group/AliceO2/pull/6812) 2021-08-10: [QC-630] Data Sampling: Match the host name to the machine list by [@knopers8](https://github.com/knopers8)
