@@ -3,8 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
-- [\#6789](https://github.com/AliceO2Group/AliceO2/pull/6789) 2021-08-02: Next step in the simulation challenge by [@victor-gonzalez](https://github.com/victor-gonzalez)
-- [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 - [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
 - [\#6825](https://github.com/AliceO2Group/AliceO2/pull/6825) 2021-08-11: Adding new task for Run-3 by [@akalweit](https://github.com/akalweit)
@@ -22,8 +20,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
@@ -34,9 +30,6 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6780](https://github.com/AliceO2Group/AliceO2/pull/6780) 2021-08-02: Clean FPE hack in AO2D writing by [@njacazio](https://github.com/njacazio)
-- [\#6785](https://github.com/AliceO2Group/AliceO2/pull/6785) 2021-08-02: few minor fixes by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6794](https://github.com/AliceO2Group/AliceO2/pull/6794) 2021-08-04: [EMCAL-630] Skip TRU and LEDMON cells in raw->cell conversion by [@mfasDa](https://github.com/mfasDa)
 - [\#6795](https://github.com/AliceO2Group/AliceO2/pull/6795) 2021-08-03: ITS digi2raw mapping updated + options of per-flp output by [@shahor02](https://github.com/shahor02)
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
@@ -71,12 +64,10 @@
 - [\#6858](https://github.com/AliceO2Group/AliceO2/pull/6858) 2021-08-17: remove unneeded include and library by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6868](https://github.com/AliceO2Group/AliceO2/pull/6868) 2021-08-19: Some minor fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
-- [\#6788](https://github.com/AliceO2Group/AliceO2/pull/6788) 2021-08-02: Modifications for extendend async workflow  by [@shahor02](https://github.com/shahor02)
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6782](https://github.com/AliceO2Group/AliceO2/pull/6782) 2021-08-11: DPL Analysis: Add TDatabasePDG as an O2 service using ServiceSpec by [@aalkin](https://github.com/aalkin)
 - [\#6783](https://github.com/AliceO2Group/AliceO2/pull/6783) 2021-08-11: Return ptr when adding histogram to registry by [@mpuccio](https://github.com/mpuccio)
-- [\#6790](https://github.com/AliceO2Group/AliceO2/pull/6790) 2021-08-02: DPL Analysis: fix to always process default/spawn/build inputs by [@aalkin](https://github.com/aalkin)
 - [\#6791](https://github.com/AliceO2Group/AliceO2/pull/6791) 2021-08-16: DPL: Return the result code if noCatch is enabled by [@knopers8](https://github.com/knopers8)
 - [\#6793](https://github.com/AliceO2Group/AliceO2/pull/6793) 2021-08-03: DPL Analysis: adjust spawner/builder/reader if the workflow has been altered via configuration by [@aalkin](https://github.com/aalkin)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
