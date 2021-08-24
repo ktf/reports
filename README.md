@@ -9,7 +9,6 @@
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6797](https://github.com/AliceO2Group/AliceO2/pull/6797) 2021-08-11: [EMCAL-565]: Added conversion tools to convert ROOTTH1 and TH2 histog… by [@hjbossi](https://github.com/hjbossi)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
