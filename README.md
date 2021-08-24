@@ -27,7 +27,6 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6794](https://github.com/AliceO2Group/AliceO2/pull/6794) 2021-08-04: [EMCAL-630] Skip TRU and LEDMON cells in raw->cell conversion by [@mfasDa](https://github.com/mfasDa)
 - [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
@@ -58,6 +57,7 @@
 - [\#6852](https://github.com/AliceO2Group/AliceO2/pull/6852) 2021-08-16: Compute end value only once in the for loop by [@dstocco](https://github.com/dstocco)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6858](https://github.com/AliceO2Group/AliceO2/pull/6858) 2021-08-17: remove unneeded include and library by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6865](https://github.com/AliceO2Group/AliceO2/pull/6865) 2021-08-24: TRD event display feed workflow by [@jbarrella](https://github.com/jbarrella)
 - [\#6868](https://github.com/AliceO2Group/AliceO2/pull/6868) 2021-08-19: Some minor fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6871](https://github.com/AliceO2Group/AliceO2/pull/6871) 2021-08-23: MCH: Workaround as protection from negative firstOrbit by [@davidrohr](https://github.com/davidrohr)
 - [\#6877](https://github.com/AliceO2Group/AliceO2/pull/6877) 2021-08-24: TPC QC: Update PID task, add histograms by [@stheckel](https://github.com/stheckel)
