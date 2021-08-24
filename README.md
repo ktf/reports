@@ -17,7 +17,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
 - [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
@@ -27,7 +26,6 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6798](https://github.com/AliceO2Group/AliceO2/pull/6798) 2021-08-06: TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup by [@wiechula](https://github.com/wiechula)
 - [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
 - [\#6802](https://github.com/AliceO2Group/AliceO2/pull/6802) 2021-08-04: Write CTFs to <partion_id>-<run_id> dir if partition is available by [@shahor02](https://github.com/shahor02)

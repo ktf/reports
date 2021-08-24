@@ -5,106 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-06T12:27:49Z",
-            "title": "TPC: generalize cluster QC, speed up Kr cluster finder, unrelated fixes and cleanup",
-            "number": 6798,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/KrCluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/src/DataFormatsTPCLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/Clusters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/Clusters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/KrBoxClusterFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/macro/findKrBoxCluster.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/KrBoxClusterFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCReconstructionLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/KryptonClustererSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-krypton-clusterer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-11T13:29:06Z",
             "title": "speed up and fix up trd raw data reading.",
             "number": 6799,
@@ -5496,6 +5396,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow",
+            "number": 6898,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
                   }
                 }
               ]
