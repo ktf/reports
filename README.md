@@ -62,6 +62,7 @@
 - [\#6871](https://github.com/AliceO2Group/AliceO2/pull/6871) 2021-08-23: MCH: Workaround as protection from negative firstOrbit by [@davidrohr](https://github.com/davidrohr)
 - [\#6877](https://github.com/AliceO2Group/AliceO2/pull/6877) 2021-08-24: TPC QC: Update PID task, add histograms by [@stheckel](https://github.com/stheckel)
 - [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
+- [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
