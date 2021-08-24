@@ -64,7 +64,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6791](https://github.com/AliceO2Group/AliceO2/pull/6791) 2021-08-16: DPL: Return the result code if noCatch is enabled by [@knopers8](https://github.com/knopers8)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)

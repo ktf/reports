@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-16T06:05:13Z",
-            "title": "DPL: Return the result code if noCatch is enabled",
-            "number": 6791,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/runDataProcessing.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-02T13:41:34Z",
             "title": "Change datamodel-doc script shebangs",
             "number": 6792,
@@ -5451,6 +5431,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DevicesManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded",
+            "number": 6891,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/convertDigitsToRawZS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.h"
                   }
                 }
               ]
