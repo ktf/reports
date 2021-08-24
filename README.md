@@ -7,6 +7,7 @@
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6847](https://github.com/AliceO2Group/AliceO2/pull/6847) 2021-08-17: PWGHF: Modification of D0 task for step-by-step efficiency by [@strogolo](https://github.com/strogolo)
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#6797](https://github.com/AliceO2Group/AliceO2/pull/6797) 2021-08-11: [EMCAL-565]: Added conversion tools to convert ROOTTH1 and TH2 histog… by [@hjbossi](https://github.com/hjbossi)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
@@ -76,6 +77,7 @@
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
 - [\#6886](https://github.com/AliceO2Group/AliceO2/pull/6886) 2021-08-23: Preparation for Arrow 5.0.0 by [@pzhristov](https://github.com/pzhristov)
 - [\#6889](https://github.com/AliceO2Group/AliceO2/pull/6889) 2021-08-23: DPL: correctly report consumed shared memory by [@ktf](https://github.com/ktf)
+- [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6894](https://github.com/AliceO2Group/AliceO2/pull/6894) 2021-08-24: DPL: use id rather than name to printout by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
