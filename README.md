@@ -74,8 +74,10 @@
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
 - [\#6886](https://github.com/AliceO2Group/AliceO2/pull/6886) 2021-08-23: Preparation for Arrow 5.0.0 by [@pzhristov](https://github.com/pzhristov)
 - [\#6889](https://github.com/AliceO2Group/AliceO2/pull/6889) 2021-08-23: DPL: correctly report consumed shared memory by [@ktf](https://github.com/ktf)
+- [\#6890](https://github.com/AliceO2Group/AliceO2/pull/6890) 2021-08-25: DPL: reduce verbosity when controller is not available by [@ktf](https://github.com/ktf)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6894](https://github.com/AliceO2Group/AliceO2/pull/6894) 2021-08-24: DPL: use id rather than name to printout by [@ktf](https://github.com/ktf)
+- [\#6897](https://github.com/AliceO2Group/AliceO2/pull/6897) 2021-08-25: DPL: do not use ConditionalRun anymore by [@ktf](https://github.com/ktf)
 - [\#6898](https://github.com/AliceO2Group/AliceO2/pull/6898) 2021-08-25: Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
