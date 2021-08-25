@@ -17,7 +17,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
 - [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
@@ -26,7 +25,6 @@
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
 - [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
 - [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
