@@ -76,6 +76,7 @@
 - [\#6889](https://github.com/AliceO2Group/AliceO2/pull/6889) 2021-08-23: DPL: correctly report consumed shared memory by [@ktf](https://github.com/ktf)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6894](https://github.com/AliceO2Group/AliceO2/pull/6894) 2021-08-24: DPL: use id rather than name to printout by [@ktf](https://github.com/ktf)
+- [\#6898](https://github.com/AliceO2Group/AliceO2/pull/6898) 2021-08-25: Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6812](https://github.com/AliceO2Group/AliceO2/pull/6812) 2021-08-10: [QC-630] Data Sampling: Match the host name to the machine list by [@knopers8](https://github.com/knopers8)
