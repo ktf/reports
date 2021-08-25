@@ -28,7 +28,6 @@
 ## Recent developments in O2 - Detectors
 - [\#6799](https://github.com/AliceO2Group/AliceO2/pull/6799) 2021-08-11: speed up and fix up trd raw data reading. by [@bazinski](https://github.com/bazinski)
 - [\#6801](https://github.com/AliceO2Group/AliceO2/pull/6801) 2021-08-07: fix in TOFmatching by [@noferini](https://github.com/noferini)
-- [\#6802](https://github.com/AliceO2Group/AliceO2/pull/6802) 2021-08-04: Write CTFs to <partion_id>-<run_id> dir if partition is available by [@shahor02](https://github.com/shahor02)
 - [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
 - [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
