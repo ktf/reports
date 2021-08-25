@@ -58,6 +58,7 @@
 - [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
+- [\#6902](https://github.com/AliceO2Group/AliceO2/pull/6902) 2021-08-25: TRD fix digit reader in ED workflow by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#6808](https://github.com/AliceO2Group/AliceO2/pull/6808) 2021-08-05: EVE: Add option to disable eve based on DDS collection index by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
