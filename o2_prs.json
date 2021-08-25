@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-07T20:59:20Z",
-            "title": "fix in TOFmatching",
-            "number": 6801,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOFReco.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/MatchInfoTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-04T21:28:47Z",
             "title": "Write CTFs to <partion_id>-<run_id> dir if partition is available",
             "number": 6802,
@@ -5361,6 +5311,31 @@
                 {
                   "node": {
                     "path": "Utilities/DataSampling/test/test_DataSampling.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates",
+            "number": 6901,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
                   }
                 }
               ]
