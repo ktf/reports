@@ -9,7 +9,6 @@
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
@@ -17,7 +16,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
@@ -25,7 +23,6 @@
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6816](https://github.com/AliceO2Group/AliceO2/pull/6816) 2021-08-10: Part of modifications for the barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
