@@ -47,6 +47,7 @@
 - [\#6846](https://github.com/AliceO2Group/AliceO2/pull/6846) 2021-08-16: Update TRD workflow README by [@martenole](https://github.com/martenole)
 - [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
+- [\#6851](https://github.com/AliceO2Group/AliceO2/pull/6851) 2021-08-26: Default initialization of data members by [@dstocco](https://github.com/dstocco)
 - [\#6852](https://github.com/AliceO2Group/AliceO2/pull/6852) 2021-08-16: Compute end value only once in the for loop by [@dstocco](https://github.com/dstocco)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6858](https://github.com/AliceO2Group/AliceO2/pull/6858) 2021-08-17: remove unneeded include and library by [@jgrosseo](https://github.com/jgrosseo)
