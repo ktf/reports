@@ -17,7 +17,6 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
@@ -26,7 +25,6 @@
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6805](https://github.com/AliceO2Group/AliceO2/pull/6805) 2021-08-10: TRD: Introduce strict matching mode + MC labels for tracks by [@martenole](https://github.com/martenole)
 - [\#6806](https://github.com/AliceO2Group/AliceO2/pull/6806) 2021-08-07: alice 3: Update v2 geometry + fixes by [@mconcas](https://github.com/mconcas)
 - [\#6810](https://github.com/AliceO2Group/AliceO2/pull/6810) 2021-08-06: Fix in EncodedBlocks relocated pointers manipulations by [@shahor02](https://github.com/shahor02)
 - [\#6814](https://github.com/AliceO2Group/AliceO2/pull/6814) 2021-08-07: getNPixels() method added to ITSMFT ClusterPattern by [@shahor02](https://github.com/shahor02)
