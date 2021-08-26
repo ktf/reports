@@ -56,6 +56,7 @@
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
 - [\#6902](https://github.com/AliceO2Group/AliceO2/pull/6902) 2021-08-25: TRD fix digit reader in ED workflow by [@martenole](https://github.com/martenole)
 - [\#6907](https://github.com/AliceO2Group/AliceO2/pull/6907) 2021-08-26: [MFT] Fix memory leak and default alignment path in CCDB by [@rpezzi](https://github.com/rpezzi)
+- [\#6911](https://github.com/AliceO2Group/AliceO2/pull/6911) 2021-08-26: Clear working containers when starting new TF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
