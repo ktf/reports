@@ -75,7 +75,6 @@
 - [\#6898](https://github.com/AliceO2Group/AliceO2/pull/6898) 2021-08-25: Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6901](https://github.com/AliceO2Group/AliceO2/pull/6901) 2021-08-26: [OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Utilities
-- [\#6811](https://github.com/AliceO2Group/AliceO2/pull/6811) 2021-08-09: [QC-627] Mergers: add postDeserialization() callback and prioritize MergeInterface by [@knopers8](https://github.com/knopers8)
 - [\#6812](https://github.com/AliceO2Group/AliceO2/pull/6812) 2021-08-10: [QC-630] Data Sampling: Match the host name to the machine list by [@knopers8](https://github.com/knopers8)
 - [\#6813](https://github.com/AliceO2Group/AliceO2/pull/6813) 2021-08-09: [QC-443] Data Sampling: ptree interfaces for everything by [@knopers8](https://github.com/knopers8)
 - [\#6819](https://github.com/AliceO2Group/AliceO2/pull/6819) 2021-08-25: [QC-443] Data Sampling: remove ConfigurationInterface usage, update tests by [@knopers8](https://github.com/knopers8)
