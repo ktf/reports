@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
 - [\#6825](https://github.com/AliceO2Group/AliceO2/pull/6825) 2021-08-11: Adding new task for Run-3 by [@akalweit](https://github.com/akalweit)
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
@@ -24,7 +23,6 @@
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 - [\#6824](https://github.com/AliceO2Group/AliceO2/pull/6824) 2021-08-14: TPC QC: Update of the Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
@@ -58,6 +56,7 @@
 - [\#6911](https://github.com/AliceO2Group/AliceO2/pull/6911) 2021-08-26: Clear working containers when starting new TF by [@shahor02](https://github.com/shahor02)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6917](https://github.com/AliceO2Group/AliceO2/pull/6917) 2021-08-27: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
+- [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
@@ -78,5 +77,4 @@
 - [\#6901](https://github.com/AliceO2Group/AliceO2/pull/6901) 2021-08-26: [OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates by [@knopers8](https://github.com/knopers8)
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#6819](https://github.com/AliceO2Group/AliceO2/pull/6819) 2021-08-25: [QC-443] Data Sampling: remove ConfigurationInterface usage, update tests by [@knopers8](https://github.com/knopers8)
 - [\#6900](https://github.com/AliceO2Group/AliceO2/pull/6900) 2021-08-26: [QC-615] Data Sampling: helper for channel bind location parameter by [@knopers8](https://github.com/knopers8)
