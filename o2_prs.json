@@ -4,176 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-08-10T13:04:55Z",
-            "title": "Part of modifications for the barrel alignment",
-            "number": 6816,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Align/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/include/AlignmentWorkflow/BarrelAlignmentSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/barrel-alignment-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetectorITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableSensor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableSensorITS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignmentPoint.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignmentTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/Controller.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/DOFSet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/DOFStatistics.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/EventVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetectorITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetectorTRD.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensorITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableVolume.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignmentTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/Controller.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/DOFSet.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/EventVertex.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Mft dcs processor",
@@ -5231,6 +5061,91 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs",
+            "number": 6916,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/src/DataFormatsFITLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/base/files/LookupTable_FT0.csv"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/base/files/Sim2DataChannels.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/RawReaderFIT.h"
                   }
                 }
               ]

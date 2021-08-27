@@ -22,7 +22,6 @@
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6816](https://github.com/AliceO2Group/AliceO2/pull/6816) 2021-08-10: Part of modifications for the barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#6818](https://github.com/AliceO2Group/AliceO2/pull/6818) 2021-08-09: Correction in ctf-writer log message by [@shahor02](https://github.com/shahor02)
 - [\#6820](https://github.com/AliceO2Group/AliceO2/pull/6820) 2021-08-10: [EMCAL-508, EMCAL-630] Add EMC detector field for EMCAL reconstruction workflow processers in InfoLoggerContext by [@mfasDa](https://github.com/mfasDa)
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
