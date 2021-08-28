@@ -19,6 +19,7 @@
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
@@ -48,6 +49,7 @@
 - [\#6868](https://github.com/AliceO2Group/AliceO2/pull/6868) 2021-08-19: Some minor fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#6871](https://github.com/AliceO2Group/AliceO2/pull/6871) 2021-08-23: MCH: Workaround as protection from negative firstOrbit by [@davidrohr](https://github.com/davidrohr)
 - [\#6877](https://github.com/AliceO2Group/AliceO2/pull/6877) 2021-08-24: TPC QC: Update PID task, add histograms by [@stheckel](https://github.com/stheckel)
+- [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
@@ -77,5 +79,7 @@
 - [\#6898](https://github.com/AliceO2Group/AliceO2/pull/6898) 2021-08-25: Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6901](https://github.com/AliceO2Group/AliceO2/pull/6901) 2021-08-26: [OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates by [@knopers8](https://github.com/knopers8)
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Utilities
 - [\#6900](https://github.com/AliceO2Group/AliceO2/pull/6900) 2021-08-26: [QC-615] Data Sampling: helper for channel bind location parameter by [@knopers8](https://github.com/knopers8)
