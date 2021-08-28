@@ -8,7 +8,6 @@
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6841](https://github.com/AliceO2Group/AliceO2/pull/6841) 2021-08-13: [O2-2495] Rewrite TreeMerger tool to not use RDataFrame.snapshot by [@sawenzel](https://github.com/sawenzel)
@@ -65,7 +64,6 @@
 - [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
 - [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6853](https://github.com/AliceO2Group/AliceO2/pull/6853) 2021-08-16: DPL Analysis: Combinations buffer overflow by [@saganatt](https://github.com/saganatt)
