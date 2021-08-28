@@ -57,6 +57,7 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6917](https://github.com/AliceO2Group/AliceO2/pull/6917) 2021-08-27: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 - [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
+- [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6822](https://github.com/AliceO2Group/AliceO2/pull/6822) 2021-08-10: Set partition field of InfoLogger by [@shahor02](https://github.com/shahor02)
 - [\#6823](https://github.com/AliceO2Group/AliceO2/pull/6823) 2021-08-12: PID: update QA tasks by [@njacazio](https://github.com/njacazio)
