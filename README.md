@@ -22,6 +22,7 @@
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
+- [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6821](https://github.com/AliceO2Group/AliceO2/pull/6821) 2021-08-09: Fix comments in trd rawdata.h by [@bazinski](https://github.com/bazinski)
@@ -54,7 +55,9 @@
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
 - [\#6902](https://github.com/AliceO2Group/AliceO2/pull/6902) 2021-08-25: TRD fix digit reader in ED workflow by [@martenole](https://github.com/martenole)
+- [\#6906](https://github.com/AliceO2Group/AliceO2/pull/6906) 2021-08-28: Improve dumping of MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#6907](https://github.com/AliceO2Group/AliceO2/pull/6907) 2021-08-26: [MFT] Fix memory leak and default alignment path in CCDB by [@rpezzi](https://github.com/rpezzi)
+- [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6911](https://github.com/AliceO2Group/AliceO2/pull/6911) 2021-08-26: Clear working containers when starting new TF by [@shahor02](https://github.com/shahor02)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6917](https://github.com/AliceO2Group/AliceO2/pull/6917) 2021-08-27: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
