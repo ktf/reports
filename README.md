@@ -44,6 +44,7 @@
 - [\#6851](https://github.com/AliceO2Group/AliceO2/pull/6851) 2021-08-26: Default initialization of data members by [@dstocco](https://github.com/dstocco)
 - [\#6852](https://github.com/AliceO2Group/AliceO2/pull/6852) 2021-08-16: Compute end value only once in the for loop by [@dstocco](https://github.com/dstocco)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
+- [\#6855](https://github.com/AliceO2Group/AliceO2/pull/6855) 2021-08-28: MFT DCS Processor by [@syano0822](https://github.com/syano0822)
 - [\#6858](https://github.com/AliceO2Group/AliceO2/pull/6858) 2021-08-17: remove unneeded include and library by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6865](https://github.com/AliceO2Group/AliceO2/pull/6865) 2021-08-24: TRD event display feed workflow by [@jbarrella](https://github.com/jbarrella)
 - [\#6866](https://github.com/AliceO2Group/AliceO2/pull/6866) 2021-08-26: MCH: remove vertex handling from reco workflow by [@aphecetche](https://github.com/aphecetche)
