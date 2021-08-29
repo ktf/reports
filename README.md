@@ -23,6 +23,7 @@
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
+- [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#6824](https://github.com/AliceO2Group/AliceO2/pull/6824) 2021-08-14: TPC QC: Update of the Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
@@ -60,6 +61,7 @@
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6911](https://github.com/AliceO2Group/AliceO2/pull/6911) 2021-08-26: Clear working containers when starting new TF by [@shahor02](https://github.com/shahor02)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
+- [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 - [\#6917](https://github.com/AliceO2Group/AliceO2/pull/6917) 2021-08-27: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 - [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
 - [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
