@@ -13,7 +13,6 @@
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -24,7 +23,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6826](https://github.com/AliceO2Group/AliceO2/pull/6826) 2021-08-10: [EMCAL-710] Error container for different error sources by [@mfasDa](https://github.com/mfasDa)
 - [\#6828](https://github.com/AliceO2Group/AliceO2/pull/6828) 2021-08-11: [MCH] add track MC label finder workflow and update track I/O by [@pillot](https://github.com/pillot)
 - [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
