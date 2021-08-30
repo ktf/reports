@@ -23,7 +23,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6828](https://github.com/AliceO2Group/AliceO2/pull/6828) 2021-08-11: [MCH] add track MC label finder workflow and update track I/O by [@pillot](https://github.com/pillot)
 - [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6833](https://github.com/AliceO2Group/AliceO2/pull/6833) 2021-08-15: [FV0] Time offsets calibration by [@mslupeck](https://github.com/mslupeck)
