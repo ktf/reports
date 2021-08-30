@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6847](https://github.com/AliceO2Group/AliceO2/pull/6847) 2021-08-17: PWGHF: Modification of D0 task for step-by-step efficiency by [@strogolo](https://github.com/strogolo)
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
@@ -61,7 +60,6 @@
 - [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Framework
-- [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6853](https://github.com/AliceO2Group/AliceO2/pull/6853) 2021-08-16: DPL Analysis: Combinations buffer overflow by [@saganatt](https://github.com/saganatt)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6860](https://github.com/AliceO2Group/AliceO2/pull/6860) 2021-08-18: DPL: reduce iterations in the slow consumer test by [@ktf](https://github.com/ktf)
