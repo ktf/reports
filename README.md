@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6825](https://github.com/AliceO2Group/AliceO2/pull/6825) 2021-08-11: Adding new task for Run-3 by [@akalweit](https://github.com/akalweit)
 - [\#6832](https://github.com/AliceO2Group/AliceO2/pull/6832) 2021-08-15: Muon chambers bitmap by [@nicolovalle](https://github.com/nicolovalle)
 - [\#6847](https://github.com/AliceO2Group/AliceO2/pull/6847) 2021-08-17: PWGHF: Modification of D0 task for step-by-step efficiency by [@strogolo](https://github.com/strogolo)
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
@@ -52,6 +51,7 @@
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#6887](https://github.com/AliceO2Group/AliceO2/pull/6887) 2021-08-30: [MRRTF-139] Ensure digits rofs are aligned to 4-BCs by [@aphecetche](https://github.com/aphecetche)
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6896](https://github.com/AliceO2Group/AliceO2/pull/6896) 2021-08-30: [MCH] set bcWidth in digit ROFs by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
