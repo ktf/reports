@@ -6,7 +6,6 @@
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6841](https://github.com/AliceO2Group/AliceO2/pull/6841) 2021-08-13: [O2-2495] Rewrite TreeMerger tool to not use RDataFrame.snapshot by [@sawenzel](https://github.com/sawenzel)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
@@ -23,7 +22,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6829](https://github.com/AliceO2Group/AliceO2/pull/6829) 2021-08-16: TRD simulation cleanup by [@martenole](https://github.com/martenole)
 - [\#6831](https://github.com/AliceO2Group/AliceO2/pull/6831) 2021-08-12: [TPC] Fine-tune and documentation of the digitisation by [@a-mathis](https://github.com/a-mathis)
 - [\#6833](https://github.com/AliceO2Group/AliceO2/pull/6833) 2021-08-15: [FV0] Time offsets calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#6835](https://github.com/AliceO2Group/AliceO2/pull/6835) 2021-08-12: Refer ITS track cluster indices to TF start rather than ROF by [@shahor02](https://github.com/shahor02)
