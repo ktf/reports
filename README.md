@@ -80,6 +80,7 @@
 - [\#6901](https://github.com/AliceO2Group/AliceO2/pull/6901) 2021-08-26: [OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates by [@knopers8](https://github.com/knopers8)
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
+- [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
