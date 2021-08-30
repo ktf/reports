@@ -4,171 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-08-15T21:41:38Z",
-            "title": "[FV0] Time offsets calibration",
-            "number": 6833,
-            "author": {
-              "login": "mslupeck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/base/include/FV0Base/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/include/FV0Calibration/FV0CalibCollector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/include/FV0Calibration/FV0CalibrationInfoObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/include/FV0Calibration/FV0ChannelTimeCalibrationObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/include/FV0Calibration/FV0ChannelTimeTimeSlotContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/macros/makeChannelTimeOffsetFV0CalibObjectInCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/macros/readChannelTimeOffsetFV0CalibObjectFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/src/FV0CalibCollector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/src/FV0CalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/src/FV0ChannelTimeCalibrationObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/src/FV0ChannelTimeTimeSlotContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0ChannelTimeCalibration-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0ChannelTimeCalibrationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0TFProcessor-Workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/macro/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/macro/FV0Misaligner.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/include/FV0Reconstruction/BaseRecoTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/reconstruction/src/BaseRecoTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/FV0DigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/ReconstructionSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationObjectProducer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/src/FITCalibrationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP][EMCAL-647] Event builder for cell container from different subtimeframes",
@@ -4336,6 +4171,41 @@
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix OpenCL2 build (some string replace went wrong some time ago)",
+            "number": 6933,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl2/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/opencl2/GPUReconstructionOCL2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
                   }
                 }
               ]

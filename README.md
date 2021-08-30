@@ -20,7 +20,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6833](https://github.com/AliceO2Group/AliceO2/pull/6833) 2021-08-15: [FV0] Time offsets calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#6835](https://github.com/AliceO2Group/AliceO2/pull/6835) 2021-08-12: Refer ITS track cluster indices to TF start rather than ROF by [@shahor02](https://github.com/shahor02)
 - [\#6836](https://github.com/AliceO2Group/AliceO2/pull/6836) 2021-08-16: [MRRTF-138] fix improper usage of TrackReference DetectorID by [@aphecetche](https://github.com/aphecetche)
 - [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
