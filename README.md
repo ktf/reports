@@ -6,7 +6,6 @@
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#6841](https://github.com/AliceO2Group/AliceO2/pull/6841) 2021-08-13: [O2-2495] Rewrite TreeMerger tool to not use RDataFrame.snapshot by [@sawenzel](https://github.com/sawenzel)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
