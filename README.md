@@ -4,6 +4,7 @@
 - [\#6847](https://github.com/AliceO2Group/AliceO2/pull/6847) 2021-08-17: PWGHF: Modification of D0 task for step-by-step efficiency by [@strogolo](https://github.com/strogolo)
 - [\#6861](https://github.com/AliceO2Group/AliceO2/pull/6861) 2021-08-18: Remove analysis for migration to O2Physics by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
+- [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6841](https://github.com/AliceO2Group/AliceO2/pull/6841) 2021-08-13: [O2-2495] Rewrite TreeMerger tool to not use RDataFrame.snapshot by [@sawenzel](https://github.com/sawenzel)
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
@@ -72,6 +73,8 @@
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
 - [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6929](https://github.com/AliceO2Group/AliceO2/pull/6929) 2021-08-31: DPL: use 500MB per reader by default by [@ktf](https://github.com/ktf)
+- [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
