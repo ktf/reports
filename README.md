@@ -20,7 +20,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6838](https://github.com/AliceO2Group/AliceO2/pull/6838) 2021-08-13: [O2-2500] revert bug in TRD digitwriter by [@bazinski](https://github.com/bazinski)
 - [\#6840](https://github.com/AliceO2Group/AliceO2/pull/6840) 2021-08-13: Documentation for the o2-mid-raw-checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6844](https://github.com/AliceO2Group/AliceO2/pull/6844) 2021-08-13: Add halfBarrels to ITS misaligner, use local CCDB as default by [@shahor02](https://github.com/shahor02)
 - [\#6846](https://github.com/AliceO2Group/AliceO2/pull/6846) 2021-08-16: Update TRD workflow README by [@martenole](https://github.com/martenole)
