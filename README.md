@@ -9,8 +9,8 @@
 - [\#6854](https://github.com/AliceO2Group/AliceO2/pull/6854) 2021-08-16: Extend o2-sim --field +-5U option to arbitrary <int_kGaus>U by [@shahor02](https://github.com/shahor02)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
+- [\#6934](https://github.com/AliceO2Group/AliceO2/pull/6934) 2021-08-31: Ignore ini file writing with keyval.output_dir=/dev/null by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
@@ -20,7 +20,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6837](https://github.com/AliceO2Group/AliceO2/pull/6837) 2021-08-11: Fix TOF matches index access in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#6838](https://github.com/AliceO2Group/AliceO2/pull/6838) 2021-08-13: [O2-2500] revert bug in TRD digitwriter by [@bazinski](https://github.com/bazinski)
 - [\#6840](https://github.com/AliceO2Group/AliceO2/pull/6840) 2021-08-13: Documentation for the o2-mid-raw-checker workflow by [@dstocco](https://github.com/dstocco)
 - [\#6844](https://github.com/AliceO2Group/AliceO2/pull/6844) 2021-08-13: Add halfBarrels to ITS misaligner, use local CCDB as default by [@shahor02](https://github.com/shahor02)
