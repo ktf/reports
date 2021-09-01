@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-08-17T07:40:29Z",
-            "title": "PWGHF: Modification of D0 task for step-by-step efficiency",
-            "number": 6847,
-            "author": {
-              "login": "strogolo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFD0CandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[EMCAL-535]Fixing a bug related to the fit status",
@@ -4386,6 +4356,36 @@
                 {
                   "node": {
                     "path": "Steer/src/HitProcessingManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer",
+            "number": 6947,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/rawfile-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]
