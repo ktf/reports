@@ -20,7 +20,6 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#6846](https://github.com/AliceO2Group/AliceO2/pull/6846) 2021-08-16: Update TRD workflow README by [@martenole](https://github.com/martenole)
 - [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#6851](https://github.com/AliceO2Group/AliceO2/pull/6851) 2021-08-26: Default initialization of data members by [@dstocco](https://github.com/dstocco)

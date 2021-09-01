@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-16T13:52:50Z",
-            "title": "Update TRD workflow README",
-            "number": 6846,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/README.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-17T07:40:29Z",
             "title": "PWGHF: Modification of D0 task for step-by-step efficiency",
             "number": 6847,
@@ -4361,6 +4341,46 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflowIO/src/CalibClusReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Provide bunch fillings for engineered collision context",
+            "number": 6946,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/BunchFilling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/src/BunchFilling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/CollisionContextTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/HitProcessingManager.cxx"
                   }
                 }
               ]
