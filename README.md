@@ -19,6 +19,7 @@
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
+- [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
@@ -57,6 +58,7 @@
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
+- [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
 - [\#6853](https://github.com/AliceO2Group/AliceO2/pull/6853) 2021-08-16: DPL Analysis: Combinations buffer overflow by [@saganatt](https://github.com/saganatt)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
