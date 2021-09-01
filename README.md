@@ -32,6 +32,7 @@
 - [\#6865](https://github.com/AliceO2Group/AliceO2/pull/6865) 2021-08-24: TRD event display feed workflow by [@jbarrella](https://github.com/jbarrella)
 - [\#6866](https://github.com/AliceO2Group/AliceO2/pull/6866) 2021-08-26: MCH: remove vertex handling from reco workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#6868](https://github.com/AliceO2Group/AliceO2/pull/6868) 2021-08-19: Some minor fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#6870](https://github.com/AliceO2Group/AliceO2/pull/6870) 2021-09-01: [SC] Adding possibility to use float for calculations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6871](https://github.com/AliceO2Group/AliceO2/pull/6871) 2021-08-23: MCH: Workaround as protection from negative firstOrbit by [@davidrohr](https://github.com/davidrohr)
 - [\#6877](https://github.com/AliceO2Group/AliceO2/pull/6877) 2021-08-24: TPC QC: Update PID task, add histograms by [@stheckel](https://github.com/stheckel)
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
