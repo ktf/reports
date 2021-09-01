@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "PWGHF: Xicc task",
-            "number": 6843,
-            "author": {
-              "login": "JinjooSeo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Analysis/Core/include/AnalysisCore/HFSelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFCandidateCreatorXicc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFXicToPKPiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/HFXiccToPKPiPiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskXic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Analysis/Tasks/PWGHF/taskXicc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-08-13T10:51:04Z",
             "title": "Add halfBarrels to ITS misaligner, use local CCDB as default",
@@ -4301,6 +4241,101 @@
                 {
                   "node": {
                     "path": "Detectors/CTF/workflow/src/ctf-writer-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD tracking improvements",
+            "number": 6943,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RecoInputContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/TrackTRD.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/KrClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDInterfaceO2Track.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDO2BaseTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrackO2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/GPUTrackingLinkDef_O2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDInterfaces.h"
                   }
                 }
               ]
