@@ -22,7 +22,6 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#6851](https://github.com/AliceO2Group/AliceO2/pull/6851) 2021-08-26: Default initialization of data members by [@dstocco](https://github.com/dstocco)
 - [\#6852](https://github.com/AliceO2Group/AliceO2/pull/6852) 2021-08-16: Compute end value only once in the for loop by [@dstocco](https://github.com/dstocco)
