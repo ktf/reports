@@ -60,6 +60,7 @@
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
+- [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6853](https://github.com/AliceO2Group/AliceO2/pull/6853) 2021-08-16: DPL Analysis: Combinations buffer overflow by [@saganatt](https://github.com/saganatt)
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
