@@ -9,6 +9,7 @@
 - [\#6856](https://github.com/AliceO2Group/AliceO2/pull/6856) 2021-08-17: Fix HF workflow by [@ktf](https://github.com/ktf)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6934](https://github.com/AliceO2Group/AliceO2/pull/6934) 2021-08-31: Ignore ini file writing with keyval.output_dir=/dev/null by [@shahor02](https://github.com/shahor02)
+- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -19,6 +20,7 @@
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
+- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#6849](https://github.com/AliceO2Group/AliceO2/pull/6849) 2021-08-15: TPC Painter: adding functions for drawing of sector informations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#6850](https://github.com/AliceO2Group/AliceO2/pull/6850) 2021-08-15: TPC: add DCS DP simulation + unrelated updates by [@wiechula](https://github.com/wiechula)
@@ -81,5 +83,6 @@
 ## Recent developments in O2 - Steer
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
+- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#6900](https://github.com/AliceO2Group/AliceO2/pull/6900) 2021-08-26: [QC-615] Data Sampling: helper for channel bind location parameter by [@knopers8](https://github.com/knopers8)
