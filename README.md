@@ -54,6 +54,7 @@
 - [\#6931](https://github.com/AliceO2Group/AliceO2/pull/6931) 2021-08-31: [MCH] use references instead of pointers by [@pillot](https://github.com/pillot)
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
+- [\#6939](https://github.com/AliceO2Group/AliceO2/pull/6939) 2021-09-02: [MRRTF-144] [O2-2486] mch-digits-to-raw: add per cru endpoint output by [@aphecetche](https://github.com/aphecetche)
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
