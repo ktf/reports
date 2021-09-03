@@ -57,7 +57,6 @@
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Framework
-- [\#6860](https://github.com/AliceO2Group/AliceO2/pull/6860) 2021-08-18: DPL: reduce iterations in the slow consumer test by [@ktf](https://github.com/ktf)
 - [\#6862](https://github.com/AliceO2Group/AliceO2/pull/6862) 2021-08-18: DPL: avoid one more race condition by [@ktf](https://github.com/ktf)
 - [\#6878](https://github.com/AliceO2Group/AliceO2/pull/6878) 2021-08-23: DPL: handle region notifications as required by GPU processing by [@ktf](https://github.com/ktf)
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
