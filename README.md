@@ -54,6 +54,7 @@
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
+- [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Framework
 - [\#6860](https://github.com/AliceO2Group/AliceO2/pull/6860) 2021-08-18: DPL: reduce iterations in the slow consumer test by [@ktf](https://github.com/ktf)
 - [\#6862](https://github.com/AliceO2Group/AliceO2/pull/6862) 2021-08-18: DPL: avoid one more race condition by [@ktf](https://github.com/ktf)
