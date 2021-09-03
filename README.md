@@ -52,6 +52,8 @@
 - [\#6939](https://github.com/AliceO2Group/AliceO2/pull/6939) 2021-09-02: [MRRTF-144] [O2-2486] mch-digits-to-raw: add per cru endpoint output by [@aphecetche](https://github.com/aphecetche)
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
+- [\#6942](https://github.com/AliceO2Group/AliceO2/pull/6942) 2021-09-03: Optional fall-back dir. for CTFwriter + free space check on primary one by [@shahor02](https://github.com/shahor02)
+- [\#6944](https://github.com/AliceO2Group/AliceO2/pull/6944) 2021-09-03: FT0: dispatcher-mode option for FT0TFProcessor-Workflow by [@afurs](https://github.com/afurs)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Framework
