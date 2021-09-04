@@ -56,6 +56,7 @@
 - [\#6944](https://github.com/AliceO2Group/AliceO2/pull/6944) 2021-09-03: FT0: dispatcher-mode option for FT0TFProcessor-Workflow by [@afurs](https://github.com/afurs)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
+- [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Framework
 - [\#6878](https://github.com/AliceO2Group/AliceO2/pull/6878) 2021-08-23: DPL: handle region notifications as required by GPU processing by [@ktf](https://github.com/ktf)
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
