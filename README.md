@@ -54,6 +54,7 @@
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 - [\#6951](https://github.com/AliceO2Group/AliceO2/pull/6951) 2021-09-06: Add new MFT DPs in MFT/condition by [@syano0822](https://github.com/syano0822)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6959](https://github.com/AliceO2Group/AliceO2/pull/6959) 2021-09-06: TPC: fix region information access by [@wiechula](https://github.com/wiechula)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Framework
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
