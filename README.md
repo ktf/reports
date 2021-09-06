@@ -18,6 +18,7 @@
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6916](https://github.com/AliceO2Group/AliceO2/pull/6916) 2021-08-29: FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs by [@afurs](https://github.com/afurs)
+- [\#6930](https://github.com/AliceO2Group/AliceO2/pull/6930) 2021-09-06: Send different decoded MID event types to different specs by [@dstocco](https://github.com/dstocco)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
@@ -43,6 +44,7 @@
 - [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
 - [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
+- [\#6930](https://github.com/AliceO2Group/AliceO2/pull/6930) 2021-09-06: Send different decoded MID event types to different specs by [@dstocco](https://github.com/dstocco)
 - [\#6931](https://github.com/AliceO2Group/AliceO2/pull/6931) 2021-08-31: [MCH] use references instead of pointers by [@pillot](https://github.com/pillot)
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
