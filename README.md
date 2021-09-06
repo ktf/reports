@@ -75,6 +75,7 @@
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6958](https://github.com/AliceO2Group/AliceO2/pull/6958) 2021-09-03: DPL GUI: speedup with many metrics by [@ktf](https://github.com/ktf)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
+- [\#6972](https://github.com/AliceO2Group/AliceO2/pull/6972) 2021-09-06: DPL Analysis: workaround to Bulk I/O bug by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
