@@ -22,7 +22,6 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6877](https://github.com/AliceO2Group/AliceO2/pull/6877) 2021-08-24: TPC QC: Update PID task, add histograms by [@stheckel](https://github.com/stheckel)
 - [\#6881](https://github.com/AliceO2Group/AliceO2/pull/6881) 2021-08-28: ctpdev:scalers and digi2raw fixes by [@lietava](https://github.com/lietava)
 - [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
