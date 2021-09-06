@@ -54,6 +54,7 @@
 - [\#6944](https://github.com/AliceO2Group/AliceO2/pull/6944) 2021-09-03: FT0: dispatcher-mode option for FT0TFProcessor-Workflow by [@afurs](https://github.com/afurs)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
+- [\#6951](https://github.com/AliceO2Group/AliceO2/pull/6951) 2021-09-06: Add new MFT DPs in MFT/condition by [@syano0822](https://github.com/syano0822)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Framework
