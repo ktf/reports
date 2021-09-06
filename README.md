@@ -56,7 +56,6 @@
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Framework
-- [\#6878](https://github.com/AliceO2Group/AliceO2/pull/6878) 2021-08-23: DPL: handle region notifications as required by GPU processing by [@ktf](https://github.com/ktf)
 - [\#6884](https://github.com/AliceO2Group/AliceO2/pull/6884) 2021-08-23: DPL: stop looking for offers if we have enough by [@ktf](https://github.com/ktf)
 - [\#6886](https://github.com/AliceO2Group/AliceO2/pull/6886) 2021-08-23: Preparation for Arrow 5.0.0 by [@pzhristov](https://github.com/pzhristov)
 - [\#6889](https://github.com/AliceO2Group/AliceO2/pull/6889) 2021-08-23: DPL: correctly report consumed shared memory by [@ktf](https://github.com/ktf)
