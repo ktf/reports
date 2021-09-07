@@ -52,6 +52,7 @@
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
+- [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6894](https://github.com/AliceO2Group/AliceO2/pull/6894) 2021-08-24: DPL: use id rather than name to printout by [@ktf](https://github.com/ktf)
