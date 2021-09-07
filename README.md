@@ -9,6 +9,7 @@
 - [\#6934](https://github.com/AliceO2Group/AliceO2/pull/6934) 2021-08-31: Ignore ini file writing with keyval.output_dir=/dev/null by [@shahor02](https://github.com/shahor02)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
+- [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6896](https://github.com/AliceO2Group/AliceO2/pull/6896) 2021-08-30: [MCH] set bcWidth in digit ROFs by [@aferrero2707](https://github.com/aferrero2707)
@@ -50,6 +51,7 @@
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6959](https://github.com/AliceO2Group/AliceO2/pull/6959) 2021-09-06: TPC: fix region information access by [@wiechula](https://github.com/wiechula)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
+- [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Framework
 - [\#6890](https://github.com/AliceO2Group/AliceO2/pull/6890) 2021-08-25: DPL: reduce verbosity when controller is not available by [@ktf](https://github.com/ktf)
