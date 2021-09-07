@@ -21,7 +21,6 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6896](https://github.com/AliceO2Group/AliceO2/pull/6896) 2021-08-30: [MCH] set bcWidth in digit ROFs by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
 - [\#6902](https://github.com/AliceO2Group/AliceO2/pull/6902) 2021-08-25: TRD fix digit reader in ED workflow by [@martenole](https://github.com/martenole)
