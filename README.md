@@ -54,7 +54,6 @@
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Framework
-- [\#6890](https://github.com/AliceO2Group/AliceO2/pull/6890) 2021-08-25: DPL: reduce verbosity when controller is not available by [@ktf](https://github.com/ktf)
 - [\#6892](https://github.com/AliceO2Group/AliceO2/pull/6892) 2021-08-24: DPL: fix race condition more likely with many drivers by [@ktf](https://github.com/ktf)
 - [\#6894](https://github.com/AliceO2Group/AliceO2/pull/6894) 2021-08-24: DPL: use id rather than name to printout by [@ktf](https://github.com/ktf)
 - [\#6897](https://github.com/AliceO2Group/AliceO2/pull/6897) 2021-08-25: DPL: do not use ConditionalRun anymore by [@ktf](https://github.com/ktf)
