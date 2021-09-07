@@ -21,7 +21,6 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6882](https://github.com/AliceO2Group/AliceO2/pull/6882) 2021-08-23: MFT Tracker: Improves MCS effects evaluation by [@rpezzi](https://github.com/rpezzi)
 - [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6887](https://github.com/AliceO2Group/AliceO2/pull/6887) 2021-08-30: [MRRTF-139] Ensure digits rofs are aligned to 4-BCs by [@aphecetche](https://github.com/aphecetche)
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
