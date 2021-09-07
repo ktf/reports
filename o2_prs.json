@@ -3556,7 +3556,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TPC: apply drift velocity calibration from ccdb",
+            "title": "TPC: apply drift velocity calibration from ccdb, remove CE signal for laser track calibration",
             "number": 6987,
             "author": {
               "login": "wiechula"
@@ -3570,7 +3570,17 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/DigitDump.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TPC/calibration/include/TPCCalibration/LaserTracksCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
                   }
                 },
                 {
@@ -3596,6 +3606,11 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/ApplyCCDBCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RawToDigitsSpec.cxx"
                   }
                 },
                 {
