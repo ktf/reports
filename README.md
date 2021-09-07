@@ -10,7 +10,6 @@
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6893](https://github.com/AliceO2Group/AliceO2/pull/6893) 2021-08-25: Some minor fixes to make FST run with files from non-local directory by [@davidrohr](https://github.com/davidrohr)
 - [\#6896](https://github.com/AliceO2Group/AliceO2/pull/6896) 2021-08-30: [MCH] set bcWidth in digit ROFs by [@aferrero2707](https://github.com/aferrero2707)
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
@@ -21,7 +20,6 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#6885](https://github.com/AliceO2Group/AliceO2/pull/6885) 2021-08-28: Global offsets and reco QC by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#6887](https://github.com/AliceO2Group/AliceO2/pull/6887) 2021-08-30: [MRRTF-139] Ensure digits rofs are aligned to 4-BCs by [@aphecetche](https://github.com/aphecetche)
 - [\#6891](https://github.com/AliceO2Group/AliceO2/pull/6891) 2021-08-24: TPC: Change default for page padding in ZS encoder to off, fix some cases where pages where unnecessarily padded by [@davidrohr](https://github.com/davidrohr)
 - [\#6896](https://github.com/AliceO2Group/AliceO2/pull/6896) 2021-08-30: [MCH] set bcWidth in digit ROFs by [@aferrero2707](https://github.com/aferrero2707)
