@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6970](https://github.com/AliceO2Group/AliceO2/pull/6970) 2021-09-08: collision slice for ambiguous track table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6912](https://github.com/AliceO2Group/AliceO2/pull/6912) 2021-08-27: Fix in CTF reader (for multi-TF files) by [@shahor02](https://github.com/shahor02)
 - [\#6934](https://github.com/AliceO2Group/AliceO2/pull/6934) 2021-08-31: Ignore ini file writing with keyval.output_dir=/dev/null by [@shahor02](https://github.com/shahor02)
@@ -70,6 +71,7 @@
 - [\#6955](https://github.com/AliceO2Group/AliceO2/pull/6955) 2021-09-08: DPL: speed up bulk reading by [@ktf](https://github.com/ktf)
 - [\#6958](https://github.com/AliceO2Group/AliceO2/pull/6958) 2021-09-03: DPL GUI: speedup with many metrics by [@ktf](https://github.com/ktf)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
+- [\#6970](https://github.com/AliceO2Group/AliceO2/pull/6970) 2021-09-08: collision slice for ambiguous track table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6972](https://github.com/AliceO2Group/AliceO2/pull/6972) 2021-09-06: DPL Analysis: workaround to Bulk I/O bug by [@ktf](https://github.com/ktf)
 - [\#6974](https://github.com/AliceO2Group/AliceO2/pull/6974) 2021-09-07: DPL: Improve Bulk I/O test by [@ktf](https://github.com/ktf)
 - [\#6978](https://github.com/AliceO2Group/AliceO2/pull/6978) 2021-09-07: DPL: propagate the DataHeader::runNumber information by [@ktf](https://github.com/ktf)
