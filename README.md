@@ -49,6 +49,7 @@
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 - [\#6951](https://github.com/AliceO2Group/AliceO2/pull/6951) 2021-09-06: Add new MFT DPs in MFT/condition by [@syano0822](https://github.com/syano0822)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
+- [\#6953](https://github.com/AliceO2Group/AliceO2/pull/6953) 2021-09-08: MCH: add first/last orbit option to rof-histogrammer by [@aphecetche](https://github.com/aphecetche)
 - [\#6959](https://github.com/AliceO2Group/AliceO2/pull/6959) 2021-09-06: TPC: fix region information access by [@wiechula](https://github.com/wiechula)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
@@ -58,7 +59,6 @@
 - [\#6988](https://github.com/AliceO2Group/AliceO2/pull/6988) 2021-09-08: o2-sim: hit merge optimizations by [@sawenzel](https://github.com/sawenzel)
 - [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6898](https://github.com/AliceO2Group/AliceO2/pull/6898) 2021-08-25: Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#6901](https://github.com/AliceO2Group/AliceO2/pull/6901) 2021-08-26: [OCTRL-537] AliECS dump: include O2_DETECTOR env var in task templates by [@knopers8](https://github.com/knopers8)
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
