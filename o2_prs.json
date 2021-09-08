@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-25T08:05:07Z",
-            "title": "DPL: do not use ConditionalRun anymore",
-            "number": 6897,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-25T07:48:15Z",
             "title": "Increase DEFAULT_PIPELINE_LENGTH, needed to be > 16 for async reco workflow",
             "number": 6898,
@@ -4021,6 +3996,26 @@
                 {
                   "node": {
                     "path": "macro/run_primary_vertexer_ITS.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "allow digit writer in multi-thread",
+            "number": 6997,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflowIO/include/TOFWorkflowIO/TOFDigitWriterSplitterSpec.h"
                   }
                 }
               ]
