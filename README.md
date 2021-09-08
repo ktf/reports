@@ -80,3 +80,4 @@
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#6900](https://github.com/AliceO2Group/AliceO2/pull/6900) 2021-08-26: [QC-615] Data Sampling: helper for channel bind location parameter by [@knopers8](https://github.com/knopers8)
+- [\#6960](https://github.com/AliceO2Group/AliceO2/pull/6960) 2021-09-08: [QC-643] Data Sampling: use random seed if 0 is set by [@knopers8](https://github.com/knopers8)
