@@ -10,6 +10,7 @@
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
+- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6903](https://github.com/AliceO2Group/AliceO2/pull/6903) 2021-08-25: Match DataOrigin CTP to DAQ source TRG by [@shahor02](https://github.com/shahor02)
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
@@ -21,6 +22,7 @@
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
+- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6906](https://github.com/AliceO2Group/AliceO2/pull/6906) 2021-08-28: Improve dumping of MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#6907](https://github.com/AliceO2Group/AliceO2/pull/6907) 2021-08-26: [MFT] Fix memory leak and default alignment path in CCDB by [@rpezzi](https://github.com/rpezzi)
@@ -56,6 +58,7 @@
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6988](https://github.com/AliceO2Group/AliceO2/pull/6988) 2021-09-08: o2-sim: hit merge optimizations by [@sawenzel](https://github.com/sawenzel)
 - [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
+- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6905](https://github.com/AliceO2Group/AliceO2/pull/6905) 2021-08-27: DPL: improve readability of the GUI by [@ktf](https://github.com/ktf)
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
