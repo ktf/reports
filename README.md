@@ -22,7 +22,6 @@
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6899](https://github.com/AliceO2Group/AliceO2/pull/6899) 2021-08-25: TRD: Update README.md by [@jolopezl](https://github.com/jolopezl)
 - [\#6902](https://github.com/AliceO2Group/AliceO2/pull/6902) 2021-08-25: TRD fix digit reader in ED workflow by [@martenole](https://github.com/martenole)
 - [\#6906](https://github.com/AliceO2Group/AliceO2/pull/6906) 2021-08-28: Improve dumping of MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#6907](https://github.com/AliceO2Group/AliceO2/pull/6907) 2021-08-26: [MFT] Fix memory leak and default alignment path in CCDB by [@rpezzi](https://github.com/rpezzi)
