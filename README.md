@@ -77,6 +77,7 @@
 - [\#6974](https://github.com/AliceO2Group/AliceO2/pull/6974) 2021-09-07: DPL: Improve Bulk I/O test by [@ktf](https://github.com/ktf)
 - [\#6978](https://github.com/AliceO2Group/AliceO2/pull/6978) 2021-09-07: DPL: propagate the DataHeader::runNumber information by [@ktf](https://github.com/ktf)
 - [\#6989](https://github.com/AliceO2Group/AliceO2/pull/6989) 2021-09-08: DPL: fix handling of empty tables by [@ktf](https://github.com/ktf)
+- [\#7001](https://github.com/AliceO2Group/AliceO2/pull/7001) 2021-09-09: DPL GUI: update to new API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
