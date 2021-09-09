@@ -63,6 +63,7 @@
 - [\#6988](https://github.com/AliceO2Group/AliceO2/pull/6988) 2021-09-08: o2-sim: hit merge optimizations by [@sawenzel](https://github.com/sawenzel)
 - [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
+- [\#6995](https://github.com/AliceO2Group/AliceO2/pull/6995) 2021-09-09: Modified the MFT DCS DPs and Add makeMFTCCDBEntryForDCS.C by [@syano0822](https://github.com/syano0822)
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
