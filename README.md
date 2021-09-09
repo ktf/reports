@@ -22,6 +22,7 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
+- [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
@@ -56,6 +57,7 @@
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6969](https://github.com/AliceO2Group/AliceO2/pull/6969) 2021-09-09: TOF matching optimization by [@noferini](https://github.com/noferini)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
+- [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
@@ -66,6 +68,7 @@
 - [\#6995](https://github.com/AliceO2Group/AliceO2/pull/6995) 2021-09-09: Modified the MFT DCS DPs and Add makeMFTCCDBEntryForDCS.C by [@syano0822](https://github.com/syano0822)
 - [\#6998](https://github.com/AliceO2Group/AliceO2/pull/6998) 2021-09-09: allow digit writer in multi-thread by [@noferini](https://github.com/noferini)
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
+- [\#7007](https://github.com/AliceO2Group/AliceO2/pull/7007) 2021-09-09: Update DCS DP DeliveryType class by Float by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
 - [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
