@@ -26,7 +26,6 @@
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6906](https://github.com/AliceO2Group/AliceO2/pull/6906) 2021-08-28: Improve dumping of MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#6907](https://github.com/AliceO2Group/AliceO2/pull/6907) 2021-08-26: [MFT] Fix memory leak and default alignment path in CCDB by [@rpezzi](https://github.com/rpezzi)
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6910](https://github.com/AliceO2Group/AliceO2/pull/6910) 2021-09-07: new/improved trd raw reader by [@bazinski](https://github.com/bazinski)
