@@ -12,6 +12,7 @@
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
+- [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#6909](https://github.com/AliceO2Group/AliceO2/pull/6909) 2021-08-28: [MCH] propagate tracks to MID by [@pillot](https://github.com/pillot)
 - [\#6910](https://github.com/AliceO2Group/AliceO2/pull/6910) 2021-09-07: new/improved trd raw reader by [@bazinski](https://github.com/bazinski)
