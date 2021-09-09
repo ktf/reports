@@ -54,6 +54,7 @@
 - [\#6959](https://github.com/AliceO2Group/AliceO2/pull/6959) 2021-09-06: TPC: fix region information access by [@wiechula](https://github.com/wiechula)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
+- [\#6969](https://github.com/AliceO2Group/AliceO2/pull/6969) 2021-09-09: TOF matching optimization by [@noferini](https://github.com/noferini)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
