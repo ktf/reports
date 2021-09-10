@@ -65,7 +65,6 @@
 - [\#7011](https://github.com/AliceO2Group/AliceO2/pull/7011) 2021-09-10: TPC: handle exceptions in calib_processing_helper::processRawData by [@shahor02](https://github.com/shahor02)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
 - [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6929](https://github.com/AliceO2Group/AliceO2/pull/6929) 2021-08-31: DPL: use 500MB per reader by default by [@ktf](https://github.com/ktf)
 - [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
