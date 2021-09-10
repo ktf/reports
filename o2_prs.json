@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-29T17:57:55Z",
-            "title": "FIT: new LookupTable class and some additional features/fixes for FITRaw and FITWorkflow libs",
-            "number": 6916,
-            "author": {
-              "login": "afurs"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/LookUpTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/LookUpTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/src/DataFormatsFITLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/files/LookupTable_FT0.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/base/files/Sim2DataChannels.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockFIT.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/workflow/include/FITWorkflow/RawReaderFIT.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-27T13:04:26Z",
             "title": "Detect Alpide error: same pixels fired multiple times",
             "number": 6917,
@@ -4441,6 +4356,66 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Muon dcs fixes",
+            "number": 7016,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/aliasFixer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/aliasFixer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/mch-dcs-sim-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/mid-dcs-sim-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/src/DCSNamer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/test/LVAliases.cxx"
                   }
                 }
               ]
