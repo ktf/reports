@@ -25,7 +25,6 @@
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
 - [\#6930](https://github.com/AliceO2Group/AliceO2/pull/6930) 2021-09-06: Send different decoded MID event types to different specs by [@dstocco](https://github.com/dstocco)
 - [\#6931](https://github.com/AliceO2Group/AliceO2/pull/6931) 2021-08-31: [MCH] use references instead of pointers by [@pillot](https://github.com/pillot)
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
@@ -82,7 +81,6 @@
 - [\#6989](https://github.com/AliceO2Group/AliceO2/pull/6989) 2021-09-08: DPL: fix handling of empty tables by [@ktf](https://github.com/ktf)
 - [\#7001](https://github.com/AliceO2Group/AliceO2/pull/7001) 2021-09-09: DPL GUI: update to new API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#6923](https://github.com/AliceO2Group/AliceO2/pull/6923) 2021-08-29: [O2-2538][FV0] Reduce excessive log printout of FV0 digitizer by [@mslupeck](https://github.com/mslupeck)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#6960](https://github.com/AliceO2Group/AliceO2/pull/6960) 2021-09-08: [QC-643] Data Sampling: use random seed if 0 is set by [@knopers8](https://github.com/knopers8)

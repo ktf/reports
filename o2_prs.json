@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-08-29T20:11:01Z",
-            "title": "[O2-2538][FV0] Reduce excessive log printout of FV0 digitizer",
-            "number": 6923,
-            "author": {
-              "login": "mslupeck"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Update AOD handling of ambiguous MFT and Fwd tracks ",
@@ -4841,6 +4816,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Raw/src/GBTUserLogicEncoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Default MID FEEId config reflects current CERN config",
+            "number": 7023,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/FEEIdConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/FEEIdConfig.cxx"
                   }
                 }
               ]
