@@ -23,6 +23,7 @@
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
+- [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#6919](https://github.com/AliceO2Group/AliceO2/pull/6919) 2021-08-27: Revert "ITSMFT CTFCoder: make exception message more informative" by [@shahor02](https://github.com/shahor02)
 - [\#6920](https://github.com/AliceO2Group/AliceO2/pull/6920) 2021-08-28: Detect Alpide error: same pixels fired multiple times by [@shahor02](https://github.com/shahor02)
@@ -64,6 +65,7 @@
 - [\#7007](https://github.com/AliceO2Group/AliceO2/pull/7007) 2021-09-09: Update DCS DP DeliveryType class by Float by [@shahor02](https://github.com/shahor02)
 - [\#7011](https://github.com/AliceO2Group/AliceO2/pull/7011) 2021-09-10: TPC: handle exceptions in calib_processing_helper::processRawData by [@shahor02](https://github.com/shahor02)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
+- [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
