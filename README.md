@@ -62,6 +62,7 @@
 - [\#6998](https://github.com/AliceO2Group/AliceO2/pull/6998) 2021-09-09: allow digit writer in multi-thread by [@noferini](https://github.com/noferini)
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
 - [\#7007](https://github.com/AliceO2Group/AliceO2/pull/7007) 2021-09-09: Update DCS DP DeliveryType class by Float by [@shahor02](https://github.com/shahor02)
+- [\#7011](https://github.com/AliceO2Group/AliceO2/pull/7011) 2021-09-10: TPC: handle exceptions in calib_processing_helper::processRawData by [@shahor02](https://github.com/shahor02)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#6914](https://github.com/AliceO2Group/AliceO2/pull/6914) 2021-08-30: DPL: add online average for metrics by [@ktf](https://github.com/ktf)
