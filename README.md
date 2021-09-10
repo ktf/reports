@@ -67,6 +67,8 @@
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - EventVisualisation
+- [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#6926](https://github.com/AliceO2Group/AliceO2/pull/6926) 2021-08-30: link to documentation by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6929](https://github.com/AliceO2Group/AliceO2/pull/6929) 2021-08-31: DPL: use 500MB per reader by default by [@ktf](https://github.com/ktf)
