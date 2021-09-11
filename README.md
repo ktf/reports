@@ -49,6 +49,7 @@
 - [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 - [\#6977](https://github.com/AliceO2Group/AliceO2/pull/6977) 2021-09-10: MID workflow to test dead and noisy channels by [@dstocco](https://github.com/dstocco)
+- [\#6979](https://github.com/AliceO2Group/AliceO2/pull/6979) 2021-09-11: EMCAL DCS DP processing by [@mpoghos](https://github.com/mpoghos)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6987](https://github.com/AliceO2Group/AliceO2/pull/6987) 2021-09-08: TPC: apply drift velocity calibration from ccdb, remove CE signal for laser track calibration by [@wiechula](https://github.com/wiechula)
