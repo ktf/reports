@@ -61,6 +61,7 @@
 - [\#6998](https://github.com/AliceO2Group/AliceO2/pull/6998) 2021-09-09: allow digit writer in multi-thread by [@noferini](https://github.com/noferini)
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
 - [\#7007](https://github.com/AliceO2Group/AliceO2/pull/7007) 2021-09-09: Update DCS DP DeliveryType class by Float by [@shahor02](https://github.com/shahor02)
+- [\#7009](https://github.com/AliceO2Group/AliceO2/pull/7009) 2021-09-11: Noise calibration using clusters with pattern IDs by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7011](https://github.com/AliceO2Group/AliceO2/pull/7011) 2021-09-10: TPC: handle exceptions in calib_processing_helper::processRawData by [@shahor02](https://github.com/shahor02)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
