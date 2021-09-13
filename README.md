@@ -76,7 +76,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6929](https://github.com/AliceO2Group/AliceO2/pull/6929) 2021-08-31: DPL: use 500MB per reader by default by [@ktf](https://github.com/ktf)
 - [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6955](https://github.com/AliceO2Group/AliceO2/pull/6955) 2021-09-08: DPL: speed up bulk reading by [@ktf](https://github.com/ktf)
