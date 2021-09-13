@@ -12,8 +12,8 @@
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
+- [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#6930](https://github.com/AliceO2Group/AliceO2/pull/6930) 2021-09-06: Send different decoded MID event types to different specs by [@dstocco](https://github.com/dstocco)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
@@ -27,7 +27,6 @@
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6930](https://github.com/AliceO2Group/AliceO2/pull/6930) 2021-09-06: Send different decoded MID event types to different specs by [@dstocco](https://github.com/dstocco)
 - [\#6931](https://github.com/AliceO2Group/AliceO2/pull/6931) 2021-08-31: [MCH] use references instead of pointers by [@pillot](https://github.com/pillot)
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
@@ -72,6 +71,7 @@
 - [\#7017](https://github.com/AliceO2Group/AliceO2/pull/7017) 2021-09-12:  Add FV0 reconstruction to FST and sim_challenge + FV0 RecPoint reader by [@shahor02](https://github.com/shahor02)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7020](https://github.com/AliceO2Group/AliceO2/pull/7020) 2021-09-13: Allow to have MID raw output grouped by cru by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - EventVisualisation

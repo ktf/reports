@@ -5,106 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-06T10:10:05Z",
-            "title": "Send different decoded MID event types to different specs",
-            "number": 6930,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/ROFRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/test/test_ctf_io_mid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/CTF/include/MIDCTF/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/CTF/include/MIDCTF/CTFHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/CTF/src/CTFCoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/CTF/src/CTFHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/exe/raw-checker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/DecodedDataAggregator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/DecodedDataAggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/ELinkDataShaper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/GBTOutputHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/DecodedDataAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/DecodedDataAggregatorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/EntropyEncoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/raw-to-digits-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-31T16:16:18Z",
             "title": "[MCH] use references instead of pointers",
             "number": 6931,
@@ -4669,8 +4569,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-09-13T14:19:18Z",
             "title": "Allow to have MID raw output grouped by cru",
             "number": 7020,
             "author": {
@@ -5096,6 +4996,31 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-13T14:19:27Z",
+            "title": "Fix race condition in FileFetcher",
+            "number": 7030,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/FileFetcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/FileFetcher.cxx"
                   }
                 }
               ]
