@@ -27,7 +27,6 @@
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6931](https://github.com/AliceO2Group/AliceO2/pull/6931) 2021-08-31: [MCH] use references instead of pointers by [@pillot](https://github.com/pillot)
 - [\#6935](https://github.com/AliceO2Group/AliceO2/pull/6935) 2021-09-01: FIT: new feature("--file-for") for digit2raw by [@afurs](https://github.com/afurs)
 - [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
 - [\#6939](https://github.com/AliceO2Group/AliceO2/pull/6939) 2021-09-02: [MRRTF-144] [O2-2486] mch-digits-to-raw: add per cru endpoint output by [@aphecetche](https://github.com/aphecetche)
