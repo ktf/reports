@@ -35,6 +35,7 @@
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
 - [\#6942](https://github.com/AliceO2Group/AliceO2/pull/6942) 2021-09-03: Optional fall-back dir. for CTFwriter + free space check on primary one by [@shahor02](https://github.com/shahor02)
 - [\#6944](https://github.com/AliceO2Group/AliceO2/pull/6944) 2021-09-03: FT0: dispatcher-mode option for FT0TFProcessor-Workflow by [@afurs](https://github.com/afurs)
+- [\#6945](https://github.com/AliceO2Group/AliceO2/pull/6945) 2021-09-13: fix for TOF RAW encoding output filename by [@noferini](https://github.com/noferini)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 - [\#6951](https://github.com/AliceO2Group/AliceO2/pull/6951) 2021-09-06: Add new MFT DPs in MFT/condition by [@syano0822](https://github.com/syano0822)
