@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6970](https://github.com/AliceO2Group/AliceO2/pull/6970) 2021-09-08: collision slice for ambiguous track table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
@@ -77,7 +76,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6932](https://github.com/AliceO2Group/AliceO2/pull/6932) 2021-08-31: rename TF to DF by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6955](https://github.com/AliceO2Group/AliceO2/pull/6955) 2021-09-08: DPL: speed up bulk reading by [@ktf](https://github.com/ktf)
 - [\#6958](https://github.com/AliceO2Group/AliceO2/pull/6958) 2021-09-03: DPL GUI: speedup with many metrics by [@ktf](https://github.com/ktf)
