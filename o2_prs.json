@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-30T10:38:39Z",
-            "title": "fix in MID reco in sim_challenge",
-            "number": 6927,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-30T12:14:45Z",
             "title": "avoid dependency on file system order",
             "number": 6928,
@@ -5016,6 +4996,71 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflow/src/RawToDigitConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: update raw data monitor, update standalone laser calibration + misc",
+            "number": 7027,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/RDHUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibLaserTracks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/include/TPCMonitor/SimpleEventDisplayGUI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/macro/startMonitor"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/run/runMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/src/TPCMonitorLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/RawProcessingHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
                   }
                 }
               ]
