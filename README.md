@@ -25,7 +25,6 @@
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6937](https://github.com/AliceO2Group/AliceO2/pull/6937) 2021-08-31: Add TPC ZS encoder "--file-for cru" option by [@davidrohr](https://github.com/davidrohr)
 - [\#6939](https://github.com/AliceO2Group/AliceO2/pull/6939) 2021-09-02: [MRRTF-144] [O2-2486] mch-digits-to-raw: add per cru endpoint output by [@aphecetche](https://github.com/aphecetche)
 - [\#6940](https://github.com/AliceO2Group/AliceO2/pull/6940) 2021-08-31: Fix in ITSMisaligner: discard suppressed layers DOF by [@shahor02](https://github.com/shahor02)
 - [\#6941](https://github.com/AliceO2Group/AliceO2/pull/6941) 2021-09-01: FIT LUT: common lookup table implemented for FV0 and FDD by [@afurs](https://github.com/afurs)
