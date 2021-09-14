@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-31T07:36:06Z",
-            "title": "FST: Don't update ini files",
-            "number": 6938,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-02T14:29:16Z",
             "title": "[MRRTF-144] [O2-2486] mch-digits-to-raw: add per cru endpoint output",
             "number": 6939,
@@ -5191,6 +5171,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_TimesliceIndex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow service registry when checking if a record is expired",
+            "number": 7038,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ExpirationHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
                   }
                 }
               ]
