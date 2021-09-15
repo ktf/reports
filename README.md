@@ -55,6 +55,7 @@
 - [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6995](https://github.com/AliceO2Group/AliceO2/pull/6995) 2021-09-09: Modified the MFT DCS DPs and Add makeMFTCCDBEntryForDCS.C by [@syano0822](https://github.com/syano0822)
+- [\#6996](https://github.com/AliceO2Group/AliceO2/pull/6996) 2021-09-15: ITS GPU: First step of ITS GPU code reorganization by [@mconcas](https://github.com/mconcas)
 - [\#6998](https://github.com/AliceO2Group/AliceO2/pull/6998) 2021-09-09: allow digit writer in multi-thread by [@noferini](https://github.com/noferini)
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
 - [\#7006](https://github.com/AliceO2Group/AliceO2/pull/7006) 2021-09-13: Fix reading of empty frames and cluster indices O2-2571 by [@mpuccio](https://github.com/mpuccio)
