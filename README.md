@@ -25,6 +25,7 @@
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Detectors
 - [\#6945](https://github.com/AliceO2Group/AliceO2/pull/6945) 2021-09-13: fix for TOF RAW encoding output filename by [@noferini](https://github.com/noferini)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
@@ -68,6 +69,7 @@
 - [\#7020](https://github.com/AliceO2Group/AliceO2/pull/7020) 2021-09-13: Allow to have MID raw output grouped by cru by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
+- [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
 - [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
@@ -84,11 +86,14 @@
 - [\#6989](https://github.com/AliceO2Group/AliceO2/pull/6989) 2021-09-08: DPL: fix handling of empty tables by [@ktf](https://github.com/ktf)
 - [\#7001](https://github.com/AliceO2Group/AliceO2/pull/7001) 2021-09-09: DPL GUI: update to new API by [@ktf](https://github.com/ktf)
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
+- [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7037](https://github.com/AliceO2Group/AliceO2/pull/7037) 2021-09-14: DPL: use CTP information if available by [@ktf](https://github.com/ktf)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
+- [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Utilities
 - [\#6960](https://github.com/AliceO2Group/AliceO2/pull/6960) 2021-09-08: [QC-643] Data Sampling: use random seed if 0 is set by [@knopers8](https://github.com/knopers8)
 - [\#7014](https://github.com/AliceO2Group/AliceO2/pull/7014) 2021-09-11: Fix CMake: Libraries must not link to itself by [@davidrohr](https://github.com/davidrohr)
+- [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
