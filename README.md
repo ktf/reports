@@ -25,6 +25,7 @@
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Detectors
 - [\#6945](https://github.com/AliceO2Group/AliceO2/pull/6945) 2021-09-13: fix for TOF RAW encoding output filename by [@noferini](https://github.com/noferini)
@@ -68,7 +69,9 @@
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7020](https://github.com/AliceO2Group/AliceO2/pull/7020) 2021-09-13: Allow to have MID raw output grouped by cru by [@dstocco](https://github.com/dstocco)
 - [\#7022](https://github.com/AliceO2Group/AliceO2/pull/7022) 2021-09-16: Bug fixes for MID decoder by [@dstocco](https://github.com/dstocco)
+- [\#7023](https://github.com/AliceO2Group/AliceO2/pull/7023) 2021-09-16: Default MID FEEId config reflects current CERN config by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
+- [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
