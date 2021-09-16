@@ -26,7 +26,6 @@
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Detectors
-- [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
 - [\#6951](https://github.com/AliceO2Group/AliceO2/pull/6951) 2021-09-06: Add new MFT DPs in MFT/condition by [@syano0822](https://github.com/syano0822)
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6953](https://github.com/AliceO2Group/AliceO2/pull/6953) 2021-09-08: MCH: add first/last orbit option to rof-histogrammer by [@aphecetche](https://github.com/aphecetche)
