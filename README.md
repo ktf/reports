@@ -67,6 +67,7 @@
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7020](https://github.com/AliceO2Group/AliceO2/pull/7020) 2021-09-13: Allow to have MID raw output grouped by cru by [@dstocco](https://github.com/dstocco)
+- [\#7022](https://github.com/AliceO2Group/AliceO2/pull/7022) 2021-09-16: Bug fixes for MID decoder by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
