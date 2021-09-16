@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6970](https://github.com/AliceO2Group/AliceO2/pull/6970) 2021-09-08: collision slice for ambiguous track table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
@@ -26,8 +25,6 @@
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Detectors
-- [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
-- [\#6953](https://github.com/AliceO2Group/AliceO2/pull/6953) 2021-09-08: MCH: add first/last orbit option to rof-histogrammer by [@aphecetche](https://github.com/aphecetche)
 - [\#6956](https://github.com/AliceO2Group/AliceO2/pull/6956) 2021-09-09: [MFT] Enables MFT tracker for non-continuous detector mode by [@rpezzi](https://github.com/rpezzi)
 - [\#6959](https://github.com/AliceO2Group/AliceO2/pull/6959) 2021-09-06: TPC: fix region information access by [@wiechula](https://github.com/wiechula)
 - [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
@@ -72,10 +69,10 @@
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
 - [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 - [\#7046](https://github.com/AliceO2Group/AliceO2/pull/7046) 2021-09-16: O2-2582: Correct order of hits when merging by [@sawenzel](https://github.com/sawenzel)
+- [\#7050](https://github.com/AliceO2Group/AliceO2/pull/7050) 2021-09-16: Fix order of MC track labels in table by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6955](https://github.com/AliceO2Group/AliceO2/pull/6955) 2021-09-08: DPL: speed up bulk reading by [@ktf](https://github.com/ktf)
 - [\#6958](https://github.com/AliceO2Group/AliceO2/pull/6958) 2021-09-03: DPL GUI: speedup with many metrics by [@ktf](https://github.com/ktf)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)

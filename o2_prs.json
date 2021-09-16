@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-05T20:38:34Z",
-            "title": "remove CollisionTimeMask",
-            "number": 6952,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-09-08T12:07:35Z",
-            "title": "MCH: add first/last orbit option to rof-histogrammer",
-            "number": 6953,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/rofs-histogrammer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-04T07:55:00Z",
             "title": "FST: Sync changes from workflow repo to dpl-workflow.sh",
             "number": 6954,
@@ -4829,8 +4774,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-09-16T15:00:37Z",
             "title": "Fix order of MC track labels in table",
             "number": 7050,
             "author": {
@@ -4871,6 +4816,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH MID] treat each entry of the input tree as a separate TF",
+            "number": 7052,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DigitReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/DigitReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Speedup in TOF matching",
+            "number": 7053,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/Geo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/Geo.cxx"
                   }
                 }
               ]
