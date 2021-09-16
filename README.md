@@ -11,6 +11,7 @@
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
+- [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
@@ -85,6 +86,7 @@
 - [\#7001](https://github.com/AliceO2Group/AliceO2/pull/7001) 2021-09-09: DPL GUI: update to new API by [@ktf](https://github.com/ktf)
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
 - [\#7037](https://github.com/AliceO2Group/AliceO2/pull/7037) 2021-09-14: DPL: use CTP information if available by [@ktf](https://github.com/ktf)
+- [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
