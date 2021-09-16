@@ -26,7 +26,6 @@
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6944](https://github.com/AliceO2Group/AliceO2/pull/6944) 2021-09-03: FT0: dispatcher-mode option for FT0TFProcessor-Workflow by [@afurs](https://github.com/afurs)
 - [\#6945](https://github.com/AliceO2Group/AliceO2/pull/6945) 2021-09-13: fix for TOF RAW encoding output filename by [@noferini](https://github.com/noferini)
 - [\#6947](https://github.com/AliceO2Group/AliceO2/pull/6947) 2021-09-02: Change raw-file-reader default to part-per-hbf and reenable DPLRawSequencer by [@davidrohr](https://github.com/davidrohr)
 - [\#6949](https://github.com/AliceO2Group/AliceO2/pull/6949) 2021-09-03: [CPV] --file-for cru option for CPV digi2raw converter by [@sevdokim](https://github.com/sevdokim)
@@ -87,6 +86,7 @@
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
 - [\#7037](https://github.com/AliceO2Group/AliceO2/pull/7037) 2021-09-14: DPL: use CTP information if available by [@ktf](https://github.com/ktf)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
+- [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
