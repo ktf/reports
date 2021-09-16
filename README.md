@@ -4,7 +4,6 @@
 - [\#6952](https://github.com/AliceO2Group/AliceO2/pull/6952) 2021-09-05: remove CollisionTimeMask by [@jgrosseo](https://github.com/jgrosseo)
 - [\#6970](https://github.com/AliceO2Group/AliceO2/pull/6970) 2021-09-08: collision slice for ambiguous track table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6962](https://github.com/AliceO2Group/AliceO2/pull/6962) 2021-09-03: DPL Analysis: protect writer against empty messages by [@ktf](https://github.com/ktf)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
@@ -13,7 +12,6 @@
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6977](https://github.com/AliceO2Group/AliceO2/pull/6977) 2021-09-10: MID workflow to test dead and noisy channels by [@dstocco](https://github.com/dstocco)
@@ -95,7 +93,6 @@
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#6946](https://github.com/AliceO2Group/AliceO2/pull/6946) 2021-09-02: Provide bunch fillings for engineered collision context by [@sawenzel](https://github.com/sawenzel)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Utilities
 - [\#6960](https://github.com/AliceO2Group/AliceO2/pull/6960) 2021-09-08: [QC-643] Data Sampling: use random seed if 0 is set by [@knopers8](https://github.com/knopers8)
