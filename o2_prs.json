@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-06T21:44:58Z",
-            "title": "TPC: fix region information access",
-            "number": 6959,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/IDCToVectorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-08T06:59:43Z",
             "title": "[QC-643] Data Sampling: use random seed if 0 is set",
             "number": 6960,
@@ -4904,7 +4884,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Rewrite t2t",
             "number": 7055,
@@ -4916,6 +4896,11 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
                   }
                 },
                 {
@@ -5021,6 +5006,61 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Rewrite of TreeToTable and TableToTree",
+            "number": 7059,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/StandaloneAODProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableTreeHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableToTree.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TreeToTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TreeToTable.cxx"
                   }
                 }
               ]
