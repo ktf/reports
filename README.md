@@ -67,6 +67,7 @@
 - [\#7028](https://github.com/AliceO2Group/AliceO2/pull/7028) 2021-09-16: SpaceChage: Adding function to set the space-charge density from a CalDet object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7035](https://github.com/AliceO2Group/AliceO2/pull/7035) 2021-09-17: Add the "cru" option in the simulation workflow. by [@fapfap69](https://github.com/fapfap69)
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
 - [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 - [\#7046](https://github.com/AliceO2Group/AliceO2/pull/7046) 2021-09-16: O2-2582: Correct order of hits when merging by [@sawenzel](https://github.com/sawenzel)
