@@ -26,7 +26,6 @@
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Detectors
-- [\#6961](https://github.com/AliceO2Group/AliceO2/pull/6961) 2021-09-04: ZDC digi2raw options --file-for all,flp,cru,link by [@cortesep](https://github.com/cortesep)
 - [\#6963](https://github.com/AliceO2Group/AliceO2/pull/6963) 2021-09-10: Fixes and improvements in the CheckTracks.C macro by [@iouribelikov](https://github.com/iouribelikov)
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6969](https://github.com/AliceO2Group/AliceO2/pull/6969) 2021-09-09: TOF matching optimization by [@noferini](https://github.com/noferini)
