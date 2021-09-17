@@ -89,6 +89,5 @@
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Utilities
-- [\#6960](https://github.com/AliceO2Group/AliceO2/pull/6960) 2021-09-08: [QC-643] Data Sampling: use random seed if 0 is set by [@knopers8](https://github.com/knopers8)
 - [\#7014](https://github.com/AliceO2Group/AliceO2/pull/7014) 2021-09-11: Fix CMake: Libraries must not link to itself by [@davidrohr](https://github.com/davidrohr)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
