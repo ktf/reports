@@ -25,6 +25,7 @@
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#6967](https://github.com/AliceO2Group/AliceO2/pull/6967) 2021-09-07: DataDistribution TF reader workflow + related by [@shahor02](https://github.com/shahor02)
 - [\#6969](https://github.com/AliceO2Group/AliceO2/pull/6969) 2021-09-09: TOF matching optimization by [@noferini](https://github.com/noferini)
@@ -69,7 +70,9 @@
 - [\#7046](https://github.com/AliceO2Group/AliceO2/pull/7046) 2021-09-16: O2-2582: Correct order of hits when merging by [@sawenzel](https://github.com/sawenzel)
 - [\#7050](https://github.com/AliceO2Group/AliceO2/pull/7050) 2021-09-16: Fix order of MC track labels in table by [@nburmaso](https://github.com/nburmaso)
 - [\#7053](https://github.com/AliceO2Group/AliceO2/pull/7053) 2021-09-18: Speedup in TOF matching by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
+- [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
