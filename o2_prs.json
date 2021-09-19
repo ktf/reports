@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "FileFetcher class for async. queuing of local and remote files",
-            "number": 6965,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/FIFO.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/FileFetcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/StringUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/CommonUtilsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/FIFO.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/FileFetcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Forward track-matching workflow",
@@ -5041,6 +4991,41 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/DevIO/Digits/testDigitIO.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally read remote CTFs w/o copy (as root network file)",
+            "number": 7065,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/FileFetcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/FileFetcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
                   }
                 }
               ]
