@@ -72,6 +72,7 @@
 - [\#7050](https://github.com/AliceO2Group/AliceO2/pull/7050) 2021-09-16: Fix order of MC track labels in table by [@nburmaso](https://github.com/nburmaso)
 - [\#7053](https://github.com/AliceO2Group/AliceO2/pull/7053) 2021-09-18: Speedup in TOF matching by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
+- [\#7056](https://github.com/AliceO2Group/AliceO2/pull/7056) 2021-09-20: A couple of smaller improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
