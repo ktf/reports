@@ -27,7 +27,6 @@
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6969](https://github.com/AliceO2Group/AliceO2/pull/6969) 2021-09-09: TOF matching optimization by [@noferini](https://github.com/noferini)
 - [\#6971](https://github.com/AliceO2Group/AliceO2/pull/6971) 2021-09-08: Use MCTruthContainer in the CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
