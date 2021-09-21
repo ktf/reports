@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7067](https://github.com/AliceO2Group/AliceO2/pull/7067) 2021-09-21: fix typo by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
@@ -91,6 +92,7 @@
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 - [\#7067](https://github.com/AliceO2Group/AliceO2/pull/7067) 2021-09-21: fix typo by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7071](https://github.com/AliceO2Group/AliceO2/pull/7071) 2021-09-21: Improve documentation for GDB by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
