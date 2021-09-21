@@ -13,7 +13,6 @@
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6977](https://github.com/AliceO2Group/AliceO2/pull/6977) 2021-09-10: MID workflow to test dead and noisy channels by [@dstocco](https://github.com/dstocco)
 - [\#6980](https://github.com/AliceO2Group/AliceO2/pull/6980) 2021-09-07: Fixes for ITSMFT cluster pattern and dictionary by [@shahor02](https://github.com/shahor02)
 - [\#6981](https://github.com/AliceO2Group/AliceO2/pull/6981) 2021-09-07: Fix in recording CTF meta.nLiteralWords by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6975](https://github.com/AliceO2Group/AliceO2/pull/6975) 2021-09-09: add TOF diagnostic in workflow by [@noferini](https://github.com/noferini)
 - [\#6976](https://github.com/AliceO2Group/AliceO2/pull/6976) 2021-09-07: Small fix for table sizes mismatch (O2-2549) by [@nburmaso](https://github.com/nburmaso)
 - [\#6977](https://github.com/AliceO2Group/AliceO2/pull/6977) 2021-09-10: MID workflow to test dead and noisy channels by [@dstocco](https://github.com/dstocco)
 - [\#6979](https://github.com/AliceO2Group/AliceO2/pull/6979) 2021-09-11: EMCAL DCS DP processing by [@mpoghos](https://github.com/mpoghos)
