@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "MUON: dcs-ccdb: add option for dpConfName ",
-            "number": 6982,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-09-07T09:30:12Z",
             "title": "Adapted inputCard.xml to account for the new directory structure",
@@ -5166,6 +5146,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/tracks-sink-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix for extreme case of cluster phi",
+            "number": 7082,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraitsCPU.cxx"
                   }
                 }
               ]
