@@ -65,6 +65,7 @@
 - [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
 - [\#7066](https://github.com/AliceO2Group/AliceO2/pull/7066) 2021-09-21: Missing adjustments following muon change by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7070](https://github.com/AliceO2Group/AliceO2/pull/7070) 2021-09-20: Fix access to track PID in AOD TOF storage by [@shahor02](https://github.com/shahor02)
+- [\#7075](https://github.com/AliceO2Group/AliceO2/pull/7075) 2021-09-21: set track type by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7077](https://github.com/AliceO2Group/AliceO2/pull/7077) 2021-09-21: Change some fatals to throw in TPC CalibProcessHelper by [@shahor02](https://github.com/shahor02)
 - [\#7078](https://github.com/AliceO2Group/AliceO2/pull/7078) 2021-09-21: Hotfix check on the array boundaries by [@mpuccio](https://github.com/mpuccio)
 - [\#7079](https://github.com/AliceO2Group/AliceO2/pull/7079) 2021-09-21: TPC: set last time bin from GRP, can be overwritten by configKeyValues by [@wiechula](https://github.com/wiechula)
