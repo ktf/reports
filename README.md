@@ -69,6 +69,7 @@
 - [\#7066](https://github.com/AliceO2Group/AliceO2/pull/7066) 2021-09-21: Missing adjustments following muon change by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7070](https://github.com/AliceO2Group/AliceO2/pull/7070) 2021-09-20: Fix access to track PID in AOD TOF storage by [@shahor02](https://github.com/shahor02)
 - [\#7077](https://github.com/AliceO2Group/AliceO2/pull/7077) 2021-09-21: Change some fatals to throw in TPC CalibProcessHelper by [@shahor02](https://github.com/shahor02)
+- [\#7078](https://github.com/AliceO2Group/AliceO2/pull/7078) 2021-09-21: Hotfix check on the array boundaries by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
