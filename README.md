@@ -78,7 +78,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6972](https://github.com/AliceO2Group/AliceO2/pull/6972) 2021-09-06: DPL Analysis: workaround to Bulk I/O bug by [@ktf](https://github.com/ktf)
 - [\#6974](https://github.com/AliceO2Group/AliceO2/pull/6974) 2021-09-07: DPL: Improve Bulk I/O test by [@ktf](https://github.com/ktf)
 - [\#6978](https://github.com/AliceO2Group/AliceO2/pull/6978) 2021-09-07: DPL: propagate the DataHeader::runNumber information by [@ktf](https://github.com/ktf)
 - [\#6989](https://github.com/AliceO2Group/AliceO2/pull/6989) 2021-09-08: DPL: fix handling of empty tables by [@ktf](https://github.com/ktf)
