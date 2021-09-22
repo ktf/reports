@@ -23,7 +23,6 @@
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6988](https://github.com/AliceO2Group/AliceO2/pull/6988) 2021-09-08: o2-sim: hit merge optimizations by [@sawenzel](https://github.com/sawenzel)
 - [\#6990](https://github.com/AliceO2Group/AliceO2/pull/6990) 2021-09-10: Fixes and improvements in the DisplayEventsComp.C macro by [@iouribelikov](https://github.com/iouribelikov)
 - [\#6991](https://github.com/AliceO2Group/AliceO2/pull/6991) 2021-09-07: FMQ raw channel setup fixed by [@shahor02](https://github.com/shahor02)
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
