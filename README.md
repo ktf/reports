@@ -62,6 +62,7 @@
 - [\#7056](https://github.com/AliceO2Group/AliceO2/pull/7056) 2021-09-20: A couple of smaller improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#7061](https://github.com/AliceO2Group/AliceO2/pull/7061) 2021-09-22: Add tables: FV0 and FDD (partially) by [@nburmaso](https://github.com/nburmaso)
 - [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
 - [\#7066](https://github.com/AliceO2Group/AliceO2/pull/7066) 2021-09-21: Missing adjustments following muon change by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7070](https://github.com/AliceO2Group/AliceO2/pull/7070) 2021-09-20: Fix access to track PID in AOD TOF storage by [@shahor02](https://github.com/shahor02)
