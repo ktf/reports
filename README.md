@@ -12,6 +12,7 @@
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 - [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
+- [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7006](https://github.com/AliceO2Group/AliceO2/pull/7006) 2021-09-13: Fix reading of empty frames and cluster indices O2-2571 by [@mpuccio](https://github.com/mpuccio)
 - [\#7008](https://github.com/AliceO2Group/AliceO2/pull/7008) 2021-09-14: MCH-MID matching algorithm + data format + workflows by [@pillot](https://github.com/pillot)
@@ -86,6 +87,7 @@
 - [\#7071](https://github.com/AliceO2Group/AliceO2/pull/7071) 2021-09-21: Improve documentation for GDB by [@ktf](https://github.com/ktf)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7080](https://github.com/AliceO2Group/AliceO2/pull/7080) 2021-09-22: DDS to ODC by [@ktf](https://github.com/ktf)
+- [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
