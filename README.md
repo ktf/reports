@@ -6,7 +6,6 @@
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
