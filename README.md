@@ -11,6 +11,7 @@
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
+- [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7006](https://github.com/AliceO2Group/AliceO2/pull/7006) 2021-09-13: Fix reading of empty frames and cluster indices O2-2571 by [@mpuccio](https://github.com/mpuccio)
 - [\#7008](https://github.com/AliceO2Group/AliceO2/pull/7008) 2021-09-14: MCH-MID matching algorithm + data format + workflows by [@pillot](https://github.com/pillot)
@@ -59,6 +60,7 @@
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7061](https://github.com/AliceO2Group/AliceO2/pull/7061) 2021-09-22: Add tables: FV0 and FDD (partially) by [@nburmaso](https://github.com/nburmaso)
 - [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
+- [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
 - [\#7066](https://github.com/AliceO2Group/AliceO2/pull/7066) 2021-09-21: Missing adjustments following muon change by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7070](https://github.com/AliceO2Group/AliceO2/pull/7070) 2021-09-20: Fix access to track PID in AOD TOF storage by [@shahor02](https://github.com/shahor02)
 - [\#7075](https://github.com/AliceO2Group/AliceO2/pull/7075) 2021-09-21: set track type by [@jgrosseo](https://github.com/jgrosseo)
@@ -67,6 +69,7 @@
 - [\#7079](https://github.com/AliceO2Group/AliceO2/pull/7079) 2021-09-21: TPC: set last time bin from GRP, can be overwritten by configKeyValues by [@wiechula](https://github.com/wiechula)
 - [\#7081](https://github.com/AliceO2Group/AliceO2/pull/7081) 2021-09-22: MCH: consistent specnames for DataProcessorSpec getters by [@aphecetche](https://github.com/aphecetche)
 - [\#7082](https://github.com/AliceO2Group/AliceO2/pull/7082) 2021-09-21: Fix for extreme case of cluster phi by [@mpuccio](https://github.com/mpuccio)
+- [\#7085](https://github.com/AliceO2Group/AliceO2/pull/7085) 2021-09-22: Alpide decoder protection againg wrong row + mute extra lanes error reporting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
