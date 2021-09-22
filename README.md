@@ -46,6 +46,7 @@
 - [\#7023](https://github.com/AliceO2Group/AliceO2/pull/7023) 2021-09-16: Default MID FEEId config reflects current CERN config by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
+- [\#7027](https://github.com/AliceO2Group/AliceO2/pull/7027) 2021-09-22: TPC: update raw data monitor, update standalone laser calibration + misc by [@wiechula](https://github.com/wiechula)
 - [\#7028](https://github.com/AliceO2Group/AliceO2/pull/7028) 2021-09-16: SpaceChage: Adding function to set the space-charge density from a CalDet object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
@@ -73,7 +74,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#6989](https://github.com/AliceO2Group/AliceO2/pull/6989) 2021-09-08: DPL: fix handling of empty tables by [@ktf](https://github.com/ktf)
 - [\#7001](https://github.com/AliceO2Group/AliceO2/pull/7001) 2021-09-09: DPL GUI: update to new API by [@ktf](https://github.com/ktf)
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
