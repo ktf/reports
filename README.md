@@ -6,6 +6,7 @@
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
+- [\#7016](https://github.com/AliceO2Group/AliceO2/pull/7016) 2021-09-22: Muon dcs fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
@@ -31,6 +32,7 @@
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
 - [\#7013](https://github.com/AliceO2Group/AliceO2/pull/7013) 2021-09-10: TRD fix version of raw data by [@bazinski](https://github.com/bazinski)
 - [\#7014](https://github.com/AliceO2Group/AliceO2/pull/7014) 2021-09-11: Fix CMake: Libraries must not link to itself by [@davidrohr](https://github.com/davidrohr)
+- [\#7016](https://github.com/AliceO2Group/AliceO2/pull/7016) 2021-09-22: Muon dcs fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#7017](https://github.com/AliceO2Group/AliceO2/pull/7017) 2021-09-12:  Add FV0 reconstruction to FST and sim_challenge + FV0 RecPoint reader by [@shahor02](https://github.com/shahor02)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
