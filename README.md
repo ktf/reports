@@ -4,6 +4,7 @@
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7067](https://github.com/AliceO2Group/AliceO2/pull/7067) 2021-09-21: fix typo by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
@@ -87,6 +88,7 @@
 - [\#7067](https://github.com/AliceO2Group/AliceO2/pull/7067) 2021-09-21: fix typo by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7071](https://github.com/AliceO2Group/AliceO2/pull/7071) 2021-09-21: Improve documentation for GDB by [@ktf](https://github.com/ktf)
+- [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
