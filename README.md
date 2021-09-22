@@ -65,6 +65,7 @@
 - [\#7077](https://github.com/AliceO2Group/AliceO2/pull/7077) 2021-09-21: Change some fatals to throw in TPC CalibProcessHelper by [@shahor02](https://github.com/shahor02)
 - [\#7078](https://github.com/AliceO2Group/AliceO2/pull/7078) 2021-09-21: Hotfix check on the array boundaries by [@mpuccio](https://github.com/mpuccio)
 - [\#7079](https://github.com/AliceO2Group/AliceO2/pull/7079) 2021-09-21: TPC: set last time bin from GRP, can be overwritten by configKeyValues by [@wiechula](https://github.com/wiechula)
+- [\#7081](https://github.com/AliceO2Group/AliceO2/pull/7081) 2021-09-22: MCH: consistent specnames for DataProcessorSpec getters by [@aphecetche](https://github.com/aphecetche)
 - [\#7082](https://github.com/AliceO2Group/AliceO2/pull/7082) 2021-09-21: Fix for extreme case of cluster phi by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
