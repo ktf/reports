@@ -6,14 +6,12 @@
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6994](https://github.com/AliceO2Group/AliceO2/pull/6994) 2021-09-09: Protection/recovery against non-negative curvature in fitGaus by [@shahor02](https://github.com/shahor02)
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#7006](https://github.com/AliceO2Group/AliceO2/pull/7006) 2021-09-13: Fix reading of empty frames and cluster indices O2-2571 by [@mpuccio](https://github.com/mpuccio)
 - [\#7008](https://github.com/AliceO2Group/AliceO2/pull/7008) 2021-09-14: MCH-MID matching algorithm + data format + workflows by [@pillot](https://github.com/pillot)
 - [\#7012](https://github.com/AliceO2Group/AliceO2/pull/7012) 2021-09-09: Revert #5911 and dependent #6971 by [@shahor02](https://github.com/shahor02)
@@ -23,7 +21,6 @@
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#6993](https://github.com/AliceO2Group/AliceO2/pull/6993) 2021-09-08: Use proper method to create detector noise map filename  by [@shahor02](https://github.com/shahor02)
 - [\#6995](https://github.com/AliceO2Group/AliceO2/pull/6995) 2021-09-09: Modified the MFT DCS DPs and Add makeMFTCCDBEntryForDCS.C by [@syano0822](https://github.com/syano0822)
 - [\#6996](https://github.com/AliceO2Group/AliceO2/pull/6996) 2021-09-15: ITS GPU: First step of ITS GPU code reorganization by [@mconcas](https://github.com/mconcas)
 - [\#6998](https://github.com/AliceO2Group/AliceO2/pull/6998) 2021-09-09: allow digit writer in multi-thread by [@noferini](https://github.com/noferini)
