@@ -21,6 +21,7 @@
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7005](https://github.com/AliceO2Group/AliceO2/pull/7005) 2021-09-09: Fix index-shift error by [@sawenzel](https://github.com/sawenzel)
@@ -50,6 +51,7 @@
 - [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 - [\#7043](https://github.com/AliceO2Group/AliceO2/pull/7043) 2021-09-19: Fix ITS chip mapping: swap module high/low cables by [@shahor02](https://github.com/shahor02)
 - [\#7046](https://github.com/AliceO2Group/AliceO2/pull/7046) 2021-09-16: O2-2582: Correct order of hits when merging by [@sawenzel](https://github.com/sawenzel)
+- [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7050](https://github.com/AliceO2Group/AliceO2/pull/7050) 2021-09-16: Fix order of MC track labels in table by [@nburmaso](https://github.com/nburmaso)
 - [\#7053](https://github.com/AliceO2Group/AliceO2/pull/7053) 2021-09-18: Speedup in TOF matching by [@chiarazampolli](https://github.com/chiarazampolli)
