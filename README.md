@@ -70,6 +70,7 @@
 - [\#7082](https://github.com/AliceO2Group/AliceO2/pull/7082) 2021-09-21: Fix for extreme case of cluster phi by [@mpuccio](https://github.com/mpuccio)
 - [\#7085](https://github.com/AliceO2Group/AliceO2/pull/7085) 2021-09-22: Alpide decoder protection againg wrong row + mute extra lanes error reporting by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
+- [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
