@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-09T05:24:18Z",
-            "title": "DPL GUI: update to new API",
-            "number": 7001,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DebugGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/NoDebugGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/Plugin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-08T21:32:02Z",
             "title": "Dataflow docs: need full clone of analysis-framework",
             "number": 7002,
@@ -5111,6 +5071,81 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[TRD] Adapt to 3-level CCDB naming scheme",
+            "number": 7101,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/Calibrations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/OCDB2CCDB.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/OCDB2CCDBTrapConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/PrintTrapConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/Readocdb.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/Calibrations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/CheckCCDBvalues.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/CheckHits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
                   }
                 }
               ]
