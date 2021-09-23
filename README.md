@@ -23,7 +23,6 @@
 - [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7007](https://github.com/AliceO2Group/AliceO2/pull/7007) 2021-09-09: Update DCS DP DeliveryType class by Float by [@shahor02](https://github.com/shahor02)
 - [\#7008](https://github.com/AliceO2Group/AliceO2/pull/7008) 2021-09-14: MCH-MID matching algorithm + data format + workflows by [@pillot](https://github.com/pillot)
 - [\#7009](https://github.com/AliceO2Group/AliceO2/pull/7009) 2021-09-11: Noise calibration using clusters with pattern IDs by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7011](https://github.com/AliceO2Group/AliceO2/pull/7011) 2021-09-10: TPC: handle exceptions in calib_processing_helper::processRawData by [@shahor02](https://github.com/shahor02)
