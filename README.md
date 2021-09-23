@@ -94,6 +94,7 @@
 - [\#7090](https://github.com/AliceO2Group/AliceO2/pull/7090) 2021-09-23: HistogramRegistry: provide add() function that directly returns hist pointer by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7100](https://github.com/AliceO2Group/AliceO2/pull/7100) 2021-09-23: DPL: disable parallel processing for analysis by [@ktf](https://github.com/ktf)
+- [\#7103](https://github.com/AliceO2Group/AliceO2/pull/7103) 2021-09-23: DPL: flush more metrics to avoid race condition in analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
