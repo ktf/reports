@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-10T15:27:16Z",
-            "title": "Add some debug output on which EPN node the EVE Display Data Extraction is running",
-            "number": 7015,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-22T14:46:14Z",
             "title": "Muon dcs fixes",
             "number": 7016,
@@ -2789,8 +2769,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-09-24T12:58:09Z",
             "title": "Rewrite TableToTree to be more generic",
             "number": 7073,
             "author": {
@@ -4751,6 +4731,41 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/calibration/testWorkflow/tof-diagnostic-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Complete BunchFilling with A/C beam patterns + related",
+            "number": 7115,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/LHCConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/BunchFilling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/src/BunchFilling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/CreateBCPattern.C"
                   }
                 }
               ]
