@@ -6,7 +6,6 @@
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7016](https://github.com/AliceO2Group/AliceO2/pull/7016) 2021-09-22: Muon dcs fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#7030](https://github.com/AliceO2Group/AliceO2/pull/7030) 2021-09-13: Fix race condition in FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
@@ -20,7 +19,6 @@
 - [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7016](https://github.com/AliceO2Group/AliceO2/pull/7016) 2021-09-22: Muon dcs fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#7017](https://github.com/AliceO2Group/AliceO2/pull/7017) 2021-09-12:  Add FV0 reconstruction to FST and sim_challenge + FV0 RecPoint reader by [@shahor02](https://github.com/shahor02)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
 - [\#7019](https://github.com/AliceO2Group/AliceO2/pull/7019) 2021-09-13: ZDC RecEvent reader + add ZDC, FV0 and FDD to RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
@@ -69,6 +67,7 @@
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
+- [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)

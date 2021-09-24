@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-22T14:46:14Z",
-            "title": "Muon dcs fixes",
-            "number": 7016,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/aliasFixer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/aliasFixer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/mch-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/mid-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/src/DCSNamer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/test/LVAliases.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-12T18:58:39Z",
             "title": " Add FV0 reconstruction to FST and sim_challenge + FV0 RecPoint reader",
             "number": 7017,
@@ -4761,6 +4701,31 @@
                 {
                   "node": {
                     "path": "macro/CreateBCPattern.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-24T14:35:34Z",
+            "title": "Fix bounding box usage in splitting of huge ITS/MFT clusters",
+            "number": 7116,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
                   }
                 }
               ]
