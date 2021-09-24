@@ -20,7 +20,6 @@
 - [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7014](https://github.com/AliceO2Group/AliceO2/pull/7014) 2021-09-11: Fix CMake: Libraries must not link to itself by [@davidrohr](https://github.com/davidrohr)
 - [\#7016](https://github.com/AliceO2Group/AliceO2/pull/7016) 2021-09-22: Muon dcs fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#7017](https://github.com/AliceO2Group/AliceO2/pull/7017) 2021-09-12:  Add FV0 reconstruction to FST and sim_challenge + FV0 RecPoint reader by [@shahor02](https://github.com/shahor02)
 - [\#7018](https://github.com/AliceO2Group/AliceO2/pull/7018) 2021-09-10: Add cru option dectription to TPC digit->raw by [@shahor02](https://github.com/shahor02)
@@ -96,5 +95,4 @@
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#7014](https://github.com/AliceO2Group/AliceO2/pull/7014) 2021-09-11: Fix CMake: Libraries must not link to itself by [@davidrohr](https://github.com/davidrohr)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
