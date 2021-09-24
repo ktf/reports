@@ -67,6 +67,7 @@
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
+- [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Framework
 - [\#7021](https://github.com/AliceO2Group/AliceO2/pull/7021) 2021-09-13: DPL Analysis: allow std::vector column types backed by variable size list by [@aalkin](https://github.com/aalkin)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
