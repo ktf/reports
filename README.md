@@ -74,6 +74,7 @@
 - [\#7096](https://github.com/AliceO2Group/AliceO2/pull/7096) 2021-09-23: TPC should use HBFUtils::Instance().getFirstIRSampled(); by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#7015](https://github.com/AliceO2Group/AliceO2/pull/7015) 2021-09-10: Add some debug output on which EPN node the EVE Display Data Extraction is running by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
@@ -95,6 +96,7 @@
 - [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7100](https://github.com/AliceO2Group/AliceO2/pull/7100) 2021-09-23: DPL: disable parallel processing for analysis by [@ktf](https://github.com/ktf)
 - [\#7103](https://github.com/AliceO2Group/AliceO2/pull/7103) 2021-09-23: DPL: flush more metrics to avoid race condition in analysis by [@ktf](https://github.com/ktf)
+- [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
