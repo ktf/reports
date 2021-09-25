@@ -13,14 +13,15 @@
 - [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
 - [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
+- [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
+- [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7022](https://github.com/AliceO2Group/AliceO2/pull/7022) 2021-09-16: Bug fixes for MID decoder by [@dstocco](https://github.com/dstocco)
 - [\#7023](https://github.com/AliceO2Group/AliceO2/pull/7023) 2021-09-16: Default MID FEEId config reflects current CERN config by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
@@ -67,6 +68,7 @@
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
+- [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7037](https://github.com/AliceO2Group/AliceO2/pull/7037) 2021-09-14: DPL: use CTP information if available by [@ktf](https://github.com/ktf)

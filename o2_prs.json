@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-16T07:51:20Z",
-            "title": "Bug fixes for MID decoder",
-            "number": 7022,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/ELinkDataShaper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/GBTUserLogicEncoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/ELinkDataShaper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/ELinkManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/GBTUserLogicEncoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-16T08:19:19Z",
             "title": "Default MID FEEId config reflects current CERN config",
             "number": 7023,
@@ -4434,8 +4394,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-09-25T01:10:46Z",
             "title": "Complete BunchFilling with A/C beam patterns + related",
             "number": 7115,
             "author": {
@@ -4766,6 +4726,26 @@
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-25T01:16:55Z",
+            "title": "Hotfix in CTFWriter: 0 instead of nullptr",
+            "number": 7122,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
