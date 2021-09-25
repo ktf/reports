@@ -59,6 +59,7 @@
 - [\#7085](https://github.com/AliceO2Group/AliceO2/pull/7085) 2021-09-22: Alpide decoder protection againg wrong row + mute extra lanes error reporting by [@shahor02](https://github.com/shahor02)
 - [\#7091](https://github.com/AliceO2Group/AliceO2/pull/7091) 2021-09-23: [EMCAL-630] Fill cell container only for cells where the raw fit was … by [@mfasDa](https://github.com/mfasDa)
 - [\#7092](https://github.com/AliceO2Group/AliceO2/pull/7092) 2021-09-23: skip TOF LTM during decoding by [@noferini](https://github.com/noferini)
+- [\#7094](https://github.com/AliceO2Group/AliceO2/pull/7094) 2021-09-25: Improve checker for MID raw data consistency by [@dstocco](https://github.com/dstocco)
 - [\#7095](https://github.com/AliceO2Group/AliceO2/pull/7095) 2021-09-23: MCH mapping optimizations by [@aphecetche](https://github.com/aphecetche)
 - [\#7096](https://github.com/AliceO2Group/AliceO2/pull/7096) 2021-09-23: TPC should use HBFUtils::Instance().getFirstIRSampled(); by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
