@@ -24,6 +24,7 @@
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
+- [\#7025](https://github.com/AliceO2Group/AliceO2/pull/7025) 2021-09-25: Modified MFT DP name (full name -> alias name). Add DP name resolver code DCSNameResolver by [@syano0822](https://github.com/syano0822)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7027](https://github.com/AliceO2Group/AliceO2/pull/7027) 2021-09-22: TPC: update raw data monitor, update standalone laser calibration + misc by [@wiechula](https://github.com/wiechula)
 - [\#7028](https://github.com/AliceO2Group/AliceO2/pull/7028) 2021-09-16: SpaceChage: Adding function to set the space-charge density from a CalDet object by [@matthias-kleiner](https://github.com/matthias-kleiner)
