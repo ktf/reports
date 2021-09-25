@@ -69,6 +69,7 @@
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
+- [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7037](https://github.com/AliceO2Group/AliceO2/pull/7037) 2021-09-14: DPL: use CTP information if available by [@ktf](https://github.com/ktf)
