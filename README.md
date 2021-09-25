@@ -68,6 +68,7 @@
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7112](https://github.com/AliceO2Group/AliceO2/pull/7112) 2021-09-25: Little fixes in the ITS noise calibration by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
+- [\#7118](https://github.com/AliceO2Group/AliceO2/pull/7118) 2021-09-25: [MFT] Use unique volume names by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 - [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
