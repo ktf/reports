@@ -22,7 +22,6 @@
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7023](https://github.com/AliceO2Group/AliceO2/pull/7023) 2021-09-16: Default MID FEEId config reflects current CERN config by [@dstocco](https://github.com/dstocco)
 - [\#7024](https://github.com/AliceO2Group/AliceO2/pull/7024) 2021-09-13: CTFReader can read remote files via FileFetcher by [@shahor02](https://github.com/shahor02)
 - [\#7026](https://github.com/AliceO2Group/AliceO2/pull/7026) 2021-09-16: digi2raw fixes + raw file links by [@lietava](https://github.com/lietava)
 - [\#7027](https://github.com/AliceO2Group/AliceO2/pull/7027) 2021-09-22: TPC: update raw data monitor, update standalone laser calibration + misc by [@wiechula](https://github.com/wiechula)
