@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-22T08:57:53Z",
-            "title": "TPC: update raw data monitor, update standalone laser calibration + misc",
-            "number": 7027,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/RDHUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibLaserTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibRawBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/DigitDump.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/include/TPCMonitor/SimpleEventDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/include/TPCMonitor/SimpleEventDisplayGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/macro/startMonitor"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/run/runMonitor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/src/TPCMonitorLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/RawProcessingHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/MonitorWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/MonitorWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-monitor-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-16T08:53:49Z",
             "title": "SpaceChage: Adding function to set the space-charge density from a CalDet object",
             "number": 7028,
@@ -4644,10 +4534,100 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Fit dev update",
             "number": 7126,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/simulation/src/digit2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/simulation/src/digit2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/digit2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DataBlockFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/DigitBlockFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawReaderBaseFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/raw/include/FITRaw/RawWriterFIT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITDataReaderDPLSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/RawReaderFIT.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: LUT url/path option, pre-allocation option, some update in RawEventData",
+            "number": 7127,
             "author": {
               "login": "afurs"
             },

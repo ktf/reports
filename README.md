@@ -24,7 +24,6 @@
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7027](https://github.com/AliceO2Group/AliceO2/pull/7027) 2021-09-22: TPC: update raw data monitor, update standalone laser calibration + misc by [@wiechula](https://github.com/wiechula)
 - [\#7028](https://github.com/AliceO2Group/AliceO2/pull/7028) 2021-09-16: SpaceChage: Adding function to set the space-charge density from a CalDet object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7029](https://github.com/AliceO2Group/AliceO2/pull/7029) 2021-09-13: Fix MC collision labels by [@nburmaso](https://github.com/nburmaso)
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
