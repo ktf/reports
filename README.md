@@ -70,8 +70,10 @@
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
 - [\#7118](https://github.com/AliceO2Group/AliceO2/pull/7118) 2021-09-25: [MFT] Use unique volume names by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
+- [\#7120](https://github.com/AliceO2Group/AliceO2/pull/7120) 2021-09-26: 3-level path for TOF CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 - [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
+- [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
