@@ -16,6 +16,7 @@
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7109](https://github.com/AliceO2Group/AliceO2/pull/7109) 2021-09-25: ConfigParam - Ccdb-Api integration by [@sawenzel](https://github.com/sawenzel)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
+- [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
@@ -23,6 +24,7 @@
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
+- [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
@@ -71,6 +73,7 @@
 - [\#7118](https://github.com/AliceO2Group/AliceO2/pull/7118) 2021-09-25: [MFT] Use unique volume names by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 - [\#7120](https://github.com/AliceO2Group/AliceO2/pull/7120) 2021-09-26: 3-level path for TOF CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 - [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
 - [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
