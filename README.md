@@ -25,7 +25,6 @@
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#7035](https://github.com/AliceO2Group/AliceO2/pull/7035) 2021-09-17: Add the "cru" option in the simulation workflow. by [@fapfap69](https://github.com/fapfap69)
 - [\#7036](https://github.com/AliceO2Group/AliceO2/pull/7036) 2021-09-14: bug fix in TOF ctf decoding by [@noferini](https://github.com/noferini)
 - [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 - [\#7043](https://github.com/AliceO2Group/AliceO2/pull/7043) 2021-09-19: Fix ITS chip mapping: swap module high/low cables by [@shahor02](https://github.com/shahor02)
