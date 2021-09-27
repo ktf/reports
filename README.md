@@ -78,6 +78,7 @@
 - [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
+- [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7039](https://github.com/AliceO2Group/AliceO2/pull/7039) 2021-09-16: DPL: get CTP information to retrieve the orbitResetTime by [@ktf](https://github.com/ktf)
 - [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
