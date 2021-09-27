@@ -24,6 +24,7 @@
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
+- [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7035](https://github.com/AliceO2Group/AliceO2/pull/7035) 2021-09-17: Add the "cru" option in the simulation workflow. by [@fapfap69](https://github.com/fapfap69)
@@ -76,6 +77,7 @@
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 - [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
 - [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
+- [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7034](https://github.com/AliceO2Group/AliceO2/pull/7034) 2021-09-16: Cleaning up use of DataHeader by [@matthiasrichter](https://github.com/matthiasrichter)
