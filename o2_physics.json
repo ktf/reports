@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-08-19T17:48:10Z",
-            "title": "PWGHF: Run J/ψ selector in ALICE 3 mode by default",
-            "number": 24,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/HFJpsiCandidateSelector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-21T09:06:20Z",
             "title": "PWGHF: Adding efficiency weighting to DDbar code",
             "number": 25,
@@ -3571,6 +3551,36 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added a producer task for PID ML data. To be used on Hyperloop.",
+            "number": 124,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PIDML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/PIDML/pidProducer.cxx"
                   }
                 }
               ]
