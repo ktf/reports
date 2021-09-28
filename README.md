@@ -18,7 +18,6 @@
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7083](https://github.com/AliceO2Group/AliceO2/pull/7083) 2021-09-26: Reconstruction update and AOD for FDD  by [@mbroz84](https://github.com/mbroz84)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#7047](https://github.com/AliceO2Group/AliceO2/pull/7047) 2021-09-23: parsing fixes, used for kr run by [@bazinski](https://github.com/bazinski)
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7050](https://github.com/AliceO2Group/AliceO2/pull/7050) 2021-09-16: Fix order of MC track labels in table by [@nburmaso](https://github.com/nburmaso)
 - [\#7053](https://github.com/AliceO2Group/AliceO2/pull/7053) 2021-09-18: Speedup in TOF matching by [@chiarazampolli](https://github.com/chiarazampolli)
