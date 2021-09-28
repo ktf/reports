@@ -80,6 +80,7 @@
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 - [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
 - [\#7135](https://github.com/AliceO2Group/AliceO2/pull/7135) 2021-09-27: raw input optional in tof compressor by [@noferini](https://github.com/noferini)
+- [\#7139](https://github.com/AliceO2Group/AliceO2/pull/7139) 2021-09-28: fix for ITSTPC matching timers/counters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
