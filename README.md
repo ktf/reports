@@ -27,7 +27,6 @@
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#7041](https://github.com/AliceO2Group/AliceO2/pull/7041) 2021-09-15: Fix typo in CTF selection default regex by [@shahor02](https://github.com/shahor02)
 - [\#7043](https://github.com/AliceO2Group/AliceO2/pull/7043) 2021-09-19: Fix ITS chip mapping: swap module high/low cables by [@shahor02](https://github.com/shahor02)
 - [\#7045](https://github.com/AliceO2Group/AliceO2/pull/7045) 2021-09-23: SpaceCharge: updating createSCHistosFromHits macro and bug fixing by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7046](https://github.com/AliceO2Group/AliceO2/pull/7046) 2021-09-16: O2-2582: Correct order of hits when merging by [@sawenzel](https://github.com/sawenzel)
