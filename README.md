@@ -81,7 +81,6 @@
 - [\#7135](https://github.com/AliceO2Group/AliceO2/pull/7135) 2021-09-27: raw input optional in tof compressor by [@noferini](https://github.com/noferini)
 - [\#7139](https://github.com/AliceO2Group/AliceO2/pull/7139) 2021-09-28: fix for ITSTPC matching timers/counters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7044](https://github.com/AliceO2Group/AliceO2/pull/7044) 2021-09-16: Create PROFILING.md by [@ktf](https://github.com/ktf)
 - [\#7048](https://github.com/AliceO2Group/AliceO2/pull/7048) 2021-09-19: Change of Track and FwdTrack Data Model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7049](https://github.com/AliceO2Group/AliceO2/pull/7049) 2021-09-23: DPL: forward message early when possible by [@ktf](https://github.com/ktf)
 - [\#7051](https://github.com/AliceO2Group/AliceO2/pull/7051) 2021-09-17: DPL: use Verbosity::Debug for DPL GUI metrics by [@ktf](https://github.com/ktf)
@@ -102,5 +101,6 @@
 - [\#7129](https://github.com/AliceO2Group/AliceO2/pull/7129) 2021-09-26: Replace --dds, rather than --odc by [@ktf](https://github.com/ktf)
 - [\#7134](https://github.com/AliceO2Group/AliceO2/pull/7134) 2021-09-27: DPL: forwards FMQ's --network-interface option by [@davidrohr](https://github.com/davidrohr)
 - [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
+- [\#7141](https://github.com/AliceO2Group/AliceO2/pull/7141) 2021-09-28: DPL: have resource accounting for analysis work with 200MB per reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
