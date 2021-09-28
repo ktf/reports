@@ -59,6 +59,7 @@
 - [\#7096](https://github.com/AliceO2Group/AliceO2/pull/7096) 2021-09-23: TPC should use HBFUtils::Instance().getFirstIRSampled(); by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
+- [\#7101](https://github.com/AliceO2Group/AliceO2/pull/7101) 2021-09-28: [TRD] Adapt to 3-level CCDB naming scheme by [@martenole](https://github.com/martenole)
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7105](https://github.com/AliceO2Group/AliceO2/pull/7105) 2021-09-26: Move lambda to template helper to fix XCode13 compile problem by [@sawenzel](https://github.com/sawenzel)
