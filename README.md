@@ -74,6 +74,7 @@
 - [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
+- [\#7132](https://github.com/AliceO2Group/AliceO2/pull/7132) 2021-09-29: TPC: fixes und updates in laser drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
 - [\#7135](https://github.com/AliceO2Group/AliceO2/pull/7135) 2021-09-27: raw input optional in tof compressor by [@noferini](https://github.com/noferini)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
