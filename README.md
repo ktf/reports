@@ -25,8 +25,6 @@
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7052](https://github.com/AliceO2Group/AliceO2/pull/7052) 2021-09-29: [MCH MID] treat each entry of the input tree as a separate TF by [@pillot](https://github.com/pillot)
-- [\#7053](https://github.com/AliceO2Group/AliceO2/pull/7053) 2021-09-18: Speedup in TOF matching by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7056](https://github.com/AliceO2Group/AliceO2/pull/7056) 2021-09-20: A couple of smaller improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
@@ -78,6 +76,7 @@
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 - [\#7139](https://github.com/AliceO2Group/AliceO2/pull/7139) 2021-09-28: fix for ITSTPC matching timers/counters by [@shahor02](https://github.com/shahor02)
 - [\#7145](https://github.com/AliceO2Group/AliceO2/pull/7145) 2021-09-28: Correctly convert relative vertex times into global BC information by [@sawenzel](https://github.com/sawenzel)
+- [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 - [\#7067](https://github.com/AliceO2Group/AliceO2/pull/7067) 2021-09-21: fix typo by [@jgrosseo](https://github.com/jgrosseo)
