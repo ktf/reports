@@ -16,7 +16,6 @@
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7083](https://github.com/AliceO2Group/AliceO2/pull/7083) 2021-09-26: Reconstruction update and AOD for FDD  by [@mbroz84](https://github.com/mbroz84)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -25,7 +24,6 @@
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7054](https://github.com/AliceO2Group/AliceO2/pull/7054) 2021-09-19:  ITS/MFT CTF decoder can mask noise in clusters or send digits by [@shahor02](https://github.com/shahor02)
 - [\#7056](https://github.com/AliceO2Group/AliceO2/pull/7056) 2021-09-20: A couple of smaller improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)

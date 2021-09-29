@@ -4,86 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-09-19T15:07:02Z",
-            "title": " ITS/MFT CTF decoder can mask noise in clusters or send digits",
-            "number": 7054,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/ClusterPattern.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/NoiseMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/test/test_ctf_io_itsmft.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/LookUp.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/CTFCoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/LookUp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/EntropyDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Rewrite t2t",
@@ -4751,6 +4671,46 @@
                 {
                   "node": {
                     "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] propagate ROF width",
+            "number": 7154,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterFinderOriginalSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/PreClusterFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackFinderOriginalSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackFitterSpec.cxx"
                   }
                 }
               ]
