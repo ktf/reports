@@ -25,8 +25,6 @@
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7060](https://github.com/AliceO2Group/AliceO2/pull/7060) 2021-09-23: TPC CalDet: add missing case in getValue by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#7061](https://github.com/AliceO2Group/AliceO2/pull/7061) 2021-09-22: Add tables: FV0 and FDD (partially) by [@nburmaso](https://github.com/nburmaso)
 - [\#7062](https://github.com/AliceO2Group/AliceO2/pull/7062) 2021-09-19: Misc. fixes and optimization for global tracking / vertxing by [@shahor02](https://github.com/shahor02)
 - [\#7064](https://github.com/AliceO2Group/AliceO2/pull/7064) 2021-09-23: MCH: fix some (stupid) errors in DigitIOV4 by [@aphecetche](https://github.com/aphecetche)
 - [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
