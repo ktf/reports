@@ -25,7 +25,6 @@
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7064](https://github.com/AliceO2Group/AliceO2/pull/7064) 2021-09-23: MCH: fix some (stupid) errors in DigitIOV4 by [@aphecetche](https://github.com/aphecetche)
 - [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
 - [\#7066](https://github.com/AliceO2Group/AliceO2/pull/7066) 2021-09-21: Missing adjustments following muon change by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7070](https://github.com/AliceO2Group/AliceO2/pull/7070) 2021-09-20: Fix access to track PID in AOD TOF storage by [@shahor02](https://github.com/shahor02)
