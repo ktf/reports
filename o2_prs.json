@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-21T06:26:57Z",
-            "title": "Missing adjustments following muon change",
-            "number": 7066,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-21T06:25:39Z",
             "title": "fix typo",
             "number": 7067,
@@ -4716,6 +4691,66 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add more aggressive noise treatment for physics data taking + misc adjustments",
+            "number": 7166,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/Painter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/Mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibTreeDump.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/drawPulser.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/runPulser.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalibTreeDump.cxx"
                   }
                 }
               ]
