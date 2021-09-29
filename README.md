@@ -5,6 +5,7 @@
 - [\#7068](https://github.com/AliceO2Group/AliceO2/pull/7068) 2021-09-21: Adding expression column for detector map by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
+- [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#7063](https://github.com/AliceO2Group/AliceO2/pull/7063) 2021-09-18: DPL: fix deprecated Monitoring API by [@ktf](https://github.com/ktf)
 - [\#7065](https://github.com/AliceO2Group/AliceO2/pull/7065) 2021-09-22: Optionally read remote CTFs w/o copy (as root network file) by [@shahor02](https://github.com/shahor02)
@@ -24,7 +25,6 @@
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7060](https://github.com/AliceO2Group/AliceO2/pull/7060) 2021-09-23: TPC CalDet: add missing case in getValue by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7061](https://github.com/AliceO2Group/AliceO2/pull/7061) 2021-09-22: Add tables: FV0 and FDD (partially) by [@nburmaso](https://github.com/nburmaso)
@@ -94,6 +94,7 @@
 - [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
 - [\#7141](https://github.com/AliceO2Group/AliceO2/pull/7141) 2021-09-28: DPL: have resource accounting for analysis work with 200MB per reader by [@ktf](https://github.com/ktf)
 - [\#7147](https://github.com/AliceO2Group/AliceO2/pull/7147) 2021-09-28: Avoid overallocations by [@ktf](https://github.com/ktf)
+- [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
