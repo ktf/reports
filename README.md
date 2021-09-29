@@ -24,7 +24,6 @@
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7056](https://github.com/AliceO2Group/AliceO2/pull/7056) 2021-09-20: A couple of smaller improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7057](https://github.com/AliceO2Group/AliceO2/pull/7057) 2021-09-18: check addedd to solve decoding problem temporary needed (to be debugg… by [@noferini](https://github.com/noferini)
 - [\#7058](https://github.com/AliceO2Group/AliceO2/pull/7058) 2021-09-20: fix bug in geometry by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7060](https://github.com/AliceO2Group/AliceO2/pull/7060) 2021-09-23: TPC CalDet: add missing case in getValue by [@matthias-kleiner](https://github.com/matthias-kleiner)
