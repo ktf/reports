@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-20T20:50:29Z",
-            "title": "Fix access to track PID in AOD TOF storage",
-            "number": 7070,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-21T07:53:13Z",
             "title": "Improve documentation for GDB",
             "number": 7071,
@@ -4472,6 +4452,11 @@
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/TRK/macros/ALICE3toAO2D.C"
+                  }
                 }
               ]
             }
@@ -4751,6 +4736,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add interface to update calibration objects",
+            "number": 7170,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.h"
                   }
                 }
               ]
