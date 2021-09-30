@@ -95,5 +95,3 @@
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
 - [\#7163](https://github.com/AliceO2Group/AliceO2/pull/7163) 2021-09-29: DPL Analysis: convince ROOT not to keep buffers around by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#7076](https://github.com/AliceO2Group/AliceO2/pull/7076) 2021-09-22: Allow to generate collision contexts starting at given timeframe-id by [@sawenzel](https://github.com/sawenzel)
