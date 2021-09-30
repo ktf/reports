@@ -76,7 +76,6 @@
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7071](https://github.com/AliceO2Group/AliceO2/pull/7071) 2021-09-21: Improve documentation for GDB by [@ktf](https://github.com/ktf)
 - [\#7073](https://github.com/AliceO2Group/AliceO2/pull/7073) 2021-09-24: Rewrite TableToTree to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7074](https://github.com/AliceO2Group/AliceO2/pull/7074) 2021-09-22: Adding dynamic columns hasITS, hasTPC, hasTRD by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7080](https://github.com/AliceO2Group/AliceO2/pull/7080) 2021-09-22: DDS to ODC by [@ktf](https://github.com/ktf)
