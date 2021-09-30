@@ -23,7 +23,6 @@
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7075](https://github.com/AliceO2Group/AliceO2/pull/7075) 2021-09-21: set track type by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7077](https://github.com/AliceO2Group/AliceO2/pull/7077) 2021-09-21: Change some fatals to throw in TPC CalibProcessHelper by [@shahor02](https://github.com/shahor02)
 - [\#7078](https://github.com/AliceO2Group/AliceO2/pull/7078) 2021-09-21: Hotfix check on the array boundaries by [@mpuccio](https://github.com/mpuccio)
 - [\#7079](https://github.com/AliceO2Group/AliceO2/pull/7079) 2021-09-21: TPC: set last time bin from GRP, can be overwritten by configKeyValues by [@wiechula](https://github.com/wiechula)
