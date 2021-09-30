@@ -19,6 +19,7 @@
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
+- [\#7146](https://github.com/AliceO2Group/AliceO2/pull/7146) 2021-09-30: Add MCH TRACKCLUSTERS to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -65,11 +66,13 @@
 - [\#7140](https://github.com/AliceO2Group/AliceO2/pull/7140) 2021-09-29: ITS: Reduce seeding vertexer verbosity by [@mconcas](https://github.com/mconcas)
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7145](https://github.com/AliceO2Group/AliceO2/pull/7145) 2021-09-28: Correctly convert relative vertex times into global BC information by [@sawenzel](https://github.com/sawenzel)
+- [\#7146](https://github.com/AliceO2Group/AliceO2/pull/7146) 2021-09-30: Add MCH TRACKCLUSTERS to RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7151](https://github.com/AliceO2Group/AliceO2/pull/7151) 2021-09-30: Correct collision time to being relative to BC by [@sawenzel](https://github.com/sawenzel)
 - [\#7152](https://github.com/AliceO2Group/AliceO2/pull/7152) 2021-09-29: Fix in AOD cov.matrix correlations definition by [@shahor02](https://github.com/shahor02)
 - [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
+- [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
