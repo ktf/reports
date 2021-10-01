@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-23T19:48:07Z",
-            "title": "CPV pedestal calibration based on TimeSlotCalibration",
-            "number": 7084,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/PedestalCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/macros/readPedestalsFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/CPVCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/PedestalCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/PedestalCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/cpv-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-22T15:36:44Z",
             "title": "Alpide decoder protection againg wrong row + mute extra lanes error reporting",
             "number": 7085,
@@ -4071,6 +4016,36 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Raw/src/ELinkManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not unfold too large clusters; HWerr changed;",
+            "number": 7184,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/RawReaderError.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
                   }
                 }
               ]
