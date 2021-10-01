@@ -26,7 +26,6 @@
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#7082](https://github.com/AliceO2Group/AliceO2/pull/7082) 2021-09-21: Fix for extreme case of cluster phi by [@mpuccio](https://github.com/mpuccio)
 - [\#7083](https://github.com/AliceO2Group/AliceO2/pull/7083) 2021-09-26: Reconstruction update and AOD for FDD  by [@mbroz84](https://github.com/mbroz84)
 - [\#7084](https://github.com/AliceO2Group/AliceO2/pull/7084) 2021-09-23: CPV pedestal calibration based on TimeSlotCalibration by [@sevdokim](https://github.com/sevdokim)
 - [\#7085](https://github.com/AliceO2Group/AliceO2/pull/7085) 2021-09-22: Alpide decoder protection againg wrong row + mute extra lanes error reporting by [@shahor02](https://github.com/shahor02)
