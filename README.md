@@ -26,7 +26,6 @@
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#7081](https://github.com/AliceO2Group/AliceO2/pull/7081) 2021-09-22: MCH: consistent specnames for DataProcessorSpec getters by [@aphecetche](https://github.com/aphecetche)
 - [\#7082](https://github.com/AliceO2Group/AliceO2/pull/7082) 2021-09-21: Fix for extreme case of cluster phi by [@mpuccio](https://github.com/mpuccio)
 - [\#7083](https://github.com/AliceO2Group/AliceO2/pull/7083) 2021-09-26: Reconstruction update and AOD for FDD  by [@mbroz84](https://github.com/mbroz84)
 - [\#7084](https://github.com/AliceO2Group/AliceO2/pull/7084) 2021-09-23: CPV pedestal calibration based on TimeSlotCalibration by [@sevdokim](https://github.com/sevdokim)
@@ -76,6 +75,7 @@
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
+- [\#7166](https://github.com/AliceO2Group/AliceO2/pull/7166) 2021-10-01: TPC: add more aggressive noise treatment for physics data taking + misc adjustments by [@wiechula](https://github.com/wiechula)
 - [\#7169](https://github.com/AliceO2Group/AliceO2/pull/7169) 2021-10-01: MCH: optimized DataDecoder::reset() function by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7174](https://github.com/AliceO2Group/AliceO2/pull/7174) 2021-10-01: Temporary workaround for MFT tracking with magnet off by [@rpezzi](https://github.com/rpezzi)
