@@ -64,6 +64,7 @@
 - [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
 - [\#7135](https://github.com/AliceO2Group/AliceO2/pull/7135) 2021-09-27: raw input optional in tof compressor by [@noferini](https://github.com/noferini)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
+- [\#7137](https://github.com/AliceO2Group/AliceO2/pull/7137) 2021-10-01: MCH: bugfix in mapping optimization by [@aphecetche](https://github.com/aphecetche)
 - [\#7139](https://github.com/AliceO2Group/AliceO2/pull/7139) 2021-09-28: fix for ITSTPC matching timers/counters by [@shahor02](https://github.com/shahor02)
 - [\#7140](https://github.com/AliceO2Group/AliceO2/pull/7140) 2021-09-29: ITS: Reduce seeding vertexer verbosity by [@mconcas](https://github.com/mconcas)
 - [\#7142](https://github.com/AliceO2Group/AliceO2/pull/7142) 2021-09-30: flag also TOF noisy channel in diagnostic by [@noferini](https://github.com/noferini)
