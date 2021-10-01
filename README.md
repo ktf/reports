@@ -84,7 +84,6 @@
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7080](https://github.com/AliceO2Group/AliceO2/pull/7080) 2021-09-22: DDS to ODC by [@ktf](https://github.com/ktf)
 - [\#7090](https://github.com/AliceO2Group/AliceO2/pull/7090) 2021-09-23: HistogramRegistry: provide add() function that directly returns hist pointer by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7100](https://github.com/AliceO2Group/AliceO2/pull/7100) 2021-09-23: DPL: disable parallel processing for analysis by [@ktf](https://github.com/ktf)
@@ -100,3 +99,5 @@
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
 - [\#7163](https://github.com/AliceO2Group/AliceO2/pull/7163) 2021-09-29: DPL Analysis: convince ROOT not to keep buffers around by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Utilities
+- [\#7180](https://github.com/AliceO2Group/AliceO2/pull/7180) 2021-10-01: avoid hang due to 'terminate called without an active exception' by [@sawenzel](https://github.com/sawenzel)
