@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-01T12:15:57Z",
-            "title": "PWGHF: Add BPlus task with candidate creator and selector",
-            "number": 41,
-            "author": {
-              "login": "deepathoms"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Core/include/AnalysisCore/HFSelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataModel/include/AnalysisDataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/HFBPlusToD0PiCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/HFCandidateCreatorBPlus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/taskBPlus.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-20T11:02:55Z",
             "title": "PWGHF: Add PID flags for the J/ψ task",
             "number": 42,
@@ -3561,6 +3511,56 @@
                 {
                   "node": {
                     "path": "CODEOWNERS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Temporary task for D0 PID performance study for ALICE3 in barrel and forward",
+            "number": 141,
+            "author": {
+              "login": "skundu692"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFD0CandidateSelectorALICE3Barrel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFD0CandidateSelectorALICE3Forward.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskD0ALICE3Barrel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskD0ALICE3Forward.cxx"
                   }
                 }
               ]
