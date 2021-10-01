@@ -80,6 +80,7 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7174](https://github.com/AliceO2Group/AliceO2/pull/7174) 2021-10-01: Temporary workaround for MFT tracking with magnet off by [@rpezzi](https://github.com/rpezzi)
 - [\#7175](https://github.com/AliceO2Group/AliceO2/pull/7175) 2021-10-01: Warn instead of crashing fataly by [@sawenzel](https://github.com/sawenzel)
+- [\#7176](https://github.com/AliceO2Group/AliceO2/pull/7176) 2021-10-01: Changes + fixes in CTF writer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
