@@ -11,6 +11,7 @@
 - [\#7109](https://github.com/AliceO2Group/AliceO2/pull/7109) 2021-09-25: ConfigParam - Ccdb-Api integration by [@sawenzel](https://github.com/sawenzel)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
+- [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7083](https://github.com/AliceO2Group/AliceO2/pull/7083) 2021-09-26: Reconstruction update and AOD for FDD  by [@mbroz84](https://github.com/mbroz84)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
@@ -78,6 +79,7 @@
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7169](https://github.com/AliceO2Group/AliceO2/pull/7169) 2021-10-01: MCH: optimized DataDecoder::reset() function by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
+- [\#7174](https://github.com/AliceO2Group/AliceO2/pull/7174) 2021-10-01: Temporary workaround for MFT tracking with magnet off by [@rpezzi](https://github.com/rpezzi)
 - [\#7175](https://github.com/AliceO2Group/AliceO2/pull/7175) 2021-10-01: Warn instead of crashing fataly by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
