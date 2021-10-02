@@ -14,6 +14,7 @@
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
+- [\#7106](https://github.com/AliceO2Group/AliceO2/pull/7106) 2021-10-02: CCDB path as argument to reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
@@ -38,6 +39,7 @@
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7105](https://github.com/AliceO2Group/AliceO2/pull/7105) 2021-09-26: Move lambda to template helper to fix XCode13 compile problem by [@sawenzel](https://github.com/sawenzel)
+- [\#7106](https://github.com/AliceO2Group/AliceO2/pull/7106) 2021-10-02: CCDB path as argument to reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7107](https://github.com/AliceO2Group/AliceO2/pull/7107) 2021-09-28: MCH: implemented digit time computation based on HBPackets by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7112](https://github.com/AliceO2Group/AliceO2/pull/7112) 2021-09-25: Little fixes in the ITS noise calibration by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
