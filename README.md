@@ -77,6 +77,7 @@
 - [\#7175](https://github.com/AliceO2Group/AliceO2/pull/7175) 2021-10-01: Warn instead of crashing fataly by [@sawenzel](https://github.com/sawenzel)
 - [\#7176](https://github.com/AliceO2Group/AliceO2/pull/7176) 2021-10-01: Changes + fixes in CTF writer by [@shahor02](https://github.com/shahor02)
 - [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
+- [\#7184](https://github.com/AliceO2Group/AliceO2/pull/7184) 2021-10-02: Do not unfold too large clusters; HWerr changed; by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
