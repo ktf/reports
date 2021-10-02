@@ -104,5 +104,6 @@
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
 - [\#7163](https://github.com/AliceO2Group/AliceO2/pull/7163) 2021-09-29: DPL Analysis: convince ROOT not to keep buffers around by [@ktf](https://github.com/ktf)
 - [\#7182](https://github.com/AliceO2Group/AliceO2/pull/7182) 2021-10-02: DPL Analysis: allow constructing HistogramRegistry without specifying a name by [@mario-krueger](https://github.com/mario-krueger)
+- [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7180](https://github.com/AliceO2Group/AliceO2/pull/7180) 2021-10-01: avoid hang due to 'terminate called without an active exception' by [@sawenzel](https://github.com/sawenzel)
