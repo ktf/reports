@@ -72,6 +72,7 @@
 - [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
 - [\#7154](https://github.com/AliceO2Group/AliceO2/pull/7154) 2021-10-01: [MCH] propagate ROF width by [@pillot](https://github.com/pillot)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7159](https://github.com/AliceO2Group/AliceO2/pull/7159) 2021-10-03: [MCH] track labels container has been changed to a vector by [@pillot](https://github.com/pillot)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
