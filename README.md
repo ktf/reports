@@ -26,6 +26,7 @@
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
+- [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7089](https://github.com/AliceO2Group/AliceO2/pull/7089) 2021-09-25: Changing CCDB path for configuration of DCS DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7091](https://github.com/AliceO2Group/AliceO2/pull/7091) 2021-09-23: [EMCAL-630] Fill cell container only for cells where the raw fit was … by [@mfasDa](https://github.com/mfasDa)
@@ -77,6 +78,7 @@
 - [\#7166](https://github.com/AliceO2Group/AliceO2/pull/7166) 2021-10-01: TPC: add more aggressive noise treatment for physics data taking + misc adjustments by [@wiechula](https://github.com/wiechula)
 - [\#7169](https://github.com/AliceO2Group/AliceO2/pull/7169) 2021-10-01: MCH: optimized DataDecoder::reset() function by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
+- [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 - [\#7174](https://github.com/AliceO2Group/AliceO2/pull/7174) 2021-10-01: Temporary workaround for MFT tracking with magnet off by [@rpezzi](https://github.com/rpezzi)
 - [\#7175](https://github.com/AliceO2Group/AliceO2/pull/7175) 2021-10-01: Warn instead of crashing fataly by [@sawenzel](https://github.com/sawenzel)
 - [\#7176](https://github.com/AliceO2Group/AliceO2/pull/7176) 2021-10-01: Changes + fixes in CTF writer by [@shahor02](https://github.com/shahor02)
@@ -84,6 +86,7 @@
 - [\#7181](https://github.com/AliceO2Group/AliceO2/pull/7181) 2021-10-02: Allow providing ITS/MFT decoder InputSpecs from command line by [@shahor02](https://github.com/shahor02)
 - [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
 - [\#7184](https://github.com/AliceO2Group/AliceO2/pull/7184) 2021-10-02: Do not unfold too large clusters; HWerr changed; by [@peressounko](https://github.com/peressounko)
+- [\#7187](https://github.com/AliceO2Group/AliceO2/pull/7187) 2021-10-03: Implement --onlyDet option in o2-raw-tf-reader and enable non-raw data by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
