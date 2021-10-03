@@ -4,7 +4,6 @@
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7089](https://github.com/AliceO2Group/AliceO2/pull/7089) 2021-09-25: Changing CCDB path for configuration of DCS DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7107](https://github.com/AliceO2Group/AliceO2/pull/7107) 2021-09-28: MCH: implemented digit time computation based on HBPackets by [@aferrero2707](https://github.com/aferrero2707)
@@ -28,7 +27,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7089](https://github.com/AliceO2Group/AliceO2/pull/7089) 2021-09-25: Changing CCDB path for configuration of DCS DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7091](https://github.com/AliceO2Group/AliceO2/pull/7091) 2021-09-23: [EMCAL-630] Fill cell container only for cells where the raw fit was … by [@mfasDa](https://github.com/mfasDa)
 - [\#7092](https://github.com/AliceO2Group/AliceO2/pull/7092) 2021-09-23: skip TOF LTM during decoding by [@noferini](https://github.com/noferini)
 - [\#7094](https://github.com/AliceO2Group/AliceO2/pull/7094) 2021-09-25: Improve checker for MID raw data consistency by [@dstocco](https://github.com/dstocco)
