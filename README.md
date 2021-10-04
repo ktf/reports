@@ -24,7 +24,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7101](https://github.com/AliceO2Group/AliceO2/pull/7101) 2021-09-28: [TRD] Adapt to 3-level CCDB naming scheme by [@martenole](https://github.com/martenole)
 - [\#7102](https://github.com/AliceO2Group/AliceO2/pull/7102) 2021-09-23: Fix buffer size in get_timestamp by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7105](https://github.com/AliceO2Group/AliceO2/pull/7105) 2021-09-26: Move lambda to template helper to fix XCode13 compile problem by [@sawenzel](https://github.com/sawenzel)
