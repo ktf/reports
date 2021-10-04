@@ -26,7 +26,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7095](https://github.com/AliceO2Group/AliceO2/pull/7095) 2021-09-23: MCH mapping optimizations by [@aphecetche](https://github.com/aphecetche)
 - [\#7096](https://github.com/AliceO2Group/AliceO2/pull/7096) 2021-09-23: TPC should use HBFUtils::Instance().getFirstIRSampled(); by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
