@@ -26,7 +26,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7094](https://github.com/AliceO2Group/AliceO2/pull/7094) 2021-09-25: Improve checker for MID raw data consistency by [@dstocco](https://github.com/dstocco)
 - [\#7095](https://github.com/AliceO2Group/AliceO2/pull/7095) 2021-09-23: MCH mapping optimizations by [@aphecetche](https://github.com/aphecetche)
 - [\#7096](https://github.com/AliceO2Group/AliceO2/pull/7096) 2021-09-23: TPC should use HBFUtils::Instance().getFirstIRSampled(); by [@shahor02](https://github.com/shahor02)
 - [\#7097](https://github.com/AliceO2Group/AliceO2/pull/7097) 2021-09-22: Provide row/col of multiply fired Alpide pixel in the error message by [@shahor02](https://github.com/shahor02)
@@ -86,6 +85,7 @@
 - [\#7187](https://github.com/AliceO2Group/AliceO2/pull/7187) 2021-10-03: Implement --onlyDet option in o2-raw-tf-reader and enable non-raw data by [@shahor02](https://github.com/shahor02)
 - [\#7189](https://github.com/AliceO2Group/AliceO2/pull/7189) 2021-10-04: MID: prevent crash when data from non-existent board is processed by [@dstocco](https://github.com/dstocco)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
+- [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
