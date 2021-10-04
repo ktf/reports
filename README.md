@@ -4,7 +4,6 @@
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7098](https://github.com/AliceO2Group/AliceO2/pull/7098) 2021-09-24: Write CTF metainfo file together with CTF by [@shahor02](https://github.com/shahor02)
 - [\#7107](https://github.com/AliceO2Group/AliceO2/pull/7107) 2021-09-28: MCH: implemented digit time computation based on HBPackets by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7109](https://github.com/AliceO2Group/AliceO2/pull/7109) 2021-09-25: ConfigParam - Ccdb-Api integration by [@sawenzel](https://github.com/sawenzel)
@@ -91,7 +90,6 @@
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7093](https://github.com/AliceO2Group/AliceO2/pull/7093) 2021-09-22: DPL: more verbosity reduction for GUI metrics by [@ktf](https://github.com/ktf)
 - [\#7100](https://github.com/AliceO2Group/AliceO2/pull/7100) 2021-09-23: DPL: disable parallel processing for analysis by [@ktf](https://github.com/ktf)
 - [\#7103](https://github.com/AliceO2Group/AliceO2/pull/7103) 2021-09-23: DPL: flush more metrics to avoid race condition in analysis by [@ktf](https://github.com/ktf)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
