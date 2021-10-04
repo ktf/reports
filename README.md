@@ -84,7 +84,6 @@
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7103](https://github.com/AliceO2Group/AliceO2/pull/7103) 2021-09-23: DPL: flush more metrics to avoid race condition in analysis by [@ktf](https://github.com/ktf)
 - [\#7104](https://github.com/AliceO2Group/AliceO2/pull/7104) 2021-09-24: DPL: extend ccdbParamSpec to allow run dependent queries by [@ktf](https://github.com/ktf)
 - [\#7113](https://github.com/AliceO2Group/AliceO2/pull/7113) 2021-09-24: DPL: speedup formatting of metrics over WS by [@ktf](https://github.com/ktf)
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
