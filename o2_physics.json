@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-01T07:55:49Z",
-            "title": "PWGHF: Adding the information about the prong ordering (Lc -> p K pi or Lc -> pi K p)",
-            "number": 45,
-            "author": {
-              "login": "DelloStritto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataModel/include/AnalysisDataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/HFCandidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tasks/PWGHF/HFTreeCreatorLcToPKPi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-08-28T19:20:08Z",
             "title": "PWGHF: Hotfix for the daughter0_as issue in the Jpsi task",
             "number": 46,
@@ -3531,6 +3501,41 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/filterPPTiny.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add d0xd0 variable for Xicc and change histo binning",
+            "number": 145,
+            "author": {
+              "login": "strogolo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HFSelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFXiccToPKPiPiCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskXicc.cxx"
                   }
                 }
               ]
