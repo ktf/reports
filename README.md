@@ -77,6 +77,7 @@
 - [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
 - [\#7184](https://github.com/AliceO2Group/AliceO2/pull/7184) 2021-10-02: Do not unfold too large clusters; HWerr changed; by [@peressounko](https://github.com/peressounko)
 - [\#7187](https://github.com/AliceO2Group/AliceO2/pull/7187) 2021-10-03: Implement --onlyDet option in o2-raw-tf-reader and enable non-raw data by [@shahor02](https://github.com/shahor02)
+- [\#7188](https://github.com/AliceO2Group/AliceO2/pull/7188) 2021-10-04: [MRRTF-152] update electronic mapping (St1 complete, St2 partial) by [@aphecetche](https://github.com/aphecetche)
 - [\#7189](https://github.com/AliceO2Group/AliceO2/pull/7189) 2021-10-04: MID: prevent crash when data from non-existent board is processed by [@dstocco](https://github.com/dstocco)
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
