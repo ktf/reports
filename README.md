@@ -18,7 +18,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
 - [\#7118](https://github.com/AliceO2Group/AliceO2/pull/7118) 2021-09-25: [MFT] Use unique volume names by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 - [\#7120](https://github.com/AliceO2Group/AliceO2/pull/7120) 2021-09-26: 3-level path for TOF CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
