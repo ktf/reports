@@ -74,6 +74,7 @@
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
 - [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
+- [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
@@ -94,5 +95,7 @@
 - [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
 - [\#7203](https://github.com/AliceO2Group/AliceO2/pull/7203) 2021-10-04: DPL Analysis: prevent adding extra empty slices when the last index is -1 by [@aalkin](https://github.com/aalkin)
 - [\#7207](https://github.com/AliceO2Group/AliceO2/pull/7207) 2021-10-05: Improve documentation of --run option. by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#7180](https://github.com/AliceO2Group/AliceO2/pull/7180) 2021-10-01: avoid hang due to 'terminate called without an active exception' by [@sawenzel](https://github.com/sawenzel)
