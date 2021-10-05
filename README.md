@@ -76,6 +76,7 @@
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
 - [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
+- [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
