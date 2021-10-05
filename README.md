@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Common
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
+- [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
@@ -89,6 +90,7 @@
 - [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
 - [\#7203](https://github.com/AliceO2Group/AliceO2/pull/7203) 2021-10-04: DPL Analysis: prevent adding extra empty slices when the last index is -1 by [@aalkin](https://github.com/aalkin)
 - [\#7207](https://github.com/AliceO2Group/AliceO2/pull/7207) 2021-10-05: Improve documentation of --run option. by [@ktf](https://github.com/ktf)
+- [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
