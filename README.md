@@ -80,7 +80,6 @@
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7113](https://github.com/AliceO2Group/AliceO2/pull/7113) 2021-09-24: DPL: speedup formatting of metrics over WS by [@ktf](https://github.com/ktf)
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7129](https://github.com/AliceO2Group/AliceO2/pull/7129) 2021-09-26: Replace --dds, rather than --odc by [@ktf](https://github.com/ktf)
 - [\#7134](https://github.com/AliceO2Group/AliceO2/pull/7134) 2021-09-27: DPL: forwards FMQ's --network-interface option by [@davidrohr](https://github.com/davidrohr)
