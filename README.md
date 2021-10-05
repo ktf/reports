@@ -4,7 +4,6 @@
 - [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7107](https://github.com/AliceO2Group/AliceO2/pull/7107) 2021-09-28: MCH: implemented digit time computation based on HBPackets by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7109](https://github.com/AliceO2Group/AliceO2/pull/7109) 2021-09-25: ConfigParam - Ccdb-Api integration by [@sawenzel](https://github.com/sawenzel)
 - [\#7115](https://github.com/AliceO2Group/AliceO2/pull/7115) 2021-09-25: Complete BunchFilling with A/C beam patterns + related by [@shahor02](https://github.com/shahor02)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
@@ -23,7 +22,6 @@
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7107](https://github.com/AliceO2Group/AliceO2/pull/7107) 2021-09-28: MCH: implemented digit time computation based on HBPackets by [@aferrero2707](https://github.com/aferrero2707)
 - [\#7112](https://github.com/AliceO2Group/AliceO2/pull/7112) 2021-09-25: Little fixes in the ITS noise calibration by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7114](https://github.com/AliceO2Group/AliceO2/pull/7114) 2021-09-25: Adding WF for calibration based on diagnostic words by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7116](https://github.com/AliceO2Group/AliceO2/pull/7116) 2021-09-24: Fix bounding box usage in splitting of huge ITS/MFT clusters by [@shahor02](https://github.com/shahor02)
