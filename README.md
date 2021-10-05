@@ -19,7 +19,6 @@
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7118](https://github.com/AliceO2Group/AliceO2/pull/7118) 2021-09-25: [MFT] Use unique volume names by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7119](https://github.com/AliceO2Group/AliceO2/pull/7119) 2021-09-24: CPV documentation by [@sevdokim](https://github.com/sevdokim)
 - [\#7120](https://github.com/AliceO2Group/AliceO2/pull/7120) 2021-09-26: 3-level path for TOF CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
