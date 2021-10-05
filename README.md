@@ -86,6 +86,7 @@
 - [\#7203](https://github.com/AliceO2Group/AliceO2/pull/7203) 2021-10-04: DPL Analysis: prevent adding extra empty slices when the last index is -1 by [@aalkin](https://github.com/aalkin)
 - [\#7207](https://github.com/AliceO2Group/AliceO2/pull/7207) 2021-10-05: Improve documentation of --run option. by [@ktf](https://github.com/ktf)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
+- [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
