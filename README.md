@@ -53,6 +53,7 @@
 - [\#7154](https://github.com/AliceO2Group/AliceO2/pull/7154) 2021-10-01: [MCH] propagate ROF width by [@pillot](https://github.com/pillot)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7159](https://github.com/AliceO2Group/AliceO2/pull/7159) 2021-10-03: [MCH] track labels container has been changed to a vector by [@pillot](https://github.com/pillot)
+- [\#7161](https://github.com/AliceO2Group/AliceO2/pull/7161) 2021-10-05: Clean up the ITS TF when reading a new TF by [@mpuccio](https://github.com/mpuccio)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
@@ -93,5 +94,6 @@
 - [\#7182](https://github.com/AliceO2Group/AliceO2/pull/7182) 2021-10-02: DPL Analysis: allow constructing HistogramRegistry without specifying a name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
 - [\#7203](https://github.com/AliceO2Group/AliceO2/pull/7203) 2021-10-04: DPL Analysis: prevent adding extra empty slices when the last index is -1 by [@aalkin](https://github.com/aalkin)
+- [\#7207](https://github.com/AliceO2Group/AliceO2/pull/7207) 2021-10-05: Improve documentation of --run option. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7180](https://github.com/AliceO2Group/AliceO2/pull/7180) 2021-10-01: avoid hang due to 'terminate called without an active exception' by [@sawenzel](https://github.com/sawenzel)
