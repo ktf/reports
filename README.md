@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#7121](https://github.com/AliceO2Group/AliceO2/pull/7121) 2021-09-27: Implement CTP CTF and add CTP to FST by [@shahor02](https://github.com/shahor02)
@@ -75,7 +74,6 @@
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7117](https://github.com/AliceO2Group/AliceO2/pull/7117) 2021-09-27: Rewrite TreeToTable to be more generic by [@aalkin](https://github.com/aalkin)
 - [\#7129](https://github.com/AliceO2Group/AliceO2/pull/7129) 2021-09-26: Replace --dds, rather than --odc by [@ktf](https://github.com/ktf)
 - [\#7134](https://github.com/AliceO2Group/AliceO2/pull/7134) 2021-09-27: DPL: forwards FMQ's --network-interface option by [@davidrohr](https://github.com/davidrohr)
 - [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
