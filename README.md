@@ -68,6 +68,7 @@
 - [\#7200](https://github.com/AliceO2Group/AliceO2/pull/7200) 2021-10-06: [MFT] Improved handling of MFT tracking for B=0 by [@rpezzi](https://github.com/rpezzi)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
+- [\#7206](https://github.com/AliceO2Group/AliceO2/pull/7206) 2021-10-06: [MFT] Flip ALPIDE sensor for MFT by [@rpezzi](https://github.com/rpezzi)
 - [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
