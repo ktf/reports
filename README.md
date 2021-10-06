@@ -19,6 +19,7 @@
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
+- [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 - [\#7130](https://github.com/AliceO2Group/AliceO2/pull/7130) 2021-09-29: Adding covariance matrix elements of FwdTracks to the AOD producer by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7132](https://github.com/AliceO2Group/AliceO2/pull/7132) 2021-09-29: TPC: fixes und updates in laser drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
