@@ -6,7 +6,6 @@
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
 - [\#7142](https://github.com/AliceO2Group/AliceO2/pull/7142) 2021-09-30: flag also TOF noisy channel in diagnostic by [@noferini](https://github.com/noferini)
 - [\#7146](https://github.com/AliceO2Group/AliceO2/pull/7146) 2021-09-30: Add MCH TRACKCLUSTERS to RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -20,7 +19,6 @@
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 - [\#7130](https://github.com/AliceO2Group/AliceO2/pull/7130) 2021-09-29: Adding covariance matrix elements of FwdTracks to the AOD producer by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7132](https://github.com/AliceO2Group/AliceO2/pull/7132) 2021-09-29: TPC: fixes und updates in laser drift velocity calibration by [@wiechula](https://github.com/wiechula)
