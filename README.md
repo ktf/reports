@@ -18,6 +18,7 @@
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#7122](https://github.com/AliceO2Group/AliceO2/pull/7122) 2021-09-25: Hotfix in CTFWriter: 0 instead of nullptr by [@shahor02](https://github.com/shahor02)
 - [\#7123](https://github.com/AliceO2Group/AliceO2/pull/7123) 2021-09-25: MCH: revert log level to what it should be for this message : info by [@aphecetche](https://github.com/aphecetche)
@@ -69,8 +70,11 @@
 - [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
+- [\#7200](https://github.com/AliceO2Group/AliceO2/pull/7200) 2021-10-06: [MFT] Improved handling of MFT tracking for B=0 by [@rpezzi](https://github.com/rpezzi)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
+- [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
+- [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
