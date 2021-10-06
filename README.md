@@ -20,7 +20,6 @@
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#7124](https://github.com/AliceO2Group/AliceO2/pull/7124) 2021-09-26: [EMCAL-630] Add DDL ID in case of hardware address error to infologger by [@mfasDa](https://github.com/mfasDa)
 - [\#7127](https://github.com/AliceO2Group/AliceO2/pull/7127) 2021-09-27: FIT: LUT url/path option, pre-allocation option, some update in RawEventData by [@afurs](https://github.com/afurs)
 - [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
 - [\#7130](https://github.com/AliceO2Group/AliceO2/pull/7130) 2021-09-29: Adding covariance matrix elements of FwdTracks to the AOD producer by [@mcoquet642](https://github.com/mcoquet642)

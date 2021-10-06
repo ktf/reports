@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-26T12:10:30Z",
-            "title": "[EMCAL-630] Add DDL ID in case of hardware address error to infologger",
-            "number": 7124,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-27T14:59:26Z",
             "title": "Add q/pt=20 cuttoff for TPC reco in sim_challenge",
             "number": 7125,
@@ -3911,6 +3891,41 @@
                 {
                   "node": {
                     "path": "scripts/datamodel-doc/update-datamodel.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: add exception when grouping with improperly sorted index",
+            "number": 7224,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_Kernels.cxx"
                   }
                 }
               ]
