@@ -73,6 +73,7 @@
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
 - [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
+- [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
