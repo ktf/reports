@@ -99,6 +99,7 @@
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 - [\#7222](https://github.com/AliceO2Group/AliceO2/pull/7222) 2021-10-06: DPL: drop noexcept from homogeneous_apply_refs by [@ktf](https://github.com/ktf)
 - [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
+- [\#7227](https://github.com/AliceO2Group/AliceO2/pull/7227) 2021-10-07: DPL: better defaults for the parallel processing support by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
