@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
+- [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
@@ -95,6 +96,7 @@
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 - [\#7222](https://github.com/AliceO2Group/AliceO2/pull/7222) 2021-10-06: DPL: drop noexcept from homogeneous_apply_refs by [@ktf](https://github.com/ktf)
+- [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
