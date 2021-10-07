@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-28T05:30:25Z",
-            "title": "DPL: drop support for arrow < 5",
-            "number": 7138,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Kernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FairMQResizableBuffer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FairMQResizableBuffer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Expressions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FairMQResizableBuffer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Kernels.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-28T09:20:01Z",
             "title": "fix for ITSTPC matching timers/counters",
             "number": 7139,
@@ -3876,6 +3821,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/readers/src/GlobalFwdTrackReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Message forwarding should be based on the headers of each individual part - DO NOT MERGE YET",
+            "number": 7238,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]

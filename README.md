@@ -85,7 +85,6 @@
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
 - [\#7141](https://github.com/AliceO2Group/AliceO2/pull/7141) 2021-09-28: DPL: have resource accounting for analysis work with 200MB per reader by [@ktf](https://github.com/ktf)
 - [\#7147](https://github.com/AliceO2Group/AliceO2/pull/7147) 2021-09-28: Avoid overallocations by [@ktf](https://github.com/ktf)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
