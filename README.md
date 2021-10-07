@@ -21,7 +21,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7137](https://github.com/AliceO2Group/AliceO2/pull/7137) 2021-10-01: MCH: bugfix in mapping optimization by [@aphecetche](https://github.com/aphecetche)
 - [\#7139](https://github.com/AliceO2Group/AliceO2/pull/7139) 2021-09-28: fix for ITSTPC matching timers/counters by [@shahor02](https://github.com/shahor02)
 - [\#7140](https://github.com/AliceO2Group/AliceO2/pull/7140) 2021-09-29: ITS: Reduce seeding vertexer verbosity by [@mconcas](https://github.com/mconcas)
 - [\#7142](https://github.com/AliceO2Group/AliceO2/pull/7142) 2021-09-30: flag also TOF noisy channel in diagnostic by [@noferini](https://github.com/noferini)
@@ -78,6 +77,7 @@
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
+- [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
