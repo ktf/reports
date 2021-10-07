@@ -5,6 +5,246 @@
         {
           "node": {
             "state": "MERGED",
+            "mergedAt": "2021-09-25T22:35:32Z",
+            "title": "Fix required by codechecked",
+            "number": 7128,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDiagnosticCalibrator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-26T15:26:42Z",
+            "title": "Replace --dds, rather than --odc",
+            "number": 7129,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-29T19:06:16Z",
+            "title": "Adding covariance matrix elements of FwdTracks to the AOD producer",
+            "number": 7130,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Add draft for TRD DCS processor related to [TRD-109]",
+            "number": 7131,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/DCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/makeTRDCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/readTRDDCSentries.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/TRDCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/workflow/TRDDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/workflow/trd-dcs-data-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/workflow/trd-dcs-sim-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-29T08:18:44Z",
+            "title": "TPC: fixes und updates in laser drift velocity calibration",
+            "number": 7132,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/Painter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/DigitDump.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ProcessingHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ProcessingHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-09-27T21:57:26Z",
+            "title": "Add DH.firstTForbit injection to few workflows where it was missing",
+            "number": 7133,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CPV/workflow/src/cpv-reco-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/GlobalTrackClusterReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/globalfwd-matcher-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertex-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertex-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/tpcits-match-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/zdc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
             "mergedAt": "2021-09-27T17:59:31Z",
             "title": "DPL: forwards FMQ's --network-interface option",
             "number": 7134,
@@ -2344,8 +2584,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T12:37:49Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "vertex trigger threshold  the same as in  TCM",
             "number": 7193,
             "author": {
@@ -2530,7 +2770,7 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/LifetimeHelpers.h"
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
                   }
                 },
                 {
@@ -2545,27 +2785,7 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
@@ -2939,8 +3159,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T13:28:58Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "ClusterNativeHelper: fixing convert to tree method",
             "number": 7210,
             "author": {
@@ -3244,8 +3464,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T13:27:40Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "[EMCAL-630] Handling of overlap region of HG/LG digits",
             "number": 7217,
             "author": {
@@ -3304,8 +3524,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T13:27:00Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "FV0: fixes for pilot beams",
             "number": 7219,
             "author": {
@@ -3384,8 +3604,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T07:58:10Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "TPC: fix fmt error",
             "number": 7221,
             "author": {
@@ -3479,8 +3699,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T13:07:33Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "DPL Analysis: add exception when grouping with improperly sorted index",
             "number": 7224,
             "author": {
@@ -3534,8 +3754,8 @@
         },
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T08:00:39Z",
+            "state": "OPEN",
+            "mergedAt": null,
             "title": "TPC: minor improvements",
             "number": 7226,
             "author": {
@@ -3590,297 +3810,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DriverInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ProcessingPolicies.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ProcessingPoliciesHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ProcessingPoliciesHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToDDS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Match itstpcqc",
-            "number": 7228,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/ITSTPCMatchingQCParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchITSTPCQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/ITSTPCMatchingQCParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/qc/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/qc/include/GlobalTrackingWorkflowQC/ITSTPCMatchingQCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/qc/src/ITSTPCMatchingQCSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/qc/src/itstpc-matching-qc-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-07T10:38:55Z",
-            "title": "fix name of V0 table",
-            "number": 7229,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "workflow update to properly produce:",
-            "number": 7230,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationCluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationCluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/src/DataInterpreterITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/src/DataInterpreterTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/Initializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/Initializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/main.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix CTF metadata writing",
-            "number": 7231,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Enable CA cosmics reconstruction",
-            "number": 7232,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[EMCAL-630] Shift cell time by 600 ns",
-            "number": 7233,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
