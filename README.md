@@ -72,6 +72,7 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
+- [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
