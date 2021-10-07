@@ -59,6 +59,7 @@
 - [\#7189](https://github.com/AliceO2Group/AliceO2/pull/7189) 2021-10-04: MID: prevent crash when data from non-existent board is processed by [@dstocco](https://github.com/dstocco)
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
+- [\#7193](https://github.com/AliceO2Group/AliceO2/pull/7193) 2021-10-07: vertex trigger threshold  the same as in  TCM by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
 - [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
