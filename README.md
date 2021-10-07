@@ -78,7 +78,6 @@
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7129](https://github.com/AliceO2Group/AliceO2/pull/7129) 2021-09-26: Replace --dds, rather than --odc by [@ktf](https://github.com/ktf)
 - [\#7134](https://github.com/AliceO2Group/AliceO2/pull/7134) 2021-09-27: DPL: forwards FMQ's --network-interface option by [@davidrohr](https://github.com/davidrohr)
 - [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
 - [\#7141](https://github.com/AliceO2Group/AliceO2/pull/7141) 2021-09-28: DPL: have resource accounting for analysis work with 200MB per reader by [@ktf](https://github.com/ktf)
