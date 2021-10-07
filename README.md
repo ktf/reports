@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
+- [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
@@ -17,11 +18,10 @@
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7210](https://github.com/AliceO2Group/AliceO2/pull/7210) 2021-10-07: ClusterNativeHelper: fixing convert to tree method by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
+- [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7128](https://github.com/AliceO2Group/AliceO2/pull/7128) 2021-09-25: Fix required by codechecked by [@shahor02](https://github.com/shahor02)
-- [\#7130](https://github.com/AliceO2Group/AliceO2/pull/7130) 2021-09-29: Adding covariance matrix elements of FwdTracks to the AOD producer by [@mcoquet642](https://github.com/mcoquet642)
-- [\#7132](https://github.com/AliceO2Group/AliceO2/pull/7132) 2021-09-29: TPC: fixes und updates in laser drift velocity calibration by [@wiechula](https://github.com/wiechula)
 - [\#7133](https://github.com/AliceO2Group/AliceO2/pull/7133) 2021-09-27: Add DH.firstTForbit injection to few workflows where it was missing by [@shahor02](https://github.com/shahor02)
 - [\#7135](https://github.com/AliceO2Group/AliceO2/pull/7135) 2021-09-27: raw input optional in tof compressor by [@noferini](https://github.com/noferini)
 - [\#7136](https://github.com/AliceO2Group/AliceO2/pull/7136) 2021-09-29: [EMCAL-534] Add handling of non-fatal decoding errors by [@mfasDa](https://github.com/mfasDa)
@@ -61,6 +61,7 @@
 - [\#7189](https://github.com/AliceO2Group/AliceO2/pull/7189) 2021-10-04: MID: prevent crash when data from non-existent board is processed by [@dstocco](https://github.com/dstocco)
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
+- [\#7193](https://github.com/AliceO2Group/AliceO2/pull/7193) 2021-10-07: vertex trigger threshold  the same as in  TCM by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
 - [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
@@ -69,17 +70,22 @@
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
 - [\#7206](https://github.com/AliceO2Group/AliceO2/pull/7206) 2021-10-06: [MFT] Flip ALPIDE sensor for MFT by [@rpezzi](https://github.com/rpezzi)
+- [\#7210](https://github.com/AliceO2Group/AliceO2/pull/7210) 2021-10-07: ClusterNativeHelper: fixing convert to tree method by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
+- [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
+- [\#7219](https://github.com/AliceO2Group/AliceO2/pull/7219) 2021-10-07: FV0: fixes for pilot beams by [@sbysiak](https://github.com/sbysiak)
+- [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
+- [\#7226](https://github.com/AliceO2Group/AliceO2/pull/7226) 2021-10-07: TPC: minor improvements by [@wiechula](https://github.com/wiechula)
+- [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7129](https://github.com/AliceO2Group/AliceO2/pull/7129) 2021-09-26: Replace --dds, rather than --odc by [@ktf](https://github.com/ktf)
 - [\#7134](https://github.com/AliceO2Group/AliceO2/pull/7134) 2021-09-27: DPL: forwards FMQ's --network-interface option by [@davidrohr](https://github.com/davidrohr)
 - [\#7138](https://github.com/AliceO2Group/AliceO2/pull/7138) 2021-09-28: DPL: drop support for arrow < 5 by [@ktf](https://github.com/ktf)
 - [\#7141](https://github.com/AliceO2Group/AliceO2/pull/7141) 2021-09-28: DPL: have resource accounting for analysis work with 200MB per reader by [@ktf](https://github.com/ktf)
@@ -94,6 +100,7 @@
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 - [\#7222](https://github.com/AliceO2Group/AliceO2/pull/7222) 2021-10-06: DPL: drop noexcept from homogeneous_apply_refs by [@ktf](https://github.com/ktf)
+- [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
