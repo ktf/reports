@@ -75,6 +75,7 @@
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
+- [\#7232](https://github.com/AliceO2Group/AliceO2/pull/7232) 2021-10-08: Enable CA cosmics reconstruction by [@mpuccio](https://github.com/mpuccio)
 - [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
