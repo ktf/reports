@@ -17,7 +17,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7154](https://github.com/AliceO2Group/AliceO2/pull/7154) 2021-10-01: [MCH] propagate ROF width by [@pillot](https://github.com/pillot)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7159](https://github.com/AliceO2Group/AliceO2/pull/7159) 2021-10-03: [MCH] track labels container has been changed to a vector by [@pillot](https://github.com/pillot)
 - [\#7161](https://github.com/AliceO2Group/AliceO2/pull/7161) 2021-10-05: Clean up the ITS TF when reading a new TF by [@mpuccio](https://github.com/mpuccio)
