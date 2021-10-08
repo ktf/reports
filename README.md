@@ -80,7 +80,6 @@
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7147](https://github.com/AliceO2Group/AliceO2/pull/7147) 2021-09-28: Avoid overallocations by [@ktf](https://github.com/ktf)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
 - [\#7163](https://github.com/AliceO2Group/AliceO2/pull/7163) 2021-09-29: DPL Analysis: convince ROOT not to keep buffers around by [@ktf](https://github.com/ktf)
