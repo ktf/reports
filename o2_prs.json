@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-09-29T19:04:21Z",
-            "title": "workflow barrel track fixes for o2-eve",
-            "number": 7144,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/ConversionConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationCluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationCluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/src/DataInterpreterITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/src/DataInterpreterTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/O2DPLDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-09-28T15:56:26Z",
             "title": "Correctly convert relative vertex times into global BC information",
             "number": 7145,
@@ -3801,6 +3711,26 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FV0/reconstruction/src/CTFCoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "call CTF finalization from d-tor in case EOS did not arrive",
+            "number": 7244,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
