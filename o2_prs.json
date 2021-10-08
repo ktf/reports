@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-06T07:17:42Z",
-            "title": "Implementation of parsing of LHC-IF file",
-            "number": 7148,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/LHCIFData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/LHCIFData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/ParametersDataLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/include/GRPCalibration/LHCIFfileReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/src/GRPCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/src/LHCIFfileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/include/GRPWorkflows/GRPLHCIFfileSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/GRPLHCIFfileSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/gpr-lhc-if-file-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-02T14:17:35Z",
             "title": "extend TOF matching to TRD",
             "number": 7149,
@@ -3586,6 +3496,36 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/workflow/src/ReconstructionSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Workflow to write to file the MID digits decoded from raw data",
+            "number": 7248,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/decoded-digits-writer-workflow.cxx"
                   }
                 }
               ]
