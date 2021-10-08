@@ -88,6 +88,7 @@
 - [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 - [\#7227](https://github.com/AliceO2Group/AliceO2/pull/7227) 2021-10-07: DPL: better defaults for the parallel processing support by [@ktf](https://github.com/ktf)
 - [\#7236](https://github.com/AliceO2Group/AliceO2/pull/7236) 2021-10-07: DPL: speedup forwarding in case of split payload parts by [@ktf](https://github.com/ktf)
+- [\#7246](https://github.com/AliceO2Group/AliceO2/pull/7246) 2021-10-08: DPL Analysis: fix issue with empty tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
