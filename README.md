@@ -75,6 +75,7 @@
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
+- [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7144](https://github.com/AliceO2Group/AliceO2/pull/7144) 2021-09-29: workflow barrel track fixes for o2-eve by [@jmyrcha](https://github.com/jmyrcha)
@@ -82,6 +83,7 @@
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7147](https://github.com/AliceO2Group/AliceO2/pull/7147) 2021-09-28: Avoid overallocations by [@ktf](https://github.com/ktf)
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
