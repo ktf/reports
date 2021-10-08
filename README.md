@@ -17,7 +17,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
 - [\#7154](https://github.com/AliceO2Group/AliceO2/pull/7154) 2021-10-01: [MCH] propagate ROF width by [@pillot](https://github.com/pillot)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7159](https://github.com/AliceO2Group/AliceO2/pull/7159) 2021-10-03: [MCH] track labels container has been changed to a vector by [@pillot](https://github.com/pillot)
@@ -67,6 +66,7 @@
 - [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 - [\#7243](https://github.com/AliceO2Group/AliceO2/pull/7243) 2021-10-08: Change FIT Digits_with_no_channels from error to debug message by [@shahor02](https://github.com/shahor02)
+- [\#7244](https://github.com/AliceO2Group/AliceO2/pull/7244) 2021-10-08: call CTF finalization from d-tor in case EOS did not arrive by [@shahor02](https://github.com/shahor02)
 - [\#7250](https://github.com/AliceO2Group/AliceO2/pull/7250) 2021-10-08: fix in tof decoder wrong rdh by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
@@ -74,6 +74,7 @@
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#7155](https://github.com/AliceO2Group/AliceO2/pull/7155) 2021-09-29: Update AnalysisDataModel.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7156](https://github.com/AliceO2Group/AliceO2/pull/7156) 2021-09-29: use default d-tor for FairMQOutputStream by [@shahor02](https://github.com/shahor02)
