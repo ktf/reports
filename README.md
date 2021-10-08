@@ -7,7 +7,6 @@
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#7149](https://github.com/AliceO2Group/AliceO2/pull/7149) 2021-10-02: extend TOF matching to TRD by [@noferini](https://github.com/noferini)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
@@ -18,7 +17,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7149](https://github.com/AliceO2Group/AliceO2/pull/7149) 2021-10-02: extend TOF matching to TRD by [@noferini](https://github.com/noferini)
 - [\#7151](https://github.com/AliceO2Group/AliceO2/pull/7151) 2021-09-30: Correct collision time to being relative to BC by [@sawenzel](https://github.com/sawenzel)
 - [\#7152](https://github.com/AliceO2Group/AliceO2/pull/7152) 2021-09-29: Fix in AOD cov.matrix correlations definition by [@shahor02](https://github.com/shahor02)
 - [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
