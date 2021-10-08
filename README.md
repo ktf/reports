@@ -17,7 +17,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7152](https://github.com/AliceO2Group/AliceO2/pull/7152) 2021-09-29: Fix in AOD cov.matrix correlations definition by [@shahor02](https://github.com/shahor02)
 - [\#7153](https://github.com/AliceO2Group/AliceO2/pull/7153) 2021-09-29: CTF meta data type is set to "raw" by [@shahor02](https://github.com/shahor02)
 - [\#7154](https://github.com/AliceO2Group/AliceO2/pull/7154) 2021-10-01: [MCH] propagate ROF width by [@pillot](https://github.com/pillot)
 - [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
