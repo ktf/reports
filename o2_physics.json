@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[Test] PWGHF: configure KFParticle package and add analysis task for 3-prongs reconstruction with KF",
-            "number": 69,
-            "author": {
-              "login": "zhujh126"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFCandidateCreator3ProngKF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-09-15T14:51:07Z",
             "title": "Addition of a mixing handler for event mixing",
@@ -3281,6 +3256,61 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoDream/FemtoDreamDetaDphiStar.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add chi_c analysis for ALICE3 studies (based on A. De Falco developments)",
+            "number": 169,
+            "author": {
+              "login": "ginnocen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HFSelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreatorChic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFChicToJpsiGammaCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskChic.cxx"
                   }
                 }
               ]
