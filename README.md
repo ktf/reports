@@ -96,3 +96,4 @@
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#7180](https://github.com/AliceO2Group/AliceO2/pull/7180) 2021-10-01: avoid hang due to 'terminate called without an active exception' by [@sawenzel](https://github.com/sawenzel)
+- [\#7256](https://github.com/AliceO2Group/AliceO2/pull/7256) 2021-10-10: EPN: stderr monitoring tool, forwards relevant log messages to InfoLogger by [@davidrohr](https://github.com/davidrohr)
