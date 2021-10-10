@@ -6,7 +6,6 @@
 - [\#7167](https://github.com/AliceO2Group/AliceO2/pull/7167) 2021-10-01: FileFetcher: set locale if not set, since boost requires it by [@shahor02](https://github.com/shahor02)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7172](https://github.com/AliceO2Group/AliceO2/pull/7172) 2021-10-01: add root dictionary for clusters and tracks and update root I/O by [@pillot](https://github.com/pillot)
 - [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
@@ -17,7 +16,6 @@
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7166](https://github.com/AliceO2Group/AliceO2/pull/7166) 2021-10-01: TPC: add more aggressive noise treatment for physics data taking + misc adjustments by [@wiechula](https://github.com/wiechula)
