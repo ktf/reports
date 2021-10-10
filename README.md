@@ -16,7 +16,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7159](https://github.com/AliceO2Group/AliceO2/pull/7159) 2021-10-03: [MCH] track labels container has been changed to a vector by [@pillot](https://github.com/pillot)
 - [\#7161](https://github.com/AliceO2Group/AliceO2/pull/7161) 2021-10-05: Clean up the ITS TF when reading a new TF by [@mpuccio](https://github.com/mpuccio)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
@@ -72,7 +71,6 @@
 - [\#7250](https://github.com/AliceO2Group/AliceO2/pull/7250) 2021-10-08: fix in tof decoder wrong rdh by [@noferini](https://github.com/noferini)
 - [\#7252](https://github.com/AliceO2Group/AliceO2/pull/7252) 2021-10-09: Improve initialisation for empty/cosmics events by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - EventVisualisation
-- [\#7158](https://github.com/AliceO2Group/AliceO2/pull/7158) 2021-09-29: EventVisualisation documentation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
