@@ -90,6 +90,7 @@
 - [\#7236](https://github.com/AliceO2Group/AliceO2/pull/7236) 2021-10-07: DPL: speedup forwarding in case of split payload parts by [@ktf](https://github.com/ktf)
 - [\#7246](https://github.com/AliceO2Group/AliceO2/pull/7246) 2021-10-08: DPL Analysis: fix issue with empty tables by [@ktf](https://github.com/ktf)
 - [\#7251](https://github.com/AliceO2Group/AliceO2/pull/7251) 2021-10-09: Fixed categorised combinations for filtered tables by [@saganatt](https://github.com/saganatt)
+- [\#7254](https://github.com/AliceO2Group/AliceO2/pull/7254) 2021-10-10: DPL: automatically create DDS properties for unresolved zeromq channels by [@ktf](https://github.com/ktf)
 - [\#7259](https://github.com/AliceO2Group/AliceO2/pull/7259) 2021-10-10: DPL: readout-proxy needs configurable --proxy-name option, in case we… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
