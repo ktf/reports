@@ -16,7 +16,6 @@
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7161](https://github.com/AliceO2Group/AliceO2/pull/7161) 2021-10-05: Clean up the ITS TF when reading a new TF by [@mpuccio](https://github.com/mpuccio)
 - [\#7162](https://github.com/AliceO2Group/AliceO2/pull/7162) 2021-09-29: Change routine track propagation warnings to debug by [@shahor02](https://github.com/shahor02)
 - [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
