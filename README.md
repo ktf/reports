@@ -55,6 +55,7 @@
 - [\#7248](https://github.com/AliceO2Group/AliceO2/pull/7248) 2021-10-10: Workflow to write to file the MID digits decoded from raw data by [@dstocco](https://github.com/dstocco)
 - [\#7250](https://github.com/AliceO2Group/AliceO2/pull/7250) 2021-10-08: fix in tof decoder wrong rdh by [@noferini](https://github.com/noferini)
 - [\#7252](https://github.com/AliceO2Group/AliceO2/pull/7252) 2021-10-09: Improve initialisation for empty/cosmics events by [@mpuccio](https://github.com/mpuccio)
+- [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
