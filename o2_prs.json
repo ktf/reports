@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-01T04:30:35Z",
-            "title": "add root dictionary for clusters and tracks and update root I/O",
-            "number": 7172,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Cluster2D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Cluster3D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Track.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/src/DataFormatsMIDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/tracks-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-03T09:18:47Z",
             "title": "Fixes for Alpide errors handling",
             "number": 7173,
@@ -3366,6 +3321,31 @@
                 {
                   "node": {
                     "path": "Utilities/EPNMonitoring/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: ensure correct slicing of boolean, fixed and variable list columns",
+            "number": 7272,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
                   }
                 }
               ]
