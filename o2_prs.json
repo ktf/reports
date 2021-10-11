@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-01T04:32:31Z",
-            "title": "MCH: optimized DataDecoder::reset() function",
-            "number": 7169,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-01T06:33:08Z",
             "title": "GPU: Add interface to update calibration objects",
             "number": 7170,
@@ -3386,6 +3356,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event display: Mask sources not processed by the event display",
+            "number": 7269,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
                   }
                 }
               ]
