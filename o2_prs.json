@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-03T10:37:27Z",
-            "title": "TPCQC: fix cluster task",
-            "number": 7168,
-            "author": {
-              "login": "tklemenz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/Clusters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/macro/runClusters.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/Clusters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RawToDigitsSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-01T04:32:31Z",
             "title": "MCH: optimized DataDecoder::reset() function",
             "number": 7169,
@@ -3396,6 +3361,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/LifetimeHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve notification of backpressure",
+            "number": 7268,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ChannelInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
