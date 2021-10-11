@@ -14,7 +14,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7177](https://github.com/AliceO2Group/AliceO2/pull/7177) 2021-10-02: TRD digit and tracklet writer workflow by [@bazinski](https://github.com/bazinski)
 - [\#7181](https://github.com/AliceO2Group/AliceO2/pull/7181) 2021-10-02: Allow providing ITS/MFT decoder InputSpecs from command line by [@shahor02](https://github.com/shahor02)
 - [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
 - [\#7184](https://github.com/AliceO2Group/AliceO2/pull/7184) 2021-10-02: Do not unfold too large clusters; HWerr changed; by [@peressounko](https://github.com/peressounko)
