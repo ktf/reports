@@ -74,8 +74,8 @@
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
+- [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7163](https://github.com/AliceO2Group/AliceO2/pull/7163) 2021-09-29: DPL Analysis: convince ROOT not to keep buffers around by [@ktf](https://github.com/ktf)
 - [\#7182](https://github.com/AliceO2Group/AliceO2/pull/7182) 2021-10-02: DPL Analysis: allow constructing HistogramRegistry without specifying a name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
 - [\#7203](https://github.com/AliceO2Group/AliceO2/pull/7203) 2021-10-04: DPL Analysis: prevent adding extra empty slices when the last index is -1 by [@aalkin](https://github.com/aalkin)
