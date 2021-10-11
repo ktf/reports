@@ -56,6 +56,7 @@
 - [\#7252](https://github.com/AliceO2Group/AliceO2/pull/7252) 2021-10-09: Improve initialisation for empty/cosmics events by [@mpuccio](https://github.com/mpuccio)
 - [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
+- [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
@@ -63,6 +64,7 @@
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
+- [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#7182](https://github.com/AliceO2Group/AliceO2/pull/7182) 2021-10-02: DPL Analysis: allow constructing HistogramRegistry without specifying a name by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7186](https://github.com/AliceO2Group/AliceO2/pull/7186) 2021-10-02: DPL: add metric for total timeframes read by [@ktf](https://github.com/ktf)
