@@ -39,6 +39,7 @@
 - [\#7219](https://github.com/AliceO2Group/AliceO2/pull/7219) 2021-10-07: FV0: fixes for pilot beams by [@sbysiak](https://github.com/sbysiak)
 - [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
 - [\#7226](https://github.com/AliceO2Group/AliceO2/pull/7226) 2021-10-07: TPC: minor improvements by [@wiechula](https://github.com/wiechula)
+- [\#7228](https://github.com/AliceO2Group/AliceO2/pull/7228) 2021-10-11: Match itstpcqc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
