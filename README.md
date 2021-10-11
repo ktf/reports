@@ -16,7 +16,6 @@
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7164](https://github.com/AliceO2Group/AliceO2/pull/7164) 2021-09-30: DCS: data point creator fixes (spotted by ASan) by [@aphecetche](https://github.com/aphecetche)
 - [\#7165](https://github.com/AliceO2Group/AliceO2/pull/7165) 2021-09-29: Avoid TrackPar::asString being visible to GPU code by [@shahor02](https://github.com/shahor02)
 - [\#7166](https://github.com/AliceO2Group/AliceO2/pull/7166) 2021-10-01: TPC: add more aggressive noise treatment for physics data taking + misc adjustments by [@wiechula](https://github.com/wiechula)
 - [\#7168](https://github.com/AliceO2Group/AliceO2/pull/7168) 2021-10-03: TPCQC: fix cluster task by [@tklemenz](https://github.com/tklemenz)
