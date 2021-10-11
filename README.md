@@ -12,7 +12,6 @@
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7176](https://github.com/AliceO2Group/AliceO2/pull/7176) 2021-10-01: Changes + fixes in CTF writer by [@shahor02](https://github.com/shahor02)
 - [\#7177](https://github.com/AliceO2Group/AliceO2/pull/7177) 2021-10-02: TRD digit and tracklet writer workflow by [@bazinski](https://github.com/bazinski)
 - [\#7181](https://github.com/AliceO2Group/AliceO2/pull/7181) 2021-10-02: Allow providing ITS/MFT decoder InputSpecs from command line by [@shahor02](https://github.com/shahor02)
 - [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
