@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Common
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7210](https://github.com/AliceO2Group/AliceO2/pull/7210) 2021-10-07: ClusterNativeHelper: fixing convert to tree method by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -13,8 +12,6 @@
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7173](https://github.com/AliceO2Group/AliceO2/pull/7173) 2021-10-03: Fixes for Alpide errors handling by [@shahor02](https://github.com/shahor02)
-- [\#7174](https://github.com/AliceO2Group/AliceO2/pull/7174) 2021-10-01: Temporary workaround for MFT tracking with magnet off by [@rpezzi](https://github.com/rpezzi)
 - [\#7175](https://github.com/AliceO2Group/AliceO2/pull/7175) 2021-10-01: Warn instead of crashing fataly by [@sawenzel](https://github.com/sawenzel)
 - [\#7176](https://github.com/AliceO2Group/AliceO2/pull/7176) 2021-10-01: Changes + fixes in CTF writer by [@shahor02](https://github.com/shahor02)
 - [\#7177](https://github.com/AliceO2Group/AliceO2/pull/7177) 2021-10-02: TRD digit and tracklet writer workflow by [@bazinski](https://github.com/bazinski)
