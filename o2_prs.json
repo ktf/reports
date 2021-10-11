@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC: prepare drift velocity update",
-            "number": 7171,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/TPCFastTransformHelperO2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCFastTransformHelperO2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-10-01T04:30:35Z",
             "title": "add root dictionary for clusters and tracks and update root I/O",
@@ -3376,6 +3346,26 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-10-11T14:31:52Z",
+            "title": "fix name",
+            "number": 7271,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/EPNMonitoring/CMakeLists.txt"
                   }
                 }
               ]
