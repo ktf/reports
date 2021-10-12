@@ -87,6 +87,7 @@
 - [\#7259](https://github.com/AliceO2Group/AliceO2/pull/7259) 2021-10-10: DPL: readout-proxy needs configurable --proxy-name option, in case we… by [@davidrohr](https://github.com/davidrohr)
 - [\#7267](https://github.com/AliceO2Group/AliceO2/pull/7267) 2021-10-11: DPL: allow Lifetime::Enumeration to repeat values by [@ktf](https://github.com/ktf)
 - [\#7268](https://github.com/AliceO2Group/AliceO2/pull/7268) 2021-10-12: DPL: improve notification of backpressure by [@ktf](https://github.com/ktf)
+- [\#7272](https://github.com/AliceO2Group/AliceO2/pull/7272) 2021-10-12: DPL Analysis: ensure correct slicing of boolean, fixed and variable list columns by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
