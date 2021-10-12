@@ -15,7 +15,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7188](https://github.com/AliceO2Group/AliceO2/pull/7188) 2021-10-04: [MRRTF-152] update electronic mapping (St1 complete, St2 partial) by [@aphecetche](https://github.com/aphecetche)
 - [\#7189](https://github.com/AliceO2Group/AliceO2/pull/7189) 2021-10-04: MID: prevent crash when data from non-existent board is processed by [@dstocco](https://github.com/dstocco)
 - [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
 - [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
