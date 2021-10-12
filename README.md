@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Common
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
+- [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
@@ -57,6 +58,8 @@
 - [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
 - [\#7276](https://github.com/AliceO2Group/AliceO2/pull/7276) 2021-10-12: FT0 digit write standalone workflow by [@shahor02](https://github.com/shahor02)
 - [\#7280](https://github.com/AliceO2Group/AliceO2/pull/7280) 2021-10-12: Replicate DD fix for empty TF reading by [@shahor02](https://github.com/shahor02)
+- [\#7281](https://github.com/AliceO2Group/AliceO2/pull/7281) 2021-10-12: DeltaROF default should be 0 for CA tracker by [@mpuccio](https://github.com/mpuccio)
+- [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
