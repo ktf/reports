@@ -15,8 +15,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7190](https://github.com/AliceO2Group/AliceO2/pull/7190) 2021-10-04: Mapping for module 4 fixed by [@peressounko](https://github.com/peressounko)
-- [\#7191](https://github.com/AliceO2Group/AliceO2/pull/7191) 2021-10-04: More efficient route-finder for raw-TF reader by [@shahor02](https://github.com/shahor02)
 - [\#7193](https://github.com/AliceO2Group/AliceO2/pull/7193) 2021-10-07: vertex trigger threshold  the same as in  TCM by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
 - [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
