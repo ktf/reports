@@ -92,3 +92,4 @@
 - [\#7256](https://github.com/AliceO2Group/AliceO2/pull/7256) 2021-10-10: EPN: stderr monitoring tool, forwards relevant log messages to InfoLogger by [@davidrohr](https://github.com/davidrohr)
 - [\#7257](https://github.com/AliceO2Group/AliceO2/pull/7257) 2021-10-10: GPU: Respect ignoreNonFatalGPUErrors also when debugLevel=1 by [@davidrohr](https://github.com/davidrohr)
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
+- [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
