@@ -57,6 +57,7 @@
 - [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7266](https://github.com/AliceO2Group/AliceO2/pull/7266) 2021-10-12: Fix cell neighbours lookup tables by [@mpuccio](https://github.com/mpuccio)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
 - [\#7276](https://github.com/AliceO2Group/AliceO2/pull/7276) 2021-10-12: FT0 digit write standalone workflow by [@shahor02](https://github.com/shahor02)
@@ -87,6 +88,7 @@
 - [\#7267](https://github.com/AliceO2Group/AliceO2/pull/7267) 2021-10-11: DPL: allow Lifetime::Enumeration to repeat values by [@ktf](https://github.com/ktf)
 - [\#7268](https://github.com/AliceO2Group/AliceO2/pull/7268) 2021-10-12: DPL: improve notification of backpressure by [@ktf](https://github.com/ktf)
 - [\#7272](https://github.com/AliceO2Group/AliceO2/pull/7272) 2021-10-12: DPL Analysis: ensure correct slicing of boolean, fixed and variable list columns by [@aalkin](https://github.com/aalkin)
+- [\#7275](https://github.com/AliceO2Group/AliceO2/pull/7275) 2021-10-12: DPL: do not add condition-backend option if already there by [@ktf](https://github.com/ktf)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7283](https://github.com/AliceO2Group/AliceO2/pull/7283) 2021-10-12: DPL GUI: show again driver metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
