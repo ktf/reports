@@ -15,7 +15,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7183](https://github.com/AliceO2Group/AliceO2/pull/7183) 2021-10-02: MID: add protection for data from unexpected elements by [@dstocco](https://github.com/dstocco)
 - [\#7184](https://github.com/AliceO2Group/AliceO2/pull/7184) 2021-10-02: Do not unfold too large clusters; HWerr changed; by [@peressounko](https://github.com/peressounko)
 - [\#7187](https://github.com/AliceO2Group/AliceO2/pull/7187) 2021-10-03: Implement --onlyDet option in o2-raw-tf-reader and enable non-raw data by [@shahor02](https://github.com/shahor02)
 - [\#7188](https://github.com/AliceO2Group/AliceO2/pull/7188) 2021-10-04: [MRRTF-152] update electronic mapping (St1 complete, St2 partial) by [@aphecetche](https://github.com/aphecetche)
@@ -90,6 +89,7 @@
 - [\#7268](https://github.com/AliceO2Group/AliceO2/pull/7268) 2021-10-12: DPL: improve notification of backpressure by [@ktf](https://github.com/ktf)
 - [\#7272](https://github.com/AliceO2Group/AliceO2/pull/7272) 2021-10-12: DPL Analysis: ensure correct slicing of boolean, fixed and variable list columns by [@aalkin](https://github.com/aalkin)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
+- [\#7283](https://github.com/AliceO2Group/AliceO2/pull/7283) 2021-10-12: DPL GUI: show again driver metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
