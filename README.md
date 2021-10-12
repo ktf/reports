@@ -85,6 +85,7 @@
 - [\#7275](https://github.com/AliceO2Group/AliceO2/pull/7275) 2021-10-12: DPL: do not add condition-backend option if already there by [@ktf](https://github.com/ktf)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7283](https://github.com/AliceO2Group/AliceO2/pull/7283) 2021-10-12: DPL GUI: show again driver metrics by [@ktf](https://github.com/ktf)
+- [\#7285](https://github.com/AliceO2Group/AliceO2/pull/7285) 2021-10-12: DPL GUI: avoid looping over data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7208](https://github.com/AliceO2Group/AliceO2/pull/7208) 2021-10-05: TPC digi: Check for existing file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
