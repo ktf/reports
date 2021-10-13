@@ -48,6 +48,7 @@
 - [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
+- [\#7265](https://github.com/AliceO2Group/AliceO2/pull/7265) 2021-10-13: [EMCAL-630] Force usage of references in range-based iteration over e… by [@mfasDa](https://github.com/mfasDa)
 - [\#7266](https://github.com/AliceO2Group/AliceO2/pull/7266) 2021-10-12: Fix cell neighbours lookup tables by [@mpuccio](https://github.com/mpuccio)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
