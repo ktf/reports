@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7249](https://github.com/AliceO2Group/AliceO2/pull/7249) 2021-10-13: DPL: minor fixes in AOD table writer by [@aalkin](https://github.com/aalkin)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
@@ -67,7 +66,6 @@
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7215](https://github.com/AliceO2Group/AliceO2/pull/7215) 2021-10-07: DPL Analysis: improve group slicer test with several unassigned groups by [@aalkin](https://github.com/aalkin)
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 - [\#7222](https://github.com/AliceO2Group/AliceO2/pull/7222) 2021-10-06: DPL: drop noexcept from homogeneous_apply_refs by [@ktf](https://github.com/ktf)
