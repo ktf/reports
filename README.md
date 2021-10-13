@@ -48,6 +48,7 @@
 - [\#7266](https://github.com/AliceO2Group/AliceO2/pull/7266) 2021-10-12: Fix cell neighbours lookup tables by [@mpuccio](https://github.com/mpuccio)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
+- [\#7274](https://github.com/AliceO2Group/AliceO2/pull/7274) 2021-10-13: [MCH] add cluster root I/O workflows by [@pillot](https://github.com/pillot)
 - [\#7276](https://github.com/AliceO2Group/AliceO2/pull/7276) 2021-10-12: FT0 digit write standalone workflow by [@shahor02](https://github.com/shahor02)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7280](https://github.com/AliceO2Group/AliceO2/pull/7280) 2021-10-12: Replicate DD fix for empty TF reading by [@shahor02](https://github.com/shahor02)
@@ -55,6 +56,7 @@
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
+- [\#7301](https://github.com/AliceO2Group/AliceO2/pull/7301) 2021-10-13: fix in tof geo indexing initialization by [@noferini](https://github.com/noferini)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
 - [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
