@@ -16,7 +16,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7200](https://github.com/AliceO2Group/AliceO2/pull/7200) 2021-10-06: [MFT] Improved handling of MFT tracking for B=0 by [@rpezzi](https://github.com/rpezzi)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
 - [\#7206](https://github.com/AliceO2Group/AliceO2/pull/7206) 2021-10-06: [MFT] Flip ALPIDE sensor for MFT by [@rpezzi](https://github.com/rpezzi)
