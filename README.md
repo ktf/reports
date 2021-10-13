@@ -15,7 +15,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7206](https://github.com/AliceO2Group/AliceO2/pull/7206) 2021-10-06: [MFT] Flip ALPIDE sensor for MFT by [@rpezzi](https://github.com/rpezzi)
 - [\#7210](https://github.com/AliceO2Group/AliceO2/pull/7210) 2021-10-07: ClusterNativeHelper: fixing convert to tree method by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
@@ -55,7 +54,6 @@
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
