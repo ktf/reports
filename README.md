@@ -61,7 +61,6 @@
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7207](https://github.com/AliceO2Group/AliceO2/pull/7207) 2021-10-05: Improve documentation of --run option. by [@ktf](https://github.com/ktf)
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
 - [\#7215](https://github.com/AliceO2Group/AliceO2/pull/7215) 2021-10-07: DPL Analysis: improve group slicer test with several unassigned groups by [@aalkin](https://github.com/aalkin)
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
