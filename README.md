@@ -8,7 +8,6 @@
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7210](https://github.com/AliceO2Group/AliceO2/pull/7210) 2021-10-07: ClusterNativeHelper: fixing convert to tree method by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
@@ -17,7 +16,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7200](https://github.com/AliceO2Group/AliceO2/pull/7200) 2021-10-06: [MFT] Improved handling of MFT tracking for B=0 by [@rpezzi](https://github.com/rpezzi)
 - [\#7201](https://github.com/AliceO2Group/AliceO2/pull/7201) 2021-10-05: Add CTP to GlobalTrackID, RecoContainer and InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7202](https://github.com/AliceO2Group/AliceO2/pull/7202) 2021-10-05: TPC: minor fixes and improvements by [@wiechula](https://github.com/wiechula)
