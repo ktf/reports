@@ -4,6 +4,7 @@
 - [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7209](https://github.com/AliceO2Group/AliceO2/pull/7209) 2021-10-05: Add translation for new fairlogger levels by [@davidrohr](https://github.com/davidrohr)
+- [\#7249](https://github.com/AliceO2Group/AliceO2/pull/7249) 2021-10-13: DPL: minor fixes in AOD table writer by [@aalkin](https://github.com/aalkin)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -77,6 +78,7 @@
 - [\#7227](https://github.com/AliceO2Group/AliceO2/pull/7227) 2021-10-07: DPL: better defaults for the parallel processing support by [@ktf](https://github.com/ktf)
 - [\#7236](https://github.com/AliceO2Group/AliceO2/pull/7236) 2021-10-07: DPL: speedup forwarding in case of split payload parts by [@ktf](https://github.com/ktf)
 - [\#7246](https://github.com/AliceO2Group/AliceO2/pull/7246) 2021-10-08: DPL Analysis: fix issue with empty tables by [@ktf](https://github.com/ktf)
+- [\#7249](https://github.com/AliceO2Group/AliceO2/pull/7249) 2021-10-13: DPL: minor fixes in AOD table writer by [@aalkin](https://github.com/aalkin)
 - [\#7251](https://github.com/AliceO2Group/AliceO2/pull/7251) 2021-10-09: Fixed categorised combinations for filtered tables by [@saganatt](https://github.com/saganatt)
 - [\#7254](https://github.com/AliceO2Group/AliceO2/pull/7254) 2021-10-10: DPL: automatically create DDS properties for unresolved zeromq channels by [@ktf](https://github.com/ktf)
 - [\#7259](https://github.com/AliceO2Group/AliceO2/pull/7259) 2021-10-10: DPL: readout-proxy needs configurable --proxy-name option, in case we… by [@davidrohr](https://github.com/davidrohr)
