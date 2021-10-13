@@ -16,7 +16,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7194](https://github.com/AliceO2Group/AliceO2/pull/7194) 2021-10-04: Fix typo in option "vetex-track-matching-sources" by [@shahor02](https://github.com/shahor02)
 - [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
@@ -59,6 +58,7 @@
 - [\#7280](https://github.com/AliceO2Group/AliceO2/pull/7280) 2021-10-12: Replicate DD fix for empty TF reading by [@shahor02](https://github.com/shahor02)
 - [\#7281](https://github.com/AliceO2Group/AliceO2/pull/7281) 2021-10-12: DeltaROF default should be 0 for CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
+- [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7205](https://github.com/AliceO2Group/AliceO2/pull/7205) 2021-10-04: Readd event display printout, was removed by [@davidrohr](https://github.com/davidrohr)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
