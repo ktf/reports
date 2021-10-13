@@ -16,7 +16,6 @@
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7195](https://github.com/AliceO2Group/AliceO2/pull/7195) 2021-10-06: Tracking mode "cosmics" for the CM tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7197](https://github.com/AliceO2Group/AliceO2/pull/7197) 2021-10-05: [globalfwdmatching] Isolate use of MC labels + clear a vector by [@rpezzi](https://github.com/rpezzi)
 - [\#7198](https://github.com/AliceO2Group/AliceO2/pull/7198) 2021-10-05: [EMCAL-551] Align indices for HG/LG cells by [@mfasDa](https://github.com/mfasDa)
 - [\#7200](https://github.com/AliceO2Group/AliceO2/pull/7200) 2021-10-06: [MFT] Improved handling of MFT tracking for B=0 by [@rpezzi](https://github.com/rpezzi)
