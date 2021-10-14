@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-06T09:03:09Z",
-            "title": "Minor improvement in hw error handling",
-            "number": 7214,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSHGLGRatioCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSHGLGRatioCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-07T22:13:50Z",
             "title": "DPL Analysis: improve group slicer test with several unassigned groups",
             "number": 7215,
@@ -3546,6 +3511,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add FIT time calibration options",
+            "number": 7314,
+            "author": {
+              "login": "HimanshuCERN"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibrationSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0ChannelTimeCalibrationSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
                   }
                 }
               ]
