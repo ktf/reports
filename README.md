@@ -64,7 +64,6 @@
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7215](https://github.com/AliceO2Group/AliceO2/pull/7215) 2021-10-07: DPL Analysis: improve group slicer test with several unassigned groups by [@aalkin](https://github.com/aalkin)
 - [\#7218](https://github.com/AliceO2Group/AliceO2/pull/7218) 2021-10-05: DPL: turn off early forwarding optimization by [@ktf](https://github.com/ktf)
 - [\#7222](https://github.com/AliceO2Group/AliceO2/pull/7222) 2021-10-06: DPL: drop noexcept from homogeneous_apply_refs by [@ktf](https://github.com/ktf)
 - [\#7224](https://github.com/AliceO2Group/AliceO2/pull/7224) 2021-10-07: DPL Analysis: add exception when grouping with improperly sorted index by [@aalkin](https://github.com/aalkin)
