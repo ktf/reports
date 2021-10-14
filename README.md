@@ -13,7 +13,6 @@
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7219](https://github.com/AliceO2Group/AliceO2/pull/7219) 2021-10-07: FV0: fixes for pilot beams by [@sbysiak](https://github.com/sbysiak)
 - [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
@@ -56,7 +55,6 @@
 - [\#7307](https://github.com/AliceO2Group/AliceO2/pull/7307) 2021-10-14: Write MID masks to file in the format expected from DCS by [@dstocco](https://github.com/dstocco)
 - [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
