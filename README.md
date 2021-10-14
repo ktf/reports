@@ -51,6 +51,7 @@
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
+- [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
 - [\#7301](https://github.com/AliceO2Group/AliceO2/pull/7301) 2021-10-13: fix in tof geo indexing initialization by [@noferini](https://github.com/noferini)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
 - [\#7307](https://github.com/AliceO2Group/AliceO2/pull/7307) 2021-10-14: Write MID masks to file in the format expected from DCS by [@dstocco](https://github.com/dstocco)
