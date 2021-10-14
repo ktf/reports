@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-06T07:23:35Z",
-            "title": "TPC: update for laser v-drift calibration",
-            "number": 7213,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/LtrCalibData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/src/DataFormatsTPCLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CDBInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibLaserTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/macro/preparePedestalFiles.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibLaserTracks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ApplyCCDBCalibSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-06T09:03:09Z",
             "title": "Minor improvement in hw error handling",
             "number": 7214,
@@ -3561,6 +3501,26 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/workflow/src/ClusterizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: prevent OutputProxy from using 100% CPU usage when idle",
+            "number": 7313,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]

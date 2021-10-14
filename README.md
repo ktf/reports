@@ -7,14 +7,12 @@
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)
 - [\#7217](https://github.com/AliceO2Group/AliceO2/pull/7217) 2021-10-07: [EMCAL-630] Handling of overlap region of HG/LG digits by [@mfasDa](https://github.com/mfasDa)
