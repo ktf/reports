@@ -14,7 +14,6 @@
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7212](https://github.com/AliceO2Group/AliceO2/pull/7212) 2021-10-06: Extend proto-evTimeMaker by [@njacazio](https://github.com/njacazio)
 - [\#7213](https://github.com/AliceO2Group/AliceO2/pull/7213) 2021-10-06: TPC: update for laser v-drift calibration by [@wiechula](https://github.com/wiechula)
 - [\#7214](https://github.com/AliceO2Group/AliceO2/pull/7214) 2021-10-06: Minor improvement in hw error handling by [@peressounko](https://github.com/peressounko)
 - [\#7216](https://github.com/AliceO2Group/AliceO2/pull/7216) 2021-10-06: Switch from options to ClustererParam for ITS/MFT clust.dict. and noise by [@shahor02](https://github.com/shahor02)

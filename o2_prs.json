@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-06T07:23:02Z",
-            "title": "Extend proto-evTimeMaker",
-            "number": 7212,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/EventTimeMaker.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-06T07:23:35Z",
             "title": "TPC: update for laser v-drift calibration",
             "number": 7213,
@@ -3546,6 +3526,41 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/emc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[CPV] Fix mc labels handling in clusterizer",
+            "number": 7312,
+            "author": {
+              "login": "sevdokim"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/macros/readPedestalsFromCCDB.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/include/CPVSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/workflow/src/ClusterizerSpec.cxx"
                   }
                 }
               ]
