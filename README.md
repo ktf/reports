@@ -61,6 +61,7 @@
 - [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
 - [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
+- [\#7322](https://github.com/AliceO2Group/AliceO2/pull/7322) 2021-10-15: [EMCAL-728] Reduce verbosity of the error logging by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
