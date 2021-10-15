@@ -6,6 +6,7 @@
 - [\#7249](https://github.com/AliceO2Group/AliceO2/pull/7249) 2021-10-13: DPL: minor fixes in AOD table writer by [@aalkin](https://github.com/aalkin)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
+- [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
@@ -49,6 +50,7 @@
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
 - [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
+- [\#7300](https://github.com/AliceO2Group/AliceO2/pull/7300) 2021-10-15: MCH: prevent decoder crashes due to unknown link id error by [@aphecetche](https://github.com/aphecetche)
 - [\#7301](https://github.com/AliceO2Group/AliceO2/pull/7301) 2021-10-13: fix in tof geo indexing initialization by [@noferini](https://github.com/noferini)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
 - [\#7305](https://github.com/AliceO2Group/AliceO2/pull/7305) 2021-10-15: TPC: add drawing of laser track calibration by [@tklemenz](https://github.com/tklemenz)
@@ -57,6 +59,7 @@
 - [\#7309](https://github.com/AliceO2Group/AliceO2/pull/7309) 2021-10-15: macro to upload and fetch Mat LUT to/from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
+- [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
@@ -85,6 +88,7 @@
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
+- [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7256](https://github.com/AliceO2Group/AliceO2/pull/7256) 2021-10-10: EPN: stderr monitoring tool, forwards relevant log messages to InfoLogger by [@davidrohr](https://github.com/davidrohr)
 - [\#7257](https://github.com/AliceO2Group/AliceO2/pull/7257) 2021-10-10: GPU: Respect ignoreNonFatalGPUErrors also when debugLevel=1 by [@davidrohr](https://github.com/davidrohr)
