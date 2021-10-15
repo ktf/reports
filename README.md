@@ -54,6 +54,7 @@
 - [\#7305](https://github.com/AliceO2Group/AliceO2/pull/7305) 2021-10-15: TPC: add drawing of laser track calibration by [@tklemenz](https://github.com/tklemenz)
 - [\#7307](https://github.com/AliceO2Group/AliceO2/pull/7307) 2021-10-14: Write MID masks to file in the format expected from DCS by [@dstocco](https://github.com/dstocco)
 - [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
+- [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
 ## Recent developments in O2 - EventVisualisation
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
