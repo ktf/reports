@@ -25,6 +25,7 @@
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 - [\#7239](https://github.com/AliceO2Group/AliceO2/pull/7239) 2021-10-09: Fix CTP digit reader by [@shahor02](https://github.com/shahor02)
 - [\#7241](https://github.com/AliceO2Group/AliceO2/pull/7241) 2021-10-09: MCH: fix send empty output in case of dropped TF by [@aphecetche](https://github.com/aphecetche)
+- [\#7242](https://github.com/AliceO2Group/AliceO2/pull/7242) 2021-10-15: [MCH] fix tracking without station 1 by [@pillot](https://github.com/pillot)
 - [\#7243](https://github.com/AliceO2Group/AliceO2/pull/7243) 2021-10-08: Change FIT Digits_with_no_channels from error to debug message by [@shahor02](https://github.com/shahor02)
 - [\#7244](https://github.com/AliceO2Group/AliceO2/pull/7244) 2021-10-08: call CTF finalization from d-tor in case EOS did not arrive by [@shahor02](https://github.com/shahor02)
 - [\#7247](https://github.com/AliceO2Group/AliceO2/pull/7247) 2021-10-08: suppress usage of Slewing correction for pp data by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
