@@ -79,6 +79,7 @@
 - [\#7286](https://github.com/AliceO2Group/AliceO2/pull/7286) 2021-10-13: DPL: introduce the --dds-workflow-suffix option by [@ktf](https://github.com/ktf)
 - [\#7292](https://github.com/AliceO2Group/AliceO2/pull/7292) 2021-10-14: Defining as inline sameCategory and diffCategory by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#7256](https://github.com/AliceO2Group/AliceO2/pull/7256) 2021-10-10: EPN: stderr monitoring tool, forwards relevant log messages to InfoLogger by [@davidrohr](https://github.com/davidrohr)
