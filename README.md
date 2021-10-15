@@ -47,6 +47,7 @@
 - [\#7281](https://github.com/AliceO2Group/AliceO2/pull/7281) 2021-10-12: DeltaROF default should be 0 for CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
+- [\#7293](https://github.com/AliceO2Group/AliceO2/pull/7293) 2021-10-15: Make output structure as from o2-qc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
 - [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
