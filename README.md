@@ -13,7 +13,6 @@
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
 - [\#7226](https://github.com/AliceO2Group/AliceO2/pull/7226) 2021-10-07: TPC: minor improvements by [@wiechula](https://github.com/wiechula)
 - [\#7228](https://github.com/AliceO2Group/AliceO2/pull/7228) 2021-10-11: Match itstpcqc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
