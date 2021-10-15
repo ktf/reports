@@ -13,7 +13,6 @@
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7219](https://github.com/AliceO2Group/AliceO2/pull/7219) 2021-10-07: FV0: fixes for pilot beams by [@sbysiak](https://github.com/sbysiak)
 - [\#7221](https://github.com/AliceO2Group/AliceO2/pull/7221) 2021-10-07: TPC: fix fmt error by [@wiechula](https://github.com/wiechula)
 - [\#7226](https://github.com/AliceO2Group/AliceO2/pull/7226) 2021-10-07: TPC: minor improvements by [@wiechula](https://github.com/wiechula)
 - [\#7228](https://github.com/AliceO2Group/AliceO2/pull/7228) 2021-10-11: Match itstpcqc by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -53,6 +52,7 @@
 - [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
 - [\#7301](https://github.com/AliceO2Group/AliceO2/pull/7301) 2021-10-13: fix in tof geo indexing initialization by [@noferini](https://github.com/noferini)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
+- [\#7305](https://github.com/AliceO2Group/AliceO2/pull/7305) 2021-10-15: TPC: add drawing of laser track calibration by [@tklemenz](https://github.com/tklemenz)
 - [\#7307](https://github.com/AliceO2Group/AliceO2/pull/7307) 2021-10-14: Write MID masks to file in the format expected from DCS by [@dstocco](https://github.com/dstocco)
 - [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
