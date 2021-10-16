@@ -71,7 +71,6 @@
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7227](https://github.com/AliceO2Group/AliceO2/pull/7227) 2021-10-07: DPL: better defaults for the parallel processing support by [@ktf](https://github.com/ktf)
 - [\#7236](https://github.com/AliceO2Group/AliceO2/pull/7236) 2021-10-07: DPL: speedup forwarding in case of split payload parts by [@ktf](https://github.com/ktf)
 - [\#7238](https://github.com/AliceO2Group/AliceO2/pull/7238) 2021-10-15: DPL: Message forwarding should be based on the headers of each individual part by [@davidrohr](https://github.com/davidrohr)
 - [\#7246](https://github.com/AliceO2Group/AliceO2/pull/7246) 2021-10-08: DPL Analysis: fix issue with empty tables by [@ktf](https://github.com/ktf)
