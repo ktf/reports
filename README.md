@@ -6,6 +6,7 @@
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
+- [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
@@ -13,6 +14,7 @@
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
+- [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
@@ -61,6 +63,7 @@
 - [\#7326](https://github.com/AliceO2Group/AliceO2/pull/7326) 2021-10-16: Add standalone EMC cell-writer (for debugging) by [@shahor02](https://github.com/shahor02)
 - [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
+- [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7331](https://github.com/AliceO2Group/AliceO2/pull/7331) 2021-10-16: Prepend MCH local config and debug options by mch- to avoid conflict by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
