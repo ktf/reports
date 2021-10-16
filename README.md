@@ -14,7 +14,6 @@
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
 - [\#7232](https://github.com/AliceO2Group/AliceO2/pull/7232) 2021-10-08: Enable CA cosmics reconstruction by [@mpuccio](https://github.com/mpuccio)
 - [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
@@ -65,7 +64,6 @@
 - [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
