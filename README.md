@@ -14,7 +14,6 @@
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7228](https://github.com/AliceO2Group/AliceO2/pull/7228) 2021-10-11: Match itstpcqc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7229](https://github.com/AliceO2Group/AliceO2/pull/7229) 2021-10-07: fix name of V0 table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7231](https://github.com/AliceO2Group/AliceO2/pull/7231) 2021-10-07: Fix CTF metadata writing by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
 - [\#7322](https://github.com/AliceO2Group/AliceO2/pull/7322) 2021-10-15: [EMCAL-728] Reduce verbosity of the error logging by [@mfasDa](https://github.com/mfasDa)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
+- [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
