@@ -5,12 +5,14 @@
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
+- [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
+- [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7226](https://github.com/AliceO2Group/AliceO2/pull/7226) 2021-10-07: TPC: minor improvements by [@wiechula](https://github.com/wiechula)
 - [\#7228](https://github.com/AliceO2Group/AliceO2/pull/7228) 2021-10-11: Match itstpcqc by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -61,6 +63,7 @@
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
 - [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
 - [\#7322](https://github.com/AliceO2Group/AliceO2/pull/7322) 2021-10-15: [EMCAL-728] Reduce verbosity of the error logging by [@mfasDa](https://github.com/mfasDa)
+- [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7230](https://github.com/AliceO2Group/AliceO2/pull/7230) 2021-10-07: workflow update to properly produce: by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
