@@ -62,6 +62,7 @@
 - [\#7326](https://github.com/AliceO2Group/AliceO2/pull/7326) 2021-10-16: Add standalone EMC cell-writer (for debugging) by [@shahor02](https://github.com/shahor02)
 - [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
+- [\#7331](https://github.com/AliceO2Group/AliceO2/pull/7331) 2021-10-16: Prepend MCH local config and debug options by mch- to avoid conflict by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7234](https://github.com/AliceO2Group/AliceO2/pull/7234) 2021-10-08: EVE: added MCH clusters and tracks to o2-eve-display workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
