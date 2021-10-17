@@ -16,6 +16,7 @@
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
+- [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 - [\#7239](https://github.com/AliceO2Group/AliceO2/pull/7239) 2021-10-09: Fix CTP digit reader by [@shahor02](https://github.com/shahor02)
@@ -66,6 +67,7 @@
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7331](https://github.com/AliceO2Group/AliceO2/pull/7331) 2021-10-16: Prepend MCH local config and debug options by mch- to avoid conflict by [@shahor02](https://github.com/shahor02)
+- [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
