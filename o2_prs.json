@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-07T21:35:44Z",
-            "title": "suppress std::cout writing from getGlobalFwdTrackReaderSpec",
-            "number": 7237,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/readers/src/GlobalFwdTrackReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-15T17:54:14Z",
             "title": "DPL: Message forwarding should be based on the headers of each individual part",
             "number": 7238,
@@ -3219,8 +3199,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-10-17T17:31:39Z",
             "title": "Add EMC, PHS and CPV reconstruction to sim_challenge",
             "number": 7332,
             "author": {
@@ -3341,6 +3321,36 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally ignore BC check in TPC-ITS macthing",
+            "number": 7337,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
                   }
                 }
               ]
