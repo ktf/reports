@@ -16,7 +16,6 @@
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7233](https://github.com/AliceO2Group/AliceO2/pull/7233) 2021-10-08: [EMCAL-630] Shift cell time by 600 ns by [@mfasDa](https://github.com/mfasDa)
 - [\#7237](https://github.com/AliceO2Group/AliceO2/pull/7237) 2021-10-07: suppress std::cout writing from getGlobalFwdTrackReaderSpec by [@shahor02](https://github.com/shahor02)
 - [\#7239](https://github.com/AliceO2Group/AliceO2/pull/7239) 2021-10-09: Fix CTP digit reader by [@shahor02](https://github.com/shahor02)
 - [\#7241](https://github.com/AliceO2Group/AliceO2/pull/7241) 2021-10-09: MCH: fix send empty output in case of dropped TF by [@aphecetche](https://github.com/aphecetche)
