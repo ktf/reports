@@ -18,7 +18,6 @@
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7241](https://github.com/AliceO2Group/AliceO2/pull/7241) 2021-10-09: MCH: fix send empty output in case of dropped TF by [@aphecetche](https://github.com/aphecetche)
 - [\#7242](https://github.com/AliceO2Group/AliceO2/pull/7242) 2021-10-15: [MCH] fix tracking without station 1 by [@pillot](https://github.com/pillot)
 - [\#7243](https://github.com/AliceO2Group/AliceO2/pull/7243) 2021-10-08: Change FIT Digits_with_no_channels from error to debug message by [@shahor02](https://github.com/shahor02)
 - [\#7244](https://github.com/AliceO2Group/AliceO2/pull/7244) 2021-10-08: call CTF finalization from d-tor in case EOS did not arrive by [@shahor02](https://github.com/shahor02)
