@@ -91,7 +91,6 @@
 - [\#7338](https://github.com/AliceO2Group/AliceO2/pull/7338) 2021-10-18: DPL GUI: make some progress towards remote gui integration by [@ktf](https://github.com/ktf)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Utilities
-- [\#7257](https://github.com/AliceO2Group/AliceO2/pull/7257) 2021-10-10: GPU: Respect ignoreNonFatalGPUErrors also when debugLevel=1 by [@davidrohr](https://github.com/davidrohr)
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
