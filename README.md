@@ -18,7 +18,6 @@
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7247](https://github.com/AliceO2Group/AliceO2/pull/7247) 2021-10-08: suppress usage of Slewing correction for pp data by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7248](https://github.com/AliceO2Group/AliceO2/pull/7248) 2021-10-10: Workflow to write to file the MID digits decoded from raw data by [@dstocco](https://github.com/dstocco)
 - [\#7250](https://github.com/AliceO2Group/AliceO2/pull/7250) 2021-10-08: fix in tof decoder wrong rdh by [@noferini](https://github.com/noferini)
 - [\#7252](https://github.com/AliceO2Group/AliceO2/pull/7252) 2021-10-09: Improve initialisation for empty/cosmics events by [@mpuccio](https://github.com/mpuccio)

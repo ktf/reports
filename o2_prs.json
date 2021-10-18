@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-08T22:55:54Z",
-            "title": "suppress usage of Slewing correction for pp data",
-            "number": 7247,
-            "author": {
-              "login": "AllaMaevskaya"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/ReconstructionSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-10T11:09:35Z",
             "title": "Workflow to write to file the MID digits decoded from raw data",
             "number": 7248,
@@ -3706,6 +3686,36 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: minor fixes propaedeutic for Remote GUI",
+            "number": 7347,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DriverServerContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
