@@ -64,6 +64,7 @@
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7337](https://github.com/AliceO2Group/AliceO2/pull/7337) 2021-10-18: Optionally ignore BC check in TPC-ITS macthing by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7341](https://github.com/AliceO2Group/AliceO2/pull/7341) 2021-10-18: ctf-reader can inject only selected CTF IDs from input (multi-ctf) files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
