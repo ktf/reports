@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-08T17:39:45Z",
-            "title": "Data model docs update: don't fail when PR already exists",
-            "number": 7245,
-            "author": {
-              "login": "TimoWilken"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": ".github/workflows/datamodel-doc.yml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-08T17:10:14Z",
             "title": "DPL Analysis: fix issue with empty tables",
             "number": 7246,
@@ -3621,6 +3601,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"[EMCAL-728] Reduce verbosity of the error logging\"",
+            "number": 7345,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/Channel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/Channel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
