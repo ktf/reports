@@ -9,6 +9,7 @@
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7334](https://github.com/AliceO2Group/AliceO2/pull/7334) 2021-10-17: Suppress message appearing in the workflow definition by [@shahor02](https://github.com/shahor02)
+- [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
@@ -18,6 +19,7 @@
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
@@ -61,6 +63,7 @@
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7337](https://github.com/AliceO2Group/AliceO2/pull/7337) 2021-10-18: Optionally ignore BC check in TPC-ITS macthing by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7341](https://github.com/AliceO2Group/AliceO2/pull/7341) 2021-10-18: ctf-reader can inject only selected CTF IDs from input (multi-ctf) files by [@shahor02](https://github.com/shahor02)
 - [\#7342](https://github.com/AliceO2Group/AliceO2/pull/7342) 2021-10-18: Invert logic for HGLGmerge option by [@davidrohr](https://github.com/davidrohr)
 - [\#7346](https://github.com/AliceO2Group/AliceO2/pull/7346) 2021-10-18: Assign MCCollID -1 for PVs with undefined labels [O2-2631] by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
