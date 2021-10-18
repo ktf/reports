@@ -64,7 +64,6 @@
 - [\#7341](https://github.com/AliceO2Group/AliceO2/pull/7341) 2021-10-18: ctf-reader can inject only selected CTF IDs from input (multi-ctf) files by [@shahor02](https://github.com/shahor02)
 - [\#7342](https://github.com/AliceO2Group/AliceO2/pull/7342) 2021-10-18: Invert logic for HGLGmerge option by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
-- [\#7253](https://github.com/AliceO2Group/AliceO2/pull/7253) 2021-10-08: o2-eve should not recreate the tpc transformation map every time by [@davidrohr](https://github.com/davidrohr)
 - [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
