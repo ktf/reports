@@ -89,6 +89,7 @@
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
+- [\#7338](https://github.com/AliceO2Group/AliceO2/pull/7338) 2021-10-18: DPL GUI: make some progress towards remote gui integration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7256](https://github.com/AliceO2Group/AliceO2/pull/7256) 2021-10-10: EPN: stderr monitoring tool, forwards relevant log messages to InfoLogger by [@davidrohr](https://github.com/davidrohr)
 - [\#7257](https://github.com/AliceO2Group/AliceO2/pull/7257) 2021-10-10: GPU: Respect ignoreNonFatalGPUErrors also when debugLevel=1 by [@davidrohr](https://github.com/davidrohr)
