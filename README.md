@@ -89,6 +89,7 @@
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 - [\#7338](https://github.com/AliceO2Group/AliceO2/pull/7338) 2021-10-18: DPL GUI: make some progress towards remote gui integration by [@ktf](https://github.com/ktf)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7347](https://github.com/AliceO2Group/AliceO2/pull/7347) 2021-10-18: DPL: minor fixes propaedeutic for Remote GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
