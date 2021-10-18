@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-08T17:10:14Z",
-            "title": "DPL Analysis: fix issue with empty tables",
-            "number": 7246,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/FairMQResizableBuffer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-08T22:55:54Z",
             "title": "suppress usage of Slewing correction for pp data",
             "number": 7247,
@@ -3641,6 +3616,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Assign MCCollID -1 for PVs with undefined labels [O2-2631]",
+            "number": 7346,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]

@@ -72,7 +72,6 @@
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7246](https://github.com/AliceO2Group/AliceO2/pull/7246) 2021-10-08: DPL Analysis: fix issue with empty tables by [@ktf](https://github.com/ktf)
 - [\#7249](https://github.com/AliceO2Group/AliceO2/pull/7249) 2021-10-13: DPL: minor fixes in AOD table writer by [@aalkin](https://github.com/aalkin)
 - [\#7251](https://github.com/AliceO2Group/AliceO2/pull/7251) 2021-10-09: Fixed categorised combinations for filtered tables by [@saganatt](https://github.com/saganatt)
 - [\#7254](https://github.com/AliceO2Group/AliceO2/pull/7254) 2021-10-10: DPL: automatically create DDS properties for unresolved zeromq channels by [@ktf](https://github.com/ktf)
