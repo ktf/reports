@@ -93,6 +93,7 @@
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7347](https://github.com/AliceO2Group/AliceO2/pull/7347) 2021-10-18: DPL: minor fixes propaedeutic for Remote GUI by [@ktf](https://github.com/ktf)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
+- [\#7352](https://github.com/AliceO2Group/AliceO2/pull/7352) 2021-10-18: DPL: make frameworkId independent from actual DDS extra information by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
