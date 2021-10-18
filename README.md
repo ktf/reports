@@ -11,7 +11,6 @@
 - [\#7334](https://github.com/AliceO2Group/AliceO2/pull/7334) 2021-10-17: Suppress message appearing in the workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
@@ -21,7 +20,6 @@
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7258](https://github.com/AliceO2Group/AliceO2/pull/7258) 2021-10-11: PVertexer should prefer well-defined labels by [@shahor02](https://github.com/shahor02)
 - [\#7260](https://github.com/AliceO2Group/AliceO2/pull/7260) 2021-10-11: Fixes for TRD matcher by [@shahor02](https://github.com/shahor02)
 - [\#7261](https://github.com/AliceO2Group/AliceO2/pull/7261) 2021-10-10: Fixes for TRD decoder by [@shahor02](https://github.com/shahor02)
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
