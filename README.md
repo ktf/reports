@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
@@ -18,6 +19,7 @@
 - [\#7262](https://github.com/AliceO2Group/AliceO2/pull/7262) 2021-10-11: Add calorimeters data to RecoContainer / InputHelper by [@shahor02](https://github.com/shahor02)
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
+- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -37,6 +39,7 @@
 - [\#7280](https://github.com/AliceO2Group/AliceO2/pull/7280) 2021-10-12: Replicate DD fix for empty TF reading by [@shahor02](https://github.com/shahor02)
 - [\#7281](https://github.com/AliceO2Group/AliceO2/pull/7281) 2021-10-12: DeltaROF default should be 0 for CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7293](https://github.com/AliceO2Group/AliceO2/pull/7293) 2021-10-15: Make output structure as from o2-qc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
