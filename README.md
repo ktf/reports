@@ -23,7 +23,6 @@
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7266](https://github.com/AliceO2Group/AliceO2/pull/7266) 2021-10-12: Fix cell neighbours lookup tables by [@mpuccio](https://github.com/mpuccio)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
