@@ -92,6 +92,7 @@
 - [\#7338](https://github.com/AliceO2Group/AliceO2/pull/7338) 2021-10-18: DPL GUI: make some progress towards remote gui integration by [@ktf](https://github.com/ktf)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7347](https://github.com/AliceO2Group/AliceO2/pull/7347) 2021-10-18: DPL: minor fixes propaedeutic for Remote GUI by [@ktf](https://github.com/ktf)
+- [\#7348](https://github.com/AliceO2Group/AliceO2/pull/7348) 2021-10-19: Improving DPL benchmark ExternalFairMQDeviceProxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7352](https://github.com/AliceO2Group/AliceO2/pull/7352) 2021-10-18: DPL: make frameworkId independent from actual DDS extra information by [@ktf](https://github.com/ktf)
 - [\#7357](https://github.com/AliceO2Group/AliceO2/pull/7357) 2021-10-18: DPL Analysis: fix bug in soa::Table::sliceBy(), add a test by [@aalkin](https://github.com/aalkin)
