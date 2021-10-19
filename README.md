@@ -74,7 +74,6 @@
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7268](https://github.com/AliceO2Group/AliceO2/pull/7268) 2021-10-12: DPL: improve notification of backpressure by [@ktf](https://github.com/ktf)
 - [\#7272](https://github.com/AliceO2Group/AliceO2/pull/7272) 2021-10-12: DPL Analysis: ensure correct slicing of boolean, fixed and variable list columns by [@aalkin](https://github.com/aalkin)
 - [\#7275](https://github.com/AliceO2Group/AliceO2/pull/7275) 2021-10-12: DPL: do not add condition-backend option if already there by [@ktf](https://github.com/ktf)
 - [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
