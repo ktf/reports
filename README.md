@@ -14,6 +14,7 @@
 - [\#7334](https://github.com/AliceO2Group/AliceO2/pull/7334) 2021-10-17: Suppress message appearing in the workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
+- [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
@@ -94,6 +95,7 @@
 - [\#7352](https://github.com/AliceO2Group/AliceO2/pull/7352) 2021-10-18: DPL: make frameworkId independent from actual DDS extra information by [@ktf](https://github.com/ktf)
 - [\#7357](https://github.com/AliceO2Group/AliceO2/pull/7357) 2021-10-18: DPL Analysis: fix bug in soa::Table::sliceBy(), add a test by [@aalkin](https://github.com/aalkin)
 - [\#7359](https://github.com/AliceO2Group/AliceO2/pull/7359) 2021-10-19: DPL: provide unique DDS id as --id when running with --dds by [@ktf](https://github.com/ktf)
+- [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
