@@ -53,6 +53,7 @@
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
 - [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
 - [\#7320](https://github.com/AliceO2Group/AliceO2/pull/7320) 2021-10-17: TPC: update Cluster QC by [@wiechula](https://github.com/wiechula)
+- [\#7321](https://github.com/AliceO2Group/AliceO2/pull/7321) 2021-10-19: Use TEfficiency for efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7322](https://github.com/AliceO2Group/AliceO2/pull/7322) 2021-10-15: [EMCAL-728] Reduce verbosity of the error logging by [@mfasDa](https://github.com/mfasDa)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7326](https://github.com/AliceO2Group/AliceO2/pull/7326) 2021-10-16: Add standalone EMC cell-writer (for debugging) by [@shahor02](https://github.com/shahor02)
