@@ -69,7 +69,6 @@
 - [\#7345](https://github.com/AliceO2Group/AliceO2/pull/7345) 2021-10-18: Revert "[EMCAL-728] Reduce verbosity of the error logging" by [@mfasDa](https://github.com/mfasDa)
 - [\#7346](https://github.com/AliceO2Group/AliceO2/pull/7346) 2021-10-18: Assign MCCollID -1 for PVs with undefined labels [O2-2631] by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - EventVisualisation
-- [\#7263](https://github.com/AliceO2Group/AliceO2/pull/7263) 2021-10-11: Add timer for visualization cycle by [@shahor02](https://github.com/shahor02)
 - [\#7269](https://github.com/AliceO2Group/AliceO2/pull/7269) 2021-10-11: Event display: Mask sources not processed by the event display by [@davidrohr](https://github.com/davidrohr)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
