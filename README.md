@@ -93,6 +93,7 @@
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7352](https://github.com/AliceO2Group/AliceO2/pull/7352) 2021-10-18: DPL: make frameworkId independent from actual DDS extra information by [@ktf](https://github.com/ktf)
 - [\#7357](https://github.com/AliceO2Group/AliceO2/pull/7357) 2021-10-18: DPL Analysis: fix bug in soa::Table::sliceBy(), add a test by [@aalkin](https://github.com/aalkin)
+- [\#7359](https://github.com/AliceO2Group/AliceO2/pull/7359) 2021-10-19: DPL: provide unique DDS id as --id when running with --dds by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
