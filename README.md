@@ -65,6 +65,7 @@
 - [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
 - [\#7370](https://github.com/AliceO2Group/AliceO2/pull/7370) 2021-10-20: Fix DataDescription for diagnostic calib by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
@@ -89,6 +90,7 @@
 - [\#7359](https://github.com/AliceO2Group/AliceO2/pull/7359) 2021-10-19: DPL: provide unique DDS id as --id when running with --dds by [@ktf](https://github.com/ktf)
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7364](https://github.com/AliceO2Group/AliceO2/pull/7364) 2021-10-20: DPL: set run number in start rather than in init by [@ktf](https://github.com/ktf)
+- [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
