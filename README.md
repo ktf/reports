@@ -72,6 +72,7 @@
 - [\#7360](https://github.com/AliceO2Group/AliceO2/pull/7360) 2021-10-19: CPV: fix in pedestal calibration by [@sevdokim](https://github.com/sevdokim)
 - [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
+- [\#7370](https://github.com/AliceO2Group/AliceO2/pull/7370) 2021-10-20: Fix DataDescription for diagnostic calib by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
