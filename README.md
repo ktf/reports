@@ -25,7 +25,6 @@
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7281](https://github.com/AliceO2Group/AliceO2/pull/7281) 2021-10-12: DeltaROF default should be 0 for CA tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
