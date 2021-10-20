@@ -58,6 +58,7 @@
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7331](https://github.com/AliceO2Group/AliceO2/pull/7331) 2021-10-16: Prepend MCH local config and debug options by mch- to avoid conflict by [@shahor02](https://github.com/shahor02)
+- [\#7333](https://github.com/AliceO2Group/AliceO2/pull/7333) 2021-10-20: Configurable parameters for the cooked tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7337](https://github.com/AliceO2Group/AliceO2/pull/7337) 2021-10-18: Optionally ignore BC check in TPC-ITS macthing by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
@@ -68,6 +69,7 @@
 - [\#7346](https://github.com/AliceO2Group/AliceO2/pull/7346) 2021-10-18: Assign MCCollID -1 for PVs with undefined labels [O2-2631] by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7358](https://github.com/AliceO2Group/AliceO2/pull/7358) 2021-10-19: [FV0] Enable data sampling - to be used for calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#7360](https://github.com/AliceO2Group/AliceO2/pull/7360) 2021-10-19: CPV: fix in pedestal calibration by [@sevdokim](https://github.com/sevdokim)
+- [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7284](https://github.com/AliceO2Group/AliceO2/pull/7284) 2021-10-13: o2-eve: R3 geometry, cleanup by [@jmyrcha](https://github.com/jmyrcha)
