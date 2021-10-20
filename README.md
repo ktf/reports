@@ -6,7 +6,6 @@
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
@@ -71,7 +70,6 @@
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7282](https://github.com/AliceO2Group/AliceO2/pull/7282) 2021-10-12: DPL: actually set verbosity for metric. by [@ktf](https://github.com/ktf)
 - [\#7283](https://github.com/AliceO2Group/AliceO2/pull/7283) 2021-10-12: DPL GUI: show again driver metrics by [@ktf](https://github.com/ktf)
 - [\#7285](https://github.com/AliceO2Group/AliceO2/pull/7285) 2021-10-12: DPL GUI: avoid looping over data by [@ktf](https://github.com/ktf)
 - [\#7286](https://github.com/AliceO2Group/AliceO2/pull/7286) 2021-10-13: DPL: introduce the --dds-workflow-suffix option by [@ktf](https://github.com/ktf)
