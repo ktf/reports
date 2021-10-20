@@ -24,7 +24,6 @@
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7270](https://github.com/AliceO2Group/AliceO2/pull/7270) 2021-10-11: TRD track-based calib optional and disabled by default by [@martenole](https://github.com/martenole)
 - [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7274](https://github.com/AliceO2Group/AliceO2/pull/7274) 2021-10-13: [MCH] add cluster root I/O workflows by [@pillot](https://github.com/pillot)
 - [\#7276](https://github.com/AliceO2Group/AliceO2/pull/7276) 2021-10-12: FT0 digit write standalone workflow by [@shahor02](https://github.com/shahor02)
