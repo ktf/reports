@@ -97,7 +97,6 @@
 - [\#7359](https://github.com/AliceO2Group/AliceO2/pull/7359) 2021-10-19: DPL: provide unique DDS id as --id when running with --dds by [@ktf](https://github.com/ktf)
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#7271](https://github.com/AliceO2Group/AliceO2/pull/7271) 2021-10-11: fix name by [@davidrohr](https://github.com/davidrohr)
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
