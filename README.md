@@ -16,6 +16,7 @@
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7364](https://github.com/AliceO2Group/AliceO2/pull/7364) 2021-10-20: DPL: set run number in start rather than in init by [@ktf](https://github.com/ktf)
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
+- [\#7381](https://github.com/AliceO2Group/AliceO2/pull/7381) 2021-10-20: FileFetcher will open TGrid connection if data from alien involved by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
