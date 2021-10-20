@@ -17,7 +17,6 @@
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
 - [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
@@ -26,7 +25,6 @@
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7273](https://github.com/AliceO2Group/AliceO2/pull/7273) 2021-10-15: TRD Fix trigger event types by [@bazinski](https://github.com/bazinski)
 - [\#7274](https://github.com/AliceO2Group/AliceO2/pull/7274) 2021-10-13: [MCH] add cluster root I/O workflows by [@pillot](https://github.com/pillot)
 - [\#7276](https://github.com/AliceO2Group/AliceO2/pull/7276) 2021-10-12: FT0 digit write standalone workflow by [@shahor02](https://github.com/shahor02)
 - [\#7277](https://github.com/AliceO2Group/AliceO2/pull/7277) 2021-10-13: Add MID tracks/clusters to RecoContainer + fixes for AODProduces by [@shahor02](https://github.com/shahor02)
