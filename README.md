@@ -70,6 +70,7 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
