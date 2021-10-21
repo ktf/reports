@@ -6,7 +6,6 @@
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7318](https://github.com/AliceO2Group/AliceO2/pull/7318) 2021-10-15: DPL: add metric for processed timeslices in Hz by [@ktf](https://github.com/ktf)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
@@ -26,7 +25,6 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7293](https://github.com/AliceO2Group/AliceO2/pull/7293) 2021-10-15: Make output structure as from o2-qc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
