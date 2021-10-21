@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
+- [\#7296](https://github.com/AliceO2Group/AliceO2/pull/7296) 2021-10-21: DPL Analysis: bring exclusive index builder closer to the sparse one by [@aalkin](https://github.com/aalkin)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
@@ -73,6 +74,7 @@
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7292](https://github.com/AliceO2Group/AliceO2/pull/7292) 2021-10-14: Defining as inline sameCategory and diffCategory by [@victor-gonzalez](https://github.com/victor-gonzalez)
+- [\#7296](https://github.com/AliceO2Group/AliceO2/pull/7296) 2021-10-21: DPL Analysis: bring exclusive index builder closer to the sparse one by [@aalkin](https://github.com/aalkin)
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
