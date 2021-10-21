@@ -72,7 +72,6 @@
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7286](https://github.com/AliceO2Group/AliceO2/pull/7286) 2021-10-13: DPL: introduce the --dds-workflow-suffix option by [@ktf](https://github.com/ktf)
 - [\#7292](https://github.com/AliceO2Group/AliceO2/pull/7292) 2021-10-14: Defining as inline sameCategory and diffCategory by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
@@ -89,7 +88,9 @@
 - [\#7359](https://github.com/AliceO2Group/AliceO2/pull/7359) 2021-10-19: DPL: provide unique DDS id as --id when running with --dds by [@ktf](https://github.com/ktf)
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7364](https://github.com/AliceO2Group/AliceO2/pull/7364) 2021-10-20: DPL: set run number in start rather than in init by [@ktf](https://github.com/ktf)
+- [\#7371](https://github.com/AliceO2Group/AliceO2/pull/7371) 2021-10-21: Making const what should be const in the DPL RawDeviceService API by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
+- [\#7376](https://github.com/AliceO2Group/AliceO2/pull/7376) 2021-10-21: Adding unit test for variable payload sequence data format by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Utilities
 - [\#7288](https://github.com/AliceO2Group/AliceO2/pull/7288) 2021-10-12: EPNLogging: runNumber is provided as string not integer by [@davidrohr](https://github.com/davidrohr)
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
