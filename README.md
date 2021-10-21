@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#7296](https://github.com/AliceO2Group/AliceO2/pull/7296) 2021-10-21: DPL Analysis: bring exclusive index builder closer to the sparse one by [@aalkin](https://github.com/aalkin)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
@@ -68,7 +67,6 @@
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7296](https://github.com/AliceO2Group/AliceO2/pull/7296) 2021-10-21: DPL Analysis: bring exclusive index builder closer to the sparse one by [@aalkin](https://github.com/aalkin)
 - [\#7304](https://github.com/AliceO2Group/AliceO2/pull/7304) 2021-10-14: Introducing configurable channel name for the DPL output proxy by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
