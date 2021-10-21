@@ -25,7 +25,6 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7293](https://github.com/AliceO2Group/AliceO2/pull/7293) 2021-10-15: Make output structure as from o2-qc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
 - [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
 - [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
@@ -95,3 +94,4 @@
 ## Recent developments in O2 - Utilities
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
+- [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
