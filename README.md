@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7296](https://github.com/AliceO2Group/AliceO2/pull/7296) 2021-10-21: DPL Analysis: bring exclusive index builder closer to the sparse one by [@aalkin](https://github.com/aalkin)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
@@ -19,7 +18,6 @@
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 - [\#7381](https://github.com/AliceO2Group/AliceO2/pull/7381) 2021-10-20: FileFetcher will open TGrid connection if data from alien involved by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -28,7 +26,6 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7289](https://github.com/AliceO2Group/AliceO2/pull/7289) 2021-10-19: add TOF match checker by [@noferini](https://github.com/noferini)
 - [\#7291](https://github.com/AliceO2Group/AliceO2/pull/7291) 2021-10-12: Stop reporting 0xdeadbeef TFs after such N(D=5) consecutive TFs seen by [@shahor02](https://github.com/shahor02)
 - [\#7293](https://github.com/AliceO2Group/AliceO2/pull/7293) 2021-10-15: Make output structure as from o2-qc by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7294](https://github.com/AliceO2Group/AliceO2/pull/7294) 2021-10-13: Fixes for TRD matched by [@shahor02](https://github.com/shahor02)
@@ -95,6 +92,7 @@
 - [\#7371](https://github.com/AliceO2Group/AliceO2/pull/7371) 2021-10-21: Making const what should be const in the DPL RawDeviceService API by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 - [\#7376](https://github.com/AliceO2Group/AliceO2/pull/7376) 2021-10-21: Adding unit test for variable payload sequence data format by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7384](https://github.com/AliceO2Group/AliceO2/pull/7384) 2021-10-21: DPL: add fairmq out of band channels by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
