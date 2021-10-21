@@ -25,7 +25,6 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7295](https://github.com/AliceO2Group/AliceO2/pull/7295) 2021-10-13: Update Compressor.cxx by [@preghenella](https://github.com/preghenella)
 - [\#7297](https://github.com/AliceO2Group/AliceO2/pull/7297) 2021-10-14: Re-introduce multiplicity cuts for sync processing by [@mpuccio](https://github.com/mpuccio)
 - [\#7299](https://github.com/AliceO2Group/AliceO2/pull/7299) 2021-10-15: MCH: latest updates for mapping (both electronic and detector ones) by [@aphecetche](https://github.com/aphecetche)
 - [\#7300](https://github.com/AliceO2Group/AliceO2/pull/7300) 2021-10-15: MCH: prevent decoder crashes due to unknown link id error by [@aphecetche](https://github.com/aphecetche)
