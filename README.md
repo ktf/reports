@@ -91,6 +91,7 @@
 - [\#7388](https://github.com/AliceO2Group/AliceO2/pull/7388) 2021-10-21: DPL: do not dump metrics which are empty by [@ktf](https://github.com/ktf)
 - [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
 - [\#7400](https://github.com/AliceO2Group/AliceO2/pull/7400) 2021-10-22: DPL: introduce Lifetime::Sporadic as alias to Lifetime::QA by [@ktf](https://github.com/ktf)
+- [\#7402](https://github.com/AliceO2Group/AliceO2/pull/7402) 2021-10-22: DPL: handle the case where shm is fully used by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
