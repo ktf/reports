@@ -96,4 +96,5 @@
 - [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
 - [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
+- [\#7383](https://github.com/AliceO2Group/AliceO2/pull/7383) 2021-10-22: Use Lifetime::QA for sampled quantities by [@ktf](https://github.com/ktf)
 - [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
