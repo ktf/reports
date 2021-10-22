@@ -20,6 +20,7 @@
 - [\#7381](https://github.com/AliceO2Group/AliceO2/pull/7381) 2021-10-20: FileFetcher will open TGrid connection if data from alien involved by [@shahor02](https://github.com/shahor02)
 - [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
+- [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
@@ -28,8 +29,8 @@
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
+- [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7307](https://github.com/AliceO2Group/AliceO2/pull/7307) 2021-10-14: Write MID masks to file in the format expected from DCS by [@dstocco](https://github.com/dstocco)
 - [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
 - [\#7309](https://github.com/AliceO2Group/AliceO2/pull/7309) 2021-10-15: macro to upload and fetch Mat LUT to/from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)

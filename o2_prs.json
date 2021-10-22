@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-14T15:11:21Z",
-            "title": "Write MID masks to file in the format expected from DCS",
-            "number": 7307,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/exe/mask-maker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/include/MIDFiltering/ChannelMasksHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/include/MIDFiltering/ColumnDataMaskToROMask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/src/ChannelMasksHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Filtering/src/ColumnDataMaskToROMask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/CrateMapper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/CrateMapper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/DecodedDataAggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/test/testCrateMapper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/MaskHandlerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-13T20:00:56Z",
             "title": "--append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N",
             "number": 7308,
@@ -3336,6 +3266,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-10-22T19:22:50Z",
+            "title": "Fix: AbstractRefAccessor::isLoaded must check type size",
+            "number": 7407,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/AbstractRefAccessor.h"
                   }
                 }
               ]
