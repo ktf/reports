@@ -28,7 +28,6 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7300](https://github.com/AliceO2Group/AliceO2/pull/7300) 2021-10-15: MCH: prevent decoder crashes due to unknown link id error by [@aphecetche](https://github.com/aphecetche)
 - [\#7301](https://github.com/AliceO2Group/AliceO2/pull/7301) 2021-10-13: fix in tof geo indexing initialization by [@noferini](https://github.com/noferini)
 - [\#7302](https://github.com/AliceO2Group/AliceO2/pull/7302) 2021-10-13: Set ALPIDE default strobe length to 1/4 orbit by [@shahor02](https://github.com/shahor02)
 - [\#7305](https://github.com/AliceO2Group/AliceO2/pull/7305) 2021-10-15: TPC: add drawing of laser track calibration by [@tklemenz](https://github.com/tklemenz)
