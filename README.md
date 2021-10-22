@@ -31,7 +31,6 @@
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7308](https://github.com/AliceO2Group/AliceO2/pull/7308) 2021-10-13: --append-det-to-period N(Def=1) will add dets.names to LHCPeriod if their n<=N by [@shahor02](https://github.com/shahor02)
 - [\#7309](https://github.com/AliceO2Group/AliceO2/pull/7309) 2021-10-15: macro to upload and fetch Mat LUT to/from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
@@ -56,6 +55,7 @@
 - [\#7346](https://github.com/AliceO2Group/AliceO2/pull/7346) 2021-10-18: Assign MCCollID -1 for PVs with undefined labels [O2-2631] by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7358](https://github.com/AliceO2Group/AliceO2/pull/7358) 2021-10-19: [FV0] Enable data sampling - to be used for calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#7360](https://github.com/AliceO2Group/AliceO2/pull/7360) 2021-10-19: CPV: fix in pedestal calibration by [@sevdokim](https://github.com/sevdokim)
+- [\#7362](https://github.com/AliceO2Group/AliceO2/pull/7362) 2021-10-22: TPC QC: update PID task, add cuts by [@stheckel](https://github.com/stheckel)
 - [\#7365](https://github.com/AliceO2Group/AliceO2/pull/7365) 2021-10-21: First prototype (working) of TOF start time computation by [@noferini](https://github.com/noferini)
 - [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
