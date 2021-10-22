@@ -19,6 +19,7 @@
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 - [\#7381](https://github.com/AliceO2Group/AliceO2/pull/7381) 2021-10-20: FileFetcher will open TGrid connection if data from alien involved by [@shahor02](https://github.com/shahor02)
 - [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
+- [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
@@ -64,6 +65,7 @@
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
+- [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
