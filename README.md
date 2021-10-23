@@ -29,6 +29,7 @@
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
+- [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
@@ -65,6 +66,7 @@
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 - [\#7401](https://github.com/AliceO2Group/AliceO2/pull/7401) 2021-10-23: fixed typo in reco by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7408](https://github.com/AliceO2Group/AliceO2/pull/7408) 2021-10-23: [FIT] Fix in calibration: int8_t->int16_t by [@sbysiak](https://github.com/sbysiak)
 - [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 - [\#7413](https://github.com/AliceO2Group/AliceO2/pull/7413) 2021-10-23: ITS-TPC matching: add tolerance parameter on constrained TPC track time by [@shahor02](https://github.com/shahor02)
