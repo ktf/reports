@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-15T15:19:19Z",
-            "title": "[CPV] Fix mc labels handling in clusterizer",
-            "number": 7312,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/macros/readPedestalsFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/include/CPVSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/ClusterizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: prevent OutputProxy from using 100% CPU usage when idle",
@@ -3276,6 +3241,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-10-23T10:03:52Z",
+            "title": "Fix in errors summary reporting formatting",
+            "number": 7412,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/DecodingStat.cxx"
                   }
                 }
               ]

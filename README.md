@@ -31,7 +31,6 @@
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7312](https://github.com/AliceO2Group/AliceO2/pull/7312) 2021-10-15: [CPV] Fix mc labels handling in clusterizer by [@sevdokim](https://github.com/sevdokim)
 - [\#7314](https://github.com/AliceO2Group/AliceO2/pull/7314) 2021-10-15: add FIT time calibration options by [@HimanshuCERN](https://github.com/HimanshuCERN)
 - [\#7319](https://github.com/AliceO2Group/AliceO2/pull/7319) 2021-10-15: Send warning about missing trd trigger filter only once by [@davidrohr](https://github.com/davidrohr)
 - [\#7320](https://github.com/AliceO2Group/AliceO2/pull/7320) 2021-10-17: TPC: update Cluster QC by [@wiechula](https://github.com/wiechula)
@@ -65,6 +64,7 @@
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
+- [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
