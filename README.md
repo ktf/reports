@@ -68,7 +68,9 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7396](https://github.com/AliceO2Group/AliceO2/pull/7396) 2021-10-23: o2-eve: adding maximum allowed memory option by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7310](https://github.com/AliceO2Group/AliceO2/pull/7310) 2021-10-15: DPL: driver errors should exit with 1 by [@ktf](https://github.com/ktf)
 - [\#7316](https://github.com/AliceO2Group/AliceO2/pull/7316) 2021-10-14: DPL: avoid splitting a multipart message while forwarding by [@davidrohr](https://github.com/davidrohr)
