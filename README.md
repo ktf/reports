@@ -64,6 +64,8 @@
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
+- [\#7401](https://github.com/AliceO2Group/AliceO2/pull/7401) 2021-10-23: fixed typo in reco by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#7408](https://github.com/AliceO2Group/AliceO2/pull/7408) 2021-10-23: [FIT] Fix in calibration: int8_t->int16_t by [@sbysiak](https://github.com/sbysiak)
 - [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
