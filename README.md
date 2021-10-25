@@ -101,7 +101,6 @@
 - [\#7409](https://github.com/AliceO2Group/AliceO2/pull/7409) 2021-10-22: DPL: demote debug message by [@ktf](https://github.com/ktf)
 - [\#7411](https://github.com/AliceO2Group/AliceO2/pull/7411) 2021-10-23: DPL: miscellaneous fixes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#7317](https://github.com/AliceO2Group/AliceO2/pull/7317) 2021-10-14: Update EPN stderr LOG tool, disable property query for test by [@davidrohr](https://github.com/davidrohr)
 - [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
 - [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7383](https://github.com/AliceO2Group/AliceO2/pull/7383) 2021-10-22: Use Lifetime::QA for sampled quantities by [@ktf](https://github.com/ktf)
