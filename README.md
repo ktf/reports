@@ -31,8 +31,6 @@
 - [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7321](https://github.com/AliceO2Group/AliceO2/pull/7321) 2021-10-19: Use TEfficiency for efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#7322](https://github.com/AliceO2Group/AliceO2/pull/7322) 2021-10-15: [EMCAL-728] Reduce verbosity of the error logging by [@mfasDa](https://github.com/mfasDa)
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7326](https://github.com/AliceO2Group/AliceO2/pull/7326) 2021-10-16: Add standalone EMC cell-writer (for debugging) by [@shahor02](https://github.com/shahor02)
 - [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
@@ -99,7 +97,6 @@
 - [\#7409](https://github.com/AliceO2Group/AliceO2/pull/7409) 2021-10-22: DPL: demote debug message by [@ktf](https://github.com/ktf)
 - [\#7411](https://github.com/AliceO2Group/AliceO2/pull/7411) 2021-10-23: DPL: miscellaneous fixes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
-- [\#7323](https://github.com/AliceO2Group/AliceO2/pull/7323) 2021-10-15: Set InfoLogger system field in EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
 - [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7383](https://github.com/AliceO2Group/AliceO2/pull/7383) 2021-10-22: Use Lifetime::QA for sampled quantities by [@ktf](https://github.com/ktf)
 - [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
