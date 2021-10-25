@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-15T12:34:00Z",
-            "title": "add FIT time calibration options",
-            "number": 7314,
-            "author": {
-              "login": "HimanshuCERN"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibrationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0ChannelTimeCalibrationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: avoid splitting a multipart message while forwarding",
@@ -3266,6 +3236,36 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Misaligned sync reco parameters",
+            "number": 7414,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]
