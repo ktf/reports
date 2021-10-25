@@ -63,6 +63,7 @@
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
+- [\#7398](https://github.com/AliceO2Group/AliceO2/pull/7398) 2021-10-25: [MFT] Workaround for MFT tracking with misaligned detector by [@rpezzi](https://github.com/rpezzi)
 - [\#7399](https://github.com/AliceO2Group/AliceO2/pull/7399) 2021-10-25: Embedding: combine associated signal and background MC collisions by [@nburmaso](https://github.com/nburmaso)
 - [\#7401](https://github.com/AliceO2Group/AliceO2/pull/7401) 2021-10-23: fixed typo in reco by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
