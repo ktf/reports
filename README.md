@@ -20,6 +20,7 @@
 - [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
+- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
@@ -30,6 +31,7 @@
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
+- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7325](https://github.com/AliceO2Group/AliceO2/pull/7325) 2021-10-16: Fix for entropy encoder buffer overflow by [@shahor02](https://github.com/shahor02)
 - [\#7326](https://github.com/AliceO2Group/AliceO2/pull/7326) 2021-10-16: Add standalone EMC cell-writer (for debugging) by [@shahor02](https://github.com/shahor02)
@@ -67,6 +69,7 @@
 - [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 - [\#7413](https://github.com/AliceO2Group/AliceO2/pull/7413) 2021-10-23: ITS-TPC matching: add tolerance parameter on constrained TPC track time by [@shahor02](https://github.com/shahor02)
 - [\#7414](https://github.com/AliceO2Group/AliceO2/pull/7414) 2021-10-25: Misaligned sync reco parameters by [@mpuccio](https://github.com/mpuccio)
+- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7336](https://github.com/AliceO2Group/AliceO2/pull/7336) 2021-10-17: Proper treatment of ITS-TPC afterburner ITS tracklets in ED by [@shahor02](https://github.com/shahor02)
@@ -100,6 +103,8 @@
 - [\#7409](https://github.com/AliceO2Group/AliceO2/pull/7409) 2021-10-22: DPL: demote debug message by [@ktf](https://github.com/ktf)
 - [\#7411](https://github.com/AliceO2Group/AliceO2/pull/7411) 2021-10-23: DPL: miscellaneous fixes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Steer
+- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7383](https://github.com/AliceO2Group/AliceO2/pull/7383) 2021-10-22: Use Lifetime::QA for sampled quantities by [@ktf](https://github.com/ktf)
