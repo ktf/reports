@@ -31,7 +31,6 @@
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7328](https://github.com/AliceO2Group/AliceO2/pull/7328) 2021-10-16: Fix in MatchGlobalFwd: check ROF validity by [@shahor02](https://github.com/shahor02)
 - [\#7329](https://github.com/AliceO2Group/AliceO2/pull/7329) 2021-10-16: Decrease verbosity of FV0 reconstruction by [@shahor02](https://github.com/shahor02)
 - [\#7330](https://github.com/AliceO2Group/AliceO2/pull/7330) 2021-10-16: Optionally pass to any EntropyEncoders memory alloc.margin factor by [@shahor02](https://github.com/shahor02)
 - [\#7331](https://github.com/AliceO2Group/AliceO2/pull/7331) 2021-10-16: Prepend MCH local config and debug options by mch- to avoid conflict by [@shahor02](https://github.com/shahor02)
