@@ -75,6 +75,7 @@
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7396](https://github.com/AliceO2Group/AliceO2/pull/7396) 2021-10-23: o2-eve: adding maximum allowed memory option by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7410](https://github.com/AliceO2Group/AliceO2/pull/7410) 2021-10-23: TPC clusters visualization fixes in EveWorkflowHelper by [@shahor02](https://github.com/shahor02)
+- [\#7418](https://github.com/AliceO2Group/AliceO2/pull/7418) 2021-10-26: o2-eve-display track<-> cluster relation by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7338](https://github.com/AliceO2Group/AliceO2/pull/7338) 2021-10-18: DPL GUI: make some progress towards remote gui integration by [@ktf](https://github.com/ktf)
 - [\#7344](https://github.com/AliceO2Group/AliceO2/pull/7344) 2021-10-18: Flag for background particles by [@jgrosseo](https://github.com/jgrosseo)
