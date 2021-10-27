@@ -95,6 +95,7 @@
 - [\#7409](https://github.com/AliceO2Group/AliceO2/pull/7409) 2021-10-22: DPL: demote debug message by [@ktf](https://github.com/ktf)
 - [\#7411](https://github.com/AliceO2Group/AliceO2/pull/7411) 2021-10-23: DPL: miscellaneous fixes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
+- [\#7428](https://github.com/AliceO2Group/AliceO2/pull/7428) 2021-10-27: DPL Analysis: save histograms in the order they were added by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Steer
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
