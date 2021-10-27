@@ -28,7 +28,6 @@
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Detectors
-- [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7341](https://github.com/AliceO2Group/AliceO2/pull/7341) 2021-10-18: ctf-reader can inject only selected CTF IDs from input (multi-ctf) files by [@shahor02](https://github.com/shahor02)
 - [\#7342](https://github.com/AliceO2Group/AliceO2/pull/7342) 2021-10-18: Invert logic for HGLGmerge option by [@davidrohr](https://github.com/davidrohr)
@@ -60,7 +59,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
-- [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7396](https://github.com/AliceO2Group/AliceO2/pull/7396) 2021-10-23: o2-eve: adding maximum allowed memory option by [@jmyrcha](https://github.com/jmyrcha)
