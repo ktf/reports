@@ -8,7 +8,6 @@
 - [\#7350](https://github.com/AliceO2Group/AliceO2/pull/7350) 2021-10-19: dynamic column for vertex from T0 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7378](https://github.com/AliceO2Group/AliceO2/pull/7378) 2021-10-22: DPL Analysis: Generic grouping by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#7334](https://github.com/AliceO2Group/AliceO2/pull/7334) 2021-10-17: Suppress message appearing in the workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7340](https://github.com/AliceO2Group/AliceO2/pull/7340) 2021-10-18: Utility macros for CTF manipulations by [@shahor02](https://github.com/shahor02)
 - [\#7349](https://github.com/AliceO2Group/AliceO2/pull/7349) 2021-10-18: DPL: baby-steps towards reporting timeframes consumed by [@ktf](https://github.com/ktf)
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
@@ -30,7 +29,6 @@
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Detectors
-- [\#7333](https://github.com/AliceO2Group/AliceO2/pull/7333) 2021-10-20: Configurable parameters for the cooked tracker by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7335](https://github.com/AliceO2Group/AliceO2/pull/7335) 2021-10-17: Fix: eliminate ambiguous InputSpec binding in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7337](https://github.com/AliceO2Group/AliceO2/pull/7337) 2021-10-18: Optionally ignore BC check in TPC-ITS macthing by [@shahor02](https://github.com/shahor02)
 - [\#7339](https://github.com/AliceO2Group/AliceO2/pull/7339) 2021-10-18: o2-eve refactoring by [@jmyrcha](https://github.com/jmyrcha)
