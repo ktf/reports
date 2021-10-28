@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-18T15:39:09Z",
-            "title": "Assign MCCollID -1 for PVs with undefined labels [O2-2631]",
-            "number": 7346,
-            "author": {
-              "login": "benedikt-voelkel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-18T20:54:05Z",
             "title": "DPL: minor fixes propaedeutic for Remote GUI",
             "number": 7347,
@@ -3126,6 +3106,76 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "noise suppression enabled for tof calib with cosmics (diagostic now p…",
+            "number": 7446,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Diagnostic.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/src/Diagnostic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/include/TOFBase/WindowFiller.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/EntropyDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflowIO/include/TOFWorkflowIO/DigitReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflowIO/src/DigitReaderSpec.cxx"
                   }
                 }
               ]
