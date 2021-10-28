@@ -65,6 +65,7 @@
 - [\#7396](https://github.com/AliceO2Group/AliceO2/pull/7396) 2021-10-23: o2-eve: adding maximum allowed memory option by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7410](https://github.com/AliceO2Group/AliceO2/pull/7410) 2021-10-23: TPC clusters visualization fixes in EveWorkflowHelper by [@shahor02](https://github.com/shahor02)
 - [\#7418](https://github.com/AliceO2Group/AliceO2/pull/7418) 2021-10-26: o2-eve-display track<-> cluster relation by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7347](https://github.com/AliceO2Group/AliceO2/pull/7347) 2021-10-18: DPL: minor fixes propaedeutic for Remote GUI by [@ktf](https://github.com/ktf)
 - [\#7348](https://github.com/AliceO2Group/AliceO2/pull/7348) 2021-10-19: Improving DPL benchmark ExternalFairMQDeviceProxies by [@matthiasrichter](https://github.com/matthiasrichter)
