@@ -55,6 +55,8 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
+- [\#7437](https://github.com/AliceO2Group/AliceO2/pull/7437) 2021-10-28: Protect ITS-TPC matching from ITS ROF preceding TF 1st start by [@shahor02](https://github.com/shahor02)
+- [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
