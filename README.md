@@ -58,6 +58,7 @@
 - [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
 - [\#7440](https://github.com/AliceO2Group/AliceO2/pull/7440) 2021-10-28: Add missing mem-factor option to MCH EntropyEncoder by [@shahor02](https://github.com/shahor02)
 - [\#7441](https://github.com/AliceO2Group/AliceO2/pull/7441) 2021-10-28: Fix in skipping the post-error paddin in Alpide data by [@shahor02](https://github.com/shahor02)
+- [\#7445](https://github.com/AliceO2Group/AliceO2/pull/7445) 2021-10-28: [MFT] Reduce tracker verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
