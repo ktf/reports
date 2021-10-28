@@ -27,7 +27,6 @@
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Detectors
-- [\#7341](https://github.com/AliceO2Group/AliceO2/pull/7341) 2021-10-18: ctf-reader can inject only selected CTF IDs from input (multi-ctf) files by [@shahor02](https://github.com/shahor02)
 - [\#7342](https://github.com/AliceO2Group/AliceO2/pull/7342) 2021-10-18: Invert logic for HGLGmerge option by [@davidrohr](https://github.com/davidrohr)
 - [\#7345](https://github.com/AliceO2Group/AliceO2/pull/7345) 2021-10-18: Revert "[EMCAL-728] Reduce verbosity of the error logging" by [@mfasDa](https://github.com/mfasDa)
 - [\#7346](https://github.com/AliceO2Group/AliceO2/pull/7346) 2021-10-18: Assign MCCollID -1 for PVs with undefined labels [O2-2631] by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
