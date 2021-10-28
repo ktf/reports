@@ -1,5 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+- daily-20211028-1501: Done on 2021-10-28.
 ## Recent developments in O2 - Algorithm
 - [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Analysis
@@ -59,6 +60,7 @@
 - [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
 - [\#7440](https://github.com/AliceO2Group/AliceO2/pull/7440) 2021-10-28: Add missing mem-factor option to MCH EntropyEncoder by [@shahor02](https://github.com/shahor02)
 - [\#7441](https://github.com/AliceO2Group/AliceO2/pull/7441) 2021-10-28: Fix in skipping the post-error paddin in Alpide data by [@shahor02](https://github.com/shahor02)
+- [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
