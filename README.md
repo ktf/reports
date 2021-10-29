@@ -95,6 +95,7 @@
 - [\#7450](https://github.com/AliceO2Group/AliceO2/pull/7450) 2021-10-29: DPL Analysis: fix incorrect use of offset by [@aalkin](https://github.com/aalkin)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 - [\#7455](https://github.com/AliceO2Group/AliceO2/pull/7455) 2021-10-29: DPL Analysis: make index bindings const by [@aalkin](https://github.com/aalkin)
+- [\#7456](https://github.com/AliceO2Group/AliceO2/pull/7456) 2021-10-29: DPL: use new path for OrbitReset by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
