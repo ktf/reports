@@ -19,6 +19,7 @@
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7443](https://github.com/AliceO2Group/AliceO2/pull/7443) 2021-10-29: FileFetcher will connect to Grid only when neccessary by [@shahor02](https://github.com/shahor02)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
+- [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7367](https://github.com/AliceO2Group/AliceO2/pull/7367) 2021-10-20: Fix C/A beam assignment (0,1) and P2 offsets by [@shahor02](https://github.com/shahor02)
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
@@ -29,7 +30,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#7365](https://github.com/AliceO2Group/AliceO2/pull/7365) 2021-10-21: First prototype (working) of TOF start time computation by [@noferini](https://github.com/noferini)
 - [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
 - [\#7370](https://github.com/AliceO2Group/AliceO2/pull/7370) 2021-10-20: Fix DataDescription for diagnostic calib by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -62,6 +62,7 @@
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
 - [\#7458](https://github.com/AliceO2Group/AliceO2/pull/7458) 2021-10-29: TPC QC: further plots for PID and Tracks tasks by [@stheckel](https://github.com/stheckel)
+- [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
@@ -91,6 +92,7 @@
 - [\#7439](https://github.com/AliceO2Group/AliceO2/pull/7439) 2021-10-29: DPL: re-add aod-writer when adjusting service devices by [@aalkin](https://github.com/aalkin)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7450](https://github.com/AliceO2Group/AliceO2/pull/7450) 2021-10-29: DPL Analysis: fix incorrect use of offset by [@aalkin](https://github.com/aalkin)
+- [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 - [\#7455](https://github.com/AliceO2Group/AliceO2/pull/7455) 2021-10-29: DPL Analysis: make index bindings const by [@aalkin](https://github.com/aalkin)
 - [\#7456](https://github.com/AliceO2Group/AliceO2/pull/7456) 2021-10-29: DPL: use new path for OrbitReset by [@ktf](https://github.com/ktf)
