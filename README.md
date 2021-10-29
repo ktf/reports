@@ -28,7 +28,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
 - [\#7370](https://github.com/AliceO2Group/AliceO2/pull/7370) 2021-10-20: Fix DataDescription for diagnostic calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
@@ -61,6 +60,8 @@
 - [\#7458](https://github.com/AliceO2Group/AliceO2/pull/7458) 2021-10-29: TPC QC: further plots for PID and Tracks tasks by [@stheckel](https://github.com/stheckel)
 - [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
+- [\#7464](https://github.com/AliceO2Group/AliceO2/pull/7464) 2021-10-29: Create .done file with other name then rename by [@shahor02](https://github.com/shahor02)
+- [\#7465](https://github.com/AliceO2Group/AliceO2/pull/7465) 2021-10-29: TPC: throttle warnings in digit decoding + unrelated fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
