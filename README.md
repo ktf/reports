@@ -91,6 +91,7 @@
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7450](https://github.com/AliceO2Group/AliceO2/pull/7450) 2021-10-29: DPL Analysis: fix incorrect use of offset by [@aalkin](https://github.com/aalkin)
+- [\#7455](https://github.com/AliceO2Group/AliceO2/pull/7455) 2021-10-29: DPL Analysis: make index bindings const by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
