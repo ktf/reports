@@ -31,7 +31,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#7362](https://github.com/AliceO2Group/AliceO2/pull/7362) 2021-10-22: TPC QC: update PID task, add cuts by [@stheckel](https://github.com/stheckel)
 - [\#7365](https://github.com/AliceO2Group/AliceO2/pull/7365) 2021-10-21: First prototype (working) of TOF start time computation by [@noferini](https://github.com/noferini)
 - [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#7445](https://github.com/AliceO2Group/AliceO2/pull/7445) 2021-10-28: [MFT] Reduce tracker verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
+- [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7387](https://github.com/AliceO2Group/AliceO2/pull/7387) 2021-10-23: o2-eve-display: added TRD, TOF, MID to the workflow by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7390](https://github.com/AliceO2Group/AliceO2/pull/7390) 2021-10-21: o2-eve: screenshot by [@jmyrcha](https://github.com/jmyrcha)
