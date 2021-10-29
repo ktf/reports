@@ -70,6 +70,7 @@
 - [\#7410](https://github.com/AliceO2Group/AliceO2/pull/7410) 2021-10-23: TPC clusters visualization fixes in EveWorkflowHelper by [@shahor02](https://github.com/shahor02)
 - [\#7418](https://github.com/AliceO2Group/AliceO2/pull/7418) 2021-10-26: o2-eve-display track<-> cluster relation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7364](https://github.com/AliceO2Group/AliceO2/pull/7364) 2021-10-20: DPL: set run number in start rather than in init by [@ktf](https://github.com/ktf)
