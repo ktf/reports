@@ -30,7 +30,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#7366](https://github.com/AliceO2Group/AliceO2/pull/7366) 2021-10-20: [EMCAL-612] Add option to disable decoding errors in cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#7369](https://github.com/AliceO2Group/AliceO2/pull/7369) 2021-10-19: Fix typo in AOD MCLabels (beam protons problem) by [@shahor02](https://github.com/shahor02)
 - [\#7370](https://github.com/AliceO2Group/AliceO2/pull/7370) 2021-10-20: Fix DataDescription for diagnostic calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)

@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-20T08:29:38Z",
-            "title": "[EMCAL-612] Add option to disable decoding errors in cell writer",
-            "number": 7366,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/emc-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-20T09:01:21Z",
             "title": "Fix C/A beam assignment (0,1) and P2 offsets",
             "number": 7367,
@@ -3061,6 +3031,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-monitor-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix precision warning",
+            "number": 7466,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
