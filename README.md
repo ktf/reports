@@ -7,6 +7,7 @@
 - [\#7378](https://github.com/AliceO2Group/AliceO2/pull/7378) 2021-10-22: DPL Analysis: Generic grouping by [@aalkin](https://github.com/aalkin)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
+- [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#7363](https://github.com/AliceO2Group/AliceO2/pull/7363) 2021-10-19: DPL: add metric for shm memory usage by [@ktf](https://github.com/ktf)
 - [\#7364](https://github.com/AliceO2Group/AliceO2/pull/7364) 2021-10-20: DPL: set run number in start rather than in init by [@ktf](https://github.com/ktf)
@@ -91,8 +92,10 @@
 - [\#7428](https://github.com/AliceO2Group/AliceO2/pull/7428) 2021-10-27: DPL Analysis: save histograms in the order they were added by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
+- [\#7439](https://github.com/AliceO2Group/AliceO2/pull/7439) 2021-10-29: DPL: re-add aod-writer when adjusting service devices by [@aalkin](https://github.com/aalkin)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7450](https://github.com/AliceO2Group/AliceO2/pull/7450) 2021-10-29: DPL Analysis: fix incorrect use of offset by [@aalkin](https://github.com/aalkin)
+- [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 - [\#7455](https://github.com/AliceO2Group/AliceO2/pull/7455) 2021-10-29: DPL Analysis: make index bindings const by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
