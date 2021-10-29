@@ -31,7 +31,6 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#7358](https://github.com/AliceO2Group/AliceO2/pull/7358) 2021-10-19: [FV0] Enable data sampling - to be used for calibration by [@mslupeck](https://github.com/mslupeck)
 - [\#7360](https://github.com/AliceO2Group/AliceO2/pull/7360) 2021-10-19: CPV: fix in pedestal calibration by [@sevdokim](https://github.com/sevdokim)
 - [\#7362](https://github.com/AliceO2Group/AliceO2/pull/7362) 2021-10-22: TPC QC: update PID task, add cuts by [@stheckel](https://github.com/stheckel)
 - [\#7365](https://github.com/AliceO2Group/AliceO2/pull/7365) 2021-10-21: First prototype (working) of TOF start time computation by [@noferini](https://github.com/noferini)
