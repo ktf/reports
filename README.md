@@ -99,3 +99,4 @@
 - [\#7377](https://github.com/AliceO2Group/AliceO2/pull/7377) 2021-10-21: [QC-667] Add detector to logging in merger by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7383](https://github.com/AliceO2Group/AliceO2/pull/7383) 2021-10-22: Use Lifetime::QA for sampled quantities by [@ktf](https://github.com/ktf)
 - [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
+- [\#7433](https://github.com/AliceO2Group/AliceO2/pull/7433) 2021-10-30: Data Sampling: allow to select header value treated as TimesliceId by [@knopers8](https://github.com/knopers8)
