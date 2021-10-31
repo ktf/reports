@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-20T19:55:47Z",
-            "title": "add to ctf-writer stop() with same functionality as EoS()",
-            "number": 7374,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Task.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-20T11:56:02Z",
             "title": "fix default name in the BC pattern gen. macro",
             "number": 7375,
@@ -3116,6 +3086,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Consistently use time in seconds",
+            "number": 7474,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Cell.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/CellConverterSpec.cxx"
                   }
                 }
               ]

@@ -30,7 +30,6 @@
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 - [\#7380](https://github.com/AliceO2Group/AliceO2/pull/7380) 2021-10-21: Make MID DataDescriptions pattern uniform with that of MCH by [@shahor02](https://github.com/shahor02)
 - [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
@@ -79,7 +78,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7374](https://github.com/AliceO2Group/AliceO2/pull/7374) 2021-10-20: add to ctf-writer stop() with same functionality as EoS() by [@shahor02](https://github.com/shahor02)
 - [\#7376](https://github.com/AliceO2Group/AliceO2/pull/7376) 2021-10-21: Adding unit test for variable payload sequence data format by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7378](https://github.com/AliceO2Group/AliceO2/pull/7378) 2021-10-22: DPL Analysis: Generic grouping by [@aalkin](https://github.com/aalkin)
 - [\#7384](https://github.com/AliceO2Group/AliceO2/pull/7384) 2021-10-21: DPL: add fairmq out of band channels by [@ktf](https://github.com/ktf)
