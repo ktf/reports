@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Analysis
-- [\#7378](https://github.com/AliceO2Group/AliceO2/pull/7378) 2021-10-22: DPL Analysis: Generic grouping by [@aalkin](https://github.com/aalkin)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
@@ -80,7 +79,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7378](https://github.com/AliceO2Group/AliceO2/pull/7378) 2021-10-22: DPL Analysis: Generic grouping by [@aalkin](https://github.com/aalkin)
 - [\#7384](https://github.com/AliceO2Group/AliceO2/pull/7384) 2021-10-21: DPL: add fairmq out of band channels by [@ktf](https://github.com/ktf)
 - [\#7388](https://github.com/AliceO2Group/AliceO2/pull/7388) 2021-10-21: DPL: do not dump metrics which are empty by [@ktf](https://github.com/ktf)
 - [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)

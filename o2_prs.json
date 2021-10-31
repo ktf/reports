@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-22T08:06:22Z",
-            "title": "DPL Analysis: Generic grouping",
-            "number": 7378,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Kernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-31T12:14:57Z",
             "title": "TRD fix non zerosuppressed data and sending qc messages",
             "number": 7379,
@@ -3111,6 +3071,31 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FST: Use non-default tmux socket for FST scripts, since tmux shares env variables in a session",
+            "number": 7478,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/async_tmux.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/start_tmux.sh"
                   }
                 }
               ]
