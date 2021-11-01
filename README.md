@@ -25,6 +25,7 @@
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
+- [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7394](https://github.com/AliceO2Group/AliceO2/pull/7394) 2021-10-29: TPC: add dvCorrection to LaserTrack QC by [@tklemenz](https://github.com/tklemenz)
@@ -94,6 +95,8 @@
 - [\#7456](https://github.com/AliceO2Group/AliceO2/pull/7456) 2021-10-29: DPL: use new path for OrbitReset by [@ktf](https://github.com/ktf)
 - [\#7466](https://github.com/AliceO2Group/AliceO2/pull/7466) 2021-10-31: DPL: fix precision warning by [@ktf](https://github.com/ktf)
 - [\#7467](https://github.com/AliceO2Group/AliceO2/pull/7467) 2021-10-30: DPL: allow services to modify topology by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
