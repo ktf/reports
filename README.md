@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 - daily-20211028-1501: Done on 2021-10-28.
-## Recent developments in O2 - Algorithm
-- [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Analysis
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
@@ -100,6 +98,5 @@
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Utilities
-- [\#7389](https://github.com/AliceO2Group/AliceO2/pull/7389) 2021-10-21: Allow for TEfficiency merging by [@njacazio](https://github.com/njacazio)
 - [\#7433](https://github.com/AliceO2Group/AliceO2/pull/7433) 2021-10-30: Data Sampling: allow to select header value treated as TimesliceId by [@knopers8](https://github.com/knopers8)
 - [\#7475](https://github.com/AliceO2Group/AliceO2/pull/7475) 2021-10-31: Fix fetching runNr / partition ID, cut log file name to 32 characters since otherwise infologger bails out... by [@davidrohr](https://github.com/davidrohr)
