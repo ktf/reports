@@ -18,7 +18,6 @@
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7382](https://github.com/AliceO2Group/AliceO2/pull/7382) 2021-10-21: Add MID to createTracksVariadic + fixes by [@shahor02](https://github.com/shahor02)
 - [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7394](https://github.com/AliceO2Group/AliceO2/pull/7394) 2021-10-29: TPC: add dvCorrection to LaserTrack QC by [@tklemenz](https://github.com/tklemenz)
