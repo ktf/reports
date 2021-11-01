@@ -26,7 +26,6 @@
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7385](https://github.com/AliceO2Group/AliceO2/pull/7385) 2021-10-21: CPV: do not stop clusterizer when 0 digits recieved by [@sevdokim](https://github.com/sevdokim)
 - [\#7391](https://github.com/AliceO2Group/AliceO2/pull/7391) 2021-10-22: Protection from zero payload by [@peressounko](https://github.com/peressounko)
 - [\#7394](https://github.com/AliceO2Group/AliceO2/pull/7394) 2021-10-29: TPC: add dvCorrection to LaserTrack QC by [@tklemenz](https://github.com/tklemenz)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
@@ -63,6 +62,7 @@
 - [\#7465](https://github.com/AliceO2Group/AliceO2/pull/7465) 2021-10-29: TPC: throttle warnings in digit decoding + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7471](https://github.com/AliceO2Group/AliceO2/pull/7471) 2021-10-30: [FV0] Decrease verbosity by [@mslupeck](https://github.com/mslupeck)
+- [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
 - [\#7481](https://github.com/AliceO2Group/AliceO2/pull/7481) 2021-11-01: [FIT] Reduce digit and recPoint writers verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - EventVisualisation
