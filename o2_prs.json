@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP][EMCAL-681] Implement pileup simulation for pre-trigger bunches",
-            "number": 7395,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/DigitsWriteoutBuffer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/EMCALDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-10-23T00:35:29Z",
             "title": "o2-eve: adding maximum allowed memory option",
@@ -2464,8 +2429,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-02T15:27:15Z",
             "title": "fix in tof cosmic calibrator (TLinearFitter)",
             "number": 7476,
             "author": {
@@ -2729,8 +2694,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-02T15:20:48Z",
             "title": "DPL: provide callback on timeslice creation",
             "number": 7484,
             "author": {
@@ -2844,8 +2809,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-02T15:19:04Z",
             "title": "DPL: use libuv to retrieve time",
             "number": 7489,
             "author": {
@@ -2971,6 +2936,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessorMatchers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve GPU memory benchmark",
+            "number": 7495,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Kernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/benchmark.cu"
                   }
                 }
               ]
