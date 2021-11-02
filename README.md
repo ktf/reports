@@ -6,7 +6,6 @@
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
@@ -72,7 +71,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7393](https://github.com/AliceO2Group/AliceO2/pull/7393) 2021-10-21: DPL: provide metric for rate in and out of each channel by [@ktf](https://github.com/ktf)
 - [\#7400](https://github.com/AliceO2Group/AliceO2/pull/7400) 2021-10-22: DPL: introduce Lifetime::Sporadic as alias to Lifetime::QA by [@ktf](https://github.com/ktf)
 - [\#7402](https://github.com/AliceO2Group/AliceO2/pull/7402) 2021-10-22: DPL: handle the case where shm is fully used by [@aalkin](https://github.com/aalkin)
 - [\#7409](https://github.com/AliceO2Group/AliceO2/pull/7409) 2021-10-22: DPL: demote debug message by [@ktf](https://github.com/ktf)
