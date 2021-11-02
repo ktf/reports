@@ -24,7 +24,6 @@
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7394](https://github.com/AliceO2Group/AliceO2/pull/7394) 2021-10-29: TPC: add dvCorrection to LaserTrack QC by [@tklemenz](https://github.com/tklemenz)
 - [\#7397](https://github.com/AliceO2Group/AliceO2/pull/7397) 2021-10-22: Handling of corrupted root files in CTFReader by [@shahor02](https://github.com/shahor02)
 - [\#7398](https://github.com/AliceO2Group/AliceO2/pull/7398) 2021-10-25: [MFT] Workaround for MFT tracking with misaligned detector by [@rpezzi](https://github.com/rpezzi)
 - [\#7399](https://github.com/AliceO2Group/AliceO2/pull/7399) 2021-10-25: Embedding: combine associated signal and background MC collisions by [@nburmaso](https://github.com/nburmaso)
@@ -89,6 +88,7 @@
 - [\#7456](https://github.com/AliceO2Group/AliceO2/pull/7456) 2021-10-29: DPL: use new path for OrbitReset by [@ktf](https://github.com/ktf)
 - [\#7466](https://github.com/AliceO2Group/AliceO2/pull/7466) 2021-10-31: DPL: fix precision warning by [@ktf](https://github.com/ktf)
 - [\#7467](https://github.com/AliceO2Group/AliceO2/pull/7467) 2021-10-30: DPL: allow services to modify topology by [@ktf](https://github.com/ktf)
+- [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
