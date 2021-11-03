@@ -21,7 +21,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
 - [\#7419](https://github.com/AliceO2Group/AliceO2/pull/7419) 2021-10-29: remove unnecessary --geometry option of MID tracker by [@shahor02](https://github.com/shahor02)
 - [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
@@ -62,7 +61,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
 - [\#7425](https://github.com/AliceO2Group/AliceO2/pull/7425) 2021-10-28: Using real logaritmic axis in axis spec by [@njacazio](https://github.com/njacazio)
 - [\#7428](https://github.com/AliceO2Group/AliceO2/pull/7428) 2021-10-27: DPL Analysis: save histograms in the order they were added by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
