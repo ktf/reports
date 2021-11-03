@@ -52,6 +52,7 @@
 - [\#7465](https://github.com/AliceO2Group/AliceO2/pull/7465) 2021-10-29: TPC: throttle warnings in digit decoding + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7471](https://github.com/AliceO2Group/AliceO2/pull/7471) 2021-10-30: [FV0] Decrease verbosity by [@mslupeck](https://github.com/mslupeck)
+- [\#7472](https://github.com/AliceO2Group/AliceO2/pull/7472) 2021-11-03: Ctpdev:digi2raw and ctp-raw-recoder fixes by [@lietava](https://github.com/lietava)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
 - [\#7480](https://github.com/AliceO2Group/AliceO2/pull/7480) 2021-11-03: Optionally report decoding stat from 1 epn/lane only by [@shahor02](https://github.com/shahor02)
