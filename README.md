@@ -7,14 +7,12 @@
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7443](https://github.com/AliceO2Group/AliceO2/pull/7443) 2021-10-29: FileFetcher will connect to Grid only when neccessary by [@shahor02](https://github.com/shahor02)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7420](https://github.com/AliceO2Group/AliceO2/pull/7420) 2021-10-30: Methods to constrain track by vertex by [@shahor02](https://github.com/shahor02)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
@@ -22,7 +20,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7417](https://github.com/AliceO2Group/AliceO2/pull/7417) 2021-10-26: Increase TPC FirstHistInBin buffer side, forward --shm-allocation command line option, add pass-through mode by [@davidrohr](https://github.com/davidrohr)
 - [\#7419](https://github.com/AliceO2Group/AliceO2/pull/7419) 2021-10-29: remove unnecessary --geometry option of MID tracker by [@shahor02](https://github.com/shahor02)
 - [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -85,7 +82,6 @@
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Utilities
 - [\#7433](https://github.com/AliceO2Group/AliceO2/pull/7433) 2021-10-30: Data Sampling: allow to select header value treated as TimesliceId by [@knopers8](https://github.com/knopers8)
