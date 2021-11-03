@@ -54,6 +54,8 @@
 - [\#7488](https://github.com/AliceO2Group/AliceO2/pull/7488) 2021-11-02: MC particles table: fill status codes and fix typo in flags by [@nburmaso](https://github.com/nburmaso)
 - [\#7496](https://github.com/AliceO2Group/AliceO2/pull/7496) 2021-11-03: add TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7498](https://github.com/AliceO2Group/AliceO2/pull/7498) 2021-11-03: Move dataRequest from init by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
+- [\#7514](https://github.com/AliceO2Group/AliceO2/pull/7514) 2021-11-03: limit ITS fast mult.estimate from below by 0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7418](https://github.com/AliceO2Group/AliceO2/pull/7418) 2021-10-26: o2-eve-display track<-> cluster relation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
