@@ -7,7 +7,6 @@
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
@@ -15,7 +14,6 @@
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7420](https://github.com/AliceO2Group/AliceO2/pull/7420) 2021-10-30: Methods to constrain track by vertex by [@shahor02](https://github.com/shahor02)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
