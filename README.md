@@ -5,6 +5,7 @@
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
+- [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
@@ -88,6 +89,7 @@
 - [\#7489](https://github.com/AliceO2Group/AliceO2/pull/7489) 2021-11-02: DPL: use libuv to retrieve time by [@ktf](https://github.com/ktf)
 - [\#7490](https://github.com/AliceO2Group/AliceO2/pull/7490) 2021-11-03: DPL: do not copy workflow which we amend by [@ktf](https://github.com/ktf)
 - [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
+- [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 - [\#7504](https://github.com/AliceO2Group/AliceO2/pull/7504) 2021-11-03: DPL: Inject ArrowSupport service in driver services by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
