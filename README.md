@@ -59,6 +59,7 @@
 - [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
 - [\#7485](https://github.com/AliceO2Group/AliceO2/pull/7485) 2021-11-01: Protection for overflow in mat.LUT bins calc. due to the float prec. by [@shahor02](https://github.com/shahor02)
 - [\#7488](https://github.com/AliceO2Group/AliceO2/pull/7488) 2021-11-02: MC particles table: fill status codes and fix typo in flags by [@nburmaso](https://github.com/nburmaso)
+- [\#7496](https://github.com/AliceO2Group/AliceO2/pull/7496) 2021-11-03: add TOF event time checker by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#7410](https://github.com/AliceO2Group/AliceO2/pull/7410) 2021-10-23: TPC clusters visualization fixes in EveWorkflowHelper by [@shahor02](https://github.com/shahor02)
 - [\#7418](https://github.com/AliceO2Group/AliceO2/pull/7418) 2021-10-26: o2-eve-display track<-> cluster relation by [@jmyrcha](https://github.com/jmyrcha)
