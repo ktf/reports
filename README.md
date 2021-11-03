@@ -14,7 +14,6 @@
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7407](https://github.com/AliceO2Group/AliceO2/pull/7407) 2021-10-22: Fix: AbstractRefAccessor::isLoaded must check type size by [@shahor02](https://github.com/shahor02)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7420](https://github.com/AliceO2Group/AliceO2/pull/7420) 2021-10-30: Methods to constrain track by vertex by [@shahor02](https://github.com/shahor02)
@@ -24,7 +23,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7403](https://github.com/AliceO2Group/AliceO2/pull/7403) 2021-10-23: fix in TOF diagnostic words by [@noferini](https://github.com/noferini)
 - [\#7406](https://github.com/AliceO2Group/AliceO2/pull/7406) 2021-11-01: SpaceCharge: Adding distortions and time bin information to debug tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7408](https://github.com/AliceO2Group/AliceO2/pull/7408) 2021-10-23: [FIT] Fix in calibration: int8_t->int16_t by [@sbysiak](https://github.com/sbysiak)
 - [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
