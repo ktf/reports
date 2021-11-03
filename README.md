@@ -57,6 +57,7 @@
 - [\#7471](https://github.com/AliceO2Group/AliceO2/pull/7471) 2021-10-30: [FV0] Decrease verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
+- [\#7480](https://github.com/AliceO2Group/AliceO2/pull/7480) 2021-11-03: Optionally report decoding stat from 1 epn/lane only by [@shahor02](https://github.com/shahor02)
 - [\#7481](https://github.com/AliceO2Group/AliceO2/pull/7481) 2021-11-01: [FIT] Reduce digit and recPoint writers verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
 - [\#7485](https://github.com/AliceO2Group/AliceO2/pull/7485) 2021-11-01: Protection for overflow in mat.LUT bins calc. due to the float prec. by [@shahor02](https://github.com/shahor02)
