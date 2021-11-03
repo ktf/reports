@@ -22,7 +22,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 - [\#7413](https://github.com/AliceO2Group/AliceO2/pull/7413) 2021-10-23: ITS-TPC matching: add tolerance parameter on constrained TPC track time by [@shahor02](https://github.com/shahor02)
 - [\#7414](https://github.com/AliceO2Group/AliceO2/pull/7414) 2021-10-25: Misaligned sync reco parameters by [@mpuccio](https://github.com/mpuccio)
 - [\#7415](https://github.com/AliceO2Group/AliceO2/pull/7415) 2021-10-26: Make geometry loadable from the CCDB by [@shahor02](https://github.com/shahor02)
