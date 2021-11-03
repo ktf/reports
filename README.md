@@ -23,7 +23,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7406](https://github.com/AliceO2Group/AliceO2/pull/7406) 2021-11-01: SpaceCharge: Adding distortions and time bin information to debug tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7408](https://github.com/AliceO2Group/AliceO2/pull/7408) 2021-10-23: [FIT] Fix in calibration: int8_t->int16_t by [@sbysiak](https://github.com/sbysiak)
 - [\#7412](https://github.com/AliceO2Group/AliceO2/pull/7412) 2021-10-23: Fix in errors summary reporting formatting by [@shahor02](https://github.com/shahor02)
 - [\#7413](https://github.com/AliceO2Group/AliceO2/pull/7413) 2021-10-23: ITS-TPC matching: add tolerance parameter on constrained TPC track time by [@shahor02](https://github.com/shahor02)
