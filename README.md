@@ -14,13 +14,11 @@
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
 - [\#7437](https://github.com/AliceO2Group/AliceO2/pull/7437) 2021-10-28: Protect ITS-TPC matching from ITS ROF preceding TF 1st start by [@shahor02](https://github.com/shahor02)
@@ -54,12 +52,12 @@
 - [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
 - [\#7514](https://github.com/AliceO2Group/AliceO2/pull/7514) 2021-11-03: limit ITS fast mult.estimate from below by 0 by [@shahor02](https://github.com/shahor02)
 - [\#7517](https://github.com/AliceO2Group/AliceO2/pull/7517) 2021-11-04: Fix in PVertex constraint application by [@shahor02](https://github.com/shahor02)
+- [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7425](https://github.com/AliceO2Group/AliceO2/pull/7425) 2021-10-28: Using real logaritmic axis in axis spec by [@njacazio](https://github.com/njacazio)
 - [\#7428](https://github.com/AliceO2Group/AliceO2/pull/7428) 2021-10-27: DPL Analysis: save histograms in the order they were added by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
