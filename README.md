@@ -52,6 +52,7 @@
 - [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
 - [\#7514](https://github.com/AliceO2Group/AliceO2/pull/7514) 2021-11-03: limit ITS fast mult.estimate from below by 0 by [@shahor02](https://github.com/shahor02)
 - [\#7517](https://github.com/AliceO2Group/AliceO2/pull/7517) 2021-11-04: Fix in PVertex constraint application by [@shahor02](https://github.com/shahor02)
+- [\#7518](https://github.com/AliceO2Group/AliceO2/pull/7518) 2021-11-04: Compress alignment application report to 1 line by [@shahor02](https://github.com/shahor02)
 - [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
