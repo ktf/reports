@@ -79,6 +79,7 @@
 - [\#7504](https://github.com/AliceO2Group/AliceO2/pull/7504) 2021-11-03: DPL: Inject ArrowSupport service in driver services by [@aalkin](https://github.com/aalkin)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7513](https://github.com/AliceO2Group/AliceO2/pull/7513) 2021-11-04: DPL: introduce CallbacksPolicy by [@ktf](https://github.com/ktf)
+- [\#7519](https://github.com/AliceO2Group/AliceO2/pull/7519) 2021-11-04: DPL: add policy to print timeframe information on EPN by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
