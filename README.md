@@ -58,7 +58,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7428](https://github.com/AliceO2Group/AliceO2/pull/7428) 2021-10-27: DPL Analysis: save histograms in the order they were added by [@mario-krueger](https://github.com/mario-krueger)
 - [\#7432](https://github.com/AliceO2Group/AliceO2/pull/7432) 2021-10-28: DPL Analysis: fix access to created object in Spawns<> and Builds<> by [@aalkin](https://github.com/aalkin)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7439](https://github.com/AliceO2Group/AliceO2/pull/7439) 2021-10-29: DPL: re-add aod-writer when adjusting service devices by [@aalkin](https://github.com/aalkin)
