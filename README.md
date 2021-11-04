@@ -20,7 +20,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7424](https://github.com/AliceO2Group/AliceO2/pull/7424) 2021-10-26: CPV: fix in cluster to ctf packing by [@sevdokim](https://github.com/sevdokim)
 - [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
@@ -82,8 +81,6 @@
 - [\#7513](https://github.com/AliceO2Group/AliceO2/pull/7513) 2021-11-04: DPL: introduce CallbacksPolicy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-- [\#7421](https://github.com/AliceO2Group/AliceO2/pull/7421) 2021-10-30: Adding some plots + use labels to avoid duplicated tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Utilities
 - [\#7433](https://github.com/AliceO2Group/AliceO2/pull/7433) 2021-10-30: Data Sampling: allow to select header value treated as TimesliceId by [@knopers8](https://github.com/knopers8)
 - [\#7475](https://github.com/AliceO2Group/AliceO2/pull/7475) 2021-10-31: Fix fetching runNr / partition ID, cut log file name to 32 characters since otherwise infologger bails out... by [@davidrohr](https://github.com/davidrohr)
