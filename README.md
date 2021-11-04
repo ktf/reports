@@ -75,6 +75,7 @@
 - [\#7490](https://github.com/AliceO2Group/AliceO2/pull/7490) 2021-11-03: DPL: do not copy workflow which we amend by [@ktf](https://github.com/ktf)
 - [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
+- [\#7493](https://github.com/AliceO2Group/AliceO2/pull/7493) 2021-11-04: DPL: Extending initial parsing of input messages by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7504](https://github.com/AliceO2Group/AliceO2/pull/7504) 2021-11-03: DPL: Inject ArrowSupport service in driver services by [@aalkin](https://github.com/aalkin)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7513](https://github.com/AliceO2Group/AliceO2/pull/7513) 2021-11-04: DPL: introduce CallbacksPolicy by [@ktf](https://github.com/ktf)
