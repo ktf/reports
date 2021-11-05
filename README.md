@@ -22,7 +22,6 @@
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
 - [\#7440](https://github.com/AliceO2Group/AliceO2/pull/7440) 2021-10-28: Add missing mem-factor option to MCH EntropyEncoder by [@shahor02](https://github.com/shahor02)
 - [\#7441](https://github.com/AliceO2Group/AliceO2/pull/7441) 2021-10-28: Fix in skipping the post-error paddin in Alpide data by [@shahor02](https://github.com/shahor02)
 - [\#7444](https://github.com/AliceO2Group/AliceO2/pull/7444) 2021-10-30: Do not quit on empty payload by [@peressounko](https://github.com/peressounko)
