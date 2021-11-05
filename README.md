@@ -61,6 +61,7 @@
 - [\#7523](https://github.com/AliceO2Group/AliceO2/pull/7523) 2021-11-04: Fix FDD workflow, disable-root-input and outwere were mixed up by [@davidrohr](https://github.com/davidrohr)
 - [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 - [\#7526](https://github.com/AliceO2Group/AliceO2/pull/7526) 2021-11-04: AODProducer fixes: runNumber and ITSAB tracklets by [@shahor02](https://github.com/shahor02)
+- [\#7527](https://github.com/AliceO2Group/AliceO2/pull/7527) 2021-11-05: ITS/MFT: pass origin/datadescription asked in CL to RawPixelDecoder by [@shahor02](https://github.com/shahor02)
 - [\#7531](https://github.com/AliceO2Group/AliceO2/pull/7531) 2021-11-04: Add to t_corrected to TPCITS debud output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
