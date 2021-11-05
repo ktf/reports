@@ -23,7 +23,6 @@
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
 - [\#7437](https://github.com/AliceO2Group/AliceO2/pull/7437) 2021-10-28: Protect ITS-TPC matching from ITS ROF preceding TF 1st start by [@shahor02](https://github.com/shahor02)
 - [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
 - [\#7440](https://github.com/AliceO2Group/AliceO2/pull/7440) 2021-10-28: Add missing mem-factor option to MCH EntropyEncoder by [@shahor02](https://github.com/shahor02)
@@ -66,6 +65,7 @@
 - [\#7526](https://github.com/AliceO2Group/AliceO2/pull/7526) 2021-11-04: AODProducer fixes: runNumber and ITSAB tracklets by [@shahor02](https://github.com/shahor02)
 - [\#7527](https://github.com/AliceO2Group/AliceO2/pull/7527) 2021-11-05: ITS/MFT: pass origin/datadescription asked in CL to RawPixelDecoder by [@shahor02](https://github.com/shahor02)
 - [\#7531](https://github.com/AliceO2Group/AliceO2/pull/7531) 2021-11-04: Add to t_corrected to TPCITS debud output by [@shahor02](https://github.com/shahor02)
+- [\#7535](https://github.com/AliceO2Group/AliceO2/pull/7535) 2021-11-05: SVertexer: fix in selection of vertex 1st track to check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
