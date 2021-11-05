@@ -22,6 +22,7 @@
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
+- [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7437](https://github.com/AliceO2Group/AliceO2/pull/7437) 2021-10-28: Protect ITS-TPC matching from ITS ROF preceding TF 1st start by [@shahor02](https://github.com/shahor02)
 - [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
