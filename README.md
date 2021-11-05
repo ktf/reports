@@ -8,7 +8,6 @@
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7436](https://github.com/AliceO2Group/AliceO2/pull/7436) 2021-10-28: DPL: make TimingInfo a service by [@ktf](https://github.com/ktf)
 - [\#7443](https://github.com/AliceO2Group/AliceO2/pull/7443) 2021-10-29: FileFetcher will connect to Grid only when neccessary by [@shahor02](https://github.com/shahor02)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
@@ -20,7 +19,6 @@
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7431](https://github.com/AliceO2Group/AliceO2/pull/7431) 2021-10-27: Improve CA selection algorithm by [@mpuccio](https://github.com/mpuccio)
 - [\#7435](https://github.com/AliceO2Group/AliceO2/pull/7435) 2021-10-27: fix in tof sim for large TF offset by [@noferini](https://github.com/noferini)
 - [\#7437](https://github.com/AliceO2Group/AliceO2/pull/7437) 2021-10-28: Protect ITS-TPC matching from ITS ROF preceding TF 1st start by [@shahor02](https://github.com/shahor02)
 - [\#7438](https://github.com/AliceO2Group/AliceO2/pull/7438) 2021-10-28: Fwd Secondary Vertexing minor fix by [@sadekr](https://github.com/sadekr)
@@ -58,6 +56,7 @@
 - [\#7523](https://github.com/AliceO2Group/AliceO2/pull/7523) 2021-11-04: Fix FDD workflow, disable-root-input and outwere were mixed up by [@davidrohr](https://github.com/davidrohr)
 - [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 - [\#7526](https://github.com/AliceO2Group/AliceO2/pull/7526) 2021-11-04: AODProducer fixes: runNumber and ITSAB tracklets by [@shahor02](https://github.com/shahor02)
+- [\#7531](https://github.com/AliceO2Group/AliceO2/pull/7531) 2021-11-04: Add to t_corrected to TPCITS debud output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7442](https://github.com/AliceO2Group/AliceO2/pull/7442) 2021-10-28: quick fix problem with jsons by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
