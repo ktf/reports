@@ -22,7 +22,6 @@
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7441](https://github.com/AliceO2Group/AliceO2/pull/7441) 2021-10-28: Fix in skipping the post-error paddin in Alpide data by [@shahor02](https://github.com/shahor02)
 - [\#7444](https://github.com/AliceO2Group/AliceO2/pull/7444) 2021-10-30: Do not quit on empty payload by [@peressounko](https://github.com/peressounko)
 - [\#7445](https://github.com/AliceO2Group/AliceO2/pull/7445) 2021-10-28: [MFT] Reduce tracker verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
