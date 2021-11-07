@@ -7,7 +7,6 @@
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7443](https://github.com/AliceO2Group/AliceO2/pull/7443) 2021-10-29: FileFetcher will connect to Grid only when neccessary by [@shahor02](https://github.com/shahor02)
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 - [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
@@ -21,8 +20,8 @@
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
+- [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7444](https://github.com/AliceO2Group/AliceO2/pull/7444) 2021-10-30: Do not quit on empty payload by [@peressounko](https://github.com/peressounko)
 - [\#7445](https://github.com/AliceO2Group/AliceO2/pull/7445) 2021-10-28: [MFT] Reduce tracker verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
