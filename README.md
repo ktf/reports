@@ -8,7 +8,6 @@
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 - [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
@@ -67,7 +66,6 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7450](https://github.com/AliceO2Group/AliceO2/pull/7450) 2021-10-29: DPL Analysis: fix incorrect use of offset by [@aalkin](https://github.com/aalkin)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
 - [\#7454](https://github.com/AliceO2Group/AliceO2/pull/7454) 2021-10-29: DPL Analysis: drop support for old RN2 origin by [@ktf](https://github.com/ktf)
