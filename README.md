@@ -6,6 +6,7 @@
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7448](https://github.com/AliceO2Group/AliceO2/pull/7448) 2021-10-29: DPL: mark rate metrics as debug by [@ktf](https://github.com/ktf)
 - [\#7452](https://github.com/AliceO2Group/AliceO2/pull/7452) 2021-10-29: DPL: drop "DPL:" prefix in infologger by [@ktf](https://github.com/ktf)
@@ -91,6 +92,7 @@
 - [\#7530](https://github.com/AliceO2Group/AliceO2/pull/7530) 2021-11-05: DPL: adjusting DataRelayer interface by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7533](https://github.com/AliceO2Group/AliceO2/pull/7533) 2021-11-06: DPL: using linear message store for the DataRelayer cache by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
+- [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
