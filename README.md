@@ -89,6 +89,7 @@
 - [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
 - [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7553](https://github.com/AliceO2Group/AliceO2/pull/7553) 2021-11-08: DPL: improve documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
