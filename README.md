@@ -24,7 +24,6 @@
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7445](https://github.com/AliceO2Group/AliceO2/pull/7445) 2021-10-28: [MFT] Reduce tracker verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7446](https://github.com/AliceO2Group/AliceO2/pull/7446) 2021-10-29: noise suppression enabled for tof calib with cosmics (diagostic now p… by [@noferini](https://github.com/noferini)
 - [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
 - [\#7449](https://github.com/AliceO2Group/AliceO2/pull/7449) 2021-10-30: Few improvements for the ITS CA async processing by [@mpuccio](https://github.com/mpuccio)
