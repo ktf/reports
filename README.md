@@ -64,6 +64,7 @@
 - [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
 - [\#7535](https://github.com/AliceO2Group/AliceO2/pull/7535) 2021-11-05: SVertexer: fix in selection of vertex 1st track to check by [@shahor02](https://github.com/shahor02)
 - [\#7538](https://github.com/AliceO2Group/AliceO2/pull/7538) 2021-11-06: Use extra ITS error on the ioutils::convertCompactClusters level by [@shahor02](https://github.com/shahor02)
+- [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
