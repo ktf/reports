@@ -22,7 +22,6 @@
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7458](https://github.com/AliceO2Group/AliceO2/pull/7458) 2021-10-29: TPC QC: further plots for PID and Tracks tasks by [@stheckel](https://github.com/stheckel)
 - [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
 - [\#7464](https://github.com/AliceO2Group/AliceO2/pull/7464) 2021-10-29: Create .done file with other name then rename by [@shahor02](https://github.com/shahor02)
