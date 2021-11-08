@@ -23,7 +23,6 @@
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7451](https://github.com/AliceO2Group/AliceO2/pull/7451) 2021-10-30: [FIT] Add digits-writer-workflow(s) by [@sbysiak](https://github.com/sbysiak)
 - [\#7458](https://github.com/AliceO2Group/AliceO2/pull/7458) 2021-10-29: TPC QC: further plots for PID and Tracks tasks by [@stheckel](https://github.com/stheckel)
 - [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
@@ -62,6 +61,7 @@
 - [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7545](https://github.com/AliceO2Group/AliceO2/pull/7545) 2021-11-08: Fix for denominator of efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)

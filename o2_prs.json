@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-30T14:59:06Z",
-            "title": "[FIT] Add digits-writer-workflow(s)",
-            "number": 7451,
-            "author": {
-              "login": "sbysiak"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/simulation/src/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/include/FDDWorkflow/FDDDigitWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/FDDDigitWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/workflow/src/digits-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digits2Raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/include/FV0Workflow/FV0DigitWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/FV0DigitWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/RecPointWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/digits-writer-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-29T21:15:14Z",
             "title": "DPL: drop \"DPL:\" prefix in infologger",
             "number": 7452,
@@ -3546,6 +3476,26 @@
                 {
                   "node": {
                     "path": "run/checkStack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-11-08T12:15:43Z",
+            "title": "Fix: CTF reader must set DataHeader::runNumber",
+            "number": 7551,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
                   }
                 }
               ]
