@@ -61,6 +61,7 @@
 - [\#7538](https://github.com/AliceO2Group/AliceO2/pull/7538) 2021-11-06: Use extra ITS error on the ioutils::convertCompactClusters level by [@shahor02](https://github.com/shahor02)
 - [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
+- [\#7545](https://github.com/AliceO2Group/AliceO2/pull/7545) 2021-11-08: Fix for denominator of efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
