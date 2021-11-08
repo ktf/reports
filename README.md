@@ -24,7 +24,6 @@
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7447](https://github.com/AliceO2Group/AliceO2/pull/7447) 2021-10-28: TPC QC: PID task with more bins in logPtBinning by [@stheckel](https://github.com/stheckel)
 - [\#7449](https://github.com/AliceO2Group/AliceO2/pull/7449) 2021-10-30: Few improvements for the ITS CA async processing by [@mpuccio](https://github.com/mpuccio)
 - [\#7451](https://github.com/AliceO2Group/AliceO2/pull/7451) 2021-10-30: [FIT] Add digits-writer-workflow(s) by [@sbysiak](https://github.com/sbysiak)
 - [\#7458](https://github.com/AliceO2Group/AliceO2/pull/7458) 2021-10-29: TPC QC: further plots for PID and Tracks tasks by [@stheckel](https://github.com/stheckel)
