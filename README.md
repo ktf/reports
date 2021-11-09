@@ -28,7 +28,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7464](https://github.com/AliceO2Group/AliceO2/pull/7464) 2021-10-29: Create .done file with other name then rename by [@shahor02](https://github.com/shahor02)
 - [\#7465](https://github.com/AliceO2Group/AliceO2/pull/7465) 2021-10-29: TPC: throttle warnings in digit decoding + unrelated fixes by [@wiechula](https://github.com/wiechula)
 - [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7471](https://github.com/AliceO2Group/AliceO2/pull/7471) 2021-10-30: [FV0] Decrease verbosity by [@mslupeck](https://github.com/mslupeck)
