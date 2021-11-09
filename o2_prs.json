@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-29T23:30:12Z",
-            "title": "TPC: throttle warnings in digit decoding + unrelated fixes",
-            "number": 7465,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/src/Utils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/RawReaderCRU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/MonitorWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/MonitorWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-monitor-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-31T12:13:51Z",
             "title": "DPL: fix precision warning",
             "number": 7466,
@@ -3721,6 +3671,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-eve: screenshot, temporary fix TPC noise for eta=0",
+            "number": 7565,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManagerFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
                   }
                 }
               ]
