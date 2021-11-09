@@ -7,6 +7,7 @@
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
@@ -21,6 +22,8 @@
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
+- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
+- [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
@@ -66,6 +69,8 @@
 - [\#7460](https://github.com/AliceO2Group/AliceO2/pull/7460) 2021-10-29: o2-eve-display: quick fix to problems with storing wrong data using rapidjson by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
+## Recent developments in O2 - Examples
+- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#7466](https://github.com/AliceO2Group/AliceO2/pull/7466) 2021-10-31: DPL: fix precision warning by [@ktf](https://github.com/ktf)
 - [\#7467](https://github.com/AliceO2Group/AliceO2/pull/7467) 2021-10-30: DPL: allow services to modify topology by [@ktf](https://github.com/ktf)
