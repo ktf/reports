@@ -26,8 +26,8 @@
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
+- [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7461](https://github.com/AliceO2Group/AliceO2/pull/7461) 2021-10-29: TFReader sleeps for 10s at startup, waiting for other devices to start by [@shahor02](https://github.com/shahor02)
 - [\#7462](https://github.com/AliceO2Group/AliceO2/pull/7462) 2021-10-29: Appling print-error-once policy to ITS/MFT GBTLink errors by [@shahor02](https://github.com/shahor02)
 - [\#7464](https://github.com/AliceO2Group/AliceO2/pull/7464) 2021-10-29: Create .done file with other name then rename by [@shahor02](https://github.com/shahor02)
 - [\#7465](https://github.com/AliceO2Group/AliceO2/pull/7465) 2021-10-29: TPC: throttle warnings in digit decoding + unrelated fixes by [@wiechula](https://github.com/wiechula)
@@ -69,6 +69,7 @@
 - [\#7547](https://github.com/AliceO2Group/AliceO2/pull/7547) 2021-11-08: [EMCAL-534] Add option to switch off pedestal subtraction for non-ZS … by [@mfasDa](https://github.com/mfasDa)
 - [\#7548](https://github.com/AliceO2Group/AliceO2/pull/7548) 2021-11-08: AOD creation: MC run-number as option by [@sawenzel](https://github.com/sawenzel)
 - [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
+- [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7469](https://github.com/AliceO2Group/AliceO2/pull/7469) 2021-10-30: Eve fix: add TPC-TRD tracks to visualisation tracks by [@shahor02](https://github.com/shahor02)
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
