@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-29T15:55:19Z",
-            "title": "o2-eve-display: quick fix to problems with storing wrong data using rapidjson",
-            "number": 7460,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-29T21:18:23Z",
             "title": "TFReader sleeps for 10s at startup, waiting for other devices to start",
             "number": 7461,
@@ -1514,8 +1489,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-09T10:29:39Z",
             "title": "Add metadata to AOD",
             "number": 7503,
             "author": {
@@ -2356,7 +2331,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP][EMCAL-687] AODProducerWorkflowSpec: implemented calo cells (re-open)",
+            "title": "[EMCAL-687] AODProducerWorkflowSpec: implemented CALO cells",
             "number": 7521,
             "author": {
               "login": "fjonasALICE"
@@ -3671,6 +3646,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ChannelConfigurationPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Adjusting the InputSpan backend",
+            "number": 7560,
+            "author": {
+              "login": "matthiasrichter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataRef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
                   }
                 }
               ]
