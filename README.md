@@ -1,6 +1,8 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 - daily-20211028-1501: Done on 2021-10-28.
+## Recent developments in O2 - Algorithm
+- [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
@@ -100,3 +102,4 @@
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#7475](https://github.com/AliceO2Group/AliceO2/pull/7475) 2021-10-31: Fix fetching runNr / partition ID, cut log file name to 32 characters since otherwise infologger bails out... by [@davidrohr](https://github.com/davidrohr)
+- [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
