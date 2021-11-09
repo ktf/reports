@@ -10,6 +10,7 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
 - [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
+- [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -17,6 +18,7 @@
 - [\#7474](https://github.com/AliceO2Group/AliceO2/pull/7474) 2021-11-05: Consistently use time in seconds by [@peressounko](https://github.com/peressounko)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
+- [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
@@ -44,6 +46,7 @@
 - [\#7496](https://github.com/AliceO2Group/AliceO2/pull/7496) 2021-11-03: add TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7497](https://github.com/AliceO2Group/AliceO2/pull/7497) 2021-11-04: Use mc flag to be able to run with data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7498](https://github.com/AliceO2Group/AliceO2/pull/7498) 2021-11-03: Move dataRequest from init by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
 - [\#7505](https://github.com/AliceO2Group/AliceO2/pull/7505) 2021-11-05: Reducing verbosity of ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
@@ -81,6 +84,7 @@
 - [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
 - [\#7493](https://github.com/AliceO2Group/AliceO2/pull/7493) 2021-11-04: DPL: Extending initial parsing of input messages by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7504](https://github.com/AliceO2Group/AliceO2/pull/7504) 2021-11-03: DPL: Inject ArrowSupport service in driver services by [@aalkin](https://github.com/aalkin)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7513](https://github.com/AliceO2Group/AliceO2/pull/7513) 2021-11-04: DPL: introduce CallbacksPolicy by [@ktf](https://github.com/ktf)
