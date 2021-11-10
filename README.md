@@ -75,7 +75,6 @@
 ## Recent developments in O2 - Examples
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#7467](https://github.com/AliceO2Group/AliceO2/pull/7467) 2021-10-30: DPL: allow services to modify topology by [@ktf](https://github.com/ktf)
 - [\#7484](https://github.com/AliceO2Group/AliceO2/pull/7484) 2021-11-02: DPL: provide callback on timeslice creation by [@ktf](https://github.com/ktf)
 - [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
 - [\#7489](https://github.com/AliceO2Group/AliceO2/pull/7489) 2021-11-02: DPL: use libuv to retrieve time by [@ktf](https://github.com/ktf)
