@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-08T11:18:41Z",
-            "title": "PWGHF: changed lc task from centrality selection to multiplicity counter",
-            "number": 164,
-            "author": {
-              "login": "Katka19"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-11T07:04:31Z",
             "title": "PWGHF: DDbar framework switched from cent to mult selection (ALICE3)",
             "number": 165,
@@ -2701,6 +2681,61 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Updates for the skimming tasks (both data and MC); removed redundant tableMaker_PbPb.cxx task; other smaller changes",
+            "number": 264,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker_PbPb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
                   }
                 }
               ]
