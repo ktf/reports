@@ -17,7 +17,6 @@
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 - [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
@@ -29,7 +28,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
 - [\#7480](https://github.com/AliceO2Group/AliceO2/pull/7480) 2021-11-03: Optionally report decoding stat from 1 epn/lane only by [@shahor02](https://github.com/shahor02)
 - [\#7481](https://github.com/AliceO2Group/AliceO2/pull/7481) 2021-11-01: [FIT] Reduce digit and recPoint writers verbosity by [@mslupeck](https://github.com/mslupeck)
