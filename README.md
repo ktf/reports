@@ -16,6 +16,7 @@
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
+- [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 - [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
@@ -62,6 +63,8 @@
 - [\#7548](https://github.com/AliceO2Group/AliceO2/pull/7548) 2021-11-08: AOD creation: MC run-number as option by [@sawenzel](https://github.com/sawenzel)
 - [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
+- [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
