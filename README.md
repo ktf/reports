@@ -64,9 +64,11 @@
 - [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
+- [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
+- [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
