@@ -16,7 +16,6 @@
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7474](https://github.com/AliceO2Group/AliceO2/pull/7474) 2021-11-05: Consistently use time in seconds by [@peressounko](https://github.com/peressounko)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
@@ -30,7 +29,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7470](https://github.com/AliceO2Group/AliceO2/pull/7470) 2021-10-30: Log error if 1st TF orbit is incorrect by [@shahor02](https://github.com/shahor02)
 - [\#7471](https://github.com/AliceO2Group/AliceO2/pull/7471) 2021-10-30: [FV0] Decrease verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7472](https://github.com/AliceO2Group/AliceO2/pull/7472) 2021-11-03: Ctpdev:digi2raw and ctp-raw-recoder fixes by [@lietava](https://github.com/lietava)
 - [\#7474](https://github.com/AliceO2Group/AliceO2/pull/7474) 2021-11-05: Consistently use time in seconds by [@peressounko](https://github.com/peressounko)
