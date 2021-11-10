@@ -30,7 +30,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7472](https://github.com/AliceO2Group/AliceO2/pull/7472) 2021-11-03: Ctpdev:digi2raw and ctp-raw-recoder fixes by [@lietava](https://github.com/lietava)
 - [\#7474](https://github.com/AliceO2Group/AliceO2/pull/7474) 2021-11-05: Consistently use time in seconds by [@peressounko](https://github.com/peressounko)
 - [\#7476](https://github.com/AliceO2Group/AliceO2/pull/7476) 2021-11-02: fix in tof cosmic calibrator (TLinearFitter) by [@noferini](https://github.com/noferini)
 - [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
