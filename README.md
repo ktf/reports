@@ -63,6 +63,7 @@
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7576](https://github.com/AliceO2Group/AliceO2/pull/7576) 2021-11-11: ITS/MFT decoding: new error type Wrong Cable ID and protection against it by [@shahor02](https://github.com/shahor02)
 - [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
+- [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
@@ -70,6 +71,7 @@
 - [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
+- [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
 - [\#7489](https://github.com/AliceO2Group/AliceO2/pull/7489) 2021-11-02: DPL: use libuv to retrieve time by [@ktf](https://github.com/ktf)
 - [\#7490](https://github.com/AliceO2Group/AliceO2/pull/7490) 2021-11-03: DPL: do not copy workflow which we amend by [@ktf](https://github.com/ktf)
