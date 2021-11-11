@@ -62,6 +62,7 @@
 - [\#7568](https://github.com/AliceO2Group/AliceO2/pull/7568) 2021-11-11: Fix TF 1st orbit usag + flag to disable s-vertices processing by [@shahor02](https://github.com/shahor02)
 - [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
+- [\#7573](https://github.com/AliceO2Group/AliceO2/pull/7573) 2021-11-11: TRD Kr cluster finder fix index by [@martenole](https://github.com/martenole)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
