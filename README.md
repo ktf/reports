@@ -29,7 +29,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
 - [\#7485](https://github.com/AliceO2Group/AliceO2/pull/7485) 2021-11-01: Protection for overflow in mat.LUT bins calc. due to the float prec. by [@shahor02](https://github.com/shahor02)
 - [\#7487](https://github.com/AliceO2Group/AliceO2/pull/7487) 2021-11-05: TRD remove unused placeholder by [@martenole](https://github.com/martenole)
 - [\#7488](https://github.com/AliceO2Group/AliceO2/pull/7488) 2021-11-02: MC particles table: fill status codes and fix typo in flags by [@nburmaso](https://github.com/nburmaso)
