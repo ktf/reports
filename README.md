@@ -94,6 +94,7 @@
 - [\#7554](https://github.com/AliceO2Group/AliceO2/pull/7554) 2021-11-08: DPL: use DeviceMetricsHelper::updateMetricsName by [@ktf](https://github.com/ktf)
 - [\#7555](https://github.com/AliceO2Group/AliceO2/pull/7555) 2021-11-08: DPL: allow DriverServerContext to know about the GUI by [@ktf](https://github.com/ktf)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
+- [\#7572](https://github.com/AliceO2Group/AliceO2/pull/7572) 2021-11-11: DPL: revert completion policy for dummy sink by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
