@@ -29,7 +29,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7480](https://github.com/AliceO2Group/AliceO2/pull/7480) 2021-11-03: Optionally report decoding stat from 1 epn/lane only by [@shahor02](https://github.com/shahor02)
 - [\#7481](https://github.com/AliceO2Group/AliceO2/pull/7481) 2021-11-01: [FIT] Reduce digit and recPoint writers verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
 - [\#7485](https://github.com/AliceO2Group/AliceO2/pull/7485) 2021-11-01: Protection for overflow in mat.LUT bins calc. due to the float prec. by [@shahor02](https://github.com/shahor02)
@@ -67,6 +66,7 @@
 - [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
+- [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
