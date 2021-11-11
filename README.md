@@ -98,6 +98,7 @@
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
 - [\#7572](https://github.com/AliceO2Group/AliceO2/pull/7572) 2021-11-11: DPL: revert completion policy for dummy sink by [@ktf](https://github.com/ktf)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
+- [\#7578](https://github.com/AliceO2Group/AliceO2/pull/7578) 2021-11-11: DPL: inputs need to be consumed also on discard by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7483](https://github.com/AliceO2Group/AliceO2/pull/7483) 2021-11-01: Provide MC generator status code as part of MCTrack by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
