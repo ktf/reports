@@ -27,7 +27,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7488](https://github.com/AliceO2Group/AliceO2/pull/7488) 2021-11-02: MC particles table: fill status codes and fix typo in flags by [@nburmaso](https://github.com/nburmaso)
 - [\#7496](https://github.com/AliceO2Group/AliceO2/pull/7496) 2021-11-03: add TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7497](https://github.com/AliceO2Group/AliceO2/pull/7497) 2021-11-04: Use mc flag to be able to run with data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7498](https://github.com/AliceO2Group/AliceO2/pull/7498) 2021-11-03: Move dataRequest from init by [@chiarazampolli](https://github.com/chiarazampolli)
