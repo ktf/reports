@@ -11,7 +11,6 @@
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Common
-- [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
 - [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
@@ -71,7 +70,6 @@
 ## Recent developments in O2 - Examples
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#7486](https://github.com/AliceO2Group/AliceO2/pull/7486) 2021-11-04: DPL: report rate metrics on a per device level by [@ktf](https://github.com/ktf)
 - [\#7489](https://github.com/AliceO2Group/AliceO2/pull/7489) 2021-11-02: DPL: use libuv to retrieve time by [@ktf](https://github.com/ktf)
 - [\#7490](https://github.com/AliceO2Group/AliceO2/pull/7490) 2021-11-03: DPL: do not copy workflow which we amend by [@ktf](https://github.com/ktf)
 - [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
