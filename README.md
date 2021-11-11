@@ -29,7 +29,6 @@
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7477](https://github.com/AliceO2Group/AliceO2/pull/7477) 2021-11-01: PV fit account ITS tracks time with 1/ITS downscaling by [@shahor02](https://github.com/shahor02)
 - [\#7480](https://github.com/AliceO2Group/AliceO2/pull/7480) 2021-11-03: Optionally report decoding stat from 1 epn/lane only by [@shahor02](https://github.com/shahor02)
 - [\#7481](https://github.com/AliceO2Group/AliceO2/pull/7481) 2021-11-01: [FIT] Reduce digit and recPoint writers verbosity by [@mslupeck](https://github.com/mslupeck)
 - [\#7482](https://github.com/AliceO2Group/AliceO2/pull/7482) 2021-11-01: Add missing information in MC tracks and TracksExtra tables by [@nburmaso](https://github.com/nburmaso)
