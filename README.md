@@ -57,6 +57,7 @@
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
 - [\#7568](https://github.com/AliceO2Group/AliceO2/pull/7568) 2021-11-11: Fix TF 1st orbit usag + flag to disable s-vertices processing by [@shahor02](https://github.com/shahor02)
+- [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7573](https://github.com/AliceO2Group/AliceO2/pull/7573) 2021-11-11: TRD Kr cluster finder fix index by [@martenole](https://github.com/martenole)
@@ -73,7 +74,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7489](https://github.com/AliceO2Group/AliceO2/pull/7489) 2021-11-02: DPL: use libuv to retrieve time by [@ktf](https://github.com/ktf)
 - [\#7490](https://github.com/AliceO2Group/AliceO2/pull/7490) 2021-11-03: DPL: do not copy workflow which we amend by [@ktf](https://github.com/ktf)
 - [\#7491](https://github.com/AliceO2Group/AliceO2/pull/7491) 2021-11-02: Please consider the following formatting changes to #7490 by [@alibuild](https://github.com/alibuild)
 - [\#7492](https://github.com/AliceO2Group/AliceO2/pull/7492) 2021-11-03: MCParticles: Dynamic columns to extract physics process or generator … by [@sawenzel](https://github.com/sawenzel)
@@ -93,6 +93,7 @@
 - [\#7554](https://github.com/AliceO2Group/AliceO2/pull/7554) 2021-11-08: DPL: use DeviceMetricsHelper::updateMetricsName by [@ktf](https://github.com/ktf)
 - [\#7555](https://github.com/AliceO2Group/AliceO2/pull/7555) 2021-11-08: DPL: allow DriverServerContext to know about the GUI by [@ktf](https://github.com/ktf)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
+- [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7572](https://github.com/AliceO2Group/AliceO2/pull/7572) 2021-11-11: DPL: revert completion policy for dummy sink by [@ktf](https://github.com/ktf)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7578](https://github.com/AliceO2Group/AliceO2/pull/7578) 2021-11-11: DPL: inputs need to be consumed also on discard by [@ktf](https://github.com/ktf)

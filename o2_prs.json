@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-02T15:19:04Z",
-            "title": "DPL: use libuv to retrieve time",
-            "number": 7489,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-03T05:58:27Z",
             "title": "DPL: do not copy workflow which we amend",
             "number": 7490,
@@ -3174,8 +3154,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-11T22:00:32Z",
             "title": "Fix sporadic output",
             "number": 7569,
             "author": {
@@ -4044,7 +4024,7 @@
         },
         {
           "node": {
-            "state": "CLOSED",
+            "state": "OPEN",
             "mergedAt": null,
             "title": "GPU: Add random tests + fixes to benchmark",
             "number": 7588,
@@ -4052,7 +4032,43 @@
               "login": "mconcas"
             },
             "files": {
-              "edges": []
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/Shared/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/Kernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUbenchmark/cuda/benchmark.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Mark QA data as LifeTime::QA",
+            "number": 7589,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
             }
           }
         }
