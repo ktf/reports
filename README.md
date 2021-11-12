@@ -64,6 +64,7 @@
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7573](https://github.com/AliceO2Group/AliceO2/pull/7573) 2021-11-11: TRD Kr cluster finder fix index by [@martenole](https://github.com/martenole)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
+- [\#7575](https://github.com/AliceO2Group/AliceO2/pull/7575) 2021-11-12: Few bug fixes for CI and cosmics by [@mpuccio](https://github.com/mpuccio)
 - [\#7576](https://github.com/AliceO2Group/AliceO2/pull/7576) 2021-11-11: ITS/MFT decoding: new error type Wrong Cable ID and protection against it by [@shahor02](https://github.com/shahor02)
 - [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
