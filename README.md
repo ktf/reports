@@ -71,6 +71,7 @@
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7587](https://github.com/AliceO2Group/AliceO2/pull/7587) 2021-11-11: Extra tolerances for P/S-vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7589](https://github.com/AliceO2Group/AliceO2/pull/7589) 2021-11-12: Mark QA data as LifeTime::QA by [@davidrohr](https://github.com/davidrohr)
+- [\#7591](https://github.com/AliceO2Group/AliceO2/pull/7591) 2021-11-12: changed default CCDB path to alice-ccdb.cern.ch by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
