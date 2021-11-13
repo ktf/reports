@@ -30,7 +30,6 @@
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7498](https://github.com/AliceO2Group/AliceO2/pull/7498) 2021-11-03: Move dataRequest from init by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7499](https://github.com/AliceO2Group/AliceO2/pull/7499) 2021-11-09: Injection of custom DataHeader TF counters  by [@shahor02](https://github.com/shahor02)
 - [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
 - [\#7503](https://github.com/AliceO2Group/AliceO2/pull/7503) 2021-11-09: Add metadata to AOD by [@nburmaso](https://github.com/nburmaso)
