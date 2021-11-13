@@ -67,12 +67,14 @@
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
+- [\#7586](https://github.com/AliceO2Group/AliceO2/pull/7586) 2021-11-13: Performance improvement when applying TOF calibrations by [@noferini](https://github.com/noferini)
 - [\#7587](https://github.com/AliceO2Group/AliceO2/pull/7587) 2021-11-11: Extra tolerances for P/S-vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7589](https://github.com/AliceO2Group/AliceO2/pull/7589) 2021-11-12: Mark QA data as LifeTime::QA by [@davidrohr](https://github.com/davidrohr)
 - [\#7591](https://github.com/AliceO2Group/AliceO2/pull/7591) 2021-11-12: changed default CCDB path to alice-ccdb.cern.ch by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7593](https://github.com/AliceO2Group/AliceO2/pull/7593) 2021-11-12: Skip dedicated macro config for MCReplay simulation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7597](https://github.com/AliceO2Group/AliceO2/pull/7597) 2021-11-13: Fix in FDD reco. spec by [@shahor02](https://github.com/shahor02)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
+- [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [\#7511](https://github.com/AliceO2Group/AliceO2/pull/7511) 2021-11-08: o2-eve: storing track time and track gid by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
@@ -103,6 +105,8 @@
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Steer
+- [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
 - [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
