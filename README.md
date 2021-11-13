@@ -27,6 +27,7 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#7562](https://github.com/AliceO2Group/AliceO2/pull/7562) 2021-11-13: [MID] improve MID tracking by [@pillot](https://github.com/pillot)
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
@@ -52,6 +53,7 @@
 - [\#7548](https://github.com/AliceO2Group/AliceO2/pull/7548) 2021-11-08: AOD creation: MC run-number as option by [@sawenzel](https://github.com/sawenzel)
 - [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#7562](https://github.com/AliceO2Group/AliceO2/pull/7562) 2021-11-13: [MID] improve MID tracking by [@pillot](https://github.com/pillot)
 - [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
 - [\#7568](https://github.com/AliceO2Group/AliceO2/pull/7568) 2021-11-11: Fix TF 1st orbit usag + flag to disable s-vertices processing by [@shahor02](https://github.com/shahor02)
 - [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
