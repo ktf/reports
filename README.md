@@ -17,6 +17,7 @@
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7506](https://github.com/AliceO2Group/AliceO2/pull/7506) 2021-11-05: helper to get nominal L3 field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
@@ -97,6 +98,7 @@
 - [\#7578](https://github.com/AliceO2Group/AliceO2/pull/7578) 2021-11-11: DPL: inputs need to be consumed also on discard by [@ktf](https://github.com/ktf)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
