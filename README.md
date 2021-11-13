@@ -30,7 +30,6 @@
 - [\#7562](https://github.com/AliceO2Group/AliceO2/pull/7562) 2021-11-13: [MID] improve MID tracking by [@pillot](https://github.com/pillot)
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7502](https://github.com/AliceO2Group/AliceO2/pull/7502) 2021-11-03: fix in tof latency window by [@noferini](https://github.com/noferini)
 - [\#7503](https://github.com/AliceO2Group/AliceO2/pull/7503) 2021-11-09: Add metadata to AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#7505](https://github.com/AliceO2Group/AliceO2/pull/7505) 2021-11-05: Reducing verbosity of ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
