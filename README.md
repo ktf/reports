@@ -102,6 +102,7 @@
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
+- [\#7604](https://github.com/AliceO2Group/AliceO2/pull/7604) 2021-11-14: DPL: do not fail if dpl-config.json cannot be written by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
