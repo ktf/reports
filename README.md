@@ -83,7 +83,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7504](https://github.com/AliceO2Group/AliceO2/pull/7504) 2021-11-03: DPL: Inject ArrowSupport service in driver services by [@aalkin](https://github.com/aalkin)
 - [\#7507](https://github.com/AliceO2Group/AliceO2/pull/7507) 2021-11-03: Remove TrackCov from FullTracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7513](https://github.com/AliceO2Group/AliceO2/pull/7513) 2021-11-04: DPL: introduce CallbacksPolicy by [@ktf](https://github.com/ktf)
 - [\#7519](https://github.com/AliceO2Group/AliceO2/pull/7519) 2021-11-04: DPL: add policy to print timeframe information on EPN by [@ktf](https://github.com/ktf)
