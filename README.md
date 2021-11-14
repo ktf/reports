@@ -32,7 +32,6 @@
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7505](https://github.com/AliceO2Group/AliceO2/pull/7505) 2021-11-05: Reducing verbosity of ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#7509](https://github.com/AliceO2Group/AliceO2/pull/7509) 2021-11-05: Verbosity options for ITS-TPC matching and entropy encoding/decoding by [@shahor02](https://github.com/shahor02)
 - [\#7514](https://github.com/AliceO2Group/AliceO2/pull/7514) 2021-11-03: limit ITS fast mult.estimate from below by 0 by [@shahor02](https://github.com/shahor02)
 - [\#7517](https://github.com/AliceO2Group/AliceO2/pull/7517) 2021-11-04: Fix in PVertex constraint application by [@shahor02](https://github.com/shahor02)
