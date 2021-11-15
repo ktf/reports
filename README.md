@@ -30,7 +30,6 @@
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7518](https://github.com/AliceO2Group/AliceO2/pull/7518) 2021-11-04: Compress alignment application report to 1 line by [@shahor02](https://github.com/shahor02)
 - [\#7520](https://github.com/AliceO2Group/AliceO2/pull/7520) 2021-11-04: Mat.LUT object must be saved as ccdb_object to be reachable from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7521](https://github.com/AliceO2Group/AliceO2/pull/7521) 2021-11-15: [EMCAL-687] AODProducerWorkflowSpec: implemented CALO cells by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7523](https://github.com/AliceO2Group/AliceO2/pull/7523) 2021-11-04: Fix FDD workflow, disable-root-input and outwere were mixed up by [@davidrohr](https://github.com/davidrohr)
