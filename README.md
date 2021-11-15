@@ -20,6 +20,7 @@
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7512](https://github.com/AliceO2Group/AliceO2/pull/7512) 2021-11-05: MCUtils: functionality to query ALICE properties on MCtracks/particles by [@sawenzel](https://github.com/sawenzel)
+- [\#7521](https://github.com/AliceO2Group/AliceO2/pull/7521) 2021-11-15: [EMCAL-687] AODProducerWorkflowSpec: implemented CALO cells by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7540](https://github.com/AliceO2Group/AliceO2/pull/7540) 2021-11-07: Tag vertices as messageable by [@shahor02](https://github.com/shahor02)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
@@ -34,6 +35,7 @@
 - [\#7517](https://github.com/AliceO2Group/AliceO2/pull/7517) 2021-11-04: Fix in PVertex constraint application by [@shahor02](https://github.com/shahor02)
 - [\#7518](https://github.com/AliceO2Group/AliceO2/pull/7518) 2021-11-04: Compress alignment application report to 1 line by [@shahor02](https://github.com/shahor02)
 - [\#7520](https://github.com/AliceO2Group/AliceO2/pull/7520) 2021-11-04: Mat.LUT object must be saved as ccdb_object to be reachable from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#7521](https://github.com/AliceO2Group/AliceO2/pull/7521) 2021-11-15: [EMCAL-687] AODProducerWorkflowSpec: implemented CALO cells by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7523](https://github.com/AliceO2Group/AliceO2/pull/7523) 2021-11-04: Fix FDD workflow, disable-root-input and outwere were mixed up by [@davidrohr](https://github.com/davidrohr)
 - [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 - [\#7526](https://github.com/AliceO2Group/AliceO2/pull/7526) 2021-11-04: AODProducer fixes: runNumber and ITSAB tracklets by [@shahor02](https://github.com/shahor02)
@@ -70,6 +72,7 @@
 - [\#7593](https://github.com/AliceO2Group/AliceO2/pull/7593) 2021-11-12: Skip dedicated macro config for MCReplay simulation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7597](https://github.com/AliceO2Group/AliceO2/pull/7597) 2021-11-13: Fix in FDD reco. spec by [@shahor02](https://github.com/shahor02)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
+- [\#7599](https://github.com/AliceO2Group/AliceO2/pull/7599) 2021-11-15: Add PhysicalPrimary bit to MC particles by [@nburmaso](https://github.com/nburmaso)
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
