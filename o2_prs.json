@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-04T21:19:19Z",
-            "title": "Mat.LUT object must be saved as ccdb_object to be reachable from CCDB",
-            "number": 7520,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCylSet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/test/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/test/buildMatBudLUT.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/createLUT.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-15T08:45:46Z",
             "title": "[EMCAL-687] AODProducerWorkflowSpec: implemented CALO cells",
             "number": 7521,
@@ -3836,6 +3791,26 @@
                 {
                   "node": {
                     "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-11-15T19:22:13Z",
+            "title": "FST: Do not filter based on ITS ROFs when no ITS present",
+            "number": 7620,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
