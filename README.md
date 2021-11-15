@@ -79,7 +79,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7519](https://github.com/AliceO2Group/AliceO2/pull/7519) 2021-11-04: DPL: add policy to print timeframe information on EPN by [@ktf](https://github.com/ktf)
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7530](https://github.com/AliceO2Group/AliceO2/pull/7530) 2021-11-05: DPL: adjusting DataRelayer interface by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7533](https://github.com/AliceO2Group/AliceO2/pull/7533) 2021-11-06: DPL: using linear message store for the DataRelayer cache by [@matthiasrichter](https://github.com/matthiasrichter)
