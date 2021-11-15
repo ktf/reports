@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-08T15:42:16Z",
-            "title": "o2-eve: storing track time and track gid",
-            "number": 7511,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/Initializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-05T15:01:09Z",
             "title": "MCUtils: functionality to query ALICE properties on MCtracks/particles",
             "number": 7512,
@@ -3706,6 +3651,46 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/reconstruction/src/Decoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix halfchamberside and reduce err,warn messages",
+            "number": 7611,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DigitsParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/TrackletsParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DigitsParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
                   }
                 }
               ]
