@@ -71,6 +71,7 @@
 - [\#7599](https://github.com/AliceO2Group/AliceO2/pull/7599) 2021-11-15: Add PhysicalPrimary bit to MC particles by [@nburmaso](https://github.com/nburmaso)
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
+- [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
@@ -100,6 +101,7 @@
 - [\#7604](https://github.com/AliceO2Group/AliceO2/pull/7604) 2021-11-14: DPL: do not fail if dpl-config.json cannot be written by [@ktf](https://github.com/ktf)
 - [\#7609](https://github.com/AliceO2Group/AliceO2/pull/7609) 2021-11-15: Add metrics for outputs by [@ktf](https://github.com/ktf)
 - [\#7614](https://github.com/AliceO2Group/AliceO2/pull/7614) 2021-11-15: DPL GUI: add table with possible outputs in device inspector. by [@ktf](https://github.com/ktf)
+- [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
