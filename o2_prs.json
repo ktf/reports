@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-03T19:16:36Z",
-            "title": "Rename EPNMODE to EPNSYNCMODE",
-            "number": 7516,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-04T10:20:19Z",
             "title": "Fix in PVertex constraint application",
             "number": 7517,
@@ -3686,6 +3666,36 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/calibration/macros/checkNoisyMCMs.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow customising DataProcessingHeader on NewTimeslice",
+            "number": 7616,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/HBFUtilsInitializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CallbackService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
                   }
                 }
               ]
