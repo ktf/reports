@@ -30,7 +30,6 @@
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7514](https://github.com/AliceO2Group/AliceO2/pull/7514) 2021-11-03: limit ITS fast mult.estimate from below by 0 by [@shahor02](https://github.com/shahor02)
 - [\#7517](https://github.com/AliceO2Group/AliceO2/pull/7517) 2021-11-04: Fix in PVertex constraint application by [@shahor02](https://github.com/shahor02)
 - [\#7518](https://github.com/AliceO2Group/AliceO2/pull/7518) 2021-11-04: Compress alignment application report to 1 line by [@shahor02](https://github.com/shahor02)
 - [\#7520](https://github.com/AliceO2Group/AliceO2/pull/7520) 2021-11-04: Mat.LUT object must be saved as ccdb_object to be reachable from CCDB by [@shahor02](https://github.com/shahor02)
@@ -81,7 +80,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7515](https://github.com/AliceO2Group/AliceO2/pull/7515) 2021-11-15: DPL Analysis: fix incorrect use of offset for filtered iteratorAt() by [@aalkin](https://github.com/aalkin)
 - [\#7519](https://github.com/AliceO2Group/AliceO2/pull/7519) 2021-11-04: DPL: add policy to print timeframe information on EPN by [@ktf](https://github.com/ktf)
 - [\#7525](https://github.com/AliceO2Group/AliceO2/pull/7525) 2021-11-05: adding extern declaration by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7530](https://github.com/AliceO2Group/AliceO2/pull/7530) 2021-11-05: DPL: adjusting DataRelayer interface by [@matthiasrichter](https://github.com/matthiasrichter)
