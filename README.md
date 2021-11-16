@@ -31,7 +31,6 @@
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7524](https://github.com/AliceO2Group/AliceO2/pull/7524) 2021-11-04: Move mem-factor option from MCH decoder to encoder by [@shahor02](https://github.com/shahor02)
 - [\#7526](https://github.com/AliceO2Group/AliceO2/pull/7526) 2021-11-04: AODProducer fixes: runNumber and ITSAB tracklets by [@shahor02](https://github.com/shahor02)
 - [\#7527](https://github.com/AliceO2Group/AliceO2/pull/7527) 2021-11-05: ITS/MFT: pass origin/datadescription asked in CL to RawPixelDecoder by [@shahor02](https://github.com/shahor02)
 - [\#7531](https://github.com/AliceO2Group/AliceO2/pull/7531) 2021-11-04: Add to t_corrected to TPCITS debud output by [@shahor02](https://github.com/shahor02)
