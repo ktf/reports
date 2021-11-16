@@ -31,7 +31,6 @@
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
 - [\#7535](https://github.com/AliceO2Group/AliceO2/pull/7535) 2021-11-05: SVertexer: fix in selection of vertex 1st track to check by [@shahor02](https://github.com/shahor02)
 - [\#7538](https://github.com/AliceO2Group/AliceO2/pull/7538) 2021-11-06: Use extra ITS error on the ioutils::convertCompactClusters level by [@shahor02](https://github.com/shahor02)
 - [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
@@ -80,7 +79,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
 - [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7553](https://github.com/AliceO2Group/AliceO2/pull/7553) 2021-11-08: DPL: improve documentation by [@ktf](https://github.com/ktf)
