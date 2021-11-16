@@ -69,6 +69,7 @@
 - [\#7599](https://github.com/AliceO2Group/AliceO2/pull/7599) 2021-11-15: Add PhysicalPrimary bit to MC particles by [@nburmaso](https://github.com/nburmaso)
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
+- [\#7611](https://github.com/AliceO2Group/AliceO2/pull/7611) 2021-11-16: TRD fix halfchamberside and reduce err,warn messages by [@bazinski](https://github.com/bazinski)
 - [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7622](https://github.com/AliceO2Group/AliceO2/pull/7622) 2021-11-15: MCH tracking MCLabelFinder should not depend on disable-root-output by [@shahor02](https://github.com/shahor02)
