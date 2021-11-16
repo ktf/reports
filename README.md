@@ -31,7 +31,6 @@
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7531](https://github.com/AliceO2Group/AliceO2/pull/7531) 2021-11-04: Add to t_corrected to TPCITS debud output by [@shahor02](https://github.com/shahor02)
 - [\#7534](https://github.com/AliceO2Group/AliceO2/pull/7534) 2021-11-06: DPL: allow CallbacksPolicy to have access to command line options by [@ktf](https://github.com/ktf)
 - [\#7535](https://github.com/AliceO2Group/AliceO2/pull/7535) 2021-11-05: SVertexer: fix in selection of vertex 1st track to check by [@shahor02](https://github.com/shahor02)
 - [\#7538](https://github.com/AliceO2Group/AliceO2/pull/7538) 2021-11-06: Use extra ITS error on the ioutils::convertCompactClusters level by [@shahor02](https://github.com/shahor02)
