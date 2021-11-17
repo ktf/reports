@@ -31,7 +31,6 @@
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7538](https://github.com/AliceO2Group/AliceO2/pull/7538) 2021-11-06: Use extra ITS error on the ioutils::convertCompactClusters level by [@shahor02](https://github.com/shahor02)
 - [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7545](https://github.com/AliceO2Group/AliceO2/pull/7545) 2021-11-08: Fix for denominator of efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
