@@ -67,6 +67,7 @@
 - [\#7632](https://github.com/AliceO2Group/AliceO2/pull/7632) 2021-11-17: CPV: Correct medium assignment by [@sawenzel](https://github.com/sawenzel)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 - [\#7637](https://github.com/AliceO2Group/AliceO2/pull/7637) 2021-11-17: separate workflow for CPV cluster writer by [@shahor02](https://github.com/shahor02)
+- [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
