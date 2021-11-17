@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
@@ -83,7 +82,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7541](https://github.com/AliceO2Group/AliceO2/pull/7541) 2021-11-08: DPL Analysis: fix Build<> to respect index table declaration by [@aalkin](https://github.com/aalkin)
 - [\#7546](https://github.com/AliceO2Group/AliceO2/pull/7546) 2021-11-08: add bit for physical primary by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7553](https://github.com/AliceO2Group/AliceO2/pull/7553) 2021-11-08: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#7554](https://github.com/AliceO2Group/AliceO2/pull/7554) 2021-11-08: DPL: use DeviceMetricsHelper::updateMetricsName by [@ktf](https://github.com/ktf)
