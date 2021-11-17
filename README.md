@@ -28,8 +28,10 @@
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
+- [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
+- [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#7542](https://github.com/AliceO2Group/AliceO2/pull/7542) 2021-11-08: Adjust TOF channel offset calibration + checking perf by [@noferini](https://github.com/noferini)
 - [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
@@ -63,6 +65,7 @@
 - [\#7599](https://github.com/AliceO2Group/AliceO2/pull/7599) 2021-11-15: Add PhysicalPrimary bit to MC particles by [@nburmaso](https://github.com/nburmaso)
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
+- [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7611](https://github.com/AliceO2Group/AliceO2/pull/7611) 2021-11-16: TRD fix halfchamberside and reduce err,warn messages by [@bazinski](https://github.com/bazinski)
 - [\#7612](https://github.com/AliceO2Group/AliceO2/pull/7612) 2021-11-16: TPC: track and cluster filter, Kr file writer sync. reco by [@wiechula](https://github.com/wiechula)
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
@@ -71,6 +74,7 @@
 - [\#7619](https://github.com/AliceO2Group/AliceO2/pull/7619) 2021-11-16: dcs-config-proxy adds filename to error in the acknowledge message to DCS by [@shahor02](https://github.com/shahor02)
 - [\#7622](https://github.com/AliceO2Group/AliceO2/pull/7622) 2021-11-15: MCH tracking MCLabelFinder should not depend on disable-root-output by [@shahor02](https://github.com/shahor02)
 - [\#7632](https://github.com/AliceO2Group/AliceO2/pull/7632) 2021-11-17: CPV: Correct medium assignment by [@sawenzel](https://github.com/sawenzel)
+- [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 - [\#7637](https://github.com/AliceO2Group/AliceO2/pull/7637) 2021-11-17: separate workflow for CPV cluster writer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7557](https://github.com/AliceO2Group/AliceO2/pull/7557) 2021-11-10: o2-eve-display: trd show tracks, tracks limited to detectors with clu… by [@jmyrcha](https://github.com/jmyrcha)
