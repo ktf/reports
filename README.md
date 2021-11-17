@@ -29,7 +29,6 @@
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7545](https://github.com/AliceO2Group/AliceO2/pull/7545) 2021-11-08: Fix for denominator of efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7547](https://github.com/AliceO2Group/AliceO2/pull/7547) 2021-11-08: [EMCAL-534] Add option to switch off pedestal subtraction for non-ZS … by [@mfasDa](https://github.com/mfasDa)
 - [\#7548](https://github.com/AliceO2Group/AliceO2/pull/7548) 2021-11-08: AOD creation: MC run-number as option by [@sawenzel](https://github.com/sawenzel)
 - [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
