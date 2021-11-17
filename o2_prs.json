@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-08T20:40:39Z",
-            "title": "[EMCAL-534] Add option to switch off pedestal subtraction for non-ZS …",
-            "number": 7547,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/CaloRawFitter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-08T12:52:23Z",
             "title": "AOD creation: MC run-number as option",
             "number": 7548,
@@ -3816,6 +3786,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/Tracks.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Method to refit vertex with partial set of its tracks",
+            "number": 7647,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Vertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/Vertex.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
                   }
                 }
               ]
