@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "o2-eve-display: fixed trd tracks, cutting tracks on detector border",
-            "number": 7543,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-11-07T17:59:37Z",
             "title": "TPC VDrift calibration from ITS/TPC tracks tgl comparison",
@@ -3270,6 +3245,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/CTF/test/test_ctf_io_trd.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
                   }
                 }
@@ -3896,6 +3876,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/emc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make raw-reader.sh parse on macOS",
+            "number": 7643,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/raw-reader.sh"
                   }
                 }
               ]
