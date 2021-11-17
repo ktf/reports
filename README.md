@@ -8,7 +8,6 @@
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
@@ -18,7 +17,6 @@
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -31,7 +29,6 @@
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7544](https://github.com/AliceO2Group/AliceO2/pull/7544) 2021-11-07: TPC VDrift calibration from ITS/TPC tracks tgl comparison by [@shahor02](https://github.com/shahor02)
 - [\#7545](https://github.com/AliceO2Group/AliceO2/pull/7545) 2021-11-08: Fix for denominator of efficiencies by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7547](https://github.com/AliceO2Group/AliceO2/pull/7547) 2021-11-08: [EMCAL-534] Add option to switch off pedestal subtraction for non-ZS … by [@mfasDa](https://github.com/mfasDa)
 - [\#7548](https://github.com/AliceO2Group/AliceO2/pull/7548) 2021-11-08: AOD creation: MC run-number as option by [@sawenzel](https://github.com/sawenzel)
