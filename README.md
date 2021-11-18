@@ -68,6 +68,7 @@
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
 - [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
+- [\#7655](https://github.com/AliceO2Group/AliceO2/pull/7655) 2021-11-18: Disable broken unit test on Mac M1 by [@TimoWilken](https://github.com/TimoWilken)
 ## Recent developments in O2 - EventVisualisation
 - [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
@@ -92,6 +93,7 @@
 - [\#7636](https://github.com/AliceO2Group/AliceO2/pull/7636) 2021-11-18: DPL: try to re-add AOD writer regardless if it is already present by [@aalkin](https://github.com/aalkin)
 - [\#7648](https://github.com/AliceO2Group/AliceO2/pull/7648) 2021-11-18: DPL: avoid confusing stacktrace when workflow is empty by [@ktf](https://github.com/ktf)
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
+- [\#7659](https://github.com/AliceO2Group/AliceO2/pull/7659) 2021-11-18: DPL GUI: add lifetime information to GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
