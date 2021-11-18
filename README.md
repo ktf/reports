@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 - daily-20211028-1501: Done on 2021-10-28.
-## Recent developments in O2 - Algorithm
-- [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
@@ -95,5 +93,4 @@
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
-- [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 - [\#7585](https://github.com/AliceO2Group/AliceO2/pull/7585) 2021-11-12: DPL: Move TF throttling code to RateLimiter class + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
