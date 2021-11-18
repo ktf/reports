@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7552](https://github.com/AliceO2Group/AliceO2/pull/7552) 2021-11-09: Mergers: Do not throw if an object is not mergeable. by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
@@ -16,7 +15,6 @@
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7556](https://github.com/AliceO2Group/AliceO2/pull/7556) 2021-11-09: Update MCTrack.h by [@sawenzel](https://github.com/sawenzel)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7562](https://github.com/AliceO2Group/AliceO2/pull/7562) 2021-11-13: [MID] improve MID tracking by [@pillot](https://github.com/pillot)
@@ -28,7 +26,6 @@
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7551](https://github.com/AliceO2Group/AliceO2/pull/7551) 2021-11-08: Fix: CTF reader must set DataHeader::runNumber by [@shahor02](https://github.com/shahor02)
 - [\#7561](https://github.com/AliceO2Group/AliceO2/pull/7561) 2021-11-09: Fix EMCAL triggers DataDescription in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#7562](https://github.com/AliceO2Group/AliceO2/pull/7562) 2021-11-13: [MID] improve MID tracking by [@pillot](https://github.com/pillot)
 - [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
@@ -73,7 +70,6 @@
 - [\#7565](https://github.com/AliceO2Group/AliceO2/pull/7565) 2021-11-10: o2-eve: screenshot, temporary fix TPC noise for eta=0 by [@jmyrcha](https://github.com/jmyrcha)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
-- [\#7550](https://github.com/AliceO2Group/AliceO2/pull/7550) 2021-11-09: MCUtils: restructuring, testing, additional features by [@sawenzel](https://github.com/sawenzel)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
 - [\#7553](https://github.com/AliceO2Group/AliceO2/pull/7553) 2021-11-08: DPL: improve documentation by [@ktf](https://github.com/ktf)
