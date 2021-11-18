@@ -70,7 +70,6 @@
 ## Recent developments in O2 - Examples
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7555](https://github.com/AliceO2Group/AliceO2/pull/7555) 2021-11-08: DPL: allow DriverServerContext to know about the GUI by [@ktf](https://github.com/ktf)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
 - [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7572](https://github.com/AliceO2Group/AliceO2/pull/7572) 2021-11-11: DPL: revert completion policy for dummy sink by [@ktf](https://github.com/ktf)
