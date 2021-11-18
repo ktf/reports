@@ -70,7 +70,6 @@
 ## Recent developments in O2 - Examples
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7553](https://github.com/AliceO2Group/AliceO2/pull/7553) 2021-11-08: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#7554](https://github.com/AliceO2Group/AliceO2/pull/7554) 2021-11-08: DPL: use DeviceMetricsHelper::updateMetricsName by [@ktf](https://github.com/ktf)
 - [\#7555](https://github.com/AliceO2Group/AliceO2/pull/7555) 2021-11-08: DPL: allow DriverServerContext to know about the GUI by [@ktf](https://github.com/ktf)
 - [\#7563](https://github.com/AliceO2Group/AliceO2/pull/7563) 2021-11-10: DPL: drop unneded abstraction by [@ktf](https://github.com/ktf)
