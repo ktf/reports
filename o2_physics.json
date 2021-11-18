@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-10-20T09:47:28Z",
-            "title": "TableMaker multi-process functions to allow producing barrel-only, muon-only or combined skims, and allow running w/ or w/o the centrality, filterPP or v0-selector tasks",
-            "number": 202,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/EventSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-10-19T21:39:17Z",
             "title": "Not cloning CCDB objects. They will be automatically disposed",
             "number": 203,
@@ -2364,8 +2309,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-18T14:32:21Z",
             "title": "Centrality estimation using SPD tracklets",
             "number": 282,
             "author": {
@@ -2941,6 +2886,71 @@
                 {
                   "node": {
                     "path": "PWGCF/TableProducer/dptdptfilter.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixing some warnings",
+            "number": 302,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/TriggerAliases.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/TriggerAliases.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/EventSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/eventMixing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/trackIteration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/tracksCombinations.cxx"
                   }
                 }
               ]
