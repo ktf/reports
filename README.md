@@ -66,6 +66,7 @@
 - [\#7638](https://github.com/AliceO2Group/AliceO2/pull/7638) 2021-11-18: Update electronics delays by [@dstocco](https://github.com/dstocco)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
 - [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
+- [\#7649](https://github.com/AliceO2Group/AliceO2/pull/7649) 2021-11-19: Make AOD tfNumber cross/inter-run unique by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7655](https://github.com/AliceO2Group/AliceO2/pull/7655) 2021-11-18: Disable broken unit test on Mac M1 by [@TimoWilken](https://github.com/TimoWilken)
 ## Recent developments in O2 - EventVisualisation
