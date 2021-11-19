@@ -67,6 +67,7 @@
 - [\#7637](https://github.com/AliceO2Group/AliceO2/pull/7637) 2021-11-17: separate workflow for CPV cluster writer by [@shahor02](https://github.com/shahor02)
 - [\#7638](https://github.com/AliceO2Group/AliceO2/pull/7638) 2021-11-18: Update electronics delays by [@dstocco](https://github.com/dstocco)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
+- [\#7644](https://github.com/AliceO2Group/AliceO2/pull/7644) 2021-11-19: [EMCAL-732] implementation of EMCAL standalone AOD producer workflow by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7649](https://github.com/AliceO2Group/AliceO2/pull/7649) 2021-11-19: Make AOD tfNumber cross/inter-run unique by [@shahor02](https://github.com/shahor02)
