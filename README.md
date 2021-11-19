@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
@@ -93,6 +94,7 @@
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7659](https://github.com/AliceO2Group/AliceO2/pull/7659) 2021-11-18: DPL GUI: add lifetime information to GUI by [@ktf](https://github.com/ktf)
+- [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
