@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-27T12:22:19Z",
-            "title": "Update TOF and TPC tasks",
-            "number": 207,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/pidFTOFqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/qaHMPID.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/qaTOFMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/qaTPCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGPP/Tasks/qaEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraTPCAnalyser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraTPCReference.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Revert \"remove MC flag\"",
@@ -3056,6 +2986,26 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoDream/femtoDreamProducerTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "small fix to extract the MC truth information before filling histograms",
+            "number": 307,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
                   }
                 }
               ]
