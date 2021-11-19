@@ -1,6 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-- daily-20211028-1501: Done on 2021-10-28.
 ## Recent developments in O2 - Analysis
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
