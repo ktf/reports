@@ -25,7 +25,6 @@
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7566](https://github.com/AliceO2Group/AliceO2/pull/7566) 2021-11-10: ctf-reader sends dummy output if requested detector is not in CTF by [@shahor02](https://github.com/shahor02)
 - [\#7568](https://github.com/AliceO2Group/AliceO2/pull/7568) 2021-11-11: Fix TF 1st orbit usag + flag to disable s-vertices processing by [@shahor02](https://github.com/shahor02)
 - [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
