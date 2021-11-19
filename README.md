@@ -86,6 +86,7 @@
 - [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7604](https://github.com/AliceO2Group/AliceO2/pull/7604) 2021-11-14: DPL: do not fail if dpl-config.json cannot be written by [@ktf](https://github.com/ktf)
+- [\#7605](https://github.com/AliceO2Group/AliceO2/pull/7605) 2021-11-19: DPL: if all the inputs are sporadic, then also the outputs will be by [@ktf](https://github.com/ktf)
 - [\#7609](https://github.com/AliceO2Group/AliceO2/pull/7609) 2021-11-15: Add metrics for outputs by [@ktf](https://github.com/ktf)
 - [\#7614](https://github.com/AliceO2Group/AliceO2/pull/7614) 2021-11-15: DPL GUI: add table with possible outputs in device inspector. by [@ktf](https://github.com/ktf)
 - [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
