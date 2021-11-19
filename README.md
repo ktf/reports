@@ -26,7 +26,6 @@
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7570](https://github.com/AliceO2Group/AliceO2/pull/7570) 2021-11-10: Fix needed for TOF calibration to avoid truncation double->float by [@noferini](https://github.com/noferini)
 - [\#7571](https://github.com/AliceO2Group/AliceO2/pull/7571) 2021-11-10: Flag calibrators sporadic output as Lifetime::Sporadic by [@shahor02](https://github.com/shahor02)
 - [\#7573](https://github.com/AliceO2Group/AliceO2/pull/7573) 2021-11-11: TRD Kr cluster finder fix index by [@martenole](https://github.com/martenole)
@@ -74,7 +73,6 @@
 ## Recent developments in O2 - Examples
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7569](https://github.com/AliceO2Group/AliceO2/pull/7569) 2021-11-11: Fix sporadic output by [@ktf](https://github.com/ktf)
 - [\#7572](https://github.com/AliceO2Group/AliceO2/pull/7572) 2021-11-11: DPL: revert completion policy for dummy sink by [@ktf](https://github.com/ktf)
 - [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7578](https://github.com/AliceO2Group/AliceO2/pull/7578) 2021-11-11: DPL: inputs need to be consumed also on discard by [@ktf](https://github.com/ktf)
