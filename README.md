@@ -25,7 +25,6 @@
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7576](https://github.com/AliceO2Group/AliceO2/pull/7576) 2021-11-11: ITS/MFT decoding: new error type Wrong Cable ID and protection against it by [@shahor02](https://github.com/shahor02)
 - [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
 - [\#7580](https://github.com/AliceO2Group/AliceO2/pull/7580) 2021-11-15: Fix completion policy by [@ktf](https://github.com/ktf)
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -65,6 +64,7 @@
 - [\#7662](https://github.com/AliceO2Group/AliceO2/pull/7662) 2021-11-20: fix for ccdb in TOF workflow by [@noferini](https://github.com/noferini)
 - [\#7667](https://github.com/AliceO2Group/AliceO2/pull/7667) 2021-11-20: For for faking CTF data of missing detector by [@shahor02](https://github.com/shahor02)
 - [\#7671](https://github.com/AliceO2Group/AliceO2/pull/7671) 2021-11-19: Reset ITS/MFT RU calib struct before each ROF by [@shahor02](https://github.com/shahor02)
+- [\#7676](https://github.com/AliceO2Group/AliceO2/pull/7676) 2021-11-20: change --ccdb-url to --ccdb-url-tof, no LOG(info) from workflow definition by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
