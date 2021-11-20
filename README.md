@@ -13,6 +13,7 @@
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7630](https://github.com/AliceO2Group/AliceO2/pull/7630) 2021-11-19: [EMCAL-566] Fix Gauss fit in boost histogram utils by [@jokonig](https://github.com/jokonig)
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
+- [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
@@ -88,6 +89,7 @@
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7659](https://github.com/AliceO2Group/AliceO2/pull/7659) 2021-11-18: DPL GUI: add lifetime information to GUI by [@ktf](https://github.com/ktf)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
