@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-11T10:32:57Z",
-            "title": "raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it",
-            "number": 7574,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataDescriptorMatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataRelayer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TimingInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariableContextHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-12T14:19:36Z",
             "title": "Few bug fixes for CI and cosmics",
             "number": 7575,
@@ -3756,6 +3691,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Subevent merger implemented",
+            "number": 7674,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/Cell.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/EventBuilderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/EventBuilderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/event-builder-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
                   }
                 }
               ]

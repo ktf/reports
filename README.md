@@ -25,7 +25,6 @@
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7575](https://github.com/AliceO2Group/AliceO2/pull/7575) 2021-11-12: Few bug fixes for CI and cosmics by [@mpuccio](https://github.com/mpuccio)
 - [\#7576](https://github.com/AliceO2Group/AliceO2/pull/7576) 2021-11-11: ITS/MFT decoding: new error type Wrong Cable ID and protection against it by [@shahor02](https://github.com/shahor02)
 - [\#7577](https://github.com/AliceO2Group/AliceO2/pull/7577) 2021-11-11: PHOS cell writer workflow by [@shahor02](https://github.com/shahor02)
@@ -72,7 +71,6 @@
 ## Recent developments in O2 - Examples
 - [\#7581](https://github.com/AliceO2Group/AliceO2/pull/7581) 2021-11-11: Making MCReplayEngine available by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
-- [\#7574](https://github.com/AliceO2Group/AliceO2/pull/7574) 2021-11-11: raw-tf-reader injects TF wrtiel time to DPH.creation time and DPL propagates it by [@shahor02](https://github.com/shahor02)
 - [\#7578](https://github.com/AliceO2Group/AliceO2/pull/7578) 2021-11-11: DPL: inputs need to be consumed also on discard by [@ktf](https://github.com/ktf)
 - [\#7580](https://github.com/AliceO2Group/AliceO2/pull/7580) 2021-11-15: Fix completion policy by [@ktf](https://github.com/ktf)
 - [\#7583](https://github.com/AliceO2Group/AliceO2/pull/7583) 2021-11-12: Phi expression column, use MathConstants.h by [@jgrosseo](https://github.com/jgrosseo)
