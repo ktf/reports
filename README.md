@@ -65,6 +65,7 @@
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7655](https://github.com/AliceO2Group/AliceO2/pull/7655) 2021-11-18: Disable broken unit test on Mac M1 by [@TimoWilken](https://github.com/TimoWilken)
 - [\#7662](https://github.com/AliceO2Group/AliceO2/pull/7662) 2021-11-20: fix for ccdb in TOF workflow by [@noferini](https://github.com/noferini)
+- [\#7667](https://github.com/AliceO2Group/AliceO2/pull/7667) 2021-11-20: For for faking CTF data of missing detector by [@shahor02](https://github.com/shahor02)
 - [\#7671](https://github.com/AliceO2Group/AliceO2/pull/7671) 2021-11-19: Reset ITS/MFT RU calib struct before each ROF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
