@@ -65,6 +65,7 @@
 - [\#7662](https://github.com/AliceO2Group/AliceO2/pull/7662) 2021-11-20: fix for ccdb in TOF workflow by [@noferini](https://github.com/noferini)
 - [\#7667](https://github.com/AliceO2Group/AliceO2/pull/7667) 2021-11-20: For for faking CTF data of missing detector by [@shahor02](https://github.com/shahor02)
 - [\#7671](https://github.com/AliceO2Group/AliceO2/pull/7671) 2021-11-19: Reset ITS/MFT RU calib struct before each ROF by [@shahor02](https://github.com/shahor02)
+- [\#7672](https://github.com/AliceO2Group/AliceO2/pull/7672) 2021-11-20: TPC: Add simple raw data filter for krypton clusters by [@wiechula](https://github.com/wiechula)
 - [\#7676](https://github.com/AliceO2Group/AliceO2/pull/7676) 2021-11-20: change --ccdb-url to --ccdb-url-tof, no LOG(info) from workflow definition by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
