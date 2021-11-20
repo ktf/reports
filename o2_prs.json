@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-12T14:19:36Z",
-            "title": "Few bug fixes for CI and cosmics",
-            "number": 7575,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/macros/test/CheckTracksCA.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraitsCPU.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/run_trac_ca_its.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-11T17:28:50Z",
             "title": "ITS/MFT decoding: new error type Wrong Cable ID and protection against it",
             "number": 7576,
@@ -3746,6 +3676,31 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Replace commandline argument parsing in o2Eve with boost::program_options",
+            "number": 7675,
+            "author": {
+              "login": "pnwkw"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/Options.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Options.cxx"
                   }
                 }
               ]
