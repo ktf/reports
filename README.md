@@ -63,6 +63,7 @@
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7655](https://github.com/AliceO2Group/AliceO2/pull/7655) 2021-11-18: Disable broken unit test on Mac M1 by [@TimoWilken](https://github.com/TimoWilken)
 - [\#7662](https://github.com/AliceO2Group/AliceO2/pull/7662) 2021-11-20: fix for ccdb in TOF workflow by [@noferini](https://github.com/noferini)
+- [\#7663](https://github.com/AliceO2Group/AliceO2/pull/7663) 2021-11-21: AOD-tracks: propagate PVContributor flag by [@sawenzel](https://github.com/sawenzel)
 - [\#7667](https://github.com/AliceO2Group/AliceO2/pull/7667) 2021-11-20: For for faking CTF data of missing detector by [@shahor02](https://github.com/shahor02)
 - [\#7671](https://github.com/AliceO2Group/AliceO2/pull/7671) 2021-11-19: Reset ITS/MFT RU calib struct before each ROF by [@shahor02](https://github.com/shahor02)
 - [\#7672](https://github.com/AliceO2Group/AliceO2/pull/7672) 2021-11-20: TPC: Add simple raw data filter for krypton clusters by [@wiechula](https://github.com/wiechula)
@@ -90,6 +91,7 @@
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7659](https://github.com/AliceO2Group/AliceO2/pull/7659) 2021-11-18: DPL GUI: add lifetime information to GUI by [@ktf](https://github.com/ktf)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
