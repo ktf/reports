@@ -90,6 +90,7 @@
 - [\#7666](https://github.com/AliceO2Group/AliceO2/pull/7666) 2021-11-22: AliECS dump: support development setups by [@knopers8](https://github.com/knopers8)
 - [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
+- [\#7673](https://github.com/AliceO2Group/AliceO2/pull/7673) 2021-11-22: DPL GUI: more baby steps to remote GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
