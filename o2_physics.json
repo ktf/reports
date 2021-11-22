@@ -4,121 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Add χc from photon conversion",
-            "number": 217,
-            "author": {
-              "login": "amaringarcia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/PHOTON.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/DataModel/PRES.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/PHOTONqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Core/HFSelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/HFCandidateSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/HFSecondaryVertex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFCandidateCreatorChicPCM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFChicToJpsiGammaPCMCandidateSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskChicPCM.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-10-25T11:38:36Z",
-            "title": "Splitting the dptdptcorrelations-simchl task into dptdptcorrelations and match-reco-gen tasks",
-            "number": 218,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Core/AnalysisConfigurableCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Core/PWGCFCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/match-reco-gen.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-10-26T10:25:55Z",
             "title": "Introduction of FT0Corrected",
@@ -3001,6 +2886,81 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update LF codeowners",
+            "number": 317,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TOFResoALICE3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Extend Efficiency task",
+            "number": 318,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/TOFResoALICE3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaEfficiency.cxx"
                   }
                 }
               ]

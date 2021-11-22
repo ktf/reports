@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-11T20:12:38Z",
-            "title": "Generalize download tool for CCDB files",
-            "number": 7582,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/DownloadCCDBFile.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-12T07:24:44Z",
             "title": "Phi expression column, use MathConstants.h",
             "number": 7583,
@@ -3971,6 +3941,86 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_DataProcessorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Store GRPxxx objects under ccdb_object name",
+            "number": 7682,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/NameConf.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/NameConf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/include/DataFormatsParameters/GRPECSObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/include/DataFormatsParameters/GRPLHCIFData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/include/DataFormatsParameters/GRPObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPECSObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPLHCIFData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/GRPUpdaterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/initSimGeomAndField.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/o2sim.C"
                   }
                 }
               ]
