@@ -24,7 +24,6 @@
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7586](https://github.com/AliceO2Group/AliceO2/pull/7586) 2021-11-13: Performance improvement when applying TOF calibrations by [@noferini](https://github.com/noferini)
 - [\#7587](https://github.com/AliceO2Group/AliceO2/pull/7587) 2021-11-11: Extra tolerances for P/S-vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7589](https://github.com/AliceO2Group/AliceO2/pull/7589) 2021-11-12: Mark QA data as LifeTime::QA by [@davidrohr](https://github.com/davidrohr)
 - [\#7591](https://github.com/AliceO2Group/AliceO2/pull/7591) 2021-11-12: changed default CCDB path to alice-ccdb.cern.ch by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
