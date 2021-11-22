@@ -67,6 +67,7 @@
 - [\#7672](https://github.com/AliceO2Group/AliceO2/pull/7672) 2021-11-20: TPC: Add simple raw data filter for krypton clusters by [@wiechula](https://github.com/wiechula)
 - [\#7676](https://github.com/AliceO2Group/AliceO2/pull/7676) 2021-11-20: change --ccdb-url to --ccdb-url-tof, no LOG(info) from workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7677](https://github.com/AliceO2Group/AliceO2/pull/7677) 2021-11-22: Signal as error if GBTTrailer->packetDone is missing, still account data by [@shahor02](https://github.com/shahor02)
+- [\#7678](https://github.com/AliceO2Group/AliceO2/pull/7678) 2021-11-22: Restore --hbfutils-config as global and add --tf-info-file local option to readers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
