@@ -13,7 +13,6 @@
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
@@ -24,7 +23,6 @@
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7584](https://github.com/AliceO2Group/AliceO2/pull/7584) 2021-11-11: [EMCAL-645] Fix reading event IR from cell trigger records by [@mfasDa](https://github.com/mfasDa)
 - [\#7586](https://github.com/AliceO2Group/AliceO2/pull/7586) 2021-11-13: Performance improvement when applying TOF calibrations by [@noferini](https://github.com/noferini)
 - [\#7587](https://github.com/AliceO2Group/AliceO2/pull/7587) 2021-11-11: Extra tolerances for P/S-vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7589](https://github.com/AliceO2Group/AliceO2/pull/7589) 2021-11-12: Mark QA data as LifeTime::QA by [@davidrohr](https://github.com/davidrohr)
@@ -88,6 +86,7 @@
 - [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 - [\#7673](https://github.com/AliceO2Group/AliceO2/pull/7673) 2021-11-22: DPL GUI: more baby steps to remote GUI by [@ktf](https://github.com/ktf)
+- [\#7684](https://github.com/AliceO2Group/AliceO2/pull/7684) 2021-11-22: Improve documentation. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
