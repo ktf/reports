@@ -20,7 +20,6 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7619](https://github.com/AliceO2Group/AliceO2/pull/7619) 2021-11-16: dcs-config-proxy adds filename to error in the acknowledge message to DCS by [@shahor02](https://github.com/shahor02)
 - [\#7622](https://github.com/AliceO2Group/AliceO2/pull/7622) 2021-11-15: MCH tracking MCLabelFinder should not depend on disable-root-output by [@shahor02](https://github.com/shahor02)
@@ -51,7 +50,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7624](https://github.com/AliceO2Group/AliceO2/pull/7624) 2021-11-16: DPL: avoid including Stack.h everywhere by [@ktf](https://github.com/ktf)
 - [\#7636](https://github.com/AliceO2Group/AliceO2/pull/7636) 2021-11-18: DPL: try to re-add AOD writer regardless if it is already present by [@aalkin](https://github.com/aalkin)
 - [\#7648](https://github.com/AliceO2Group/AliceO2/pull/7648) 2021-11-18: DPL: avoid confusing stacktrace when workflow is empty by [@ktf](https://github.com/ktf)
