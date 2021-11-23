@@ -22,6 +22,7 @@
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
+- [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7591](https://github.com/AliceO2Group/AliceO2/pull/7591) 2021-11-12: changed default CCDB path to alice-ccdb.cern.ch by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -61,6 +62,7 @@
 - [\#7676](https://github.com/AliceO2Group/AliceO2/pull/7676) 2021-11-20: change --ccdb-url to --ccdb-url-tof, no LOG(info) from workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7677](https://github.com/AliceO2Group/AliceO2/pull/7677) 2021-11-22: Signal as error if GBTTrailer->packetDone is missing, still account data by [@shahor02](https://github.com/shahor02)
 - [\#7678](https://github.com/AliceO2Group/AliceO2/pull/7678) 2021-11-22: Restore --hbfutils-config as global and add --tf-info-file local option to readers by [@shahor02](https://github.com/shahor02)
+- [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
@@ -87,4 +89,5 @@
 - [\#7684](https://github.com/AliceO2Group/AliceO2/pull/7684) 2021-11-22: Improve documentation. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
+- [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
