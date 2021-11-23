@@ -23,7 +23,6 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7619](https://github.com/AliceO2Group/AliceO2/pull/7619) 2021-11-16: dcs-config-proxy adds filename to error in the acknowledge message to DCS by [@shahor02](https://github.com/shahor02)
 - [\#7622](https://github.com/AliceO2Group/AliceO2/pull/7622) 2021-11-15: MCH tracking MCLabelFinder should not depend on disable-root-output by [@shahor02](https://github.com/shahor02)
 - [\#7632](https://github.com/AliceO2Group/AliceO2/pull/7632) 2021-11-17: CPV: Correct medium assignment by [@sawenzel](https://github.com/sawenzel)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
