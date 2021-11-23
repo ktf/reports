@@ -65,6 +65,7 @@
 - [\#7652](https://github.com/AliceO2Group/AliceO2/pull/7652) 2021-11-22: Extend TOF Event Time maker for analysis by [@njacazio](https://github.com/njacazio)
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7659](https://github.com/AliceO2Group/AliceO2/pull/7659) 2021-11-18: DPL GUI: add lifetime information to GUI by [@ktf](https://github.com/ktf)
+- [\#7661](https://github.com/AliceO2Group/AliceO2/pull/7661) 2021-11-23: DPL Analysis: provide filtered sliceBy() method by [@aalkin](https://github.com/aalkin)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7666](https://github.com/AliceO2Group/AliceO2/pull/7666) 2021-11-22: AliECS dump: support development setups by [@knopers8](https://github.com/knopers8)
 - [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
