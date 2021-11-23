@@ -5,451 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-14T14:57:47Z",
-            "title": "Changes to inject TF creation time + set default remote access to alien",
-            "number": 7603,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/src/CTFHeader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/tf-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/include/DetectorsRaw/RawFileReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/rawfile-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-14T14:30:24Z",
-            "title": "DPL: do not fail if dpl-config.json cannot be written",
-            "number": 7604,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-19T07:20:25Z",
-            "title": "DPL: if all the inputs are sporadic, then also the outputs will be",
-            "number": 7605,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "FST: Add DPL_WORKFLOW_FROM_OUTSIDE option",
-            "number": 7606,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/run-workflow-on-inputlist.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-14T16:10:37Z",
-            "title": "fix typo in dpl-workflow.sh",
-            "number": 7607,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-14T16:34:58Z",
-            "title": "Revert \"fix typo in dpl-workflow.sh\"",
-            "number": 7608,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-15T07:58:04Z",
-            "title": "Add metrics for outputs",
-            "number": 7609,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataSender.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataSpecUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSender.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSpecUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-17T10:42:11Z",
-            "title": "add fill scheme info in TOF event time checker",
-            "number": 7610,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibTimeSlewingParamTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoTOFReco.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/TOFEventTimeChecker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/tof-eventtime-checker-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Utils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/CalibTOFapi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/EventTimeMaker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Decoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/TOFClusterizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-16T09:21:08Z",
-            "title": "TRD fix halfchamberside and reduce err,warn messages",
-            "number": 7611,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DigitsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/TrackletsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DigitsParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-16T18:47:09Z",
-            "title": "TPC: track and cluster filter, Kr file writer sync. reco",
-            "number": 7612,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/TrackDump.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TrackDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/FileWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TrackAndClusterFilterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/FileWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TrackAndClusterFilterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-krypton-clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/track-and-cluster-filter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "o2-ccdb-downloadfile: Support for ALIEN resources",
-            "number": 7613,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-15T16:04:57Z",
-            "title": "DPL GUI: add table with possible outputs in device inspector.",
-            "number": 7614,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDeviceInspector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-16T12:43:50Z",
             "title": "TRD possibility to flag noisy MCMs",
             "number": 7615,
@@ -7081,6 +6636,1236 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/IT3/workflow/src/DigitWriterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (ED)",
+            "number": 7703,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/ConfigurationManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/FileWatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/GeometryManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Initializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/MultiView.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Options.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/main.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (DataFormats)",
+            "number": 7704,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CPV/src/BadChannelMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CPV/src/CalibParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CPV/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CPV/src/Pedestals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetMatrixCache.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/AlignParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/DetMatrixCache.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/FileMetaData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/AnalysisCluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/ChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/src/RawEventData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/ChannelData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/GlobalOffsetsCalibrationObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/GlobalOffsetsContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/RawEventData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/BCData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/ChannelData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/RawEventData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/src/RawEventData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/MFT/src/TrackMFT.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/ClusterPattern.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/ClusterTopology.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/NoiseMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/src/TopologyDictionary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/BadChannelsMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/CalibParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/Pedestals.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/src/TriggerMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/src/Diagnostic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/WorkflowHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/src/ClusterNativeHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/src/LaserTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/AngularResidHistos.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPECSObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPLHCIFData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPMagField.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/GlobalTrackID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/VtxTrackRef.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/src/BunchFilling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/test/testAbstractRefAccessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/common/test/testRangeRef.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCEventHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testMCEventLabel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (Common)",
+            "number": 7705,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagFieldContFact.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagFieldFact.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagFieldFast.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagneticField.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/src/MagneticWrapperChebyshev.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Field/test/testMagneticField.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/fit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/src/Chebyshev3D.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurationMacroHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/MemFileHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/FileFetcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/RootChain.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ShmManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ValueMonitor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testTreeStream.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (GPU)",
+            "number": 7706,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/FlatObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (Utilities)",
+            "number": 7707,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionNConsecutive.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingConditionPayloadSize.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingBenchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingParallel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingPodAndRoot.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/test/dataSamplingTimePipeline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/FullHistoryMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/MergerAlgorithm.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/mergersTopologyExample.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/emptyLoopBenchmark.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/mergersBenchmarkTopology.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/multinodeBenchmarkMergers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (Steer)",
+            "number": 7708,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/CPVDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/CTPDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FDDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FT0DigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/FV0DigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/GRPUpdaterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/HMPIDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITS3DigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthSourceSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MIDDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/PHOSDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitRootWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ZDCDigitizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/include/Steer/O2MCApplication.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/include/Steer/O2RunSim.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/CollisionContextTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/HitProcessingManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/InteractionSampler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/MCKinematicsReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (Generators)",
+            "number": 7709,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmics.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/GenCosmicsLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDLoader.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/share/external/trigger_mpi.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/DecayerPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/Generator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFactory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorFromFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia6.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorTGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PDG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/PrimaryGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/TriggerParticle.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (macro)",
+            "number": 7710,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "macro/CreateBCPattern.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/UploadDummyAlignment.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/UploadMatBudLUT.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/checkTOFMatching.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/o2sim.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/readITSDigits.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_clus_itsSA.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_clus_tof.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_cmp2digit_tof.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_digi2raw_its.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_digi2raw_mft.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_trac_ca_its.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_trac_its.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (doc)",
+            "number": 7711,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "doc/DetectorSimulation.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (CCDB)",
+            "number": 7712,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/IdPath.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/UploadTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testBasicCCDBManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi_alien.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Swtich to lowercase log levels for new FairLogger (run)",
+            "number": 7713,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2HitMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDeviceRunner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Trigger_ImpactB_Pythia8/trigger_impactb_pythia8.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimPublishChannelHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/checkStack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WP3: apply clang-tidy --checks=modernize-return-braced-init-list --fix",
+            "number": 7714,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/src/ClusterNativeHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/GeometryManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointCompositeObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/simulation/src/DigitsWriteoutBuffer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/ROFFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/DsDetId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/FeeLinkId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/src/Mapping.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalibLaserTracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/src/TPCTrackingDigitsPreCheck.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AnalysisSupport/src/AODJAlienReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ResourcesMonitoringHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDataRelayerUsage.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSampling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run-clang-tidy"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run_clang_tidy.log"
                   }
                 }
               ]

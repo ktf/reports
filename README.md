@@ -4,15 +4,12 @@
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7630](https://github.com/AliceO2Group/AliceO2/pull/7630) 2021-11-19: [EMCAL-566] Fix Gauss fit in boost histogram utils by [@jokonig](https://github.com/jokonig)
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
-- [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
@@ -22,10 +19,6 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
-- [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
-- [\#7611](https://github.com/AliceO2Group/AliceO2/pull/7611) 2021-11-16: TRD fix halfchamberside and reduce err,warn messages by [@bazinski](https://github.com/bazinski)
-- [\#7612](https://github.com/AliceO2Group/AliceO2/pull/7612) 2021-11-16: TPC: track and cluster filter, Kr file writer sync. reco by [@wiechula](https://github.com/wiechula)
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
@@ -58,10 +51,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7604](https://github.com/AliceO2Group/AliceO2/pull/7604) 2021-11-14: DPL: do not fail if dpl-config.json cannot be written by [@ktf](https://github.com/ktf)
-- [\#7605](https://github.com/AliceO2Group/AliceO2/pull/7605) 2021-11-19: DPL: if all the inputs are sporadic, then also the outputs will be by [@ktf](https://github.com/ktf)
-- [\#7609](https://github.com/AliceO2Group/AliceO2/pull/7609) 2021-11-15: Add metrics for outputs by [@ktf](https://github.com/ktf)
-- [\#7614](https://github.com/AliceO2Group/AliceO2/pull/7614) 2021-11-15: DPL GUI: add table with possible outputs in device inspector. by [@ktf](https://github.com/ktf)
 - [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7624](https://github.com/AliceO2Group/AliceO2/pull/7624) 2021-11-16: DPL: avoid including Stack.h everywhere by [@ktf](https://github.com/ktf)
 - [\#7636](https://github.com/AliceO2Group/AliceO2/pull/7636) 2021-11-18: DPL: try to re-add AOD writer regardless if it is already present by [@aalkin](https://github.com/aalkin)
