@@ -4,8 +4,6 @@
 - [\#7654](https://github.com/AliceO2Group/AliceO2/pull/7654) 2021-11-19: add flag for PV contributor by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
-- [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7630](https://github.com/AliceO2Group/AliceO2/pull/7630) 2021-11-19: [EMCAL-566] Fix Gauss fit in boost histogram utils by [@jokonig](https://github.com/jokonig)
@@ -13,7 +11,6 @@
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
@@ -25,12 +22,6 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7591](https://github.com/AliceO2Group/AliceO2/pull/7591) 2021-11-12: changed default CCDB path to alice-ccdb.cern.ch by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
-- [\#7593](https://github.com/AliceO2Group/AliceO2/pull/7593) 2021-11-12: Skip dedicated macro config for MCReplay simulation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
-- [\#7597](https://github.com/AliceO2Group/AliceO2/pull/7597) 2021-11-13: Fix in FDD reco. spec by [@shahor02](https://github.com/shahor02)
-- [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
-- [\#7599](https://github.com/AliceO2Group/AliceO2/pull/7599) 2021-11-15: Add PhysicalPrimary bit to MC particles by [@nburmaso](https://github.com/nburmaso)
-- [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7603](https://github.com/AliceO2Group/AliceO2/pull/7603) 2021-11-14: Changes to inject TF creation time + set default remote access to alien by [@shahor02](https://github.com/shahor02)
 - [\#7610](https://github.com/AliceO2Group/AliceO2/pull/7610) 2021-11-17: add fill scheme info in TOF event time checker by [@noferini](https://github.com/noferini)
 - [\#7611](https://github.com/AliceO2Group/AliceO2/pull/7611) 2021-11-16: TRD fix halfchamberside and reduce err,warn messages by [@bazinski](https://github.com/bazinski)
@@ -67,8 +58,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#7592](https://github.com/AliceO2Group/AliceO2/pull/7592) 2021-11-13: DPL: introduce sending policy by [@ktf](https://github.com/ktf)
-- [\#7598](https://github.com/AliceO2Group/AliceO2/pull/7598) 2021-11-13: CTF stores TF timeslice creation time, CTFReader inject it to DPH.creation  by [@shahor02](https://github.com/shahor02)
 - [\#7604](https://github.com/AliceO2Group/AliceO2/pull/7604) 2021-11-14: DPL: do not fail if dpl-config.json cannot be written by [@ktf](https://github.com/ktf)
 - [\#7605](https://github.com/AliceO2Group/AliceO2/pull/7605) 2021-11-19: DPL: if all the inputs are sporadic, then also the outputs will be by [@ktf](https://github.com/ktf)
 - [\#7609](https://github.com/AliceO2Group/AliceO2/pull/7609) 2021-11-15: Add metrics for outputs by [@ktf](https://github.com/ktf)
@@ -88,6 +77,5 @@
 - [\#7673](https://github.com/AliceO2Group/AliceO2/pull/7673) 2021-11-22: DPL GUI: more baby steps to remote GUI by [@ktf](https://github.com/ktf)
 - [\#7684](https://github.com/AliceO2Group/AliceO2/pull/7684) 2021-11-22: Improve documentation. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#7600](https://github.com/AliceO2Group/AliceO2/pull/7600) 2021-11-13: Addded light collection smearing by [@peressounko](https://github.com/peressounko)
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
