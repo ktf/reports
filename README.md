@@ -12,7 +12,6 @@
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7633](https://github.com/AliceO2Group/AliceO2/pull/7633) 2021-11-17: TRD additional configurable params by [@martenole](https://github.com/martenole)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
@@ -21,7 +20,6 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7615](https://github.com/AliceO2Group/AliceO2/pull/7615) 2021-11-16: TRD possibility to flag noisy MCMs by [@martenole](https://github.com/martenole)
 - [\#7616](https://github.com/AliceO2Group/AliceO2/pull/7616) 2021-11-15: DPL: allow customising DataProcessingHeader on NewTimeslice by [@ktf](https://github.com/ktf)
 - [\#7618](https://github.com/AliceO2Group/AliceO2/pull/7618) 2021-11-15: use TopologyDictionary::readFromFile instead of readFromBinary, ok for .root and .bin files by [@shahor02](https://github.com/shahor02)
 - [\#7619](https://github.com/AliceO2Group/AliceO2/pull/7619) 2021-11-16: dcs-config-proxy adds filename to error in the acknowledge message to DCS by [@shahor02](https://github.com/shahor02)
