@@ -76,6 +76,7 @@
 - [\#7684](https://github.com/AliceO2Group/AliceO2/pull/7684) 2021-11-22: Improve documentation. by [@ktf](https://github.com/ktf)
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7715](https://github.com/AliceO2Group/AliceO2/pull/7715) 2021-11-24: DPL DataRelayer benchmark also for O2 messages with multiple payloads by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7722](https://github.com/AliceO2Group/AliceO2/pull/7722) 2021-11-24: DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
