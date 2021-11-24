@@ -6,26 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "TRD fix missing 0x80 xor of position and slope in Tracklet64",
-            "number": 7625,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "Please consider the following formatting changes to #7625",
             "number": 7626,
             "author": {
@@ -7761,6 +7741,31 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add trigger masks from CTP",
+            "number": 7725,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
                   }
                 }
               ]
