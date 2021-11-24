@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-16T08:16:06Z",
-            "title": "FST: Support digit from ROOT files as input",
-            "number": 7621,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-15T21:15:07Z",
             "title": "MCH tracking MCLabelFinder should not depend on disable-root-output",
             "number": 7622,
@@ -5925,6 +5905,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/TOF/base/src/CalibTOFapi.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TOF/base/src/Geo.cxx"
                   }
                 },
@@ -5946,11 +5931,6 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/calibration/src/CalibTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/CalibTOFapi.cxx"
                   }
                 },
                 {
@@ -7104,8 +7084,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-24T08:37:04Z",
             "title": "Swtich to lowercase log levels for new FairLogger (Generators)",
             "number": 7709,
             "author": {
@@ -7304,8 +7284,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-24T08:37:51Z",
             "title": "Swtich to lowercase log levels for new FairLogger (CCDB)",
             "number": 7712,
             "author": {
@@ -7344,8 +7324,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-24T08:36:07Z",
             "title": "Swtich to lowercase log levels for new FairLogger (run)",
             "number": 7713,
             "author": {
@@ -7741,6 +7721,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Disable 3rd iteration until further optimisation",
+            "number": 7721,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]
