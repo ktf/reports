@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-16T19:08:45Z",
-            "title": "DPL: avoid including Stack.h everywhere",
-            "number": 7624,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataDescriptorMatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataDescriptorMatcher.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "TRD fix missing 0x80 xor of position and slope in Tracklet64",
@@ -7645,11 +7615,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": ".github/workflows/code-transformations.yml"
-                  }
-                },
-                {
-                  "node": {
                     "path": "CHANGELOG.md"
                   }
                 },
@@ -7766,6 +7731,36 @@
                 {
                   "node": {
                     "path": ".github/workflows/code-transformations.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix to get tracklets and digits out of sm16 and sm17",
+            "number": 7724,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawDataStats.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
                   }
                 }
               ]
