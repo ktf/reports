@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-02T13:43:29Z",
-            "title": "Added event selection for high pT ch jets + tracks",
-            "number": 240,
-            "author": {
-              "login": "fkrizek"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-02T12:16:08Z",
             "title": "Change default binning",
             "number": 241,
@@ -3131,6 +3101,36 @@
                 {
                   "node": {
                     "path": "Common/Tools/handleParamTPCBetheBloch.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility of data without event selection",
+            "number": 340,
+            "author": {
+              "login": "victor-gonzalez"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/dptdptfilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/match-reco-gen.cxx"
                   }
                 }
               ]
