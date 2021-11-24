@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-17T07:56:57Z",
-            "title": "CPV: Correct medium assignment",
-            "number": 7632,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-17T10:46:12Z",
             "title": "TRD additional configurable params",
             "number": 7633,
@@ -7776,6 +7756,41 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/io/src/TRDTrackletReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Improve krypton raw filter",
+            "number": 7732,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/Utils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/KryptonRawFilterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/KryptonRawFilterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-krypton-raw-filter.cxx"
                   }
                 }
               ]
