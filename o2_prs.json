@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-15T21:15:07Z",
-            "title": "MCH tracking MCLabelFinder should not depend on disable-root-output",
-            "number": 7622,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Analysis task: sketching new structure",
@@ -7741,6 +7721,51 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel",
+            "number": 7722,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessorSpecHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessorSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataProcessorSpec.cxx"
                   }
                 }
               ]
