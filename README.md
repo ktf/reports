@@ -24,7 +24,6 @@
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 - [\#7685](https://github.com/AliceO2Group/AliceO2/pull/7685) 2021-11-24: MCH: add first version of digit filtering by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#7638](https://github.com/AliceO2Group/AliceO2/pull/7638) 2021-11-18: Update electronics delays by [@dstocco](https://github.com/dstocco)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
 - [\#7644](https://github.com/AliceO2Group/AliceO2/pull/7644) 2021-11-19: [EMCAL-732] implementation of EMCAL standalone AOD producer workflow by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
