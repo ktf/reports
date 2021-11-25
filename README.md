@@ -23,6 +23,7 @@
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 - [\#7685](https://github.com/AliceO2Group/AliceO2/pull/7685) 2021-11-24: MCH: add first version of digit filtering by [@aphecetche](https://github.com/aphecetche)
+- [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#7640](https://github.com/AliceO2Group/AliceO2/pull/7640) 2021-11-25: IDCs: Adding possibillity to perform grouping on an aggregator node by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
@@ -57,6 +58,7 @@
 - [\#7702](https://github.com/AliceO2Group/AliceO2/pull/7702) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Upgrades) by [@davidrohr](https://github.com/davidrohr)
 - [\#7716](https://github.com/AliceO2Group/AliceO2/pull/7716) 2021-11-24: AOD: include all primaries put by generator by [@sawenzel](https://github.com/sawenzel)
 - [\#7721](https://github.com/AliceO2Group/AliceO2/pull/7721) 2021-11-25: Disable 3rd iteration until further optimisation by [@mpuccio](https://github.com/mpuccio)
+- [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7732](https://github.com/AliceO2Group/AliceO2/pull/7732) 2021-11-25: TPC: Improve krypton raw filter by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
