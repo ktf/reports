@@ -17,6 +17,7 @@
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
 - [\#7705](https://github.com/AliceO2Group/AliceO2/pull/7705) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Common) by [@davidrohr](https://github.com/davidrohr)
+- [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
@@ -65,6 +66,7 @@
 - [\#7731](https://github.com/AliceO2Group/AliceO2/pull/7731) 2021-11-25: Update TRD digit and tracklet readers by [@martenole](https://github.com/martenole)
 - [\#7732](https://github.com/AliceO2Group/AliceO2/pull/7732) 2021-11-25: TPC: Improve krypton raw filter by [@wiechula](https://github.com/wiechula)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
+- [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7686](https://github.com/AliceO2Group/AliceO2/pull/7686) 2021-11-25: [MCH] use one single cluster format by [@pillot](https://github.com/pillot)
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
@@ -88,6 +90,7 @@
 - [\#7722](https://github.com/AliceO2Group/AliceO2/pull/7722) 2021-11-24: DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel by [@ktf](https://github.com/ktf)
 - [\#7730](https://github.com/AliceO2Group/AliceO2/pull/7730) 2021-11-25: DPL GUI: drastically improve ability to debug large topologies by [@ktf](https://github.com/ktf)
 - [\#7733](https://github.com/AliceO2Group/AliceO2/pull/7733) 2021-11-25: DPL GUI: additional baby steps by [@ktf](https://github.com/ktf)
+- [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
