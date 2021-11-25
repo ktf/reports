@@ -61,6 +61,7 @@
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
 - [\#7702](https://github.com/AliceO2Group/AliceO2/pull/7702) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Upgrades) by [@davidrohr](https://github.com/davidrohr)
 - [\#7716](https://github.com/AliceO2Group/AliceO2/pull/7716) 2021-11-24: AOD: include all primaries put by generator by [@sawenzel](https://github.com/sawenzel)
+- [\#7720](https://github.com/AliceO2Group/AliceO2/pull/7720) 2021-11-25: Set decoded ROF IR asap, to avoid its loss in case of error by [@shahor02](https://github.com/shahor02)
 - [\#7721](https://github.com/AliceO2Group/AliceO2/pull/7721) 2021-11-25: Disable 3rd iteration until further optimisation by [@mpuccio](https://github.com/mpuccio)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7731](https://github.com/AliceO2Group/AliceO2/pull/7731) 2021-11-25: Update TRD digit and tracklet readers by [@martenole](https://github.com/martenole)

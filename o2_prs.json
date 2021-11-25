@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[EMCAL-647] Event builder for cell container from different subtimefr…",
-            "number": 7639,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EventBuilderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/EventBuilderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/event-builder-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-11-25T12:22:19Z",
             "title": "IDCs: Adding possibillity to perform grouping on an aggregator node",
@@ -7164,8 +7129,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-25T13:44:54Z",
             "title": "Set decoded ROF IR asap, to avoid its loss in case of error",
             "number": 7720,
             "author": {
@@ -7796,6 +7761,31 @@
                 {
                   "node": {
                     "path": ".github/workflows/code-transformations.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "AOD: fixe memory leak + allow overwriting metadata",
+            "number": 7739,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
                   }
                 }
               ]
