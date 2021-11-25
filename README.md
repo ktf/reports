@@ -8,6 +8,7 @@
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7691](https://github.com/AliceO2Group/AliceO2/pull/7691) 2021-11-24: Swtich to lowercase log levels for new FairLogger (EMCAL) by [@davidrohr](https://github.com/davidrohr)
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
+- [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
@@ -52,6 +53,7 @@
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7699](https://github.com/AliceO2Group/AliceO2/pull/7699) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ZDC) by [@davidrohr](https://github.com/davidrohr)
+- [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
 - [\#7702](https://github.com/AliceO2Group/AliceO2/pull/7702) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Upgrades) by [@davidrohr](https://github.com/davidrohr)
 - [\#7716](https://github.com/AliceO2Group/AliceO2/pull/7716) 2021-11-24: AOD: include all primaries put by generator by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
