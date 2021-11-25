@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-18T20:30:57Z",
-            "title": "[EMCAL-735] Switch of trailer merging in RawReaderMemory for STU pages",
-            "number": 7634,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RawReaderMemory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/RawReaderMemory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-19T09:58:47Z",
             "title": "Class to handle the MID readout card configuration and response",
             "number": 7635,
@@ -7776,6 +7746,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable TRD calibration with TPC-TRD tracks",
+            "number": 7734,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/AngularResidHistos.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/TrackBasedCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TrackBasedCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TrackBasedCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
                   }
                 }
               ]
