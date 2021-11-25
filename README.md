@@ -24,7 +24,6 @@
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 - [\#7685](https://github.com/AliceO2Group/AliceO2/pull/7685) 2021-11-24: MCH: add first version of digit filtering by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#7637](https://github.com/AliceO2Group/AliceO2/pull/7637) 2021-11-17: separate workflow for CPV cluster writer by [@shahor02](https://github.com/shahor02)
 - [\#7638](https://github.com/AliceO2Group/AliceO2/pull/7638) 2021-11-18: Update electronics delays by [@dstocco](https://github.com/dstocco)
 - [\#7641](https://github.com/AliceO2Group/AliceO2/pull/7641) 2021-11-18: fix in tof calib data structure by [@noferini](https://github.com/noferini)
 - [\#7644](https://github.com/AliceO2Group/AliceO2/pull/7644) 2021-11-19: [EMCAL-732] implementation of EMCAL standalone AOD producer workflow by [@fjonasALICE](https://github.com/fjonasALICE)
@@ -59,7 +58,6 @@
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7636](https://github.com/AliceO2Group/AliceO2/pull/7636) 2021-11-18: DPL: try to re-add AOD writer regardless if it is already present by [@aalkin](https://github.com/aalkin)
 - [\#7648](https://github.com/AliceO2Group/AliceO2/pull/7648) 2021-11-18: DPL: avoid confusing stacktrace when workflow is empty by [@ktf](https://github.com/ktf)
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7652](https://github.com/AliceO2Group/AliceO2/pull/7652) 2021-11-22: Extend TOF Event Time maker for analysis by [@njacazio](https://github.com/njacazio)
