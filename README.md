@@ -28,7 +28,6 @@
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7644](https://github.com/AliceO2Group/AliceO2/pull/7644) 2021-11-19: [EMCAL-732] implementation of EMCAL standalone AOD producer workflow by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7649](https://github.com/AliceO2Group/AliceO2/pull/7649) 2021-11-19: Make AOD tfNumber cross/inter-run unique by [@shahor02](https://github.com/shahor02)
