@@ -33,7 +33,6 @@
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7649](https://github.com/AliceO2Group/AliceO2/pull/7649) 2021-11-19: Make AOD tfNumber cross/inter-run unique by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7652](https://github.com/AliceO2Group/AliceO2/pull/7652) 2021-11-22: Extend TOF Event Time maker for analysis by [@njacazio](https://github.com/njacazio)
 - [\#7655](https://github.com/AliceO2Group/AliceO2/pull/7655) 2021-11-18: Disable broken unit test on Mac M1 by [@TimoWilken](https://github.com/TimoWilken)
