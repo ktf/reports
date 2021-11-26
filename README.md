@@ -98,6 +98,7 @@
 - [\#7741](https://github.com/AliceO2Group/AliceO2/pull/7741) 2021-11-26: DPL: Cleanup and optimization of DataRelayer benchmark by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7750](https://github.com/AliceO2Group/AliceO2/pull/7750) 2021-11-26: DPL GUI: mark fatal messages in red by [@ktf](https://github.com/ktf)
+- [\#7752](https://github.com/AliceO2Group/AliceO2/pull/7752) 2021-11-26: DPL: baby steps going to Lifetime::Dangling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
