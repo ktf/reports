@@ -29,7 +29,6 @@
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7646](https://github.com/AliceO2Group/AliceO2/pull/7646) 2021-11-17: TPC-QC: Tracks task now most histograms with cuts by [@stheckel](https://github.com/stheckel)
 - [\#7647](https://github.com/AliceO2Group/AliceO2/pull/7647) 2021-11-19: Method to refit vertex with partial set of its tracks by [@shahor02](https://github.com/shahor02)
 - [\#7649](https://github.com/AliceO2Group/AliceO2/pull/7649) 2021-11-19: Make AOD tfNumber cross/inter-run unique by [@shahor02](https://github.com/shahor02)
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
@@ -55,6 +54,7 @@
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7695](https://github.com/AliceO2Group/AliceO2/pull/7695) 2021-11-25: Swtich to lowercase log levels for new FairLogger (FIT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7697](https://github.com/AliceO2Group/AliceO2/pull/7697) 2021-11-25: Swtich to lowercase log levels for new FairLogger (PHOS) by [@davidrohr](https://github.com/davidrohr)
+- [\#7698](https://github.com/AliceO2Group/AliceO2/pull/7698) 2021-11-26: Swtich to lowercase log levels for new FairLogger (TPC) by [@davidrohr](https://github.com/davidrohr)
 - [\#7699](https://github.com/AliceO2Group/AliceO2/pull/7699) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ZDC) by [@davidrohr](https://github.com/davidrohr)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
@@ -67,6 +67,8 @@
 - [\#7732](https://github.com/AliceO2Group/AliceO2/pull/7732) 2021-11-25: TPC: Improve krypton raw filter by [@wiechula](https://github.com/wiechula)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
+- [\#7743](https://github.com/AliceO2Group/AliceO2/pull/7743) 2021-11-26: TRD move 1617 fix to correct place. by [@bazinski](https://github.com/bazinski)
+- [\#7745](https://github.com/AliceO2Group/AliceO2/pull/7745) 2021-11-26: MCH: fix small type error by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
 - [\#7686](https://github.com/AliceO2Group/AliceO2/pull/7686) 2021-11-25: [MCH] use one single cluster format by [@pillot](https://github.com/pillot)
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
