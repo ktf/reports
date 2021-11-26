@@ -100,6 +100,7 @@
 - [\#7733](https://github.com/AliceO2Group/AliceO2/pull/7733) 2021-11-25: DPL GUI: additional baby steps by [@ktf](https://github.com/ktf)
 - [\#7736](https://github.com/AliceO2Group/AliceO2/pull/7736) 2021-11-25: DPL: allow customising the DataRelayer pipeline length from policy by [@ktf](https://github.com/ktf)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
+- [\#7741](https://github.com/AliceO2Group/AliceO2/pull/7741) 2021-11-26: DPL: Cleanup and optimization of DataRelayer benchmark by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
