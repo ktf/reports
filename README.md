@@ -9,6 +9,7 @@
 - [\#7691](https://github.com/AliceO2Group/AliceO2/pull/7691) 2021-11-24: Swtich to lowercase log levels for new FairLogger (EMCAL) by [@davidrohr](https://github.com/davidrohr)
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
+- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [\#7651](https://github.com/AliceO2Group/AliceO2/pull/7651) 2021-11-18: DPL: improve / fix metrics for the dashboard  by [@ktf](https://github.com/ktf)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
@@ -17,6 +18,7 @@
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7696](https://github.com/AliceO2Group/AliceO2/pull/7696) 2021-11-26: Swtich to lowercase log levels for new FairLogger (MUON) by [@davidrohr](https://github.com/davidrohr)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
+- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7705](https://github.com/AliceO2Group/AliceO2/pull/7705) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Common) by [@davidrohr](https://github.com/davidrohr)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
@@ -27,6 +29,7 @@
 - [\#7685](https://github.com/AliceO2Group/AliceO2/pull/7685) 2021-11-24: MCH: add first version of digit filtering by [@aphecetche](https://github.com/aphecetche)
 - [\#7686](https://github.com/AliceO2Group/AliceO2/pull/7686) 2021-11-25: [MCH] use one single cluster format by [@pillot](https://github.com/pillot)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
+- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
@@ -60,6 +63,7 @@
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
 - [\#7702](https://github.com/AliceO2Group/AliceO2/pull/7702) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Upgrades) by [@davidrohr](https://github.com/davidrohr)
+- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7716](https://github.com/AliceO2Group/AliceO2/pull/7716) 2021-11-24: AOD: include all primaries put by generator by [@sawenzel](https://github.com/sawenzel)
 - [\#7720](https://github.com/AliceO2Group/AliceO2/pull/7720) 2021-11-25: Set decoded ROF IR asap, to avoid its loss in case of error by [@shahor02](https://github.com/shahor02)
 - [\#7721](https://github.com/AliceO2Group/AliceO2/pull/7721) 2021-11-25: Disable 3rd iteration until further optimisation by [@mpuccio](https://github.com/mpuccio)
