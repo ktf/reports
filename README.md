@@ -15,9 +15,11 @@
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
+- [\#7696](https://github.com/AliceO2Group/AliceO2/pull/7696) 2021-11-26: Swtich to lowercase log levels for new FairLogger (MUON) by [@davidrohr](https://github.com/davidrohr)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
 - [\#7705](https://github.com/AliceO2Group/AliceO2/pull/7705) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Common) by [@davidrohr](https://github.com/davidrohr)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
+- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#7650](https://github.com/AliceO2Group/AliceO2/pull/7650) 2021-11-18: GPU: Fix standalone compilation after TPC dEdx changes by [@davidrohr](https://github.com/davidrohr)
 - [\#7679](https://github.com/AliceO2Group/AliceO2/pull/7679) 2021-11-23: fixes in TOF calibration workflow by [@noferini](https://github.com/noferini)
@@ -51,6 +53,7 @@
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7695](https://github.com/AliceO2Group/AliceO2/pull/7695) 2021-11-25: Swtich to lowercase log levels for new FairLogger (FIT) by [@davidrohr](https://github.com/davidrohr)
+- [\#7696](https://github.com/AliceO2Group/AliceO2/pull/7696) 2021-11-26: Swtich to lowercase log levels for new FairLogger (MUON) by [@davidrohr](https://github.com/davidrohr)
 - [\#7697](https://github.com/AliceO2Group/AliceO2/pull/7697) 2021-11-25: Swtich to lowercase log levels for new FairLogger (PHOS) by [@davidrohr](https://github.com/davidrohr)
 - [\#7698](https://github.com/AliceO2Group/AliceO2/pull/7698) 2021-11-26: Swtich to lowercase log levels for new FairLogger (TPC) by [@davidrohr](https://github.com/davidrohr)
 - [\#7699](https://github.com/AliceO2Group/AliceO2/pull/7699) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ZDC) by [@davidrohr](https://github.com/davidrohr)
@@ -67,9 +70,11 @@
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 - [\#7743](https://github.com/AliceO2Group/AliceO2/pull/7743) 2021-11-26: TRD move 1617 fix to correct place. by [@bazinski](https://github.com/bazinski)
 - [\#7745](https://github.com/AliceO2Group/AliceO2/pull/7745) 2021-11-26: MCH: fix small type error by [@aphecetche](https://github.com/aphecetche)
+- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7686](https://github.com/AliceO2Group/AliceO2/pull/7686) 2021-11-25: [MCH] use one single cluster format by [@pillot](https://github.com/pillot)
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
+- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
