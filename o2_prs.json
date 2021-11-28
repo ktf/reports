@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-18T21:22:39Z",
-            "title": "FST: Check that no leftover SHM files are present",
-            "number": 7658,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/start_tmux.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-18T22:52:06Z",
             "title": "DPL GUI: add lifetime information to GUI",
             "number": 7659,
@@ -8199,8 +8179,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-28T16:50:26Z",
             "title": "Changes to inject MC TF timestamp to DPH.creation time",
             "number": 7753,
             "author": {
@@ -8484,8 +8464,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-11-28T16:56:26Z",
             "title": "Fix TPC shared cluster counting in AODProducer",
             "number": 7757,
             "author": {
@@ -8506,6 +8486,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/DataTypes/GPUTPCGMMergedTrackHit.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FV0: Add PMTs to FV0 geometry and redistribute optical fiber volumes",
+            "number": 7758,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/base/include/FV0Base/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/base/src/Geometry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/include/FV0Simulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/simulation/src/Detector.cxx"
                   }
                 }
               ]
