@@ -34,7 +34,6 @@
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7664](https://github.com/AliceO2Group/AliceO2/pull/7664) 2021-11-25: Use MID readout response class by [@dstocco](https://github.com/dstocco)
 - [\#7667](https://github.com/AliceO2Group/AliceO2/pull/7667) 2021-11-20: For for faking CTF data of missing detector by [@shahor02](https://github.com/shahor02)
 - [\#7671](https://github.com/AliceO2Group/AliceO2/pull/7671) 2021-11-19: Reset ITS/MFT RU calib struct before each ROF by [@shahor02](https://github.com/shahor02)
 - [\#7672](https://github.com/AliceO2Group/AliceO2/pull/7672) 2021-11-20: TPC: Add simple raw data filter for krypton clusters by [@wiechula](https://github.com/wiechula)
