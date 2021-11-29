@@ -86,7 +86,6 @@
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7661](https://github.com/AliceO2Group/AliceO2/pull/7661) 2021-11-23: DPL Analysis: provide filtered sliceBy() method by [@aalkin](https://github.com/aalkin)
 - [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7666](https://github.com/AliceO2Group/AliceO2/pull/7666) 2021-11-22: AliECS dump: support development setups by [@knopers8](https://github.com/knopers8)
 - [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
