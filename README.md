@@ -83,7 +83,6 @@
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
 - [\#7673](https://github.com/AliceO2Group/AliceO2/pull/7673) 2021-11-22: DPL GUI: more baby steps to remote GUI by [@ktf](https://github.com/ktf)
 - [\#7681](https://github.com/AliceO2Group/AliceO2/pull/7681) 2021-11-26: DPL: make dispatcher lossy by [@ktf](https://github.com/ktf)
