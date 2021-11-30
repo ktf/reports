@@ -76,6 +76,7 @@
 - [\#7757](https://github.com/AliceO2Group/AliceO2/pull/7757) 2021-11-28: Fix TPC shared cluster counting in AODProducer by [@shahor02](https://github.com/shahor02)
 - [\#7763](https://github.com/AliceO2Group/AliceO2/pull/7763) 2021-11-30: Write CTP masks only if requested by [@nburmaso](https://github.com/nburmaso)
 - [\#7766](https://github.com/AliceO2Group/AliceO2/pull/7766) 2021-11-30: fix in TOF latency by [@noferini](https://github.com/noferini)
+- [\#7767](https://github.com/AliceO2Group/AliceO2/pull/7767) 2021-11-30: MCH: speedup identification of used cluster combinations by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#7686](https://github.com/AliceO2Group/AliceO2/pull/7686) 2021-11-25: [MCH] use one single cluster format by [@pillot](https://github.com/pillot)
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
