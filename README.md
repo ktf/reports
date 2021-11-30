@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7707](https://github.com/AliceO2Group/AliceO2/pull/7707) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Utilities) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7691](https://github.com/AliceO2Group/AliceO2/pull/7691) 2021-11-24: Swtich to lowercase log levels for new FairLogger (EMCAL) by [@davidrohr](https://github.com/davidrohr)
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
@@ -83,7 +82,6 @@
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7665](https://github.com/AliceO2Group/AliceO2/pull/7665) 2021-11-19: Putting dynamic column in the right table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7666](https://github.com/AliceO2Group/AliceO2/pull/7666) 2021-11-22: AliECS dump: support development setups by [@knopers8](https://github.com/knopers8)
 - [\#7669](https://github.com/AliceO2Group/AliceO2/pull/7669) 2021-11-21: Removing unwanted std::move by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7670](https://github.com/AliceO2Group/AliceO2/pull/7670) 2021-11-20: DPL GUI: send up to 10 updates per second for the data relayer GUI by [@ktf](https://github.com/ktf)
@@ -104,6 +102,7 @@
 - [\#7750](https://github.com/AliceO2Group/AliceO2/pull/7750) 2021-11-26: DPL GUI: mark fatal messages in red by [@ktf](https://github.com/ktf)
 - [\#7751](https://github.com/AliceO2Group/AliceO2/pull/7751) 2021-11-29: DPL GUI: fix crash on macOS by [@ktf](https://github.com/ktf)
 - [\#7752](https://github.com/AliceO2Group/AliceO2/pull/7752) 2021-11-26: DPL: baby steps going to Lifetime::Dangling by [@ktf](https://github.com/ktf)
+- [\#7765](https://github.com/AliceO2Group/AliceO2/pull/7765) 2021-11-30: Revert "DPL Analysis: ability to read and write variable list arrays" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
