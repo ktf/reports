@@ -8,6 +8,7 @@
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
 - [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
+- [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Common
 - [\#7682](https://github.com/AliceO2Group/AliceO2/pull/7682) 2021-11-22: Store GRPxxx objects under ccdb_object name by [@shahor02](https://github.com/shahor02)
@@ -89,6 +90,7 @@
 - [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7715](https://github.com/AliceO2Group/AliceO2/pull/7715) 2021-11-24: DPL DataRelayer benchmark also for O2 messages with multiple payloads by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7722](https://github.com/AliceO2Group/AliceO2/pull/7722) 2021-11-24: DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel by [@ktf](https://github.com/ktf)
+- [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
 - [\#7729](https://github.com/AliceO2Group/AliceO2/pull/7729) 2021-11-26: DPL: Extending ExternalFairMQDeviceProxy benchmark by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7730](https://github.com/AliceO2Group/AliceO2/pull/7730) 2021-11-25: DPL GUI: drastically improve ability to debug large topologies by [@ktf](https://github.com/ktf)
 - [\#7733](https://github.com/AliceO2Group/AliceO2/pull/7733) 2021-11-25: DPL GUI: additional baby steps by [@ktf](https://github.com/ktf)
@@ -101,6 +103,9 @@
 - [\#7751](https://github.com/AliceO2Group/AliceO2/pull/7751) 2021-11-29: DPL GUI: fix crash on macOS by [@ktf](https://github.com/ktf)
 - [\#7752](https://github.com/AliceO2Group/AliceO2/pull/7752) 2021-11-26: DPL: baby steps going to Lifetime::Dangling by [@ktf](https://github.com/ktf)
 - [\#7765](https://github.com/AliceO2Group/AliceO2/pull/7765) 2021-11-30: Revert "DPL Analysis: ability to read and write variable list arrays" by [@ktf](https://github.com/ktf)
+- [\#7768](https://github.com/AliceO2Group/AliceO2/pull/7768) 2021-11-30: DPL: cleanup struct to tuple by [@ktf](https://github.com/ktf)
+- [\#7771](https://github.com/AliceO2Group/AliceO2/pull/7771) 2021-11-30: DPL Analysis: Rework AOD I/O by [@aalkin](https://github.com/aalkin)
+- [\#7772](https://github.com/AliceO2Group/AliceO2/pull/7772) 2021-11-30: Drop old example for FLP Qualification process by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
