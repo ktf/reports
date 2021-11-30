@@ -32,7 +32,6 @@
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7672](https://github.com/AliceO2Group/AliceO2/pull/7672) 2021-11-20: TPC: Add simple raw data filter for krypton clusters by [@wiechula](https://github.com/wiechula)
 - [\#7676](https://github.com/AliceO2Group/AliceO2/pull/7676) 2021-11-20: change --ccdb-url to --ccdb-url-tof, no LOG(info) from workflow definition by [@shahor02](https://github.com/shahor02)
 - [\#7677](https://github.com/AliceO2Group/AliceO2/pull/7677) 2021-11-22: Signal as error if GBTTrailer->packetDone is missing, still account data by [@shahor02](https://github.com/shahor02)
 - [\#7678](https://github.com/AliceO2Group/AliceO2/pull/7678) 2021-11-22: Restore --hbfutils-config as global and add --tf-info-file local option to readers by [@shahor02](https://github.com/shahor02)
