@@ -34,6 +34,7 @@
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
+- [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Detectors
 - [\#7677](https://github.com/AliceO2Group/AliceO2/pull/7677) 2021-11-22: Signal as error if GBTTrailer->packetDone is missing, still account data by [@shahor02](https://github.com/shahor02)
 - [\#7678](https://github.com/AliceO2Group/AliceO2/pull/7678) 2021-11-22: Restore --hbfutils-config as global and add --tf-info-file local option to readers by [@shahor02](https://github.com/shahor02)
@@ -74,6 +75,7 @@
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7757](https://github.com/AliceO2Group/AliceO2/pull/7757) 2021-11-28: Fix TPC shared cluster counting in AODProducer by [@shahor02](https://github.com/shahor02)
+- [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
 - [\#7763](https://github.com/AliceO2Group/AliceO2/pull/7763) 2021-11-30: Write CTP masks only if requested by [@nburmaso](https://github.com/nburmaso)
 - [\#7766](https://github.com/AliceO2Group/AliceO2/pull/7766) 2021-11-30: fix in TOF latency by [@noferini](https://github.com/noferini)
 - [\#7767](https://github.com/AliceO2Group/AliceO2/pull/7767) 2021-11-30: MCH: speedup identification of used cluster combinations by [@pillot](https://github.com/pillot)
