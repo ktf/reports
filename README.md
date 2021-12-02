@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7707](https://github.com/AliceO2Group/AliceO2/pull/7707) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Utilities) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7691](https://github.com/AliceO2Group/AliceO2/pull/7691) 2021-11-24: Swtich to lowercase log levels for new FairLogger (EMCAL) by [@davidrohr](https://github.com/davidrohr)
 - [\#7693](https://github.com/AliceO2Group/AliceO2/pull/7693) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ITSMFT) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
@@ -12,7 +11,6 @@
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7694](https://github.com/AliceO2Group/AliceO2/pull/7694) 2021-11-23: Swtich to lowercase log levels for new FairLogger (HMPID) by [@davidrohr](https://github.com/davidrohr)
 - [\#7696](https://github.com/AliceO2Group/AliceO2/pull/7696) 2021-11-26: Swtich to lowercase log levels for new FairLogger (MUON) by [@davidrohr](https://github.com/davidrohr)
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
@@ -83,7 +81,6 @@
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7688](https://github.com/AliceO2Group/AliceO2/pull/7688) 2021-11-23: DPL: move to the new FairLogger API by [@ktf](https://github.com/ktf)
 - [\#7715](https://github.com/AliceO2Group/AliceO2/pull/7715) 2021-11-24: DPL DataRelayer benchmark also for O2 messages with multiple payloads by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7722](https://github.com/AliceO2Group/AliceO2/pull/7722) 2021-11-24: DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel by [@ktf](https://github.com/ktf)
 - [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
