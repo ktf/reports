@@ -73,6 +73,7 @@
 - [\#7767](https://github.com/AliceO2Group/AliceO2/pull/7767) 2021-11-30: MCH: speedup identification of used cluster combinations by [@pillot](https://github.com/pillot)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
 - [\#7776](https://github.com/AliceO2Group/AliceO2/pull/7776) 2021-12-02: add time cut for T0 participants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
+- [\#7783](https://github.com/AliceO2Group/AliceO2/pull/7783) 2021-12-02: [Global Fwd Tracking] Improve configuration of MFTMCH matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - EventVisualisation
 - [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
