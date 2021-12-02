@@ -29,6 +29,7 @@
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
+- [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7700](https://github.com/AliceO2Group/AliceO2/pull/7700) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TRD) by [@davidrohr](https://github.com/davidrohr)
 - [\#7701](https://github.com/AliceO2Group/AliceO2/pull/7701) 2021-11-25: Swtich to lowercase log levels for new FairLogger (TOF) by [@davidrohr](https://github.com/davidrohr)
