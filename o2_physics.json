@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-12T11:26:04Z",
-            "title": "Update PWGHF CODEOWNERS",
-            "number": 276,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-12T16:43:53Z",
-            "title": "use new isPhysicalPrimary",
-            "number": 277,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tutorials/src/mcHistograms.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-15T10:00:02Z",
             "title": "[EMCAL-733] Port cell monitor task from EMCAL analysis framework",
             "number": 278,
@@ -675,11 +635,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "ALICE3/TableProducer/alice3-pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Common/Core/PID/PIDResponse.h"
                   }
                 },
@@ -695,12 +650,12 @@
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                    "path": "Common/Core/TableHelper.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
                   }
                 },
                 {
@@ -726,6 +681,26 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackselection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaEfficiency.cxx"
                   }
                 }
               ]
@@ -2911,6 +2886,51 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event filtering: Fix 2D histo",
+            "number": 376,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes to tutorials",
+            "number": 377,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/histograms.cxx"
                   }
                 }
               ]
