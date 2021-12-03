@@ -3,13 +3,11 @@
 ## Recent developments in O2 - Algorithm
 - [\#7707](https://github.com/AliceO2Group/AliceO2/pull/7707) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Utilities) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
 - [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
 ## Recent developments in O2 - Common
-- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7705](https://github.com/AliceO2Group/AliceO2/pull/7705) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Common) by [@davidrohr](https://github.com/davidrohr)
 - [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
@@ -17,7 +15,6 @@
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
@@ -30,7 +27,6 @@
 - [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7716](https://github.com/AliceO2Group/AliceO2/pull/7716) 2021-11-24: AOD: include all primaries put by generator by [@sawenzel](https://github.com/sawenzel)
 - [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7720](https://github.com/AliceO2Group/AliceO2/pull/7720) 2021-11-25: Set decoded ROF IR asap, to avoid its loss in case of error by [@shahor02](https://github.com/shahor02)
