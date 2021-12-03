@@ -8,6 +8,7 @@
 - [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
+- [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
 ## Recent developments in O2 - Common
 - [\#7704](https://github.com/AliceO2Group/AliceO2/pull/7704) 2021-11-26: Swtich to lowercase log levels for new FairLogger (DataFormats) by [@davidrohr](https://github.com/davidrohr)
 - [\#7705](https://github.com/AliceO2Group/AliceO2/pull/7705) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Common) by [@davidrohr](https://github.com/davidrohr)
@@ -82,6 +83,7 @@
 - [\#7750](https://github.com/AliceO2Group/AliceO2/pull/7750) 2021-11-26: DPL GUI: mark fatal messages in red by [@ktf](https://github.com/ktf)
 - [\#7751](https://github.com/AliceO2Group/AliceO2/pull/7751) 2021-11-29: DPL GUI: fix crash on macOS by [@ktf](https://github.com/ktf)
 - [\#7752](https://github.com/AliceO2Group/AliceO2/pull/7752) 2021-11-26: DPL: baby steps going to Lifetime::Dangling by [@ktf](https://github.com/ktf)
+- [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
 - [\#7765](https://github.com/AliceO2Group/AliceO2/pull/7765) 2021-11-30: Revert "DPL Analysis: ability to read and write variable list arrays" by [@ktf](https://github.com/ktf)
 - [\#7768](https://github.com/AliceO2Group/AliceO2/pull/7768) 2021-11-30: DPL: cleanup struct to tuple by [@ktf](https://github.com/ktf)
 - [\#7771](https://github.com/AliceO2Group/AliceO2/pull/7771) 2021-11-30: DPL Analysis: Rework AOD I/O by [@aalkin](https://github.com/aalkin)
