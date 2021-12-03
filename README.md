@@ -91,6 +91,7 @@
 - [\#7772](https://github.com/AliceO2Group/AliceO2/pull/7772) 2021-11-30: Drop old example for FLP Qualification process by [@ktf](https://github.com/ktf)
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
+- [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#7709](https://github.com/AliceO2Group/AliceO2/pull/7709) 2021-11-24: Swtich to lowercase log levels for new FairLogger (Generators) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
