@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-15T13:42:10Z",
-            "title": "Fix warning",
-            "number": 285,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "adding hm triggers",
@@ -2856,6 +2836,56 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "foundFT0, foundFV0 and foundBC as index columns",
+            "number": 385,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/EventSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/ft0CorrectedTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/ft0Qa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Tasks/dndeta.h"
                   }
                 }
               ]
