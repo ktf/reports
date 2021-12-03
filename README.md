@@ -27,6 +27,7 @@
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
+- [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7702](https://github.com/AliceO2Group/AliceO2/pull/7702) 2021-11-23: Swtich to lowercase log levels for new FairLogger (Upgrades) by [@davidrohr](https://github.com/davidrohr)
@@ -60,6 +61,7 @@
 - [\#7776](https://github.com/AliceO2Group/AliceO2/pull/7776) 2021-12-02: add time cut for T0 participants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7783](https://github.com/AliceO2Group/AliceO2/pull/7783) 2021-12-02: [Global Fwd Tracking] Improve configuration of MFTMCH matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
+- [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
 - [\#7792](https://github.com/AliceO2Group/AliceO2/pull/7792) 2021-12-03: TPC QC: proper name for N_RawDigits plot by [@tklemenz](https://github.com/tklemenz)
 ## Recent developments in O2 - EventVisualisation
