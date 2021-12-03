@@ -64,7 +64,6 @@
 - [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
 - [\#7792](https://github.com/AliceO2Group/AliceO2/pull/7792) 2021-12-03: TPC QC: proper name for N_RawDigits plot by [@tklemenz](https://github.com/tklemenz)
 ## Recent developments in O2 - EventVisualisation
-- [\#7703](https://github.com/AliceO2Group/AliceO2/pull/7703) 2021-11-23: Swtich to lowercase log levels for new FairLogger (ED) by [@davidrohr](https://github.com/davidrohr)
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#7713](https://github.com/AliceO2Group/AliceO2/pull/7713) 2021-11-24: Swtich to lowercase log levels for new FairLogger (run) by [@davidrohr](https://github.com/davidrohr)
