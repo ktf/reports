@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-23T13:13:44Z",
-            "title": "Swtich to lowercase log levels for new FairLogger (doc)",
-            "number": 7711,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "doc/DetectorSimulation.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-24T08:37:51Z",
-            "title": "Swtich to lowercase log levels for new FairLogger (CCDB)",
-            "number": 7712,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/IdPath.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/UploadTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testBasicCCDBManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApi_alien.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-24T08:36:07Z",
             "title": "Swtich to lowercase log levels for new FairLogger (run)",
             "number": 7713,
@@ -5464,8 +5404,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-12-05T12:21:05Z",
             "title": "TRD calibration classes cleanup",
             "number": 7805,
             "author": {
@@ -5749,8 +5689,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-12-05T12:21:29Z",
             "title": "Change URL of FIT LUTs to <DET>/Config/LookupTable",
             "number": 7809,
             "author": {
@@ -5826,6 +5766,51 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2021-12-05T12:22:39Z",
+            "title": "FST: Use alice-ccdb.cern.sh for FIT CCDB",
+            "number": 7811,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"FST/CCDB: Temporarily stick to ccdb-test.cern.ch:8080 as defa…",
+            "number": 7812,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
                   }
                 }
               ]
