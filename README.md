@@ -6,7 +6,6 @@
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
 - [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
 ## Recent developments in O2 - Common
-- [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
@@ -14,13 +13,13 @@
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
 - [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#7769](https://github.com/AliceO2Group/AliceO2/pull/7769) 2021-12-06: TRD remove straggling error output and add option for trigger fix by [@bazinski](https://github.com/bazinski)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
@@ -30,7 +29,6 @@
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7718](https://github.com/AliceO2Group/AliceO2/pull/7718) 2021-11-30: Add trigger word to EMC and FV0 CTF by [@shahor02](https://github.com/shahor02)
 - [\#7720](https://github.com/AliceO2Group/AliceO2/pull/7720) 2021-11-25: Set decoded ROF IR asap, to avoid its loss in case of error by [@shahor02](https://github.com/shahor02)
 - [\#7721](https://github.com/AliceO2Group/AliceO2/pull/7721) 2021-11-25: Disable 3rd iteration until further optimisation by [@mpuccio](https://github.com/mpuccio)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
@@ -54,6 +52,7 @@
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7766](https://github.com/AliceO2Group/AliceO2/pull/7766) 2021-11-30: fix in TOF latency by [@noferini](https://github.com/noferini)
 - [\#7767](https://github.com/AliceO2Group/AliceO2/pull/7767) 2021-11-30: MCH: speedup identification of used cluster combinations by [@pillot](https://github.com/pillot)
+- [\#7769](https://github.com/AliceO2Group/AliceO2/pull/7769) 2021-12-06: TRD remove straggling error output and add option for trigger fix by [@bazinski](https://github.com/bazinski)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
 - [\#7776](https://github.com/AliceO2Group/AliceO2/pull/7776) 2021-12-02: add time cut for T0 participants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
