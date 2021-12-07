@@ -61,6 +61,7 @@
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
 - [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
+- [\#7788](https://github.com/AliceO2Group/AliceO2/pull/7788) 2021-12-07: Fixing range of phi parameter for MCH tracks in AOD producer by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7792](https://github.com/AliceO2Group/AliceO2/pull/7792) 2021-12-03: TPC QC: proper name for N_RawDigits plot by [@tklemenz](https://github.com/tklemenz)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7799](https://github.com/AliceO2Group/AliceO2/pull/7799) 2021-12-03: Minor fixes on Global Reader and sim_challenge.sh by [@rpezzi](https://github.com/rpezzi)
