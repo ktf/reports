@@ -74,6 +74,7 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
+- [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
