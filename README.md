@@ -96,6 +96,7 @@
 - [\#7768](https://github.com/AliceO2Group/AliceO2/pull/7768) 2021-11-30: DPL: cleanup struct to tuple by [@ktf](https://github.com/ktf)
 - [\#7771](https://github.com/AliceO2Group/AliceO2/pull/7771) 2021-11-30: DPL Analysis: Rework AOD I/O by [@aalkin](https://github.com/aalkin)
 - [\#7772](https://github.com/AliceO2Group/AliceO2/pull/7772) 2021-11-30: Drop old example for FLP Qualification process by [@ktf](https://github.com/ktf)
+- [\#7780](https://github.com/AliceO2Group/AliceO2/pull/7780) 2021-12-07: DPL Analysis: event mixing: allow for creating empty combinations by [@saganatt](https://github.com/saganatt)
 - [\#7789](https://github.com/AliceO2Group/AliceO2/pull/7789) 2021-12-03: [OCTRL-586] AliECS dump: include queues sizes by [@knopers8](https://github.com/knopers8)
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
