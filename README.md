@@ -28,6 +28,7 @@
 - [\#7804](https://github.com/AliceO2Group/AliceO2/pull/7804) 2021-12-03: Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer by [@shahor02](https://github.com/shahor02)
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
+- [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7721](https://github.com/AliceO2Group/AliceO2/pull/7721) 2021-11-25: Disable 3rd iteration until further optimisation by [@mpuccio](https://github.com/mpuccio)
 - [\#7724](https://github.com/AliceO2Group/AliceO2/pull/7724) 2021-11-25: TRD fix to get tracklets and digits out of sm16 and sm17 by [@bazinski](https://github.com/bazinski)
@@ -69,6 +70,7 @@
 - [\#7808](https://github.com/AliceO2Group/AliceO2/pull/7808) 2021-12-05: Use calculated 1st orbit only if requested, add verbosity option by [@shahor02](https://github.com/shahor02)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
+- [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
