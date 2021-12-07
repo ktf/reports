@@ -5,6 +5,7 @@
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
 - [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
+- [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
@@ -78,7 +79,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7722](https://github.com/AliceO2Group/AliceO2/pull/7722) 2021-11-24: DPL: add DeviceSpecHelpers::hasLabel and DataProcessorSpecHelpers::hasLabel by [@ktf](https://github.com/ktf)
 - [\#7726](https://github.com/AliceO2Group/AliceO2/pull/7726) 2021-11-30: DPL Analysis: introduce filter selection caching by [@aalkin](https://github.com/aalkin)
 - [\#7729](https://github.com/AliceO2Group/AliceO2/pull/7729) 2021-11-26: DPL: Extending ExternalFairMQDeviceProxy benchmark by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7730](https://github.com/AliceO2Group/AliceO2/pull/7730) 2021-11-25: DPL GUI: drastically improve ability to debug large topologies by [@ktf](https://github.com/ktf)
@@ -101,6 +101,7 @@
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
 - [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
+- [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
