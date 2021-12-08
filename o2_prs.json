@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-25T12:56:25Z",
-            "title": "Enable TRD calibration with TPC-TRD tracks",
-            "number": 7734,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/AngularResidHistos.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/TrackBasedCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TrackBasedCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TrackBasedCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-02T08:54:51Z",
             "title": "TPCQC: fix merge function for Clusters object",
             "number": 7735,
@@ -1454,8 +1399,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-12-08T10:32:10Z",
             "title": "MRRTF-145: only exes (not libs) should bake the mapping implementation",
             "number": 7755,
             "author": {
@@ -5814,8 +5759,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2021-12-08T10:25:35Z",
             "title": "DPL: support VariantType::Dict in merged workflows",
             "number": 7826,
             "author": {
@@ -6021,6 +5966,61 @@
                 {
                   "node": {
                     "path": "Utilities/Mergers/test/test_InfrastructureBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-158: more MCH elecmap functions to get nof pads and ds per FeeId",
+            "number": 7834,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/include/MCHRawElecMap/DsDetId.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/include/MCHRawElecMap/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperDummy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperGenerated.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/ElectronicMapperImplHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/testElectronicMapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/test/testNumberOfPadsPerFeeId.cxx"
                   }
                 }
               ]

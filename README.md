@@ -15,7 +15,6 @@
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - DataFormats
-- [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
@@ -31,7 +30,6 @@
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7734](https://github.com/AliceO2Group/AliceO2/pull/7734) 2021-11-25: Enable TRD calibration with TPC-TRD tracks by [@martenole](https://github.com/martenole)
 - [\#7735](https://github.com/AliceO2Group/AliceO2/pull/7735) 2021-12-02: TPCQC: fix merge function for Clusters object by [@tklemenz](https://github.com/tklemenz)
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
@@ -40,6 +38,7 @@
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7749](https://github.com/AliceO2Group/AliceO2/pull/7749) 2021-11-26: Remaining fairLogger log level corrections by [@davidrohr](https://github.com/davidrohr)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
+- [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
 - [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7757](https://github.com/AliceO2Group/AliceO2/pull/7757) 2021-11-28: Fix TPC shared cluster counting in AODProducer by [@shahor02](https://github.com/shahor02)
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
@@ -98,11 +97,13 @@
 - [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7824](https://github.com/AliceO2Group/AliceO2/pull/7824) 2021-12-08: print branch type in exception by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7826](https://github.com/AliceO2Group/AliceO2/pull/7826) 2021-12-08: DPL: support VariantType::Dict in merged workflows by [@ktf](https://github.com/ktf)
 - [\#7829](https://github.com/AliceO2Group/AliceO2/pull/7829) 2021-12-08: DPL Analysis: fix VLA reading by [@aalkin](https://github.com/aalkin)
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
+- [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
