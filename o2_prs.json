@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-29T11:09:29Z",
-            "title": "DPL Analysis: ability to read and write variable list arrays",
-            "number": 7742,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TableTreeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TableTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_TreeToTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Endian.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-26T08:59:59Z",
             "title": "TRD move 1617 fix to correct place.",
             "number": 7743,
@@ -6136,6 +6101,46 @@
                 {
                   "node": {
                     "path": "dependencies/O2Dependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib",
+            "number": 7842,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/include/MCHCTF/EntropyDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
                   }
                 }
               ]
