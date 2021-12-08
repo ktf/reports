@@ -97,6 +97,8 @@
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
 - [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
+- [\#7824](https://github.com/AliceO2Group/AliceO2/pull/7824) 2021-12-08: print branch type in exception by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7829](https://github.com/AliceO2Group/AliceO2/pull/7829) 2021-12-08: DPL Analysis: fix VLA reading by [@aalkin](https://github.com/aalkin)
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7737](https://github.com/AliceO2Group/AliceO2/pull/7737) 2021-11-28: add TOF diagnostic from ccdb in digitisation (empty crates, TRM errors) by [@noferini](https://github.com/noferini)
