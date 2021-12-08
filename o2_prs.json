@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-26T10:05:36Z",
-            "title": "DPL: Cleanup and optimization of DataRelayer benchmark",
-            "number": 7741,
-            "author": {
-              "login": "matthiasrichter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_DataRelayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-29T11:09:29Z",
             "title": "DPL Analysis: ability to read and write variable list arrays",
             "number": 7742,
@@ -6121,6 +6101,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-calib-pad-gain-tracks.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[Draft] Use VMC standalone",
+            "number": 7841,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindFairRoot.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindVMC.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
