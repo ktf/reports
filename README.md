@@ -94,6 +94,7 @@
 - [\#7826](https://github.com/AliceO2Group/AliceO2/pull/7826) 2021-12-08: DPL: support VariantType::Dict in merged workflows by [@ktf](https://github.com/ktf)
 - [\#7829](https://github.com/AliceO2Group/AliceO2/pull/7829) 2021-12-08: DPL Analysis: fix VLA reading by [@aalkin](https://github.com/aalkin)
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
+- [\#7839](https://github.com/AliceO2Group/AliceO2/pull/7839) 2021-12-08: DPL: actually populate Dict with associated ptree by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
