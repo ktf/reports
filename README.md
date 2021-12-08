@@ -29,7 +29,6 @@
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7743](https://github.com/AliceO2Group/AliceO2/pull/7743) 2021-11-26: TRD move 1617 fix to correct place. by [@bazinski](https://github.com/bazinski)
 - [\#7745](https://github.com/AliceO2Group/AliceO2/pull/7745) 2021-11-26: MCH: fix small type error by [@aphecetche](https://github.com/aphecetche)
 - [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7749](https://github.com/AliceO2Group/AliceO2/pull/7749) 2021-11-26: Remaining fairLogger log level corrections by [@davidrohr](https://github.com/davidrohr)
