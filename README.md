@@ -75,7 +75,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7733](https://github.com/AliceO2Group/AliceO2/pull/7733) 2021-11-25: DPL GUI: additional baby steps by [@ktf](https://github.com/ktf)
 - [\#7736](https://github.com/AliceO2Group/AliceO2/pull/7736) 2021-11-25: DPL: allow customising the DataRelayer pipeline length from policy by [@ktf](https://github.com/ktf)
 - [\#7739](https://github.com/AliceO2Group/AliceO2/pull/7739) 2021-11-25: AOD: fixe memory leak + allow overwriting metadata by [@shahor02](https://github.com/shahor02)
 - [\#7741](https://github.com/AliceO2Group/AliceO2/pull/7741) 2021-11-26: DPL: Cleanup and optimization of DataRelayer benchmark by [@matthiasrichter](https://github.com/matthiasrichter)
