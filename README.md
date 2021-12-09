@@ -29,6 +29,7 @@
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
 - [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7757](https://github.com/AliceO2Group/AliceO2/pull/7757) 2021-11-28: Fix TPC shared cluster counting in AODProducer by [@shahor02](https://github.com/shahor02)
+- [\#7758](https://github.com/AliceO2Group/AliceO2/pull/7758) 2021-12-09: FV0: Add PMTs to FV0 geometry and redistribute optical fiber volumes by [@andreasmolander](https://github.com/andreasmolander)
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
 - [\#7761](https://github.com/AliceO2Group/AliceO2/pull/7761) 2021-12-01: [EMCAL-507] Remove custom end-of-stream handling via EMCALBlockHeader by [@mfasDa](https://github.com/mfasDa)
 - [\#7763](https://github.com/AliceO2Group/AliceO2/pull/7763) 2021-11-30: Write CTP masks only if requested by [@nburmaso](https://github.com/nburmaso)
