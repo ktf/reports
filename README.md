@@ -92,6 +92,7 @@
 - [\#7789](https://github.com/AliceO2Group/AliceO2/pull/7789) 2021-12-03: [OCTRL-586] AliECS dump: include queues sizes by [@knopers8](https://github.com/knopers8)
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
+- [\#7797](https://github.com/AliceO2Group/AliceO2/pull/7797) 2021-12-09: DPL Analysis: cleanups in TreeToTable code by [@aalkin](https://github.com/aalkin)
 - [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7824](https://github.com/AliceO2Group/AliceO2/pull/7824) 2021-12-08: print branch type in exception by [@jgrosseo](https://github.com/jgrosseo)
