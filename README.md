@@ -7,7 +7,6 @@
 - [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7748](https://github.com/AliceO2Group/AliceO2/pull/7748) 2021-11-26: Switch to lowercase log levels for new FairLogger (Framework) by [@davidrohr](https://github.com/davidrohr)
 - [\#7764](https://github.com/AliceO2Group/AliceO2/pull/7764) 2021-12-01: CTF dictionaries are ready to be fetched from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
@@ -30,7 +29,6 @@
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7749](https://github.com/AliceO2Group/AliceO2/pull/7749) 2021-11-26: Remaining fairLogger log level corrections by [@davidrohr](https://github.com/davidrohr)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
@@ -70,7 +68,6 @@
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
-- [\#7747](https://github.com/AliceO2Group/AliceO2/pull/7747) 2021-11-26: Forlogger migration of more expressions, not caught in first regex by [@davidrohr](https://github.com/davidrohr)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Examples

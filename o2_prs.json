@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-26T09:35:27Z",
-            "title": "Forlogger migration of more expressions, not caught in first regex",
-            "number": 7747,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/src/FileFetcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/DataContainer3D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/src/PoissonSolver.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ClusterSharingMapSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/FileWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/test/test_ft_EPN_Aggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/CreateCTPOrbitResetObject.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/checkTOFMatching.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-26T12:33:11Z",
             "title": "Switch to lowercase log levels for new FairLogger (Framework)",
             "number": 7748,
@@ -6391,6 +6296,31 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Add interleaved_pack_t and unique_pack_t",
+            "number": 7847,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Pack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/test_FunctionalHelpers.cxx"
                   }
                 }
               ]
