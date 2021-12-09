@@ -90,6 +90,7 @@
 - [\#7829](https://github.com/AliceO2Group/AliceO2/pull/7829) 2021-12-08: DPL Analysis: fix VLA reading by [@aalkin](https://github.com/aalkin)
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
 - [\#7839](https://github.com/AliceO2Group/AliceO2/pull/7839) 2021-12-08: DPL: actually populate Dict with associated ptree by [@ktf](https://github.com/ktf)
+- [\#7847](https://github.com/AliceO2Group/AliceO2/pull/7847) 2021-12-09: DPL Analysis: Add interleaved_pack_t and unique_pack_t by [@saganatt](https://github.com/saganatt)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
