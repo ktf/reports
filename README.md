@@ -27,6 +27,7 @@
 - [\#7804](https://github.com/AliceO2Group/AliceO2/pull/7804) 2021-12-03: Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer by [@shahor02](https://github.com/shahor02)
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
+- [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#7745](https://github.com/AliceO2Group/AliceO2/pull/7745) 2021-11-26: MCH: fix small type error by [@aphecetche](https://github.com/aphecetche)
@@ -61,6 +62,7 @@
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
 - [\#7808](https://github.com/AliceO2Group/AliceO2/pull/7808) 2021-12-05: Use calculated 1st orbit only if requested, add verbosity option by [@shahor02](https://github.com/shahor02)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
+- [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
