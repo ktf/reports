@@ -27,7 +27,6 @@
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7749](https://github.com/AliceO2Group/AliceO2/pull/7749) 2021-11-26: Remaining fairLogger log level corrections by [@davidrohr](https://github.com/davidrohr)
 - [\#7753](https://github.com/AliceO2Group/AliceO2/pull/7753) 2021-11-28: Changes to inject MC TF timestamp to DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
 - [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)

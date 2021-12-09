@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-11-19T15:05:13Z",
-            "title": "small fix to extract the MC truth information before filling histograms",
-            "number": 307,
-            "author": {
-              "login": "iarsene"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-11-19T17:41:53Z",
             "title": "Fix for  wrong check for availability of PID info",
             "number": 308,
@@ -2616,6 +2596,31 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/trackextension.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "VLAs for T0",
+            "number": 407,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/ft0Qa.cxx"
                   }
                 }
               ]
