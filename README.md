@@ -60,6 +60,7 @@
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 - [\#7830](https://github.com/AliceO2Group/AliceO2/pull/7830) 2021-12-07: Fix FairLogger LOG(FATAL) by [@ktf](https://github.com/ktf)
+- [\#7834](https://github.com/AliceO2Group/AliceO2/pull/7834) 2021-12-09: MRRTF-158: more MCH elecmap functions to get nof pads and ds per FeeId by [@aphecetche](https://github.com/aphecetche)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
@@ -95,3 +96,4 @@
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#7817](https://github.com/AliceO2Group/AliceO2/pull/7817) 2021-12-06: jobutils improvements by [@sawenzel](https://github.com/sawenzel)
+- [\#7833](https://github.com/AliceO2Group/AliceO2/pull/7833) 2021-12-09: [QC-624] Mergers: use labels to match in customizeInfrastructure by [@knopers8](https://github.com/knopers8)
