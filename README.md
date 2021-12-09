@@ -70,7 +70,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7750](https://github.com/AliceO2Group/AliceO2/pull/7750) 2021-11-26: DPL GUI: mark fatal messages in red by [@ktf](https://github.com/ktf)
 - [\#7751](https://github.com/AliceO2Group/AliceO2/pull/7751) 2021-11-29: DPL GUI: fix crash on macOS by [@ktf](https://github.com/ktf)
 - [\#7752](https://github.com/AliceO2Group/AliceO2/pull/7752) 2021-11-26: DPL: baby steps going to Lifetime::Dangling by [@ktf](https://github.com/ktf)
 - [\#7762](https://github.com/AliceO2Group/AliceO2/pull/7762) 2021-12-03: Adding protection for straight MFT tracks, to prevent divison by zero by [@sarahherrmann](https://github.com/sarahherrmann)
