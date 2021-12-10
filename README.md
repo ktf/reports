@@ -29,7 +29,6 @@
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7757](https://github.com/AliceO2Group/AliceO2/pull/7757) 2021-11-28: Fix TPC shared cluster counting in AODProducer by [@shahor02](https://github.com/shahor02)
 - [\#7758](https://github.com/AliceO2Group/AliceO2/pull/7758) 2021-12-09: FV0: Add PMTs to FV0 geometry and redistribute optical fiber volumes by [@andreasmolander](https://github.com/andreasmolander)
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
