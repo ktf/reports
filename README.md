@@ -61,6 +61,7 @@
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [\#7846](https://github.com/AliceO2Group/AliceO2/pull/7846) 2021-12-10: Fix T0 filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
+- [\#7860](https://github.com/AliceO2Group/AliceO2/pull/7860) 2021-12-10: Include TPC unconstrained track to S.Vertexing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
