@@ -93,6 +93,7 @@
 - [\#7839](https://github.com/AliceO2Group/AliceO2/pull/7839) 2021-12-08: DPL: actually populate Dict with associated ptree by [@ktf](https://github.com/ktf)
 - [\#7847](https://github.com/AliceO2Group/AliceO2/pull/7847) 2021-12-09: DPL Analysis: Add interleaved_pack_t and unique_pack_t by [@saganatt](https://github.com/saganatt)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
+- [\#7853](https://github.com/AliceO2Group/AliceO2/pull/7853) 2021-12-10: DPL: close (almost) all file descriptors before forking by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
