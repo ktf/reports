@@ -11,6 +11,7 @@
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
+- [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7759](https://github.com/AliceO2Group/AliceO2/pull/7759) 2021-12-01: Includes MCH-MID matches in Global Fwd Workflow and other improvements by [@rpezzi](https://github.com/rpezzi)
@@ -26,6 +27,7 @@
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
+- [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#7755](https://github.com/AliceO2Group/AliceO2/pull/7755) 2021-12-08: MRRTF-145: only exes (not libs) should bake the mapping implementation by [@aphecetche](https://github.com/aphecetche)
 - [\#7756](https://github.com/AliceO2Group/AliceO2/pull/7756) 2021-11-28: enable optical surface properties for G4 by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -66,9 +68,11 @@
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [\#7846](https://github.com/AliceO2Group/AliceO2/pull/7846) 2021-12-10: Fix T0 filling by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
+- [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
