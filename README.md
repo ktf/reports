@@ -90,6 +90,7 @@
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 - [\#7853](https://github.com/AliceO2Group/AliceO2/pull/7853) 2021-12-10: DPL: close (almost) all file descriptors before forking by [@ktf](https://github.com/ktf)
 - [\#7856](https://github.com/AliceO2Group/AliceO2/pull/7856) 2021-12-10: DPL: use fatal to report uncaught exceptions by [@ktf](https://github.com/ktf)
+- [\#7859](https://github.com/AliceO2Group/AliceO2/pull/7859) 2021-12-11: DPL: simplify output on double Ctrl-C by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
