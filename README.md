@@ -58,6 +58,7 @@
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [\#7846](https://github.com/AliceO2Group/AliceO2/pull/7846) 2021-12-10: Fix T0 filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
+- [\#7857](https://github.com/AliceO2Group/AliceO2/pull/7857) 2021-12-11: Remove V0C from AOD producer by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7860](https://github.com/AliceO2Group/AliceO2/pull/7860) 2021-12-10: Include TPC unconstrained track to S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7862](https://github.com/AliceO2Group/AliceO2/pull/7862) 2021-12-10: Set default Alpide noise to 1e-8 (was 1e-7) by [@shahor02](https://github.com/shahor02)
 - [\#7863](https://github.com/AliceO2Group/AliceO2/pull/7863) 2021-12-11: Fix in refit of TPC-ITSAB tracks in TRD matching by [@shahor02](https://github.com/shahor02)
