@@ -23,6 +23,7 @@
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
+- [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -52,6 +53,7 @@
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
+- [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 - [\#7830](https://github.com/AliceO2Group/AliceO2/pull/7830) 2021-12-07: Fix FairLogger LOG(FATAL) by [@ktf](https://github.com/ktf)
 - [\#7831](https://github.com/AliceO2Group/AliceO2/pull/7831) 2021-12-11: GlobalFwdMatcher: add support for external matching cut function by [@rpezzi](https://github.com/rpezzi)
 - [\#7834](https://github.com/AliceO2Group/AliceO2/pull/7834) 2021-12-09: MRRTF-158: more MCH elecmap functions to get nof pads and ds per FeeId by [@aphecetche](https://github.com/aphecetche)
@@ -99,6 +101,7 @@
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
+- [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#7817](https://github.com/AliceO2Group/AliceO2/pull/7817) 2021-12-06: jobutils improvements by [@sawenzel](https://github.com/sawenzel)
