@@ -10,6 +10,7 @@
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
+- [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7769](https://github.com/AliceO2Group/AliceO2/pull/7769) 2021-12-06: TRD remove straggling error output and add option for trigger fix by [@bazinski](https://github.com/bazinski)
 - [\#7774](https://github.com/AliceO2Group/AliceO2/pull/7774) 2021-12-02: [EMCAL-729] Add compression of trigger bits by [@mfasDa](https://github.com/mfasDa)
@@ -23,6 +24,7 @@
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
+- [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7766](https://github.com/AliceO2Group/AliceO2/pull/7766) 2021-11-30: fix in TOF latency by [@noferini](https://github.com/noferini)
 - [\#7767](https://github.com/AliceO2Group/AliceO2/pull/7767) 2021-11-30: MCH: speedup identification of used cluster combinations by [@pillot](https://github.com/pillot)
@@ -58,6 +60,7 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7860](https://github.com/AliceO2Group/AliceO2/pull/7860) 2021-12-10: Include TPC unconstrained track to S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7862](https://github.com/AliceO2Group/AliceO2/pull/7862) 2021-12-10: Set default Alpide noise to 1e-8 (was 1e-7) by [@shahor02](https://github.com/shahor02)
+- [\#7863](https://github.com/AliceO2Group/AliceO2/pull/7863) 2021-12-11: Fix in refit of TPC-ITSAB tracks in TRD matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
