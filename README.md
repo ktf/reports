@@ -71,7 +71,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7772](https://github.com/AliceO2Group/AliceO2/pull/7772) 2021-11-30: Drop old example for FLP Qualification process by [@ktf](https://github.com/ktf)
 - [\#7777](https://github.com/AliceO2Group/AliceO2/pull/7777) 2021-12-08: DPL Analysis: add natan2() node for expressions by [@aalkin](https://github.com/aalkin)
 - [\#7780](https://github.com/AliceO2Group/AliceO2/pull/7780) 2021-12-07: DPL Analysis: event mixing: allow for creating empty combinations by [@saganatt](https://github.com/saganatt)
 - [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
