@@ -26,7 +26,6 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7776](https://github.com/AliceO2Group/AliceO2/pull/7776) 2021-12-02: add time cut for T0 participants by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7782](https://github.com/AliceO2Group/AliceO2/pull/7782) 2021-12-06: Use TOF Utils to subtract BC time to tofSignal by [@njacazio](https://github.com/njacazio)
 - [\#7783](https://github.com/AliceO2Group/AliceO2/pull/7783) 2021-12-02: [Global Fwd Tracking] Improve configuration of MFTMCH matching by [@rpezzi](https://github.com/rpezzi)

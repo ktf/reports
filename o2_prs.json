@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-02T08:59:33Z",
-            "title": "add time cut for T0 participants",
-            "number": 7776,
-            "author": {
-              "login": "AllaMaevskaya"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/reconstruction/src/CollisionTimeRecoTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-08T12:36:25Z",
             "title": "DPL Analysis: add natan2() node for expressions",
             "number": 7777,
@@ -4810,6 +4790,41 @@
                 {
                   "node": {
                     "path": "prodtests/sim_challenge.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Make FileWriterSpec buffer data until all sectors received",
+            "number": 7876,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/FileWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/FileWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-krypton-clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-krypton-raw-filter.cxx"
                   }
                 }
               ]
