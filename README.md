@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
+- [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
@@ -85,6 +86,7 @@
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7824](https://github.com/AliceO2Group/AliceO2/pull/7824) 2021-12-08: print branch type in exception by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7826](https://github.com/AliceO2Group/AliceO2/pull/7826) 2021-12-08: DPL: support VariantType::Dict in merged workflows by [@ktf](https://github.com/ktf)
+- [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 - [\#7829](https://github.com/AliceO2Group/AliceO2/pull/7829) 2021-12-08: DPL Analysis: fix VLA reading by [@aalkin](https://github.com/aalkin)
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
 - [\#7839](https://github.com/AliceO2Group/AliceO2/pull/7839) 2021-12-08: DPL: actually populate Dict with associated ptree by [@ktf](https://github.com/ktf)
@@ -94,6 +96,7 @@
 - [\#7856](https://github.com/AliceO2Group/AliceO2/pull/7856) 2021-12-10: DPL: use fatal to report uncaught exceptions by [@ktf](https://github.com/ktf)
 - [\#7859](https://github.com/AliceO2Group/AliceO2/pull/7859) 2021-12-11: DPL: simplify output on double Ctrl-C by [@ktf](https://github.com/ktf)
 - [\#7864](https://github.com/AliceO2Group/AliceO2/pull/7864) 2021-12-11: DPL: double the number of processes which can be created by the driver by [@ktf](https://github.com/ktf)
+- [\#7866](https://github.com/AliceO2Group/AliceO2/pull/7866) 2021-12-14: [O2-2712] DPL Analysis: add an exception on invalid index access by [@aalkin](https://github.com/aalkin)
 - [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
