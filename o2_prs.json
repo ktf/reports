@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] [MRRtF-150] improved digits time computation",
-            "number": 7775,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-12-02T08:59:33Z",
             "title": "add time cut for T0 participants",
@@ -4795,6 +4770,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes and improvements for Global Forward Matching",
+            "number": 7875,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoFwd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/sim_challenge.sh"
                   }
                 }
               ]
