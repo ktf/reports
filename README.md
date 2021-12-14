@@ -96,6 +96,7 @@
 - [\#7864](https://github.com/AliceO2Group/AliceO2/pull/7864) 2021-12-11: DPL: double the number of processes which can be created by the driver by [@ktf](https://github.com/ktf)
 - [\#7866](https://github.com/AliceO2Group/AliceO2/pull/7866) 2021-12-14: [O2-2712] DPL Analysis: add an exception on invalid index access by [@aalkin](https://github.com/aalkin)
 - [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
+- [\#7874](https://github.com/AliceO2Group/AliceO2/pull/7874) 2021-12-14: DPL Analysis: fix algorithm to clean inputs based on process switches by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
