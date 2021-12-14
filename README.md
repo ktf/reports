@@ -66,6 +66,7 @@
 - [\#7865](https://github.com/AliceO2Group/AliceO2/pull/7865) 2021-12-13: Fix in bi-square weights calculation by [@shahor02](https://github.com/shahor02)
 - [\#7869](https://github.com/AliceO2Group/AliceO2/pull/7869) 2021-12-14: [MCH] add protections by [@pillot](https://github.com/pillot)
 - [\#7871](https://github.com/AliceO2Group/AliceO2/pull/7871) 2021-12-14: TPC: Restructure pad-wise calibration, implement missing workflows by [@wiechula](https://github.com/wiechula)
+- [\#7872](https://github.com/AliceO2Group/AliceO2/pull/7872) 2021-12-14: Send dummy output if data was not found in TF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
