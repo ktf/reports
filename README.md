@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
@@ -72,7 +71,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
 - [\#7789](https://github.com/AliceO2Group/AliceO2/pull/7789) 2021-12-03: [OCTRL-586] AliECS dump: include queues sizes by [@knopers8](https://github.com/knopers8)
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
 - [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)

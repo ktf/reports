@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-07T14:24:05Z",
-            "title": "DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and +=",
-            "number": 7781,
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-06T11:06:12Z",
             "title": "Use TOF Utils to subtract BC time to tofSignal",
             "number": 7782,
@@ -4555,6 +4525,31 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/workflow/ccdb-populator-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: get rid of mutex for RegionInfo events",
+            "number": 7881,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
