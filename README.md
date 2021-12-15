@@ -95,6 +95,7 @@
 - [\#7859](https://github.com/AliceO2Group/AliceO2/pull/7859) 2021-12-11: DPL: simplify output on double Ctrl-C by [@ktf](https://github.com/ktf)
 - [\#7864](https://github.com/AliceO2Group/AliceO2/pull/7864) 2021-12-11: DPL: double the number of processes which can be created by the driver by [@ktf](https://github.com/ktf)
 - [\#7866](https://github.com/AliceO2Group/AliceO2/pull/7866) 2021-12-14: [O2-2712] DPL Analysis: add an exception on invalid index access by [@aalkin](https://github.com/aalkin)
+- [\#7867](https://github.com/AliceO2Group/AliceO2/pull/7867) 2021-12-15: DPL Analysis: update advanced indices by [@aalkin](https://github.com/aalkin)
 - [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
 - [\#7874](https://github.com/AliceO2Group/AliceO2/pull/7874) 2021-12-14: DPL Analysis: fix algorithm to clean inputs based on process switches by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
