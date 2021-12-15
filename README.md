@@ -49,6 +49,7 @@
 - [\#7831](https://github.com/AliceO2Group/AliceO2/pull/7831) 2021-12-11: GlobalFwdMatcher: add support for external matching cut function by [@rpezzi](https://github.com/rpezzi)
 - [\#7834](https://github.com/AliceO2Group/AliceO2/pull/7834) 2021-12-09: MRRTF-158: more MCH elecmap functions to get nof pads and ds per FeeId by [@aphecetche](https://github.com/aphecetche)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
+- [\#7841](https://github.com/AliceO2Group/AliceO2/pull/7841) 2021-12-15: Use VMC standalone by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [\#7846](https://github.com/AliceO2Group/AliceO2/pull/7846) 2021-12-10: Fix T0 filling by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
