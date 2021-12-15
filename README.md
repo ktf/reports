@@ -5,7 +5,6 @@
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
-- [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
@@ -13,7 +12,6 @@
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
 - [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
@@ -26,7 +24,6 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7782](https://github.com/AliceO2Group/AliceO2/pull/7782) 2021-12-06: Use TOF Utils to subtract BC time to tofSignal by [@njacazio](https://github.com/njacazio)
 - [\#7783](https://github.com/AliceO2Group/AliceO2/pull/7783) 2021-12-02: [Global Fwd Tracking] Improve configuration of MFTMCH matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
@@ -99,7 +96,6 @@
 - [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
 - [\#7874](https://github.com/AliceO2Group/AliceO2/pull/7874) 2021-12-14: DPL Analysis: fix algorithm to clean inputs based on process switches by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
-- [\#7778](https://github.com/AliceO2Group/AliceO2/pull/7778) 2021-12-03: Configure CCDB server via NameConf::mCCDBServer and NameConf::getCCDBServer() by [@shahor02](https://github.com/shahor02)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
