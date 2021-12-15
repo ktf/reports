@@ -71,7 +71,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7780](https://github.com/AliceO2Group/AliceO2/pull/7780) 2021-12-07: DPL Analysis: event mixing: allow for creating empty combinations by [@saganatt](https://github.com/saganatt)
 - [\#7781](https://github.com/AliceO2Group/AliceO2/pull/7781) 2021-12-07: DPL Analysis: event mixing: Move GroupSlicer to a separate file, add operator+ and += by [@saganatt](https://github.com/saganatt)
 - [\#7789](https://github.com/AliceO2Group/AliceO2/pull/7789) 2021-12-03: [OCTRL-586] AliECS dump: include queues sizes by [@knopers8](https://github.com/knopers8)
 - [\#7795](https://github.com/AliceO2Group/AliceO2/pull/7795) 2021-12-03: DPL: allow for "Dict" config param spec by [@ktf](https://github.com/ktf)
