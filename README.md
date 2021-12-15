@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
+- [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
@@ -93,6 +94,7 @@
 - [\#7867](https://github.com/AliceO2Group/AliceO2/pull/7867) 2021-12-15: DPL Analysis: update advanced indices by [@aalkin](https://github.com/aalkin)
 - [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
 - [\#7874](https://github.com/AliceO2Group/AliceO2/pull/7874) 2021-12-14: DPL Analysis: fix algorithm to clean inputs based on process switches by [@aalkin](https://github.com/aalkin)
+- [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7814](https://github.com/AliceO2Group/AliceO2/pull/7814) 2021-12-05: Do not have local ccdb URL parameters in configKeyValues initialized from NameConf by [@davidrohr](https://github.com/davidrohr)
