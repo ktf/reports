@@ -65,6 +65,7 @@
 - [\#7872](https://github.com/AliceO2Group/AliceO2/pull/7872) 2021-12-14: Send dummy output if data was not found in TF by [@shahor02](https://github.com/shahor02)
 - [\#7873](https://github.com/AliceO2Group/AliceO2/pull/7873) 2021-12-14: MCH: remove unnecessary links to mapping by [@pillot](https://github.com/pillot)
 - [\#7876](https://github.com/AliceO2Group/AliceO2/pull/7876) 2021-12-15: TPC: Make FileWriterSpec buffer data until all sectors received by [@wiechula](https://github.com/wiechula)
+- [\#7880](https://github.com/AliceO2Group/AliceO2/pull/7880) 2021-12-15: Default for CCDB populator set from NameConf.mCCDBServer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
