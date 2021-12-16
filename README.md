@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
+- [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7878](https://github.com/AliceO2Group/AliceO2/pull/7878) 2021-12-16: DPL Analysis: make sure the partitions are set once per DF by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
@@ -47,6 +48,7 @@
 - [\#7841](https://github.com/AliceO2Group/AliceO2/pull/7841) 2021-12-15: Use VMC standalone by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7842](https://github.com/AliceO2Group/AliceO2/pull/7842) 2021-12-09: MRRTF-161: move MCH EntropyDecoder out of MCHWorkflow lib by [@aphecetche](https://github.com/aphecetche)
 - [\#7846](https://github.com/AliceO2Group/AliceO2/pull/7846) 2021-12-10: Fix T0 filling by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7854](https://github.com/AliceO2Group/AliceO2/pull/7854) 2021-12-11: MRRTF-157: add the concept of trackable ROF for MCH digits by [@aphecetche](https://github.com/aphecetche)
 - [\#7857](https://github.com/AliceO2Group/AliceO2/pull/7857) 2021-12-11: Remove V0C from AOD producer by [@jgrosseo](https://github.com/jgrosseo)
@@ -81,6 +83,7 @@
 - [\#7832](https://github.com/AliceO2Group/AliceO2/pull/7832) 2021-12-08: DPL: do not exit with 0 on error by [@ktf](https://github.com/ktf)
 - [\#7839](https://github.com/AliceO2Group/AliceO2/pull/7839) 2021-12-08: DPL: actually populate Dict with associated ptree by [@ktf](https://github.com/ktf)
 - [\#7847](https://github.com/AliceO2Group/AliceO2/pull/7847) 2021-12-09: DPL Analysis: Add interleaved_pack_t and unique_pack_t by [@saganatt](https://github.com/saganatt)
+- [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 - [\#7853](https://github.com/AliceO2Group/AliceO2/pull/7853) 2021-12-10: DPL: close (almost) all file descriptors before forking by [@ktf](https://github.com/ktf)
 - [\#7856](https://github.com/AliceO2Group/AliceO2/pull/7856) 2021-12-10: DPL: use fatal to report uncaught exceptions by [@ktf](https://github.com/ktf)
