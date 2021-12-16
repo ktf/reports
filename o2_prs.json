@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Suppress unneeded clusters request by AOD producer",
-            "number": 7787,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/VtxTrackRef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-12-07T07:29:31Z",
             "title": "Fixing range of phi parameter for MCH tracks in AOD producer",
@@ -4620,6 +4580,46 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/run/runCalibOffline.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: demangle stacktraces, if possible.",
+            "number": 7887,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/RuntimeError.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/src/RuntimeError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/test_RuntimeError.cxx"
                   }
                 }
               ]
