@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-02T10:58:27Z",
-            "title": "[Global Fwd Tracking] Improve configuration of MFTMCH matching",
-            "number": 7783,
-            "author": {
-              "login": "rpezzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwd.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-02T15:30:53Z",
             "title": "RecoContainer: Better support for MFTMCH and MFTMCHMID tracks",
             "number": 7784,
@@ -4545,6 +4515,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Modified CCDB server configration in MFT condition",
+            "number": 7883,
+            "author": {
+              "login": "syano0822"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/macros/makeMFTCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/macros/readMFTDCSentries.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/mft-dcs-data-workflow.cxx"
                   }
                 }
               ]

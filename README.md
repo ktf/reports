@@ -24,7 +24,6 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7783](https://github.com/AliceO2Group/AliceO2/pull/7783) 2021-12-02: [Global Fwd Tracking] Improve configuration of MFTMCH matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7784](https://github.com/AliceO2Group/AliceO2/pull/7784) 2021-12-02: RecoContainer: Better support for MFTMCH and MFTMCHMID tracks by [@rpezzi](https://github.com/rpezzi)
 - [\#7785](https://github.com/AliceO2Group/AliceO2/pull/7785) 2021-12-03: [EMCAL-645] Make cell index range in event handler const by [@mfasDa](https://github.com/mfasDa)
 - [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
