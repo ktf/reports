@@ -23,7 +23,6 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7786](https://github.com/AliceO2Group/AliceO2/pull/7786) 2021-12-02: Fixes MCH Digits Labels by [@rpezzi](https://github.com/rpezzi)
 - [\#7788](https://github.com/AliceO2Group/AliceO2/pull/7788) 2021-12-07: Fixing range of phi parameter for MCH tracks in AOD producer by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7791](https://github.com/AliceO2Group/AliceO2/pull/7791) 2021-12-09: IDCs: Adding functionality to not group pads near the sector edges by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7792](https://github.com/AliceO2Group/AliceO2/pull/7792) 2021-12-03: TPC QC: proper name for N_RawDigits plot by [@tklemenz](https://github.com/tklemenz)
