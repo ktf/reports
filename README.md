@@ -24,7 +24,6 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7792](https://github.com/AliceO2Group/AliceO2/pull/7792) 2021-12-03: TPC QC: proper name for N_RawDigits plot by [@tklemenz](https://github.com/tklemenz)
 - [\#7793](https://github.com/AliceO2Group/AliceO2/pull/7793) 2021-12-15: Add TRD tracking QC (for expert analysis) by [@martenole](https://github.com/martenole)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7799](https://github.com/AliceO2Group/AliceO2/pull/7799) 2021-12-03: Minor fixes on Global Reader and sim_challenge.sh by [@rpezzi](https://github.com/rpezzi)
