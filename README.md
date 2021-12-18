@@ -13,6 +13,7 @@
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7852](https://github.com/AliceO2Group/AliceO2/pull/7852) 2021-12-09: DPL: do not initialise InfoLogger when not requested by [@ktf](https://github.com/ktf)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
+- [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
 - [\#7804](https://github.com/AliceO2Group/AliceO2/pull/7804) 2021-12-03: Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer by [@shahor02](https://github.com/shahor02)
@@ -60,6 +61,7 @@
 - [\#7873](https://github.com/AliceO2Group/AliceO2/pull/7873) 2021-12-14: MCH: remove unnecessary links to mapping by [@pillot](https://github.com/pillot)
 - [\#7876](https://github.com/AliceO2Group/AliceO2/pull/7876) 2021-12-15: TPC: Make FileWriterSpec buffer data until all sectors received by [@wiechula](https://github.com/wiechula)
 - [\#7880](https://github.com/AliceO2Group/AliceO2/pull/7880) 2021-12-15: Default for CCDB populator set from NameConf.mCCDBServer by [@shahor02](https://github.com/shahor02)
+- [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
