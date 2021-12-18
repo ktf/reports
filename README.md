@@ -29,7 +29,6 @@
 - [\#7888](https://github.com/AliceO2Group/AliceO2/pull/7888) 2021-12-18: Add helper method to TRD Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
-- [\#7793](https://github.com/AliceO2Group/AliceO2/pull/7793) 2021-12-15: Add TRD tracking QC (for expert analysis) by [@martenole](https://github.com/martenole)
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 - [\#7799](https://github.com/AliceO2Group/AliceO2/pull/7799) 2021-12-03: Minor fixes on Global Reader and sim_challenge.sh by [@rpezzi](https://github.com/rpezzi)
 - [\#7800](https://github.com/AliceO2Group/AliceO2/pull/7800) 2021-12-08: Optional mat.corr., full propagation and refit in DCAFitter by [@shahor02](https://github.com/shahor02)
