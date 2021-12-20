@@ -17,7 +17,6 @@
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#7794](https://github.com/AliceO2Group/AliceO2/pull/7794) 2021-12-02: MCTrackNavigator: Access Daughter0 and Daughter1 by [@sawenzel](https://github.com/sawenzel)
 - [\#7804](https://github.com/AliceO2Group/AliceO2/pull/7804) 2021-12-03: Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer by [@shahor02](https://github.com/shahor02)
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
 - [\#7809](https://github.com/AliceO2Group/AliceO2/pull/7809) 2021-12-05: Change URL of FIT LUTs to <DET>/Config/LookupTable by [@shahor02](https://github.com/shahor02)
