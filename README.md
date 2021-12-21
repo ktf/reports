@@ -73,7 +73,6 @@
 ## Recent developments in O2 - Examples
 - [\#7798](https://github.com/AliceO2Group/AliceO2/pull/7798) 2021-12-03: Configure CCDB server via NameConf, Move NameConf to CommonUtils, and use it also for BasicCCDBManager by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7796](https://github.com/AliceO2Group/AliceO2/pull/7796) 2021-12-03: DPL Analysis: make sure all supported types can be used in vector columns by [@aalkin](https://github.com/aalkin)
 - [\#7797](https://github.com/AliceO2Group/AliceO2/pull/7797) 2021-12-09: DPL Analysis: cleanups in TreeToTable code by [@aalkin](https://github.com/aalkin)
 - [\#7803](https://github.com/AliceO2Group/AliceO2/pull/7803) 2021-12-03: DPL: improve quitting logic by [@ktf](https://github.com/ktf)
 - [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
