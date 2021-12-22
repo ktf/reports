@@ -30,7 +30,6 @@
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#7800](https://github.com/AliceO2Group/AliceO2/pull/7800) 2021-12-08: Optional mat.corr., full propagation and refit in DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#7802](https://github.com/AliceO2Group/AliceO2/pull/7802) 2021-12-03: MCH: add 2 getters to speedup the clustering by [@pillot](https://github.com/pillot)
 - [\#7804](https://github.com/AliceO2Group/AliceO2/pull/7804) 2021-12-03: Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer by [@shahor02](https://github.com/shahor02)
 - [\#7805](https://github.com/AliceO2Group/AliceO2/pull/7805) 2021-12-05: TRD calibration classes cleanup by [@martenole](https://github.com/martenole)
