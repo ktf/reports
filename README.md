@@ -88,6 +88,7 @@
 - [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7878](https://github.com/AliceO2Group/AliceO2/pull/7878) 2021-12-16: DPL Analysis: make sure the partitions are set once per DF by [@aalkin](https://github.com/aalkin)
 - [\#7879](https://github.com/AliceO2Group/AliceO2/pull/7879) 2021-12-16: AliECS dump: _plain_cmdline as a multiline block by [@knopers8](https://github.com/knopers8)
+- [\#7881](https://github.com/AliceO2Group/AliceO2/pull/7881) 2021-12-24: DPL: get rid of mutex for RegionInfo events by [@ktf](https://github.com/ktf)
 - [\#7882](https://github.com/AliceO2Group/AliceO2/pull/7882) 2021-12-16: DPL: force exit on error after 15 seconds by [@ktf](https://github.com/ktf)
 - [\#7890](https://github.com/AliceO2Group/AliceO2/pull/7890) 2021-12-18: DPL Analysis: groundwork for caching the slicing information of a table by [@aalkin](https://github.com/aalkin)
 - [\#7891](https://github.com/AliceO2Group/AliceO2/pull/7891) 2021-12-18: Propaedeutic for CCDB - DPL integration by [@ktf](https://github.com/ktf)
