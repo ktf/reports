@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-03T15:28:17Z",
-            "title": "MCH: add 2 getters to speedup the clustering",
-            "number": 7802,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterOriginal.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterOriginal.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-03T21:00:51Z",
             "title": "DPL: improve quitting logic",
             "number": 7803,
@@ -4260,6 +4235,71 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/mft-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Better cuts for calibration and reconstruction",
+            "number": 7902,
+            "author": {
+              "login": "AllaMaevskaya"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0ChannelTimeTimeSlotContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelTimeTimeSlotContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0Calibration-Workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibration-Workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0ChannelTimeCalibrationSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0TFProcessor-Workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/CollisionTimeRecoTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/DigitReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
                   }
                 }
               ]
