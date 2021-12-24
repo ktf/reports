@@ -90,6 +90,7 @@
 - [\#7879](https://github.com/AliceO2Group/AliceO2/pull/7879) 2021-12-16: AliECS dump: _plain_cmdline as a multiline block by [@knopers8](https://github.com/knopers8)
 - [\#7881](https://github.com/AliceO2Group/AliceO2/pull/7881) 2021-12-24: DPL: get rid of mutex for RegionInfo events by [@ktf](https://github.com/ktf)
 - [\#7882](https://github.com/AliceO2Group/AliceO2/pull/7882) 2021-12-16: DPL: force exit on error after 15 seconds by [@ktf](https://github.com/ktf)
+- [\#7887](https://github.com/AliceO2Group/AliceO2/pull/7887) 2021-12-24: DPL: demangle stacktraces, if possible. by [@ktf](https://github.com/ktf)
 - [\#7890](https://github.com/AliceO2Group/AliceO2/pull/7890) 2021-12-18: DPL Analysis: groundwork for caching the slicing information of a table by [@aalkin](https://github.com/aalkin)
 - [\#7891](https://github.com/AliceO2Group/AliceO2/pull/7891) 2021-12-18: Propaedeutic for CCDB - DPL integration by [@ktf](https://github.com/ktf)
 - [\#7893](https://github.com/AliceO2Group/AliceO2/pull/7893) 2021-12-19: Avoid new libuv API by [@ktf](https://github.com/ktf)
