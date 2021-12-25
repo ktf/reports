@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-03T21:00:51Z",
-            "title": "DPL: improve quitting logic",
-            "number": 7803,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-03T20:48:05Z",
             "title": "Fixes: CTP/Config -> CTP/Config/Config + suppress ccdb timestamp in ZDC digitizer",
             "number": 7804,
@@ -4300,6 +4280,26 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrationDevice.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not overwrite ROCR_VISIBLE_DEVICES if set by scheduler",
+            "number": 7903,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
