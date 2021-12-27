@@ -91,6 +91,5 @@
 - [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#7817](https://github.com/AliceO2Group/AliceO2/pull/7817) 2021-12-06: jobutils improvements by [@sawenzel](https://github.com/sawenzel)
 - [\#7833](https://github.com/AliceO2Group/AliceO2/pull/7833) 2021-12-09: [QC-624] Mergers: use labels to match in customizeInfrastructure by [@knopers8](https://github.com/knopers8)
 - [\#7884](https://github.com/AliceO2Group/AliceO2/pull/7884) 2021-12-18: [QC-715] Mergers: forbid trees larger than 100MB by [@knopers8](https://github.com/knopers8)
