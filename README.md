@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7884](https://github.com/AliceO2Group/AliceO2/pull/7884) 2021-12-18: [QC-715] Mergers: forbid trees larger than 100MB by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 - [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
@@ -18,7 +17,6 @@
 - [\#7897](https://github.com/AliceO2Group/AliceO2/pull/7897) 2021-12-21: o2-sim: Fix inconsistency in timestamp assignment by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
-- [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 - [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 - [\#7861](https://github.com/AliceO2Group/AliceO2/pull/7861) 2021-12-11: Fixes/macros for new GRP objects, retrofit Pilot Beam GRPs by [@shahor02](https://github.com/shahor02)
@@ -28,9 +26,7 @@
 ## Recent developments in O2 - Detectors
 - [\#7810](https://github.com/AliceO2Group/AliceO2/pull/7810) 2021-12-09: Allow PV contributors, refit with mat.corr. in S.Vertexing by [@shahor02](https://github.com/shahor02)
 - [\#7819](https://github.com/AliceO2Group/AliceO2/pull/7819) 2021-12-08: TRD merge CommonParam into SimParam and more by [@martenole](https://github.com/martenole)
-- [\#7820](https://github.com/AliceO2Group/AliceO2/pull/7820) 2021-12-07: AOD: also keep particles marked as keepPhysics by [@sawenzel](https://github.com/sawenzel)
 - [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
-- [\#7830](https://github.com/AliceO2Group/AliceO2/pull/7830) 2021-12-07: Fix FairLogger LOG(FATAL) by [@ktf](https://github.com/ktf)
 - [\#7831](https://github.com/AliceO2Group/AliceO2/pull/7831) 2021-12-11: GlobalFwdMatcher: add support for external matching cut function by [@rpezzi](https://github.com/rpezzi)
 - [\#7834](https://github.com/AliceO2Group/AliceO2/pull/7834) 2021-12-09: MRRTF-158: more MCH elecmap functions to get nof pads and ds per FeeId by [@aphecetche](https://github.com/aphecetche)
 - [\#7835](https://github.com/AliceO2Group/AliceO2/pull/7835) 2021-12-08: o2-sim: Introduce persistent aligned geometry by [@sawenzel](https://github.com/sawenzel)
@@ -57,10 +53,8 @@
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
-- [\#7813](https://github.com/AliceO2Group/AliceO2/pull/7813) 2021-12-07: Event Display is now capable of displaying tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#7850](https://github.com/AliceO2Group/AliceO2/pull/7850) 2021-12-10: Revert "To be reverted, add temporary dummy file for QC compatibility" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#7815](https://github.com/AliceO2Group/AliceO2/pull/7815) 2021-12-07: DPL Analysis: use internal selection cache for partitions by [@aalkin](https://github.com/aalkin)
 - [\#7824](https://github.com/AliceO2Group/AliceO2/pull/7824) 2021-12-08: print branch type in exception by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7826](https://github.com/AliceO2Group/AliceO2/pull/7826) 2021-12-08: DPL: support VariantType::Dict in merged workflows by [@ktf](https://github.com/ktf)
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
