@@ -55,6 +55,7 @@
 - [\#7890](https://github.com/AliceO2Group/AliceO2/pull/7890) 2021-12-18: DPL Analysis: groundwork for caching the slicing information of a table by [@aalkin](https://github.com/aalkin)
 - [\#7891](https://github.com/AliceO2Group/AliceO2/pull/7891) 2021-12-18: Propaedeutic for CCDB - DPL integration by [@ktf](https://github.com/ktf)
 - [\#7893](https://github.com/AliceO2Group/AliceO2/pull/7893) 2021-12-19: Avoid new libuv API by [@ktf](https://github.com/ktf)
+- [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#7822](https://github.com/AliceO2Group/AliceO2/pull/7822) 2021-12-11: TOF full access to ccdb calibration and anchoring for MC by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Utilities
