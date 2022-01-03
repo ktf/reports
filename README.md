@@ -11,6 +11,7 @@
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 - [\#7897](https://github.com/AliceO2Group/AliceO2/pull/7897) 2021-12-21: o2-sim: Fix inconsistency in timestamp assignment by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
+- [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7888](https://github.com/AliceO2Group/AliceO2/pull/7888) 2021-12-18: Add helper method to TRD Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
@@ -21,6 +22,7 @@
 - [\#7871](https://github.com/AliceO2Group/AliceO2/pull/7871) 2021-12-14: TPC: Restructure pad-wise calibration, implement missing workflows by [@wiechula](https://github.com/wiechula)
 - [\#7872](https://github.com/AliceO2Group/AliceO2/pull/7872) 2021-12-14: Send dummy output if data was not found in TF by [@shahor02](https://github.com/shahor02)
 - [\#7873](https://github.com/AliceO2Group/AliceO2/pull/7873) 2021-12-14: MCH: remove unnecessary links to mapping by [@pillot](https://github.com/pillot)
+- [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7876](https://github.com/AliceO2Group/AliceO2/pull/7876) 2021-12-15: TPC: Make FileWriterSpec buffer data until all sectors received by [@wiechula](https://github.com/wiechula)
 - [\#7880](https://github.com/AliceO2Group/AliceO2/pull/7880) 2021-12-15: Default for CCDB populator set from NameConf.mCCDBServer by [@shahor02](https://github.com/shahor02)
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
