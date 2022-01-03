@@ -28,6 +28,7 @@
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 - [\#7888](https://github.com/AliceO2Group/AliceO2/pull/7888) 2021-12-18: Add helper method to TRD Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
