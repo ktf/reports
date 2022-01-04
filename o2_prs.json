@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-05T12:22:39Z",
-            "title": "FST: Use alice-ccdb.cern.sh for FIT CCDB",
-            "number": 7811,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-05T20:59:05Z",
             "title": "Revert \"FST/CCDB: Temporarily stick to ccdb-test.cern.ch:8080 as defa…",
             "number": 7812,
@@ -4053,8 +4028,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-01-04T14:03:43Z",
             "title": "[EMCAL-637, O2-2683] Fix extruding DCAL supermodules",
             "number": 7909,
             "author": {
@@ -4090,6 +4065,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add option to register only selected shm segment IDs on the GPU, to speed up workflow startup",
+            "number": 7911,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
