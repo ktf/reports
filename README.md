@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7884](https://github.com/AliceO2Group/AliceO2/pull/7884) 2021-12-18: [QC-715] Mergers: forbid trees larger than 100MB by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 - [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7878](https://github.com/AliceO2Group/AliceO2/pull/7878) 2021-12-16: DPL Analysis: make sure the partitions are set once per DF by [@aalkin](https://github.com/aalkin)
@@ -18,10 +17,6 @@
 ## Recent developments in O2 - Detectors
 - [\#7841](https://github.com/AliceO2Group/AliceO2/pull/7841) 2021-12-15: Use VMC standalone by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
-- [\#7869](https://github.com/AliceO2Group/AliceO2/pull/7869) 2021-12-14: [MCH] add protections by [@pillot](https://github.com/pillot)
-- [\#7871](https://github.com/AliceO2Group/AliceO2/pull/7871) 2021-12-14: TPC: Restructure pad-wise calibration, implement missing workflows by [@wiechula](https://github.com/wiechula)
-- [\#7872](https://github.com/AliceO2Group/AliceO2/pull/7872) 2021-12-14: Send dummy output if data was not found in TF by [@shahor02](https://github.com/shahor02)
-- [\#7873](https://github.com/AliceO2Group/AliceO2/pull/7873) 2021-12-14: MCH: remove unnecessary links to mapping by [@pillot](https://github.com/pillot)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7876](https://github.com/AliceO2Group/AliceO2/pull/7876) 2021-12-15: TPC: Make FileWriterSpec buffer data until all sectors received by [@wiechula](https://github.com/wiechula)
 - [\#7880](https://github.com/AliceO2Group/AliceO2/pull/7880) 2021-12-15: Default for CCDB populator set from NameConf.mCCDBServer by [@shahor02](https://github.com/shahor02)
@@ -32,12 +27,8 @@
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 - [\#7906](https://github.com/AliceO2Group/AliceO2/pull/7906) 2022-01-03: [MCH] new option to write digits associated to tracks by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
-- [\#7827](https://github.com/AliceO2Group/AliceO2/pull/7827) 2021-12-14: DPL Analysis: Event mixing interface by [@saganatt](https://github.com/saganatt)
 - [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
-- [\#7866](https://github.com/AliceO2Group/AliceO2/pull/7866) 2021-12-14: [O2-2712] DPL Analysis: add an exception on invalid index access by [@aalkin](https://github.com/aalkin)
 - [\#7867](https://github.com/AliceO2Group/AliceO2/pull/7867) 2021-12-15: DPL Analysis: update advanced indices by [@aalkin](https://github.com/aalkin)
-- [\#7868](https://github.com/AliceO2Group/AliceO2/pull/7868) 2021-12-14: DPL: fix quoting environment by [@ktf](https://github.com/ktf)
-- [\#7874](https://github.com/AliceO2Group/AliceO2/pull/7874) 2021-12-14: DPL Analysis: fix algorithm to clean inputs based on process switches by [@aalkin](https://github.com/aalkin)
 - [\#7877](https://github.com/AliceO2Group/AliceO2/pull/7877) 2021-12-15: use natan2, index for ambigoustracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7878](https://github.com/AliceO2Group/AliceO2/pull/7878) 2021-12-16: DPL Analysis: make sure the partitions are set once per DF by [@aalkin](https://github.com/aalkin)
 - [\#7879](https://github.com/AliceO2Group/AliceO2/pull/7879) 2021-12-16: AliECS dump: _plain_cmdline as a multiline block by [@knopers8](https://github.com/knopers8)
