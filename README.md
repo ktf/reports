@@ -40,5 +40,6 @@
 - [\#7891](https://github.com/AliceO2Group/AliceO2/pull/7891) 2021-12-18: Propaedeutic for CCDB - DPL integration by [@ktf](https://github.com/ktf)
 - [\#7893](https://github.com/AliceO2Group/AliceO2/pull/7893) 2021-12-19: Avoid new libuv API by [@ktf](https://github.com/ktf)
 - [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
+- [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#7884](https://github.com/AliceO2Group/AliceO2/pull/7884) 2021-12-18: [QC-715] Mergers: forbid trees larger than 100MB by [@knopers8](https://github.com/knopers8)
