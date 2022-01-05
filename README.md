@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7849](https://github.com/AliceO2Group/AliceO2/pull/7849) 2021-12-16: Moving T0 and V0 to VLAs by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7878](https://github.com/AliceO2Group/AliceO2/pull/7878) 2021-12-16: DPL Analysis: make sure the partitions are set once per DF by [@aalkin](https://github.com/aalkin)
+- [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 - [\#7897](https://github.com/AliceO2Group/AliceO2/pull/7897) 2021-12-21: o2-sim: Fix inconsistency in timestamp assignment by [@sawenzel](https://github.com/sawenzel)
@@ -35,5 +36,6 @@
 - [\#7893](https://github.com/AliceO2Group/AliceO2/pull/7893) 2021-12-19: Avoid new libuv API by [@ktf](https://github.com/ktf)
 - [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
+- [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Utilities
 - [\#7884](https://github.com/AliceO2Group/AliceO2/pull/7884) 2021-12-18: [QC-715] Mergers: forbid trees larger than 100MB by [@knopers8](https://github.com/knopers8)
