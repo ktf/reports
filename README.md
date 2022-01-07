@@ -12,6 +12,7 @@
 - [\#7888](https://github.com/AliceO2Group/AliceO2/pull/7888) 2021-12-18: Add helper method to TRD Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
+- [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
@@ -21,6 +22,7 @@
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 - [\#7906](https://github.com/AliceO2Group/AliceO2/pull/7906) 2022-01-03: [MCH] new option to write digits associated to tracks by [@pillot](https://github.com/pillot)
 - [\#7909](https://github.com/AliceO2Group/AliceO2/pull/7909) 2022-01-04: [EMCAL-637, O2-2683] Fix extruding DCAL supermodules by [@mfasDa](https://github.com/mfasDa)
+- [\#7920](https://github.com/AliceO2Group/AliceO2/pull/7920) 2022-01-07: Inroduce different default ROF lengths for ITS and MFT by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7881](https://github.com/AliceO2Group/AliceO2/pull/7881) 2021-12-24: DPL: get rid of mutex for RegionInfo events by [@ktf](https://github.com/ktf)
 - [\#7887](https://github.com/AliceO2Group/AliceO2/pull/7887) 2021-12-24: DPL: demangle stacktraces, if possible. by [@ktf](https://github.com/ktf)
