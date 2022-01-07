@@ -21,6 +21,7 @@
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 - [\#7906](https://github.com/AliceO2Group/AliceO2/pull/7906) 2022-01-03: [MCH] new option to write digits associated to tracks by [@pillot](https://github.com/pillot)
+- [\#7908](https://github.com/AliceO2Group/AliceO2/pull/7908) 2022-01-07: Fix in the setting of cosmic parameters by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7909](https://github.com/AliceO2Group/AliceO2/pull/7909) 2022-01-04: [EMCAL-637, O2-2683] Fix extruding DCAL supermodules by [@mfasDa](https://github.com/mfasDa)
 - [\#7917](https://github.com/AliceO2Group/AliceO2/pull/7917) 2022-01-07: bug fix in TOF diagnostics by [@noferini](https://github.com/noferini)
 - [\#7920](https://github.com/AliceO2Group/AliceO2/pull/7920) 2022-01-07: Inroduce different default ROF lengths for ITS and MFT by [@shahor02](https://github.com/shahor02)
