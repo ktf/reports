@@ -15,6 +15,7 @@
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
+- [\#7883](https://github.com/AliceO2Group/AliceO2/pull/7883) 2022-01-07: Modified CCDB server configration in MFT condition by [@syano0822](https://github.com/syano0822)
 - [\#7885](https://github.com/AliceO2Group/AliceO2/pull/7885) 2021-12-18: CCDBPopulator adds runNumber (if any) tag to metadata by [@shahor02](https://github.com/shahor02)
 - [\#7888](https://github.com/AliceO2Group/AliceO2/pull/7888) 2021-12-18: Add helper method to TRD Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#7889](https://github.com/AliceO2Group/AliceO2/pull/7889) 2021-12-18: [FT0] Fix uninitialized Members in Digits by [@MichaelLettrich](https://github.com/MichaelLettrich)
