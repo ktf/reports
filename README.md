@@ -28,3 +28,4 @@
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#7912](https://github.com/AliceO2Group/AliceO2/pull/7912) 2022-01-05: DPL Analysis: fall back to per-entry reading of VLA branches with >616 entries by [@aalkin](https://github.com/aalkin)
 - [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
+- [\#7914](https://github.com/AliceO2Group/AliceO2/pull/7914) 2022-01-08: DPL raw proxy: Supporting message sequences/pruned headers by [@matthiasrichter](https://github.com/matthiasrichter)
