@@ -24,7 +24,6 @@
 ## Recent developments in O2 - Framework
 - [\#7881](https://github.com/AliceO2Group/AliceO2/pull/7881) 2021-12-24: DPL: get rid of mutex for RegionInfo events by [@ktf](https://github.com/ktf)
 - [\#7887](https://github.com/AliceO2Group/AliceO2/pull/7887) 2021-12-24: DPL: demangle stacktraces, if possible. by [@ktf](https://github.com/ktf)
-- [\#7893](https://github.com/AliceO2Group/AliceO2/pull/7893) 2021-12-19: Avoid new libuv API by [@ktf](https://github.com/ktf)
 - [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#7912](https://github.com/AliceO2Group/AliceO2/pull/7912) 2022-01-05: DPL Analysis: fall back to per-entry reading of VLA branches with >616 entries by [@aalkin](https://github.com/aalkin)
