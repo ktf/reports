@@ -3,11 +3,15 @@
 ## Recent developments in O2 - Analysis
 - [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Common
+- [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
+- [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
+- [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7883](https://github.com/AliceO2Group/AliceO2/pull/7883) 2022-01-07: Modified CCDB server configration in MFT condition by [@syano0822](https://github.com/syano0822)
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
@@ -32,3 +36,5 @@
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
 - [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
+## Recent developments in O2 - Utilities
+- [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
