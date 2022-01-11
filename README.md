@@ -12,6 +12,7 @@
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
+- [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
@@ -44,5 +45,7 @@
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
 - [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7927](https://github.com/AliceO2Group/AliceO2/pull/7927) 2022-01-11: Revert "DPL raw proxy: Supporting message sequences/pruned headers" by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Steer
+- [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
