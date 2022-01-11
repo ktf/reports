@@ -5,6 +5,7 @@
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
+- [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
@@ -15,6 +16,7 @@
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7883](https://github.com/AliceO2Group/AliceO2/pull/7883) 2022-01-07: Modified CCDB server configration in MFT condition by [@syano0822](https://github.com/syano0822)
+- [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#7892](https://github.com/AliceO2Group/AliceO2/pull/7892) 2022-01-11: IDCs: Adding the possibility to group pads at the sector edges by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7895](https://github.com/AliceO2Group/AliceO2/pull/7895) 2021-12-22: TRD: fix for Vd and ExB calibration and a bit more tracking QC by [@martenole](https://github.com/martenole)
