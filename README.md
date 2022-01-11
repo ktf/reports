@@ -45,6 +45,7 @@
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
 - [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7927](https://github.com/AliceO2Group/AliceO2/pull/7927) 2022-01-11: Revert "DPL raw proxy: Supporting message sequences/pruned headers" by [@davidrohr](https://github.com/davidrohr)
+- [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
