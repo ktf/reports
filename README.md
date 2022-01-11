@@ -38,5 +38,6 @@
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
 - [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#7927](https://github.com/AliceO2Group/AliceO2/pull/7927) 2022-01-11: Revert "DPL raw proxy: Supporting message sequences/pruned headers" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#7844](https://github.com/AliceO2Group/AliceO2/pull/7844) 2022-01-11: [rANS] Reegineer Frequency Tables and Renorming by [@MichaelLettrich](https://github.com/MichaelLettrich)
