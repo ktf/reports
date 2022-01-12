@@ -33,6 +33,7 @@
 - [\#7931](https://github.com/AliceO2Group/AliceO2/pull/7931) 2022-01-11: HBFUtils.getTFTimeStamp(ir) returns time in milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#7934](https://github.com/AliceO2Group/AliceO2/pull/7934) 2022-01-12: [EMCAL-750] Add file per C-RORC, fix filenames by [@mfasDa](https://github.com/mfasDa)
+- [\#7936](https://github.com/AliceO2Group/AliceO2/pull/7936) 2022-01-12: For HMPID (C-RORC) the linkID should be treated as CRU EP in mc->raw … by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7881](https://github.com/AliceO2Group/AliceO2/pull/7881) 2021-12-24: DPL: get rid of mutex for RegionInfo events by [@ktf](https://github.com/ktf)
 - [\#7887](https://github.com/AliceO2Group/AliceO2/pull/7887) 2021-12-24: DPL: demangle stacktraces, if possible. by [@ktf](https://github.com/ktf)
