@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
+- [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
@@ -50,5 +51,6 @@
 - [\#7928](https://github.com/AliceO2Group/AliceO2/pull/7928) 2022-01-12: DPL: add ability to cache adopted messages by [@ktf](https://github.com/ktf)
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
+- [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
