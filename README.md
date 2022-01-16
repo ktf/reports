@@ -29,6 +29,7 @@
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7920](https://github.com/AliceO2Group/AliceO2/pull/7920) 2022-01-07: Inroduce different default ROF lengths for ITS and MFT by [@shahor02](https://github.com/shahor02)
 - [\#7923](https://github.com/AliceO2Group/AliceO2/pull/7923) 2022-01-08: Fix: TF rough creation time should be milliseconds by [@shahor02](https://github.com/shahor02)
+- [\#7924](https://github.com/AliceO2Group/AliceO2/pull/7924) 2022-01-16: MCH: temporarily disable time clustering in MC reco by [@aphecetche](https://github.com/aphecetche)
 - [\#7925](https://github.com/AliceO2Group/AliceO2/pull/7925) 2022-01-11: MCH: speedup cleaning of connected tracks by [@pillot](https://github.com/pillot)
 - [\#7931](https://github.com/AliceO2Group/AliceO2/pull/7931) 2022-01-11: HBFUtils.getTFTimeStamp(ir) returns time in milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
