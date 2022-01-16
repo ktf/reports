@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-10T15:04:49Z",
-            "title": "On the documentation page, group the AO2D tables into categories",
-            "number": 7855,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/ALICEO2includeFile.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/extractDataModel.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/inputCard.xml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-10T15:34:08Z",
             "title": "DPL: use fatal to report uncaught exceptions",
             "number": 7856,
@@ -3936,6 +3906,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/src/Clusterer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix cluster->pixel expansion in ITS noise calibration",
+            "number": 7955,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseSlotCalibrator.cxx"
                   }
                 }
               ]
