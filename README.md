@@ -13,6 +13,7 @@
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
+- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7883](https://github.com/AliceO2Group/AliceO2/pull/7883) 2022-01-07: Modified CCDB server configration in MFT condition by [@syano0822](https://github.com/syano0822)
@@ -33,6 +34,7 @@
 - [\#7925](https://github.com/AliceO2Group/AliceO2/pull/7925) 2022-01-11: MCH: speedup cleaning of connected tracks by [@pillot](https://github.com/pillot)
 - [\#7931](https://github.com/AliceO2Group/AliceO2/pull/7931) 2022-01-11: HBFUtils.getTFTimeStamp(ir) returns time in milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
+- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7934](https://github.com/AliceO2Group/AliceO2/pull/7934) 2022-01-12: [EMCAL-750] Add file per C-RORC, fix filenames by [@mfasDa](https://github.com/mfasDa)
 - [\#7936](https://github.com/AliceO2Group/AliceO2/pull/7936) 2022-01-12: For HMPID (C-RORC) the linkID should be treated as CRU EP in mc->raw … by [@shahor02](https://github.com/shahor02)
 - [\#7940](https://github.com/AliceO2Group/AliceO2/pull/7940) 2022-01-15: ITS threshold calibration workflow by [@ezradlesser](https://github.com/ezradlesser)
@@ -53,6 +55,7 @@
 - [\#7927](https://github.com/AliceO2Group/AliceO2/pull/7927) 2022-01-11: Revert "DPL raw proxy: Supporting message sequences/pruned headers" by [@davidrohr](https://github.com/davidrohr)
 - [\#7928](https://github.com/AliceO2Group/AliceO2/pull/7928) 2022-01-12: DPL: add ability to cache adopted messages by [@ktf](https://github.com/ktf)
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
+- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
