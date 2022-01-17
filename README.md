@@ -45,6 +45,7 @@
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
 - [\#7955](https://github.com/AliceO2Group/AliceO2/pull/7955) 2022-01-17: Fix cluster->pixel expansion in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 - [\#7956](https://github.com/AliceO2Group/AliceO2/pull/7956) 2022-01-17: o2-dcs-config-proxy sends separate parts for file and its name by [@shahor02](https://github.com/shahor02)
+- [\#7958](https://github.com/AliceO2Group/AliceO2/pull/7958) 2022-01-17: Move cut on min N TPC Clusters from 40 to 60 by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 - [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
