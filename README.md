@@ -43,6 +43,8 @@
 - [\#7945](https://github.com/AliceO2Group/AliceO2/pull/7945) 2022-01-14: TPC: Fix krypton workflow by [@wiechula](https://github.com/wiechula)
 - [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
+- [\#7955](https://github.com/AliceO2Group/AliceO2/pull/7955) 2022-01-17: Fix cluster->pixel expansion in ITS noise calibration by [@shahor02](https://github.com/shahor02)
+- [\#7956](https://github.com/AliceO2Group/AliceO2/pull/7956) 2022-01-17: o2-dcs-config-proxy sends separate parts for file and its name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#7904](https://github.com/AliceO2Group/AliceO2/pull/7904) 2021-12-31: Revert "Merge pull request #7881 from ktf/remove-region-callback-mutex" by [@davidrohr](https://github.com/davidrohr)
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
