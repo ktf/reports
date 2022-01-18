@@ -15,6 +15,7 @@
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
+- [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7883](https://github.com/AliceO2Group/AliceO2/pull/7883) 2022-01-07: Modified CCDB server configration in MFT condition by [@syano0822](https://github.com/syano0822)
@@ -43,6 +44,7 @@
 - [\#7944](https://github.com/AliceO2Group/AliceO2/pull/7944) 2022-01-13: Reduce ITSMFT STFDecoder verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7945](https://github.com/AliceO2Group/AliceO2/pull/7945) 2022-01-14: TPC: Fix krypton workflow by [@wiechula](https://github.com/wiechula)
 - [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
+- [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
 - [\#7955](https://github.com/AliceO2Group/AliceO2/pull/7955) 2022-01-17: Fix cluster->pixel expansion in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 - [\#7956](https://github.com/AliceO2Group/AliceO2/pull/7956) 2022-01-17: o2-dcs-config-proxy sends separate parts for file and its name by [@shahor02](https://github.com/shahor02)
