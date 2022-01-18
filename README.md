@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-56h-01: Done on 2022-01-18.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
