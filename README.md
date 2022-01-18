@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
+- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
@@ -43,6 +44,7 @@
 - [\#7943](https://github.com/AliceO2Group/AliceO2/pull/7943) 2022-01-14: Make sure V0s and cascades are sorted in VtxID(=time) by [@shahor02](https://github.com/shahor02)
 - [\#7944](https://github.com/AliceO2Group/AliceO2/pull/7944) 2022-01-13: Reduce ITSMFT STFDecoder verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7945](https://github.com/AliceO2Group/AliceO2/pull/7945) 2022-01-14: TPC: Fix krypton workflow by [@wiechula](https://github.com/wiechula)
+- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
@@ -63,6 +65,7 @@
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7942](https://github.com/AliceO2Group/AliceO2/pull/7942) 2022-01-18: [QC-310] Dump a property qcConfiguration for the QC devices by [@Barthelemy](https://github.com/Barthelemy)
+- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
