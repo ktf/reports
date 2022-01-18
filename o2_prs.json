@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-11T19:02:27Z",
-            "title": "DPL: double the number of processes which can be created by the driver",
-            "number": 7864,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-13T01:39:55Z",
             "title": "Fix in bi-square weights calculation",
             "number": 7865,
@@ -3936,6 +3916,156 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/calibration/src/NoiseCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Clusterization",
+            "number": 7964,
+            "author": {
+              "login": "gvolpe79"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/src/Cluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/src/Digit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/base/include/HMPIDBase/Param.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/src/CTFCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/simulation/src/HMPIDDigitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/simulation/src/HmpidCoder2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/ClustersToRootSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/DigitsToClustersSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/DigitsToRootSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/PedestalsCalculationSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/ClustersToRootSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/DigitsToClustersSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/DigitsToRootSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/RawToDigitsSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/ReadRawFileSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/clusters-to-root-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/digits-to-clusters-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/digits-to-raw-stream-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/digits-to-root-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/raw-to-digits-workflow.cxx"
                   }
                 }
               ]
