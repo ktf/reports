@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-11-26T16:09:54Z",
-            "title": "Adaptation to Run3 event selection",
-            "number": 355,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[PWGMM] initial commit for Luminonsity",
@@ -2805,6 +2780,36 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/qaPid.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID ML: Move qaPid to dedicated PIDML directory",
+            "number": 455,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/qaPid.cxx"
                   }
                 }
               ]
