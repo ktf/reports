@@ -10,6 +10,7 @@
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
+- [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7875](https://github.com/AliceO2Group/AliceO2/pull/7875) 2022-01-03: Fixes and improvements for Global Forward Matching by [@rpezzi](https://github.com/rpezzi)
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
@@ -68,6 +69,7 @@
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
+- [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
