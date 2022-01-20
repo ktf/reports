@@ -73,3 +73,4 @@
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
+- [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
