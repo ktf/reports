@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-15T21:58:19Z",
-            "title": "use natan2, index for ambigoustracks",
-            "number": 7877,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-16T12:46:05Z",
             "title": "DPL Analysis: make sure the partitions are set once per DF",
             "number": 7878,
@@ -4070,11 +4045,6 @@
                 },
                 {
                   "node": {
-                    "path": "Framework/Core/include/Framework/InputSpec.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Framework/Core/include/Framework/TableBuilder.h"
                   }
                 },
@@ -4091,11 +4061,6 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataSpecUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputSpec.cxx"
                   }
                 },
                 {
@@ -4271,6 +4236,521 @@
                 {
                   "node": {
                     "path": "Utilities/ShmManager/src/ShmManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Introduction of a second charge-collection table in ALPIDE response",
+            "number": 7977,
+            "author": {
+              "login": "AlexBigO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_6.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_7.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_7.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_8.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_8.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_9.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.00_9.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_0.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_0.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_1.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_1.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_10.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_10.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_11.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_11.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_12.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_12.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_13.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_2.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_2.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_3.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_3.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_4.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_4.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_5.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_5.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_6.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_6.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_7.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_7.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_8.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_8.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_9.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_8.50_9.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_0.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_0.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_1.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_1.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_10.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_10.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_11.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_11.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_12.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_12.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_13.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_2.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_2.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_3.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_3.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_4.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_4.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_5.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_5.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_6.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_6.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_7.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_7.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_8.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_8.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_9.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.00_9.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_0.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_0.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_1.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_1.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_10.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_10.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_11.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_11.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_12.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_12.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_13.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_2.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_2.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_3.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_3.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_4.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_4.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_5.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_5.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_6.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_6.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_7.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_7.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_8.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_8.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_9.00.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/data_pixels_9.50_9.50.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/grid_list.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/grid_list_x.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/data/alpideResponseData/Vbb-3.0V/grid_list_y.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DigiParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/src/AlpideSimResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/test/testAlpideSimResponse.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/IT3/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
                   }
                 }
               ]
