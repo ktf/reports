@@ -75,6 +75,7 @@
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
 - [\#7974](https://github.com/AliceO2Group/AliceO2/pull/7974) 2022-01-20: DPL: distinguish between exit and stop callbacks by [@ktf](https://github.com/ktf)
+- [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
