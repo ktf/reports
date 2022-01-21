@@ -11,7 +11,6 @@
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
@@ -20,7 +19,6 @@
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7886](https://github.com/AliceO2Group/AliceO2/pull/7886) 2022-01-11: [EMCAL-566] Add executable for performing time and bad cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#7892](https://github.com/AliceO2Group/AliceO2/pull/7892) 2022-01-11: IDCs: Adding the possibility to group pads at the sector edges by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7901](https://github.com/AliceO2Group/AliceO2/pull/7901) 2022-01-07: [MFT] Introduce the MFT assessment dpl device by [@rpezzi](https://github.com/rpezzi)
