@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-07T20:44:18Z",
-            "title": "Modified CCDB server configration in MFT condition",
-            "number": 7883,
-            "author": {
-              "login": "syano0822"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/macros/makeMFTCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/macros/readMFTDCSentries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/mft-dcs-data-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-18T08:18:49Z",
             "title": "[QC-715] Mergers: forbid trees larger than 100MB",
             "number": 7884,
@@ -4921,6 +4886,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchGlobalFwdAssessment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Can use O2_CXXFLAGS_OVERRIDE env var to append compile options",
+            "number": 7983,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/O2CompileFlags.cmake"
                   }
                 }
               ]
