@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-18T11:24:17Z",
-            "title": "Add helper method to TRD Tracklet64",
-            "number": 7888,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-18T13:26:39Z",
             "title": "[FT0] Fix uninitialized Members in Digits",
             "number": 7889,
@@ -4860,6 +4840,16 @@
                 },
                 {
                   "node": {
+                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/README.md"
+                  }
+                },
+                {
+                  "node": {
                     "path": "prodtests/full-system-test/datadistribution.sh"
                   }
                 },
@@ -4896,6 +4886,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Mapping/Impl4/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EPN SHMManager: learn to allocate memory in NUMA-aware way",
+            "number": 7988,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/shm-tool.sh"
                   }
                 }
               ]
