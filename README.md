@@ -69,6 +69,7 @@
 - [\#7928](https://github.com/AliceO2Group/AliceO2/pull/7928) 2022-01-12: DPL: add ability to cache adopted messages by [@ktf](https://github.com/ktf)
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
+- [\#7941](https://github.com/AliceO2Group/AliceO2/pull/7941) 2022-01-23: Ccdb fetcher by [@ktf](https://github.com/ktf)
 - [\#7942](https://github.com/AliceO2Group/AliceO2/pull/7942) 2022-01-18: [QC-310] Dump a property qcConfiguration for the QC devices by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
