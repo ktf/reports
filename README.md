@@ -19,7 +19,6 @@
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7892](https://github.com/AliceO2Group/AliceO2/pull/7892) 2022-01-11: IDCs: Adding the possibility to group pads at the sector edges by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7901](https://github.com/AliceO2Group/AliceO2/pull/7901) 2022-01-07: [MFT] Introduce the MFT assessment dpl device by [@rpezzi](https://github.com/rpezzi)
 - [\#7902](https://github.com/AliceO2Group/AliceO2/pull/7902) 2022-01-10: Better cuts for calibration and reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
