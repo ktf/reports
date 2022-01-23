@@ -18,6 +18,7 @@
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
+- [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Detectors
 - [\#7894](https://github.com/AliceO2Group/AliceO2/pull/7894) 2022-01-03: [MCH] new option to attach all digits of initial precluster by [@pillot](https://github.com/pillot)
 - [\#7901](https://github.com/AliceO2Group/AliceO2/pull/7901) 2022-01-07: [MFT] Introduce the MFT assessment dpl device by [@rpezzi](https://github.com/rpezzi)
@@ -53,6 +54,7 @@
 - [\#7963](https://github.com/AliceO2Group/AliceO2/pull/7963) 2022-01-23: MFT cluster noise calibration with dictionary patterns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7968](https://github.com/AliceO2Group/AliceO2/pull/7968) 2022-01-20: Embedding of independent signal and background by [@pbuehler](https://github.com/pbuehler)
 - [\#7971](https://github.com/AliceO2Group/AliceO2/pull/7971) 2022-01-20: ITS threshold calibration workflow - bug fixes and performance enhancements by [@ezradlesser](https://github.com/ezradlesser)
+- [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
