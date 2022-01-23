@@ -51,6 +51,7 @@
 - [\#7957](https://github.com/AliceO2Group/AliceO2/pull/7957) 2022-01-20: fix the way ambigous tracks are written in AODs for muons by [@mguilbau](https://github.com/mguilbau)
 - [\#7958](https://github.com/AliceO2Group/AliceO2/pull/7958) 2022-01-17: Move cut on min N TPC Clusters from 40 to 60 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7961](https://github.com/AliceO2Group/AliceO2/pull/7961) 2022-01-21: Improving sensitive hit creation for FT0 in Detector.cxx by [@zovarga](https://github.com/zovarga)
+- [\#7963](https://github.com/AliceO2Group/AliceO2/pull/7963) 2022-01-23: MFT cluster noise calibration with dictionary patterns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7968](https://github.com/AliceO2Group/AliceO2/pull/7968) 2022-01-20: Embedding of independent signal and background by [@pbuehler](https://github.com/pbuehler)
 - [\#7971](https://github.com/AliceO2Group/AliceO2/pull/7971) 2022-01-20: ITS threshold calibration workflow - bug fixes and performance enhancements by [@ezradlesser](https://github.com/ezradlesser)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
