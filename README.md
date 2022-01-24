@@ -81,6 +81,7 @@
 - [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7985](https://github.com/AliceO2Group/AliceO2/pull/7985) 2022-01-22: Add fatal if min. of log axis is < 0 by [@njacazio](https://github.com/njacazio)
 - [\#7991](https://github.com/AliceO2Group/AliceO2/pull/7991) 2022-01-24: DPL Analysis: fix incorrect schema usage in spawner by [@aalkin](https://github.com/aalkin)
+- [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
