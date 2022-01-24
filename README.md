@@ -57,6 +57,8 @@
 - [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
+## Recent developments in O2 - EventVisualisation
+- [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#7912](https://github.com/AliceO2Group/AliceO2/pull/7912) 2022-01-05: DPL Analysis: fall back to per-entry reading of VLA branches with >616 entries by [@aalkin](https://github.com/aalkin)
