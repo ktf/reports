@@ -84,3 +84,4 @@
 ## Recent developments in O2 - Utilities
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
+- [\#7988](https://github.com/AliceO2Group/AliceO2/pull/7988) 2022-01-24: EPN SHMManager: learn to allocate memory in NUMA-aware way by [@davidrohr](https://github.com/davidrohr)
