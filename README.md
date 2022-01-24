@@ -12,6 +12,7 @@
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
+- [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
@@ -20,6 +21,7 @@
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
+- [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
 - [\#7902](https://github.com/AliceO2Group/AliceO2/pull/7902) 2022-01-10: Better cuts for calibration and reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7908](https://github.com/AliceO2Group/AliceO2/pull/7908) 2022-01-07: Fix in the setting of cosmic parameters by [@iouribelikov](https://github.com/iouribelikov)
@@ -57,6 +59,7 @@
 - [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
+- [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -90,3 +93,4 @@
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
 - [\#7988](https://github.com/AliceO2Group/AliceO2/pull/7988) 2022-01-24: EPN SHMManager: learn to allocate memory in NUMA-aware way by [@davidrohr](https://github.com/davidrohr)
+- [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
