@@ -21,7 +21,6 @@
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7901](https://github.com/AliceO2Group/AliceO2/pull/7901) 2022-01-07: [MFT] Introduce the MFT assessment dpl device by [@rpezzi](https://github.com/rpezzi)
 - [\#7902](https://github.com/AliceO2Group/AliceO2/pull/7902) 2022-01-10: Better cuts for calibration and reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7908](https://github.com/AliceO2Group/AliceO2/pull/7908) 2022-01-07: Fix in the setting of cosmic parameters by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7909](https://github.com/AliceO2Group/AliceO2/pull/7909) 2022-01-04: [EMCAL-637, O2-2683] Fix extruding DCAL supermodules by [@mfasDa](https://github.com/mfasDa)
