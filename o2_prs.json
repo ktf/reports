@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2021-12-21T21:15:09Z",
-            "title": "o2-sim: Fix inconsistency in timestamp assignment",
-            "number": 7897,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/o2sim.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "TRD TRAP simulation refactoring",
@@ -5171,6 +5141,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Raw/Decoder/src/ROFFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add some new ROCm compile flags and revert some workarounds",
+            "number": 7997,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonLogger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
