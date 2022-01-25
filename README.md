@@ -10,6 +10,7 @@
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
+- [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -84,6 +85,7 @@
 - [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7985](https://github.com/AliceO2Group/AliceO2/pull/7985) 2022-01-22: Add fatal if min. of log axis is < 0 by [@njacazio](https://github.com/njacazio)
 - [\#7991](https://github.com/AliceO2Group/AliceO2/pull/7991) 2022-01-24: DPL Analysis: fix incorrect schema usage in spawner by [@aalkin](https://github.com/aalkin)
+- [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 - [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
 - [\#7998](https://github.com/AliceO2Group/AliceO2/pull/7998) 2022-01-25: DPL Analysis: add exception for unsorted unassigned groups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
