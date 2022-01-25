@@ -25,7 +25,6 @@
 ## Recent developments in O2 - Detectors
 - [\#7902](https://github.com/AliceO2Group/AliceO2/pull/7902) 2022-01-10: Better cuts for calibration and reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7908](https://github.com/AliceO2Group/AliceO2/pull/7908) 2022-01-07: Fix in the setting of cosmic parameters by [@iouribelikov](https://github.com/iouribelikov)
-- [\#7909](https://github.com/AliceO2Group/AliceO2/pull/7909) 2022-01-04: [EMCAL-637, O2-2683] Fix extruding DCAL supermodules by [@mfasDa](https://github.com/mfasDa)
 - [\#7915](https://github.com/AliceO2Group/AliceO2/pull/7915) 2022-01-07: Introduces the Global Forward assessment workflow by [@rpezzi](https://github.com/rpezzi)
 - [\#7917](https://github.com/AliceO2Group/AliceO2/pull/7917) 2022-01-07: bug fix in TOF diagnostics by [@noferini](https://github.com/noferini)
 - [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
@@ -63,7 +62,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7910](https://github.com/AliceO2Group/AliceO2/pull/7910) 2022-01-04: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#7912](https://github.com/AliceO2Group/AliceO2/pull/7912) 2022-01-05: DPL Analysis: fall back to per-entry reading of VLA branches with >616 entries by [@aalkin](https://github.com/aalkin)
 - [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7914](https://github.com/AliceO2Group/AliceO2/pull/7914) 2022-01-08: DPL raw proxy: Supporting message sequences/pruned headers by [@matthiasrichter](https://github.com/matthiasrichter)
