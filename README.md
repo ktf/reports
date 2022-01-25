@@ -23,7 +23,6 @@
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
-- [\#7902](https://github.com/AliceO2Group/AliceO2/pull/7902) 2022-01-10: Better cuts for calibration and reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7908](https://github.com/AliceO2Group/AliceO2/pull/7908) 2022-01-07: Fix in the setting of cosmic parameters by [@iouribelikov](https://github.com/iouribelikov)
 - [\#7915](https://github.com/AliceO2Group/AliceO2/pull/7915) 2022-01-07: Introduces the Global Forward assessment workflow by [@rpezzi](https://github.com/rpezzi)
 - [\#7917](https://github.com/AliceO2Group/AliceO2/pull/7917) 2022-01-07: bug fix in TOF diagnostics by [@noferini](https://github.com/noferini)
