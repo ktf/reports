@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
@@ -62,8 +61,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7912](https://github.com/AliceO2Group/AliceO2/pull/7912) 2022-01-05: DPL Analysis: fall back to per-entry reading of VLA branches with >616 entries by [@aalkin](https://github.com/aalkin)
-- [\#7913](https://github.com/AliceO2Group/AliceO2/pull/7913) 2022-01-05: Add Origin table by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7914](https://github.com/AliceO2Group/AliceO2/pull/7914) 2022-01-08: DPL raw proxy: Supporting message sequences/pruned headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
