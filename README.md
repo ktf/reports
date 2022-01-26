@@ -23,7 +23,6 @@
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
-- [\#7920](https://github.com/AliceO2Group/AliceO2/pull/7920) 2022-01-07: Inroduce different default ROF lengths for ITS and MFT by [@shahor02](https://github.com/shahor02)
 - [\#7923](https://github.com/AliceO2Group/AliceO2/pull/7923) 2022-01-08: Fix: TF rough creation time should be milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7924](https://github.com/AliceO2Group/AliceO2/pull/7924) 2022-01-16: MCH: temporarily disable time clustering in MC reco by [@aphecetche](https://github.com/aphecetche)
 - [\#7925](https://github.com/AliceO2Group/AliceO2/pull/7925) 2022-01-11: MCH: speedup cleaning of connected tracks by [@pillot](https://github.com/pillot)
