@@ -9,6 +9,7 @@
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
+- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
@@ -21,6 +22,7 @@
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
+- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
 - [\#7915](https://github.com/AliceO2Group/AliceO2/pull/7915) 2022-01-07: Introduces the Global Forward assessment workflow by [@rpezzi](https://github.com/rpezzi)
@@ -57,6 +59,7 @@
 - [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
+- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7996](https://github.com/AliceO2Group/AliceO2/pull/7996) 2022-01-25: MCH: improved digits time computation by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8009](https://github.com/AliceO2Group/AliceO2/pull/8009) 2022-01-26: file-for convention fixed by [@peressounko](https://github.com/peressounko)
@@ -82,6 +85,7 @@
 - [\#7974](https://github.com/AliceO2Group/AliceO2/pull/7974) 2022-01-20: DPL: distinguish between exit and stop callbacks by [@ktf](https://github.com/ktf)
 - [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7985](https://github.com/AliceO2Group/AliceO2/pull/7985) 2022-01-22: Add fatal if min. of log axis is < 0 by [@njacazio](https://github.com/njacazio)
+- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7991](https://github.com/AliceO2Group/AliceO2/pull/7991) 2022-01-24: DPL Analysis: fix incorrect schema usage in spawner by [@aalkin](https://github.com/aalkin)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 - [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
