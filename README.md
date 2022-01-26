@@ -10,6 +10,7 @@
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
+- [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -84,6 +85,7 @@
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 - [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
 - [\#7998](https://github.com/AliceO2Group/AliceO2/pull/7998) 2022-01-25: DPL Analysis: add exception for unsorted unassigned groups by [@aalkin](https://github.com/aalkin)
+- [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
