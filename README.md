@@ -66,7 +66,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7914](https://github.com/AliceO2Group/AliceO2/pull/7914) 2022-01-08: DPL raw proxy: Supporting message sequences/pruned headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7916](https://github.com/AliceO2Group/AliceO2/pull/7916) 2022-01-09: DPL Analysis: inspect Configurables in tasks recursively by [@ktf](https://github.com/ktf)
 - [\#7918](https://github.com/AliceO2Group/AliceO2/pull/7918) 2022-01-09: DPL Analysis: fix VLA reading by reading the size branch separetely by [@aalkin](https://github.com/aalkin)
 - [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
