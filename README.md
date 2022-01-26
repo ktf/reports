@@ -62,7 +62,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7921](https://github.com/AliceO2Group/AliceO2/pull/7921) 2022-01-08: Better information in error message by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7927](https://github.com/AliceO2Group/AliceO2/pull/7927) 2022-01-11: Revert "DPL raw proxy: Supporting message sequences/pruned headers" by [@davidrohr](https://github.com/davidrohr)
 - [\#7928](https://github.com/AliceO2Group/AliceO2/pull/7928) 2022-01-12: DPL: add ability to cache adopted messages by [@ktf](https://github.com/ktf)
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
