@@ -53,6 +53,7 @@
 - [\#7968](https://github.com/AliceO2Group/AliceO2/pull/7968) 2022-01-20: Embedding of independent signal and background by [@pbuehler](https://github.com/pbuehler)
 - [\#7971](https://github.com/AliceO2Group/AliceO2/pull/7971) 2022-01-20: ITS threshold calibration workflow - bug fixes and performance enhancements by [@ezradlesser](https://github.com/ezradlesser)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
+- [\#7981](https://github.com/AliceO2Group/AliceO2/pull/7981) 2022-01-26: Fix data races in simulation merging using TBB by [@sawenzel](https://github.com/sawenzel)
 - [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
