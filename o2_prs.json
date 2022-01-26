@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-07T19:16:32Z",
-            "title": "bug fix in TOF diagnostics",
-            "number": 7917,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/TOFClusterizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-09T07:26:55Z",
             "title": "DPL Analysis: fix VLA reading by reading the size branch separetely",
             "number": 7918,
@@ -5236,6 +5206,56 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/run/runCalibOffline.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add interface for sim parameters to JSON",
+            "number": 8017,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MaterialManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MaterialManagerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MaterialManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MaterialManagerParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
                   }
                 }
               ]
