@@ -14,7 +14,6 @@
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
-- [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7922](https://github.com/AliceO2Group/AliceO2/pull/7922) 2022-01-07: Fix typo in CovMat calculation for V0s by [@fmazzasc](https://github.com/fmazzasc)
 - [\#7926](https://github.com/AliceO2Group/AliceO2/pull/7926) 2022-01-11: o2-sim-digitizer will impose isMC flag on GRP object by [@shahor02](https://github.com/shahor02)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
@@ -24,7 +23,6 @@
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
-- [\#7919](https://github.com/AliceO2Group/AliceO2/pull/7919) 2022-01-11: [EMCAL-614,EMCAL-685,EMCAL-681] Implement pileup simulation for pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#7920](https://github.com/AliceO2Group/AliceO2/pull/7920) 2022-01-07: Inroduce different default ROF lengths for ITS and MFT by [@shahor02](https://github.com/shahor02)
 - [\#7923](https://github.com/AliceO2Group/AliceO2/pull/7923) 2022-01-08: Fix: TF rough creation time should be milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7924](https://github.com/AliceO2Group/AliceO2/pull/7924) 2022-01-16: MCH: temporarily disable time clustering in MC reco by [@aphecetche](https://github.com/aphecetche)
