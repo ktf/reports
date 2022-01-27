@@ -64,6 +64,7 @@
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
+- [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
