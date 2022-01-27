@@ -86,6 +86,7 @@
 - [\#7998](https://github.com/AliceO2Group/AliceO2/pull/7998) 2022-01-25: DPL Analysis: add exception for unsorted unassigned groups by [@aalkin](https://github.com/aalkin)
 - [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
+- [\#8027](https://github.com/AliceO2Group/AliceO2/pull/8027) 2022-01-27: Ccdb callback by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
