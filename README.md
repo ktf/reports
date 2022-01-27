@@ -59,6 +59,7 @@
 - [\#8006](https://github.com/AliceO2Group/AliceO2/pull/8006) 2022-01-26: [EMCAL-751] Fixing the problem with pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#8009](https://github.com/AliceO2Group/AliceO2/pull/8009) 2022-01-26: file-for convention fixed by [@peressounko](https://github.com/peressounko)
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
+- [\#8011](https://github.com/AliceO2Group/AliceO2/pull/8011) 2022-01-27: Preparations to merge Vulkan backend for GPU display by [@davidrohr](https://github.com/davidrohr)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
