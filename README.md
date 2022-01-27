@@ -64,7 +64,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7928](https://github.com/AliceO2Group/AliceO2/pull/7928) 2022-01-12: DPL: add ability to cache adopted messages by [@ktf](https://github.com/ktf)
 - [\#7929](https://github.com/AliceO2Group/AliceO2/pull/7929) 2022-01-11: DPL: reduce verbosity of resource manager to debug by [@ktf](https://github.com/ktf)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7941](https://github.com/AliceO2Group/AliceO2/pull/7941) 2022-01-23: Ccdb fetcher by [@ktf](https://github.com/ktf)
