@@ -26,7 +26,6 @@
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Detectors
-- [\#7924](https://github.com/AliceO2Group/AliceO2/pull/7924) 2022-01-16: MCH: temporarily disable time clustering in MC reco by [@aphecetche](https://github.com/aphecetche)
 - [\#7925](https://github.com/AliceO2Group/AliceO2/pull/7925) 2022-01-11: MCH: speedup cleaning of connected tracks by [@pillot](https://github.com/pillot)
 - [\#7931](https://github.com/AliceO2Group/AliceO2/pull/7931) 2022-01-11: HBFUtils.getTFTimeStamp(ir) returns time in milliseconds by [@shahor02](https://github.com/shahor02)
 - [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
