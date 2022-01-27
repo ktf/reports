@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-08T19:02:56Z",
-            "title": "Fix: TF rough creation time should be milliseconds",
-            "number": 7923,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/include/DetectorsRaw/HBFUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/HBFUtilsInitializer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-16T18:04:04Z",
             "title": "MCH: temporarily disable time clustering in MC reco",
             "number": 7924,
@@ -211,6 +186,11 @@
                 {
                   "node": {
                     "path": "CHANGELOG.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
                   }
                 },
                 {
@@ -5226,6 +5206,26 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MFT] Increase search radius for linear tracks",
+            "number": 8023,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
                   }
                 }
               ]
