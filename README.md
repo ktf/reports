@@ -88,6 +88,7 @@
 ## Recent developments in O2 - Utilities
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
+- [\#7986](https://github.com/AliceO2Group/AliceO2/pull/7986) 2022-01-28: Adapt scripts to use SHM Management tool in FST and add startup time benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7988](https://github.com/AliceO2Group/AliceO2/pull/7988) 2022-01-24: EPN SHMManager: learn to allocate memory in NUMA-aware way by [@davidrohr](https://github.com/davidrohr)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
