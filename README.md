@@ -64,6 +64,7 @@
 - [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
+- [\#8021](https://github.com/AliceO2Group/AliceO2/pull/8021) 2022-01-28: Parallelization of ITS threshold calibration workflow + new features by [@iravasen](https://github.com/iravasen)
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
