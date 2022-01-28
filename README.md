@@ -27,7 +27,6 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7934](https://github.com/AliceO2Group/AliceO2/pull/7934) 2022-01-12: [EMCAL-750] Add file per C-RORC, fix filenames by [@mfasDa](https://github.com/mfasDa)
 - [\#7936](https://github.com/AliceO2Group/AliceO2/pull/7936) 2022-01-12: For HMPID (C-RORC) the linkID should be treated as CRU EP in mc->raw … by [@shahor02](https://github.com/shahor02)
