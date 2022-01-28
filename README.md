@@ -76,6 +76,7 @@
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
+- [\#7972](https://github.com/AliceO2Group/AliceO2/pull/7972) 2022-01-28: DPL: Learn some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
 - [\#7974](https://github.com/AliceO2Group/AliceO2/pull/7974) 2022-01-20: DPL: distinguish between exit and stop callbacks by [@ktf](https://github.com/ktf)
 - [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7985](https://github.com/AliceO2Group/AliceO2/pull/7985) 2022-01-22: Add fatal if min. of log axis is < 0 by [@njacazio](https://github.com/njacazio)
