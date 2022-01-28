@@ -5496,7 +5496,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "work on TRD GPU tracking, don_t merge yet",
+            "title": "Make TRD Tracking work on the GPU (Run 2 and Run 3 data)",
             "number": 8034,
             "author": {
               "login": "davidrohr"
@@ -5515,32 +5515,17 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionKernels.h"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
                   }
                 },
                 {
@@ -5560,12 +5545,12 @@
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                    "path": "GPU/GPUTracking/Global/GPUTrackingInputProvider.cxx"
                   }
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
+                    "path": "GPU/GPUTracking/Global/GPUTrackingInputProvider.h"
                   }
                 },
                 {
@@ -5595,51 +5580,6 @@
                 },
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendVulkan.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendVulkan.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlfw.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
                   }
                 },
@@ -5651,36 +5591,6 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/datadistribution.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/start_tmux.sh"
                   }
                 }
               ]
