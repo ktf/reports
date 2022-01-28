@@ -25,6 +25,7 @@
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
+- [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#7932](https://github.com/AliceO2Group/AliceO2/pull/7932) 2022-01-12: TRD update filename convention for mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
@@ -64,6 +65,7 @@
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
