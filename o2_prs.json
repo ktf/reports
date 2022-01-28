@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-16T23:44:28Z",
-            "title": "Adapt CCDBApi to work with MemoryResources",
-            "number": 7933,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/BasicCCDBManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/src/TOFClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/src/PublisherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/Utils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-12T13:04:26Z",
             "title": "[EMCAL-750] Add file per C-RORC, fix filenames",
             "number": 7934,
@@ -5646,6 +5576,31 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/ITSMFT/common/src/NoiseMap.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Set tables only once for event mixing",
+            "number": 8033,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
                   }
                 }
               ]

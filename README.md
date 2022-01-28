@@ -18,7 +18,6 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
@@ -27,7 +26,6 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7934](https://github.com/AliceO2Group/AliceO2/pull/7934) 2022-01-12: [EMCAL-750] Add file per C-RORC, fix filenames by [@mfasDa](https://github.com/mfasDa)
 - [\#7936](https://github.com/AliceO2Group/AliceO2/pull/7936) 2022-01-12: For HMPID (C-RORC) the linkID should be treated as CRU EP in mc->raw … by [@shahor02](https://github.com/shahor02)
 - [\#7940](https://github.com/AliceO2Group/AliceO2/pull/7940) 2022-01-15: ITS threshold calibration workflow by [@ezradlesser](https://github.com/ezradlesser)
@@ -69,7 +67,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7933](https://github.com/AliceO2Group/AliceO2/pull/7933) 2022-01-16: Adapt CCDBApi to work with MemoryResources by [@ktf](https://github.com/ktf)
 - [\#7941](https://github.com/AliceO2Group/AliceO2/pull/7941) 2022-01-23: Ccdb fetcher by [@ktf](https://github.com/ktf)
 - [\#7942](https://github.com/AliceO2Group/AliceO2/pull/7942) 2022-01-18: [QC-310] Dump a property qcConfiguration for the QC devices by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
