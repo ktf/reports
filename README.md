@@ -26,7 +26,6 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#7936](https://github.com/AliceO2Group/AliceO2/pull/7936) 2022-01-12: For HMPID (C-RORC) the linkID should be treated as CRU EP in mc->raw … by [@shahor02](https://github.com/shahor02)
 - [\#7940](https://github.com/AliceO2Group/AliceO2/pull/7940) 2022-01-15: ITS threshold calibration workflow by [@ezradlesser](https://github.com/ezradlesser)
 - [\#7943](https://github.com/AliceO2Group/AliceO2/pull/7943) 2022-01-14: Make sure V0s and cascades are sorted in VtxID(=time) by [@shahor02](https://github.com/shahor02)
 - [\#7944](https://github.com/AliceO2Group/AliceO2/pull/7944) 2022-01-13: Reduce ITSMFT STFDecoder verbosity by [@rpezzi](https://github.com/rpezzi)
