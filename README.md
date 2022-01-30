@@ -75,7 +75,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7941](https://github.com/AliceO2Group/AliceO2/pull/7941) 2022-01-23: Ccdb fetcher by [@ktf](https://github.com/ktf)
 - [\#7942](https://github.com/AliceO2Group/AliceO2/pull/7942) 2022-01-18: [QC-310] Dump a property qcConfiguration for the QC devices by [@Barthelemy](https://github.com/Barthelemy)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
