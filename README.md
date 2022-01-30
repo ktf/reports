@@ -66,6 +66,7 @@
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
+- [\#8034](https://github.com/AliceO2Group/AliceO2/pull/8034) 2022-01-30: Make TRD Tracking work on the GPU (Run 2 and Run 3 data) by [@davidrohr](https://github.com/davidrohr)
 - [\#8035](https://github.com/AliceO2Group/AliceO2/pull/8035) 2022-01-29: Adapt AOD MCLabels to non-redundant storage of ambiguous tracks by [@shahor02](https://github.com/shahor02)
 - [\#8036](https://github.com/AliceO2Group/AliceO2/pull/8036) 2022-01-29: DCS proxies use now() in ms to fill DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#8038](https://github.com/AliceO2Group/AliceO2/pull/8038) 2022-01-29: Revert "Improving sensitive hit creation for FT0 in Detector.cxx" by [@sawenzel](https://github.com/sawenzel)
