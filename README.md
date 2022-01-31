@@ -53,6 +53,7 @@
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7994](https://github.com/AliceO2Group/AliceO2/pull/7994) 2022-01-30: LHC phase calibration  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7996](https://github.com/AliceO2Group/AliceO2/pull/7996) 2022-01-25: MCH: improved digits time computation by [@aferrero2707](https://github.com/aferrero2707)
+- [\#8003](https://github.com/AliceO2Group/AliceO2/pull/8003) 2022-01-31: GRP DCS DP processing by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8006](https://github.com/AliceO2Group/AliceO2/pull/8006) 2022-01-26: [EMCAL-751] Fixing the problem with pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#8009](https://github.com/AliceO2Group/AliceO2/pull/8009) 2022-01-26: file-for convention fixed by [@peressounko](https://github.com/peressounko)
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
