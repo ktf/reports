@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-14T15:11:30Z",
-            "title": "DPL: minor changes for CCDB integration",
-            "number": 7949,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AlgorithmSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-18T11:58:24Z",
             "title": "GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark",
             "number": 7950,
@@ -5056,6 +5026,91 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improved Conditions support",
+            "number": 8049,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CCDBHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_InputRecordWalker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/RawPageTestData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/RawPageTestData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/test_RootTreeWriter.cxx"
                   }
                 }
               ]

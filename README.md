@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-56h-01: Done on 2022-01-18.
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
@@ -75,7 +73,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
