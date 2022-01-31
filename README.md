@@ -32,7 +32,6 @@
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
 - [\#7948](https://github.com/AliceO2Group/AliceO2/pull/7948) 2022-01-31: [MCH MID] event finder algorithm and workflow by [@pillot](https://github.com/pillot)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
