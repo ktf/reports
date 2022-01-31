@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
@@ -33,7 +32,6 @@
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
 - [\#7948](https://github.com/AliceO2Group/AliceO2/pull/7948) 2022-01-31: [MCH MID] event finder algorithm and workflow by [@pillot](https://github.com/pillot)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
@@ -79,7 +77,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7949](https://github.com/AliceO2Group/AliceO2/pull/7949) 2022-01-14: DPL: minor changes for CCDB integration by [@ktf](https://github.com/ktf)
 - [\#7953](https://github.com/AliceO2Group/AliceO2/pull/7953) 2022-01-15: DPL Analysis: introduce slice/array self indices by [@aalkin](https://github.com/aalkin)
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
