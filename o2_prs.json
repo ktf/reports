@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-14T09:47:46Z",
-            "title": "TPC: Fix krypton workflow",
-            "number": 7945,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/FileWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/FileWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-krypton-clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-krypton-raw-filter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-18T18:38:56Z",
             "title": "prototype schema evolution for V0s",
             "number": 7946,
@@ -5131,6 +5096,31 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "switch to disable fall-back to TGeo if MatLUT is missing",
+            "number": 8045,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Propagator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
                   }
                 }
               ]
