@@ -19,6 +19,7 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
+- [\#7948](https://github.com/AliceO2Group/AliceO2/pull/7948) 2022-01-31: [MCH MID] event finder algorithm and workflow by [@pillot](https://github.com/pillot)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
@@ -35,6 +36,7 @@
 - [\#7945](https://github.com/AliceO2Group/AliceO2/pull/7945) 2022-01-14: TPC: Fix krypton workflow by [@wiechula](https://github.com/wiechula)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
 - [\#7947](https://github.com/AliceO2Group/AliceO2/pull/7947) 2022-01-14: O2-2743: Enable Cerenkov photons for HMP by [@sawenzel](https://github.com/sawenzel)
+- [\#7948](https://github.com/AliceO2Group/AliceO2/pull/7948) 2022-01-31: [MCH MID] event finder algorithm and workflow by [@pillot](https://github.com/pillot)
 - [\#7950](https://github.com/AliceO2Group/AliceO2/pull/7950) 2022-01-18: GPU: Fixes for some compiler warnings and for compilation of GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
 - [\#7955](https://github.com/AliceO2Group/AliceO2/pull/7955) 2022-01-17: Fix cluster->pixel expansion in ITS noise calibration by [@shahor02](https://github.com/shahor02)
