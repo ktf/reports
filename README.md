@@ -29,7 +29,6 @@
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7943](https://github.com/AliceO2Group/AliceO2/pull/7943) 2022-01-14: Make sure V0s and cascades are sorted in VtxID(=time) by [@shahor02](https://github.com/shahor02)
 - [\#7944](https://github.com/AliceO2Group/AliceO2/pull/7944) 2022-01-13: Reduce ITSMFT STFDecoder verbosity by [@rpezzi](https://github.com/rpezzi)
 - [\#7945](https://github.com/AliceO2Group/AliceO2/pull/7945) 2022-01-14: TPC: Fix krypton workflow by [@wiechula](https://github.com/wiechula)
 - [\#7946](https://github.com/AliceO2Group/AliceO2/pull/7946) 2022-01-18: prototype schema evolution for V0s by [@jgrosseo](https://github.com/jgrosseo)
