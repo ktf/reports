@@ -29,8 +29,6 @@
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7954](https://github.com/AliceO2Group/AliceO2/pull/7954) 2022-01-15: Fix: expand grouped patternIDs wrt COG pixel by [@shahor02](https://github.com/shahor02)
-- [\#7955](https://github.com/AliceO2Group/AliceO2/pull/7955) 2022-01-17: Fix cluster->pixel expansion in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 - [\#7956](https://github.com/AliceO2Group/AliceO2/pull/7956) 2022-01-17: o2-dcs-config-proxy sends separate parts for file and its name by [@shahor02](https://github.com/shahor02)
 - [\#7957](https://github.com/AliceO2Group/AliceO2/pull/7957) 2022-01-20: fix the way ambigous tracks are written in AODs for muons by [@mguilbau](https://github.com/mguilbau)
 - [\#7958](https://github.com/AliceO2Group/AliceO2/pull/7958) 2022-01-17: Move cut on min N TPC Clusters from 40 to 60 by [@chiarazampolli](https://github.com/chiarazampolli)
