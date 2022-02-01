@@ -17,6 +17,7 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
+- [\#7965](https://github.com/AliceO2Group/AliceO2/pull/7965) 2022-02-01: Hmpi dclusters by [@gvolpe79](https://github.com/gvolpe79)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
@@ -36,6 +37,7 @@
 - [\#7961](https://github.com/AliceO2Group/AliceO2/pull/7961) 2022-01-21: Improving sensitive hit creation for FT0 in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#7962](https://github.com/AliceO2Group/AliceO2/pull/7962) 2022-01-24: Fixes assessment workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#7963](https://github.com/AliceO2Group/AliceO2/pull/7963) 2022-01-23: MFT cluster noise calibration with dictionary patterns by [@mcoquet642](https://github.com/mcoquet642)
+- [\#7965](https://github.com/AliceO2Group/AliceO2/pull/7965) 2022-02-01: Hmpi dclusters by [@gvolpe79](https://github.com/gvolpe79)
 - [\#7968](https://github.com/AliceO2Group/AliceO2/pull/7968) 2022-01-20: Embedding of independent signal and background by [@pbuehler](https://github.com/pbuehler)
 - [\#7971](https://github.com/AliceO2Group/AliceO2/pull/7971) 2022-01-20: ITS threshold calibration workflow - bug fixes and performance enhancements by [@ezradlesser](https://github.com/ezradlesser)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
