@@ -30,7 +30,6 @@
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#7958](https://github.com/AliceO2Group/AliceO2/pull/7958) 2022-01-17: Move cut on min N TPC Clusters from 40 to 60 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#7961](https://github.com/AliceO2Group/AliceO2/pull/7961) 2022-01-21: Improving sensitive hit creation for FT0 in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#7962](https://github.com/AliceO2Group/AliceO2/pull/7962) 2022-01-24: Fixes assessment workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#7963](https://github.com/AliceO2Group/AliceO2/pull/7963) 2022-01-23: MFT cluster noise calibration with dictionary patterns by [@mcoquet642](https://github.com/mcoquet642)
