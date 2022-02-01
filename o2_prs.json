@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-18T11:58:38Z",
-            "title": "TPC dEdx: fix copy and paste error when calibration object was added",
-            "number": 7952,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingIO.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-15T09:00:17Z",
             "title": "DPL Analysis: introduce slice/array self indices",
             "number": 7953,
@@ -4245,7 +4225,12 @@
                 },
                 {
                   "node": {
-                    "path": "doc/data/2022-01-o2_prs.json"
+                    "path": "doc/data/2022-02-o2_prs.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2022-02-o2_releases.json"
                   }
                 }
               ]
@@ -5096,6 +5081,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/EMCALDigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MFT] Fix digi2raw output segmentation",
+            "number": 8052,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/simulation/src/digi2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
                   }
                 }
               ]
