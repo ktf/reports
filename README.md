@@ -10,6 +10,7 @@
 - [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -69,6 +70,7 @@
 - [\#8042](https://github.com/AliceO2Group/AliceO2/pull/8042) 2022-01-31: Load Geant4 libraries (MacOSX Monterey) by [@pzhristov](https://github.com/pzhristov)
 - [\#8044](https://github.com/AliceO2Group/AliceO2/pull/8044) 2022-01-31: AOD stores the time with full float precision by [@shahor02](https://github.com/shahor02)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
+- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -93,6 +95,7 @@
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
+- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Utilities
 - [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
