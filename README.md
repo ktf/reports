@@ -16,6 +16,7 @@
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
+- [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#7965](https://github.com/AliceO2Group/AliceO2/pull/7965) 2022-02-01: Hmpi dclusters by [@gvolpe79](https://github.com/gvolpe79)
 - [\#7978](https://github.com/AliceO2Group/AliceO2/pull/7978) 2022-01-23: Option to save MFT and MCH track parameters at matching plane by [@rpezzi](https://github.com/rpezzi)
@@ -88,6 +89,7 @@
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8027](https://github.com/AliceO2Group/AliceO2/pull/8027) 2022-01-27: Ccdb callback by [@ktf](https://github.com/ktf)
 - [\#8030](https://github.com/AliceO2Group/AliceO2/pull/8030) 2022-01-28: Fixing command line arguments of unit test by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
