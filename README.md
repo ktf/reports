@@ -11,7 +11,6 @@
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
@@ -71,7 +70,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7966](https://github.com/AliceO2Group/AliceO2/pull/7966) 2022-01-19: Fix a few unused variables in common headers by [@ktf](https://github.com/ktf)
 - [\#7967](https://github.com/AliceO2Group/AliceO2/pull/7967) 2022-01-21: AnalysisDataModel::phi - condition is >= 2pi by [@adriansev](https://github.com/adriansev)
 - [\#7970](https://github.com/AliceO2Group/AliceO2/pull/7970) 2022-01-21: DPL Analysis: improve spawner logic for handling extensions by [@aalkin](https://github.com/aalkin)
 - [\#7972](https://github.com/AliceO2Group/AliceO2/pull/7972) 2022-01-28: DPL: Learn some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
