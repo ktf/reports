@@ -99,7 +99,6 @@
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Utilities
-- [\#7960](https://github.com/AliceO2Group/AliceO2/pull/7960) 2022-01-19: Add ShmManager utility by [@rbx](https://github.com/rbx)
 - [\#7976](https://github.com/AliceO2Group/AliceO2/pull/7976) 2022-01-20: Fix copyright header of ShmManager by [@shahor02](https://github.com/shahor02)
 - [\#7986](https://github.com/AliceO2Group/AliceO2/pull/7986) 2022-01-28: Adapt scripts to use SHM Management tool in FST and add startup time benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#7988](https://github.com/AliceO2Group/AliceO2/pull/7988) 2022-01-24: EPN SHMManager: learn to allocate memory in NUMA-aware way by [@davidrohr](https://github.com/davidrohr)

@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-19T15:55:21Z",
-            "title": "Add ShmManager utility",
-            "number": 7960,
-            "author": {
-              "login": "rbx"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-21T13:54:04Z",
             "title": "Improving sensitive hit creation for FT0 in Detector.cxx",
             "number": 7961,
@@ -4836,6 +4806,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/MFTAssessmentSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "update ShmManager::ResetContent to be able to reset after a crash",
+            "number": 8060,
+            "author": {
+              "login": "rbx"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
                   }
                 }
               ]
