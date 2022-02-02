@@ -71,6 +71,7 @@
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
+- [\#8052](https://github.com/AliceO2Group/AliceO2/pull/8052) 2022-02-02: [MFT] Fix digi2raw output segmentation by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
