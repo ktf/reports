@@ -31,8 +31,6 @@
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
-- [\#7962](https://github.com/AliceO2Group/AliceO2/pull/7962) 2022-01-24: Fixes assessment workflows by [@rpezzi](https://github.com/rpezzi)
-- [\#7963](https://github.com/AliceO2Group/AliceO2/pull/7963) 2022-01-23: MFT cluster noise calibration with dictionary patterns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#7965](https://github.com/AliceO2Group/AliceO2/pull/7965) 2022-02-01: Hmpi dclusters by [@gvolpe79](https://github.com/gvolpe79)
 - [\#7968](https://github.com/AliceO2Group/AliceO2/pull/7968) 2022-01-20: Embedding of independent signal and background by [@pbuehler](https://github.com/pbuehler)
 - [\#7971](https://github.com/AliceO2Group/AliceO2/pull/7971) 2022-01-20: ITS threshold calibration workflow - bug fixes and performance enhancements by [@ezradlesser](https://github.com/ezradlesser)
