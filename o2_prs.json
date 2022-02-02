@@ -5,151 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-01T15:00:15Z",
-            "title": "Hmpi dclusters",
-            "number": 7965,
-            "author": {
-              "login": "gvolpe79"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Digit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/src/Cluster.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/src/Digit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/base/include/HMPIDBase/Param.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/simulation/src/HMPIDDigitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/simulation/src/HmpidCoder2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/ClustersToRootSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/DigitsToClustersSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/DigitsToRootSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/PedestalsCalculationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/ClustersToRootSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DigitsToClustersSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DigitsToRootSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/RawToDigitsSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/ReadRawFileSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/clusters-to-root-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/digits-to-clusters-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/digits-to-raw-stream-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/digits-to-root-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/raw-to-digits-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-19T19:33:30Z",
             "title": "Fix a few unused variables in common headers",
             "number": 7966,
@@ -4691,6 +4546,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Limit maximum memory usage during tracking to 32GB (tunable)",
+            "number": 8065,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Tracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraitsCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]
