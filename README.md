@@ -29,6 +29,7 @@
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
+- [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
 - [\#7961](https://github.com/AliceO2Group/AliceO2/pull/7961) 2022-01-21: Improving sensitive hit creation for FT0 in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#7962](https://github.com/AliceO2Group/AliceO2/pull/7962) 2022-01-24: Fixes assessment workflows by [@rpezzi](https://github.com/rpezzi)
@@ -69,6 +70,7 @@
 - [\#8045](https://github.com/AliceO2Group/AliceO2/pull/8045) 2022-02-01: switch to disable fall-back to TGeo if MatLUT is missing by [@shahor02](https://github.com/shahor02)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
