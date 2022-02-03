@@ -46,6 +46,7 @@
 - [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
+- [\#8019](https://github.com/AliceO2Group/AliceO2/pull/8019) 2022-02-03: [MCH] handle empty TF by [@pillot](https://github.com/pillot)
 - [\#8021](https://github.com/AliceO2Group/AliceO2/pull/8021) 2022-01-28: Parallelization of ITS threshold calibration workflow + new features by [@iravasen](https://github.com/iravasen)
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
@@ -67,6 +68,7 @@
 - [\#8061](https://github.com/AliceO2Group/AliceO2/pull/8061) 2022-02-02: Possibility to attach multiple CCDB populators by [@shahor02](https://github.com/shahor02)
 - [\#8062](https://github.com/AliceO2Group/AliceO2/pull/8062) 2022-02-03: fix printf warnings by [@shahor02](https://github.com/shahor02)
 - [\#8063](https://github.com/AliceO2Group/AliceO2/pull/8063) 2022-02-02: Fixes in ITS noise calibrator output by [@shahor02](https://github.com/shahor02)
+- [\#8066](https://github.com/AliceO2Group/AliceO2/pull/8066) 2022-02-03: [MCH] keep digit NofSamples within limits by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
