@@ -98,3 +98,4 @@
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8037](https://github.com/AliceO2Group/AliceO2/pull/8037) 2022-01-29: Add SIGUSR1 signal handler to ShmManager by [@rbx](https://github.com/rbx)
+- [\#8060](https://github.com/AliceO2Group/AliceO2/pull/8060) 2022-02-03: update ShmManager::ResetContent to be able to reset after a crash by [@rbx](https://github.com/rbx)
