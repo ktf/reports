@@ -73,7 +73,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7975](https://github.com/AliceO2Group/AliceO2/pull/7975) 2022-01-21: Bugfix DPL raw proxy: fixed an indexing problem by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#7985](https://github.com/AliceO2Group/AliceO2/pull/7985) 2022-01-22: Add fatal if min. of log axis is < 0 by [@njacazio](https://github.com/njacazio)
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7991](https://github.com/AliceO2Group/AliceO2/pull/7991) 2022-01-24: DPL Analysis: fix incorrect schema usage in spawner by [@aalkin](https://github.com/aalkin)
