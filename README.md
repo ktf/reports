@@ -2,6 +2,8 @@
 - v5-09-56h-01: Done on 2022-01-18.
 - v5-09-56i-01: Done on 2022-02-03.
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
@@ -105,3 +107,4 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8037](https://github.com/AliceO2Group/AliceO2/pull/8037) 2022-01-29: Add SIGUSR1 signal handler to ShmManager by [@rbx](https://github.com/rbx)
 - [\#8060](https://github.com/AliceO2Group/AliceO2/pull/8060) 2022-02-03: update ShmManager::ResetContent to be able to reset after a crash by [@rbx](https://github.com/rbx)
+- [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
