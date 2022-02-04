@@ -31,7 +31,6 @@
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7982](https://github.com/AliceO2Group/AliceO2/pull/7982) 2022-01-23: Implement finalization of Global Forward Assessment by [@rpezzi](https://github.com/rpezzi)
 - [\#7984](https://github.com/AliceO2Group/AliceO2/pull/7984) 2022-01-24: TPC: Decouple BetheBloch from Detector class by [@sawenzel](https://github.com/sawenzel)
 - [\#7987](https://github.com/AliceO2Group/AliceO2/pull/7987) 2022-01-23: [O2-2749] Fix MCH mapping library implementations link options on Ubuntu by [@aphecetche](https://github.com/aphecetche)
 - [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
