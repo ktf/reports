@@ -50,6 +50,7 @@
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
 - [\#8019](https://github.com/AliceO2Group/AliceO2/pull/8019) 2022-02-03: [MCH] handle empty TF by [@pillot](https://github.com/pillot)
 - [\#8021](https://github.com/AliceO2Group/AliceO2/pull/8021) 2022-01-28: Parallelization of ITS threshold calibration workflow + new features by [@iravasen](https://github.com/iravasen)
+- [\#8023](https://github.com/AliceO2Group/AliceO2/pull/8023) 2022-02-04: [MFT] Increase search radius for linear tracks by [@rpezzi](https://github.com/rpezzi)
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
