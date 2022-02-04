@@ -73,6 +73,8 @@
 - [\#8070](https://github.com/AliceO2Group/AliceO2/pull/8070) 2022-02-03: Report wrong double column order in the Alpide data, reorder hits by [@shahor02](https://github.com/shahor02)
 - [\#8072](https://github.com/AliceO2Group/AliceO2/pull/8072) 2022-02-04: Use double precision in MID mapping by [@dstocco](https://github.com/dstocco)
 - [\#8074](https://github.com/AliceO2Group/AliceO2/pull/8074) 2022-02-04: TRD KrClusterer skip shared digits by [@martenole](https://github.com/martenole)
+- [\#8075](https://github.com/AliceO2Group/AliceO2/pull/8075) 2022-02-04: [EMCAL-556] Trace EMCAL run SOR/EOR in EMC DCS DP processor by [@shahor02](https://github.com/shahor02)
+- [\#8080](https://github.com/AliceO2Group/AliceO2/pull/8080) 2022-02-04: DCS filepush server emulator + documentation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
