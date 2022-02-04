@@ -72,6 +72,7 @@
 - [\#8063](https://github.com/AliceO2Group/AliceO2/pull/8063) 2022-02-02: Fixes in ITS noise calibrator output by [@shahor02](https://github.com/shahor02)
 - [\#8066](https://github.com/AliceO2Group/AliceO2/pull/8066) 2022-02-03: [MCH] keep digit NofSamples within limits by [@pillot](https://github.com/pillot)
 - [\#8070](https://github.com/AliceO2Group/AliceO2/pull/8070) 2022-02-03: Report wrong double column order in the Alpide data, reorder hits by [@shahor02](https://github.com/shahor02)
+- [\#8074](https://github.com/AliceO2Group/AliceO2/pull/8074) 2022-02-04: TRD KrClusterer skip shared digits by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
