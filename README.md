@@ -23,6 +23,7 @@
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
+- [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#7996](https://github.com/AliceO2Group/AliceO2/pull/7996) 2022-01-25: MCH: improved digits time computation by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8003](https://github.com/AliceO2Group/AliceO2/pull/8003) 2022-01-31: GRP DCS DP processing by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -66,6 +67,7 @@
 - [\#8077](https://github.com/AliceO2Group/AliceO2/pull/8077) 2022-02-08: remove unused material to avoid FLUKA crash by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8080](https://github.com/AliceO2Group/AliceO2/pull/8080) 2022-02-04: DCS filepush server emulator + documentation by [@shahor02](https://github.com/shahor02)
 - [\#8084](https://github.com/AliceO2Group/AliceO2/pull/8084) 2022-02-05: Fix for DCS emulator compilation by [@shahor02](https://github.com/shahor02)
+- [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8091](https://github.com/AliceO2Group/AliceO2/pull/8091) 2022-02-08: TPC: add configKeyValue option to IDC workflows by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
