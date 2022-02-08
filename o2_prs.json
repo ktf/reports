@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-24T08:17:20Z",
-            "title": "EPN SHMManager: learn to allocate memory in NUMA-aware way",
-            "number": 7988,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/shm-tool.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-26T13:43:44Z",
             "title": "Multiple changes in AODProducerWorkflowSpec",
             "number": 7989,
@@ -4006,6 +3981,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchGlobalFwdAssessment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-02-08T08:45:13Z",
+            "title": "GPU: Workaround for amdgpu hipcc miscompilation in TPC looper following with -O3 and --amdgpu-function-calls=true",
+            "number": 8088,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
                   }
                 }
               ]
