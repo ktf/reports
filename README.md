@@ -72,7 +72,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
 - [\#7998](https://github.com/AliceO2Group/AliceO2/pull/7998) 2022-01-25: DPL Analysis: add exception for unsorted unassigned groups by [@aalkin](https://github.com/aalkin)
 - [\#8004](https://github.com/AliceO2Group/AliceO2/pull/8004) 2022-01-31: DPL: allow GUI to transition states by [@ktf](https://github.com/ktf)
 - [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
