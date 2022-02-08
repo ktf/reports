@@ -68,6 +68,7 @@
 - [\#8072](https://github.com/AliceO2Group/AliceO2/pull/8072) 2022-02-04: Use double precision in MID mapping by [@dstocco](https://github.com/dstocco)
 - [\#8074](https://github.com/AliceO2Group/AliceO2/pull/8074) 2022-02-04: TRD KrClusterer skip shared digits by [@martenole](https://github.com/martenole)
 - [\#8075](https://github.com/AliceO2Group/AliceO2/pull/8075) 2022-02-04: [EMCAL-556] Trace EMCAL run SOR/EOR in EMC DCS DP processor by [@shahor02](https://github.com/shahor02)
+- [\#8077](https://github.com/AliceO2Group/AliceO2/pull/8077) 2022-02-08: remove unused material to avoid FLUKA crash by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8080](https://github.com/AliceO2Group/AliceO2/pull/8080) 2022-02-04: DCS filepush server emulator + documentation by [@shahor02](https://github.com/shahor02)
 - [\#8084](https://github.com/AliceO2Group/AliceO2/pull/8084) 2022-02-05: Fix for DCS emulator compilation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
