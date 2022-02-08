@@ -68,6 +68,7 @@
 - [\#8077](https://github.com/AliceO2Group/AliceO2/pull/8077) 2022-02-08: remove unused material to avoid FLUKA crash by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8080](https://github.com/AliceO2Group/AliceO2/pull/8080) 2022-02-04: DCS filepush server emulator + documentation by [@shahor02](https://github.com/shahor02)
 - [\#8084](https://github.com/AliceO2Group/AliceO2/pull/8084) 2022-02-05: Fix for DCS emulator compilation by [@shahor02](https://github.com/shahor02)
+- [\#8091](https://github.com/AliceO2Group/AliceO2/pull/8091) 2022-02-08: TPC: add configKeyValue option to IDC workflows by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
