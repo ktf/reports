@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 - [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
@@ -19,7 +18,6 @@
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7994](https://github.com/AliceO2Group/AliceO2/pull/7994) 2022-01-30: LHC phase calibration  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8001](https://github.com/AliceO2Group/AliceO2/pull/8001) 2022-01-31: [QC-731] Move FlagReason list to a CSV file by [@knopers8](https://github.com/knopers8)
@@ -30,7 +28,6 @@
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7993](https://github.com/AliceO2Group/AliceO2/pull/7993) 2022-01-24: [rANS] O2-2750 Fixes in rANS Frequency Table by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#7994](https://github.com/AliceO2Group/AliceO2/pull/7994) 2022-01-30: LHC phase calibration  by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#7996](https://github.com/AliceO2Group/AliceO2/pull/7996) 2022-01-25: MCH: improved digits time computation by [@aferrero2707](https://github.com/aferrero2707)
@@ -76,7 +73,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#7999](https://github.com/AliceO2Group/AliceO2/pull/7999) 2022-01-24: screenshot updated by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#7989](https://github.com/AliceO2Group/AliceO2/pull/7989) 2022-01-26: Multiple changes in AODProducerWorkflowSpec by [@shahor02](https://github.com/shahor02)
 - [\#7991](https://github.com/AliceO2Group/AliceO2/pull/7991) 2022-01-24: DPL Analysis: fix incorrect schema usage in spawner by [@aalkin](https://github.com/aalkin)
 - [\#7992](https://github.com/AliceO2Group/AliceO2/pull/7992) 2022-01-25: Condition analysis by [@ktf](https://github.com/ktf)
 - [\#7995](https://github.com/AliceO2Group/AliceO2/pull/7995) 2022-01-24: DPL: allow only one remapping per path by [@ktf](https://github.com/ktf)
