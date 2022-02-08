@@ -5,111 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-24T22:59:17Z",
-            "title": "[rANS] O2-2750 Fixes in rANS Frequency Table",
-            "number": 7993,
-            "author": {
-              "login": "MichaelLettrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/CTFCoderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/Decoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/FrequencyTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/RenormedFrequencyTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/DecoderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/EncoderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/ReverseSymbolLookupTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/SymbolTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/rans.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/run/bin-encode-decode.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/src/FrequencyTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/src/RenormedFrequencyTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransEncodeDecode.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransFrequencyTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransReverseSymbolLookupTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransSymbolTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-30T13:01:41Z",
             "title": "LHC phase calibration ",
             "number": 7994,
@@ -3996,6 +3891,61 @@
                 {
                   "node": {
                     "path": "dependencies/O2Dependencies.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Split of ITS threshold calib workflow in two workflows: Calibrator + Aggregator",
+            "number": 8093,
+            "author": {
+              "login": "iravasen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdAggregatorWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdAggregatorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdAggregatorWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdCalibratorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/its-threshold-aggregator-workflow.cxx"
                   }
                 }
               ]
