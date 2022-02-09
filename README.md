@@ -73,6 +73,7 @@
 - [\#8091](https://github.com/AliceO2Group/AliceO2/pull/8091) 2022-02-08: TPC: add configKeyValue option to IDC workflows by [@wiechula](https://github.com/wiechula)
 - [\#8095](https://github.com/AliceO2Group/AliceO2/pull/8095) 2022-02-09: Do not discard decoded chip data if decoding error was set by [@shahor02](https://github.com/shahor02)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
+- [\#8101](https://github.com/AliceO2Group/AliceO2/pull/8101) 2022-02-09: return to "old style" CCDB access in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8104](https://github.com/AliceO2Group/AliceO2/pull/8104) 2022-02-09: Suppress header exposing filesystem to clang by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
