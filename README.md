@@ -14,6 +14,7 @@
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
+- [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8001](https://github.com/AliceO2Group/AliceO2/pull/8001) 2022-01-31: [QC-731] Move FlagReason list to a CSV file by [@knopers8](https://github.com/knopers8)
 - [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
@@ -24,6 +25,7 @@
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8086](https://github.com/AliceO2Group/AliceO2/pull/8086) 2022-02-09: add  CreationTime for FT0  and FV0 calibration objects by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
+- [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8003](https://github.com/AliceO2Group/AliceO2/pull/8003) 2022-01-31: GRP DCS DP processing by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8006](https://github.com/AliceO2Group/AliceO2/pull/8006) 2022-01-26: [EMCAL-751] Fixing the problem with pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
@@ -72,6 +74,7 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8091](https://github.com/AliceO2Group/AliceO2/pull/8091) 2022-02-08: TPC: add configKeyValue option to IDC workflows by [@wiechula](https://github.com/wiechula)
 - [\#8095](https://github.com/AliceO2Group/AliceO2/pull/8095) 2022-02-09: Do not discard decoded chip data if decoding error was set by [@shahor02](https://github.com/shahor02)
+- [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8004](https://github.com/AliceO2Group/AliceO2/pull/8004) 2022-01-31: DPL: allow GUI to transition states by [@ktf](https://github.com/ktf)
 - [\#8005](https://github.com/AliceO2Group/AliceO2/pull/8005) 2022-01-26: DPL Analysis: disentangle slicing kernels by [@aalkin](https://github.com/aalkin)
