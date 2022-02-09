@@ -54,6 +54,7 @@
 - [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#8052](https://github.com/AliceO2Group/AliceO2/pull/8052) 2022-02-02: [MFT] Fix digi2raw output segmentation by [@rpezzi](https://github.com/rpezzi)
 - [\#8058](https://github.com/AliceO2Group/AliceO2/pull/8058) 2022-02-02: Report ROF orbit in ITS/MFT raw decoder error messages by [@shahor02](https://github.com/shahor02)
+- [\#8059](https://github.com/AliceO2Group/AliceO2/pull/8059) 2022-02-09: Update of the MFT assessment workflow, added several histograms by [@sarahherrmann](https://github.com/sarahherrmann)
 - [\#8061](https://github.com/AliceO2Group/AliceO2/pull/8061) 2022-02-02: Possibility to attach multiple CCDB populators by [@shahor02](https://github.com/shahor02)
 - [\#8062](https://github.com/AliceO2Group/AliceO2/pull/8062) 2022-02-03: fix printf warnings by [@shahor02](https://github.com/shahor02)
 - [\#8063](https://github.com/AliceO2Group/AliceO2/pull/8063) 2022-02-02: Fixes in ITS noise calibrator output by [@shahor02](https://github.com/shahor02)
