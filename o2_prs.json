@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-01-31T08:48:40Z",
-            "title": "[QC-731] Move FlagReason list to a CSV file",
-            "number": 8001,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/etc/flagReasons.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagReasonFactory.h.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/FlagReasons.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/TimeRangeFlag.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/src/FlagReasons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/src/TimeRangeFlagCollection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testFlagReasons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL Analysis: add template to declare index binding equivalence",
@@ -3726,6 +3666,31 @@
                 {
                   "node": {
                     "path": "Detectors/Base/include/DetectorsBase/CTFCoderBase.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "return to \"old style\" CCDB access in reconstruction",
+            "number": 8101,
+            "author": {
+              "login": "AllaMaevskaya"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelTimeTimeSlotContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/ReconstructionSpec.cxx"
                   }
                 }
               ]
