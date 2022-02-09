@@ -24,7 +24,6 @@
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#7996](https://github.com/AliceO2Group/AliceO2/pull/7996) 2022-01-25: MCH: improved digits time computation by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8003](https://github.com/AliceO2Group/AliceO2/pull/8003) 2022-01-31: GRP DCS DP processing by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8006](https://github.com/AliceO2Group/AliceO2/pull/8006) 2022-01-26: [EMCAL-751] Fixing the problem with pre-trigger collisions by [@hahassan7](https://github.com/hahassan7)
 - [\#8009](https://github.com/AliceO2Group/AliceO2/pull/8009) 2022-01-26: file-for convention fixed by [@peressounko](https://github.com/peressounko)
