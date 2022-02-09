@@ -1,5 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-56h-01: Done on 2022-01-18.
 - v5-09-56i-01: Done on 2022-02-03.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
