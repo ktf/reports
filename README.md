@@ -23,7 +23,6 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
 - [\#8019](https://github.com/AliceO2Group/AliceO2/pull/8019) 2022-02-03: [MCH] handle empty TF by [@pillot](https://github.com/pillot)
