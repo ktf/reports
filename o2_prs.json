@@ -5,186 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-27T21:32:07Z",
-            "title": "Preparations to merge Vulkan backend for GPU display",
-            "number": 8011,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/test/testGPUCATracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Benchmark/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUSettings.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayExt.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlfw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlfw.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlut.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlut.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendNone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendNone.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendWindows.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendWindows.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendX11.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendX11.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/utils/vecpod.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2021-01-o2_prs.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2021-02-o2_prs.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-27T05:41:50Z",
             "title": "Fixed warnings and test error on MacOS Monterey",
             "number": 8012,
@@ -3496,6 +3316,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory",
+            "number": 8111,
+            "author": {
+              "login": "fjonasALICE"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
                   }
                 }
               ]
