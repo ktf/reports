@@ -75,6 +75,7 @@
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8101](https://github.com/AliceO2Group/AliceO2/pull/8101) 2022-02-09: return to "old style" CCDB access in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8104](https://github.com/AliceO2Group/AliceO2/pull/8104) 2022-02-09: Suppress header exposing filesystem to clang by [@shahor02](https://github.com/shahor02)
+- [\#8105](https://github.com/AliceO2Group/AliceO2/pull/8105) 2022-02-10: [EMCAL-757] Fix return type in cell-reader-workflow by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8027](https://github.com/AliceO2Group/AliceO2/pull/8027) 2022-01-27: Ccdb callback by [@ktf](https://github.com/ktf)
