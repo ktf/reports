@@ -50,6 +50,7 @@
 - [\#8045](https://github.com/AliceO2Group/AliceO2/pull/8045) 2022-02-01: switch to disable fall-back to TGeo if MatLUT is missing by [@shahor02](https://github.com/shahor02)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8050](https://github.com/AliceO2Group/AliceO2/pull/8050) 2022-02-10: SpaceCharge: adding getters for distortions and corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#8052](https://github.com/AliceO2Group/AliceO2/pull/8052) 2022-02-02: [MFT] Fix digi2raw output segmentation by [@rpezzi](https://github.com/rpezzi)
 - [\#8057](https://github.com/AliceO2Group/AliceO2/pull/8057) 2022-02-10: [MFT] Add timers to tracker workflow by [@rpezzi](https://github.com/rpezzi)
