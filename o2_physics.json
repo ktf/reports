@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2021-12-20T14:12:32Z",
-            "title": "New QA task for diffractive events in pp collisions",
-            "number": 421,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/diffractionSelectors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2021-12-15T11:30:34Z",
             "title": "DPG: use new isPhysicalPrimary interface",
             "number": 422,
@@ -3541,6 +3496,41 @@
                 {
                   "node": {
                     "path": "PWGMM/Tasks/dndeta.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event selection QA updated",
+            "number": 521,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]
