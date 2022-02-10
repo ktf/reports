@@ -9,12 +9,10 @@
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8071](https://github.com/AliceO2Group/AliceO2/pull/8071) 2022-02-04: improve comment by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8028](https://github.com/AliceO2Group/AliceO2/pull/8028) 2022-01-28: Excutable to create GRPECS CCDB entry by [@shahor02](https://github.com/shahor02)
 - [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
@@ -25,7 +23,6 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8015](https://github.com/AliceO2Group/AliceO2/pull/8015) 2022-01-26: fix typo in cascades sorting/merging by [@shahor02](https://github.com/shahor02)
 - [\#8016](https://github.com/AliceO2Group/AliceO2/pull/8016) 2022-01-27: [EMCAL-566] Added function for fast projection of boost histograms by [@jokonig](https://github.com/jokonig)
 - [\#8018](https://github.com/AliceO2Group/AliceO2/pull/8018) 2022-01-27: CPV: Remove unnecessary CCDB server check by [@sawenzel](https://github.com/sawenzel)
@@ -96,7 +93,6 @@
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#8012](https://github.com/AliceO2Group/AliceO2/pull/8012) 2022-01-27: Fixed warnings and test error on MacOS Monterey by [@pzhristov](https://github.com/pzhristov)
 - [\#8037](https://github.com/AliceO2Group/AliceO2/pull/8037) 2022-01-29: Add SIGUSR1 signal handler to ShmManager by [@rbx](https://github.com/rbx)
 - [\#8060](https://github.com/AliceO2Group/AliceO2/pull/8060) 2022-02-03: update ShmManager::ResetContent to be able to reset after a crash by [@rbx](https://github.com/rbx)
 - [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
