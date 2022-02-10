@@ -81,6 +81,7 @@
 - [\#8105](https://github.com/AliceO2Group/AliceO2/pull/8105) 2022-02-10: [EMCAL-757] Fix return type in cell-reader-workflow by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#8010](https://github.com/AliceO2Group/AliceO2/pull/8010) 2022-01-26: Fixes for CCDB Fetcher by [@shahor02](https://github.com/shahor02)
+- [\#8024](https://github.com/AliceO2Group/AliceO2/pull/8024) 2022-02-10: DPL Analysis: add an error message on unbound index access by [@aalkin](https://github.com/aalkin)
 - [\#8027](https://github.com/AliceO2Group/AliceO2/pull/8027) 2022-01-27: Ccdb callback by [@ktf](https://github.com/ktf)
 - [\#8030](https://github.com/AliceO2Group/AliceO2/pull/8030) 2022-01-28: Fixing command line arguments of unit test by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
