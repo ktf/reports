@@ -71,7 +71,6 @@
 - [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
 ## Recent developments in O2 - Framework
-- [\#8030](https://github.com/AliceO2Group/AliceO2/pull/8030) 2022-01-28: Fixing command line arguments of unit test by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
