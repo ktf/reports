@@ -73,6 +73,7 @@
 - [\#8104](https://github.com/AliceO2Group/AliceO2/pull/8104) 2022-02-09: Suppress header exposing filesystem to clang by [@shahor02](https://github.com/shahor02)
 - [\#8105](https://github.com/AliceO2Group/AliceO2/pull/8105) 2022-02-10: [EMCAL-757] Fix return type in cell-reader-workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
+- [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
 ## Recent developments in O2 - Framework
 - [\#8024](https://github.com/AliceO2Group/AliceO2/pull/8024) 2022-02-10: DPL Analysis: add an error message on unbound index access by [@aalkin](https://github.com/aalkin)
 - [\#8027](https://github.com/AliceO2Group/AliceO2/pull/8027) 2022-01-27: Ccdb callback by [@ktf](https://github.com/ktf)
