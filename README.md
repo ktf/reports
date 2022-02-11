@@ -9,6 +9,7 @@
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8071](https://github.com/AliceO2Group/AliceO2/pull/8071) 2022-02-04: improve comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
+- [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#8031](https://github.com/AliceO2Group/AliceO2/pull/8031) 2022-02-01: Object cache service by [@ktf](https://github.com/ktf)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
@@ -85,6 +86,7 @@
 - [\#8113](https://github.com/AliceO2Group/AliceO2/pull/8113) 2022-02-11: add first and last shorthand for array by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8116](https://github.com/AliceO2Group/AliceO2/pull/8116) 2022-02-10: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
+- [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
