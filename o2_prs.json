@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-31T09:07:41Z",
-            "title": "DPL Analysis: Set tables only once for event mixing",
-            "number": 8033,
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-30T18:16:49Z",
             "title": "Make TRD Tracking work on the GPU (Run 2 and Run 3 data)",
             "number": 8034,
@@ -2640,6 +2615,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2022-02-o2_prs.json"
                   }
                 }
@@ -3971,6 +3951,26 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/workflow/src/cpv-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid quitting readout-proxy on a restart",
+            "number": 8133,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
