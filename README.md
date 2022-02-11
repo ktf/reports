@@ -70,6 +70,7 @@
 - [\#8108](https://github.com/AliceO2Group/AliceO2/pull/8108) 2022-02-11: fix title offset for dpg (L126-L131) by [@alindner14](https://github.com/alindner14)
 - [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
+- [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8033](https://github.com/AliceO2Group/AliceO2/pull/8033) 2022-01-31: DPL Analysis: Set tables only once for event mixing by [@saganatt](https://github.com/saganatt)
 - [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
