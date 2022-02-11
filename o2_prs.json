@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-10T08:01:42Z",
-            "title": "DPL Analysis: add an error message on unbound index access",
-            "number": 8024,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ASoA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-10T08:29:14Z",
             "title": "IDCs: using unsigned data types for compression",
             "number": 8025,
@@ -3441,6 +3411,86 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Workflow/src/MaskMakerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Class to build the hit map for MID chamber efficiency calculations",
+            "number": 8124,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Track.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MID/src/Track.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/include/MIDBase/HitFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/src/HitFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Filtering/test/bench_Filter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Simulation/test/testSimulation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/TestingSimTools/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/include/MIDTracking/HitMapBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/src/HitMapBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/test/bench_Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/test/testTracker.cxx"
                   }
                 }
               ]
