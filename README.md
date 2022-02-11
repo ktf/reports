@@ -13,7 +13,6 @@
 ## Recent developments in O2 - Common
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
@@ -23,7 +22,6 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8032](https://github.com/AliceO2Group/AliceO2/pull/8032) 2022-01-29: Possibility to disable whole ITS/MFT chip by [@shahor02](https://github.com/shahor02)
 - [\#8034](https://github.com/AliceO2Group/AliceO2/pull/8034) 2022-01-30: Make TRD Tracking work on the GPU (Run 2 and Run 3 data) by [@davidrohr](https://github.com/davidrohr)
 - [\#8035](https://github.com/AliceO2Group/AliceO2/pull/8035) 2022-01-29: Adapt AOD MCLabels to non-redundant storage of ambiguous tracks by [@shahor02](https://github.com/shahor02)
 - [\#8036](https://github.com/AliceO2Group/AliceO2/pull/8036) 2022-01-29: DCS proxies use now() in ms to fill DPH.creation time by [@shahor02](https://github.com/shahor02)
