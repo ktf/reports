@@ -23,7 +23,6 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8021](https://github.com/AliceO2Group/AliceO2/pull/8021) 2022-01-28: Parallelization of ITS threshold calibration workflow + new features by [@iravasen](https://github.com/iravasen)
 - [\#8023](https://github.com/AliceO2Group/AliceO2/pull/8023) 2022-02-04: [MFT] Increase search radius for linear tracks by [@rpezzi](https://github.com/rpezzi)
 - [\#8025](https://github.com/AliceO2Group/AliceO2/pull/8025) 2022-02-10: IDCs: using unsigned data types for compression by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8026](https://github.com/AliceO2Group/AliceO2/pull/8026) 2022-01-28: fixing table names for v0s/cascades by [@jgrosseo](https://github.com/jgrosseo)
