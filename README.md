@@ -21,7 +21,6 @@
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8034](https://github.com/AliceO2Group/AliceO2/pull/8034) 2022-01-30: Make TRD Tracking work on the GPU (Run 2 and Run 3 data) by [@davidrohr](https://github.com/davidrohr)
 - [\#8035](https://github.com/AliceO2Group/AliceO2/pull/8035) 2022-01-29: Adapt AOD MCLabels to non-redundant storage of ambiguous tracks by [@shahor02](https://github.com/shahor02)
 - [\#8036](https://github.com/AliceO2Group/AliceO2/pull/8036) 2022-01-29: DCS proxies use now() in ms to fill DPH.creation time by [@shahor02](https://github.com/shahor02)
 - [\#8038](https://github.com/AliceO2Group/AliceO2/pull/8038) 2022-01-29: Revert "Improving sensitive hit creation for FT0 in Detector.cxx" by [@sawenzel](https://github.com/sawenzel)
