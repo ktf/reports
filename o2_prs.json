@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-29T15:52:03Z",
-            "title": "Revert \"Improving sensitive hit creation for FT0 in Detector.cxx\"",
-            "number": 8038,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/include/FT0Simulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/simulation/src/Detector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-01-29T11:55:42Z",
-            "title": "GPU Standalone: Add script to set up build environment for GPU standalone benchmark",
-            "number": 8039,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/include/DataFormatsTOF/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/cmake/prepare.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-29T19:38:17Z",
             "title": "Fix in ambiguous tracks tagging",
             "number": 8040,
@@ -3785,6 +3725,11 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "doc/data/2022-02-o2_prs.json"
                   }
                 }
@@ -3836,6 +3781,46 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-02-12T19:10:10Z",
+            "title": "DPL: improve message on STOP transition",
+            "number": 8138,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Revert \"DPL: improve message on STOP transition\"",
+            "number": 8139,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]

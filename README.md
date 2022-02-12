@@ -12,7 +12,6 @@
 ## Recent developments in O2 - Common
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#8053](https://github.com/AliceO2Group/AliceO2/pull/8053) 2022-02-02: [QC-725] Allow to store TRFCollections as CSV files by [@knopers8](https://github.com/knopers8)
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
@@ -22,8 +21,6 @@
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8038](https://github.com/AliceO2Group/AliceO2/pull/8038) 2022-01-29: Revert "Improving sensitive hit creation for FT0 in Detector.cxx" by [@sawenzel](https://github.com/sawenzel)
-- [\#8039](https://github.com/AliceO2Group/AliceO2/pull/8039) 2022-01-29: GPU Standalone: Add script to set up build environment for GPU standalone benchmark by [@davidrohr](https://github.com/davidrohr)
 - [\#8040](https://github.com/AliceO2Group/AliceO2/pull/8040) 2022-01-29: Fix in ambiguous tracks tagging by [@shahor02](https://github.com/shahor02)
 - [\#8042](https://github.com/AliceO2Group/AliceO2/pull/8042) 2022-01-31: Load Geant4 libraries (MacOSX Monterey) by [@pzhristov](https://github.com/pzhristov)
 - [\#8044](https://github.com/AliceO2Group/AliceO2/pull/8044) 2022-01-31: AOD stores the time with full float precision by [@shahor02](https://github.com/shahor02)
@@ -83,6 +80,7 @@
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
+- [\#8138](https://github.com/AliceO2Group/AliceO2/pull/8138) 2022-02-12: DPL: improve message on STOP transition by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
