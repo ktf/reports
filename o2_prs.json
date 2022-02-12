@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-29T15:15:19Z",
-            "title": "Add SIGUSR1 signal handler to ShmManager",
-            "number": 8037,
-            "author": {
-              "login": "rbx"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-29T15:52:03Z",
             "title": "Revert \"Improving sensitive hit creation for FT0 in Detector.cxx\"",
             "number": 8038,
@@ -3826,6 +3806,36 @@
                 {
                   "node": {
                     "path": "DataFormats/Reconstruction/src/VtxTrackRef.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message",
+            "number": 8137,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/exe/rawdump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ExternalFairMQDeviceWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
