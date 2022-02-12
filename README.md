@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8071](https://github.com/AliceO2Group/AliceO2/pull/8071) 2022-02-04: improve comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
@@ -21,7 +20,6 @@
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8040](https://github.com/AliceO2Group/AliceO2/pull/8040) 2022-01-29: Fix in ambiguous tracks tagging by [@shahor02](https://github.com/shahor02)
 - [\#8042](https://github.com/AliceO2Group/AliceO2/pull/8042) 2022-01-31: Load Geant4 libraries (MacOSX Monterey) by [@pzhristov](https://github.com/pzhristov)
 - [\#8044](https://github.com/AliceO2Group/AliceO2/pull/8044) 2022-01-31: AOD stores the time with full float precision by [@shahor02](https://github.com/shahor02)
 - [\#8045](https://github.com/AliceO2Group/AliceO2/pull/8045) 2022-02-01: switch to disable fall-back to TGeo if MatLUT is missing by [@shahor02](https://github.com/shahor02)
@@ -63,10 +61,10 @@
 - [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8128](https://github.com/AliceO2Group/AliceO2/pull/8128) 2022-02-12: FastFit implemented by [@peressounko](https://github.com/peressounko)
+- [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8041](https://github.com/AliceO2Group/AliceO2/pull/8041) 2022-01-31: Introducing McParticle version 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8064](https://github.com/AliceO2Group/AliceO2/pull/8064) 2022-02-04: DPL: timeout on STOP transition by [@ktf](https://github.com/ktf)
@@ -81,6 +79,7 @@
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
 - [\#8138](https://github.com/AliceO2Group/AliceO2/pull/8138) 2022-02-12: DPL: improve message on STOP transition by [@ktf](https://github.com/ktf)
+- [\#8140](https://github.com/AliceO2Group/AliceO2/pull/8140) 2022-02-12: DPL: fix message merged too quickly by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8069](https://github.com/AliceO2Group/AliceO2/pull/8069) 2022-02-03: Truncate digitcontext output by [@sawenzel](https://github.com/sawenzel)
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
