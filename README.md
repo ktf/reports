@@ -62,6 +62,7 @@
 - [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
+- [\#8141](https://github.com/AliceO2Group/AliceO2/pull/8141) 2022-02-13: Raw data readers send separate EoS message in case of raw FMQ channel output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
