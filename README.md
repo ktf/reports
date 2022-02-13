@@ -21,7 +21,6 @@
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8045](https://github.com/AliceO2Group/AliceO2/pull/8045) 2022-02-01: switch to disable fall-back to TGeo if MatLUT is missing by [@shahor02](https://github.com/shahor02)
 - [\#8047](https://github.com/AliceO2Group/AliceO2/pull/8047) 2022-01-31: Promote/demote several warnings/errors to alarm, in order to raise infologger-min-severity to important for sync processing by [@davidrohr](https://github.com/davidrohr)
 - [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8050](https://github.com/AliceO2Group/AliceO2/pull/8050) 2022-02-10: SpaceCharge: adding getters for distortions and corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
