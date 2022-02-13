@@ -18,6 +18,7 @@
 - [\#8086](https://github.com/AliceO2Group/AliceO2/pull/8086) 2022-02-09: add  CreationTime for FT0  and FV0 calibration objects by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
+- [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8045](https://github.com/AliceO2Group/AliceO2/pull/8045) 2022-02-01: switch to disable fall-back to TGeo if MatLUT is missing by [@shahor02](https://github.com/shahor02)
@@ -58,6 +59,7 @@
 - [\#8108](https://github.com/AliceO2Group/AliceO2/pull/8108) 2022-02-11: fix title offset for dpg (L126-L131) by [@alindner14](https://github.com/alindner14)
 - [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
+- [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8128](https://github.com/AliceO2Group/AliceO2/pull/8128) 2022-02-12: FastFit implemented by [@peressounko](https://github.com/peressounko)
 - [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
