@@ -61,6 +61,7 @@
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
 - [\#8141](https://github.com/AliceO2Group/AliceO2/pull/8141) 2022-02-13: Raw data readers send separate EoS message in case of raw FMQ channel output by [@shahor02](https://github.com/shahor02)
+- [\#8145](https://github.com/AliceO2Group/AliceO2/pull/8145) 2022-02-13: Remove deprecated EXTRA variables, only the ARGS_EXTRA_[process] and CONFIG_EXTRA_[process] are supported (+ unrelated fixes) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#8064](https://github.com/AliceO2Group/AliceO2/pull/8064) 2022-02-04: DPL: timeout on STOP transition by [@ktf](https://github.com/ktf)
 - [\#8067](https://github.com/AliceO2Group/AliceO2/pull/8067) 2022-02-03: DPL: cleanup remaining messages by [@ktf](https://github.com/ktf)
