@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-02-01T09:42:30Z",
-            "title": "McParticle: moving default to 001",
-            "number": 8048,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: improved Conditions support",
@@ -3831,6 +3801,46 @@
                 {
                   "node": {
                     "path": "Detectors/GRP/workflows/src/create-aligned-geometry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] GPU: Feature to update calibration data on GPU during run",
+            "number": 8148,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
                   }
                 }
               ]

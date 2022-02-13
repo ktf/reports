@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8071](https://github.com/AliceO2Group/AliceO2/pull/8071) 2022-02-04: improve comment by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
@@ -21,7 +20,6 @@
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8050](https://github.com/AliceO2Group/AliceO2/pull/8050) 2022-02-10: SpaceCharge: adding getters for distortions and corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#8052](https://github.com/AliceO2Group/AliceO2/pull/8052) 2022-02-02: [MFT] Fix digi2raw output segmentation by [@rpezzi](https://github.com/rpezzi)
@@ -64,7 +62,6 @@
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
 - [\#8141](https://github.com/AliceO2Group/AliceO2/pull/8141) 2022-02-13: Raw data readers send separate EoS message in case of raw FMQ channel output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8048](https://github.com/AliceO2Group/AliceO2/pull/8048) 2022-02-01: McParticle: moving default to 001 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8064](https://github.com/AliceO2Group/AliceO2/pull/8064) 2022-02-04: DPL: timeout on STOP transition by [@ktf](https://github.com/ktf)
 - [\#8067](https://github.com/AliceO2Group/AliceO2/pull/8067) 2022-02-03: DPL: cleanup remaining messages by [@ktf](https://github.com/ktf)
 - [\#8071](https://github.com/AliceO2Group/AliceO2/pull/8071) 2022-02-04: improve comment by [@jgrosseo](https://github.com/jgrosseo)
