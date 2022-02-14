@@ -20,7 +20,6 @@
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8050](https://github.com/AliceO2Group/AliceO2/pull/8050) 2022-02-10: SpaceCharge: adding getters for distortions and corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8051](https://github.com/AliceO2Group/AliceO2/pull/8051) 2022-02-02: [EMCAL-751] Temporal fix for the digitizer by [@hahassan7](https://github.com/hahassan7)
 - [\#8052](https://github.com/AliceO2Group/AliceO2/pull/8052) 2022-02-02: [MFT] Fix digi2raw output segmentation by [@rpezzi](https://github.com/rpezzi)
 - [\#8057](https://github.com/AliceO2Group/AliceO2/pull/8057) 2022-02-10: [MFT] Add timers to tracker workflow by [@rpezzi](https://github.com/rpezzi)
