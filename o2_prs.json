@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-02T08:20:46Z",
-            "title": "[EMCAL-751] Temporal fix for the digitizer",
-            "number": 8051,
-            "author": {
-              "login": "hahassan7"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/EMCALDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-02T08:32:23Z",
             "title": "[MFT] Fix digi2raw output segmentation",
             "number": 8052,
@@ -3896,6 +3866,26 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/simulation/src/RawWriter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-02-14T12:36:48Z",
+            "title": "GPU: Fix dependencies of standalone benchmarks when they are taken from alidist not from the system",
+            "number": 8151,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
                   }
                 }
               ]
