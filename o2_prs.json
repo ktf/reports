@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-02-04T11:02:20Z",
-            "title": "DPL: timeout on STOP transition",
-            "number": 8064,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceState.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Limit maximum memory usage during tracking to 32GB (tunable)",
@@ -4081,6 +4036,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bugfix: using message size as payload size",
+            "number": 8164,
+            "author": {
+              "login": "matthiasrichter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataRefUtils.h"
                   }
                 }
               ]
