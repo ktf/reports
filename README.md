@@ -20,6 +20,7 @@
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
+- [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8066](https://github.com/AliceO2Group/AliceO2/pull/8066) 2022-02-03: [MCH] keep digit NofSamples within limits by [@pillot](https://github.com/pillot)
 - [\#8068](https://github.com/AliceO2Group/AliceO2/pull/8068) 2022-02-08: Add Origin table by [@nburmaso](https://github.com/nburmaso)
@@ -61,6 +62,8 @@
 - [\#8147](https://github.com/AliceO2Group/AliceO2/pull/8147) 2022-02-14: executable to create an aligned geom from CCDB entries + loadGeometry defaults change by [@shahor02](https://github.com/shahor02)
 - [\#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8150](https://github.com/AliceO2Group/AliceO2/pull/8150) 2022-02-14: Cosmetic fixes for detector raw file names: cru->crorc for CRORC detector, capital detector names, correct FIT FLPs by [@davidrohr](https://github.com/davidrohr)
+- [\#8159](https://github.com/AliceO2Group/AliceO2/pull/8159) 2022-02-15: Spec and workflow to inject DISTSUBTIMEFRAME message by [@shahor02](https://github.com/shahor02)
+- [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Framework
 - [\#8064](https://github.com/AliceO2Group/AliceO2/pull/8064) 2022-02-04: DPL: timeout on STOP transition by [@ktf](https://github.com/ktf)
