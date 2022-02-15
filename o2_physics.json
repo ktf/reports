@@ -4,106 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "TPC PID refactoring (unintentional submit, please ignore)",
-            "number": 429,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/AnalysisCoreLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/BetheBloch.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/PIDTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCPIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCReso.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/qaTPCExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/qaTPCMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/handleParamTPCBetheBloch.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/handleParamTPCResponse.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/gammaConversions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/gammaConversionsmc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2021-12-17T12:34:15Z",
             "title": "Skip track w/o MC particle attached",
@@ -3496,6 +3396,36 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adding macros used to upload evsel ccdb objects",
+            "number": 529,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_trigger_aliases.C"
                   }
                 }
               ]
