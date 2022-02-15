@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-03T16:48:08Z",
-            "title": "update ShmManager::ResetContent to be able to reset after a crash",
-            "number": 8060,
-            "author": {
-              "login": "rbx"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Utilities/ShmManager/src/ShmManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-02T22:31:38Z",
             "title": "Possibility to attach multiple CCDB populators",
             "number": 8061,
@@ -3898,6 +3878,121 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/GlobalTrackClusterReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/include/DetectorsRaw/DistSTFSenderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/DistSTFSenderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/diststf-sender-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Prototype of the reco TF skimming workflow",
+            "number": 8160,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/FilteredRecoTF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/DataFormatsGlobalTrackingLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/src/FilteredRecoTF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteredTFReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteredTFReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteredTFWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteredTFWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteringSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/FilteringSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/filtered-tf-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/filtered-tf-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Filtering/src/filtering-workflow.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/helpers/src/GlobalTrackClusterReader.cxx"
