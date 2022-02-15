@@ -21,7 +21,6 @@
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8061](https://github.com/AliceO2Group/AliceO2/pull/8061) 2022-02-02: Possibility to attach multiple CCDB populators by [@shahor02](https://github.com/shahor02)
 - [\#8062](https://github.com/AliceO2Group/AliceO2/pull/8062) 2022-02-03: fix printf warnings by [@shahor02](https://github.com/shahor02)
 - [\#8063](https://github.com/AliceO2Group/AliceO2/pull/8063) 2022-02-02: Fixes in ITS noise calibrator output by [@shahor02](https://github.com/shahor02)
 - [\#8066](https://github.com/AliceO2Group/AliceO2/pull/8066) 2022-02-03: [MCH] keep digit NofSamples within limits by [@pillot](https://github.com/pillot)
