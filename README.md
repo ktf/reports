@@ -22,7 +22,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8068](https://github.com/AliceO2Group/AliceO2/pull/8068) 2022-02-08: Add Origin table by [@nburmaso](https://github.com/nburmaso)
 - [\#8070](https://github.com/AliceO2Group/AliceO2/pull/8070) 2022-02-03: Report wrong double column order in the Alpide data, reorder hits by [@shahor02](https://github.com/shahor02)
 - [\#8072](https://github.com/AliceO2Group/AliceO2/pull/8072) 2022-02-04: Use double precision in MID mapping by [@dstocco](https://github.com/dstocco)
 - [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
