@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
+- [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Common
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -63,6 +64,7 @@
 - [\#8159](https://github.com/AliceO2Group/AliceO2/pull/8159) 2022-02-15: Spec and workflow to inject DISTSUBTIMEFRAME message by [@shahor02](https://github.com/shahor02)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
+- [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Framework
 - [\#8083](https://github.com/AliceO2Group/AliceO2/pull/8083) 2022-02-05: DPL Analysis: index equivalence fix by [@aalkin](https://github.com/aalkin)
 - [\#8097](https://github.com/AliceO2Group/AliceO2/pull/8097) 2022-02-09: Do not produce an error on default finaliseCCDB by [@shahor02](https://github.com/shahor02)
