@@ -9,6 +9,7 @@
 ## Recent developments in O2 - Common
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#8156](https://github.com/AliceO2Group/AliceO2/pull/8156) 2022-02-16: [o2-sim] Fatal in certain cases by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
 - [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
 - [\#8082](https://github.com/AliceO2Group/AliceO2/pull/8082) 2022-02-10: Add runType to GRPECS + its creator by [@shahor02](https://github.com/shahor02)
