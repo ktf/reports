@@ -52,6 +52,7 @@
 - [\#8118](https://github.com/AliceO2Group/AliceO2/pull/8118) 2022-02-14: [EMCAL-760] Stand-alone publisher for digits by [@mfasDa](https://github.com/mfasDa)
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8123](https://github.com/AliceO2Group/AliceO2/pull/8123) 2022-02-15: Use wildcard to match all MID digits subSpecs by [@dstocco](https://github.com/dstocco)
+- [\#8126](https://github.com/AliceO2Group/AliceO2/pull/8126) 2022-02-16: TPC gain map using tracks: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8128](https://github.com/AliceO2Group/AliceO2/pull/8128) 2022-02-12: FastFit implemented by [@peressounko](https://github.com/peressounko)
 - [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
