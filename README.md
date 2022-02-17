@@ -65,6 +65,7 @@
 - [\#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8168](https://github.com/AliceO2Group/AliceO2/pull/8168) 2022-02-17: Change the CruId into the Geo.h by [@fapfap69](https://github.com/fapfap69)
+- [\#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8083](https://github.com/AliceO2Group/AliceO2/pull/8083) 2022-02-05: DPL Analysis: index equivalence fix by [@aalkin](https://github.com/aalkin)
 - [\#8097](https://github.com/AliceO2Group/AliceO2/pull/8097) 2022-02-09: Do not produce an error on default finaliseCCDB by [@shahor02](https://github.com/shahor02)
