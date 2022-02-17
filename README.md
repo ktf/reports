@@ -13,7 +13,6 @@
 - [\#8156](https://github.com/AliceO2Group/AliceO2/pull/8156) 2022-02-16: [o2-sim] Fatal in certain cases by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
 - [\#8082](https://github.com/AliceO2Group/AliceO2/pull/8082) 2022-02-10: Add runType to GRPECS + its creator by [@shahor02](https://github.com/shahor02)
 - [\#8086](https://github.com/AliceO2Group/AliceO2/pull/8086) 2022-02-09: add  CreationTime for FT0  and FV0 calibration objects by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
@@ -23,7 +22,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
 - [\#8074](https://github.com/AliceO2Group/AliceO2/pull/8074) 2022-02-04: TRD KrClusterer skip shared digits by [@martenole](https://github.com/martenole)
 - [\#8075](https://github.com/AliceO2Group/AliceO2/pull/8075) 2022-02-04: [EMCAL-556] Trace EMCAL run SOR/EOR in EMC DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8076](https://github.com/AliceO2Group/AliceO2/pull/8076) 2022-02-10: [EMCAL-565]: Added ccdb entry framework. by [@hjbossi](https://github.com/hjbossi)
@@ -83,7 +81,5 @@
 - [\#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Steer
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Testing
-- [\#8073](https://github.com/AliceO2Group/AliceO2/pull/8073) 2022-02-11: Use Cluster class for MID instead of Cluster2D and Cluster3D by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Utilities
 - [\#8078](https://github.com/AliceO2Group/AliceO2/pull/8078) 2022-02-04: [QC-741] Mergers: support merging histograms with averages by [@knopers8](https://github.com/knopers8)
