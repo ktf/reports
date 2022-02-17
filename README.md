@@ -22,7 +22,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8074](https://github.com/AliceO2Group/AliceO2/pull/8074) 2022-02-04: TRD KrClusterer skip shared digits by [@martenole](https://github.com/martenole)
 - [\#8075](https://github.com/AliceO2Group/AliceO2/pull/8075) 2022-02-04: [EMCAL-556] Trace EMCAL run SOR/EOR in EMC DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8076](https://github.com/AliceO2Group/AliceO2/pull/8076) 2022-02-10: [EMCAL-565]: Added ccdb entry framework. by [@hjbossi](https://github.com/hjbossi)
 - [\#8077](https://github.com/AliceO2Group/AliceO2/pull/8077) 2022-02-08: remove unused material to avoid FLUKA crash by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
