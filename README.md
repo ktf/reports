@@ -20,7 +20,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8085](https://github.com/AliceO2Group/AliceO2/pull/8085) 2022-02-09: [O2-2776] produce raw data dumps on ITS/MFT decoding errors by [@shahor02](https://github.com/shahor02)
 - [\#8086](https://github.com/AliceO2Group/AliceO2/pull/8086) 2022-02-09: add  CreationTime for FT0  and FV0 calibration objects by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8087](https://github.com/AliceO2Group/AliceO2/pull/8087) 2022-02-14: GlobalFwd: fix Pairing Efficiency calculation by [@rpezzi](https://github.com/rpezzi)
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
