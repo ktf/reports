@@ -60,6 +60,9 @@
 - [\#8167](https://github.com/AliceO2Group/AliceO2/pull/8167) 2022-02-18: Hmpid dcsccdb improvments by [@fapfap69](https://github.com/fapfap69)
 - [\#8168](https://github.com/AliceO2Group/AliceO2/pull/8168) 2022-02-17: Change the CruId into the Geo.h by [@fapfap69](https://github.com/fapfap69)
 - [\#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
+- [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - EventVisualisation
+- [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#8083](https://github.com/AliceO2Group/AliceO2/pull/8083) 2022-02-05: DPL Analysis: index equivalence fix by [@aalkin](https://github.com/aalkin)
 - [\#8097](https://github.com/AliceO2Group/AliceO2/pull/8097) 2022-02-09: Do not produce an error on default finaliseCCDB by [@shahor02](https://github.com/shahor02)
