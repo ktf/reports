@@ -21,7 +21,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8080](https://github.com/AliceO2Group/AliceO2/pull/8080) 2022-02-04: DCS filepush server emulator + documentation by [@shahor02](https://github.com/shahor02)
 - [\#8082](https://github.com/AliceO2Group/AliceO2/pull/8082) 2022-02-10: Add runType to GRPECS + its creator by [@shahor02](https://github.com/shahor02)
 - [\#8084](https://github.com/AliceO2Group/AliceO2/pull/8084) 2022-02-05: Fix for DCS emulator compilation by [@shahor02](https://github.com/shahor02)
 - [\#8085](https://github.com/AliceO2Group/AliceO2/pull/8085) 2022-02-09: [O2-2776] produce raw data dumps on ITS/MFT decoding errors by [@shahor02](https://github.com/shahor02)
