@@ -20,7 +20,6 @@
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8084](https://github.com/AliceO2Group/AliceO2/pull/8084) 2022-02-05: Fix for DCS emulator compilation by [@shahor02](https://github.com/shahor02)
 - [\#8085](https://github.com/AliceO2Group/AliceO2/pull/8085) 2022-02-09: [O2-2776] produce raw data dumps on ITS/MFT decoding errors by [@shahor02](https://github.com/shahor02)
 - [\#8086](https://github.com/AliceO2Group/AliceO2/pull/8086) 2022-02-09: add  CreationTime for FT0  and FV0 calibration objects by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8087](https://github.com/AliceO2Group/AliceO2/pull/8087) 2022-02-14: GlobalFwd: fix Pairing Efficiency calculation by [@rpezzi](https://github.com/rpezzi)
@@ -64,7 +63,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8083](https://github.com/AliceO2Group/AliceO2/pull/8083) 2022-02-05: DPL Analysis: index equivalence fix by [@aalkin](https://github.com/aalkin)
 - [\#8097](https://github.com/AliceO2Group/AliceO2/pull/8097) 2022-02-09: Do not produce an error on default finaliseCCDB by [@shahor02](https://github.com/shahor02)
 - [\#8110](https://github.com/AliceO2Group/AliceO2/pull/8110) 2022-02-10: DPL: properly handle pollers on start-stop-start transition (O2-2751) by [@ktf](https://github.com/ktf)
 - [\#8113](https://github.com/AliceO2Group/AliceO2/pull/8113) 2022-02-11: add first and last shorthand for array by [@jgrosseo](https://github.com/jgrosseo)
