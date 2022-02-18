@@ -5,6 +5,7 @@
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#8100](https://github.com/AliceO2Group/AliceO2/pull/8100) 2022-02-09: Check availability of CTF-dictionary before opening the file by [@shahor02](https://github.com/shahor02)
 - [\#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -75,5 +76,7 @@
 - [\#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8171](https://github.com/AliceO2Group/AliceO2/pull/8171) 2022-02-18: DPL: reset channel state on PreRun by [@ktf](https://github.com/ktf)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
+- [\#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
+- [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
