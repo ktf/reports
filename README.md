@@ -78,5 +78,6 @@
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 - [\#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
 - [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
+- [\#8187](https://github.com/AliceO2Group/AliceO2/pull/8187) 2022-02-19: DPL Analysis: allow index builder to use extended tables as input by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
