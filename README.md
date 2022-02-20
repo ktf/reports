@@ -19,6 +19,7 @@
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
+- [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [\#8089](https://github.com/AliceO2Group/AliceO2/pull/8089) 2022-02-08: [EMCAL-548, EMCAL-614,EMCAL-687,EMCAL-757] Fill EMCAL information in AOD in simulations by [@mfasDa](https://github.com/mfasDa)
 - [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
@@ -60,6 +61,7 @@
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8185](https://github.com/AliceO2Group/AliceO2/pull/8185) 2022-02-19: Fixed mask for runType once more + bug fixes for ITHR scan by [@iravasen](https://github.com/iravasen)
 - [\#8186](https://github.com/AliceO2Group/AliceO2/pull/8186) 2022-02-19: Parallelise ITS noise calibration, use digits by default by [@shahor02](https://github.com/shahor02)
+- [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
