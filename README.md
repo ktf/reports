@@ -21,7 +21,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
 - [\#8091](https://github.com/AliceO2Group/AliceO2/pull/8091) 2022-02-08: TPC: add configKeyValue option to IDC workflows by [@wiechula](https://github.com/wiechula)
 - [\#8094](https://github.com/AliceO2Group/AliceO2/pull/8094) 2022-02-10: updated options by [@alindner14](https://github.com/alindner14)
 - [\#8095](https://github.com/AliceO2Group/AliceO2/pull/8095) 2022-02-09: Do not discard decoded chip data if decoding error was set by [@shahor02](https://github.com/shahor02)
@@ -82,5 +81,3 @@
 - [\#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
 - [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 - [\#8187](https://github.com/AliceO2Group/AliceO2/pull/8187) 2022-02-19: DPL Analysis: allow index builder to use extended tables as input by [@aalkin](https://github.com/aalkin)
-## Recent developments in O2 - Steer
-- [\#8090](https://github.com/AliceO2Group/AliceO2/pull/8090) 2022-02-09: Timestamp propagation and use in digitizer workflow by [@sawenzel](https://github.com/sawenzel)
