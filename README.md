@@ -61,6 +61,7 @@
 - [\#8185](https://github.com/AliceO2Group/AliceO2/pull/8185) 2022-02-19: Fixed mask for runType once more + bug fixes for ITHR scan by [@iravasen](https://github.com/iravasen)
 - [\#8186](https://github.com/AliceO2Group/AliceO2/pull/8186) 2022-02-19: Parallelise ITS noise calibration, use digits by default by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
+- [\#8189](https://github.com/AliceO2Group/AliceO2/pull/8189) 2022-02-20: reset all reco->aod mapping indices after each TF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
