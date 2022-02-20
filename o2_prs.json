@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-08T18:59:27Z",
-            "title": "TPC: add configKeyValue option to IDC workflows",
-            "number": 8091,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-distribute-idc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-aggregator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-epn.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-08T21:32:48Z",
             "title": "[O2-2778] Change the way we favor CONFIG variant of TBB find_package",
             "number": 8092,
@@ -4246,6 +4216,31 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CCDB fetcher remapping to different hosts or local files",
+            "number": 8191,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CCDBHelpers.cxx"
                   }
                 }
               ]
