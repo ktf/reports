@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-09T10:19:37Z",
-            "title": "Do not produce an error on default finaliseCCDB",
-            "number": 8097,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Task.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-09T08:53:17Z",
             "title": "FST: Give a proper error when no CTF file is present",
             "number": 8098,
@@ -4166,6 +4146,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/simulation/macro/toyCluster.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Uset vector instead of TClonesArray to pass AlignParams",
+            "number": 8197,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/include/Align/AlignableSensor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableSensor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableVolume.cxx"
                   }
                 }
               ]
