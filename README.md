@@ -19,7 +19,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8101](https://github.com/AliceO2Group/AliceO2/pull/8101) 2022-02-09: return to "old style" CCDB access in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8104](https://github.com/AliceO2Group/AliceO2/pull/8104) 2022-02-09: Suppress header exposing filesystem to clang by [@shahor02](https://github.com/shahor02)
 - [\#8105](https://github.com/AliceO2Group/AliceO2/pull/8105) 2022-02-10: [EMCAL-757] Fix return type in cell-reader-workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#8108](https://github.com/AliceO2Group/AliceO2/pull/8108) 2022-02-11: fix title offset for dpg (L126-L131) by [@alindner14](https://github.com/alindner14)
