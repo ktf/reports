@@ -21,7 +21,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8111](https://github.com/AliceO2Group/AliceO2/pull/8111) 2022-02-11: [EMCAL-670] fixed wrong eta/phi pos of clusters in ClusterFactory by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#8114](https://github.com/AliceO2Group/AliceO2/pull/8114) 2022-02-11: MFT calib workflow update to accept config key values. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8118](https://github.com/AliceO2Group/AliceO2/pull/8118) 2022-02-14: [EMCAL-760] Stand-alone publisher for digits by [@mfasDa](https://github.com/mfasDa)
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
