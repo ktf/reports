@@ -61,7 +61,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8113](https://github.com/AliceO2Group/AliceO2/pull/8113) 2022-02-11: add first and last shorthand for array by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8116](https://github.com/AliceO2Group/AliceO2/pull/8116) 2022-02-10: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8121](https://github.com/AliceO2Group/AliceO2/pull/8121) 2022-02-11: DPL Analysis: index builder helper by [@aalkin](https://github.com/aalkin)
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
