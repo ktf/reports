@@ -14,6 +14,8 @@
 ## Recent developments in O2 - DataFormats
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8120](https://github.com/AliceO2Group/AliceO2/pull/8120) 2022-02-20: dEdx topology correction: using threshold and qTot as input for qTot correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
+- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
@@ -25,6 +27,8 @@
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8120](https://github.com/AliceO2Group/AliceO2/pull/8120) 2022-02-20: dEdx topology correction: using threshold and qTot as input for qTot correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8123](https://github.com/AliceO2Group/AliceO2/pull/8123) 2022-02-15: Use wildcard to match all MID digits subSpecs by [@dstocco](https://github.com/dstocco)
+- [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
+- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
 - [\#8126](https://github.com/AliceO2Group/AliceO2/pull/8126) 2022-02-16: TPC gain map using tracks: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8128](https://github.com/AliceO2Group/AliceO2/pull/8128) 2022-02-12: FastFit implemented by [@peressounko](https://github.com/peressounko)
 - [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
@@ -82,3 +86,7 @@
 - [\#8202](https://github.com/AliceO2Group/AliceO2/pull/8202) 2022-02-22: Updated Doxygen  keywords by [@ihrivnac](https://github.com/ihrivnac)
 - [\#8206](https://github.com/AliceO2Group/AliceO2/pull/8206) 2022-02-22: Revert "DPL: stop timer after EoS has been reached" by [@ktf](https://github.com/ktf)
 - [\#8207](https://github.com/AliceO2Group/AliceO2/pull/8207) 2022-02-22: DPL: provide missing timeout by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
+## Recent developments in O2 - Testing
+- [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
