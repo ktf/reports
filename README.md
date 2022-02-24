@@ -21,7 +21,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8118](https://github.com/AliceO2Group/AliceO2/pull/8118) 2022-02-14: [EMCAL-760] Stand-alone publisher for digits by [@mfasDa](https://github.com/mfasDa)
 - [\#8119](https://github.com/AliceO2Group/AliceO2/pull/8119) 2022-02-13: ctpdev: ctpproxy publish CTP scalers by [@lietava](https://github.com/lietava)
 - [\#8120](https://github.com/AliceO2Group/AliceO2/pull/8120) 2022-02-20: dEdx topology correction: using threshold and qTot as input for qTot correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8123](https://github.com/AliceO2Group/AliceO2/pull/8123) 2022-02-15: Use wildcard to match all MID digits subSpecs by [@dstocco](https://github.com/dstocco)
