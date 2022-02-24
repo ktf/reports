@@ -12,7 +12,6 @@
 - [\#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#8120](https://github.com/AliceO2Group/AliceO2/pull/8120) 2022-02-20: dEdx topology correction: using threshold and qTot as input for qTot correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
 - [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
@@ -20,7 +19,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8120](https://github.com/AliceO2Group/AliceO2/pull/8120) 2022-02-20: dEdx topology correction: using threshold and qTot as input for qTot correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8123](https://github.com/AliceO2Group/AliceO2/pull/8123) 2022-02-15: Use wildcard to match all MID digits subSpecs by [@dstocco](https://github.com/dstocco)
 - [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
 - [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
