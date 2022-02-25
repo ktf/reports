@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
@@ -10,14 +9,11 @@
 - [\#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
 - [\#8136](https://github.com/AliceO2Group/AliceO2/pull/8136) 2022-02-12: fix in VtxTrackRef::asString method by [@shahor02](https://github.com/shahor02)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
-- [\#8126](https://github.com/AliceO2Group/AliceO2/pull/8126) 2022-02-16: TPC gain map using tracks: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8128](https://github.com/AliceO2Group/AliceO2/pull/8128) 2022-02-12: FastFit implemented by [@peressounko](https://github.com/peressounko)
 - [\#8129](https://github.com/AliceO2Group/AliceO2/pull/8129) 2022-02-12: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#8131](https://github.com/AliceO2Group/AliceO2/pull/8131) 2022-02-11: Protection against unset chipID in case of Alpide data corruption by [@shahor02](https://github.com/shahor02)
@@ -52,7 +48,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
 - [\#8137](https://github.com/AliceO2Group/AliceO2/pull/8137) 2022-02-12: Workaround for fmt 8.1, which doesn't want to print enums without explicit type + better FST error message by [@davidrohr](https://github.com/davidrohr)
 - [\#8138](https://github.com/AliceO2Group/AliceO2/pull/8138) 2022-02-12: DPL: improve message on STOP transition by [@ktf](https://github.com/ktf)
 - [\#8140](https://github.com/AliceO2Group/AliceO2/pull/8140) 2022-02-12: DPL: fix message merged too quickly by [@ktf](https://github.com/ktf)
@@ -69,9 +64,8 @@
 - [\#8192](https://github.com/AliceO2Group/AliceO2/pull/8192) 2022-02-21: DPL GUI: allow tracing different code paths independently by [@ktf](https://github.com/ktf)
 - [\#8193](https://github.com/AliceO2Group/AliceO2/pull/8193) 2022-02-21: DPL: add support for run number dependent ccdb objects by [@ktf](https://github.com/ktf)
 - [\#8198](https://github.com/AliceO2Group/AliceO2/pull/8198) 2022-02-22: DPL: stop timer after EoS has been reached by [@ktf](https://github.com/ktf)
+- [\#8199](https://github.com/AliceO2Group/AliceO2/pull/8199) 2022-02-25: DPL: additional tracing / debug statements by [@ktf](https://github.com/ktf)
 - [\#8202](https://github.com/AliceO2Group/AliceO2/pull/8202) 2022-02-22: Updated Doxygen  keywords by [@ihrivnac](https://github.com/ihrivnac)
 - [\#8206](https://github.com/AliceO2Group/AliceO2/pull/8206) 2022-02-22: Revert "DPL: stop timer after EoS has been reached" by [@ktf](https://github.com/ktf)
 - [\#8207](https://github.com/AliceO2Group/AliceO2/pull/8207) 2022-02-22: DPL: provide missing timeout by [@ktf](https://github.com/ktf)
 - [\#8214](https://github.com/AliceO2Group/AliceO2/pull/8214) 2022-02-24: DPL: add method to rescan DataRelayer / TimesliceIndex by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
