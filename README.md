@@ -66,3 +66,5 @@
 - [\#8206](https://github.com/AliceO2Group/AliceO2/pull/8206) 2022-02-22: Revert "DPL: stop timer after EoS has been reached" by [@ktf](https://github.com/ktf)
 - [\#8207](https://github.com/AliceO2Group/AliceO2/pull/8207) 2022-02-22: DPL: provide missing timeout by [@ktf](https://github.com/ktf)
 - [\#8214](https://github.com/AliceO2Group/AliceO2/pull/8214) 2022-02-24: DPL: add method to rescan DataRelayer / TimesliceIndex by [@ktf](https://github.com/ktf)
+- [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
+- [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
