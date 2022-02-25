@@ -17,7 +17,6 @@
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8123](https://github.com/AliceO2Group/AliceO2/pull/8123) 2022-02-15: Use wildcard to match all MID digits subSpecs by [@dstocco](https://github.com/dstocco)
 - [\#8124](https://github.com/AliceO2Group/AliceO2/pull/8124) 2022-02-23: Class to build the hit map for MID chamber efficiency calculations by [@dstocco](https://github.com/dstocco)
 - [\#8125](https://github.com/AliceO2Group/AliceO2/pull/8125) 2022-02-23: Use standard MID digits instead of dedicated digits for MC by [@dstocco](https://github.com/dstocco)
 - [\#8126](https://github.com/AliceO2Group/AliceO2/pull/8126) 2022-02-16: TPC gain map using tracks: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -50,6 +49,8 @@
 - [\#8190](https://github.com/AliceO2Group/AliceO2/pull/8190) 2022-02-21: Add parameter of time pre-samples by [@peressounko](https://github.com/peressounko)
 - [\#8197](https://github.com/AliceO2Group/AliceO2/pull/8197) 2022-02-22: Uset vector instead of TClonesArray to pass AlignParams by [@shahor02](https://github.com/shahor02)
 - [\#8202](https://github.com/AliceO2Group/AliceO2/pull/8202) 2022-02-22: Updated Doxygen  keywords by [@ihrivnac](https://github.com/ihrivnac)
+- [\#8204](https://github.com/AliceO2Group/AliceO2/pull/8204) 2022-02-25: Produce Alpide raw data dumps only on request or in EPNSYNCMODE=1 mode by [@shahor02](https://github.com/shahor02)
+- [\#8217](https://github.com/AliceO2Group/AliceO2/pull/8217) 2022-02-25: Sort AOD track daughters indices by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
