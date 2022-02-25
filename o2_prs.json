@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Merge the MC and the data Specs for MID reconstruction",
-            "number": 8122,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/ClusterizerMCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/ClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/TrackerMCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ClusterizerMCSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/TrackerMCSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-02-15T19:34:21Z",
             "title": "Use wildcard to match all MID digits subSpecs",
@@ -4216,6 +4151,96 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "BadMap calibrator added; get calibr. from CCDB added",
+            "number": 8222,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalib/BadChannelMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSBadMapCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSBadMapCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSCalibWorkflowLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/AltroDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
