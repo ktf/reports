@@ -1,5 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-56i-01: Done on 2022-02-03.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#8127](https://github.com/AliceO2Group/AliceO2/pull/8127) 2022-02-11: DPL: make sure Condition<> object can be used by [@ktf](https://github.com/ktf)
