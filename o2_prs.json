@@ -6,101 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "CPV noise calibration",
-            "number": 8132,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/NoiseCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/PedestalCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/macros/readBadChannelMapFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/CPVCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/NoiseCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/PedestalCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/PedestalCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/cpv-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/RawToDigitConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/cpv-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "Avoid quitting readout-proxy on a restart",
             "number": 8133,
             "author": {
@@ -4156,6 +4061,26 @@
                 {
                   "node": {
                     "path": "macro/CreateGRPECSObject.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix in elimination of pixels multiply fired in the same ROF",
+            "number": 8232,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/AlpideCoder.h"
                   }
                 }
               ]
