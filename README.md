@@ -14,7 +14,6 @@
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8141](https://github.com/AliceO2Group/AliceO2/pull/8141) 2022-02-13: Raw data readers send separate EoS message in case of raw FMQ channel output by [@shahor02](https://github.com/shahor02)
 - [\#8143](https://github.com/AliceO2Group/AliceO2/pull/8143) 2022-02-14: Split of the ITS threshold wf: Calibrator + aggregator - ADDED support for no EoS case by [@iravasen](https://github.com/iravasen)
 - [\#8145](https://github.com/AliceO2Group/AliceO2/pull/8145) 2022-02-13: Remove deprecated EXTRA variables, only the ARGS_EXTRA_[process] and CONFIG_EXTRA_[process] are supported (+ unrelated fixes) by [@davidrohr](https://github.com/davidrohr)
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
