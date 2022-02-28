@@ -47,7 +47,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8140](https://github.com/AliceO2Group/AliceO2/pull/8140) 2022-02-12: DPL: fix message merged too quickly by [@ktf](https://github.com/ktf)
 - [\#8155](https://github.com/AliceO2Group/AliceO2/pull/8155) 2022-02-17: Bugfix DPL raw proxy: stable walking through DataHeaders by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8169](https://github.com/AliceO2Group/AliceO2/pull/8169) 2022-02-20: DPL: fix start-stop-start transition by [@ktf](https://github.com/ktf)
