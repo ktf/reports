@@ -69,6 +69,7 @@
 - [\#8214](https://github.com/AliceO2Group/AliceO2/pull/8214) 2022-02-24: DPL: add method to rescan DataRelayer / TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
+- [\#8227](https://github.com/AliceO2Group/AliceO2/pull/8227) 2022-02-28: DPL: communicate FairMQ state to driver by [@ktf](https://github.com/ktf)
 - [\#8234](https://github.com/AliceO2Group/AliceO2/pull/8234) 2022-02-27: DPL: provide a way to specify lifetime from text query by [@ktf](https://github.com/ktf)
 - [\#8236](https://github.com/AliceO2Group/AliceO2/pull/8236) 2022-02-28: DPL: fix more than one attribute in query. by [@ktf](https://github.com/ktf)
 - [\#8237](https://github.com/AliceO2Group/AliceO2/pull/8237) 2022-02-28: DPL GUI: improve color for debug messages by [@ktf](https://github.com/ktf)
