@@ -70,5 +70,6 @@
 - [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
 - [\#8234](https://github.com/AliceO2Group/AliceO2/pull/8234) 2022-02-27: DPL: provide a way to specify lifetime from text query by [@ktf](https://github.com/ktf)
+- [\#8236](https://github.com/AliceO2Group/AliceO2/pull/8236) 2022-02-28: DPL: fix more than one attribute in query. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
