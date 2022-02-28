@@ -8,11 +8,13 @@
 - [\#8156](https://github.com/AliceO2Group/AliceO2/pull/8156) 2022-02-16: [o2-sim] Fatal in certain cases by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
+- [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
+- [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8143](https://github.com/AliceO2Group/AliceO2/pull/8143) 2022-02-14: Split of the ITS threshold wf: Calibrator + aggregator - ADDED support for no EoS case by [@iravasen](https://github.com/iravasen)
 - [\#8145](https://github.com/AliceO2Group/AliceO2/pull/8145) 2022-02-13: Remove deprecated EXTRA variables, only the ARGS_EXTRA_[process] and CONFIG_EXTRA_[process] are supported (+ unrelated fixes) by [@davidrohr](https://github.com/davidrohr)
@@ -43,9 +45,11 @@
 - [\#8217](https://github.com/AliceO2Group/AliceO2/pull/8217) 2022-02-25: Sort AOD track daughters indices by [@shahor02](https://github.com/shahor02)
 - [\#8218](https://github.com/AliceO2Group/AliceO2/pull/8218) 2022-02-28: MCH: add ability to write digits in Root format in the digits-writer by [@aphecetche](https://github.com/aphecetche)
 - [\#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
+- [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8232](https://github.com/AliceO2Group/AliceO2/pull/8232) 2022-02-25: Fix in elimination of pixels multiply fired in the same ROF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
+- [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8155](https://github.com/AliceO2Group/AliceO2/pull/8155) 2022-02-17: Bugfix DPL raw proxy: stable walking through DataHeaders by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
