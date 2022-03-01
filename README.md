@@ -77,5 +77,6 @@
 - [\#8237](https://github.com/AliceO2Group/AliceO2/pull/8237) 2022-02-28: DPL GUI: improve color for debug messages by [@ktf](https://github.com/ktf)
 - [\#8240](https://github.com/AliceO2Group/AliceO2/pull/8240) 2022-02-28: Avoid race condition in channel names by [@ktf](https://github.com/ktf)
 - [\#8242](https://github.com/AliceO2Group/AliceO2/pull/8242) 2022-03-01: DPL: honour correctly ccdb-run-dependent metadata by [@ktf](https://github.com/ktf)
+- [\#8245](https://github.com/AliceO2Group/AliceO2/pull/8245) 2022-03-01: Adapt exit timeout by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
