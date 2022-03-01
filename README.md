@@ -43,6 +43,7 @@
 - [\#8218](https://github.com/AliceO2Group/AliceO2/pull/8218) 2022-02-28: MCH: add ability to write digits in Root format in the digits-writer by [@aphecetche](https://github.com/aphecetche)
 - [\#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
 - [\#8228](https://github.com/AliceO2Group/AliceO2/pull/8228) 2022-02-28: T0TOF: Returning the number of tracks used by [@njacazio](https://github.com/njacazio)
+- [\#8229](https://github.com/AliceO2Group/AliceO2/pull/8229) 2022-03-01: [EMCAL-630] Make decoder errors optional by [@mfasDa](https://github.com/mfasDa)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8232](https://github.com/AliceO2Group/AliceO2/pull/8232) 2022-02-25: Fix in elimination of pixels multiply fired in the same ROF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
