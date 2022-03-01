@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-14T14:47:22Z",
-            "title": "executable to create an aligned geom from CCDB entries + loadGeometry defaults change",
-            "number": 8147,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/GeometryManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/create-aligned-geometry.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-16T19:25:15Z",
             "title": "GPU: Feature to update calibration data on GPU during run",
             "number": 8148,
@@ -4191,6 +4161,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CCDBHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix bug in assigning PhysicalPrimary property during AOD creation",
+            "number": 8247,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
