@@ -76,7 +76,9 @@
 - [\#8238](https://github.com/AliceO2Group/AliceO2/pull/8238) 2022-03-01: DPL: introduce Lifetime::OutOfBand by [@ktf](https://github.com/ktf)
 - [\#8240](https://github.com/AliceO2Group/AliceO2/pull/8240) 2022-02-28: Avoid race condition in channel names by [@ktf](https://github.com/ktf)
 - [\#8242](https://github.com/AliceO2Group/AliceO2/pull/8242) 2022-03-01: DPL: honour correctly ccdb-run-dependent metadata by [@ktf](https://github.com/ktf)
+- [\#8244](https://github.com/AliceO2Group/AliceO2/pull/8244) 2022-03-02: DPL: fix warnings in framework headers by [@ktf](https://github.com/ktf)
 - [\#8245](https://github.com/AliceO2Group/AliceO2/pull/8245) 2022-03-01: Adapt exit timeout by [@ktf](https://github.com/ktf)
+- [\#8246](https://github.com/AliceO2Group/AliceO2/pull/8246) 2022-03-02: DPL: move helper to standalone function by [@ktf](https://github.com/ktf)
 - [\#8248](https://github.com/AliceO2Group/AliceO2/pull/8248) 2022-03-01: Separate script for calibration workflows by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Utilities
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
