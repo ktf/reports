@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 - v5-09-53f-01: Done on 2022-03-02.
 - v5-09-54n-01: Done on 2022-03-02.
+- v5-09-55d-01: Done on 2022-03-02.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
