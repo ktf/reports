@@ -14,7 +14,6 @@
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8150](https://github.com/AliceO2Group/AliceO2/pull/8150) 2022-02-14: Cosmetic fixes for detector raw file names: cru->crorc for CRORC detector, capital detector names, correct FIT FLPs by [@davidrohr](https://github.com/davidrohr)
 - [\#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8159](https://github.com/AliceO2Group/AliceO2/pull/8159) 2022-02-15: Spec and workflow to inject DISTSUBTIMEFRAME message by [@shahor02](https://github.com/shahor02)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
