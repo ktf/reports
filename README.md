@@ -1,5 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-53f-01: Done on 2022-03-02.
+- v5-09-54n-01: Done on 2022-03-02.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
@@ -49,7 +50,6 @@
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8155](https://github.com/AliceO2Group/AliceO2/pull/8155) 2022-02-17: Bugfix DPL raw proxy: stable walking through DataHeaders by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8169](https://github.com/AliceO2Group/AliceO2/pull/8169) 2022-02-20: DPL: fix start-stop-start transition by [@ktf](https://github.com/ktf)
 - [\#8171](https://github.com/AliceO2Group/AliceO2/pull/8171) 2022-02-18: DPL: reset channel state on PreRun by [@ktf](https://github.com/ktf)
