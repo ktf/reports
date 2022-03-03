@@ -76,6 +76,7 @@
 - [\#8208](https://github.com/AliceO2Group/AliceO2/pull/8208) 2022-02-28: Improved testing of the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8210](https://github.com/AliceO2Group/AliceO2/pull/8210) 2022-03-01: DPL: exit immediately when we are idle by [@ktf](https://github.com/ktf)
 - [\#8214](https://github.com/AliceO2Group/AliceO2/pull/8214) 2022-02-24: DPL: add method to rescan DataRelayer / TimesliceIndex by [@ktf](https://github.com/ktf)
+- [\#8221](https://github.com/AliceO2Group/AliceO2/pull/8221) 2022-03-03: DPL: automatically include --exit-transition-timeout by [@ktf](https://github.com/ktf)
 - [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
 - [\#8227](https://github.com/AliceO2Group/AliceO2/pull/8227) 2022-02-28: DPL: communicate FairMQ state to driver by [@ktf](https://github.com/ktf)
