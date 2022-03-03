@@ -20,7 +20,6 @@
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8159](https://github.com/AliceO2Group/AliceO2/pull/8159) 2022-02-15: Spec and workflow to inject DISTSUBTIMEFRAME message by [@shahor02](https://github.com/shahor02)
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8161](https://github.com/AliceO2Group/AliceO2/pull/8161) 2022-02-17: Fix HMP mc->raw output for for-cru option by [@shahor02](https://github.com/shahor02)
 - [\#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
