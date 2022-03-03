@@ -13,6 +13,7 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8253](https://github.com/AliceO2Group/AliceO2/pull/8253) 2022-03-03: o2-sim: Offer option to disable Geant transport by [@sawenzel](https://github.com/sawenzel)
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
+- [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8165](https://github.com/AliceO2Group/AliceO2/pull/8165) 2022-03-02: Update in ZDC reconstruction by [@cortesep](https://github.com/cortesep)
@@ -94,6 +95,7 @@
 - [\#8251](https://github.com/AliceO2Group/AliceO2/pull/8251) 2022-03-02: DPL: protect against spaces in table names by [@ktf](https://github.com/ktf)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
+- [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#8213](https://github.com/AliceO2Group/AliceO2/pull/8213) 2022-03-02: Accesing payload size through DataRefUtils by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
