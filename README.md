@@ -38,6 +38,7 @@
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8189](https://github.com/AliceO2Group/AliceO2/pull/8189) 2022-02-20: reset all reco->aod mapping indices after each TF by [@shahor02](https://github.com/shahor02)
 - [\#8190](https://github.com/AliceO2Group/AliceO2/pull/8190) 2022-02-21: Add parameter of time pre-samples by [@peressounko](https://github.com/peressounko)
+- [\#8196](https://github.com/AliceO2Group/AliceO2/pull/8196) 2022-03-03: adding toy-MC for TPC clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8197](https://github.com/AliceO2Group/AliceO2/pull/8197) 2022-02-22: Uset vector instead of TClonesArray to pass AlignParams by [@shahor02](https://github.com/shahor02)
 - [\#8202](https://github.com/AliceO2Group/AliceO2/pull/8202) 2022-02-22: Updated Doxygen  keywords by [@ihrivnac](https://github.com/ihrivnac)
 - [\#8204](https://github.com/AliceO2Group/AliceO2/pull/8204) 2022-02-25: Produce Alpide raw data dumps only on request or in EPNSYNCMODE=1 mode by [@shahor02](https://github.com/shahor02)
