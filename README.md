@@ -53,6 +53,7 @@
 - [\#8233](https://github.com/AliceO2Group/AliceO2/pull/8233) 2022-03-02: TRD: allow vDrift calib with TPC-TRD tracks only by [@martenole](https://github.com/martenole)
 - [\#8247](https://github.com/AliceO2Group/AliceO2/pull/8247) 2022-03-01: Fix bug in assigning PhysicalPrimary property during AOD creation by [@sawenzel](https://github.com/sawenzel)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
+- [\#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
