@@ -40,6 +40,7 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8232](https://github.com/AliceO2Group/AliceO2/pull/8232) 2022-02-25: Fix in elimination of pixels multiply fired in the same ROF by [@shahor02](https://github.com/shahor02)
 - [\#8233](https://github.com/AliceO2Group/AliceO2/pull/8233) 2022-03-02: TRD: allow vDrift calib with TPC-TRD tracks only by [@martenole](https://github.com/martenole)
+- [\#8243](https://github.com/AliceO2Group/AliceO2/pull/8243) 2022-03-04: [MFT] Add chipID mapping and updateL2GMatrixCache  by [@robincaron13](https://github.com/robincaron13)
 - [\#8247](https://github.com/AliceO2Group/AliceO2/pull/8247) 2022-03-01: Fix bug in assigning PhysicalPrimary property during AOD creation by [@sawenzel](https://github.com/sawenzel)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
 - [\#8254](https://github.com/AliceO2Group/AliceO2/pull/8254) 2022-03-04: Optimising IDC processing by [@matthias-kleiner](https://github.com/matthias-kleiner)
