@@ -50,7 +50,6 @@
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8169](https://github.com/AliceO2Group/AliceO2/pull/8169) 2022-02-20: DPL: fix start-stop-start transition by [@ktf](https://github.com/ktf)
 - [\#8171](https://github.com/AliceO2Group/AliceO2/pull/8171) 2022-02-18: DPL: reset channel state on PreRun by [@ktf](https://github.com/ktf)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 - [\#8177](https://github.com/AliceO2Group/AliceO2/pull/8177) 2022-02-21: DPL Analysis: do not call operator* twice for slice index by [@aalkin](https://github.com/aalkin)
