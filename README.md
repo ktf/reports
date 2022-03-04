@@ -14,13 +14,11 @@
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8165](https://github.com/AliceO2Group/AliceO2/pull/8165) 2022-03-02: Update in ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [\#8161](https://github.com/AliceO2Group/AliceO2/pull/8161) 2022-02-17: Fix HMP mc->raw output for for-cru option by [@shahor02](https://github.com/shahor02)
 - [\#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
 - [\#8165](https://github.com/AliceO2Group/AliceO2/pull/8165) 2022-03-02: Update in ZDC reconstruction by [@cortesep](https://github.com/cortesep)
