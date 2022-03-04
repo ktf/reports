@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-18T12:33:44Z",
-            "title": "Hmpid dcsccdb improvments",
-            "number": 8167,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/simulation/src/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/digit2raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/base/include/HMPIDBase/Geo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/include/HMPIDWorkflow/PedestalsCalculationSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-02-17T08:49:25Z",
-            "title": "Change the CruId into the Geo.h",
-            "number": 8168,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/base/include/HMPIDBase/Geo.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-20T00:48:09Z",
             "title": "DPL: fix start-stop-start transition",
             "number": 8169,
@@ -3576,6 +3501,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: automatically subscribe the ccdbBackend to the correct clock",
+            "number": 8267,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix return error code in case of missing detectors",
+            "number": 8268,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
                   }
                 }
               ]

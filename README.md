@@ -17,8 +17,6 @@
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8167](https://github.com/AliceO2Group/AliceO2/pull/8167) 2022-02-18: Hmpid dcsccdb improvments by [@fapfap69](https://github.com/fapfap69)
-- [\#8168](https://github.com/AliceO2Group/AliceO2/pull/8168) 2022-02-17: Change the CruId into the Geo.h by [@fapfap69](https://github.com/fapfap69)
 - [\#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
 - [\#8173](https://github.com/AliceO2Group/AliceO2/pull/8173) 2022-03-01: IDCs: various code optimisations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8178](https://github.com/AliceO2Group/AliceO2/pull/8178) 2022-02-19: Fix OB Half Staves relative position and U-leg length by [@mario6829](https://github.com/mario6829)
