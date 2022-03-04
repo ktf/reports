@@ -14,12 +14,10 @@
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8165](https://github.com/AliceO2Group/AliceO2/pull/8165) 2022-03-02: Update in ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8165](https://github.com/AliceO2Group/AliceO2/pull/8165) 2022-03-02: Update in ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8167](https://github.com/AliceO2Group/AliceO2/pull/8167) 2022-02-18: Hmpid dcsccdb improvments by [@fapfap69](https://github.com/fapfap69)
 - [\#8168](https://github.com/AliceO2Group/AliceO2/pull/8168) 2022-02-17: Change the CruId into the Geo.h by [@fapfap69](https://github.com/fapfap69)
@@ -90,6 +88,7 @@
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 - [\#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
+- [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#8213](https://github.com/AliceO2Group/AliceO2/pull/8213) 2022-03-02: Accesing payload size through DataRefUtils by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
