@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Integration of ZDC fastsim prototype into O2.",
-            "number": 8162,
-            "author": {
-              "login": "SwirtaB"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/include/Config.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/include/FastSimulations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/include/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/scales/generator_vae_scales.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/scales/sae_scales.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/src/FastSimulations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/src/Utils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/fastsimulation/tests/run-example.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-02-15T18:57:47Z",
             "title": "Fixed runType in ITS calib workflow",
@@ -3901,6 +3831,31 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "With MC option run-workflow-on-inputlist can use local digits",
+            "number": 8262,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/run-workflow-on-inputlist.sh"
                   }
                 }
               ]
