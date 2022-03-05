@@ -16,6 +16,7 @@
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
+- [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
 - [\#8173](https://github.com/AliceO2Group/AliceO2/pull/8173) 2022-03-01: IDCs: various code optimisations by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -47,11 +48,12 @@
 - [\#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
 - [\#8258](https://github.com/AliceO2Group/AliceO2/pull/8258) 2022-03-04: MCH pedestal data fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8261](https://github.com/AliceO2Group/AliceO2/pull/8261) 2022-03-04: Fix the default values for the Pedestals workflow by [@fapfap69](https://github.com/fapfap69)
+- [\#8270](https://github.com/AliceO2Group/AliceO2/pull/8270) 2022-03-05: CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
+- [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8171](https://github.com/AliceO2Group/AliceO2/pull/8171) 2022-02-18: DPL: reset channel state on PreRun by [@ktf](https://github.com/ktf)
 - [\#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 - [\#8177](https://github.com/AliceO2Group/AliceO2/pull/8177) 2022-02-21: DPL Analysis: do not call operator* twice for slice index by [@aalkin](https://github.com/aalkin)
 - [\#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
