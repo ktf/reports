@@ -18,7 +18,6 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
 - [\#8173](https://github.com/AliceO2Group/AliceO2/pull/8173) 2022-03-01: IDCs: various code optimisations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8178](https://github.com/AliceO2Group/AliceO2/pull/8178) 2022-02-19: Fix OB Half Staves relative position and U-leg length by [@mario6829](https://github.com/mario6829)
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
@@ -50,6 +49,7 @@
 - [\#8261](https://github.com/AliceO2Group/AliceO2/pull/8261) 2022-03-04: Fix the default values for the Pedestals workflow by [@fapfap69](https://github.com/fapfap69)
 - [\#8270](https://github.com/AliceO2Group/AliceO2/pull/8270) 2022-03-05: CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
+- [\#8272](https://github.com/AliceO2Group/AliceO2/pull/8272) 2022-03-05: fix in the raw data dump path creation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
