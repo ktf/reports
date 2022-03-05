@@ -45,6 +45,7 @@
 - [\#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
 - [\#8258](https://github.com/AliceO2Group/AliceO2/pull/8258) 2022-03-04: MCH pedestal data fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8261](https://github.com/AliceO2Group/AliceO2/pull/8261) 2022-03-04: Fix the default values for the Pedestals workflow by [@fapfap69](https://github.com/fapfap69)
+- [\#8265](https://github.com/AliceO2Group/AliceO2/pull/8265) 2022-03-05: Remove TestingSimTools from MID Tracking dependency by [@dstocco](https://github.com/dstocco)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
 - [\#8270](https://github.com/AliceO2Group/AliceO2/pull/8270) 2022-03-05: CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
