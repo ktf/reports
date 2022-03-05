@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-01-28T21:02:29Z",
-            "title": "Add debug histo + exclude cut for Run 3",
-            "number": 485,
-            "author": {
-              "login": "lbariogl"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/FemtoDreamTrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/femtoDreamDebugTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoDream/femtoDreamProducerReducedTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-01-29T11:03:29Z",
             "title": "DPG: further options for PV",
             "number": 486,
@@ -3246,6 +3216,46 @@
                 {
                   "node": {
                     "path": "Common/Tasks/checkDataModelMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added support for McParticles_001; Fixes in tableMakerMC to protect a…",
+            "number": 586,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/MCSignalLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/dqEfficiency.cxx"
                   }
                 }
               ]
