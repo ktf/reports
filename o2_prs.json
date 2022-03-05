@@ -5,131 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-01T10:43:43Z",
-            "title": "IDCs: various code optimisations",
-            "number": 8173,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CalDet.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCAverageGroup.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCAverageGroupBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCAverageGroupHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCFactorization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCGroup.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCGroupingParameter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/RobustAverage.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCAverageGroupHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCFactorization.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCGroup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/RobustAverage.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ProcessingHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeIDCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPIDCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ProcessingHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-flp-idc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-17T17:12:25Z",
             "title": "FST: Add option to override SHM memory size of 8 GPU FST",
             "number": 8174,
@@ -3540,6 +3415,46 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally use ITS/MFT NoiseMap to mask chips in digitization",
+            "number": 8273,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/ChipDigitsContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DPLDigitizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
                   }
                 }
               ]
