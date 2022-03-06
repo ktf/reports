@@ -50,6 +50,7 @@
 - [\#8270](https://github.com/AliceO2Group/AliceO2/pull/8270) 2022-03-05: CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8272](https://github.com/AliceO2Group/AliceO2/pull/8272) 2022-03-05: fix in the raw data dump path creation by [@shahor02](https://github.com/shahor02)
+- [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
@@ -89,6 +90,8 @@
 - [\#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
 - [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8213](https://github.com/AliceO2Group/AliceO2/pull/8213) 2022-03-02: Accesing payload size through DataRefUtils by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
