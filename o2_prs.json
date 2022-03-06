@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-21T19:43:40Z",
-            "title": "DPL Analysis: do not call operator* twice for slice index",
-            "number": 8177,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-19T11:12:40Z",
             "title": "Fix OB Half Staves relative position and U-leg length",
             "number": 8178,
@@ -3510,6 +3490,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid flooding logs if MID LOC sends faulty messages",
+            "number": 8277,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/ELinkManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/ELinkManager.cxx"
                   }
                 }
               ]
