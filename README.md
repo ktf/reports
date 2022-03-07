@@ -10,12 +10,10 @@
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8189](https://github.com/AliceO2Group/AliceO2/pull/8189) 2022-02-20: reset all reco->aod mapping indices after each TF by [@shahor02](https://github.com/shahor02)
 - [\#8190](https://github.com/AliceO2Group/AliceO2/pull/8190) 2022-02-21: Add parameter of time pre-samples by [@peressounko](https://github.com/peressounko)
 - [\#8196](https://github.com/AliceO2Group/AliceO2/pull/8196) 2022-03-03: adding toy-MC for TPC clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
