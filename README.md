@@ -53,7 +53,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
 - [\#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 - [\#8187](https://github.com/AliceO2Group/AliceO2/pull/8187) 2022-02-19: DPL Analysis: allow index builder to use extended tables as input by [@aalkin](https://github.com/aalkin)
 - [\#8191](https://github.com/AliceO2Group/AliceO2/pull/8191) 2022-02-21: CCDB fetcher remapping to different hosts or local files by [@shahor02](https://github.com/shahor02)
