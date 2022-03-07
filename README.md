@@ -44,6 +44,7 @@
 - [\#8272](https://github.com/AliceO2Group/AliceO2/pull/8272) 2022-03-05: fix in the raw data dump path creation by [@shahor02](https://github.com/shahor02)
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8277](https://github.com/AliceO2Group/AliceO2/pull/8277) 2022-03-07: Avoid flooding logs if MID LOC sends faulty messages by [@dstocco](https://github.com/dstocco)
+- [\#8279](https://github.com/AliceO2Group/AliceO2/pull/8279) 2022-03-07: MCH: remove deprecated things in pedestal calib by [@aphecetche](https://github.com/aphecetche)
 - [\#8282](https://github.com/AliceO2Group/AliceO2/pull/8282) 2022-03-07: MUON: uniformize the ALICEO2 vs O2 part of include guards by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
