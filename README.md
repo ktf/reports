@@ -90,6 +90,7 @@
 - [\#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
 - [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
+- [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
