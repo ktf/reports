@@ -15,8 +15,6 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8185](https://github.com/AliceO2Group/AliceO2/pull/8185) 2022-02-19: Fixed mask for runType once more + bug fixes for ITHR scan by [@iravasen](https://github.com/iravasen)
-- [\#8186](https://github.com/AliceO2Group/AliceO2/pull/8186) 2022-02-19: Parallelise ITS noise calibration, use digits by default by [@shahor02](https://github.com/shahor02)
 - [\#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [\#8189](https://github.com/AliceO2Group/AliceO2/pull/8189) 2022-02-20: reset all reco->aod mapping indices after each TF by [@shahor02](https://github.com/shahor02)
 - [\#8190](https://github.com/AliceO2Group/AliceO2/pull/8190) 2022-02-21: Add parameter of time pre-samples by [@peressounko](https://github.com/peressounko)
