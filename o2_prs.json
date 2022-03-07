@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-19T11:12:40Z",
-            "title": "Fix OB Half Staves relative position and U-leg length",
-            "number": 8178,
-            "author": {
-              "login": "mario6829"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/V3Layer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-18T15:35:32Z",
             "title": "Event display: Add option to not throw when no input + unrelated cleanup",
             "number": 8179,
@@ -3515,6 +3490,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Raw/src/ELinkManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects",
+            "number": 8278,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
                   }
                 }
               ]
