@@ -50,7 +50,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8193](https://github.com/AliceO2Group/AliceO2/pull/8193) 2022-02-21: DPL: add support for run number dependent ccdb objects by [@ktf](https://github.com/ktf)
 - [\#8198](https://github.com/AliceO2Group/AliceO2/pull/8198) 2022-02-22: DPL: stop timer after EoS has been reached by [@ktf](https://github.com/ktf)
 - [\#8199](https://github.com/AliceO2Group/AliceO2/pull/8199) 2022-02-25: DPL: additional tracing / debug statements by [@ktf](https://github.com/ktf)
 - [\#8202](https://github.com/AliceO2Group/AliceO2/pull/8202) 2022-02-22: Updated Doxygen  keywords by [@ihrivnac](https://github.com/ihrivnac)
@@ -81,6 +80,7 @@
 - [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
 - [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
+- [\#8280](https://github.com/AliceO2Group/AliceO2/pull/8280) 2022-03-08: DPL: allow custom tracing flags via commandline by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
