@@ -50,7 +50,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8192](https://github.com/AliceO2Group/AliceO2/pull/8192) 2022-02-21: DPL GUI: allow tracing different code paths independently by [@ktf](https://github.com/ktf)
 - [\#8193](https://github.com/AliceO2Group/AliceO2/pull/8193) 2022-02-21: DPL: add support for run number dependent ccdb objects by [@ktf](https://github.com/ktf)
 - [\#8198](https://github.com/AliceO2Group/AliceO2/pull/8198) 2022-02-22: DPL: stop timer after EoS has been reached by [@ktf](https://github.com/ktf)
 - [\#8199](https://github.com/AliceO2Group/AliceO2/pull/8199) 2022-02-25: DPL: additional tracing / debug statements by [@ktf](https://github.com/ktf)
