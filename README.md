@@ -17,7 +17,6 @@
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8275](https://github.com/AliceO2Group/AliceO2/pull/8275) 2022-03-09: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#8204](https://github.com/AliceO2Group/AliceO2/pull/8204) 2022-02-25: Produce Alpide raw data dumps only on request or in EPNSYNCMODE=1 mode by [@shahor02](https://github.com/shahor02)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8217](https://github.com/AliceO2Group/AliceO2/pull/8217) 2022-02-25: Sort AOD track daughters indices by [@shahor02](https://github.com/shahor02)
 - [\#8218](https://github.com/AliceO2Group/AliceO2/pull/8218) 2022-02-28: MCH: add ability to write digits in Root format in the digits-writer by [@aphecetche](https://github.com/aphecetche)
