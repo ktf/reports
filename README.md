@@ -11,9 +11,11 @@
 - [\#8253](https://github.com/AliceO2Group/AliceO2/pull/8253) 2022-03-03: o2-sim: Offer option to disable Geant transport by [@sawenzel](https://github.com/sawenzel)
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
+- [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
+- [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8275](https://github.com/AliceO2Group/AliceO2/pull/8275) 2022-03-09: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
@@ -78,6 +80,7 @@
 - [\#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
 - [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
+- [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
 - [\#8280](https://github.com/AliceO2Group/AliceO2/pull/8280) 2022-03-08: DPL: allow custom tracing flags via commandline by [@ktf](https://github.com/ktf)
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
