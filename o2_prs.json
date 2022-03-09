@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-22T08:33:34Z",
-            "title": "Uset vector instead of TClonesArray to pass AlignParams",
-            "number": 8197,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableSensor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableVolume.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-22T08:27:30Z",
             "title": "DPL: stop timer after EoS has been reached",
             "number": 8198,
@@ -3693,8 +3658,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-03-09T09:43:13Z",
             "title": "Revert \"[EMCAL-753,EMCAL-763] Redesing DigitsWriteoutBuffer with past/future dequeue\"",
             "number": 8295,
             "author": {
@@ -3785,6 +3750,26 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/src/RuntimeError.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TFIDInfoWriter by default subscribes to DISTSUBTIMEFRAME/0xccdb",
+            "number": 8297,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/tfidinfo-writer-workflow.cxx"
                   }
                 }
               ]
