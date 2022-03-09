@@ -52,7 +52,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8206](https://github.com/AliceO2Group/AliceO2/pull/8206) 2022-02-22: Revert "DPL: stop timer after EoS has been reached" by [@ktf](https://github.com/ktf)
 - [\#8207](https://github.com/AliceO2Group/AliceO2/pull/8207) 2022-02-22: DPL: provide missing timeout by [@ktf](https://github.com/ktf)
 - [\#8208](https://github.com/AliceO2Group/AliceO2/pull/8208) 2022-02-28: Improved testing of the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8210](https://github.com/AliceO2Group/AliceO2/pull/8210) 2022-03-01: DPL: exit immediately when we are idle by [@ktf](https://github.com/ktf)
