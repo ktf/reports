@@ -15,6 +15,7 @@
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
+- [\#8275](https://github.com/AliceO2Group/AliceO2/pull/8275) 2022-03-09: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#8204](https://github.com/AliceO2Group/AliceO2/pull/8204) 2022-02-25: Produce Alpide raw data dumps only on request or in EPNSYNCMODE=1 mode by [@shahor02](https://github.com/shahor02)
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
@@ -42,6 +43,7 @@
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8272](https://github.com/AliceO2Group/AliceO2/pull/8272) 2022-03-05: fix in the raw data dump path creation by [@shahor02](https://github.com/shahor02)
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
+- [\#8275](https://github.com/AliceO2Group/AliceO2/pull/8275) 2022-03-09: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8277](https://github.com/AliceO2Group/AliceO2/pull/8277) 2022-03-07: Avoid flooding logs if MID LOC sends faulty messages by [@dstocco](https://github.com/dstocco)
 - [\#8279](https://github.com/AliceO2Group/AliceO2/pull/8279) 2022-03-07: MCH: remove deprecated things in pedestal calib by [@aphecetche](https://github.com/aphecetche)
 - [\#8281](https://github.com/AliceO2Group/AliceO2/pull/8281) 2022-03-08: Use omp_get_thread_num only if WITH_OPENMP is defined by [@dstocco](https://github.com/dstocco)
