@@ -18,6 +18,7 @@
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8275](https://github.com/AliceO2Group/AliceO2/pull/8275) 2022-03-09: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
@@ -54,6 +55,7 @@
 - [\#8295](https://github.com/AliceO2Group/AliceO2/pull/8295) 2022-03-09: Revert "[EMCAL-753,EMCAL-763] Redesing DigitsWriteoutBuffer with past/future dequeue" by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8297](https://github.com/AliceO2Group/AliceO2/pull/8297) 2022-03-09: TFIDInfoWriter by default subscribes to DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
@@ -88,6 +90,7 @@
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
 - [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
