@@ -59,7 +59,6 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8208](https://github.com/AliceO2Group/AliceO2/pull/8208) 2022-02-28: Improved testing of the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8210](https://github.com/AliceO2Group/AliceO2/pull/8210) 2022-03-01: DPL: exit immediately when we are idle by [@ktf](https://github.com/ktf)
 - [\#8214](https://github.com/AliceO2Group/AliceO2/pull/8214) 2022-02-24: DPL: add method to rescan DataRelayer / TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8221](https://github.com/AliceO2Group/AliceO2/pull/8221) 2022-03-03: DPL: automatically include --exit-transition-timeout by [@ktf](https://github.com/ktf)
