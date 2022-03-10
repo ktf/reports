@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-24T08:51:47Z",
-            "title": "Add option to add EXTRA_WORKFLOR to FST / sync processing",
-            "number": 8211,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "new TrackCuts class",
-            "number": 8212,
-            "author": {
-              "login": "alindner14"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "TrackCuts/include/TrackCuts/TrackCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "TrackCuts/src/TrackCuts.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-02T14:54:40Z",
             "title": "Accesing payload size through DataRefUtils",
             "number": 8213,
@@ -3675,6 +3630,46 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make CMake fatalise if hipify-perl is missing",
+            "number": 8311,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Protect against use of GRPUpdater when not needed",
+            "number": 8312,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
                   }
                 }
               ]
