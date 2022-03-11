@@ -93,3 +93,4 @@
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
+- [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
