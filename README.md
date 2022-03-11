@@ -89,6 +89,7 @@
 - [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
 - [\#8280](https://github.com/AliceO2Group/AliceO2/pull/8280) 2022-03-08: DPL: allow custom tracing flags via commandline by [@ktf](https://github.com/ktf)
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
+- [\#8296](https://github.com/AliceO2Group/AliceO2/pull/8296) 2022-03-11: DPL: add our own signal handler for SEGV and alike by [@ktf](https://github.com/ktf)
 - [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
