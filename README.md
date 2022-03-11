@@ -14,6 +14,7 @@
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
+- [\#8222](https://github.com/AliceO2Group/AliceO2/pull/8222) 2022-03-11: BadMap calibrator added; get calibr. from CCDB added by [@peressounko](https://github.com/peressounko)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
@@ -24,6 +25,7 @@
 - [\#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [\#8217](https://github.com/AliceO2Group/AliceO2/pull/8217) 2022-02-25: Sort AOD track daughters indices by [@shahor02](https://github.com/shahor02)
 - [\#8218](https://github.com/AliceO2Group/AliceO2/pull/8218) 2022-02-28: MCH: add ability to write digits in Root format in the digits-writer by [@aphecetche](https://github.com/aphecetche)
+- [\#8222](https://github.com/AliceO2Group/AliceO2/pull/8222) 2022-03-11: BadMap calibrator added; get calibr. from CCDB added by [@peressounko](https://github.com/peressounko)
 - [\#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
 - [\#8228](https://github.com/AliceO2Group/AliceO2/pull/8228) 2022-02-28: T0TOF: Returning the number of tracks used by [@njacazio](https://github.com/njacazio)
 - [\#8229](https://github.com/AliceO2Group/AliceO2/pull/8229) 2022-03-01: [EMCAL-630] Make decoder errors optional by [@mfasDa](https://github.com/mfasDa)
@@ -34,6 +36,7 @@
 - [\#8243](https://github.com/AliceO2Group/AliceO2/pull/8243) 2022-03-04: [MFT] Add chipID mapping and updateL2GMatrixCache  by [@robincaron13](https://github.com/robincaron13)
 - [\#8247](https://github.com/AliceO2Group/AliceO2/pull/8247) 2022-03-01: Fix bug in assigning PhysicalPrimary property during AOD creation by [@sawenzel](https://github.com/sawenzel)
 - [\#8249](https://github.com/AliceO2Group/AliceO2/pull/8249) 2022-03-08: MCH: do not ignore null UL words by [@aferrero2707](https://github.com/aferrero2707)
+- [\#8250](https://github.com/AliceO2Group/AliceO2/pull/8250) 2022-03-11: MCH: fixed computation of ROF orbit for out-of-time digits by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
 - [\#8254](https://github.com/AliceO2Group/AliceO2/pull/8254) 2022-03-04: Optimising IDC processing by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
