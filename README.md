@@ -21,7 +21,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
 - [\#8228](https://github.com/AliceO2Group/AliceO2/pull/8228) 2022-02-28: T0TOF: Returning the number of tracks used by [@njacazio](https://github.com/njacazio)
 - [\#8229](https://github.com/AliceO2Group/AliceO2/pull/8229) 2022-03-01: [EMCAL-630] Make decoder errors optional by [@mfasDa](https://github.com/mfasDa)
 - [\#8230](https://github.com/AliceO2Group/AliceO2/pull/8230) 2022-03-03: Hmpid fix decoder by [@fapfap69](https://github.com/fapfap69)
@@ -91,6 +90,7 @@
 - [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
+- [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
 - [\#8316](https://github.com/AliceO2Group/AliceO2/pull/8316) 2022-03-11: DPL: detect default condition-backend by [@ktf](https://github.com/ktf)
 - [\#8318](https://github.com/AliceO2Group/AliceO2/pull/8318) 2022-03-11: DPL: insert timeout to avoid OOM killer when runningh with DDS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
