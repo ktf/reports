@@ -5,141 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-11T05:12:24Z",
-            "title": "BadMap calibrator added; get calibr. from CCDB added",
-            "number": 8222,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/CalibParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalib/BadChannelMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSBadMapCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSHGLGRatioCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSPedestalCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSBadMapCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSCalibWorkflowLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSHGLGRatioCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSPedestalCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/AltroDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/simulation/src/RawWriter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RawToCellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/CellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-28T18:50:31Z",
             "title": "Option to write ITS/MFT raw dump to custom directory",
             "number": 8223,
@@ -3748,8 +3613,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-03-11T18:26:35Z",
             "title": "DPL: insert timeout to avoid OOM killer when runningh with DDS",
             "number": 8318,
             "author": {
@@ -3855,6 +3720,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-03-11T18:24:57Z",
+            "title": "Avoid same alias for different specs",
+            "number": 8322,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
                   }
                 }
               ]

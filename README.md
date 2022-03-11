@@ -13,7 +13,6 @@
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8222](https://github.com/AliceO2Group/AliceO2/pull/8222) 2022-03-11: BadMap calibrator added; get calibr. from CCDB added by [@peressounko](https://github.com/peressounko)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
@@ -22,7 +21,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8222](https://github.com/AliceO2Group/AliceO2/pull/8222) 2022-03-11: BadMap calibrator added; get calibr. from CCDB added by [@peressounko](https://github.com/peressounko)
 - [\#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
 - [\#8228](https://github.com/AliceO2Group/AliceO2/pull/8228) 2022-02-28: T0TOF: Returning the number of tracks used by [@njacazio](https://github.com/njacazio)
 - [\#8229](https://github.com/AliceO2Group/AliceO2/pull/8229) 2022-03-01: [EMCAL-630] Make decoder errors optional by [@mfasDa](https://github.com/mfasDa)
@@ -59,6 +57,7 @@
 - [\#8304](https://github.com/AliceO2Group/AliceO2/pull/8304) 2022-03-11: SpaceCharge: add possibility to set data type of output when writing to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
+- [\#8322](https://github.com/AliceO2Group/AliceO2/pull/8322) 2022-03-11: Avoid same alias for different specs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
@@ -93,6 +92,7 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#8316](https://github.com/AliceO2Group/AliceO2/pull/8316) 2022-03-11: DPL: detect default condition-backend by [@ktf](https://github.com/ktf)
+- [\#8318](https://github.com/AliceO2Group/AliceO2/pull/8318) 2022-03-11: DPL: insert timeout to avoid OOM killer when runningh with DDS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
