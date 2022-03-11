@@ -3580,7 +3580,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "macros to populate and read the GRP DCS config entry",
+            "title": "Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry",
             "number": 8317,
             "author": {
               "login": "chiarazampolli"
@@ -3589,7 +3589,57 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointCompositeObject.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/src/DataPointCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/test/testDataPointGenerator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/macros/makeCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/src/dcs-proxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/macros/makeEMCALCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/EMCDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EMCALDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/GRP/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GRP/calibration/src/GRPDCSDPsProcessor.cxx"
                   }
                 },
                 {
@@ -3609,7 +3659,42 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/GRP/workflows/src/GRPDCSDPsSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/macros/makeMFTCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/src/MFTDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TOF/calibration/macros/makeTOFCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/macro/makeTPCCCDBEntryForDCS.C"
                   }
                 }
               ]
