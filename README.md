@@ -93,6 +93,7 @@
 - [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
 - [\#8316](https://github.com/AliceO2Group/AliceO2/pull/8316) 2022-03-11: DPL: detect default condition-backend by [@ktf](https://github.com/ktf)
 - [\#8318](https://github.com/AliceO2Group/AliceO2/pull/8318) 2022-03-11: DPL: insert timeout to avoid OOM killer when runningh with DDS by [@ktf](https://github.com/ktf)
+- [\#8321](https://github.com/AliceO2Group/AliceO2/pull/8321) 2022-03-11: [OCTRL-609] AliECS dump: add O2_PARTITION to env by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
