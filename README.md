@@ -60,7 +60,6 @@
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8221](https://github.com/AliceO2Group/AliceO2/pull/8221) 2022-03-03: DPL: automatically include --exit-transition-timeout by [@ktf](https://github.com/ktf)
 - [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
 - [\#8227](https://github.com/AliceO2Group/AliceO2/pull/8227) 2022-02-28: DPL: communicate FairMQ state to driver by [@ktf](https://github.com/ktf)
