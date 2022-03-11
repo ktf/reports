@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-04T22:10:57Z",
-            "title": "Moving to the default McParticles",
-            "number": 507,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/match-reco-gen.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-07T02:09:47Z",
             "title": "Include more QA histograms, change V0M value",
             "number": 508,
@@ -2840,6 +2810,51 @@
                 {
                   "node": {
                     "path": "PWGEM/Tasks/gammaConversionsmc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Speedup compilation",
+            "number": 608,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".gitignore"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/dummy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddExecutable.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddLibrary.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
                   }
                 }
               ]
