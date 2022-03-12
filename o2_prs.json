@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-25T23:37:11Z",
-            "title": "Fix in elimination of pixels multiply fired in the same ROF",
-            "number": 8232,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/AlpideCoder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-02T12:05:24Z",
             "title": "TRD: allow vDrift calib with TPC-TRD tracks only",
             "number": 8233,
@@ -4030,6 +4010,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/dcs/src/tpc-dcs-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Option to suppress explicit DISTSTF/0xccdb from raw-reader",
+            "number": 8332,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/include/DetectorsRaw/RawFileReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/rawfile-reader-workflow.cxx"
                   }
                 }
               ]
