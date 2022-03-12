@@ -62,7 +62,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
 - [\#8227](https://github.com/AliceO2Group/AliceO2/pull/8227) 2022-02-28: DPL: communicate FairMQ state to driver by [@ktf](https://github.com/ktf)
 - [\#8234](https://github.com/AliceO2Group/AliceO2/pull/8234) 2022-02-27: DPL: provide a way to specify lifetime from text query by [@ktf](https://github.com/ktf)
