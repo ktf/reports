@@ -21,7 +21,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8230](https://github.com/AliceO2Group/AliceO2/pull/8230) 2022-03-03: Hmpid fix decoder by [@fapfap69](https://github.com/fapfap69)
 - [\#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 - [\#8232](https://github.com/AliceO2Group/AliceO2/pull/8232) 2022-02-25: Fix in elimination of pixels multiply fired in the same ROF by [@shahor02](https://github.com/shahor02)
 - [\#8233](https://github.com/AliceO2Group/AliceO2/pull/8233) 2022-03-02: TRD: allow vDrift calib with TPC-TRD tracks only by [@martenole](https://github.com/martenole)
