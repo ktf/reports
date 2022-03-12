@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-28T22:32:54Z",
-            "title": "T0TOF: Returning the number of tracks used",
-            "number": 8228,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/EventTimeMaker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/EventTimeMaker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-01T15:50:41Z",
             "title": "[EMCAL-630] Make decoder errors optional",
             "number": 8229,
@@ -3895,6 +3870,36 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for CCDB fetcher",
+            "number": 8328,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CCDBHelpers.cxx"
                   }
                 }
               ]
