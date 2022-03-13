@@ -84,6 +84,7 @@
 - [\#8321](https://github.com/AliceO2Group/AliceO2/pull/8321) 2022-03-11: [OCTRL-609] AliECS dump: add O2_PARTITION to env by [@knopers8](https://github.com/knopers8)
 - [\#8324](https://github.com/AliceO2Group/AliceO2/pull/8324) 2022-03-12: DPL: improve subscription to 0xccdb by [@ktf](https://github.com/ktf)
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
+- [\#8333](https://github.com/AliceO2Group/AliceO2/pull/8333) 2022-03-13: DPL: fix warnings in DataAllocator.h by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
