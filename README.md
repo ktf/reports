@@ -54,7 +54,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8236](https://github.com/AliceO2Group/AliceO2/pull/8236) 2022-02-28: DPL: fix more than one attribute in query. by [@ktf](https://github.com/ktf)
 - [\#8237](https://github.com/AliceO2Group/AliceO2/pull/8237) 2022-02-28: DPL GUI: improve color for debug messages by [@ktf](https://github.com/ktf)
 - [\#8238](https://github.com/AliceO2Group/AliceO2/pull/8238) 2022-03-01: DPL: introduce Lifetime::OutOfBand by [@ktf](https://github.com/ktf)
 - [\#8240](https://github.com/AliceO2Group/AliceO2/pull/8240) 2022-02-28: Avoid race condition in channel names by [@ktf](https://github.com/ktf)
