@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-28T22:26:43Z",
-            "title": "Avoid race condition in channel names",
-            "number": 8240,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ChannelSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-28T21:38:21Z",
             "title": "FST: Use EPN internal ccdb server in case EPNSYNCMODE is set",
             "number": 8241,
@@ -4045,6 +4015,31 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improving sensitive hit creation for HMPID in Detector.cxx",
+            "number": 8340,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/simulation/include/HMPIDSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/simulation/src/Detector.cxx"
                   }
                 }
               ]
