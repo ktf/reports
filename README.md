@@ -55,7 +55,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8244](https://github.com/AliceO2Group/AliceO2/pull/8244) 2022-03-02: DPL: fix warnings in framework headers by [@ktf](https://github.com/ktf)
 - [\#8245](https://github.com/AliceO2Group/AliceO2/pull/8245) 2022-03-01: Adapt exit timeout by [@ktf](https://github.com/ktf)
 - [\#8246](https://github.com/AliceO2Group/AliceO2/pull/8246) 2022-03-02: DPL: move helper to standalone function by [@ktf](https://github.com/ktf)
 - [\#8248](https://github.com/AliceO2Group/AliceO2/pull/8248) 2022-03-01: Separate script for calibration workflows by [@davidrohr](https://github.com/davidrohr)
@@ -84,6 +83,7 @@
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8333](https://github.com/AliceO2Group/AliceO2/pull/8333) 2022-03-13: DPL: fix warnings in DataAllocator.h by [@ktf](https://github.com/ktf)
 - [\#8335](https://github.com/AliceO2Group/AliceO2/pull/8335) 2022-03-14: DPL: make sure proxies set the correct TimingInfo from out of band data. by [@ktf](https://github.com/ktf)
+- [\#8343](https://github.com/AliceO2Group/AliceO2/pull/8343) 2022-03-14: Restore ms_gsl < 4 support by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
