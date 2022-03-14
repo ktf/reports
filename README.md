@@ -56,7 +56,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8242](https://github.com/AliceO2Group/AliceO2/pull/8242) 2022-03-01: DPL: honour correctly ccdb-run-dependent metadata by [@ktf](https://github.com/ktf)
 - [\#8244](https://github.com/AliceO2Group/AliceO2/pull/8244) 2022-03-02: DPL: fix warnings in framework headers by [@ktf](https://github.com/ktf)
 - [\#8245](https://github.com/AliceO2Group/AliceO2/pull/8245) 2022-03-01: Adapt exit timeout by [@ktf](https://github.com/ktf)
 - [\#8246](https://github.com/AliceO2Group/AliceO2/pull/8246) 2022-03-02: DPL: move helper to standalone function by [@ktf](https://github.com/ktf)
