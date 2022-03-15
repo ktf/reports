@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-04T14:30:40Z",
-            "title": "Fix the default values for the Pedestals workflow",
-            "number": 8261,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-05T01:13:33Z",
             "title": "With MC option run-workflow-on-inputlist can use local digits",
             "number": 8262,
@@ -4670,6 +4650,56 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restructure init of sim magnetic field",
+            "number": 8361,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/SimFieldUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/SimFieldUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
                   }
                 }
               ]
