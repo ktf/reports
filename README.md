@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
@@ -49,7 +48,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 - [\#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
 - [\#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
 - [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
@@ -73,6 +71,7 @@
 - [\#8333](https://github.com/AliceO2Group/AliceO2/pull/8333) 2022-03-13: DPL: fix warnings in DataAllocator.h by [@ktf](https://github.com/ktf)
 - [\#8335](https://github.com/AliceO2Group/AliceO2/pull/8335) 2022-03-14: DPL: make sure proxies set the correct TimingInfo from out of band data. by [@ktf](https://github.com/ktf)
 - [\#8343](https://github.com/AliceO2Group/AliceO2/pull/8343) 2022-03-14: Restore ms_gsl < 4 support by [@davidrohr](https://github.com/davidrohr)
+- [\#8351](https://github.com/AliceO2Group/AliceO2/pull/8351) 2022-03-15: Remove LOGP message to avoid crash with long log texts. by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
 - [\#8273](https://github.com/AliceO2Group/AliceO2/pull/8273) 2022-03-06: Optionally use ITS/MFT NoiseMap to mask chips in digitization by [@shahor02](https://github.com/shahor02)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
