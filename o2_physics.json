@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Fix partition selection for TPC / Tracklets mult in multiplicity table",
-            "number": 514,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-02-12T09:56:20Z",
             "title": "PWGHF: update of DDbar correlation code (remove obsolete tasks + add process switch)",
@@ -2675,6 +2655,36 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/trackPropagation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update event selection",
+            "number": 615,
+            "author": {
+              "login": "lbariogl"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/FemtoDreamCollisionSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamProducerReducedTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamProducerTask.cxx"
                   }
                 }
               ]
