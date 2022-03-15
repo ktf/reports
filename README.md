@@ -18,7 +18,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8254](https://github.com/AliceO2Group/AliceO2/pull/8254) 2022-03-04: Optimising IDC processing by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
 - [\#8258](https://github.com/AliceO2Group/AliceO2/pull/8258) 2022-03-04: MCH pedestal data fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8261](https://github.com/AliceO2Group/AliceO2/pull/8261) 2022-03-04: Fix the default values for the Pedestals workflow by [@fapfap69](https://github.com/fapfap69)
