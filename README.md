@@ -54,7 +54,6 @@
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8248](https://github.com/AliceO2Group/AliceO2/pull/8248) 2022-03-01: Separate script for calibration workflows by [@davidrohr](https://github.com/davidrohr)
 - [\#8251](https://github.com/AliceO2Group/AliceO2/pull/8251) 2022-03-02: DPL: protect against spaces in table names by [@ktf](https://github.com/ktf)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
