@@ -7,7 +7,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
-- [\#8253](https://github.com/AliceO2Group/AliceO2/pull/8253) 2022-03-03: o2-sim: Offer option to disable Geant transport by [@sawenzel](https://github.com/sawenzel)
 - [\#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
 - [\#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
