@@ -19,7 +19,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8247](https://github.com/AliceO2Group/AliceO2/pull/8247) 2022-03-01: Fix bug in assigning PhysicalPrimary property during AOD creation by [@sawenzel](https://github.com/sawenzel)
 - [\#8249](https://github.com/AliceO2Group/AliceO2/pull/8249) 2022-03-08: MCH: do not ignore null UL words by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8250](https://github.com/AliceO2Group/AliceO2/pull/8250) 2022-03-11: MCH: fixed computation of ROF orbit for out-of-time digits by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
