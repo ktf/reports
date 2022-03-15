@@ -3,6 +3,10 @@
 - v5-09-54n-01: Done on 2022-03-02.
 - v5-09-55d-01: Done on 2022-03-02.
 - v5-09-56j-01: Done on 2022-03-02.
+- v5-09-02o-01: Done on 2022-03-15.
+- v5-09-20u-01: Done on 2022-03-15.
+- v5-09-24l-01: Done on 2022-03-15.
+- v5-09-38l-01: Done on 2022-03-15.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
