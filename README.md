@@ -69,6 +69,7 @@
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
 - [\#8296](https://github.com/AliceO2Group/AliceO2/pull/8296) 2022-03-11: DPL: add our own signal handler for SEGV and alike by [@ktf](https://github.com/ktf)
 - [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
+- [\#8299](https://github.com/AliceO2Group/AliceO2/pull/8299) 2022-03-15: [DPL Analysis] [Event mixing] Introducing Binning Policy for block combinations by [@saganatt](https://github.com/saganatt)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
