@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-03-09T23:06:40Z",
-            "title": "DPL: automatically subscribe the ccdbBackend to the correct clock",
-            "number": 8267,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Headers/include/Headers/STFHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CallbackService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CommonServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonMessageBackends.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSender.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SendingPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Fix return error code in case of missing detectors",
@@ -4740,6 +4680,31 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/reconstruction/src/Encoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: do not inherit from std::iterator",
+            "number": 8367,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputSpan.h"
                   }
                 }
               ]
