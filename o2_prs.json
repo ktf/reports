@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-03-06T19:20:07Z",
-            "title": "Optionally use ITS/MFT NoiseMap to mask chips in digitization",
-            "number": 8273,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/ChipDigitsContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DPLDigitizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "[WIP] set condition backend to internal for EPNSYNCMODE",
@@ -3922,6 +3882,11 @@
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ArrowTypes.h"
+                  }
                 }
               ]
             }
@@ -4761,6 +4726,31 @@
                 {
                   "node": {
                     "path": "Framework/Utils/include/DPLUtils/RawParser.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix class version of ZDCTDCParam",
+            "number": 8373,
+            "author": {
+              "login": "cortesep"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CreateTDCCalib.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/ZDCTDCParam.h"
                   }
                 }
               ]
