@@ -20,7 +20,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
 - [\#8270](https://github.com/AliceO2Group/AliceO2/pull/8270) 2022-03-05: CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8271](https://github.com/AliceO2Group/AliceO2/pull/8271) 2022-03-05: Fix assert in the ITS NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8272](https://github.com/AliceO2Group/AliceO2/pull/8272) 2022-03-05: fix in the raw data dump path creation by [@shahor02](https://github.com/shahor02)
@@ -50,7 +49,6 @@
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8266](https://github.com/AliceO2Group/AliceO2/pull/8266) 2022-03-05: DPL: allow unordered_maps in CCDB to be automatically handled by [@ktf](https://github.com/ktf)
 - [\#8267](https://github.com/AliceO2Group/AliceO2/pull/8267) 2022-03-09: DPL: automatically subscribe the ccdbBackend to the correct clock by [@ktf](https://github.com/ktf)
 - [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
 - [\#8280](https://github.com/AliceO2Group/AliceO2/pull/8280) 2022-03-08: DPL: allow custom tracing flags via commandline by [@ktf](https://github.com/ktf)
