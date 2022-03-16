@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-05T09:18:29Z",
-            "title": "Fix return error code in case of missing detectors",
-            "number": 8269,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-05T01:14:05Z",
             "title": "CTF/Raw/RawTF readers send FLP/DISTSUBTIMEFRAME/0xccdb",
             "number": 8270,
@@ -3274,8 +3254,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-03-16T10:06:58Z",
             "title": "set timestamp in reconstruction",
             "number": 8341,
             "author": {
@@ -4465,12 +4445,22 @@
                 },
                 {
                   "node": {
+                    "path": "Common/SimConfig/src/SimConfigLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Base/CMakeLists.txt"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/Base/include/DetectorsBase/SimFieldUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/DetectorsBaseLinkDef.h"
                   }
                 },
                 {
@@ -4716,6 +4706,66 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Doxygen fixes and improvements for MID",
+            "number": 8369,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/ROBoard.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MID/src/ROBoard.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/include/MIDBase/DetectorParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/src/DetectorParameters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Filtering/include/MIDFiltering/ChannelMasksHandler.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Filtering/src/ChannelMasksHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/ElectronicsDelay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/ElectronicsDelay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/digits-to-raw-workflow.cxx"
                   }
                 }
               ]
