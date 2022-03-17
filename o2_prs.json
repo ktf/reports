@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-07T10:30:26Z",
-            "title": "Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects",
-            "number": 8278,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-07T19:07:39Z",
             "title": "MCH: remove deprecated things in pedestal calib",
             "number": 8279,
@@ -4766,6 +4746,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "digitizer: Ability to fetch bcFilling scheme from CCDB",
+            "number": 8378,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/SimReaderSpec.cxx"
                   }
                 }
               ]

@@ -58,7 +58,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8278](https://github.com/AliceO2Group/AliceO2/pull/8278) 2022-03-07: Add separate option to enable PROCESS_REPORTING, so that we do not have to fake-set DDS_SESSION_ID, which can have side effects by [@davidrohr](https://github.com/davidrohr)
 - [\#8280](https://github.com/AliceO2Group/AliceO2/pull/8280) 2022-03-08: DPL: allow custom tracing flags via commandline by [@ktf](https://github.com/ktf)
 - [\#8292](https://github.com/AliceO2Group/AliceO2/pull/8292) 2022-03-09: Add rapidity computation to the DataModel by [@njacazio](https://github.com/njacazio)
 - [\#8296](https://github.com/AliceO2Group/AliceO2/pull/8296) 2022-03-11: DPL: add our own signal handler for SEGV and alike by [@ktf](https://github.com/ktf)
