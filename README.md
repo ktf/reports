@@ -19,6 +19,7 @@
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
+- [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8277](https://github.com/AliceO2Group/AliceO2/pull/8277) 2022-03-07: Avoid flooding logs if MID LOC sends faulty messages by [@dstocco](https://github.com/dstocco)
 - [\#8279](https://github.com/AliceO2Group/AliceO2/pull/8279) 2022-03-07: MCH: remove deprecated things in pedestal calib by [@aphecetche](https://github.com/aphecetche)
@@ -46,8 +47,11 @@
 - [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
 - [\#8360](https://github.com/AliceO2Group/AliceO2/pull/8360) 2022-03-16: TPC interpolation use correct global track index by [@martenole](https://github.com/martenole)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
+- [\#8364](https://github.com/AliceO2Group/AliceO2/pull/8364) 2022-03-17: Fix in PHOS reader: provide data types by [@shahor02](https://github.com/shahor02)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
+- [\#8370](https://github.com/AliceO2Group/AliceO2/pull/8370) 2022-03-17: STFDecoder requests cluster dict only if clustering is asked by [@shahor02](https://github.com/shahor02)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
+- [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
