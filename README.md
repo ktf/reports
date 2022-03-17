@@ -22,7 +22,6 @@
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8279](https://github.com/AliceO2Group/AliceO2/pull/8279) 2022-03-07: MCH: remove deprecated things in pedestal calib by [@aphecetche](https://github.com/aphecetche)
 - [\#8281](https://github.com/AliceO2Group/AliceO2/pull/8281) 2022-03-08: Use omp_get_thread_num only if WITH_OPENMP is defined by [@dstocco](https://github.com/dstocco)
 - [\#8282](https://github.com/AliceO2Group/AliceO2/pull/8282) 2022-03-07: MUON: uniformize the ALICEO2 vs O2 part of include guards by [@aphecetche](https://github.com/aphecetche)
 - [\#8288](https://github.com/AliceO2Group/AliceO2/pull/8288) 2022-03-14: Calibration workflow for MID by [@dstocco](https://github.com/dstocco)
