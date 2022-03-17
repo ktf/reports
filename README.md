@@ -21,6 +21,7 @@
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
 - [\#8288](https://github.com/AliceO2Group/AliceO2/pull/8288) 2022-03-14: Calibration workflow for MID by [@dstocco](https://github.com/dstocco)
 - [\#8291](https://github.com/AliceO2Group/AliceO2/pull/8291) 2022-03-09: add isPhysicalPrimary() from MCUtils by [@alindner14](https://github.com/alindner14)
@@ -53,6 +54,7 @@
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8373](https://github.com/AliceO2Group/AliceO2/pull/8373) 2022-03-17: Fix class version of ZDCTDCParam by [@cortesep](https://github.com/cortesep)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
