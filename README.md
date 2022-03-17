@@ -16,6 +16,7 @@
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
+- [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#8277](https://github.com/AliceO2Group/AliceO2/pull/8277) 2022-03-07: Avoid flooding logs if MID LOC sends faulty messages by [@dstocco](https://github.com/dstocco)
 - [\#8279](https://github.com/AliceO2Group/AliceO2/pull/8279) 2022-03-07: MCH: remove deprecated things in pedestal calib by [@aphecetche](https://github.com/aphecetche)
@@ -42,6 +43,7 @@
 - [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
 - [\#8360](https://github.com/AliceO2Group/AliceO2/pull/8360) 2022-03-16: TPC interpolation use correct global track index by [@martenole](https://github.com/martenole)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
+- [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
@@ -68,6 +70,8 @@
 - [\#8335](https://github.com/AliceO2Group/AliceO2/pull/8335) 2022-03-14: DPL: make sure proxies set the correct TimingInfo from out of band data. by [@ktf](https://github.com/ktf)
 - [\#8343](https://github.com/AliceO2Group/AliceO2/pull/8343) 2022-03-14: Restore ms_gsl < 4 support by [@davidrohr](https://github.com/davidrohr)
 - [\#8351](https://github.com/AliceO2Group/AliceO2/pull/8351) 2022-03-15: Remove LOGP message to avoid crash with long log texts. by [@pbuehler](https://github.com/pbuehler)
+- [\#8367](https://github.com/AliceO2Group/AliceO2/pull/8367) 2022-03-17: DPL: do not inherit from std::iterator by [@ktf](https://github.com/ktf)
+- [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
