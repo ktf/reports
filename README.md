@@ -79,6 +79,7 @@
 - [\#8362](https://github.com/AliceO2Group/AliceO2/pull/8362) 2022-03-17: [DPL Analysis] [Event mixing]: Follow-up to #8299 by [@saganatt](https://github.com/saganatt)
 - [\#8367](https://github.com/AliceO2Group/AliceO2/pull/8367) 2022-03-17: DPL: do not inherit from std::iterator by [@ktf](https://github.com/ktf)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
+- [\#8380](https://github.com/AliceO2Group/AliceO2/pull/8380) 2022-03-17: DPL: fatal level also in the case of CCDB objects missing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
