@@ -16,6 +16,7 @@
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
+- [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#8277](https://github.com/AliceO2Group/AliceO2/pull/8277) 2022-03-07: Avoid flooding logs if MID LOC sends faulty messages by [@dstocco](https://github.com/dstocco)
@@ -37,6 +38,7 @@
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8329](https://github.com/AliceO2Group/AliceO2/pull/8329) 2022-03-14: Fix for mc->raw with firstOrbit>0 in RORC detectors by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
+- [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8332](https://github.com/AliceO2Group/AliceO2/pull/8332) 2022-03-16: Option to suppress explicit DISTSTF/0xccdb from raw-reader by [@shahor02](https://github.com/shahor02)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8358](https://github.com/AliceO2Group/AliceO2/pull/8358) 2022-03-16: Fix IB and OB geometry to latest blueprints by [@mario6829](https://github.com/mario6829)
