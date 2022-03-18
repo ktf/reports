@@ -45,6 +45,7 @@
 - [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
 - [\#8360](https://github.com/AliceO2Group/AliceO2/pull/8360) 2022-03-16: TPC interpolation use correct global track index by [@martenole](https://github.com/martenole)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
+- [\#8363](https://github.com/AliceO2Group/AliceO2/pull/8363) 2022-03-18: TrackletTransformer uses DPL CCDB mechanism by [@martenole](https://github.com/martenole)
 - [\#8364](https://github.com/AliceO2Group/AliceO2/pull/8364) 2022-03-17: Fix in PHOS reader: provide data types by [@shahor02](https://github.com/shahor02)
 - [\#8366](https://github.com/AliceO2Group/AliceO2/pull/8366) 2022-03-17: TOF fix for raw encoding in MC (large first orbit) by [@noferini](https://github.com/noferini)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
