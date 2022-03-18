@@ -82,6 +82,7 @@
 - [\#8382](https://github.com/AliceO2Group/AliceO2/pull/8382) 2022-03-18: DPL: introduce OptionsHelpers by [@ktf](https://github.com/ktf)
 - [\#8384](https://github.com/AliceO2Group/AliceO2/pull/8384) 2022-03-17: DPL: expire Optional inputs only when a given message is provided by [@ktf](https://github.com/ktf)
 - [\#8389](https://github.com/AliceO2Group/AliceO2/pull/8389) 2022-03-18: DPL: avoid reading in memory at random by [@ktf](https://github.com/ktf)
+- [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
