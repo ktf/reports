@@ -23,7 +23,6 @@
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8304](https://github.com/AliceO2Group/AliceO2/pull/8304) 2022-03-11: SpaceCharge: add possibility to set data type of output when writing to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
@@ -59,12 +58,10 @@
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
-- [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8303](https://github.com/AliceO2Group/AliceO2/pull/8303) 2022-03-18: DPL Analysis: adjust reader unconditionally by [@aalkin](https://github.com/aalkin)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
