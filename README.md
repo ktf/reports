@@ -8,8 +8,6 @@
 - v5-09-24l-01: Done on 2022-03-15.
 - v5-09-38l-01: Done on 2022-03-15.
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-- [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
@@ -62,7 +60,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8303](https://github.com/AliceO2Group/AliceO2/pull/8303) 2022-03-18: DPL Analysis: adjust reader unconditionally by [@aalkin](https://github.com/aalkin)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
