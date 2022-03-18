@@ -52,6 +52,7 @@
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8373](https://github.com/AliceO2Group/AliceO2/pull/8373) 2022-03-17: Fix class version of ZDCTDCParam by [@cortesep](https://github.com/cortesep)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#8377](https://github.com/AliceO2Group/AliceO2/pull/8377) 2022-03-18: Extra fix for prim/sec. vertexer and aod sources by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
