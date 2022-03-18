@@ -23,7 +23,6 @@
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#8288](https://github.com/AliceO2Group/AliceO2/pull/8288) 2022-03-14: Calibration workflow for MID by [@dstocco](https://github.com/dstocco)
 - [\#8291](https://github.com/AliceO2Group/AliceO2/pull/8291) 2022-03-09: add isPhysicalPrimary() from MCUtils by [@alindner14](https://github.com/alindner14)
 - [\#8295](https://github.com/AliceO2Group/AliceO2/pull/8295) 2022-03-09: Revert "[EMCAL-753,EMCAL-763] Redesing DigitsWriteoutBuffer with past/future dequeue" by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8297](https://github.com/AliceO2Group/AliceO2/pull/8297) 2022-03-09: TFIDInfoWriter by default subscribes to DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
