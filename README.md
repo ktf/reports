@@ -63,7 +63,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8296](https://github.com/AliceO2Group/AliceO2/pull/8296) 2022-03-11: DPL: add our own signal handler for SEGV and alike by [@ktf](https://github.com/ktf)
 - [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
 - [\#8299](https://github.com/AliceO2Group/AliceO2/pull/8299) 2022-03-15: [DPL Analysis] [Event mixing] Introducing Binning Policy for block combinations by [@saganatt](https://github.com/saganatt)
 - [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
