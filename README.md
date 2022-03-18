@@ -43,6 +43,7 @@
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8346](https://github.com/AliceO2Group/AliceO2/pull/8346) 2022-03-17: ITS THR SCAN: multiple decoder pipelines + fixed minor bugs by [@iravasen](https://github.com/iravasen)
+- [\#8357](https://github.com/AliceO2Group/AliceO2/pull/8357) 2022-03-18: SpaceCharge: adding functionality to set boundary potentials by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8358](https://github.com/AliceO2Group/AliceO2/pull/8358) 2022-03-16: Fix IB and OB geometry to latest blueprints by [@mario6829](https://github.com/mario6829)
 - [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
 - [\#8360](https://github.com/AliceO2Group/AliceO2/pull/8360) 2022-03-16: TPC interpolation use correct global track index by [@martenole](https://github.com/martenole)
