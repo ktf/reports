@@ -66,6 +66,7 @@
 - [\#8299](https://github.com/AliceO2Group/AliceO2/pull/8299) 2022-03-15: [DPL Analysis] [Event mixing] Introducing Binning Policy for block combinations by [@saganatt](https://github.com/saganatt)
 - [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#8303](https://github.com/AliceO2Group/AliceO2/pull/8303) 2022-03-18: DPL Analysis: adjust reader unconditionally by [@aalkin](https://github.com/aalkin)
 - [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
 - [\#8315](https://github.com/AliceO2Group/AliceO2/pull/8315) 2022-03-13: Work on Vulkan backend, compile GLSL shaders at compile time with CMake, Render text with Freetype if frontend cannot draw text, unrelated fixes by [@davidrohr](https://github.com/davidrohr)
