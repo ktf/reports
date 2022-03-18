@@ -23,7 +23,6 @@
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#8297](https://github.com/AliceO2Group/AliceO2/pull/8297) 2022-03-09: TFIDInfoWriter by default subscribes to DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8304](https://github.com/AliceO2Group/AliceO2/pull/8304) 2022-03-11: SpaceCharge: add possibility to set data type of output when writing to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -63,7 +62,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8298](https://github.com/AliceO2Group/AliceO2/pull/8298) 2022-03-09: DPL: handle hex and binary numbers as subspecs by [@ktf](https://github.com/ktf)
 - [\#8299](https://github.com/AliceO2Group/AliceO2/pull/8299) 2022-03-15: [DPL Analysis] [Event mixing] Introducing Binning Policy for block combinations by [@saganatt](https://github.com/saganatt)
 - [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
