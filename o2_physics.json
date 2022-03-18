@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-15T13:04:41Z",
-            "title": "Adding macros used to upload evsel ccdb objects",
-            "number": 529,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/upload_trigger_aliases.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-15T15:06:28Z",
             "title": "Use de-ref via V0link in casc builder, other fixes",
             "number": 530,
@@ -2634,6 +2604,31 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID TOF: use the central method to remove the T0 bias",
+            "number": 630,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
                   }
                 }
               ]
