@@ -12,6 +12,7 @@
 - [\#8300](https://github.com/AliceO2Group/AliceO2/pull/8300) 2022-03-17: DPL Analysis: explicitly bind internal indices of grouped tables to the original tables by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
+- [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
@@ -22,7 +23,6 @@
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Detectors
-- [\#8295](https://github.com/AliceO2Group/AliceO2/pull/8295) 2022-03-09: Revert "[EMCAL-753,EMCAL-763] Redesing DigitsWriteoutBuffer with past/future dequeue" by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8297](https://github.com/AliceO2Group/AliceO2/pull/8297) 2022-03-09: TFIDInfoWriter by default subscribes to DISTSUBTIMEFRAME/0xccdb by [@shahor02](https://github.com/shahor02)
 - [\#8301](https://github.com/AliceO2Group/AliceO2/pull/8301) 2022-03-10: Fix several compile errors / warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
@@ -40,6 +40,7 @@
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8346](https://github.com/AliceO2Group/AliceO2/pull/8346) 2022-03-17: ITS THR SCAN: multiple decoder pipelines + fixed minor bugs by [@iravasen](https://github.com/iravasen)
+- [\#8356](https://github.com/AliceO2Group/AliceO2/pull/8356) 2022-03-18: Fix O2-2843: handling empty rofs by [@mpuccio](https://github.com/mpuccio)
 - [\#8357](https://github.com/AliceO2Group/AliceO2/pull/8357) 2022-03-18: SpaceCharge: adding functionality to set boundary potentials by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8358](https://github.com/AliceO2Group/AliceO2/pull/8358) 2022-03-16: Fix IB and OB geometry to latest blueprints by [@mario6829](https://github.com/mario6829)
 - [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
@@ -48,6 +49,7 @@
 - [\#8363](https://github.com/AliceO2Group/AliceO2/pull/8363) 2022-03-18: TrackletTransformer uses DPL CCDB mechanism by [@martenole](https://github.com/martenole)
 - [\#8364](https://github.com/AliceO2Group/AliceO2/pull/8364) 2022-03-17: Fix in PHOS reader: provide data types by [@shahor02](https://github.com/shahor02)
 - [\#8366](https://github.com/AliceO2Group/AliceO2/pull/8366) 2022-03-17: TOF fix for raw encoding in MC (large first orbit) by [@noferini](https://github.com/noferini)
+- [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
 - [\#8370](https://github.com/AliceO2Group/AliceO2/pull/8370) 2022-03-17: STFDecoder requests cluster dict only if clustering is asked by [@shahor02](https://github.com/shahor02)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
