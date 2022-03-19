@@ -58,6 +58,7 @@
 - [\#8377](https://github.com/AliceO2Group/AliceO2/pull/8377) 2022-03-18: Extra fix for prim/sec. vertexer and aod sources by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#8395](https://github.com/AliceO2Group/AliceO2/pull/8395) 2022-03-19: Fix the MID channel calibrator by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - EventVisualisation
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
