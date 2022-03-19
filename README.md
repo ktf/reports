@@ -9,6 +9,7 @@
 - v5-09-38l-01: Done on 2022-03-15.
 ## Recent O2 releases
 ## Recent developments in O2 - Common
+- [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
@@ -32,6 +33,7 @@
 - [\#8320](https://github.com/AliceO2Group/AliceO2/pull/8320) 2022-03-15: Simplified and refactored code by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8322](https://github.com/AliceO2Group/AliceO2/pull/8322) 2022-03-11: Avoid same alias for different specs by [@shahor02](https://github.com/shahor02)
 - [\#8325](https://github.com/AliceO2Group/AliceO2/pull/8325) 2022-03-16: Add standalone AOD producer by [@peressounko](https://github.com/peressounko)
+- [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8329](https://github.com/AliceO2Group/AliceO2/pull/8329) 2022-03-14: Fix for mc->raw with firstOrbit>0 in RORC detectors by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
