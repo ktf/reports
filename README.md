@@ -11,6 +11,7 @@
 ## Recent developments in O2 - Common
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
+- [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
@@ -21,6 +22,7 @@
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#8302](https://github.com/AliceO2Group/AliceO2/pull/8302) 2022-03-10: Fix warning by [@gvolpe79](https://github.com/gvolpe79)
@@ -57,6 +59,7 @@
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8377](https://github.com/AliceO2Group/AliceO2/pull/8377) 2022-03-18: Extra fix for prim/sec. vertexer and aod sources by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8395](https://github.com/AliceO2Group/AliceO2/pull/8395) 2022-03-19: Fix the MID channel calibrator by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - EventVisualisation
