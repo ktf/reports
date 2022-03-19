@@ -40,6 +40,7 @@
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8332](https://github.com/AliceO2Group/AliceO2/pull/8332) 2022-03-16: Option to suppress explicit DISTSTF/0xccdb from raw-reader by [@shahor02](https://github.com/shahor02)
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
+- [\#8340](https://github.com/AliceO2Group/AliceO2/pull/8340) 2022-03-19: Improving sensitive hit creation for HMPID in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8346](https://github.com/AliceO2Group/AliceO2/pull/8346) 2022-03-17: ITS THR SCAN: multiple decoder pipelines + fixed minor bugs by [@iravasen](https://github.com/iravasen)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
