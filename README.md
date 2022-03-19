@@ -8,6 +8,8 @@
 - v5-09-24l-01: Done on 2022-03-15.
 - v5-09-38l-01: Done on 2022-03-15.
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
@@ -91,6 +93,7 @@
 - [\#8384](https://github.com/AliceO2Group/AliceO2/pull/8384) 2022-03-17: DPL: expire Optional inputs only when a given message is provided by [@ktf](https://github.com/ktf)
 - [\#8389](https://github.com/AliceO2Group/AliceO2/pull/8389) 2022-03-18: DPL: avoid reading in memory at random by [@ktf](https://github.com/ktf)
 - [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
+- [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Steer
 - [\#8305](https://github.com/AliceO2Group/AliceO2/pull/8305) 2022-03-11: ITS and MFT fetch noise masks and clust.dict. from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
