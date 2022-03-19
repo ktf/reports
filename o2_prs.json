@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-10T10:40:32Z",
-            "title": "Fix warning",
-            "number": 8302,
-            "author": {
-              "login": "gvolpe79"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Cluster.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-18T10:51:37Z",
             "title": "DPL Analysis: adjust reader unconditionally",
             "number": 8303,
@@ -1763,6 +1743,11 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/test/testUtils.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "DataFormats/Headers/include/Headers/TimeStamp.h"
@@ -4596,6 +4581,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionIncludesITS.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-03-19T15:13:38Z",
+            "title": "GPU: dEdx container must be dumped and loaded as FlatObject, not as struct",
+            "number": 8402,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingIO.cxx"
                   }
                 }
               ]
