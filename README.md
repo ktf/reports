@@ -16,7 +16,6 @@
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 - [\#8317](https://github.com/AliceO2Group/AliceO2/pull/8317) 2022-03-20: Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
@@ -27,7 +26,6 @@
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8307](https://github.com/AliceO2Group/AliceO2/pull/8307) 2022-03-10: Revert "Merge pull request #8275 from matthias-kleiner/dedxdev" by [@davidrohr](https://github.com/davidrohr)
 - [\#8317](https://github.com/AliceO2Group/AliceO2/pull/8317) 2022-03-20: Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8320](https://github.com/AliceO2Group/AliceO2/pull/8320) 2022-03-15: Simplified and refactored code by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8322](https://github.com/AliceO2Group/AliceO2/pull/8322) 2022-03-11: Avoid same alias for different specs by [@shahor02](https://github.com/shahor02)
