@@ -12,12 +12,14 @@
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
+- [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8317](https://github.com/AliceO2Group/AliceO2/pull/8317) 2022-03-20: Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
+- [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
