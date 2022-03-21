@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-11T19:42:38Z",
-            "title": "DPL: make missing CCDB objects fatal",
-            "number": 8314,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CCDBHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-13T16:30:54Z",
             "title": "Work on Vulkan backend, compile GLSL shaders at compile time with CMake, Render text with Freetype if frontend cannot draw text, unrelated fixes",
             "number": 8315,
@@ -4431,6 +4411,26 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/workflow/src/zdc-intercalib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix protection against concurrent lock directory creation",
+            "number": 8414,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
