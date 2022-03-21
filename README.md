@@ -92,6 +92,5 @@
 - [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Steer
-- [\#8312](https://github.com/AliceO2Group/AliceO2/pull/8312) 2022-03-11: Protect against use of GRPUpdater when not needed by [@sawenzel](https://github.com/sawenzel)
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
