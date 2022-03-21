@@ -69,7 +69,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8308](https://github.com/AliceO2Group/AliceO2/pull/8308) 2022-03-10: Add missing include by [@davidrohr](https://github.com/davidrohr)
 - [\#8314](https://github.com/AliceO2Group/AliceO2/pull/8314) 2022-03-11: DPL: make missing CCDB objects fatal by [@ktf](https://github.com/ktf)
 - [\#8315](https://github.com/AliceO2Group/AliceO2/pull/8315) 2022-03-13: Work on Vulkan backend, compile GLSL shaders at compile time with CMake, Render text with Freetype if frontend cannot draw text, unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#8316](https://github.com/AliceO2Group/AliceO2/pull/8316) 2022-03-11: DPL: detect default condition-backend by [@ktf](https://github.com/ktf)
