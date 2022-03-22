@@ -17,6 +17,7 @@
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
+- [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
 - [\#8317](https://github.com/AliceO2Group/AliceO2/pull/8317) 2022-03-20: Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
@@ -65,6 +66,7 @@
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8395](https://github.com/AliceO2Group/AliceO2/pull/8395) 2022-03-19: Fix the MID channel calibrator by [@dstocco](https://github.com/dstocco)
+- [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
