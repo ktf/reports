@@ -5,141 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-20T07:35:10Z",
-            "title": "Adapt to type sent by DCS + macros to populate and read the GRP DCS config entry",
-            "number": 8317,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/ParametersDataLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCreator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointIdentifier.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DataPointCompositeObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DataPointCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/test/testDataPointGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/macros/makeCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/macros/makeEMCALCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/src/EMCDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EMCALDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/src/GRPDCSDPsProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/macros/makeGRPCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/macros/readGRPCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/macros/readGRPDCSConfigEntry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/GRPDCSDPsSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/macros/makeMFTCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/src/MFTDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/macros/makeTOFCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/TOFDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-11T18:26:35Z",
             "title": "DPL: insert timeout to avoid OOM killer when runningh with DDS",
             "number": 8318,
@@ -4241,6 +4106,26 @@
                 {
                   "node": {
                     "path": "Algorithm/test/parser.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: transfer internal index binding to the returned slice",
+            "number": 8417,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
                   }
                 }
               ]
