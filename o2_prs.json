@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-11T18:26:35Z",
-            "title": "DPL: insert timeout to avoid OOM killer when runningh with DDS",
-            "number": 8318,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToDDS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-11T22:35:15Z",
             "title": "CCDBApi: fix warnings",
             "number": 8319,
@@ -4126,6 +4101,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "use correct time to fetch CCDB field in event generation",
+            "number": 8418,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2PrimaryServerDevice.h"
                   }
                 }
               ]
