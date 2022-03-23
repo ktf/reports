@@ -32,7 +32,6 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8332](https://github.com/AliceO2Group/AliceO2/pull/8332) 2022-03-16: Option to suppress explicit DISTSTF/0xccdb from raw-reader by [@shahor02](https://github.com/shahor02)
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
@@ -68,7 +67,6 @@
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
-- [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8333](https://github.com/AliceO2Group/AliceO2/pull/8333) 2022-03-13: DPL: fix warnings in DataAllocator.h by [@ktf](https://github.com/ktf)
