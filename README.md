@@ -12,7 +12,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
-- [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
 - [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
@@ -33,7 +32,6 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8329](https://github.com/AliceO2Group/AliceO2/pull/8329) 2022-03-14: Fix for mc->raw with firstOrbit>0 in RORC detectors by [@shahor02](https://github.com/shahor02)
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)

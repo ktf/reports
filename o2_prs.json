@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-19T08:30:07Z",
-            "title": "MCH: DCS DP change from RAW to DPVAL",
-            "number": 8327,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-12T19:32:56Z",
             "title": "Fixes for CCDB fetcher",
             "number": 8328,
@@ -3285,6 +3265,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibExtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
                   }
                 },
@@ -4086,6 +4071,26 @@
                 {
                   "node": {
                     "path": "doc/data/2022-03-o2_prs.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-03-23T14:56:01Z",
+            "title": "Force 1 thread for ITSMFT reconstruction on macOS",
+            "number": 8427,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
