@@ -72,7 +72,6 @@
 - [\#8330](https://github.com/AliceO2Group/AliceO2/pull/8330) 2022-03-16: o2-eve loads ITS/MFT cluster dictionaries via CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8321](https://github.com/AliceO2Group/AliceO2/pull/8321) 2022-03-11: [OCTRL-609] AliECS dump: add O2_PARTITION to env by [@knopers8](https://github.com/knopers8)
 - [\#8323](https://github.com/AliceO2Group/AliceO2/pull/8323) 2022-03-13: DPL: cleanup CallbackRegistry by [@ktf](https://github.com/ktf)
 - [\#8324](https://github.com/AliceO2Group/AliceO2/pull/8324) 2022-03-12: DPL: improve subscription to 0xccdb by [@ktf](https://github.com/ktf)
 - [\#8328](https://github.com/AliceO2Group/AliceO2/pull/8328) 2022-03-12: Fixes for CCDB fetcher by [@shahor02](https://github.com/shahor02)
