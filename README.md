@@ -20,7 +20,6 @@
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
@@ -32,7 +31,6 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8331](https://github.com/AliceO2Group/AliceO2/pull/8331) 2022-03-17: TPC: DCS processing by [@wiechula](https://github.com/wiechula)
 - [\#8332](https://github.com/AliceO2Group/AliceO2/pull/8332) 2022-03-16: Option to suppress explicit DISTSTF/0xccdb from raw-reader by [@shahor02](https://github.com/shahor02)
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
 - [\#8340](https://github.com/AliceO2Group/AliceO2/pull/8340) 2022-03-19: Improving sensitive hit creation for HMPID in Detector.cxx by [@zovarga](https://github.com/zovarga)
