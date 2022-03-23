@@ -31,7 +31,6 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8332](https://github.com/AliceO2Group/AliceO2/pull/8332) 2022-03-16: Option to suppress explicit DISTSTF/0xccdb from raw-reader by [@shahor02](https://github.com/shahor02)
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
 - [\#8340](https://github.com/AliceO2Group/AliceO2/pull/8340) 2022-03-19: Improving sensitive hit creation for HMPID in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
@@ -83,6 +82,8 @@
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8417](https://github.com/AliceO2Group/AliceO2/pull/8417) 2022-03-23: DPL Analysis: transfer internal index binding to the returned slice by [@aalkin](https://github.com/aalkin)
+- [\#8429](https://github.com/AliceO2Group/AliceO2/pull/8429) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
+- [\#8431](https://github.com/AliceO2Group/AliceO2/pull/8431) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
