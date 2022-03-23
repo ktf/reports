@@ -30,7 +30,6 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8320](https://github.com/AliceO2Group/AliceO2/pull/8320) 2022-03-15: Simplified and refactored code by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8322](https://github.com/AliceO2Group/AliceO2/pull/8322) 2022-03-11: Avoid same alias for different specs by [@shahor02](https://github.com/shahor02)
 - [\#8325](https://github.com/AliceO2Group/AliceO2/pull/8325) 2022-03-16: Add standalone AOD producer by [@peressounko](https://github.com/peressounko)
 - [\#8327](https://github.com/AliceO2Group/AliceO2/pull/8327) 2022-03-19: MCH: DCS DP change from RAW to DPVAL by [@aphecetche](https://github.com/aphecetche)
