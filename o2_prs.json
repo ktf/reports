@@ -6,46 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "DPL: set correct values in timingInfo",
-            "number": 8334,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-03-14T10:11:09Z",
-            "title": "DPL: make sure proxies set the correct TimingInfo from out of band data.",
-            "number": 8335,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "switch the variable initialization order",
             "number": 8336,
             "author": {
@@ -3702,16 +3662,6 @@
                   "node": {
                     "path": "doc/data/2022-03-o2_prs.json"
                   }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2022-03-o2_releases.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
                 }
               ]
             }
@@ -3901,6 +3851,51 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix dummy values in O2fwdtrack",
+            "number": 8434,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC-QC: update of Tracks task",
+            "number": 8435,
+            "author": {
+              "login": "stheckel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Tracks.cxx"
                   }
                 }
               ]
