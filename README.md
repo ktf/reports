@@ -59,6 +59,7 @@
 - [\#8414](https://github.com/AliceO2Group/AliceO2/pull/8414) 2022-03-22: Fix protection against concurrent lock directory creation by [@shahor02](https://github.com/shahor02)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
+- [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
