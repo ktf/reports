@@ -3016,7 +3016,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Change FLP/DISTSUBTIMEFRAME/0xccdb to DPL/DISTSUBTIMEFRAME/0xccdb",
+            "title": "By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers",
             "number": 8404,
             "author": {
               "login": "shahor02"
@@ -3025,22 +3025,12 @@
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/CTF/workflow/src/ctf-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/SubTimeFrameFileReader.cxx"
                   }
                 },
                 {
@@ -3060,22 +3050,12 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/Raw/src/diststf-sender-workflow.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/Raw/src/rawfile-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
