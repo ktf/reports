@@ -28,6 +28,7 @@
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
+- [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
 - [\#8339](https://github.com/AliceO2Group/AliceO2/pull/8339) 2022-03-17: TRD modify verbose output to debug grid by [@bazinski](https://github.com/bazinski)
 - [\#8340](https://github.com/AliceO2Group/AliceO2/pull/8340) 2022-03-19: Improving sensitive hit creation for HMPID in Detector.cxx by [@zovarga](https://github.com/zovarga)
@@ -63,10 +64,10 @@
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
 - [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
+- [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8333](https://github.com/AliceO2Group/AliceO2/pull/8333) 2022-03-13: DPL: fix warnings in DataAllocator.h by [@ktf](https://github.com/ktf)
 - [\#8335](https://github.com/AliceO2Group/AliceO2/pull/8335) 2022-03-14: DPL: make sure proxies set the correct TimingInfo from out of band data. by [@ktf](https://github.com/ktf)
 - [\#8343](https://github.com/AliceO2Group/AliceO2/pull/8343) 2022-03-14: Restore ms_gsl < 4 support by [@davidrohr](https://github.com/davidrohr)
 - [\#8351](https://github.com/AliceO2Group/AliceO2/pull/8351) 2022-03-15: Remove LOGP message to avoid crash with long log texts. by [@pbuehler](https://github.com/pbuehler)
