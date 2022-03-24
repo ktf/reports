@@ -14,6 +14,7 @@
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
+- [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
@@ -81,6 +82,7 @@
 - [\#8389](https://github.com/AliceO2Group/AliceO2/pull/8389) 2022-03-18: DPL: avoid reading in memory at random by [@ktf](https://github.com/ktf)
 - [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
+- [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8417](https://github.com/AliceO2Group/AliceO2/pull/8417) 2022-03-23: DPL Analysis: transfer internal index binding to the returned slice by [@aalkin](https://github.com/aalkin)
 - [\#8429](https://github.com/AliceO2Group/AliceO2/pull/8429) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
