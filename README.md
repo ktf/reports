@@ -1,8 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-53f-01: Done on 2022-03-02.
-- v5-09-54n-01: Done on 2022-03-02.
-- v5-09-55d-01: Done on 2022-03-02.
-- v5-09-56j-01: Done on 2022-03-02.
 - v5-09-02o-01: Done on 2022-03-15.
 - v5-09-20u-01: Done on 2022-03-15.
 - v5-09-24l-01: Done on 2022-03-15.
