@@ -29,7 +29,6 @@
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8340](https://github.com/AliceO2Group/AliceO2/pull/8340) 2022-03-19: Improving sensitive hit creation for HMPID in Detector.cxx by [@zovarga](https://github.com/zovarga)
 - [\#8341](https://github.com/AliceO2Group/AliceO2/pull/8341) 2022-03-16: set timestamp in reconstruction by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8346](https://github.com/AliceO2Group/AliceO2/pull/8346) 2022-03-17: ITS THR SCAN: multiple decoder pipelines + fixed minor bugs by [@iravasen](https://github.com/iravasen)
