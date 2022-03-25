@@ -62,6 +62,7 @@
 - [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8414](https://github.com/AliceO2Group/AliceO2/pull/8414) 2022-03-22: Fix protection against concurrent lock directory creation by [@shahor02](https://github.com/shahor02)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
+- [\#8422](https://github.com/AliceO2Group/AliceO2/pull/8422) 2022-03-25: Better protection against bad data by [@ktf](https://github.com/ktf)
 - [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
 - [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
