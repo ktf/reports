@@ -8,7 +8,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
-- [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8368](https://github.com/AliceO2Group/AliceO2/pull/8368) 2022-03-18: Mch dcs fix start validity time by [@aphecetche](https://github.com/aphecetche)
@@ -18,7 +17,6 @@
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#8337](https://github.com/AliceO2Group/AliceO2/pull/8337) 2022-03-21: switch the variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
