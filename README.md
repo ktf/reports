@@ -64,6 +64,7 @@
 - [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
+- [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -86,6 +87,7 @@
 - [\#8431](https://github.com/AliceO2Group/AliceO2/pull/8431) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
 - [\#8432](https://github.com/AliceO2Group/AliceO2/pull/8432) 2022-03-24: Fix creation time by [@ktf](https://github.com/ktf)
 - [\#8437](https://github.com/AliceO2Group/AliceO2/pull/8437) 2022-03-25: DPL: add printout whenever we are sending an end of stream by [@ktf](https://github.com/ktf)
+- [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8344](https://github.com/AliceO2Group/AliceO2/pull/8344) 2022-03-23: [FIT] Align dataformats, names and formatting of FV0 to match FT0 by [@mslupeck](https://github.com/mslupeck)
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
