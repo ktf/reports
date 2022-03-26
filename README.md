@@ -27,7 +27,6 @@
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#8346](https://github.com/AliceO2Group/AliceO2/pull/8346) 2022-03-17: ITS THR SCAN: multiple decoder pipelines + fixed minor bugs by [@iravasen](https://github.com/iravasen)
 - [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
 - [\#8356](https://github.com/AliceO2Group/AliceO2/pull/8356) 2022-03-18: Fix O2-2843: handling empty rofs by [@mpuccio](https://github.com/mpuccio)
 - [\#8357](https://github.com/AliceO2Group/AliceO2/pull/8357) 2022-03-18: SpaceCharge: adding functionality to set boundary potentials by [@matthias-kleiner](https://github.com/matthias-kleiner)
