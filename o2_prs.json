@@ -3831,7 +3831,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Count messages also for the RawBufferContext",
+            "title": "Extra fixes for the Race condition handling",
             "number": 8439,
             "author": {
               "login": "ktf"
@@ -3845,7 +3845,17 @@
                 },
                 {
                   "node": {
+                    "path": "Framework/Core/include/Framework/MessageContext.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/RawBufferContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/MessageContext.cxx"
                   }
                 },
                 {
