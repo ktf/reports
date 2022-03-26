@@ -62,6 +62,7 @@
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
+- [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -87,3 +88,4 @@
 ## Recent developments in O2 - Steer
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
+- [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
