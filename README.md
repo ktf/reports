@@ -16,7 +16,6 @@
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
 - [\#8369](https://github.com/AliceO2Group/AliceO2/pull/8369) 2022-03-17: Doxygen fixes and improvements for MID by [@dstocco](https://github.com/dstocco)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8375](https://github.com/AliceO2Group/AliceO2/pull/8375) 2022-03-17: Enable extra track types in dpl-workflow, related fixes in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -26,8 +25,8 @@
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
+- [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8352](https://github.com/AliceO2Group/AliceO2/pull/8352) 2022-03-18: Add PHOS table by [@nburmaso](https://github.com/nburmaso)
 - [\#8356](https://github.com/AliceO2Group/AliceO2/pull/8356) 2022-03-18: Fix O2-2843: handling empty rofs by [@mpuccio](https://github.com/mpuccio)
 - [\#8357](https://github.com/AliceO2Group/AliceO2/pull/8357) 2022-03-18: SpaceCharge: adding functionality to set boundary potentials by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8358](https://github.com/AliceO2Group/AliceO2/pull/8358) 2022-03-16: Fix IB and OB geometry to latest blueprints by [@mario6829](https://github.com/mario6829)
@@ -64,6 +63,7 @@
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
+- [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
