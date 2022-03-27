@@ -63,10 +63,10 @@
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
+- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8351](https://github.com/AliceO2Group/AliceO2/pull/8351) 2022-03-15: Remove LOGP message to avoid crash with long log texts. by [@pbuehler](https://github.com/pbuehler)
 - [\#8362](https://github.com/AliceO2Group/AliceO2/pull/8362) 2022-03-17: [DPL Analysis] [Event mixing]: Follow-up to #8299 by [@saganatt](https://github.com/saganatt)
 - [\#8367](https://github.com/AliceO2Group/AliceO2/pull/8367) 2022-03-17: DPL: do not inherit from std::iterator by [@ktf](https://github.com/ktf)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
@@ -86,7 +86,10 @@
 - [\#8437](https://github.com/AliceO2Group/AliceO2/pull/8437) 2022-03-25: DPL: add printout whenever we are sending an end of stream by [@ktf](https://github.com/ktf)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8439](https://github.com/AliceO2Group/AliceO2/pull/8439) 2022-03-27: Extra fixes for the Race condition handling by [@ktf](https://github.com/ktf)
+- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
