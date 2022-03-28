@@ -29,7 +29,6 @@
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8359](https://github.com/AliceO2Group/AliceO2/pull/8359) 2022-03-16: ITS: Get ITS TimeFrame from GPUReco by [@mconcas](https://github.com/mconcas)
 - [\#8360](https://github.com/AliceO2Group/AliceO2/pull/8360) 2022-03-16: TPC interpolation use correct global track index by [@martenole](https://github.com/martenole)
 - [\#8361](https://github.com/AliceO2Group/AliceO2/pull/8361) 2022-03-16: Restructure init of sim magnetic field by [@sawenzel](https://github.com/sawenzel)
 - [\#8363](https://github.com/AliceO2Group/AliceO2/pull/8363) 2022-03-18: TrackletTransformer uses DPL CCDB mechanism by [@martenole](https://github.com/martenole)
