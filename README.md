@@ -49,6 +49,7 @@
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8395](https://github.com/AliceO2Group/AliceO2/pull/8395) 2022-03-19: Fix the MID channel calibrator by [@dstocco](https://github.com/dstocco)
+- [\#8396](https://github.com/AliceO2Group/AliceO2/pull/8396) 2022-03-28: Integration of fast simulation module in O2 pipeline by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
 - [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
