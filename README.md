@@ -88,6 +88,7 @@
 - [\#8437](https://github.com/AliceO2Group/AliceO2/pull/8437) 2022-03-25: DPL: add printout whenever we are sending an end of stream by [@ktf](https://github.com/ktf)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8439](https://github.com/AliceO2Group/AliceO2/pull/8439) 2022-03-27: Extra fixes for the Race condition handling by [@ktf](https://github.com/ktf)
+- [\#8442](https://github.com/AliceO2Group/AliceO2/pull/8442) 2022-03-28: DPL Analysis: Shift bin numbers to get same bins as in AliPhysics AliFemto by [@saganatt](https://github.com/saganatt)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 ## Recent developments in O2 - Steer
