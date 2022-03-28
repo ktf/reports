@@ -90,6 +90,7 @@
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8439](https://github.com/AliceO2Group/AliceO2/pull/8439) 2022-03-27: Extra fixes for the Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
+- [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 ## Recent developments in O2 - Steer
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
