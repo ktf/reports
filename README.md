@@ -63,6 +63,7 @@
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 - [\#8455](https://github.com/AliceO2Group/AliceO2/pull/8455) 2022-03-28: Fix DPH.startTime assignment in the raw readers by [@shahor02](https://github.com/shahor02)
+- [\#8456](https://github.com/AliceO2Group/AliceO2/pull/8456) 2022-03-29: Fix updateTimeDependentParams on MFT Workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
