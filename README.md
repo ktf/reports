@@ -57,6 +57,7 @@
 - [\#8455](https://github.com/AliceO2Group/AliceO2/pull/8455) 2022-03-28: Fix DPH.startTime assignment in the raw readers by [@shahor02](https://github.com/shahor02)
 - [\#8456](https://github.com/AliceO2Group/AliceO2/pull/8456) 2022-03-29: Fix updateTimeDependentParams on MFT Workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
+- [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
