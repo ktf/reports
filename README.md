@@ -84,6 +84,7 @@
 - [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
+- [\#8461](https://github.com/AliceO2Group/AliceO2/pull/8461) 2022-03-29: DPL Analysis: Event mixing: Enable mixing on filtered collisions, fix binning for constant bins by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Steer
 - [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
