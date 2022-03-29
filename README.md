@@ -68,7 +68,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8362](https://github.com/AliceO2Group/AliceO2/pull/8362) 2022-03-17: [DPL Analysis] [Event mixing]: Follow-up to #8299 by [@saganatt](https://github.com/saganatt)
 - [\#8367](https://github.com/AliceO2Group/AliceO2/pull/8367) 2022-03-17: DPL: do not inherit from std::iterator by [@ktf](https://github.com/ktf)
 - [\#8372](https://github.com/AliceO2Group/AliceO2/pull/8372) 2022-03-17: Fix new xcode by [@ktf](https://github.com/ktf)
 - [\#8380](https://github.com/AliceO2Group/AliceO2/pull/8380) 2022-03-17: DPL: fatal level also in the case of CCDB objects missing by [@ktf](https://github.com/ktf)
