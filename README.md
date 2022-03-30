@@ -7,6 +7,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#8416](https://github.com/AliceO2Group/AliceO2/pull/8416) 2022-03-28: switch variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
+- [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
@@ -59,6 +60,7 @@
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
@@ -92,3 +94,4 @@
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
+- [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
