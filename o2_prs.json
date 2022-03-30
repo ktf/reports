@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-18T11:46:01Z",
-            "title": "Extra fix for prim/sec. vertexer and aod sources",
-            "number": 8377,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-03-18T10:23:09Z",
-            "title": "digitizer: Ability to fetch bcFilling scheme from CCDB",
-            "number": 8378,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-17T22:38:25Z",
             "title": "TPC dEdx: automatically loading calib objects from CCDB",
             "number": 8379,
@@ -3721,6 +3671,46 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/GPUTrackingLinkDef_O2_DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-03-30T17:28:16Z",
+            "title": "add long to IR converter to InteractionRecord",
+            "number": 8477,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/common/include/CommonDataFormat/InteractionRecord.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-03-30T17:32:34Z",
+            "title": "DPL: fix CCDB fetcher verbosity",
+            "number": 8478,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CCDBHelpers.cxx"
                   }
                 }
               ]
