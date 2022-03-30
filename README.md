@@ -58,8 +58,6 @@
 - [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
-## Recent developments in O2 - EventVisualisation
-- [\#8374](https://github.com/AliceO2Group/AliceO2/pull/8374) 2022-03-16: Fixup in MFT dictionary update in eve by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8380](https://github.com/AliceO2Group/AliceO2/pull/8380) 2022-03-17: DPL: fatal level also in the case of CCDB objects missing by [@ktf](https://github.com/ktf)
 - [\#8381](https://github.com/AliceO2Group/AliceO2/pull/8381) 2022-03-21: DPL: fix deprecated inheritance of std::iterator by [@ktf](https://github.com/ktf)
