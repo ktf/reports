@@ -27,7 +27,6 @@
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8377](https://github.com/AliceO2Group/AliceO2/pull/8377) 2022-03-18: Extra fix for prim/sec. vertexer and aod sources by [@shahor02](https://github.com/shahor02)
 - [\#8379](https://github.com/AliceO2Group/AliceO2/pull/8379) 2022-03-17: TPC dEdx: automatically loading calib objects from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8391](https://github.com/AliceO2Group/AliceO2/pull/8391) 2022-03-22: Fix AO2Ds in case of negative first daughter  by [@mpuccio](https://github.com/mpuccio)
@@ -80,7 +79,6 @@
 - [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
 - [\#8461](https://github.com/AliceO2Group/AliceO2/pull/8461) 2022-03-29: DPL Analysis: Event mixing: Enable mixing on filtered collisions, fix binning for constant bins by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Steer
-- [\#8376](https://github.com/AliceO2Group/AliceO2/pull/8376) 2022-03-18: TPC: Add possibility for MC anchoring of basic calibrations by [@wiechula](https://github.com/wiechula)
 - [\#8378](https://github.com/AliceO2Group/AliceO2/pull/8378) 2022-03-18: digitizer: Ability to fetch bcFilling scheme from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
