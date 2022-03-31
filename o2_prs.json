@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-17T23:31:02Z",
-            "title": "DPL: expire Optional inputs only when a given message is provided",
-            "number": 8384,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ExpirationHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/InputRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/LifetimeHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-17T23:08:31Z",
             "title": "FST: Allow overriding SEVERITY in 8 GPU FST",
             "number": 8385,
@@ -3716,6 +3666,236 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "COMPILATION TEST: Move all GPU display code to a separate library and clean up - and add a native Wayland frontend",
+            "number": 8484,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionTimeframe.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUSettings.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingIO.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendVulkan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendVulkan.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontend.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlfw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendGlut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendWayland.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendWayland.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendWindows.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayFrontendX11.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayInterpolation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayLoader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayQuaternion.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayROOT.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/qlibload.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPUWayland.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]
