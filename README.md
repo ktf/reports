@@ -22,6 +22,7 @@
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8473](https://github.com/AliceO2Group/AliceO2/pull/8473) 2022-03-31: TPC Fasttransform: fix compiler warnings, fix standalone compilation, remove unnecessary includes by [@davidrohr](https://github.com/davidrohr)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
+- [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
 - [\#8393](https://github.com/AliceO2Group/AliceO2/pull/8393) 2022-03-18: GPU: Fix some compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -33,6 +34,7 @@
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
+- [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8391](https://github.com/AliceO2Group/AliceO2/pull/8391) 2022-03-22: Fix AO2Ds in case of negative first daughter  by [@mpuccio](https://github.com/mpuccio)
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
@@ -62,6 +64,7 @@
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
+- [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
 - [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8389](https://github.com/AliceO2Group/AliceO2/pull/8389) 2022-03-18: DPL: avoid reading in memory at random by [@ktf](https://github.com/ktf)
