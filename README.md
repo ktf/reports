@@ -20,6 +20,7 @@
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
+- [\#8473](https://github.com/AliceO2Group/AliceO2/pull/8473) 2022-03-31: TPC Fasttransform: fix compiler warnings, fix standalone compilation, remove unnecessary includes by [@davidrohr](https://github.com/davidrohr)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
