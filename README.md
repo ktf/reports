@@ -56,7 +56,6 @@
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
-- [\#8380](https://github.com/AliceO2Group/AliceO2/pull/8380) 2022-03-17: DPL: fatal level also in the case of CCDB objects missing by [@ktf](https://github.com/ktf)
 - [\#8381](https://github.com/AliceO2Group/AliceO2/pull/8381) 2022-03-21: DPL: fix deprecated inheritance of std::iterator by [@ktf](https://github.com/ktf)
 - [\#8382](https://github.com/AliceO2Group/AliceO2/pull/8382) 2022-03-18: DPL: introduce OptionsHelpers by [@ktf](https://github.com/ktf)
 - [\#8384](https://github.com/AliceO2Group/AliceO2/pull/8384) 2022-03-17: DPL: expire Optional inputs only when a given message is provided by [@ktf](https://github.com/ktf)
