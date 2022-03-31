@@ -17,6 +17,7 @@
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
+- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8392](https://github.com/AliceO2Group/AliceO2/pull/8392) 2022-03-19: Fixes for GRPLHCIF parsing/filling by [@shahor02](https://github.com/shahor02)
@@ -78,9 +79,12 @@
 - [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
 - [\#8461](https://github.com/AliceO2Group/AliceO2/pull/8461) 2022-03-29: DPL Analysis: Event mixing: Enable mixing on filtered collisions, fix binning for constant bins by [@saganatt](https://github.com/saganatt)
 - [\#8478](https://github.com/AliceO2Group/AliceO2/pull/8478) 2022-03-30: DPL: fix CCDB fetcher verbosity by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Steer
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
+- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
