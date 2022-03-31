@@ -4,6 +4,8 @@
 - v5-09-24l-01: Done on 2022-03-15.
 - v5-09-38l-01: Done on 2022-03-15.
 - v5-09-56k-01: Done on 2022-03-21.
+- v5-09-56l-01: Done on 2022-03-31.
+- v5-09-54o-01: Done on 2022-03-31.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#8416](https://github.com/AliceO2Group/AliceO2/pull/8416) 2022-03-28: switch variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
