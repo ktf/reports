@@ -62,6 +62,7 @@
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
+- [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8389](https://github.com/AliceO2Group/AliceO2/pull/8389) 2022-03-18: DPL: avoid reading in memory at random by [@ktf](https://github.com/ktf)
 - [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
