@@ -62,6 +62,7 @@
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#8469](https://github.com/AliceO2Group/AliceO2/pull/8469) 2022-04-01: TRD fix bounds error in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
