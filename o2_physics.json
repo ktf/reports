@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-02-23T14:14:01Z",
-            "title": "Fix for wrong discard of US pairs",
-            "number": 557,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-02-28T09:43:54Z",
             "title": "Extend handling of PID response param",
             "number": 558,
@@ -2864,6 +2844,61 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/emcclustermonitor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM: add skimmer, consumer, and mctruthonly tasks",
+            "number": 657,
+            "author": {
+              "login": "sstiefel19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/gammaConversionsConsumermc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/gammaConversionsMcTruthOnly.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/gammaConversionsSkimmermc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/gammaConversionsmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/gammaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/writer-skimmer.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
                   }
                 }
               ]
