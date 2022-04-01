@@ -67,6 +67,7 @@
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
 - [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
+- [\#8487](https://github.com/AliceO2Group/AliceO2/pull/8487) 2022-04-01: Removed loading unused mtroot library by [@ihrivnac](https://github.com/ihrivnac)
 ## Recent developments in O2 - Framework
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
