@@ -67,7 +67,6 @@
 - [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
 - [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8390](https://github.com/AliceO2Group/AliceO2/pull/8390) 2022-03-18: DPL: setup the expiration mechanism after all the input devices are in place by [@ktf](https://github.com/ktf)
 - [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
