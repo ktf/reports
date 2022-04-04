@@ -11,7 +11,6 @@
 - [\#8416](https://github.com/AliceO2Group/AliceO2/pull/8416) 2022-03-28: switch variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Common
-- [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -32,7 +31,6 @@
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
 - [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8414](https://github.com/AliceO2Group/AliceO2/pull/8414) 2022-03-22: Fix protection against concurrent lock directory creation by [@shahor02](https://github.com/shahor02)
