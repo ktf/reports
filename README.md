@@ -10,8 +10,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#8416](https://github.com/AliceO2Group/AliceO2/pull/8416) 2022-03-28: switch variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
-## Recent developments in O2 - Analysis
-- [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
@@ -66,7 +64,6 @@
 - [\#8488](https://github.com/AliceO2Group/AliceO2/pull/8488) 2022-04-03: Abandon TF matching if data orbits do not match DH by [@shahor02](https://github.com/shahor02)
 - [\#8490](https://github.com/AliceO2Group/AliceO2/pull/8490) 2022-04-03: Fix to access MC track container  by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
-- [\#8398](https://github.com/AliceO2Group/AliceO2/pull/8398) 2022-03-19: [DPL Analysis] [Event mixing] Upgrade event mixing to use BinningPolicy by [@saganatt](https://github.com/saganatt)
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8417](https://github.com/AliceO2Group/AliceO2/pull/8417) 2022-03-23: DPL Analysis: transfer internal index binding to the returned slice by [@aalkin](https://github.com/aalkin)
