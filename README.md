@@ -33,7 +33,6 @@
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8396](https://github.com/AliceO2Group/AliceO2/pull/8396) 2022-03-28: Integration of fast simulation module in O2 pipeline by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
 - [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -53,6 +52,7 @@
 - [\#8455](https://github.com/AliceO2Group/AliceO2/pull/8455) 2022-03-28: Fix DPH.startTime assignment in the raw readers by [@shahor02](https://github.com/shahor02)
 - [\#8456](https://github.com/AliceO2Group/AliceO2/pull/8456) 2022-03-29: Fix updateTimeDependentParams on MFT Workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
+- [\#8462](https://github.com/AliceO2Group/AliceO2/pull/8462) 2022-04-04: Sanitize metadata keys, avoiding forbidden characters by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8469](https://github.com/AliceO2Group/AliceO2/pull/8469) 2022-04-01: TRD fix bounds error in mc to raw by [@bazinski](https://github.com/bazinski)
