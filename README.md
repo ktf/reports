@@ -30,6 +30,7 @@
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
+- [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
 - [\#8400](https://github.com/AliceO2Group/AliceO2/pull/8400) 2022-03-24: [EMCAL-566]: Updated EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
@@ -63,6 +64,7 @@
 - [\#8487](https://github.com/AliceO2Group/AliceO2/pull/8487) 2022-04-01: Removed loading unused mtroot library by [@ihrivnac](https://github.com/ihrivnac)
 - [\#8488](https://github.com/AliceO2Group/AliceO2/pull/8488) 2022-04-03: Abandon TF matching if data orbits do not match DH by [@shahor02](https://github.com/shahor02)
 - [\#8490](https://github.com/AliceO2Group/AliceO2/pull/8490) 2022-04-03: Fix to access MC track container  by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
