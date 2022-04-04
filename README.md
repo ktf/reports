@@ -60,6 +60,7 @@
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
 - [\#8471](https://github.com/AliceO2Group/AliceO2/pull/8471) 2022-04-01: ITS calib: added possibility to run on different chips in parallel by [@iravasen](https://github.com/iravasen)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
+- [\#8482](https://github.com/AliceO2Group/AliceO2/pull/8482) 2022-04-04: its-vertexer: Use single vector to store number of found tracklets by [@mconcas](https://github.com/mconcas)
 - [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
 - [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
 - [\#8487](https://github.com/AliceO2Group/AliceO2/pull/8487) 2022-04-01: Removed loading unused mtroot library by [@ihrivnac](https://github.com/ihrivnac)
