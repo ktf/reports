@@ -29,6 +29,7 @@
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
+- [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
 - [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
@@ -64,6 +65,7 @@
 - [\#8490](https://github.com/AliceO2Group/AliceO2/pull/8490) 2022-04-03: Fix to access MC track container  by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 - [\#8497](https://github.com/AliceO2Group/AliceO2/pull/8497) 2022-04-05: Fix initial validity of the MID CCDB object and use 3 levels for DCS CCDB path by [@dstocco](https://github.com/dstocco)
+- [\#8498](https://github.com/AliceO2Group/AliceO2/pull/8498) 2022-04-05: TimeSlotCalibration has optionally filled TF header info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
