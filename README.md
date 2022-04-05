@@ -32,7 +32,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8404](https://github.com/AliceO2Group/AliceO2/pull/8404) 2022-03-25: By default do not send explicit FLP/DISTSUBTIMEFRAME/0xccdb from readers by [@shahor02](https://github.com/shahor02)
 - [\#8412](https://github.com/AliceO2Group/AliceO2/pull/8412) 2022-03-22: TPC simulation: fix bug where not all hits are stored when a track crosses the centre of a sector by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8414](https://github.com/AliceO2Group/AliceO2/pull/8414) 2022-03-22: Fix protection against concurrent lock directory creation by [@shahor02](https://github.com/shahor02)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
