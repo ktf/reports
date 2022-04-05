@@ -63,6 +63,7 @@
 - [\#8488](https://github.com/AliceO2Group/AliceO2/pull/8488) 2022-04-03: Abandon TF matching if data orbits do not match DH by [@shahor02](https://github.com/shahor02)
 - [\#8490](https://github.com/AliceO2Group/AliceO2/pull/8490) 2022-04-03: Fix to access MC track container  by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
+- [\#8497](https://github.com/AliceO2Group/AliceO2/pull/8497) 2022-04-05: Fix initial validity of the MID CCDB object and use 3 levels for DCS CCDB path by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#8405](https://github.com/AliceO2Group/AliceO2/pull/8405) 2022-03-24: Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
