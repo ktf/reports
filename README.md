@@ -39,6 +39,7 @@
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
+- [\#8440](https://github.com/AliceO2Group/AliceO2/pull/8440) 2022-04-06: MCH: add errors message in decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
