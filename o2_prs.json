@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Please consider the following formatting changes to #8408",
-            "number": 8409,
-            "author": {
-              "login": "alibuild"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-03-23T12:14:38Z",
             "title": "DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts",
@@ -3861,6 +3841,41 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Write metafile for TPC residuals",
+            "number": 8509,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/ResidualAggregator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
                   }
                 }
               ]
