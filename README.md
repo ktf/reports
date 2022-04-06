@@ -9,7 +9,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#8411](https://github.com/AliceO2Group/AliceO2/pull/8411) 2022-03-22: Enable upgrade dets if requested by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8473](https://github.com/AliceO2Group/AliceO2/pull/8473) 2022-03-31: TPC Fasttransform: fix compiler warnings, fix standalone compilation, remove unnecessary includes by [@davidrohr](https://github.com/davidrohr)
