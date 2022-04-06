@@ -63,6 +63,7 @@
 - [\#8497](https://github.com/AliceO2Group/AliceO2/pull/8497) 2022-04-05: Fix initial validity of the MID CCDB object and use 3 levels for DCS CCDB path by [@dstocco](https://github.com/dstocco)
 - [\#8498](https://github.com/AliceO2Group/AliceO2/pull/8498) 2022-04-05: TimeSlotCalibration has optionally filled TF header info by [@shahor02](https://github.com/shahor02)
 - [\#8501](https://github.com/AliceO2Group/AliceO2/pull/8501) 2022-04-05: For empty TF rawTFreader sends STFDIST with orbit/runNumber of prev. TF by [@shahor02](https://github.com/shahor02)
+- [\#8502](https://github.com/AliceO2Group/AliceO2/pull/8502) 2022-04-06: Upload ITS noise map with valididy now : now + --validity-days by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8410](https://github.com/AliceO2Group/AliceO2/pull/8410) 2022-03-23: DPL Analysis: fix seg fault for empty HistogramRegistry and remove c-style casts by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8417](https://github.com/AliceO2Group/AliceO2/pull/8417) 2022-03-23: DPL Analysis: transfer internal index binding to the returned slice by [@aalkin](https://github.com/aalkin)
