@@ -29,7 +29,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8414](https://github.com/AliceO2Group/AliceO2/pull/8414) 2022-03-22: Fix protection against concurrent lock directory creation by [@shahor02](https://github.com/shahor02)
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8421](https://github.com/AliceO2Group/AliceO2/pull/8421) 2022-03-27: tune digitzation parameters by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8422](https://github.com/AliceO2Group/AliceO2/pull/8422) 2022-03-25: Better protection against bad data by [@ktf](https://github.com/ktf)
