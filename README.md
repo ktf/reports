@@ -4,7 +4,6 @@
 - v5-09-54o-01: Done on 2022-03-31.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-- [\#8416](https://github.com/AliceO2Group/AliceO2/pull/8416) 2022-03-28: switch variable initialization order by [@zhaomr13](https://github.com/zhaomr13)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
