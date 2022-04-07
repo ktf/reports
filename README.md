@@ -64,6 +64,7 @@
 - [\#8498](https://github.com/AliceO2Group/AliceO2/pull/8498) 2022-04-05: TimeSlotCalibration has optionally filled TF header info by [@shahor02](https://github.com/shahor02)
 - [\#8501](https://github.com/AliceO2Group/AliceO2/pull/8501) 2022-04-05: For empty TF rawTFreader sends STFDIST with orbit/runNumber of prev. TF by [@shahor02](https://github.com/shahor02)
 - [\#8502](https://github.com/AliceO2Group/AliceO2/pull/8502) 2022-04-06: Upload ITS noise map with valididy now : now + --validity-days by [@shahor02](https://github.com/shahor02)
+- [\#8508](https://github.com/AliceO2Group/AliceO2/pull/8508) 2022-04-07: Improvement in caching selected tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 - [\#8417](https://github.com/AliceO2Group/AliceO2/pull/8417) 2022-03-23: DPL Analysis: transfer internal index binding to the returned slice by [@aalkin](https://github.com/aalkin)
 - [\#8429](https://github.com/AliceO2Group/AliceO2/pull/8429) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
