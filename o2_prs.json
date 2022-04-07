@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-24T08:59:23Z",
-            "title": "Data structure to hold and manipulate a list of BC ranges",
-            "number": 8423,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/BCRange.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-23T16:26:44Z",
             "title": "AOD: Fix for inconsistent MC daughter problem",
             "number": 8424,
@@ -4020,7 +3995,17 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerWorkflow.cxx"
                   }
                 }
               ]
@@ -4151,6 +4136,41 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: validity timestamp for time slot residual gain calibration",
+            "number": 8523,
+            "author": {
+              "login": "badarots"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ProcessingHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CalibdEdxSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CalibratordEdxSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ProcessingHelpers.cxx"
                   }
                 }
               ]
