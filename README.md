@@ -16,7 +16,6 @@
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8420](https://github.com/AliceO2Group/AliceO2/pull/8420) 2022-04-07: [QC-751] Add new QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
@@ -29,7 +28,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8421](https://github.com/AliceO2Group/AliceO2/pull/8421) 2022-03-27: tune digitzation parameters by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8422](https://github.com/AliceO2Group/AliceO2/pull/8422) 2022-03-25: Better protection against bad data by [@ktf](https://github.com/ktf)
 - [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
