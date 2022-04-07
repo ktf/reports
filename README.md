@@ -14,6 +14,7 @@
 - [\#8473](https://github.com/AliceO2Group/AliceO2/pull/8473) 2022-03-31: TPC Fasttransform: fix compiler warnings, fix standalone compilation, remove unnecessary includes by [@davidrohr](https://github.com/davidrohr)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
+- [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8415](https://github.com/AliceO2Group/AliceO2/pull/8415) 2022-03-22: FIT: fix undefined behaviour in LookUpTable by [@ktf](https://github.com/ktf)
 - [\#8420](https://github.com/AliceO2Group/AliceO2/pull/8420) 2022-04-07: [QC-751] Add new QC flags by [@knopers8](https://github.com/knopers8)
@@ -83,6 +84,7 @@
 - [\#8478](https://github.com/AliceO2Group/AliceO2/pull/8478) 2022-03-30: DPL: fix CCDB fetcher verbosity by [@ktf](https://github.com/ktf)
 - [\#8489](https://github.com/AliceO2Group/AliceO2/pull/8489) 2022-04-03: DPL: introduce ConsumeAndRescan as a completion policy by [@ktf](https://github.com/ktf)
 - [\#8493](https://github.com/AliceO2Group/AliceO2/pull/8493) 2022-04-04: Optionally check cached ccdb objects only every N TFs by [@shahor02](https://github.com/shahor02)
+- [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Generators
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
