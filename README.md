@@ -15,7 +15,6 @@
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8420](https://github.com/AliceO2Group/AliceO2/pull/8420) 2022-04-07: [QC-751] Add new QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8423](https://github.com/AliceO2Group/AliceO2/pull/8423) 2022-03-24: Data structure to hold and manipulate a list of BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
