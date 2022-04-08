@@ -16,7 +16,6 @@
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 - [\#8517](https://github.com/AliceO2Group/AliceO2/pull/8517) 2022-04-08: Catch filesystem exceptions by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 - [\#8454](https://github.com/AliceO2Group/AliceO2/pull/8454) 2022-03-31: Switch to CCDB fetcher; Fix energy calibrator; by [@peressounko](https://github.com/peressounko)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
@@ -26,7 +25,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8440](https://github.com/AliceO2Group/AliceO2/pull/8440) 2022-04-06: MCH: add errors message in decoder by [@aferrero2707](https://github.com/aferrero2707)
