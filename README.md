@@ -58,7 +58,9 @@
 - [\#8501](https://github.com/AliceO2Group/AliceO2/pull/8501) 2022-04-05: For empty TF rawTFreader sends STFDIST with orbit/runNumber of prev. TF by [@shahor02](https://github.com/shahor02)
 - [\#8502](https://github.com/AliceO2Group/AliceO2/pull/8502) 2022-04-06: Upload ITS noise map with valididy now : now + --validity-days by [@shahor02](https://github.com/shahor02)
 - [\#8508](https://github.com/AliceO2Group/AliceO2/pull/8508) 2022-04-07: Improvement in caching selected tracks by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#8510](https://github.com/AliceO2Group/AliceO2/pull/8510) 2022-04-08: [EMCAL-769] Catch invalid DDL IDs in Mapper by [@mfasDa](https://github.com/mfasDa)
 - [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
+- [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8431](https://github.com/AliceO2Group/AliceO2/pull/8431) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
 - [\#8432](https://github.com/AliceO2Group/AliceO2/pull/8432) 2022-03-24: Fix creation time by [@ktf](https://github.com/ktf)
