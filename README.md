@@ -60,7 +60,6 @@
 - [\#8508](https://github.com/AliceO2Group/AliceO2/pull/8508) 2022-04-07: Improvement in caching selected tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
-- [\#8429](https://github.com/AliceO2Group/AliceO2/pull/8429) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
 - [\#8431](https://github.com/AliceO2Group/AliceO2/pull/8431) 2022-03-23: DPL: cleanup unneeded TimingInfo instance by [@ktf](https://github.com/ktf)
 - [\#8432](https://github.com/AliceO2Group/AliceO2/pull/8432) 2022-03-24: Fix creation time by [@ktf](https://github.com/ktf)
 - [\#8437](https://github.com/AliceO2Group/AliceO2/pull/8437) 2022-03-25: DPL: add printout whenever we are sending an end of stream by [@ktf](https://github.com/ktf)
