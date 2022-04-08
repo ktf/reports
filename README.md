@@ -26,7 +26,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
