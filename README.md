@@ -14,6 +14,7 @@
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
+- [\#8517](https://github.com/AliceO2Group/AliceO2/pull/8517) 2022-04-08: Catch filesystem exceptions by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
@@ -25,7 +26,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8424](https://github.com/AliceO2Group/AliceO2/pull/8424) 2022-03-23: AOD: Fix for inconsistent MC daughter problem by [@sawenzel](https://github.com/sawenzel)
 - [\#8425](https://github.com/AliceO2Group/AliceO2/pull/8425) 2022-03-24: Add protection in TOF compressor against deadbeef input by [@shahor02](https://github.com/shahor02)
 - [\#8430](https://github.com/AliceO2Group/AliceO2/pull/8430) 2022-03-24: Validity range fix; debug info added by [@peressounko](https://github.com/peressounko)
 - [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)

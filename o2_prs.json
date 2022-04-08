@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-23T16:26:44Z",
-            "title": "AOD: Fix for inconsistent MC daughter problem",
-            "number": 8424,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-24T07:31:46Z",
             "title": "Add protection in TOF compressor against deadbeef input",
             "number": 8425,
@@ -3469,7 +3449,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "adding LOG and exception handling in the clean cache",
             "number": 8513,
@@ -3779,8 +3759,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-08T06:52:35Z",
             "title": "Catch filesystem exceptions",
             "number": 8517,
             "author": {
@@ -4171,6 +4151,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/ProcessingHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fill ccdb with run number in tof async cal",
+            "number": 8524,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDiagnosticCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFDiagnosticCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDiagnosticCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/tof-diagnostic-workflow.cxx"
                   }
                 }
               ]
