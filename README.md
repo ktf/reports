@@ -62,7 +62,6 @@
 - [\#8521](https://github.com/AliceO2Group/AliceO2/pull/8521) 2022-04-09: add missing configKeyValues for HBFUtilsInitializer, suppress in raw w-flows by [@shahor02](https://github.com/shahor02)
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8437](https://github.com/AliceO2Group/AliceO2/pull/8437) 2022-03-25: DPL: add printout whenever we are sending an end of stream by [@ktf](https://github.com/ktf)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8439](https://github.com/AliceO2Group/AliceO2/pull/8439) 2022-03-27: Extra fixes for the Race condition handling by [@ktf](https://github.com/ktf)
 - [\#8442](https://github.com/AliceO2Group/AliceO2/pull/8442) 2022-03-28: DPL Analysis: Shift bin numbers to get same bins as in AliPhysics AliFemto by [@saganatt](https://github.com/saganatt)
