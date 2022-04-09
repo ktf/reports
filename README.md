@@ -25,7 +25,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8435](https://github.com/AliceO2Group/AliceO2/pull/8435) 2022-03-24: TPC-QC: update of Tracks task by [@stheckel](https://github.com/stheckel)
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8440](https://github.com/AliceO2Group/AliceO2/pull/8440) 2022-04-06: MCH: add errors message in decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
