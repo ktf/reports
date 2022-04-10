@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-07T09:22:24Z",
-            "title": "RecoDecay, PWGHF: Add protection for index double-counting",
-            "number": 567,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/RecoDecay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-01T15:49:14Z",
             "title": "Add processing of Run3 MC collisions to event selection QA",
             "number": 568,
@@ -2835,6 +2815,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/spectraTOFtiny.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Modifications for adding FDD as mult selection signal",
+            "number": 667,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/EventSelection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/multiplicityQa.cxx"
                   }
                 }
               ]
