@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-27T10:10:17Z",
-            "title": "Extra fixes for the Race condition handling",
-            "number": 8439,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/MessageContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RawBufferContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/MessageContext.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/RawBufferContext.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-06T10:33:28Z",
             "title": "MCH: add errors message in decoder",
             "number": 8440,
@@ -4641,6 +4601,61 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes forward matching and assessment workflows",
+            "number": 8539,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdAssessment.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwdAssessment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/GlobalFwdMatchingAssessmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/GlobalFwdMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/assessment/include/MFTAssessment/MFTAssessment.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/MFTAssessmentSpec.cxx"
                   }
                 }
               ]
