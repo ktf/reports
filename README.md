@@ -61,6 +61,8 @@
 - [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#8521](https://github.com/AliceO2Group/AliceO2/pull/8521) 2022-04-09: add missing configKeyValues for HBFUtilsInitializer, suppress in raw w-flows by [@shahor02](https://github.com/shahor02)
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
+- [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
+- [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#8438](https://github.com/AliceO2Group/AliceO2/pull/8438) 2022-03-25: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#8439](https://github.com/AliceO2Group/AliceO2/pull/8439) 2022-03-27: Extra fixes for the Race condition handling by [@ktf](https://github.com/ktf)
@@ -81,6 +83,7 @@
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
+- [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
