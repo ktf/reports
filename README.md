@@ -25,7 +25,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8440](https://github.com/AliceO2Group/AliceO2/pull/8440) 2022-04-06: MCH: add errors message in decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8444](https://github.com/AliceO2Group/AliceO2/pull/8444) 2022-03-26: A few improvements for TPC CCDB access in digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
