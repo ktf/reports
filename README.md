@@ -58,6 +58,7 @@
 - [\#8512](https://github.com/AliceO2Group/AliceO2/pull/8512) 2022-04-08: Digital and analog scan in ITS calibration workflow by [@iravasen](https://github.com/iravasen)
 - [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#8521](https://github.com/AliceO2Group/AliceO2/pull/8521) 2022-04-09: add missing configKeyValues for HBFUtilsInitializer, suppress in raw w-flows by [@shahor02](https://github.com/shahor02)
+- [\#8524](https://github.com/AliceO2Group/AliceO2/pull/8524) 2022-04-11: fill ccdb with run number in tof async cal by [@noferini](https://github.com/noferini)
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
