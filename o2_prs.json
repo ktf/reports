@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-31T12:28:33Z",
-            "title": "Switch to CCDB fetcher; Fix energy calibrator;",
-            "number": 8454,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/BadChannelsMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/ETCalibHistos.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSEnergyCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSEnergyCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSRunbyrunCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSTurnonCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSCalibWorkflowLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSTurnonCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/CellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/CellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-28T21:30:46Z",
             "title": "Fix DPH.startTime assignment in the raw readers",
             "number": 8455,
@@ -4629,8 +4509,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-11T17:57:40Z",
             "title": "GPU Vulkan Display: Avoid call to ambiguous constructors in old Vulkan versions",
             "number": 8549,
             "author": {
@@ -4836,6 +4716,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"Workaround: temporarily support multiple ms_gsl versions\"",
+            "number": 8554,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TMessageSerializer.h"
                   }
                 }
               ]
