@@ -23,7 +23,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8455](https://github.com/AliceO2Group/AliceO2/pull/8455) 2022-03-28: Fix DPH.startTime assignment in the raw readers by [@shahor02](https://github.com/shahor02)
 - [\#8456](https://github.com/AliceO2Group/AliceO2/pull/8456) 2022-03-29: Fix updateTimeDependentParams on MFT Workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8462](https://github.com/AliceO2Group/AliceO2/pull/8462) 2022-04-04: Sanitize metadata keys, avoiding forbidden characters by [@chiarazampolli](https://github.com/chiarazampolli)
