@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-28T14:08:25Z",
-            "title": "DPL Analysis: Shift bin numbers to get same bins as in AliPhysics AliFemto",
-            "number": 8442,
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/BinningPolicy.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-27T10:10:01Z",
             "title": "  FST: Fix raw file size check",
             "number": 8443,
@@ -4671,6 +4651,36 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: prevent spawner from creating DYN tables that are already provided",
+            "number": 8542,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.h"
                   }
                 }
               ]

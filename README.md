@@ -62,7 +62,6 @@
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8442](https://github.com/AliceO2Group/AliceO2/pull/8442) 2022-03-28: DPL Analysis: Shift bin numbers to get same bins as in AliPhysics AliFemto by [@saganatt](https://github.com/saganatt)
 - [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
