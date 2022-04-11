@@ -25,7 +25,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8451](https://github.com/AliceO2Group/AliceO2/pull/8451) 2022-03-27: Fix: Update version number for CCDB object ROOT schema evolution by [@davidrohr](https://github.com/davidrohr)
 - [\#8454](https://github.com/AliceO2Group/AliceO2/pull/8454) 2022-03-31: Switch to CCDB fetcher; Fix energy calibrator; by [@peressounko](https://github.com/peressounko)
 - [\#8455](https://github.com/AliceO2Group/AliceO2/pull/8455) 2022-03-28: Fix DPH.startTime assignment in the raw readers by [@shahor02](https://github.com/shahor02)
@@ -63,7 +62,6 @@
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
@@ -82,5 +80,4 @@
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#8450](https://github.com/AliceO2Group/AliceO2/pull/8450) 2022-03-27: Fix race condition with 2 NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
