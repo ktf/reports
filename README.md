@@ -60,7 +60,6 @@
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8453](https://github.com/AliceO2Group/AliceO2/pull/8453) 2022-03-28: [QC-744] properly extract the config by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8458](https://github.com/AliceO2Group/AliceO2/pull/8458) 2022-03-29: Fix deprecated FairMQ include paths by [@ktf](https://github.com/ktf)
 - [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
 - [\#8461](https://github.com/AliceO2Group/AliceO2/pull/8461) 2022-03-29: DPL Analysis: Event mixing: Enable mixing on filtered collisions, fix binning for constant bins by [@saganatt](https://github.com/saganatt)
@@ -79,3 +78,4 @@
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
+- [\#8545](https://github.com/AliceO2Group/AliceO2/pull/8545) 2022-04-11: EPN STDERR: Don't rely on the working directory being the DDS_LOCATION with the log files by [@davidrohr](https://github.com/davidrohr)
