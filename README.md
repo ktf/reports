@@ -20,8 +20,6 @@
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#8462](https://github.com/AliceO2Group/AliceO2/pull/8462) 2022-04-04: Sanitize metadata keys, avoiding forbidden characters by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#8463](https://github.com/AliceO2Group/AliceO2/pull/8463) 2022-03-29: Optionally alter the subspec of CTFreader output by [@shahor02](https://github.com/shahor02)
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8469](https://github.com/AliceO2Group/AliceO2/pull/8469) 2022-04-01: TRD fix bounds error in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#8470](https://github.com/AliceO2Group/AliceO2/pull/8470) 2022-03-30: Fix not filling dummy a vertex in per-rof entry by [@mconcas](https://github.com/mconcas)
