@@ -52,7 +52,6 @@
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8460](https://github.com/AliceO2Group/AliceO2/pull/8460) 2022-03-29: DPL: only have parallel DISTSUBTIMEFRAME when there are optional inputs by [@ktf](https://github.com/ktf)
 - [\#8461](https://github.com/AliceO2Group/AliceO2/pull/8461) 2022-03-29: DPL Analysis: Event mixing: Enable mixing on filtered collisions, fix binning for constant bins by [@saganatt](https://github.com/saganatt)
 - [\#8478](https://github.com/AliceO2Group/AliceO2/pull/8478) 2022-03-30: DPL: fix CCDB fetcher verbosity by [@ktf](https://github.com/ktf)
 - [\#8489](https://github.com/AliceO2Group/AliceO2/pull/8489) 2022-04-03: DPL: introduce ConsumeAndRescan as a completion policy by [@ktf](https://github.com/ktf)
