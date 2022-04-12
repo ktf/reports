@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8473](https://github.com/AliceO2Group/AliceO2/pull/8473) 2022-03-31: TPC Fasttransform: fix compiler warnings, fix standalone compilation, remove unnecessary includes by [@davidrohr](https://github.com/davidrohr)
 - [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
@@ -60,10 +59,7 @@
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
 - [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
-## Recent developments in O2 - Generators
-- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Steer
-- [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8545](https://github.com/AliceO2Group/AliceO2/pull/8545) 2022-04-11: EPN STDERR: Don't rely on the working directory being the DDS_LOCATION with the log files by [@davidrohr](https://github.com/davidrohr)
