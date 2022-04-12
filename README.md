@@ -19,6 +19,7 @@
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
+- [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#8466](https://github.com/AliceO2Group/AliceO2/pull/8466) 2022-03-29: Getter for MC flag added by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8469](https://github.com/AliceO2Group/AliceO2/pull/8469) 2022-04-01: TRD fix bounds error in mc to raw by [@bazinski](https://github.com/bazinski)
@@ -49,6 +50,7 @@
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
+- [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#8478](https://github.com/AliceO2Group/AliceO2/pull/8478) 2022-03-30: DPL: fix CCDB fetcher verbosity by [@ktf](https://github.com/ktf)
 - [\#8489](https://github.com/AliceO2Group/AliceO2/pull/8489) 2022-04-03: DPL: introduce ConsumeAndRescan as a completion policy by [@ktf](https://github.com/ktf)
