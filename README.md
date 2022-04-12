@@ -66,6 +66,7 @@
 - [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
+- [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Steer
