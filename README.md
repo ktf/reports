@@ -2,8 +2,6 @@
 - v5-09-56l-01: Done on 2022-03-31.
 - v5-09-54o-01: Done on 2022-03-31.
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
@@ -67,5 +65,4 @@
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#8465](https://github.com/AliceO2Group/AliceO2/pull/8465) 2022-03-30: [QC-759] Survive if ROOT fails to merge and report object name by [@knopers8](https://github.com/knopers8)
 - [\#8545](https://github.com/AliceO2Group/AliceO2/pull/8545) 2022-04-11: EPN STDERR: Don't rely on the working directory being the DDS_LOCATION with the log files by [@davidrohr](https://github.com/davidrohr)
