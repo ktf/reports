@@ -64,6 +64,7 @@
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 - [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
+- [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#8467](https://github.com/AliceO2Group/AliceO2/pull/8467) 2022-03-31: Material map by [@amorsch](https://github.com/amorsch)
