@@ -5,22 +5,16 @@
 ## Recent developments in O2 - Analysis
 - [\#8503](https://github.com/AliceO2Group/AliceO2/pull/8503) 2022-04-05: [WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
 - [\#8517](https://github.com/AliceO2Group/AliceO2/pull/8517) 2022-04-08: Catch filesystem exceptions by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#8477](https://github.com/AliceO2Group/AliceO2/pull/8477) 2022-03-30: add long to IR converter to InteractionRecord by [@shahor02](https://github.com/shahor02)
-- [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
 - [\#8486](https://github.com/AliceO2Group/AliceO2/pull/8486) 2022-03-31: Fix to suppress a warning by [@shahor02](https://github.com/shahor02)
 - [\#8494](https://github.com/AliceO2Group/AliceO2/pull/8494) 2022-04-05: Fixes in CreateGRPLHCIFObject and GRPLHCIFData by [@shahor02](https://github.com/shahor02)
 - [\#8495](https://github.com/AliceO2Group/AliceO2/pull/8495) 2022-04-04: Add getter and fix method name for MID track by [@dstocco](https://github.com/dstocco)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 - [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8481](https://github.com/AliceO2Group/AliceO2/pull/8481) 2022-03-31: Fix uninitialised unused bits in FEEID by [@ktf](https://github.com/ktf)
-- [\#8482](https://github.com/AliceO2Group/AliceO2/pull/8482) 2022-04-04: its-vertexer: Use single vector to store number of found tracklets by [@mconcas](https://github.com/mconcas)
-- [\#8483](https://github.com/AliceO2Group/AliceO2/pull/8483) 2022-03-31: Make IRFrame reader/writer global devices and workflows by [@shahor02](https://github.com/shahor02)
 - [\#8485](https://github.com/AliceO2Group/AliceO2/pull/8485) 2022-03-31: Suppress unnecessary and wrong check of CCDB obj. pointer by [@shahor02](https://github.com/shahor02)
 - [\#8487](https://github.com/AliceO2Group/AliceO2/pull/8487) 2022-04-01: Removed loading unused mtroot library by [@ihrivnac](https://github.com/ihrivnac)
 - [\#8488](https://github.com/AliceO2Group/AliceO2/pull/8488) 2022-04-03: Abandon TF matching if data orbits do not match DH by [@shahor02](https://github.com/shahor02)
@@ -46,8 +40,8 @@
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 - [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8566](https://github.com/AliceO2Group/AliceO2/pull/8566) 2022-04-13: ITS: fix compiler warnings by [@mconcas](https://github.com/mconcas)
+- [\#8583](https://github.com/AliceO2Group/AliceO2/pull/8583) 2022-04-13: Corrected list of libraries (G4 v11.0.1) by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - Framework
-- [\#8478](https://github.com/AliceO2Group/AliceO2/pull/8478) 2022-03-30: DPL: fix CCDB fetcher verbosity by [@ktf](https://github.com/ktf)
 - [\#8489](https://github.com/AliceO2Group/AliceO2/pull/8489) 2022-04-03: DPL: introduce ConsumeAndRescan as a completion policy by [@ktf](https://github.com/ktf)
 - [\#8493](https://github.com/AliceO2Group/AliceO2/pull/8493) 2022-04-04: Optionally check cached ccdb objects only every N TFs by [@shahor02](https://github.com/shahor02)
 - [\#8500](https://github.com/AliceO2Group/AliceO2/pull/8500) 2022-04-07: DPL: allow keeping track of outgoing messages by [@ktf](https://github.com/ktf)
