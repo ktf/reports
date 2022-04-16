@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-02T19:03:38Z",
-            "title": "Add centrality x-check histo",
-            "number": 579,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-centrality.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-03-02T15:55:57Z",
-            "title": "Charged spectra update primary particle selection",
-            "number": 580,
-            "author": {
-              "login": "pestratm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraCharged.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-02T15:31:12Z",
             "title": "Temporarily remove Run3 only tables",
             "number": 581,
@@ -1133,8 +1093,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-14T20:19:59Z",
             "title": "Fix warnings in the CF filter",
             "number": 620,
             "author": {
@@ -2893,8 +2853,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-14T20:17:20Z",
             "title": "Improve code formatting checks",
             "number": 676,
             "author": {
@@ -2945,6 +2905,86 @@
                 {
                   "node": {
                     "path": "PWGEM/Tasks/gammaConversionsMcTruthOnly.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add MegaLinter",
+            "number": 679,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".flake8"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/code-formatting.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/codeowner-self-approval.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/stale.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Scripts/update_ccdb.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPG: add protection for fake collisions",
+            "number": 680,
+            "author": {
+              "login": "mario-krueger"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaEventTrack.cxx"
                   }
                 }
               ]
