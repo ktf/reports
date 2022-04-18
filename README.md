@@ -18,7 +18,6 @@
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8508](https://github.com/AliceO2Group/AliceO2/pull/8508) 2022-04-07: Improvement in caching selected tracks by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8510](https://github.com/AliceO2Group/AliceO2/pull/8510) 2022-04-08: [EMCAL-769] Catch invalid DDL IDs in Mapper by [@mfasDa](https://github.com/mfasDa)
 - [\#8512](https://github.com/AliceO2Group/AliceO2/pull/8512) 2022-04-08: Digital and analog scan in ITS calibration workflow by [@iravasen](https://github.com/iravasen)
 - [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
