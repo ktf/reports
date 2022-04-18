@@ -50,6 +50,7 @@
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 - [\#8601](https://github.com/AliceO2Group/AliceO2/pull/8601) 2022-04-17: Apply TF ordering policy to all writers by [@shahor02](https://github.com/shahor02)
+- [\#8604](https://github.com/AliceO2Group/AliceO2/pull/8604) 2022-04-18: Fix misleading variable names by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
