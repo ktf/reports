@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-04-06T09:21:30Z",
-            "title": "Upload ITS noise map with valididy now : now + --validity-days",
-            "number": 8502,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibratorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-04-05T21:14:57Z",
-            "title": "[WIP][EMCAL-687] Declaring BC as index column for Calorimeter tables",
-            "number": 8503,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-04-14T08:19:59Z",
-            "title": "fix for laser data",
-            "number": 8504,
-            "author": {
-              "login": "AllaMaevskaya"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0ChannelTimeTimeSlotContainer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP]  Kr calibration",
@@ -3225,6 +3155,16 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
                   }
                 },
@@ -4499,8 +4439,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-17T21:40:18Z",
             "title": "Move alignment objects to DET/Calib/Align",
             "number": 8590,
             "author": {
@@ -4689,9 +4629,9 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Work on TPC ZS Encoding - WIP",
+            "state": "MERGED",
+            "mergedAt": "2022-04-17T08:36:23Z",
+            "title": "Work on TPC ZS Encoding",
             "number": 8596,
             "author": {
               "login": "davidrohr"
@@ -4799,8 +4739,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-16T16:08:42Z",
             "title": "Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes",
             "number": 8599,
             "author": {
@@ -4826,6 +4766,11 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Raw/test/testClosureCoDec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/Encoder.cxx"
                   }
                 },
                 {
@@ -5154,8 +5099,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-17T21:40:51Z",
             "title": "Apply TF ordering policy to all writers",
             "number": 8601,
             "author": {
@@ -5446,6 +5391,66 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/workflow/src/zdc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-04-16T14:07:15Z",
+            "title": "FST: Add option to provide extre WORKFLOW_PARAMETERS to sync phase",
+            "number": 8602,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Properly disable numa configuration if numactl is not there",
+            "number": 8603,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix misleading variable names",
+            "number": 8604,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/Mapper.h"
                   }
                 }
               ]
