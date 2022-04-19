@@ -11,6 +11,7 @@
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8526](https://github.com/AliceO2Group/AliceO2/pull/8526) 2022-04-13: ZDC - Tower intercalibration workflow by [@cortesep](https://github.com/cortesep)
+- [\#8528](https://github.com/AliceO2Group/AliceO2/pull/8528) 2022-04-19: [EMCAL-645] Propagate trigger bits to EventData by [@mfasDa](https://github.com/mfasDa)
 - [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8543](https://github.com/AliceO2Group/AliceO2/pull/8543) 2022-04-14: [FIT] Separate Trigger class and make it common for FT0, FV0 and FDD.… by [@mslupeck](https://github.com/mslupeck)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
@@ -24,6 +25,7 @@
 - [\#8524](https://github.com/AliceO2Group/AliceO2/pull/8524) 2022-04-11: fill ccdb with run number in tof async cal by [@noferini](https://github.com/noferini)
 - [\#8526](https://github.com/AliceO2Group/AliceO2/pull/8526) 2022-04-13: ZDC - Tower intercalibration workflow by [@cortesep](https://github.com/cortesep)
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
+- [\#8528](https://github.com/AliceO2Group/AliceO2/pull/8528) 2022-04-19: [EMCAL-645] Propagate trigger bits to EventData by [@mfasDa](https://github.com/mfasDa)
 - [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8535](https://github.com/AliceO2Group/AliceO2/pull/8535) 2022-04-13: Write only TRU digits to AOD trig table... by [@peressounko](https://github.com/peressounko)
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
