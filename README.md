@@ -52,6 +52,7 @@
 - [\#8601](https://github.com/AliceO2Group/AliceO2/pull/8601) 2022-04-17: Apply TF ordering policy to all writers by [@shahor02](https://github.com/shahor02)
 - [\#8604](https://github.com/AliceO2Group/AliceO2/pull/8604) 2022-04-18: Fix misleading variable names by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
 - [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
