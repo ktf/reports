@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#8517](https://github.com/AliceO2Group/AliceO2/pull/8517) 2022-04-08: Catch filesystem exceptions by [@sawenzel](https://github.com/sawenzel)
 - [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)

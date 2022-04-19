@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-08T06:52:35Z",
-            "title": "Catch filesystem exceptions",
-            "number": 8517,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/src/FileSystemUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-07T16:59:16Z",
             "title": "FST scripts: some fixes",
             "number": 8518,
@@ -4111,7 +4086,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add error bars to purity and pairing efficiency plots in globalfwd-matching-assessment",
+            "title": "Fix error bars in matching assessment workflow and add matching functions in matching workflow",
             "number": 8598,
             "author": {
               "login": "nbize"
@@ -4120,7 +4095,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwd.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdAssessment.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
                   }
                 },
                 {
@@ -5221,6 +5206,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Raw/include/MIDRaw/Decoder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add option to change tracker algorithm only keeping the best track",
+            "number": 8617,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
                   }
                 }
               ]
