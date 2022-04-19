@@ -20,7 +20,6 @@
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8515](https://github.com/AliceO2Group/AliceO2/pull/8515) 2022-04-07: MCH: remove invalid character (space) from badchannel calib metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#8519](https://github.com/AliceO2Group/AliceO2/pull/8519) 2022-04-11: MID afterburner for digits synchronization with collision BC by [@dstocco](https://github.com/dstocco)
 - [\#8521](https://github.com/AliceO2Group/AliceO2/pull/8521) 2022-04-09: add missing configKeyValues for HBFUtilsInitializer, suppress in raw w-flows by [@shahor02](https://github.com/shahor02)
 - [\#8524](https://github.com/AliceO2Group/AliceO2/pull/8524) 2022-04-11: fill ccdb with run number in tof async cal by [@noferini](https://github.com/noferini)
