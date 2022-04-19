@@ -19,6 +19,7 @@
 - [\#8578](https://github.com/AliceO2Group/AliceO2/pull/8578) 2022-04-14: Add theta calculation to Fwd track by [@pnwkw](https://github.com/pnwkw)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8519](https://github.com/AliceO2Group/AliceO2/pull/8519) 2022-04-11: MID afterburner for digits synchronization with collision BC by [@dstocco](https://github.com/dstocco)
 - [\#8521](https://github.com/AliceO2Group/AliceO2/pull/8521) 2022-04-09: add missing configKeyValues for HBFUtilsInitializer, suppress in raw w-flows by [@shahor02](https://github.com/shahor02)
@@ -53,6 +54,7 @@
 - [\#8601](https://github.com/AliceO2Group/AliceO2/pull/8601) 2022-04-17: Apply TF ordering policy to all writers by [@shahor02](https://github.com/shahor02)
 - [\#8604](https://github.com/AliceO2Group/AliceO2/pull/8604) 2022-04-18: Fix misleading variable names by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 - [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
 - [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
