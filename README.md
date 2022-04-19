@@ -47,6 +47,7 @@
 - [\#8583](https://github.com/AliceO2Group/AliceO2/pull/8583) 2022-04-13: Corrected list of libraries (G4 v11.0.1) by [@pzhristov](https://github.com/pzhristov)
 - [\#8584](https://github.com/AliceO2Group/AliceO2/pull/8584) 2022-04-14: ITS: remove unused variables to fix warnings by [@mconcas](https://github.com/mconcas)
 - [\#8586](https://github.com/AliceO2Group/AliceO2/pull/8586) 2022-04-15: Multiple fixes in Alpide decoding/error handling by [@shahor02](https://github.com/shahor02)
+- [\#8587](https://github.com/AliceO2Group/AliceO2/pull/8587) 2022-04-19: Add multiple output function in calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#8593](https://github.com/AliceO2Group/AliceO2/pull/8593) 2022-04-15: DPL: Catch exception from stol when parsing invalid run number by [@davidrohr](https://github.com/davidrohr)
 - [\#8594](https://github.com/AliceO2Group/AliceO2/pull/8594) 2022-04-15: Fix for not throwing exception in cpv::RawReaderMemory when processin… by [@sevdokim](https://github.com/sevdokim)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
