@@ -54,7 +54,6 @@
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 - [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
-- [\#8525](https://github.com/AliceO2Group/AliceO2/pull/8525) 2022-04-11: Add mermaid output support by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
