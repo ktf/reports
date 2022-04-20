@@ -65,6 +65,7 @@
 - [\#8560](https://github.com/AliceO2Group/AliceO2/pull/8560) 2022-04-13: DPL: provide per channel metric when backpressure happens by [@ktf](https://github.com/ktf)
 - [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
 - [\#8570](https://github.com/AliceO2Group/AliceO2/pull/8570) 2022-04-13: DPL: increase the number of available ports by default by [@ktf](https://github.com/ktf)
+- [\#8620](https://github.com/AliceO2Group/AliceO2/pull/8620) 2022-04-20: DPL: work with ROOT master by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
