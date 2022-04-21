@@ -10,7 +10,6 @@
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8526](https://github.com/AliceO2Group/AliceO2/pull/8526) 2022-04-13: ZDC - Tower intercalibration workflow by [@cortesep](https://github.com/cortesep)
 - [\#8528](https://github.com/AliceO2Group/AliceO2/pull/8528) 2022-04-19: [EMCAL-645] Propagate trigger bits to EventData by [@mfasDa](https://github.com/mfasDa)
 - [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8543](https://github.com/AliceO2Group/AliceO2/pull/8543) 2022-04-14: [FIT] Separate Trigger class and make it common for FT0, FV0 and FDD.… by [@mslupeck](https://github.com/mslupeck)
@@ -21,7 +20,6 @@
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8526](https://github.com/AliceO2Group/AliceO2/pull/8526) 2022-04-13: ZDC - Tower intercalibration workflow by [@cortesep](https://github.com/cortesep)
 - [\#8527](https://github.com/AliceO2Group/AliceO2/pull/8527) 2022-04-08: Fix in the protection against DH.firstTForbit and data orbit mismatch by [@shahor02](https://github.com/shahor02)
 - [\#8528](https://github.com/AliceO2Group/AliceO2/pull/8528) 2022-04-19: [EMCAL-645] Propagate trigger bits to EventData by [@mfasDa](https://github.com/mfasDa)
 - [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
