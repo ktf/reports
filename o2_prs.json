@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-04-19T17:01:49Z",
-            "title": "[EMCAL-645] Propagate trigger bits to EventData",
-            "number": 8528,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/EventHandler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP] A mechanism to batch multiple DPL devices into one",
@@ -4724,8 +4694,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-04-21T13:06:15Z",
             "title": "[FIT] Quick fix - increment FT0 and FDD Digit version",
             "number": 8622,
             "author": {
@@ -4886,6 +4856,36 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve verbosity in DCS DP processing (MFT, GRP)",
+            "number": 8628,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GRP/calibration/src/GRPDCSDPsProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/src/MFTDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
                   }
                 }
               ]
