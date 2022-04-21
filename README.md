@@ -41,6 +41,7 @@
 - [\#8582](https://github.com/AliceO2Group/AliceO2/pull/8582) 2022-04-13: Use simple errors for the tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#8583](https://github.com/AliceO2Group/AliceO2/pull/8583) 2022-04-13: Corrected list of libraries (G4 v11.0.1) by [@pzhristov](https://github.com/pzhristov)
 - [\#8584](https://github.com/AliceO2Group/AliceO2/pull/8584) 2022-04-14: ITS: remove unused variables to fix warnings by [@mconcas](https://github.com/mconcas)
+- [\#8585](https://github.com/AliceO2Group/AliceO2/pull/8585) 2022-04-21: Fix metadata and remove log - TOFDCSconfig by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8586](https://github.com/AliceO2Group/AliceO2/pull/8586) 2022-04-15: Multiple fixes in Alpide decoding/error handling by [@shahor02](https://github.com/shahor02)
 - [\#8587](https://github.com/AliceO2Group/AliceO2/pull/8587) 2022-04-19: Add multiple output function in calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#8593](https://github.com/AliceO2Group/AliceO2/pull/8593) 2022-04-15: DPL: Catch exception from stol when parsing invalid run number by [@davidrohr](https://github.com/davidrohr)
