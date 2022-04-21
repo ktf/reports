@@ -53,6 +53,7 @@
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 - [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 - [\#8615](https://github.com/AliceO2Group/AliceO2/pull/8615) 2022-04-21: [EMCAL-630] Move log level of EMCAL decoding errors to "alarm" by [@mfasDa](https://github.com/mfasDa)
+- [\#8616](https://github.com/AliceO2Group/AliceO2/pull/8616) 2022-04-21: Protection against non-existing feeId in the MID RDH by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
