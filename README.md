@@ -36,6 +36,7 @@
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 - [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8566](https://github.com/AliceO2Group/AliceO2/pull/8566) 2022-04-13: ITS: fix compiler warnings by [@mconcas](https://github.com/mconcas)
+- [\#8568](https://github.com/AliceO2Group/AliceO2/pull/8568) 2022-04-22: Comply with expected message when all is ok by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8569](https://github.com/AliceO2Group/AliceO2/pull/8569) 2022-04-13: Force HBF orbit assignment if RDH page0 is lost by [@shahor02](https://github.com/shahor02)
 - [\#8577](https://github.com/AliceO2Group/AliceO2/pull/8577) 2022-04-14: TPC: reduce use of static keyword by [@sawenzel](https://github.com/sawenzel)
 - [\#8579](https://github.com/AliceO2Group/AliceO2/pull/8579) 2022-04-14: Reporting and protection for interleaved chip data error by [@shahor02](https://github.com/shahor02)
@@ -60,6 +61,7 @@
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8621](https://github.com/AliceO2Group/AliceO2/pull/8621) 2022-04-21: Update HmpidCoder2.cxx by [@fapfap69](https://github.com/fapfap69)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
+- [\#8627](https://github.com/AliceO2Group/AliceO2/pull/8627) 2022-04-22: CPV: mute raw decoder error reporting for 10 minutes if it reports mo… by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
