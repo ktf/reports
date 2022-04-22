@@ -5,14 +5,12 @@
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Common
-- [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8543](https://github.com/AliceO2Group/AliceO2/pull/8543) 2022-04-14: [FIT] Separate Trigger class and make it common for FT0, FV0 and FDD.… by [@mslupeck](https://github.com/mslupeck)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 - [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
@@ -24,7 +22,6 @@
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#8533](https://github.com/AliceO2Group/AliceO2/pull/8533) 2022-04-16: Changes in the time-slot based calibration by [@shahor02](https://github.com/shahor02)
 - [\#8535](https://github.com/AliceO2Group/AliceO2/pull/8535) 2022-04-13: Write only TRU digits to AOD trig table... by [@peressounko](https://github.com/peressounko)
 - [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
