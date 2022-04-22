@@ -22,7 +22,6 @@
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#8536](https://github.com/AliceO2Group/AliceO2/pull/8536) 2022-04-10: ITS Digital Scan: added features for full matrix counts  by [@iravasen](https://github.com/iravasen)
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 - [\#8539](https://github.com/AliceO2Group/AliceO2/pull/8539) 2022-04-13: Fixes forward matching and assessment workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8540](https://github.com/AliceO2Group/AliceO2/pull/8540) 2022-04-13: [MFT] Bugfix MFT tracking by [@rpezzi](https://github.com/rpezzi)
