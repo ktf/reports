@@ -1,6 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-56l-01: Done on 2022-03-31.
-- v5-09-54o-01: Done on 2022-03-31.
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
