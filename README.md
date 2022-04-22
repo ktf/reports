@@ -6,6 +6,7 @@
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 ## Recent developments in O2 - Common
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
@@ -26,6 +27,7 @@
 - [\#8540](https://github.com/AliceO2Group/AliceO2/pull/8540) 2022-04-13: [MFT] Bugfix MFT tracking by [@rpezzi](https://github.com/rpezzi)
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8543](https://github.com/AliceO2Group/AliceO2/pull/8543) 2022-04-14: [FIT] Separate Trigger class and make it common for FT0, FV0 and FDD.… by [@mslupeck](https://github.com/mslupeck)
+- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8551](https://github.com/AliceO2Group/AliceO2/pull/8551) 2022-04-12: Subtract BC from collisioncontext in TOF calib raw time by [@noferini](https://github.com/noferini)
 - [\#8556](https://github.com/AliceO2Group/AliceO2/pull/8556) 2022-04-22: [EMCAL-566]: Optimized EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
@@ -68,6 +70,7 @@
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
 - [\#8548](https://github.com/AliceO2Group/AliceO2/pull/8548) 2022-04-21: DPL: add combine method to (optionally) run DataProcessors as a single by [@ktf](https://github.com/ktf)
+- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8552](https://github.com/AliceO2Group/AliceO2/pull/8552) 2022-04-13: Add filename to mermaid argument by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8553](https://github.com/AliceO2Group/AliceO2/pull/8553) 2022-04-13: DPL: fixing the printout for uncaught exception at top level by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
@@ -85,4 +88,5 @@
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8545](https://github.com/AliceO2Group/AliceO2/pull/8545) 2022-04-11: EPN STDERR: Don't rely on the working directory being the DDS_LOCATION with the log files by [@davidrohr](https://github.com/davidrohr)
+- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8589](https://github.com/AliceO2Group/AliceO2/pull/8589) 2022-04-14: Fix EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
