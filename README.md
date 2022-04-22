@@ -76,9 +76,11 @@
 - [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
 - [\#8570](https://github.com/AliceO2Group/AliceO2/pull/8570) 2022-04-13: DPL: increase the number of available ports by default by [@ktf](https://github.com/ktf)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
+- [\#8606](https://github.com/AliceO2Group/AliceO2/pull/8606) 2022-04-22: readout-proxy: correctly populate TimingInfo by [@ktf](https://github.com/ktf)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8620](https://github.com/AliceO2Group/AliceO2/pull/8620) 2022-04-20: DPL: work with ROOT master by [@ktf](https://github.com/ktf)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
+- [\#8626](https://github.com/AliceO2Group/AliceO2/pull/8626) 2022-04-22: Fix Partition<Filtered>, add separate sliceByCached for joins, filtered and nested filtered by [@saganatt](https://github.com/saganatt)
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
