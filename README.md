@@ -55,10 +55,13 @@
 - [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 - [\#8615](https://github.com/AliceO2Group/AliceO2/pull/8615) 2022-04-21: [EMCAL-630] Move log level of EMCAL decoding errors to "alarm" by [@mfasDa](https://github.com/mfasDa)
 - [\#8616](https://github.com/AliceO2Group/AliceO2/pull/8616) 2022-04-21: Protection against non-existing feeId in the MID RDH by [@dstocco](https://github.com/dstocco)
+- [\#8617](https://github.com/AliceO2Group/AliceO2/pull/8617) 2022-04-22: Add option to change tracker algorithm only keeping the best track by [@dstocco](https://github.com/dstocco)
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8621](https://github.com/AliceO2Group/AliceO2/pull/8621) 2022-04-21: Update HmpidCoder2.cxx by [@fapfap69](https://github.com/fapfap69)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 - [\#8627](https://github.com/AliceO2Group/AliceO2/pull/8627) 2022-04-22: CPV: mute raw decoder error reporting for 10 minutes if it reports mo… by [@sevdokim](https://github.com/sevdokim)
+- [\#8628](https://github.com/AliceO2Group/AliceO2/pull/8628) 2022-04-22: Improve verbosity in DCS DP processing (MFT, GRP) by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#8631](https://github.com/AliceO2Group/AliceO2/pull/8631) 2022-04-22: TRD: Reduce default verbosity of DCS processor by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
