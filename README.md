@@ -22,7 +22,6 @@
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 - [\#8539](https://github.com/AliceO2Group/AliceO2/pull/8539) 2022-04-13: Fixes forward matching and assessment workflows by [@rpezzi](https://github.com/rpezzi)
 - [\#8540](https://github.com/AliceO2Group/AliceO2/pull/8540) 2022-04-13: [MFT] Bugfix MFT tracking by [@rpezzi](https://github.com/rpezzi)
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
@@ -83,7 +82,6 @@
 - [\#8626](https://github.com/AliceO2Group/AliceO2/pull/8626) 2022-04-22: Fix Partition<Filtered>, add separate sliceByCached for joins, filtered and nested filtered by [@saganatt](https://github.com/saganatt)
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#8537](https://github.com/AliceO2Group/AliceO2/pull/8537) 2022-04-10: Add HBFUtils.runNumber, pass to DH.runNumber in NewTimeslice callback by [@shahor02](https://github.com/shahor02)
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8545](https://github.com/AliceO2Group/AliceO2/pull/8545) 2022-04-11: EPN STDERR: Don't rely on the working directory being the DDS_LOCATION with the log files by [@davidrohr](https://github.com/davidrohr)
