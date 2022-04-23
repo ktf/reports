@@ -62,6 +62,7 @@
 - [\#8627](https://github.com/AliceO2Group/AliceO2/pull/8627) 2022-04-22: CPV: mute raw decoder error reporting for 10 minutes if it reports mo… by [@sevdokim](https://github.com/sevdokim)
 - [\#8628](https://github.com/AliceO2Group/AliceO2/pull/8628) 2022-04-22: Improve verbosity in DCS DP processing (MFT, GRP) by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8631](https://github.com/AliceO2Group/AliceO2/pull/8631) 2022-04-22: TRD: Reduce default verbosity of DCS processor by [@martenole](https://github.com/martenole)
+- [\#8632](https://github.com/AliceO2Group/AliceO2/pull/8632) 2022-04-23: use default FDD table version by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
