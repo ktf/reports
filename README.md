@@ -63,7 +63,10 @@
 - [\#8628](https://github.com/AliceO2Group/AliceO2/pull/8628) 2022-04-22: Improve verbosity in DCS DP processing (MFT, GRP) by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8631](https://github.com/AliceO2Group/AliceO2/pull/8631) 2022-04-22: TRD: Reduce default verbosity of DCS processor by [@martenole](https://github.com/martenole)
 - [\#8632](https://github.com/AliceO2Group/AliceO2/pull/8632) 2022-04-23: use default FDD table version by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8633](https://github.com/AliceO2Group/AliceO2/pull/8633) 2022-04-23: Fix the Run Number into CCDB items by [@fapfap69](https://github.com/fapfap69)
+- [\#8635](https://github.com/AliceO2Group/AliceO2/pull/8635) 2022-04-23: [MCH] add protection against too many track candidates by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
+- [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
