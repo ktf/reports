@@ -4,6 +4,7 @@
 - [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
+- [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
@@ -87,6 +88,7 @@
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8626](https://github.com/AliceO2Group/AliceO2/pull/8626) 2022-04-22: Fix Partition<Filtered>, add separate sliceByCached for joins, filtered and nested filtered by [@saganatt](https://github.com/saganatt)
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
+- [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
