@@ -6,7 +6,6 @@
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
@@ -24,7 +23,6 @@
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#8541](https://github.com/AliceO2Group/AliceO2/pull/8541) 2022-04-13: Helper class to handle GRP/Geom update from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8543](https://github.com/AliceO2Group/AliceO2/pull/8543) 2022-04-14: [FIT] Separate Trigger class and make it common for FT0, FV0 and FDD.… by [@mslupeck](https://github.com/mslupeck)
 - [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8551](https://github.com/AliceO2Group/AliceO2/pull/8551) 2022-04-12: Subtract BC from collisioncontext in TOF calib raw time by [@noferini](https://github.com/noferini)
