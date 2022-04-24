@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
@@ -67,7 +66,6 @@
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8542](https://github.com/AliceO2Group/AliceO2/pull/8542) 2022-04-19: DPL Analysis: prevent spawner from creating DYN tables that are already provided by [@aalkin](https://github.com/aalkin)
 - [\#8546](https://github.com/AliceO2Group/AliceO2/pull/8546) 2022-04-12: DPL: correctly override run dependent CCDB objects by [@ktf](https://github.com/ktf)
 - [\#8547](https://github.com/AliceO2Group/AliceO2/pull/8547) 2022-04-11: Revert "DPL: prevent OutputProxy from using 100% CPU usage when idle" by [@ktf](https://github.com/ktf)
 - [\#8548](https://github.com/AliceO2Group/AliceO2/pull/8548) 2022-04-21: DPL: add combine method to (optionally) run DataProcessors as a single by [@ktf](https://github.com/ktf)
