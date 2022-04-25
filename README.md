@@ -5,7 +5,6 @@
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8573](https://github.com/AliceO2Group/AliceO2/pull/8573) 2022-04-25: :MCH: introduce digit time errors in raw decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8551](https://github.com/AliceO2Group/AliceO2/pull/8551) 2022-04-12: Subtract BC from collisioncontext in TOF calib raw time by [@noferini](https://github.com/noferini)
 - [\#8556](https://github.com/AliceO2Group/AliceO2/pull/8556) 2022-04-22: [EMCAL-566]: Optimized EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
@@ -73,7 +71,6 @@
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8552](https://github.com/AliceO2Group/AliceO2/pull/8552) 2022-04-13: Add filename to mermaid argument by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8553](https://github.com/AliceO2Group/AliceO2/pull/8553) 2022-04-13: DPL: fixing the printout for uncaught exception at top level by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
@@ -92,5 +89,4 @@
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8589](https://github.com/AliceO2Group/AliceO2/pull/8589) 2022-04-14: Fix EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
