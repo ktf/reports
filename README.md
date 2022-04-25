@@ -24,7 +24,6 @@
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8551](https://github.com/AliceO2Group/AliceO2/pull/8551) 2022-04-12: Subtract BC from collisioncontext in TOF calib raw time by [@noferini](https://github.com/noferini)
 - [\#8556](https://github.com/AliceO2Group/AliceO2/pull/8556) 2022-04-22: [EMCAL-566]: Optimized EMCal time calibration by [@jokonig](https://github.com/jokonig)
 - [\#8557](https://github.com/AliceO2Group/AliceO2/pull/8557) 2022-04-12: Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types by [@davidrohr](https://github.com/davidrohr)
 - [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
