@@ -71,7 +71,6 @@
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8548](https://github.com/AliceO2Group/AliceO2/pull/8548) 2022-04-21: DPL: add combine method to (optionally) run DataProcessors as a single by [@ktf](https://github.com/ktf)
 - [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8552](https://github.com/AliceO2Group/AliceO2/pull/8552) 2022-04-13: Add filename to mermaid argument by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8553](https://github.com/AliceO2Group/AliceO2/pull/8553) 2022-04-13: DPL: fixing the printout for uncaught exception at top level by [@matthiasrichter](https://github.com/matthiasrichter)
