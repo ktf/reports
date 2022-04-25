@@ -74,6 +74,7 @@
 - [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
 - [\#8560](https://github.com/AliceO2Group/AliceO2/pull/8560) 2022-04-13: DPL: provide per channel metric when backpressure happens by [@ktf](https://github.com/ktf)
 - [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
+- [\#8565](https://github.com/AliceO2Group/AliceO2/pull/8565) 2022-04-25: Adding DataDescriptionMatcher operation 'Not' by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8570](https://github.com/AliceO2Group/AliceO2/pull/8570) 2022-04-13: DPL: increase the number of available ports by default by [@ktf](https://github.com/ktf)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8606](https://github.com/AliceO2Group/AliceO2/pull/8606) 2022-04-22: readout-proxy: correctly populate TimingInfo by [@ktf](https://github.com/ktf)
