@@ -6,6 +6,7 @@
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#8550](https://github.com/AliceO2Group/AliceO2/pull/8550) 2022-04-22: DPL: Add support for propagating oldest possible timeslice by [@ktf](https://github.com/ktf)
+- [\#8573](https://github.com/AliceO2Group/AliceO2/pull/8573) 2022-04-25: :MCH: introduce digit time errors in raw decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8575](https://github.com/AliceO2Group/AliceO2/pull/8575) 2022-04-14: Missing const declarations on bitset comparisons. by [@pnwkw](https://github.com/pnwkw)
 - [\#8590](https://github.com/AliceO2Group/AliceO2/pull/8590) 2022-04-17: Move alignment objects to DET/Calib/Align by [@shahor02](https://github.com/shahor02)
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
@@ -32,6 +33,7 @@
 - [\#8566](https://github.com/AliceO2Group/AliceO2/pull/8566) 2022-04-13: ITS: fix compiler warnings by [@mconcas](https://github.com/mconcas)
 - [\#8568](https://github.com/AliceO2Group/AliceO2/pull/8568) 2022-04-22: Comply with expected message when all is ok by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8569](https://github.com/AliceO2Group/AliceO2/pull/8569) 2022-04-13: Force HBF orbit assignment if RDH page0 is lost by [@shahor02](https://github.com/shahor02)
+- [\#8573](https://github.com/AliceO2Group/AliceO2/pull/8573) 2022-04-25: :MCH: introduce digit time errors in raw decoder by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8577](https://github.com/AliceO2Group/AliceO2/pull/8577) 2022-04-14: TPC: reduce use of static keyword by [@sawenzel](https://github.com/sawenzel)
 - [\#8579](https://github.com/AliceO2Group/AliceO2/pull/8579) 2022-04-14: Reporting and protection for interleaved chip data error by [@shahor02](https://github.com/shahor02)
 - [\#8582](https://github.com/AliceO2Group/AliceO2/pull/8582) 2022-04-13: Use simple errors for the tracker by [@mpuccio](https://github.com/mpuccio)
