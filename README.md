@@ -70,7 +70,6 @@
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8553](https://github.com/AliceO2Group/AliceO2/pull/8553) 2022-04-13: DPL: fixing the printout for uncaught exception at top level by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8554](https://github.com/AliceO2Group/AliceO2/pull/8554) 2022-04-12: Revert "Workaround: temporarily support multiple ms_gsl versions" by [@davidrohr](https://github.com/davidrohr)
 - [\#8560](https://github.com/AliceO2Group/AliceO2/pull/8560) 2022-04-13: DPL: provide per channel metric when backpressure happens by [@ktf](https://github.com/ktf)
 - [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
