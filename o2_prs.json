@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-22T08:35:12Z",
-            "title": "[EMCAL-566]: Optimized EMCal time calibration",
-            "number": 8556,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALTimeCalibData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALTimeCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/testWorkflow/EMCALChannelCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-12T12:07:13Z",
             "title": "Use CMAKE_C_WARNINGS and CMAKE_CXX_WARNINGS for all build types",
             "number": 8557,
@@ -4156,6 +4086,56 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplicationEvalMat.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MUON: dots in DCS aliases are legit",
+            "number": 8656,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/aliasFixer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/aliasFixer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-ccdb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/mch-dcs-sim-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/mid-dcs-sim-workflow.cxx"
                   }
                 }
               ]
