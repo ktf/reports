@@ -12,7 +12,6 @@
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8578](https://github.com/AliceO2Group/AliceO2/pull/8578) 2022-04-14: Add theta calculation to Fwd track by [@pnwkw](https://github.com/pnwkw)
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
@@ -23,7 +22,6 @@
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8558](https://github.com/AliceO2Group/AliceO2/pull/8558) 2022-04-12: GPU: Fix compile warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8566](https://github.com/AliceO2Group/AliceO2/pull/8566) 2022-04-13: ITS: fix compiler warnings by [@mconcas](https://github.com/mconcas)
 - [\#8568](https://github.com/AliceO2Group/AliceO2/pull/8568) 2022-04-22: Comply with expected message when all is ok by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8569](https://github.com/AliceO2Group/AliceO2/pull/8569) 2022-04-13: Force HBF orbit assignment if RDH page0 is lost by [@shahor02](https://github.com/shahor02)
