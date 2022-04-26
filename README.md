@@ -69,6 +69,7 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
+- [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#8560](https://github.com/AliceO2Group/AliceO2/pull/8560) 2022-04-13: DPL: provide per channel metric when backpressure happens by [@ktf](https://github.com/ktf)
 - [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
