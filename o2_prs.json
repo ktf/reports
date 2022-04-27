@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-22T07:51:03Z",
-            "title": "Comply with expected message when all is ok",
-            "number": 8568,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-13T19:40:20Z",
             "title": "Force HBF orbit assignment if RDH page0 is lost",
             "number": 8569,
@@ -4161,6 +4141,51 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/FileProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD vDrift and ExB calibration updated",
+            "number": 8668,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/CalibratorVdExB.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/VdAndExBCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
