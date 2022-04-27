@@ -73,7 +73,6 @@
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#8564](https://github.com/AliceO2Group/AliceO2/pull/8564) 2022-04-12: DPL: do not allow dummy creation times to be used for CCDB fetching by [@ktf](https://github.com/ktf)
 - [\#8565](https://github.com/AliceO2Group/AliceO2/pull/8565) 2022-04-25: Adding DataDescriptionMatcher operation 'Not' by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8570](https://github.com/AliceO2Group/AliceO2/pull/8570) 2022-04-13: DPL: increase the number of available ports by default by [@ktf](https://github.com/ktf)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)

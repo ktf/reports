@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-12T21:34:58Z",
-            "title": "DPL: do not allow dummy creation times to be used for CCDB fetching",
-            "number": 8564,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CCDBHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-25T14:56:25Z",
             "title": "Adding DataDescriptionMatcher operation 'Not'",
             "number": 8565,
@@ -4066,6 +4041,46 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-154: MCH raw data decoder now catches exceptions",
+            "number": 8664,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/ErrorCodes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/ErrorCodes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
                   }
                 }
               ]
