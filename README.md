@@ -23,6 +23,7 @@
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
+- [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
 - [\#8566](https://github.com/AliceO2Group/AliceO2/pull/8566) 2022-04-13: ITS: fix compiler warnings by [@mconcas](https://github.com/mconcas)
 - [\#8568](https://github.com/AliceO2Group/AliceO2/pull/8568) 2022-04-22: Comply with expected message when all is ok by [@chiarazampolli](https://github.com/chiarazampolli)
