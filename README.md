@@ -12,6 +12,7 @@
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8639](https://github.com/AliceO2Group/AliceO2/pull/8639) 2022-04-26: Use tfCounter in time-slot calib, provide real time. by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
+- [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - DataFormats
 - [\#8578](https://github.com/AliceO2Group/AliceO2/pull/8578) 2022-04-14: Add theta calculation to Fwd track by [@pnwkw](https://github.com/pnwkw)
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
@@ -64,6 +65,7 @@
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8645](https://github.com/AliceO2Group/AliceO2/pull/8645) 2022-04-25: Suppress FT0 channels ordering check in CTF encoder by [@shahor02](https://github.com/shahor02)
 - [\#8647](https://github.com/AliceO2Group/AliceO2/pull/8647) 2022-04-25: AODconverter does not need global MID and MCH clusters by [@shahor02](https://github.com/shahor02)
+- [\#8650](https://github.com/AliceO2Group/AliceO2/pull/8650) 2022-04-27: [OCTRL-564] Filling RCT information when uploading GRP at end of run by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8653](https://github.com/AliceO2Group/AliceO2/pull/8653) 2022-04-26: Optional syst.error on tracks Y,Z covariance + extra debug output by [@shahor02](https://github.com/shahor02)
 - [\#8658](https://github.com/AliceO2Group/AliceO2/pull/8658) 2022-04-27: MCH: speedup finding of used cluster combinations by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
@@ -84,6 +86,7 @@
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8644](https://github.com/AliceO2Group/AliceO2/pull/8644) 2022-04-25: DPL: Use startTime instead of tfCounter in whenAllOrdered policy by [@davidrohr](https://github.com/davidrohr)
 - [\#8649](https://github.com/AliceO2Group/AliceO2/pull/8649) 2022-04-25: DPL: do not send the oldest possible timeframe to out of band channels by [@ktf](https://github.com/ktf)
+- [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
