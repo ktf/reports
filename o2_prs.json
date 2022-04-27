@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-04-21T11:47:43Z",
-            "title": "Use \"detail\" as minimum severity in optimised builds of O2.",
-            "number": 8562,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "dependencies/O2CompileFlags.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: fix rate limiting with QC",
@@ -4036,6 +4016,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-calibrator-gainmap-tracks.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CPV: improve raw errors handling in RawReaderMemory to avoid infinite loop…",
+            "number": 8662,
+            "author": {
+              "login": "sevdokim"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/RawReaderMemory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/src/RawReaderMemory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
                   }
                 }
               ]
