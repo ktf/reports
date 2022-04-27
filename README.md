@@ -65,6 +65,7 @@
 - [\#8645](https://github.com/AliceO2Group/AliceO2/pull/8645) 2022-04-25: Suppress FT0 channels ordering check in CTF encoder by [@shahor02](https://github.com/shahor02)
 - [\#8647](https://github.com/AliceO2Group/AliceO2/pull/8647) 2022-04-25: AODconverter does not need global MID and MCH clusters by [@shahor02](https://github.com/shahor02)
 - [\#8653](https://github.com/AliceO2Group/AliceO2/pull/8653) 2022-04-26: Optional syst.error on tracks Y,Z covariance + extra debug output by [@shahor02](https://github.com/shahor02)
+- [\#8658](https://github.com/AliceO2Group/AliceO2/pull/8658) 2022-04-27: MCH: speedup finding of used cluster combinations by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#8580](https://github.com/AliceO2Group/AliceO2/pull/8580) 2022-04-23: Implemented reading MFT tracks from AOD files by [@pnwkw](https://github.com/pnwkw)
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
