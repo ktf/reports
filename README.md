@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#8574](https://github.com/AliceO2Group/AliceO2/pull/8574) 2022-04-28: Add energy as a dynamic column by [@njacazio](https://github.com/njacazio)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
@@ -57,6 +56,7 @@
 - [\#8632](https://github.com/AliceO2Group/AliceO2/pull/8632) 2022-04-23: use default FDD table version by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8633](https://github.com/AliceO2Group/AliceO2/pull/8633) 2022-04-23: Fix the Run Number into CCDB items by [@fapfap69](https://github.com/fapfap69)
 - [\#8635](https://github.com/AliceO2Group/AliceO2/pull/8635) 2022-04-23: [MCH] add protection against too many track candidates by [@pillot](https://github.com/pillot)
+- [\#8638](https://github.com/AliceO2Group/AliceO2/pull/8638) 2022-04-28: IDCs: Using factorised IDC1 for FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8639](https://github.com/AliceO2Group/AliceO2/pull/8639) 2022-04-26: Use tfCounter in time-slot calib, provide real time. by [@shahor02](https://github.com/shahor02)
 - [\#8640](https://github.com/AliceO2Group/AliceO2/pull/8640) 2022-04-25: CCDBPopulator optionally fatals on failed upload (def=on) by [@shahor02](https://github.com/shahor02)
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -66,6 +66,7 @@
 - [\#8650](https://github.com/AliceO2Group/AliceO2/pull/8650) 2022-04-27: [OCTRL-564] Filling RCT information when uploading GRP at end of run by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8653](https://github.com/AliceO2Group/AliceO2/pull/8653) 2022-04-26: Optional syst.error on tracks Y,Z covariance + extra debug output by [@shahor02](https://github.com/shahor02)
 - [\#8658](https://github.com/AliceO2Group/AliceO2/pull/8658) 2022-04-27: MCH: speedup finding of used cluster combinations by [@pillot](https://github.com/pillot)
+- [\#8661](https://github.com/AliceO2Group/AliceO2/pull/8661) 2022-04-28: Gain map using tracks: Loading topology correction from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8662](https://github.com/AliceO2Group/AliceO2/pull/8662) 2022-04-27: CPV: improve raw errors handling in RawReaderMemory to avoid infinite loop… by [@sevdokim](https://github.com/sevdokim)
 - [\#8664](https://github.com/AliceO2Group/AliceO2/pull/8664) 2022-04-27: MRRTF-154: MCH raw data decoder now catches exceptions by [@aphecetche](https://github.com/aphecetche)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
@@ -76,7 +77,6 @@
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#8574](https://github.com/AliceO2Group/AliceO2/pull/8574) 2022-04-28: Add energy as a dynamic column by [@njacazio](https://github.com/njacazio)
 - [\#8588](https://github.com/AliceO2Group/AliceO2/pull/8588) 2022-04-21: DPL Analysis: workaround for setting self-index binding before invoking process() by [@aalkin](https://github.com/aalkin)
 - [\#8606](https://github.com/AliceO2Group/AliceO2/pull/8606) 2022-04-22: readout-proxy: correctly populate TimingInfo by [@ktf](https://github.com/ktf)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
