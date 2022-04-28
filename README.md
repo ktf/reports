@@ -92,3 +92,4 @@
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#8589](https://github.com/AliceO2Group/AliceO2/pull/8589) 2022-04-14: Fix EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
+- [\#8660](https://github.com/AliceO2Group/AliceO2/pull/8660) 2022-04-28: [QC-769] Desambiguify DS and Merger names  by [@Barthelemy](https://github.com/Barthelemy)
