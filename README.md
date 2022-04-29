@@ -12,6 +12,7 @@
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
+- [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
@@ -85,6 +86,7 @@
 - [\#8676](https://github.com/AliceO2Group/AliceO2/pull/8676) 2022-04-29: No reason to forbid outputing both mermaid and o2-control at the same… by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8677](https://github.com/AliceO2Group/AliceO2/pull/8677) 2022-04-29: DPL DataSpecUtils: adding helper to create optional ConcreteDataMatcher by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8678](https://github.com/AliceO2Group/AliceO2/pull/8678) 2022-04-29: DPL: avoid issues with some fmt / GCC combination by [@ktf](https://github.com/ktf)
+- [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
