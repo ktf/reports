@@ -24,7 +24,6 @@
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
-- [\#8577](https://github.com/AliceO2Group/AliceO2/pull/8577) 2022-04-14: TPC: reduce use of static keyword by [@sawenzel](https://github.com/sawenzel)
 - [\#8579](https://github.com/AliceO2Group/AliceO2/pull/8579) 2022-04-14: Reporting and protection for interleaved chip data error by [@shahor02](https://github.com/shahor02)
 - [\#8582](https://github.com/AliceO2Group/AliceO2/pull/8582) 2022-04-13: Use simple errors for the tracker by [@mpuccio](https://github.com/mpuccio)
 - [\#8583](https://github.com/AliceO2Group/AliceO2/pull/8583) 2022-04-13: Corrected list of libraries (G4 v11.0.1) by [@pzhristov](https://github.com/pzhristov)
