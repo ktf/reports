@@ -23,7 +23,6 @@
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Detectors
-- [\#8584](https://github.com/AliceO2Group/AliceO2/pull/8584) 2022-04-14: ITS: remove unused variables to fix warnings by [@mconcas](https://github.com/mconcas)
 - [\#8585](https://github.com/AliceO2Group/AliceO2/pull/8585) 2022-04-21: Fix metadata and remove log - TOFDCSconfig by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8586](https://github.com/AliceO2Group/AliceO2/pull/8586) 2022-04-15: Multiple fixes in Alpide decoding/error handling by [@shahor02](https://github.com/shahor02)
 - [\#8587](https://github.com/AliceO2Group/AliceO2/pull/8587) 2022-04-19: Add multiple output function in calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
