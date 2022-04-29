@@ -82,6 +82,7 @@
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8644](https://github.com/AliceO2Group/AliceO2/pull/8644) 2022-04-25: DPL: Use startTime instead of tfCounter in whenAllOrdered policy by [@davidrohr](https://github.com/davidrohr)
 - [\#8649](https://github.com/AliceO2Group/AliceO2/pull/8649) 2022-04-25: DPL: do not send the oldest possible timeframe to out of band channels by [@ktf](https://github.com/ktf)
+- [\#8652](https://github.com/AliceO2Group/AliceO2/pull/8652) 2022-04-29: DPL: refactoring of WorkflowSerializationHelpers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8676](https://github.com/AliceO2Group/AliceO2/pull/8676) 2022-04-29: No reason to forbid outputing both mermaid and o2-control at the same… by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8677](https://github.com/AliceO2Group/AliceO2/pull/8677) 2022-04-29: DPL DataSpecUtils: adding helper to create optional ConcreteDataMatcher by [@matthiasrichter](https://github.com/matthiasrichter)
