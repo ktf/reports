@@ -22,6 +22,7 @@
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
+- [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#8585](https://github.com/AliceO2Group/AliceO2/pull/8585) 2022-04-21: Fix metadata and remove log - TOFDCSconfig by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8586](https://github.com/AliceO2Group/AliceO2/pull/8586) 2022-04-15: Multiple fixes in Alpide decoding/error handling by [@shahor02](https://github.com/shahor02)
@@ -65,6 +66,7 @@
 - [\#8664](https://github.com/AliceO2Group/AliceO2/pull/8664) 2022-04-27: MRRTF-154: MCH raw data decoder now catches exceptions by [@aphecetche](https://github.com/aphecetche)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8670](https://github.com/AliceO2Group/AliceO2/pull/8670) 2022-04-27: Fix: attach corect input in its/mft entropy decoder by [@shahor02](https://github.com/shahor02)
+- [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
