@@ -12,6 +12,7 @@
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
+- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
@@ -23,6 +24,7 @@
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
+- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8593](https://github.com/AliceO2Group/AliceO2/pull/8593) 2022-04-15: DPL: Catch exception from stol when parsing invalid run number by [@davidrohr](https://github.com/davidrohr)
 - [\#8594](https://github.com/AliceO2Group/AliceO2/pull/8594) 2022-04-15: Fix for not throwing exception in cpv::RawReaderMemory when processin… by [@sevdokim](https://github.com/sevdokim)
@@ -64,6 +66,7 @@
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8670](https://github.com/AliceO2Group/AliceO2/pull/8670) 2022-04-27: Fix: attach corect input in its/mft entropy decoder by [@shahor02](https://github.com/shahor02)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
+- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
@@ -84,8 +87,8 @@
 - [\#8677](https://github.com/AliceO2Group/AliceO2/pull/8677) 2022-04-29: DPL DataSpecUtils: adding helper to create optional ConcreteDataMatcher by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8678](https://github.com/AliceO2Group/AliceO2/pull/8678) 2022-04-29: DPL: avoid issues with some fmt / GCC combination by [@ktf](https://github.com/ktf)
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
+- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#8589](https://github.com/AliceO2Group/AliceO2/pull/8589) 2022-04-14: Fix EPN stderr monitor by [@davidrohr](https://github.com/davidrohr)
 - [\#8660](https://github.com/AliceO2Group/AliceO2/pull/8660) 2022-04-28: [QC-769] Desambiguify DS and Merger names  by [@Barthelemy](https://github.com/Barthelemy)
