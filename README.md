@@ -25,7 +25,6 @@
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#8587](https://github.com/AliceO2Group/AliceO2/pull/8587) 2022-04-19: Add multiple output function in calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#8593](https://github.com/AliceO2Group/AliceO2/pull/8593) 2022-04-15: DPL: Catch exception from stol when parsing invalid run number by [@davidrohr](https://github.com/davidrohr)
 - [\#8594](https://github.com/AliceO2Group/AliceO2/pull/8594) 2022-04-15: Fix for not throwing exception in cpv::RawReaderMemory when processin… by [@sevdokim](https://github.com/sevdokim)
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
