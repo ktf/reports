@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Run dependent timestamp",
-            "number": 606,
-            "author": {
-              "login": "AnnalenaKa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCPIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/handleParamTPCResponse.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-03-11T08:05:35Z",
             "title": "Revert \"TPC PID Response (#505)\" and \"Update TPC QA (#594)\"",
@@ -3496,6 +3456,26 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorDstar.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fixing an issue with eta binning in FV0",
+            "number": 706,
+            "author": {
+              "login": "aortizve"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGMM/multFilter.cxx"
                   }
                 }
               ]
