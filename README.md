@@ -28,7 +28,6 @@
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8593](https://github.com/AliceO2Group/AliceO2/pull/8593) 2022-04-15: DPL: Catch exception from stol when parsing invalid run number by [@davidrohr](https://github.com/davidrohr)
 - [\#8594](https://github.com/AliceO2Group/AliceO2/pull/8594) 2022-04-15: Fix for not throwing exception in cpv::RawReaderMemory when processin… by [@sevdokim](https://github.com/sevdokim)
 - [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
