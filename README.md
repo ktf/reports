@@ -66,10 +66,12 @@
 - [\#8670](https://github.com/AliceO2Group/AliceO2/pull/8670) 2022-04-27: Fix: attach corect input in its/mft entropy decoder by [@shahor02](https://github.com/shahor02)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
+- [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
+- [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8606](https://github.com/AliceO2Group/AliceO2/pull/8606) 2022-04-22: readout-proxy: correctly populate TimingInfo by [@ktf](https://github.com/ktf)
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
