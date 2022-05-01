@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
 ## Recent developments in O2 - Analysis
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
@@ -22,6 +24,7 @@
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
+- [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
