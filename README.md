@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
@@ -13,6 +14,7 @@
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
+- [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
@@ -90,6 +92,7 @@
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8684](https://github.com/AliceO2Group/AliceO2/pull/8684) 2022-05-02: DPL Analysis: fix to permit writing a table with a single VLA column by [@aalkin](https://github.com/aalkin)
+- [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
