@@ -29,7 +29,6 @@
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8604](https://github.com/AliceO2Group/AliceO2/pull/8604) 2022-04-18: Fix misleading variable names by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#8610](https://github.com/AliceO2Group/AliceO2/pull/8610) 2022-04-22: MFT: Update the noise scan to protect from double EOS. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
