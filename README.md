@@ -15,7 +15,6 @@
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8605](https://github.com/AliceO2Group/AliceO2/pull/8605) 2022-04-18: Implement improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8595](https://github.com/AliceO2Group/AliceO2/pull/8595) 2022-04-21: ctp config to ccdb  by [@lietava](https://github.com/lietava)
 - [\#8596](https://github.com/AliceO2Group/AliceO2/pull/8596) 2022-04-17: Work on TPC ZS Encoding by [@davidrohr](https://github.com/davidrohr)
 - [\#8599](https://github.com/AliceO2Group/AliceO2/pull/8599) 2022-04-16: Use flag HBFUtils.obligatorySOR to start raw data from TF with SOX + fixes by [@shahor02](https://github.com/shahor02)
 - [\#8601](https://github.com/AliceO2Group/AliceO2/pull/8601) 2022-04-17: Apply TF ordering policy to all writers by [@shahor02](https://github.com/shahor02)

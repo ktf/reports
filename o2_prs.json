@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-21T08:05:49Z",
-            "title": "ctp config to ccdb ",
-            "number": 8595,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/DataFormatsCTPLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/CreateCTPConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/py/scalersCTP_v0.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctp-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSPedestalCalibDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-17T08:36:23Z",
             "title": "Work on TPC ZS Encoding",
             "number": 8596,
@@ -5020,6 +4965,41 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MaterialManager improvement: Adding local density scaling (per module)",
+            "number": 8695,
+            "author": {
+              "login": "zovarga"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MaterialManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MaterialManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/o2sim.C"
                   }
                 }
               ]
