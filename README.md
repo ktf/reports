@@ -28,7 +28,6 @@
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8617](https://github.com/AliceO2Group/AliceO2/pull/8617) 2022-04-22: Add option to change tracker algorithm only keeping the best track by [@dstocco](https://github.com/dstocco)
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8621](https://github.com/AliceO2Group/AliceO2/pull/8621) 2022-04-21: Update HmpidCoder2.cxx by [@fapfap69](https://github.com/fapfap69)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)

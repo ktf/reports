@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-22T14:05:31Z",
-            "title": "Add option to change tracker algorithm only keeping the best track",
-            "number": 8617,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-21T12:37:27Z",
             "title": "Store original tfCounter in the CTFHeader",
             "number": 8618,
@@ -4660,6 +4640,31 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Scripts/geom/simple_geom_EMC.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Better handling of used tracks on RecoContainer::createTracksVariadic ",
+            "number": 8717,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
                   }
                 }
               ]
