@@ -27,8 +27,8 @@
 - [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
+- [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8610](https://github.com/AliceO2Group/AliceO2/pull/8610) 2022-04-22: MFT: Update the noise scan to protect from double EOS. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8612](https://github.com/AliceO2Group/AliceO2/pull/8612) 2022-04-19: Fixes for MID decoding and data access by [@shahor02](https://github.com/shahor02)
 - [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 - [\#8615](https://github.com/AliceO2Group/AliceO2/pull/8615) 2022-04-21: [EMCAL-630] Move log level of EMCAL decoding errors to "alarm" by [@mfasDa](https://github.com/mfasDa)
@@ -66,6 +66,7 @@
 - [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
 - [\#8697](https://github.com/AliceO2Group/AliceO2/pull/8697) 2022-05-02: Extra changes for using CTF dictionaries from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8698](https://github.com/AliceO2Group/AliceO2/pull/8698) 2022-05-02: Use common ChannelCalibrator::INFINITE_TF definition by [@shahor02](https://github.com/shahor02)
+- [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8702](https://github.com/AliceO2Group/AliceO2/pull/8702) 2022-05-03: [EMCAL-548] Reduce verbosity in digits to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
 ## Recent developments in O2 - EventVisualisation
