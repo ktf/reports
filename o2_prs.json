@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-21T06:56:07Z",
-            "title": "[EMCAL-630] Move log level of EMCAL decoding errors to \"alarm\"",
-            "number": 8615,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-21T08:04:20Z",
             "title": "Protection against non-existing feeId in the MID RDH",
             "number": 8616,
@@ -4635,6 +4615,51 @@
                 {
                   "node": {
                     "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add missing HBFUtilsInitializer calls + MCH cru-page-reader time/run assignment",
+            "number": 8715,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/cell-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/digit-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Workflow/src/tracks-matcher-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ChunkedDigitPublisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/zdc-intercalib-workflow.cxx"
                   }
                 }
               ]
