@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Update on MFT Assessment : Histogram of recoTrueMC added, harmonization of phi definition",
-            "number": 8611,
-            "author": {
-              "login": "sarahherrmann"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/assessment/include/MFTAssessment/MFTAssessment.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-04-19T17:07:11Z",
             "title": "Fixes for MID decoding and data access",
@@ -4585,7 +4560,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add annotation in the 3D view to display run parameters",
+            "title": "Event Display: Add annotation in the 3D view to display run parameters",
             "number": 8710,
             "author": {
               "login": "pnwkw"
@@ -4610,6 +4585,51 @@
                 {
                   "node": {
                     "path": "EventVisualisation/View/src/MultiView.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added firstTForbit to VisualisationEvent",
+            "number": 8711,
+            "author": {
+              "login": "michalchwesiukPW"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManagerFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
                   }
                 }
               ]
