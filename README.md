@@ -28,7 +28,6 @@
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8614](https://github.com/AliceO2Group/AliceO2/pull/8614) 2022-04-19: Reduce default max memory to 12GB by [@mpuccio](https://github.com/mpuccio)
 - [\#8615](https://github.com/AliceO2Group/AliceO2/pull/8615) 2022-04-21: [EMCAL-630] Move log level of EMCAL decoding errors to "alarm" by [@mfasDa](https://github.com/mfasDa)
 - [\#8616](https://github.com/AliceO2Group/AliceO2/pull/8616) 2022-04-21: Protection against non-existing feeId in the MID RDH by [@dstocco](https://github.com/dstocco)
 - [\#8617](https://github.com/AliceO2Group/AliceO2/pull/8617) 2022-04-22: Add option to change tracker algorithm only keeping the best track by [@dstocco](https://github.com/dstocco)
@@ -75,6 +74,7 @@
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
+- [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#8620](https://github.com/AliceO2Group/AliceO2/pull/8620) 2022-04-20: DPL: work with ROOT master by [@ktf](https://github.com/ktf)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
