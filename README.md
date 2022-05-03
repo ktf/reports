@@ -5,6 +5,7 @@
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
+- [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
@@ -92,6 +93,7 @@
 - [\#8684](https://github.com/AliceO2Group/AliceO2/pull/8684) 2022-05-02: DPL Analysis: fix to permit writing a table with a single VLA column by [@aalkin](https://github.com/aalkin)
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
+- [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#8655](https://github.com/AliceO2Group/AliceO2/pull/8655) 2022-05-02: primary kinematic initialisation for MaterialBudgetMap moved to Stepping by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
