@@ -4,7 +4,6 @@
 - [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#8618](https://github.com/AliceO2Group/AliceO2/pull/8618) 2022-04-21: Store original tfCounter in the CTFHeader by [@shahor02](https://github.com/shahor02)
@@ -76,7 +75,6 @@
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8609](https://github.com/AliceO2Group/AliceO2/pull/8609) 2022-04-22: Move to fdd version 001 by [@mbroz84](https://github.com/mbroz84)
 - [\#8620](https://github.com/AliceO2Group/AliceO2/pull/8620) 2022-04-20: DPL: work with ROOT master by [@ktf](https://github.com/ktf)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8626](https://github.com/AliceO2Group/AliceO2/pull/8626) 2022-04-22: Fix Partition<Filtered>, add separate sliceByCached for joins, filtered and nested filtered by [@saganatt](https://github.com/saganatt)
