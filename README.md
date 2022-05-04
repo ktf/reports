@@ -27,7 +27,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8621](https://github.com/AliceO2Group/AliceO2/pull/8621) 2022-04-21: Update HmpidCoder2.cxx by [@fapfap69](https://github.com/fapfap69)
 - [\#8622](https://github.com/AliceO2Group/AliceO2/pull/8622) 2022-04-21: [FIT] Quick fix - increment FT0 and FDD Digit version by [@mslupeck](https://github.com/mslupeck)
 - [\#8627](https://github.com/AliceO2Group/AliceO2/pull/8627) 2022-04-22: CPV: mute raw decoder error reporting for 10 minutes if it reports mo… by [@sevdokim](https://github.com/sevdokim)
 - [\#8628](https://github.com/AliceO2Group/AliceO2/pull/8628) 2022-04-22: Improve verbosity in DCS DP processing (MFT, GRP) by [@chiarazampolli](https://github.com/chiarazampolli)
