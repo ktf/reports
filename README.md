@@ -62,8 +62,8 @@
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
 - [\#8719](https://github.com/AliceO2Group/AliceO2/pull/8719) 2022-05-04: Revert "Fix in the creation of subdirectory" by [@shahor02](https://github.com/shahor02)
 - [\#8724](https://github.com/AliceO2Group/AliceO2/pull/8724) 2022-05-04: Make assignHeaderVersion virtual to allow to detector to change version by [@shahor02](https://github.com/shahor02)
+- [\#8725](https://github.com/AliceO2Group/AliceO2/pull/8725) 2022-05-04: Fix: suppress MC label query left from debugging by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 - [\#8663](https://github.com/AliceO2Group/AliceO2/pull/8663) 2022-05-02: Event Display: Add filter to only visualize tracks matching ITS readout frames & standardize workflow options by [@pnwkw](https://github.com/pnwkw)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
