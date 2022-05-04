@@ -61,6 +61,7 @@
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
 - [\#8719](https://github.com/AliceO2Group/AliceO2/pull/8719) 2022-05-04: Revert "Fix in the creation of subdirectory" by [@shahor02](https://github.com/shahor02)
+- [\#8724](https://github.com/AliceO2Group/AliceO2/pull/8724) 2022-05-04: Make assignHeaderVersion virtual to allow to detector to change version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8625](https://github.com/AliceO2Group/AliceO2/pull/8625) 2022-04-21: Option to not write json files in the ED workflow that are empty by [@pnwkw](https://github.com/pnwkw)
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
@@ -87,6 +88,7 @@
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
+- [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8655](https://github.com/AliceO2Group/AliceO2/pull/8655) 2022-05-02: primary kinematic initialisation for MaterialBudgetMap moved to Stepping by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
