@@ -53,6 +53,7 @@
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
+- [\#8692](https://github.com/AliceO2Group/AliceO2/pull/8692) 2022-05-04: CPV: adjust pedestal calculation algorothm in PedestalCalibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8697](https://github.com/AliceO2Group/AliceO2/pull/8697) 2022-05-02: Extra changes for using CTF dictionaries from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8698](https://github.com/AliceO2Group/AliceO2/pull/8698) 2022-05-02: Use common ChannelCalibrator::INFINITE_TF definition by [@shahor02](https://github.com/shahor02)
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
