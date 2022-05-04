@@ -68,6 +68,7 @@
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
+- [\#8710](https://github.com/AliceO2Group/AliceO2/pull/8710) 2022-05-04: Event Display: Add annotation in the 3D view to display run parameters by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 - [\#8714](https://github.com/AliceO2Group/AliceO2/pull/8714) 2022-05-04: Event Display: Add tooltips to buttons by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
