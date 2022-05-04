@@ -73,7 +73,6 @@
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#8620](https://github.com/AliceO2Group/AliceO2/pull/8620) 2022-04-20: DPL: work with ROOT master by [@ktf](https://github.com/ktf)
 - [\#8623](https://github.com/AliceO2Group/AliceO2/pull/8623) 2022-04-21: DPL: add dpl_instance tag to distinguish between different NUMA domains by [@ktf](https://github.com/ktf)
 - [\#8626](https://github.com/AliceO2Group/AliceO2/pull/8626) 2022-04-22: Fix Partition<Filtered>, add separate sliceByCached for joins, filtered and nested filtered by [@saganatt](https://github.com/saganatt)
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
