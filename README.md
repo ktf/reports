@@ -68,9 +68,11 @@
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
+- [\#8707](https://github.com/AliceO2Group/AliceO2/pull/8707) 2022-05-04: Event Display: Replace empty output filter with filter on minimum amount of tracks by [@pnwkw](https://github.com/pnwkw)
 - [\#8710](https://github.com/AliceO2Group/AliceO2/pull/8710) 2022-05-04: Event Display: Add annotation in the 3D view to display run parameters by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 - [\#8714](https://github.com/AliceO2Group/AliceO2/pull/8714) 2022-05-04: Event Display: Add tooltips to buttons by [@pnwkw](https://github.com/pnwkw)
+- [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
