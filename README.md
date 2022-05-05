@@ -75,7 +75,6 @@
 - [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
 - [\#8637](https://github.com/AliceO2Group/AliceO2/pull/8637) 2022-04-24: remove temporary code by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8644](https://github.com/AliceO2Group/AliceO2/pull/8644) 2022-04-25: DPL: Use startTime instead of tfCounter in whenAllOrdered policy by [@davidrohr](https://github.com/davidrohr)
 - [\#8649](https://github.com/AliceO2Group/AliceO2/pull/8649) 2022-04-25: DPL: do not send the oldest possible timeframe to out of band channels by [@ktf](https://github.com/ktf)
