@@ -53,6 +53,7 @@
 - [\#8692](https://github.com/AliceO2Group/AliceO2/pull/8692) 2022-05-04: CPV: adjust pedestal calculation algorothm in PedestalCalibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8697](https://github.com/AliceO2Group/AliceO2/pull/8697) 2022-05-02: Extra changes for using CTF dictionaries from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8698](https://github.com/AliceO2Group/AliceO2/pull/8698) 2022-05-02: Use common ChannelCalibrator::INFINITE_TF definition by [@shahor02](https://github.com/shahor02)
+- [\#8699](https://github.com/AliceO2Group/AliceO2/pull/8699) 2022-05-05: [EMCAL-556] Move EMCAL DCS processor to library EMCALCalibration by [@mfasDa](https://github.com/mfasDa)
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8702](https://github.com/AliceO2Group/AliceO2/pull/8702) 2022-05-03: [EMCAL-548] Reduce verbosity in digits to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
@@ -71,6 +72,7 @@
 - [\#8710](https://github.com/AliceO2Group/AliceO2/pull/8710) 2022-05-04: Event Display: Add annotation in the 3D view to display run parameters by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 - [\#8714](https://github.com/AliceO2Group/AliceO2/pull/8714) 2022-05-04: Event Display: Add tooltips to buttons by [@pnwkw](https://github.com/pnwkw)
+- [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8630](https://github.com/AliceO2Group/AliceO2/pull/8630) 2022-04-21: DPL: add documentation to o2::framework::workflow::combine by [@ktf](https://github.com/ktf)
