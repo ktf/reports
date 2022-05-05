@@ -4,20 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "dev: ctp config/counters to ccdb",
-            "number": 8629,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-04-21T18:11:58Z",
             "title": "DPL: add documentation to o2::framework::workflow::combine",
@@ -4815,6 +4801,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataSpecUtils.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Ctpdev: config and scalers to CCDB",
+            "number": 8729,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Digits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CreateCTPConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CreateCTPConfigRun2.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctp-proxy.cxx"
                   }
                 }
               ]
