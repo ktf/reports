@@ -27,7 +27,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8632](https://github.com/AliceO2Group/AliceO2/pull/8632) 2022-04-23: use default FDD table version by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8633](https://github.com/AliceO2Group/AliceO2/pull/8633) 2022-04-23: Fix the Run Number into CCDB items by [@fapfap69](https://github.com/fapfap69)
 - [\#8635](https://github.com/AliceO2Group/AliceO2/pull/8635) 2022-04-23: [MCH] add protection against too many track candidates by [@pillot](https://github.com/pillot)
 - [\#8636](https://github.com/AliceO2Group/AliceO2/pull/8636) 2022-04-29: Fix the bug in MFTDCSConfigProcessorSpec.h and add new paramer name i… by [@syano0822](https://github.com/syano0822)
