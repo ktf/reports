@@ -22,7 +22,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8650](https://github.com/AliceO2Group/AliceO2/pull/8650) 2022-04-27: [OCTRL-564] Filling RCT information when uploading GRP at end of run by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8653](https://github.com/AliceO2Group/AliceO2/pull/8653) 2022-04-26: Optional syst.error on tracks Y,Z covariance + extra debug output by [@shahor02](https://github.com/shahor02)
 - [\#8656](https://github.com/AliceO2Group/AliceO2/pull/8656) 2022-05-05: MUON: dots in DCS aliases are legit by [@aphecetche](https://github.com/aphecetche)
 - [\#8658](https://github.com/AliceO2Group/AliceO2/pull/8658) 2022-04-27: MCH: speedup finding of used cluster combinations by [@pillot](https://github.com/pillot)
