@@ -23,7 +23,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8647](https://github.com/AliceO2Group/AliceO2/pull/8647) 2022-04-25: AODconverter does not need global MID and MCH clusters by [@shahor02](https://github.com/shahor02)
 - [\#8648](https://github.com/AliceO2Group/AliceO2/pull/8648) 2022-05-02: TRD fix tracklethcheader 1 option, should not be used. by [@bazinski](https://github.com/bazinski)
 - [\#8650](https://github.com/AliceO2Group/AliceO2/pull/8650) 2022-04-27: [OCTRL-564] Filling RCT information when uploading GRP at end of run by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8653](https://github.com/AliceO2Group/AliceO2/pull/8653) 2022-04-26: Optional syst.error on tracks Y,Z covariance + extra debug output by [@shahor02](https://github.com/shahor02)
