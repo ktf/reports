@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-25T21:40:27Z",
-            "title": "DPL: do not send the oldest possible timeframe to out of band channels",
-            "number": 8649,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-27T07:11:26Z",
             "title": "[OCTRL-564] Filling RCT information when uploading GRP at end of run",
             "number": 8650,
@@ -3876,13 +3856,18 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Calib workflow",
+            "title": "[WIP] Calib workflow",
             "number": 8736,
             "author": {
               "login": "chiarazampolli"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/tof-diagnostic-workflow.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
@@ -4546,6 +4531,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TimesliceIndex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS GPU: Fix uninitialised array for HIP",
+            "number": 8749,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexerTraitsGPU.cu"
                   }
                 }
               ]
