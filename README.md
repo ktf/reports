@@ -15,7 +15,6 @@
 - [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)

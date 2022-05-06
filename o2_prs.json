@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-27T12:08:32Z",
-            "title": "[QC-751] Remove obsolete QC flags",
-            "number": 8651,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/etc/flagReasons.csv"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testTimeRangeFlag.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/QualityControl/test/testTimeRangeFlagCollection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-29T21:12:41Z",
             "title": "DPL: refactoring of WorkflowSerializationHelpers",
             "number": 8652,
@@ -4556,6 +4526,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/reconstruction/src/RawProcessingHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix ITS CTF format and subspecs in CTF reader",
+            "number": 8751,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/CTF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/CTFCoder.cxx"
                   }
                 }
               ]
