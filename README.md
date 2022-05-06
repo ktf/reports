@@ -53,6 +53,7 @@
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
 - [\#8719](https://github.com/AliceO2Group/AliceO2/pull/8719) 2022-05-04: Revert "Fix in the creation of subdirectory" by [@shahor02](https://github.com/shahor02)
+- [\#8720](https://github.com/AliceO2Group/AliceO2/pull/8720) 2022-05-06: ITS: Fix GPU vertexer by [@mconcas](https://github.com/mconcas)
 - [\#8724](https://github.com/AliceO2Group/AliceO2/pull/8724) 2022-05-04: Make assignHeaderVersion virtual to allow to detector to change version by [@shahor02](https://github.com/shahor02)
 - [\#8725](https://github.com/AliceO2Group/AliceO2/pull/8725) 2022-05-04: Fix: suppress MC label query left from debugging by [@shahor02](https://github.com/shahor02)
 - [\#8732](https://github.com/AliceO2Group/AliceO2/pull/8732) 2022-05-06: MCH: change level of some (pre)clustering messages from error to info by [@aphecetche](https://github.com/aphecetche)
@@ -92,3 +93,4 @@
 - [\#8655](https://github.com/AliceO2Group/AliceO2/pull/8655) 2022-05-02: primary kinematic initialisation for MaterialBudgetMap moved to Stepping by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
 - [\#8660](https://github.com/AliceO2Group/AliceO2/pull/8660) 2022-04-28: [QC-769] Desambiguify DS and Merger names  by [@Barthelemy](https://github.com/Barthelemy)
+- [\#8741](https://github.com/AliceO2Group/AliceO2/pull/8741) 2022-05-06: ShmManager: do a full reset at the start by [@rbx](https://github.com/rbx)
