@@ -58,6 +58,7 @@
 - [\#8719](https://github.com/AliceO2Group/AliceO2/pull/8719) 2022-05-04: Revert "Fix in the creation of subdirectory" by [@shahor02](https://github.com/shahor02)
 - [\#8724](https://github.com/AliceO2Group/AliceO2/pull/8724) 2022-05-04: Make assignHeaderVersion virtual to allow to detector to change version by [@shahor02](https://github.com/shahor02)
 - [\#8725](https://github.com/AliceO2Group/AliceO2/pull/8725) 2022-05-04: Fix: suppress MC label query left from debugging by [@shahor02](https://github.com/shahor02)
+- [\#8732](https://github.com/AliceO2Group/AliceO2/pull/8732) 2022-05-06: MCH: change level of some (pre)clustering messages from error to info by [@aphecetche](https://github.com/aphecetche)
 - [\#8735](https://github.com/AliceO2Group/AliceO2/pull/8735) 2022-05-05: Fix typo in GRPGeomHelper + add early Creation time in UploadDummyAlignment.C by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
