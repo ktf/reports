@@ -27,7 +27,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8636](https://github.com/AliceO2Group/AliceO2/pull/8636) 2022-04-29: Fix the bug in MFTDCSConfigProcessorSpec.h and add new paramer name i… by [@syano0822](https://github.com/syano0822)
 - [\#8638](https://github.com/AliceO2Group/AliceO2/pull/8638) 2022-04-28: IDCs: Using factorised IDC1 for FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8639](https://github.com/AliceO2Group/AliceO2/pull/8639) 2022-04-26: Use tfCounter in time-slot calib, provide real time. by [@shahor02](https://github.com/shahor02)
 - [\#8640](https://github.com/AliceO2Group/AliceO2/pull/8640) 2022-04-25: CCDBPopulator optionally fatals on failed upload (def=on) by [@shahor02](https://github.com/shahor02)
