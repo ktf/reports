@@ -14,6 +14,7 @@
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
+- [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -47,6 +48,7 @@
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
 - [\#8692](https://github.com/AliceO2Group/AliceO2/pull/8692) 2022-05-04: CPV: adjust pedestal calculation algorothm in PedestalCalibrator by [@sevdokim](https://github.com/sevdokim)
+- [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8697](https://github.com/AliceO2Group/AliceO2/pull/8697) 2022-05-02: Extra changes for using CTF dictionaries from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8698](https://github.com/AliceO2Group/AliceO2/pull/8698) 2022-05-02: Use common ChannelCalibrator::INFINITE_TF definition by [@shahor02](https://github.com/shahor02)
 - [\#8699](https://github.com/AliceO2Group/AliceO2/pull/8699) 2022-05-05: [EMCAL-556] Move EMCAL DCS processor to library EMCALCalibration by [@mfasDa](https://github.com/mfasDa)
@@ -86,6 +88,8 @@
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 - [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
 - [\#8655](https://github.com/AliceO2Group/AliceO2/pull/8655) 2022-05-02: primary kinematic initialisation for MaterialBudgetMap moved to Stepping by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
