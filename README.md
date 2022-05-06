@@ -43,6 +43,7 @@
 - [\#8664](https://github.com/AliceO2Group/AliceO2/pull/8664) 2022-04-27: MRRTF-154: MCH raw data decoder now catches exceptions by [@aphecetche](https://github.com/aphecetche)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8670](https://github.com/AliceO2Group/AliceO2/pull/8670) 2022-04-27: Fix: attach corect input in its/mft entropy decoder by [@shahor02](https://github.com/shahor02)
+- [\#8671](https://github.com/AliceO2Group/AliceO2/pull/8671) 2022-05-06: Updated FastSim library to enable batch processing by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
