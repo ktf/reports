@@ -26,7 +26,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8640](https://github.com/AliceO2Group/AliceO2/pull/8640) 2022-04-25: CCDBPopulator optionally fatals on failed upload (def=on) by [@shahor02](https://github.com/shahor02)
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8645](https://github.com/AliceO2Group/AliceO2/pull/8645) 2022-04-25: Suppress FT0 channels ordering check in CTF encoder by [@shahor02](https://github.com/shahor02)
