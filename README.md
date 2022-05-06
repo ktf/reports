@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#8639](https://github.com/AliceO2Group/AliceO2/pull/8639) 2022-04-26: Use tfCounter in time-slot calib, provide real time. by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8656](https://github.com/AliceO2Group/AliceO2/pull/8656) 2022-05-05: MUON: dots in DCS aliases are legit by [@aphecetche](https://github.com/aphecetche)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -27,7 +26,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8639](https://github.com/AliceO2Group/AliceO2/pull/8639) 2022-04-26: Use tfCounter in time-slot calib, provide real time. by [@shahor02](https://github.com/shahor02)
 - [\#8640](https://github.com/AliceO2Group/AliceO2/pull/8640) 2022-04-25: CCDBPopulator optionally fatals on failed upload (def=on) by [@shahor02](https://github.com/shahor02)
 - [\#8642](https://github.com/AliceO2Group/AliceO2/pull/8642) 2022-04-25: Provide MCH clusters via global-track-cluster-reader and RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
@@ -91,6 +89,7 @@
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 - [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
 - [\#8731](https://github.com/AliceO2Group/AliceO2/pull/8731) 2022-05-06: DPL Analysis: Add pack selection based on condition with multiple parameters by [@saganatt](https://github.com/saganatt)
+- [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
