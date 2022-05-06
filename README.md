@@ -48,6 +48,7 @@
 - [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
 - [\#8692](https://github.com/AliceO2Group/AliceO2/pull/8692) 2022-05-04: CPV: adjust pedestal calculation algorothm in PedestalCalibrator by [@sevdokim](https://github.com/sevdokim)
+- [\#8693](https://github.com/AliceO2Group/AliceO2/pull/8693) 2022-05-06: First version of ITSMFT Cage: cover sheets and cover ribs by [@mario6829](https://github.com/mario6829)
 - [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8697](https://github.com/AliceO2Group/AliceO2/pull/8697) 2022-05-02: Extra changes for using CTF dictionaries from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#8698](https://github.com/AliceO2Group/AliceO2/pull/8698) 2022-05-02: Use common ChannelCalibrator::INFINITE_TF definition by [@shahor02](https://github.com/shahor02)
