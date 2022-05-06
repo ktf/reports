@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8656](https://github.com/AliceO2Group/AliceO2/pull/8656) 2022-05-05: MUON: dots in DCS aliases are legit by [@aphecetche](https://github.com/aphecetche)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
@@ -16,7 +15,6 @@
 - [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8648](https://github.com/AliceO2Group/AliceO2/pull/8648) 2022-05-02: TRD fix tracklethcheader 1 option, should not be used. by [@bazinski](https://github.com/bazinski)
 - [\#8651](https://github.com/AliceO2Group/AliceO2/pull/8651) 2022-04-27: [QC-751] Remove obsolete QC flags by [@knopers8](https://github.com/knopers8)
 - [\#8666](https://github.com/AliceO2Group/AliceO2/pull/8666) 2022-05-01: Fixing compilation warnings in DataFormat/Headers by [@matthiasrichter](https://github.com/matthiasrichter)
@@ -25,7 +23,6 @@
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8643](https://github.com/AliceO2Group/AliceO2/pull/8643) 2022-04-25: Optionally impose DH.tfCounter from local counter by [@shahor02](https://github.com/shahor02)
 - [\#8645](https://github.com/AliceO2Group/AliceO2/pull/8645) 2022-04-25: Suppress FT0 channels ordering check in CTF encoder by [@shahor02](https://github.com/shahor02)
 - [\#8647](https://github.com/AliceO2Group/AliceO2/pull/8647) 2022-04-25: AODconverter does not need global MID and MCH clusters by [@shahor02](https://github.com/shahor02)
 - [\#8648](https://github.com/AliceO2Group/AliceO2/pull/8648) 2022-05-02: TRD fix tracklethcheader 1 option, should not be used. by [@bazinski](https://github.com/bazinski)
@@ -73,7 +70,6 @@
 - [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8644](https://github.com/AliceO2Group/AliceO2/pull/8644) 2022-04-25: DPL: Use startTime instead of tfCounter in whenAllOrdered policy by [@davidrohr](https://github.com/davidrohr)
 - [\#8649](https://github.com/AliceO2Group/AliceO2/pull/8649) 2022-04-25: DPL: do not send the oldest possible timeframe to out of band channels by [@ktf](https://github.com/ktf)
 - [\#8652](https://github.com/AliceO2Group/AliceO2/pull/8652) 2022-04-29: DPL: refactoring of WorkflowSerializationHelpers by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
