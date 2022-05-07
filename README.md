@@ -49,6 +49,7 @@
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
+- [\#8715](https://github.com/AliceO2Group/AliceO2/pull/8715) 2022-05-07: Add missing HBFUtilsInitializer calls + MCH cru-page-reader time/run assignment by [@shahor02](https://github.com/shahor02)
 - [\#8719](https://github.com/AliceO2Group/AliceO2/pull/8719) 2022-05-04: Revert "Fix in the creation of subdirectory" by [@shahor02](https://github.com/shahor02)
 - [\#8720](https://github.com/AliceO2Group/AliceO2/pull/8720) 2022-05-06: ITS: Fix GPU vertexer by [@mconcas](https://github.com/mconcas)
 - [\#8724](https://github.com/AliceO2Group/AliceO2/pull/8724) 2022-05-04: Make assignHeaderVersion virtual to allow to detector to change version by [@shahor02](https://github.com/shahor02)
