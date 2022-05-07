@@ -53,6 +53,7 @@
 - [\#8725](https://github.com/AliceO2Group/AliceO2/pull/8725) 2022-05-04: Fix: suppress MC label query left from debugging by [@shahor02](https://github.com/shahor02)
 - [\#8732](https://github.com/AliceO2Group/AliceO2/pull/8732) 2022-05-06: MCH: change level of some (pre)clustering messages from error to info by [@aphecetche](https://github.com/aphecetche)
 - [\#8735](https://github.com/AliceO2Group/AliceO2/pull/8735) 2022-05-05: Fix typo in GRPGeomHelper + add early Creation time in UploadDummyAlignment.C by [@shahor02](https://github.com/shahor02)
+- [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
@@ -81,6 +82,7 @@
 - [\#8728](https://github.com/AliceO2Group/AliceO2/pull/8728) 2022-05-06: Fix for walking through DataDescriptorMatcher structure by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8731](https://github.com/AliceO2Group/AliceO2/pull/8731) 2022-05-06: DPL Analysis: Add pack selection based on condition with multiple parameters by [@saganatt](https://github.com/saganatt)
 - [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
+- [\#8738](https://github.com/AliceO2Group/AliceO2/pull/8738) 2022-05-07: DPL: fix issue with 100% CPU usage when output proxy is idling by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
