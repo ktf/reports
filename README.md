@@ -55,7 +55,6 @@
 - [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8654](https://github.com/AliceO2Group/AliceO2/pull/8654) 2022-04-26: Event Display: compile on macOS by [@ktf](https://github.com/ktf)
 - [\#8663](https://github.com/AliceO2Group/AliceO2/pull/8663) 2022-05-02: Event Display: Add filter to only visualize tracks matching ITS readout frames & standardize workflow options by [@pnwkw](https://github.com/pnwkw)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
