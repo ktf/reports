@@ -57,6 +57,7 @@
 - [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8750](https://github.com/AliceO2Group/AliceO2/pull/8750) 2022-05-07: TPC: Add new trigger info handling by [@wiechula](https://github.com/wiechula)
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
+- [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8663](https://github.com/AliceO2Group/AliceO2/pull/8663) 2022-05-02: Event Display: Add filter to only visualize tracks matching ITS readout frames & standardize workflow options by [@pnwkw](https://github.com/pnwkw)
@@ -86,8 +87,12 @@
 - [\#8731](https://github.com/AliceO2Group/AliceO2/pull/8731) 2022-05-06: DPL Analysis: Add pack selection based on condition with multiple parameters by [@saganatt](https://github.com/saganatt)
 - [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8738](https://github.com/AliceO2Group/AliceO2/pull/8738) 2022-05-07: DPL: fix issue with 100% CPU usage when output proxy is idling by [@ktf](https://github.com/ktf)
+- [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
+## Recent developments in O2 - Steer
+- [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#8660](https://github.com/AliceO2Group/AliceO2/pull/8660) 2022-04-28: [QC-769] Desambiguify DS and Merger names  by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8741](https://github.com/AliceO2Group/AliceO2/pull/8741) 2022-05-06: ShmManager: do a full reset at the start by [@rbx](https://github.com/rbx)
+- [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
