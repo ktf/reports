@@ -71,6 +71,7 @@
 - [\#8714](https://github.com/AliceO2Group/AliceO2/pull/8714) 2022-05-04: Event Display: Add tooltips to buttons by [@pnwkw](https://github.com/pnwkw)
 - [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
+- [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8676](https://github.com/AliceO2Group/AliceO2/pull/8676) 2022-04-29: No reason to forbid outputing both mermaid and o2-control at the same… by [@Barthelemy](https://github.com/Barthelemy)
