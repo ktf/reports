@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#8656](https://github.com/AliceO2Group/AliceO2/pull/8656) 2022-05-05: MUON: dots in DCS aliases are legit by [@aphecetche](https://github.com/aphecetche)
 - [\#8659](https://github.com/AliceO2Group/AliceO2/pull/8659) 2022-04-27: Printing log when we find a default CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
@@ -25,7 +24,6 @@
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8656](https://github.com/AliceO2Group/AliceO2/pull/8656) 2022-05-05: MUON: dots in DCS aliases are legit by [@aphecetche](https://github.com/aphecetche)
 - [\#8658](https://github.com/AliceO2Group/AliceO2/pull/8658) 2022-04-27: MCH: speedup finding of used cluster combinations by [@pillot](https://github.com/pillot)
 - [\#8661](https://github.com/AliceO2Group/AliceO2/pull/8661) 2022-04-28: Gain map using tracks: Loading topology correction from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8662](https://github.com/AliceO2Group/AliceO2/pull/8662) 2022-04-27: CPV: improve raw errors handling in RawReaderMemory to avoid infinite loop… by [@sevdokim](https://github.com/sevdokim)
