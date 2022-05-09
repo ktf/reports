@@ -91,6 +91,5 @@
 ## Recent developments in O2 - Steer
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#8660](https://github.com/AliceO2Group/AliceO2/pull/8660) 2022-04-28: [QC-769] Desambiguify DS and Merger names  by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8741](https://github.com/AliceO2Group/AliceO2/pull/8741) 2022-05-06: ShmManager: do a full reset at the start by [@rbx](https://github.com/rbx)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
