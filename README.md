@@ -23,7 +23,6 @@
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8662](https://github.com/AliceO2Group/AliceO2/pull/8662) 2022-04-27: CPV: improve raw errors handling in RawReaderMemory to avoid infinite loop… by [@sevdokim](https://github.com/sevdokim)
 - [\#8664](https://github.com/AliceO2Group/AliceO2/pull/8664) 2022-04-27: MRRTF-154: MCH raw data decoder now catches exceptions by [@aphecetche](https://github.com/aphecetche)
 - [\#8667](https://github.com/AliceO2Group/AliceO2/pull/8667) 2022-04-27: Add/use createDirectoriesIfAbsent method, robust against concurrent calls by [@shahor02](https://github.com/shahor02)
 - [\#8668](https://github.com/AliceO2Group/AliceO2/pull/8668) 2022-05-06: TRD vDrift and ExB calibration updated by [@martenole](https://github.com/martenole)
