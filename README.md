@@ -4,6 +4,7 @@
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
+- [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#8686](https://github.com/AliceO2Group/AliceO2/pull/8686) 2022-05-02: Misc fixes3 by [@ktf](https://github.com/ktf)
@@ -83,6 +84,7 @@
 - [\#8733](https://github.com/AliceO2Group/AliceO2/pull/8733) 2022-05-09: DPL: full serialization of DataDescriptorMatcher in the worklfow dump by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8738](https://github.com/AliceO2Group/AliceO2/pull/8738) 2022-05-07: DPL: fix issue with 100% CPU usage when output proxy is idling by [@ktf](https://github.com/ktf)
+- [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 - [\#8748](https://github.com/AliceO2Group/AliceO2/pull/8748) 2022-05-09: DPL: out-of-line large methods of TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Generators
