@@ -48,6 +48,7 @@
 - [\#8729](https://github.com/AliceO2Group/AliceO2/pull/8729) 2022-05-09: Ctpdev: config and scalers to CCDB by [@lietava](https://github.com/lietava)
 - [\#8732](https://github.com/AliceO2Group/AliceO2/pull/8732) 2022-05-06: MCH: change level of some (pre)clustering messages from error to info by [@aphecetche](https://github.com/aphecetche)
 - [\#8735](https://github.com/AliceO2Group/AliceO2/pull/8735) 2022-05-05: Fix typo in GRPGeomHelper + add early Creation time in UploadDummyAlignment.C by [@shahor02](https://github.com/shahor02)
+- [\#8737](https://github.com/AliceO2Group/AliceO2/pull/8737) 2022-05-10: MCH: make reco more parametrizable by [@aphecetche](https://github.com/aphecetche)
 - [\#8740](https://github.com/AliceO2Group/AliceO2/pull/8740) 2022-05-09: Warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8750](https://github.com/AliceO2Group/AliceO2/pull/8750) 2022-05-07: TPC: Add new trigger info handling by [@wiechula](https://github.com/wiechula)
