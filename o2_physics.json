@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-03-21T09:52:15Z",
-            "title": "PID TOF: use the central method to remove the T0 bias",
-            "number": 630,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-03-21T17:38:04Z",
             "title": "fix daughters indexes saving into reducedMCTrack",
             "number": 631,
@@ -3911,6 +3886,31 @@
                 {
                   "node": {
                     "path": "Common/Tasks/checkDataModelMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM loop over McCollisions in skimmerGammaConv tasks",
+            "number": 730,
+            "author": {
+              "login": "sstiefel19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/skimmerGammaConversions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/skimmerGammaConversionsTruthOnlyMc.cxx"
                   }
                 }
               ]
