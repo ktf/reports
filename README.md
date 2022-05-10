@@ -71,7 +71,6 @@
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8677](https://github.com/AliceO2Group/AliceO2/pull/8677) 2022-04-29: DPL DataSpecUtils: adding helper to create optional ConcreteDataMatcher by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8678](https://github.com/AliceO2Group/AliceO2/pull/8678) 2022-04-29: DPL: avoid issues with some fmt / GCC combination by [@ktf](https://github.com/ktf)
 - [\#8680](https://github.com/AliceO2Group/AliceO2/pull/8680) 2022-04-29: DPL: misc changes propaedeutic for rate limiting by [@ktf](https://github.com/ktf)
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
