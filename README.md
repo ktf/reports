@@ -88,6 +88,7 @@
 - [\#8748](https://github.com/AliceO2Group/AliceO2/pull/8748) 2022-05-09: DPL: out-of-line large methods of TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8759](https://github.com/AliceO2Group/AliceO2/pull/8759) 2022-05-10: DPL: fix printout for policy by [@ktf](https://github.com/ktf)
+- [\#8779](https://github.com/AliceO2Group/AliceO2/pull/8779) 2022-05-10: DPL: revert serialization of DataDescriptorMatcher by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
