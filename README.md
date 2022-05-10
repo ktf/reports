@@ -57,6 +57,7 @@
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
 - [\#8765](https://github.com/AliceO2Group/AliceO2/pull/8765) 2022-05-10: MCH: fixed BC rollover in digits merger by [@aferrero2707](https://github.com/aferrero2707)
+- [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8768](https://github.com/AliceO2Group/AliceO2/pull/8768) 2022-05-10: Option to impose runs start time on CTF header by [@shahor02](https://github.com/shahor02)
 - [\#8769](https://github.com/AliceO2Group/AliceO2/pull/8769) 2022-05-10: TPC: root prompt in data monitor & sync offset from command line by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
@@ -94,6 +95,7 @@
 ## Recent developments in O2 - Steer
 - [\#8740](https://github.com/AliceO2Group/AliceO2/pull/8740) 2022-05-09: Warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
+- [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
 - [\#8741](https://github.com/AliceO2Group/AliceO2/pull/8741) 2022-05-06: ShmManager: do a full reset at the start by [@rbx](https://github.com/rbx)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
