@@ -23,6 +23,7 @@
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
+- [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Detectors
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -58,6 +59,7 @@
 - [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8768](https://github.com/AliceO2Group/AliceO2/pull/8768) 2022-05-10: Option to impose runs start time on CTF header by [@shahor02](https://github.com/shahor02)
 - [\#8769](https://github.com/AliceO2Group/AliceO2/pull/8769) 2022-05-10: TPC: root prompt in data monitor & sync offset from command line by [@wiechula](https://github.com/wiechula)
+- [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - EventVisualisation
 - [\#8681](https://github.com/AliceO2Group/AliceO2/pull/8681) 2022-05-01: Event Display: Load all geometry by default, clean up the tree list view by [@pnwkw](https://github.com/pnwkw)
 - [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
