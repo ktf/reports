@@ -24,7 +24,6 @@
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8670](https://github.com/AliceO2Group/AliceO2/pull/8670) 2022-04-27: Fix: attach corect input in its/mft entropy decoder by [@shahor02](https://github.com/shahor02)
 - [\#8671](https://github.com/AliceO2Group/AliceO2/pull/8671) 2022-05-06: Updated FastSim library to enable batch processing by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8673](https://github.com/AliceO2Group/AliceO2/pull/8673) 2022-04-29: TRD bug fix for mac m1 by [@bazinski](https://github.com/bazinski)
 - [\#8683](https://github.com/AliceO2Group/AliceO2/pull/8683) 2022-05-01: Fixes in MeanVertex and TPCVDriftTgL calib by [@chiarazampolli](https://github.com/chiarazampolli)
