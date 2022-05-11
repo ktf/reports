@@ -7,7 +7,6 @@
 - [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 - [\#8729](https://github.com/AliceO2Group/AliceO2/pull/8729) 2022-05-09: Ctpdev: config and scalers to CCDB by [@lietava](https://github.com/lietava)
 - [\#8740](https://github.com/AliceO2Group/AliceO2/pull/8740) 2022-05-09: Warning fixes by [@peressounko](https://github.com/peressounko)
@@ -19,7 +18,6 @@
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8702](https://github.com/AliceO2Group/AliceO2/pull/8702) 2022-05-03: [EMCAL-548] Reduce verbosity in digits to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
