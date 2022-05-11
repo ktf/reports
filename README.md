@@ -4,12 +4,10 @@
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 - [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
-- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8696](https://github.com/AliceO2Group/AliceO2/pull/8696) 2022-05-06: Added feature: local density scaling (per module). by [@zovarga](https://github.com/zovarga)
 - [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8701](https://github.com/AliceO2Group/AliceO2/pull/8701) 2022-05-03: TRD small calibration update by [@martenole](https://github.com/martenole)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 - [\#8729](https://github.com/AliceO2Group/AliceO2/pull/8729) 2022-05-09: Ctpdev: config and scalers to CCDB by [@lietava](https://github.com/lietava)
@@ -22,7 +20,6 @@
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8691](https://github.com/AliceO2Group/AliceO2/pull/8691) 2022-05-01: CPV: fix channel mapping by [@sevdokim](https://github.com/sevdokim)
 - [\#8692](https://github.com/AliceO2Group/AliceO2/pull/8692) 2022-05-04: CPV: adjust pedestal calculation algorothm in PedestalCalibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8693](https://github.com/AliceO2Group/AliceO2/pull/8693) 2022-05-06: First version of ITSMFT Cage: cover sheets and cover ribs by [@mario6829](https://github.com/mario6829)
@@ -51,6 +48,7 @@
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
+- [\#8761](https://github.com/AliceO2Group/AliceO2/pull/8761) 2022-05-11: Changes in ITS/MFT cluster topology dict. creation by [@shahor02](https://github.com/shahor02)
 - [\#8765](https://github.com/AliceO2Group/AliceO2/pull/8765) 2022-05-10: MCH: fixed BC rollover in digits merger by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8768](https://github.com/AliceO2Group/AliceO2/pull/8768) 2022-05-10: Option to impose runs start time on CTF header by [@shahor02](https://github.com/shahor02)
@@ -68,7 +66,6 @@
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8687](https://github.com/AliceO2Group/AliceO2/pull/8687) 2022-04-30: Fetch CTF dicts from CCDB or local file + related changes by [@shahor02](https://github.com/shahor02)
 - [\#8705](https://github.com/AliceO2Group/AliceO2/pull/8705) 2022-05-03: DPL Analysis: fix for DYN propagation by [@aalkin](https://github.com/aalkin)
 - [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
 - [\#8728](https://github.com/AliceO2Group/AliceO2/pull/8728) 2022-05-06: Fix for walking through DataDescriptorMatcher structure by [@matthiasrichter](https://github.com/matthiasrichter)
