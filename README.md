@@ -49,7 +49,6 @@
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8700](https://github.com/AliceO2Group/AliceO2/pull/8700) 2022-05-03: Event Display: Add filter for time range inside time frame by [@pnwkw](https://github.com/pnwkw)
 - [\#8707](https://github.com/AliceO2Group/AliceO2/pull/8707) 2022-05-04: Event Display: Replace empty output filter with filter on minimum amount of tracks by [@pnwkw](https://github.com/pnwkw)
 - [\#8710](https://github.com/AliceO2Group/AliceO2/pull/8710) 2022-05-04: Event Display: Add annotation in the 3D view to display run parameters by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
