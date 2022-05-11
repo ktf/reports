@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-03T05:34:17Z",
-            "title": "[EMCAL-548] Reduce verbosity in digits to cell converter",
-            "number": 8702,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/CellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-04T08:42:50Z",
             "title": "TPC: fix DCS DP type and reset, throttle error messages",
             "number": 8703,
@@ -3513,6 +3493,31 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/RawToDigitsSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: fix parameter type for sync-offset-reference",
+            "number": 8802,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadRawSpec.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/RawToDigitsSpec.cxx"

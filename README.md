@@ -18,7 +18,6 @@
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8702](https://github.com/AliceO2Group/AliceO2/pull/8702) 2022-05-03: [EMCAL-548] Reduce verbosity in digits to cell converter by [@mfasDa](https://github.com/mfasDa)
 - [\#8703](https://github.com/AliceO2Group/AliceO2/pull/8703) 2022-05-04: TPC: fix DCS DP type and reset, throttle error messages by [@wiechula](https://github.com/wiechula)
 - [\#8706](https://github.com/AliceO2Group/AliceO2/pull/8706) 2022-05-03: Fix in the creation of subdirectory by [@pzhristov](https://github.com/pzhristov)
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
