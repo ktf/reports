@@ -34,6 +34,7 @@
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
+- [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
 - [\#8761](https://github.com/AliceO2Group/AliceO2/pull/8761) 2022-05-11: Changes in ITS/MFT cluster topology dict. creation by [@shahor02](https://github.com/shahor02)
 - [\#8765](https://github.com/AliceO2Group/AliceO2/pull/8765) 2022-05-10: MCH: fixed BC rollover in digits merger by [@aferrero2707](https://github.com/aferrero2707)
@@ -62,6 +63,7 @@
 - [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
+- [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
 - [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
