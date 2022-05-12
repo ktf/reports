@@ -54,7 +54,6 @@
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8707](https://github.com/AliceO2Group/AliceO2/pull/8707) 2022-05-04: Event Display: Replace empty output filter with filter on minimum amount of tracks by [@pnwkw](https://github.com/pnwkw)
 - [\#8710](https://github.com/AliceO2Group/AliceO2/pull/8710) 2022-05-04: Event Display: Add annotation in the 3D view to display run parameters by [@pnwkw](https://github.com/pnwkw)
 - [\#8713](https://github.com/AliceO2Group/AliceO2/pull/8713) 2022-05-03: Float argument needs float type as default value by [@davidrohr](https://github.com/davidrohr)
 - [\#8714](https://github.com/AliceO2Group/AliceO2/pull/8714) 2022-05-04: Event Display: Add tooltips to buttons by [@pnwkw](https://github.com/pnwkw)
