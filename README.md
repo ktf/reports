@@ -14,6 +14,7 @@
 - [\#8756](https://github.com/AliceO2Group/AliceO2/pull/8756) 2022-05-09: Fixes in ITS and MFT noise calibration: by [@shahor02](https://github.com/shahor02)
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#8776](https://github.com/AliceO2Group/AliceO2/pull/8776) 2022-05-12: FT0: new decoder, based on AVX512 by [@afurs](https://github.com/afurs)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -42,6 +43,7 @@
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 - [\#8772](https://github.com/AliceO2Group/AliceO2/pull/8772) 2022-05-11: TPC: radial binning vector for histograms by [@wiechula](https://github.com/wiechula)
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#8776](https://github.com/AliceO2Group/AliceO2/pull/8776) 2022-05-12: FT0: new decoder, based on AVX512 by [@afurs](https://github.com/afurs)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8787](https://github.com/AliceO2Group/AliceO2/pull/8787) 2022-05-12: ZDC: Provide channel output full sim by [@sawenzel](https://github.com/sawenzel)
 - [\#8788](https://github.com/AliceO2Group/AliceO2/pull/8788) 2022-05-11: Fix: MFT tracking must update ROF also for empty ROFs by [@shahor02](https://github.com/shahor02)
