@@ -57,7 +57,6 @@
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8716](https://github.com/AliceO2Group/AliceO2/pull/8716) 2022-05-05: [EMCAL-774] Add EMCAL volumes for the simple ED geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 - [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
@@ -77,6 +76,8 @@
 - [\#8779](https://github.com/AliceO2Group/AliceO2/pull/8779) 2022-05-10: DPL: revert serialization of DataDescriptorMatcher by [@ktf](https://github.com/ktf)
 - [\#8780](https://github.com/AliceO2Group/AliceO2/pull/8780) 2022-05-11: DPL: fix serialisation context ref by [@ktf](https://github.com/ktf)
 - [\#8783](https://github.com/AliceO2Group/AliceO2/pull/8783) 2022-05-11: DPL Analysis: simple marker column template by [@aalkin](https://github.com/aalkin)
+- [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
+- [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
