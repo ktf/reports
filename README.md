@@ -46,6 +46,7 @@
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8776](https://github.com/AliceO2Group/AliceO2/pull/8776) 2022-05-12: FT0: new decoder, based on AVX512 by [@afurs](https://github.com/afurs)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
+- [\#8786](https://github.com/AliceO2Group/AliceO2/pull/8786) 2022-05-12: Adding missing resets of tables used for filling of fwdtrack and MFT tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#8787](https://github.com/AliceO2Group/AliceO2/pull/8787) 2022-05-12: ZDC: Provide channel output full sim by [@sawenzel](https://github.com/sawenzel)
 - [\#8788](https://github.com/AliceO2Group/AliceO2/pull/8788) 2022-05-11: Fix: MFT tracking must update ROF also for empty ROFs by [@shahor02](https://github.com/shahor02)
 - [\#8792](https://github.com/AliceO2Group/AliceO2/pull/8792) 2022-05-12: Fixes for MID calibration by [@dstocco](https://github.com/dstocco)
