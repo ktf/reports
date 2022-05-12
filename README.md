@@ -15,6 +15,7 @@
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
+- [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8712](https://github.com/AliceO2Group/AliceO2/pull/8712) 2022-05-03: MCH: remove custom completion policy from pedestal calibrator by [@aphecetche](https://github.com/aphecetche)
 - [\#8715](https://github.com/AliceO2Group/AliceO2/pull/8715) 2022-05-07: Add missing HBFUtilsInitializer calls + MCH cru-page-reader time/run assignment by [@shahor02](https://github.com/shahor02)
@@ -45,9 +46,11 @@
 - [\#8787](https://github.com/AliceO2Group/AliceO2/pull/8787) 2022-05-12: ZDC: Provide channel output full sim by [@sawenzel](https://github.com/sawenzel)
 - [\#8788](https://github.com/AliceO2Group/AliceO2/pull/8788) 2022-05-11: Fix: MFT tracking must update ROF also for empty ROFs by [@shahor02](https://github.com/shahor02)
 - [\#8792](https://github.com/AliceO2Group/AliceO2/pull/8792) 2022-05-12: Fixes for MID calibration by [@dstocco](https://github.com/dstocco)
+- [\#8794](https://github.com/AliceO2Group/AliceO2/pull/8794) 2022-05-12: Synchronize MID data orbit with RDH orbit at TF limit by [@dstocco](https://github.com/dstocco)
 - [\#8795](https://github.com/AliceO2Group/AliceO2/pull/8795) 2022-05-12: MID afterburner: apply delays only to self-triggered events by [@dstocco](https://github.com/dstocco)
 - [\#8797](https://github.com/AliceO2Group/AliceO2/pull/8797) 2022-05-12: Check for missing GBT links in MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#8802](https://github.com/AliceO2Group/AliceO2/pull/8802) 2022-05-11: TPC: fix parameter type for sync-offset-reference by [@wiechula](https://github.com/wiechula)
+- [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8707](https://github.com/AliceO2Group/AliceO2/pull/8707) 2022-05-04: Event Display: Replace empty output filter with filter on minimum amount of tracks by [@pnwkw](https://github.com/pnwkw)
