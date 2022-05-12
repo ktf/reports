@@ -65,6 +65,7 @@
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 - [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
+- [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
 - [\#8728](https://github.com/AliceO2Group/AliceO2/pull/8728) 2022-05-06: Fix for walking through DataDescriptorMatcher structure by [@matthiasrichter](https://github.com/matthiasrichter)
