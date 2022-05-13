@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-06T12:18:19Z",
-            "title": "Fix for walking through DataDescriptorMatcher structure",
-            "number": 8728,
-            "author": {
-              "login": "matthiasrichter"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataDescriptorMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSpecUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-09T15:58:45Z",
             "title": "Ctpdev: config and scalers to CCDB",
             "number": 8729,
@@ -3461,6 +3436,56 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP][EMCAL-647] Event builder for cell container from different subtimeframes",
+            "number": 8828,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EventBuilderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/EventBuilderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/event-builder-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/multi-rawfitter-workflow.cxx"
                   }
                 }
               ]

@@ -64,7 +64,6 @@
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
 - [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8728](https://github.com/AliceO2Group/AliceO2/pull/8728) 2022-05-06: Fix for walking through DataDescriptorMatcher structure by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8731](https://github.com/AliceO2Group/AliceO2/pull/8731) 2022-05-06: DPL Analysis: Add pack selection based on condition with multiple parameters by [@saganatt](https://github.com/saganatt)
 - [\#8733](https://github.com/AliceO2Group/AliceO2/pull/8733) 2022-05-09: DPL: full serialization of DataDescriptorMatcher in the worklfow dump by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
