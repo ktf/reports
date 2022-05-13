@@ -78,6 +78,7 @@
 - [\#8779](https://github.com/AliceO2Group/AliceO2/pull/8779) 2022-05-10: DPL: revert serialization of DataDescriptorMatcher by [@ktf](https://github.com/ktf)
 - [\#8780](https://github.com/AliceO2Group/AliceO2/pull/8780) 2022-05-11: DPL: fix serialisation context ref by [@ktf](https://github.com/ktf)
 - [\#8783](https://github.com/AliceO2Group/AliceO2/pull/8783) 2022-05-11: DPL Analysis: simple marker column template by [@aalkin](https://github.com/aalkin)
+- [\#8793](https://github.com/AliceO2Group/AliceO2/pull/8793) 2022-05-13: DPL Analysis: Remove backward compability from combinations by [@saganatt](https://github.com/saganatt)
 - [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
