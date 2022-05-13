@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
-- [\#8722](https://github.com/AliceO2Group/AliceO2/pull/8722) 2022-05-05: Split of setup part of workflow, so it can be used for calib aggregator by [@davidrohr](https://github.com/davidrohr)
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8729](https://github.com/AliceO2Group/AliceO2/pull/8729) 2022-05-09: Ctpdev: config and scalers to CCDB by [@lietava](https://github.com/lietava)
@@ -65,7 +64,6 @@
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
 - [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8721](https://github.com/AliceO2Group/AliceO2/pull/8721) 2022-05-04: DPL: update what "now" means before setting the timer by [@ktf](https://github.com/ktf)
 - [\#8728](https://github.com/AliceO2Group/AliceO2/pull/8728) 2022-05-06: Fix for walking through DataDescriptorMatcher structure by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#8731](https://github.com/AliceO2Group/AliceO2/pull/8731) 2022-05-06: DPL Analysis: Add pack selection based on condition with multiple parameters by [@saganatt](https://github.com/saganatt)
 - [\#8733](https://github.com/AliceO2Group/AliceO2/pull/8733) 2022-05-09: DPL: full serialization of DataDescriptorMatcher in the worklfow dump by [@matthiasrichter](https://github.com/matthiasrichter)
