@@ -17,7 +17,6 @@
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8725](https://github.com/AliceO2Group/AliceO2/pull/8725) 2022-05-04: Fix: suppress MC label query left from debugging by [@shahor02](https://github.com/shahor02)
 - [\#8729](https://github.com/AliceO2Group/AliceO2/pull/8729) 2022-05-09: Ctpdev: config and scalers to CCDB by [@lietava](https://github.com/lietava)
 - [\#8732](https://github.com/AliceO2Group/AliceO2/pull/8732) 2022-05-06: MCH: change level of some (pre)clustering messages from error to info by [@aphecetche](https://github.com/aphecetche)
 - [\#8735](https://github.com/AliceO2Group/AliceO2/pull/8735) 2022-05-05: Fix typo in GRPGeomHelper + add early Creation time in UploadDummyAlignment.C by [@shahor02](https://github.com/shahor02)
