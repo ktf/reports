@@ -78,6 +78,7 @@
 - [\#8793](https://github.com/AliceO2Group/AliceO2/pull/8793) 2022-05-13: DPL Analysis: Remove backward compability from combinations by [@saganatt](https://github.com/saganatt)
 - [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
+- [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#8727](https://github.com/AliceO2Group/AliceO2/pull/8727) 2022-05-06: Use TRandom::GetSeed to get what was set by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Steer
