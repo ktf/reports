@@ -52,6 +52,7 @@
 - [\#8795](https://github.com/AliceO2Group/AliceO2/pull/8795) 2022-05-12: MID afterburner: apply delays only to self-triggered events by [@dstocco](https://github.com/dstocco)
 - [\#8796](https://github.com/AliceO2Group/AliceO2/pull/8796) 2022-05-13: Reduce verbosity for MID tracks extrapolated out of acceptance by [@dstocco](https://github.com/dstocco)
 - [\#8797](https://github.com/AliceO2Group/AliceO2/pull/8797) 2022-05-12: Check for missing GBT links in MID raw data by [@dstocco](https://github.com/dstocco)
+- [\#8799](https://github.com/AliceO2Group/AliceO2/pull/8799) 2022-05-13: MFT: Use the same logic for database populators during run and during end of stream. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8800](https://github.com/AliceO2Group/AliceO2/pull/8800) 2022-05-12: IDCs: adding possibility to disable sending of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8802](https://github.com/AliceO2Group/AliceO2/pull/8802) 2022-05-11: TPC: fix parameter type for sync-offset-reference by [@wiechula](https://github.com/wiechula)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
