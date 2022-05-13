@@ -23,6 +23,7 @@
 - [\#8736](https://github.com/AliceO2Group/AliceO2/pull/8736) 2022-05-13: Calib workflow by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8737](https://github.com/AliceO2Group/AliceO2/pull/8737) 2022-05-10: MCH: make reco more parametrizable by [@aphecetche](https://github.com/aphecetche)
 - [\#8740](https://github.com/AliceO2Group/AliceO2/pull/8740) 2022-05-09: Warning fixes by [@peressounko](https://github.com/peressounko)
+- [\#8745](https://github.com/AliceO2Group/AliceO2/pull/8745) 2022-05-13: TPC QC: add DCS points qc for temperature sensors by [@tklemenz](https://github.com/tklemenz)
 - [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8750](https://github.com/AliceO2Group/AliceO2/pull/8750) 2022-05-07: TPC: Add new trigger info handling by [@wiechula](https://github.com/wiechula)
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
