@@ -57,6 +57,7 @@
 - [\#8802](https://github.com/AliceO2Group/AliceO2/pull/8802) 2022-05-11: TPC: fix parameter type for sync-offset-reference by [@wiechula](https://github.com/wiechula)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
+- [\#8813](https://github.com/AliceO2Group/AliceO2/pull/8813) 2022-05-13: TPC: Add function to adjust width of the color axis by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#8723](https://github.com/AliceO2Group/AliceO2/pull/8723) 2022-05-04: Event Display: Include in the JSON filename the hostname and pid of the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
