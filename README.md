@@ -15,6 +15,7 @@
 - [\#8776](https://github.com/AliceO2Group/AliceO2/pull/8776) 2022-05-12: FT0: new decoder, based on AVX512 by [@afurs](https://github.com/afurs)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
+- [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8735](https://github.com/AliceO2Group/AliceO2/pull/8735) 2022-05-05: Fix typo in GRPGeomHelper + add early Creation time in UploadDummyAlignment.C by [@shahor02](https://github.com/shahor02)
 - [\#8736](https://github.com/AliceO2Group/AliceO2/pull/8736) 2022-05-13: Calib workflow by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -57,6 +58,7 @@
 - [\#8819](https://github.com/AliceO2Group/AliceO2/pull/8819) 2022-05-13: Fix Fwd and MFT MC label filling by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#8821](https://github.com/AliceO2Group/AliceO2/pull/8821) 2022-05-14: --disable-tracking option for o2-its(mft)-reco-workflow by [@shahor02](https://github.com/shahor02)
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
+- [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 - [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
