@@ -56,6 +56,7 @@
 - [\#8813](https://github.com/AliceO2Group/AliceO2/pull/8813) 2022-05-13: TPC: Add function to adjust width of the color axis by [@wiechula](https://github.com/wiechula)
 - [\#8817](https://github.com/AliceO2Group/AliceO2/pull/8817) 2022-05-13: Utility for detector run status check in DCS processing + EMC example by [@shahor02](https://github.com/shahor02)
 - [\#8819](https://github.com/AliceO2Group/AliceO2/pull/8819) 2022-05-13: Fix Fwd and MFT MC label filling by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#8821](https://github.com/AliceO2Group/AliceO2/pull/8821) 2022-05-14: --disable-tracking option for o2-its(mft)-reco-workflow by [@shahor02](https://github.com/shahor02)
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
