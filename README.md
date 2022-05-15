@@ -59,7 +59,9 @@
 - [\#8821](https://github.com/AliceO2Group/AliceO2/pull/8821) 2022-05-14: --disable-tracking option for o2-its(mft)-reco-workflow by [@shahor02](https://github.com/shahor02)
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 - [\#8825](https://github.com/AliceO2Group/AliceO2/pull/8825) 2022-05-15: Add missing includes seen by gcc 12.1.0 by [@wiechula](https://github.com/wiechula)
+- [\#8827](https://github.com/AliceO2Group/AliceO2/pull/8827) 2022-05-15: Calibration fixes; warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
+- [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8752](https://github.com/AliceO2Group/AliceO2/pull/8752) 2022-05-08: Event Display: Fix handling of filter time parameter by [@pnwkw](https://github.com/pnwkw)
 - [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
