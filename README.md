@@ -70,7 +70,6 @@
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8734](https://github.com/AliceO2Group/AliceO2/pull/8734) 2022-05-06: DPL Analysis: issue fatal error if HistogramRegistry is full by [@mario-krueger](https://github.com/mario-krueger)
 - [\#8738](https://github.com/AliceO2Group/AliceO2/pull/8738) 2022-05-07: DPL: fix issue with 100% CPU usage when output proxy is idling by [@ktf](https://github.com/ktf)
 - [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 - [\#8748](https://github.com/AliceO2Group/AliceO2/pull/8748) 2022-05-09: DPL: out-of-line large methods of TimesliceIndex by [@ktf](https://github.com/ktf)
