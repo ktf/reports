@@ -66,7 +66,6 @@
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8748](https://github.com/AliceO2Group/AliceO2/pull/8748) 2022-05-09: DPL: out-of-line large methods of TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8759](https://github.com/AliceO2Group/AliceO2/pull/8759) 2022-05-10: DPL: fix printout for policy by [@ktf](https://github.com/ktf)
 - [\#8779](https://github.com/AliceO2Group/AliceO2/pull/8779) 2022-05-10: DPL: revert serialization of DataDescriptorMatcher by [@ktf](https://github.com/ktf)
