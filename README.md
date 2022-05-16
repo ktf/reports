@@ -18,7 +18,6 @@
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8736](https://github.com/AliceO2Group/AliceO2/pull/8736) 2022-05-13: Calib workflow by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8737](https://github.com/AliceO2Group/AliceO2/pull/8737) 2022-05-10: MCH: make reco more parametrizable by [@aphecetche](https://github.com/aphecetche)
 - [\#8740](https://github.com/AliceO2Group/AliceO2/pull/8740) 2022-05-09: Warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#8745](https://github.com/AliceO2Group/AliceO2/pull/8745) 2022-05-13: TPC QC: add DCS points qc for temperature sensors by [@tklemenz](https://github.com/tklemenz)
