@@ -4,131 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "new plots for ITSTrackTask / ClusterSize vs Chip (O2 modification, Tr…",
-            "number": 8744,
-            "author": {
-              "login": "delico18"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-05-13T21:06:35Z",
-            "title": "TPC QC: add DCS points qc for temperature sensors",
-            "number": 8745,
-            "author": {
-              "login": "tklemenz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/DCSPTemperature.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/DCSPTemperature.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/TPCQCLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/test/test_DCSPTemperature.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Matchinfohmp",
-            "number": 8746,
-            "author": {
-              "login": "gvolpe79"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/MatchInfoHMP.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/MatchInfoHMP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/ReconstructionDataFormatsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-05-08T09:52:06Z",
             "title": "Fix in ccdb snapshot creation/usage with CCDBFetcher",
@@ -2980,6 +2855,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/MUON/MCH/Base/src/Trackable.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/MUON/MCH/Base/src/TrackerParam.cxx"
                   }
                 },
@@ -3716,6 +3596,101 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Executable to query or upload MID bad channels",
+            "number": 8844,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/exe/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/exe/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/exe/bad-channels-ccdb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for Doxygen",
+            "number": 8845,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Calibration/include/MIDCalibration/ChannelCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Tracking/include/MIDTracking/HitMapBuilder.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: rename a method to avoid confusion",
+            "number": 8846,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MCH/include/DataFormatsMCH/DsChannelId.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MCH/src/DsChannelId.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MCH/src/convert-bad-channels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Calibration/src/BadChannelCalibrationDevice.cxx"
                   }
                 }
               ]

@@ -15,7 +15,6 @@
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8745](https://github.com/AliceO2Group/AliceO2/pull/8745) 2022-05-13: TPC QC: add DCS points qc for temperature sensors by [@tklemenz](https://github.com/tklemenz)
 - [\#8749](https://github.com/AliceO2Group/AliceO2/pull/8749) 2022-05-07: ITS GPU: Fix uninitialised array for HIP by [@mconcas](https://github.com/mconcas)
 - [\#8750](https://github.com/AliceO2Group/AliceO2/pull/8750) 2022-05-07: TPC: Add new trigger info handling by [@wiechula](https://github.com/wiechula)
 - [\#8751](https://github.com/AliceO2Group/AliceO2/pull/8751) 2022-05-07: Fix ITS CTF format and subspecs in CTF reader by [@shahor02](https://github.com/shahor02)
