@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-- [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Common
 - [\#8754](https://github.com/AliceO2Group/AliceO2/pull/8754) 2022-05-07: Fix: recalculate N bits needed in dict. accumulation (O2-2930) by [@shahor02](https://github.com/shahor02)
 - [\#8818](https://github.com/AliceO2Group/AliceO2/pull/8818) 2022-05-16: [EMCAL-566] Improved ROOT to boost histogram conversion  by [@jokonig](https://github.com/jokonig)
@@ -69,7 +67,6 @@
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8742](https://github.com/AliceO2Group/AliceO2/pull/8742) 2022-05-10: DPL Analysis: Event mixing: Simplify mixing codes with sliceByCached. Mixing on Filtered and Join by [@saganatt](https://github.com/saganatt)
 - [\#8748](https://github.com/AliceO2Group/AliceO2/pull/8748) 2022-05-09: DPL: out-of-line large methods of TimesliceIndex by [@ktf](https://github.com/ktf)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8759](https://github.com/AliceO2Group/AliceO2/pull/8759) 2022-05-10: DPL: fix printout for policy by [@ktf](https://github.com/ktf)
@@ -84,5 +81,4 @@
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
 - [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
-- [\#8741](https://github.com/AliceO2Group/AliceO2/pull/8741) 2022-05-06: ShmManager: do a full reset at the start by [@rbx](https://github.com/rbx)
 - [\#8753](https://github.com/AliceO2Group/AliceO2/pull/8753) 2022-05-08: MC: Optionally apply device-combine to a couple of workflows by [@sawenzel](https://github.com/sawenzel)
