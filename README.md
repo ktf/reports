@@ -53,6 +53,7 @@
 - [\#8830](https://github.com/AliceO2Group/AliceO2/pull/8830) 2022-05-16: ZDC FastSim: Added scoped guard and updated log info by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
+- [\#8848](https://github.com/AliceO2Group/AliceO2/pull/8848) 2022-05-16: Do not deploy HBFUtilsInitializer with --disable-root-inputs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8755](https://github.com/AliceO2Group/AliceO2/pull/8755) 2022-05-12: o2-eve: calorimeters display, fixes in json serialisation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
