@@ -61,7 +61,6 @@
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8759](https://github.com/AliceO2Group/AliceO2/pull/8759) 2022-05-10: DPL: fix printout for policy by [@ktf](https://github.com/ktf)
 - [\#8779](https://github.com/AliceO2Group/AliceO2/pull/8779) 2022-05-10: DPL: revert serialization of DataDescriptorMatcher by [@ktf](https://github.com/ktf)
 - [\#8780](https://github.com/AliceO2Group/AliceO2/pull/8780) 2022-05-11: DPL: fix serialisation context ref by [@ktf](https://github.com/ktf)
 - [\#8783](https://github.com/AliceO2Group/AliceO2/pull/8783) 2022-05-11: DPL Analysis: simple marker column template by [@aalkin](https://github.com/aalkin)
