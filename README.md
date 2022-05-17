@@ -12,7 +12,6 @@
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8769](https://github.com/AliceO2Group/AliceO2/pull/8769) 2022-05-10: TPC: root prompt in data monitor & sync offset from command line by [@wiechula](https://github.com/wiechula)
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
 - [\#8772](https://github.com/AliceO2Group/AliceO2/pull/8772) 2022-05-11: TPC: radial binning vector for histograms by [@wiechula](https://github.com/wiechula)
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
