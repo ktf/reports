@@ -45,6 +45,7 @@
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 - [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
+- [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8848](https://github.com/AliceO2Group/AliceO2/pull/8848) 2022-05-16: Do not deploy HBFUtilsInitializer with --disable-root-inputs by [@shahor02](https://github.com/shahor02)
 - [\#8851](https://github.com/AliceO2Group/AliceO2/pull/8851) 2022-05-17: Fix typo in FwdTrack table filling by [@nburmaso](https://github.com/nburmaso)
