@@ -12,7 +12,6 @@
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8768](https://github.com/AliceO2Group/AliceO2/pull/8768) 2022-05-10: Option to impose runs start time on CTF header by [@shahor02](https://github.com/shahor02)
 - [\#8769](https://github.com/AliceO2Group/AliceO2/pull/8769) 2022-05-10: TPC: root prompt in data monitor & sync offset from command line by [@wiechula](https://github.com/wiechula)
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
@@ -69,5 +68,3 @@
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
 - [\#8850](https://github.com/AliceO2Group/AliceO2/pull/8850) 2022-05-17: DPL: add printout to report downstream congestion by [@ktf](https://github.com/ktf)
 - [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
