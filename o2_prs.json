@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-10T07:08:47Z",
-            "title": "MCH: fixed BC rollover in digits merger",
-            "number": 8765,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-10T09:04:23Z",
             "title": "mis-calibration in digitization",
             "number": 8766,
@@ -2490,6 +2470,16 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/CPV/calib/include/CPVCalibration/NoiseCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/include/CPVCalibration/PedestalCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/CPV/calib/macros/readCalibParamsFromCCDB.C"
                   }
                 },
@@ -2526,6 +2516,11 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/calib/testWorkflow/NoiseCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/testWorkflow/PedestalCalibratorSpec.h"
                   }
                 },
                 {
@@ -3484,8 +3479,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-05-17T19:38:42Z",
             "title": "Latest updates of dataModel parser",
             "number": 8863,
             "author": {
@@ -3516,6 +3511,26 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/reconstruction/src/AltroDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add simcuts file for ITS",
+            "number": 8865,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/data/simcuts.dat"
                   }
                 }
               ]

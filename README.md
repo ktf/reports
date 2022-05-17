@@ -12,7 +12,6 @@
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8765](https://github.com/AliceO2Group/AliceO2/pull/8765) 2022-05-10: MCH: fixed BC rollover in digits merger by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8768](https://github.com/AliceO2Group/AliceO2/pull/8768) 2022-05-10: Option to impose runs start time on CTF header by [@shahor02](https://github.com/shahor02)
 - [\#8769](https://github.com/AliceO2Group/AliceO2/pull/8769) 2022-05-10: TPC: root prompt in data monitor & sync offset from command line by [@wiechula](https://github.com/wiechula)
