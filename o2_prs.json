@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-11T08:46:28Z",
-            "title": "Omit token check if internal CCDB is used",
-            "number": 8760,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-11T10:28:32Z",
             "title": "Changes in ITS/MFT cluster topology dict. creation",
             "number": 8761,
@@ -3516,6 +3496,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/start_tmux.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix out of bound access in DataDescriptorQueryBuilder",
+            "number": 8860,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataDescriptorQueryBuilder.cxx"
                   }
                 }
               ]
