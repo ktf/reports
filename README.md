@@ -13,7 +13,6 @@
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8761](https://github.com/AliceO2Group/AliceO2/pull/8761) 2022-05-11: Changes in ITS/MFT cluster topology dict. creation by [@shahor02](https://github.com/shahor02)
 - [\#8763](https://github.com/AliceO2Group/AliceO2/pull/8763) 2022-05-17: Fixed bitshifts in getQFromRaw from raw MCM data by [@f3sch](https://github.com/f3sch)
 - [\#8765](https://github.com/AliceO2Group/AliceO2/pull/8765) 2022-05-10: MCH: fixed BC rollover in digits merger by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8766](https://github.com/AliceO2Group/AliceO2/pull/8766) 2022-05-10: mis-calibration in digitization by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
