@@ -50,6 +50,7 @@
 - [\#8848](https://github.com/AliceO2Group/AliceO2/pull/8848) 2022-05-16: Do not deploy HBFUtilsInitializer with --disable-root-inputs by [@shahor02](https://github.com/shahor02)
 - [\#8851](https://github.com/AliceO2Group/AliceO2/pull/8851) 2022-05-17: Fix typo in FwdTrack table filling by [@nburmaso](https://github.com/nburmaso)
 - [\#8853](https://github.com/AliceO2Group/AliceO2/pull/8853) 2022-05-17: [FDD] To switch on delta-ray production by [@arvindkhuntia](https://github.com/arvindkhuntia)
+- [\#8868](https://github.com/AliceO2Group/AliceO2/pull/8868) 2022-05-17: Fixes in TPC-ITS matching: obsolete reference + out-of-bound access [O2-2909] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
 - [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
@@ -66,4 +67,5 @@
 - [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
 - [\#8850](https://github.com/AliceO2Group/AliceO2/pull/8850) 2022-05-17: DPL: add printout to report downstream congestion by [@ktf](https://github.com/ktf)
+- [\#8856](https://github.com/AliceO2Group/AliceO2/pull/8856) 2022-05-17: fixes in timestamp reporting by [@shahor02](https://github.com/shahor02)
 - [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
