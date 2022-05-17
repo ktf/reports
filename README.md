@@ -55,6 +55,7 @@
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8848](https://github.com/AliceO2Group/AliceO2/pull/8848) 2022-05-16: Do not deploy HBFUtilsInitializer with --disable-root-inputs by [@shahor02](https://github.com/shahor02)
 - [\#8851](https://github.com/AliceO2Group/AliceO2/pull/8851) 2022-05-17: Fix typo in FwdTrack table filling by [@nburmaso](https://github.com/nburmaso)
+- [\#8853](https://github.com/AliceO2Group/AliceO2/pull/8853) 2022-05-17: [FDD] To switch on delta-ray production by [@arvindkhuntia](https://github.com/arvindkhuntia)
 ## Recent developments in O2 - EventVisualisation
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
 - [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
