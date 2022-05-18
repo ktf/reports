@@ -11,7 +11,6 @@
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#8781](https://github.com/AliceO2Group/AliceO2/pull/8781) 2022-05-12: MCH: add digit noise filtering options by [@aphecetche](https://github.com/aphecetche)
 - [\#8786](https://github.com/AliceO2Group/AliceO2/pull/8786) 2022-05-12: Adding missing resets of tables used for filling of fwdtrack and MFT tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#8787](https://github.com/AliceO2Group/AliceO2/pull/8787) 2022-05-12: ZDC: Provide channel output full sim by [@sawenzel](https://github.com/sawenzel)
 - [\#8788](https://github.com/AliceO2Group/AliceO2/pull/8788) 2022-05-11: Fix: MFT tracking must update ROF also for empty ROFs by [@shahor02](https://github.com/shahor02)
