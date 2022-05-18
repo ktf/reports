@@ -60,7 +60,6 @@
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8780](https://github.com/AliceO2Group/AliceO2/pull/8780) 2022-05-11: DPL: fix serialisation context ref by [@ktf](https://github.com/ktf)
 - [\#8783](https://github.com/AliceO2Group/AliceO2/pull/8783) 2022-05-11: DPL Analysis: simple marker column template by [@aalkin](https://github.com/aalkin)
 - [\#8793](https://github.com/AliceO2Group/AliceO2/pull/8793) 2022-05-13: DPL Analysis: Remove backward compability from combinations by [@saganatt](https://github.com/saganatt)
 - [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
