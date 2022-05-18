@@ -10,6 +10,7 @@
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
+- [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -43,6 +44,7 @@
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 - [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
+- [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8839](https://github.com/AliceO2Group/AliceO2/pull/8839) 2022-05-18: fix geometry file name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8840](https://github.com/AliceO2Group/AliceO2/pull/8840) 2022-05-18: TPC: use real time stamps for dE/dx time slot calibration by [@wiechula](https://github.com/wiechula)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
