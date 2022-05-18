@@ -12,7 +12,6 @@
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#8772](https://github.com/AliceO2Group/AliceO2/pull/8772) 2022-05-11: TPC: radial binning vector for histograms by [@wiechula](https://github.com/wiechula)
 - [\#8774](https://github.com/AliceO2Group/AliceO2/pull/8774) 2022-05-10: Fix MID tracks labels request/fetching in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#8776](https://github.com/AliceO2Group/AliceO2/pull/8776) 2022-05-12: FT0: new decoder, based on AVX512 by [@afurs](https://github.com/afurs)
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
@@ -51,6 +50,7 @@
 - [\#8851](https://github.com/AliceO2Group/AliceO2/pull/8851) 2022-05-17: Fix typo in FwdTrack table filling by [@nburmaso](https://github.com/nburmaso)
 - [\#8853](https://github.com/AliceO2Group/AliceO2/pull/8853) 2022-05-17: [FDD] To switch on delta-ray production by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#8864](https://github.com/AliceO2Group/AliceO2/pull/8864) 2022-05-18: account altro offset by [@peressounko](https://github.com/peressounko)
+- [\#8865](https://github.com/AliceO2Group/AliceO2/pull/8865) 2022-05-18: Add simcuts file for ITS by [@fmazzasc](https://github.com/fmazzasc)
 - [\#8868](https://github.com/AliceO2Group/AliceO2/pull/8868) 2022-05-17: Fixes in TPC-ITS matching: obsolete reference + out-of-bound access [O2-2909] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8773](https://github.com/AliceO2Group/AliceO2/pull/8773) 2022-05-11: Event Display: deleted not working text volumes in MCH geometry by [@mchwes](https://github.com/mchwes)
