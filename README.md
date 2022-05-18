@@ -10,6 +10,7 @@
 - [\#8777](https://github.com/AliceO2Group/AliceO2/pull/8777) 2022-05-10: Fix typo (missing fmt argument) in the NoiseMap by [@shahor02](https://github.com/shahor02)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
+- [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [\#8771](https://github.com/AliceO2Group/AliceO2/pull/8771) 2022-05-10: CTP: Make the NCOUNTERS variable constexpr by [@pnwkw](https://github.com/pnwkw)
@@ -44,6 +45,7 @@
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 - [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
+- [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
@@ -66,6 +68,9 @@
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 - [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
+- [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8850](https://github.com/AliceO2Group/AliceO2/pull/8850) 2022-05-17: DPL: add printout to report downstream congestion by [@ktf](https://github.com/ktf)
 - [\#8856](https://github.com/AliceO2Group/AliceO2/pull/8856) 2022-05-17: fixes in timestamp reporting by [@shahor02](https://github.com/shahor02)
 - [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
