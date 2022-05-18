@@ -43,6 +43,7 @@
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 - [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
+- [\#8839](https://github.com/AliceO2Group/AliceO2/pull/8839) 2022-05-18: fix geometry file name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
