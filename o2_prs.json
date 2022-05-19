@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-12T06:10:50Z",
-            "title": "Fixes for MID calibration",
-            "number": 8792,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Calibration/include/MIDCalibration/ChannelCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Calibration/src/ChannelCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/ChannelCalibratorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-13T09:08:44Z",
             "title": "DPL Analysis: Remove backward compability from combinations",
             "number": 8793,
@@ -3521,6 +3491,31 @@
                 {
                   "node": {
                     "path": "Examples/Ex1/src/B.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use Markers for clean data model",
+            "number": 8892,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
