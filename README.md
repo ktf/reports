@@ -42,6 +42,7 @@
 - [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8839](https://github.com/AliceO2Group/AliceO2/pull/8839) 2022-05-18: fix geometry file name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8840](https://github.com/AliceO2Group/AliceO2/pull/8840) 2022-05-18: TPC: use real time stamps for dE/dx time slot calibration by [@wiechula](https://github.com/wiechula)
+- [\#8841](https://github.com/AliceO2Group/AliceO2/pull/8841) 2022-05-19: MCH: filter input digits for time-clustering peak search by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
@@ -64,7 +65,6 @@
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8783](https://github.com/AliceO2Group/AliceO2/pull/8783) 2022-05-11: DPL Analysis: simple marker column template by [@aalkin](https://github.com/aalkin)
 - [\#8793](https://github.com/AliceO2Group/AliceO2/pull/8793) 2022-05-13: DPL Analysis: Remove backward compability from combinations by [@saganatt](https://github.com/saganatt)
 - [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
