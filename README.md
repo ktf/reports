@@ -74,5 +74,6 @@
 - [\#8850](https://github.com/AliceO2Group/AliceO2/pull/8850) 2022-05-17: DPL: add printout to report downstream congestion by [@ktf](https://github.com/ktf)
 - [\#8856](https://github.com/AliceO2Group/AliceO2/pull/8856) 2022-05-17: fixes in timestamp reporting by [@shahor02](https://github.com/shahor02)
 - [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
+- [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
