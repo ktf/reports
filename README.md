@@ -23,6 +23,7 @@
 - [\#8802](https://github.com/AliceO2Group/AliceO2/pull/8802) 2022-05-11: TPC: fix parameter type for sync-offset-reference by [@wiechula](https://github.com/wiechula)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
+- [\#8810](https://github.com/AliceO2Group/AliceO2/pull/8810) 2022-05-19: [EMCAL-651] Don't initialize geometry in the ClusterFactory by [@mfasDa](https://github.com/mfasDa)
 - [\#8813](https://github.com/AliceO2Group/AliceO2/pull/8813) 2022-05-13: TPC: Add function to adjust width of the color axis by [@wiechula](https://github.com/wiechula)
 - [\#8817](https://github.com/AliceO2Group/AliceO2/pull/8817) 2022-05-13: Utility for detector run status check in DCS processing + EMC example by [@shahor02](https://github.com/shahor02)
 - [\#8818](https://github.com/AliceO2Group/AliceO2/pull/8818) 2022-05-16: [EMCAL-566] Improved ROOT to boost histogram conversion  by [@jokonig](https://github.com/jokonig)
