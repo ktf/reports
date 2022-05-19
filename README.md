@@ -52,7 +52,9 @@
 - [\#8865](https://github.com/AliceO2Group/AliceO2/pull/8865) 2022-05-18: Add simcuts file for ITS by [@fmazzasc](https://github.com/fmazzasc)
 - [\#8868](https://github.com/AliceO2Group/AliceO2/pull/8868) 2022-05-17: Fixes in TPC-ITS matching: obsolete reference + out-of-bound access [O2-2909] by [@shahor02](https://github.com/shahor02)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
+- [\#8876](https://github.com/AliceO2Group/AliceO2/pull/8876) 2022-05-19: [FV0] Switch on delta ray production by [@andreasmolander](https://github.com/andreasmolander)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
+- [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 ## Recent developments in O2 - EventVisualisation
 - [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
