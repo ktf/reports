@@ -12,7 +12,6 @@
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8794](https://github.com/AliceO2Group/AliceO2/pull/8794) 2022-05-12: Synchronize MID data orbit with RDH orbit at TF limit by [@dstocco](https://github.com/dstocco)
 - [\#8795](https://github.com/AliceO2Group/AliceO2/pull/8795) 2022-05-12: MID afterburner: apply delays only to self-triggered events by [@dstocco](https://github.com/dstocco)
 - [\#8796](https://github.com/AliceO2Group/AliceO2/pull/8796) 2022-05-13: Reduce verbosity for MID tracks extrapolated out of acceptance by [@dstocco](https://github.com/dstocco)
 - [\#8797](https://github.com/AliceO2Group/AliceO2/pull/8797) 2022-05-12: Check for missing GBT links in MID raw data by [@dstocco](https://github.com/dstocco)
@@ -61,7 +60,6 @@
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8793](https://github.com/AliceO2Group/AliceO2/pull/8793) 2022-05-13: DPL Analysis: Remove backward compability from combinations by [@saganatt](https://github.com/saganatt)
 - [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 - [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)

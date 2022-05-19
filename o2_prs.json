@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-13T09:08:44Z",
-            "title": "DPL Analysis: Remove backward compability from combinations",
-            "number": 8793,
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoAHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-05-12T08:36:26Z",
-            "title": "Synchronize MID data orbit with RDH orbit at TF limit",
-            "number": 8794,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/Decoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/ELinkDataShaper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/ELinkManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/include/MIDRaw/LinkDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/ELinkDataShaper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/ELinkManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/LinkDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/RawGBTDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-12T06:09:20Z",
             "title": "MID afterburner: apply delays only to self-triggered events",
             "number": 8795,
@@ -3516,6 +3441,96 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add HMP clustering to async workflow",
+            "number": 8893,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-167: (optional) filter out MCH ROFs not matching any ITS-selected IRFrame",
+            "number": 8894,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/IRFrameFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/MultiplicityFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/ROFFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/include/MCHROFFiltering/TrackableFilter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/src/IRFrameFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/src/ROFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/ROFFiltering/src/fake-irframe-generator-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterFinderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterizerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/TimeClustering/src/TimeClusterFinderSpec.cxx"
                   }
                 }
               ]
