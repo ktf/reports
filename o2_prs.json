@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-12T06:49:31Z",
-            "title": "Check for missing GBT links in MID raw data",
-            "number": 8797,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/include/MIDQC/GBTRawDataChecker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/include/MIDQC/RawDataChecker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/src/GBTRawDataChecker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/QC/src/RawDataChecker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/RawCheckerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-16T06:53:04Z",
             "title": "Workflow to dump the MID raw data",
             "number": 8798,
@@ -3531,6 +3491,291 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Report detector contribution to CTF before/after compression",
+            "number": 8897,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/CTFIOSize.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/CTFIOSize.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/DetectorsCommonDataFormatsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/CTFCoderBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/reconstruction/include/FDDReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/include/FT0Reconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/reconstruction/include/FV0Reconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/CTFCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/include/MCHCTF/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/CTF/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/entropy-encoder-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/CTF/include/MIDCTF/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/include/TOFReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/DecoderBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/EntropyEncoderSpec.cxx"
                   }
                 }
               ]

@@ -13,7 +13,6 @@
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#8797](https://github.com/AliceO2Group/AliceO2/pull/8797) 2022-05-12: Check for missing GBT links in MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#8798](https://github.com/AliceO2Group/AliceO2/pull/8798) 2022-05-16: Workflow to dump the MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#8799](https://github.com/AliceO2Group/AliceO2/pull/8799) 2022-05-13: MFT: Use the same logic for database populators during run and during end of stream. by [@tomas-herman](https://github.com/tomas-herman)
 - [\#8800](https://github.com/AliceO2Group/AliceO2/pull/8800) 2022-05-12: IDCs: adding possibility to disable sending of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
