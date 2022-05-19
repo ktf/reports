@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Common
 - [\#8818](https://github.com/AliceO2Group/AliceO2/pull/8818) 2022-05-16: [EMCAL-566] Improved ROOT to boost histogram conversion  by [@jokonig](https://github.com/jokonig)
 - [\#8842](https://github.com/AliceO2Group/AliceO2/pull/8842) 2022-05-16: GPU: Make O2/GPU compatible to AliRoot by [@davidrohr](https://github.com/davidrohr)
+- [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
@@ -51,6 +52,7 @@
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
+- [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
@@ -69,5 +71,6 @@
 - [\#8871](https://github.com/AliceO2Group/AliceO2/pull/8871) 2022-05-19: DPL Analysis: Event mixing: time performance validation by [@saganatt](https://github.com/saganatt)
 - [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
 - [\#8884](https://github.com/AliceO2Group/AliceO2/pull/8884) 2022-05-19: DPL: print process id on error. by [@ktf](https://github.com/ktf)
+- [\#8896](https://github.com/AliceO2Group/AliceO2/pull/8896) 2022-05-19: Reduce how many timeframes the faster channel can be ahead by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
