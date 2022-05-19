@@ -55,7 +55,6 @@
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 ## Recent developments in O2 - EventVisualisation
-- [\#8789](https://github.com/AliceO2Group/AliceO2/pull/8789) 2022-05-12: Event Display: Fix run number display by [@pnwkw](https://github.com/pnwkw)
 - [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
