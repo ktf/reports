@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Modifications for adding FDD as mult selection signal",
-            "number": 667,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/EventSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/multiplicityTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/multiplicityQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-04-12T07:59:43Z",
             "title": "[RecoDecay, Event Filtering, PWGHF] Revert to daughter indices using explicitly offset",
@@ -3756,6 +3716,71 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lambdakzerofinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update of diffraction filter",
+            "number": 767,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/cutHolder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/cutHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/selectBCRange.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCQA.cxx"
                   }
                 }
               ]
