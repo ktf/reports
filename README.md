@@ -4,6 +4,7 @@
 - [\#8818](https://github.com/AliceO2Group/AliceO2/pull/8818) 2022-05-16: [EMCAL-566] Improved ROOT to boost histogram conversion  by [@jokonig](https://github.com/jokonig)
 - [\#8842](https://github.com/AliceO2Group/AliceO2/pull/8842) 2022-05-16: GPU: Make O2/GPU compatible to AliRoot by [@davidrohr](https://github.com/davidrohr)
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
+- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8829](https://github.com/AliceO2Group/AliceO2/pull/8829) 2022-05-20: Options and fixes for use of CCDB in LHCphase and channel calib  by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -13,6 +14,7 @@
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
+- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8798](https://github.com/AliceO2Group/AliceO2/pull/8798) 2022-05-16: Workflow to dump the MID raw data by [@dstocco](https://github.com/dstocco)
 - [\#8799](https://github.com/AliceO2Group/AliceO2/pull/8799) 2022-05-13: MFT: Use the same logic for database populators during run and during end of stream. by [@tomas-herman](https://github.com/tomas-herman)
@@ -55,6 +57,7 @@
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 - [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
+- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
