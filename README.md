@@ -58,13 +58,11 @@
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 - [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
