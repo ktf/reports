@@ -17,8 +17,8 @@
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
+- [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 - [\#8810](https://github.com/AliceO2Group/AliceO2/pull/8810) 2022-05-19: [EMCAL-651] Don't initialize geometry in the ClusterFactory by [@mfasDa](https://github.com/mfasDa)
 - [\#8813](https://github.com/AliceO2Group/AliceO2/pull/8813) 2022-05-13: TPC: Add function to adjust width of the color axis by [@wiechula](https://github.com/wiechula)
 - [\#8817](https://github.com/AliceO2Group/AliceO2/pull/8817) 2022-05-13: Utility for detector run status check in DCS processing + EMC example by [@shahor02](https://github.com/shahor02)
@@ -56,6 +56,7 @@
 - [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
+- [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
@@ -63,7 +64,6 @@
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8806](https://github.com/AliceO2Group/AliceO2/pull/8806) 2022-05-12: DPL: use detail level for messages which come during initialisation by [@ktf](https://github.com/ktf)
 - [\#8808](https://github.com/AliceO2Group/AliceO2/pull/8808) 2022-05-12: DPL: make FairMQDeviceProxy::bindChannels idem-potent by [@ktf](https://github.com/ktf)
 - [\#8816](https://github.com/AliceO2Group/AliceO2/pull/8816) 2022-05-13: DPL: move ServiceRegistry methods out of line by [@ktf](https://github.com/ktf)
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
