@@ -6,6 +6,7 @@
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
+- [\#8829](https://github.com/AliceO2Group/AliceO2/pull/8829) 2022-05-20: Options and fixes for use of CCDB in LHCphase and channel calib  by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
@@ -28,6 +29,7 @@
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 - [\#8825](https://github.com/AliceO2Group/AliceO2/pull/8825) 2022-05-15: Add missing includes seen by gcc 12.1.0 by [@wiechula](https://github.com/wiechula)
 - [\#8827](https://github.com/AliceO2Group/AliceO2/pull/8827) 2022-05-15: Calibration fixes; warning fixes by [@peressounko](https://github.com/peressounko)
+- [\#8829](https://github.com/AliceO2Group/AliceO2/pull/8829) 2022-05-20: Options and fixes for use of CCDB in LHCphase and channel calib  by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8830](https://github.com/AliceO2Group/AliceO2/pull/8830) 2022-05-16: ZDC FastSim: Added scoped guard and updated log info by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
@@ -52,6 +54,7 @@
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 - [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
+- [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 - [\#8809](https://github.com/AliceO2Group/AliceO2/pull/8809) 2022-05-16: o2-eve-workflow: fixed json files ordering problem by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
