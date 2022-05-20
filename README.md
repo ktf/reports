@@ -19,7 +19,6 @@
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8802](https://github.com/AliceO2Group/AliceO2/pull/8802) 2022-05-11: TPC: fix parameter type for sync-offset-reference by [@wiechula](https://github.com/wiechula)
 - [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 - [\#8810](https://github.com/AliceO2Group/AliceO2/pull/8810) 2022-05-19: [EMCAL-651] Don't initialize geometry in the ClusterFactory by [@mfasDa](https://github.com/mfasDa)
