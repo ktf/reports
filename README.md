@@ -74,5 +74,6 @@
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
 - [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8896](https://github.com/AliceO2Group/AliceO2/pull/8896) 2022-05-19: Reduce how many timeframes the faster channel can be ahead by [@ktf](https://github.com/ktf)
+- [\#8903](https://github.com/AliceO2Group/AliceO2/pull/8903) 2022-05-20: DPL: do not send the oldest possible timeframe on a per route basis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
