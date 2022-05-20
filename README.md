@@ -9,7 +9,6 @@
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8829](https://github.com/AliceO2Group/AliceO2/pull/8829) 2022-05-20: Options and fixes for use of CCDB in LHCphase and channel calib  by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
@@ -19,7 +18,6 @@
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8804](https://github.com/AliceO2Group/AliceO2/pull/8804) 2022-05-12: Fix in cluster topology Lookup::findGroupID by [@shahor02](https://github.com/shahor02)
 - [\#8805](https://github.com/AliceO2Group/AliceO2/pull/8805) 2022-05-11: Add Tree_<detlist>_ to tree-based common dictionary filename by [@shahor02](https://github.com/shahor02)
 - [\#8810](https://github.com/AliceO2Group/AliceO2/pull/8810) 2022-05-19: [EMCAL-651] Don't initialize geometry in the ClusterFactory by [@mfasDa](https://github.com/mfasDa)
 - [\#8813](https://github.com/AliceO2Group/AliceO2/pull/8813) 2022-05-13: TPC: Add function to adjust width of the color axis by [@wiechula](https://github.com/wiechula)
