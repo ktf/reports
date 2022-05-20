@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#8818](https://github.com/AliceO2Group/AliceO2/pull/8818) 2022-05-16: [EMCAL-566] Improved ROOT to boost histogram conversion  by [@jokonig](https://github.com/jokonig)
 - [\#8842](https://github.com/AliceO2Group/AliceO2/pull/8842) 2022-05-16: GPU: Make O2/GPU compatible to AliRoot by [@davidrohr](https://github.com/davidrohr)
@@ -55,6 +57,7 @@
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 - [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
+- [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
@@ -76,6 +79,7 @@
 - [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
 - [\#8884](https://github.com/AliceO2Group/AliceO2/pull/8884) 2022-05-19: DPL: print process id on error. by [@ktf](https://github.com/ktf)
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
+- [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8896](https://github.com/AliceO2Group/AliceO2/pull/8896) 2022-05-19: Reduce how many timeframes the faster channel can be ahead by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
