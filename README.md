@@ -55,6 +55,7 @@
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
+- [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
