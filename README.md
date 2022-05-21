@@ -52,6 +52,7 @@
 - [\#8894](https://github.com/AliceO2Group/AliceO2/pull/8894) 2022-05-21: MRRTF-167: (optional) filter out MCH ROFs not matching any ITS-selected IRFrame by [@aphecetche](https://github.com/aphecetche)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
+- [\#8902](https://github.com/AliceO2Group/AliceO2/pull/8902) 2022-05-21: MCH: use separate memory buffers for each CRU link by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8911](https://github.com/AliceO2Group/AliceO2/pull/8911) 2022-05-21: MCH: make background digit rejection the default (for real data) by [@aphecetche](https://github.com/aphecetche)
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
