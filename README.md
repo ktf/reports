@@ -52,7 +52,9 @@
 - [\#8894](https://github.com/AliceO2Group/AliceO2/pull/8894) 2022-05-21: MRRTF-167: (optional) filter out MCH ROFs not matching any ITS-selected IRFrame by [@aphecetche](https://github.com/aphecetche)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
+- [\#8901](https://github.com/AliceO2Group/AliceO2/pull/8901) 2022-05-21: Make FV0 reco use DPL CCDB fetcher, fix Calib path by [@shahor02](https://github.com/shahor02)
 - [\#8902](https://github.com/AliceO2Group/AliceO2/pull/8902) 2022-05-21: MCH: use separate memory buffers for each CRU link by [@aferrero2707](https://github.com/aferrero2707)
+- [\#8905](https://github.com/AliceO2Group/AliceO2/pull/8905) 2022-05-21: ITS vertexer: remove debug file generation by [@mconcas](https://github.com/mconcas)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8911](https://github.com/AliceO2Group/AliceO2/pull/8911) 2022-05-21: MCH: make background digit rejection the default (for real data) by [@aphecetche](https://github.com/aphecetche)
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
@@ -61,6 +63,7 @@
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
+- [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#8826](https://github.com/AliceO2Group/AliceO2/pull/8826) 2022-05-17: DPL Analysis: Event mixing: Add a generic getter to dynamic columns, support dynamic in mixing by [@saganatt](https://github.com/saganatt)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
