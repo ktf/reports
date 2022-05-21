@@ -18,7 +18,6 @@
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8821](https://github.com/AliceO2Group/AliceO2/pull/8821) 2022-05-14: --disable-tracking option for o2-its(mft)-reco-workflow by [@shahor02](https://github.com/shahor02)
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 - [\#8825](https://github.com/AliceO2Group/AliceO2/pull/8825) 2022-05-15: Add missing includes seen by gcc 12.1.0 by [@wiechula](https://github.com/wiechula)
 - [\#8827](https://github.com/AliceO2Group/AliceO2/pull/8827) 2022-05-15: Calibration fixes; warning fixes by [@peressounko](https://github.com/peressounko)
