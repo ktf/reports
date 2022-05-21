@@ -17,6 +17,7 @@
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
+- [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 - [\#8825](https://github.com/AliceO2Group/AliceO2/pull/8825) 2022-05-15: Add missing includes seen by gcc 12.1.0 by [@wiechula](https://github.com/wiechula)
@@ -56,6 +57,7 @@
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8911](https://github.com/AliceO2Group/AliceO2/pull/8911) 2022-05-21: MCH: make background digit rejection the default (for real data) by [@aphecetche](https://github.com/aphecetche)
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
+- [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8918](https://github.com/AliceO2Group/AliceO2/pull/8918) 2022-05-21: Raw readers should not send OldestPossibleTimeframe to raw FMQ channel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
