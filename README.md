@@ -60,7 +60,6 @@
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8918](https://github.com/AliceO2Group/AliceO2/pull/8918) 2022-05-21: Raw readers should not send OldestPossibleTimeframe to raw FMQ channel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
