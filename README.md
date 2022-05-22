@@ -59,6 +59,7 @@
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8918](https://github.com/AliceO2Group/AliceO2/pull/8918) 2022-05-21: Raw readers should not send OldestPossibleTimeframe to raw FMQ channel by [@shahor02](https://github.com/shahor02)
+- [\#8923](https://github.com/AliceO2Group/AliceO2/pull/8923) 2022-05-22: CTFReader: do not use usleep by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
@@ -81,3 +82,5 @@
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Utilities
+- [\#8920](https://github.com/AliceO2Group/AliceO2/pull/8920) 2022-05-22: Improve ShmManager logging by [@rbx](https://github.com/rbx)
