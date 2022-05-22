@@ -45,6 +45,7 @@
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
+- [\#8888](https://github.com/AliceO2Group/AliceO2/pull/8888) 2022-05-22: fix TOF digitizer bug and add tof trigger info in raw encoding from sim by [@noferini](https://github.com/noferini)
 - [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
 - [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 - [\#8894](https://github.com/AliceO2Group/AliceO2/pull/8894) 2022-05-21: MRRTF-167: (optional) filter out MCH ROFs not matching any ITS-selected IRFrame by [@aphecetche](https://github.com/aphecetche)
