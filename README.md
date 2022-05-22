@@ -19,7 +19,6 @@
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8823](https://github.com/AliceO2Group/AliceO2/pull/8823) 2022-05-13: dcs-proxy ignores empty messages by [@shahor02](https://github.com/shahor02)
 - [\#8825](https://github.com/AliceO2Group/AliceO2/pull/8825) 2022-05-15: Add missing includes seen by gcc 12.1.0 by [@wiechula](https://github.com/wiechula)
 - [\#8827](https://github.com/AliceO2Group/AliceO2/pull/8827) 2022-05-15: Calibration fixes; warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#8829](https://github.com/AliceO2Group/AliceO2/pull/8829) 2022-05-20: Options and fixes for use of CCDB in LHCphase and channel calib  by [@chiarazampolli](https://github.com/chiarazampolli)
