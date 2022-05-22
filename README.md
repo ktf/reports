@@ -60,7 +60,6 @@
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8918](https://github.com/AliceO2Group/AliceO2/pull/8918) 2022-05-21: Raw readers should not send OldestPossibleTimeframe to raw FMQ channel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#8822](https://github.com/AliceO2Group/AliceO2/pull/8822) 2022-05-15: Event Display: Detectors label and logo graphics loading fix by [@mchwes](https://github.com/mchwes)
 - [\#8824](https://github.com/AliceO2Group/AliceO2/pull/8824) 2022-05-14: Event Display: Fix drawn TPC cluster position by [@pnwkw](https://github.com/pnwkw)
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
@@ -80,5 +79,6 @@
 - [\#8903](https://github.com/AliceO2Group/AliceO2/pull/8903) 2022-05-20: DPL: do not send the oldest possible timeframe on a per route basis by [@ktf](https://github.com/ktf)
 - [\#8914](https://github.com/AliceO2Group/AliceO2/pull/8914) 2022-05-21: DPL: make sure any output-proxy is last in the topology by [@ktf](https://github.com/ktf)
 - [\#8919](https://github.com/AliceO2Group/AliceO2/pull/8919) 2022-05-21: DPL: always broadcast the oldest possible timeframe when forwarding by [@ktf](https://github.com/ktf)
+- [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
