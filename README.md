@@ -22,7 +22,6 @@
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
 - [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8839](https://github.com/AliceO2Group/AliceO2/pull/8839) 2022-05-18: fix geometry file name by [@chiarazampolli](https://github.com/chiarazampolli)
