@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 - [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#8842](https://github.com/AliceO2Group/AliceO2/pull/8842) 2022-05-16: GPU: Make O2/GPU compatible to AliRoot by [@davidrohr](https://github.com/davidrohr)
 - [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
@@ -75,6 +74,7 @@
 - [\#8914](https://github.com/AliceO2Group/AliceO2/pull/8914) 2022-05-21: DPL: make sure any output-proxy is last in the topology by [@ktf](https://github.com/ktf)
 - [\#8919](https://github.com/AliceO2Group/AliceO2/pull/8919) 2022-05-21: DPL: always broadcast the oldest possible timeframe when forwarding by [@ktf](https://github.com/ktf)
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
+- [\#8932](https://github.com/AliceO2Group/AliceO2/pull/8932) 2022-05-23: DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
