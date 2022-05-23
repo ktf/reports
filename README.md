@@ -21,7 +21,6 @@
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8841](https://github.com/AliceO2Group/AliceO2/pull/8841) 2022-05-19: MCH: filter input digits for time-clustering peak search by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
