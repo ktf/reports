@@ -58,6 +58,7 @@
 - [\#8902](https://github.com/AliceO2Group/AliceO2/pull/8902) 2022-05-21: MCH: use separate memory buffers for each CRU link by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8905](https://github.com/AliceO2Group/AliceO2/pull/8905) 2022-05-21: ITS vertexer: remove debug file generation by [@mconcas](https://github.com/mconcas)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
+- [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8911](https://github.com/AliceO2Group/AliceO2/pull/8911) 2022-05-21: MCH: make background digit rejection the default (for real data) by [@aphecetche](https://github.com/aphecetche)
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
@@ -85,5 +86,6 @@
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8834](https://github.com/AliceO2Group/AliceO2/pull/8834) 2022-05-18: Adapt DPL CCDB fetcher to ConfigurableParam + few use cases by [@shahor02](https://github.com/shahor02)
+- [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
 - [\#8920](https://github.com/AliceO2Group/AliceO2/pull/8920) 2022-05-22: Improve ShmManager logging by [@rbx](https://github.com/rbx)
