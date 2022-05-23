@@ -4,181 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-05-18T10:52:18Z",
-            "title": "CPV: add gain calibrator",
-            "number": 8837,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/Hit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/src/Hit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVCalibParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/include/CPVBase/CPVSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/src/CPVBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/base/src/CPVCalibParams.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CPVCalibWorkflow/src/CPVGainCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/CPVCalibWorkflow/src/CPVPedestalCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/GainCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/NoiseCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/include/CPVCalibration/PedestalCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/macros/readCalibParamsFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/macros/readGainCalibDataFromCCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/CPVCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/GainCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/NoiseCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/src/PedestalCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/GainCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/PedestalCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/calib/testWorkflow/cpv-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/Clusterer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/FullCluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/RawDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/simulation/src/RawCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/ClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/cpv-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "aod-producer: make out-of-bound access to MCH tracks non fatal",
@@ -3801,6 +3626,26 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/workflow/src/ZDCRecoWriterDPLSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Extend bcRanges with method to check if a given value is in one of the maintained ranges",
+            "number": 8937,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/BCRange.h"
                   }
                 }
               ]

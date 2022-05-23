@@ -11,7 +11,6 @@
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
@@ -22,7 +21,6 @@
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8837](https://github.com/AliceO2Group/AliceO2/pull/8837) 2022-05-18: CPV: add gain calibrator by [@sevdokim](https://github.com/sevdokim)
 - [\#8839](https://github.com/AliceO2Group/AliceO2/pull/8839) 2022-05-18: fix geometry file name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#8840](https://github.com/AliceO2Group/AliceO2/pull/8840) 2022-05-18: TPC: use real time stamps for dE/dx time slot calibration by [@wiechula](https://github.com/wiechula)
 - [\#8841](https://github.com/AliceO2Group/AliceO2/pull/8841) 2022-05-19: MCH: filter input digits for time-clustering peak search by [@aferrero2707](https://github.com/aferrero2707)
