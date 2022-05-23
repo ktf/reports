@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-15T19:21:37Z",
-            "title": "Pass-trough mode for PVertexer, use it in cosmic",
-            "number": 8832,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/PrimaryVertexingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-17T05:09:09Z",
             "title": "MCH: some refactoring (mainly moving things around)",
             "number": 8833,
@@ -3761,6 +3726,26 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks",
+            "number": 8932,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
