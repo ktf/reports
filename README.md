@@ -22,7 +22,6 @@
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8830](https://github.com/AliceO2Group/AliceO2/pull/8830) 2022-05-16: ZDC FastSim: Added scoped guard and updated log info by [@SwirtaB](https://github.com/SwirtaB)
 - [\#8831](https://github.com/AliceO2Group/AliceO2/pull/8831) 2022-05-14: Templatize some ITS methods, as needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#8832](https://github.com/AliceO2Group/AliceO2/pull/8832) 2022-05-15: Pass-trough mode for PVertexer, use it in cosmic by [@shahor02](https://github.com/shahor02)
 - [\#8833](https://github.com/AliceO2Group/AliceO2/pull/8833) 2022-05-17: MCH: some refactoring (mainly moving things around) by [@aphecetche](https://github.com/aphecetche)
