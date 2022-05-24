@@ -6,6 +6,7 @@
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
+- [\#8910](https://github.com/AliceO2Group/AliceO2/pull/8910) 2022-05-24: Enable TTree support in CcdbApi and upload tool + fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
@@ -51,6 +52,7 @@
 - [\#8922](https://github.com/AliceO2Group/AliceO2/pull/8922) 2022-05-23: MCH: electronic mapping fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8923](https://github.com/AliceO2Group/AliceO2/pull/8923) 2022-05-22: CTFReader: do not use usleep by [@ktf](https://github.com/ktf)
 - [\#8928](https://github.com/AliceO2Group/AliceO2/pull/8928) 2022-05-22: Temporarily disable consumeWhenAllOrdered Policy for ctf-writer by [@davidrohr](https://github.com/davidrohr)
+- [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
 - [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
