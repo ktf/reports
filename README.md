@@ -49,6 +49,7 @@
 - [\#8923](https://github.com/AliceO2Group/AliceO2/pull/8923) 2022-05-22: CTFReader: do not use usleep by [@ktf](https://github.com/ktf)
 - [\#8928](https://github.com/AliceO2Group/AliceO2/pull/8928) 2022-05-22: Temporarily disable consumeWhenAllOrdered Policy for ctf-writer by [@davidrohr](https://github.com/davidrohr)
 - [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
+- [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#8867](https://github.com/AliceO2Group/AliceO2/pull/8867) 2022-05-18: Event Display: Added TPC eta range removal by [@pnwkw](https://github.com/pnwkw)
@@ -73,3 +74,4 @@
 - [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
 - [\#8920](https://github.com/AliceO2Group/AliceO2/pull/8920) 2022-05-22: Improve ShmManager logging by [@rbx](https://github.com/rbx)
+- [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
