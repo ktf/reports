@@ -1,16 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
 - [\#8892](https://github.com/AliceO2Group/AliceO2/pull/8892) 2022-05-20: Use Markers for clean data model by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8875](https://github.com/AliceO2Group/AliceO2/pull/8875) 2022-05-23: Do not use MCTruthContainer for MID reconstructed track labels by [@dstocco](https://github.com/dstocco)
@@ -20,7 +16,6 @@
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#8843](https://github.com/AliceO2Group/AliceO2/pull/8843) 2022-05-22: Add GPU decoder for link based ZS. by [@fweig](https://github.com/fweig)
 - [\#8844](https://github.com/AliceO2Group/AliceO2/pull/8844) 2022-05-17: Executable to query or upload MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#8845](https://github.com/AliceO2Group/AliceO2/pull/8845) 2022-05-17: Fixes for Doxygen by [@dstocco](https://github.com/dstocco)
 - [\#8846](https://github.com/AliceO2Group/AliceO2/pull/8846) 2022-05-17: MCH: rename a method to avoid confusion by [@aphecetche](https://github.com/aphecetche)
