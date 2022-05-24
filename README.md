@@ -15,6 +15,7 @@
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
+- [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
 - [\#8851](https://github.com/AliceO2Group/AliceO2/pull/8851) 2022-05-17: Fix typo in FwdTrack table filling by [@nburmaso](https://github.com/nburmaso)
 - [\#8853](https://github.com/AliceO2Group/AliceO2/pull/8853) 2022-05-17: [FDD] To switch on delta-ray production by [@arvindkhuntia](https://github.com/arvindkhuntia)
