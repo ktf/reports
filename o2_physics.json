@@ -5,206 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-10T20:31:22Z",
-            "title": "DPG: extend track selection",
-            "number": 691,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-trackselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/TrackSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackselection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/trackqa.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaEventTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaImpPar.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/jetFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/filterCorrelations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/flowGenericFramework.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/LFTreeCreatorNuclei.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/NucleiSpectraEfficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/NucleiSpectraEfficiencyLight.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/NucleiSpectraTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/mcspectraefficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTPCPiKaPr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTPCtinyPiKaPr.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/trackchecks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCQA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/upcAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/pidMLProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/qaPid.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/qaPidML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/simpleApplyPidOnnxModel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/OpenData/flowAnalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraNucleiProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraNucleiReference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraTPCProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraTPCReference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraUPCProvider.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/Skimming/spectraUPCReference.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/multiplicityEventTrackSelection.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-26T21:13:41Z",
             "title": "Output table of CEFP (first implementation)",
             "number": 692,
@@ -3656,6 +3456,26 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add MC process to nuclei task",
+            "number": 791,
+            "author": {
+              "login": "giovannimalfattore"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/LFNucleiBATask.cxx"
                   }
                 }
               ]
