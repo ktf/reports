@@ -17,7 +17,6 @@
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
-- [\#8853](https://github.com/AliceO2Group/AliceO2/pull/8853) 2022-05-17: [FDD] To switch on delta-ray production by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#8864](https://github.com/AliceO2Group/AliceO2/pull/8864) 2022-05-18: account altro offset by [@peressounko](https://github.com/peressounko)
 - [\#8865](https://github.com/AliceO2Group/AliceO2/pull/8865) 2022-05-18: Add simcuts file for ITS by [@fmazzasc](https://github.com/fmazzasc)
 - [\#8868](https://github.com/AliceO2Group/AliceO2/pull/8868) 2022-05-17: Fixes in TPC-ITS matching: obsolete reference + out-of-bound access [O2-2909] by [@shahor02](https://github.com/shahor02)
