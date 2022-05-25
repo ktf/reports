@@ -19,7 +19,6 @@
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
-- [\#8868](https://github.com/AliceO2Group/AliceO2/pull/8868) 2022-05-17: Fixes in TPC-ITS matching: obsolete reference + out-of-bound access [O2-2909] by [@shahor02](https://github.com/shahor02)
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8875](https://github.com/AliceO2Group/AliceO2/pull/8875) 2022-05-23: Do not use MCTruthContainer for MID reconstructed track labels by [@dstocco](https://github.com/dstocco)
 - [\#8876](https://github.com/AliceO2Group/AliceO2/pull/8876) 2022-05-19: [FV0] Switch on delta ray production by [@andreasmolander](https://github.com/andreasmolander)
