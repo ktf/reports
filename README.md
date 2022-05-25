@@ -59,7 +59,6 @@
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#8871](https://github.com/AliceO2Group/AliceO2/pull/8871) 2022-05-19: DPL Analysis: Event mixing: time performance validation by [@saganatt](https://github.com/saganatt)
 - [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
 - [\#8884](https://github.com/AliceO2Group/AliceO2/pull/8884) 2022-05-19: DPL: print process id on error. by [@ktf](https://github.com/ktf)
 - [\#8886](https://github.com/AliceO2Group/AliceO2/pull/8886) 2022-05-20: DPL: truncate facility name if > 32 chars by [@ktf](https://github.com/ktf)
