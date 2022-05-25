@@ -7,6 +7,7 @@
 - [\#8887](https://github.com/AliceO2Group/AliceO2/pull/8887) 2022-05-19: Use gSystem->Exec instead of boost::process::child by [@shahor02](https://github.com/shahor02)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8910](https://github.com/AliceO2Group/AliceO2/pull/8910) 2022-05-24: Enable TTree support in CcdbApi and upload tool + fixes by [@shahor02](https://github.com/shahor02)
+- [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8872](https://github.com/AliceO2Group/AliceO2/pull/8872) 2022-05-18: [EMCAL-551] Use std::round for energy and time truncation by [@mfasDa](https://github.com/mfasDa)
 - [\#8875](https://github.com/AliceO2Group/AliceO2/pull/8875) 2022-05-23: Do not use MCTruthContainer for MID reconstructed track labels by [@dstocco](https://github.com/dstocco)
@@ -54,7 +55,6 @@
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
 - [\#8871](https://github.com/AliceO2Group/AliceO2/pull/8871) 2022-05-19: DPL Analysis: Event mixing: time performance validation by [@saganatt](https://github.com/saganatt)
 - [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
 - [\#8884](https://github.com/AliceO2Group/AliceO2/pull/8884) 2022-05-19: DPL: print process id on error. by [@ktf](https://github.com/ktf)
@@ -67,6 +67,9 @@
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
 - [\#8932](https://github.com/AliceO2Group/AliceO2/pull/8932) 2022-05-23: DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks by [@ktf](https://github.com/ktf)
 - [\#8942](https://github.com/AliceO2Group/AliceO2/pull/8942) 2022-05-24: DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8 by [@davidrohr](https://github.com/davidrohr)
+- [\#8943](https://github.com/AliceO2Group/AliceO2/pull/8943) 2022-05-25: Fix for EPN ctf writer ordering which works on FLP by [@ktf](https://github.com/ktf)
+- [\#8951](https://github.com/AliceO2Group/AliceO2/pull/8951) 2022-05-25: Increase DEFAULT_PIPELINE_LENGTH to 128 by [@davidrohr](https://github.com/davidrohr)
+- [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 ## Recent developments in O2 - Utilities
