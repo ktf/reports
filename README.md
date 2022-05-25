@@ -54,7 +54,6 @@
 - [\#8873](https://github.com/AliceO2Group/AliceO2/pull/8873) 2022-05-18: Event Display: Change the default minimum amount of tracks for JSON production to at least one by [@pnwkw](https://github.com/pnwkw)
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#8856](https://github.com/AliceO2Group/AliceO2/pull/8856) 2022-05-17: fixes in timestamp reporting by [@shahor02](https://github.com/shahor02)
 - [\#8860](https://github.com/AliceO2Group/AliceO2/pull/8860) 2022-05-17: DPL: fix out of bound access in DataDescriptorQueryBuilder by [@ktf](https://github.com/ktf)
 - [\#8871](https://github.com/AliceO2Group/AliceO2/pull/8871) 2022-05-19: DPL Analysis: Event mixing: time performance validation by [@saganatt](https://github.com/saganatt)
 - [\#8883](https://github.com/AliceO2Group/AliceO2/pull/8883) 2022-05-19: DPL: improve per timeslice / timer printout by [@ktf](https://github.com/ktf)
