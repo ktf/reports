@@ -17,7 +17,6 @@
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 - [\#8881](https://github.com/AliceO2Group/AliceO2/pull/8881) 2022-05-25: [MID] add configurable params and protection against too many tracks by [@pillot](https://github.com/pillot)
 - [\#8888](https://github.com/AliceO2Group/AliceO2/pull/8888) 2022-05-22: fix TOF digitizer bug and add tof trigger info in raw encoding from sim by [@noferini](https://github.com/noferini)
