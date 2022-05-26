@@ -16,6 +16,7 @@
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
+- [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
@@ -46,6 +47,7 @@
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
+- [\#8941](https://github.com/AliceO2Group/AliceO2/pull/8941) 2022-05-26: [EMCAL-556] minor improvements in EMCAL DCS DP processing by [@mpoghos](https://github.com/mpoghos)
 - [\#8956](https://github.com/AliceO2Group/AliceO2/pull/8956) 2022-05-26: Compile AVX512 decoder only in FLP builds by [@sawenzel](https://github.com/sawenzel)
 - [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
@@ -53,6 +55,7 @@
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 - [\#8965](https://github.com/AliceO2Group/AliceO2/pull/8965) 2022-05-25: Reduce verbosity, throttle warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8966](https://github.com/AliceO2Group/AliceO2/pull/8966) 2022-05-25: Revert "Temporarily disable consumeWhenAllOrdered Policy for ctf-writer" by [@davidrohr](https://github.com/davidrohr)
+- [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 - [\#8970](https://github.com/AliceO2Group/AliceO2/pull/8970) 2022-05-25: Fix include in makeMFTCCDBEntryForDCS.C by [@shahor02](https://github.com/shahor02)
 - [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
