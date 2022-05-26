@@ -9,6 +9,7 @@
 - [\#8910](https://github.com/AliceO2Group/AliceO2/pull/8910) 2022-05-24: Enable TTree support in CcdbApi and upload tool + fixes by [@shahor02](https://github.com/shahor02)
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
+- [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
@@ -53,6 +54,7 @@
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 - [\#8970](https://github.com/AliceO2Group/AliceO2/pull/8970) 2022-05-25: Fix include in makeMFTCCDBEntryForDCS.C by [@shahor02](https://github.com/shahor02)
 - [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
+- [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
@@ -66,6 +68,7 @@
 - [\#8919](https://github.com/AliceO2Group/AliceO2/pull/8919) 2022-05-21: DPL: always broadcast the oldest possible timeframe when forwarding by [@ktf](https://github.com/ktf)
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
 - [\#8932](https://github.com/AliceO2Group/AliceO2/pull/8932) 2022-05-23: DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks by [@ktf](https://github.com/ktf)
+- [\#8933](https://github.com/AliceO2Group/AliceO2/pull/8933) 2022-05-26: Make sure that we can dump at the same time mermaid and o2-control by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8942](https://github.com/AliceO2Group/AliceO2/pull/8942) 2022-05-24: DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8 by [@davidrohr](https://github.com/davidrohr)
 - [\#8943](https://github.com/AliceO2Group/AliceO2/pull/8943) 2022-05-25: Fix for EPN ctf writer ordering which works on FLP by [@ktf](https://github.com/ktf)
 - [\#8945](https://github.com/AliceO2Group/AliceO2/pull/8945) 2022-05-26: DPL Analysis: add int8 and int16 to Variant/Configurable by [@aalkin](https://github.com/aalkin)
