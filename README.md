@@ -17,7 +17,6 @@
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8881](https://github.com/AliceO2Group/AliceO2/pull/8881) 2022-05-25: [MID] add configurable params and protection against too many tracks by [@pillot](https://github.com/pillot)
 - [\#8888](https://github.com/AliceO2Group/AliceO2/pull/8888) 2022-05-22: fix TOF digitizer bug and add tof trigger info in raw encoding from sim by [@noferini](https://github.com/noferini)
 - [\#8889](https://github.com/AliceO2Group/AliceO2/pull/8889) 2022-05-23: Changing CcdbApi to ccdb-populator for uploading to CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8890](https://github.com/AliceO2Group/AliceO2/pull/8890) 2022-05-19: Use HBFUtilsInitializer in FIT digit reader workflows by [@shahor02](https://github.com/shahor02)
