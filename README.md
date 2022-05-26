@@ -10,7 +10,6 @@
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
@@ -18,7 +17,6 @@
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
 - [\#8881](https://github.com/AliceO2Group/AliceO2/pull/8881) 2022-05-25: [MID] add configurable params and protection against too many tracks by [@pillot](https://github.com/pillot)
