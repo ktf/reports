@@ -71,6 +71,7 @@
 - [\#8932](https://github.com/AliceO2Group/AliceO2/pull/8932) 2022-05-23: DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks by [@ktf](https://github.com/ktf)
 - [\#8942](https://github.com/AliceO2Group/AliceO2/pull/8942) 2022-05-24: DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8 by [@davidrohr](https://github.com/davidrohr)
 - [\#8943](https://github.com/AliceO2Group/AliceO2/pull/8943) 2022-05-25: Fix for EPN ctf writer ordering which works on FLP by [@ktf](https://github.com/ktf)
+- [\#8945](https://github.com/AliceO2Group/AliceO2/pull/8945) 2022-05-26: DPL Analysis: add int8 and int16 to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#8947](https://github.com/AliceO2Group/AliceO2/pull/8947) 2022-05-25: [O2-2962] DPL Analysis: prevent crashing when grouping result is empty by [@aalkin](https://github.com/aalkin)
 - [\#8951](https://github.com/AliceO2Group/AliceO2/pull/8951) 2022-05-25: Increase DEFAULT_PIPELINE_LENGTH to 128 by [@davidrohr](https://github.com/davidrohr)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
