@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-04-22T15:04:25Z",
-            "title": "Added GFW symmetric cumulants",
-            "number": 694,
-            "author": {
-              "login": "EmilGorm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/flowGenericFramework.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-04-28T17:20:52Z",
             "title": "[RecoDecay, Event Filtering, PWGHF] Revert to MC particle slices",
             "number": 695,
@@ -3461,6 +3441,46 @@
                 {
                   "node": {
                     "path": "PWGMM/Tasks/flatenicityFV0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move QA tasks for PIDMC to DPG",
+            "number": 794,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaEventTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaPIDTOFMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/qaPIDTPCMC.cxx"
                   }
                 }
               ]
