@@ -17,7 +17,6 @@
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
-- [\#8876](https://github.com/AliceO2Group/AliceO2/pull/8876) 2022-05-19: [FV0] Switch on delta ray production by [@andreasmolander](https://github.com/andreasmolander)
 - [\#8877](https://github.com/AliceO2Group/AliceO2/pull/8877) 2022-05-19: Changes to TPC improved link-based zs format as discussed with Torsten and Jens by [@davidrohr](https://github.com/davidrohr)
 - [\#8878](https://github.com/AliceO2Group/AliceO2/pull/8878) 2022-05-19: Do not include ZDC fastsim pointers in dictionary by [@sawenzel](https://github.com/sawenzel)
 - [\#8880](https://github.com/AliceO2Group/AliceO2/pull/8880) 2022-05-19: Fix the new CruId num for the decoding, after the S/N change by [@fapfap69](https://github.com/fapfap69)
@@ -55,6 +54,7 @@
 - [\#8965](https://github.com/AliceO2Group/AliceO2/pull/8965) 2022-05-25: Reduce verbosity, throttle warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8966](https://github.com/AliceO2Group/AliceO2/pull/8966) 2022-05-25: Revert "Temporarily disable consumeWhenAllOrdered Policy for ctf-writer" by [@davidrohr](https://github.com/davidrohr)
 - [\#8970](https://github.com/AliceO2Group/AliceO2/pull/8970) 2022-05-25: Fix include in makeMFTCCDBEntryForDCS.C by [@shahor02](https://github.com/shahor02)
+- [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
