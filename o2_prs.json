@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-19T07:32:34Z",
-            "title": "Enabling parsing of SELF_SLICE_INDEX_COLUMN and SELF_ARRAY_INDEX_COLUMN",
-            "number": 8879,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/ALICEO2includeFile.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-19T06:43:33Z",
             "title": "Fix the new CruId num for the decoding, after the S/N change",
             "number": 8880,
@@ -3671,6 +3651,41 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC gain map using tracks: use every nth TF",
+            "number": 8979,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/doc/CalibPadGainTracks.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibPadGainTracks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalibPadGainTracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadGainTracksSpec.h"
                   }
                 }
               ]
