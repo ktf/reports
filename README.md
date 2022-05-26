@@ -47,6 +47,8 @@
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
+- [\#8956](https://github.com/AliceO2Group/AliceO2/pull/8956) 2022-05-26: Compile AVX512 decoder only in FLP builds by [@sawenzel](https://github.com/sawenzel)
+- [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
 - [\#8961](https://github.com/AliceO2Group/AliceO2/pull/8961) 2022-05-25: Raise deadbeef warning to alarm, expose subspec in DPLRawSequencer, print deadbeef message for TPC by [@davidrohr](https://github.com/davidrohr)
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
