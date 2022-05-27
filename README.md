@@ -56,6 +56,7 @@
 - [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
