@@ -76,6 +76,7 @@
 - [\#8963](https://github.com/AliceO2Group/AliceO2/pull/8963) 2022-05-25: DPL: reduce severity of debug message by [@ktf](https://github.com/ktf)
 - [\#8968](https://github.com/AliceO2Group/AliceO2/pull/8968) 2022-05-25: DPL: fix leak websocket parsing by [@ktf](https://github.com/ktf)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
+- [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
