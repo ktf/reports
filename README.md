@@ -7,6 +7,7 @@
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
+- [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
@@ -50,6 +51,8 @@
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
+- [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
+- [\#8992](https://github.com/AliceO2Group/AliceO2/pull/8992) 2022-05-27: Fix MFT DCS DP processor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
