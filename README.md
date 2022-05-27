@@ -16,7 +16,6 @@
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8894](https://github.com/AliceO2Group/AliceO2/pull/8894) 2022-05-21: MRRTF-167: (optional) filter out MCH ROFs not matching any ITS-selected IRFrame by [@aphecetche](https://github.com/aphecetche)
 - [\#8895](https://github.com/AliceO2Group/AliceO2/pull/8895) 2022-05-20: Trivial change to ITS thr calibrator by [@iravasen](https://github.com/iravasen)
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8901](https://github.com/AliceO2Group/AliceO2/pull/8901) 2022-05-21: Make FV0 reco use DPL CCDB fetcher, fix Calib path by [@shahor02](https://github.com/shahor02)
