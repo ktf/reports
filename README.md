@@ -8,6 +8,7 @@
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
+- [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
@@ -75,6 +76,7 @@
 - [\#8961](https://github.com/AliceO2Group/AliceO2/pull/8961) 2022-05-25: Raise deadbeef warning to alarm, expose subspec in DPLRawSequencer, print deadbeef message for TPC by [@davidrohr](https://github.com/davidrohr)
 - [\#8963](https://github.com/AliceO2Group/AliceO2/pull/8963) 2022-05-25: DPL: reduce severity of debug message by [@ktf](https://github.com/ktf)
 - [\#8968](https://github.com/AliceO2Group/AliceO2/pull/8968) 2022-05-25: DPL: fix leak websocket parsing by [@ktf](https://github.com/ktf)
+- [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8907](https://github.com/AliceO2Group/AliceO2/pull/8907) 2022-05-23: Rename CCDB path by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
