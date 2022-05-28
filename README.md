@@ -71,6 +71,7 @@
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
+- [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
