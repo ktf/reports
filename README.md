@@ -50,6 +50,7 @@
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#8997](https://github.com/AliceO2Group/AliceO2/pull/8997) 2022-05-28: TPC: Fix, on-the fly ZS enoding should use 12 bit mode by [@davidrohr](https://github.com/davidrohr)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
+- [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
