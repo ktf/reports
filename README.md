@@ -49,12 +49,14 @@
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
+- [\#8986](https://github.com/AliceO2Group/AliceO2/pull/8986) 2022-05-28: Update FST simulation, reduce InfoLogger flood by [@davidrohr](https://github.com/davidrohr)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 - [\#8992](https://github.com/AliceO2Group/AliceO2/pull/8992) 2022-05-27: Fix MFT DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8994](https://github.com/AliceO2Group/AliceO2/pull/8994) 2022-05-27: Fix TOF DCS DP processing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
+- [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#8896](https://github.com/AliceO2Group/AliceO2/pull/8896) 2022-05-19: Reduce how many timeframes the faster channel can be ahead by [@ktf](https://github.com/ktf)
 - [\#8903](https://github.com/AliceO2Group/AliceO2/pull/8903) 2022-05-20: DPL: do not send the oldest possible timeframe on a per route basis by [@ktf](https://github.com/ktf)
