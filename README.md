@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8910](https://github.com/AliceO2Group/AliceO2/pull/8910) 2022-05-24: Enable TTree support in CcdbApi and upload tool + fixes by [@shahor02](https://github.com/shahor02)
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
@@ -9,14 +8,12 @@
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8906](https://github.com/AliceO2Group/AliceO2/pull/8906) 2022-05-20: CreateTracksVariadic proposes TPC tracks last by [@shahor02](https://github.com/shahor02)
 - [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#8897](https://github.com/AliceO2Group/AliceO2/pull/8897) 2022-05-20: Report detector contribution to CTF before/after compression by [@shahor02](https://github.com/shahor02)
 - [\#8901](https://github.com/AliceO2Group/AliceO2/pull/8901) 2022-05-21: Make FV0 reco use DPL CCDB fetcher, fix Calib path by [@shahor02](https://github.com/shahor02)
 - [\#8902](https://github.com/AliceO2Group/AliceO2/pull/8902) 2022-05-21: MCH: use separate memory buffers for each CRU link by [@aferrero2707](https://github.com/aferrero2707)
 - [\#8905](https://github.com/AliceO2Group/AliceO2/pull/8905) 2022-05-21: ITS vertexer: remove debug file generation by [@mconcas](https://github.com/mconcas)
