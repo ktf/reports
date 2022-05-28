@@ -9,14 +9,12 @@
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#8908](https://github.com/AliceO2Group/AliceO2/pull/8908) 2022-05-23: Fix a bunch of pedantic warnings by [@mconcas](https://github.com/mconcas)
 - [\#8909](https://github.com/AliceO2Group/AliceO2/pull/8909) 2022-05-25: MRRTF-173: cluster transformer now reads geometry from CCDB by default by [@aphecetche](https://github.com/aphecetche)
 - [\#8911](https://github.com/AliceO2Group/AliceO2/pull/8911) 2022-05-21: MCH: make background digit rejection the default (for real data) by [@aphecetche](https://github.com/aphecetche)
 - [\#8913](https://github.com/AliceO2Group/AliceO2/pull/8913) 2022-05-20: [EMCAL-534] Skip pages which throw exceptions in page decoding by [@mfasDa](https://github.com/mfasDa)
