@@ -53,7 +53,6 @@
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#8903](https://github.com/AliceO2Group/AliceO2/pull/8903) 2022-05-20: DPL: do not send the oldest possible timeframe on a per route basis by [@ktf](https://github.com/ktf)
 - [\#8914](https://github.com/AliceO2Group/AliceO2/pull/8914) 2022-05-21: DPL: make sure any output-proxy is last in the topology by [@ktf](https://github.com/ktf)
 - [\#8919](https://github.com/AliceO2Group/AliceO2/pull/8919) 2022-05-21: DPL: always broadcast the oldest possible timeframe when forwarding by [@ktf](https://github.com/ktf)
 - [\#8921](https://github.com/AliceO2Group/AliceO2/pull/8921) 2022-05-22: DPL: make sure we send the oldest possible timeframe only after forwarding everything by [@ktf](https://github.com/ktf)
