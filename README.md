@@ -50,6 +50,7 @@
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 - [\#8992](https://github.com/AliceO2Group/AliceO2/pull/8992) 2022-05-27: Fix MFT DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8994](https://github.com/AliceO2Group/AliceO2/pull/8994) 2022-05-27: Fix TOF DCS DP processing by [@shahor02](https://github.com/shahor02)
+- [\#8997](https://github.com/AliceO2Group/AliceO2/pull/8997) 2022-05-28: TPC: Fix, on-the fly ZS enoding should use 12 bit mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8900](https://github.com/AliceO2Group/AliceO2/pull/8900) 2022-05-21: o2-eve: added geometry files by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
