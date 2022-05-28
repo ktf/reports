@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#8910](https://github.com/AliceO2Group/AliceO2/pull/8910) 2022-05-24: Enable TTree support in CcdbApi and upload tool + fixes by [@shahor02](https://github.com/shahor02)
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
