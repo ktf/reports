@@ -51,6 +51,7 @@
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
 - [\#9012](https://github.com/AliceO2Group/AliceO2/pull/9012) 2022-05-29: Fix: GRPLHCIFData should be stored in GLO/Config/GRPLHCIF by [@shahor02](https://github.com/shahor02)
+- [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#8926](https://github.com/AliceO2Group/AliceO2/pull/8926) 2022-05-25: o2-eve-workflow: generating phos, by [@jmyrcha](https://github.com/jmyrcha)
