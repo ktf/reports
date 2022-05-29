@@ -18,7 +18,6 @@
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#8918](https://github.com/AliceO2Group/AliceO2/pull/8918) 2022-05-21: Raw readers should not send OldestPossibleTimeframe to raw FMQ channel by [@shahor02](https://github.com/shahor02)
 - [\#8922](https://github.com/AliceO2Group/AliceO2/pull/8922) 2022-05-23: MCH: electronic mapping fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8923](https://github.com/AliceO2Group/AliceO2/pull/8923) 2022-05-22: CTFReader: do not use usleep by [@ktf](https://github.com/ktf)
 - [\#8928](https://github.com/AliceO2Group/AliceO2/pull/8928) 2022-05-22: Temporarily disable consumeWhenAllOrdered Policy for ctf-writer by [@davidrohr](https://github.com/davidrohr)
