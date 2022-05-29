@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#8974](https://github.com/AliceO2Group/AliceO2/pull/8974) 2022-05-29: Fix deprecated inheritance from std::iterator by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
