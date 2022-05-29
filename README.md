@@ -6,11 +6,13 @@
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
+- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#8917](https://github.com/AliceO2Group/AliceO2/pull/8917) 2022-05-21: CreateVariadic will report which source has negative (wrong) getBCDiff by [@shahor02](https://github.com/shahor02)
 - [\#8938](https://github.com/AliceO2Group/AliceO2/pull/8938) 2022-05-24: Added method to test if a given BC is in one of the BC ranges by [@pbuehler](https://github.com/pbuehler)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
+- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
@@ -40,6 +42,7 @@
 - [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
 - [\#8986](https://github.com/AliceO2Group/AliceO2/pull/8986) 2022-05-28: Update FST simulation, reduce InfoLogger flood by [@davidrohr](https://github.com/davidrohr)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
+- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8992](https://github.com/AliceO2Group/AliceO2/pull/8992) 2022-05-27: Fix MFT DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8994](https://github.com/AliceO2Group/AliceO2/pull/8994) 2022-05-27: Fix TOF DCS DP processing by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
@@ -67,6 +70,7 @@
 - [\#8968](https://github.com/AliceO2Group/AliceO2/pull/8968) 2022-05-25: DPL: fix leak websocket parsing by [@ktf](https://github.com/ktf)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
+- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
 - [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
