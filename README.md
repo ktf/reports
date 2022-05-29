@@ -71,6 +71,7 @@
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
 - [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
+- [\#8999](https://github.com/AliceO2Group/AliceO2/pull/8999) 2022-05-29: DPL: improve silent data dropping message by [@ktf](https://github.com/ktf)
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
 - [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
