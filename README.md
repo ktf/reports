@@ -87,5 +87,4 @@
 ## Recent developments in O2 - Steer
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#8920](https://github.com/AliceO2Group/AliceO2/pull/8920) 2022-05-22: Improve ShmManager logging by [@rbx](https://github.com/rbx)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
