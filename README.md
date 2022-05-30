@@ -21,6 +21,7 @@
 - [\#8922](https://github.com/AliceO2Group/AliceO2/pull/8922) 2022-05-23: MCH: electronic mapping fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#8923](https://github.com/AliceO2Group/AliceO2/pull/8923) 2022-05-22: CTFReader: do not use usleep by [@ktf](https://github.com/ktf)
 - [\#8928](https://github.com/AliceO2Group/AliceO2/pull/8928) 2022-05-22: Temporarily disable consumeWhenAllOrdered Policy for ctf-writer by [@davidrohr](https://github.com/davidrohr)
+- [\#8930](https://github.com/AliceO2Group/AliceO2/pull/8930) 2022-05-30: Fill detectorField in TPC RDH and create dummy files for AIC on FLP145 by [@davidrohr](https://github.com/davidrohr)
 - [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -49,6 +50,7 @@
 - [\#8998](https://github.com/AliceO2Group/AliceO2/pull/8998) 2022-05-29: fix in TOF CalibApi initialization by [@noferini](https://github.com/noferini)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
+- [\#9005](https://github.com/AliceO2Group/AliceO2/pull/9005) 2022-05-30: MRRTF-174: fix counting of input digits in pre-clustering by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9012](https://github.com/AliceO2Group/AliceO2/pull/9012) 2022-05-29: Fix: GRPLHCIFData should be stored in GLO/Config/GRPLHCIF by [@shahor02](https://github.com/shahor02)
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
@@ -80,6 +82,7 @@
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
 - [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
+- [\#9013](https://github.com/AliceO2Group/AliceO2/pull/9013) 2022-05-30: Some minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
