@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-21T18:59:34Z",
-            "title": "DPL: always broadcast the oldest possible timeframe when forwarding",
-            "number": 8919,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-22T20:53:56Z",
             "title": "Improve ShmManager logging",
             "number": 8920,
@@ -3784,8 +3764,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-05-30T00:12:58Z",
             "title": "Set GLO/Config/GRPLHCIF to 1 MONTH",
             "number": 9018,
             "author": {
@@ -3796,6 +3776,41 @@
                 {
                   "node": {
                     "path": "Detectors/GRP/workflows/src/GRPLHCIFfileSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Populator may to adjust previous EOV to SOV of new CCDB object",
+            "number": 9019,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CCDBTimeStampUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbObjectInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBTimeStampUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/workflow/CCDBPopulatorSpec.h"
                   }
                 }
               ]
