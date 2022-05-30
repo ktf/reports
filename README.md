@@ -21,7 +21,6 @@
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#8930](https://github.com/AliceO2Group/AliceO2/pull/8930) 2022-05-30: Fill detectorField in TPC RDH and create dummy files for AIC on FLP145 by [@davidrohr](https://github.com/davidrohr)
 - [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
