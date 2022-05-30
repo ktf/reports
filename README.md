@@ -56,6 +56,7 @@
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9018](https://github.com/AliceO2Group/AliceO2/pull/9018) 2022-05-30: Set GLO/Config/GRPLHCIF to 1 MONTH by [@shahor02](https://github.com/shahor02)
+- [\#9023](https://github.com/AliceO2Group/AliceO2/pull/9023) 2022-05-30: [EMCAL-651] Add missing setter for geometry by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
