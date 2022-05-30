@@ -20,7 +20,6 @@
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#8928](https://github.com/AliceO2Group/AliceO2/pull/8928) 2022-05-22: Temporarily disable consumeWhenAllOrdered Policy for ctf-writer by [@davidrohr](https://github.com/davidrohr)
 - [\#8930](https://github.com/AliceO2Group/AliceO2/pull/8930) 2022-05-30: Fill detectorField in TPC RDH and create dummy files for AIC on FLP145 by [@davidrohr](https://github.com/davidrohr)
 - [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
