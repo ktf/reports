@@ -18,6 +18,7 @@
 - [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
+- [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
@@ -51,6 +52,7 @@
 - [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
 - [\#9005](https://github.com/AliceO2Group/AliceO2/pull/9005) 2022-05-30: MRRTF-174: fix counting of input digits in pre-clustering by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9006](https://github.com/AliceO2Group/AliceO2/pull/9006) 2022-05-30: Tentative fix for TPC DCS DP processor by [@shahor02](https://github.com/shahor02)
+- [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9012](https://github.com/AliceO2Group/AliceO2/pull/9012) 2022-05-29: Fix: GRPLHCIFData should be stored in GLO/Config/GRPLHCIF by [@shahor02](https://github.com/shahor02)
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
