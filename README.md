@@ -92,6 +92,7 @@
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
 - [\#9013](https://github.com/AliceO2Group/AliceO2/pull/9013) 2022-05-30: Some minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
+- [\#9033](https://github.com/AliceO2Group/AliceO2/pull/9033) 2022-05-31: DPL Analysis: fix empty SmallGroups issue introduced by 626659e49c4 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
