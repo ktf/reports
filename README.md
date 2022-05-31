@@ -12,6 +12,7 @@
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 - [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
+- [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - DataFormats
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 - [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
@@ -20,6 +21,7 @@
 - [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
+- [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Detectors
 - [\#8956](https://github.com/AliceO2Group/AliceO2/pull/8956) 2022-05-26: Compile AVX512 decoder only in FLP builds by [@sawenzel](https://github.com/sawenzel)
 - [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
@@ -58,6 +60,7 @@
 - [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 - [\#9031](https://github.com/AliceO2Group/AliceO2/pull/9031) 2022-05-31: GRPLHCIF object will be stored with fillNumber in metadata by [@shahor02](https://github.com/shahor02)
+- [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
@@ -65,6 +68,7 @@
 - [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
 - [\#9024](https://github.com/AliceO2Group/AliceO2/pull/9024) 2022-05-31: Event Display: Add TFOrbit, timestamp and active detectors to the overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9026](https://github.com/AliceO2Group/AliceO2/pull/9026) 2022-05-31: o2-eve-export-workflow: name change from o2-eve-display, fixed event … by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8942](https://github.com/AliceO2Group/AliceO2/pull/8942) 2022-05-24: DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8 by [@davidrohr](https://github.com/davidrohr)
 - [\#8943](https://github.com/AliceO2Group/AliceO2/pull/8943) 2022-05-25: Fix for EPN ctf writer ordering which works on FLP by [@ktf](https://github.com/ktf)
