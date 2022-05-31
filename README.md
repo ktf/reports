@@ -57,6 +57,7 @@
 - [\#9018](https://github.com/AliceO2Group/AliceO2/pull/9018) 2022-05-30: Set GLO/Config/GRPLHCIF to 1 MONTH by [@shahor02](https://github.com/shahor02)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 - [\#9023](https://github.com/AliceO2Group/AliceO2/pull/9023) 2022-05-30: [EMCAL-651] Add missing setter for geometry by [@mfasDa](https://github.com/mfasDa)
+- [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
 - [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
@@ -95,5 +96,6 @@
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
+- [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
