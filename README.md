@@ -21,7 +21,6 @@
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
 - [\#8941](https://github.com/AliceO2Group/AliceO2/pull/8941) 2022-05-26: [EMCAL-556] minor improvements in EMCAL DCS DP processing by [@mpoghos](https://github.com/mpoghos)
 - [\#8956](https://github.com/AliceO2Group/AliceO2/pull/8956) 2022-05-26: Compile AVX512 decoder only in FLP builds by [@sawenzel](https://github.com/sawenzel)
 - [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
