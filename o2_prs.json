@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-26T10:45:19Z",
-            "title": "[EMCAL-556] minor improvements in EMCAL DCS DP processing",
-            "number": 8941,
-            "author": {
-              "login": "mpoghos"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/CalibDB.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/FeeDCS.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/macros/TriggerDCS_CCDBApiTest.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/macros/TriggerDCS_CalibDBTest.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/src/CalibDB.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/src/FeeDCS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCDCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/macros/makeEMCALCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/macros/readEMCALDCSentries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EMCALDCSDataProcessorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-24T06:44:25Z",
             "title": "DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8",
             "number": 8942,
@@ -3955,6 +3880,41 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadGainTracksSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event Display: Add track count to logs",
+            "number": 9041,
+            "author": {
+              "login": "pnwkw"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
                   }
                 }
               ]
