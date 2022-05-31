@@ -22,7 +22,6 @@
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#8931](https://github.com/AliceO2Group/AliceO2/pull/8931) 2022-05-24: Prevent timslice jumps in raw-tf-reader, remove sleep by [@shahor02](https://github.com/shahor02)
 - [\#8935](https://github.com/AliceO2Group/AliceO2/pull/8935) 2022-05-25: [EMCAL-534] Skip pages with inconsistent trailers by [@mfasDa](https://github.com/mfasDa)
 - [\#8939](https://github.com/AliceO2Group/AliceO2/pull/8939) 2022-05-24: [rANS] Fix Frequency Table Overflow by [@MichaelLettrich](https://github.com/MichaelLettrich)
 - [\#8940](https://github.com/AliceO2Group/AliceO2/pull/8940) 2022-05-24: TRD TRAP sim respects simulation time stamp by [@martenole](https://github.com/martenole)
@@ -57,6 +56,7 @@
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9018](https://github.com/AliceO2Group/AliceO2/pull/9018) 2022-05-30: Set GLO/Config/GRPLHCIF to 1 MONTH by [@shahor02](https://github.com/shahor02)
+- [\#9019](https://github.com/AliceO2Group/AliceO2/pull/9019) 2022-05-31: Populator may to adjust previous EOV to SOV of new CCDB object by [@shahor02](https://github.com/shahor02)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 - [\#9023](https://github.com/AliceO2Group/AliceO2/pull/9023) 2022-05-30: [EMCAL-651] Add missing setter for geometry by [@mfasDa](https://github.com/mfasDa)
 - [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
