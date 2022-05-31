@@ -61,6 +61,7 @@
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 - [\#9031](https://github.com/AliceO2Group/AliceO2/pull/9031) 2022-05-31: GRPLHCIF object will be stored with fillNumber in metadata by [@shahor02](https://github.com/shahor02)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
+- [\#9038](https://github.com/AliceO2Group/AliceO2/pull/9038) 2022-05-31: [EMCAL-614] Adding parameter that turns off the L1 phase by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
