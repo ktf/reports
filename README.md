@@ -71,7 +71,6 @@
 - [\#9024](https://github.com/AliceO2Group/AliceO2/pull/9024) 2022-05-31: Event Display: Add TFOrbit, timestamp and active detectors to the overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9026](https://github.com/AliceO2Group/AliceO2/pull/9026) 2022-05-31: o2-eve-export-workflow: name change from o2-eve-display, fixed event … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#8933](https://github.com/AliceO2Group/AliceO2/pull/8933) 2022-05-26: Make sure that we can dump at the same time mermaid and o2-control by [@Barthelemy](https://github.com/Barthelemy)
 - [\#8942](https://github.com/AliceO2Group/AliceO2/pull/8942) 2022-05-24: DPL: Reduce DPL_MAX_CHANNEL_AHEAD default to 8 by [@davidrohr](https://github.com/davidrohr)
 - [\#8943](https://github.com/AliceO2Group/AliceO2/pull/8943) 2022-05-25: Fix for EPN ctf writer ordering which works on FLP by [@ktf](https://github.com/ktf)
 - [\#8945](https://github.com/AliceO2Group/AliceO2/pull/8945) 2022-05-26: DPL Analysis: add int8 and int16 to Variant/Configurable by [@aalkin](https://github.com/aalkin)
