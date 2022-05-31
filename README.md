@@ -57,11 +57,15 @@
 - [\#9018](https://github.com/AliceO2Group/AliceO2/pull/9018) 2022-05-30: Set GLO/Config/GRPLHCIF to 1 MONTH by [@shahor02](https://github.com/shahor02)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 - [\#9023](https://github.com/AliceO2Group/AliceO2/pull/9023) 2022-05-30: [EMCAL-651] Add missing setter for geometry by [@mfasDa](https://github.com/mfasDa)
+- [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
+- [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
 - [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
+- [\#9024](https://github.com/AliceO2Group/AliceO2/pull/9024) 2022-05-31: Event Display: Add TFOrbit, timestamp and active detectors to the overlay by [@pnwkw](https://github.com/pnwkw)
+- [\#9026](https://github.com/AliceO2Group/AliceO2/pull/9026) 2022-05-31: o2-eve-export-workflow: name change from o2-eve-display, fixed event … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#8932](https://github.com/AliceO2Group/AliceO2/pull/8932) 2022-05-23: DPL: allow for 64bit DPL_MAX_CHANNEL_AHEAD to exclude clocks by [@ktf](https://github.com/ktf)
 - [\#8933](https://github.com/AliceO2Group/AliceO2/pull/8933) 2022-05-26: Make sure that we can dump at the same time mermaid and o2-control by [@Barthelemy](https://github.com/Barthelemy)
@@ -86,6 +90,7 @@
 - [\#9009](https://github.com/AliceO2Group/AliceO2/pull/9009) 2022-05-30: DPL: have timers start at a random point within an interval by [@ktf](https://github.com/ktf)
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
 - [\#9013](https://github.com/AliceO2Group/AliceO2/pull/9013) 2022-05-30: Some minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
