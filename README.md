@@ -29,6 +29,7 @@
 - [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
 - [\#8961](https://github.com/AliceO2Group/AliceO2/pull/8961) 2022-05-25: Raise deadbeef warning to alarm, expose subspec in DPLRawSequencer, print deadbeef message for TPC by [@davidrohr](https://github.com/davidrohr)
+- [\#8962](https://github.com/AliceO2Group/AliceO2/pull/8962) 2022-06-01: [EMCAL-610] Adapting the raw encoder to encode HG and LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 - [\#8965](https://github.com/AliceO2Group/AliceO2/pull/8965) 2022-05-25: Reduce verbosity, throttle warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8966](https://github.com/AliceO2Group/AliceO2/pull/8966) 2022-05-25: Revert "Temporarily disable consumeWhenAllOrdered Policy for ctf-writer" by [@davidrohr](https://github.com/davidrohr)
