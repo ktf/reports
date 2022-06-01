@@ -60,6 +60,7 @@
 - [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
 - [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
+- [\#9029](https://github.com/AliceO2Group/AliceO2/pull/9029) 2022-06-01: [EMCAL-775] Added class to store scale factors for bad channel calibr… by [@jokonig](https://github.com/jokonig)
 - [\#9031](https://github.com/AliceO2Group/AliceO2/pull/9031) 2022-05-31: GRPLHCIF object will be stored with fillNumber in metadata by [@shahor02](https://github.com/shahor02)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9037](https://github.com/AliceO2Group/AliceO2/pull/9037) 2022-06-01: TRD add HC status map for QC by [@martenole](https://github.com/martenole)
