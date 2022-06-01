@@ -79,7 +79,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9041](https://github.com/AliceO2Group/AliceO2/pull/9041) 2022-06-01: Event Display: Add track count to logs by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8945](https://github.com/AliceO2Group/AliceO2/pull/8945) 2022-05-26: DPL Analysis: add int8 and int16 to Variant/Configurable by [@aalkin](https://github.com/aalkin)
 - [\#8947](https://github.com/AliceO2Group/AliceO2/pull/8947) 2022-05-25: [O2-2962] DPL Analysis: prevent crashing when grouping result is empty by [@aalkin](https://github.com/aalkin)
 - [\#8951](https://github.com/AliceO2Group/AliceO2/pull/8951) 2022-05-25: Increase DEFAULT_PIPELINE_LENGTH to 128 by [@davidrohr](https://github.com/davidrohr)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
