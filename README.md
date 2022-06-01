@@ -25,7 +25,6 @@
 - [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Detectors
-- [\#8958](https://github.com/AliceO2Group/AliceO2/pull/8958) 2022-05-26: description added by [@alindner14](https://github.com/alindner14)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
 - [\#8961](https://github.com/AliceO2Group/AliceO2/pull/8961) 2022-05-25: Raise deadbeef warning to alarm, expose subspec in DPLRawSequencer, print deadbeef message for TPC by [@davidrohr](https://github.com/davidrohr)
 - [\#8962](https://github.com/AliceO2Group/AliceO2/pull/8962) 2022-06-01: [EMCAL-610] Adapting the raw encoder to encode HG and LG bunches by [@hahassan7](https://github.com/hahassan7)
