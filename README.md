@@ -5,13 +5,13 @@
 ## Recent developments in O2 - Analysis
 - [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [\#8950](https://github.com/AliceO2Group/AliceO2/pull/8950) 2022-05-25: add IRFrameSelector class to validate IR or IRFrame by [@shahor02](https://github.com/shahor02)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)
 - [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
+- [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -81,7 +81,6 @@
 - [\#9041](https://github.com/AliceO2Group/AliceO2/pull/9041) 2022-06-01: Event Display: Add track count to logs by [@pnwkw](https://github.com/pnwkw)
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8951](https://github.com/AliceO2Group/AliceO2/pull/8951) 2022-05-25: Increase DEFAULT_PIPELINE_LENGTH to 128 by [@davidrohr](https://github.com/davidrohr)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
 - [\#8961](https://github.com/AliceO2Group/AliceO2/pull/8961) 2022-05-25: Raise deadbeef warning to alarm, expose subspec in DPLRawSequencer, print deadbeef message for TPC by [@davidrohr](https://github.com/davidrohr)
@@ -99,6 +98,7 @@
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
 - [\#9013](https://github.com/AliceO2Group/AliceO2/pull/9013) 2022-05-30: Some minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
+- [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
 - [\#9033](https://github.com/AliceO2Group/AliceO2/pull/9033) 2022-05-31: DPL Analysis: fix empty SmallGroups issue introduced by 626659e49c4 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
