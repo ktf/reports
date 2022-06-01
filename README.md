@@ -22,6 +22,7 @@
 - [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
+- [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Detectors
 - [\#8956](https://github.com/AliceO2Group/AliceO2/pull/8956) 2022-05-26: Compile AVX512 decoder only in FLP builds by [@sawenzel](https://github.com/sawenzel)
@@ -62,6 +63,7 @@
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 - [\#9029](https://github.com/AliceO2Group/AliceO2/pull/9029) 2022-06-01: [EMCAL-775] Added class to store scale factors for bad channel calibr… by [@jokonig](https://github.com/jokonig)
 - [\#9031](https://github.com/AliceO2Group/AliceO2/pull/9031) 2022-05-31: GRPLHCIF object will be stored with fillNumber in metadata by [@shahor02](https://github.com/shahor02)
+- [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9037](https://github.com/AliceO2Group/AliceO2/pull/9037) 2022-06-01: TRD add HC status map for QC by [@martenole](https://github.com/martenole)
 - [\#9038](https://github.com/AliceO2Group/AliceO2/pull/9038) 2022-05-31: [EMCAL-614] Adding parameter that turns off the L1 phase by [@hahassan7](https://github.com/hahassan7)
