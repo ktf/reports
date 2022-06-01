@@ -80,7 +80,6 @@
 - [\#9041](https://github.com/AliceO2Group/AliceO2/pull/9041) 2022-06-01: Event Display: Add track count to logs by [@pnwkw](https://github.com/pnwkw)
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8947](https://github.com/AliceO2Group/AliceO2/pull/8947) 2022-05-25: [O2-2962] DPL Analysis: prevent crashing when grouping result is empty by [@aalkin](https://github.com/aalkin)
 - [\#8951](https://github.com/AliceO2Group/AliceO2/pull/8951) 2022-05-25: Increase DEFAULT_PIPELINE_LENGTH to 128 by [@davidrohr](https://github.com/davidrohr)
 - [\#8959](https://github.com/AliceO2Group/AliceO2/pull/8959) 2022-05-25: DPL: improve message when sending wrong oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#8960](https://github.com/AliceO2Group/AliceO2/pull/8960) 2022-05-25: Fix silently dropping timeslices by [@ktf](https://github.com/ktf)
