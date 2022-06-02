@@ -25,7 +25,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8970](https://github.com/AliceO2Group/AliceO2/pull/8970) 2022-05-25: Fix include in makeMFTCCDBEntryForDCS.C by [@shahor02](https://github.com/shahor02)
 - [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -66,6 +65,7 @@
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
 - [\#9061](https://github.com/AliceO2Group/AliceO2/pull/9061) 2022-06-02: [EMCAL-565,EMCAL-566] Remove symbol duplication by [@mfasDa](https://github.com/mfasDa)
+- [\#9062](https://github.com/AliceO2Group/AliceO2/pull/9062) 2022-06-02: TRD tracking update by [@martenole](https://github.com/martenole)
 - [\#9064](https://github.com/AliceO2Group/AliceO2/pull/9064) 2022-06-02: --verbose-reader opt for o2-primary-vertex-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
@@ -80,6 +80,7 @@
 - [\#9045](https://github.com/AliceO2Group/AliceO2/pull/9045) 2022-06-02: Event Display: Replace buttons with radio buttons by [@pnwkw](https://github.com/pnwkw)
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#9050](https://github.com/AliceO2Group/AliceO2/pull/9050) 2022-06-02: Event Display: Fix PHOS visualization by [@pnwkw](https://github.com/pnwkw)
+- [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
