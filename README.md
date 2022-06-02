@@ -81,7 +81,6 @@
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#9050](https://github.com/AliceO2Group/AliceO2/pull/9050) 2022-06-02: Event Display: Fix PHOS visualization by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8963](https://github.com/AliceO2Group/AliceO2/pull/8963) 2022-05-25: DPL: reduce severity of debug message by [@ktf](https://github.com/ktf)
 - [\#8968](https://github.com/AliceO2Group/AliceO2/pull/8968) 2022-05-25: DPL: fix leak websocket parsing by [@ktf](https://github.com/ktf)
 - [\#8983](https://github.com/AliceO2Group/AliceO2/pull/8983) 2022-05-27: DPL: add support for lhcPeriod in DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#8989](https://github.com/AliceO2Group/AliceO2/pull/8989) 2022-05-27: Configurable pipeline length by [@ktf](https://github.com/ktf)
