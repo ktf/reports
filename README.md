@@ -25,7 +25,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 - [\#8965](https://github.com/AliceO2Group/AliceO2/pull/8965) 2022-05-25: Reduce verbosity, throttle warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8966](https://github.com/AliceO2Group/AliceO2/pull/8966) 2022-05-25: Revert "Temporarily disable consumeWhenAllOrdered Policy for ctf-writer" by [@davidrohr](https://github.com/davidrohr)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
@@ -99,5 +98,4 @@
 ## Recent developments in O2 - Generators
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
-- [\#8964](https://github.com/AliceO2Group/AliceO2/pull/8964) 2022-05-25: Fix ITS/MFT digitizer initializtions by [@shahor02](https://github.com/shahor02)
 - [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
