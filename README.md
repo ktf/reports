@@ -25,7 +25,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8965](https://github.com/AliceO2Group/AliceO2/pull/8965) 2022-05-25: Reduce verbosity, throttle warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#8966](https://github.com/AliceO2Group/AliceO2/pull/8966) 2022-05-25: Revert "Temporarily disable consumeWhenAllOrdered Policy for ctf-writer" by [@davidrohr](https://github.com/davidrohr)
 - [\#8969](https://github.com/AliceO2Group/AliceO2/pull/8969) 2022-05-26: TRD DCS processor updated by [@martenole](https://github.com/martenole)
 - [\#8970](https://github.com/AliceO2Group/AliceO2/pull/8970) 2022-05-25: Fix include in makeMFTCCDBEntryForDCS.C by [@shahor02](https://github.com/shahor02)
