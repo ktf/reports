@@ -66,6 +66,7 @@
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
+- [\#9061](https://github.com/AliceO2Group/AliceO2/pull/9061) 2022-06-02: [EMCAL-565,EMCAL-566] Remove symbol duplication by [@mfasDa](https://github.com/mfasDa)
 - [\#9064](https://github.com/AliceO2Group/AliceO2/pull/9064) 2022-06-02: --verbose-reader opt for o2-primary-vertex-reader-workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
