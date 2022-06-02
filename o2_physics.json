@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-10T08:42:47Z",
-            "title": "PWGEM add data only process functions for gammaConv tasks and more",
-            "number": 722,
-            "author": {
-              "login": "sstiefel19"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/gammaConversions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/skimmerGammaConversions.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/skimmerGammaConversionsTruthOnlyMc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-10T12:05:20Z",
             "title": "Set to 0 indices between iterations",
             "number": 723,
@@ -2671,6 +2636,31 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/diffQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix reverted logic in new event selection criteria",
+            "number": 822,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
                   }
                 }
               ]
