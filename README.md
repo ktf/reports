@@ -23,7 +23,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8976](https://github.com/AliceO2Group/AliceO2/pull/8976) 2022-05-26: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#8977](https://github.com/AliceO2Group/AliceO2/pull/8977) 2022-05-26: MUON: DCS CCDB reader: forgot to update to 3-level CCDB path by [@aphecetche](https://github.com/aphecetche)
 - [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
@@ -70,8 +69,8 @@
 - [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
+- [\#9075](https://github.com/AliceO2Group/AliceO2/pull/9075) 2022-06-03: PHOS TruFlags reading; CPV alarm->warning too many loc. maxima by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - EventVisualisation
-- [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
 - [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
