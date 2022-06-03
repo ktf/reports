@@ -70,6 +70,7 @@
 - [\#9062](https://github.com/AliceO2Group/AliceO2/pull/9062) 2022-06-02: TRD tracking update by [@martenole](https://github.com/martenole)
 - [\#9064](https://github.com/AliceO2Group/AliceO2/pull/9064) 2022-06-02: --verbose-reader opt for o2-primary-vertex-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
+- [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8975](https://github.com/AliceO2Group/AliceO2/pull/8975) 2022-05-28: o2-eve-workflow: filter on sorted track list by [@jmyrcha](https://github.com/jmyrcha)
