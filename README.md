@@ -68,6 +68,7 @@
 - [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
 - [\#9075](https://github.com/AliceO2Group/AliceO2/pull/9075) 2022-06-03: PHOS TruFlags reading; CPV alarm->warning too many loc. maxima by [@peressounko](https://github.com/peressounko)
+- [\#9076](https://github.com/AliceO2Group/AliceO2/pull/9076) 2022-06-03: Fix: export of ITS seeding vertices was broken by [@shahor02](https://github.com/shahor02)
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
