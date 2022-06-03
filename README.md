@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#8974](https://github.com/AliceO2Group/AliceO2/pull/8974) 2022-05-29: Fix deprecated inheritance from std::iterator by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
