@@ -63,6 +63,7 @@
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 - [\#9048](https://github.com/AliceO2Group/AliceO2/pull/9048) 2022-06-02: MCH: re-defined time frame buffers as class data members by [@aferrero2707](https://github.com/aferrero2707)
+- [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
 - [\#9061](https://github.com/AliceO2Group/AliceO2/pull/9061) 2022-06-02: [EMCAL-565,EMCAL-566] Remove symbol duplication by [@mfasDa](https://github.com/mfasDa)
