@@ -22,7 +22,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8979](https://github.com/AliceO2Group/AliceO2/pull/8979) 2022-05-26: TPC gain map using tracks: use every nth TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#8982](https://github.com/AliceO2Group/AliceO2/pull/8982) 2022-05-27: Multiple changes for DCS DP processing by [@shahor02](https://github.com/shahor02)
 - [\#8986](https://github.com/AliceO2Group/AliceO2/pull/8986) 2022-05-28: Update FST simulation, reduce InfoLogger flood by [@davidrohr](https://github.com/davidrohr)
 - [\#8988](https://github.com/AliceO2Group/AliceO2/pull/8988) 2022-05-27: Fixes for LHCIF -> GRPLHCIFData processing by [@shahor02](https://github.com/shahor02)

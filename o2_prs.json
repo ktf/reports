@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-05-26T20:14:51Z",
-            "title": "TPC gain map using tracks: use every nth TF",
-            "number": 8979,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/doc/CalibPadGainTracks.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibPadGainTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibPadGainTracks.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadGainTracksSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Update GRP DCS DP processing for B-field",
@@ -3756,6 +3721,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/simulation/macro/toyCluster.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix reporting of used ITS/MFT Alpide param used",
+            "number": 9079,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ClustererSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/ClustererSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITSMFTDigitizerSpec.cxx"
                   }
                 }
               ]
