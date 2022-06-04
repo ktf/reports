@@ -3,14 +3,12 @@
 ## Recent developments in O2 - Analysis
 - [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9051](https://github.com/AliceO2Group/AliceO2/pull/9051) 2022-06-02: Make TGeant4 the default by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
@@ -20,7 +18,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8992](https://github.com/AliceO2Group/AliceO2/pull/8992) 2022-05-27: Fix MFT DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#8994](https://github.com/AliceO2Group/AliceO2/pull/8994) 2022-05-27: Fix TOF DCS DP processing by [@shahor02](https://github.com/shahor02)
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
@@ -79,7 +76,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8990](https://github.com/AliceO2Group/AliceO2/pull/8990) 2022-05-29: Use DataTakingContext and TimingInfo provided by the framework by [@shahor02](https://github.com/shahor02)
 - [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 - [\#8999](https://github.com/AliceO2Group/AliceO2/pull/8999) 2022-05-29: DPL: improve silent data dropping message by [@ktf](https://github.com/ktf)
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
