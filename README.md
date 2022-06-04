@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-- [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
@@ -76,7 +74,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#8991](https://github.com/AliceO2Group/AliceO2/pull/8991) 2022-05-30: Update ADM for TracksIU/Tracks idx equivalence by [@ddobrigk](https://github.com/ddobrigk)
 - [\#8999](https://github.com/AliceO2Group/AliceO2/pull/8999) 2022-05-29: DPL: improve silent data dropping message by [@ktf](https://github.com/ktf)
 - [\#9000](https://github.com/AliceO2Group/AliceO2/pull/9000) 2022-05-28: Please consider the following formatting changes to #8999 by [@alibuild](https://github.com/alibuild)
 - [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
