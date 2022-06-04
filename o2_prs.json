@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-27T18:30:46Z",
-            "title": "Configurable pipeline length",
-            "number": 8989,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-29T06:25:43Z",
             "title": "Use DataTakingContext and TimingInfo provided by the framework",
             "number": 8990,
@@ -3531,6 +3506,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CCDBHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD DCS calib objects use adjustable EOV",
+            "number": 9089,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/DcsCcdbObjects.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/DcsCcdbObjects.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/makeTRDCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/readTRDDCSentries.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/workflow/TRDDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/workflow/trd-dcs-sim-workflow.cxx"
                   }
                 }
               ]
