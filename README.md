@@ -14,7 +14,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8997](https://github.com/AliceO2Group/AliceO2/pull/8997) 2022-05-28: TPC: Fix, on-the fly ZS enoding should use 12 bit mode by [@davidrohr](https://github.com/davidrohr)
 - [\#8998](https://github.com/AliceO2Group/AliceO2/pull/8998) 2022-05-29: fix in TOF CalibApi initialization by [@noferini](https://github.com/noferini)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
