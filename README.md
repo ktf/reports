@@ -59,6 +59,7 @@
 - [\#9076](https://github.com/AliceO2Group/AliceO2/pull/9076) 2022-06-03: Fix: export of ITS seeding vertices was broken by [@shahor02](https://github.com/shahor02)
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
+- [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#8993](https://github.com/AliceO2Group/AliceO2/pull/8993) 2022-05-29: o2-eve: version number in o2-eve window title by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
