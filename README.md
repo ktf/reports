@@ -1,13 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9051](https://github.com/AliceO2Group/AliceO2/pull/9051) 2022-06-02: Make TGeant4 the default by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
@@ -16,7 +14,6 @@
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#8995](https://github.com/AliceO2Group/AliceO2/pull/8995) 2022-05-28: Changes in IRFrame filling / selecting by [@shahor02](https://github.com/shahor02)
 - [\#8997](https://github.com/AliceO2Group/AliceO2/pull/8997) 2022-05-28: TPC: Fix, on-the fly ZS enoding should use 12 bit mode by [@davidrohr](https://github.com/davidrohr)
 - [\#8998](https://github.com/AliceO2Group/AliceO2/pull/8998) 2022-05-29: fix in TOF CalibApi initialization by [@noferini](https://github.com/noferini)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
@@ -59,6 +56,7 @@
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
 - [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
+- [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
 - [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
@@ -85,6 +83,7 @@
 - [\#9081](https://github.com/AliceO2Group/AliceO2/pull/9081) 2022-06-04: DPL: have environment variables correctly populated in the ECS YAML by [@ktf](https://github.com/ktf)
 - [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
 - [\#9093](https://github.com/AliceO2Group/AliceO2/pull/9093) 2022-06-05: DPL: add adoptTask by [@ktf](https://github.com/ktf)
+- [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
