@@ -84,8 +84,6 @@
 - [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
 - [\#9093](https://github.com/AliceO2Group/AliceO2/pull/9093) 2022-06-05: DPL: add adoptTask by [@ktf](https://github.com/ktf)
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Generators
-- [\#8996](https://github.com/AliceO2Group/AliceO2/pull/8996) 2022-05-30: Introduce parameter eventsToSkip in GeneratorHepMC to skip events at … by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Steer
 - [\#9025](https://github.com/AliceO2Group/AliceO2/pull/9025) 2022-05-31: Disambiguation of DPL input bindings by [@sawenzel](https://github.com/sawenzel)
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
