@@ -74,7 +74,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9001](https://github.com/AliceO2Group/AliceO2/pull/9001) 2022-05-28: DPL: improve DataDescriptorMatcher test and documentation by [@ktf](https://github.com/ktf)
 - [\#9007](https://github.com/AliceO2Group/AliceO2/pull/9007) 2022-05-30: DPL: oldest possible timeframe backpressure detection by [@ktf](https://github.com/ktf)
 - [\#9009](https://github.com/AliceO2Group/AliceO2/pull/9009) 2022-05-30: DPL: have timers start at a random point within an interval by [@ktf](https://github.com/ktf)
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
