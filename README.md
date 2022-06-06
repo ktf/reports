@@ -13,6 +13,7 @@
 - [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
+- [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
 - [\#8998](https://github.com/AliceO2Group/AliceO2/pull/8998) 2022-05-29: fix in TOF CalibApi initialization by [@noferini](https://github.com/noferini)
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
@@ -50,6 +51,7 @@
 - [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
+- [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9075](https://github.com/AliceO2Group/AliceO2/pull/9075) 2022-06-03: PHOS TruFlags reading; CPV alarm->warning too many loc. maxima by [@peressounko](https://github.com/peressounko)
 - [\#9076](https://github.com/AliceO2Group/AliceO2/pull/9076) 2022-06-03: Fix: export of ITS seeding vertices was broken by [@shahor02](https://github.com/shahor02)
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
