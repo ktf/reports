@@ -44,6 +44,7 @@
 - [\#9048](https://github.com/AliceO2Group/AliceO2/pull/9048) 2022-06-02: MCH: re-defined time frame buffers as class data members by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
+- [\#9057](https://github.com/AliceO2Group/AliceO2/pull/9057) 2022-06-06: FIT: modification for CTF encoding/decoding procedure by [@afurs](https://github.com/afurs)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
 - [\#9061](https://github.com/AliceO2Group/AliceO2/pull/9061) 2022-06-02: [EMCAL-565,EMCAL-566] Remove symbol duplication by [@mfasDa](https://github.com/mfasDa)
 - [\#9062](https://github.com/AliceO2Group/AliceO2/pull/9062) 2022-06-02: TRD tracking update by [@martenole](https://github.com/martenole)
