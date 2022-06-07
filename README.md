@@ -15,6 +15,7 @@
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 - [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
+- [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
 - [\#9003](https://github.com/AliceO2Group/AliceO2/pull/9003) 2022-05-28: add TOF diagn method to filter noisy channels by [@noferini](https://github.com/noferini)
 - [\#9004](https://github.com/AliceO2Group/AliceO2/pull/9004) 2022-05-28: Fixes for GPU DPL Display by [@davidrohr](https://github.com/davidrohr)
@@ -62,6 +63,7 @@
 - [\#9092](https://github.com/AliceO2Group/AliceO2/pull/9092) 2022-06-05: Account for the physics triggers embedded into the ITS/MFT raw data by [@shahor02](https://github.com/shahor02)
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9098](https://github.com/AliceO2Group/AliceO2/pull/9098) 2022-06-06: LHCIFfileReader should store time in ms rather than in microsec by [@shahor02](https://github.com/shahor02)
+- [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9100](https://github.com/AliceO2Group/AliceO2/pull/9100) 2022-06-07: TRD TRAP floating point arithmetics for tracklet charges by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
