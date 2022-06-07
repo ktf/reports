@@ -7,7 +7,6 @@
 - [\#9051](https://github.com/AliceO2Group/AliceO2/pull/9051) 2022-06-02: Make TGeant4 the default by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 - [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
@@ -17,7 +16,6 @@
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-- [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9012](https://github.com/AliceO2Group/AliceO2/pull/9012) 2022-05-29: Fix: GRPLHCIFData should be stored in GLO/Config/GRPLHCIF by [@shahor02](https://github.com/shahor02)
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
 - [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
