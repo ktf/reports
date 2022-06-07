@@ -64,6 +64,7 @@
 - [\#9098](https://github.com/AliceO2Group/AliceO2/pull/9098) 2022-06-06: LHCIFfileReader should store time in ms rather than in microsec by [@shahor02](https://github.com/shahor02)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9100](https://github.com/AliceO2Group/AliceO2/pull/9100) 2022-06-07: TRD TRAP floating point arithmetics for tracklet charges by [@martenole](https://github.com/martenole)
+- [\#9105](https://github.com/AliceO2Group/AliceO2/pull/9105) 2022-06-07: Change path for CCDB entry for GRP/LHCIF datapoints by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#9015](https://github.com/AliceO2Group/AliceO2/pull/9015) 2022-05-29: Event Display: Fix creation time conversion to datetime by [@pnwkw](https://github.com/pnwkw)
 - [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
@@ -77,7 +78,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9007](https://github.com/AliceO2Group/AliceO2/pull/9007) 2022-05-30: DPL: oldest possible timeframe backpressure detection by [@ktf](https://github.com/ktf)
 - [\#9009](https://github.com/AliceO2Group/AliceO2/pull/9009) 2022-05-30: DPL: have timers start at a random point within an interval by [@ktf](https://github.com/ktf)
 - [\#9010](https://github.com/AliceO2Group/AliceO2/pull/9010) 2022-05-29: DPL: improve null sink by [@ktf](https://github.com/ktf)
 - [\#9013](https://github.com/AliceO2Group/AliceO2/pull/9013) 2022-05-30: Some minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
