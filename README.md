@@ -56,6 +56,7 @@
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9078](https://github.com/AliceO2Group/AliceO2/pull/9078) 2022-06-07: TPC toy cluster sim: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
+- [\#9087](https://github.com/AliceO2Group/AliceO2/pull/9087) 2022-06-07: mch-reco-workflow stores cluster if root output is enabled by [@shahor02](https://github.com/shahor02)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
 - [\#9092](https://github.com/AliceO2Group/AliceO2/pull/9092) 2022-06-05: Account for the physics triggers embedded into the ITS/MFT raw data by [@shahor02](https://github.com/shahor02)
