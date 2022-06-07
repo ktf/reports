@@ -16,7 +16,6 @@
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-- [\#9006](https://github.com/AliceO2Group/AliceO2/pull/9006) 2022-05-30: Tentative fix for TPC DCS DP processor by [@shahor02](https://github.com/shahor02)
 - [\#9011](https://github.com/AliceO2Group/AliceO2/pull/9011) 2022-05-31: dev: ctp config saved at start of run by [@lietava](https://github.com/lietava)
 - [\#9012](https://github.com/AliceO2Group/AliceO2/pull/9012) 2022-05-29: Fix: GRPLHCIFData should be stored in GLO/Config/GRPLHCIF by [@shahor02](https://github.com/shahor02)
 - [\#9014](https://github.com/AliceO2Group/AliceO2/pull/9014) 2022-05-29: ctf-writer logs per-det. data sizes every --report-data-size-interval TFs by [@shahor02](https://github.com/shahor02)
@@ -38,6 +37,7 @@
 - [\#9040](https://github.com/AliceO2Group/AliceO2/pull/9040) 2022-06-02: TPC gain map using tracks: add option to set max number of tracks per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
+- [\#9047](https://github.com/AliceO2Group/AliceO2/pull/9047) 2022-06-07: ZDC FastSim: Generate Hits as final output of fast simulation by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9048](https://github.com/AliceO2Group/AliceO2/pull/9048) 2022-06-02: MCH: re-defined time frame buffers as class data members by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
