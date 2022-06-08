@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-05-16T11:23:33Z",
-            "title": "[EventFiltering] Add QC task for the HFFilters and apply minor fixes to HFFilter task",
-            "number": 740,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Add invariant mass selection",
@@ -2608,8 +2578,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-08T09:09:07Z",
             "title": "rename TracksExtended to TracksDCA",
             "number": 838,
             "author": {
@@ -2930,6 +2900,31 @@
                 {
                   "node": {
                     "path": "Common/DataModel/TrackSelectionTables.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added temporary task to get pT AccxEff of MFT",
+            "number": 840,
+            "author": {
+              "login": "sarahherrmann"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Tasks/effpt-mft.cxx"
                   }
                 }
               ]
