@@ -17,7 +17,6 @@
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-- [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 - [\#9028](https://github.com/AliceO2Group/AliceO2/pull/9028) 2022-05-31: fix track length for TOF-TPC tracks by [@noferini](https://github.com/noferini)
 - [\#9029](https://github.com/AliceO2Group/AliceO2/pull/9029) 2022-06-01: [EMCAL-775] Added class to store scale factors for bad channel calibr… by [@jokonig](https://github.com/jokonig)
 - [\#9031](https://github.com/AliceO2Group/AliceO2/pull/9031) 2022-05-31: GRPLHCIF object will be stored with fillNumber in metadata by [@shahor02](https://github.com/shahor02)
@@ -75,7 +74,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9027](https://github.com/AliceO2Group/AliceO2/pull/9027) 2022-05-31: Some updates for running at P2 tomorrow by [@davidrohr](https://github.com/davidrohr)
 - [\#9030](https://github.com/AliceO2Group/AliceO2/pull/9030) 2022-06-01: DPL: fix oldest possible timeslice with forwarding by [@ktf](https://github.com/ktf)
 - [\#9033](https://github.com/AliceO2Group/AliceO2/pull/9033) 2022-05-31: DPL Analysis: fix empty SmallGroups issue introduced by 626659e49c4 by [@aalkin](https://github.com/aalkin)
 - [\#9081](https://github.com/AliceO2Group/AliceO2/pull/9081) 2022-06-04: DPL: have environment variables correctly populated in the ECS YAML by [@ktf](https://github.com/ktf)
