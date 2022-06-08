@@ -7,7 +7,6 @@
 - [\#9051](https://github.com/AliceO2Group/AliceO2/pull/9051) 2022-06-02: Make TGeant4 the default by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
 - [\#9032](https://github.com/AliceO2Group/AliceO2/pull/9032) 2022-06-01: Fix HG overflow;  by [@peressounko](https://github.com/peressounko)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
@@ -16,7 +15,6 @@
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-- [\#9017](https://github.com/AliceO2Group/AliceO2/pull/9017) 2022-05-29: fix for TOF noisy map by [@noferini](https://github.com/noferini)
 - [\#9018](https://github.com/AliceO2Group/AliceO2/pull/9018) 2022-05-30: Set GLO/Config/GRPLHCIF to 1 MONTH by [@shahor02](https://github.com/shahor02)
 - [\#9019](https://github.com/AliceO2Group/AliceO2/pull/9019) 2022-05-31: Populator may to adjust previous EOV to SOV of new CCDB object by [@shahor02](https://github.com/shahor02)
 - [\#9022](https://github.com/AliceO2Group/AliceO2/pull/9022) 2022-05-30: TRD fix handling bad cru halfchamber headers, and errorneous data at end of buffers by [@bazinski](https://github.com/bazinski)
@@ -69,7 +67,6 @@
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9016](https://github.com/AliceO2Group/AliceO2/pull/9016) 2022-05-29: Event Display: Fix MID tracks getting incorrectly filtered by [@pnwkw](https://github.com/pnwkw)
 - [\#9024](https://github.com/AliceO2Group/AliceO2/pull/9024) 2022-05-31: Event Display: Add TFOrbit, timestamp and active detectors to the overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9026](https://github.com/AliceO2Group/AliceO2/pull/9026) 2022-05-31: o2-eve-export-workflow: name change from o2-eve-display, fixed event … by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
