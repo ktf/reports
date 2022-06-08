@@ -67,7 +67,6 @@
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9026](https://github.com/AliceO2Group/AliceO2/pull/9026) 2022-05-31: o2-eve-export-workflow: name change from o2-eve-display, fixed event … by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9034](https://github.com/AliceO2Group/AliceO2/pull/9034) 2022-05-31: Add Sources mask -> Detector mask function; Event Display: Fix detector list in overlay by [@pnwkw](https://github.com/pnwkw)
 - [\#9041](https://github.com/AliceO2Group/AliceO2/pull/9041) 2022-06-01: Event Display: Add track count to logs by [@pnwkw](https://github.com/pnwkw)
 - [\#9045](https://github.com/AliceO2Group/AliceO2/pull/9045) 2022-06-02: Event Display: Replace buttons with radio buttons by [@pnwkw](https://github.com/pnwkw)
