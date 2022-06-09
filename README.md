@@ -74,7 +74,6 @@
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9033](https://github.com/AliceO2Group/AliceO2/pull/9033) 2022-05-31: DPL Analysis: fix empty SmallGroups issue introduced by 626659e49c4 by [@aalkin](https://github.com/aalkin)
 - [\#9081](https://github.com/AliceO2Group/AliceO2/pull/9081) 2022-06-04: DPL: have environment variables correctly populated in the ECS YAML by [@ktf](https://github.com/ktf)
 - [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
 - [\#9093](https://github.com/AliceO2Group/AliceO2/pull/9093) 2022-06-05: DPL: add adoptTask by [@ktf](https://github.com/ktf)
