@@ -62,6 +62,7 @@
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 - [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
+- [\#9120](https://github.com/AliceO2Group/AliceO2/pull/9120) 2022-06-09: add MC labels for MCH-MID matched tracks by [@pillot](https://github.com/pillot)
 - [\#9123](https://github.com/AliceO2Group/AliceO2/pull/9123) 2022-06-08: optional blocking mode for CCDB refresh from o2-ecs-grp-create by [@shahor02](https://github.com/shahor02)
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
