@@ -61,6 +61,7 @@
 - [\#9107](https://github.com/AliceO2Group/AliceO2/pull/9107) 2022-06-07: CTP digi2raw optionally (def:on) applies 0-suppression by [@shahor02](https://github.com/shahor02)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
+- [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
 - [\#9123](https://github.com/AliceO2Group/AliceO2/pull/9123) 2022-06-08: optional blocking mode for CCDB refresh from o2-ecs-grp-create by [@shahor02](https://github.com/shahor02)
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
