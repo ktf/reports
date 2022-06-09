@@ -14,8 +14,6 @@
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Detectors
-- [\#9037](https://github.com/AliceO2Group/AliceO2/pull/9037) 2022-06-01: TRD add HC status map for QC by [@martenole](https://github.com/martenole)
-- [\#9038](https://github.com/AliceO2Group/AliceO2/pull/9038) 2022-05-31: [EMCAL-614] Adding parameter that turns off the L1 phase by [@hahassan7](https://github.com/hahassan7)
 - [\#9039](https://github.com/AliceO2Group/AliceO2/pull/9039) 2022-06-01: Fix invalid digit index (overflow) in HMPID by [@sawenzel](https://github.com/sawenzel)
 - [\#9040](https://github.com/AliceO2Group/AliceO2/pull/9040) 2022-06-02: TPC gain map using tracks: add option to set max number of tracks per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
