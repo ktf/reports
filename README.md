@@ -10,6 +10,7 @@
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
+- [\#9058](https://github.com/AliceO2Group/AliceO2/pull/9058) 2022-06-09: add MCH-MID tracks to VertexTrackMatcher by [@pillot](https://github.com/pillot)
 - [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
@@ -21,6 +22,7 @@
 - [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
 - [\#9057](https://github.com/AliceO2Group/AliceO2/pull/9057) 2022-06-06: FIT: modification for CTF encoding/decoding procedure by [@afurs](https://github.com/afurs)
+- [\#9058](https://github.com/AliceO2Group/AliceO2/pull/9058) 2022-06-09: add MCH-MID tracks to VertexTrackMatcher by [@pillot](https://github.com/pillot)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
 - [\#9060](https://github.com/AliceO2Group/AliceO2/pull/9060) 2022-06-08: use the same data description as the reader by [@pillot](https://github.com/pillot)
 - [\#9061](https://github.com/AliceO2Group/AliceO2/pull/9061) 2022-06-02: [EMCAL-565,EMCAL-566] Remove symbol duplication by [@mfasDa](https://github.com/mfasDa)
@@ -39,6 +41,7 @@
 - [\#9087](https://github.com/AliceO2Group/AliceO2/pull/9087) 2022-06-07: mch-reco-workflow stores cluster if root output is enabled by [@shahor02](https://github.com/shahor02)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
+- [\#9091](https://github.com/AliceO2Group/AliceO2/pull/9091) 2022-06-09: Sending to CCDB only after all DPs have been seen. by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9092](https://github.com/AliceO2Group/AliceO2/pull/9092) 2022-06-05: Account for the physics triggers embedded into the ITS/MFT raw data by [@shahor02](https://github.com/shahor02)
 - [\#9094](https://github.com/AliceO2Group/AliceO2/pull/9094) 2022-06-09: Setting creation time, used by some detectors in the subsequent proce… by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
