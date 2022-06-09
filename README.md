@@ -61,6 +61,7 @@
 - [\#9107](https://github.com/AliceO2Group/AliceO2/pull/9107) 2022-06-07: CTP digi2raw optionally (def:on) applies 0-suppression by [@shahor02](https://github.com/shahor02)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
+- [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 - [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
 - [\#9123](https://github.com/AliceO2Group/AliceO2/pull/9123) 2022-06-08: optional blocking mode for CCDB refresh from o2-ecs-grp-create by [@shahor02](https://github.com/shahor02)
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
@@ -83,5 +84,6 @@
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9097](https://github.com/AliceO2Group/AliceO2/pull/9097) 2022-06-07: DPL: dummy sync should always rescan to avoid deadlocks by [@ktf](https://github.com/ktf)
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
