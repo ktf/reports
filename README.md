@@ -14,7 +14,6 @@
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9047](https://github.com/AliceO2Group/AliceO2/pull/9047) 2022-06-07: ZDC FastSim: Generate Hits as final output of fast simulation by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9048](https://github.com/AliceO2Group/AliceO2/pull/9048) 2022-06-02: MCH: re-defined time frame buffers as class data members by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
