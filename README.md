@@ -61,6 +61,8 @@
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 - [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
+- [\#9137](https://github.com/AliceO2Group/AliceO2/pull/9137) 2022-06-10: [EMCAL-779,CTP-133] Correction for LM-L0 delay in EMCAL reconstruction by [@mfasDa](https://github.com/mfasDa)
+- [\#9138](https://github.com/AliceO2Group/AliceO2/pull/9138) 2022-06-10: [EMCAL-778] Implementation of LM-L0 delay in BC by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9050](https://github.com/AliceO2Group/AliceO2/pull/9050) 2022-06-02: Event Display: Fix PHOS visualization by [@pnwkw](https://github.com/pnwkw)
