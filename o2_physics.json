@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-17T20:27:28Z",
-            "title": "improvements to multCalibrator",
-            "number": 753,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tools/Multiplicity/multCalibrator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-17T20:18:40Z",
             "title": "Add QA plots for Lambda",
             "number": 754,
@@ -2925,6 +2900,46 @@
                 {
                   "node": {
                     "path": "Common/Tasks/eventSelectionQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/PhotonMeson use global axis specs across gamma tasks",
+            "number": 853,
+            "author": {
+              "login": "sstiefel19"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaConversions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaConversionsTruthOnlyMc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/gammaConversions.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/gammaConversionsTruthOnlyMc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/gammaConvDefinitions.h"
                   }
                 }
               ]
