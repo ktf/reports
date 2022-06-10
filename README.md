@@ -62,7 +62,6 @@
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
-- [\#9041](https://github.com/AliceO2Group/AliceO2/pull/9041) 2022-06-01: Event Display: Add track count to logs by [@pnwkw](https://github.com/pnwkw)
 - [\#9045](https://github.com/AliceO2Group/AliceO2/pull/9045) 2022-06-02: Event Display: Replace buttons with radio buttons by [@pnwkw](https://github.com/pnwkw)
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#9050](https://github.com/AliceO2Group/AliceO2/pull/9050) 2022-06-02: Event Display: Fix PHOS visualization by [@pnwkw](https://github.com/pnwkw)
