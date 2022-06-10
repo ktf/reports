@@ -14,6 +14,7 @@
 - [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
+- [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
@@ -62,6 +63,8 @@
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
+- [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
+- [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9045](https://github.com/AliceO2Group/AliceO2/pull/9045) 2022-06-02: Event Display: Replace buttons with radio buttons by [@pnwkw](https://github.com/pnwkw)
 - [\#9046](https://github.com/AliceO2Group/AliceO2/pull/9046) 2022-06-01: Event Display: Fix detector list in screenshots by [@pnwkw](https://github.com/pnwkw)
@@ -80,3 +83,5 @@
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Utilities
+- [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
