@@ -3,21 +3,17 @@
 ## Recent developments in O2 - Analysis
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
 - [\#9051](https://github.com/AliceO2Group/AliceO2/pull/9051) 2022-06-02: Make TGeant4 the default by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 - [\#9058](https://github.com/AliceO2Group/AliceO2/pull/9058) 2022-06-09: add MCH-MID tracks to VertexTrackMatcher by [@pillot](https://github.com/pillot)
 - [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9043](https://github.com/AliceO2Group/AliceO2/pull/9043) 2022-06-01: Add hostname to the name of CTF file by [@shahor02](https://github.com/shahor02)
-- [\#9044](https://github.com/AliceO2Group/AliceO2/pull/9044) 2022-06-02: TPC: IDC FLP processing improvements by [@wiechula](https://github.com/wiechula)
 - [\#9047](https://github.com/AliceO2Group/AliceO2/pull/9047) 2022-06-07: ZDC FastSim: Generate Hits as final output of fast simulation by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9048](https://github.com/AliceO2Group/AliceO2/pull/9048) 2022-06-02: MCH: re-defined time frame buffers as class data members by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9049](https://github.com/AliceO2Group/AliceO2/pull/9049) 2022-06-03: MCH: avoid re-computing the map size at each access by [@aferrero2707](https://github.com/aferrero2707)
@@ -53,6 +49,7 @@
 - [\#9105](https://github.com/AliceO2Group/AliceO2/pull/9105) 2022-06-07: Change path for CCDB entry for GRP/LHCIF datapoints by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 - [\#9107](https://github.com/AliceO2Group/AliceO2/pull/9107) 2022-06-07: CTP digi2raw optionally (def:on) applies 0-suppression by [@shahor02](https://github.com/shahor02)
+- [\#9109](https://github.com/AliceO2Group/AliceO2/pull/9109) 2022-06-10: Rdev tofcompressor fixes by [@preghenella](https://github.com/preghenella)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
