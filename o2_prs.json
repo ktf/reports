@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-02T11:14:50Z",
-            "title": "Event Display: Fix PHOS visualization",
-            "number": 9050,
-            "author": {
-              "login": "pnwkw"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-02T17:06:13Z",
             "title": "Make TGeant4 the default",
             "number": 9051,
@@ -2285,12 +2265,22 @@
               "edges": [
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
                   }
                 },
                 {
                   "node": {
                     "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/DataFormatsCTPLinkDef.h"
                   }
                 },
                 {
@@ -3426,6 +3416,51 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/workflow/include/FITWorkflow/RawReaderFIT.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event DIsplay: Use the recommended API for collision data access",
+            "number": 9150,
+            "author": {
+              "login": "pnwkw"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/AO2DConverter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/FileProducer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/AO2DConverter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/FileProducer.cxx"
                   }
                 }
               ]
