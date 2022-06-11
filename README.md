@@ -65,6 +65,7 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9067](https://github.com/AliceO2Group/AliceO2/pull/9067) 2022-06-02: Event Display: Make settings for clusters and tracks persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
+- [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)
 - [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9081](https://github.com/AliceO2Group/AliceO2/pull/9081) 2022-06-04: DPL: have environment variables correctly populated in the ECS YAML by [@ktf](https://github.com/ktf)
