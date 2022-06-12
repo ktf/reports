@@ -14,7 +14,6 @@
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9053](https://github.com/AliceO2Group/AliceO2/pull/9053) 2022-06-01: [EMCAL-614] Changing the default delay to 600 by [@hahassan7](https://github.com/hahassan7)
 - [\#9057](https://github.com/AliceO2Group/AliceO2/pull/9057) 2022-06-06: FIT: modification for CTF encoding/decoding procedure by [@afurs](https://github.com/afurs)
 - [\#9058](https://github.com/AliceO2Group/AliceO2/pull/9058) 2022-06-09: add MCH-MID tracks to VertexTrackMatcher by [@pillot](https://github.com/pillot)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
