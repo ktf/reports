@@ -16,7 +16,6 @@
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
 - [\#9073](https://github.com/AliceO2Group/AliceO2/pull/9073) 2022-06-07: MCH: CRU page reader: assemble full TFs from available links by [@aferrero2707](https://github.com/aferrero2707)
