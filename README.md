@@ -15,7 +15,6 @@
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9057](https://github.com/AliceO2Group/AliceO2/pull/9057) 2022-06-06: FIT: modification for CTF encoding/decoding procedure by [@afurs](https://github.com/afurs)
 - [\#9058](https://github.com/AliceO2Group/AliceO2/pull/9058) 2022-06-09: add MCH-MID tracks to VertexTrackMatcher by [@pillot](https://github.com/pillot)
 - [\#9059](https://github.com/AliceO2Group/AliceO2/pull/9059) 2022-06-02:  [EMCAL-566] Replacing algorithm::sum with own counter  by [@jokonig](https://github.com/jokonig)
 - [\#9060](https://github.com/AliceO2Group/AliceO2/pull/9060) 2022-06-08: use the same data description as the reader by [@pillot](https://github.com/pillot)
