@@ -82,6 +82,7 @@
 - [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
 - [\#9145](https://github.com/AliceO2Group/AliceO2/pull/9145) 2022-06-11: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 - [\#9151](https://github.com/AliceO2Group/AliceO2/pull/9151) 2022-06-13: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
+- [\#9163](https://github.com/AliceO2Group/AliceO2/pull/9163) 2022-06-13: DPL: propagate run number created in the callback by [@ktf](https://github.com/ktf)
 - [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
