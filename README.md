@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Common
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
+- [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -15,7 +16,6 @@
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9064](https://github.com/AliceO2Group/AliceO2/pull/9064) 2022-06-02: --verbose-reader opt for o2-primary-vertex-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#9069](https://github.com/AliceO2Group/AliceO2/pull/9069) 2022-06-02: Disable RDH packet jumps check at start of TF in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#9070](https://github.com/AliceO2Group/AliceO2/pull/9070) 2022-06-03: Using filename to determine start of validity of CCDB entry by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9072](https://github.com/AliceO2Group/AliceO2/pull/9072) 2022-06-02: Fix in readme and script for DCS server emulator by [@shahor02](https://github.com/shahor02)
@@ -77,6 +77,7 @@
 - [\#9097](https://github.com/AliceO2Group/AliceO2/pull/9097) 2022-06-07: DPL: dummy sync should always rescan to avoid deadlocks by [@ktf](https://github.com/ktf)
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
+- [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
 - [\#9131](https://github.com/AliceO2Group/AliceO2/pull/9131) 2022-06-09: DPL: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
