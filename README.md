@@ -68,6 +68,7 @@
 - [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
+- [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9081](https://github.com/AliceO2Group/AliceO2/pull/9081) 2022-06-04: DPL: have environment variables correctly populated in the ECS YAML by [@ktf](https://github.com/ktf)
 - [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
@@ -84,6 +85,7 @@
 - [\#9151](https://github.com/AliceO2Group/AliceO2/pull/9151) 2022-06-13: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 - [\#9163](https://github.com/AliceO2Group/AliceO2/pull/9163) 2022-06-13: DPL: propagate run number created in the callback by [@ktf](https://github.com/ktf)
 - [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
+- [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities

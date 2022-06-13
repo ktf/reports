@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Implementing class for nD piecewise polynomials",
-            "number": 9068,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/MultivariatePolynomial.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/MultivariatePolynomialHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/MultivariatePolynomialHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/test/testMultivarPolynomials.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-06-02T18:32:43Z",
             "title": "Disable RDH packet jumps check at start of TF in ITS/MFT decoder",
@@ -3285,11 +3230,6 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDDigitReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
                     "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDDigitWriterSpec.h"
                   }
                 },
@@ -3320,7 +3260,7 @@
                 },
                 {
                   "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDEventDisplayFeedWorkflow.cxx"
+                    "path": "Detectors/TRD/workflow/src/TRDEventDisplayFeedSpec.cxx"
                   }
                 },
                 {
@@ -3449,8 +3389,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-13T20:22:00Z",
             "title": "Event Display: Enable more matched track types in the workflow",
             "number": 9162,
             "author": {
@@ -3569,8 +3509,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-13T20:17:51Z",
             "title": "DPL: improve message when dropping data",
             "number": 9167,
             "author": {
@@ -3581,6 +3521,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: error message when FLP/DISTSTF used without /0.",
+            "number": 9168,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
