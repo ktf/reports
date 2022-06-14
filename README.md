@@ -18,7 +18,6 @@
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#9076](https://github.com/AliceO2Group/AliceO2/pull/9076) 2022-06-03: Fix: export of ITS seeding vertices was broken by [@shahor02](https://github.com/shahor02)
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9078](https://github.com/AliceO2Group/AliceO2/pull/9078) 2022-06-07: TPC toy cluster sim: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
