@@ -61,10 +61,12 @@
 - [\#9148](https://github.com/AliceO2Group/AliceO2/pull/9148) 2022-06-11: Keeping last values for TOF DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
+- [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 - [\#9159](https://github.com/AliceO2Group/AliceO2/pull/9159) 2022-06-13: ITS/MFT decoding: fix race condition in PHY trigger decoding by [@shahor02](https://github.com/shahor02)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
+- [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
@@ -92,7 +94,9 @@
 - [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
 - [\#9168](https://github.com/AliceO2Group/AliceO2/pull/9168) 2022-06-14: DPL: error message when FLP/DISTSTF used without /0. by [@ktf](https://github.com/ktf)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
+- [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
+- [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
