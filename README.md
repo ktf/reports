@@ -42,6 +42,7 @@
 - [\#9109](https://github.com/AliceO2Group/AliceO2/pull/9109) 2022-06-10: Rdev tofcompressor fixes by [@preghenella](https://github.com/preghenella)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
+- [\#9112](https://github.com/AliceO2Group/AliceO2/pull/9112) 2022-06-14: MRRTF-177: MCH electronic mapping fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 - [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
 - [\#9119](https://github.com/AliceO2Group/AliceO2/pull/9119) 2022-06-10: smear event time by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
