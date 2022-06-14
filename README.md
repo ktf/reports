@@ -9,7 +9,6 @@
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9121](https://github.com/AliceO2Group/AliceO2/pull/9121) 2022-06-14: Added TRDTrackQC parameters by [@f3sch](https://github.com/f3sch)
@@ -19,7 +18,6 @@
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#9074](https://github.com/AliceO2Group/AliceO2/pull/9074) 2022-06-06: Track following as CA afterburner by [@mpuccio](https://github.com/mpuccio)
 - [\#9075](https://github.com/AliceO2Group/AliceO2/pull/9075) 2022-06-03: PHOS TruFlags reading; CPV alarm->warning too many loc. maxima by [@peressounko](https://github.com/peressounko)
 - [\#9076](https://github.com/AliceO2Group/AliceO2/pull/9076) 2022-06-03: Fix: export of ITS seeding vertices was broken by [@shahor02](https://github.com/shahor02)
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
