@@ -52,6 +52,7 @@
 - [\#9127](https://github.com/AliceO2Group/AliceO2/pull/9127) 2022-06-13: SpaceCharge: Add boundary check by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 - [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
+- [\#9136](https://github.com/AliceO2Group/AliceO2/pull/9136) 2022-06-14: store vectors for EnvVars, Collimators, change a bit the policy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9137](https://github.com/AliceO2Group/AliceO2/pull/9137) 2022-06-10: [EMCAL-779,CTP-133] Correction for LM-L0 delay in EMCAL reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#9138](https://github.com/AliceO2Group/AliceO2/pull/9138) 2022-06-10: [EMCAL-778] Implementation of LM-L0 delay in BC by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
