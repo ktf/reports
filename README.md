@@ -19,8 +19,6 @@
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
-- [\#9078](https://github.com/AliceO2Group/AliceO2/pull/9078) 2022-06-07: TPC toy cluster sim: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
 - [\#9087](https://github.com/AliceO2Group/AliceO2/pull/9087) 2022-06-07: mch-reco-workflow stores cluster if root output is enabled by [@shahor02](https://github.com/shahor02)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
@@ -95,7 +93,6 @@
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
