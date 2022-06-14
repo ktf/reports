@@ -65,6 +65,8 @@
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
 - [\#9159](https://github.com/AliceO2Group/AliceO2/pull/9159) 2022-06-13: ITS/MFT decoding: fix race condition in PHY trigger decoding by [@shahor02](https://github.com/shahor02)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
+- [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
+- [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
@@ -90,6 +92,7 @@
 - [\#9163](https://github.com/AliceO2Group/AliceO2/pull/9163) 2022-06-13: DPL: propagate run number created in the callback by [@ktf](https://github.com/ktf)
 - [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
 - [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
+- [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9079](https://github.com/AliceO2Group/AliceO2/pull/9079) 2022-06-03: Fix reporting of used ITS/MFT Alpide param used by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
