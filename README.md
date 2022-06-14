@@ -17,6 +17,7 @@
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
+- [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
 - [\#9077](https://github.com/AliceO2Group/AliceO2/pull/9077) 2022-06-03: Some bug fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9078](https://github.com/AliceO2Group/AliceO2/pull/9078) 2022-06-07: TPC toy cluster sim: small fixes by [@matthias-kleiner](https://github.com/matthias-kleiner)
