@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "DPL GUI: speedup metric processing",
-            "number": 9082,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceMetricsInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DeviceMetricsHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DeviceMetricsInfo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDataRelayerUsage.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-06-05T09:24:42Z",
             "title": "Some updates / fixes for FST",
@@ -1336,6 +1296,11 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CreateCTPConfigRun2.C"
                   }
                 },
                 {
@@ -3349,7 +3314,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[WIP] TRD fix XOR handling of tracklet word",
             "number": 9176,
@@ -3360,47 +3325,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/include/TRDBase/TrackletTransformer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/TrackletTransformer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/src/TrapSimulator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrackletTransformerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerWorkflow.cxx"
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
                   }
                 }
               ]
@@ -3591,6 +3516,26 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD Trap2CRU check if file is zombie",
+            "number": 9182,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
                   }
                 }
               ]
