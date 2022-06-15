@@ -20,7 +20,6 @@
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9092](https://github.com/AliceO2Group/AliceO2/pull/9092) 2022-06-05: Account for the physics triggers embedded into the ITS/MFT raw data by [@shahor02](https://github.com/shahor02)
 - [\#9094](https://github.com/AliceO2Group/AliceO2/pull/9094) 2022-06-09: Setting creation time, used by some detectors in the subsequent proce… by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9096](https://github.com/AliceO2Group/AliceO2/pull/9096) 2022-06-07: GPU Workflow: switch to framework::Task API by [@davidrohr](https://github.com/davidrohr)
