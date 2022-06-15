@@ -79,7 +79,6 @@
 - [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
 - [\#9093](https://github.com/AliceO2Group/AliceO2/pull/9093) 2022-06-05: DPL: add adoptTask by [@ktf](https://github.com/ktf)
 - [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9097](https://github.com/AliceO2Group/AliceO2/pull/9097) 2022-06-07: DPL: dummy sync should always rescan to avoid deadlocks by [@ktf](https://github.com/ktf)
