@@ -8,6 +8,7 @@
 - [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
+- [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
@@ -64,6 +65,8 @@
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
 - [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
+- [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9086](https://github.com/AliceO2Group/AliceO2/pull/9086) 2022-06-04: Event Display: Fix order of arguments in log message by [@pnwkw](https://github.com/pnwkw)
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
@@ -72,6 +75,7 @@
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
 - [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
+- [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9088](https://github.com/AliceO2Group/AliceO2/pull/9088) 2022-06-05: CCDBfetcher falls uses creation time if orbit is wrong by [@shahor02](https://github.com/shahor02)
 - [\#9093](https://github.com/AliceO2Group/AliceO2/pull/9093) 2022-06-05: DPL: add adoptTask by [@ktf](https://github.com/ktf)
@@ -91,6 +95,7 @@
 - [\#9168](https://github.com/AliceO2Group/AliceO2/pull/9168) 2022-06-14: DPL: error message when FLP/DISTSTF used without /0. by [@ktf](https://github.com/ktf)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
+- [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
