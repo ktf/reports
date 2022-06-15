@@ -59,6 +59,7 @@
 - [\#9148](https://github.com/AliceO2Group/AliceO2/pull/9148) 2022-06-11: Keeping last values for TOF DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
+- [\#9154](https://github.com/AliceO2Group/AliceO2/pull/9154) 2022-06-15: fix for TOF async calib by [@noferini](https://github.com/noferini)
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 - [\#9159](https://github.com/AliceO2Group/AliceO2/pull/9159) 2022-06-13: ITS/MFT decoding: fix race condition in PHY trigger decoding by [@shahor02](https://github.com/shahor02)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
