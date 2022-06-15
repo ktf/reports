@@ -70,6 +70,7 @@
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
 - [\#9182](https://github.com/AliceO2Group/AliceO2/pull/9182) 2022-06-15: TRD Trap2CRU check if file is zombie by [@martenole](https://github.com/martenole)
+- [\#9183](https://github.com/AliceO2Group/AliceO2/pull/9183) 2022-06-15: Bugfix track interpolation: reset output after sending by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
 - [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)
