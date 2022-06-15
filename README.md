@@ -46,6 +46,7 @@
 - [\#9123](https://github.com/AliceO2Group/AliceO2/pull/9123) 2022-06-08: optional blocking mode for CCDB refresh from o2-ecs-grp-create by [@shahor02](https://github.com/shahor02)
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
+- [\#9126](https://github.com/AliceO2Group/AliceO2/pull/9126) 2022-06-15: TPCQC: Tracks Task Updated with maps by [@sbhawani](https://github.com/sbhawani)
 - [\#9127](https://github.com/AliceO2Group/AliceO2/pull/9127) 2022-06-13: SpaceCharge: Add boundary check by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 - [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
