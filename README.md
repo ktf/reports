@@ -20,7 +20,6 @@
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 ## Recent developments in O2 - Detectors
-- [\#9087](https://github.com/AliceO2Group/AliceO2/pull/9087) 2022-06-07: mch-reco-workflow stores cluster if root output is enabled by [@shahor02](https://github.com/shahor02)
 - [\#9089](https://github.com/AliceO2Group/AliceO2/pull/9089) 2022-06-06: TRD DCS calib objects use adjustable EOV by [@martenole](https://github.com/martenole)
 - [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
 - [\#9091](https://github.com/AliceO2Group/AliceO2/pull/9091) 2022-06-09: Sending to CCDB only after all DPs have been seen. by [@chiarazampolli](https://github.com/chiarazampolli)
