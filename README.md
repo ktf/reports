@@ -18,8 +18,8 @@
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
+- [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9090](https://github.com/AliceO2Group/AliceO2/pull/9090) 2022-06-05: ecs-grp-create: fix RCT filling, adjust EoV of SOR-only version by [@shahor02](https://github.com/shahor02)
 - [\#9091](https://github.com/AliceO2Group/AliceO2/pull/9091) 2022-06-09: Sending to CCDB only after all DPs have been seen. by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9092](https://github.com/AliceO2Group/AliceO2/pull/9092) 2022-06-05: Account for the physics triggers embedded into the ITS/MFT raw data by [@shahor02](https://github.com/shahor02)
 - [\#9094](https://github.com/AliceO2Group/AliceO2/pull/9094) 2022-06-09: Setting creation time, used by some detectors in the subsequent proce… by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -66,9 +66,11 @@
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
 - [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
 - [\#9182](https://github.com/AliceO2Group/AliceO2/pull/9182) 2022-06-15: TRD Trap2CRU check if file is zombie by [@martenole](https://github.com/martenole)
 - [\#9183](https://github.com/AliceO2Group/AliceO2/pull/9183) 2022-06-15: Bugfix track interpolation: reset output after sending by [@martenole](https://github.com/martenole)
+- [\#9190](https://github.com/AliceO2Group/AliceO2/pull/9190) 2022-06-15: Fix typo in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
 - [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)
