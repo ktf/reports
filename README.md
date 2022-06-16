@@ -18,7 +18,6 @@
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9107](https://github.com/AliceO2Group/AliceO2/pull/9107) 2022-06-07: CTP digi2raw optionally (def:on) applies 0-suppression by [@shahor02](https://github.com/shahor02)
 - [\#9109](https://github.com/AliceO2Group/AliceO2/pull/9109) 2022-06-10: Rdev tofcompressor fixes by [@preghenella](https://github.com/preghenella)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)
 - [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
