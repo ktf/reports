@@ -63,6 +63,7 @@
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9190](https://github.com/AliceO2Group/AliceO2/pull/9190) 2022-06-15: Fix typo in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
 - [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
