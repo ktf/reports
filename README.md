@@ -19,6 +19,7 @@
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#9096](https://github.com/AliceO2Group/AliceO2/pull/9096) 2022-06-07: GPU Workflow: switch to framework::Task API by [@davidrohr](https://github.com/davidrohr)
 - [\#9098](https://github.com/AliceO2Group/AliceO2/pull/9098) 2022-06-06: LHCIFfileReader should store time in ms rather than in microsec by [@shahor02](https://github.com/shahor02)
@@ -66,7 +67,9 @@
 - [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
 - [\#9182](https://github.com/AliceO2Group/AliceO2/pull/9182) 2022-06-15: TRD Trap2CRU check if file is zombie by [@martenole](https://github.com/martenole)
 - [\#9183](https://github.com/AliceO2Group/AliceO2/pull/9183) 2022-06-15: Bugfix track interpolation: reset output after sending by [@martenole](https://github.com/martenole)
+- [\#9187](https://github.com/AliceO2Group/AliceO2/pull/9187) 2022-06-16: TRD fix time bin ordering in sim to raw by [@bazinski](https://github.com/bazinski)
 - [\#9190](https://github.com/AliceO2Group/AliceO2/pull/9190) 2022-06-15: Fix typo in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
+- [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
 - [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)
