@@ -99,3 +99,4 @@
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
+- [\#9194](https://github.com/AliceO2Group/AliceO2/pull/9194) 2022-06-16: Fix deprecated inheritance on std::iterator by [@ktf](https://github.com/ktf)
