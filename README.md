@@ -10,7 +10,6 @@
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9117](https://github.com/AliceO2Group/AliceO2/pull/9117) 2022-06-16: dev: fixes in config/scalers by [@lietava](https://github.com/lietava)
 - [\#9121](https://github.com/AliceO2Group/AliceO2/pull/9121) 2022-06-14: Added TRDTrackQC parameters by [@f3sch](https://github.com/f3sch)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
@@ -22,7 +21,6 @@
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
 - [\#9100](https://github.com/AliceO2Group/AliceO2/pull/9100) 2022-06-07: TRD TRAP floating point arithmetics for tracklet charges by [@martenole](https://github.com/martenole)
 - [\#9105](https://github.com/AliceO2Group/AliceO2/pull/9105) 2022-06-07: Change path for CCDB entry for GRP/LHCIF datapoints by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
