@@ -6,96 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "TRD variable timebins for digits",
-            "number": 9101,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DigitsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DigitsParser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "ctpdev: fixes, updates",
-            "number": 9102,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-08T12:42:50Z",
-            "title": "test for propagation to PV",
-            "number": 9103,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/GeomConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "MCH: New Clustering Refactoring",
             "number": 9104,
             "author": {
@@ -3558,6 +3468,86 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-eve-export-workflow: added EMCAL export",
+            "number": 9201,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix digit handling in trap2raw with downsampling before trap2raw",
+            "number": 9202,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/include/TRDSimulation/Trap2CRU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Reduce memory consumption during clusterization and fix a problem that nPositions was not set correctly",
+            "number": 9203,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ChargePos.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "prodtests/full_system_test.sh"
