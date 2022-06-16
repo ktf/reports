@@ -80,7 +80,6 @@
 - [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9097](https://github.com/AliceO2Group/AliceO2/pull/9097) 2022-06-07: DPL: dummy sync should always rescan to avoid deadlocks by [@ktf](https://github.com/ktf)
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 - [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
