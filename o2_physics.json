@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-05-26T08:23:11Z",
-            "title": "remove the redundant histograms",
-            "number": 793,
-            "author": {
-              "login": "aortizve"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Tasks/flatenicityFV0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-05-26T11:18:01Z",
             "title": "Move QA tasks for PIDMC to DPG",
             "number": 794,
@@ -3340,6 +3320,31 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/qaEventTrackLite.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix mch match indices in data reduced tables",
+            "number": 893,
+            "author": {
+              "login": "batoul-d"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
                   }
                 }
               ]
