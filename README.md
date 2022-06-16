@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 - [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
@@ -19,7 +18,6 @@
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9106](https://github.com/AliceO2Group/AliceO2/pull/9106) 2022-06-07: DCS DP processors report timing, wait for 2nd FBI unless it is forbidden by [@shahor02](https://github.com/shahor02)
 - [\#9107](https://github.com/AliceO2Group/AliceO2/pull/9107) 2022-06-07: CTP digi2raw optionally (def:on) applies 0-suppression by [@shahor02](https://github.com/shahor02)
 - [\#9109](https://github.com/AliceO2Group/AliceO2/pull/9109) 2022-06-10: Rdev tofcompressor fixes by [@preghenella](https://github.com/preghenella)
 - [\#9110](https://github.com/AliceO2Group/AliceO2/pull/9110) 2022-06-07: Emulator for ADAPOS DCS DPs data by [@shahor02](https://github.com/shahor02)

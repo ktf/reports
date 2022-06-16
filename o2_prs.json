@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-07T16:29:44Z",
-            "title": "DCS DP processors report timing, wait for 2nd FBI unless it is forbidden",
-            "number": 9106,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/DCSConsumerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/EMCALDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/include/GRPWorkflows/GRPDCSDPsSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/GRPDCSDPsSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/condition/testWorkflow/MFTDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/dcs/src/DCSSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/workflow/TRDDCSDataProcessorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-07T19:51:20Z",
             "title": "CTP digi2raw optionally (def:on) applies 0-suppression",
             "number": 9107,
@@ -3631,6 +3561,31 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/workflow/src/zdc-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix in vertex-track association",
+            "number": 9206,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/readers/src/PrimaryVertexReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
                   }
                 }
               ]
