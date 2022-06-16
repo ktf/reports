@@ -20,7 +20,6 @@
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9096](https://github.com/AliceO2Group/AliceO2/pull/9096) 2022-06-07: GPU Workflow: switch to framework::Task API by [@davidrohr](https://github.com/davidrohr)
 - [\#9098](https://github.com/AliceO2Group/AliceO2/pull/9098) 2022-06-06: LHCIFfileReader should store time in ms rather than in microsec by [@shahor02](https://github.com/shahor02)
 - [\#9099](https://github.com/AliceO2Group/AliceO2/pull/9099) 2022-06-07: [EMCAL-679] Suppression of LG bunches by [@hahassan7](https://github.com/hahassan7)
@@ -77,7 +76,6 @@
 - [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9095](https://github.com/AliceO2Group/AliceO2/pull/9095) 2022-06-05: Fix typos in formatting by [@shahor02](https://github.com/shahor02)
 - [\#9097](https://github.com/AliceO2Group/AliceO2/pull/9097) 2022-06-07: DPL: dummy sync should always rescan to avoid deadlocks by [@ktf](https://github.com/ktf)
 - [\#9103](https://github.com/AliceO2Group/AliceO2/pull/9103) 2022-06-08: test for propagation to PV by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
