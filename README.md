@@ -63,6 +63,7 @@
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9195](https://github.com/AliceO2Group/AliceO2/pull/9195) 2022-06-17: [EMCAL-566] Added option to time-profile calibration by [@jokonig](https://github.com/jokonig)
+- [\#9199](https://github.com/AliceO2Group/AliceO2/pull/9199) 2022-06-17: Fix resetting of PIDs for LHCIFDPs when updating on change by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
 - [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
