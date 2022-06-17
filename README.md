@@ -19,8 +19,6 @@
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9111](https://github.com/AliceO2Group/AliceO2/pull/9111) 2022-06-08: optionally refresh CCDB server cache after uploading GRPECS by [@shahor02](https://github.com/shahor02)
-- [\#9112](https://github.com/AliceO2Group/AliceO2/pull/9112) 2022-06-14: MRRTF-177: MCH electronic mapping fixes by [@aphecetche](https://github.com/aphecetche)
 - [\#9113](https://github.com/AliceO2Group/AliceO2/pull/9113) 2022-06-09: DPL: improve websocket encoding by [@ktf](https://github.com/ktf)
 - [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
 - [\#9117](https://github.com/AliceO2Group/AliceO2/pull/9117) 2022-06-16: dev: fixes in config/scalers by [@lietava](https://github.com/lietava)
@@ -62,9 +60,11 @@
 - [\#9190](https://github.com/AliceO2Group/AliceO2/pull/9190) 2022-06-15: Fix typo in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9195](https://github.com/AliceO2Group/AliceO2/pull/9195) 2022-06-17: [EMCAL-566] Added option to time-profile calibration by [@jokonig](https://github.com/jokonig)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
 - [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9116](https://github.com/AliceO2Group/AliceO2/pull/9116) 2022-06-13: Enable TF rate limiting in FST/sync workflow + some unrelated improvements to make FST work properly by [@davidrohr](https://github.com/davidrohr)
 - [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)

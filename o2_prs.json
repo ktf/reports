@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-08T09:20:43Z",
-            "title": "optionally refresh CCDB server cache after uploading GRPECS",
-            "number": 9111,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-14T11:06:38Z",
-            "title": "MRRTF-177: MCH electronic mapping fixes",
-            "number": 9112,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH10L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH10R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH5L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH5R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH6L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH7L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH7R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH9L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH9R.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/fec.map"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-09T05:59:33Z",
             "title": "DPL: improve websocket encoding",
             "number": 9113,
@@ -3014,8 +2924,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-17T08:37:27Z",
             "title": "[EMCAL-566] Added option to time-profile calibration",
             "number": 9195,
             "author": {
@@ -3601,6 +3511,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/HistogramRegistry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-06-17T08:37:47Z",
+            "title": "Fix: remove extra slash in the perl command of grp-ecs creator",
+            "number": 9211,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Introduce more wait calls for correct resource accounting",
+            "number": 9212,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/O2SimDeviceRunner.cxx"
                   }
                 }
               ]
