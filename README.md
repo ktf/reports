@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#9118](https://github.com/AliceO2Group/AliceO2/pull/9118) 2022-06-13: DPL: do not send the rate limiting information more than once by [@ktf](https://github.com/ktf)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
@@ -82,6 +84,7 @@
 - [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
 - [\#9145](https://github.com/AliceO2Group/AliceO2/pull/9145) 2022-06-11: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 - [\#9151](https://github.com/AliceO2Group/AliceO2/pull/9151) 2022-06-13: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
+- [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
 - [\#9163](https://github.com/AliceO2Group/AliceO2/pull/9163) 2022-06-13: DPL: propagate run number created in the callback by [@ktf](https://github.com/ktf)
 - [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
 - [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
