@@ -64,6 +64,7 @@
 - [\#9199](https://github.com/AliceO2Group/AliceO2/pull/9199) 2022-06-17: Fix resetting of PIDs for LHCIFDPs when updating on change by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
 - [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
+- [\#9206](https://github.com/AliceO2Group/AliceO2/pull/9206) 2022-06-17: Fix in vertex-track association by [@shahor02](https://github.com/shahor02)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
