@@ -21,7 +21,6 @@
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9114](https://github.com/AliceO2Group/AliceO2/pull/9114) 2022-06-09: ZDC: step in connecting FastSim to hit creation by [@sawenzel](https://github.com/sawenzel)
 - [\#9117](https://github.com/AliceO2Group/AliceO2/pull/9117) 2022-06-16: dev: fixes in config/scalers by [@lietava](https://github.com/lietava)
 - [\#9119](https://github.com/AliceO2Group/AliceO2/pull/9119) 2022-06-10: smear event time by [@AllaMaevskaya](https://github.com/AllaMaevskaya)
 - [\#9120](https://github.com/AliceO2Group/AliceO2/pull/9120) 2022-06-09: add MC labels for MCH-MID matched tracks by [@pillot](https://github.com/pillot)
