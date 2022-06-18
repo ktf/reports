@@ -93,6 +93,7 @@
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9193](https://github.com/AliceO2Group/AliceO2/pull/9193) 2022-06-17: DPL: debug early forwarding reason by [@ktf](https://github.com/ktf)
 - [\#9209](https://github.com/AliceO2Group/AliceO2/pull/9209) 2022-06-17: DPL: Don't fail on empty workflow when dumping the topology by [@davidrohr](https://github.com/davidrohr)
+- [\#9210](https://github.com/AliceO2Group/AliceO2/pull/9210) 2022-06-18: DPL Analysis: allow hyphens in histogram names by [@mario-krueger](https://github.com/mario-krueger)
 ## Recent developments in O2 - Steer
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
