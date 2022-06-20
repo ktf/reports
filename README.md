@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
+- [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
@@ -88,6 +89,7 @@
 - [\#9193](https://github.com/AliceO2Group/AliceO2/pull/9193) 2022-06-17: DPL: debug early forwarding reason by [@ktf](https://github.com/ktf)
 - [\#9209](https://github.com/AliceO2Group/AliceO2/pull/9209) 2022-06-17: DPL: Don't fail on empty workflow when dumping the topology by [@davidrohr](https://github.com/davidrohr)
 - [\#9210](https://github.com/AliceO2Group/AliceO2/pull/9210) 2022-06-18: DPL Analysis: allow hyphens in histogram names by [@mario-krueger](https://github.com/mario-krueger)
+- [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
