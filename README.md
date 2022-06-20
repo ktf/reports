@@ -19,7 +19,6 @@
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9123](https://github.com/AliceO2Group/AliceO2/pull/9123) 2022-06-08: optional blocking mode for CCDB refresh from o2-ecs-grp-create by [@shahor02](https://github.com/shahor02)
 - [\#9124](https://github.com/AliceO2Group/AliceO2/pull/9124) 2022-06-08: Remove unused variable by [@shahor02](https://github.com/shahor02)
 - [\#9125](https://github.com/AliceO2Group/AliceO2/pull/9125) 2022-06-08: Suppress time excessive calls in rawreader by [@shahor02](https://github.com/shahor02)
 - [\#9126](https://github.com/AliceO2Group/AliceO2/pull/9126) 2022-06-15: TPCQC: Tracks Task Updated with maps by [@sbhawani](https://github.com/sbhawani)
