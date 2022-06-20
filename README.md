@@ -19,7 +19,6 @@
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9126](https://github.com/AliceO2Group/AliceO2/pull/9126) 2022-06-15: TPCQC: Tracks Task Updated with maps by [@sbhawani](https://github.com/sbhawani)
 - [\#9127](https://github.com/AliceO2Group/AliceO2/pull/9127) 2022-06-13: SpaceCharge: Add boundary check by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 - [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
