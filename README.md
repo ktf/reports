@@ -64,6 +64,7 @@
 - [\#9216](https://github.com/AliceO2Group/AliceO2/pull/9216) 2022-06-20: fix for logs and consts by [@noferini](https://github.com/noferini)
 - [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
+- [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
