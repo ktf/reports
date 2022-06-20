@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[EMCAL-737] Added pi0 QC task for EMCal calibration",
-            "number": 798,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Tasks/emcalPi0QC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-05-27T18:58:47Z",
             "title": "Fix bc call (thanks Victor)",
@@ -3335,6 +3310,46 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/LFTreeCreatorNuclei.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix RCT path in ccdb",
+            "number": 898,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_trigger_aliases.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/timestamp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/handleParamTOFReso.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/handleParamTPCResponse.cxx"
                   }
                 }
               ]

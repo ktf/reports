@@ -65,6 +65,7 @@
 - [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
 - [\#9214](https://github.com/AliceO2Group/AliceO2/pull/9214) 2022-06-18: MCH: select only non empty IRFrames by [@aphecetche](https://github.com/aphecetche)
 - [\#9216](https://github.com/AliceO2Group/AliceO2/pull/9216) 2022-06-20: fix for logs and consts by [@noferini](https://github.com/noferini)
+- [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#9122](https://github.com/AliceO2Group/AliceO2/pull/9122) 2022-06-11: Event Display: Only show the track count for requested track types by [@pnwkw](https://github.com/pnwkw)
 - [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
