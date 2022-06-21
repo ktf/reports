@@ -18,6 +18,7 @@
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#9128](https://github.com/AliceO2Group/AliceO2/pull/9128) 2022-06-08: Use raw string to fix check by [@ktf](https://github.com/ktf)
 - [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
@@ -62,6 +63,7 @@
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
 - [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
 - [\#9225](https://github.com/AliceO2Group/AliceO2/pull/9225) 2022-06-21: adjust RCT RunInformation path by [@sawenzel](https://github.com/sawenzel)
+- [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
