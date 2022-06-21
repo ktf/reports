@@ -71,7 +71,6 @@
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9131](https://github.com/AliceO2Group/AliceO2/pull/9131) 2022-06-09: DPL: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
 - [\#9145](https://github.com/AliceO2Group/AliceO2/pull/9145) 2022-06-11: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
