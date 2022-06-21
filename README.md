@@ -65,7 +65,6 @@
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9130](https://github.com/AliceO2Group/AliceO2/pull/9130) 2022-06-10: Event Display: Accept all track combinations in the GUI by [@pnwkw](https://github.com/pnwkw)
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
 - [\#9162](https://github.com/AliceO2Group/AliceO2/pull/9162) 2022-06-13: Event Display: Enable more matched track types in the workflow by [@pnwkw](https://github.com/pnwkw)
