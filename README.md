@@ -19,7 +19,6 @@
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9134](https://github.com/AliceO2Group/AliceO2/pull/9134) 2022-06-10: read TOF clusters if any of TOF matches is requested by [@shahor02](https://github.com/shahor02)
 - [\#9136](https://github.com/AliceO2Group/AliceO2/pull/9136) 2022-06-14: store vectors for EnvVars, Collimators, change a bit the policy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9137](https://github.com/AliceO2Group/AliceO2/pull/9137) 2022-06-10: [EMCAL-779,CTP-133] Correction for LM-L0 delay in EMCAL reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#9138](https://github.com/AliceO2Group/AliceO2/pull/9138) 2022-06-10: [EMCAL-778] Implementation of LM-L0 delay in BC by [@hahassan7](https://github.com/hahassan7)
@@ -70,7 +69,6 @@
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
 - [\#9145](https://github.com/AliceO2Group/AliceO2/pull/9145) 2022-06-11: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 - [\#9151](https://github.com/AliceO2Group/AliceO2/pull/9151) 2022-06-13: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
 - [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
