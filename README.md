@@ -4,7 +4,6 @@
 - [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
 - [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -71,7 +70,6 @@
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9132](https://github.com/AliceO2Group/AliceO2/pull/9132) 2022-06-09: DPL: reduce verbosity by [@ktf](https://github.com/ktf)
 - [\#9135](https://github.com/AliceO2Group/AliceO2/pull/9135) 2022-06-10: Add some new options to DPL by [@davidrohr](https://github.com/davidrohr)
 - [\#9145](https://github.com/AliceO2Group/AliceO2/pull/9145) 2022-06-11: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 - [\#9151](https://github.com/AliceO2Group/AliceO2/pull/9151) 2022-06-13: DPL: speedup metric processing by [@ktf](https://github.com/ktf)
