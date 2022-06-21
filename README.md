@@ -60,6 +60,7 @@
 - [\#9225](https://github.com/AliceO2Group/AliceO2/pull/9225) 2022-06-21: adjust RCT RunInformation path by [@sawenzel](https://github.com/sawenzel)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
+- [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
