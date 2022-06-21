@@ -18,7 +18,6 @@
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9140](https://github.com/AliceO2Group/AliceO2/pull/9140) 2022-06-15: ZDC FastSim: Code cleanup by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9142](https://github.com/AliceO2Group/AliceO2/pull/9142) 2022-06-14: get MC labels of MCH-MID matched tracks if requested by [@pillot](https://github.com/pillot)
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9146](https://github.com/AliceO2Group/AliceO2/pull/9146) 2022-06-10: fix in TOF LOGS by [@noferini](https://github.com/noferini)
