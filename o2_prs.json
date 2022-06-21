@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-14T09:27:51Z",
-            "title": "store vectors for EnvVars, Collimators, change a bit the policy",
-            "number": 9136,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/include/GRPCalibration/GRPDCSDPsProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/calibration/src/GRPDCSDPsProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/include/GRPWorkflows/GRPDCSDPsSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/GRPDCSDPsSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-10T15:26:59Z",
             "title": "[EMCAL-779,CTP-133] Correction for LM-L0 delay in EMCAL reconstruction",
             "number": 9137,
@@ -3841,6 +3801,36 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve to avoid typos in DP names and possibility to keep latest value",
+            "number": 9236,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GRP/calibration/include/GRPCalibration/GRPDCSDPsProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GRP/calibration/src/GRPDCSDPsProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GRP/workflows/src/GRPDCSDPsSpec.cxx"
                   }
                 }
               ]

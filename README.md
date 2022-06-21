@@ -19,7 +19,6 @@
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9136](https://github.com/AliceO2Group/AliceO2/pull/9136) 2022-06-14: store vectors for EnvVars, Collimators, change a bit the policy by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9137](https://github.com/AliceO2Group/AliceO2/pull/9137) 2022-06-10: [EMCAL-779,CTP-133] Correction for LM-L0 delay in EMCAL reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#9138](https://github.com/AliceO2Group/AliceO2/pull/9138) 2022-06-10: [EMCAL-778] Implementation of LM-L0 delay in BC by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
