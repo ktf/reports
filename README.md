@@ -19,7 +19,6 @@
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9138](https://github.com/AliceO2Group/AliceO2/pull/9138) 2022-06-10: [EMCAL-778] Implementation of LM-L0 delay in BC by [@hahassan7](https://github.com/hahassan7)
 - [\#9139](https://github.com/AliceO2Group/AliceO2/pull/9139) 2022-06-10: Intermediate multiple changes for the barrel alignment code by [@shahor02](https://github.com/shahor02)
 - [\#9140](https://github.com/AliceO2Group/AliceO2/pull/9140) 2022-06-15: ZDC FastSim: Code cleanup by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9142](https://github.com/AliceO2Group/AliceO2/pull/9142) 2022-06-14: get MC labels of MCH-MID matched tracks if requested by [@pillot](https://github.com/pillot)
