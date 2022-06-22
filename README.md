@@ -60,6 +60,7 @@
 - [\#9235](https://github.com/AliceO2Group/AliceO2/pull/9235) 2022-06-21: [EMCAL-710] Don't sen BUNCH_NOT_OK error by [@mfasDa](https://github.com/mfasDa)
 - [\#9238](https://github.com/AliceO2Group/AliceO2/pull/9238) 2022-06-22: Protect LTFast calculation agains tracks with too high pT [O2-3023] by [@shahor02](https://github.com/shahor02)
 - [\#9240](https://github.com/AliceO2Group/AliceO2/pull/9240) 2022-06-22: Set ITS ClusterParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
+- [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - EventVisualisation
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
