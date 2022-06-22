@@ -19,7 +19,6 @@
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9146](https://github.com/AliceO2Group/AliceO2/pull/9146) 2022-06-10: fix in TOF LOGS by [@noferini](https://github.com/noferini)
 - [\#9148](https://github.com/AliceO2Group/AliceO2/pull/9148) 2022-06-11: Keeping last values for TOF DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
