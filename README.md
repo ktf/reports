@@ -83,6 +83,7 @@
 - [\#9233](https://github.com/AliceO2Group/AliceO2/pull/9233) 2022-06-22: DPL: improve stacktrace message by [@ktf](https://github.com/ktf)
 - [\#9241](https://github.com/AliceO2Group/AliceO2/pull/9241) 2022-06-22: DPL: Add env variable to suppress sleep workaround in DDS export by [@davidrohr](https://github.com/davidrohr)
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
+- [\#9246](https://github.com/AliceO2Group/AliceO2/pull/9246) 2022-06-22: Silence warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
