@@ -15,6 +15,7 @@
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)
 - [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
@@ -48,6 +49,7 @@
 - [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
 - [\#9214](https://github.com/AliceO2Group/AliceO2/pull/9214) 2022-06-18: MCH: select only non empty IRFrames by [@aphecetche](https://github.com/aphecetche)
 - [\#9216](https://github.com/AliceO2Group/AliceO2/pull/9216) 2022-06-20: fix for logs and consts by [@noferini](https://github.com/noferini)
+- [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
 - [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
