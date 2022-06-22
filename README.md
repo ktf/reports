@@ -17,6 +17,7 @@
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
+- [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
 - [\#9154](https://github.com/AliceO2Group/AliceO2/pull/9154) 2022-06-15: fix for TOF async calib by [@noferini](https://github.com/noferini)
