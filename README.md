@@ -56,6 +56,7 @@
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
 - [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
 - [\#9235](https://github.com/AliceO2Group/AliceO2/pull/9235) 2022-06-21: [EMCAL-710] Don't sen BUNCH_NOT_OK error by [@mfasDa](https://github.com/mfasDa)
+- [\#9238](https://github.com/AliceO2Group/AliceO2/pull/9238) 2022-06-22: Protect LTFast calculation agains tracks with too high pT [O2-3023] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9150](https://github.com/AliceO2Group/AliceO2/pull/9150) 2022-06-12: Event DIsplay: Use the recommended API for collision data access by [@pnwkw](https://github.com/pnwkw)
 - [\#9152](https://github.com/AliceO2Group/AliceO2/pull/9152) 2022-06-13: Event Display: Propagate the MCH tracks instead of connecting clusters by [@pnwkw](https://github.com/pnwkw)
