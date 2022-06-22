@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Common
 - [\#9160](https://github.com/AliceO2Group/AliceO2/pull/9160) 2022-06-13: FileFetcher shall append to log at each copy by [@shahor02](https://github.com/shahor02)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9143](https://github.com/AliceO2Group/AliceO2/pull/9143) 2022-06-11: TRD HelperMethods and small typo correction in TRD DCS processor spec by [@martenole](https://github.com/martenole)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
@@ -82,6 +83,7 @@
 - [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 - [\#9233](https://github.com/AliceO2Group/AliceO2/pull/9233) 2022-06-22: DPL: improve stacktrace message by [@ktf](https://github.com/ktf)
 - [\#9241](https://github.com/AliceO2Group/AliceO2/pull/9241) 2022-06-22: DPL: Add env variable to suppress sleep workaround in DDS export by [@davidrohr](https://github.com/davidrohr)
+- [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
