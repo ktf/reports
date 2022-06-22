@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-13T08:04:47Z",
-            "title": "FIT: empty TF dummy protection + some fixes for new FT0 decoder",
-            "number": 9149,
-            "author": {
-              "login": "afurs"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/RawEventData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/Triggers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/include/FT0Workflow/FT0DataDecoderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/FT0DataDecoderDPLSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/workflow/src/ft0-flp-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITDataReaderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/workflow/include/FITWorkflow/RawReaderFIT.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-12T13:14:36Z",
             "title": "Event DIsplay: Use the recommended API for collision data access",
             "number": 9150,
@@ -3666,6 +3616,26 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/calibration/macros/makeChannelOffsetCalibObjectInCCDB.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP][EMCAL-784] Provide only EMV-EMCAL sampling factor for Geant4",
+            "number": 9249,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/Geometry.cxx"
                   }
                 }
               ]
