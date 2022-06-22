@@ -19,7 +19,6 @@
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9148](https://github.com/AliceO2Group/AliceO2/pull/9148) 2022-06-11: Keeping last values for TOF DPs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9149](https://github.com/AliceO2Group/AliceO2/pull/9149) 2022-06-13: FIT: empty TF dummy protection + some fixes for new FT0 decoder by [@afurs](https://github.com/afurs)
 - [\#9153](https://github.com/AliceO2Group/AliceO2/pull/9153) 2022-06-13: TRU geometry fix; writing histos in energy calib by [@peressounko](https://github.com/peressounko)
 - [\#9154](https://github.com/AliceO2Group/AliceO2/pull/9154) 2022-06-15: fix for TOF async calib by [@noferini](https://github.com/noferini)
@@ -58,6 +57,7 @@
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
+- [\#9231](https://github.com/AliceO2Group/AliceO2/pull/9231) 2022-06-22: [EMCAL-784] Add message about sampling fraction by [@mfasDa](https://github.com/mfasDa)
 - [\#9235](https://github.com/AliceO2Group/AliceO2/pull/9235) 2022-06-21: [EMCAL-710] Don't sen BUNCH_NOT_OK error by [@mfasDa](https://github.com/mfasDa)
 - [\#9238](https://github.com/AliceO2Group/AliceO2/pull/9238) 2022-06-22: Protect LTFast calculation agains tracks with too high pT [O2-3023] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation

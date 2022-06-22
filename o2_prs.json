@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-11T22:02:00Z",
-            "title": "Keeping last values for TOF DPs",
-            "number": 9148,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFDCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/src/TOFDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDCSDataProcessorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-13T08:04:47Z",
             "title": "FIT: empty TF dummy protection + some fixes for new FT0 decoder",
             "number": 9149,
@@ -3159,8 +3129,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-22T13:35:07Z",
             "title": "[EMCAL-784] Add message about sampling fraction",
             "number": 9231,
             "author": {
@@ -3676,6 +3646,26 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/AO2DConverter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add include guards to macro",
+            "number": 9248,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/macros/makeChannelOffsetCalibObjectInCCDB.C"
                   }
                 }
               ]
