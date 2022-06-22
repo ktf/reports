@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-11T06:41:47Z",
-            "title": "DPL: move stuff out of line",
-            "number": 9145,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlWebSocketHandler.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-10T18:21:47Z",
             "title": "fix in TOF LOGS",
             "number": 9146,
@@ -2930,7 +2900,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Framework/Core/include/Framework/AsyncQueue.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Framework/Core/include/Framework/ChannelInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonServices.h"
                   }
                 },
                 {
@@ -2941,6 +2921,11 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/FairMQDeviceProxy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AsyncQueue.cxx"
                   }
                 },
                 {
@@ -3611,6 +3596,76 @@
                 {
                   "node": {
                     "path": "Detectors/CPV/workflow/src/RawToDigitConverterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FT0] Add workflow for processing FT0 DCS DPs",
+            "number": 9245,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0DCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/macros/makeFT0CCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/macros/readFT0DCSentries.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/src/FT0DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0DCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-data-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-sim-workflow.cxx"
                   }
                 }
               ]
