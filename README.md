@@ -32,6 +32,7 @@
 - [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
 - [\#9182](https://github.com/AliceO2Group/AliceO2/pull/9182) 2022-06-15: TRD Trap2CRU check if file is zombie by [@martenole](https://github.com/martenole)
 - [\#9183](https://github.com/AliceO2Group/AliceO2/pull/9183) 2022-06-15: Bugfix track interpolation: reset output after sending by [@martenole](https://github.com/martenole)
+- [\#9185](https://github.com/AliceO2Group/AliceO2/pull/9185) 2022-06-23: [MCH] new option to exclude corners when looking for fired neighbouring pads by [@pillot](https://github.com/pillot)
 - [\#9187](https://github.com/AliceO2Group/AliceO2/pull/9187) 2022-06-16: TRD fix time bin ordering in sim to raw by [@bazinski](https://github.com/bazinski)
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9190](https://github.com/AliceO2Group/AliceO2/pull/9190) 2022-06-15: Fix typo in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
