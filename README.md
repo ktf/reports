@@ -19,7 +19,6 @@
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 - [\#9159](https://github.com/AliceO2Group/AliceO2/pull/9159) 2022-06-13: ITS/MFT decoding: fix race condition in PHY trigger decoding by [@shahor02](https://github.com/shahor02)
 - [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
@@ -86,7 +85,5 @@
 - [\#9241](https://github.com/AliceO2Group/AliceO2/pull/9241) 2022-06-22: DPL: Add env variable to suppress sleep workaround in DDS export by [@davidrohr](https://github.com/davidrohr)
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 - [\#9246](https://github.com/AliceO2Group/AliceO2/pull/9246) 2022-06-22: Silence warning by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#9157](https://github.com/AliceO2Group/AliceO2/pull/9157) 2022-06-14: TRD update trigger record message logic by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Utilities
 - [\#9194](https://github.com/AliceO2Group/AliceO2/pull/9194) 2022-06-16: Fix deprecated inheritance on std::iterator by [@ktf](https://github.com/ktf)
