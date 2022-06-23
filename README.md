@@ -50,6 +50,7 @@
 - [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
 - [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
+- [\#9224](https://github.com/AliceO2Group/AliceO2/pull/9224) 2022-06-23: MCH: removed "bad digit time" error code by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9225](https://github.com/AliceO2Group/AliceO2/pull/9225) 2022-06-21: adjust RCT RunInformation path by [@sawenzel](https://github.com/sawenzel)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
