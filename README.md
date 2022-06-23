@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
 - [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
@@ -67,7 +66,6 @@
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Framework
-- [\#9161](https://github.com/AliceO2Group/AliceO2/pull/9161) 2022-06-17: DPL Analysis: Cached slicing pre-declaration, API by [@aalkin](https://github.com/aalkin)
 - [\#9163](https://github.com/AliceO2Group/AliceO2/pull/9163) 2022-06-13: DPL: propagate run number created in the callback by [@ktf](https://github.com/ktf)
 - [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
 - [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
