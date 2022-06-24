@@ -16,6 +16,7 @@
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
+- [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
@@ -61,13 +62,13 @@
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
 - [\#9262](https://github.com/AliceO2Group/AliceO2/pull/9262) 2022-06-24: MCH Raw decoder: demote alarm to warning by [@davidrohr](https://github.com/davidrohr)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
+- [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Framework
-- [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
 - [\#9168](https://github.com/AliceO2Group/AliceO2/pull/9168) 2022-06-14: DPL: error message when FLP/DISTSTF used without /0. by [@ktf](https://github.com/ktf)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
