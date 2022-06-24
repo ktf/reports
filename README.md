@@ -6,7 +6,6 @@
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
@@ -16,8 +15,8 @@
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
+- [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9166](https://github.com/AliceO2Group/AliceO2/pull/9166) 2022-06-14: [EMCAL-711] Add subspecification to decoding error object by [@mfasDa](https://github.com/mfasDa)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
 - [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
@@ -61,6 +60,7 @@
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
 - [\#9262](https://github.com/AliceO2Group/AliceO2/pull/9262) 2022-06-24: MCH Raw decoder: demote alarm to warning by [@davidrohr](https://github.com/davidrohr)
+- [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)

@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-14T09:05:18Z",
-            "title": "[EMCAL-711] Add subspecification to decoding error object",
-            "number": 9166,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/ErrorTypeFEE.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/ErrorTypeFEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-13T20:17:51Z",
             "title": "DPL: improve message when dropping data",
             "number": 9167,
@@ -3956,6 +3926,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-06-24T12:10:58Z",
+            "title": "Call setBeamAZ at the end of GRPLHCIF creation",
+            "number": 9266,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Parameters/src/GRPLHCIFData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GRP/workflows/src/GRPLHCIFfileSpec.cxx"
                   }
                 }
               ]
