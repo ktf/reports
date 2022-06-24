@@ -67,7 +67,6 @@
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Framework
-- [\#9164](https://github.com/AliceO2Group/AliceO2/pull/9164) 2022-06-13: DPL GUI: speedup drawing of many rects by [@ktf](https://github.com/ktf)
 - [\#9167](https://github.com/AliceO2Group/AliceO2/pull/9167) 2022-06-13: DPL: improve message when dropping data by [@ktf](https://github.com/ktf)
 - [\#9168](https://github.com/AliceO2Group/AliceO2/pull/9168) 2022-06-14: DPL: error message when FLP/DISTSTF used without /0. by [@ktf](https://github.com/ktf)
 - [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
