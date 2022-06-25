@@ -15,10 +15,10 @@
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
+- [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9170](https://github.com/AliceO2Group/AliceO2/pull/9170) 2022-06-14: make P.S.vertices, cosmic and ITS IR frames available via global reader by [@shahor02](https://github.com/shahor02)
 - [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
@@ -60,9 +60,11 @@
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
+- [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9262](https://github.com/AliceO2Group/AliceO2/pull/9262) 2022-06-24: MCH Raw decoder: demote alarm to warning by [@davidrohr](https://github.com/davidrohr)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
+- [\#9269](https://github.com/AliceO2Group/AliceO2/pull/9269) 2022-06-25: Use 6 its trackers for pp since 4 are too slow and fix a log message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
@@ -70,7 +72,6 @@
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 - [\#9261](https://github.com/AliceO2Group/AliceO2/pull/9261) 2022-06-24: o2-eve: calorimeter fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9169](https://github.com/AliceO2Group/AliceO2/pull/9169) 2022-06-14: Misc. fixes by [@shahor02](https://github.com/shahor02)
 - [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9193](https://github.com/AliceO2Group/AliceO2/pull/9193) 2022-06-17: DPL: debug early forwarding reason by [@ktf](https://github.com/ktf)

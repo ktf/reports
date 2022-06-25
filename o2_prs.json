@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-14T10:41:53Z",
-            "title": "Misc. fixes",
-            "number": 9169,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-14T10:42:27Z",
             "title": "make P.S.vertices, cosmic and ITS IR frames available via global reader",
             "number": 9170,
@@ -3674,8 +3644,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-06-25T10:31:31Z",
             "title": "TPC: Processing of sampled analogue currents (SAC)",
             "number": 9260,
             "author": {
@@ -3976,6 +3946,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-06-25T10:29:08Z",
+            "title": "Use 6 its trackers for pp since 4 are too slow and fix a log message",
+            "number": 9269,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
