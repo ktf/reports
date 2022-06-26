@@ -6,7 +6,6 @@
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9172](https://github.com/AliceO2Group/AliceO2/pull/9172) 2022-06-14: Protect for case when list of ranges is empty by [@pbuehler](https://github.com/pbuehler)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
 - [\#9191](https://github.com/AliceO2Group/AliceO2/pull/9191) 2022-06-17: FV0 trigger bits  by [@jotwinow](https://github.com/jotwinow)

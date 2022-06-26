@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-14T14:31:22Z",
-            "title": "Protect for case when list of ranges is empty",
-            "number": 9172,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/BCRange.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "support structure without overlaps",
@@ -3921,6 +3901,31 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0TFProcessor-Workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix out of bin access in matLUT queries",
+            "number": 9272,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
                   }
                 }
               ]
