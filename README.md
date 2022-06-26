@@ -15,6 +15,7 @@
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
+- [\#9263](https://github.com/AliceO2Group/AliceO2/pull/9263) 2022-06-26: MCTrack: change encoding for process to unsigned by [@sawenzel](https://github.com/sawenzel)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
