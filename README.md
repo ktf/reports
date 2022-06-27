@@ -75,7 +75,6 @@
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 - [\#9261](https://github.com/AliceO2Group/AliceO2/pull/9261) 2022-06-24: o2-eve: calorimeter fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9175](https://github.com/AliceO2Group/AliceO2/pull/9175) 2022-06-14: DPL: disable error message for internal-dpl-injected-dummy-sink by [@ktf](https://github.com/ktf)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9193](https://github.com/AliceO2Group/AliceO2/pull/9193) 2022-06-17: DPL: debug early forwarding reason by [@ktf](https://github.com/ktf)
 - [\#9209](https://github.com/AliceO2Group/AliceO2/pull/9209) 2022-06-17: DPL: Don't fail on empty workflow when dumping the topology by [@davidrohr](https://github.com/davidrohr)
