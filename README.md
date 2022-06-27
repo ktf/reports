@@ -64,7 +64,6 @@
 - [\#9271](https://github.com/AliceO2Group/AliceO2/pull/9271) 2022-06-26: FT0 calibration: urgent hotfix for FT0TFProcessor by [@afurs](https://github.com/afurs)
 - [\#9272](https://github.com/AliceO2Group/AliceO2/pull/9272) 2022-06-26: fix out of bin access in matLUT queries by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9181](https://github.com/AliceO2Group/AliceO2/pull/9181) 2022-06-15: Event Display: Give priority to matched tracks if track sorting is used by [@pnwkw](https://github.com/pnwkw)
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
