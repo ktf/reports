@@ -18,7 +18,6 @@
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9183](https://github.com/AliceO2Group/AliceO2/pull/9183) 2022-06-15: Bugfix track interpolation: reset output after sending by [@martenole](https://github.com/martenole)
 - [\#9185](https://github.com/AliceO2Group/AliceO2/pull/9185) 2022-06-23: [MCH] new option to exclude corners when looking for fired neighbouring pads by [@pillot](https://github.com/pillot)
 - [\#9187](https://github.com/AliceO2Group/AliceO2/pull/9187) 2022-06-16: TRD fix time bin ordering in sim to raw by [@bazinski](https://github.com/bazinski)
 - [\#9188](https://github.com/AliceO2Group/AliceO2/pull/9188) 2022-06-16: TRD XOR cleanup by [@martenole](https://github.com/martenole)
