@@ -20,7 +20,6 @@
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9174](https://github.com/AliceO2Group/AliceO2/pull/9174) 2022-06-14: Fix for calibration + improve start_tmux script to run with split proxies by [@davidrohr](https://github.com/davidrohr)
 - [\#9177](https://github.com/AliceO2Group/AliceO2/pull/9177) 2022-06-15: Minor fixes and improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#9178](https://github.com/AliceO2Group/AliceO2/pull/9178) 2022-06-15: STFDecoder fetches ITS/MFT Alpide params from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9180](https://github.com/AliceO2Group/AliceO2/pull/9180) 2022-06-15: Fix crash of TPC clusterization by [@davidrohr](https://github.com/davidrohr)
