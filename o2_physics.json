@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-07T16:02:46Z",
-            "title": "Adding some histos for pt,eta,phi mapping for definition of Std cuts.",
-            "number": 832,
-            "author": {
-              "login": "arossi81"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaEventTrackLite.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-07T07:36:23Z",
             "title": "fix lacking default for not propagated tracks",
             "number": 833,
@@ -3865,6 +3845,31 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use compilation job pool for linking as well",
+            "number": 932,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddExecutable.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddWorkflow.cmake"
                   }
                 }
               ]
