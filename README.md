@@ -75,5 +75,3 @@
 - [\#9258](https://github.com/AliceO2Group/AliceO2/pull/9258) 2022-06-24: DPL: demote info message to debug by [@ktf](https://github.com/ktf)
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Utilities
-- [\#9194](https://github.com/AliceO2Group/AliceO2/pull/9194) 2022-06-16: Fix deprecated inheritance on std::iterator by [@ktf](https://github.com/ktf)
