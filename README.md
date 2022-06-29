@@ -45,6 +45,7 @@
 - [\#9237](https://github.com/AliceO2Group/AliceO2/pull/9237) 2022-06-23: TPC: added junkDetection QC drawer to Painter by [@tklemenz](https://github.com/tklemenz)
 - [\#9238](https://github.com/AliceO2Group/AliceO2/pull/9238) 2022-06-22: Protect LTFast calculation agains tracks with too high pT [O2-3023] by [@shahor02](https://github.com/shahor02)
 - [\#9240](https://github.com/AliceO2Group/AliceO2/pull/9240) 2022-06-22: Set ITS ClusterParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
+- [\#9244](https://github.com/AliceO2Group/AliceO2/pull/9244) 2022-06-29: CPV: add LM-L0 delay subtraction to RawToDigitConverterSpec by [@sevdokim](https://github.com/sevdokim)
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
