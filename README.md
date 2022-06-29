@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Common
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9205](https://github.com/AliceO2Group/AliceO2/pull/9205) 2022-06-27: ZDC baseline calibration by [@cortesep](https://github.com/cortesep)
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
@@ -16,7 +15,6 @@
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9192](https://github.com/AliceO2Group/AliceO2/pull/9192) 2022-06-16: TPC: Implement dense improved link-based ZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9195](https://github.com/AliceO2Group/AliceO2/pull/9195) 2022-06-17: [EMCAL-566] Added option to time-profile calibration by [@jokonig](https://github.com/jokonig)
 - [\#9199](https://github.com/AliceO2Group/AliceO2/pull/9199) 2022-06-17: Fix resetting of PIDs for LHCIFDPs when updating on change by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
