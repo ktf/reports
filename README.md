@@ -56,6 +56,7 @@
 - [\#9271](https://github.com/AliceO2Group/AliceO2/pull/9271) 2022-06-26: FT0 calibration: urgent hotfix for FT0TFProcessor by [@afurs](https://github.com/afurs)
 - [\#9272](https://github.com/AliceO2Group/AliceO2/pull/9272) 2022-06-26: fix out of bin access in matLUT queries by [@shahor02](https://github.com/shahor02)
 - [\#9275](https://github.com/AliceO2Group/AliceO2/pull/9275) 2022-06-28: TPC gain map using tracks: adding switch for normalization by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9280](https://github.com/AliceO2Group/AliceO2/pull/9280) 2022-06-29: TF rate limiting for CTF, raw-file and raw-tf readers by [@shahor02](https://github.com/shahor02)
 - [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
 - [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
