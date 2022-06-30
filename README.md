@@ -44,6 +44,7 @@
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
+- [\#9253](https://github.com/AliceO2Group/AliceO2/pull/9253) 2022-06-30: Filter MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#9254](https://github.com/AliceO2Group/AliceO2/pull/9254) 2022-06-30: Remove selection on dumped MID data by [@dstocco](https://github.com/dstocco)
 - [\#9255](https://github.com/AliceO2Group/AliceO2/pull/9255) 2022-06-30: StartValidity set to beginning of integration period for DCS data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9256](https://github.com/AliceO2Group/AliceO2/pull/9256) 2022-06-30: DCS random data generator: use system_clock to get wall time by [@aphecetche](https://github.com/aphecetche)
