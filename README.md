@@ -19,7 +19,6 @@
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
 - [\#9205](https://github.com/AliceO2Group/AliceO2/pull/9205) 2022-06-27: ZDC baseline calibration by [@cortesep](https://github.com/cortesep)
 - [\#9206](https://github.com/AliceO2Group/AliceO2/pull/9206) 2022-06-17: Fix in vertex-track association by [@shahor02](https://github.com/shahor02)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
