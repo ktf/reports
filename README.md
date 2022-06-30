@@ -18,7 +18,6 @@
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9206](https://github.com/AliceO2Group/AliceO2/pull/9206) 2022-06-17: Fix in vertex-track association by [@shahor02](https://github.com/shahor02)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
 - [\#9214](https://github.com/AliceO2Group/AliceO2/pull/9214) 2022-06-18: MCH: select only non empty IRFrames by [@aphecetche](https://github.com/aphecetche)
@@ -67,6 +66,7 @@
 - [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
+- [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
