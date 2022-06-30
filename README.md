@@ -59,6 +59,7 @@
 - [\#9280](https://github.com/AliceO2Group/AliceO2/pull/9280) 2022-06-29: TF rate limiting for CTF, raw-file and raw-tf readers by [@shahor02](https://github.com/shahor02)
 - [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
 - [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
+- [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
