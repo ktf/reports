@@ -68,6 +68,7 @@
 - [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
 - [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
+- [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
