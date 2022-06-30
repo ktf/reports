@@ -14,6 +14,7 @@
 - [\#9263](https://github.com/AliceO2Group/AliceO2/pull/9263) 2022-06-26: MCTrack: change encoding for process to unsigned by [@sawenzel](https://github.com/sawenzel)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
+- [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9199](https://github.com/AliceO2Group/AliceO2/pull/9199) 2022-06-17: Fix resetting of PIDs for LHCIFDPs when updating on change by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
@@ -59,13 +60,14 @@
 - [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
 - [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
 - [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
+- [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9201](https://github.com/AliceO2Group/AliceO2/pull/9201) 2022-06-17: o2-eve-export-workflow: added EMCAL export by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 - [\#9261](https://github.com/AliceO2Group/AliceO2/pull/9261) 2022-06-24: o2-eve: calorimeter fixes by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9196](https://github.com/AliceO2Group/AliceO2/pull/9196) 2022-06-27: [O2-2213] Allow command line options to be specified multiple times by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#9209](https://github.com/AliceO2Group/AliceO2/pull/9209) 2022-06-17: DPL: Don't fail on empty workflow when dumping the topology by [@davidrohr](https://github.com/davidrohr)
 - [\#9210](https://github.com/AliceO2Group/AliceO2/pull/9210) 2022-06-18: DPL Analysis: allow hyphens in histogram names by [@mario-krueger](https://github.com/mario-krueger)
 - [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
