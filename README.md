@@ -89,3 +89,5 @@
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
 - [\#9287](https://github.com/AliceO2Group/AliceO2/pull/9287) 2022-06-29: DPL: promote end of stream debug messages to detail by [@ktf](https://github.com/ktf)
 - [\#9290](https://github.com/AliceO2Group/AliceO2/pull/9290) 2022-06-30: DPL: have input proxy wait for EoS by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
