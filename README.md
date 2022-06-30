@@ -18,7 +18,6 @@
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9199](https://github.com/AliceO2Group/AliceO2/pull/9199) 2022-06-17: Fix resetting of PIDs for LHCIFDPs when updating on change by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9202](https://github.com/AliceO2Group/AliceO2/pull/9202) 2022-06-16: TRD fix digit handling in trap2raw with downsampling before trap2raw by [@bazinski](https://github.com/bazinski)
 - [\#9204](https://github.com/AliceO2Group/AliceO2/pull/9204) 2022-06-16: [O2-2679] Fix bug in TPCITS Afterburner by [@mconcas](https://github.com/mconcas)
 - [\#9205](https://github.com/AliceO2Group/AliceO2/pull/9205) 2022-06-27: ZDC baseline calibration by [@cortesep](https://github.com/cortesep)
@@ -49,6 +48,7 @@
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
 - [\#9254](https://github.com/AliceO2Group/AliceO2/pull/9254) 2022-06-30: Remove selection on dumped MID data by [@dstocco](https://github.com/dstocco)
+- [\#9255](https://github.com/AliceO2Group/AliceO2/pull/9255) 2022-06-30: StartValidity set to beginning of integration period for DCS data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9256](https://github.com/AliceO2Group/AliceO2/pull/9256) 2022-06-30: DCS random data generator: use system_clock to get wall time by [@aphecetche](https://github.com/aphecetche)
 - [\#9259](https://github.com/AliceO2Group/AliceO2/pull/9259) 2022-06-28: Fix in the "tree" of possible track prolongations by [@iouribelikov](https://github.com/iouribelikov)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
