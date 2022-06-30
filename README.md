@@ -6,7 +6,6 @@
 ## Recent developments in O2 - Common
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9205](https://github.com/AliceO2Group/AliceO2/pull/9205) 2022-06-27: ZDC baseline calibration by [@cortesep](https://github.com/cortesep)
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
@@ -19,7 +18,6 @@
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9205](https://github.com/AliceO2Group/AliceO2/pull/9205) 2022-06-27: ZDC baseline calibration by [@cortesep](https://github.com/cortesep)
 - [\#9206](https://github.com/AliceO2Group/AliceO2/pull/9206) 2022-06-17: Fix in vertex-track association by [@shahor02](https://github.com/shahor02)
 - [\#9208](https://github.com/AliceO2Group/AliceO2/pull/9208) 2022-06-16: removing leftover printout by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9211](https://github.com/AliceO2Group/AliceO2/pull/9211) 2022-06-17: Fix: remove extra slash in the perl command of grp-ecs creator by [@shahor02](https://github.com/shahor02)
