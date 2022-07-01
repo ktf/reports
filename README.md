@@ -77,7 +77,6 @@
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9210](https://github.com/AliceO2Group/AliceO2/pull/9210) 2022-06-18: DPL Analysis: allow hyphens in histogram names by [@mario-krueger](https://github.com/mario-krueger)
 - [\#9213](https://github.com/AliceO2Group/AliceO2/pull/9213) 2022-06-20: DPL Analysis: improve new sliceBy by [@aalkin](https://github.com/aalkin)
 - [\#9233](https://github.com/AliceO2Group/AliceO2/pull/9233) 2022-06-22: DPL: improve stacktrace message by [@ktf](https://github.com/ktf)
 - [\#9241](https://github.com/AliceO2Group/AliceO2/pull/9241) 2022-06-22: DPL: Add env variable to suppress sleep workaround in DDS export by [@davidrohr](https://github.com/davidrohr)

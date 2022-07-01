@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-18T00:21:33Z",
-            "title": "DPL Analysis: allow hyphens in histogram names",
-            "number": 9210,
-            "author": {
-              "login": "mario-krueger"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HistogramRegistry.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-17T08:37:47Z",
             "title": "Fix: remove extra slash in the perl command of grp-ecs creator",
             "number": 9211,
@@ -3701,7 +3681,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "fix digit nofsamples exceeding limit",
+            "title": "MCH: fix digit nofsamples exceeding limit",
             "number": 9309,
             "author": {
               "login": "pillot"
@@ -3711,6 +3691,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Simulation/src/Response.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid OOB access",
+            "number": 9310,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/CaloRawFitter.cxx"
                   }
                 }
               ]
