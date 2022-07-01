@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-17T08:37:47Z",
-            "title": "Fix: remove extra slash in the perl command of grp-ecs creator",
-            "number": 9211,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GRP/workflows/src/create-grp-ecs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-17T21:21:54Z",
             "title": "Introduce more wait calls for correct resource accounting",
             "number": 9212,
@@ -3751,6 +3731,51 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/reconstruction/src/CaloRawFitter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view",
+            "number": 9311,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/MultiView.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/MultiView.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
                   }
                 }
               ]
