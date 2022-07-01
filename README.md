@@ -19,7 +19,6 @@
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9214](https://github.com/AliceO2Group/AliceO2/pull/9214) 2022-06-18: MCH: select only non empty IRFrames by [@aphecetche](https://github.com/aphecetche)
 - [\#9215](https://github.com/AliceO2Group/AliceO2/pull/9215) 2022-06-22: Adds: PID cut configurables in the PID task by [@sbhawani](https://github.com/sbhawani)
 - [\#9216](https://github.com/AliceO2Group/AliceO2/pull/9216) 2022-06-20: fix for logs and consts by [@noferini](https://github.com/noferini)
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
