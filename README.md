@@ -69,6 +69,7 @@
 - [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#9306](https://github.com/AliceO2Group/AliceO2/pull/9306) 2022-07-01: Add option to write only fraction of TFs to CTF by [@shahor02](https://github.com/shahor02)
 - [\#9309](https://github.com/AliceO2Group/AliceO2/pull/9309) 2022-07-01: MCH: fix digit nofsamples exceeding limit by [@pillot](https://github.com/pillot)
+- [\#9312](https://github.com/AliceO2Group/AliceO2/pull/9312) 2022-07-01: TRD updates by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
