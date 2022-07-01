@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-22T11:49:53Z",
-            "title": "Adds: PID cut configurables in the PID task",
-            "number": 9215,
-            "author": {
-              "login": "sbhawani"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/macro/runPID.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/PID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-20T08:28:58Z",
             "title": "fix for logs and consts",
             "number": 9216,
@@ -3856,6 +3826,51 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/workflow/src/tpc-vdrift-tgl-calibration-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] MeanVertex X and Y coordinate depend on Z",
+            "number": 9315,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Calibration/include/DataFormatsCalibration/MeanVertexObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexData.cxx"
                   }
                 }
               ]
