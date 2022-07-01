@@ -40,6 +40,7 @@
 - [\#9240](https://github.com/AliceO2Group/AliceO2/pull/9240) 2022-06-22: Set ITS ClusterParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
 - [\#9244](https://github.com/AliceO2Group/AliceO2/pull/9244) 2022-06-29: CPV: add LM-L0 delay subtraction to RawToDigitConverterSpec by [@sevdokim](https://github.com/sevdokim)
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
+- [\#9249](https://github.com/AliceO2Group/AliceO2/pull/9249) 2022-07-01: [EMCAL-784] Provide only EMV-EMCAL sampling factor for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
 - [\#9253](https://github.com/AliceO2Group/AliceO2/pull/9253) 2022-06-30: Filter MID bad channels by [@dstocco](https://github.com/dstocco)
