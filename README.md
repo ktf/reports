@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Common
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 - [\#9257](https://github.com/AliceO2Group/AliceO2/pull/9257) 2022-07-01: Muon dcs processor: change way to set validity range by [@aphecetche](https://github.com/aphecetche)
+- [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - DataFormats
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
@@ -68,6 +69,7 @@
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
 - [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
+- [\#9306](https://github.com/AliceO2Group/AliceO2/pull/9306) 2022-07-01: Add option to write only fraction of TFs to CTF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
