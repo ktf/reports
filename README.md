@@ -5,6 +5,7 @@
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
+- [\#9257](https://github.com/AliceO2Group/AliceO2/pull/9257) 2022-07-01: Muon dcs processor: change way to set validity range by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
 - [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
@@ -46,6 +47,7 @@
 - [\#9254](https://github.com/AliceO2Group/AliceO2/pull/9254) 2022-06-30: Remove selection on dumped MID data by [@dstocco](https://github.com/dstocco)
 - [\#9255](https://github.com/AliceO2Group/AliceO2/pull/9255) 2022-06-30: StartValidity set to beginning of integration period for DCS data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9256](https://github.com/AliceO2Group/AliceO2/pull/9256) 2022-06-30: DCS random data generator: use system_clock to get wall time by [@aphecetche](https://github.com/aphecetche)
+- [\#9257](https://github.com/AliceO2Group/AliceO2/pull/9257) 2022-07-01: Muon dcs processor: change way to set validity range by [@aphecetche](https://github.com/aphecetche)
 - [\#9259](https://github.com/AliceO2Group/AliceO2/pull/9259) 2022-06-28: Fix in the "tree" of possible track prolongations by [@iouribelikov](https://github.com/iouribelikov)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9262](https://github.com/AliceO2Group/AliceO2/pull/9262) 2022-06-24: MCH Raw decoder: demote alarm to warning by [@davidrohr](https://github.com/davidrohr)
