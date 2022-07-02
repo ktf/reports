@@ -74,6 +74,7 @@
 - [\#9310](https://github.com/AliceO2Group/AliceO2/pull/9310) 2022-07-02: Avoid OOB access by [@ktf](https://github.com/ktf)
 - [\#9312](https://github.com/AliceO2Group/AliceO2/pull/9312) 2022-07-01: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
+- [\#9316](https://github.com/AliceO2Group/AliceO2/pull/9316) 2022-07-02: TPC: try..catch in IDC decoder, improve track&cluster filter by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
