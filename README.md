@@ -34,6 +34,7 @@
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
 - [\#9231](https://github.com/AliceO2Group/AliceO2/pull/9231) 2022-06-22: [EMCAL-784] Add message about sampling fraction by [@mfasDa](https://github.com/mfasDa)
+- [\#9234](https://github.com/AliceO2Group/AliceO2/pull/9234) 2022-07-02: TRD correctly shift the trigger bc time to take account of the delay by [@bazinski](https://github.com/bazinski)
 - [\#9235](https://github.com/AliceO2Group/AliceO2/pull/9235) 2022-06-21: [EMCAL-710] Don't sen BUNCH_NOT_OK error by [@mfasDa](https://github.com/mfasDa)
 - [\#9236](https://github.com/AliceO2Group/AliceO2/pull/9236) 2022-06-29: Improve to avoid typos in DP names, possibility to keep latest value, change in startValidity by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9237](https://github.com/AliceO2Group/AliceO2/pull/9237) 2022-06-23: TPC: added junkDetection QC drawer to Painter by [@tklemenz](https://github.com/tklemenz)
