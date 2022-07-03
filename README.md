@@ -72,12 +72,14 @@
 - [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
 - [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#9306](https://github.com/AliceO2Group/AliceO2/pull/9306) 2022-07-01: Add option to write only fraction of TFs to CTF by [@shahor02](https://github.com/shahor02)
+- [\#9308](https://github.com/AliceO2Group/AliceO2/pull/9308) 2022-07-03: ZDC - Checks in DigitReaderSpec by [@cortesep](https://github.com/cortesep)
 - [\#9309](https://github.com/AliceO2Group/AliceO2/pull/9309) 2022-07-01: MCH: fix digit nofsamples exceeding limit by [@pillot](https://github.com/pillot)
 - [\#9310](https://github.com/AliceO2Group/AliceO2/pull/9310) 2022-07-02: Avoid OOB access by [@ktf](https://github.com/ktf)
 - [\#9312](https://github.com/AliceO2Group/AliceO2/pull/9312) 2022-07-01: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9316](https://github.com/AliceO2Group/AliceO2/pull/9316) 2022-07-02: TPC: try..catch in IDC decoder, improve track&cluster filter by [@wiechula](https://github.com/wiechula)
 - [\#9317](https://github.com/AliceO2Group/AliceO2/pull/9317) 2022-07-03: add extra time tolerance for TRD tracks by [@noferini](https://github.com/noferini)
+- [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
@@ -85,6 +87,7 @@
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9233](https://github.com/AliceO2Group/AliceO2/pull/9233) 2022-06-22: DPL: improve stacktrace message by [@ktf](https://github.com/ktf)
 - [\#9241](https://github.com/AliceO2Group/AliceO2/pull/9241) 2022-06-22: DPL: Add env variable to suppress sleep workaround in DDS export by [@davidrohr](https://github.com/davidrohr)
