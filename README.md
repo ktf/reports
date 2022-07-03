@@ -9,7 +9,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
@@ -25,7 +24,6 @@
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9218](https://github.com/AliceO2Group/AliceO2/pull/9218) 2022-06-22: ctpdev: two more params to ctp-proxy by [@lietava](https://github.com/lietava)
 - [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
 - [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
