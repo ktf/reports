@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-20T09:00:52Z",
-            "title": "ITS-tracking: use flat index tables for clusters",
-            "number": 9219,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Use GRPGeomHelper to fetch GRP and Geometry related stuff from CCDB",
@@ -3881,6 +3841,86 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/tof-matcher-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-eve: added sequential mode display",
+            "number": 9319,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSource.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOnline.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/FileWatcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Base/src/FileWatcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManagerFrame.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/Screenshot.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Screenshot.cxx"
                   }
                 }
               ]

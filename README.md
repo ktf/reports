@@ -24,7 +24,6 @@
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9219](https://github.com/AliceO2Group/AliceO2/pull/9219) 2022-06-20: ITS-tracking: use flat index tables for clusters by [@mconcas](https://github.com/mconcas)
 - [\#9221](https://github.com/AliceO2Group/AliceO2/pull/9221) 2022-06-20: downgrade logs: ALARM->WARN, IMPORTANT->INFO by [@shahor02](https://github.com/shahor02)
 - [\#9223](https://github.com/AliceO2Group/AliceO2/pull/9223) 2022-06-20: Suppress obsolete options by [@shahor02](https://github.com/shahor02)
 - [\#9224](https://github.com/AliceO2Group/AliceO2/pull/9224) 2022-06-23: MCH: removed "bad digit time" error code by [@aferrero2707](https://github.com/aferrero2707)
