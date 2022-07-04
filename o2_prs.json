@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-21T06:41:31Z",
-            "title": "adjust RCT RunInformation path",
-            "number": 9225,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/src/BasicCCDBManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-21T07:02:27Z",
-            "title": "TPC: Add standalone interface for ZS decoding",
-            "number": 9226,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppression.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-21T08:51:00Z",
             "title": "Fix loading clusterization options",
             "number": 9227,
@@ -3611,6 +3551,121 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/TFIDInfoHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC cluster residuals + track information are dumped by aggregator",
+            "number": 9325,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCInterpolationSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/tpc-interpolation-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseSlotCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/ResidualAggregator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0: update DCS DP definitions",
+            "number": 9326,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0DCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/macros/makeFT0CCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/src/FT0DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0DCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-sim-workflow.cxx"
                   }
                 }
               ]

@@ -9,7 +9,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 - [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
@@ -26,8 +25,6 @@
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9225](https://github.com/AliceO2Group/AliceO2/pull/9225) 2022-06-21: adjust RCT RunInformation path by [@sawenzel](https://github.com/sawenzel)
-- [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
 - [\#9228](https://github.com/AliceO2Group/AliceO2/pull/9228) 2022-06-22: [FV0] Small tweaks of: digitizer (use of flags & tuning of default pa… by [@mslupeck](https://github.com/mslupeck)
 - [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
