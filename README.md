@@ -26,7 +26,6 @@
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9224](https://github.com/AliceO2Group/AliceO2/pull/9224) 2022-06-23: MCH: removed "bad digit time" error code by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9225](https://github.com/AliceO2Group/AliceO2/pull/9225) 2022-06-21: adjust RCT RunInformation path by [@sawenzel](https://github.com/sawenzel)
 - [\#9226](https://github.com/AliceO2Group/AliceO2/pull/9226) 2022-06-21: TPC: Add standalone interface for ZS decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#9227](https://github.com/AliceO2Group/AliceO2/pull/9227) 2022-06-21: Fix loading clusterization options by [@shahor02](https://github.com/shahor02)
