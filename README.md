@@ -71,6 +71,7 @@
 - [\#9316](https://github.com/AliceO2Group/AliceO2/pull/9316) 2022-07-02: TPC: try..catch in IDC decoder, improve track&cluster filter by [@wiechula](https://github.com/wiechula)
 - [\#9317](https://github.com/AliceO2Group/AliceO2/pull/9317) 2022-07-03: add extra time tolerance for TRD tracks by [@noferini](https://github.com/noferini)
 - [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
+- [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - EventVisualisation
 - [\#9239](https://github.com/AliceO2Group/AliceO2/pull/9239) 2022-06-22: Event Display: Add primary vertex mode to Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
