@@ -92,5 +92,6 @@
 - [\#9290](https://github.com/AliceO2Group/AliceO2/pull/9290) 2022-06-30: DPL: have input proxy wait for EoS by [@ktf](https://github.com/ktf)
 - [\#9304](https://github.com/AliceO2Group/AliceO2/pull/9304) 2022-06-30: DPL: do not reset the timeout in case we have a raw channel in input by [@ktf](https://github.com/ktf)
 - [\#9305](https://github.com/AliceO2Group/AliceO2/pull/9305) 2022-07-01: DPL: make sure severity flag is used ASAP by [@ktf](https://github.com/ktf)
+- [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
