@@ -25,7 +25,6 @@
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Detectors
-- [\#9236](https://github.com/AliceO2Group/AliceO2/pull/9236) 2022-06-29: Improve to avoid typos in DP names, possibility to keep latest value, change in startValidity by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9237](https://github.com/AliceO2Group/AliceO2/pull/9237) 2022-06-23: TPC: added junkDetection QC drawer to Painter by [@tklemenz](https://github.com/tklemenz)
 - [\#9238](https://github.com/AliceO2Group/AliceO2/pull/9238) 2022-06-22: Protect LTFast calculation agains tracks with too high pT [O2-3023] by [@shahor02](https://github.com/shahor02)
 - [\#9240](https://github.com/AliceO2Group/AliceO2/pull/9240) 2022-06-22: Set ITS ClusterParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
