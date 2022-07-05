@@ -25,7 +25,6 @@
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Detectors
-- [\#9234](https://github.com/AliceO2Group/AliceO2/pull/9234) 2022-07-02: TRD correctly shift the trigger bc time to take account of the delay by [@bazinski](https://github.com/bazinski)
 - [\#9235](https://github.com/AliceO2Group/AliceO2/pull/9235) 2022-06-21: [EMCAL-710] Don't sen BUNCH_NOT_OK error by [@mfasDa](https://github.com/mfasDa)
 - [\#9236](https://github.com/AliceO2Group/AliceO2/pull/9236) 2022-06-29: Improve to avoid typos in DP names, possibility to keep latest value, change in startValidity by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9237](https://github.com/AliceO2Group/AliceO2/pull/9237) 2022-06-23: TPC: added junkDetection QC drawer to Painter by [@tklemenz](https://github.com/tklemenz)
