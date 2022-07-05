@@ -23,6 +23,7 @@
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
+- [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Detectors
 - [\#9230](https://github.com/AliceO2Group/AliceO2/pull/9230) 2022-06-21: TPC: Adjust DCS upload times for CCDB by [@wiechula](https://github.com/wiechula)
 - [\#9231](https://github.com/AliceO2Group/AliceO2/pull/9231) 2022-06-22: [EMCAL-784] Add message about sampling fraction by [@mfasDa](https://github.com/mfasDa)
