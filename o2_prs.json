@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-02T22:04:27Z",
-            "title": "[FT0] Add workflow for processing FT0 DCS DPs",
-            "number": 9245,
-            "author": {
-              "login": "andreasmolander"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/DCSDPValues.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0DCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/makeFT0CCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/readFT0DCSentries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0CalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0DCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-data-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-sim-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-22T17:36:32Z",
-            "title": "Silence warning",
-            "number": 9246,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-23T08:53:44Z",
             "title": "Event visualisation / DPL Analysis: Move event display analysis task to .cxx",
             "number": 9247,
@@ -3841,6 +3746,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TimesliceIndex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event Display: Change the RhoZ side view to ZY",
+            "number": 9345,
+            "author": {
+              "login": "pnwkw"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Scripts/.o2eve_config"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/include/EventVisualisationView/MultiView.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Initializer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/MultiView.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/View/src/Screenshot.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bug-fix",
+            "number": 9346,
+            "author": {
+              "login": "Cas1997"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FCT/simulation/src/Detector.cxx"
                   }
                 }
               ]

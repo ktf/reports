@@ -8,7 +8,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9263](https://github.com/AliceO2Group/AliceO2/pull/9263) 2022-06-26: MCTrack: change encoding for process to unsigned by [@sawenzel](https://github.com/sawenzel)
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
@@ -24,7 +23,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9249](https://github.com/AliceO2Group/AliceO2/pull/9249) 2022-07-01: [EMCAL-784] Provide only EMV-EMCAL sampling factor for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
@@ -80,7 +78,6 @@
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9246](https://github.com/AliceO2Group/AliceO2/pull/9246) 2022-06-22: Silence warning by [@ktf](https://github.com/ktf)
 - [\#9258](https://github.com/AliceO2Group/AliceO2/pull/9258) 2022-06-24: DPL: demote info message to debug by [@ktf](https://github.com/ktf)
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
