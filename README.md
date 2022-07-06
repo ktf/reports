@@ -25,7 +25,6 @@
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Detectors
-- [\#9240](https://github.com/AliceO2Group/AliceO2/pull/9240) 2022-06-22: Set ITS ClusterParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
 - [\#9244](https://github.com/AliceO2Group/AliceO2/pull/9244) 2022-06-29: CPV: add LM-L0 delay subtraction to RawToDigitConverterSpec by [@sevdokim](https://github.com/sevdokim)
 - [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
