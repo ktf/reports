@@ -72,7 +72,6 @@
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - EventVisualisation
-- [\#9247](https://github.com/AliceO2Group/AliceO2/pull/9247) 2022-06-23: Event visualisation / DPL Analysis: Move event display analysis task to .cxx by [@saganatt](https://github.com/saganatt)
 - [\#9261](https://github.com/AliceO2Group/AliceO2/pull/9261) 2022-06-24: o2-eve: calorimeter fixes by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
