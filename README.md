@@ -23,7 +23,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9249](https://github.com/AliceO2Group/AliceO2/pull/9249) 2022-07-01: [EMCAL-784] Provide only EMV-EMCAL sampling factor for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
@@ -65,6 +64,7 @@
 - [\#9317](https://github.com/AliceO2Group/AliceO2/pull/9317) 2022-07-03: add extra time tolerance for TRD tracks by [@noferini](https://github.com/noferini)
 - [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
 - [\#9321](https://github.com/AliceO2Group/AliceO2/pull/9321) 2022-07-06: Change delay between local clock and collision BC based on the new pilot beam data by [@dstocco](https://github.com/dstocco)
+- [\#9324](https://github.com/AliceO2Group/AliceO2/pull/9324) 2022-07-06: Ignore dummy TFs in TFIDInfoHelper::fillTFIDInfo by [@shahor02](https://github.com/shahor02)
 - [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9330](https://github.com/AliceO2Group/AliceO2/pull/9330) 2022-07-06: TRD: Fix typo in log message by [@martenole](https://github.com/martenole)
 - [\#9335](https://github.com/AliceO2Group/AliceO2/pull/9335) 2022-07-05: MCH: mchview solars.json file needs nch by [@aphecetche](https://github.com/aphecetche)
