@@ -24,7 +24,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9244](https://github.com/AliceO2Group/AliceO2/pull/9244) 2022-06-29: CPV: add LM-L0 delay subtraction to RawToDigitConverterSpec by [@sevdokim](https://github.com/sevdokim)
 - [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9248](https://github.com/AliceO2Group/AliceO2/pull/9248) 2022-06-22: Add include guards to macro by [@shahor02](https://github.com/shahor02)
 - [\#9249](https://github.com/AliceO2Group/AliceO2/pull/9249) 2022-07-01: [EMCAL-784] Provide only EMV-EMCAL sampling factor for Geant4 by [@mfasDa](https://github.com/mfasDa)
@@ -70,6 +69,7 @@
 - [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9330](https://github.com/AliceO2Group/AliceO2/pull/9330) 2022-07-06: TRD: Fix typo in log message by [@martenole](https://github.com/martenole)
 - [\#9335](https://github.com/AliceO2Group/AliceO2/pull/9335) 2022-07-05: MCH: mchview solars.json file needs nch by [@aphecetche](https://github.com/aphecetche)
+- [\#9336](https://github.com/AliceO2Group/AliceO2/pull/9336) 2022-07-06: MCH: allow track dump from alien by [@aphecetche](https://github.com/aphecetche)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - EventVisualisation
