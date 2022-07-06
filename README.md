@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 - [\#9257](https://github.com/AliceO2Group/AliceO2/pull/9257) 2022-07-01: Muon dcs processor: change way to set validity range by [@aphecetche](https://github.com/aphecetche)
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
@@ -80,7 +79,6 @@
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9242](https://github.com/AliceO2Group/AliceO2/pull/9242) 2022-06-22: DPL: introduce an AsyncQueue by [@ktf](https://github.com/ktf)
 - [\#9246](https://github.com/AliceO2Group/AliceO2/pull/9246) 2022-06-22: Silence warning by [@ktf](https://github.com/ktf)
 - [\#9258](https://github.com/AliceO2Group/AliceO2/pull/9258) 2022-06-24: DPL: demote info message to debug by [@ktf](https://github.com/ktf)
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
