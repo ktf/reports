@@ -70,6 +70,7 @@
 - [\#9317](https://github.com/AliceO2Group/AliceO2/pull/9317) 2022-07-03: add extra time tolerance for TRD tracks by [@noferini](https://github.com/noferini)
 - [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
 - [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
+- [\#9330](https://github.com/AliceO2Group/AliceO2/pull/9330) 2022-07-06: TRD: Fix typo in log message by [@martenole](https://github.com/martenole)
 - [\#9335](https://github.com/AliceO2Group/AliceO2/pull/9335) 2022-07-05: MCH: mchview solars.json file needs nch by [@aphecetche](https://github.com/aphecetche)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
