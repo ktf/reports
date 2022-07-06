@@ -8,7 +8,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9243](https://github.com/AliceO2Group/AliceO2/pull/9243) 2022-06-22: Constexpr static getter for default triggered detectors by [@shahor02](https://github.com/shahor02)
 - [\#9245](https://github.com/AliceO2Group/AliceO2/pull/9245) 2022-07-02: [FT0] Add workflow for processing FT0 DCS DPs by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9263](https://github.com/AliceO2Group/AliceO2/pull/9263) 2022-06-26: MCTrack: change encoding for process to unsigned by [@sawenzel](https://github.com/sawenzel)
