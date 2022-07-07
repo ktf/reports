@@ -4,106 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Implementing MCH MisAligner",
-            "number": 9251,
-            "author": {
-              "login": "javierecc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/MisAligner/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/MisAligner/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/MisAligner/include/MCHGeometryMisAligner/MisAligner.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/MisAligner/src/MCHGeometryMisAlignerLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/MisAligner/src/MisAligner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/Helpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/LinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/include/MCHGeometryTest/Helpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/misAlign.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Geometry/Test/testGeometryMisAligner.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-06-24T10:22:29Z",
-            "title": "[EMCAL-630] Correction for BC mod",
-            "number": 9252,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-06-30T20:21:18Z",
             "title": "Filter MID bad channels",
@@ -3911,6 +3811,71 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/Trap2CRU.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-561] Port run2/3 trigger mapping to O2",
+            "number": 9351,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/GeometryBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/TriggerMappingErrors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/TriggerMappingV2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/EMCALBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/TriggerMappingV2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "pass ITS,MFT ROF length to p-vertexer",
+            "number": 9352,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
