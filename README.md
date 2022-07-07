@@ -70,6 +70,7 @@
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
+- [\#9268](https://github.com/AliceO2Group/AliceO2/pull/9268) 2022-07-07: DPL: dummy sink should discard when any by [@ktf](https://github.com/ktf)
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
 - [\#9287](https://github.com/AliceO2Group/AliceO2/pull/9287) 2022-06-29: DPL: promote end of stream debug messages to detail by [@ktf](https://github.com/ktf)
