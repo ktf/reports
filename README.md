@@ -63,6 +63,7 @@
 - [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
+- [\#9346](https://github.com/AliceO2Group/AliceO2/pull/9346) 2022-07-07: Bug-fix by [@Cas1997](https://github.com/Cas1997)
 - [\#9347](https://github.com/AliceO2Group/AliceO2/pull/9347) 2022-07-07: Change delay between FET data and calib data to cope with the modified global delay by [@dstocco](https://github.com/dstocco)
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
@@ -73,7 +74,6 @@
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9258](https://github.com/AliceO2Group/AliceO2/pull/9258) 2022-06-24: DPL: demote info message to debug by [@ktf](https://github.com/ktf)
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
