@@ -22,7 +22,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9259](https://github.com/AliceO2Group/AliceO2/pull/9259) 2022-06-28: Fix in the "tree" of possible track prolongations by [@iouribelikov](https://github.com/iouribelikov)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
 - [\#9262](https://github.com/AliceO2Group/AliceO2/pull/9262) 2022-06-24: MCH Raw decoder: demote alarm to warning by [@davidrohr](https://github.com/davidrohr)
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
