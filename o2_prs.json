@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-24T14:33:49Z",
-            "title": "o2-eve: calorimeter fixes",
-            "number": 9261,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Scripts/.o2eve_config"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-24T07:50:39Z",
             "title": "MCH Raw decoder: demote alarm to warning",
             "number": 9262,
@@ -3906,6 +3871,51 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-vdrift-tgl-calibration-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-190: decrease precluster finder verbosity",
+            "number": 9361,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/ErrorMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/src/ErrorMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/src/testErrorMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/PreClustering/include/MCHPreClustering/PreClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/PreClustering/src/PreClusterFinder.cxx"
                   }
                 }
               ]
