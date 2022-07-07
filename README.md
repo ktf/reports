@@ -23,7 +23,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9250](https://github.com/AliceO2Group/AliceO2/pull/9250) 2022-06-22: FIT hotfix: fix for protection against single header in event by [@afurs](https://github.com/afurs)
 - [\#9252](https://github.com/AliceO2Group/AliceO2/pull/9252) 2022-06-24: [EMCAL-630] Correction for BC mod by [@mfasDa](https://github.com/mfasDa)
 - [\#9253](https://github.com/AliceO2Group/AliceO2/pull/9253) 2022-06-30: Filter MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#9254](https://github.com/AliceO2Group/AliceO2/pull/9254) 2022-06-30: Remove selection on dumped MID data by [@dstocco](https://github.com/dstocco)
