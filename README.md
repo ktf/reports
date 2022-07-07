@@ -90,5 +90,6 @@
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
 - [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
 - [\#9331](https://github.com/AliceO2Group/AliceO2/pull/9331) 2022-07-06: DPL: add statistics for the CCDB fetcher by [@ktf](https://github.com/ktf)
+- [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
