@@ -75,6 +75,7 @@
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9258](https://github.com/AliceO2Group/AliceO2/pull/9258) 2022-06-24: DPL: demote info message to debug by [@ktf](https://github.com/ktf)
 - [\#9265](https://github.com/AliceO2Group/AliceO2/pull/9265) 2022-06-30: DPL Analysis: enforce using references as arguments in process() by [@aalkin](https://github.com/aalkin)
