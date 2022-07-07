@@ -7,7 +7,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9263](https://github.com/AliceO2Group/AliceO2/pull/9263) 2022-06-26: MCTrack: change encoding for process to unsigned by [@sawenzel](https://github.com/sawenzel)
 - [\#9264](https://github.com/AliceO2Group/AliceO2/pull/9264) 2022-06-30: correct and standardize the definition of MCH/MID-based track time by [@pillot](https://github.com/pillot)
 - [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
