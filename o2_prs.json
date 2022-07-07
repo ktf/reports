@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-30T11:56:26Z",
-            "title": "Remove selection on dumped MID data",
-            "number": 9254,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/RawDumpSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-30T12:37:47Z",
             "title": "StartValidity set to beginning of integration period for DCS data",
             "number": 9255,
@@ -3836,6 +3816,31 @@
                 {
                   "node": {
                     "path": "EventVisualisation/View/src/EventManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Process only 20% of ITS data in pp sync, enable TPC dEdx when EXTRA_PROCESSING_STEPS=TPC_DEDX is set in sync mode",
+            "number": 9354,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/workflow-setup.sh"
                   }
                 }
               ]
