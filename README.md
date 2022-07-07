@@ -23,7 +23,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9256](https://github.com/AliceO2Group/AliceO2/pull/9256) 2022-06-30: DCS random data generator: use system_clock to get wall time by [@aphecetche](https://github.com/aphecetche)
 - [\#9257](https://github.com/AliceO2Group/AliceO2/pull/9257) 2022-07-01: Muon dcs processor: change way to set validity range by [@aphecetche](https://github.com/aphecetche)
 - [\#9259](https://github.com/AliceO2Group/AliceO2/pull/9259) 2022-06-28: Fix in the "tree" of possible track prolongations by [@iouribelikov](https://github.com/iouribelikov)
 - [\#9260](https://github.com/AliceO2Group/AliceO2/pull/9260) 2022-06-25: TPC: Processing of sampled analogue currents (SAC) by [@wiechula](https://github.com/wiechula)
