@@ -23,7 +23,6 @@
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9253](https://github.com/AliceO2Group/AliceO2/pull/9253) 2022-06-30: Filter MID bad channels by [@dstocco](https://github.com/dstocco)
 - [\#9254](https://github.com/AliceO2Group/AliceO2/pull/9254) 2022-06-30: Remove selection on dumped MID data by [@dstocco](https://github.com/dstocco)
 - [\#9255](https://github.com/AliceO2Group/AliceO2/pull/9255) 2022-06-30: StartValidity set to beginning of integration period for DCS data by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9256](https://github.com/AliceO2Group/AliceO2/pull/9256) 2022-06-30: DCS random data generator: use system_clock to get wall time by [@aphecetche](https://github.com/aphecetche)
@@ -94,3 +93,4 @@
 - [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
+- [\#9342](https://github.com/AliceO2Group/AliceO2/pull/9342) 2022-07-07: Fix deprecated iterator by [@ktf](https://github.com/ktf)
