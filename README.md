@@ -5,7 +5,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 - [\#9276](https://github.com/AliceO2Group/AliceO2/pull/9276) 2022-07-03: [FDD] Modification to have proper avg time in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9293](https://github.com/AliceO2Group/AliceO2/pull/9293) 2022-07-04: TRD fix bad rdh headers, add numerous data integrity checks by [@bazinski](https://github.com/bazinski)
@@ -17,7 +16,6 @@
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 - [\#9269](https://github.com/AliceO2Group/AliceO2/pull/9269) 2022-06-25: Use 6 its trackers for pp since 4 are too slow and fix a log message by [@davidrohr](https://github.com/davidrohr)
 - [\#9270](https://github.com/AliceO2Group/AliceO2/pull/9270) 2022-06-25: Set MFT ClustererParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
 - [\#9271](https://github.com/AliceO2Group/AliceO2/pull/9271) 2022-06-26: FT0 calibration: urgent hotfix for FT0TFProcessor by [@afurs](https://github.com/afurs)
@@ -58,6 +56,7 @@
 - [\#9347](https://github.com/AliceO2Group/AliceO2/pull/9347) 2022-07-07: Change delay between FET data and calib data to cope with the modified global delay by [@dstocco](https://github.com/dstocco)
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
+- [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
