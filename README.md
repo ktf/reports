@@ -7,7 +7,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9276](https://github.com/AliceO2Group/AliceO2/pull/9276) 2022-07-03: [FDD] Modification to have proper avg time in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9293](https://github.com/AliceO2Group/AliceO2/pull/9293) 2022-07-04: TRD fix bad rdh headers, add numerous data integrity checks by [@bazinski](https://github.com/bazinski)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
@@ -20,7 +19,6 @@
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9276](https://github.com/AliceO2Group/AliceO2/pull/9276) 2022-07-03: [FDD] Modification to have proper avg time in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9280](https://github.com/AliceO2Group/AliceO2/pull/9280) 2022-06-29: TF rate limiting for CTF, raw-file and raw-tf readers by [@shahor02](https://github.com/shahor02)
 - [\#9281](https://github.com/AliceO2Group/AliceO2/pull/9281) 2022-06-30: Add TPC residual aggregator CALIB workflow by [@martenole](https://github.com/martenole)
 - [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
