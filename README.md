@@ -56,6 +56,7 @@
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
+- [\#9357](https://github.com/AliceO2Group/AliceO2/pull/9357) 2022-07-08: Mem improvement for TPC digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
 - [\#9361](https://github.com/AliceO2Group/AliceO2/pull/9361) 2022-07-08: MRRTF-190: decrease precluster finder verbosity by [@aphecetche](https://github.com/aphecetche)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
