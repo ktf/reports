@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-13T08:50:18Z",
-            "title": "[DPG] Add nSigma TPC selection to K0S tracking efficiency task",
-            "number": 869,
-            "author": {
-              "login": "alessandrobalbino"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaK0sTrackingEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-13T14:34:53Z",
             "title": "Add DCA histograms to nuclei analysis",
             "number": 870,
@@ -3645,6 +3625,36 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/diffQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Adding bayesian PID selections in the Lc->pKpi selector task",
+            "number": 969,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelectorPID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFLcCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskLc.cxx"
                   }
                 }
               ]
