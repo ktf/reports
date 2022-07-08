@@ -20,7 +20,6 @@
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9270](https://github.com/AliceO2Group/AliceO2/pull/9270) 2022-06-25: Set MFT ClustererParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
 - [\#9271](https://github.com/AliceO2Group/AliceO2/pull/9271) 2022-06-26: FT0 calibration: urgent hotfix for FT0TFProcessor by [@afurs](https://github.com/afurs)
 - [\#9272](https://github.com/AliceO2Group/AliceO2/pull/9272) 2022-06-26: fix out of bin access in matLUT queries by [@shahor02](https://github.com/shahor02)
 - [\#9275](https://github.com/AliceO2Group/AliceO2/pull/9275) 2022-06-28: TPC gain map using tracks: adding switch for normalization by [@matthias-kleiner](https://github.com/matthias-kleiner)
