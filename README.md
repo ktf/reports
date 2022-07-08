@@ -59,6 +59,7 @@
 - [\#9357](https://github.com/AliceO2Group/AliceO2/pull/9357) 2022-07-08: Mem improvement for TPC digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
 - [\#9361](https://github.com/AliceO2Group/AliceO2/pull/9361) 2022-07-08: MRRTF-190: decrease precluster finder verbosity by [@aphecetche](https://github.com/aphecetche)
+- [\#9365](https://github.com/AliceO2Group/AliceO2/pull/9365) 2022-07-08: MCH: fix digit charge sum exceeding limit by [@pillot](https://github.com/pillot)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 - [\#9368](https://github.com/AliceO2Group/AliceO2/pull/9368) 2022-07-08: [EMCAL-558] important bugfix for EMCal clusterizer by [@fjonasALICE](https://github.com/fjonasALICE)
 ## Recent developments in O2 - EventVisualisation
