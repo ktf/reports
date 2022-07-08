@@ -15,6 +15,7 @@
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
+- [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
@@ -45,7 +46,9 @@
 - [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
 - [\#9321](https://github.com/AliceO2Group/AliceO2/pull/9321) 2022-07-06: Change delay between local clock and collision BC based on the new pilot beam data by [@dstocco](https://github.com/dstocco)
 - [\#9324](https://github.com/AliceO2Group/AliceO2/pull/9324) 2022-07-06: Ignore dummy TFs in TFIDInfoHelper::fillTFIDInfo by [@shahor02](https://github.com/shahor02)
+- [\#9325](https://github.com/AliceO2Group/AliceO2/pull/9325) 2022-07-08: TPC cluster residuals + track information are dumped by aggregator by [@martenole](https://github.com/martenole)
 - [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
+- [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
 - [\#9330](https://github.com/AliceO2Group/AliceO2/pull/9330) 2022-07-06: TRD: Fix typo in log message by [@martenole](https://github.com/martenole)
 - [\#9335](https://github.com/AliceO2Group/AliceO2/pull/9335) 2022-07-05: MCH: mchview solars.json file needs nch by [@aphecetche](https://github.com/aphecetche)
 - [\#9336](https://github.com/AliceO2Group/AliceO2/pull/9336) 2022-07-06: MCH: allow track dump from alien by [@aphecetche](https://github.com/aphecetche)
@@ -57,6 +60,7 @@
 - [\#9347](https://github.com/AliceO2Group/AliceO2/pull/9347) 2022-07-07: Change delay between FET data and calib data to cope with the modified global delay by [@dstocco](https://github.com/dstocco)
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
+- [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
