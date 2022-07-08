@@ -20,7 +20,6 @@
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9275](https://github.com/AliceO2Group/AliceO2/pull/9275) 2022-06-28: TPC gain map using tracks: adding switch for normalization by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9276](https://github.com/AliceO2Group/AliceO2/pull/9276) 2022-07-03: [FDD] Modification to have proper avg time in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9280](https://github.com/AliceO2Group/AliceO2/pull/9280) 2022-06-29: TF rate limiting for CTF, raw-file and raw-tf readers by [@shahor02](https://github.com/shahor02)
 - [\#9281](https://github.com/AliceO2Group/AliceO2/pull/9281) 2022-06-30: Add TPC residual aggregator CALIB workflow by [@martenole](https://github.com/martenole)
