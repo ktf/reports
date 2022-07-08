@@ -62,6 +62,7 @@
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
 - [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
+- [\#9361](https://github.com/AliceO2Group/AliceO2/pull/9361) 2022-07-08: MRRTF-190: decrease precluster finder verbosity by [@aphecetche](https://github.com/aphecetche)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
