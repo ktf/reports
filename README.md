@@ -63,6 +63,7 @@
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
+- [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
