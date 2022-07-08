@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
@@ -16,7 +18,6 @@
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9269](https://github.com/AliceO2Group/AliceO2/pull/9269) 2022-06-25: Use 6 its trackers for pp since 4 are too slow and fix a log message by [@davidrohr](https://github.com/davidrohr)
 - [\#9270](https://github.com/AliceO2Group/AliceO2/pull/9270) 2022-06-25: Set MFT ClustererParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
 - [\#9271](https://github.com/AliceO2Group/AliceO2/pull/9271) 2022-06-26: FT0 calibration: urgent hotfix for FT0TFProcessor by [@afurs](https://github.com/afurs)
 - [\#9272](https://github.com/AliceO2Group/AliceO2/pull/9272) 2022-06-26: fix out of bin access in matLUT queries by [@shahor02](https://github.com/shahor02)
@@ -63,7 +64,6 @@
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9268](https://github.com/AliceO2Group/AliceO2/pull/9268) 2022-07-07: DPL: dummy sink should discard when any by [@ktf](https://github.com/ktf)
 - [\#9273](https://github.com/AliceO2Group/AliceO2/pull/9273) 2022-06-26: DPL: improve color dark red by [@ktf](https://github.com/ktf)
 - [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
 - [\#9287](https://github.com/AliceO2Group/AliceO2/pull/9287) 2022-06-29: DPL: promote end of stream debug messages to detail by [@ktf](https://github.com/ktf)
@@ -71,6 +71,7 @@
 - [\#9304](https://github.com/AliceO2Group/AliceO2/pull/9304) 2022-06-30: DPL: do not reset the timeout in case we have a raw channel in input by [@ktf](https://github.com/ktf)
 - [\#9305](https://github.com/AliceO2Group/AliceO2/pull/9305) 2022-07-01: DPL: make sure severity flag is used ASAP by [@ktf](https://github.com/ktf)
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
+- [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
 - [\#9331](https://github.com/AliceO2Group/AliceO2/pull/9331) 2022-07-06: DPL: add statistics for the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
