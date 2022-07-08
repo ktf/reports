@@ -67,7 +67,6 @@
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 - [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9277](https://github.com/AliceO2Group/AliceO2/pull/9277) 2022-06-28: DPL: improve async queue to support oldest possible timeframe by [@ktf](https://github.com/ktf)
 - [\#9287](https://github.com/AliceO2Group/AliceO2/pull/9287) 2022-06-29: DPL: promote end of stream debug messages to detail by [@ktf](https://github.com/ktf)
 - [\#9290](https://github.com/AliceO2Group/AliceO2/pull/9290) 2022-06-30: DPL: have input proxy wait for EoS by [@ktf](https://github.com/ktf)
 - [\#9304](https://github.com/AliceO2Group/AliceO2/pull/9304) 2022-06-30: DPL: do not reset the timeout in case we have a raw channel in input by [@ktf](https://github.com/ktf)

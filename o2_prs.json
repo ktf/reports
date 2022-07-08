@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-28T08:18:33Z",
-            "title": "DPL: improve async queue to support oldest possible timeframe",
-            "number": 9277,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AsyncQueue.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AsyncQueue.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AsyncQueue.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-27T12:55:00Z",
             "title": "Adjust FST to new features",
             "number": 9278,
@@ -4481,6 +4446,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/RawToDigitsSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC digit: some optimisation for PadRegion calculations",
+            "number": 9377,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/PadRegionInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/PadRegionInfo.cxx"
                   }
                 }
               ]
