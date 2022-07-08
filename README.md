@@ -5,7 +5,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 - [\#9276](https://github.com/AliceO2Group/AliceO2/pull/9276) 2022-07-03: [FDD] Modification to have proper avg time in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
@@ -18,7 +17,6 @@
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#9266](https://github.com/AliceO2Group/AliceO2/pull/9266) 2022-06-24: Call setBeamAZ at the end of GRPLHCIF creation by [@shahor02](https://github.com/shahor02)
 - [\#9267](https://github.com/AliceO2Group/AliceO2/pull/9267) 2022-06-24: Fix: increment EMCAL Digit class version by [@shahor02](https://github.com/shahor02)
 - [\#9269](https://github.com/AliceO2Group/AliceO2/pull/9269) 2022-06-25: Use 6 its trackers for pp since 4 are too slow and fix a log message by [@davidrohr](https://github.com/davidrohr)
 - [\#9270](https://github.com/AliceO2Group/AliceO2/pull/9270) 2022-06-25: Set MFT ClustererParam overflow masking default to neighbour=1 by [@shahor02](https://github.com/shahor02)
