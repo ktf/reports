@@ -62,6 +62,7 @@
 - [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
 - [\#9361](https://github.com/AliceO2Group/AliceO2/pull/9361) 2022-07-08: MRRTF-190: decrease precluster finder verbosity by [@aphecetche](https://github.com/aphecetche)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
+- [\#9368](https://github.com/AliceO2Group/AliceO2/pull/9368) 2022-07-08: [EMCAL-558] important bugfix for EMCal clusterizer by [@fjonasALICE](https://github.com/fjonasALICE)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
