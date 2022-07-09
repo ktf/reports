@@ -88,6 +88,7 @@
 - [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#9371](https://github.com/AliceO2Group/AliceO2/pull/9371) 2022-07-08: Reduce severity of dummy creation time for CCDB message from error to info by [@davidrohr](https://github.com/davidrohr)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
+- [\#9375](https://github.com/AliceO2Group/AliceO2/pull/9375) 2022-07-09: DPL Analysis: add compatibility with old clang versions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
