@@ -5,166 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-27T12:55:00Z",
-            "title": "Adjust FST to new features",
-            "number": 9278,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Drew spy",
-            "number": 9279,
-            "author": {
-              "login": "Zowlyfon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CommonServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/SendingPolicy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlServiceHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlWebSocketHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSender.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/GuiCallbackContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SendingPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SpyService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SpyService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SpyServiceHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/SpyServiceHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_HTTPParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflowLeaky.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindFastJet.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-29T21:36:22Z",
             "title": "TF rate limiting for CTF, raw-file and raw-tf readers",
             "number": 9280,
@@ -506,7 +346,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "(WIP) its-gpu: add tracklet finding and cell finding on GPU (HIP+NVIDIA)",
+            "title": "Its-gpu: add tracklet finding and cell finding on GPU (HIP+NVIDIA)",
             "number": 9289,
             "author": {
               "login": "mconcas"
@@ -635,6 +475,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Vertexer.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexerTraits.h"
                   }
                 },
@@ -670,12 +515,27 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/CookedTrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_trac_ca_its.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/run_trac_its.C"
                   }
                 }
               ]
@@ -879,8 +739,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-08T20:28:18Z",
             "title": "DPL Analysis: Improve tests for persistent and index columns",
             "number": 9295,
             "author": {
@@ -1024,8 +884,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-09T11:55:56Z",
             "title": "DPL Analysis: Extend binning policy to accept lambdas",
             "number": 9299,
             "author": {
@@ -3509,9 +3369,9 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] Fix ITS aggregator for EoS operations at P2",
+            "state": "MERGED",
+            "mergedAt": "2022-07-09T10:15:53Z",
+            "title": "Fix ITS aggregator for EoS operations at P2",
             "number": 9362,
             "author": {
               "login": "iravasen"
@@ -3859,8 +3719,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-09T14:02:30Z",
             "title": "Use TimingInfo instead of DataHeader and DataProcessingHeader",
             "number": 9374,
             "author": {
@@ -4394,8 +4254,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-08T23:11:38Z",
             "title": "TPC: Add decoding of ILBZS in raw to digits",
             "number": 9376,
             "author": {
@@ -4459,8 +4319,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-08T23:13:08Z",
             "title": "TPC digit: some optimisation for PadRegion calculations",
             "number": 9377,
             "author": {
@@ -4481,6 +4341,46 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/src/PadRegionInfo.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-09T10:54:27Z",
+            "title": "FST: Do not set STROBE lengths by default, will be taken from CCDB",
+            "number": 9378,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/workflow-setup.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ZDC Fastsim: Fix array iteration",
+            "number": 9379,
+            "author": {
+              "login": "SwirtaB"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
                   }
                 }
               ]
