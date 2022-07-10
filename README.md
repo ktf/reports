@@ -70,6 +70,7 @@
 - [\#9381](https://github.com/AliceO2Group/AliceO2/pull/9381) 2022-07-10: Raw reader: add check for truncated file by [@wiechula](https://github.com/wiechula)
 - [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
 - [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
+- [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
