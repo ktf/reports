@@ -19,6 +19,7 @@
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
+- [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
@@ -66,6 +67,7 @@
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9377](https://github.com/AliceO2Group/AliceO2/pull/9377) 2022-07-08: TPC digit: some optimisation for PadRegion calculations by [@sawenzel](https://github.com/sawenzel)
+- [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 - [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
