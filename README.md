@@ -77,7 +77,6 @@
 - [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9287](https://github.com/AliceO2Group/AliceO2/pull/9287) 2022-06-29: DPL: promote end of stream debug messages to detail by [@ktf](https://github.com/ktf)
 - [\#9290](https://github.com/AliceO2Group/AliceO2/pull/9290) 2022-06-30: DPL: have input proxy wait for EoS by [@ktf](https://github.com/ktf)
 - [\#9295](https://github.com/AliceO2Group/AliceO2/pull/9295) 2022-07-08: DPL Analysis: Improve tests for persistent and index columns by [@saganatt](https://github.com/saganatt)
 - [\#9299](https://github.com/AliceO2Group/AliceO2/pull/9299) 2022-07-09: DPL Analysis: Extend binning policy to accept lambdas by [@saganatt](https://github.com/saganatt)
