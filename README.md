@@ -18,6 +18,7 @@
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
+- [\#9360](https://github.com/AliceO2Group/AliceO2/pull/9360) 2022-07-10: Add extra info to TPC VDrift correction objects by [@shahor02](https://github.com/shahor02)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
@@ -57,6 +58,7 @@
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
 - [\#9357](https://github.com/AliceO2Group/AliceO2/pull/9357) 2022-07-08: Mem improvement for TPC digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#9358](https://github.com/AliceO2Group/AliceO2/pull/9358) 2022-07-08: FT0 calib: hotfix for preventing memory leak by [@afurs](https://github.com/afurs)
+- [\#9360](https://github.com/AliceO2Group/AliceO2/pull/9360) 2022-07-10: Add extra info to TPC VDrift correction objects by [@shahor02](https://github.com/shahor02)
 - [\#9361](https://github.com/AliceO2Group/AliceO2/pull/9361) 2022-07-08: MRRTF-190: decrease precluster finder verbosity by [@aphecetche](https://github.com/aphecetche)
 - [\#9362](https://github.com/AliceO2Group/AliceO2/pull/9362) 2022-07-09: Fix ITS aggregator for EoS operations at P2 by [@iravasen](https://github.com/iravasen)
 - [\#9364](https://github.com/AliceO2Group/AliceO2/pull/9364) 2022-07-08: Writer for PHY triggers from ITS/MFT data by [@shahor02](https://github.com/shahor02)
@@ -67,6 +69,7 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9377](https://github.com/AliceO2Group/AliceO2/pull/9377) 2022-07-08: TPC digit: some optimisation for PadRegion calculations by [@sawenzel](https://github.com/sawenzel)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
+- [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
 - [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
