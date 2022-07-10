@@ -22,7 +22,6 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
 - [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
 - [\#9293](https://github.com/AliceO2Group/AliceO2/pull/9293) 2022-07-04: TRD fix bad rdh headers, add numerous data integrity checks by [@bazinski](https://github.com/bazinski)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
@@ -68,6 +67,7 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9377](https://github.com/AliceO2Group/AliceO2/pull/9377) 2022-07-08: TPC digit: some optimisation for PadRegion calculations by [@sawenzel](https://github.com/sawenzel)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
+- [\#9381](https://github.com/AliceO2Group/AliceO2/pull/9381) 2022-07-10: Raw reader: add check for truncated file by [@wiechula](https://github.com/wiechula)
 - [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
 - [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
