@@ -21,7 +21,6 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9284](https://github.com/AliceO2Group/AliceO2/pull/9284) 2022-06-28: TPC: SACs, add missing call to send data, bugfixes by [@wiechula](https://github.com/wiechula)
 - [\#9286](https://github.com/AliceO2Group/AliceO2/pull/9286) 2022-06-30: TRD small reco update by [@martenole](https://github.com/martenole)
 - [\#9288](https://github.com/AliceO2Group/AliceO2/pull/9288) 2022-06-28: Hot fix: do not access clusterer if clusters are not asked by [@shahor02](https://github.com/shahor02)
 - [\#9292](https://github.com/AliceO2Group/AliceO2/pull/9292) 2022-06-30: couple G4 random seed to gRandom by [@sawenzel](https://github.com/sawenzel)
