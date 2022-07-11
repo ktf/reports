@@ -69,6 +69,7 @@
 - [\#9385](https://github.com/AliceO2Group/AliceO2/pull/9385) 2022-07-11: TPC: Make findPad inline by [@davidrohr](https://github.com/davidrohr)
 - [\#9386](https://github.com/AliceO2Group/AliceO2/pull/9386) 2022-07-11: Add protection against huge number of cells by [@mpuccio](https://github.com/mpuccio)
 - [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
+- [\#9391](https://github.com/AliceO2Group/AliceO2/pull/9391) 2022-07-11: Enable configuration of maxTrackletsPerCluster by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
