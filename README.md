@@ -91,7 +91,6 @@
 - [\#9375](https://github.com/AliceO2Group/AliceO2/pull/9375) 2022-07-09: DPL Analysis: add compatibility with old clang versions by [@ktf](https://github.com/ktf)
 - [\#9384](https://github.com/AliceO2Group/AliceO2/pull/9384) 2022-07-10: DPL: Add env var to override TimingInfo::Creationtime by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
-- [\#9296](https://github.com/AliceO2Group/AliceO2/pull/9296) 2022-06-30: Fix triggered dets. mask setting in digitization by [@shahor02](https://github.com/shahor02)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
