@@ -8,7 +8,6 @@
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9293](https://github.com/AliceO2Group/AliceO2/pull/9293) 2022-07-04: TRD fix bad rdh headers, add numerous data integrity checks by [@bazinski](https://github.com/bazinski)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
@@ -22,7 +21,6 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9293](https://github.com/AliceO2Group/AliceO2/pull/9293) 2022-07-04: TRD fix bad rdh headers, add numerous data integrity checks by [@bazinski](https://github.com/bazinski)
 - [\#9294](https://github.com/AliceO2Group/AliceO2/pull/9294) 2022-06-30: Warn and disable MC request for MCH clusters(if needed) by [@shahor02](https://github.com/shahor02)
 - [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
 - [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
