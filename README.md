@@ -70,6 +70,7 @@
 - [\#9381](https://github.com/AliceO2Group/AliceO2/pull/9381) 2022-07-10: Raw reader: add check for truncated file by [@wiechula](https://github.com/wiechula)
 - [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
 - [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
+- [\#9385](https://github.com/AliceO2Group/AliceO2/pull/9385) 2022-07-11: TPC: Make findPad inline by [@davidrohr](https://github.com/davidrohr)
 - [\#9386](https://github.com/AliceO2Group/AliceO2/pull/9386) 2022-07-11: Add protection against huge number of cells by [@mpuccio](https://github.com/mpuccio)
 - [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
