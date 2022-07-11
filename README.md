@@ -66,6 +66,7 @@
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9377](https://github.com/AliceO2Group/AliceO2/pull/9377) 2022-07-08: TPC digit: some optimisation for PadRegion calculations by [@sawenzel](https://github.com/sawenzel)
+- [\#9379](https://github.com/AliceO2Group/AliceO2/pull/9379) 2022-07-11: ZDC Fastsim: Fix array iteration by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 - [\#9381](https://github.com/AliceO2Group/AliceO2/pull/9381) 2022-07-10: Raw reader: add check for truncated file by [@wiechula](https://github.com/wiechula)
 - [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
