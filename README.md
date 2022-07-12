@@ -77,7 +77,6 @@
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9299](https://github.com/AliceO2Group/AliceO2/pull/9299) 2022-07-09: DPL Analysis: Extend binning policy to accept lambdas by [@saganatt](https://github.com/saganatt)
 - [\#9304](https://github.com/AliceO2Group/AliceO2/pull/9304) 2022-06-30: DPL: do not reset the timeout in case we have a raw channel in input by [@ktf](https://github.com/ktf)
 - [\#9305](https://github.com/AliceO2Group/AliceO2/pull/9305) 2022-07-01: DPL: make sure severity flag is used ASAP by [@ktf](https://github.com/ktf)
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
