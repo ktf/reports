@@ -18,6 +18,7 @@
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
+- [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#9310](https://github.com/AliceO2Group/AliceO2/pull/9310) 2022-07-02: Avoid OOB access by [@ktf](https://github.com/ktf)
 - [\#9312](https://github.com/AliceO2Group/AliceO2/pull/9312) 2022-07-01: TRD updates by [@martenole](https://github.com/martenole)
@@ -65,6 +66,7 @@
 - [\#9386](https://github.com/AliceO2Group/AliceO2/pull/9386) 2022-07-11: Add protection against huge number of cells by [@mpuccio](https://github.com/mpuccio)
 - [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
 - [\#9391](https://github.com/AliceO2Group/AliceO2/pull/9391) 2022-07-11: Enable configuration of maxTrackletsPerCluster by [@mconcas](https://github.com/mconcas)
+- [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
