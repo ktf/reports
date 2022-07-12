@@ -79,7 +79,6 @@
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
 - [\#9397](https://github.com/AliceO2Group/AliceO2/pull/9397) 2022-07-12: Event Display: Fix ED exporter crash when no tracks are in the current reco container by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9305](https://github.com/AliceO2Group/AliceO2/pull/9305) 2022-07-01: DPL: make sure severity flag is used ASAP by [@ktf](https://github.com/ktf)
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
