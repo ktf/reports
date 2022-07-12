@@ -4,81 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "o2-eve: removing EMCAL artefacts, not showing MFT,MCH,MID on Rphi vie…",
-            "number": 9302,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/MultiView.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/MultiView.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/.cmake/api/v1/query/cache-v2"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/.cmake/api/v1/query/codemodel-v2"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/.cmake/api/v1/query/toolchains-v1"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/DartConfiguration.tcl"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake-build-debug/version/O2Version.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-07-01T07:33:23Z",
             "title": "Add magnetic field visualization to GPU Event Display",
@@ -4445,6 +4370,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD reducing erroroneous errors, and reduce some alarms to info messages.",
+            "number": 9402,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
                   }
                 }
               ]
