@@ -19,7 +19,6 @@
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9300](https://github.com/AliceO2Group/AliceO2/pull/9300) 2022-06-30: improve MCH chambers response by [@pillot](https://github.com/pillot)
 - [\#9301](https://github.com/AliceO2Group/AliceO2/pull/9301) 2022-06-30: Fix in HBFUtilsInitializer by [@shahor02](https://github.com/shahor02)
 - [\#9306](https://github.com/AliceO2Group/AliceO2/pull/9306) 2022-07-01: Add option to write only fraction of TFs to CTF by [@shahor02](https://github.com/shahor02)
 - [\#9308](https://github.com/AliceO2Group/AliceO2/pull/9308) 2022-07-03: ZDC - Checks in DigitReaderSpec by [@cortesep](https://github.com/cortesep)
