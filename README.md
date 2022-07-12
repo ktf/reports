@@ -67,6 +67,7 @@
 - [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
 - [\#9391](https://github.com/AliceO2Group/AliceO2/pull/9391) 2022-07-11: Enable configuration of maxTrackletsPerCluster by [@mconcas](https://github.com/mconcas)
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
+- [\#9402](https://github.com/AliceO2Group/AliceO2/pull/9402) 2022-07-12: TRD permit eventype to change between rdh stops, reduce errorneous errors, and reduce some alarms to info messages. by [@bazinski](https://github.com/bazinski)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
@@ -78,6 +79,7 @@
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
 - [\#9397](https://github.com/AliceO2Group/AliceO2/pull/9397) 2022-07-12: Event Display: Fix ED exporter crash when no tracks are in the current reco container by [@pnwkw](https://github.com/pnwkw)
+- [\#9399](https://github.com/AliceO2Group/AliceO2/pull/9399) 2022-07-12: o2-eve: online production of screenshots in specified folder (for out… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
