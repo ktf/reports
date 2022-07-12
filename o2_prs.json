@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-01T13:16:14Z",
-            "title": "MCH: fix digit nofsamples exceeding limit",
-            "number": 9309,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/Response.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-02T08:56:04Z",
             "title": "Avoid OOB access",
             "number": 9310,
@@ -4443,8 +4423,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-12T21:58:46Z",
             "title": "GPU: some unrelated fixes",
             "number": 9407,
             "author": {
@@ -4520,6 +4500,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-12T22:01:55Z",
+            "title": "GPU: Fix ZS decoding when incoming pages are not ordered monitonically in first time bin",
+            "number": 9409,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
                   }
                 }
               ]
