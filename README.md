@@ -76,6 +76,8 @@
 - [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
+- [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
+- [\#9397](https://github.com/AliceO2Group/AliceO2/pull/9397) 2022-07-12: Event Display: Fix ED exporter crash when no tracks are in the current reco container by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9304](https://github.com/AliceO2Group/AliceO2/pull/9304) 2022-06-30: DPL: do not reset the timeout in case we have a raw channel in input by [@ktf](https://github.com/ktf)
 - [\#9305](https://github.com/AliceO2Group/AliceO2/pull/9305) 2022-07-01: DPL: make sure severity flag is used ASAP by [@ktf](https://github.com/ktf)
