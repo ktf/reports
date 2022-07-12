@@ -4,11 +4,9 @@
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9303](https://github.com/AliceO2Group/AliceO2/pull/9303) 2022-07-01: Add magnetic field visualization to GPU Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9297](https://github.com/AliceO2Group/AliceO2/pull/9297) 2022-07-01: GRP tool for simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
