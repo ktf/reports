@@ -70,7 +70,6 @@
 - [\#9402](https://github.com/AliceO2Group/AliceO2/pull/9402) 2022-07-12: TRD permit eventype to change between rdh stops, reduce errorneous errors, and reduce some alarms to info messages. by [@bazinski](https://github.com/bazinski)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9311](https://github.com/AliceO2Group/AliceO2/pull/9311) 2022-07-03: o2-eve: EMCAL fixes, hiding MFT,MCH,MID on RPhi view by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9319](https://github.com/AliceO2Group/AliceO2/pull/9319) 2022-07-03: o2-eve: added sequential mode display by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
