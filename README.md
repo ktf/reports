@@ -20,7 +20,6 @@
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9312](https://github.com/AliceO2Group/AliceO2/pull/9312) 2022-07-01: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9313](https://github.com/AliceO2Group/AliceO2/pull/9313) 2022-07-04: MCH: small exe to generate electronic mapping in json format by [@aphecetche](https://github.com/aphecetche)
 - [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9316](https://github.com/AliceO2Group/AliceO2/pull/9316) 2022-07-02: TPC: try..catch in IDC decoder, improve track&cluster filter by [@wiechula](https://github.com/wiechula)
