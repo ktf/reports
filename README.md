@@ -3,10 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
-## Recent developments in O2 - Common
-- [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
@@ -19,7 +16,6 @@
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9314](https://github.com/AliceO2Group/AliceO2/pull/9314) 2022-07-02: Fixes for TPCVDriftTglCalibration, option to save histo by [@shahor02](https://github.com/shahor02)
 - [\#9316](https://github.com/AliceO2Group/AliceO2/pull/9316) 2022-07-02: TPC: try..catch in IDC decoder, improve track&cluster filter by [@wiechula](https://github.com/wiechula)
 - [\#9317](https://github.com/AliceO2Group/AliceO2/pull/9317) 2022-07-03: add extra time tolerance for TRD tracks by [@noferini](https://github.com/noferini)
 - [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
