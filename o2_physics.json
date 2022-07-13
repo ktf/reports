@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-15T14:56:37Z",
-            "title": "Fix MC QA PID",
-            "number": 881,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaPIDTOFMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaPIDTPCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-23T11:50:33Z",
             "title": "Tutorials: add ML-based MC reweighting tutorial",
             "number": 882,
@@ -3449,6 +3424,41 @@
                 {
                   "node": {
                     "path": "PWGMM/Mult/Tasks/dndeta.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add alternative TPC multiplicity producer/consumer",
+            "number": 981,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
                   }
                 }
               ]
