@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-16T20:15:42Z",
-            "title": "Update PDG code with Charge",
-            "number": 891,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-qa-singleparticle.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-16T17:10:05Z",
             "title": "use phiMC and etaMC everywhere for filling TH3D histos when running o…",
             "number": 892,
@@ -3639,6 +3619,36 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Added evsel QA for periods with INT1 minbias condition",
+            "number": 991,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/EventSelectionParams.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]
