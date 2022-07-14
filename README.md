@@ -17,7 +17,6 @@
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9318](https://github.com/AliceO2Group/AliceO2/pull/9318) 2022-07-03: trd tolerance in tof matching settable by [@noferini](https://github.com/noferini)
 - [\#9321](https://github.com/AliceO2Group/AliceO2/pull/9321) 2022-07-06: Change delay between local clock and collision BC based on the new pilot beam data by [@dstocco](https://github.com/dstocco)
 - [\#9324](https://github.com/AliceO2Group/AliceO2/pull/9324) 2022-07-06: Ignore dummy TFs in TFIDInfoHelper::fillTFIDInfo by [@shahor02](https://github.com/shahor02)
 - [\#9325](https://github.com/AliceO2Group/AliceO2/pull/9325) 2022-07-08: TPC cluster residuals + track information are dumped by aggregator by [@martenole](https://github.com/martenole)
