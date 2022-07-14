@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 - [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
@@ -72,7 +71,6 @@
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
 - [\#9331](https://github.com/AliceO2Group/AliceO2/pull/9331) 2022-07-06: DPL: add statistics for the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
