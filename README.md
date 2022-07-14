@@ -15,7 +15,6 @@
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9324](https://github.com/AliceO2Group/AliceO2/pull/9324) 2022-07-06: Ignore dummy TFs in TFIDInfoHelper::fillTFIDInfo by [@shahor02](https://github.com/shahor02)
 - [\#9325](https://github.com/AliceO2Group/AliceO2/pull/9325) 2022-07-08: TPC cluster residuals + track information are dumped by aggregator by [@martenole](https://github.com/martenole)
 - [\#9326](https://github.com/AliceO2Group/AliceO2/pull/9326) 2022-07-05: FT0: update DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
