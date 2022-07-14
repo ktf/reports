@@ -72,7 +72,6 @@
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9327](https://github.com/AliceO2Group/AliceO2/pull/9327) 2022-07-05: DPL Analysis: remove slow version of sliceBy() by [@aalkin](https://github.com/aalkin)
 - [\#9331](https://github.com/AliceO2Group/AliceO2/pull/9331) 2022-07-06: DPL: add statistics for the CCDB fetcher by [@ktf](https://github.com/ktf)
