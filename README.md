@@ -71,6 +71,9 @@
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
 - [\#9397](https://github.com/AliceO2Group/AliceO2/pull/9397) 2022-07-12: Event Display: Fix ED exporter crash when no tracks are in the current reco container by [@pnwkw](https://github.com/pnwkw)
 - [\#9399](https://github.com/AliceO2Group/AliceO2/pull/9399) 2022-07-12: o2-eve: online production of screenshots in specified folder (for out… by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9410](https://github.com/AliceO2Group/AliceO2/pull/9410) 2022-07-14: Event Display: Make the view camera positions and visibility settings persistent by [@pnwkw](https://github.com/pnwkw)
+- [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9322](https://github.com/AliceO2Group/AliceO2/pull/9322) 2022-07-06: DPL GUI: prepare ancillary classes to enable remote GUI by [@ktf](https://github.com/ktf)
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
