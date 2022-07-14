@@ -4,7 +4,6 @@
 - [\#9323](https://github.com/AliceO2Group/AliceO2/pull/9323) 2022-07-08: protect against negative values by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
-- [\#9320](https://github.com/AliceO2Group/AliceO2/pull/9320) 2022-07-05: DPL: make Descriptor size constexpr by [@aalkin](https://github.com/aalkin)
 - [\#9328](https://github.com/AliceO2Group/AliceO2/pull/9328) 2022-07-08: Ctpdev: CTP inputs config by [@lietava](https://github.com/lietava)
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
