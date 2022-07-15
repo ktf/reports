@@ -54,6 +54,7 @@
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9402](https://github.com/AliceO2Group/AliceO2/pull/9402) 2022-07-12: TRD permit eventype to change between rdh stops, reduce errorneous errors, and reduce some alarms to info messages. by [@bazinski](https://github.com/bazinski)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
+- [\#9414](https://github.com/AliceO2Group/AliceO2/pull/9414) 2022-07-15: [EMCAL-630, EMCAL-789] EMCAL Reco Params and LGnoHG suppression  by [@mfasDa](https://github.com/mfasDa)
 - [\#9418](https://github.com/AliceO2Group/AliceO2/pull/9418) 2022-07-14: Units conversions in ZDC by [@majerzemilia](https://github.com/majerzemilia)
 - [\#9420](https://github.com/AliceO2Group/AliceO2/pull/9420) 2022-07-15: Fix potential bug in the afterburner by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9421](https://github.com/AliceO2Group/AliceO2/pull/9421) 2022-07-15: Bugfix clear TRD pileup signals after flushing digits by [@martenole](https://github.com/martenole)
