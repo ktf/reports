@@ -57,6 +57,7 @@
 - [\#9420](https://github.com/AliceO2Group/AliceO2/pull/9420) 2022-07-15: Fix potential bug in the afterburner by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9421](https://github.com/AliceO2Group/AliceO2/pull/9421) 2022-07-15: Bugfix clear TRD pileup signals after flushing digits by [@martenole](https://github.com/martenole)
 - [\#9423](https://github.com/AliceO2Group/AliceO2/pull/9423) 2022-07-15: TRD fix distance calculation by [@bazinski](https://github.com/bazinski)
+- [\#9425](https://github.com/AliceO2Group/AliceO2/pull/9425) 2022-07-15: CPV always request trigOffset CCDB input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
