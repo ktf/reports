@@ -71,7 +71,6 @@
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9331](https://github.com/AliceO2Group/AliceO2/pull/9331) 2022-07-06: DPL: add statistics for the CCDB fetcher by [@ktf](https://github.com/ktf)
 - [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
 - [\#9371](https://github.com/AliceO2Group/AliceO2/pull/9371) 2022-07-08: Reduce severity of dummy creation time for CCDB message from error to info by [@davidrohr](https://github.com/davidrohr)
