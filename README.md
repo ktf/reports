@@ -15,7 +15,6 @@
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9336](https://github.com/AliceO2Group/AliceO2/pull/9336) 2022-07-06: MCH: allow track dump from alien by [@aphecetche](https://github.com/aphecetche)
 - [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
