@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-05T15:22:03Z",
-            "title": "Adding CPV calib",
-            "number": 9334,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-05T18:34:29Z",
             "title": "MCH: mchview solars.json file needs nch",
             "number": 9335,
@@ -5234,6 +5214,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "EventVisualisation/Workflow/CMakeLists.txt"
                   }
                 },
@@ -5275,6 +5260,31 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for globalfwd matches in reco and readed.",
+            "number": 9434,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
