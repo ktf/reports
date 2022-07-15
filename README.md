@@ -58,6 +58,7 @@
 - [\#9423](https://github.com/AliceO2Group/AliceO2/pull/9423) 2022-07-15: TRD fix distance calculation by [@bazinski](https://github.com/bazinski)
 - [\#9425](https://github.com/AliceO2Group/AliceO2/pull/9425) 2022-07-15: CPV always request trigOffset CCDB input by [@martenole](https://github.com/martenole)
 - [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
+- [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
