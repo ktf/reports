@@ -15,7 +15,6 @@
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
 - [\#9339](https://github.com/AliceO2Group/AliceO2/pull/9339) 2022-07-07: Fix for track-lenght calculation by [@shahor02](https://github.com/shahor02)
 - [\#9341](https://github.com/AliceO2Group/AliceO2/pull/9341) 2022-07-06: FIT: hotfix for trg bits by [@afurs](https://github.com/afurs)
@@ -58,6 +57,7 @@
 - [\#9423](https://github.com/AliceO2Group/AliceO2/pull/9423) 2022-07-15: TRD fix distance calculation by [@bazinski](https://github.com/bazinski)
 - [\#9425](https://github.com/AliceO2Group/AliceO2/pull/9425) 2022-07-15: CPV always request trigOffset CCDB input by [@martenole](https://github.com/martenole)
 - [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
+- [\#9431](https://github.com/AliceO2Group/AliceO2/pull/9431) 2022-07-15: ZDC: pimpl and fwd declare for fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
@@ -82,5 +82,4 @@
 ## Recent developments in O2 - Steer
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-- [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
 - [\#9342](https://github.com/AliceO2Group/AliceO2/pull/9342) 2022-07-07: Fix deprecated iterator by [@ktf](https://github.com/ktf)
