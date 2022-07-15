@@ -5185,7 +5185,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection",
+            "title": "ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection",
             "number": 9428,
             "author": {
               "login": "cortesep"
@@ -5205,6 +5205,21 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/InspectCCDBFile.C"
                   }
                 },
                 {
