@@ -14,7 +14,6 @@
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9335](https://github.com/AliceO2Group/AliceO2/pull/9335) 2022-07-05: MCH: mchview solars.json file needs nch by [@aphecetche](https://github.com/aphecetche)
 - [\#9336](https://github.com/AliceO2Group/AliceO2/pull/9336) 2022-07-06: MCH: allow track dump from alien by [@aphecetche](https://github.com/aphecetche)
 - [\#9337](https://github.com/AliceO2Group/AliceO2/pull/9337) 2022-07-07: Adapt TPC / GPU workflows to fetching GRP / geom from CCDB by [@davidrohr](https://github.com/davidrohr)
 - [\#9338](https://github.com/AliceO2Group/AliceO2/pull/9338) 2022-07-05: hide some headers to ROOT by [@sawenzel](https://github.com/sawenzel)
