@@ -8,7 +8,6 @@
 - [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
 - [\#9445](https://github.com/AliceO2Group/AliceO2/pull/9445) 2022-07-16: DPL: improve documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9360](https://github.com/AliceO2Group/AliceO2/pull/9360) 2022-07-10: Add extra info to TPC VDrift correction objects by [@shahor02](https://github.com/shahor02)
 - [\#9373](https://github.com/AliceO2Group/AliceO2/pull/9373) 2022-07-12: TRD fixed charge trklt PID fix by [@martenole](https://github.com/martenole)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
@@ -21,7 +20,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9351](https://github.com/AliceO2Group/AliceO2/pull/9351) 2022-07-13: [EMCAL-561] Port run2/3 trigger mapping to O2 by [@mfasDa](https://github.com/mfasDa)
 - [\#9355](https://github.com/AliceO2Group/AliceO2/pull/9355) 2022-07-07: TPC can update vdrift during run by [@davidrohr](https://github.com/davidrohr)
 - [\#9357](https://github.com/AliceO2Group/AliceO2/pull/9357) 2022-07-08: Mem improvement for TPC digitization by [@sawenzel](https://github.com/sawenzel)
