@@ -61,9 +61,11 @@
 - [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
 - [\#9431](https://github.com/AliceO2Group/AliceO2/pull/9431) 2022-07-15: ZDC: pimpl and fwd declare for fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
+- [\#9434](https://github.com/AliceO2Group/AliceO2/pull/9434) 2022-07-16: Fixes for globalfwd matches in reco and readed. by [@shahor02](https://github.com/shahor02)
 - [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
 - [\#9438](https://github.com/AliceO2Group/AliceO2/pull/9438) 2022-07-16: TRD final fix for pileup in digitization? by [@martenole](https://github.com/martenole)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
+- [\#9440](https://github.com/AliceO2Group/AliceO2/pull/9440) 2022-07-16: TPC residual aggregator autosave by [@martenole](https://github.com/martenole)
 - [\#9442](https://github.com/AliceO2Group/AliceO2/pull/9442) 2022-07-16: Fix PVertexer: wrong protection against empty bunchfilling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
