@@ -94,5 +94,6 @@
 - [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
 - [\#9445](https://github.com/AliceO2Group/AliceO2/pull/9445) 2022-07-16: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
+- [\#9449](https://github.com/AliceO2Group/AliceO2/pull/9449) 2022-07-16: Fix typo by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
