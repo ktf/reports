@@ -2,6 +2,8 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
+## Recent developments in O2 - Common
+- [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9360](https://github.com/AliceO2Group/AliceO2/pull/9360) 2022-07-10: Add extra info to TPC VDrift correction objects by [@shahor02](https://github.com/shahor02)
@@ -13,6 +15,7 @@
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
+- [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#9346](https://github.com/AliceO2Group/AliceO2/pull/9346) 2022-07-07: Bug-fix by [@Cas1997](https://github.com/Cas1997)
 - [\#9347](https://github.com/AliceO2Group/AliceO2/pull/9347) 2022-07-07: Change delay between FET data and calib data to cope with the modified global delay by [@dstocco](https://github.com/dstocco)
@@ -57,6 +60,9 @@
 - [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
 - [\#9431](https://github.com/AliceO2Group/AliceO2/pull/9431) 2022-07-15: ZDC: pimpl and fwd declare for fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
+- [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
+- [\#9438](https://github.com/AliceO2Group/AliceO2/pull/9438) 2022-07-16: TRD final fix for pileup in digitization? by [@martenole](https://github.com/martenole)
+- [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9442](https://github.com/AliceO2Group/AliceO2/pull/9442) 2022-07-16: Fix PVertexer: wrong protection against empty bunchfilling by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9345](https://github.com/AliceO2Group/AliceO2/pull/9345) 2022-07-11: Event Display: Change the RhoZ side view to ZY by [@pnwkw](https://github.com/pnwkw)
@@ -70,6 +76,8 @@
 - [\#9410](https://github.com/AliceO2Group/AliceO2/pull/9410) 2022-07-14: Event Display: Make the view camera positions and visibility settings persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9416](https://github.com/AliceO2Group/AliceO2/pull/9416) 2022-07-16: o2-eve: sum-up calorimeter energy over displayed time period by [@jmyrcha](https://github.com/jmyrcha)
+- [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9344](https://github.com/AliceO2Group/AliceO2/pull/9344) 2022-07-07: DPL: avoid internal channels for oldest possible timeslice by [@ktf](https://github.com/ktf)
 - [\#9370](https://github.com/AliceO2Group/AliceO2/pull/9370) 2022-07-10: DPL Analysis: prevent spawner crash for tracks with 1/pt=0 by [@aalkin](https://github.com/aalkin)
@@ -78,5 +86,6 @@
 - [\#9375](https://github.com/AliceO2Group/AliceO2/pull/9375) 2022-07-09: DPL Analysis: add compatibility with old clang versions by [@ktf](https://github.com/ktf)
 - [\#9384](https://github.com/AliceO2Group/AliceO2/pull/9384) 2022-07-10: DPL: Add env var to override TimingInfo::Creationtime by [@davidrohr](https://github.com/davidrohr)
 - [\#9408](https://github.com/AliceO2Group/AliceO2/pull/9408) 2022-07-13: DPL options parsing: allow multiple options `--batch` by [@matthiasrichter](https://github.com/matthiasrichter)
+- [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
