@@ -19,6 +19,7 @@
 - [\#9417](https://github.com/AliceO2Group/AliceO2/pull/9417) 2022-07-13: Add new RunTypes to GRPECSObject by [@shahor02](https://github.com/shahor02)
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
+- [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
@@ -68,6 +69,7 @@
 - [\#9440](https://github.com/AliceO2Group/AliceO2/pull/9440) 2022-07-16: TPC residual aggregator autosave by [@martenole](https://github.com/martenole)
 - [\#9442](https://github.com/AliceO2Group/AliceO2/pull/9442) 2022-07-16: Fix PVertexer: wrong protection against empty bunchfilling by [@shahor02](https://github.com/shahor02)
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
+- [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - EventVisualisation
 - [\#9353](https://github.com/AliceO2Group/AliceO2/pull/9353) 2022-07-07: Event Display: Fix config string for phos phi size by [@pnwkw](https://github.com/pnwkw)
 - [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
