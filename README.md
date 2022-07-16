@@ -20,7 +20,6 @@
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9347](https://github.com/AliceO2Group/AliceO2/pull/9347) 2022-07-07: Change delay between FET data and calib data to cope with the modified global delay by [@dstocco](https://github.com/dstocco)
 - [\#9348](https://github.com/AliceO2Group/AliceO2/pull/9348) 2022-07-07: Fixes for TriggerOffsets application in TRD and CPV by [@shahor02](https://github.com/shahor02)
 - [\#9350](https://github.com/AliceO2Group/AliceO2/pull/9350) 2022-07-08: TRD fix tracklethcheader in mc to raw by [@bazinski](https://github.com/bazinski)
 - [\#9351](https://github.com/AliceO2Group/AliceO2/pull/9351) 2022-07-13: [EMCAL-561] Port run2/3 trigger mapping to O2 by [@mfasDa](https://github.com/mfasDa)
