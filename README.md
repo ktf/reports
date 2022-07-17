@@ -93,5 +93,6 @@
 - [\#9448](https://github.com/AliceO2Group/AliceO2/pull/9448) 2022-07-16: Speedup by [@ktf](https://github.com/ktf)
 - [\#9449](https://github.com/AliceO2Group/AliceO2/pull/9449) 2022-07-16: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9453](https://github.com/AliceO2Group/AliceO2/pull/9453) 2022-07-16: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
+- [\#9456](https://github.com/AliceO2Group/AliceO2/pull/9456) 2022-07-17: Possibility to set condition query rate via DPL_CONDITION_QUERY_RATE by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
