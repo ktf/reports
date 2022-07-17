@@ -64,6 +64,7 @@
 - [\#9438](https://github.com/AliceO2Group/AliceO2/pull/9438) 2022-07-16: TRD final fix for pileup in digitization? by [@martenole](https://github.com/martenole)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9440](https://github.com/AliceO2Group/AliceO2/pull/9440) 2022-07-16: TPC residual aggregator autosave by [@martenole](https://github.com/martenole)
+- [\#9441](https://github.com/AliceO2Group/AliceO2/pull/9441) 2022-07-17: Fixes for tof-calibinfo-reader, more robust TimeSlice methods by [@shahor02](https://github.com/shahor02)
 - [\#9442](https://github.com/AliceO2Group/AliceO2/pull/9442) 2022-07-16: Fix PVertexer: wrong protection against empty bunchfilling by [@shahor02](https://github.com/shahor02)
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
