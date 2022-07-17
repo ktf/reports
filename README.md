@@ -69,7 +69,6 @@
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9450](https://github.com/AliceO2Group/AliceO2/pull/9450) 2022-07-16: Update configurables from key-value pairs by [@qgp](https://github.com/qgp)
 ## Recent developments in O2 - EventVisualisation
-- [\#9356](https://github.com/AliceO2Group/AliceO2/pull/9356) 2022-07-08: o2-eve: screenshot parametrization (location, logos, background, mess… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
