@@ -8,6 +8,7 @@
 - [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
 - [\#9445](https://github.com/AliceO2Group/AliceO2/pull/9445) 2022-07-16: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9451](https://github.com/AliceO2Group/AliceO2/pull/9451) 2022-07-16: Fit failures should be warning not error by [@davidrohr](https://github.com/davidrohr)
+- [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#9360](https://github.com/AliceO2Group/AliceO2/pull/9360) 2022-07-10: Add extra info to TPC VDrift correction objects by [@shahor02](https://github.com/shahor02)
 - [\#9373](https://github.com/AliceO2Group/AliceO2/pull/9373) 2022-07-12: TRD fixed charge trklt PID fix by [@martenole](https://github.com/martenole)
@@ -67,6 +68,7 @@
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9450](https://github.com/AliceO2Group/AliceO2/pull/9450) 2022-07-16: Update configurables from key-value pairs by [@qgp](https://github.com/qgp)
+- [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
