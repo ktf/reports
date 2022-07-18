@@ -21,7 +21,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 - [\#9368](https://github.com/AliceO2Group/AliceO2/pull/9368) 2022-07-08: [EMCAL-558] important bugfix for EMCal clusterizer by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#9373](https://github.com/AliceO2Group/AliceO2/pull/9373) 2022-07-12: TRD fixed charge trklt PID fix by [@martenole](https://github.com/martenole)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
@@ -91,6 +90,7 @@
 - [\#9448](https://github.com/AliceO2Group/AliceO2/pull/9448) 2022-07-16: Speedup by [@ktf](https://github.com/ktf)
 - [\#9449](https://github.com/AliceO2Group/AliceO2/pull/9449) 2022-07-16: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9453](https://github.com/AliceO2Group/AliceO2/pull/9453) 2022-07-16: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
+- [\#9454](https://github.com/AliceO2Group/AliceO2/pull/9454) 2022-07-18: DPL: check precondition only once by [@ktf](https://github.com/ktf)
 - [\#9456](https://github.com/AliceO2Group/AliceO2/pull/9456) 2022-07-17: Possibility to set condition query rate via DPL_CONDITION_QUERY_RATE by [@shahor02](https://github.com/shahor02)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
