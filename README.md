@@ -21,7 +21,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9365](https://github.com/AliceO2Group/AliceO2/pull/9365) 2022-07-08: MCH: fix digit charge sum exceeding limit by [@pillot](https://github.com/pillot)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
 - [\#9368](https://github.com/AliceO2Group/AliceO2/pull/9368) 2022-07-08: [EMCAL-558] important bugfix for EMCal clusterizer by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#9373](https://github.com/AliceO2Group/AliceO2/pull/9373) 2022-07-12: TRD fixed charge trklt PID fix by [@martenole](https://github.com/martenole)

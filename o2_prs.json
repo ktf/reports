@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-08T15:09:54Z",
-            "title": "MCH: fix digit charge sum exceeding limit",
-            "number": 9365,
-            "author": {
-              "login": "pillot"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/include/MCHSimulation/Response.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/DEDigitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Simulation/src/Response.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-08T07:53:44Z",
             "title": "FST enable TRD digit downscaling always",
             "number": 9366,
@@ -5075,6 +5045,56 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "N dimensional local regression for O2",
+            "number": 9465,
+            "author": {
+              "login": "gbiro"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/include/NDRegression/NDRegression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/src/NDRegression.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/src/NDRegressionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/test/NDRegression2DGaus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/NDRegression/test/NDRegression2DIdeal.cxx"
                   }
                 }
               ]
