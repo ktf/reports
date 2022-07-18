@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-08T09:28:30Z",
-            "title": "MRRTF-190: decrease precluster finder verbosity",
-            "number": 9361,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/ErrorMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/ErrorMap.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Base/src/testErrorMap.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/PreClustering/include/MCHPreClustering/PreClusterFinder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/PreClustering/src/PreClusterFinder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-09T10:15:53Z",
             "title": "Fix ITS aggregator for EoS operations at P2",
             "number": 9362,
@@ -5085,6 +5040,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix TPC to ITS propagation + add extra Z tolerance",
+            "number": 9461,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
                   }
                 }
               ]
