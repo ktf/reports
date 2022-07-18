@@ -21,7 +21,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9362](https://github.com/AliceO2Group/AliceO2/pull/9362) 2022-07-09: Fix ITS aggregator for EoS operations at P2 by [@iravasen](https://github.com/iravasen)
 - [\#9364](https://github.com/AliceO2Group/AliceO2/pull/9364) 2022-07-08: Writer for PHY triggers from ITS/MFT data by [@shahor02](https://github.com/shahor02)
 - [\#9365](https://github.com/AliceO2Group/AliceO2/pull/9365) 2022-07-08: MCH: fix digit charge sum exceeding limit by [@pillot](https://github.com/pillot)
 - [\#9367](https://github.com/AliceO2Group/AliceO2/pull/9367) 2022-07-08: Produce ALARM instead of exception on empty bunch filling by [@davidrohr](https://github.com/davidrohr)
