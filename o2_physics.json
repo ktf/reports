@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-06-23T06:57:44Z",
-            "title": "PWGHF: Add histograms with reco pT distribution",
-            "number": 913,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/HFMCValidation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-06-23T08:56:01Z",
             "title": "PWGMM: dndeta/multiplicity: Add mult efficiency",
             "number": 914,
@@ -3407,7 +3387,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "lambdakzerofinder - add process switch for run2 vs run3",
             "number": 1001,
@@ -3419,6 +3399,11 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/lambdakzeroanalysisMC.cxx"
                   }
                 }
               ]
@@ -3859,6 +3844,31 @@
                 {
                   "node": {
                     "path": "PWGHF/Tasks/taskXic.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "V0 workflows - fix finder for run3 and fix feeddown in analyser and add collision Z selection",
+            "number": 1013,
+            "author": {
+              "login": "aimeric-landou"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/lambdakzeroanalysisMC.cxx"
                   }
                 }
               ]
