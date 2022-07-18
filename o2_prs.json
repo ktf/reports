@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-08T07:53:44Z",
-            "title": "FST enable TRD digit downscaling always",
-            "number": 9366,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-08T07:58:00Z",
             "title": "Produce ALARM instead of exception on empty bunch filling",
             "number": 9367,
@@ -5100,6 +5075,31 @@
                 {
                   "node": {
                     "path": "Common/NDRegression/test/NDRegression2DIdeal.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-18T12:34:34Z",
+            "title": "Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator",
+            "number": 9466,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrackletTransformerWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorWorkFlow.cxx"
                   }
                 }
               ]

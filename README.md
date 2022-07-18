@@ -64,6 +64,7 @@
 - [\#9450](https://github.com/AliceO2Group/AliceO2/pull/9450) 2022-07-16: Update configurables from key-value pairs by [@qgp](https://github.com/qgp)
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
+- [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
