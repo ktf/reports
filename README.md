@@ -21,7 +21,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9368](https://github.com/AliceO2Group/AliceO2/pull/9368) 2022-07-08: [EMCAL-558] important bugfix for EMCal clusterizer by [@fjonasALICE](https://github.com/fjonasALICE)
 - [\#9373](https://github.com/AliceO2Group/AliceO2/pull/9373) 2022-07-12: TRD fixed charge trklt PID fix by [@martenole](https://github.com/martenole)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)
 - [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
@@ -64,6 +63,7 @@
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
+- [\#9467](https://github.com/AliceO2Group/AliceO2/pull/9467) 2022-07-18: Fix scalers' initializations by [@majerzemilia](https://github.com/majerzemilia)
 ## Recent developments in O2 - EventVisualisation
 - [\#9372](https://github.com/AliceO2Group/AliceO2/pull/9372) 2022-07-10: o2-eve-export-workflow: change defaults for json file location and nu… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9374](https://github.com/AliceO2Group/AliceO2/pull/9374) 2022-07-09: Use TimingInfo instead of DataHeader and DataProcessingHeader by [@shahor02](https://github.com/shahor02)

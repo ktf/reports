@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-08T12:31:58Z",
-            "title": "[EMCAL-558] important bugfix for EMCal clusterizer",
-            "number": 9368,
-            "author": {
-              "login": "fjonasALICE"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/Clusterizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/Clusterizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-08T08:12:32Z",
             "title": "pass ITS,MFT ROF length to p-vertexer",
             "number": 9369,
@@ -5088,8 +5063,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-18T13:50:22Z",
             "title": "Fix scalers' initializations",
             "number": 9467,
             "author": {
@@ -5100,6 +5075,26 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Don't add CCDB populator to empty aggregator workflow",
+            "number": 9468,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]
