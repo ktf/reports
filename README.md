@@ -9,7 +9,6 @@
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
 - [\#9390](https://github.com/AliceO2Group/AliceO2/pull/9390) 2022-07-15: Optionally prefer ROFs with physics triggers with downscaling ITS reco by [@shahor02](https://github.com/shahor02)
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
@@ -19,7 +18,6 @@
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#9376](https://github.com/AliceO2Group/AliceO2/pull/9376) 2022-07-08: TPC: Add decoding of ILBZS in raw to digits by [@wiechula](https://github.com/wiechula)
 - [\#9377](https://github.com/AliceO2Group/AliceO2/pull/9377) 2022-07-08: TPC digit: some optimisation for PadRegion calculations by [@sawenzel](https://github.com/sawenzel)
 - [\#9379](https://github.com/AliceO2Group/AliceO2/pull/9379) 2022-07-11: ZDC Fastsim: Fix array iteration by [@SwirtaB](https://github.com/SwirtaB)
 - [\#9380](https://github.com/AliceO2Group/AliceO2/pull/9380) 2022-07-10: TPC: Adjust magic word in ILBZS meta header by [@wiechula](https://github.com/wiechula)
