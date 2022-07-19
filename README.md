@@ -84,5 +84,6 @@
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 - [\#9470](https://github.com/AliceO2Group/AliceO2/pull/9470) 2022-07-19: DPL Analysis: add simple testcase for ARRAY_INDEX by [@ktf](https://github.com/ktf)
+- [\#9479](https://github.com/AliceO2Group/AliceO2/pull/9479) 2022-07-19: DPL: add instructions for the remote GUI by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
