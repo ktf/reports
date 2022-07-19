@@ -71,7 +71,6 @@
 - [\#9416](https://github.com/AliceO2Group/AliceO2/pull/9416) 2022-07-16: o2-eve: sum-up calorimeter energy over displayed time period by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9375](https://github.com/AliceO2Group/AliceO2/pull/9375) 2022-07-09: DPL Analysis: add compatibility with old clang versions by [@ktf](https://github.com/ktf)
 - [\#9384](https://github.com/AliceO2Group/AliceO2/pull/9384) 2022-07-10: DPL: Add env var to override TimingInfo::Creationtime by [@davidrohr](https://github.com/davidrohr)
 - [\#9395](https://github.com/AliceO2Group/AliceO2/pull/9395) 2022-07-16: calib fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9408](https://github.com/AliceO2Group/AliceO2/pull/9408) 2022-07-13: DPL options parsing: allow multiple options `--batch` by [@matthiasrichter](https://github.com/matthiasrichter)
