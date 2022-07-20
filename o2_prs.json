@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-10T22:50:36Z",
-            "title": "Raw reader: add check for truncated file",
-            "number": 9381,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/RawFileReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-10T11:07:10Z",
             "title": "Handling of bogus TRD triggers in CTF",
             "number": 9382,
@@ -4735,6 +4715,31 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/macros/readFITBadChannelMap.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix error message to only have information that is certain to be there.",
+            "number": 9481,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
                   }
                 }
               ]
