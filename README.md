@@ -10,6 +10,7 @@
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
+- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#9390](https://github.com/AliceO2Group/AliceO2/pull/9390) 2022-07-15: Optionally prefer ROFs with physics triggers with downscaling ITS reco by [@shahor02](https://github.com/shahor02)
 - [\#9398](https://github.com/AliceO2Group/AliceO2/pull/9398) 2022-07-12: Some MC GRP devs by [@sawenzel](https://github.com/sawenzel)
@@ -60,6 +61,7 @@
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9476](https://github.com/AliceO2Group/AliceO2/pull/9476) 2022-07-20: Add drawing of SACs per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
 - [\#9397](https://github.com/AliceO2Group/AliceO2/pull/9397) 2022-07-12: Event Display: Fix ED exporter crash when no tracks are in the current reco container by [@pnwkw](https://github.com/pnwkw)
@@ -88,5 +90,6 @@
 - [\#9470](https://github.com/AliceO2Group/AliceO2/pull/9470) 2022-07-19: DPL Analysis: add simple testcase for ARRAY_INDEX by [@ktf](https://github.com/ktf)
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
 - [\#9479](https://github.com/AliceO2Group/AliceO2/pull/9479) 2022-07-19: DPL: add instructions for the remote GUI by [@ktf](https://github.com/ktf)
+- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
