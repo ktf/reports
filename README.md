@@ -69,7 +69,6 @@
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9384](https://github.com/AliceO2Group/AliceO2/pull/9384) 2022-07-10: DPL: Add env var to override TimingInfo::Creationtime by [@davidrohr](https://github.com/davidrohr)
 - [\#9395](https://github.com/AliceO2Group/AliceO2/pull/9395) 2022-07-16: calib fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#9408](https://github.com/AliceO2Group/AliceO2/pull/9408) 2022-07-13: DPL options parsing: allow multiple options `--batch` by [@matthiasrichter](https://github.com/matthiasrichter)
 - [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
