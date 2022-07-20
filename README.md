@@ -20,7 +20,6 @@
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#9383](https://github.com/AliceO2Group/AliceO2/pull/9383) 2022-07-09: MatchGlobalFwd fix: do not throw on empty bunch filling (unused) by [@shahor02](https://github.com/shahor02)
 - [\#9385](https://github.com/AliceO2Group/AliceO2/pull/9385) 2022-07-11: TPC: Make findPad inline by [@davidrohr](https://github.com/davidrohr)
 - [\#9386](https://github.com/AliceO2Group/AliceO2/pull/9386) 2022-07-11: Add protection against huge number of cells by [@mpuccio](https://github.com/mpuccio)
 - [\#9389](https://github.com/AliceO2Group/AliceO2/pull/9389) 2022-07-10: Reduce log spam, use correct CCDB time in FST from DD by [@davidrohr](https://github.com/davidrohr)
