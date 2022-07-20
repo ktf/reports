@@ -18,6 +18,7 @@
 - [\#9428](https://github.com/AliceO2Group/AliceO2/pull/9428) 2022-07-19: ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection by [@cortesep](https://github.com/cortesep)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
+- [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 - [\#9381](https://github.com/AliceO2Group/AliceO2/pull/9381) 2022-07-10: Raw reader: add check for truncated file by [@wiechula](https://github.com/wiechula)
 - [\#9382](https://github.com/AliceO2Group/AliceO2/pull/9382) 2022-07-10: Handling of bogus TRD triggers in CTF by [@shahor02](https://github.com/shahor02)
@@ -58,6 +59,7 @@
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
 - [\#9467](https://github.com/AliceO2Group/AliceO2/pull/9467) 2022-07-18: Fix scalers' initializations by [@majerzemilia](https://github.com/majerzemilia)
+- [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9476](https://github.com/AliceO2Group/AliceO2/pull/9476) 2022-07-20: Add drawing of SACs per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9392](https://github.com/AliceO2Group/AliceO2/pull/9392) 2022-07-12: Event Display: Make separate directories for screenshots per month by [@pnwkw](https://github.com/pnwkw)
