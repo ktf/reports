@@ -4,166 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "FIT: add DCS workflows for FV0 and FDD",
-            "number": 9394,
-            "author": {
-              "login": "andreasmolander"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/DCSDPValues.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/include/FDDCalibration/FDDDCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/macros/makeFDDCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/src/FDDCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/src/FDDDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/workflow/FDDDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/workflow/fdd-dcs-data-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FDD/calibration/workflow/fdd-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/include/FT0Calibration/FT0DCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/makeFT0CCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/macros/readFT0DCSentries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/src/FT0DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/FT0DCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-data-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FT0/calibration/testWorkflow/ft0-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/include/FV0Calibration/FV0DCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/macros/makeFV0CCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/src/FV0DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/FV0DCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/fv0-dcs-data-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/calibration/workflow/fv0-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/readFITDCSentries.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-07-16T08:13:06Z",
             "title": "calib fixes",
@@ -4711,6 +4551,41 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-710] Add hardware address to FEE error type",
+            "number": 9494,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/ErrorTypeFEE.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/ErrorTypeFEE.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/Geometry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
