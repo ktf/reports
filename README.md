@@ -22,7 +22,6 @@
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#9391](https://github.com/AliceO2Group/AliceO2/pull/9391) 2022-07-11: Enable configuration of maxTrackletsPerCluster by [@mconcas](https://github.com/mconcas)
 - [\#9400](https://github.com/AliceO2Group/AliceO2/pull/9400) 2022-07-12: TPC: add trigger handling in ILBZS by [@wiechula](https://github.com/wiechula)
 - [\#9402](https://github.com/AliceO2Group/AliceO2/pull/9402) 2022-07-12: TRD permit eventype to change between rdh stops, reduce errorneous errors, and reduce some alarms to info messages. by [@bazinski](https://github.com/bazinski)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
