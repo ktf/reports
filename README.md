@@ -51,6 +51,7 @@
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
+- [\#9462](https://github.com/AliceO2Group/AliceO2/pull/9462) 2022-07-21: tracklets ITS by [@mpuccio](https://github.com/mpuccio)
 - [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
 - [\#9467](https://github.com/AliceO2Group/AliceO2/pull/9467) 2022-07-18: Fix scalers' initializations by [@majerzemilia](https://github.com/majerzemilia)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
