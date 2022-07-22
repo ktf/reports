@@ -19,6 +19,7 @@
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
+- [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#9403](https://github.com/AliceO2Group/AliceO2/pull/9403) 2022-07-22: ZDC TDC calibration by [@lucaquaglia15](https://github.com/lucaquaglia15)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
@@ -68,6 +69,7 @@
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9495](https://github.com/AliceO2Group/AliceO2/pull/9495) 2022-07-22: Reimplement create-aligned-geometry to use DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#9496](https://github.com/AliceO2Group/AliceO2/pull/9496) 2022-07-22: MRRTF-188: MCH reco downscaling (for Pt2 sync reco ONLY) by [@aphecetche](https://github.com/aphecetche)
+- [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9410](https://github.com/AliceO2Group/AliceO2/pull/9410) 2022-07-14: Event Display: Make the view camera positions and visibility settings persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
@@ -96,3 +98,5 @@
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
+## Recent developments in O2 - Utilities
+- [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
