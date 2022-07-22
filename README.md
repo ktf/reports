@@ -20,7 +20,6 @@
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#9402](https://github.com/AliceO2Group/AliceO2/pull/9402) 2022-07-12: TRD permit eventype to change between rdh stops, reduce errorneous errors, and reduce some alarms to info messages. by [@bazinski](https://github.com/bazinski)
 - [\#9403](https://github.com/AliceO2Group/AliceO2/pull/9403) 2022-07-22: ZDC TDC calibration by [@lucaquaglia15](https://github.com/lucaquaglia15)
 - [\#9405](https://github.com/AliceO2Group/AliceO2/pull/9405) 2022-07-12: Make GRPECS query run-dependent in GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9414](https://github.com/AliceO2Group/AliceO2/pull/9414) 2022-07-15: [EMCAL-630, EMCAL-789] EMCAL Reco Params and LGnoHG suppression  by [@mfasDa](https://github.com/mfasDa)
