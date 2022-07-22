@@ -70,6 +70,7 @@
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#9504](https://github.com/AliceO2Group/AliceO2/pull/9504) 2022-07-22: Add extra checks for Populator, fix option/readme by [@shahor02](https://github.com/shahor02)
 - [\#9505](https://github.com/AliceO2Group/AliceO2/pull/9505) 2022-07-22: Fixes for PHOSTurnonCalibDevice by [@shahor02](https://github.com/shahor02)
+- [\#9507](https://github.com/AliceO2Group/AliceO2/pull/9507) 2022-07-22: Fix: suppress double entry for GlobalFwdTrackReader by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9410](https://github.com/AliceO2Group/AliceO2/pull/9410) 2022-07-14: Event Display: Make the view camera positions and visibility settings persistent by [@pnwkw](https://github.com/pnwkw)
 - [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
