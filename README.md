@@ -61,6 +61,7 @@
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9485](https://github.com/AliceO2Group/AliceO2/pull/9485) 2022-07-21: SpaceCharge: Optimising simulation of charge up of GEM frame by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9488](https://github.com/AliceO2Group/AliceO2/pull/9488) 2022-07-21: [EMCAL-630] Set log severity to warning in RawToCellConverter by [@mfasDa](https://github.com/mfasDa)
+- [\#9490](https://github.com/AliceO2Group/AliceO2/pull/9490) 2022-07-22: Detector/TPC: Added option to add MC information to track and cluster filter by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#9491](https://github.com/AliceO2Group/AliceO2/pull/9491) 2022-07-22: Fix AB track propagation + extra Z tolerance by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9495](https://github.com/AliceO2Group/AliceO2/pull/9495) 2022-07-22: Reimplement create-aligned-geometry to use DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
