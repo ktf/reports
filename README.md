@@ -22,7 +22,6 @@
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9414](https://github.com/AliceO2Group/AliceO2/pull/9414) 2022-07-15: [EMCAL-630, EMCAL-789] EMCAL Reco Params and LGnoHG suppression  by [@mfasDa](https://github.com/mfasDa)
 - [\#9418](https://github.com/AliceO2Group/AliceO2/pull/9418) 2022-07-14: Units conversions in ZDC by [@majerzemilia](https://github.com/majerzemilia)
 - [\#9419](https://github.com/AliceO2Group/AliceO2/pull/9419) 2022-07-22: Using full MCH covariance matrix for seeding of the matching Kalman filter by [@mcoquet642](https://github.com/mcoquet642)
 - [\#9420](https://github.com/AliceO2Group/AliceO2/pull/9420) 2022-07-15: Fix potential bug in the afterburner by [@fmazzasc](https://github.com/fmazzasc)
