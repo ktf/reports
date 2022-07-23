@@ -100,3 +100,4 @@
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Utilities
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#9508](https://github.com/AliceO2Group/AliceO2/pull/9508) 2022-07-23: fix / improve stderr monitor by [@davidrohr](https://github.com/davidrohr)
