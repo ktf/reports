@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-14T01:09:14Z",
-            "title": "o2-eve: fix problems with event navigation",
-            "number": 9412,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DirectoryLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/FileProducer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-14T01:08:53Z",
             "title": "o2-eve, o2-eve-export-workflow: fix option for not deleting a files, …",
             "number": 9413,
@@ -4061,6 +4036,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-23T16:33:28Z",
+            "title": "Fix: treat MFT-MCH tracks or match request on same footing",
+            "number": 9512,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
                   }
                 }
               ]

@@ -72,8 +72,8 @@
 - [\#9504](https://github.com/AliceO2Group/AliceO2/pull/9504) 2022-07-22: Add extra checks for Populator, fix option/readme by [@shahor02](https://github.com/shahor02)
 - [\#9505](https://github.com/AliceO2Group/AliceO2/pull/9505) 2022-07-22: Fixes for PHOSTurnonCalibDevice by [@shahor02](https://github.com/shahor02)
 - [\#9507](https://github.com/AliceO2Group/AliceO2/pull/9507) 2022-07-22: Fix: suppress double entry for GlobalFwdTrackReader by [@shahor02](https://github.com/shahor02)
+- [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9412](https://github.com/AliceO2Group/AliceO2/pull/9412) 2022-07-14: o2-eve: fix problems with event navigation by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9413](https://github.com/AliceO2Group/AliceO2/pull/9413) 2022-07-14: o2-eve, o2-eve-export-workflow: fix option for not deleting a files, … by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9416](https://github.com/AliceO2Group/AliceO2/pull/9416) 2022-07-16: o2-eve: sum-up calorimeter energy over displayed time period by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
