@@ -20,6 +20,7 @@
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9414](https://github.com/AliceO2Group/AliceO2/pull/9414) 2022-07-15: [EMCAL-630, EMCAL-789] EMCAL Reco Params and LGnoHG suppression  by [@mfasDa](https://github.com/mfasDa)
 - [\#9418](https://github.com/AliceO2Group/AliceO2/pull/9418) 2022-07-14: Units conversions in ZDC by [@majerzemilia](https://github.com/majerzemilia)
