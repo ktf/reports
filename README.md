@@ -77,6 +77,7 @@
 - [\#9507](https://github.com/AliceO2Group/AliceO2/pull/9507) 2022-07-22: Fix: suppress double entry for GlobalFwdTrackReader by [@shahor02](https://github.com/shahor02)
 - [\#9510](https://github.com/AliceO2Group/AliceO2/pull/9510) 2022-07-24: matchers do not set bunch filling for cosmic runs by [@shahor02](https://github.com/shahor02)
 - [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
+- [\#9515](https://github.com/AliceO2Group/AliceO2/pull/9515) 2022-07-24: tof calib reader loading TFIDInfo by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
