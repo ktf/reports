@@ -79,7 +79,6 @@
 - [\#9510](https://github.com/AliceO2Group/AliceO2/pull/9510) 2022-07-24: matchers do not set bunch filling for cosmic runs by [@shahor02](https://github.com/shahor02)
 - [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9416](https://github.com/AliceO2Group/AliceO2/pull/9416) 2022-07-16: o2-eve: sum-up calorimeter energy over displayed time period by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
