@@ -84,6 +84,7 @@
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
+- [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
 - [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
 - [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
