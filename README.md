@@ -23,6 +23,7 @@
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
+- [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9418](https://github.com/AliceO2Group/AliceO2/pull/9418) 2022-07-14: Units conversions in ZDC by [@majerzemilia](https://github.com/majerzemilia)
 - [\#9419](https://github.com/AliceO2Group/AliceO2/pull/9419) 2022-07-22: Using full MCH covariance matrix for seeding of the matching Kalman filter by [@mcoquet642](https://github.com/mcoquet642)
@@ -78,6 +79,7 @@
 - [\#9510](https://github.com/AliceO2Group/AliceO2/pull/9510) 2022-07-24: matchers do not set bunch filling for cosmic runs by [@shahor02](https://github.com/shahor02)
 - [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
 - [\#9515](https://github.com/AliceO2Group/AliceO2/pull/9515) 2022-07-24: tof calib reader loading TFIDInfo by [@noferini](https://github.com/noferini)
+- [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
