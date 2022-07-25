@@ -26,7 +26,6 @@
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9418](https://github.com/AliceO2Group/AliceO2/pull/9418) 2022-07-14: Units conversions in ZDC by [@majerzemilia](https://github.com/majerzemilia)
 - [\#9419](https://github.com/AliceO2Group/AliceO2/pull/9419) 2022-07-22: Using full MCH covariance matrix for seeding of the matching Kalman filter by [@mcoquet642](https://github.com/mcoquet642)
 - [\#9420](https://github.com/AliceO2Group/AliceO2/pull/9420) 2022-07-15: Fix potential bug in the afterburner by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9421](https://github.com/AliceO2Group/AliceO2/pull/9421) 2022-07-15: Bugfix clear TRD pileup signals after flushing digits by [@martenole](https://github.com/martenole)
