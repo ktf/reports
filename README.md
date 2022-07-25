@@ -22,6 +22,7 @@
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -73,6 +74,7 @@
 - [\#9496](https://github.com/AliceO2Group/AliceO2/pull/9496) 2022-07-22: MRRTF-188: MCH reco downscaling (for Pt2 sync reco ONLY) by [@aphecetche](https://github.com/aphecetche)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9504](https://github.com/AliceO2Group/AliceO2/pull/9504) 2022-07-22: Add extra checks for Populator, fix option/readme by [@shahor02](https://github.com/shahor02)
 - [\#9505](https://github.com/AliceO2Group/AliceO2/pull/9505) 2022-07-22: Fixes for PHOSTurnonCalibDevice by [@shahor02](https://github.com/shahor02)
 - [\#9507](https://github.com/AliceO2Group/AliceO2/pull/9507) 2022-07-22: Fix: suppress double entry for GlobalFwdTrackReader by [@shahor02](https://github.com/shahor02)
