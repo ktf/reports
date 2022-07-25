@@ -25,6 +25,7 @@
 - [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
+- [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9422](https://github.com/AliceO2Group/AliceO2/pull/9422) 2022-07-15: TRD updates by [@martenole](https://github.com/martenole)
 - [\#9423](https://github.com/AliceO2Group/AliceO2/pull/9423) 2022-07-15: TRD fix distance calculation by [@bazinski](https://github.com/bazinski)
@@ -78,6 +79,7 @@
 - [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
 - [\#9515](https://github.com/AliceO2Group/AliceO2/pull/9515) 2022-07-24: tof calib reader loading TFIDInfo by [@noferini](https://github.com/noferini)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
+- [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
