@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-15T08:51:05Z",
-            "title": "TRD fix distance calculation",
-            "number": 9423,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-14T21:43:07Z",
             "title": "GPU: Fixes for processing corrupt TPC raw data",
             "number": 9424,
@@ -3646,6 +3626,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/tof-matcher-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-26T10:31:56Z",
+            "title": "Sync reco: Don't request ITSIR for MUONs in Cosmics, add PHOS default…",
+            "number": 9523,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]

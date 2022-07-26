@@ -26,7 +26,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9423](https://github.com/AliceO2Group/AliceO2/pull/9423) 2022-07-15: TRD fix distance calculation by [@bazinski](https://github.com/bazinski)
 - [\#9425](https://github.com/AliceO2Group/AliceO2/pull/9425) 2022-07-15: CPV always request trigOffset CCDB input by [@martenole](https://github.com/martenole)
 - [\#9427](https://github.com/AliceO2Group/AliceO2/pull/9427) 2022-07-15:  [EMCAL-790] Fix correction of the cell time for BC mod 4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9428](https://github.com/AliceO2Group/AliceO2/pull/9428) 2022-07-19: ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection by [@cortesep](https://github.com/cortesep)
