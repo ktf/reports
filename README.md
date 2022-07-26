@@ -26,7 +26,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9427](https://github.com/AliceO2Group/AliceO2/pull/9427) 2022-07-15:  [EMCAL-790] Fix correction of the cell time for BC mod 4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9428](https://github.com/AliceO2Group/AliceO2/pull/9428) 2022-07-19: ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection by [@cortesep](https://github.com/cortesep)
 - [\#9429](https://github.com/AliceO2Group/AliceO2/pull/9429) 2022-07-22: ITS DCS parser for CCDB by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
@@ -77,6 +76,7 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
+- [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
