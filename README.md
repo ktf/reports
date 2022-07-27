@@ -25,7 +25,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9430](https://github.com/AliceO2Group/AliceO2/pull/9430) 2022-07-15: Reduce some severities by [@davidrohr](https://github.com/davidrohr)
 - [\#9431](https://github.com/AliceO2Group/AliceO2/pull/9431) 2022-07-15: ZDC: pimpl and fwd declare for fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
 - [\#9434](https://github.com/AliceO2Group/AliceO2/pull/9434) 2022-07-16: Fixes for globalfwd matches in reco and readed. by [@shahor02](https://github.com/shahor02)
