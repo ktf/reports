@@ -24,7 +24,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9437](https://github.com/AliceO2Group/AliceO2/pull/9437) 2022-07-17: MFT: avoid error when trying to initialize MCReader twice by [@sawenzel](https://github.com/sawenzel)
 - [\#9438](https://github.com/AliceO2Group/AliceO2/pull/9438) 2022-07-16: TRD final fix for pileup in digitization? by [@martenole](https://github.com/martenole)
 - [\#9439](https://github.com/AliceO2Group/AliceO2/pull/9439) 2022-07-16: TRD dump halfcru data blocks with bc < LM_L0 by [@bazinski](https://github.com/bazinski)
 - [\#9440](https://github.com/AliceO2Group/AliceO2/pull/9440) 2022-07-16: TPC residual aggregator autosave by [@martenole](https://github.com/martenole)
