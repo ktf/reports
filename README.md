@@ -25,8 +25,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
-- [\#9434](https://github.com/AliceO2Group/AliceO2/pull/9434) 2022-07-16: Fixes for globalfwd matches in reco and readed. by [@shahor02](https://github.com/shahor02)
 - [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
 - [\#9437](https://github.com/AliceO2Group/AliceO2/pull/9437) 2022-07-17: MFT: avoid error when trying to initialize MCReader twice by [@sawenzel](https://github.com/sawenzel)
 - [\#9438](https://github.com/AliceO2Group/AliceO2/pull/9438) 2022-07-16: TRD final fix for pileup in digitization? by [@martenole](https://github.com/martenole)
@@ -75,7 +73,6 @@
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
 - [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
