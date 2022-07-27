@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-19T16:43:30Z",
-            "title": "ZDC Fix baseline estimation, insert protection for duplicated channels, dLoss bit, fix null payload protection",
-            "number": 9428,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/OrbitData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RawEventData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/RawEventData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/ModuleConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/src/ModuleConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/CreateModuleConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/macro/InspectCCDBFile.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/DumpRaw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/raw-parser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/DigiReco.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/src/DigiReco.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/src/DigiRecoTest.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/DigitizerTest.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Digits2Raw.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/DigitizerTest.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/DigitRecoSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/ZDCDataReaderDPLSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-22T09:20:57Z",
             "title": "ITS DCS parser for CCDB",
             "number": 9429,
@@ -3715,6 +3595,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: Event mixing: Remove backward compatibility from binning policy, adjust tests",
+            "number": 9528,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/BinningPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_EventMixing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
                   }
                 }
               ]
