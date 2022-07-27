@@ -74,6 +74,7 @@
 - [\#9512](https://github.com/AliceO2Group/AliceO2/pull/9512) 2022-07-23: Fix: treat MFT-MCH tracks or match request on same footing by [@shahor02](https://github.com/shahor02)
 - [\#9515](https://github.com/AliceO2Group/AliceO2/pull/9515) 2022-07-24: tof calib reader loading TFIDInfo by [@noferini](https://github.com/noferini)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
+- [\#9517](https://github.com/AliceO2Group/AliceO2/pull/9517) 2022-07-27: TPC residual aggregator removes obsolete files by [@martenole](https://github.com/martenole)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
 - [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
