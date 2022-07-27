@@ -60,6 +60,7 @@
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9495](https://github.com/AliceO2Group/AliceO2/pull/9495) 2022-07-22: Reimplement create-aligned-geometry to use DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#9496](https://github.com/AliceO2Group/AliceO2/pull/9496) 2022-07-22: MRRTF-188: MCH reco downscaling (for Pt2 sync reco ONLY) by [@aphecetche](https://github.com/aphecetche)
+- [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
@@ -78,6 +79,7 @@
 - [\#9432](https://github.com/AliceO2Group/AliceO2/pull/9432) 2022-07-16: Add muon matches support to ED workflow by [@pnwkw](https://github.com/pnwkw)
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
+- [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
