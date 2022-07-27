@@ -25,7 +25,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9431](https://github.com/AliceO2Group/AliceO2/pull/9431) 2022-07-15: ZDC: pimpl and fwd declare for fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#9433](https://github.com/AliceO2Group/AliceO2/pull/9433) 2022-07-15: Fix: reference invalidated by vector expansion was used by [@shahor02](https://github.com/shahor02)
 - [\#9434](https://github.com/AliceO2Group/AliceO2/pull/9434) 2022-07-16: Fixes for globalfwd matches in reco and readed. by [@shahor02](https://github.com/shahor02)
 - [\#9436](https://github.com/AliceO2Group/AliceO2/pull/9436) 2022-07-16: Limit error messages from DPLRawParser by [@shahor02](https://github.com/shahor02)
@@ -99,6 +98,7 @@
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
 - [\#9479](https://github.com/AliceO2Group/AliceO2/pull/9479) 2022-07-19: DPL: add instructions for the remote GUI by [@ktf](https://github.com/ktf)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
+- [\#9531](https://github.com/AliceO2Group/AliceO2/pull/9531) 2022-07-27: Set DPL CCDB fetcher default validation rate to 0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
