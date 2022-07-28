@@ -67,6 +67,8 @@
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
 - [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
 - [\#9527](https://github.com/AliceO2Group/AliceO2/pull/9527) 2022-07-27: Collect and send ITS/MFT raw data decoding errors by [@shahor02](https://github.com/shahor02)
+- [\#9529](https://github.com/AliceO2Group/AliceO2/pull/9529) 2022-07-28: TRD: TrackletsParser: Proper zero-ing of array by [@f3sch](https://github.com/f3sch)
+- [\#9530](https://github.com/AliceO2Group/AliceO2/pull/9530) 2022-07-28: TRD TRAP charge scaling configurable by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
