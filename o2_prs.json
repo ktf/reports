@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-17T14:18:42Z",
-            "title": "Fixes for tof-calibinfo-reader, more robust TimeSlice methods",
-            "number": 9441,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-calibinfo-reader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/include/DetectorsRaw/HBFUtilsInitializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Raw/src/HBFUtilsInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflowIO/src/CalibInfoReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-16T02:00:28Z",
             "title": "Fix PVertexer: wrong protection against empty bunchfilling",
             "number": 9442,
@@ -3635,6 +3595,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove write of Pedestals file",
+            "number": 9541,
+            "author": {
+              "login": "fapfap69"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/PedestalsCalculationSpec.cxx"
                   }
                 }
               ]
