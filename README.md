@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
 - [\#9445](https://github.com/AliceO2Group/AliceO2/pull/9445) 2022-07-16: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9451](https://github.com/AliceO2Group/AliceO2/pull/9451) 2022-07-16: Fit failures should be warning not error by [@davidrohr](https://github.com/davidrohr)
 - [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
@@ -78,7 +77,6 @@
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
-- [\#9443](https://github.com/AliceO2Group/AliceO2/pull/9443) 2022-07-16: DPL: allow overriding orbit reset time by [@davidrohr](https://github.com/davidrohr)
 - [\#9445](https://github.com/AliceO2Group/AliceO2/pull/9445) 2022-07-16: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9448](https://github.com/AliceO2Group/AliceO2/pull/9448) 2022-07-16: Speedup by [@ktf](https://github.com/ktf)
