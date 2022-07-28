@@ -70,6 +70,7 @@
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
+- [\#9542](https://github.com/AliceO2Group/AliceO2/pull/9542) 2022-07-28: Fix in RunStartOrbit extraction: uint32 is needed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
