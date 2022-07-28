@@ -23,7 +23,6 @@
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9442](https://github.com/AliceO2Group/AliceO2/pull/9442) 2022-07-16: Fix PVertexer: wrong protection against empty bunchfilling by [@shahor02](https://github.com/shahor02)
 - [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9450](https://github.com/AliceO2Group/AliceO2/pull/9450) 2022-07-16: Update configurables from key-value pairs by [@qgp](https://github.com/qgp)
