@@ -69,6 +69,7 @@
 - [\#9529](https://github.com/AliceO2Group/AliceO2/pull/9529) 2022-07-28: TRD: TrackletsParser: Proper zero-ing of array by [@f3sch](https://github.com/f3sch)
 - [\#9530](https://github.com/AliceO2Group/AliceO2/pull/9530) 2022-07-28: TRD TRAP charge scaling configurable by [@martenole](https://github.com/martenole)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
+- [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
