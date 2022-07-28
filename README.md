@@ -43,6 +43,7 @@
 - [\#9482](https://github.com/AliceO2Group/AliceO2/pull/9482) 2022-07-22: TPC SCD calib update by [@martenole](https://github.com/martenole)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9485](https://github.com/AliceO2Group/AliceO2/pull/9485) 2022-07-21: SpaceCharge: Optimising simulation of charge up of GEM frame by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9487](https://github.com/AliceO2Group/AliceO2/pull/9487) 2022-07-28: Modified MFT DCS config util codes by [@syano0822](https://github.com/syano0822)
 - [\#9488](https://github.com/AliceO2Group/AliceO2/pull/9488) 2022-07-21: [EMCAL-630] Set log severity to warning in RawToCellConverter by [@mfasDa](https://github.com/mfasDa)
 - [\#9490](https://github.com/AliceO2Group/AliceO2/pull/9490) 2022-07-22: Detector/TPC: Added option to add MC information to track and cluster filter by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#9491](https://github.com/AliceO2Group/AliceO2/pull/9491) 2022-07-22: Fix AB track propagation + extra Z tolerance by [@fmazzasc](https://github.com/fmazzasc)
