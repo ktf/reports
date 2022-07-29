@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-16T21:15:47Z",
-            "title": "Fit failures should be warning not error",
-            "number": 9451,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-24T10:09:45Z",
             "title": "Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes",
             "number": 9452,
@@ -3438,8 +3418,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-07-29T16:02:01Z",
             "title": "ITS/MFT decoder fix for HBF triggers split over CRU pages [O2-3093]",
             "number": 9544,
             "author": {
@@ -3625,6 +3605,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Another attempt to fix CUDA autodetection allowing unsupported GCC versions",
+            "number": 9551,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
