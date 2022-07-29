@@ -80,7 +80,6 @@
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
-- [\#9456](https://github.com/AliceO2Group/AliceO2/pull/9456) 2022-07-17: Possibility to set condition query rate via DPL_CONDITION_QUERY_RATE by [@shahor02](https://github.com/shahor02)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
