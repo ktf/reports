@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
@@ -19,8 +18,8 @@
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
+- [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9462](https://github.com/AliceO2Group/AliceO2/pull/9462) 2022-07-21: tracklets ITS by [@mpuccio](https://github.com/mpuccio)
@@ -69,6 +68,7 @@
 - [\#9542](https://github.com/AliceO2Group/AliceO2/pull/9542) 2022-07-28: Fix in RunStartOrbit extraction: uint32 is needed by [@shahor02](https://github.com/shahor02)
 - [\#9544](https://github.com/AliceO2Group/AliceO2/pull/9544) 2022-07-29: ITS/MFT decoder fix for HBF triggers split over CRU pages [O2-3093] by [@shahor02](https://github.com/shahor02)
 - [\#9546](https://github.com/AliceO2Group/AliceO2/pull/9546) 2022-07-29: Modernize destructor to suppress fullCI error by [@shahor02](https://github.com/shahor02)
+- [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9553](https://github.com/AliceO2Group/AliceO2/pull/9553) 2022-07-29: Modernize MCH ~MisAligner to silence FullCI failure by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
