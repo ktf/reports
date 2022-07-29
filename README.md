@@ -8,6 +8,7 @@
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
+- [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 ## Recent developments in O2 - DataFormats
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
@@ -19,10 +20,10 @@
 - [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
+- [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9447](https://github.com/AliceO2Group/AliceO2/pull/9447) 2022-07-16: TRD fix units and boolean logic by [@bazinski](https://github.com/bazinski)
 - [\#9450](https://github.com/AliceO2Group/AliceO2/pull/9450) 2022-07-16: Update configurables from key-value pairs by [@qgp](https://github.com/qgp)
 - [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
@@ -61,6 +62,7 @@
 - [\#9515](https://github.com/AliceO2Group/AliceO2/pull/9515) 2022-07-24: tof calib reader loading TFIDInfo by [@noferini](https://github.com/noferini)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9517](https://github.com/AliceO2Group/AliceO2/pull/9517) 2022-07-27: TPC residual aggregator removes obsolete files by [@martenole](https://github.com/martenole)
+- [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
 - [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
@@ -78,7 +80,6 @@
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
-- [\#9446](https://github.com/AliceO2Group/AliceO2/pull/9446) 2022-07-16: Fix output proxy by [@davidrohr](https://github.com/davidrohr)
 - [\#9448](https://github.com/AliceO2Group/AliceO2/pull/9448) 2022-07-16: Speedup by [@ktf](https://github.com/ktf)
 - [\#9449](https://github.com/AliceO2Group/AliceO2/pull/9449) 2022-07-16: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9453](https://github.com/AliceO2Group/AliceO2/pull/9453) 2022-07-16: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
