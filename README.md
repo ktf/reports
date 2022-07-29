@@ -20,7 +20,6 @@
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
 - [\#9462](https://github.com/AliceO2Group/AliceO2/pull/9462) 2022-07-21: tracklets ITS by [@mpuccio](https://github.com/mpuccio)
 - [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
@@ -92,7 +91,6 @@
 - [\#9545](https://github.com/AliceO2Group/AliceO2/pull/9545) 2022-07-29: DPL Analysis: fix for arrow v9 compatibility by [@aalkin](https://github.com/aalkin)
 - [\#9548](https://github.com/AliceO2Group/AliceO2/pull/9548) 2022-07-29: DPL: Pass routes by reference, since they remain in memory anyway by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
-- [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)

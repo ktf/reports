@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-19T00:49:24Z",
-            "title": "Read SimParams from CCDB; clear CluElements; ",
-            "number": 9457,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/recalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/CaloRawFitterGS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/CellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RawToCellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/CellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/PHOSDigitizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/PHOSDigitizerSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-18T12:01:00Z",
             "title": "Possibility to set query rate per ccdbParamSpec",
             "number": 9458,
@@ -3600,6 +3520,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/SliceTracker/GPUTPCStartHitsFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-29T20:14:13Z",
+            "title": "More fixes for TPC processing",
+            "number": 9557,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/clusterFinderDefs.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
                   }
                 }
               ]
