@@ -18,6 +18,7 @@
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
+- [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9462](https://github.com/AliceO2Group/AliceO2/pull/9462) 2022-07-21: tracklets ITS by [@mpuccio](https://github.com/mpuccio)
 - [\#9466](https://github.com/AliceO2Group/AliceO2/pull/9466) 2022-07-18: Fix HBFUtilsInitializer usage in TRD TrackletTransformer and TrapSimulator by [@shahor02](https://github.com/shahor02)
@@ -69,6 +70,7 @@
 - [\#9549](https://github.com/AliceO2Group/AliceO2/pull/9549) 2022-07-29: Some unrelated updates by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9553](https://github.com/AliceO2Group/AliceO2/pull/9553) 2022-07-29: Modernize MCH ~MisAligner to silence FullCI failure by [@shahor02](https://github.com/shahor02)
+- [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
