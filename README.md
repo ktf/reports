@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9459](https://github.com/AliceO2Group/AliceO2/pull/9459) 2022-07-19: DPL: use 15s as metric interval by [@ktf](https://github.com/ktf)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
@@ -9,7 +8,6 @@
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 ## Recent developments in O2 - DataFormats
-- [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
@@ -22,7 +20,6 @@
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9452](https://github.com/AliceO2Group/AliceO2/pull/9452) 2022-07-24: Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#9455](https://github.com/AliceO2Group/AliceO2/pull/9455) 2022-07-17: raw-file-reader checks for ini file at keyval.input_dir by [@shahor02](https://github.com/shahor02)
 - [\#9457](https://github.com/AliceO2Group/AliceO2/pull/9457) 2022-07-19: Read SimParams from CCDB; clear CluElements;  by [@peressounko](https://github.com/peressounko)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)

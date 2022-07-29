@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-24T10:09:45Z",
-            "title": "Add FIT,EMC,PHS,CPV to Vertex-Track matching + related fixes",
-            "number": 9452,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/Cluster.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalTrackID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/common/include/CommonDataFormat/InteractionRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/ReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/VertexTrackMatcherSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/VertexTrackMatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/VertexTrackMatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-16T23:08:04Z",
             "title": "Fix codechecker violation",
             "number": 9453,
@@ -3625,6 +3550,31 @@
                 {
                   "node": {
                     "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Protect against 0 VDrift correction, refuse to send to CCDB",
+            "number": 9552,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/LtrCalibData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
                   }
                 }
               ]
