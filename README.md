@@ -69,6 +69,7 @@
 - [\#9542](https://github.com/AliceO2Group/AliceO2/pull/9542) 2022-07-28: Fix in RunStartOrbit extraction: uint32 is needed by [@shahor02](https://github.com/shahor02)
 - [\#9544](https://github.com/AliceO2Group/AliceO2/pull/9544) 2022-07-29: ITS/MFT decoder fix for HBF triggers split over CRU pages [O2-3093] by [@shahor02](https://github.com/shahor02)
 - [\#9546](https://github.com/AliceO2Group/AliceO2/pull/9546) 2022-07-29: Modernize destructor to suppress fullCI error by [@shahor02](https://github.com/shahor02)
+- [\#9553](https://github.com/AliceO2Group/AliceO2/pull/9553) 2022-07-29: Modernize MCH ~MisAligner to silence FullCI failure by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
@@ -76,7 +77,6 @@
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
-- [\#9453](https://github.com/AliceO2Group/AliceO2/pull/9453) 2022-07-16: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 - [\#9454](https://github.com/AliceO2Group/AliceO2/pull/9454) 2022-07-18: DPL: check precondition only once by [@ktf](https://github.com/ktf)
 - [\#9456](https://github.com/AliceO2Group/AliceO2/pull/9456) 2022-07-17: Possibility to set condition query rate via DPL_CONDITION_QUERY_RATE by [@shahor02](https://github.com/shahor02)
 - [\#9458](https://github.com/AliceO2Group/AliceO2/pull/9458) 2022-07-18: Possibility to set query rate per ccdbParamSpec by [@shahor02](https://github.com/shahor02)
