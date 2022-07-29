@@ -80,8 +80,6 @@
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 ## Recent developments in O2 - Framework
-- [\#9448](https://github.com/AliceO2Group/AliceO2/pull/9448) 2022-07-16: Speedup by [@ktf](https://github.com/ktf)
-- [\#9449](https://github.com/AliceO2Group/AliceO2/pull/9449) 2022-07-16: Fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#9453](https://github.com/AliceO2Group/AliceO2/pull/9453) 2022-07-16: Fix codechecker violation by [@davidrohr](https://github.com/davidrohr)
 - [\#9454](https://github.com/AliceO2Group/AliceO2/pull/9454) 2022-07-18: DPL: check precondition only once by [@ktf](https://github.com/ktf)
 - [\#9456](https://github.com/AliceO2Group/AliceO2/pull/9456) 2022-07-17: Possibility to set condition query rate via DPL_CONDITION_QUERY_RATE by [@shahor02](https://github.com/shahor02)
