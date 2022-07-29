@@ -6,26 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "Avoid empty aggregator workflows",
-            "number": 9460,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "Fix TPC to ITS propagation + add extra Z tolerance",
             "number": 9461,
             "author": {
@@ -3870,6 +3850,41 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/FT0DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-07-29T21:54:55Z",
+            "title": "And yet more fixes for TPC processing",
+            "number": 9560,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
                   }
                 }
               ]
