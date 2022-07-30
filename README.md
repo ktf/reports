@@ -76,7 +76,6 @@
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9470](https://github.com/AliceO2Group/AliceO2/pull/9470) 2022-07-19: DPL Analysis: add simple testcase for ARRAY_INDEX by [@ktf](https://github.com/ktf)
 - [\#9477](https://github.com/AliceO2Group/AliceO2/pull/9477) 2022-07-19: Cleanup of orbitReset extraction by [@shahor02](https://github.com/shahor02)
 - [\#9479](https://github.com/AliceO2Group/AliceO2/pull/9479) 2022-07-19: DPL: add instructions for the remote GUI by [@ktf](https://github.com/ktf)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
