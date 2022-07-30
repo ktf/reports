@@ -70,8 +70,8 @@
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9553](https://github.com/AliceO2Group/AliceO2/pull/9553) 2022-07-29: Modernize MCH ~MisAligner to silence FullCI failure by [@shahor02](https://github.com/shahor02)
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
+- [\#9563](https://github.com/AliceO2Group/AliceO2/pull/9563) 2022-07-30: Demote error severity to warning by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
-- [\#9463](https://github.com/AliceO2Group/AliceO2/pull/9463) 2022-07-20: o2-eve: fix memory leak in screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
