@@ -17,6 +17,7 @@
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
+- [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9476](https://github.com/AliceO2Group/AliceO2/pull/9476) 2022-07-20: Add drawing of SACs per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -68,6 +69,8 @@
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 - [\#9563](https://github.com/AliceO2Group/AliceO2/pull/9563) 2022-07-30: Demote error severity to warning by [@davidrohr](https://github.com/davidrohr)
 - [\#9564](https://github.com/AliceO2Group/AliceO2/pull/9564) 2022-07-30: EMCAL: Protection from crash in raw decoding if bunch ADC vector is too small by [@davidrohr](https://github.com/davidrohr)
+- [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
+- [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
