@@ -77,6 +77,7 @@
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
+- [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#9469](https://github.com/AliceO2Group/AliceO2/pull/9469) 2022-07-20: Define CTF metadata file data type depending on the runType by [@shahor02](https://github.com/shahor02)
 - [\#9470](https://github.com/AliceO2Group/AliceO2/pull/9470) 2022-07-19: DPL Analysis: add simple testcase for ARRAY_INDEX by [@ktf](https://github.com/ktf)
