@@ -17,6 +17,7 @@
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9476](https://github.com/AliceO2Group/AliceO2/pull/9476) 2022-07-20: Add drawing of SACs per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9478](https://github.com/AliceO2Group/AliceO2/pull/9478) 2022-07-21: Implementation of End Cap element of the Cage by [@mario6829](https://github.com/mario6829)
@@ -71,6 +72,7 @@
 - [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
 - [\#9568](https://github.com/AliceO2Group/AliceO2/pull/9568) 2022-07-30: [EMCAL-769] Skip bunches with bunch size > channel payload size by [@mfasDa](https://github.com/mfasDa)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
+- [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
