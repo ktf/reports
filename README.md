@@ -5,7 +5,6 @@
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 ## Recent developments in O2 - DataFormats
-- [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9500](https://github.com/AliceO2Group/AliceO2/pull/9500) 2022-07-22: Suppress more warnings by [@davidrohr](https://github.com/davidrohr)
@@ -19,7 +18,6 @@
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9474](https://github.com/AliceO2Group/AliceO2/pull/9474) 2022-07-20: add tfidinfo in tof calibinfo by [@noferini](https://github.com/noferini)
 - [\#9476](https://github.com/AliceO2Group/AliceO2/pull/9476) 2022-07-20: Add drawing of SACs per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9478](https://github.com/AliceO2Group/AliceO2/pull/9478) 2022-07-21: Implementation of End Cap element of the Cage by [@mario6829](https://github.com/mario6829)
 - [\#9481](https://github.com/AliceO2Group/AliceO2/pull/9481) 2022-07-22: TRD fix error message to only have information that is certain to be there. by [@bazinski](https://github.com/bazinski)
