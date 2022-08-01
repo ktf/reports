@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 ## Recent developments in O2 - DataFormats
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
@@ -18,7 +17,6 @@
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9485](https://github.com/AliceO2Group/AliceO2/pull/9485) 2022-07-21: SpaceCharge: Optimising simulation of charge up of GEM frame by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9487](https://github.com/AliceO2Group/AliceO2/pull/9487) 2022-07-28: Modified MFT DCS config util codes by [@syano0822](https://github.com/syano0822)
 - [\#9488](https://github.com/AliceO2Group/AliceO2/pull/9488) 2022-07-21: [EMCAL-630] Set log severity to warning in RawToCellConverter by [@mfasDa](https://github.com/mfasDa)
@@ -80,7 +78,6 @@
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9531](https://github.com/AliceO2Group/AliceO2/pull/9531) 2022-07-27: Set DPL CCDB fetcher default validation rate to 0 by [@shahor02](https://github.com/shahor02)
 - [\#9538](https://github.com/AliceO2Group/AliceO2/pull/9538) 2022-07-28: DPL: Speed up DeviceSpecHelper::dataProcessorSpecs2DeviceSpecs by [@davidrohr](https://github.com/davidrohr)
 - [\#9545](https://github.com/AliceO2Group/AliceO2/pull/9545) 2022-07-29: DPL Analysis: fix for arrow v9 compatibility by [@aalkin](https://github.com/aalkin)
