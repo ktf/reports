@@ -88,6 +88,7 @@
 - [\#9538](https://github.com/AliceO2Group/AliceO2/pull/9538) 2022-07-28: DPL: Speed up DeviceSpecHelper::dataProcessorSpecs2DeviceSpecs by [@davidrohr](https://github.com/davidrohr)
 - [\#9545](https://github.com/AliceO2Group/AliceO2/pull/9545) 2022-07-29: DPL Analysis: fix for arrow v9 compatibility by [@aalkin](https://github.com/aalkin)
 - [\#9548](https://github.com/AliceO2Group/AliceO2/pull/9548) 2022-07-29: DPL: Pass routes by reference, since they remain in memory anyway by [@davidrohr](https://github.com/davidrohr)
+- [\#9573](https://github.com/AliceO2Group/AliceO2/pull/9573) 2022-08-01: Make the GPU TPC QC work again after switching to DPL Task workflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#9498](https://github.com/AliceO2Group/AliceO2/pull/9498) 2022-07-24: Use TPC VDrift from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
