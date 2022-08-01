@@ -71,6 +71,7 @@
 - [\#9568](https://github.com/AliceO2Group/AliceO2/pull/9568) 2022-07-30: [EMCAL-769] Skip bunches with bunch size > channel payload size by [@mfasDa](https://github.com/mfasDa)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
+- [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9486](https://github.com/AliceO2Group/AliceO2/pull/9486) 2022-07-22: Event Display: Added run type switching by [@mchwes](https://github.com/mchwes)
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
