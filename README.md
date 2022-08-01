@@ -18,7 +18,6 @@
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9481](https://github.com/AliceO2Group/AliceO2/pull/9481) 2022-07-22: TRD fix error message to only have information that is certain to be there. by [@bazinski](https://github.com/bazinski)
 - [\#9482](https://github.com/AliceO2Group/AliceO2/pull/9482) 2022-07-22: TPC SCD calib update by [@martenole](https://github.com/martenole)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9485](https://github.com/AliceO2Group/AliceO2/pull/9485) 2022-07-21: SpaceCharge: Optimising simulation of charge up of GEM frame by [@matthias-kleiner](https://github.com/matthias-kleiner)
