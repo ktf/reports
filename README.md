@@ -82,7 +82,6 @@
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#9479](https://github.com/AliceO2Group/AliceO2/pull/9479) 2022-07-19: DPL: add instructions for the remote GUI by [@ktf](https://github.com/ktf)
 - [\#9483](https://github.com/AliceO2Group/AliceO2/pull/9483) 2022-07-20: Fix TF throttling for GRID jobs by [@shahor02](https://github.com/shahor02)
 - [\#9531](https://github.com/AliceO2Group/AliceO2/pull/9531) 2022-07-27: Set DPL CCDB fetcher default validation rate to 0 by [@shahor02](https://github.com/shahor02)
 - [\#9538](https://github.com/AliceO2Group/AliceO2/pull/9538) 2022-07-28: DPL: Speed up DeviceSpecHelper::dataProcessorSpecs2DeviceSpecs by [@davidrohr](https://github.com/davidrohr)
