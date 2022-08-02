@@ -65,6 +65,7 @@
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
+- [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - EventVisualisation
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
