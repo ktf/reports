@@ -16,6 +16,7 @@
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
+- [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
 - [\#9490](https://github.com/AliceO2Group/AliceO2/pull/9490) 2022-07-22: Detector/TPC: Added option to add MC information to track and cluster filter by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#9491](https://github.com/AliceO2Group/AliceO2/pull/9491) 2022-07-22: Fix AB track propagation + extra Z tolerance by [@fmazzasc](https://github.com/fmazzasc)
@@ -66,6 +67,7 @@
 - [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
 - [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
 - [\#9585](https://github.com/AliceO2Group/AliceO2/pull/9585) 2022-08-02: [EMCAL-710] Post hardware address and FEC index for minor ALTRO error by [@mfasDa](https://github.com/mfasDa)
+- [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - EventVisualisation
 - [\#9497](https://github.com/AliceO2Group/AliceO2/pull/9497) 2022-07-27: o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root… by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
