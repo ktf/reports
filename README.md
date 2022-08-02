@@ -17,7 +17,6 @@
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9488](https://github.com/AliceO2Group/AliceO2/pull/9488) 2022-07-21: [EMCAL-630] Set log severity to warning in RawToCellConverter by [@mfasDa](https://github.com/mfasDa)
 - [\#9490](https://github.com/AliceO2Group/AliceO2/pull/9490) 2022-07-22: Detector/TPC: Added option to add MC information to track and cluster filter by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#9491](https://github.com/AliceO2Group/AliceO2/pull/9491) 2022-07-22: Fix AB track propagation + extra Z tolerance by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9492](https://github.com/AliceO2Group/AliceO2/pull/9492) 2022-07-22: Faster sync misaligned processing by [@mpuccio](https://github.com/mpuccio)
