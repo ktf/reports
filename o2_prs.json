@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-22T10:25:24Z",
-            "title": "MRRTF-188: MCH reco downscaling (for Pt2 sync reco ONLY)",
-            "number": 9496,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/TimeClusterFinderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-27T12:20:02Z",
             "title": "o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root…",
             "number": 9497,
@@ -4160,6 +4135,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Geometry/Creator/src/Station345Geometry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-08-03T22:03:31Z",
+            "title": "TPC IDC calibration: need TPCIDC in input spec of readout proxy, as long as we forward via EPNs",
+            "number": 9596,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
