@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-56m-01: Done on 2022-08-03.
 ## Recent O2 releases
 ## Recent developments in O2 - Common
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
