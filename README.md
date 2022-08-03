@@ -19,7 +19,6 @@
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9490](https://github.com/AliceO2Group/AliceO2/pull/9490) 2022-07-22: Detector/TPC: Added option to add MC information to track and cluster filter by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#9491](https://github.com/AliceO2Group/AliceO2/pull/9491) 2022-07-22: Fix AB track propagation + extra Z tolerance by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9492](https://github.com/AliceO2Group/AliceO2/pull/9492) 2022-07-22: Faster sync misaligned processing by [@mpuccio](https://github.com/mpuccio)
 - [\#9493](https://github.com/AliceO2Group/AliceO2/pull/9493) 2022-07-29: Fix V0-bachelor association by [@fmazzasc](https://github.com/fmazzasc)
