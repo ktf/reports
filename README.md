@@ -19,7 +19,6 @@
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9493](https://github.com/AliceO2Group/AliceO2/pull/9493) 2022-07-29: Fix V0-bachelor association by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9494](https://github.com/AliceO2Group/AliceO2/pull/9494) 2022-07-21: [EMCAL-710] Add hardware address to FEE error type by [@mfasDa](https://github.com/mfasDa)
 - [\#9495](https://github.com/AliceO2Group/AliceO2/pull/9495) 2022-07-22: Reimplement create-aligned-geometry to use DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#9496](https://github.com/AliceO2Group/AliceO2/pull/9496) 2022-07-22: MRRTF-188: MCH reco downscaling (for Pt2 sync reco ONLY) by [@aphecetche](https://github.com/aphecetche)
