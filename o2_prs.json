@@ -5,156 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-27T12:20:02Z",
-            "title": "o2-eve, o2-eve-export-workflow, o2-eve-convert: serialisation to root…",
-            "number": 9497,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DirectoryLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/FileWatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DirectoryLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/FileWatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEventJSONSerializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEventROOTSerializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEventSerializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEvent.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEventJSONSerializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEventROOTSerializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEventSerializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/converter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Detectors/src/DataReaderJSON.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/FileProducer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/O2DPLDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/AO2DConverter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/FileProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-24T10:10:53Z",
             "title": "Use TPC VDrift from CCDB",
             "number": 9498,
@@ -4160,6 +4010,56 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix memory leak in calibration",
+            "number": 9597,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSEnergyCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSRunbyrunCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/include/PHOSCalibWorkflow/PHOSRunbyrunCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSTurnonCalibDevice.cxx"
                   }
                 }
               ]
