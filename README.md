@@ -78,6 +78,7 @@
 - [\#9545](https://github.com/AliceO2Group/AliceO2/pull/9545) 2022-07-29: DPL Analysis: fix for arrow v9 compatibility by [@aalkin](https://github.com/aalkin)
 - [\#9548](https://github.com/AliceO2Group/AliceO2/pull/9548) 2022-07-29: DPL: Pass routes by reference, since they remain in memory anyway by [@davidrohr](https://github.com/davidrohr)
 - [\#9573](https://github.com/AliceO2Group/AliceO2/pull/9573) 2022-08-01: Make the GPU TPC QC work again after switching to DPL Task workflow by [@davidrohr](https://github.com/davidrohr)
+- [\#9592](https://github.com/AliceO2Group/AliceO2/pull/9592) 2022-08-05: DPL: fix InputProxy EoS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Utilities
