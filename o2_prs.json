@@ -4,56 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-07-25T13:12:15Z",
-            "title": "ecs parameters: move common mathods to a header only file",
-            "number": 9501,
-            "author": {
-              "login": "ironMann"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/ECSDataAdapters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/GRPECSObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPECSObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/o2sim.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[EMCAL-566] Added StatAccumulator for fast time calib",
@@ -3885,6 +3835,36 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Raw/src/ELinkDataShaper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-794] Added cell data producer",
+            "number": 9601,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/emc-channel-data-producer.cxx"
                   }
                 }
               ]

@@ -5,7 +5,6 @@
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - DataFormats
-- [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9509](https://github.com/AliceO2Group/AliceO2/pull/9509) 2022-07-23: Swap comparisons to avoid UB by [@shahor02](https://github.com/shahor02)
 - [\#9516](https://github.com/AliceO2Group/AliceO2/pull/9516) 2022-07-25: TPC Vdrift calibration added to aggregator workflow. by [@shahor02](https://github.com/shahor02)
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
@@ -19,7 +18,6 @@
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9501](https://github.com/AliceO2Group/AliceO2/pull/9501) 2022-07-25: ecs parameters: move common mathods to a header only file by [@ironMann](https://github.com/ironMann)
 - [\#9504](https://github.com/AliceO2Group/AliceO2/pull/9504) 2022-07-22: Add extra checks for Populator, fix option/readme by [@shahor02](https://github.com/shahor02)
 - [\#9505](https://github.com/AliceO2Group/AliceO2/pull/9505) 2022-07-22: Fixes for PHOSTurnonCalibDevice by [@shahor02](https://github.com/shahor02)
 - [\#9507](https://github.com/AliceO2Group/AliceO2/pull/9507) 2022-07-22: Fix: suppress double entry for GlobalFwdTrackReader by [@shahor02](https://github.com/shahor02)
