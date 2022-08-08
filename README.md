@@ -53,6 +53,7 @@
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
+- [\#9579](https://github.com/AliceO2Group/AliceO2/pull/9579) 2022-08-08: Remove followCCDBUpdates and adjust calib settings by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9580](https://github.com/AliceO2Group/AliceO2/pull/9580) 2022-08-03: Suppress massive sorting in SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
 - [\#9585](https://github.com/AliceO2Group/AliceO2/pull/9585) 2022-08-02: [EMCAL-710] Post hardware address and FEC index for minor ALTRO error by [@mfasDa](https://github.com/mfasDa)
