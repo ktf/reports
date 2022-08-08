@@ -81,5 +81,4 @@
 ## Recent developments in O2 - Steer
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Utilities
-- [\#9508](https://github.com/AliceO2Group/AliceO2/pull/9508) 2022-07-23: fix / improve stderr monitor by [@davidrohr](https://github.com/davidrohr)
 - [\#9547](https://github.com/AliceO2Group/AliceO2/pull/9547) 2022-07-29: [Mergers] Add two debug logs by [@knopers8](https://github.com/knopers8)
