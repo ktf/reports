@@ -58,6 +58,7 @@
 - [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
 - [\#9585](https://github.com/AliceO2Group/AliceO2/pull/9585) 2022-08-02: [EMCAL-710] Post hardware address and FEC index for minor ALTRO error by [@mfasDa](https://github.com/mfasDa)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
+- [\#9588](https://github.com/AliceO2Group/AliceO2/pull/9588) 2022-08-08: Release cuts in SVertexer by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9591](https://github.com/AliceO2Group/AliceO2/pull/9591) 2022-08-03: TPC IDCs: use separate data description for A and C side by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
