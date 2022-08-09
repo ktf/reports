@@ -61,7 +61,6 @@
 - [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9602](https://github.com/AliceO2Group/AliceO2/pull/9602) 2022-08-08: [EMCAL-769, EMCAL-795] Handle cases where bunch size would be 0 by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
-- [\#9513](https://github.com/AliceO2Group/AliceO2/pull/9513) 2022-07-24: ED: Add limit for number of drawn primary vertices by [@pnwkw](https://github.com/pnwkw)
 - [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
