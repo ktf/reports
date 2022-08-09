@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-23T16:33:28Z",
-            "title": "Fix: treat MFT-MCH tracks or match request on same footing",
-            "number": 9512,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/primary-vertexing-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-24T10:09:20Z",
             "title": "ED: Add limit for number of drawn primary vertices",
             "number": 9513,
@@ -3970,7 +3940,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "initial release of mft standalone alignment",
+            "title": "[MFT] initial release of mft standalone alignment",
             "number": 9611,
             "author": {
               "login": "arakotoz"
@@ -4220,6 +4190,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/mft-tracks2records-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix compatibility issue with omp",
+            "number": 9612,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
                   }
                 }
               ]
