@@ -16,7 +16,6 @@
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9517](https://github.com/AliceO2Group/AliceO2/pull/9517) 2022-07-27: TPC residual aggregator removes obsolete files by [@martenole](https://github.com/martenole)
 - [\#9518](https://github.com/AliceO2Group/AliceO2/pull/9518) 2022-07-29: initial commit on HyperHydrogen4Lambda study by [@BongHwi](https://github.com/BongHwi)
 - [\#9521](https://github.com/AliceO2Group/AliceO2/pull/9521) 2022-07-25: Fixes for HMP clusterization by [@shahor02](https://github.com/shahor02)
 - [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
