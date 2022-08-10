@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-07-29T10:02:40Z",
-            "title": "initial commit on HyperHydrogen4Lambda study",
-            "number": 9518,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Fix the forloop not to use automatic assigning variable",
@@ -4105,6 +4065,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/StepTHn.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: drain messages in READY",
+            "number": 9618,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CallbackService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
