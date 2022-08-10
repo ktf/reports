@@ -62,7 +62,6 @@
 - [\#9602](https://github.com/AliceO2Group/AliceO2/pull/9602) 2022-08-08: [EMCAL-769, EMCAL-795] Handle cases where bunch size would be 0 by [@mfasDa](https://github.com/mfasDa)
 - [\#9612](https://github.com/AliceO2Group/AliceO2/pull/9612) 2022-08-09: Fix compatibility issue with omp by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
-- [\#9514](https://github.com/AliceO2Group/AliceO2/pull/9514) 2022-07-24: Event Display: Calorimeter proper scaling by [@mchwes](https://github.com/mchwes)
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
