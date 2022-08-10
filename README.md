@@ -60,6 +60,7 @@
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9602](https://github.com/AliceO2Group/AliceO2/pull/9602) 2022-08-08: [EMCAL-769, EMCAL-795] Handle cases where bunch size would be 0 by [@mfasDa](https://github.com/mfasDa)
+- [\#9608](https://github.com/AliceO2Group/AliceO2/pull/9608) 2022-08-10: [EMCAL-789] Update default values with current settings at P2 by [@mfasDa](https://github.com/mfasDa)
 - [\#9612](https://github.com/AliceO2Group/AliceO2/pull/9612) 2022-08-09: Fix compatibility issue with omp by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
@@ -67,6 +68,7 @@
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
+- [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9531](https://github.com/AliceO2Group/AliceO2/pull/9531) 2022-07-27: Set DPL CCDB fetcher default validation rate to 0 by [@shahor02](https://github.com/shahor02)
 - [\#9538](https://github.com/AliceO2Group/AliceO2/pull/9538) 2022-07-28: DPL: Speed up DeviceSpecHelper::dataProcessorSpecs2DeviceSpecs by [@davidrohr](https://github.com/davidrohr)
