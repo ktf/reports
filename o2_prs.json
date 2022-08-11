@@ -4,136 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ZDC - Fix raw data checks, better debug output, speedup reconstruction",
-            "number": 9525,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/BCData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/RecEventFlat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/RecEventFlat.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/include/ZDCRaw/DumpRaw.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/include/ZDCRaw/RawReaderZDC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/include/ZDCRaw/ZDCRawParserDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/DumpRaw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/ZDCRawParserDPLSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/raw-parser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/DigiReco.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/reconstruction/src/DigiReco.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digits2Raw.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/DigitReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/ZDCDataReaderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/ZDCRecoWriterDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/DigitRecoSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/ZDCDataReaderDPLSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/ZDCRecoWriterDPLSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/reco-writer-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-07-27T07:03:05Z",
             "title": "GPU Vulkan Display: Try to fix compilation with some more non-standard vulkan headers",
@@ -4111,6 +3981,96 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Workflow/src/FetToDeadSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "IDCs: Updating IDC documentation",
+            "number": 9625,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/doc/IDCWorkFlow.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCFactorization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCFactorization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFLPIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFourierTransformEPNSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-distribute-idc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-factorize-idc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-flp-idc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-aggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-fouriertransform-epn.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/test/test_ft_EPN_Aggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]
