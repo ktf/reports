@@ -14,7 +14,6 @@
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9522](https://github.com/AliceO2Group/AliceO2/pull/9522) 2022-07-26: remove calib output in tof matching by default by [@noferini](https://github.com/noferini)
 - [\#9524](https://github.com/AliceO2Group/AliceO2/pull/9524) 2022-07-26: Optionaly write CcdbApi.storeAsBinaryFile output to local file by [@shahor02](https://github.com/shahor02)
 - [\#9527](https://github.com/AliceO2Group/AliceO2/pull/9527) 2022-07-27: Collect and send ITS/MFT raw data decoding errors by [@shahor02](https://github.com/shahor02)
 - [\#9529](https://github.com/AliceO2Group/AliceO2/pull/9529) 2022-07-28: TRD: TrackletsParser: Proper zero-ing of array by [@f3sch](https://github.com/f3sch)
@@ -73,6 +72,7 @@
 - [\#9592](https://github.com/AliceO2Group/AliceO2/pull/9592) 2022-08-05: DPL: fix InputProxy EoS by [@ktf](https://github.com/ktf)
 - [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9621](https://github.com/AliceO2Group/AliceO2/pull/9621) 2022-08-11: remove old function by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Utilities
