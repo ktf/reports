@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-07-26T22:26:56Z",
-            "title": "Optionaly write CcdbApi.storeAsBinaryFile output to local file",
-            "number": 9524,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/UploadTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/workflow/CCDBPopulatorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "ZDC - Fix raw data checks, better debug output, speedup reconstruction",
@@ -3191,7 +3156,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Coorrectly flag FET for MID REG boards",
+            "title": "Correctly flag FET for MID REG boards",
             "number": 9600,
             "author": {
               "login": "dstocco"
@@ -4126,6 +4091,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/HistogramSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix bug in the ROF records of MID dead channels",
+            "number": 9624,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Workflow/src/FetToDeadSpec.cxx"
                   }
                 }
               ]
