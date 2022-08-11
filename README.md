@@ -14,7 +14,6 @@
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9527](https://github.com/AliceO2Group/AliceO2/pull/9527) 2022-07-27: Collect and send ITS/MFT raw data decoding errors by [@shahor02](https://github.com/shahor02)
 - [\#9529](https://github.com/AliceO2Group/AliceO2/pull/9529) 2022-07-28: TRD: TrackletsParser: Proper zero-ing of array by [@f3sch](https://github.com/f3sch)
 - [\#9530](https://github.com/AliceO2Group/AliceO2/pull/9530) 2022-07-28: TRD TRAP charge scaling configurable by [@martenole](https://github.com/martenole)
 - [\#9533](https://github.com/AliceO2Group/AliceO2/pull/9533) 2022-07-29: Fixed DCS ITS parser output to CCDB by [@ezradlesser](https://github.com/ezradlesser)
