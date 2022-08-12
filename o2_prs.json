@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-28T10:39:59Z",
-            "title": "TRD TRAP charge scaling configurable",
-            "number": 9530,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/TrapSimulator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDTrapSimulatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDTrapSimulatorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-27T12:38:07Z",
             "title": "Set DPL CCDB fetcher default validation rate to 0",
             "number": 9531,
@@ -4111,6 +4081,31 @@
                 {
                   "node": {
                     "path": "run/checkStack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ZDC FastSim: customize ONNX session / thread number",
+            "number": 9630,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/fastsimulation/include/FastSimulations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/fastsimulation/src/FastSimulations.cxx"
                   }
                 }
               ]
