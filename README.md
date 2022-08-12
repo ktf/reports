@@ -58,6 +58,7 @@
 - [\#9612](https://github.com/AliceO2Group/AliceO2/pull/9612) 2022-08-09: Fix compatibility issue with omp by [@ktf](https://github.com/ktf)
 - [\#9613](https://github.com/AliceO2Group/AliceO2/pull/9613) 2022-08-10: [EMCAL-784] Sampling factor for different physics list for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9615](https://github.com/AliceO2Group/AliceO2/pull/9615) 2022-08-11: [EMCAL-566] Add is_messagable to calib params by [@jokonig](https://github.com/jokonig)
+- [\#9625](https://github.com/AliceO2Group/AliceO2/pull/9625) 2022-08-12: IDCs: Updating IDC documentation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9536](https://github.com/AliceO2Group/AliceO2/pull/9536) 2022-07-29: Event Display: added run type to screenshot filename by [@mchwes](https://github.com/mchwes)
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
