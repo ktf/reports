@@ -76,6 +76,7 @@
 - [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9621](https://github.com/AliceO2Group/AliceO2/pull/9621) 2022-08-11: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9623](https://github.com/AliceO2Group/AliceO2/pull/9623) 2022-08-12: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9626](https://github.com/AliceO2Group/AliceO2/pull/9626) 2022-08-11: DPL: drop wrong assertion by [@ktf](https://github.com/ktf)
 - [\#9628](https://github.com/AliceO2Group/AliceO2/pull/9628) 2022-08-12: DPL: add Clang Thread Safety Analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
