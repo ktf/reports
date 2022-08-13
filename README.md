@@ -75,6 +75,7 @@
 - [\#9573](https://github.com/AliceO2Group/AliceO2/pull/9573) 2022-08-01: Make the GPU TPC QC work again after switching to DPL Task workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#9592](https://github.com/AliceO2Group/AliceO2/pull/9592) 2022-08-05: DPL: fix InputProxy EoS by [@ktf](https://github.com/ktf)
 - [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9618](https://github.com/AliceO2Group/AliceO2/pull/9618) 2022-08-13: DPL: drain messages in READY by [@ktf](https://github.com/ktf)
 - [\#9621](https://github.com/AliceO2Group/AliceO2/pull/9621) 2022-08-11: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9623](https://github.com/AliceO2Group/AliceO2/pull/9623) 2022-08-12: remove old function by [@jgrosseo](https://github.com/jgrosseo)
