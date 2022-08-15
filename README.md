@@ -57,6 +57,7 @@
 - [\#9615](https://github.com/AliceO2Group/AliceO2/pull/9615) 2022-08-11: [EMCAL-566] Add is_messagable to calib params by [@jokonig](https://github.com/jokonig)
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
+- [\#9624](https://github.com/AliceO2Group/AliceO2/pull/9624) 2022-08-15: Fix bug in the ROF records of MID dead channels by [@dstocco](https://github.com/dstocco)
 - [\#9625](https://github.com/AliceO2Group/AliceO2/pull/9625) 2022-08-12: IDCs: Updating IDC documentation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9630](https://github.com/AliceO2Group/AliceO2/pull/9630) 2022-08-12: ZDC FastSim: customize ONNX session / thread number by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
