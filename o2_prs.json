@@ -5,146 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-28T16:11:46Z",
-            "title": "Remove forgotten debug flags",
-            "number": 9534,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DCS2CCDB for ZDC DCS data - attempt n",
-            "number": 9535,
-            "author": {
-              "login": "coppedis"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/base/include/ZDCBase/Geometry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/ZDCDCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/macros/makeZDCCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/ZDCCalibLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/ZDCDCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/DataGeneratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/ZDCDCSConfigProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/ZDCDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/data-generator-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-calib-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-config-processor-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-data-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-sim-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dummy-ccdb-for-calib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/include/ZDCSimulation/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/ZDCSimulationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-29T19:15:45Z",
             "title": "Event Display: added run type to screenshot filename",
             "number": 9536,
@@ -4121,6 +3981,56 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisTask.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD enforce tracklet mcm header sanity check",
+            "number": 9634,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-565] Include EMCAL bad channel calib in aggregator workflow",
+            "number": 9635,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]

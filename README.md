@@ -8,7 +8,6 @@
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 ## Recent developments in O2 - DataFormats
-- [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
@@ -18,7 +17,6 @@
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9541](https://github.com/AliceO2Group/AliceO2/pull/9541) 2022-07-29: Remove write of Pedestals file by [@fapfap69](https://github.com/fapfap69)
