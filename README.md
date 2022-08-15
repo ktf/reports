@@ -8,6 +8,7 @@
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
+- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
@@ -17,6 +18,7 @@
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
+- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
@@ -80,8 +82,11 @@
 - [\#9623](https://github.com/AliceO2Group/AliceO2/pull/9623) 2022-08-12: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9626](https://github.com/AliceO2Group/AliceO2/pull/9626) 2022-08-11: DPL: drop wrong assertion by [@ktf](https://github.com/ktf)
 - [\#9628](https://github.com/AliceO2Group/AliceO2/pull/9628) 2022-08-12: DPL: add Clang Thread Safety Analysis by [@ktf](https://github.com/ktf)
+- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9631](https://github.com/AliceO2Group/AliceO2/pull/9631) 2022-08-15: DPL: use array rather than vector in homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Utilities
