@@ -70,7 +70,6 @@
 - [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9538](https://github.com/AliceO2Group/AliceO2/pull/9538) 2022-07-28: DPL: Speed up DeviceSpecHelper::dataProcessorSpecs2DeviceSpecs by [@davidrohr](https://github.com/davidrohr)
 - [\#9545](https://github.com/AliceO2Group/AliceO2/pull/9545) 2022-07-29: DPL Analysis: fix for arrow v9 compatibility by [@aalkin](https://github.com/aalkin)
 - [\#9548](https://github.com/AliceO2Group/AliceO2/pull/9548) 2022-07-29: DPL: Pass routes by reference, since they remain in memory anyway by [@davidrohr](https://github.com/davidrohr)
 - [\#9573](https://github.com/AliceO2Group/AliceO2/pull/9573) 2022-08-01: Make the GPU TPC QC work again after switching to DPL Task workflow by [@davidrohr](https://github.com/davidrohr)
