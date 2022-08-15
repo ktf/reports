@@ -18,7 +18,6 @@
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9533](https://github.com/AliceO2Group/AliceO2/pull/9533) 2022-07-29: Fixed DCS ITS parser output to CCDB by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
