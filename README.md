@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Common
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
+- [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 ## Recent developments in O2 - DataFormats
 - [\#9534](https://github.com/AliceO2Group/AliceO2/pull/9534) 2022-07-28: Remove forgotten debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
@@ -58,6 +59,7 @@
 - [\#9613](https://github.com/AliceO2Group/AliceO2/pull/9613) 2022-08-10: [EMCAL-784] Sampling factor for different physics list for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9615](https://github.com/AliceO2Group/AliceO2/pull/9615) 2022-08-11: [EMCAL-566] Add is_messagable to calib params by [@jokonig](https://github.com/jokonig)
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
+- [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 - [\#9625](https://github.com/AliceO2Group/AliceO2/pull/9625) 2022-08-12: IDCs: Updating IDC documentation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9630](https://github.com/AliceO2Group/AliceO2/pull/9630) 2022-08-12: ZDC FastSim: customize ONNX session / thread number by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
