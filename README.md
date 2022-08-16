@@ -21,7 +21,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9546](https://github.com/AliceO2Group/AliceO2/pull/9546) 2022-07-29: Modernize destructor to suppress fullCI error by [@shahor02](https://github.com/shahor02)
 - [\#9549](https://github.com/AliceO2Group/AliceO2/pull/9549) 2022-07-29: Some unrelated updates by [@davidrohr](https://github.com/davidrohr)
 - [\#9550](https://github.com/AliceO2Group/AliceO2/pull/9550) 2022-07-30: [EMCAL-566] Added parameters for constraining fit range by [@jokonig](https://github.com/jokonig)
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
