@@ -21,7 +21,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9541](https://github.com/AliceO2Group/AliceO2/pull/9541) 2022-07-29: Remove write of Pedestals file by [@fapfap69](https://github.com/fapfap69)
 - [\#9542](https://github.com/AliceO2Group/AliceO2/pull/9542) 2022-07-28: Fix in RunStartOrbit extraction: uint32 is needed by [@shahor02](https://github.com/shahor02)
 - [\#9543](https://github.com/AliceO2Group/AliceO2/pull/9543) 2022-07-30: Add MC labels to ITS seeding vertices by [@mconcas](https://github.com/mconcas)
 - [\#9544](https://github.com/AliceO2Group/AliceO2/pull/9544) 2022-07-29: ITS/MFT decoder fix for HBF triggers split over CRU pages [O2-3093] by [@shahor02](https://github.com/shahor02)
