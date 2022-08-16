@@ -21,7 +21,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9539](https://github.com/AliceO2Group/AliceO2/pull/9539) 2022-07-28: TPC IDCs: fixing parallelisation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9540](https://github.com/AliceO2Group/AliceO2/pull/9540) 2022-07-28: ITS/MFT decoder should read ClustererParams from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9541](https://github.com/AliceO2Group/AliceO2/pull/9541) 2022-07-29: Remove write of Pedestals file by [@fapfap69](https://github.com/fapfap69)
 - [\#9542](https://github.com/AliceO2Group/AliceO2/pull/9542) 2022-07-28: Fix in RunStartOrbit extraction: uint32 is needed by [@shahor02](https://github.com/shahor02)
