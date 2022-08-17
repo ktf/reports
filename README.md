@@ -63,6 +63,7 @@
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9644](https://github.com/AliceO2Group/AliceO2/pull/9644) 2022-08-17: Fixing mUpdateCCDB flag, otherwise it invalidates the current object by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
