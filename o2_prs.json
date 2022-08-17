@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-29T19:03:48Z",
-            "title": "Protect against 0 VDrift correction, refuse to send to CCDB",
-            "number": 9552,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/LtrCalibData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-07-29T16:18:42Z",
             "title": "Modernize MCH ~MisAligner to silence FullCI failure",
             "number": 9553,
@@ -4141,6 +4116,26 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/test/PVFromPool.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Pipe TPC-ITS w-flow after FT0 reco to use its output",
+            "number": 9652,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
