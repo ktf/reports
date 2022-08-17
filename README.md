@@ -88,5 +88,3 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
-## Recent developments in O2 - Utilities
-- [\#9547](https://github.com/AliceO2Group/AliceO2/pull/9547) 2022-07-29: [Mergers] Add two debug logs by [@knopers8](https://github.com/knopers8)
