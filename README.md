@@ -48,6 +48,7 @@
 - [\#9591](https://github.com/AliceO2Group/AliceO2/pull/9591) 2022-08-03: TPC IDCs: use separate data description for A and C side by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9595](https://github.com/AliceO2Group/AliceO2/pull/9595) 2022-08-16: [MCH] Fix position of chamber 7I (bug) by [@javierecc](https://github.com/javierecc)
+- [\#9597](https://github.com/AliceO2Group/AliceO2/pull/9597) 2022-08-17: Fix memory leak in calibration by [@peressounko](https://github.com/peressounko)
 - [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9600](https://github.com/AliceO2Group/AliceO2/pull/9600) 2022-08-16: Correctly flag FET for MID REG boards by [@dstocco](https://github.com/dstocco)
 - [\#9601](https://github.com/AliceO2Group/AliceO2/pull/9601) 2022-08-11: [EMCAL-794] Added cell data producer by [@jokonig](https://github.com/jokonig)
