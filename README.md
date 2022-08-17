@@ -10,6 +10,7 @@
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
+- [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#9552](https://github.com/AliceO2Group/AliceO2/pull/9552) 2022-07-29: Protect against 0 VDrift correction, refuse to send to CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
@@ -22,6 +23,7 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
+- [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#9549](https://github.com/AliceO2Group/AliceO2/pull/9549) 2022-07-29: Some unrelated updates by [@davidrohr](https://github.com/davidrohr)
 - [\#9550](https://github.com/AliceO2Group/AliceO2/pull/9550) 2022-07-30: [EMCAL-566] Added parameters for constraining fit range by [@jokonig](https://github.com/jokonig)
