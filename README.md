@@ -20,6 +20,7 @@
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
+- [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#9549](https://github.com/AliceO2Group/AliceO2/pull/9549) 2022-07-29: Some unrelated updates by [@davidrohr](https://github.com/davidrohr)
@@ -60,6 +61,7 @@
 - [\#9624](https://github.com/AliceO2Group/AliceO2/pull/9624) 2022-08-15: Fix bug in the ROF records of MID dead channels by [@dstocco](https://github.com/dstocco)
 - [\#9625](https://github.com/AliceO2Group/AliceO2/pull/9625) 2022-08-12: IDCs: Updating IDC documentation by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9630](https://github.com/AliceO2Group/AliceO2/pull/9630) 2022-08-12: ZDC FastSim: customize ONNX session / thread number by [@sawenzel](https://github.com/sawenzel)
+- [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9558](https://github.com/AliceO2Group/AliceO2/pull/9558) 2022-07-30: Enable MFT-MCH matches in ED by [@pnwkw](https://github.com/pnwkw)
