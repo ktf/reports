@@ -23,6 +23,7 @@
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
+- [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
 - [\#9559](https://github.com/AliceO2Group/AliceO2/pull/9559) 2022-08-03: FIT calibration: large refactoring by [@afurs](https://github.com/afurs)
 - [\#9561](https://github.com/AliceO2Group/AliceO2/pull/9561) 2022-07-29: Fix in the LtrCalibData renormalization by [@shahor02](https://github.com/shahor02)
