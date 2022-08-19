@@ -24,6 +24,7 @@
 - [\#9647](https://github.com/AliceO2Group/AliceO2/pull/9647) 2022-08-19: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
 - [\#9568](https://github.com/AliceO2Group/AliceO2/pull/9568) 2022-07-30: [EMCAL-769] Skip bunches with bunch size > channel payload size by [@mfasDa](https://github.com/mfasDa)
