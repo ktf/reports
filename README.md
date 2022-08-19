@@ -5,6 +5,7 @@
 - [\#9628](https://github.com/AliceO2Group/AliceO2/pull/9628) 2022-08-12: DPL: add Clang Thread Safety Analysis by [@ktf](https://github.com/ktf)
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
@@ -85,6 +86,7 @@
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9648](https://github.com/AliceO2Group/AliceO2/pull/9648) 2022-08-19: DPL Analysis: Event mixing: Mixing counters by [@saganatt](https://github.com/saganatt)
+- [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
