@@ -85,6 +85,7 @@
 - [\#9631](https://github.com/AliceO2Group/AliceO2/pull/9631) 2022-08-15: DPL: use array rather than vector in homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9648](https://github.com/AliceO2Group/AliceO2/pull/9648) 2022-08-19: DPL Analysis: Event mixing: Mixing counters by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
