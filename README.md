@@ -24,7 +24,6 @@
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
-- [\#9564](https://github.com/AliceO2Group/AliceO2/pull/9564) 2022-07-30: [EMCAL-769] Protection from crash in raw decoding if bunch ADC vector is too small by [@davidrohr](https://github.com/davidrohr)
 - [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
 - [\#9568](https://github.com/AliceO2Group/AliceO2/pull/9568) 2022-07-30: [EMCAL-769] Skip bunches with bunch size > channel payload size by [@mfasDa](https://github.com/mfasDa)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -64,6 +63,7 @@
 - [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
 - [\#9654](https://github.com/AliceO2Group/AliceO2/pull/9654) 2022-08-18: [EMCAL-565] Use proper calibrator in fillTFIDInfo by [@mfasDa](https://github.com/mfasDa)
 - [\#9658](https://github.com/AliceO2Group/AliceO2/pull/9658) 2022-08-18: fix ITS/MFT track time assingment in VertexTrackMatcherSpec by [@shahor02](https://github.com/shahor02)
+- [\#9663](https://github.com/AliceO2Group/AliceO2/pull/9663) 2022-08-19: Tentative fix for MFT-MCH matching failure at IR mismatch by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
