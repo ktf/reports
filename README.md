@@ -64,6 +64,7 @@
 - [\#9654](https://github.com/AliceO2Group/AliceO2/pull/9654) 2022-08-18: [EMCAL-565] Use proper calibrator in fillTFIDInfo by [@mfasDa](https://github.com/mfasDa)
 - [\#9658](https://github.com/AliceO2Group/AliceO2/pull/9658) 2022-08-18: fix ITS/MFT track time assingment in VertexTrackMatcherSpec by [@shahor02](https://github.com/shahor02)
 - [\#9663](https://github.com/AliceO2Group/AliceO2/pull/9663) 2022-08-19: Tentative fix for MFT-MCH matching failure at IR mismatch by [@shahor02](https://github.com/shahor02)
+- [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
