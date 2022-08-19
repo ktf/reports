@@ -11,7 +11,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#9562](https://github.com/AliceO2Group/AliceO2/pull/9562) 2022-08-04: trace int BC used and candidates in TOF calibInfo by [@noferini](https://github.com/noferini)
 - [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
@@ -25,7 +24,6 @@
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
-- [\#9562](https://github.com/AliceO2Group/AliceO2/pull/9562) 2022-08-04: trace int BC used and candidates in TOF calibInfo by [@noferini](https://github.com/noferini)
 - [\#9563](https://github.com/AliceO2Group/AliceO2/pull/9563) 2022-07-30: Demote error severity to warning by [@davidrohr](https://github.com/davidrohr)
 - [\#9564](https://github.com/AliceO2Group/AliceO2/pull/9564) 2022-07-30: [EMCAL-769] Protection from crash in raw decoding if bunch ADC vector is too small by [@davidrohr](https://github.com/davidrohr)
 - [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
