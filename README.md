@@ -12,7 +12,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
@@ -26,9 +25,6 @@
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9567](https://github.com/AliceO2Group/AliceO2/pull/9567) 2022-07-30: MCH: temporary workaround to limit tracking duration by [@aphecetche](https://github.com/aphecetche)
-- [\#9568](https://github.com/AliceO2Group/AliceO2/pull/9568) 2022-07-30: [EMCAL-769] Skip bunches with bunch size > channel payload size by [@mfasDa](https://github.com/mfasDa)
-- [\#9570](https://github.com/AliceO2Group/AliceO2/pull/9570) 2022-07-30: Fix for HMP data in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#9575](https://github.com/AliceO2Group/AliceO2/pull/9575) 2022-07-31: RecoContainer may attach Calo/CPV cluesters via Tracks request by [@shahor02](https://github.com/shahor02)
 - [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
 - [\#9579](https://github.com/AliceO2Group/AliceO2/pull/9579) 2022-08-08: Remove followCCDBUpdates and adjust calib settings by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -68,7 +64,6 @@
 - [\#9663](https://github.com/AliceO2Group/AliceO2/pull/9663) 2022-08-19: Tentative fix for MFT-MCH matching failure at IR mismatch by [@shahor02](https://github.com/shahor02)
 - [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#9566](https://github.com/AliceO2Group/AliceO2/pull/9566) 2022-07-30: Request PV from InputHelper in --primary-vertex-mode mode by [@shahor02](https://github.com/shahor02)
 - [\#9571](https://github.com/AliceO2Group/AliceO2/pull/9571) 2022-07-31: Adapt eve-export to GRPGeomHelper by [@shahor02](https://github.com/shahor02)
 - [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
