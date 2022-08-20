@@ -83,6 +83,7 @@
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9648](https://github.com/AliceO2Group/AliceO2/pull/9648) 2022-08-19: DPL Analysis: Event mixing: Mixing counters by [@saganatt](https://github.com/saganatt)
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
+- [\#9657](https://github.com/AliceO2Group/AliceO2/pull/9657) 2022-08-20: DPL Analysis: Event mixing: Fix to allow Pair and Triple on the same kind tables by [@saganatt](https://github.com/saganatt)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
