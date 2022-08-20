@@ -88,3 +88,5 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#9660](https://github.com/AliceO2Group/AliceO2/pull/9660) 2022-08-20: ShmManager: error & exit if memory is removed unexpectedly by [@rbx](https://github.com/rbx)
