@@ -59,6 +59,7 @@
 - [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
 - [\#9654](https://github.com/AliceO2Group/AliceO2/pull/9654) 2022-08-18: [EMCAL-565] Use proper calibrator in fillTFIDInfo by [@mfasDa](https://github.com/mfasDa)
 - [\#9658](https://github.com/AliceO2Group/AliceO2/pull/9658) 2022-08-18: fix ITS/MFT track time assingment in VertexTrackMatcherSpec by [@shahor02](https://github.com/shahor02)
+- [\#9661](https://github.com/AliceO2Group/AliceO2/pull/9661) 2022-08-21: Set CTF migration priority to low if FallBackDir is used by [@shahor02](https://github.com/shahor02)
 - [\#9663](https://github.com/AliceO2Group/AliceO2/pull/9663) 2022-08-19: Tentative fix for MFT-MCH matching failure at IR mismatch by [@shahor02](https://github.com/shahor02)
 - [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
