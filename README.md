@@ -24,7 +24,6 @@
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9577](https://github.com/AliceO2Group/AliceO2/pull/9577) 2022-08-01: Provide more info on PVertexer operation, limit time per TZ-cluster, dump it excceded. by [@shahor02](https://github.com/shahor02)
 - [\#9579](https://github.com/AliceO2Group/AliceO2/pull/9579) 2022-08-08: Remove followCCDBUpdates and adjust calib settings by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9580](https://github.com/AliceO2Group/AliceO2/pull/9580) 2022-08-03: Suppress massive sorting in SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
@@ -64,11 +63,9 @@
 - [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - EventVisualisation
-- [\#9576](https://github.com/AliceO2Group/AliceO2/pull/9576) 2022-08-01: Draw EMCAL,PHOS towers associated with primary vertices in ED by [@pnwkw](https://github.com/pnwkw)
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9573](https://github.com/AliceO2Group/AliceO2/pull/9573) 2022-08-01: Make the GPU TPC QC work again after switching to DPL Task workflow by [@davidrohr](https://github.com/davidrohr)
 - [\#9592](https://github.com/AliceO2Group/AliceO2/pull/9592) 2022-08-05: DPL: fix InputProxy EoS by [@ktf](https://github.com/ktf)
 - [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9618](https://github.com/AliceO2Group/AliceO2/pull/9618) 2022-08-13: DPL: drain messages in READY by [@ktf](https://github.com/ktf)
