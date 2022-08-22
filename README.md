@@ -41,6 +41,8 @@
 - [\#9604](https://github.com/AliceO2Group/AliceO2/pull/9604) 2022-08-10: IDCs: Correctly handle dropped data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 - [\#9608](https://github.com/AliceO2Group/AliceO2/pull/9608) 2022-08-10: [EMCAL-789] Update default values with current settings at P2 by [@mfasDa](https://github.com/mfasDa)
+- [\#9609](https://github.com/AliceO2Group/AliceO2/pull/9609) 2022-08-22: [MFT] Several minor fixes on assessment workflow by [@rpezzi](https://github.com/rpezzi)
+- [\#9610](https://github.com/AliceO2Group/AliceO2/pull/9610) 2022-08-22: Improve MFT linear track fitting + configurable misalignment residuals by [@rpezzi](https://github.com/rpezzi)
 - [\#9612](https://github.com/AliceO2Group/AliceO2/pull/9612) 2022-08-09: Fix compatibility issue with omp by [@ktf](https://github.com/ktf)
 - [\#9613](https://github.com/AliceO2Group/AliceO2/pull/9613) 2022-08-10: [EMCAL-784] Sampling factor for different physics list for Geant4 by [@mfasDa](https://github.com/mfasDa)
 - [\#9615](https://github.com/AliceO2Group/AliceO2/pull/9615) 2022-08-11: [EMCAL-566] Add is_messagable to calib params by [@jokonig](https://github.com/jokonig)
