@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add add function to work with strings",
-            "number": 9581,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HistogramRegistry.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-08-02T11:12:58Z",
             "title": " [EMCAL-776] Make bad channel scale factors streamable",
@@ -3724,8 +3699,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-08-23T09:36:40Z",
             "title": "DPL: exit immediately after EoS if timeout was requested",
             "number": 9676,
             "author": {
@@ -3896,6 +3871,31 @@
                 {
                   "node": {
                     "path": "Framework/GUISupport/src/FrameworkGUIDeviceInspector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "bug fix due to wrong truncation in TOF digitizer/encoder",
+            "number": 9681,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/reconstruction/src/Encoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
