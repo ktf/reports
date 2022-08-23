@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-08-02T11:12:58Z",
-            "title": " [EMCAL-776] Make bad channel scale factors streamable",
-            "number": 9582,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/EMCALChannelScaleFactors.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calib/src/EMCALCalibLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "TRD: Trackletsparser: corrections, spacing and logic changes",
@@ -3896,6 +3871,46 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] abort tracking if it takes too long",
+            "number": 9682,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/TrackerParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/PreClustering/src/PreClusterFinderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Tracking/include/MCHTracking/TrackFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Tracking/src/TrackFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/TrackFinderSpec.cxx"
                   }
                 }
               ]
