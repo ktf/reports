@@ -12,7 +12,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
@@ -26,9 +25,6 @@
 ## Recent developments in O2 - Detectors
 - [\#9579](https://github.com/AliceO2Group/AliceO2/pull/9579) 2022-08-08: Remove followCCDBUpdates and adjust calib settings by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9580](https://github.com/AliceO2Group/AliceO2/pull/9580) 2022-08-03: Suppress massive sorting in SVertexer by [@shahor02](https://github.com/shahor02)
-- [\#9582](https://github.com/AliceO2Group/AliceO2/pull/9582) 2022-08-02:  [EMCAL-776] Make bad channel scale factors streamable by [@jokonig](https://github.com/jokonig)
-- [\#9585](https://github.com/AliceO2Group/AliceO2/pull/9585) 2022-08-02: [EMCAL-710] Post hardware address and FEC index for minor ALTRO error by [@mfasDa](https://github.com/mfasDa)
-- [\#9587](https://github.com/AliceO2Group/AliceO2/pull/9587) 2022-08-02: [FIT] Triggers hotfix by [@mslupeck](https://github.com/mslupeck)
 - [\#9588](https://github.com/AliceO2Group/AliceO2/pull/9588) 2022-08-08: Release cuts in SVertexer by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9591](https://github.com/AliceO2Group/AliceO2/pull/9591) 2022-08-03: TPC IDCs: use separate data description for A and C side by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
