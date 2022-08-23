@@ -24,8 +24,6 @@
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#9579](https://github.com/AliceO2Group/AliceO2/pull/9579) 2022-08-08: Remove followCCDBUpdates and adjust calib settings by [@chiarazampolli](https://github.com/chiarazampolli)
-- [\#9580](https://github.com/AliceO2Group/AliceO2/pull/9580) 2022-08-03: Suppress massive sorting in SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9588](https://github.com/AliceO2Group/AliceO2/pull/9588) 2022-08-08: Release cuts in SVertexer by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9591](https://github.com/AliceO2Group/AliceO2/pull/9591) 2022-08-03: TPC IDCs: use separate data description for A and C side by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
