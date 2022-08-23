@@ -62,6 +62,7 @@
 - [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
+- [\#9677](https://github.com/AliceO2Group/AliceO2/pull/9677) 2022-08-23: TPC SpaceCharge: Cleaning code by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
