@@ -24,7 +24,6 @@
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#9588](https://github.com/AliceO2Group/AliceO2/pull/9588) 2022-08-08: Release cuts in SVertexer by [@fmazzasc](https://github.com/fmazzasc)
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9595](https://github.com/AliceO2Group/AliceO2/pull/9595) 2022-08-16: [MCH] Fix position of chamber 7I (bug) by [@javierecc](https://github.com/javierecc)
 - [\#9597](https://github.com/AliceO2Group/AliceO2/pull/9597) 2022-08-17: Fix memory leak in calibration by [@peressounko](https://github.com/peressounko)
