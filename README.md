@@ -23,6 +23,7 @@
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
+- [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#9594](https://github.com/AliceO2Group/AliceO2/pull/9594) 2022-08-04: [EMCAL-622] Fix typo for doxygen group of calibration objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9595](https://github.com/AliceO2Group/AliceO2/pull/9595) 2022-08-16: [MCH] Fix position of chamber 7I (bug) by [@javierecc](https://github.com/javierecc)
@@ -58,6 +59,7 @@
 - [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
+- [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9677](https://github.com/AliceO2Group/AliceO2/pull/9677) 2022-08-23: TPC SpaceCharge: Cleaning code by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9678](https://github.com/AliceO2Group/AliceO2/pull/9678) 2022-08-23: [EMCAL-794] Add event counter and end of stream to data producer by [@jokonig](https://github.com/jokonig)
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
