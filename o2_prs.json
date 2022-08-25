@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: invoke task destructor on exit",
-            "number": 9598,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CallbackService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Task.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-08-05T19:10:29Z",
             "title": "Add verbose option for ITS DCS parser",
@@ -3756,6 +3726,36 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/testWorkflow/EMCALChannelCalibratorSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for Mean Vertex calibration",
+            "number": 9698,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexData.cxx"
                   }
                 }
               ]
