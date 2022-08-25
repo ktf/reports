@@ -26,7 +26,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9595](https://github.com/AliceO2Group/AliceO2/pull/9595) 2022-08-16: [MCH] Fix position of chamber 7I (bug) by [@javierecc](https://github.com/javierecc)
 - [\#9597](https://github.com/AliceO2Group/AliceO2/pull/9597) 2022-08-17: Fix memory leak in calibration by [@peressounko](https://github.com/peressounko)
 - [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9600](https://github.com/AliceO2Group/AliceO2/pull/9600) 2022-08-16: Correctly flag FET for MID REG boards by [@dstocco](https://github.com/dstocco)
