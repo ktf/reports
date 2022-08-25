@@ -5,6 +5,7 @@
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
+- [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
@@ -82,6 +83,7 @@
 - [\#9657](https://github.com/AliceO2Group/AliceO2/pull/9657) 2022-08-20: DPL Analysis: Event mixing: Fix to allow Pair and Triple on the same kind tables by [@saganatt](https://github.com/saganatt)
 - [\#9676](https://github.com/AliceO2Group/AliceO2/pull/9676) 2022-08-23: DPL: exit immediately after EoS if timeout was requested by [@ktf](https://github.com/ktf)
 - [\#9680](https://github.com/AliceO2Group/AliceO2/pull/9680) 2022-08-23: DPL GUI: improve GUI using special glyphs by [@ktf](https://github.com/ktf)
+- [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
