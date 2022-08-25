@@ -48,6 +48,7 @@
 - [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9644](https://github.com/AliceO2Group/AliceO2/pull/9644) 2022-08-17: Fixing mUpdateCCDB flag, otherwise it invalidates the current object by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#9646](https://github.com/AliceO2Group/AliceO2/pull/9646) 2022-08-25: [EMCAL-797] Read calibration params from ccdb by [@jokonig](https://github.com/jokonig)
 - [\#9647](https://github.com/AliceO2Group/AliceO2/pull/9647) 2022-08-19: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9650](https://github.com/AliceO2Group/AliceO2/pull/9650) 2022-08-18: [EMCAL-798]: Prepare offline calibrator.  by [@hjbossi](https://github.com/hjbossi)
 - [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
