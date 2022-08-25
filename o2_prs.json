@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-03T22:03:31Z",
-            "title": "TPC IDC calibration: need TPCIDC in input spec of readout proxy, as long as we forward via EPNs",
-            "number": 9596,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-17T13:21:58Z",
             "title": "Fix memory leak in calibration",
             "number": 9597,
@@ -3716,6 +3696,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/ClustererSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MRRTF-176: Fix mix-up between milliseconds and seconds in duration check",
+            "number": 9696,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/Common/src/dcs-processor-workflow.cxx"
                   }
                 }
               ]
