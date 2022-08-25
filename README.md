@@ -24,6 +24,7 @@
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
+- [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
 - [\#9595](https://github.com/AliceO2Group/AliceO2/pull/9595) 2022-08-16: [MCH] Fix position of chamber 7I (bug) by [@javierecc](https://github.com/javierecc)
 - [\#9597](https://github.com/AliceO2Group/AliceO2/pull/9597) 2022-08-17: Fix memory leak in calibration by [@peressounko](https://github.com/peressounko)
@@ -63,6 +64,7 @@
 - [\#9678](https://github.com/AliceO2Group/AliceO2/pull/9678) 2022-08-23: [EMCAL-794] Add event counter and end of stream to data producer by [@jokonig](https://github.com/jokonig)
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
+- [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - EventVisualisation
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
