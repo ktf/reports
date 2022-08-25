@@ -62,6 +62,7 @@
 - [\#9677](https://github.com/AliceO2Group/AliceO2/pull/9677) 2022-08-23: TPC SpaceCharge: Cleaning code by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9678](https://github.com/AliceO2Group/AliceO2/pull/9678) 2022-08-23: [EMCAL-794] Add event counter and end of stream to data producer by [@jokonig](https://github.com/jokonig)
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
+- [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
