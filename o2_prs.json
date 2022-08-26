@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-10T07:35:41Z",
-            "title": "o2-eve: fixing refresh after run type change, refactoring",
-            "number": 9606,
-            "author": {
-              "login": "jmyrcha"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOnline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/FileWatcher.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/FileWatcher.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManagerFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManagerFrame.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-10T15:24:32Z",
             "title": "TRD add T0 calibration class",
             "number": 9607,
@@ -3711,6 +3666,56 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] DCSConfigObject to noise calib workflow and extra cut for ITS IB",
+            "number": 9706,
+            "author": {
+              "login": "iravasen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/NoiseMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibratorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/calibration/include/MFTCalibration/NoiseCalibratorSpec.h"
                   }
                 }
               ]

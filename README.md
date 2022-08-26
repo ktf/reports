@@ -63,7 +63,6 @@
 - [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - EventVisualisation
-- [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
