@@ -64,6 +64,7 @@
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
+- [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#9606](https://github.com/AliceO2Group/AliceO2/pull/9606) 2022-08-10: o2-eve: fixing refresh after run type change, refactoring by [@jmyrcha](https://github.com/jmyrcha)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
