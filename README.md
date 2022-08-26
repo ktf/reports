@@ -12,7 +12,6 @@
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
@@ -26,7 +25,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9607](https://github.com/AliceO2Group/AliceO2/pull/9607) 2022-08-10: TRD add T0 calibration class by [@martenole](https://github.com/martenole)
 - [\#9608](https://github.com/AliceO2Group/AliceO2/pull/9608) 2022-08-10: [EMCAL-789] Update default values with current settings at P2 by [@mfasDa](https://github.com/mfasDa)
 - [\#9609](https://github.com/AliceO2Group/AliceO2/pull/9609) 2022-08-22: [MFT] Several minor fixes on assessment workflow by [@rpezzi](https://github.com/rpezzi)
 - [\#9610](https://github.com/AliceO2Group/AliceO2/pull/9610) 2022-08-22: Improve MFT linear track fitting + configurable misalignment residuals by [@rpezzi](https://github.com/rpezzi)
@@ -84,6 +82,7 @@
 - [\#9680](https://github.com/AliceO2Group/AliceO2/pull/9680) 2022-08-23: DPL GUI: improve GUI using special glyphs by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
+- [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
