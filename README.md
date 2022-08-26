@@ -26,7 +26,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9599](https://github.com/AliceO2Group/AliceO2/pull/9599) 2022-08-05: Add verbose option for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9600](https://github.com/AliceO2Group/AliceO2/pull/9600) 2022-08-16: Correctly flag FET for MID REG boards by [@dstocco](https://github.com/dstocco)
 - [\#9601](https://github.com/AliceO2Group/AliceO2/pull/9601) 2022-08-11: [EMCAL-794] Added cell data producer by [@jokonig](https://github.com/jokonig)
 - [\#9602](https://github.com/AliceO2Group/AliceO2/pull/9602) 2022-08-08: [EMCAL-769, EMCAL-795] Handle cases where bunch size would be 0 by [@mfasDa](https://github.com/mfasDa)
