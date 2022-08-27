@@ -25,7 +25,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9608](https://github.com/AliceO2Group/AliceO2/pull/9608) 2022-08-10: [EMCAL-789] Update default values with current settings at P2 by [@mfasDa](https://github.com/mfasDa)
 - [\#9609](https://github.com/AliceO2Group/AliceO2/pull/9609) 2022-08-22: [MFT] Several minor fixes on assessment workflow by [@rpezzi](https://github.com/rpezzi)
 - [\#9610](https://github.com/AliceO2Group/AliceO2/pull/9610) 2022-08-22: Improve MFT linear track fitting + configurable misalignment residuals by [@rpezzi](https://github.com/rpezzi)
 - [\#9612](https://github.com/AliceO2Group/AliceO2/pull/9612) 2022-08-09: Fix compatibility issue with omp by [@ktf](https://github.com/ktf)
