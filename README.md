@@ -60,7 +60,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9618](https://github.com/AliceO2Group/AliceO2/pull/9618) 2022-08-13: DPL: drain messages in READY by [@ktf](https://github.com/ktf)
 - [\#9621](https://github.com/AliceO2Group/AliceO2/pull/9621) 2022-08-11: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9623](https://github.com/AliceO2Group/AliceO2/pull/9623) 2022-08-12: remove old function by [@jgrosseo](https://github.com/jgrosseo)
