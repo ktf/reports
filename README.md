@@ -26,7 +26,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9615](https://github.com/AliceO2Group/AliceO2/pull/9615) 2022-08-11: [EMCAL-566] Add is_messagable to calib params by [@jokonig](https://github.com/jokonig)
 - [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 - [\#9624](https://github.com/AliceO2Group/AliceO2/pull/9624) 2022-08-15: Fix bug in the ROF records of MID dead channels by [@dstocco](https://github.com/dstocco)
