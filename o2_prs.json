@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-13T14:46:54Z",
-            "title": "[EMCAL-566] print cellID if fit in time calib fails",
-            "number": 9616,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/src/BoostHistogramUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibExtractor.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-08-10T21:03:16Z",
-            "title": "getNbins, typos, warning for too many bins",
-            "number": 9617,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HistogramSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/StepTHn.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-13T20:11:38Z",
             "title": "DPL: drain messages in READY",
             "number": 9618,
@@ -3631,6 +3571,76 @@
                 {
                   "node": {
                     "path": "CCDB/src/BasicCCDBManager.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-485] Timepipeline parallelism in multi-layer Mergers",
+            "number": 9716,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/include/Mergers/MergerBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/include/Mergers/MergerConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/MergerBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/MergerInfrastructureBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/test/test_InfrastructureBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adjust TOF calib collector (speed up)",
+            "number": 9717,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFCalibCollector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFCalibCollector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFCalibCollectorWriterSpec.h"
                   }
                 }
               ]

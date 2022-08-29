@@ -7,7 +7,6 @@
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
@@ -26,7 +25,6 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 ## Recent developments in O2 - Detectors
-- [\#9616](https://github.com/AliceO2Group/AliceO2/pull/9616) 2022-08-13: [EMCAL-566] print cellID if fit in time calib fails by [@jokonig](https://github.com/jokonig)
 - [\#9620](https://github.com/AliceO2Group/AliceO2/pull/9620) 2022-08-15: [EMCAL-565]: Add deployment-ready bad channel map code. by [@hjbossi](https://github.com/hjbossi)
 - [\#9624](https://github.com/AliceO2Group/AliceO2/pull/9624) 2022-08-15: Fix bug in the ROF records of MID dead channels by [@dstocco](https://github.com/dstocco)
 - [\#9625](https://github.com/AliceO2Group/AliceO2/pull/9625) 2022-08-12: IDCs: Updating IDC documentation by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -62,7 +60,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9617](https://github.com/AliceO2Group/AliceO2/pull/9617) 2022-08-10: getNbins, typos, warning for too many bins by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9618](https://github.com/AliceO2Group/AliceO2/pull/9618) 2022-08-13: DPL: drain messages in READY by [@ktf](https://github.com/ktf)
 - [\#9621](https://github.com/AliceO2Group/AliceO2/pull/9621) 2022-08-11: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
