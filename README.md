@@ -7,11 +7,9 @@
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 - [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
-- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
@@ -59,10 +57,10 @@
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
 - [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9727](https://github.com/AliceO2Group/AliceO2/pull/9727) 2022-08-30: Remove DEBUG_DUMP define left in accidentally by [@davidrohr](https://github.com/davidrohr)
+- [\#9729](https://github.com/AliceO2Group/AliceO2/pull/9729) 2022-08-30: Check existence of PVertexer debug output before writing it by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9631](https://github.com/AliceO2Group/AliceO2/pull/9631) 2022-08-15: DPL: use array rather than vector in homogeneous_apply_ref by [@ktf](https://github.com/ktf)
 - [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
@@ -77,8 +75,6 @@
 - [\#9710](https://github.com/AliceO2Group/AliceO2/pull/9710) 2022-08-29: DPL Analysis: do not use string lookup for finding columns by [@aalkin](https://github.com/aalkin)
 - [\#9712](https://github.com/AliceO2Group/AliceO2/pull/9712) 2022-08-30: DPL Analysis: merge make builders and makeFinalizers by [@ktf](https://github.com/ktf)
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
