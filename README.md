@@ -60,7 +60,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9626](https://github.com/AliceO2Group/AliceO2/pull/9626) 2022-08-11: DPL: drop wrong assertion by [@ktf](https://github.com/ktf)
 - [\#9628](https://github.com/AliceO2Group/AliceO2/pull/9628) 2022-08-12: DPL: add Clang Thread Safety Analysis by [@ktf](https://github.com/ktf)
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 - [\#9631](https://github.com/AliceO2Group/AliceO2/pull/9631) 2022-08-15: DPL: use array rather than vector in homogeneous_apply_ref by [@ktf](https://github.com/ktf)
@@ -75,6 +74,7 @@
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
 - [\#9710](https://github.com/AliceO2Group/AliceO2/pull/9710) 2022-08-29: DPL Analysis: do not use string lookup for finding columns by [@aalkin](https://github.com/aalkin)
+- [\#9712](https://github.com/AliceO2Group/AliceO2/pull/9712) 2022-08-30: DPL Analysis: merge make builders and makeFinalizers by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#9629](https://github.com/AliceO2Group/AliceO2/pull/9629) 2022-08-15: O2DatabasePDG service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
