@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-10T15:09:36Z",
-            "title": "Calib workflow: bugfix: was only checking the aggregator task, but not if IDC calib is enabled",
-            "number": 9619,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-15T07:57:43Z",
             "title": "[EMCAL-565]: Add deployment-ready bad channel map code.",
             "number": 9620,
@@ -3641,6 +3621,31 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FDD/workflow/src/ReconstructorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use bare lambdas for the callbacks",
+            "number": 9719,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
                   }
                 }
               ]
