@@ -61,7 +61,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9622](https://github.com/AliceO2Group/AliceO2/pull/9622) 2022-08-11: Revert "remove old function" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9623](https://github.com/AliceO2Group/AliceO2/pull/9623) 2022-08-12: remove old function by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9626](https://github.com/AliceO2Group/AliceO2/pull/9626) 2022-08-11: DPL: drop wrong assertion by [@ktf](https://github.com/ktf)
 - [\#9628](https://github.com/AliceO2Group/AliceO2/pull/9628) 2022-08-12: DPL: add Clang Thread Safety Analysis by [@ktf](https://github.com/ktf)
