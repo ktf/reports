@@ -57,6 +57,7 @@
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
+- [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
