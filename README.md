@@ -51,6 +51,7 @@
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
+- [\#9687](https://github.com/AliceO2Group/AliceO2/pull/9687) 2022-08-30: Modified the data format for DCS from calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
 - [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 - [\#9697](https://github.com/AliceO2Group/AliceO2/pull/9697) 2022-08-28: [EMCAL-565]: Fix for bad channel histo range, reorganize EMCALCalibParams by [@jokonig](https://github.com/jokonig)
