@@ -25,7 +25,6 @@
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9630](https://github.com/AliceO2Group/AliceO2/pull/9630) 2022-08-12: ZDC FastSim: customize ONNX session / thread number by [@sawenzel](https://github.com/sawenzel)
 - [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
