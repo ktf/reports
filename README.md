@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
@@ -64,7 +63,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9633](https://github.com/AliceO2Group/AliceO2/pull/9633) 2022-08-15: DPL: drop unneeded headers by [@ktf](https://github.com/ktf)
 - [\#9642](https://github.com/AliceO2Group/AliceO2/pull/9642) 2022-08-16: adding HepMC tables by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9648](https://github.com/AliceO2Group/AliceO2/pull/9648) 2022-08-19: DPL Analysis: Event mixing: Mixing counters by [@saganatt](https://github.com/saganatt)
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
