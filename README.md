@@ -20,6 +20,7 @@
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
+- [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -44,6 +45,7 @@
 - [\#9678](https://github.com/AliceO2Group/AliceO2/pull/9678) 2022-08-23: [EMCAL-794] Add event counter and end of stream to data producer by [@jokonig](https://github.com/jokonig)
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
+- [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9687](https://github.com/AliceO2Group/AliceO2/pull/9687) 2022-08-30: Modified the data format for DCS from calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
@@ -54,6 +56,7 @@
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#9722](https://github.com/AliceO2Group/AliceO2/pull/9722) 2022-08-31: Trd qc update by [@f3sch](https://github.com/f3sch)
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
 - [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9727](https://github.com/AliceO2Group/AliceO2/pull/9727) 2022-08-30: Remove DEBUG_DUMP define left in accidentally by [@davidrohr](https://github.com/davidrohr)
