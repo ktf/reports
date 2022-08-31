@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-07-29T11:00:24Z",
-            "title": "Fix missing TOF plots",
-            "number": 1077,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaPIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/qaPIDTPC.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-03T10:27:26Z",
             "title": "[EventFiltering] Add option to run ML inference single thread",
             "number": 1078,
@@ -2704,8 +2679,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-08-31T09:38:37Z",
             "title": "[DPG]: update control plots for qaEventTrack.cxx",
             "number": 1176,
             "author": {
@@ -2716,6 +2691,31 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PIDML: Split producer output into smaller tables, add validation histograms",
+            "number": 1177,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidML.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/pidMLProducer.cxx"
                   }
                 }
               ]
