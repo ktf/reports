@@ -10,7 +10,6 @@
 - [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9637](https://github.com/AliceO2Group/AliceO2/pull/9637) 2022-08-16: Default bunch filling in MC GRPLHCIF by [@sawenzel](https://github.com/sawenzel)
 - [\#9641](https://github.com/AliceO2Group/AliceO2/pull/9641) 2022-08-17: o2-sim: Promote random seed to 64bit int (or ULong_t) by [@sawenzel](https://github.com/sawenzel)
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
@@ -24,7 +23,6 @@
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9634](https://github.com/AliceO2Group/AliceO2/pull/9634) 2022-08-17: TRD enforce tracklet mcm header sanity check by [@bazinski](https://github.com/bazinski)
 - [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9644](https://github.com/AliceO2Group/AliceO2/pull/9644) 2022-08-17: Fixing mUpdateCCDB flag, otherwise it invalidates the current object by [@chiarazampolli](https://github.com/chiarazampolli)
