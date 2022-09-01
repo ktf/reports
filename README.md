@@ -23,7 +23,6 @@
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9636](https://github.com/AliceO2Group/AliceO2/pull/9636) 2022-08-15: SpaceCharge: Fix bug in macro for calculating I0 and I1 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9644](https://github.com/AliceO2Group/AliceO2/pull/9644) 2022-08-17: Fixing mUpdateCCDB flag, otherwise it invalidates the current object by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9646](https://github.com/AliceO2Group/AliceO2/pull/9646) 2022-08-25: [EMCAL-797] Read calibration params from ccdb by [@jokonig](https://github.com/jokonig)
