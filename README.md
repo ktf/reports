@@ -20,6 +20,7 @@
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
+- [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
@@ -50,6 +51,7 @@
 - [\#9699](https://github.com/AliceO2Group/AliceO2/pull/9699) 2022-08-28: tuning of TOF cal fits by [@noferini](https://github.com/noferini)
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
+- [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#9722](https://github.com/AliceO2Group/AliceO2/pull/9722) 2022-08-31: Trd qc update by [@f3sch](https://github.com/f3sch)
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
