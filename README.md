@@ -60,6 +60,7 @@
 - [\#9729](https://github.com/AliceO2Group/AliceO2/pull/9729) 2022-08-30: Check existence of PVertexer debug output before writing it by [@shahor02](https://github.com/shahor02)
 - [\#9732](https://github.com/AliceO2Group/AliceO2/pull/9732) 2022-09-01: Fix writing calibDigits tree by [@peressounko](https://github.com/peressounko)
 - [\#9733](https://github.com/AliceO2Group/AliceO2/pull/9733) 2022-09-01: [EMCAL-786, EMCAL-565, EMCAL-566] Different spec names for Bad Channel Calib and Time Calib by [@mfasDa](https://github.com/mfasDa)
+- [\#9734](https://github.com/AliceO2Group/AliceO2/pull/9734) 2022-09-01: Update ITS DCS string parser by [@ezradlesser](https://github.com/ezradlesser)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
