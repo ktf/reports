@@ -61,7 +61,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9648](https://github.com/AliceO2Group/AliceO2/pull/9648) 2022-08-19: DPL Analysis: Event mixing: Mixing counters by [@saganatt](https://github.com/saganatt)
 - [\#9649](https://github.com/AliceO2Group/AliceO2/pull/9649) 2022-08-19: Cleanup ASoA by [@ktf](https://github.com/ktf)
 - [\#9657](https://github.com/AliceO2Group/AliceO2/pull/9657) 2022-08-20: DPL Analysis: Event mixing: Fix to allow Pair and Triple on the same kind tables by [@saganatt](https://github.com/saganatt)
 - [\#9676](https://github.com/AliceO2Group/AliceO2/pull/9676) 2022-08-23: DPL: exit immediately after EoS if timeout was requested by [@ktf](https://github.com/ktf)
