@@ -77,6 +77,7 @@
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9735](https://github.com/AliceO2Group/AliceO2/pull/9735) 2022-08-31: Update resources-monitoring documentation by [@ktf](https://github.com/ktf)
+- [\#9742](https://github.com/AliceO2Group/AliceO2/pull/9742) 2022-09-02: Sending Policy add Services Registry by [@Zowlyfon](https://github.com/Zowlyfon)
 ## Recent developments in O2 - Steer
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
