@@ -19,6 +19,7 @@
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9643](https://github.com/AliceO2Group/AliceO2/pull/9643) 2022-08-19: [FDD] Use of TVDC bit in average time calculation in reconstruction by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9644](https://github.com/AliceO2Group/AliceO2/pull/9644) 2022-08-17: Fixing mUpdateCCDB flag, otherwise it invalidates the current object by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -50,6 +51,7 @@
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
+- [\#9720](https://github.com/AliceO2Group/AliceO2/pull/9720) 2022-09-02: Treat mismatches of MC labels for TPC-TOF tracks by [@nburmaso](https://github.com/nburmaso)
 - [\#9722](https://github.com/AliceO2Group/AliceO2/pull/9722) 2022-08-31: Trd qc update by [@f3sch](https://github.com/f3sch)
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
 - [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
@@ -58,6 +60,7 @@
 - [\#9732](https://github.com/AliceO2Group/AliceO2/pull/9732) 2022-09-01: Fix writing calibDigits tree by [@peressounko](https://github.com/peressounko)
 - [\#9733](https://github.com/AliceO2Group/AliceO2/pull/9733) 2022-09-01: [EMCAL-786, EMCAL-565, EMCAL-566] Different spec names for Bad Channel Calib and Time Calib by [@mfasDa](https://github.com/mfasDa)
 - [\#9734](https://github.com/AliceO2Group/AliceO2/pull/9734) 2022-09-01: Update ITS DCS string parser by [@ezradlesser](https://github.com/ezradlesser)
+- [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
