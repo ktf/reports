@@ -71,6 +71,7 @@
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
+- [\#9707](https://github.com/AliceO2Group/AliceO2/pull/9707) 2022-09-02: Improve processing arrow metrics by [@ktf](https://github.com/ktf)
 - [\#9710](https://github.com/AliceO2Group/AliceO2/pull/9710) 2022-08-29: DPL Analysis: do not use string lookup for finding columns by [@aalkin](https://github.com/aalkin)
 - [\#9712](https://github.com/AliceO2Group/AliceO2/pull/9712) 2022-08-30: DPL Analysis: merge make builders and makeFinalizers by [@ktf](https://github.com/ktf)
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
