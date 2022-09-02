@@ -21,7 +21,6 @@
 - [\#9718](https://github.com/AliceO2Group/AliceO2/pull/9718) 2022-09-02: [FDD] (Good amplitude only for reconstruction (use of IsInAdcGate bit)) by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9646](https://github.com/AliceO2Group/AliceO2/pull/9646) 2022-08-25: [EMCAL-797] Read calibration params from ccdb by [@jokonig](https://github.com/jokonig)
 - [\#9647](https://github.com/AliceO2Group/AliceO2/pull/9647) 2022-08-19: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9650](https://github.com/AliceO2Group/AliceO2/pull/9650) 2022-08-18: [EMCAL-798]: Prepare offline calibrator.  by [@hjbossi](https://github.com/hjbossi)
 - [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
