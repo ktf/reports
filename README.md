@@ -57,6 +57,7 @@
 - [\#9733](https://github.com/AliceO2Group/AliceO2/pull/9733) 2022-09-01: [EMCAL-786, EMCAL-565, EMCAL-566] Different spec names for Bad Channel Calib and Time Calib by [@mfasDa](https://github.com/mfasDa)
 - [\#9734](https://github.com/AliceO2Group/AliceO2/pull/9734) 2022-09-01: Update ITS DCS string parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
+- [\#9744](https://github.com/AliceO2Group/AliceO2/pull/9744) 2022-09-02: EMCAL-612 by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
