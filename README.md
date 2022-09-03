@@ -55,6 +55,7 @@
 - [\#9725](https://github.com/AliceO2Group/AliceO2/pull/9725) 2022-09-03: Modified MFT DCS DPs to CCDB workflow. An object is sent to CCDB when… by [@syano0822](https://github.com/syano0822)
 - [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9727](https://github.com/AliceO2Group/AliceO2/pull/9727) 2022-08-30: Remove DEBUG_DUMP define left in accidentally by [@davidrohr](https://github.com/davidrohr)
+- [\#9728](https://github.com/AliceO2Group/AliceO2/pull/9728) 2022-09-03: [MFT] solve problem of chip id from RO to geo when making sym names by [@arakotoz](https://github.com/arakotoz)
 - [\#9729](https://github.com/AliceO2Group/AliceO2/pull/9729) 2022-08-30: Check existence of PVertexer debug output before writing it by [@shahor02](https://github.com/shahor02)
 - [\#9730](https://github.com/AliceO2Group/AliceO2/pull/9730) 2022-09-02: track label fixed in tof match by [@noferini](https://github.com/noferini)
 - [\#9732](https://github.com/AliceO2Group/AliceO2/pull/9732) 2022-09-01: Fix writing calibDigits tree by [@peressounko](https://github.com/peressounko)
