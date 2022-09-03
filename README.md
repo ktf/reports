@@ -62,6 +62,7 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 - [\#9744](https://github.com/AliceO2Group/AliceO2/pull/9744) 2022-09-02: EMCAL-612 by [@mfasDa](https://github.com/mfasDa)
+- [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
