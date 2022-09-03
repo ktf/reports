@@ -72,6 +72,7 @@
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
 - [\#9707](https://github.com/AliceO2Group/AliceO2/pull/9707) 2022-09-02: Improve processing arrow metrics by [@ktf](https://github.com/ktf)
+- [\#9708](https://github.com/AliceO2Group/AliceO2/pull/9708) 2022-09-03: DPL: improve metric processing by [@ktf](https://github.com/ktf)
 - [\#9710](https://github.com/AliceO2Group/AliceO2/pull/9710) 2022-08-29: DPL Analysis: do not use string lookup for finding columns by [@aalkin](https://github.com/aalkin)
 - [\#9712](https://github.com/AliceO2Group/AliceO2/pull/9712) 2022-08-30: DPL Analysis: merge make builders and makeFinalizers by [@ktf](https://github.com/ktf)
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
@@ -80,6 +81,7 @@
 - [\#9742](https://github.com/AliceO2Group/AliceO2/pull/9742) 2022-09-02: Sending Policy add Services Registry by [@Zowlyfon](https://github.com/Zowlyfon)
 - [\#9743](https://github.com/AliceO2Group/AliceO2/pull/9743) 2022-09-02: DPL: drop unused headers / namespaces by [@ktf](https://github.com/ktf)
 - [\#9745](https://github.com/AliceO2Group/AliceO2/pull/9745) 2022-09-02: Adjust basket size dynamically by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
