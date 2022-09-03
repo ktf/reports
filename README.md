@@ -44,6 +44,7 @@
 - [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9699](https://github.com/AliceO2Group/AliceO2/pull/9699) 2022-08-28: tuning of TOF cal fits by [@noferini](https://github.com/noferini)
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
+- [\#9701](https://github.com/AliceO2Group/AliceO2/pull/9701) 2022-09-03: Filling MCH parameters for GlobalMuon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
