@@ -21,7 +21,6 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9651](https://github.com/AliceO2Group/AliceO2/pull/9651) 2022-08-17: Fix for PVertexer stall + debug reco method by [@shahor02](https://github.com/shahor02)
 - [\#9654](https://github.com/AliceO2Group/AliceO2/pull/9654) 2022-08-18: [EMCAL-565] Use proper calibrator in fillTFIDInfo by [@mfasDa](https://github.com/mfasDa)
 - [\#9658](https://github.com/AliceO2Group/AliceO2/pull/9658) 2022-08-18: fix ITS/MFT track time assingment in VertexTrackMatcherSpec by [@shahor02](https://github.com/shahor02)
 - [\#9661](https://github.com/AliceO2Group/AliceO2/pull/9661) 2022-08-21: Set CTF migration priority to low if FallBackDir is used by [@shahor02](https://github.com/shahor02)
