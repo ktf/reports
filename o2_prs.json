@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-20T06:19:28Z",
-            "title": "DPL Analysis: Event mixing: Fix to allow Pair and Triple on the same kind tables",
-            "number": 9657,
-            "author": {
-              "login": "saganatt"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-18T21:29:38Z",
             "title": "fix ITS/MFT track time assingment in VertexTrackMatcherSpec",
             "number": 9658,
@@ -3551,7 +3531,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] Store start time of slot in ms when it is created.",
+            "title": "Store start time of slot in ms when it is created.",
             "number": 9746,
             "author": {
               "login": "chiarazampolli"
@@ -3566,6 +3546,16 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlot.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/LHCClockCalibrator.cxx"
                   }
                 },
                 {
@@ -3846,6 +3836,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC SCD calib: store correct angle in residuals",
+            "number": 9757,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
                   }
                 }
               ]

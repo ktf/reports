@@ -67,7 +67,6 @@
 - [\#9659](https://github.com/AliceO2Group/AliceO2/pull/9659) 2022-09-03: [Event Display] Adds primary vertex selection based on its position by [@maoderos](https://github.com/maoderos)
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9657](https://github.com/AliceO2Group/AliceO2/pull/9657) 2022-08-20: DPL Analysis: Event mixing: Fix to allow Pair and Triple on the same kind tables by [@saganatt](https://github.com/saganatt)
 - [\#9676](https://github.com/AliceO2Group/AliceO2/pull/9676) 2022-08-23: DPL: exit immediately after EoS if timeout was requested by [@ktf](https://github.com/ktf)
 - [\#9680](https://github.com/AliceO2Group/AliceO2/pull/9680) 2022-08-23: DPL GUI: improve GUI using special glyphs by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
