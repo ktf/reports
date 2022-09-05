@@ -8,7 +8,6 @@
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 - [\#9655](https://github.com/AliceO2Group/AliceO2/pull/9655) 2022-08-18: increasing classDef by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9662](https://github.com/AliceO2Group/AliceO2/pull/9662) 2022-08-19: GRPTool: option to take GRPLHCIF directly from CCDB by [@sawenzel](https://github.com/sawenzel)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
@@ -86,8 +85,6 @@
 - [\#9743](https://github.com/AliceO2Group/AliceO2/pull/9743) 2022-09-02: DPL: drop unused headers / namespaces by [@ktf](https://github.com/ktf)
 - [\#9745](https://github.com/AliceO2Group/AliceO2/pull/9745) 2022-09-02: Adjust basket size dynamically by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#9653](https://github.com/AliceO2Group/AliceO2/pull/9653) 2022-08-18: Fix loading bunch filling (due to name change) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#9660](https://github.com/AliceO2Group/AliceO2/pull/9660) 2022-08-20: ShmManager: error & exit if memory is removed unexpectedly by [@rbx](https://github.com/rbx)
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)

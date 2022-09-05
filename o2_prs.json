@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-18T18:24:47Z",
-            "title": "Fix loading bunch filling (due to name change)",
-            "number": 9653,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/src/GRPTool.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/InteractionSampler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-18T18:32:19Z",
             "title": "[EMCAL-565] Use proper calibrator in fillTFIDInfo",
             "number": 9654,
@@ -3916,6 +3891,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/calibration/testWorkflow/its-noise-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: prevent nullptr access on empty filter groups",
+            "number": 9753,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
                   }
                 }
               ]
