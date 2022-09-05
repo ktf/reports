@@ -83,5 +83,4 @@
 - [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
 - [\#9753](https://github.com/AliceO2Group/AliceO2/pull/9753) 2022-09-05: DPL Analysis: prevent nullptr access on empty filter groups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Utilities
-- [\#9660](https://github.com/AliceO2Group/AliceO2/pull/9660) 2022-08-20: ShmManager: error & exit if memory is removed unexpectedly by [@rbx](https://github.com/rbx)
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)
