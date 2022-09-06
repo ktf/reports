@@ -61,6 +61,7 @@
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
+- [\#9757](https://github.com/AliceO2Group/AliceO2/pull/9757) 2022-09-06: TPC SCD calib: store correct angle in residuals by [@martenole](https://github.com/martenole)
 - [\#9764](https://github.com/AliceO2Group/AliceO2/pull/9764) 2022-09-06: Block further parameter settings by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
 - [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
