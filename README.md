@@ -80,5 +80,6 @@
 - [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
 - [\#9753](https://github.com/AliceO2Group/AliceO2/pull/9753) 2022-09-05: DPL Analysis: prevent nullptr access on empty filter groups by [@aalkin](https://github.com/aalkin)
 - [\#9756](https://github.com/AliceO2Group/AliceO2/pull/9756) 2022-09-05: DPL Analysis: Event mixing: protect against empty associated table in a DF by [@saganatt](https://github.com/saganatt)
+- [\#9759](https://github.com/AliceO2Group/AliceO2/pull/9759) 2022-09-06: DPL: speedup arrow metrics processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)
