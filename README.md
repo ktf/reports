@@ -60,6 +60,7 @@
 - [\#9747](https://github.com/AliceO2Group/AliceO2/pull/9747) 2022-09-03: ITS - change format for dcs object + fixed few bugs by [@iravasen](https://github.com/iravasen)
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
+- [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
