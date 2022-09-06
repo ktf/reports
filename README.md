@@ -17,6 +17,7 @@
 - [\#9718](https://github.com/AliceO2Group/AliceO2/pull/9718) 2022-09-02: [FDD] (Good amplitude only for reconstruction (use of IsInAdcGate bit)) by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
+- [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
@@ -58,6 +59,7 @@
 - [\#9744](https://github.com/AliceO2Group/AliceO2/pull/9744) 2022-09-02: EMCAL-612 by [@mfasDa](https://github.com/mfasDa)
 - [\#9747](https://github.com/AliceO2Group/AliceO2/pull/9747) 2022-09-03: ITS - change format for dcs object + fixed few bugs by [@iravasen](https://github.com/iravasen)
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
+- [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9667](https://github.com/AliceO2Group/AliceO2/pull/9667) 2022-08-20: o2-eve: refresh fix by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
