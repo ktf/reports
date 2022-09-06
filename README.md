@@ -18,7 +18,6 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9664](https://github.com/AliceO2Group/AliceO2/pull/9664) 2022-08-19: Fix: add braces in FDD Reconstructor by [@shahor02](https://github.com/shahor02)
 - [\#9669](https://github.com/AliceO2Group/AliceO2/pull/9669) 2022-08-21: Remove inheritance from deprecated unary and binary functions by [@nburmaso](https://github.com/nburmaso)
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
 - [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
