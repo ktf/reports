@@ -63,6 +63,7 @@
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
+- [\#9755](https://github.com/AliceO2Group/AliceO2/pull/9755) 2022-09-07: [EMCAL-830] Recalibrator workflow for EMCAL cells by [@mfasDa](https://github.com/mfasDa)
 - [\#9757](https://github.com/AliceO2Group/AliceO2/pull/9757) 2022-09-06: TPC SCD calib: store correct angle in residuals by [@martenole](https://github.com/martenole)
 - [\#9761](https://github.com/AliceO2Group/AliceO2/pull/9761) 2022-09-07: [EMCAL-565]: Change offline calibrator to add option to store calibration objects locally. by [@hjbossi](https://github.com/hjbossi)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
