@@ -22,6 +22,7 @@
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
+- [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9673](https://github.com/AliceO2Group/AliceO2/pull/9673) 2022-08-23: update on tof calibration by [@noferini](https://github.com/noferini)
@@ -67,7 +68,9 @@
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9757](https://github.com/AliceO2Group/AliceO2/pull/9757) 2022-09-06: TPC SCD calib: store correct angle in residuals by [@martenole](https://github.com/martenole)
+- [\#9761](https://github.com/AliceO2Group/AliceO2/pull/9761) 2022-09-07: [EMCAL-565]: Change offline calibrator to add option to store calibration objects locally. by [@hjbossi](https://github.com/hjbossi)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
+- [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9764](https://github.com/AliceO2Group/AliceO2/pull/9764) 2022-09-06: Block further parameter settings by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
 - [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
