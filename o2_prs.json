@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-24T18:03:37Z",
-            "title": "TRD reformulate debug output",
-            "number": 9675,
-            "author": {
-              "login": "bazinski"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/HelperMethods.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawDataStats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/RawData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/RawDataStats.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CompressedRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/ConfigEventParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruCompressorTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DataReaderTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DigitsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/EventRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/TrackletsParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CompressedRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruCompressorTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DigitsParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/TrackletsParser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-23T09:36:40Z",
             "title": "DPL: exit immediately after EoS if timeout was requested",
             "number": 9676,
@@ -1903,6 +1783,21 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/StandaloneAODProducerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/StandaloneAODProducerSpec.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/AnalysisSupport/CMakeLists.txt"
@@ -4536,6 +4431,96 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/qc/include/TRDQC/Tracking.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drew final pr",
+            "number": 9775,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/SendingPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DPLWebSocket.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataSender.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/GuiCallbackContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SendingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SpyService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SpyService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SpyServiceHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SpyServiceHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2DiamondWorkflowLeaky.cxx"
                   }
                 }
               ]

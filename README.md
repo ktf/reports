@@ -9,7 +9,6 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
@@ -24,7 +23,6 @@
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9675](https://github.com/AliceO2Group/AliceO2/pull/9675) 2022-08-24: TRD reformulate debug output by [@bazinski](https://github.com/bazinski)
 - [\#9677](https://github.com/AliceO2Group/AliceO2/pull/9677) 2022-08-23: TPC SpaceCharge: Cleaning code by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9678](https://github.com/AliceO2Group/AliceO2/pull/9678) 2022-08-23: [EMCAL-794] Add event counter and end of stream to data producer by [@jokonig](https://github.com/jokonig)
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
