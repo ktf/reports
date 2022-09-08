@@ -75,7 +75,6 @@
 - [\#9774](https://github.com/AliceO2Group/AliceO2/pull/9774) 2022-09-08: TRD: QC: update TrackQC ID by [@f3sch](https://github.com/f3sch)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#9680](https://github.com/AliceO2Group/AliceO2/pull/9680) 2022-08-23: DPL GUI: improve GUI using special glyphs by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
