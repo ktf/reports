@@ -22,6 +22,7 @@
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
+- [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
@@ -72,6 +73,7 @@
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9771](https://github.com/AliceO2Group/AliceO2/pull/9771) 2022-09-07: TRD: AODProducer: Fix trdPattern by [@f3sch](https://github.com/f3sch)
 - [\#9774](https://github.com/AliceO2Group/AliceO2/pull/9774) 2022-09-08: TRD: QC: update TrackQC ID by [@f3sch](https://github.com/f3sch)
+- [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#9680](https://github.com/AliceO2Group/AliceO2/pull/9680) 2022-08-23: DPL GUI: improve GUI using special glyphs by [@ktf](https://github.com/ktf)
 - [\#9688](https://github.com/AliceO2Group/AliceO2/pull/9688) 2022-08-25: Cleanup table builder by [@ktf](https://github.com/ktf)
