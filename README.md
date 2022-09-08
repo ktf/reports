@@ -93,5 +93,7 @@
 - [\#9760](https://github.com/AliceO2Group/AliceO2/pull/9760) 2022-09-06: More metric processing improvements by [@ktf](https://github.com/ktf)
 - [\#9768](https://github.com/AliceO2Group/AliceO2/pull/9768) 2022-09-06: DPL: reset the number of end of stream received before quitting by [@ktf](https://github.com/ktf)
 - [\#9772](https://github.com/AliceO2Group/AliceO2/pull/9772) 2022-09-07: Don't use latest libuv API by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9778](https://github.com/AliceO2Group/AliceO2/pull/9778) 2022-09-08: DPL: avoid race condition when resetting output proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)
+- [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
