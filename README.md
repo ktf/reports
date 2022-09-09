@@ -25,7 +25,6 @@
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9681](https://github.com/AliceO2Group/AliceO2/pull/9681) 2022-08-23: bug fix due to wrong truncation in TOF digitizer/encoder by [@noferini](https://github.com/noferini)
 - [\#9682](https://github.com/AliceO2Group/AliceO2/pull/9682) 2022-08-25: [MCH] abort tracking if it takes too long by [@pillot](https://github.com/pillot)
 - [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)

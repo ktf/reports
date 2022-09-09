@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-23T10:06:53Z",
-            "title": "bug fix due to wrong truncation in TOF digitizer/encoder",
-            "number": 9681,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/reconstruction/src/Encoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-25T10:04:13Z",
             "title": "[MCH] abort tracking if it takes too long",
             "number": 9682,
@@ -4501,6 +4476,101 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCS 2 CCDB x ZDC",
+            "number": 9781,
+            "author": {
+              "login": "coppedis"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/ZDCDCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/ZDCCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/ZDCDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/DataGeneratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/ZDCDCSConfigProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/ZDCDCSDataProcessorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/data-generator-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-config-processor-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-data-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dcs-sim-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/testWorkflow/zdc-dummy-ccdb-for-calib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/makeZDCCCDBEntryForDCS.C"
                   }
                 }
               ]
