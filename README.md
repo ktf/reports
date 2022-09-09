@@ -9,7 +9,6 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
@@ -26,7 +25,6 @@
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#9683](https://github.com/AliceO2Group/AliceO2/pull/9683) 2022-08-31: Ctpdev: ctp aod readout by [@lietava](https://github.com/lietava)
 - [\#9685](https://github.com/AliceO2Group/AliceO2/pull/9685) 2022-08-25: [FIT] Enforce use of getters in fit::Triggers, FV0 and FT0 reco align… by [@mslupeck](https://github.com/mslupeck)
 - [\#9687](https://github.com/AliceO2Group/AliceO2/pull/9687) 2022-08-30: Modified the data format for DCS from calibration workflow of MFT by [@syano0822](https://github.com/syano0822)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
