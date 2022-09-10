@@ -24,6 +24,7 @@
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
+- [\#9689](https://github.com/AliceO2Group/AliceO2/pull/9689) 2022-09-10: TPC QC: Workaround for memory corruption in CalDet filling by [@bulukutlu](https://github.com/bulukutlu)
 - [\#9690](https://github.com/AliceO2Group/AliceO2/pull/9690) 2022-09-10: Adding list of FLPs to GRPECS by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
