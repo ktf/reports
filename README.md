@@ -77,6 +77,7 @@
 - [\#9774](https://github.com/AliceO2Group/AliceO2/pull/9774) 2022-09-08: TRD: QC: update TrackQC ID by [@f3sch](https://github.com/f3sch)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
+- [\#9780](https://github.com/AliceO2Group/AliceO2/pull/9780) 2022-09-11: MCH: some more debug options for reco-workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
