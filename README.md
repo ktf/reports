@@ -10,6 +10,7 @@
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
+- [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
@@ -98,6 +99,7 @@
 - [\#9768](https://github.com/AliceO2Group/AliceO2/pull/9768) 2022-09-06: DPL: reset the number of end of stream received before quitting by [@ktf](https://github.com/ktf)
 - [\#9772](https://github.com/AliceO2Group/AliceO2/pull/9772) 2022-09-07: Don't use latest libuv API by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9778](https://github.com/AliceO2Group/AliceO2/pull/9778) 2022-09-08: DPL: avoid race condition when resetting output proxy by [@ktf](https://github.com/ktf)
+- [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
