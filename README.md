@@ -79,7 +79,6 @@
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
 ## Recent developments in O2 - Framework
-- [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
 - [\#9707](https://github.com/AliceO2Group/AliceO2/pull/9707) 2022-09-02: Improve processing arrow metrics by [@ktf](https://github.com/ktf)
 - [\#9708](https://github.com/AliceO2Group/AliceO2/pull/9708) 2022-09-03: DPL: improve metric processing by [@ktf](https://github.com/ktf)
