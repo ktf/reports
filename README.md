@@ -26,7 +26,6 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9697](https://github.com/AliceO2Group/AliceO2/pull/9697) 2022-08-28: [EMCAL-565]: Fix for bad channel histo range, reorganize EMCALCalibParams by [@jokonig](https://github.com/jokonig)
 - [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9699](https://github.com/AliceO2Group/AliceO2/pull/9699) 2022-08-28: tuning of TOF cal fits by [@noferini](https://github.com/noferini)
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
