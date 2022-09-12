@@ -77,6 +77,7 @@
 - [\#9780](https://github.com/AliceO2Group/AliceO2/pull/9780) 2022-09-11: MCH: some more debug options for reco-workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
+- [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
 ## Recent developments in O2 - Framework
 - [\#9692](https://github.com/AliceO2Group/AliceO2/pull/9692) 2022-08-25: DPL: improve comment by [@ktf](https://github.com/ktf)
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
