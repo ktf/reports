@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-26T07:50:37Z",
-            "title": "Fixes for Mean Vertex calibration",
-            "number": 9698,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexData.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-28T17:05:26Z",
             "title": "tuning of TOF cal fits",
             "number": 9699,
@@ -4386,6 +4356,41 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/TPCFastTransformationLinkDef_O2.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CCDB: Better test isolation",
+            "number": 9798,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testBasicCCDBManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi_ConfigParam.cxx"
                   }
                 }
               ]
