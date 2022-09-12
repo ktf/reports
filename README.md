@@ -59,6 +59,7 @@
 - [\#9747](https://github.com/AliceO2Group/AliceO2/pull/9747) 2022-09-03: ITS - change format for dcs object + fixed few bugs by [@iravasen](https://github.com/iravasen)
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
+- [\#9751](https://github.com/AliceO2Group/AliceO2/pull/9751) 2022-09-12: Modified MFTConditionLinkDef.h to use array<int,3> in MFT calibration by [@syano0822](https://github.com/syano0822)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9755](https://github.com/AliceO2Group/AliceO2/pull/9755) 2022-09-07: [EMCAL-830] Recalibrator workflow for EMCAL cells by [@mfasDa](https://github.com/mfasDa)
 - [\#9757](https://github.com/AliceO2Group/AliceO2/pull/9757) 2022-09-06: TPC SCD calib: store correct angle in residuals by [@martenole](https://github.com/martenole)
