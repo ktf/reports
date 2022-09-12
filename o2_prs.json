@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-26T21:50:22Z",
-            "title": "DPL: improve error messages",
-            "number": 9702,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-26T17:17:46Z",
             "title": "Remove GRP dependence of CTFWriter + fix for MCH CTF decoder",
             "number": 9703,
@@ -4406,6 +4386,161 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/common/calibration/include/FITCalibration/FITCalibrator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] - ZDC FIX digitization and noise calibration",
+            "number": 9802,
+            "author": {
+              "login": "cortesep"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/base/include/ZDCBase/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/CalibParamZDC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalib.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibEPN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibEPNSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/BaselineCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/BaselineCalibEPN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/CalibParamZDC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/NoiseCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/NoiseCalibData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/NoiseCalibEPN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/NoiseCalibEPNSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/NoiseCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/WaveformCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/WaveformCalibEPN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/ZDCCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/zdc-noisecalib-epn-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/zdc-noisecalib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/InspectCCDBFile.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/raw/include/ZDCRaw/RawReaderZDC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/NoiseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/src/NoiseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/src/ZDCReconstructionLinkDef.h"
                   }
                 }
               ]

@@ -79,7 +79,6 @@
 - [\#9793](https://github.com/AliceO2Group/AliceO2/pull/9793) 2022-09-12: FT0 digi change info to debug message by [@martenole](https://github.com/martenole)
 - [\#9794](https://github.com/AliceO2Group/AliceO2/pull/9794) 2022-09-12: LocalGainFactor for TRD calibrations retrieved from the CCDB as abs by [@jcrkovsk](https://github.com/jcrkovsk)
 ## Recent developments in O2 - Framework
-- [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
 - [\#9707](https://github.com/AliceO2Group/AliceO2/pull/9707) 2022-09-02: Improve processing arrow metrics by [@ktf](https://github.com/ktf)
 - [\#9708](https://github.com/AliceO2Group/AliceO2/pull/9708) 2022-09-03: DPL: improve metric processing by [@ktf](https://github.com/ktf)
 - [\#9710](https://github.com/AliceO2Group/AliceO2/pull/9710) 2022-08-29: DPL Analysis: do not use string lookup for finding columns by [@aalkin](https://github.com/aalkin)
