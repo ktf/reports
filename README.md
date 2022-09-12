@@ -4,7 +4,6 @@
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 - [\#9697](https://github.com/AliceO2Group/AliceO2/pull/9697) 2022-08-28: [EMCAL-565]: Fix for bad channel histo range, reorganize EMCALCalibParams by [@jokonig](https://github.com/jokonig)
 - [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9699](https://github.com/AliceO2Group/AliceO2/pull/9699) 2022-08-28: tuning of TOF cal fits by [@noferini](https://github.com/noferini)
