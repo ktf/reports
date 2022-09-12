@@ -11,7 +11,6 @@
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - DataFormats
-- [\#9690](https://github.com/AliceO2Group/AliceO2/pull/9690) 2022-09-10: Adding list of FLPs to GRPECS by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9706](https://github.com/AliceO2Group/AliceO2/pull/9706) 2022-09-01: DCSConfigObject to noise calib workflow and extra cut for ITS IB by [@iravasen](https://github.com/iravasen)
 - [\#9709](https://github.com/AliceO2Group/AliceO2/pull/9709) 2022-08-29: Fixes for PVertexer + related fixes by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9690](https://github.com/AliceO2Group/AliceO2/pull/9690) 2022-09-10: Adding list of FLPs to GRPECS by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9691](https://github.com/AliceO2Group/AliceO2/pull/9691) 2022-09-06: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
 - [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
