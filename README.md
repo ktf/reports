@@ -27,7 +27,6 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9699](https://github.com/AliceO2Group/AliceO2/pull/9699) 2022-08-28: tuning of TOF cal fits by [@noferini](https://github.com/noferini)
 - [\#9700](https://github.com/AliceO2Group/AliceO2/pull/9700) 2022-08-26: Prevent division by 0 if no MID trace was produced at end of run by [@dstocco](https://github.com/dstocco)
 - [\#9701](https://github.com/AliceO2Group/AliceO2/pull/9701) 2022-09-03: Filling MCH parameters for GlobalMuon tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#9703](https://github.com/AliceO2Group/AliceO2/pull/9703) 2022-08-26: Remove GRP dependence of CTFWriter + fix for MCH CTF decoder by [@shahor02](https://github.com/shahor02)
@@ -77,6 +76,7 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
+- [\#9793](https://github.com/AliceO2Group/AliceO2/pull/9793) 2022-09-12: FT0 digi change info to debug message by [@martenole](https://github.com/martenole)
 - [\#9794](https://github.com/AliceO2Group/AliceO2/pull/9794) 2022-09-12: LocalGainFactor for TRD calibrations retrieved from the CCDB as abs by [@jcrkovsk](https://github.com/jcrkovsk)
 ## Recent developments in O2 - Framework
 - [\#9702](https://github.com/AliceO2Group/AliceO2/pull/9702) 2022-08-26: DPL: improve error messages by [@ktf](https://github.com/ktf)
