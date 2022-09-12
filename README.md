@@ -27,7 +27,6 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9695](https://github.com/AliceO2Group/AliceO2/pull/9695) 2022-08-25: ITS/MFT Clusterers were using local GRP file by [@shahor02](https://github.com/shahor02)
 - [\#9696](https://github.com/AliceO2Group/AliceO2/pull/9696) 2022-08-29: MRRTF-176: Fix mix-up between milliseconds and seconds in duration check by [@aphecetche](https://github.com/aphecetche)
 - [\#9697](https://github.com/AliceO2Group/AliceO2/pull/9697) 2022-08-28: [EMCAL-565]: Fix for bad channel histo range, reorganize EMCALCalibParams by [@jokonig](https://github.com/jokonig)
 - [\#9698](https://github.com/AliceO2Group/AliceO2/pull/9698) 2022-08-26: Fixes for Mean Vertex calibration by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -71,6 +70,7 @@
 - [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9771](https://github.com/AliceO2Group/AliceO2/pull/9771) 2022-09-07: TRD: AODProducer: Fix trdPattern by [@f3sch](https://github.com/f3sch)
+- [\#9773](https://github.com/AliceO2Group/AliceO2/pull/9773) 2022-09-12: SpaceCharge: Adding option to scale the gain per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9774](https://github.com/AliceO2Group/AliceO2/pull/9774) 2022-09-08: TRD: QC: update TrackQC ID by [@f3sch](https://github.com/f3sch)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
