@@ -80,6 +80,7 @@
 - [\#9793](https://github.com/AliceO2Group/AliceO2/pull/9793) 2022-09-12: FT0 digi change info to debug message by [@martenole](https://github.com/martenole)
 - [\#9794](https://github.com/AliceO2Group/AliceO2/pull/9794) 2022-09-12: LocalGainFactor for TRD calibrations retrieved from the CCDB as abs by [@jcrkovsk](https://github.com/jcrkovsk)
 - [\#9796](https://github.com/AliceO2Group/AliceO2/pull/9796) 2022-09-13: [EMCAL-757, EMCAL-830] Fixes in cell publisher and recalibrator by [@mfasDa](https://github.com/mfasDa)
+- [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
