@@ -80,7 +80,6 @@
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#9712](https://github.com/AliceO2Group/AliceO2/pull/9712) 2022-08-30: DPL Analysis: merge make builders and makeFinalizers by [@ktf](https://github.com/ktf)
 - [\#9713](https://github.com/AliceO2Group/AliceO2/pull/9713) 2022-08-30: DPL Analysis: invoke endOfStream method for services, if present by [@ktf](https://github.com/ktf)
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
