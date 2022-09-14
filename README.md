@@ -69,6 +69,7 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9780](https://github.com/AliceO2Group/AliceO2/pull/9780) 2022-09-11: MCH: some more debug options for reco-workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#9782](https://github.com/AliceO2Group/AliceO2/pull/9782) 2022-09-12: [EMCAL-780] Add macro for single muon gun at testbeam energies by [@mfasDa](https://github.com/mfasDa)
+- [\#9783](https://github.com/AliceO2Group/AliceO2/pull/9783) 2022-09-14: Add the LOG(warn) for HMPID header reported errors by [@fapfap69](https://github.com/fapfap69)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9789](https://github.com/AliceO2Group/AliceO2/pull/9789) 2022-09-13: Loading TPC correction maps from CCDB by [@shahor02](https://github.com/shahor02)
@@ -79,6 +80,7 @@
 - [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
+- [\#9804](https://github.com/AliceO2Group/AliceO2/pull/9804) 2022-09-14: [EMCAL-830] Add minmal information messages by [@mfasDa](https://github.com/mfasDa)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
