@@ -12,7 +12,6 @@
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9718](https://github.com/AliceO2Group/AliceO2/pull/9718) 2022-09-02: [FDD] (Good amplitude only for reconstruction (use of IsInAdcGate bit)) by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
 - [\#9746](https://github.com/AliceO2Group/AliceO2/pull/9746) 2022-09-09: Store start time of slot in ms when it is created. by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -27,8 +26,6 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9717](https://github.com/AliceO2Group/AliceO2/pull/9717) 2022-09-02: adjust TOF calib collector (speed up) by [@noferini](https://github.com/noferini)
-- [\#9718](https://github.com/AliceO2Group/AliceO2/pull/9718) 2022-09-02: [FDD] (Good amplitude only for reconstruction (use of IsInAdcGate bit)) by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9720](https://github.com/AliceO2Group/AliceO2/pull/9720) 2022-09-02: Treat mismatches of MC labels for TPC-TOF tracks by [@nburmaso](https://github.com/nburmaso)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9722](https://github.com/AliceO2Group/AliceO2/pull/9722) 2022-08-31: Trd qc update by [@f3sch](https://github.com/f3sch)
