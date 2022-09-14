@@ -79,6 +79,7 @@
 - [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
+- [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
