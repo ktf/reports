@@ -23,8 +23,6 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9724](https://github.com/AliceO2Group/AliceO2/pull/9724) 2022-09-05: SACs: Adding helper class for accessing SACs from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#9725](https://github.com/AliceO2Group/AliceO2/pull/9725) 2022-09-03: Modified MFT DCS DPs to CCDB workflow. An object is sent to CCDB when… by [@syano0822](https://github.com/syano0822)
 - [\#9726](https://github.com/AliceO2Group/AliceO2/pull/9726) 2022-08-30: MFT: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9727](https://github.com/AliceO2Group/AliceO2/pull/9727) 2022-08-30: Remove DEBUG_DUMP define left in accidentally by [@davidrohr](https://github.com/davidrohr)
 - [\#9728](https://github.com/AliceO2Group/AliceO2/pull/9728) 2022-09-03: [MFT] solve problem of chip id from RO to geo when making sym names by [@arakotoz](https://github.com/arakotoz)
@@ -72,6 +70,7 @@
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9804](https://github.com/AliceO2Group/AliceO2/pull/9804) 2022-09-14: [EMCAL-830] Add minmal information messages by [@mfasDa](https://github.com/mfasDa)
+- [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9735](https://github.com/AliceO2Group/AliceO2/pull/9735) 2022-08-31: Update resources-monitoring documentation by [@ktf](https://github.com/ktf)
