@@ -3451,7 +3451,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] ZDC FIX digitization and noise calibration",
+            "title": "ZDC FIX digitization, add noise calibration, add option to prescale reconstruction",
             "number": 9802,
             "author": {
               "login": "cortesep"
@@ -3616,6 +3616,16 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/reconstruction/src/ZDCReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/DigitRecoSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/DigitRecoSpec.cxx"
                   }
                 },
                 {
