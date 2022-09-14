@@ -23,7 +23,6 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9729](https://github.com/AliceO2Group/AliceO2/pull/9729) 2022-08-30: Check existence of PVertexer debug output before writing it by [@shahor02](https://github.com/shahor02)
 - [\#9730](https://github.com/AliceO2Group/AliceO2/pull/9730) 2022-09-02: track label fixed in tof match by [@noferini](https://github.com/noferini)
 - [\#9732](https://github.com/AliceO2Group/AliceO2/pull/9732) 2022-09-01: Fix writing calibDigits tree by [@peressounko](https://github.com/peressounko)
 - [\#9733](https://github.com/AliceO2Group/AliceO2/pull/9733) 2022-09-01: [EMCAL-786, EMCAL-565, EMCAL-566] Different spec names for Bad Channel Calib and Time Calib by [@mfasDa](https://github.com/mfasDa)
