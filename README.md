@@ -23,7 +23,6 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9728](https://github.com/AliceO2Group/AliceO2/pull/9728) 2022-09-03: [MFT] solve problem of chip id from RO to geo when making sym names by [@arakotoz](https://github.com/arakotoz)
 - [\#9729](https://github.com/AliceO2Group/AliceO2/pull/9729) 2022-08-30: Check existence of PVertexer debug output before writing it by [@shahor02](https://github.com/shahor02)
 - [\#9730](https://github.com/AliceO2Group/AliceO2/pull/9730) 2022-09-02: track label fixed in tof match by [@noferini](https://github.com/noferini)
 - [\#9732](https://github.com/AliceO2Group/AliceO2/pull/9732) 2022-09-01: Fix writing calibDigits tree by [@peressounko](https://github.com/peressounko)
