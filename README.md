@@ -10,6 +10,7 @@
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
+- [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9718](https://github.com/AliceO2Group/AliceO2/pull/9718) 2022-09-02: [FDD] (Good amplitude only for reconstruction (use of IsInAdcGate bit)) by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
@@ -97,6 +98,7 @@
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9806](https://github.com/AliceO2Group/AliceO2/pull/9806) 2022-09-13: DPL GUI: improve GUI to change state by [@ktf](https://github.com/ktf)
 - [\#9808](https://github.com/AliceO2Group/AliceO2/pull/9808) 2022-09-13: DPL: improve documentation by [@ktf](https://github.com/ktf)
+- [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9716](https://github.com/AliceO2Group/AliceO2/pull/9716) 2022-08-30: [QC-485] Timepipeline parallelism in multi-layer Mergers by [@knopers8](https://github.com/knopers8)
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
