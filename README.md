@@ -4,7 +4,6 @@
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
@@ -81,7 +80,6 @@
 - [\#9804](https://github.com/AliceO2Group/AliceO2/pull/9804) 2022-09-14: [EMCAL-830] Add minmal information messages by [@mfasDa](https://github.com/mfasDa)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9719](https://github.com/AliceO2Group/AliceO2/pull/9719) 2022-08-31: DPL: use bare lambdas for the callbacks by [@ktf](https://github.com/ktf)
 - [\#9721](https://github.com/AliceO2Group/AliceO2/pull/9721) 2022-09-11: Tierd file access for derived datasets by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9735](https://github.com/AliceO2Group/AliceO2/pull/9735) 2022-08-31: Update resources-monitoring documentation by [@ktf](https://github.com/ktf)
 - [\#9742](https://github.com/AliceO2Group/AliceO2/pull/9742) 2022-09-02: Sending Policy add Services Registry by [@Zowlyfon](https://github.com/Zowlyfon)
@@ -100,5 +98,6 @@
 - [\#9806](https://github.com/AliceO2Group/AliceO2/pull/9806) 2022-09-13: DPL GUI: improve GUI to change state by [@ktf](https://github.com/ktf)
 - [\#9808](https://github.com/AliceO2Group/AliceO2/pull/9808) 2022-09-13: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
+- [\#9815](https://github.com/AliceO2Group/AliceO2/pull/9815) 2022-09-14: DPL: allow services to have a callback before sending messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
