@@ -23,7 +23,6 @@
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9722](https://github.com/AliceO2Group/AliceO2/pull/9722) 2022-08-31: Trd qc update by [@f3sch](https://github.com/f3sch)
 - [\#9723](https://github.com/AliceO2Group/AliceO2/pull/9723) 2022-08-30: readibility fixes in run2 millepede code by [@shahor02](https://github.com/shahor02)
 - [\#9724](https://github.com/AliceO2Group/AliceO2/pull/9724) 2022-09-05: SACs: Adding helper class for accessing SACs from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9725](https://github.com/AliceO2Group/AliceO2/pull/9725) 2022-09-03: Modified MFT DCS DPs to CCDB workflow. An object is sent to CCDB when… by [@syano0822](https://github.com/syano0822)
