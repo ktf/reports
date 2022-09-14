@@ -68,6 +68,7 @@
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9780](https://github.com/AliceO2Group/AliceO2/pull/9780) 2022-09-11: MCH: some more debug options for reco-workflow by [@aphecetche](https://github.com/aphecetche)
+- [\#9781](https://github.com/AliceO2Group/AliceO2/pull/9781) 2022-09-14: DCS 2 CCDB x ZDC by [@coppedis](https://github.com/coppedis)
 - [\#9782](https://github.com/AliceO2Group/AliceO2/pull/9782) 2022-09-12: [EMCAL-780] Add macro for single muon gun at testbeam energies by [@mfasDa](https://github.com/mfasDa)
 - [\#9783](https://github.com/AliceO2Group/AliceO2/pull/9783) 2022-09-14: Add the LOG(warn) for HMPID header reported errors by [@fapfap69](https://github.com/fapfap69)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
