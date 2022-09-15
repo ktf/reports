@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-09T16:50:30Z",
-            "title": "Add options to run TPC IDCs calib",
-            "number": 9739,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-02T23:22:01Z",
             "title": "CTF skimming ",
             "number": 9740,
@@ -4126,6 +4101,76 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflowScalers/py/scalersCTP_v2.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-835] General error handling for invalid access in CCDB objects",
+            "number": 9839,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/BadChannelMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/CalibContainerErrors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/EMCALChannelScaleFactors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/GainCalibrationFactors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/TimeCalibrationParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/BadChannelMap.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/CalibContainerErrors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/EMCALChannelScaleFactors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/GainCalibrationFactors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/TimeCalibrationParams.cxx"
                   }
                 }
               ]
