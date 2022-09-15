@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-01T09:33:57Z",
-            "title": "Mark HepMC tables to be displayed in the table category MonteCarlo",
-            "number": 9736,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/inputCard.xml"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Put 10M basket size",
@@ -4071,6 +4051,56 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/calibration/testWorkflow/tof-collect-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: drop support for boost_serialise",
+            "number": 9836,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/InputRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/SerializationMethods.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TypeTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_BoostSerializedProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/CMakeLists.txt"
                   }
                 }
               ]
