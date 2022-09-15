@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-01T16:52:39Z",
-            "title": "Fix writing calibDigits tree",
-            "number": 9732,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-01T10:02:13Z",
             "title": "[EMCAL-786, EMCAL-565, EMCAL-566] Different spec names for Bad Channel Calib and Time Calib",
             "number": 9733,
@@ -3659,8 +3639,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-09-15T08:29:35Z",
             "title": "TRD raw data should be one file per CRU end point",
             "number": 9822,
             "author": {
@@ -3805,6 +3785,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/workflow/src/ZSSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
                   }
                 },
@@ -3911,6 +3896,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-09-15T08:22:46Z",
+            "title": "Fix SpaceCharge class version",
+            "number": 9832,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceCharge.h"
                   }
                 }
               ]
