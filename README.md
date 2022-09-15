@@ -69,6 +69,7 @@
 - [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
 - [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#9822](https://github.com/AliceO2Group/AliceO2/pull/9822) 2022-09-15: TRD raw data should be one file per CRU end point by [@martenole](https://github.com/martenole)
+- [\#9824](https://github.com/AliceO2Group/AliceO2/pull/9824) 2022-09-15: [EMCAL-548, O2-3169] Adding protection if there is no MC by [@hahassan7](https://github.com/hahassan7)
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9735](https://github.com/AliceO2Group/AliceO2/pull/9735) 2022-08-31: Update resources-monitoring documentation by [@ktf](https://github.com/ktf)
