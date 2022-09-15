@@ -70,7 +70,6 @@
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9743](https://github.com/AliceO2Group/AliceO2/pull/9743) 2022-09-02: DPL: drop unused headers / namespaces by [@ktf](https://github.com/ktf)
 - [\#9745](https://github.com/AliceO2Group/AliceO2/pull/9745) 2022-09-02: Adjust basket size dynamically by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
 - [\#9753](https://github.com/AliceO2Group/AliceO2/pull/9753) 2022-09-05: DPL Analysis: prevent nullptr access on empty filter groups by [@aalkin](https://github.com/aalkin)
