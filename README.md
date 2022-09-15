@@ -89,6 +89,7 @@
 - [\#9828](https://github.com/AliceO2Group/AliceO2/pull/9828) 2022-09-15: DPL: add back Pss metrics when resources-monitoring is enabled by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
+- [\#9837](https://github.com/AliceO2Group/AliceO2/pull/9837) 2022-09-15: improve documentation by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
