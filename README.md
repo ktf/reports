@@ -23,6 +23,7 @@
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
+- [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
@@ -71,6 +72,7 @@
 - [\#9824](https://github.com/AliceO2Group/AliceO2/pull/9824) 2022-09-15: [EMCAL-548, O2-3169] Adding protection if there is no MC by [@hahassan7](https://github.com/hahassan7)
 - [\#9830](https://github.com/AliceO2Group/AliceO2/pull/9830) 2022-09-15: add protection in TOF digitization when wrong calib are passed by [@noferini](https://github.com/noferini)
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
+- [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9742](https://github.com/AliceO2Group/AliceO2/pull/9742) 2022-09-02: Sending Policy add Services Registry by [@Zowlyfon](https://github.com/Zowlyfon)
 - [\#9743](https://github.com/AliceO2Group/AliceO2/pull/9743) 2022-09-02: DPL: drop unused headers / namespaces by [@ktf](https://github.com/ktf)
