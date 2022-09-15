@@ -67,6 +67,7 @@
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 - [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
+- [\#9818](https://github.com/AliceO2Group/AliceO2/pull/9818) 2022-09-15: Report size per data origin/description in TFreader by [@shahor02](https://github.com/shahor02)
 - [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#9822](https://github.com/AliceO2Group/AliceO2/pull/9822) 2022-09-15: TRD raw data should be one file per CRU end point by [@martenole](https://github.com/martenole)
 - [\#9824](https://github.com/AliceO2Group/AliceO2/pull/9824) 2022-09-15: [EMCAL-548, O2-3169] Adding protection if there is no MC by [@hahassan7](https://github.com/hahassan7)
