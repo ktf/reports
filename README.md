@@ -8,6 +8,7 @@
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
+- [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9740](https://github.com/AliceO2Group/AliceO2/pull/9740) 2022-09-02: CTF skimming  by [@shahor02](https://github.com/shahor02)
 - [\#9741](https://github.com/AliceO2Group/AliceO2/pull/9741) 2022-09-02: Fix in ITS noise calibration by [@shahor02](https://github.com/shahor02)
@@ -90,5 +91,6 @@
 - [\#9815](https://github.com/AliceO2Group/AliceO2/pull/9815) 2022-09-14: DPL: allow services to have a callback before sending messages by [@ktf](https://github.com/ktf)
 - [\#9826](https://github.com/AliceO2Group/AliceO2/pull/9826) 2022-09-15: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#9828](https://github.com/AliceO2Group/AliceO2/pull/9828) 2022-09-15: DPL: add back Pss metrics when resources-monitoring is enabled by [@ktf](https://github.com/ktf)
+- [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)

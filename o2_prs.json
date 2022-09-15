@@ -3366,7 +3366,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP] ZDC FIX digitization, add noise calibration, add option to prescale reconstruction",
+            "title": "ZDC FIX digitization, add noise calibration, add option to prescale reconstruction",
             "number": 9802,
             "author": {
               "login": "cortesep"
@@ -3386,6 +3386,11 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/calib/include/ZDCCalib/CalibParamZDC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalib.h"
                   }
                 },
                 {
@@ -3435,7 +3440,22 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalibEPN.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ZDC/calib/src/InterCalibEPNSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalibSpec.cxx"
                   }
                 },
                 {
@@ -3481,6 +3501,11 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/calib/src/zdc-intercalib-epn-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/zdc-intercalib-workflow.cxx"
                   }
                 },
                 {
@@ -4180,6 +4205,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/RDHUtils.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
                   }
                 },
@@ -4190,7 +4220,17 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]
@@ -4219,8 +4259,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-09-15T07:19:05Z",
             "title": "DPL: allow loading services based on DPL_LOAD_SERVICES",
             "number": 9829,
             "author": {
