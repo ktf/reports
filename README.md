@@ -22,7 +22,6 @@
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9744](https://github.com/AliceO2Group/AliceO2/pull/9744) 2022-09-02: EMCAL-612 by [@mfasDa](https://github.com/mfasDa)
 - [\#9746](https://github.com/AliceO2Group/AliceO2/pull/9746) 2022-09-09: Store start time of slot in ms when it is created. by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9747](https://github.com/AliceO2Group/AliceO2/pull/9747) 2022-09-03: ITS - change format for dcs object + fixed few bugs by [@iravasen](https://github.com/iravasen)
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
