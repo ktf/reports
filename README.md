@@ -9,7 +9,6 @@
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
@@ -22,7 +21,6 @@
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9751](https://github.com/AliceO2Group/AliceO2/pull/9751) 2022-09-12: Modified MFTConditionLinkDef.h to use array<int,3> in MFT calibration by [@syano0822](https://github.com/syano0822)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9755](https://github.com/AliceO2Group/AliceO2/pull/9755) 2022-09-07: [EMCAL-830] Recalibrator workflow for EMCAL cells by [@mfasDa](https://github.com/mfasDa)
