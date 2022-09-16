@@ -70,7 +70,6 @@
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9842](https://github.com/AliceO2Group/AliceO2/pull/9842) 2022-09-16: Prevent compiler warning by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
-- [\#9745](https://github.com/AliceO2Group/AliceO2/pull/9745) 2022-09-02: Adjust basket size dynamically by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9749](https://github.com/AliceO2Group/AliceO2/pull/9749) 2022-09-03: DPL: speed up metric processing by [@ktf](https://github.com/ktf)
 - [\#9753](https://github.com/AliceO2Group/AliceO2/pull/9753) 2022-09-05: DPL Analysis: prevent nullptr access on empty filter groups by [@aalkin](https://github.com/aalkin)
 - [\#9756](https://github.com/AliceO2Group/AliceO2/pull/9756) 2022-09-05: DPL Analysis: Event mixing: protect against empty associated table in a DF by [@saganatt](https://github.com/saganatt)
