@@ -4016,7 +4016,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-830] Convert internal cache of calib objects to std::shared_pointer",
+            "title": "[EMCAL-830] Adapt CalibLoader to fully rely on CCDB-backend",
             "number": 9843,
             "author": {
               "login": "mfasDa"
@@ -4030,12 +4030,22 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/CellRecalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/workflow/src/CalibLoader.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/CellRecalibratorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/cell-recalibrator-workflow.cxx"
                   }
                 }
               ]
@@ -4044,8 +4054,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-09-16T09:25:01Z",
             "title": "Fix: use raw string instead of escaping",
             "number": 9844,
             "author": {
