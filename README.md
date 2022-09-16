@@ -9,7 +9,6 @@
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9746](https://github.com/AliceO2Group/AliceO2/pull/9746) 2022-09-09: Store start time of slot in ms when it is created. by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
 - [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
@@ -22,7 +21,6 @@
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9746](https://github.com/AliceO2Group/AliceO2/pull/9746) 2022-09-09: Store start time of slot in ms when it is created. by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9747](https://github.com/AliceO2Group/AliceO2/pull/9747) 2022-09-03: ITS - change format for dcs object + fixed few bugs by [@iravasen](https://github.com/iravasen)
 - [\#9748](https://github.com/AliceO2Group/AliceO2/pull/9748) 2022-09-03: Create HBFUtilsInitializer after fully defining workflow by [@shahor02](https://github.com/shahor02)
 - [\#9750](https://github.com/AliceO2Group/AliceO2/pull/9750) 2022-09-06: Fix MeanVertexObject and use in the PVertexer by [@shahor02](https://github.com/shahor02)
@@ -48,6 +46,7 @@
 - [\#9782](https://github.com/AliceO2Group/AliceO2/pull/9782) 2022-09-12: [EMCAL-780] Add macro for single muon gun at testbeam energies by [@mfasDa](https://github.com/mfasDa)
 - [\#9783](https://github.com/AliceO2Group/AliceO2/pull/9783) 2022-09-14: Add the LOG(warn) for HMPID header reported errors by [@fapfap69](https://github.com/fapfap69)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
+- [\#9787](https://github.com/AliceO2Group/AliceO2/pull/9787) 2022-09-16: IDCs: add option to increase timestamp validity for QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9789](https://github.com/AliceO2Group/AliceO2/pull/9789) 2022-09-13: Loading TPC correction maps from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
@@ -61,6 +60,7 @@
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 - [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
+- [\#9817](https://github.com/AliceO2Group/AliceO2/pull/9817) 2022-09-16: Implementation of the ITS OB Gamma Conversion Wire by [@mario6829](https://github.com/mario6829)
 - [\#9818](https://github.com/AliceO2Group/AliceO2/pull/9818) 2022-09-15: Report size per data origin/description in TFreader by [@shahor02](https://github.com/shahor02)
 - [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#9822](https://github.com/AliceO2Group/AliceO2/pull/9822) 2022-09-15: TRD raw data should be one file per CRU end point by [@martenole](https://github.com/martenole)
