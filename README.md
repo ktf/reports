@@ -52,6 +52,7 @@
 - [\#9796](https://github.com/AliceO2Group/AliceO2/pull/9796) 2022-09-13: [EMCAL-757, EMCAL-830] Fixes in cell publisher and recalibrator by [@mfasDa](https://github.com/mfasDa)
 - [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
+- [\#9802](https://github.com/AliceO2Group/AliceO2/pull/9802) 2022-09-16: ZDC FIX digitization, add noise calibration, add option to prescale reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9804](https://github.com/AliceO2Group/AliceO2/pull/9804) 2022-09-14: [EMCAL-830] Add minmal information messages by [@mfasDa](https://github.com/mfasDa)
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
@@ -66,6 +67,7 @@
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9842](https://github.com/AliceO2Group/AliceO2/pull/9842) 2022-09-16: Prevent compiler warning by [@dstocco](https://github.com/dstocco)
+- [\#9843](https://github.com/AliceO2Group/AliceO2/pull/9843) 2022-09-16: [EMCAL-830] Adapt CalibLoader to fully rely on CCDB-backend by [@mfasDa](https://github.com/mfasDa)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#9753](https://github.com/AliceO2Group/AliceO2/pull/9753) 2022-09-05: DPL Analysis: prevent nullptr access on empty filter groups by [@aalkin](https://github.com/aalkin)
