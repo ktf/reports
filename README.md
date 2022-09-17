@@ -90,6 +90,7 @@
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9837](https://github.com/AliceO2Group/AliceO2/pull/9837) 2022-09-15: improve documentation by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9844](https://github.com/AliceO2Group/AliceO2/pull/9844) 2022-09-16: Fix: use raw string instead of escaping by [@shahor02](https://github.com/shahor02)
+- [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
