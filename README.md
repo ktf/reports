@@ -56,6 +56,7 @@
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 - [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
+- [\#9816](https://github.com/AliceO2Group/AliceO2/pull/9816) 2022-09-18: Adjust max-delay for meanVtx calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9817](https://github.com/AliceO2Group/AliceO2/pull/9817) 2022-09-16: Implementation of the ITS OB Gamma Conversion Wire by [@mario6829](https://github.com/mario6829)
 - [\#9818](https://github.com/AliceO2Group/AliceO2/pull/9818) 2022-09-15: Report size per data origin/description in TFreader by [@shahor02](https://github.com/shahor02)
 - [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
