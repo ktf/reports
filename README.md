@@ -2,12 +2,14 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
+- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
@@ -95,6 +97,7 @@
 - [\#9840](https://github.com/AliceO2Group/AliceO2/pull/9840) 2022-09-18: DPL: improve configuation parser by [@ktf](https://github.com/ktf)
 - [\#9844](https://github.com/AliceO2Group/AliceO2/pull/9844) 2022-09-16: Fix: use raw string instead of escaping by [@shahor02](https://github.com/shahor02)
 - [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
+- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
