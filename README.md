@@ -9,7 +9,6 @@
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
@@ -22,7 +21,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9752](https://github.com/AliceO2Group/AliceO2/pull/9752) 2022-09-06: Option to run ITS noise calibrators as accumulators->normalizer by [@shahor02](https://github.com/shahor02)
 - [\#9755](https://github.com/AliceO2Group/AliceO2/pull/9755) 2022-09-07: [EMCAL-830] Recalibrator workflow for EMCAL cells by [@mfasDa](https://github.com/mfasDa)
 - [\#9757](https://github.com/AliceO2Group/AliceO2/pull/9757) 2022-09-06: TPC SCD calib: store correct angle in residuals by [@martenole](https://github.com/martenole)
 - [\#9761](https://github.com/AliceO2Group/AliceO2/pull/9761) 2022-09-07: [EMCAL-565]: Change offline calibrator to add option to store calibration objects locally. by [@hjbossi](https://github.com/hjbossi)
