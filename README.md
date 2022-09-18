@@ -70,6 +70,7 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
+- [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#9756](https://github.com/AliceO2Group/AliceO2/pull/9756) 2022-09-05: DPL Analysis: Event mixing: protect against empty associated table in a DF by [@saganatt](https://github.com/saganatt)
 - [\#9759](https://github.com/AliceO2Group/AliceO2/pull/9759) 2022-09-06: DPL: speedup arrow metrics processing by [@ktf](https://github.com/ktf)
