@@ -10,7 +10,6 @@
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
@@ -23,7 +22,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
 - [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9771](https://github.com/AliceO2Group/AliceO2/pull/9771) 2022-09-07: TRD: AODProducer: Fix trdPattern by [@f3sch](https://github.com/f3sch)
@@ -73,7 +71,6 @@
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 - [\#9861](https://github.com/AliceO2Group/AliceO2/pull/9861) 2022-09-19: change binning for mean vertex calib by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
-- [\#9768](https://github.com/AliceO2Group/AliceO2/pull/9768) 2022-09-06: DPL: reset the number of end of stream received before quitting by [@ktf](https://github.com/ktf)
 - [\#9772](https://github.com/AliceO2Group/AliceO2/pull/9772) 2022-09-07: Don't use latest libuv API by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9778](https://github.com/AliceO2Group/AliceO2/pull/9778) 2022-09-08: DPL: avoid race condition when resetting output proxy by [@ktf](https://github.com/ktf)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
