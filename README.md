@@ -26,7 +26,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9761](https://github.com/AliceO2Group/AliceO2/pull/9761) 2022-09-07: [EMCAL-565]: Change offline calibrator to add option to store calibration objects locally. by [@hjbossi](https://github.com/hjbossi)
 - [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9764](https://github.com/AliceO2Group/AliceO2/pull/9764) 2022-09-06: Block further parameter settings by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
