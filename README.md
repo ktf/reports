@@ -9,6 +9,7 @@
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
+- [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
@@ -90,6 +91,7 @@
 - [\#9856](https://github.com/AliceO2Group/AliceO2/pull/9856) 2022-09-19: Add missing include by [@wiechula](https://github.com/wiechula)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9859](https://github.com/AliceO2Group/AliceO2/pull/9859) 2022-09-19: DPL: extend test to check for spaces by [@ktf](https://github.com/ktf)
+- [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
