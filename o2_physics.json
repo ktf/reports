@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-22T14:22:18Z",
-            "title": "DPG: fix ccdb query for magnetic field with new GRPMagField.",
-            "number": 1155,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaImpPar.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-23T07:05:45Z",
             "title": "Fix check on process functions",
             "number": 1156,
@@ -2634,7 +2614,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "New class for D0-h correlation analysis",
             "number": 1254,
@@ -2667,10 +2647,45 @@
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
                   }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "New class for D0-h correlation",
+            "number": 1255,
+            "author": {
+              "login": "samrangy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFSecondaryVertex.h"
+                  }
                 },
                 {
                   "node": {
-                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                    "path": "PWGHF/HFC/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/HFCorrelatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
                   }
                 }
               ]
