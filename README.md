@@ -10,7 +10,6 @@
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
@@ -24,7 +23,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9764](https://github.com/AliceO2Group/AliceO2/pull/9764) 2022-09-06: Block further parameter settings by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
 - [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
