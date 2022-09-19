@@ -69,6 +69,7 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
+- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9861](https://github.com/AliceO2Group/AliceO2/pull/9861) 2022-09-19: change binning for mean vertex calib by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 - [\#9772](https://github.com/AliceO2Group/AliceO2/pull/9772) 2022-09-07: Don't use latest libuv API by [@jgrosseo](https://github.com/jgrosseo)
@@ -89,6 +90,9 @@
 - [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9856](https://github.com/AliceO2Group/AliceO2/pull/9856) 2022-09-19: Add missing include by [@wiechula](https://github.com/wiechula)
+- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
+- [\#9859](https://github.com/AliceO2Group/AliceO2/pull/9859) 2022-09-19: DPL: extend test to check for spaces by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
+- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
