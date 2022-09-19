@@ -23,7 +23,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
 - [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
 - [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
