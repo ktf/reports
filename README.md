@@ -22,7 +22,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9769](https://github.com/AliceO2Group/AliceO2/pull/9769) 2022-09-06: [EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader by [@mfasDa](https://github.com/mfasDa)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
 - [\#9771](https://github.com/AliceO2Group/AliceO2/pull/9771) 2022-09-07: TRD: AODProducer: Fix trdPattern by [@f3sch](https://github.com/f3sch)
 - [\#9773](https://github.com/AliceO2Group/AliceO2/pull/9773) 2022-09-12: SpaceCharge: Adding option to scale the gain per stack by [@matthias-kleiner](https://github.com/matthias-kleiner)

@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-06T15:02:12Z",
-            "title": "[EMCAL-757, QC-851] Fix type for subspec in EMCAL cell reader",
-            "number": 9769,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/cell-reader-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-06T23:03:52Z",
             "title": "PVertexer requires strict source selection in CreateTracksVariadic",
             "number": 9770,
@@ -3636,6 +3616,66 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use prod ccdb",
+            "number": 9869,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/DownloadCCDBFile.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/UploadTool.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testBasicCCDBManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApiMultipleUrls.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi_ConfigParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/test_CCDBFetchToTimeframe.cxx"
                   }
                 }
               ]
