@@ -69,6 +69,7 @@
 - [\#9830](https://github.com/AliceO2Group/AliceO2/pull/9830) 2022-09-15: add protection in TOF digitization when wrong calib are passed by [@noferini](https://github.com/noferini)
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
+- [\#9839](https://github.com/AliceO2Group/AliceO2/pull/9839) 2022-09-19: [EMCAL-835] General error handling for invalid access in CCDB objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9842](https://github.com/AliceO2Group/AliceO2/pull/9842) 2022-09-16: Prevent compiler warning by [@dstocco](https://github.com/dstocco)
 - [\#9843](https://github.com/AliceO2Group/AliceO2/pull/9843) 2022-09-16: [EMCAL-830] Adapt CalibLoader to fully rely on CCDB-backend by [@mfasDa](https://github.com/mfasDa)
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
@@ -96,6 +97,7 @@
 - [\#9844](https://github.com/AliceO2Group/AliceO2/pull/9844) 2022-09-16: Fix: use raw string instead of escaping by [@shahor02](https://github.com/shahor02)
 - [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
+- [\#9856](https://github.com/AliceO2Group/AliceO2/pull/9856) 2022-09-19: Add missing include by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Utilities
 - [\#9777](https://github.com/AliceO2Group/AliceO2/pull/9777) 2022-09-08: ShmManager: fix race between segment reset & presence check by [@rbx](https://github.com/rbx)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
