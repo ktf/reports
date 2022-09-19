@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-23T08:20:58Z",
-            "title": "PID: Fix call to particle getter",
-            "number": 1157,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOFMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-23T20:28:16Z",
             "title": "PWGHF: add HF mixing, remove candidate daughters from associated particle loop",
             "number": 1158,
@@ -2701,6 +2676,36 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes in dndeta-mft and track-propagation",
+            "number": 1257,
+            "author": {
+              "login": "sarahherrmann"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/DataModel/bestCollisionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-mft.cxx"
                   }
                 }
               ]
