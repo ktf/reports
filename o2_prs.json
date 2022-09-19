@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-06T11:44:28Z",
-            "title": "Block further parameter settings",
-            "number": 9764,
-            "author": {
-              "login": "benedikt-voelkel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/include/SimSetup/MCReplayParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/MCReplayConfig.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-06T07:29:48Z",
             "title": "FST: start_tmux.sh and shm-tool.sh should use same memory defaults",
             "number": 9765,
@@ -3596,6 +3571,31 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/calibration/macros/plotVdriftExB.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CTFWriter skips detector storage if an empty CTF container is passed",
+            "number": 9864,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
                   }
                 }
               ]
