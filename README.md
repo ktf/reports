@@ -4,14 +4,12 @@
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9767](https://github.com/AliceO2Group/AliceO2/pull/9767) 2022-09-12: new features for TOF calib scheme (slewing and track quality flags) by [@noferini](https://github.com/noferini)
 - [\#9770](https://github.com/AliceO2Group/AliceO2/pull/9770) 2022-09-06: PVertexer requires strict source selection in CreateTracksVariadic by [@shahor02](https://github.com/shahor02)
@@ -26,7 +24,6 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#9762](https://github.com/AliceO2Group/AliceO2/pull/9762) 2022-09-06: TPC ion tail filter + some related stuff by [@davidrohr](https://github.com/davidrohr)
 - [\#9763](https://github.com/AliceO2Group/AliceO2/pull/9763) 2022-09-07: [ZDC] Centroid computation in RecEventFlat by [@cortesep](https://github.com/cortesep)
 - [\#9764](https://github.com/AliceO2Group/AliceO2/pull/9764) 2022-09-06: Block further parameter settings by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#9766](https://github.com/AliceO2Group/AliceO2/pull/9766) 2022-09-06: Fix emcal-cell-writer --subspec option by [@shahor02](https://github.com/shahor02)
