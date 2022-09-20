@@ -71,6 +71,7 @@
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9861](https://github.com/AliceO2Group/AliceO2/pull/9861) 2022-09-19: change binning for mean vertex calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
+- [\#9866](https://github.com/AliceO2Group/AliceO2/pull/9866) 2022-09-20: MRRTF-196: Fix for MCH DE301 electronic mapping by [@aphecetche](https://github.com/aphecetche)
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#9778](https://github.com/AliceO2Group/AliceO2/pull/9778) 2022-09-08: DPL: avoid race condition when resetting output proxy by [@ktf](https://github.com/ktf)
