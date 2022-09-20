@@ -24,7 +24,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9774](https://github.com/AliceO2Group/AliceO2/pull/9774) 2022-09-08: TRD: QC: update TrackQC ID by [@f3sch](https://github.com/f3sch)
 - [\#9776](https://github.com/AliceO2Group/AliceO2/pull/9776) 2022-09-08: TRD raw reader update by [@martenole](https://github.com/martenole)
 - [\#9779](https://github.com/AliceO2Group/AliceO2/pull/9779) 2022-09-08: TPC: Fix trigger detection with new FW by [@wiechula](https://github.com/wiechula)
 - [\#9780](https://github.com/AliceO2Group/AliceO2/pull/9780) 2022-09-11: MCH: some more debug options for reco-workflow by [@aphecetche](https://github.com/aphecetche)
