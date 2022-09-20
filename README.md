@@ -73,7 +73,6 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#9772](https://github.com/AliceO2Group/AliceO2/pull/9772) 2022-09-07: Don't use latest libuv API by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9778](https://github.com/AliceO2Group/AliceO2/pull/9778) 2022-09-08: DPL: avoid race condition when resetting output proxy by [@ktf](https://github.com/ktf)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
