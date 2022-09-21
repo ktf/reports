@@ -4,7 +4,6 @@
 - [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9791](https://github.com/AliceO2Group/AliceO2/pull/9791) 2022-09-12: DPL: fix name clash with the new FairMQ by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
@@ -22,7 +21,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9789](https://github.com/AliceO2Group/AliceO2/pull/9789) 2022-09-13: Loading TPC correction maps from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
 - [\#9793](https://github.com/AliceO2Group/AliceO2/pull/9793) 2022-09-12: FT0 digi change info to debug message by [@martenole](https://github.com/martenole)
