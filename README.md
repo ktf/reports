@@ -18,6 +18,7 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
+- [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
 - [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
@@ -80,6 +81,7 @@
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
 - [\#9872](https://github.com/AliceO2Group/AliceO2/pull/9872) 2022-09-20: Allow custom GUIs via services and for devices by [@ktf](https://github.com/ktf)
 - [\#9877](https://github.com/AliceO2Group/AliceO2/pull/9877) 2022-09-21: DPL: drop unneeded forward declaration by [@ktf](https://github.com/ktf)
+- [\#9883](https://github.com/AliceO2Group/AliceO2/pull/9883) 2022-09-21: DPL Analysis: prevent SmallGroups use for unrelated tables by [@aalkin](https://github.com/aalkin)
 - [\#9884](https://github.com/AliceO2Group/AliceO2/pull/9884) 2022-09-21: DPL: do not depend on CCDBApi to unpack stuff by [@ktf](https://github.com/ktf)
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
