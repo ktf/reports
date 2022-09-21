@@ -21,7 +21,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)
 - [\#9793](https://github.com/AliceO2Group/AliceO2/pull/9793) 2022-09-12: FT0 digi change info to debug message by [@martenole](https://github.com/martenole)
 - [\#9794](https://github.com/AliceO2Group/AliceO2/pull/9794) 2022-09-12: LocalGainFactor for TRD calibrations retrieved from the CCDB as abs by [@jcrkovsk](https://github.com/jcrkovsk)
 - [\#9796](https://github.com/AliceO2Group/AliceO2/pull/9796) 2022-09-13: [EMCAL-757, EMCAL-830] Fixes in cell publisher and recalibrator by [@mfasDa](https://github.com/mfasDa)
@@ -53,6 +52,7 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
+- [\#9853](https://github.com/AliceO2Group/AliceO2/pull/9853) 2022-09-21: CPV: add persistent bad channels reading from CCDB by [@sevdokim](https://github.com/sevdokim)
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 - [\#9857](https://github.com/AliceO2Group/AliceO2/pull/9857) 2022-09-20: [EMCAL-835] Trigger exception based on array size by [@mfasDa](https://github.com/mfasDa)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
