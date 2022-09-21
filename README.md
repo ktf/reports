@@ -83,6 +83,7 @@
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
 - [\#9872](https://github.com/AliceO2Group/AliceO2/pull/9872) 2022-09-20: Allow custom GUIs via services and for devices by [@ktf](https://github.com/ktf)
 - [\#9877](https://github.com/AliceO2Group/AliceO2/pull/9877) 2022-09-21: DPL: drop unneeded forward declaration by [@ktf](https://github.com/ktf)
+- [\#9884](https://github.com/AliceO2Group/AliceO2/pull/9884) 2022-09-21: DPL: do not depend on CCDBApi to unpack stuff by [@ktf](https://github.com/ktf)
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
