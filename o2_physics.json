@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-08-29T07:48:52Z",
-            "title": "PWGCF: Update two body trigger",
-            "number": 1170,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilterTwoN.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-01T11:30:58Z",
-            "title": "[PWG-DQ] fix typo in macros",
-            "number": 1171,
-            "author": {
-              "login": "ctolon"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Macros/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Macros/tutorial.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-08-29T07:23:11Z",
             "title": "PWGMM: dndeta: Use ambiguous tracks",
             "number": 1172,
@@ -2691,6 +2646,71 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add protection against collisions without MC collision associated",
+            "number": 1270,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/HFMCValidation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "export the cmake info for usage of O2Physics as dependency - WIP",
+            "number": 1271,
+            "author": {
+              "login": "adriansev"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsDataFile.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsSetROOTPCMDependencies.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/rootcling_wrapper.sh.in"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "packaging/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "packaging/O2PhysicsConfig.cmake"
                   }
                 }
               ]
