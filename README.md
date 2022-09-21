@@ -53,6 +53,7 @@
 - [\#9830](https://github.com/AliceO2Group/AliceO2/pull/9830) 2022-09-15: add protection in TOF digitization when wrong calib are passed by [@noferini](https://github.com/noferini)
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
+- [\#9834](https://github.com/AliceO2Group/AliceO2/pull/9834) 2022-09-21: FST MC->Raw files are produced by CRU end point by [@martenole](https://github.com/martenole)
 - [\#9838](https://github.com/AliceO2Group/AliceO2/pull/9838) 2022-09-19: ctpdev: orbitid fix and scalers logs improvements by [@lietava](https://github.com/lietava)
 - [\#9839](https://github.com/AliceO2Group/AliceO2/pull/9839) 2022-09-19: [EMCAL-835] General error handling for invalid access in CCDB objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9841](https://github.com/AliceO2Group/AliceO2/pull/9841) 2022-09-19: Improve information for MID chamber efficiency calculation by [@dstocco](https://github.com/dstocco)
