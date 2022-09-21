@@ -22,7 +22,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9781](https://github.com/AliceO2Group/AliceO2/pull/9781) 2022-09-14: DCS 2 CCDB x ZDC by [@coppedis](https://github.com/coppedis)
 - [\#9782](https://github.com/AliceO2Group/AliceO2/pull/9782) 2022-09-12: [EMCAL-780] Add macro for single muon gun at testbeam energies by [@mfasDa](https://github.com/mfasDa)
 - [\#9783](https://github.com/AliceO2Group/AliceO2/pull/9783) 2022-09-14: Add the LOG(warn) for HMPID header reported errors by [@fapfap69](https://github.com/fapfap69)
 - [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
