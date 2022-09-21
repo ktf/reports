@@ -13,7 +13,6 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9827](https://github.com/AliceO2Group/AliceO2/pull/9827) 2022-09-18: TPC: Implement digit2raw encoder for Dense TPC ZS format in final version by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
@@ -23,8 +22,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9786](https://github.com/AliceO2Group/AliceO2/pull/9786) 2022-09-11: Remove option to ignore bogus TRD headers by [@martenole](https://github.com/martenole)
-- [\#9787](https://github.com/AliceO2Group/AliceO2/pull/9787) 2022-09-16: IDCs: add option to increase timestamp validity for QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9788](https://github.com/AliceO2Group/AliceO2/pull/9788) 2022-09-11: MUON: dcs processor fix (do not add several times the very same datapoint) by [@aphecetche](https://github.com/aphecetche)
 - [\#9789](https://github.com/AliceO2Group/AliceO2/pull/9789) 2022-09-13: Loading TPC correction maps from CCDB by [@shahor02](https://github.com/shahor02)
 - [\#9790](https://github.com/AliceO2Group/AliceO2/pull/9790) 2022-09-12: [EMCAL-565]: Integrate scaling in the bad channel calibration by [@hjbossi](https://github.com/hjbossi)

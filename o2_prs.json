@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-11T14:01:44Z",
-            "title": "Remove option to ignore bogus TRD headers",
-            "number": 9786,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawDataStats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-16T11:46:39Z",
-            "title": "IDCs: add option to increase timestamp validity for QC",
-            "number": 9787,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/IDCCCDBHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/test/test_ft_EPN_Aggregator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-11T19:30:36Z",
             "title": "MUON: dcs processor fix (do not add several times the very same datapoint)",
             "number": 9788,
@@ -3666,6 +3606,71 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow loading ThreadPool as plugin",
+            "number": 9886,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonServices.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Plugin.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] - ZDC - Do not produce a fatal error for inconsistent events: just skip the TF",
+            "number": 9887,
+            "author": {
+              "login": "cortesep"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/include/ZDCReconstruction/DigiReco.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/src/DigiReco.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/DigitRecoSpec.cxx"
                   }
                 }
               ]
