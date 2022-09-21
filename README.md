@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
@@ -62,7 +61,6 @@
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Framework
-- [\#9795](https://github.com/AliceO2Group/AliceO2/pull/9795) 2022-09-12: few fixes in tiered file access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9806](https://github.com/AliceO2Group/AliceO2/pull/9806) 2022-09-13: DPL GUI: improve GUI to change state by [@ktf](https://github.com/ktf)
 - [\#9808](https://github.com/AliceO2Group/AliceO2/pull/9808) 2022-09-13: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
