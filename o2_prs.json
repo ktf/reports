@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-12T08:34:44Z",
-            "title": "[EMCAL-780] Add macro for single muon gun at testbeam energies",
-            "number": 9782,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/testsimulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/testsimulation/fixedEnergyMuonGun.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-14T06:58:59Z",
             "title": "Add the LOG(warn) for HMPID header reported errors",
             "number": 9783,
@@ -3661,6 +3636,36 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/cru-page-reader-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: Change data type of FIT DCS CCDB objects",
+            "number": 9882,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/src/DataFormatsFITLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/include/FITDCSMonitoring/FITDCSDataReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/common/dcsmonitoring/src/FITDCSDataReader.cxx"
                   }
                 }
               ]
