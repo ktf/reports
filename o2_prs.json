@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-12T13:26:24Z",
-            "title": "LocalGainFactor for TRD calibrations retrieved from the CCDB as abs",
-            "number": 9794,
-            "author": {
-              "login": "jcrkovsk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/src/Calibrations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-12T13:38:04Z",
             "title": "few fixes in tiered file access",
             "number": 9795,
@@ -3571,6 +3551,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: added DPL message with heart-beat packets",
+            "number": 9894,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Base/include/MCHBase/HeartBeatPacket.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/DataDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/DataDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
                   }
                 }
               ]
