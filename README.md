@@ -19,7 +19,6 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#9796](https://github.com/AliceO2Group/AliceO2/pull/9796) 2022-09-13: [EMCAL-757, EMCAL-830] Fixes in cell publisher and recalibrator by [@mfasDa](https://github.com/mfasDa)
 - [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9802](https://github.com/AliceO2Group/AliceO2/pull/9802) 2022-09-16: ZDC FIX digitization, add noise calibration, add option to prescale reconstruction by [@cortesep](https://github.com/cortesep)
