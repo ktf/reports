@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-01T13:23:45Z",
-            "title": "PWGHF: Minimal fix to range of d0xd0 histogram in D0mass task",
-            "number": 1182,
-            "author": {
-              "login": "fcolamar"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskD0.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-06T10:18:09Z",
             "title": "add QA histos",
             "number": 1183,
@@ -2731,6 +2711,61 @@
                 {
                   "node": {
                     "path": "PWGHF/HFL/HFmAnalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Implementing B0 → D- π+ → (π- K+ π-) π+ workflow",
+            "number": 1282,
+            "author": {
+              "login": "AlexBigO"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/Core/HFSelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFCandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/HFSecondaryVertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFB0ToDPiCandidateSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreatorB0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskB0.cxx"
                   }
                 }
               ]
