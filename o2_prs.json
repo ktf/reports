@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-13T06:46:44Z",
-            "title": "Fix indentation, and typo",
-            "number": 9799,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Kr calibration - normalized gain maps",
@@ -2751,7 +2731,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Trd: calib output",
+            "title": "TRD: calibration: Added output flag and included deflection correlation macro",
             "number": 9875,
             "author": {
               "login": "f3sch"
@@ -2760,7 +2740,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/TRD/calibration/README.md"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorVdExB.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/macros/makeDeflectionCorrelation.C"
                   }
                 },
                 {
@@ -2884,8 +2874,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-09-22T09:29:07Z",
             "title": "Add simplified producer for filling MC tables only",
             "number": 9879,
             "author": {
@@ -3876,6 +3866,26 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/macros/readFITDCSentries.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: mark functions as [[nodiscard]]",
+            "number": 9899,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TimesliceIndex.h"
                   }
                 }
               ]
