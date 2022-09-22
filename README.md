@@ -20,7 +20,6 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#9797](https://github.com/AliceO2Group/AliceO2/pull/9797) 2022-09-13: TPC SpaceCharge: make SpaceCharge object writable to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9801](https://github.com/AliceO2Group/AliceO2/pull/9801) 2022-09-12: FIT:hotfix for calibrator by [@afurs](https://github.com/afurs)
 - [\#9802](https://github.com/AliceO2Group/AliceO2/pull/9802) 2022-09-16: ZDC FIX digitization, add noise calibration, add option to prescale reconstruction by [@cortesep](https://github.com/cortesep)
 - [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
