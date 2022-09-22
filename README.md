@@ -10,7 +10,6 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9827](https://github.com/AliceO2Group/AliceO2/pull/9827) 2022-09-18: TPC: Implement digit2raw encoder for Dense TPC ZS format in final version by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9838](https://github.com/AliceO2Group/AliceO2/pull/9838) 2022-09-19: ctpdev: orbitid fix and scalers logs improvements by [@lietava](https://github.com/lietava)
@@ -20,7 +19,6 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Detectors
-- [\#9803](https://github.com/AliceO2Group/AliceO2/pull/9803) 2022-09-13: Preparations to get the TPC Dense LBZS working on GPU by [@davidrohr](https://github.com/davidrohr)
 - [\#9804](https://github.com/AliceO2Group/AliceO2/pull/9804) 2022-09-14: [EMCAL-830] Add minmal information messages by [@mfasDa](https://github.com/mfasDa)
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
