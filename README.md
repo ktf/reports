@@ -50,6 +50,7 @@
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 - [\#9857](https://github.com/AliceO2Group/AliceO2/pull/9857) 2022-09-20: [EMCAL-835] Trigger exception based on array size by [@mfasDa](https://github.com/mfasDa)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
+- [\#9860](https://github.com/AliceO2Group/AliceO2/pull/9860) 2022-09-23: [EMCAL-798] Add low and high gain histograms by [@jokonig](https://github.com/jokonig)
 - [\#9861](https://github.com/AliceO2Group/AliceO2/pull/9861) 2022-09-19: change binning for mean vertex calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9863](https://github.com/AliceO2Group/AliceO2/pull/9863) 2022-09-22: TRD: Calibration update and additonal macros by [@f3sch](https://github.com/f3sch)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
