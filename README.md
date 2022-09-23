@@ -9,6 +9,7 @@
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
+- [\#9904](https://github.com/AliceO2Group/AliceO2/pull/9904) 2022-09-23: Whitelist ITS3 in o2-sim by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 - [\#9827](https://github.com/AliceO2Group/AliceO2/pull/9827) 2022-09-18: TPC: Implement digit2raw encoder for Dense TPC ZS format in final version by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
@@ -18,6 +19,7 @@
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
+- [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
 - [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
@@ -34,6 +36,7 @@
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9834](https://github.com/AliceO2Group/AliceO2/pull/9834) 2022-09-21: FST MC->Raw files are produced by CRU end point by [@martenole](https://github.com/martenole)
+- [\#9835](https://github.com/AliceO2Group/AliceO2/pull/9835) 2022-09-23: optimizing TOF calib (LHCphase for TimeSlewing) by [@noferini](https://github.com/noferini)
 - [\#9838](https://github.com/AliceO2Group/AliceO2/pull/9838) 2022-09-19: ctpdev: orbitid fix and scalers logs improvements by [@lietava](https://github.com/lietava)
 - [\#9839](https://github.com/AliceO2Group/AliceO2/pull/9839) 2022-09-19: [EMCAL-835] General error handling for invalid access in CCDB objects by [@mfasDa](https://github.com/mfasDa)
 - [\#9841](https://github.com/AliceO2Group/AliceO2/pull/9841) 2022-09-19: Improve information for MID chamber efficiency calculation by [@dstocco](https://github.com/dstocco)
@@ -57,6 +60,7 @@
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
+- [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9900](https://github.com/AliceO2Group/AliceO2/pull/9900) 2022-09-23: FIT: Fix typo in FDD DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
