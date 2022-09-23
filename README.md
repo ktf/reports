@@ -41,6 +41,7 @@
 - [\#9843](https://github.com/AliceO2Group/AliceO2/pull/9843) 2022-09-16: [EMCAL-830] Adapt CalibLoader to fully rely on CCDB-backend by [@mfasDa](https://github.com/mfasDa)
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
+- [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 - [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
 - [\#9853](https://github.com/AliceO2Group/AliceO2/pull/9853) 2022-09-21: CPV: add persistent bad channels reading from CCDB by [@sevdokim](https://github.com/sevdokim)
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
@@ -56,6 +57,7 @@
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
+- [\#9900](https://github.com/AliceO2Group/AliceO2/pull/9900) 2022-09-23: FIT: Fix typo in FDD DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
@@ -84,6 +86,8 @@
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Utilities
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
