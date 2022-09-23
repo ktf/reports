@@ -68,7 +68,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9808](https://github.com/AliceO2Group/AliceO2/pull/9808) 2022-09-13: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9815](https://github.com/AliceO2Group/AliceO2/pull/9815) 2022-09-14: DPL: allow services to have a callback before sending messages by [@ktf](https://github.com/ktf)
 - [\#9826](https://github.com/AliceO2Group/AliceO2/pull/9826) 2022-09-15: Fix warnings by [@ktf](https://github.com/ktf)
