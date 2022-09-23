@@ -81,6 +81,7 @@
 - [\#9884](https://github.com/AliceO2Group/AliceO2/pull/9884) 2022-09-21: DPL: do not depend on CCDBApi to unpack stuff by [@ktf](https://github.com/ktf)
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
+- [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
