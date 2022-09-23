@@ -18,6 +18,7 @@
 - [\#9845](https://github.com/AliceO2Group/AliceO2/pull/9845) 2022-09-17: Various general reco classes fixes needed for alignment by [@shahor02](https://github.com/shahor02)
 - [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
+- [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
@@ -55,6 +56,7 @@
 - [\#9863](https://github.com/AliceO2Group/AliceO2/pull/9863) 2022-09-22: TRD: Calibration update and additonal macros by [@f3sch](https://github.com/f3sch)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9866](https://github.com/AliceO2Group/AliceO2/pull/9866) 2022-09-20: MRRTF-196: Fix for MCH DE301 electronic mapping by [@aphecetche](https://github.com/aphecetche)
+- [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 - [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
 - [\#9874](https://github.com/AliceO2Group/AliceO2/pull/9874) 2022-09-20: Sign of sigma shouldn't flip with bz by [@mpuccio](https://github.com/mpuccio)
