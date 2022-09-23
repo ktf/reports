@@ -56,8 +56,8 @@
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
+- [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
-- [\#9806](https://github.com/AliceO2Group/AliceO2/pull/9806) 2022-09-13: DPL GUI: improve GUI to change state by [@ktf](https://github.com/ktf)
 - [\#9808](https://github.com/AliceO2Group/AliceO2/pull/9808) 2022-09-13: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#9809](https://github.com/AliceO2Group/AliceO2/pull/9809) 2022-09-14: DPL: add ability to load services from plugins by [@ktf](https://github.com/ktf)
 - [\#9815](https://github.com/AliceO2Group/AliceO2/pull/9815) 2022-09-14: DPL: allow services to have a callback before sending messages by [@ktf](https://github.com/ktf)
