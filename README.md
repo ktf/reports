@@ -21,7 +21,6 @@
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#9811](https://github.com/AliceO2Group/AliceO2/pull/9811) 2022-09-14: [EMCAL-566] Add calib type as workflow argument by [@jokonig](https://github.com/jokonig)
 - [\#9812](https://github.com/AliceO2Group/AliceO2/pull/9812) 2022-09-14: ctf-writer --output-dir=/dev/null with disable CTF and metafile writing by [@shahor02](https://github.com/shahor02)
 - [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
 - [\#9816](https://github.com/AliceO2Group/AliceO2/pull/9816) 2022-09-18: Adjust max-delay for meanVtx calib by [@chiarazampolli](https://github.com/chiarazampolli)
