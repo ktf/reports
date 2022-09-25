@@ -21,7 +21,6 @@
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#9813](https://github.com/AliceO2Group/AliceO2/pull/9813) 2022-09-14: [EMCAL-565]: Add NHits as an additional condition for bad channel calibration. by [@hjbossi](https://github.com/hjbossi)
 - [\#9816](https://github.com/AliceO2Group/AliceO2/pull/9816) 2022-09-18: Adjust max-delay for meanVtx calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9817](https://github.com/AliceO2Group/AliceO2/pull/9817) 2022-09-16: Implementation of the ITS OB Gamma Conversion Wire by [@mario6829](https://github.com/mario6829)
 - [\#9818](https://github.com/AliceO2Group/AliceO2/pull/9818) 2022-09-15: Report size per data origin/description in TFreader by [@shahor02](https://github.com/shahor02)
