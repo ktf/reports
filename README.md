@@ -70,7 +70,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9815](https://github.com/AliceO2Group/AliceO2/pull/9815) 2022-09-14: DPL: allow services to have a callback before sending messages by [@ktf](https://github.com/ktf)
 - [\#9826](https://github.com/AliceO2Group/AliceO2/pull/9826) 2022-09-15: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#9828](https://github.com/AliceO2Group/AliceO2/pull/9828) 2022-09-15: DPL: add back Pss metrics when resources-monitoring is enabled by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
