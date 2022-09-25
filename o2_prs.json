@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-15T14:24:23Z",
-            "title": "Report size per data origin/description in TFreader",
-            "number": 9818,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-15T08:09:59Z",
             "title": "[EMCAL-798] Reject calib. events in offline calib",
             "number": 9819,
@@ -3911,6 +3891,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC gainmap tracks: publish data after 30 processed TFs",
+            "number": 9918,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCDrawHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibratorPadGainTracksSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadGainTracksSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
                   }
                 }
               ]

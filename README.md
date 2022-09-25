@@ -22,7 +22,6 @@
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#9818](https://github.com/AliceO2Group/AliceO2/pull/9818) 2022-09-15: Report size per data origin/description in TFreader by [@shahor02](https://github.com/shahor02)
 - [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#9822](https://github.com/AliceO2Group/AliceO2/pull/9822) 2022-09-15: TRD raw data should be one file per CRU end point by [@martenole](https://github.com/martenole)
 - [\#9823](https://github.com/AliceO2Group/AliceO2/pull/9823) 2022-09-16: Add ZDC calibration to dpl-workflow by [@shahor02](https://github.com/shahor02)
