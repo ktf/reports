@@ -20,6 +20,7 @@
 - [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
+- [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#9816](https://github.com/AliceO2Group/AliceO2/pull/9816) 2022-09-18: Adjust max-delay for meanVtx calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9817](https://github.com/AliceO2Group/AliceO2/pull/9817) 2022-09-16: Implementation of the ITS OB Gamma Conversion Wire by [@mario6829](https://github.com/mario6829)
@@ -65,6 +66,7 @@
 - [\#9900](https://github.com/AliceO2Group/AliceO2/pull/9900) 2022-09-23: FIT: Fix typo in FDD DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9907](https://github.com/AliceO2Group/AliceO2/pull/9907) 2022-09-24: TRD tracking QC is a proper DPL message by [@martenole](https://github.com/martenole)
+- [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
