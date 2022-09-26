@@ -89,6 +89,7 @@
 - [\#9884](https://github.com/AliceO2Group/AliceO2/pull/9884) 2022-09-21: DPL: do not depend on CCDBApi to unpack stuff by [@ktf](https://github.com/ktf)
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
+- [\#9899](https://github.com/AliceO2Group/AliceO2/pull/9899) 2022-09-26: DPL: mark functions as [[nodiscard]] by [@ktf](https://github.com/ktf)
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
