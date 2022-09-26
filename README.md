@@ -10,6 +10,7 @@
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9904](https://github.com/AliceO2Group/AliceO2/pull/9904) 2022-09-23: Whitelist ITS3 in o2-sim by [@mconcas](https://github.com/mconcas)
+- [\#9910](https://github.com/AliceO2Group/AliceO2/pull/9910) 2022-09-26: Optionally use Logger for printKeyValues by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#9827](https://github.com/AliceO2Group/AliceO2/pull/9827) 2022-09-18: TPC: Implement digit2raw encoder for Dense TPC ZS format in final version by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
