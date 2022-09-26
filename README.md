@@ -67,6 +67,7 @@
 - [\#9909](https://github.com/AliceO2Group/AliceO2/pull/9909) 2022-09-25: [EMCAL-565] Fix condition for scalefactors in online mode by [@mfasDa](https://github.com/mfasDa)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9914](https://github.com/AliceO2Group/AliceO2/pull/9914) 2022-09-25: TPC: Bump default TPC ZS version to 4 (DLBZS) by [@davidrohr](https://github.com/davidrohr)
+- [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
