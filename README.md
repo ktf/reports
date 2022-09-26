@@ -58,6 +58,7 @@
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
 - [\#9894](https://github.com/AliceO2Group/AliceO2/pull/9894) 2022-09-24: MCH: added DPL message with heart-beat packets by [@aferrero2707](https://github.com/aferrero2707)
+- [\#9897](https://github.com/AliceO2Group/AliceO2/pull/9897) 2022-09-26: Additional iterators for CTFHelpers by [@shahor02](https://github.com/shahor02)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9900](https://github.com/AliceO2Group/AliceO2/pull/9900) 2022-09-23: FIT: Fix typo in FDD DCS DP definitions by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
