@@ -22,8 +22,8 @@
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 ## Recent developments in O2 - Detectors
-- [\#9819](https://github.com/AliceO2Group/AliceO2/pull/9819) 2022-09-15: [EMCAL-798] Reject calib. events in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#9822](https://github.com/AliceO2Group/AliceO2/pull/9822) 2022-09-15: TRD raw data should be one file per CRU end point by [@martenole](https://github.com/martenole)
 - [\#9823](https://github.com/AliceO2Group/AliceO2/pull/9823) 2022-09-16: Add ZDC calibration to dpl-workflow by [@shahor02](https://github.com/shahor02)
 - [\#9824](https://github.com/AliceO2Group/AliceO2/pull/9824) 2022-09-15: [EMCAL-548, O2-3169] Adding protection if there is no MC by [@hahassan7](https://github.com/hahassan7)
@@ -66,6 +66,7 @@
 - [\#9907](https://github.com/AliceO2Group/AliceO2/pull/9907) 2022-09-24: TRD tracking QC is a proper DPL message by [@martenole](https://github.com/martenole)
 - [\#9909](https://github.com/AliceO2Group/AliceO2/pull/9909) 2022-09-25: [EMCAL-565] Fix condition for scalefactors in online mode by [@mfasDa](https://github.com/mfasDa)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
+- [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9914](https://github.com/AliceO2Group/AliceO2/pull/9914) 2022-09-25: TPC: Bump default TPC ZS version to 4 (DLBZS) by [@davidrohr](https://github.com/davidrohr)
 - [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
