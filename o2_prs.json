@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-15T11:14:52Z",
-            "title": "add protection in TOF digitization when wrong calib are passed",
-            "number": 9830,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-15T13:00:53Z",
             "title": "Fix typo and intendation in aggregator-workflow",
             "number": 9831,
@@ -3931,6 +3911,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/src/EMCALReconstructionLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drop bogus deps",
+            "number": 9930,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindFairRoot.cmake"
                   }
                 }
               ]

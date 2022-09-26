@@ -25,7 +25,6 @@
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 ## Recent developments in O2 - Detectors
-- [\#9830](https://github.com/AliceO2Group/AliceO2/pull/9830) 2022-09-15: add protection in TOF digitization when wrong calib are passed by [@noferini](https://github.com/noferini)
 - [\#9832](https://github.com/AliceO2Group/AliceO2/pull/9832) 2022-09-15: Fix SpaceCharge class version by [@shahor02](https://github.com/shahor02)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
 - [\#9834](https://github.com/AliceO2Group/AliceO2/pull/9834) 2022-09-21: FST MC->Raw files are produced by CRU end point by [@martenole](https://github.com/martenole)
