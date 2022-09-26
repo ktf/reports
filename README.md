@@ -4,7 +4,6 @@
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
@@ -72,8 +71,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9828](https://github.com/AliceO2Group/AliceO2/pull/9828) 2022-09-15: DPL: add back Pss metrics when resources-monitoring is enabled by [@ktf](https://github.com/ktf)
-- [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9837](https://github.com/AliceO2Group/AliceO2/pull/9837) 2022-09-15: improve documentation by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9840](https://github.com/AliceO2Group/AliceO2/pull/9840) 2022-09-18: DPL: improve configuation parser by [@ktf](https://github.com/ktf)
