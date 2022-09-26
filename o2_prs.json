@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-16T23:34:16Z",
-            "title": "Add ZDC calibration to dpl-workflow",
-            "number": 9823,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibEPNSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-15T09:23:40Z",
             "title": "[EMCAL-548, O2-3169] Adding protection if there is no MC",
             "number": 9824,
@@ -3956,6 +3916,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/dEdx/GPUdEdx.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: raw2digit decoder can respect bc of trigger",
+            "number": 9923,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
                   }
                 }
               ]
