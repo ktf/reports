@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-15T05:50:46Z",
-            "title": "Fix warnings",
-            "number": 9826,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceHandle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DPLWebSocket.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-18T16:36:56Z",
             "title": "TPC: Implement digit2raw encoder for Dense TPC ZS format in final version",
             "number": 9827,
@@ -3399,8 +3374,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-09-26T14:59:12Z",
             "title": "Use https for alice-ccdb.cern.ch",
             "number": 9911,
             "author": {
@@ -3946,6 +3921,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: do not depend on TPCMonitor for the reconstruction workflow",
+            "number": 9926,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
                   }
                 }
               ]

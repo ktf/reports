@@ -11,6 +11,7 @@
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9904](https://github.com/AliceO2Group/AliceO2/pull/9904) 2022-09-23: Whitelist ITS3 in o2-sim by [@mconcas](https://github.com/mconcas)
 - [\#9910](https://github.com/AliceO2Group/AliceO2/pull/9910) 2022-09-26: Optionally use Logger for printKeyValues by [@shahor02](https://github.com/shahor02)
+- [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#9827](https://github.com/AliceO2Group/AliceO2/pull/9827) 2022-09-18: TPC: Implement digit2raw encoder for Dense TPC ZS format in final version by [@davidrohr](https://github.com/davidrohr)
 - [\#9833](https://github.com/AliceO2Group/AliceO2/pull/9833) 2022-09-15: o2-ecs-grp-create forces triggered TPC readout in LASER runs by [@shahor02](https://github.com/shahor02)
@@ -22,6 +23,7 @@
 - [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
+- [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 ## Recent developments in O2 - Detectors
@@ -64,6 +66,7 @@
 - [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9907](https://github.com/AliceO2Group/AliceO2/pull/9907) 2022-09-24: TRD tracking QC is a proper DPL message by [@martenole](https://github.com/martenole)
 - [\#9909](https://github.com/AliceO2Group/AliceO2/pull/9909) 2022-09-25: [EMCAL-565] Fix condition for scalefactors in online mode by [@mfasDa](https://github.com/mfasDa)
+- [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9914](https://github.com/AliceO2Group/AliceO2/pull/9914) 2022-09-25: TPC: Bump default TPC ZS version to 4 (DLBZS) by [@davidrohr](https://github.com/davidrohr)
@@ -71,7 +74,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9826](https://github.com/AliceO2Group/AliceO2/pull/9826) 2022-09-15: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#9828](https://github.com/AliceO2Group/AliceO2/pull/9828) 2022-09-15: DPL: add back Pss metrics when resources-monitoring is enabled by [@ktf](https://github.com/ktf)
 - [\#9829](https://github.com/AliceO2Group/AliceO2/pull/9829) 2022-09-15: DPL: allow loading services based on DPL_LOAD_SERVICES by [@ktf](https://github.com/ktf)
 - [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
@@ -94,6 +96,7 @@
 - [\#9899](https://github.com/AliceO2Group/AliceO2/pull/9899) 2022-09-26: DPL: mark functions as [[nodiscard]] by [@ktf](https://github.com/ktf)
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
+- [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Utilities
