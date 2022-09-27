@@ -90,6 +90,7 @@
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
+- [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9891](https://github.com/AliceO2Group/AliceO2/pull/9891) 2022-09-22: [QC-864] Mergers: publish the complete objects at End Of Stream by [@knopers8](https://github.com/knopers8)
