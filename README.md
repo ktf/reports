@@ -67,7 +67,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9840](https://github.com/AliceO2Group/AliceO2/pull/9840) 2022-09-18: DPL: improve configuation parser by [@ktf](https://github.com/ktf)
 - [\#9844](https://github.com/AliceO2Group/AliceO2/pull/9844) 2022-09-16: Fix: use raw string instead of escaping by [@shahor02](https://github.com/shahor02)
 - [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
