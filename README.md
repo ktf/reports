@@ -63,6 +63,7 @@
 - [\#9914](https://github.com/AliceO2Group/AliceO2/pull/9914) 2022-09-25: TPC: Bump default TPC ZS version to 4 (DLBZS) by [@davidrohr](https://github.com/davidrohr)
 - [\#9916](https://github.com/AliceO2Group/AliceO2/pull/9916) 2022-09-27: Add L1phase calibration by [@peressounko](https://github.com/peressounko)
 - [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9926](https://github.com/AliceO2Group/AliceO2/pull/9926) 2022-09-27: TPC: do not depend on TPCMonitor for the reconstruction workflow by [@ktf](https://github.com/ktf)
 - [\#9929](https://github.com/AliceO2Group/AliceO2/pull/9929) 2022-09-27: [EMCAL-789] Preparation for storing RecoParam objects in ccdb by [@mfasDa](https://github.com/mfasDa)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
