@@ -69,7 +69,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9837](https://github.com/AliceO2Group/AliceO2/pull/9837) 2022-09-15: improve documentation by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9840](https://github.com/AliceO2Group/AliceO2/pull/9840) 2022-09-18: DPL: improve configuation parser by [@ktf](https://github.com/ktf)
 - [\#9844](https://github.com/AliceO2Group/AliceO2/pull/9844) 2022-09-16: Fix: use raw string instead of escaping by [@shahor02](https://github.com/shahor02)
@@ -93,6 +92,5 @@
 ## Recent developments in O2 - Steer
 - [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Utilities
-- [\#9836](https://github.com/AliceO2Group/AliceO2/pull/9836) 2022-09-15: DPL: drop support for boost_serialise by [@ktf](https://github.com/ktf)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9891](https://github.com/AliceO2Group/AliceO2/pull/9891) 2022-09-22: [QC-864] Mergers: publish the complete objects at End Of Stream by [@knopers8](https://github.com/knopers8)
