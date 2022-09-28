@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-17T13:06:33Z",
-            "title": "Various general reco classes fixes needed for alignment",
-            "number": 9845,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackLTIntegral.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/GRPGeomHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/GRPGeomHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-18T11:44:41Z",
             "title": "fix channel list and give name to proxy",
             "number": 9846,
@@ -4286,6 +4256,31 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2DiamondWorkflowLeaky.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-600] Make arguments for row, col and hwaddress unsigned in mapper",
+            "number": 9945,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/Mapper.cxx"
                   }
                 }
               ]
