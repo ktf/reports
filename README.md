@@ -57,10 +57,12 @@
 - [\#9916](https://github.com/AliceO2Group/AliceO2/pull/9916) 2022-09-27: Add L1phase calibration by [@peressounko](https://github.com/peressounko)
 - [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9921](https://github.com/AliceO2Group/AliceO2/pull/9921) 2022-09-27: Add timer to TRD and TPC calibrations by [@martenole](https://github.com/martenole)
+- [\#9925](https://github.com/AliceO2Group/AliceO2/pull/9925) 2022-09-28: [EMCAL-566] Add shift for low gain time calibration by [@jokonig](https://github.com/jokonig)
 - [\#9926](https://github.com/AliceO2Group/AliceO2/pull/9926) 2022-09-27: TPC: do not depend on TPCMonitor for the reconstruction workflow by [@ktf](https://github.com/ktf)
 - [\#9928](https://github.com/AliceO2Group/AliceO2/pull/9928) 2022-09-28: TPC gainmap tracks: Use correct timestamp for CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9929](https://github.com/AliceO2Group/AliceO2/pull/9929) 2022-09-27: [EMCAL-789] Preparation for storing RecoParam objects in ccdb by [@mfasDa](https://github.com/mfasDa)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
