@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-19T08:07:47Z",
-            "title": "Improve information for MID chamber efficiency calculation",
-            "number": 9841,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Track.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/MUON/MID/src/Track.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Base/include/MIDBase/DetectorParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Tracking/include/MIDTracking/HitMapBuilder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Tracking/src/HitMapBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-16T07:11:10Z",
             "title": "Prevent compiler warning",
             "number": 9842,
@@ -4001,6 +3946,61 @@
                 {
                   "node": {
                     "path": "scripts/datamodel-doc/ALICEO2dataModelTools.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] - ZDC - Fix centroid and digitization, add o2-zdc-digits-writer",
+            "number": 9941,
+            "author": {
+              "login": "cortesep"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/src/RecEventFlat.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/raw/include/ZDCRaw/RawReaderZDC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/ZDCDataReaderDPLSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/ZDCDataReaderDPLSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/digits-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/workflow/src/o2-zdc-raw2digits.cxx"
                   }
                 }
               ]
