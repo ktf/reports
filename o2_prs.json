@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-16T19:43:10Z",
-            "title": "[EMCAL-830] Adapt CalibLoader to fully rely on CCDB-backend",
-            "number": 9843,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/CalibLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/CellRecalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/CalibLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/CellRecalibratorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/cell-recalibrator-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-16T09:25:01Z",
             "title": "Fix: use raw string instead of escaping",
             "number": 9844,
@@ -4001,6 +3961,31 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/TRD/src/AngularResidHistos.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adding more command-line configuration options for radiation calculat…",
+            "number": 9943,
+            "author": {
+              "login": "amorsch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/include/SimSetup/FlukaParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/FlukaRuntimeConfig.macro"
                   }
                 }
               ]
