@@ -1,10 +1,8 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
@@ -64,7 +62,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9856](https://github.com/AliceO2Group/AliceO2/pull/9856) 2022-09-19: Add missing include by [@wiechula](https://github.com/wiechula)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9859](https://github.com/AliceO2Group/AliceO2/pull/9859) 2022-09-19: DPL: extend test to check for spaces by [@ktf](https://github.com/ktf)
