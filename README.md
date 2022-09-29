@@ -56,7 +56,6 @@
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#9859](https://github.com/AliceO2Group/AliceO2/pull/9859) 2022-09-19: DPL: extend test to check for spaces by [@ktf](https://github.com/ktf)
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
 - [\#9872](https://github.com/AliceO2Group/AliceO2/pull/9872) 2022-09-20: Allow custom GUIs via services and for devices by [@ktf](https://github.com/ktf)
