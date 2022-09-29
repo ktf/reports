@@ -12,7 +12,6 @@
 - [\#9910](https://github.com/AliceO2Group/AliceO2/pull/9910) 2022-09-26: Optionally use Logger for printKeyValues by [@shahor02](https://github.com/shahor02)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
 - [\#9864](https://github.com/AliceO2Group/AliceO2/pull/9864) 2022-09-19: CTFWriter skips detector storage if an empty CTF container is passed by [@shahor02](https://github.com/shahor02)
 - [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
@@ -22,8 +21,6 @@
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9847](https://github.com/AliceO2Group/AliceO2/pull/9847) 2022-09-16: Propagate particle weight from generation to AOD by [@sawenzel](https://github.com/sawenzel)
-- [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 - [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
 - [\#9853](https://github.com/AliceO2Group/AliceO2/pull/9853) 2022-09-21: CPV: add persistent bad channels reading from CCDB by [@sevdokim](https://github.com/sevdokim)
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
@@ -84,7 +81,6 @@
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
-- [\#9848](https://github.com/AliceO2Group/AliceO2/pull/9848) 2022-09-23: TPC: Several unrelated updates and fixes by [@wiechula](https://github.com/wiechula)
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
