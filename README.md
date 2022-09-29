@@ -20,7 +20,6 @@
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9860](https://github.com/AliceO2Group/AliceO2/pull/9860) 2022-09-23: [EMCAL-798] Add low and high gain histograms by [@jokonig](https://github.com/jokonig)
 - [\#9861](https://github.com/AliceO2Group/AliceO2/pull/9861) 2022-09-19: change binning for mean vertex calib by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#9863](https://github.com/AliceO2Group/AliceO2/pull/9863) 2022-09-22: TRD: Calibration update and additonal macros by [@f3sch](https://github.com/f3sch)
@@ -57,7 +56,6 @@
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9859](https://github.com/AliceO2Group/AliceO2/pull/9859) 2022-09-19: DPL: extend test to check for spaces by [@ktf](https://github.com/ktf)
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
@@ -76,5 +74,4 @@
 ## Recent developments in O2 - Steer
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9891](https://github.com/AliceO2Group/AliceO2/pull/9891) 2022-09-22: [QC-864] Mergers: publish the complete objects at End Of Stream by [@knopers8](https://github.com/knopers8)
