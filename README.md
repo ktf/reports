@@ -54,8 +54,10 @@
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
+- [\#9940](https://github.com/AliceO2Group/AliceO2/pull/9940) 2022-09-29: Use CorrectionMapsHelper to allow TPC scaled transform by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
+- [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#9862](https://github.com/AliceO2Group/AliceO2/pull/9862) 2022-09-19: Make driver services pluggable by [@ktf](https://github.com/ktf)
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
