@@ -20,7 +20,6 @@
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 - [\#9857](https://github.com/AliceO2Group/AliceO2/pull/9857) 2022-09-20: [EMCAL-835] Trigger exception based on array size by [@mfasDa](https://github.com/mfasDa)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
 - [\#9860](https://github.com/AliceO2Group/AliceO2/pull/9860) 2022-09-23: [EMCAL-798] Add low and high gain histograms by [@jokonig](https://github.com/jokonig)
