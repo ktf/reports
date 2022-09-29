@@ -63,7 +63,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#9855](https://github.com/AliceO2Group/AliceO2/pull/9855) 2022-09-23: o2-eve: reading root file fix, screenshot size fix, saving data file … by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#9850](https://github.com/AliceO2Group/AliceO2/pull/9850) 2022-09-17: Declaring as inline header defined function by [@victor-gonzalez](https://github.com/victor-gonzalez)
 - [\#9852](https://github.com/AliceO2Group/AliceO2/pull/9852) 2022-09-18: Reduce bloat by [@ktf](https://github.com/ktf)
 - [\#9856](https://github.com/AliceO2Group/AliceO2/pull/9856) 2022-09-19: Add missing include by [@wiechula](https://github.com/wiechula)
 - [\#9858](https://github.com/AliceO2Group/AliceO2/pull/9858) 2022-09-19: DPL: drop dependency on AliceO2::Common by [@ktf](https://github.com/ktf)
