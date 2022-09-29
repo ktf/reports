@@ -21,7 +21,6 @@
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9851](https://github.com/AliceO2Group/AliceO2/pull/9851) 2022-09-17: Fixes for ZDC online calibration by [@shahor02](https://github.com/shahor02)
 - [\#9853](https://github.com/AliceO2Group/AliceO2/pull/9853) 2022-09-21: CPV: add persistent bad channels reading from CCDB by [@sevdokim](https://github.com/sevdokim)
 - [\#9854](https://github.com/AliceO2Group/AliceO2/pull/9854) 2022-09-18: Add missing header for std::list by [@ktf](https://github.com/ktf)
 - [\#9857](https://github.com/AliceO2Group/AliceO2/pull/9857) 2022-09-20: [EMCAL-835] Trigger exception based on array size by [@mfasDa](https://github.com/mfasDa)
@@ -79,6 +78,8 @@
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
+- [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
+- [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Steer
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
