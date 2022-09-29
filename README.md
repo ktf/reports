@@ -19,6 +19,7 @@
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
+- [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#9853](https://github.com/AliceO2Group/AliceO2/pull/9853) 2022-09-21: CPV: add persistent bad channels reading from CCDB by [@sevdokim](https://github.com/sevdokim)
@@ -56,6 +57,7 @@
 - [\#9926](https://github.com/AliceO2Group/AliceO2/pull/9926) 2022-09-27: TPC: do not depend on TPCMonitor for the reconstruction workflow by [@ktf](https://github.com/ktf)
 - [\#9928](https://github.com/AliceO2Group/AliceO2/pull/9928) 2022-09-28: TPC gainmap tracks: Use correct timestamp for CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9929](https://github.com/AliceO2Group/AliceO2/pull/9929) 2022-09-27: [EMCAL-789] Preparation for storing RecoParam objects in ccdb by [@mfasDa](https://github.com/mfasDa)
+- [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
