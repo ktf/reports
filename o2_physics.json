@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-06T14:07:52Z",
-            "title": "CF filter update to include pLL and LLL triplets",
-            "number": 1205,
-            "author": {
-              "login": "lauraser"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-07T07:27:06Z",
             "title": "Implemented PID shift to fix uncalibrated TPC (and TOF just in case)",
             "number": 1206,
@@ -2881,6 +2861,31 @@
                 {
                   "node": {
                     "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drop need of FairLogger.h",
+            "number": 1305,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tools/handleParamTOFResoALICE3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tools/handleParamBase.h"
                   }
                 }
               ]
