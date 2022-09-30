@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-20T08:31:02Z",
-            "title": "MRRTF-196: Fix for MCH DE301 electronic mapping",
-            "number": 9866,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/CH3L.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Raw/ElecMap/src/fec.map"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-23T19:35:13Z",
             "title": "MID chamber efficiency objects to be stored in CCDB",
             "number": 9867,
@@ -4816,6 +4791,41 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/src/PVertexer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for HMP DCS processor and conf macro",
+            "number": 9966,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/calibration/include/HMPIDCalibration/HMPIDDCSProcessor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/calibration/macros/makeHMPIDCCDBEntryForDCS.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/calibration/src/HMPIDDCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/calibration/testWorkflow/HMPIDDCSDataProcessorSpec.h"
                   }
                 }
               ]

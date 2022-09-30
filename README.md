@@ -17,7 +17,6 @@
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9866](https://github.com/AliceO2Group/AliceO2/pull/9866) 2022-09-20: MRRTF-196: Fix for MCH DE301 electronic mapping by [@aphecetche](https://github.com/aphecetche)
 - [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 - [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
