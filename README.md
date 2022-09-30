@@ -3,11 +3,13 @@
 ## Recent developments in O2 - Analysis
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9904](https://github.com/AliceO2Group/AliceO2/pull/9904) 2022-09-23: Whitelist ITS3 in o2-sim by [@mconcas](https://github.com/mconcas)
 - [\#9910](https://github.com/AliceO2Group/AliceO2/pull/9910) 2022-09-26: Optionally use Logger for printKeyValues by [@shahor02](https://github.com/shahor02)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
@@ -16,6 +18,7 @@
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 - [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
@@ -54,7 +57,10 @@
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - EventVisualisation
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
 - [\#9872](https://github.com/AliceO2Group/AliceO2/pull/9872) 2022-09-20: Allow custom GUIs via services and for devices by [@ktf](https://github.com/ktf)
@@ -70,6 +76,7 @@
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
+- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
