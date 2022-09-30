@@ -8,7 +8,6 @@
 - [\#9910](https://github.com/AliceO2Group/AliceO2/pull/9910) 2022-09-26: Optionally use Logger for printKeyValues by [@shahor02](https://github.com/shahor02)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
@@ -17,7 +16,6 @@
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#9867](https://github.com/AliceO2Group/AliceO2/pull/9867) 2022-09-23: MID chamber efficiency objects to be stored in CCDB by [@dstocco](https://github.com/dstocco)
 - [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 - [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
 - [\#9874](https://github.com/AliceO2Group/AliceO2/pull/9874) 2022-09-20: Sign of sigma shouldn't flip with bz by [@mpuccio](https://github.com/mpuccio)
@@ -72,3 +70,4 @@
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#9891](https://github.com/AliceO2Group/AliceO2/pull/9891) 2022-09-22: [QC-864] Mergers: publish the complete objects at End Of Stream by [@knopers8](https://github.com/knopers8)
+- [\#9949](https://github.com/AliceO2Group/AliceO2/pull/9949) 2022-09-30: [QC-867] Mergers: use all 16 possible characters for the timer input by [@knopers8](https://github.com/knopers8)
