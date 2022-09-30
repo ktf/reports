@@ -20,7 +20,6 @@
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9870](https://github.com/AliceO2Group/AliceO2/pull/9870) 2022-09-19: Fix in CTF reader timing report by [@shahor02](https://github.com/shahor02)
 - [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
 - [\#9874](https://github.com/AliceO2Group/AliceO2/pull/9874) 2022-09-20: Sign of sigma shouldn't flip with bz by [@mpuccio](https://github.com/mpuccio)
 - [\#9875](https://github.com/AliceO2Group/AliceO2/pull/9875) 2022-09-23: TRD: calibration: Added output flag and included deflection correlation macro by [@f3sch](https://github.com/f3sch)
