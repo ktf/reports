@@ -48,6 +48,7 @@
 - [\#9940](https://github.com/AliceO2Group/AliceO2/pull/9940) 2022-09-29: Use CorrectionMapsHelper to allow TPC scaled transform by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9943](https://github.com/AliceO2Group/AliceO2/pull/9943) 2022-09-30: adding more command-line configuration options for radiation calculat… by [@amorsch](https://github.com/amorsch)
+- [\#9945](https://github.com/AliceO2Group/AliceO2/pull/9945) 2022-09-30: [EMCAL-600] Make arguments for row, col and hwaddress unsigned in mapper by [@mfasDa](https://github.com/mfasDa)
 - [\#9947](https://github.com/AliceO2Group/AliceO2/pull/9947) 2022-09-30: Workflow to compute the MID chamber efficiency by [@dstocco](https://github.com/dstocco)
 - [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
