@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-19T18:53:13Z",
-            "title": "CTFWriter skips detector storage if an empty CTF container is passed",
-            "number": 9864,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/workflow/src/CTFWriterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[EMCAL-830] Add EMCAL recalibration workflow to async reconstruction",
@@ -4691,6 +4666,36 @@
                 {
                   "node": {
                     "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove dependency on FairRoot::Base from Common/MathUtils",
+            "number": 9964,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Field/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/src/Chebyshev3D.cxx"
                   }
                 }
               ]
