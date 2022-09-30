@@ -49,8 +49,11 @@
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9940](https://github.com/AliceO2Group/AliceO2/pull/9940) 2022-09-29: Use CorrectionMapsHelper to allow TPC scaled transform by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
+- [\#9943](https://github.com/AliceO2Group/AliceO2/pull/9943) 2022-09-30: adding more command-line configuration options for radiation calculat… by [@amorsch](https://github.com/amorsch)
 - [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
+- [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
+- [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
 ## Recent developments in O2 - Framework
 - [\#9871](https://github.com/AliceO2Group/AliceO2/pull/9871) 2022-09-20: DPL: use production instance for CCDB test by [@ktf](https://github.com/ktf)
 - [\#9872](https://github.com/AliceO2Group/AliceO2/pull/9872) 2022-09-20: Allow custom GUIs via services and for devices by [@ktf](https://github.com/ktf)
