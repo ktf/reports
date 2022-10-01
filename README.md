@@ -21,7 +21,6 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9873](https://github.com/AliceO2Group/AliceO2/pull/9873) 2022-09-20: [MFT] Use magnetic field-dependent track model by [@rpezzi](https://github.com/rpezzi)
 - [\#9874](https://github.com/AliceO2Group/AliceO2/pull/9874) 2022-09-20: Sign of sigma shouldn't flip with bz by [@mpuccio](https://github.com/mpuccio)
 - [\#9875](https://github.com/AliceO2Group/AliceO2/pull/9875) 2022-09-23: TRD: calibration: Added output flag and included deflection correlation macro by [@f3sch](https://github.com/f3sch)
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
