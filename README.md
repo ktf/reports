@@ -58,6 +58,7 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
 - [\#9969](https://github.com/AliceO2Group/AliceO2/pull/9969) 2022-10-02: Protect MeanVertex calibrator against upload of wrong values by [@shahor02](https://github.com/shahor02)
+- [\#9974](https://github.com/AliceO2Group/AliceO2/pull/9974) 2022-10-02: Drop need for Graf3d in detectors Align by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
