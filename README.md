@@ -21,7 +21,6 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9875](https://github.com/AliceO2Group/AliceO2/pull/9875) 2022-09-23: TRD: calibration: Added output flag and included deflection correlation macro by [@f3sch](https://github.com/f3sch)
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
@@ -55,8 +54,10 @@
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
+- [\#9961](https://github.com/AliceO2Group/AliceO2/pull/9961) 2022-10-02: Fixes and extra methods for DCAFitterN by [@shahor02](https://github.com/shahor02)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
+- [\#9969](https://github.com/AliceO2Group/AliceO2/pull/9969) 2022-10-02: Protect MeanVertex calibrator against upload of wrong values by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
