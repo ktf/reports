@@ -13,6 +13,7 @@
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#9890](https://github.com/AliceO2Group/AliceO2/pull/9890) 2022-09-21: CMake fixes when BUILD_TESTING is not requested by [@aphecetche](https://github.com/aphecetche)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
@@ -24,6 +25,7 @@
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
@@ -68,9 +70,11 @@
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9971](https://github.com/AliceO2Group/AliceO2/pull/9971) 2022-10-02: Provide more info for Impossible timebin error by [@shahor02](https://github.com/shahor02)
 - [\#9974](https://github.com/AliceO2Group/AliceO2/pull/9974) 2022-10-02: Drop need for Graf3d in detectors Align by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
@@ -88,9 +92,11 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#9936](https://github.com/AliceO2Group/AliceO2/pull/9936) 2022-09-27: Collisioncontext-tool: ability to adjust event count to existing kine… by [@sawenzel](https://github.com/sawenzel)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
+- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#9891](https://github.com/AliceO2Group/AliceO2/pull/9891) 2022-09-22: [QC-864] Mergers: publish the complete objects at End Of Stream by [@knopers8](https://github.com/knopers8)
 - [\#9949](https://github.com/AliceO2Group/AliceO2/pull/9949) 2022-09-30: [QC-867] Mergers: use all 16 possible characters for the timer input by [@knopers8](https://github.com/knopers8)
