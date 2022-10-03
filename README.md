@@ -66,6 +66,7 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
 - [\#9967](https://github.com/AliceO2Group/AliceO2/pull/9967) 2022-10-02: AOD: Optimization of search in bunch crossings (fillBCSlice) by [@sawenzel](https://github.com/sawenzel)
+- [\#9968](https://github.com/AliceO2Group/AliceO2/pull/9968) 2022-10-03: Fix rotation of station 3 when in dipole by [@javierecc](https://github.com/javierecc)
 - [\#9969](https://github.com/AliceO2Group/AliceO2/pull/9969) 2022-10-02: Protect MeanVertex calibrator against upload of wrong values by [@shahor02](https://github.com/shahor02)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9971](https://github.com/AliceO2Group/AliceO2/pull/9971) 2022-10-02: Provide more info for Impossible timebin error by [@shahor02](https://github.com/shahor02)
