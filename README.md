@@ -63,6 +63,7 @@
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
 - [\#9961](https://github.com/AliceO2Group/AliceO2/pull/9961) 2022-10-02: Fixes and extra methods for DCAFitterN by [@shahor02](https://github.com/shahor02)
+- [\#9963](https://github.com/AliceO2Group/AliceO2/pull/9963) 2022-10-03: L1phase calibration added by [@peressounko](https://github.com/peressounko)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
 - [\#9966](https://github.com/AliceO2Group/AliceO2/pull/9966) 2022-10-03: Fixes for HMP DCS processor and conf macro by [@shahor02](https://github.com/shahor02)
