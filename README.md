@@ -27,7 +27,6 @@
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9879](https://github.com/AliceO2Group/AliceO2/pull/9879) 2022-09-22: Add simplified producer for filling MC tables only by [@nburmaso](https://github.com/nburmaso)
 - [\#9880](https://github.com/AliceO2Group/AliceO2/pull/9880) 2022-09-21: [EMCAL-565] Add Time information for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
 - [\#9894](https://github.com/AliceO2Group/AliceO2/pull/9894) 2022-09-24: MCH: added DPL message with heart-beat packets by [@aferrero2707](https://github.com/aferrero2707)
