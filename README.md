@@ -4,6 +4,7 @@
 - [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
+- [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -21,6 +22,7 @@
 - [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9927](https://github.com/AliceO2Group/AliceO2/pull/9927) 2022-10-02: TPC dEdx residual correction load B-field from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
+- [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
@@ -49,6 +51,7 @@
 - [\#9929](https://github.com/AliceO2Group/AliceO2/pull/9929) 2022-09-27: [EMCAL-789] Preparation for storing RecoParam objects in ccdb by [@mfasDa](https://github.com/mfasDa)
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9940](https://github.com/AliceO2Group/AliceO2/pull/9940) 2022-09-29: Use CorrectionMapsHelper to allow TPC scaled transform by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
@@ -87,6 +90,7 @@
 - [\#9902](https://github.com/AliceO2Group/AliceO2/pull/9902) 2022-09-26: DPL Analysis: introducing SmallGroupsUnfiltered by [@aalkin](https://github.com/aalkin)
 - [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
+- [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
