@@ -82,7 +82,6 @@
 ## Recent developments in O2 - Examples
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#9883](https://github.com/AliceO2Group/AliceO2/pull/9883) 2022-09-21: DPL Analysis: prevent SmallGroups use for unrelated tables by [@aalkin](https://github.com/aalkin)
 - [\#9884](https://github.com/AliceO2Group/AliceO2/pull/9884) 2022-09-21: DPL: do not depend on CCDBApi to unpack stuff by [@ktf](https://github.com/ktf)
 - [\#9885](https://github.com/AliceO2Group/AliceO2/pull/9885) 2022-09-21: DPL: allow customization of driver GUI via services by [@ktf](https://github.com/ktf)
 - [\#9889](https://github.com/AliceO2Group/AliceO2/pull/9889) 2022-09-21: DPL: make sure MultiOutputProxy can be restarted by [@ktf](https://github.com/ktf)
