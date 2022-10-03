@@ -60,6 +60,7 @@
 - [\#9947](https://github.com/AliceO2Group/AliceO2/pull/9947) 2022-09-30: Workflow to compute the MID chamber efficiency by [@dstocco](https://github.com/dstocco)
 - [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
+- [\#9956](https://github.com/AliceO2Group/AliceO2/pull/9956) 2022-10-03: [EMCAL-838] Load RecoParams from the CCDB in EMCAL reconstruction workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
 - [\#9961](https://github.com/AliceO2Group/AliceO2/pull/9961) 2022-10-02: Fixes and extra methods for DCAFitterN by [@shahor02](https://github.com/shahor02)
