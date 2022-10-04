@@ -77,6 +77,7 @@
 - [\#9975](https://github.com/AliceO2Group/AliceO2/pull/9975) 2022-10-03: Interface for integrating run-wide timeslots over many runs by [@shahor02](https://github.com/shahor02)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9978](https://github.com/AliceO2Group/AliceO2/pull/9978) 2022-10-03: Use default c-tor to satisfy codechecker by [@shahor02](https://github.com/shahor02)
+- [\#9980](https://github.com/AliceO2Group/AliceO2/pull/9980) 2022-10-04: [EMCAL-565, EMCAL-566] Fix CCDB access for calibrators by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
