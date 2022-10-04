@@ -28,7 +28,6 @@
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9887](https://github.com/AliceO2Group/AliceO2/pull/9887) 2022-09-21: ZDC - Do not produce a fatal error for inconsistent events: just skip the TF by [@cortesep](https://github.com/cortesep)
 - [\#9894](https://github.com/AliceO2Group/AliceO2/pull/9894) 2022-09-24: MCH: added DPL message with heart-beat packets by [@aferrero2707](https://github.com/aferrero2707)
 - [\#9897](https://github.com/AliceO2Group/AliceO2/pull/9897) 2022-09-26: Additional iterators for CTFHelpers by [@shahor02](https://github.com/shahor02)
 - [\#9898](https://github.com/AliceO2Group/AliceO2/pull/9898) 2022-09-23: FIT: Add ROOT macro for reading DCS DPs form CCDB by [@andreasmolander](https://github.com/andreasmolander)
