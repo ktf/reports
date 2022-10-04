@@ -47,6 +47,7 @@
 - [\#9928](https://github.com/AliceO2Group/AliceO2/pull/9928) 2022-09-28: TPC gainmap tracks: Use correct timestamp for CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9929](https://github.com/AliceO2Group/AliceO2/pull/9929) 2022-09-27: [EMCAL-789] Preparation for storing RecoParam objects in ccdb by [@mfasDa](https://github.com/mfasDa)
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
+- [\#9932](https://github.com/AliceO2Group/AliceO2/pull/9932) 2022-10-04: CPV: fix for gain calibration algorithm by [@sevdokim](https://github.com/sevdokim)
 - [\#9933](https://github.com/AliceO2Group/AliceO2/pull/9933) 2022-09-26: IDCs: change severity of info logs to debug by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
@@ -60,6 +61,7 @@
 - [\#9956](https://github.com/AliceO2Group/AliceO2/pull/9956) 2022-10-03: [EMCAL-838] Load RecoParams from the CCDB in EMCAL reconstruction workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
+- [\#9960](https://github.com/AliceO2Group/AliceO2/pull/9960) 2022-10-04: Restore default MFT linear track finder radius by [@rpezzi](https://github.com/rpezzi)
 - [\#9961](https://github.com/AliceO2Group/AliceO2/pull/9961) 2022-10-02: Fixes and extra methods for DCAFitterN by [@shahor02](https://github.com/shahor02)
 - [\#9963](https://github.com/AliceO2Group/AliceO2/pull/9963) 2022-10-03: L1phase calibration added by [@peressounko](https://github.com/peressounko)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
@@ -75,6 +77,7 @@
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9978](https://github.com/AliceO2Group/AliceO2/pull/9978) 2022-10-03: Use default c-tor to satisfy codechecker by [@shahor02](https://github.com/shahor02)
 - [\#9980](https://github.com/AliceO2Group/AliceO2/pull/9980) 2022-10-04: [EMCAL-565, EMCAL-566] Fix CCDB access for calibrators by [@mfasDa](https://github.com/mfasDa)
+- [\#9986](https://github.com/AliceO2Group/AliceO2/pull/9986) 2022-10-04: IDCs, SACs: change CCDB path for 3-level architecture by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9989](https://github.com/AliceO2Group/AliceO2/pull/9989) 2022-10-04: [EMCAL-630] Send mapping errors to DecoderErrorContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
