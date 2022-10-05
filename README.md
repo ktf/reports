@@ -25,6 +25,7 @@
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
+- [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#9907](https://github.com/AliceO2Group/AliceO2/pull/9907) 2022-09-24: TRD tracking QC is a proper DPL message by [@martenole](https://github.com/martenole)
 - [\#9909](https://github.com/AliceO2Group/AliceO2/pull/9909) 2022-09-25: [EMCAL-565] Fix condition for scalefactors in online mode by [@mfasDa](https://github.com/mfasDa)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
@@ -83,6 +84,7 @@
 ## Recent developments in O2 - Examples
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
+- [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
