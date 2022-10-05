@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-23T13:57:21Z",
-            "title": "FIT: Add ROOT macro for reading DCS DPs form CCDB",
-            "number": 9898,
-            "author": {
-              "login": "andreasmolander"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/src/DataFormatsFITLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/dcsmonitoring/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/common/dcsmonitoring/macros/makeDefaultBadChannelMap.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/readFITBadChannelMap.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/readFITDCSdata.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/macros/readFITDCSentries.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-26T01:47:48Z",
             "title": "DPL: mark functions as [[nodiscard]]",
             "number": 9899,
@@ -5156,6 +5101,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/simulation/src/V3Cage.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix CPV errors in InfoLogger",
+            "number": 9998,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/src/GainCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/src/NoiseCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/calib/src/PedestalCalibrator.cxx"
                   }
                 }
               ]
