@@ -83,7 +83,6 @@
 ## Recent developments in O2 - Examples
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-- [\#9905](https://github.com/AliceO2Group/AliceO2/pull/9905) 2022-09-23: Fix coding conventions by [@ktf](https://github.com/ktf)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
