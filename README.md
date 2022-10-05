@@ -77,6 +77,7 @@
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
 - [\#9994](https://github.com/AliceO2Group/AliceO2/pull/9994) 2022-10-05: multi-thread countTPCClusters in aod-producer by [@shahor02](https://github.com/shahor02)
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
+- [\#9998](https://github.com/AliceO2Group/AliceO2/pull/9998) 2022-10-05: Fix CPV errors in InfoLogger by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
