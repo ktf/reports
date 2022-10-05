@@ -26,7 +26,6 @@
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#9903](https://github.com/AliceO2Group/AliceO2/pull/9903) 2022-09-23: IDCs: fix warning message by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9907](https://github.com/AliceO2Group/AliceO2/pull/9907) 2022-09-24: TRD tracking QC is a proper DPL message by [@martenole](https://github.com/martenole)
 - [\#9909](https://github.com/AliceO2Group/AliceO2/pull/9909) 2022-09-25: [EMCAL-565] Fix condition for scalefactors in online mode by [@mfasDa](https://github.com/mfasDa)
 - [\#9911](https://github.com/AliceO2Group/AliceO2/pull/9911) 2022-09-26: Use https for alice-ccdb.cern.ch by [@davidrohr](https://github.com/davidrohr)
