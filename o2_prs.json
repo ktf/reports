@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-25T11:05:59Z",
-            "title": "TPC: Bump default TPC ZS version to 4 (DLBZS)",
-            "number": 9914,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ZSSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full_system_test.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-25T08:22:02Z",
             "title": "Do not fail on bogus TPCClusterer nLanes if clusterization is not used",
             "number": 9915,
@@ -5176,6 +5151,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/simulation/src/TPCSimulationLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid issue with empty tables in Preslice and sliceBy",
+            "number": 10014,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/Kernels.cxx"
                   }
                 }
               ]
