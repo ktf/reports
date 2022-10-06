@@ -11,8 +11,6 @@
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
-- [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9927](https://github.com/AliceO2Group/AliceO2/pull/9927) 2022-10-02: TPC dEdx residual correction load B-field from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9931](https://github.com/AliceO2Group/AliceO2/pull/9931) 2022-09-29: Fixes for MeanVertex calibrator by [@shahor02](https://github.com/shahor02)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
@@ -24,8 +22,6 @@
 ## Recent developments in O2 - Detectors
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
-- [\#9912](https://github.com/AliceO2Group/AliceO2/pull/9912) 2022-09-25: Some updates for TPC Dense LBZS by [@davidrohr](https://github.com/davidrohr)
-- [\#9913](https://github.com/AliceO2Group/AliceO2/pull/9913) 2022-09-26: add cstddef to resolve compilation error by [@mrzelak](https://github.com/mrzelak)
 - [\#9914](https://github.com/AliceO2Group/AliceO2/pull/9914) 2022-09-25: TPC: Bump default TPC ZS version to 4 (DLBZS) by [@davidrohr](https://github.com/davidrohr)
 - [\#9916](https://github.com/AliceO2Group/AliceO2/pull/9916) 2022-09-27: Add L1phase calibration by [@peressounko](https://github.com/peressounko)
 - [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
