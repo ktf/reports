@@ -21,6 +21,7 @@
 - [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
+- [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#9916](https://github.com/AliceO2Group/AliceO2/pull/9916) 2022-09-27: Add L1phase calibration by [@peressounko](https://github.com/peressounko)
 - [\#9918](https://github.com/AliceO2Group/AliceO2/pull/9918) 2022-09-26: TPC gainmap tracks: publish data after 30 processed TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
