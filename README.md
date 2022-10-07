@@ -76,6 +76,7 @@
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
+- [\#10005](https://github.com/AliceO2Group/AliceO2/pull/10005) 2022-10-07: Allow parsing of most severe message with reason by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10009](https://github.com/AliceO2Group/AliceO2/pull/10009) 2022-10-06: Point out about the environment by [@ktf](https://github.com/ktf)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
