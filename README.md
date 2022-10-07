@@ -27,7 +27,6 @@
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
-- [\#9925](https://github.com/AliceO2Group/AliceO2/pull/9925) 2022-09-28: [EMCAL-566] Add shift for low gain time calibration by [@jokonig](https://github.com/jokonig)
 - [\#9926](https://github.com/AliceO2Group/AliceO2/pull/9926) 2022-09-27: TPC: do not depend on TPCMonitor for the reconstruction workflow by [@ktf](https://github.com/ktf)
 - [\#9927](https://github.com/AliceO2Group/AliceO2/pull/9927) 2022-10-02: TPC dEdx residual correction load B-field from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9928](https://github.com/AliceO2Group/AliceO2/pull/9928) 2022-09-28: TPC gainmap tracks: Use correct timestamp for CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
