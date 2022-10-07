@@ -29,6 +29,7 @@
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
+- [\#10006](https://github.com/AliceO2Group/AliceO2/pull/10006) 2022-10-07: Reduce verbosity of DCSDP processors, promote CCDBPopulator logs to important by [@shahor02](https://github.com/shahor02)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10021](https://github.com/AliceO2Group/AliceO2/pull/10021) 2022-10-07: MCH: speedup elecmap by using static in some key methods by [@aphecetche](https://github.com/aphecetche)
