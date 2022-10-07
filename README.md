@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Algorithm
 - [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
+- [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
@@ -25,7 +26,6 @@
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
-- [\#9922](https://github.com/AliceO2Group/AliceO2/pull/9922) 2022-10-02: TPC dE/dx: using nD-piecewise polynomials instead of polynomials by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9925](https://github.com/AliceO2Group/AliceO2/pull/9925) 2022-09-28: [EMCAL-566] Add shift for low gain time calibration by [@jokonig](https://github.com/jokonig)
 - [\#9926](https://github.com/AliceO2Group/AliceO2/pull/9926) 2022-09-27: TPC: do not depend on TPCMonitor for the reconstruction workflow by [@ktf](https://github.com/ktf)
 - [\#9927](https://github.com/AliceO2Group/AliceO2/pull/9927) 2022-10-02: TPC dEdx residual correction load B-field from CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -79,6 +79,7 @@
 - [\#10005](https://github.com/AliceO2Group/AliceO2/pull/10005) 2022-10-07: Allow parsing of most severe message with reason by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10009](https://github.com/AliceO2Group/AliceO2/pull/10009) 2022-10-06: Point out about the environment by [@ktf](https://github.com/ktf)
 - [\#10010](https://github.com/AliceO2Group/AliceO2/pull/10010) 2022-10-07: DPL: avoid crashes in case there is no actual data in a set of parts by [@ktf](https://github.com/ktf)
+- [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
