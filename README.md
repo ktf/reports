@@ -8,6 +8,7 @@
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
@@ -80,6 +81,7 @@
 - [\#10009](https://github.com/AliceO2Group/AliceO2/pull/10009) 2022-10-06: Point out about the environment by [@ktf](https://github.com/ktf)
 - [\#10010](https://github.com/AliceO2Group/AliceO2/pull/10010) 2022-10-07: DPL: avoid crashes in case there is no actual data in a set of parts by [@ktf](https://github.com/ktf)
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
+- [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#9935](https://github.com/AliceO2Group/AliceO2/pull/9935) 2022-10-03: Reconstruction of displaced 3 body vertices by [@mpuccio](https://github.com/mpuccio)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
@@ -95,4 +97,5 @@
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
+- [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#9949](https://github.com/AliceO2Group/AliceO2/pull/9949) 2022-09-30: [QC-867] Mergers: use all 16 possible characters for the timer input by [@knopers8](https://github.com/knopers8)
