@@ -16,6 +16,7 @@
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+- [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
@@ -29,6 +30,7 @@
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#10006](https://github.com/AliceO2Group/AliceO2/pull/10006) 2022-10-07: Reduce verbosity of DCSDP processors, promote CCDBPopulator logs to important by [@shahor02](https://github.com/shahor02)
+- [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
 - [\#10013](https://github.com/AliceO2Group/AliceO2/pull/10013) 2022-10-09: TPC: possibility to simulate pad-by-pad ion tail params in MC by [@wiechula](https://github.com/wiechula)
 - [\#10016](https://github.com/AliceO2Group/AliceO2/pull/10016) 2022-10-08: [EMCAL-565]: Bug fix to cut on the mean energy per hit. by [@hjbossi](https://github.com/hjbossi)
