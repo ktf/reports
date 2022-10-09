@@ -30,6 +30,7 @@
 - [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#10006](https://github.com/AliceO2Group/AliceO2/pull/10006) 2022-10-07: Reduce verbosity of DCSDP processors, promote CCDBPopulator logs to important by [@shahor02](https://github.com/shahor02)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
+- [\#10013](https://github.com/AliceO2Group/AliceO2/pull/10013) 2022-10-09: TPC: possibility to simulate pad-by-pad ion tail params in MC by [@wiechula](https://github.com/wiechula)
 - [\#10016](https://github.com/AliceO2Group/AliceO2/pull/10016) 2022-10-08: [EMCAL-565]: Bug fix to cut on the mean energy per hit. by [@hjbossi](https://github.com/hjbossi)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10021](https://github.com/AliceO2Group/AliceO2/pull/10021) 2022-10-07: MCH: speedup elecmap by using static in some key methods by [@aphecetche](https://github.com/aphecetche)
