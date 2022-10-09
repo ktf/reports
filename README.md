@@ -40,7 +40,6 @@
 - [\#10025](https://github.com/AliceO2Group/AliceO2/pull/10025) 2022-10-08: [EMCAL-565, EMCAL-566] Reject calib triggered events in online calib by [@jokonig](https://github.com/jokonig)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
-- [\#9938](https://github.com/AliceO2Group/AliceO2/pull/9938) 2022-09-28: [EMCAL-612] Make workflow name optional for cell writer by [@mfasDa](https://github.com/mfasDa)
 - [\#9940](https://github.com/AliceO2Group/AliceO2/pull/9940) 2022-09-29: Use CorrectionMapsHelper to allow TPC scaled transform by [@shahor02](https://github.com/shahor02)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9943](https://github.com/AliceO2Group/AliceO2/pull/9943) 2022-09-30: adding more command-line configuration options for radiation calculat… by [@amorsch](https://github.com/amorsch)
