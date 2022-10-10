@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-30T14:03:37Z",
-            "title": "Workflow to compute the MID chamber efficiency",
-            "number": 9947,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Efficiency/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Efficiency/include/MIDEfficiency/Efficiency.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Efficiency/src/Efficiency.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/include/MIDWorkflow/EfficiencySpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/EfficiencySpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Workflow/src/efficiency-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Get the MID chamber efficiency from the CCDB during digitization",
@@ -5398,8 +5343,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-10-10T20:34:46Z",
             "title": "Revert \"DPL Analysis: do not use string lookup for finding columns (#9710)\"",
             "number": 10043,
             "author": {
@@ -5540,6 +5485,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCCalibPadGainTracksSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD raw reader reports about tracklet HC headers",
+            "number": 10047,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
                   }
                 }
               ]
