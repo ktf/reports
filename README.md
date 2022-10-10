@@ -41,6 +41,7 @@
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10036](https://github.com/AliceO2Group/AliceO2/pull/10036) 2022-10-10: Track fit should fail for negative chi2 by [@mpuccio](https://github.com/mpuccio)
+- [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#9942](https://github.com/AliceO2Group/AliceO2/pull/9942) 2022-09-28: TRD calib: Protection against NaN input by [@martenole](https://github.com/martenole)
 - [\#9943](https://github.com/AliceO2Group/AliceO2/pull/9943) 2022-09-30: adding more command-line configuration options for radiation calculat… by [@amorsch](https://github.com/amorsch)
 - [\#9945](https://github.com/AliceO2Group/AliceO2/pull/9945) 2022-09-30: [EMCAL-600] Make arguments for row, col and hwaddress unsigned in mapper by [@mfasDa](https://github.com/mfasDa)
