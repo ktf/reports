@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-30T08:10:36Z",
-            "title": "adding more command-line configuration options for radiation calculat…",
-            "number": 9943,
-            "author": {
-              "login": "amorsch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/include/SimSetup/FlukaParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/FlukaRuntimeConfig.macro"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: move responsibility to get services",
@@ -5770,6 +5745,41 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"DPL Analysis: do not use string lookup for finding columns (#9710)\"",
+            "number": 10043,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoAHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
                   }
                 }
               ]
