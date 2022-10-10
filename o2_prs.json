@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ZDC - Fix centroid and digitization, add o2-zdc-digits-writer",
-            "number": 9941,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/ZDC/src/RecEventFlat.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/include/ZDCRaw/RawReaderZDC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/include/ZDCWorkflow/ZDCDataReaderDPLSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/ZDCDataReaderDPLSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/digits-writer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/workflow/src/o2-zdc-raw2digits.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-09-28T17:56:15Z",
             "title": "TRD calib: Protection against NaN input",
@@ -5800,6 +5745,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix initial delay for timers",
+            "number": 10041,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
                   }
                 }
               ]
