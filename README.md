@@ -1,4 +1,5 @@
 ## Recent AliPhysics releases
+- v5-09-56n-01: Done on 2022-10-10.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
@@ -88,6 +89,7 @@
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10030](https://github.com/AliceO2Group/AliceO2/pull/10030) 2022-10-08: Refs more serviceregistry cleanups by [@ktf](https://github.com/ktf)
 - [\#10034](https://github.com/AliceO2Group/AliceO2/pull/10034) 2022-10-10: DPL: Forward some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
+- [\#10037](https://github.com/AliceO2Group/AliceO2/pull/10037) 2022-10-10: Make Track and TrackUI separation active by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
