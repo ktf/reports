@@ -42,7 +42,6 @@
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10036](https://github.com/AliceO2Group/AliceO2/pull/10036) 2022-10-10: Track fit should fail for negative chi2 by [@mpuccio](https://github.com/mpuccio)
 - [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
-- [\#9945](https://github.com/AliceO2Group/AliceO2/pull/9945) 2022-09-30: [EMCAL-600] Make arguments for row, col and hwaddress unsigned in mapper by [@mfasDa](https://github.com/mfasDa)
 - [\#9947](https://github.com/AliceO2Group/AliceO2/pull/9947) 2022-09-30: Workflow to compute the MID chamber efficiency by [@dstocco](https://github.com/dstocco)
 - [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
