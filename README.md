@@ -92,7 +92,6 @@
 - [\#10037](https://github.com/AliceO2Group/AliceO2/pull/10037) 2022-10-10: Make Track and TrackUI separation active by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10041](https://github.com/AliceO2Group/AliceO2/pull/10041) 2022-10-10: DPL: fix initial delay for timers by [@ktf](https://github.com/ktf)
 - [\#10043](https://github.com/AliceO2Group/AliceO2/pull/10043) 2022-10-10: Revert "DPL Analysis: do not use string lookup for finding columns (#9710)" by [@aalkin](https://github.com/aalkin)
-- [\#9950](https://github.com/AliceO2Group/AliceO2/pull/9950) 2022-09-29: Update doc for remote DebugGUI usage by [@martenole](https://github.com/martenole)
 - [\#9951](https://github.com/AliceO2Group/AliceO2/pull/9951) 2022-09-29: Add images to COOKBOOK.md by [@martenole](https://github.com/martenole)
 - [\#9954](https://github.com/AliceO2Group/AliceO2/pull/9954) 2022-09-30: parameter to explicitly allow parent access by [@jgrosseo](https://github.com/jgrosseo)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
