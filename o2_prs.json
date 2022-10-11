@@ -4,81 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] TRD add noise calibration",
-            "number": 9955,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/NoiseCalibration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/DataFormatsTRDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/CalibratorNoise.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/macros/checkNoisyMCMs.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorNoise.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TRDCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/NoiseCalibAggregatorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/NoiseCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDWorkflowLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-10-03T20:19:23Z",
             "title": "[EMCAL-838] Load RecoParams from the CCDB in EMCAL reconstruction workflow",
@@ -5900,6 +5825,61 @@
                 {
                   "node": {
                     "path": "README.md"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "L1phase correction added; fix L1calibration",
+            "number": 10055,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/calib/src/PHOSL1phaseCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/include/PHOSReconstruction/Clusterer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/ClusterizerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/phos-reco-workflow.cxx"
                   }
                 }
               ]
