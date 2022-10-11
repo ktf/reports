@@ -107,4 +107,3 @@
 ## Recent developments in O2 - Utilities
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
-- [\#9949](https://github.com/AliceO2Group/AliceO2/pull/9949) 2022-09-30: [QC-867] Mergers: use all 16 possible characters for the timer input by [@knopers8](https://github.com/knopers8)
