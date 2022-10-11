@@ -44,7 +44,6 @@
 - [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#10042](https://github.com/AliceO2Group/AliceO2/pull/10042) 2022-10-11: Optimization for AOD MC filling (part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
-- [\#9952](https://github.com/AliceO2Group/AliceO2/pull/9952) 2022-09-29: [FV0] Bug fix to have proper BC distribution in simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#9953](https://github.com/AliceO2Group/AliceO2/pull/9953) 2022-09-29: [EMCAL-789] Fix namespace of streaming operator for EMCAL reco params by [@mfasDa](https://github.com/mfasDa)
 - [\#9956](https://github.com/AliceO2Group/AliceO2/pull/9956) 2022-10-03: [EMCAL-838] Load RecoParams from the CCDB in EMCAL reconstruction workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)

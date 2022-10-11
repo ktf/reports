@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-29T15:18:44Z",
-            "title": "[FV0] Bug fix to have proper BC distribution in simulation",
-            "number": 9952,
-            "author": {
-              "login": "arvindkhuntia"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-29T17:41:12Z",
             "title": "[EMCAL-789] Fix namespace of streaming operator for EMCAL reco params",
             "number": 9953,
@@ -5620,6 +5600,36 @@
                 {
                   "node": {
                     "path": "Detectors/ZDC/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "API to get checksum hash value for ConfigurableParams",
+            "number": 10052,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParamHelper.cxx"
                   }
                 }
               ]
