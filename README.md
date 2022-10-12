@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 - v5-09-56n-01: Done on 2022-10-10.
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 ## Recent developments in O2 - Analysis
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
@@ -13,7 +11,6 @@
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
-- [\#9962](https://github.com/AliceO2Group/AliceO2/pull/9962) 2022-10-02: GPU: Optimize TPC ZS Dense Link decoder on GPUs. by [@fweig](https://github.com/fweig)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
