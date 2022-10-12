@@ -49,7 +49,6 @@
 - [\#10046](https://github.com/AliceO2Group/AliceO2/pull/10046) 2022-10-11: TPC  GainMap using tracks small optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
-- [\#9956](https://github.com/AliceO2Group/AliceO2/pull/9956) 2022-10-03: [EMCAL-838] Load RecoParams from the CCDB in EMCAL reconstruction workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#9958](https://github.com/AliceO2Group/AliceO2/pull/9958) 2022-09-30: FT0: new feature for time offset calibration by [@afurs](https://github.com/afurs)
 - [\#9959](https://github.com/AliceO2Group/AliceO2/pull/9959) 2022-09-30: [EMCAL-791] Adapting the SimParam to be a CCDB object by [@hahassan7](https://github.com/hahassan7)
 - [\#9960](https://github.com/AliceO2Group/AliceO2/pull/9960) 2022-10-04: Restore default MFT linear track finder radius by [@rpezzi](https://github.com/rpezzi)
