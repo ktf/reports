@@ -46,7 +46,6 @@
 - [\#10046](https://github.com/AliceO2Group/AliceO2/pull/10046) 2022-10-11: TPC  GainMap using tracks small optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
-- [\#9963](https://github.com/AliceO2Group/AliceO2/pull/9963) 2022-10-03: L1phase calibration added by [@peressounko](https://github.com/peressounko)
 - [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
 - [\#9966](https://github.com/AliceO2Group/AliceO2/pull/9966) 2022-10-03: Fixes for HMP DCS processor and conf macro by [@shahor02](https://github.com/shahor02)
