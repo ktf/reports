@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-02T00:13:25Z",
-            "title": "Protect MeanVertex calibrator against upload of wrong values",
-            "number": 9969,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/workflow/src/MeanVertexCalibratorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-02T05:58:22Z",
             "title": "Cleanup FairLogger.h usage",
             "number": 9970,
@@ -5190,6 +5155,61 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/src/CaloRawFitter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MFT] Enables multiple threads for MFT tracker ",
+            "number": 10069,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/ROframe.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/Tracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/RecoWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/mft-reco-workflow.cxx"
                   }
                 }
               ]
