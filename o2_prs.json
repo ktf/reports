@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-02T05:57:59Z",
-            "title": "Drop need for Graf3d in detectors Align",
-            "number": 9974,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Align/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-03T12:28:46Z",
-            "title": "Interface for integrating run-wide timeslots over many runs",
-            "number": 9975,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotMetaData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/DetectorsCalibrationLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-02T17:53:51Z",
             "title": "Second round of FairLogger cleanup",
             "number": 9976,
@@ -4720,6 +4660,56 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Calibration/src/BadChannelCalibrationDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Lumi data members to TPCTransform object",
+            "number": 10074,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-623, EMCAL-505] Fix doxygen in clusterizer",
+            "number": 10075,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/Clusterizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/Clusterizer.cxx"
                   }
                 }
               ]

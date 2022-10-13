@@ -43,8 +43,6 @@
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
-- [\#9974](https://github.com/AliceO2Group/AliceO2/pull/9974) 2022-10-02: Drop need for Graf3d in detectors Align by [@ktf](https://github.com/ktf)
-- [\#9975](https://github.com/AliceO2Group/AliceO2/pull/9975) 2022-10-03: Interface for integrating run-wide timeslots over many runs by [@shahor02](https://github.com/shahor02)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9978](https://github.com/AliceO2Group/AliceO2/pull/9978) 2022-10-03: Use default c-tor to satisfy codechecker by [@shahor02](https://github.com/shahor02)
 - [\#9980](https://github.com/AliceO2Group/AliceO2/pull/9980) 2022-10-04: [EMCAL-565, EMCAL-566] Fix CCDB access for calibrators by [@mfasDa](https://github.com/mfasDa)
