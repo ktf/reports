@@ -4,14 +4,12 @@
 ## Recent developments in O2 - Analysis
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -19,7 +17,6 @@
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9972](https://github.com/AliceO2Group/AliceO2/pull/9972) 2022-10-01: Fix missing dependency by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
@@ -47,8 +44,6 @@
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
-- [\#9965](https://github.com/AliceO2Group/AliceO2/pull/9965) 2022-09-30: Fix typo in PVertexer check by [@sawenzel](https://github.com/sawenzel)
 - [\#9966](https://github.com/AliceO2Group/AliceO2/pull/9966) 2022-10-03: Fixes for HMP DCS processor and conf macro by [@shahor02](https://github.com/shahor02)
 - [\#9967](https://github.com/AliceO2Group/AliceO2/pull/9967) 2022-10-02: AOD: Optimization of search in bunch crossings (fillBCSlice) by [@sawenzel](https://github.com/sawenzel)
 - [\#9968](https://github.com/AliceO2Group/AliceO2/pull/9968) 2022-10-03: Fix rotation of station 3 when in dipole by [@javierecc](https://github.com/javierecc)
@@ -67,7 +62,6 @@
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
 - [\#9998](https://github.com/AliceO2Group/AliceO2/pull/9998) 2022-10-05: Fix CPV errors in InfoLogger by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
@@ -91,7 +85,6 @@
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10049](https://github.com/AliceO2Group/AliceO2/pull/10049) 2022-10-11: Keep doing random timers until we get some data by [@ktf](https://github.com/ktf)
 - [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
-- [\#9964](https://github.com/AliceO2Group/AliceO2/pull/9964) 2022-09-30: Remove dependency on FairRoot::Base from Common/MathUtils by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 - [\#9984](https://github.com/AliceO2Group/AliceO2/pull/9984) 2022-10-07: DPL: do not require full TreePlayer by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
