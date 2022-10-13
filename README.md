@@ -44,7 +44,6 @@
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
-- [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9971](https://github.com/AliceO2Group/AliceO2/pull/9971) 2022-10-02: Provide more info for Impossible timebin error by [@shahor02](https://github.com/shahor02)
 - [\#9974](https://github.com/AliceO2Group/AliceO2/pull/9974) 2022-10-02: Drop need for Graf3d in detectors Align by [@ktf](https://github.com/ktf)
 - [\#9975](https://github.com/AliceO2Group/AliceO2/pull/9975) 2022-10-03: Interface for integrating run-wide timeslots over many runs by [@shahor02](https://github.com/shahor02)
@@ -58,10 +57,7 @@
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
 - [\#9998](https://github.com/AliceO2Group/AliceO2/pull/9998) 2022-10-05: Fix CPV errors in InfoLogger by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
-- [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Examples
-- [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10005](https://github.com/AliceO2Group/AliceO2/pull/10005) 2022-10-07: Allow parsing of most severe message with reason by [@jgrosseo](https://github.com/jgrosseo)
@@ -84,10 +80,8 @@
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 - [\#9984](https://github.com/AliceO2Group/AliceO2/pull/9984) 2022-10-07: DPL: do not require full TreePlayer by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#9970](https://github.com/AliceO2Group/AliceO2/pull/9970) 2022-10-02: Cleanup FairLogger.h usage by [@ktf](https://github.com/ktf)
 - [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
