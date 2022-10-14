@@ -15,7 +15,6 @@
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
-- [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
@@ -76,7 +75,6 @@
 - [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
-- [\#9984](https://github.com/AliceO2Group/AliceO2/pull/9984) 2022-10-07: DPL: do not require full TreePlayer by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
