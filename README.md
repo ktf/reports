@@ -40,6 +40,7 @@
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
 - [\#10048](https://github.com/AliceO2Group/AliceO2/pull/10048) 2022-10-14: TPC SCD outlier filtering refactoring by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
+- [\#10055](https://github.com/AliceO2Group/AliceO2/pull/10055) 2022-10-14: L1phase correction added; fix L1calibration by [@peressounko](https://github.com/peressounko)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
 - [\#10061](https://github.com/AliceO2Group/AliceO2/pull/10061) 2022-10-14: Infologger cleanup by [@martenole](https://github.com/martenole)
 - [\#10064](https://github.com/AliceO2Group/AliceO2/pull/10064) 2022-10-14: [MFT] Increase MaxCellNeighbours on CA track finder by [@rpezzi](https://github.com/rpezzi)
