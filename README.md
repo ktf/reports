@@ -47,7 +47,6 @@
 - [\#10065](https://github.com/AliceO2Group/AliceO2/pull/10065) 2022-10-13: MCH: handle data truncation in User Logic by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
-- [\#9986](https://github.com/AliceO2Group/AliceO2/pull/9986) 2022-10-04: IDCs, SACs: change CCDB path for 3-level architecture by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9989](https://github.com/AliceO2Group/AliceO2/pull/9989) 2022-10-04: [EMCAL-630] Send mapping errors to DecoderErrorContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
 - [\#9994](https://github.com/AliceO2Group/AliceO2/pull/9994) 2022-10-05: multi-thread countTPCClusters in aod-producer by [@shahor02](https://github.com/shahor02)
