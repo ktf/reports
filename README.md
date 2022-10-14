@@ -10,14 +10,12 @@
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9985](https://github.com/AliceO2Group/AliceO2/pull/9985) 2022-10-04: Make DataFormats/MemoryResources header only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
@@ -46,9 +44,9 @@
 - [\#10061](https://github.com/AliceO2Group/AliceO2/pull/10061) 2022-10-14: Infologger cleanup by [@martenole](https://github.com/martenole)
 - [\#10065](https://github.com/AliceO2Group/AliceO2/pull/10065) 2022-10-13: MCH: handle data truncation in User Logic by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 - [\#9978](https://github.com/AliceO2Group/AliceO2/pull/9978) 2022-10-03: Use default c-tor to satisfy codechecker by [@shahor02](https://github.com/shahor02)
 - [\#9980](https://github.com/AliceO2Group/AliceO2/pull/9980) 2022-10-04: [EMCAL-565, EMCAL-566] Fix CCDB access for calibrators by [@mfasDa](https://github.com/mfasDa)
+- [\#9982](https://github.com/AliceO2Group/AliceO2/pull/9982) 2022-10-14: Adding number of pixel type per chip information by [@pdhankhe](https://github.com/pdhankhe)
 - [\#9986](https://github.com/AliceO2Group/AliceO2/pull/9986) 2022-10-04: IDCs, SACs: change CCDB path for 3-level architecture by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#9989](https://github.com/AliceO2Group/AliceO2/pull/9989) 2022-10-04: [EMCAL-630] Send mapping errors to DecoderErrorContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
@@ -56,7 +54,7 @@
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
 - [\#9998](https://github.com/AliceO2Group/AliceO2/pull/9998) 2022-10-05: Fix CPV errors in InfoLogger by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
+- [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10005](https://github.com/AliceO2Group/AliceO2/pull/10005) 2022-10-07: Allow parsing of most severe message with reason by [@jgrosseo](https://github.com/jgrosseo)
@@ -79,10 +77,6 @@
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
 - [\#9983](https://github.com/AliceO2Group/AliceO2/pull/9983) 2022-10-07: DPL: move TPDGDatabase customization to plugin by [@ktf](https://github.com/ktf)
 - [\#9984](https://github.com/AliceO2Group/AliceO2/pull/9984) 2022-10-07: DPL: do not require full TreePlayer by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Steer
-- [\#9976](https://github.com/AliceO2Group/AliceO2/pull/9976) 2022-10-02: Second round of FairLogger cleanup by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
