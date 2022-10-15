@@ -11,6 +11,7 @@
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
+- [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
