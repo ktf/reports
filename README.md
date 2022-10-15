@@ -10,11 +10,14 @@
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
+- [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
+- [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10000](https://github.com/AliceO2Group/AliceO2/pull/10000) 2022-10-05: Add explicit dependency on TreePlayer by [@ktf](https://github.com/ktf)
 - [\#10001](https://github.com/AliceO2Group/AliceO2/pull/10001) 2022-10-06: MCH: add constants header-only library by [@aphecetche](https://github.com/aphecetche)
@@ -48,6 +51,8 @@
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
 - [\#10080](https://github.com/AliceO2Group/AliceO2/pull/10080) 2022-10-15: GRP creator substitutes TRG by CTP in detectors lists by [@shahor02](https://github.com/shahor02)
+- [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#9989](https://github.com/AliceO2Group/AliceO2/pull/9989) 2022-10-04: [EMCAL-630] Send mapping errors to DecoderErrorContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
 - [\#9993](https://github.com/AliceO2Group/AliceO2/pull/9993) 2022-10-14: load TOF geo from geometry.root by [@noferini](https://github.com/noferini)
@@ -77,6 +82,8 @@
 - [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
