@@ -21,6 +21,7 @@
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
+- [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
@@ -54,6 +55,7 @@
 - [\#10061](https://github.com/AliceO2Group/AliceO2/pull/10061) 2022-10-14: Infologger cleanup by [@martenole](https://github.com/martenole)
 - [\#10064](https://github.com/AliceO2Group/AliceO2/pull/10064) 2022-10-14: [MFT] Increase MaxCellNeighbours on CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10065](https://github.com/AliceO2Group/AliceO2/pull/10065) 2022-10-13: MCH: handle data truncation in User Logic by [@aferrero2707](https://github.com/aferrero2707)
+- [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
 - [\#10080](https://github.com/AliceO2Group/AliceO2/pull/10080) 2022-10-15: GRP creator substitutes TRG by CTP in detectors lists by [@shahor02](https://github.com/shahor02)
