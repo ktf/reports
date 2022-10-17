@@ -60,6 +60,7 @@
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
 - [\#10080](https://github.com/AliceO2Group/AliceO2/pull/10080) 2022-10-15: GRP creator substitutes TRG by CTP in detectors lists by [@shahor02](https://github.com/shahor02)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10084](https://github.com/AliceO2Group/AliceO2/pull/10084) 2022-10-17: TPC IDCs: add drawing of IDCs as GIF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
