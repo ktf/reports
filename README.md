@@ -63,6 +63,7 @@
 - [\#10084](https://github.com/AliceO2Group/AliceO2/pull/10084) 2022-10-17: TPC IDCs: add drawing of IDCs as GIF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
+- [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#9993](https://github.com/AliceO2Group/AliceO2/pull/9993) 2022-10-14: load TOF geo from geometry.root by [@noferini](https://github.com/noferini)
 - [\#9994](https://github.com/AliceO2Group/AliceO2/pull/9994) 2022-10-05: multi-thread countTPCClusters in aod-producer by [@shahor02](https://github.com/shahor02)
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
@@ -91,6 +92,7 @@
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
 - [\#10077](https://github.com/AliceO2Group/AliceO2/pull/10077) 2022-10-17: DPL: avoid crash on nullptr in proxy by [@ktf](https://github.com/ktf)
+- [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
