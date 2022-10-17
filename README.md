@@ -67,6 +67,7 @@
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10098](https://github.com/AliceO2Group/AliceO2/pull/10098) 2022-10-17: Fix in prescaling of PV-track matching log by [@shahor02](https://github.com/shahor02)
+- [\#10099](https://github.com/AliceO2Group/AliceO2/pull/10099) 2022-10-17: fix typo in the option hint by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
