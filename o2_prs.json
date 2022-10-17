@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-04T19:25:27Z",
-            "title": "TOFbase: Avoid global static initialization of TF1",
-            "number": 9991,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/include/TOFBase/Utils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/Utils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Add asynchronous downloader that reuses connections to CCDB",
@@ -4680,6 +4655,26 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/NDPiecewisePolynomials.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Protects SSE specific code; Make compileable on ARM",
+            "number": 10091,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
                   }
                 }
               ]

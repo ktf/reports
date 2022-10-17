@@ -63,7 +63,6 @@
 - [\#10084](https://github.com/AliceO2Group/AliceO2/pull/10084) 2022-10-17: TPC IDCs: add drawing of IDCs as GIF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
-- [\#9991](https://github.com/AliceO2Group/AliceO2/pull/9991) 2022-10-04: TOFbase: Avoid global static initialization of TF1 by [@sawenzel](https://github.com/sawenzel)
 - [\#9993](https://github.com/AliceO2Group/AliceO2/pull/9993) 2022-10-14: load TOF geo from geometry.root by [@noferini](https://github.com/noferini)
 - [\#9994](https://github.com/AliceO2Group/AliceO2/pull/9994) 2022-10-05: multi-thread countTPCClusters in aod-producer by [@shahor02](https://github.com/shahor02)
 - [\#9995](https://github.com/AliceO2Group/AliceO2/pull/9995) 2022-10-05: optionally prescal track-vertex matching per-vertex logs by [@shahor02](https://github.com/shahor02)
