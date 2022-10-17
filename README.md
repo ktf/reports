@@ -66,7 +66,6 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
-- [\#9997](https://github.com/AliceO2Group/AliceO2/pull/9997) 2022-10-17: Implementation of ITSMFT Cage Side Panels into O2 geometry by [@mario6829](https://github.com/mario6829)
 - [\#9998](https://github.com/AliceO2Group/AliceO2/pull/9998) 2022-10-05: Fix CPV errors in InfoLogger by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
