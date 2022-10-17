@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Add asynchronous downloader that reuses connections to CCDB",
-            "number": 9992,
-            "author": {
-              "login": "TrifleMichael"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CcdbApi.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CCDBDownloader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApiDownloader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/data/2021-11-o2_prs.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-10-14T23:26:24Z",
             "title": "load TOF geo from geometry.root",
@@ -4675,6 +4620,46 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update for MC-only AOD producer",
+            "number": 10092,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODMcProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODMcProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/aod-mc-producer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/include/Steer/MCKinematicsReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/MCKinematicsReader.cxx"
                   }
                 }
               ]
