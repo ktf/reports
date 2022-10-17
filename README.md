@@ -6,6 +6,8 @@
 ## Recent developments in O2 - Analysis
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
+- [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
+- [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
@@ -78,6 +80,7 @@
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
+- [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10030](https://github.com/AliceO2Group/AliceO2/pull/10030) 2022-10-08: Refs more serviceregistry cleanups by [@ktf](https://github.com/ktf)
@@ -89,6 +92,7 @@
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10049](https://github.com/AliceO2Group/AliceO2/pull/10049) 2022-10-11: Keep doing random timers until we get some data by [@ktf](https://github.com/ktf)
 - [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
+- [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
 - [\#10077](https://github.com/AliceO2Group/AliceO2/pull/10077) 2022-10-17: DPL: avoid crash on nullptr in proxy by [@ktf](https://github.com/ktf)
