@@ -29,7 +29,6 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10003](https://github.com/AliceO2Group/AliceO2/pull/10003) 2022-10-06: TRD raw reader catch error in verbose mode by [@martenole](https://github.com/martenole)
 - [\#10004](https://github.com/AliceO2Group/AliceO2/pull/10004) 2022-10-11: IDCs, SACs: Check for empty data before compression by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10006](https://github.com/AliceO2Group/AliceO2/pull/10006) 2022-10-07: Reduce verbosity of DCSDP processors, promote CCDBPopulator logs to important by [@shahor02](https://github.com/shahor02)
 - [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
