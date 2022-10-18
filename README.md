@@ -90,6 +90,7 @@
 - [\#10077](https://github.com/AliceO2Group/AliceO2/pull/10077) 2022-10-17: DPL: avoid crash on nullptr in proxy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10094](https://github.com/AliceO2Group/AliceO2/pull/10094) 2022-10-17: DPL: demote message by [@ktf](https://github.com/ktf)
+- [\#10101](https://github.com/AliceO2Group/AliceO2/pull/10101) 2022-10-18: DPL: avoid buffer overflow and inline info in stacktraces by [@ktf](https://github.com/ktf)
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
