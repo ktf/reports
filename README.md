@@ -52,6 +52,7 @@
 - [\#10064](https://github.com/AliceO2Group/AliceO2/pull/10064) 2022-10-14: [MFT] Increase MaxCellNeighbours on CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10065](https://github.com/AliceO2Group/AliceO2/pull/10065) 2022-10-13: MCH: handle data truncation in User Logic by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
+- [\#10070](https://github.com/AliceO2Group/AliceO2/pull/10070) 2022-10-18: TPC: Allow manual setting of common mode coupling fraction by [@wiechula](https://github.com/wiechula)
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
 - [\#10080](https://github.com/AliceO2Group/AliceO2/pull/10080) 2022-10-15: GRP creator substitutes TRG by CTP in detectors lists by [@shahor02](https://github.com/shahor02)
