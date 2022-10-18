@@ -20,7 +20,6 @@
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
@@ -29,7 +28,6 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10008](https://github.com/AliceO2Group/AliceO2/pull/10008) 2022-10-09: Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF by [@shahor02](https://github.com/shahor02)
 - [\#10012](https://github.com/AliceO2Group/AliceO2/pull/10012) 2022-10-07: Throttle log messages for tb<0 by [@wiechula](https://github.com/wiechula)
 - [\#10013](https://github.com/AliceO2Group/AliceO2/pull/10013) 2022-10-09: TPC: possibility to simulate pad-by-pad ion tail params in MC by [@wiechula](https://github.com/wiechula)
 - [\#10016](https://github.com/AliceO2Group/AliceO2/pull/10016) 2022-10-08: [EMCAL-565]: Bug fix to cut on the mean energy per hit. by [@hjbossi](https://github.com/hjbossi)
@@ -72,7 +70,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10009](https://github.com/AliceO2Group/AliceO2/pull/10009) 2022-10-06: Point out about the environment by [@ktf](https://github.com/ktf)
 - [\#10010](https://github.com/AliceO2Group/AliceO2/pull/10010) 2022-10-07: DPL: avoid crashes in case there is no actual data in a set of parts by [@ktf](https://github.com/ktf)
 - [\#10011](https://github.com/AliceO2Group/AliceO2/pull/10011) 2022-10-07: DPL Analysis: Add slice/array index builder by [@aalkin](https://github.com/aalkin)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)

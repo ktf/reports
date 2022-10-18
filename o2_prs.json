@@ -5,176 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-09T14:18:30Z",
-            "title": "Fix CTP lumi workflow, add it to dpl-workflow, add lumi to CTP CTF",
-            "number": 10008,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/CTF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/LumiInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/DataFormatsCTPLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/CTFCoderBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/CTFCoderBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/test/test_ctf_io_ctp.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/src/CTFCoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/EntropyEncoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/RawDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/EntropyDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/EntropyEncoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/ctp-raw-decoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/entropy-encoder-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/include/CTPWorkflowLumi/LumiWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/include/CTPWorkflowLumi/RawToLumiConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/src/LumiWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/src/RawToLumiConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowLumi/src/ctp-lumi-decoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-06T08:32:33Z",
-            "title": "Point out about the environment",
-            "number": 10009,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/COOKBOOK.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-07T04:54:27Z",
             "title": "DPL: avoid crashes in case there is no actual data in a set of parts",
             "number": 10010,
@@ -4630,6 +4460,66 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix in loading calib object, prototype of using new TOF method",
+            "number": 10108,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableDetectorTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Further devs for unknown ions",
+            "number": 10109,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/data/extra_ions_pdg_table.dat"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/g4DetermineUnknownPdgProperties.cxx"
                   }
                 }
               ]
