@@ -65,6 +65,7 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
+- [\#10095](https://github.com/AliceO2Group/AliceO2/pull/10095) 2022-10-18: Fix typo in fillBCSlice() by [@nburmaso](https://github.com/nburmaso)
 - [\#10097](https://github.com/AliceO2Group/AliceO2/pull/10097) 2022-10-17: Fix fake overlap between ITS wrapper volume and MFT patch panel by [@mario6829](https://github.com/mario6829)
 - [\#10098](https://github.com/AliceO2Group/AliceO2/pull/10098) 2022-10-17: Fix in prescaling of PV-track matching log by [@shahor02](https://github.com/shahor02)
 - [\#10099](https://github.com/AliceO2Group/AliceO2/pull/10099) 2022-10-17: fix typo in the option hint by [@shahor02](https://github.com/shahor02)
