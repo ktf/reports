@@ -71,6 +71,7 @@
 - [\#10098](https://github.com/AliceO2Group/AliceO2/pull/10098) 2022-10-17: Fix in prescaling of PV-track matching log by [@shahor02](https://github.com/shahor02)
 - [\#10099](https://github.com/AliceO2Group/AliceO2/pull/10099) 2022-10-17: fix typo in the option hint by [@shahor02](https://github.com/shahor02)
 - [\#10100](https://github.com/AliceO2Group/AliceO2/pull/10100) 2022-10-17: Always store PV->tracks table, even if with primaries only by [@shahor02](https://github.com/shahor02)
+- [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
