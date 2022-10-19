@@ -4,7 +4,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -69,7 +68,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10030](https://github.com/AliceO2Group/AliceO2/pull/10030) 2022-10-08: Refs more serviceregistry cleanups by [@ktf](https://github.com/ktf)
@@ -92,5 +90,6 @@
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
 - [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
+- [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
