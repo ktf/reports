@@ -91,6 +91,7 @@
 - [\#10101](https://github.com/AliceO2Group/AliceO2/pull/10101) 2022-10-18: DPL: avoid buffer overflow and inline info in stacktraces by [@ktf](https://github.com/ktf)
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
+- [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities

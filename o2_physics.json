@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-21T15:44:47Z",
-            "title": "[PWGMM] dndeta: avoid double-counting ambiguous tracks",
-            "number": 1274,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/dndeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-09-22T08:06:57Z",
-            "title": "Fix filling of exp time TOF",
-            "number": 1275,
-            "author": {
-              "login": "giovannimalfattore"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/LFNucleiBATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-21T16:43:58Z",
             "title": "DPG: update ITS-TPC match. eff. workflow to improve the comparison with QC.",
             "number": 1276,
@@ -2855,6 +2815,91 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Switching the flag searchUpToQuark to true in the getCharmHadronOrigin",
+            "number": 1374,
+            "author": {
+              "login": "DelloStritto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreator2Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreatorChic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/HFCandidateCreatorX.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskDPlus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskLc.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add the option to save the V0 candidates able maker and table reader",
+            "number": 1375,
+            "author": {
+              "login": "XiaozhiBai"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
