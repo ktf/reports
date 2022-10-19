@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-27T15:05:04Z",
-            "title": "export the cmake info for usage of O2Physics as dependency",
-            "number": 1271,
-            "author": {
-              "login": "adriansev"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddHeaderOnlyLibrary.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsAddLibrary.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsDataFile.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2PhysicsSetROOTPCMDependencies.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/rootcling_wrapper.sh.in"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "packaging/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "packaging/O2PhysicsConfig.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-21T10:44:24Z",
             "title": "pass by reference",
             "number": 1272,
@@ -2860,6 +2805,36 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/ChJetTriggerQATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add BeforeCut Histograms for each MC signal defined (if detailedQA true) + adding few histograms and cuts",
+            "number": 1371,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
                   }
                 }
               ]
