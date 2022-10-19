@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
+- [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
@@ -90,5 +91,6 @@
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
 - [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
+- [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
