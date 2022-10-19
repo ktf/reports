@@ -4,11 +4,9 @@
 ## Recent developments in O2 - Algorithm
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
@@ -19,7 +17,6 @@
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
@@ -27,7 +24,6 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10021](https://github.com/AliceO2Group/AliceO2/pull/10021) 2022-10-07: MCH: speedup elecmap by using static in some key methods by [@aphecetche](https://github.com/aphecetche)
 - [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10025](https://github.com/AliceO2Group/AliceO2/pull/10025) 2022-10-08: [EMCAL-565, EMCAL-566] Reject calib triggered events in online calib by [@jokonig](https://github.com/jokonig)
@@ -73,7 +69,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
 - [\#10020](https://github.com/AliceO2Group/AliceO2/pull/10020) 2022-10-17: DPL Analysis: Protect Preslice in empty table case by [@aalkin](https://github.com/aalkin)
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
@@ -99,5 +94,4 @@
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10019](https://github.com/AliceO2Group/AliceO2/pull/10019) 2022-10-07: DPL: add DataTakingSupport plugin by [@ktf](https://github.com/ktf)
