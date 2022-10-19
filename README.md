@@ -27,7 +27,6 @@
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10013](https://github.com/AliceO2Group/AliceO2/pull/10013) 2022-10-09: TPC: possibility to simulate pad-by-pad ion tail params in MC by [@wiechula](https://github.com/wiechula)
 - [\#10016](https://github.com/AliceO2Group/AliceO2/pull/10016) 2022-10-08: [EMCAL-565]: Bug fix to cut on the mean energy per hit. by [@hjbossi](https://github.com/hjbossi)
 - [\#10017](https://github.com/AliceO2Group/AliceO2/pull/10017) 2022-10-07: Cleanup deps by [@ktf](https://github.com/ktf)
 - [\#10021](https://github.com/AliceO2Group/AliceO2/pull/10021) 2022-10-07: MCH: speedup elecmap by using static in some key methods by [@aphecetche](https://github.com/aphecetche)
