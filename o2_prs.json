@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-08T11:36:07Z",
-            "title": "Multiple fixes for MeanVertex calibration",
-            "number": 10027,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Calibration/src/MeanVertexObject.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/MeanVertexParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/workflow/src/MeanVertexCalibratorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexerParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Multithreading preparations",
@@ -4201,6 +4131,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2022-10-20T14:22:42Z",
+            "title": "DPL: fix proxy for QC",
+            "number": 10127,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
