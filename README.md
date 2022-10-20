@@ -8,7 +8,6 @@
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
@@ -70,7 +69,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10030](https://github.com/AliceO2Group/AliceO2/pull/10030) 2022-10-08: Refs more serviceregistry cleanups by [@ktf](https://github.com/ktf)
 - [\#10034](https://github.com/AliceO2Group/AliceO2/pull/10034) 2022-10-10: DPL: Forward some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
