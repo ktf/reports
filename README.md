@@ -8,7 +8,6 @@
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10052](https://github.com/AliceO2Group/AliceO2/pull/10052) 2022-10-12: API to get checksum hash value for ConfigurableParams by [@sawenzel](https://github.com/sawenzel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
@@ -24,7 +23,6 @@
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
 - [\#10036](https://github.com/AliceO2Group/AliceO2/pull/10036) 2022-10-10: Track fit should fail for negative chi2 by [@mpuccio](https://github.com/mpuccio)
 - [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#10042](https://github.com/AliceO2Group/AliceO2/pull/10042) 2022-10-11: Optimization for AOD MC filling (part 1) by [@sawenzel](https://github.com/sawenzel)
