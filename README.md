@@ -89,5 +89,6 @@
 - [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
 - [\#10125](https://github.com/AliceO2Group/AliceO2/pull/10125) 2022-10-20: DPL: Better crash reporting by [@davidrohr](https://github.com/davidrohr)
 - [\#10127](https://github.com/AliceO2Group/AliceO2/pull/10127) 2022-10-20: DPL: fix proxy for QC by [@ktf](https://github.com/ktf)
+- [\#10132](https://github.com/AliceO2Group/AliceO2/pull/10132) 2022-10-20: DPL: fix input proxy for QC by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
