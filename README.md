@@ -6,6 +6,7 @@
 ## Recent developments in O2 - Analysis
 - [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
+- [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10024](https://github.com/AliceO2Group/AliceO2/pull/10024) 2022-10-07: DPL: introduce ServiceRegistryRef as a name to simplify migration by [@ktf](https://github.com/ktf)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
@@ -21,6 +22,7 @@
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
+- [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10025](https://github.com/AliceO2Group/AliceO2/pull/10025) 2022-10-08: [EMCAL-565, EMCAL-566] Reject calib triggered events in online calib by [@jokonig](https://github.com/jokonig)
@@ -37,6 +39,7 @@
 - [\#10048](https://github.com/AliceO2Group/AliceO2/pull/10048) 2022-10-14: TPC SCD outlier filtering refactoring by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
 - [\#10055](https://github.com/AliceO2Group/AliceO2/pull/10055) 2022-10-14: L1phase correction added; fix L1calibration by [@peressounko](https://github.com/peressounko)
+- [\#10058](https://github.com/AliceO2Group/AliceO2/pull/10058) 2022-10-20: [EMCAL-841, EMCAL-830] General tool for cell-level calibration by [@mfasDa](https://github.com/mfasDa)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
 - [\#10061](https://github.com/AliceO2Group/AliceO2/pull/10061) 2022-10-14: Infologger cleanup by [@martenole](https://github.com/martenole)
 - [\#10062](https://github.com/AliceO2Group/AliceO2/pull/10062) 2022-10-18: GLO QC: Add vs Eta distributions by [@njacazio](https://github.com/njacazio)
@@ -62,6 +65,7 @@
 - [\#10099](https://github.com/AliceO2Group/AliceO2/pull/10099) 2022-10-17: fix typo in the option hint by [@shahor02](https://github.com/shahor02)
 - [\#10100](https://github.com/AliceO2Group/AliceO2/pull/10100) 2022-10-17: Always store PV->tracks table, even if with primaries only by [@shahor02](https://github.com/shahor02)
 - [\#10102](https://github.com/AliceO2Group/AliceO2/pull/10102) 2022-10-19: add TOF method to move pos from global to local by [@noferini](https://github.com/noferini)
+- [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
@@ -89,5 +93,7 @@
 - [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
+- [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
+- [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
