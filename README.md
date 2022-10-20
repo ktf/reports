@@ -15,6 +15,7 @@
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
+- [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -79,6 +80,7 @@
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10094](https://github.com/AliceO2Group/AliceO2/pull/10094) 2022-10-17: DPL: demote message by [@ktf](https://github.com/ktf)
 - [\#10101](https://github.com/AliceO2Group/AliceO2/pull/10101) 2022-10-18: DPL: avoid buffer overflow and inline info in stacktraces by [@ktf](https://github.com/ktf)
+- [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
 - [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
