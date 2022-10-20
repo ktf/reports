@@ -65,7 +65,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10034](https://github.com/AliceO2Group/AliceO2/pull/10034) 2022-10-10: DPL: Forward some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
 - [\#10037](https://github.com/AliceO2Group/AliceO2/pull/10037) 2022-10-10: Make Track and TrackUI separation active by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10041](https://github.com/AliceO2Group/AliceO2/pull/10041) 2022-10-10: DPL: fix initial delay for timers by [@ktf](https://github.com/ktf)
 - [\#10043](https://github.com/AliceO2Group/AliceO2/pull/10043) 2022-10-10: Revert "DPL Analysis: do not use string lookup for finding columns (#9710)" by [@aalkin](https://github.com/aalkin)
