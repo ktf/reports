@@ -62,6 +62,7 @@
 - [\#10102](https://github.com/AliceO2Group/AliceO2/pull/10102) 2022-10-19: add TOF method to move pos from global to local by [@noferini](https://github.com/noferini)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
+- [\#10131](https://github.com/AliceO2Group/AliceO2/pull/10131) 2022-10-20: MFT: Change default nThreads to 1 for now by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -88,6 +89,7 @@
 - [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
+- [\#10125](https://github.com/AliceO2Group/AliceO2/pull/10125) 2022-10-20: DPL: Better crash reporting by [@davidrohr](https://github.com/davidrohr)
 - [\#10127](https://github.com/AliceO2Group/AliceO2/pull/10127) 2022-10-20: DPL: fix proxy for QC by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
