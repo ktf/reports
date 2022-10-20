@@ -22,6 +22,7 @@
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
+- [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
 - [\#10036](https://github.com/AliceO2Group/AliceO2/pull/10036) 2022-10-10: Track fit should fail for negative chi2 by [@mpuccio](https://github.com/mpuccio)
 - [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
@@ -60,7 +61,11 @@
 - [\#10102](https://github.com/AliceO2Group/AliceO2/pull/10102) 2022-10-19: add TOF method to move pos from global to local by [@noferini](https://github.com/noferini)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
+- [\#10117](https://github.com/AliceO2Group/AliceO2/pull/10117) 2022-10-20: Fix wrapper volume extrusions due to previous fix of overlaps with MFT by [@mario6829](https://github.com/mario6829)
 - [\#10121](https://github.com/AliceO2Group/AliceO2/pull/10121) 2022-10-20: TPC: Fix calling destructors of TPC workflow task by [@davidrohr](https://github.com/davidrohr)
+- [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
+- [\#10130](https://github.com/AliceO2Group/AliceO2/pull/10130) 2022-10-20: Fix typo in variable name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10131](https://github.com/AliceO2Group/AliceO2/pull/10131) 2022-10-20: MFT: Change default nThreads to 1 for now by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
