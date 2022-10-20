@@ -16,7 +16,6 @@
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -24,7 +23,6 @@
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10022](https://github.com/AliceO2Group/AliceO2/pull/10022) 2022-10-09: reduce print output tof dia by [@noferini](https://github.com/noferini)
 - [\#10025](https://github.com/AliceO2Group/AliceO2/pull/10025) 2022-10-08: [EMCAL-565, EMCAL-566] Reject calib triggered events in online calib by [@jokonig](https://github.com/jokonig)
 - [\#10026](https://github.com/AliceO2Group/AliceO2/pull/10026) 2022-10-14: Retrieve SOR/EOR information for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)

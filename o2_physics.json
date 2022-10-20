@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-21T16:43:58Z",
-            "title": "DPG: update ITS-TPC match. eff. workflow to improve the comparison with QC.",
-            "number": 1276,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-10T13:29:21Z",
             "title": "Optimisation tree",
             "number": 1277,
@@ -2900,6 +2880,36 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGMM: dndeta: propagate only ambiguous tracks that pass selection to save time",
+            "number": 1376,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/DataModel/bestCollisionTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta.cxx"
                   }
                 }
               ]
