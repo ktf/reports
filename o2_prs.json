@@ -4,201 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Multithreading preparations",
-            "number": 10028,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CommonServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataAllocator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataSender.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DebugGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ErrorContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/RawDeviceService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceHandle.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceRegistryRef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ServiceSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CompletionPolicyHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataSender.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DriverServerContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ServiceRegistry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_DataAllocator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Services.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_TableBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/Plugin.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/SpyService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/RootAnalysisHelpers/test/test_RDataFrameSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/RawPageTestData.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-09T16:45:00Z",
-            "title": "Distinguish between propagated and not propagated tracks",
-            "number": 10029,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataTypes.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-10-08T14:50:27Z",
             "title": "Refs more serviceregistry cleanups",
@@ -4151,6 +3956,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Always do renorming of the 1st setting of VDrift",
+            "number": 10128,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/VDriftHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/VDriftHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD add --disable-root-output to data reader",
+            "number": 10129,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/RawDataStats.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]

@@ -23,7 +23,6 @@
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
 - [\#10036](https://github.com/AliceO2Group/AliceO2/pull/10036) 2022-10-10: Track fit should fail for negative chi2 by [@mpuccio](https://github.com/mpuccio)
 - [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
@@ -65,7 +64,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10030](https://github.com/AliceO2Group/AliceO2/pull/10030) 2022-10-08: Refs more serviceregistry cleanups by [@ktf](https://github.com/ktf)
 - [\#10034](https://github.com/AliceO2Group/AliceO2/pull/10034) 2022-10-10: DPL: Forward some more FMQ command line options by [@davidrohr](https://github.com/davidrohr)
 - [\#10037](https://github.com/AliceO2Group/AliceO2/pull/10037) 2022-10-10: Make Track and TrackUI separation active by [@jgrosseo](https://github.com/jgrosseo)
