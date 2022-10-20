@@ -24,7 +24,6 @@
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10026](https://github.com/AliceO2Group/AliceO2/pull/10026) 2022-10-14: Retrieve SOR/EOR information for ITS DCS parser by [@ezradlesser](https://github.com/ezradlesser)
 - [\#10027](https://github.com/AliceO2Group/AliceO2/pull/10027) 2022-10-08: Multiple fixes for MeanVertex calibration by [@shahor02](https://github.com/shahor02)
 - [\#10029](https://github.com/AliceO2Group/AliceO2/pull/10029) 2022-10-09: Distinguish between propagated and not propagated tracks by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10032](https://github.com/AliceO2Group/AliceO2/pull/10032) 2022-10-15: MCH: add DCS aliases parsing by [@aphecetche](https://github.com/aphecetche)
