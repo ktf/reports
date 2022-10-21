@@ -24,6 +24,7 @@
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
+- [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10042](https://github.com/AliceO2Group/AliceO2/pull/10042) 2022-10-11: Optimization for AOD MC filling (part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
@@ -70,6 +71,7 @@
 - [\#10130](https://github.com/AliceO2Group/AliceO2/pull/10130) 2022-10-20: Fix typo in variable name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10131](https://github.com/AliceO2Group/AliceO2/pull/10131) 2022-10-20: MFT: Change default nThreads to 1 for now by [@davidrohr](https://github.com/davidrohr)
 - [\#10135](https://github.com/AliceO2Group/AliceO2/pull/10135) 2022-10-21: TPC: Remove redundant compilation of files, TPCWorkflowGUI can just use TPCWorkflow as library by [@davidrohr](https://github.com/davidrohr)
+- [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10139](https://github.com/AliceO2Group/AliceO2/pull/10139) 2022-10-21: Replace static array by dynamic vector on MFT CA track finder by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
