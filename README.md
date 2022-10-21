@@ -25,7 +25,6 @@
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 ## Recent developments in O2 - Detectors
-- [\#10039](https://github.com/AliceO2Group/AliceO2/pull/10039) 2022-10-10: AODProducer: fix typo + small code simplification by [@sawenzel](https://github.com/sawenzel)
 - [\#10042](https://github.com/AliceO2Group/AliceO2/pull/10042) 2022-10-11: Optimization for AOD MC filling (part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10046](https://github.com/AliceO2Group/AliceO2/pull/10046) 2022-10-11: TPC  GainMap using tracks small optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
