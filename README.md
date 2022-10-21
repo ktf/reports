@@ -61,6 +61,7 @@
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
 - [\#10117](https://github.com/AliceO2Group/AliceO2/pull/10117) 2022-10-20: Fix wrapper volume extrusions due to previous fix of overlaps with MFT by [@mario6829](https://github.com/mario6829)
+- [\#10118](https://github.com/AliceO2Group/AliceO2/pull/10118) 2022-10-21: MCH: install the MCHConstants lib by [@aphecetche](https://github.com/aphecetche)
 - [\#10121](https://github.com/AliceO2Group/AliceO2/pull/10121) 2022-10-20: TPC: Fix calling destructors of TPC workflow task by [@davidrohr](https://github.com/davidrohr)
 - [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
