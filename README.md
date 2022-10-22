@@ -15,6 +15,7 @@
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 - [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
+- [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -98,5 +99,6 @@
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10136](https://github.com/AliceO2Group/AliceO2/pull/10136) 2022-10-21: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10140](https://github.com/AliceO2Group/AliceO2/pull/10140) 2022-10-22: DPL: Load CCDB and AOD reader plugin only once by [@ktf](https://github.com/ktf)
+- [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
