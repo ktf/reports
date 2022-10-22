@@ -75,7 +75,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10044](https://github.com/AliceO2Group/AliceO2/pull/10044) 2022-10-11: DPL: Add ability to get symbol name from debug information by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10049](https://github.com/AliceO2Group/AliceO2/pull/10049) 2022-10-11: Keep doing random timers until we get some data by [@ktf](https://github.com/ktf)
 - [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
