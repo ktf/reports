@@ -26,7 +26,6 @@
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10042](https://github.com/AliceO2Group/AliceO2/pull/10042) 2022-10-11: Optimization for AOD MC filling (part 1) by [@sawenzel](https://github.com/sawenzel)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10046](https://github.com/AliceO2Group/AliceO2/pull/10046) 2022-10-11: TPC  GainMap using tracks small optimizations by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10047](https://github.com/AliceO2Group/AliceO2/pull/10047) 2022-10-11: TRD raw reader reports about tracklet HC headers by [@martenole](https://github.com/martenole)
@@ -76,7 +75,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10043](https://github.com/AliceO2Group/AliceO2/pull/10043) 2022-10-10: Revert "DPL Analysis: do not use string lookup for finding columns (#9710)" by [@aalkin](https://github.com/aalkin)
 - [\#10044](https://github.com/AliceO2Group/AliceO2/pull/10044) 2022-10-11: DPL: Add ability to get symbol name from debug information by [@ktf](https://github.com/ktf)
 - [\#10045](https://github.com/AliceO2Group/AliceO2/pull/10045) 2022-10-11: aod-writer: metadata writing and ordered completion policy by [@nburmaso](https://github.com/nburmaso)
 - [\#10049](https://github.com/AliceO2Group/AliceO2/pull/10049) 2022-10-11: Keep doing random timers until we get some data by [@ktf](https://github.com/ktf)
