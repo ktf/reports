@@ -29,7 +29,6 @@
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10143](https://github.com/AliceO2Group/AliceO2/pull/10143) 2022-10-22: Fix in getting ITSAB GlobalTrackID name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10048](https://github.com/AliceO2Group/AliceO2/pull/10048) 2022-10-14: TPC SCD outlier filtering refactoring by [@martenole](https://github.com/martenole)
 - [\#10051](https://github.com/AliceO2Group/AliceO2/pull/10051) 2022-10-12: Fixing some overlaps on side-A beam pipe and ZEM by [@coppedis](https://github.com/coppedis)
 - [\#10055](https://github.com/AliceO2Group/AliceO2/pull/10055) 2022-10-14: L1phase correction added; fix L1calibration by [@peressounko](https://github.com/peressounko)
 - [\#10058](https://github.com/AliceO2Group/AliceO2/pull/10058) 2022-10-20: [EMCAL-841, EMCAL-830] General tool for cell-level calibration by [@mfasDa](https://github.com/mfasDa)
