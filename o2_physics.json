@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-27T14:14:39Z",
-            "title": "PWGDQ: adding QA for ambiguous tracks",
-            "number": 1285,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/DataModel/ReducedInfoTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-29T12:11:01Z",
             "title": "Adding fwdtrack-extension task",
             "number": 1286,
@@ -2860,6 +2830,56 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Refactor UPC cuts, add QA histograms for tracks",
+            "number": 1385,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/UPCCutparHolder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/UPCCutparHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/UPCCutparHolderLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/UPCHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
                   }
                 }
               ]
