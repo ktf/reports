@@ -72,6 +72,7 @@
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10139](https://github.com/AliceO2Group/AliceO2/pull/10139) 2022-10-21: Replace static array by dynamic vector on MFT CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10142](https://github.com/AliceO2Group/AliceO2/pull/10142) 2022-10-22: Fix it TRD global tracking by [@shahor02](https://github.com/shahor02)
+- [\#10146](https://github.com/AliceO2Group/AliceO2/pull/10146) 2022-10-24: IDCs: add option to buffer/process IDCs for TF intervals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#10066](https://github.com/AliceO2Group/AliceO2/pull/10066) 2022-10-14: o2-eve-export-workflow: --disable-write flag to prevent writing files… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
