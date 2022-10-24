@@ -5,91 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-09-24T10:09:05Z",
-            "title": "Rework of DGPIDSelector",
-            "number": 1287,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/DGHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGAnaparHolder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGAnaparHolder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGAnaparHolderLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGMCHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelectorLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCTrackSkimmer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-09-24T21:47:58Z",
             "title": "fix TOF PID issue",
             "number": 1288,
@@ -2840,6 +2755,31 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/dileptonEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix grpecs access. Finetune FT0 search range",
+            "number": 1387,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]

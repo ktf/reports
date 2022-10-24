@@ -1,5 +1,4 @@
 ## Recent AliPhysics releases
-- v5-09-56n-01: Done on 2022-10-10.
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
