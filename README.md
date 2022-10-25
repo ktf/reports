@@ -79,7 +79,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10056](https://github.com/AliceO2Group/AliceO2/pull/10056) 2022-10-12: DPL: allow ExternalFairMQDeviceProxy to work with multiple input channels by [@ktf](https://github.com/ktf)
 - [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
