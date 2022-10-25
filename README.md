@@ -101,5 +101,6 @@
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10154](https://github.com/AliceO2Group/AliceO2/pull/10154) 2022-10-25: DPL: fix signature for callback by [@ktf](https://github.com/ktf)
+- [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
