@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "move dileptonEE from DQ to EM",
-            "number": 1289,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/dileptonEE.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/dileptonEE.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-09-26T10:21:49Z",
             "title": "PWGHF: Fix pt axis for reco charm hadrons",
@@ -2790,6 +2745,41 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPC.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "update of DGBCCandProducer",
+            "number": 1389,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/DGHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGPIDSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
                   }
                 }
               ]
