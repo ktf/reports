@@ -29,7 +29,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10058](https://github.com/AliceO2Group/AliceO2/pull/10058) 2022-10-20: [EMCAL-841, EMCAL-830] General tool for cell-level calibration by [@mfasDa](https://github.com/mfasDa)
 - [\#10059](https://github.com/AliceO2Group/AliceO2/pull/10059) 2022-10-13: Limit link loop to maximum number of expected links by [@wiechula](https://github.com/wiechula)
 - [\#10061](https://github.com/AliceO2Group/AliceO2/pull/10061) 2022-10-14: Infologger cleanup by [@martenole](https://github.com/martenole)
 - [\#10062](https://github.com/AliceO2Group/AliceO2/pull/10062) 2022-10-18: GLO QC: Add vs Eta distributions by [@njacazio](https://github.com/njacazio)
