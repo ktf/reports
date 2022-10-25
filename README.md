@@ -29,7 +29,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10064](https://github.com/AliceO2Group/AliceO2/pull/10064) 2022-10-14: [MFT] Increase MaxCellNeighbours on CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10065](https://github.com/AliceO2Group/AliceO2/pull/10065) 2022-10-13: MCH: handle data truncation in User Logic by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10069](https://github.com/AliceO2Group/AliceO2/pull/10069) 2022-10-18: [MFT] Enables multiple threads for MFT tracker  by [@rpezzi](https://github.com/rpezzi)
