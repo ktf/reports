@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-- [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
@@ -79,7 +78,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10057](https://github.com/AliceO2Group/AliceO2/pull/10057) 2022-10-17: DPL Analysis: 1-to-many index for BCs and Collisions by [@aalkin](https://github.com/aalkin)
 - [\#10067](https://github.com/AliceO2Group/AliceO2/pull/10067) 2022-10-14: Improve reports for crashes by [@ktf](https://github.com/ktf)
 - [\#10072](https://github.com/AliceO2Group/AliceO2/pull/10072) 2022-10-13: Update COOKBOOK.md by [@ktf](https://github.com/ktf)
 - [\#10077](https://github.com/AliceO2Group/AliceO2/pull/10077) 2022-10-17: DPL: avoid crash on nullptr in proxy by [@ktf](https://github.com/ktf)
