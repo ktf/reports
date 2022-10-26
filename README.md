@@ -17,7 +17,6 @@
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
@@ -29,7 +28,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10068](https://github.com/AliceO2Group/AliceO2/pull/10068) 2022-10-16: [EMCAL-630] Add static methods for error code names and titles for all reconstruction error classes by [@mfasDa](https://github.com/mfasDa)
 - [\#10069](https://github.com/AliceO2Group/AliceO2/pull/10069) 2022-10-18: [MFT] Enables multiple threads for MFT tracker  by [@rpezzi](https://github.com/rpezzi)
 - [\#10070](https://github.com/AliceO2Group/AliceO2/pull/10070) 2022-10-18: TPC: Allow manual setting of common mode coupling fraction by [@wiechula](https://github.com/wiechula)
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
