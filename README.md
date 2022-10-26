@@ -28,8 +28,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10069](https://github.com/AliceO2Group/AliceO2/pull/10069) 2022-10-18: [MFT] Enables multiple threads for MFT tracker  by [@rpezzi](https://github.com/rpezzi)
-- [\#10070](https://github.com/AliceO2Group/AliceO2/pull/10070) 2022-10-18: TPC: Allow manual setting of common mode coupling fraction by [@wiechula](https://github.com/wiechula)
 - [\#10073](https://github.com/AliceO2Group/AliceO2/pull/10073) 2022-10-14: MCH: minor fix in bad channel object metadata by [@aphecetche](https://github.com/aphecetche)
 - [\#10075](https://github.com/AliceO2Group/AliceO2/pull/10075) 2022-10-13: [EMCAL-623, EMCAL-505] Fix doxygen in clusterizer by [@mfasDa](https://github.com/mfasDa)
 - [\#10080](https://github.com/AliceO2Group/AliceO2/pull/10080) 2022-10-15: GRP creator substitutes TRG by CTP in detectors lists by [@shahor02](https://github.com/shahor02)
