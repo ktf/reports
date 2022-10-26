@@ -67,6 +67,7 @@
 - [\#10151](https://github.com/AliceO2Group/AliceO2/pull/10151) 2022-10-26: Add filtering options to MFT tracker by [@rpezzi](https://github.com/rpezzi)
 - [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
+- [\#10172](https://github.com/AliceO2Group/AliceO2/pull/10172) 2022-10-26: Disable ITS IRFrame reader when not needed by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
