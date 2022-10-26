@@ -66,6 +66,7 @@
 - [\#10146](https://github.com/AliceO2Group/AliceO2/pull/10146) 2022-10-24: IDCs: add option to buffer/process IDCs for TF intervals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
+- [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
