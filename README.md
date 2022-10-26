@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
+- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -50,6 +51,7 @@
 - [\#10117](https://github.com/AliceO2Group/AliceO2/pull/10117) 2022-10-20: Fix wrapper volume extrusions due to previous fix of overlaps with MFT by [@mario6829](https://github.com/mario6829)
 - [\#10118](https://github.com/AliceO2Group/AliceO2/pull/10118) 2022-10-21: MCH: install the MCHConstants lib by [@aphecetche](https://github.com/aphecetche)
 - [\#10121](https://github.com/AliceO2Group/AliceO2/pull/10121) 2022-10-20: TPC: Fix calling destructors of TPC workflow task by [@davidrohr](https://github.com/davidrohr)
+- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
@@ -82,6 +84,7 @@
 - [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
+- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10125](https://github.com/AliceO2Group/AliceO2/pull/10125) 2022-10-20: DPL: Better crash reporting by [@davidrohr](https://github.com/davidrohr)
 - [\#10127](https://github.com/AliceO2Group/AliceO2/pull/10127) 2022-10-20: DPL: fix proxy for QC by [@ktf](https://github.com/ktf)
 - [\#10132](https://github.com/AliceO2Group/AliceO2/pull/10132) 2022-10-20: DPL: fix input proxy for QC by [@ktf](https://github.com/ktf)
