@@ -18,6 +18,7 @@
 - [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
@@ -101,6 +102,7 @@
 - [\#10154](https://github.com/AliceO2Group/AliceO2/pull/10154) 2022-10-25: DPL: fix signature for callback by [@ktf](https://github.com/ktf)
 - [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
+- [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
