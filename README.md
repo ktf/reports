@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
+- [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
@@ -68,6 +69,7 @@
 - [\#10151](https://github.com/AliceO2Group/AliceO2/pull/10151) 2022-10-26: Add filtering options to MFT tracker by [@rpezzi](https://github.com/rpezzi)
 - [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
+- [\#10167](https://github.com/AliceO2Group/AliceO2/pull/10167) 2022-10-27: Implementation of the ITS Inner Barrel Gamma Conversion Wires by [@mario6829](https://github.com/mario6829)
 - [\#10172](https://github.com/AliceO2Group/AliceO2/pull/10172) 2022-10-26: Disable ITS IRFrame reader when not needed by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -101,3 +103,5 @@
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Utilities
+- [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
