@@ -71,6 +71,7 @@
 - [\#10167](https://github.com/AliceO2Group/AliceO2/pull/10167) 2022-10-27: Implementation of the ITS Inner Barrel Gamma Conversion Wires by [@mario6829](https://github.com/mario6829)
 - [\#10172](https://github.com/AliceO2Group/AliceO2/pull/10172) 2022-10-26: Disable ITS IRFrame reader when not needed by [@rpezzi](https://github.com/rpezzi)
 - [\#10173](https://github.com/AliceO2Group/AliceO2/pull/10173) 2022-10-27: multiplicity tuning by [@davidrohr](https://github.com/davidrohr)
+- [\#10178](https://github.com/AliceO2Group/AliceO2/pull/10178) 2022-10-28: fix {} brackets to pass code check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
