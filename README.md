@@ -20,7 +20,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
 - [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
@@ -32,7 +31,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10082](https://github.com/AliceO2Group/AliceO2/pull/10082) 2022-10-15: Determine PDG properties from G4 ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10083](https://github.com/AliceO2Group/AliceO2/pull/10083) 2022-10-18: TPC gainmap using tracks: avoid too many logs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10084](https://github.com/AliceO2Group/AliceO2/pull/10084) 2022-10-17: TPC IDCs: add drawing of IDCs as GIF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10085](https://github.com/AliceO2Group/AliceO2/pull/10085) 2022-10-15: User hook (JITable) for track references during stepping by [@sawenzel](https://github.com/sawenzel)
