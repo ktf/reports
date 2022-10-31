@@ -27,7 +27,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10092](https://github.com/AliceO2Group/AliceO2/pull/10092) 2022-10-27: Update for MC-only AOD producer by [@nburmaso](https://github.com/nburmaso)
 - [\#10095](https://github.com/AliceO2Group/AliceO2/pull/10095) 2022-10-18: Fix typo in fillBCSlice() by [@nburmaso](https://github.com/nburmaso)
