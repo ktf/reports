@@ -10,7 +10,6 @@
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10088](https://github.com/AliceO2Group/AliceO2/pull/10088) 2022-10-15: Use raw string to calm down fullCI codechecker by [@shahor02](https://github.com/shahor02)
 - [\#10089](https://github.com/AliceO2Group/AliceO2/pull/10089) 2022-10-16: GPU: Solve some compile problems depending on include order: Non GPU code and RTC code should never use thrust by [@davidrohr](https://github.com/davidrohr)
 - [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
@@ -19,7 +18,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
@@ -29,7 +27,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10086](https://github.com/AliceO2Group/AliceO2/pull/10086) 2022-10-18: Alignment fixes + related generic helpers by [@shahor02](https://github.com/shahor02)
 - [\#10087](https://github.com/AliceO2Group/AliceO2/pull/10087) 2022-10-15: Fix clang-tidy by [@ktf](https://github.com/ktf)
 - [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10092](https://github.com/AliceO2Group/AliceO2/pull/10092) 2022-10-27: Update for MC-only AOD producer by [@nburmaso](https://github.com/nburmaso)
