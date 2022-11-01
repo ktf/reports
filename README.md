@@ -91,6 +91,7 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10154](https://github.com/AliceO2Group/AliceO2/pull/10154) 2022-10-25: DPL: fix signature for callback by [@ktf](https://github.com/ktf)
 - [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
+- [\#10158](https://github.com/AliceO2Group/AliceO2/pull/10158) 2022-11-01: DPL Analysis: use arrow 10 API if available by [@aalkin](https://github.com/aalkin)
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 - [\#10182](https://github.com/AliceO2Group/AliceO2/pull/10182) 2022-10-30: More multithreading changes by [@ktf](https://github.com/ktf)
