@@ -63,6 +63,7 @@
 - [\#10180](https://github.com/AliceO2Group/AliceO2/pull/10180) 2022-10-29: HBFUtilsInitializer allows to add delay to readers by [@shahor02](https://github.com/shahor02)
 - [\#10181](https://github.com/AliceO2Group/AliceO2/pull/10181) 2022-10-31: Pr ctp io by [@lietava](https://github.com/lietava)
 - [\#10190](https://github.com/AliceO2Group/AliceO2/pull/10190) 2022-11-01: TPC: N2 density update for STP, clang-format by [@wiechula](https://github.com/wiechula)
+- [\#10196](https://github.com/AliceO2Group/AliceO2/pull/10196) 2022-11-01: mark MCtracks to be kept by [@peressounko](https://github.com/peressounko)
 - [\#10197](https://github.com/AliceO2Group/AliceO2/pull/10197) 2022-11-01: Fix: add CPV to collectBCs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
