@@ -25,7 +25,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10097](https://github.com/AliceO2Group/AliceO2/pull/10097) 2022-10-17: Fix fake overlap between ITS wrapper volume and MFT patch panel by [@mario6829](https://github.com/mario6829)
 - [\#10098](https://github.com/AliceO2Group/AliceO2/pull/10098) 2022-10-17: Fix in prescaling of PV-track matching log by [@shahor02](https://github.com/shahor02)
 - [\#10099](https://github.com/AliceO2Group/AliceO2/pull/10099) 2022-10-17: fix typo in the option hint by [@shahor02](https://github.com/shahor02)
 - [\#10100](https://github.com/AliceO2Group/AliceO2/pull/10100) 2022-10-17: Always store PV->tracks table, even if with primaries only by [@shahor02](https://github.com/shahor02)
