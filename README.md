@@ -14,6 +14,7 @@
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
+- [\#10193](https://github.com/AliceO2Group/AliceO2/pull/10193) 2022-11-01: DPL: delete the context on stop by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10109](https://github.com/AliceO2Group/AliceO2/pull/10109) 2022-11-01: Further devs for unknown ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -91,5 +92,6 @@
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 - [\#10182](https://github.com/AliceO2Group/AliceO2/pull/10182) 2022-10-30: More multithreading changes by [@ktf](https://github.com/ktf)
+- [\#10193](https://github.com/AliceO2Group/AliceO2/pull/10193) 2022-11-01: DPL: delete the context on stop by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
