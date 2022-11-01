@@ -24,7 +24,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10092](https://github.com/AliceO2Group/AliceO2/pull/10092) 2022-10-27: Update for MC-only AOD producer by [@nburmaso](https://github.com/nburmaso)
 - [\#10095](https://github.com/AliceO2Group/AliceO2/pull/10095) 2022-10-18: Fix typo in fillBCSlice() by [@nburmaso](https://github.com/nburmaso)
 - [\#10097](https://github.com/AliceO2Group/AliceO2/pull/10097) 2022-10-17: Fix fake overlap between ITS wrapper volume and MFT patch panel by [@mario6829](https://github.com/mario6829)
@@ -67,7 +66,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10090](https://github.com/AliceO2Group/AliceO2/pull/10090) 2022-10-17: Add missing log levels and fix some compile warnings / failures by [@davidrohr](https://github.com/davidrohr)
 - [\#10094](https://github.com/AliceO2Group/AliceO2/pull/10094) 2022-10-17: DPL: demote message by [@ktf](https://github.com/ktf)
 - [\#10101](https://github.com/AliceO2Group/AliceO2/pull/10101) 2022-10-18: DPL: avoid buffer overflow and inline info in stacktraces by [@ktf](https://github.com/ktf)
 - [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
