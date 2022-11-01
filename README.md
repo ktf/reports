@@ -16,6 +16,7 @@
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
+- [\#10109](https://github.com/AliceO2Group/AliceO2/pull/10109) 2022-11-01: Further devs for unknown ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10120](https://github.com/AliceO2Group/AliceO2/pull/10120) 2022-10-20: Add NOISE runType, make grp-creator robust against unknown run type by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -24,7 +25,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10092](https://github.com/AliceO2Group/AliceO2/pull/10092) 2022-10-27: Update for MC-only AOD producer by [@nburmaso](https://github.com/nburmaso)
 - [\#10095](https://github.com/AliceO2Group/AliceO2/pull/10095) 2022-10-18: Fix typo in fillBCSlice() by [@nburmaso](https://github.com/nburmaso)
 - [\#10097](https://github.com/AliceO2Group/AliceO2/pull/10097) 2022-10-17: Fix fake overlap between ITS wrapper volume and MFT patch panel by [@mario6829](https://github.com/mario6829)
 - [\#10098](https://github.com/AliceO2Group/AliceO2/pull/10098) 2022-10-17: Fix in prescaling of PV-track matching log by [@shahor02](https://github.com/shahor02)
@@ -33,6 +33,7 @@
 - [\#10102](https://github.com/AliceO2Group/AliceO2/pull/10102) 2022-10-19: add TOF method to move pos from global to local by [@noferini](https://github.com/noferini)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
+- [\#10109](https://github.com/AliceO2Group/AliceO2/pull/10109) 2022-11-01: Further devs for unknown ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10116](https://github.com/AliceO2Group/AliceO2/pull/10116) 2022-10-21: MCH: add some missing include guards by [@aphecetche](https://github.com/aphecetche)
 - [\#10117](https://github.com/AliceO2Group/AliceO2/pull/10117) 2022-10-20: Fix wrapper volume extrusions due to previous fix of overlaps with MFT by [@mario6829](https://github.com/mario6829)
 - [\#10118](https://github.com/AliceO2Group/AliceO2/pull/10118) 2022-10-21: MCH: install the MCHConstants lib by [@aphecetche](https://github.com/aphecetche)
