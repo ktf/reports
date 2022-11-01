@@ -62,6 +62,7 @@
 - [\#10178](https://github.com/AliceO2Group/AliceO2/pull/10178) 2022-10-28: fix {} brackets to pass code check by [@shahor02](https://github.com/shahor02)
 - [\#10180](https://github.com/AliceO2Group/AliceO2/pull/10180) 2022-10-29: HBFUtilsInitializer allows to add delay to readers by [@shahor02](https://github.com/shahor02)
 - [\#10181](https://github.com/AliceO2Group/AliceO2/pull/10181) 2022-10-31: Pr ctp io by [@lietava](https://github.com/lietava)
+- [\#10197](https://github.com/AliceO2Group/AliceO2/pull/10197) 2022-11-01: Fix: add CPV to collectBCs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
