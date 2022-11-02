@@ -26,7 +26,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10102](https://github.com/AliceO2Group/AliceO2/pull/10102) 2022-10-19: add TOF method to move pos from global to local by [@noferini](https://github.com/noferini)
 - [\#10104](https://github.com/AliceO2Group/AliceO2/pull/10104) 2022-10-20: [EMCAL-845] Cleanup library dependencies in EMCAL libraries by [@mfasDa](https://github.com/mfasDa)
 - [\#10108](https://github.com/AliceO2Group/AliceO2/pull/10108) 2022-10-18: fix in loading calib object, prototype of using new TOF method by [@shahor02](https://github.com/shahor02)
 - [\#10109](https://github.com/AliceO2Group/AliceO2/pull/10109) 2022-11-01: Further devs for unknown ions by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
