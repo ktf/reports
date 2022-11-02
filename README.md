@@ -9,7 +9,6 @@
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
 - [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -61,11 +60,11 @@
 - [\#10190](https://github.com/AliceO2Group/AliceO2/pull/10190) 2022-11-01: TPC: N2 density update for STP, clang-format by [@wiechula](https://github.com/wiechula)
 - [\#10196](https://github.com/AliceO2Group/AliceO2/pull/10196) 2022-11-01: mark MCtracks to be kept by [@peressounko](https://github.com/peressounko)
 - [\#10197](https://github.com/AliceO2Group/AliceO2/pull/10197) 2022-11-01: Fix: add CPV to collectBCs by [@shahor02](https://github.com/shahor02)
+- [\#10202](https://github.com/AliceO2Group/AliceO2/pull/10202) 2022-11-02: [ITS] Fix chip thickness type by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
 - [\#10112](https://github.com/AliceO2Group/AliceO2/pull/10112) 2022-10-21: Drop our own FindO2arrow and adapt accordingly by [@ktf](https://github.com/ktf)
