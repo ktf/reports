@@ -66,7 +66,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10101](https://github.com/AliceO2Group/AliceO2/pull/10101) 2022-10-18: DPL: avoid buffer overflow and inline info in stacktraces by [@ktf](https://github.com/ktf)
 - [\#10103](https://github.com/AliceO2Group/AliceO2/pull/10103) 2022-10-20: DPL: Proper ServiceRegistryRef implementation by [@ktf](https://github.com/ktf)
 - [\#10106](https://github.com/AliceO2Group/AliceO2/pull/10106) 2022-10-18: DPL: improve documentation by [@ktf](https://github.com/ktf)
 - [\#10107](https://github.com/AliceO2Group/AliceO2/pull/10107) 2022-10-18: DPL: fix double iteration when having multiple channels by [@ktf](https://github.com/ktf)
