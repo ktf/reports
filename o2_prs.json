@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-18T18:03:55Z",
-            "title": "Fix proxy name for TPC IDC with FLP",
-            "number": 10111,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-21T05:00:12Z",
             "title": "Drop our own FindO2arrow and adapt accordingly",
             "number": 10112,
@@ -3256,6 +3236,81 @@
                 {
                   "node": {
                     "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP][FOCAL] Add stand-alone decoder of pad data",
+            "number": 10211,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PadData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PadDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PadWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/run/rawReaderPadRootify.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/FOCALReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/PadData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/PadDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/PadWord.cxx"
                   }
                 }
               ]
