@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-11-01T10:39:36Z",
-            "title": "Further devs for unknown ions",
-            "number": 10109,
-            "author": {
-              "login": "benedikt-voelkel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/data/extra_ions_pdg_table.dat"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/g4DetermineUnknownPdgProperties.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[ITS] Factorise description of ITS inner barrel for ITS3 geometry implementation",
@@ -3301,6 +3266,81 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/DCSParserSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Work on TPC CTF Skimming",
+            "number": 10209,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/CTFCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/EntropyEncoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.inc"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUMemorySizeScalers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
