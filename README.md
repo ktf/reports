@@ -61,6 +61,7 @@
 - [\#10202](https://github.com/AliceO2Group/AliceO2/pull/10202) 2022-11-02: [ITS] Fix chip thickness type by [@fgrosa](https://github.com/fgrosa)
 - [\#10206](https://github.com/AliceO2Group/AliceO2/pull/10206) 2022-11-03: Add IonTailCorrection to the dictionary by [@pzhristov](https://github.com/pzhristov)
 - [\#10208](https://github.com/AliceO2Group/AliceO2/pull/10208) 2022-11-03: ITS: Change ccdb path for DCS config object by [@iravasen](https://github.com/iravasen)
+- [\#10209](https://github.com/AliceO2Group/AliceO2/pull/10209) 2022-11-03: Work on TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
