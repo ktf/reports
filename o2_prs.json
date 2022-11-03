@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-20T09:30:24Z",
-            "title": "[EMCAL-845] Cleanup library dependencies in EMCAL libraries",
-            "number": 10104,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-18T19:15:27Z",
             "title": "Optional explicit PV-tracks matching sources",
             "number": 10105,
@@ -3211,6 +3181,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: enable lossy dispatcher",
+            "number": 10204,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SendingPolicy.cxx"
                   }
                 }
               ]
