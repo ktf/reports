@@ -62,11 +62,11 @@
 - [\#10206](https://github.com/AliceO2Group/AliceO2/pull/10206) 2022-11-03: Add IonTailCorrection to the dictionary by [@pzhristov](https://github.com/pzhristov)
 - [\#10208](https://github.com/AliceO2Group/AliceO2/pull/10208) 2022-11-03: ITS: Change ccdb path for DCS config object by [@iravasen](https://github.com/iravasen)
 - [\#10209](https://github.com/AliceO2Group/AliceO2/pull/10209) 2022-11-03: Work on TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
+- [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10112](https://github.com/AliceO2Group/AliceO2/pull/10112) 2022-10-21: Drop our own FindO2arrow and adapt accordingly by [@ktf](https://github.com/ktf)
 - [\#10113](https://github.com/AliceO2Group/AliceO2/pull/10113) 2022-10-19: DPL: add walltime for the processing of a given timeslice by [@ktf](https://github.com/ktf)
 - [\#10114](https://github.com/AliceO2Group/AliceO2/pull/10114) 2022-10-19: DPL: fix warnings in DataInputDirector.cxx by [@ktf](https://github.com/ktf)
 - [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
