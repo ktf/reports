@@ -24,8 +24,8 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
+- [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#10118](https://github.com/AliceO2Group/AliceO2/pull/10118) 2022-10-21: MCH: install the MCHConstants lib by [@aphecetche](https://github.com/aphecetche)
 - [\#10121](https://github.com/AliceO2Group/AliceO2/pull/10121) 2022-10-20: TPC: Fix calling destructors of TPC workflow task by [@davidrohr](https://github.com/davidrohr)
 - [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -62,6 +62,7 @@
 - [\#10208](https://github.com/AliceO2Group/AliceO2/pull/10208) 2022-11-03: ITS: Change ccdb path for DCS config object by [@iravasen](https://github.com/iravasen)
 - [\#10209](https://github.com/AliceO2Group/AliceO2/pull/10209) 2022-11-03: Work on TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
+- [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
