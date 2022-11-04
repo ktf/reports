@@ -25,7 +25,6 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Detectors
-- [\#10117](https://github.com/AliceO2Group/AliceO2/pull/10117) 2022-10-20: Fix wrapper volume extrusions due to previous fix of overlaps with MFT by [@mario6829](https://github.com/mario6829)
 - [\#10118](https://github.com/AliceO2Group/AliceO2/pull/10118) 2022-10-21: MCH: install the MCHConstants lib by [@aphecetche](https://github.com/aphecetche)
 - [\#10121](https://github.com/AliceO2Group/AliceO2/pull/10121) 2022-10-20: TPC: Fix calling destructors of TPC workflow task by [@davidrohr](https://github.com/davidrohr)
 - [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
