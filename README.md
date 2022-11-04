@@ -68,7 +68,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10115](https://github.com/AliceO2Group/AliceO2/pull/10115) 2022-10-19: Drop support for GCC < 8 by [@ktf](https://github.com/ktf)
 - [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
 - [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
