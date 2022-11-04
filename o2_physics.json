@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "move/switch Common/DataModel includes to header_only_library",
-            "number": 1324,
-            "author": {
-              "login": "adriansev"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/CaloClusters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/Centrality.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/EventSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/FT0Corrected.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/Multiplicity.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/include/CommonDataModel/TrackSelectionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tools/PIDML/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-10-14T13:54:00Z",
             "title": "add process function for vertexing (DQ barrel)",
@@ -3050,6 +2985,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/NucleiSpectraTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid copy device spec",
+            "number": 1424,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/alice3-pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidBayes.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/centralityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2PhysicsCompileFlags.cmake"
                   }
                 }
               ]
