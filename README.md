@@ -63,6 +63,7 @@
 - [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 - [\#10218](https://github.com/AliceO2Group/AliceO2/pull/10218) 2022-11-05: TPC CTF skimming of attached hits + related and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#10220](https://github.com/AliceO2Group/AliceO2/pull/10220) 2022-11-05: TPC: several small changes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
