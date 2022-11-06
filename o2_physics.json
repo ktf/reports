@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-11T15:47:50Z",
-            "title": "Fix typos in UPC candidate producer and analyzer",
-            "number": 1345,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-11T17:04:19Z",
             "title": "DPG: switch to TH1D to solve floating point precision issues.",
             "number": 1346,
@@ -3001,8 +2976,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-11-06T09:51:30Z",
             "title": "Fix typo in UPC QA histograms filling",
             "number": 1443,
             "author": {
@@ -3021,7 +2996,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "added the first version of the TPC PID post-calibration testing",
             "number": 1444,
@@ -3030,6 +3005,41 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/VarManager.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add the first version of the TPC post-calibration maps for the global…",
+            "number": 1445,
+            "author": {
+              "login": "XiaozhiBai"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Core/HistogramsLibrary.h"
+                  }
+                },
                 {
                   "node": {
                     "path": "PWGDQ/Core/VarManager.cxx"
