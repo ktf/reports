@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
@@ -68,7 +67,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10122](https://github.com/AliceO2Group/AliceO2/pull/10122) 2022-10-20: DPL: fix clang-tidy autocorrect mistake. by [@ktf](https://github.com/ktf)
 - [\#10123](https://github.com/AliceO2Group/AliceO2/pull/10123) 2022-10-20: DPL: demote log level by [@ktf](https://github.com/ktf)
 - [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10125](https://github.com/AliceO2Group/AliceO2/pull/10125) 2022-10-20: DPL: Better crash reporting by [@davidrohr](https://github.com/davidrohr)
