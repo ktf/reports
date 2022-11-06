@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10184](https://github.com/AliceO2Group/AliceO2/pull/10184) 2022-11-03: Some more multithreading developments by [@ktf](https://github.com/ktf)
@@ -26,7 +25,6 @@
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
@@ -68,7 +66,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10124](https://github.com/AliceO2Group/AliceO2/pull/10124) 2022-10-26: AOD: add CPV table by [@sevdokim](https://github.com/sevdokim)
 - [\#10125](https://github.com/AliceO2Group/AliceO2/pull/10125) 2022-10-20: DPL: Better crash reporting by [@davidrohr](https://github.com/davidrohr)
 - [\#10127](https://github.com/AliceO2Group/AliceO2/pull/10127) 2022-10-20: DPL: fix proxy for QC by [@ktf](https://github.com/ktf)
 - [\#10132](https://github.com/AliceO2Group/AliceO2/pull/10132) 2022-10-20: DPL: fix input proxy for QC by [@ktf](https://github.com/ktf)
