@@ -27,7 +27,6 @@
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10130](https://github.com/AliceO2Group/AliceO2/pull/10130) 2022-10-20: Fix typo in variable name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10131](https://github.com/AliceO2Group/AliceO2/pull/10131) 2022-10-20: MFT: Change default nThreads to 1 for now by [@davidrohr](https://github.com/davidrohr)
