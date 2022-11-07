@@ -24,6 +24,7 @@
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
+- [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
@@ -60,6 +61,7 @@
 - [\#10209](https://github.com/AliceO2Group/AliceO2/pull/10209) 2022-11-03: Work on TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
+- [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10218](https://github.com/AliceO2Group/AliceO2/pull/10218) 2022-11-05: TPC CTF skimming of attached hits + related and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10220](https://github.com/AliceO2Group/AliceO2/pull/10220) 2022-11-05: TPC: several small changes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
