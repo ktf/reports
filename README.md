@@ -89,5 +89,7 @@
 - [\#10200](https://github.com/AliceO2Group/AliceO2/pull/10200) 2022-11-02: DPL: move ServiceRegistry::get out of line by [@ktf](https://github.com/ktf)
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
 - [\#10204](https://github.com/AliceO2Group/AliceO2/pull/10204) 2022-11-03: DPL: enable lossy dispatcher by [@ktf](https://github.com/ktf)
+- [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
+- [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
