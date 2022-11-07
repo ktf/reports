@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-20T22:10:35Z",
-            "title": "IDCs: Add option to skip processing of Delta IDCs",
-            "number": 10126,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-20T14:22:42Z",
             "title": "DPL: fix proxy for QC",
             "number": 10127,
@@ -3471,6 +3451,31 @@
                 {
                   "node": {
                     "path": "Utilities/DataSampling/src/Dispatcher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Making time gain part of the BARREL_SPORADIC wf",
+            "number": 10226,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/calib-workflow.sh"
                   }
                 }
               ]

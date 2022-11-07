@@ -26,7 +26,6 @@
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10126](https://github.com/AliceO2Group/AliceO2/pull/10126) 2022-10-20: IDCs: Add option to skip processing of Delta IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10128](https://github.com/AliceO2Group/AliceO2/pull/10128) 2022-10-21: Always do renorming of the 1st setting of VDrift by [@shahor02](https://github.com/shahor02)
 - [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10130](https://github.com/AliceO2Group/AliceO2/pull/10130) 2022-10-20: Fix typo in variable name by [@chiarazampolli](https://github.com/chiarazampolli)
