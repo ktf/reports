@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-20T22:06:10Z",
-            "title": "Fix typo in variable name",
-            "number": 10130,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/MeanVertexCalibrator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-20T17:22:54Z",
             "title": "MFT: Change default nThreads to 1 for now",
             "number": 10131,
@@ -3461,6 +3441,41 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/TRDTracking/GPUTRDTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EMCAL: drop direct infologger access",
+            "number": 10230,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/AnalysisClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/ClusterizerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
