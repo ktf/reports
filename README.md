@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
-- [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10184](https://github.com/AliceO2Group/AliceO2/pull/10184) 2022-11-03: Some more multithreading developments by [@ktf](https://github.com/ktf)
 - [\#10198](https://github.com/AliceO2Group/AliceO2/pull/10198) 2022-11-02: Adding protection to the fwdtrack table columns by [@mcoquet642](https://github.com/mcoquet642)
@@ -66,7 +65,6 @@
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10133](https://github.com/AliceO2Group/AliceO2/pull/10133) 2022-10-21: More multithreading updates by [@ktf](https://github.com/ktf)
 - [\#10136](https://github.com/AliceO2Group/AliceO2/pull/10136) 2022-10-21: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10140](https://github.com/AliceO2Group/AliceO2/pull/10140) 2022-10-22: DPL: Load CCDB and AOD reader plugin only once by [@ktf](https://github.com/ktf)
 - [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
