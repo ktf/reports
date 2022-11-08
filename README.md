@@ -27,7 +27,6 @@
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10135](https://github.com/AliceO2Group/AliceO2/pull/10135) 2022-10-21: TPC: Remove redundant compilation of files, TPCWorkflowGUI can just use TPCWorkflow as library by [@davidrohr](https://github.com/davidrohr)
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10139](https://github.com/AliceO2Group/AliceO2/pull/10139) 2022-10-21: Replace static array by dynamic vector on MFT CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10142](https://github.com/AliceO2Group/AliceO2/pull/10142) 2022-10-22: Fix it TRD global tracking by [@shahor02](https://github.com/shahor02)
