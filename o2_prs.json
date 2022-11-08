@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-20T21:09:54Z",
-            "title": "DPL: fix input proxy for QC",
-            "number": 10132,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-21T04:59:37Z",
             "title": "More multithreading updates",
             "number": 10133,
@@ -3526,6 +3506,36 @@
                 {
                   "node": {
                     "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: add possibility to set maximum size of output files",
+            "number": 10232,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataOutputDirector.cxx"
                   }
                 }
               ]
