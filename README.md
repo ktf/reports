@@ -15,6 +15,7 @@
 - [\#10193](https://github.com/AliceO2Group/AliceO2/pull/10193) 2022-11-01: DPL: delete the context on stop by [@ktf](https://github.com/ktf)
 - [\#10221](https://github.com/AliceO2Group/AliceO2/pull/10221) 2022-11-06: Fix matching IRFrames span selection by [@shahor02](https://github.com/shahor02)
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
+- [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10143](https://github.com/AliceO2Group/AliceO2/pull/10143) 2022-10-22: Fix in getting ITSAB GlobalTrackID name by [@shahor02](https://github.com/shahor02)
@@ -86,6 +87,7 @@
 - [\#10204](https://github.com/AliceO2Group/AliceO2/pull/10204) 2022-11-03: DPL: enable lossy dispatcher by [@ktf](https://github.com/ktf)
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
+- [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
