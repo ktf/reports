@@ -17,7 +17,6 @@
 - [\#10221](https://github.com/AliceO2Group/AliceO2/pull/10221) 2022-11-06: Fix matching IRFrames span selection by [@shahor02](https://github.com/shahor02)
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10143](https://github.com/AliceO2Group/AliceO2/pull/10143) 2022-10-22: Fix in getting ITSAB GlobalTrackID name by [@shahor02](https://github.com/shahor02)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -27,7 +26,6 @@
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10129](https://github.com/AliceO2Group/AliceO2/pull/10129) 2022-10-20: TRD add --disable-root-output to data reader by [@bazinski](https://github.com/bazinski)
 - [\#10130](https://github.com/AliceO2Group/AliceO2/pull/10130) 2022-10-20: Fix typo in variable name by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10131](https://github.com/AliceO2Group/AliceO2/pull/10131) 2022-10-20: MFT: Change default nThreads to 1 for now by [@davidrohr](https://github.com/davidrohr)
 - [\#10135](https://github.com/AliceO2Group/AliceO2/pull/10135) 2022-10-21: TPC: Remove redundant compilation of files, TPCWorkflowGUI can just use TPCWorkflow as library by [@davidrohr](https://github.com/davidrohr)
