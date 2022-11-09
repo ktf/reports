@@ -67,7 +67,6 @@
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10140](https://github.com/AliceO2Group/AliceO2/pull/10140) 2022-10-22: DPL: Load CCDB and AOD reader plugin only once by [@ktf](https://github.com/ktf)
 - [\#10144](https://github.com/AliceO2Group/AliceO2/pull/10144) 2022-10-22: DPL: Move DataProcessorContext and DeviceContext to be services by [@ktf](https://github.com/ktf)
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
