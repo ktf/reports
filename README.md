@@ -7,6 +7,7 @@
 - [\#10184](https://github.com/AliceO2Group/AliceO2/pull/10184) 2022-11-03: Some more multithreading developments by [@ktf](https://github.com/ktf)
 - [\#10198](https://github.com/AliceO2Group/AliceO2/pull/10198) 2022-11-02: Adding protection to the fwdtrack table columns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
+- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10145](https://github.com/AliceO2Group/AliceO2/pull/10145) 2022-10-23: More multithreading fixes by [@ktf](https://github.com/ktf)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -58,6 +59,7 @@
 - [\#10218](https://github.com/AliceO2Group/AliceO2/pull/10218) 2022-11-05: TPC CTF skimming of attached hits + related and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10220](https://github.com/AliceO2Group/AliceO2/pull/10220) 2022-11-05: TPC: several small changes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
@@ -89,3 +91,4 @@
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
+- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
