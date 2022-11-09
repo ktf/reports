@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-21T09:02:38Z",
-            "title": "Fixes for TPC IDC workflow",
-            "number": 10137,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-21T20:17:17Z",
             "title": "Optionally skip automatically loaded clusters in RecoContainer",
             "number": 10138,
@@ -3521,6 +3496,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Do not cache DataProcessingContext & TimingInfo",
+            "number": 10237,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdAggregatorSpec.cxx"
                   }
                 }
               ]
