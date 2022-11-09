@@ -17,7 +17,6 @@
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10143](https://github.com/AliceO2Group/AliceO2/pull/10143) 2022-10-22: Fix in getting ITSAB GlobalTrackID name by [@shahor02](https://github.com/shahor02)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
@@ -29,7 +28,6 @@
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10138](https://github.com/AliceO2Group/AliceO2/pull/10138) 2022-10-21: Optionally skip automatically loaded clusters in RecoContainer by [@shahor02](https://github.com/shahor02)
 - [\#10139](https://github.com/AliceO2Group/AliceO2/pull/10139) 2022-10-21: Replace static array by dynamic vector on MFT CA track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10142](https://github.com/AliceO2Group/AliceO2/pull/10142) 2022-10-22: Fix it TRD global tracking by [@shahor02](https://github.com/shahor02)
 - [\#10146](https://github.com/AliceO2Group/AliceO2/pull/10146) 2022-10-24: IDCs: add option to buffer/process IDCs for TF intervals by [@matthias-kleiner](https://github.com/matthias-kleiner)
