@@ -17,7 +17,6 @@
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10143](https://github.com/AliceO2Group/AliceO2/pull/10143) 2022-10-22: Fix in getting ITSAB GlobalTrackID name by [@shahor02](https://github.com/shahor02)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
