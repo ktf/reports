@@ -25,7 +25,6 @@
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10146](https://github.com/AliceO2Group/AliceO2/pull/10146) 2022-10-24: IDCs: add option to buffer/process IDCs for TF intervals by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10150](https://github.com/AliceO2Group/AliceO2/pull/10150) 2022-10-29: ZDC Preparing output files for EOS to enable tuning of calibration by [@cortesep](https://github.com/cortesep)
