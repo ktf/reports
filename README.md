@@ -8,14 +8,12 @@
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 - [\#10193](https://github.com/AliceO2Group/AliceO2/pull/10193) 2022-11-01: DPL: delete the context on stop by [@ktf](https://github.com/ktf)
 - [\#10221](https://github.com/AliceO2Group/AliceO2/pull/10221) 2022-11-06: Fix matching IRFrames span selection by [@shahor02](https://github.com/shahor02)
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10211](https://github.com/AliceO2Group/AliceO2/pull/10211) 2022-11-08: [FOCAL] Add stand-alone decoder of pad data by [@mfasDa](https://github.com/mfasDa)
@@ -25,7 +23,6 @@
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10150](https://github.com/AliceO2Group/AliceO2/pull/10150) 2022-10-29: ZDC Preparing output files for EOS to enable tuning of calibration by [@cortesep](https://github.com/cortesep)
 - [\#10151](https://github.com/AliceO2Group/AliceO2/pull/10151) 2022-10-26: Add filtering options to MFT tracker by [@rpezzi](https://github.com/rpezzi)
@@ -62,11 +59,10 @@
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
 - [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
-- [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
+- [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10154](https://github.com/AliceO2Group/AliceO2/pull/10154) 2022-10-25: DPL: fix signature for callback by [@ktf](https://github.com/ktf)
 - [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
 - [\#10158](https://github.com/AliceO2Group/AliceO2/pull/10158) 2022-11-01: DPL Analysis: use arrow 10 API if available by [@aalkin](https://github.com/aalkin)
