@@ -57,7 +57,6 @@
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
 - [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
-- [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
