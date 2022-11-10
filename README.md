@@ -22,7 +22,6 @@
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10151](https://github.com/AliceO2Group/AliceO2/pull/10151) 2022-10-26: Add filtering options to MFT tracker by [@rpezzi](https://github.com/rpezzi)
 - [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
 - [\#10167](https://github.com/AliceO2Group/AliceO2/pull/10167) 2022-10-27: Implementation of the ITS Inner Barrel Gamma Conversion Wires by [@mario6829](https://github.com/mario6829)
