@@ -14,7 +14,6 @@
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10211](https://github.com/AliceO2Group/AliceO2/pull/10211) 2022-11-08: [FOCAL] Add stand-alone decoder of pad data by [@mfasDa](https://github.com/mfasDa)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
@@ -23,7 +22,6 @@
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10148](https://github.com/AliceO2Group/AliceO2/pull/10148) 2022-10-24: I/O for CTP reconstruction results by [@shahor02](https://github.com/shahor02)
 - [\#10150](https://github.com/AliceO2Group/AliceO2/pull/10150) 2022-10-29: ZDC Preparing output files for EOS to enable tuning of calibration by [@cortesep](https://github.com/cortesep)
 - [\#10151](https://github.com/AliceO2Group/AliceO2/pull/10151) 2022-10-26: Add filtering options to MFT tracker by [@rpezzi](https://github.com/rpezzi)
 - [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
