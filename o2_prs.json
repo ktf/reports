@@ -5,166 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-29T00:01:26Z",
-            "title": "ZDC Preparing output files for EOS to enable tuning of calibration",
-            "number": 10150,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/CalibParamZDC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/TDCCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/TDCCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/TDCCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/CalibParamZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/InterCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/InterCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/InterCalibEPNSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/InterCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/WaveformCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/WaveformCalibEPN.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-26T14:10:10Z",
             "title": "Add filtering options to MFT tracker",
             "number": 10151,
@@ -3281,6 +3121,41 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix compilation issue with HIP+LOG(): workaround",
+            "number": 10250,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonLogger.h"
                   }
                 }
               ]
