@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-10-21T10:17:45Z",
-            "title": "add protection from missing mcCollision",
-            "number": 1358,
-            "author": {
-              "login": "galocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMakerMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Added histograms for pathological cases when leading track > leading jet",
@@ -2983,6 +2963,36 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/LFNucleiBATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "install DataModel includes",
+            "number": 1458,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2PhysicsAddHeaderOnlyLibrary.cmake"
                   }
                 }
               ]
