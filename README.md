@@ -60,6 +60,7 @@
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
+- [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 - [\#10147](https://github.com/AliceO2Group/AliceO2/pull/10147) 2022-10-24: Make O2 compile with libfmt >= 9.1 and fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10149](https://github.com/AliceO2Group/AliceO2/pull/10149) 2022-10-24: o2-eve-workflow: URGENT fix in reading disable-write flag by [@jmyrcha](https://github.com/jmyrcha)
