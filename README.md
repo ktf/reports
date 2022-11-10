@@ -53,6 +53,7 @@
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
+- [\#10241](https://github.com/AliceO2Group/AliceO2/pull/10241) 2022-11-10: TPC: IDC processing change fatal to warning, add possibility to dump bad data by [@wiechula](https://github.com/wiechula)
 - [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
