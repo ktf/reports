@@ -24,7 +24,6 @@
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Detectors
-- [\#10155](https://github.com/AliceO2Group/AliceO2/pull/10155) 2022-10-26: TRD: QC: change type to bool by [@f3sch](https://github.com/f3sch)
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
 - [\#10167](https://github.com/AliceO2Group/AliceO2/pull/10167) 2022-10-27: Implementation of the ITS Inner Barrel Gamma Conversion Wires by [@mario6829](https://github.com/mario6829)
 - [\#10172](https://github.com/AliceO2Group/AliceO2/pull/10172) 2022-10-26: Disable ITS IRFrame reader when not needed by [@rpezzi](https://github.com/rpezzi)
@@ -62,7 +61,6 @@
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
 - [\#10158](https://github.com/AliceO2Group/AliceO2/pull/10158) 2022-11-01: DPL Analysis: use arrow 10 API if available by [@aalkin](https://github.com/aalkin)
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
