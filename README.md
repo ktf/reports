@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 ## Recent developments in O2 - Analysis
 - [\#10184](https://github.com/AliceO2Group/AliceO2/pull/10184) 2022-11-03: Some more multithreading developments by [@ktf](https://github.com/ktf)
 - [\#10198](https://github.com/AliceO2Group/AliceO2/pull/10198) 2022-11-02: Adding protection to the fwdtrack table columns by [@mcoquet642](https://github.com/mcoquet642)
@@ -82,7 +80,6 @@
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
