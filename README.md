@@ -62,7 +62,6 @@
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10154](https://github.com/AliceO2Group/AliceO2/pull/10154) 2022-10-25: DPL: fix signature for callback by [@ktf](https://github.com/ktf)
 - [\#10156](https://github.com/AliceO2Group/AliceO2/pull/10156) 2022-10-25: DPL: avoid creating a regex in the message loop by [@ktf](https://github.com/ktf)
 - [\#10158](https://github.com/AliceO2Group/AliceO2/pull/10158) 2022-11-01: DPL Analysis: use arrow 10 API if available by [@aalkin](https://github.com/aalkin)
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
@@ -80,8 +79,10 @@
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10240](https://github.com/AliceO2Group/AliceO2/pull/10240) 2022-11-10: DPL: use consumeWhenAny inside defineByName by [@ktf](https://github.com/ktf)
+- [\#10244](https://github.com/AliceO2Group/AliceO2/pull/10244) 2022-11-11: DPL: Forward FMQ io-threads option by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
+- [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10157](https://github.com/AliceO2Group/AliceO2/pull/10157) 2022-10-27: Mergers: log name and type of input and target in case of failures by [@knopers8](https://github.com/knopers8)
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
