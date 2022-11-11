@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-25T19:09:04Z",
-            "title": "FST: Apply more settings made available from multiplicity config script",
-            "number": 10159,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-25T19:09:19Z",
             "title": "DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL …",
             "number": 10160,
@@ -3336,6 +3316,51 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/CPVDigitizerSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add aod-writer options resdir and maxfilesize as command line options",
+            "number": 10259,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataOutputDirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowCustomizationHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DataOutputDirector.cxx"
                   }
                 }
               ]
