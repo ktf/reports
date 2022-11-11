@@ -59,7 +59,6 @@
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10158](https://github.com/AliceO2Group/AliceO2/pull/10158) 2022-11-01: DPL Analysis: use arrow 10 API if available by [@aalkin](https://github.com/aalkin)
 - [\#10160](https://github.com/AliceO2Group/AliceO2/pull/10160) 2022-10-25: DPL: Even with O2_NO_CATCHALL_EXCEPTIONS, we can still catch the DPL … by [@davidrohr](https://github.com/davidrohr)
 - [\#10168](https://github.com/AliceO2Group/AliceO2/pull/10168) 2022-10-27: DPL: drop dataprocessor_id and use pipeline_id by [@ktf](https://github.com/ktf)
 - [\#10182](https://github.com/AliceO2Group/AliceO2/pull/10182) 2022-10-30: More multithreading changes by [@ktf](https://github.com/ktf)
