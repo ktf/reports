@@ -24,7 +24,6 @@
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
-- [\#10173](https://github.com/AliceO2Group/AliceO2/pull/10173) 2022-10-27: multiplicity tuning by [@davidrohr](https://github.com/davidrohr)
 - [\#10176](https://github.com/AliceO2Group/AliceO2/pull/10176) 2022-10-29: Fixes for HMPID DCS processor by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10178](https://github.com/AliceO2Group/AliceO2/pull/10178) 2022-10-28: fix {} brackets to pass code check by [@shahor02](https://github.com/shahor02)
@@ -60,6 +59,7 @@
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10263](https://github.com/AliceO2Group/AliceO2/pull/10263) 2022-11-13: Rename nThreads option for TPC encoder by [@martenole](https://github.com/martenole)
 - [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
+- [\#10268](https://github.com/AliceO2Group/AliceO2/pull/10268) 2022-11-14: optinally apply alignment in the BarrelAlignmentSpec by [@shahor02](https://github.com/shahor02)
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
