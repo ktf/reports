@@ -23,6 +23,7 @@
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
 - [\#10166](https://github.com/AliceO2Group/AliceO2/pull/10166) 2022-10-26: Fix race condition in ITS/MFT clusterer by [@shahor02](https://github.com/shahor02)
 - [\#10167](https://github.com/AliceO2Group/AliceO2/pull/10167) 2022-10-27: Implementation of the ITS Inner Barrel Gamma Conversion Wires by [@mario6829](https://github.com/mario6829)
@@ -60,6 +61,7 @@
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#10260](https://github.com/AliceO2Group/AliceO2/pull/10260) 2022-11-12: IDCs: Add option to write IDCDelta to calibration file by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10263](https://github.com/AliceO2Group/AliceO2/pull/10263) 2022-11-13: Rename nThreads option for TPC encoder by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
