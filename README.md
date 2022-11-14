@@ -82,6 +82,7 @@
 - [\#10244](https://github.com/AliceO2Group/AliceO2/pull/10244) 2022-11-11: DPL: Forward FMQ io-threads option by [@davidrohr](https://github.com/davidrohr)
 - [\#10247](https://github.com/AliceO2Group/AliceO2/pull/10247) 2022-11-11: Update COOKBOOK.md by [@sawenzel](https://github.com/sawenzel)
 - [\#10259](https://github.com/AliceO2Group/AliceO2/pull/10259) 2022-11-12: Add aod-writer options resdir and maxfilesize as command line options by [@pbuehler](https://github.com/pbuehler)
+- [\#10265](https://github.com/AliceO2Group/AliceO2/pull/10265) 2022-11-14: Adjust Fairlogger-->InfoLogger Severity-->Level mapping by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
