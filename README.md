@@ -24,7 +24,6 @@
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
-- [\#10172](https://github.com/AliceO2Group/AliceO2/pull/10172) 2022-10-26: Disable ITS IRFrame reader when not needed by [@rpezzi](https://github.com/rpezzi)
 - [\#10173](https://github.com/AliceO2Group/AliceO2/pull/10173) 2022-10-27: multiplicity tuning by [@davidrohr](https://github.com/davidrohr)
 - [\#10176](https://github.com/AliceO2Group/AliceO2/pull/10176) 2022-10-29: Fixes for HMPID DCS processor by [@shahor02](https://github.com/shahor02)
 - [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
