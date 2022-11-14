@@ -62,6 +62,7 @@
 - [\#10260](https://github.com/AliceO2Group/AliceO2/pull/10260) 2022-11-12: IDCs: Add option to write IDCDelta to calibration file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10263](https://github.com/AliceO2Group/AliceO2/pull/10263) 2022-11-13: Rename nThreads option for TPC encoder by [@martenole](https://github.com/martenole)
+- [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
