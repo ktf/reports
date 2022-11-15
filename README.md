@@ -60,6 +60,7 @@
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
+- [\#10280](https://github.com/AliceO2Group/AliceO2/pull/10280) 2022-11-15: Fixes in ITS T2L matrix + debug output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
