@@ -23,6 +23,7 @@
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
+- [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10186](https://github.com/AliceO2Group/AliceO2/pull/10186) 2022-11-04: ITS: Add per-ROF OMP multithreading to seeding tracklet finding and selection by [@mconcas](https://github.com/mconcas)
 - [\#10190](https://github.com/AliceO2Group/AliceO2/pull/10190) 2022-11-01: TPC: N2 density update for STP, clang-format by [@wiechula](https://github.com/wiechula)
@@ -57,6 +58,7 @@
 - [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
 - [\#10268](https://github.com/AliceO2Group/AliceO2/pull/10268) 2022-11-14: optinally apply alignment in the BarrelAlignmentSpec by [@shahor02](https://github.com/shahor02)
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
+- [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
@@ -80,9 +82,12 @@
 - [\#10259](https://github.com/AliceO2Group/AliceO2/pull/10259) 2022-11-12: Add aod-writer options resdir and maxfilesize as command line options by [@pbuehler](https://github.com/pbuehler)
 - [\#10265](https://github.com/AliceO2Group/AliceO2/pull/10265) 2022-11-14: Adjust Fairlogger-->InfoLogger Severity-->Level mapping by [@davidrohr](https://github.com/davidrohr)
 - [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Generators
+- [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
+- [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
