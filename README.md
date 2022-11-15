@@ -12,7 +12,6 @@
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
-- [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10211](https://github.com/AliceO2Group/AliceO2/pull/10211) 2022-11-08: [FOCAL] Add stand-alone decoder of pad data by [@mfasDa](https://github.com/mfasDa)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
@@ -24,7 +23,6 @@
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 ## Recent developments in O2 - Detectors
-- [\#10177](https://github.com/AliceO2Group/AliceO2/pull/10177) 2022-10-29: FIT: Store DCS DPs as 64 bit ints and rename bad channel map by [@andreasmolander](https://github.com/andreasmolander)
 - [\#10178](https://github.com/AliceO2Group/AliceO2/pull/10178) 2022-10-28: fix {} brackets to pass code check by [@shahor02](https://github.com/shahor02)
 - [\#10180](https://github.com/AliceO2Group/AliceO2/pull/10180) 2022-10-29: HBFUtilsInitializer allows to add delay to readers by [@shahor02](https://github.com/shahor02)
 - [\#10181](https://github.com/AliceO2Group/AliceO2/pull/10181) 2022-10-31: Pr ctp io by [@lietava](https://github.com/lietava)
