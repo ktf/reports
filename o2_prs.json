@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-01T18:39:44Z",
-            "title": "DPL: remove mSpec from the DataProcessingDevice",
-            "number": 10191,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Added possibility to set maximum size of output files",
-            "number": 10192,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataOutputDirector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataOutputDirector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-01T16:42:15Z",
             "title": "DPL: delete the context on stop",
             "number": 10193,
@@ -3695,6 +3635,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Upgrades/IT3/base/include/ITS3Base/SegmentationSuperAlpide.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Upgrades/IT3/base/src/GeometryTGeo.cxx"
                   }
                 },
@@ -3831,6 +3776,46 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2AnalysisWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove stray GlobalFwdTrackReaderSpec file",
+            "number": 10291,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/GlobalFwdTrackReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use LOG(alarm) instead of std::cerr",
+            "number": 10292,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Raw/src/DecodedDataAggregator.cxx"
                   }
                 }
               ]
