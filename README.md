@@ -6,6 +6,7 @@
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
+- [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10221](https://github.com/AliceO2Group/AliceO2/pull/10221) 2022-11-06: Fix matching IRFrames span selection by [@shahor02](https://github.com/shahor02)
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
@@ -84,6 +85,7 @@
 - [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
+- [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
