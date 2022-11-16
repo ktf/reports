@@ -69,7 +69,6 @@
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10199](https://github.com/AliceO2Group/AliceO2/pull/10199) 2022-11-02: DPL: allow providing serialization method in incremental converter by [@ktf](https://github.com/ktf)
 - [\#10200](https://github.com/AliceO2Group/AliceO2/pull/10200) 2022-11-02: DPL: move ServiceRegistry::get out of line by [@ktf](https://github.com/ktf)
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
 - [\#10204](https://github.com/AliceO2Group/AliceO2/pull/10204) 2022-11-03: DPL: enable lossy dispatcher by [@ktf](https://github.com/ktf)
