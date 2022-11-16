@@ -27,7 +27,6 @@
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10186](https://github.com/AliceO2Group/AliceO2/pull/10186) 2022-11-04: ITS: Add per-ROF OMP multithreading to seeding tracklet finding and selection by [@mconcas](https://github.com/mconcas)
 - [\#10190](https://github.com/AliceO2Group/AliceO2/pull/10190) 2022-11-01: TPC: N2 density update for STP, clang-format by [@wiechula](https://github.com/wiechula)
 - [\#10196](https://github.com/AliceO2Group/AliceO2/pull/10196) 2022-11-01: mark MCtracks to be kept by [@peressounko](https://github.com/peressounko)
 - [\#10197](https://github.com/AliceO2Group/AliceO2/pull/10197) 2022-11-01: Fix: add CPV to collectBCs by [@shahor02](https://github.com/shahor02)
