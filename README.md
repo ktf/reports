@@ -44,6 +44,7 @@
 - [\#10220](https://github.com/AliceO2Group/AliceO2/pull/10220) 2022-11-05: TPC: several small changes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10224](https://github.com/AliceO2Group/AliceO2/pull/10224) 2022-11-10: Add CTP lumi information to TPC SCD calibration by [@martenole](https://github.com/martenole)
+- [\#10229](https://github.com/AliceO2Group/AliceO2/pull/10229) 2022-11-16: TRD: Tracker: Add padrow crossing information by [@f3sch](https://github.com/f3sch)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
