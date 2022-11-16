@@ -11,6 +11,7 @@
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
+- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10211](https://github.com/AliceO2Group/AliceO2/pull/10211) 2022-11-08: [FOCAL] Add stand-alone decoder of pad data by [@mfasDa](https://github.com/mfasDa)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
@@ -24,6 +25,7 @@
 - [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
+- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10186](https://github.com/AliceO2Group/AliceO2/pull/10186) 2022-11-04: ITS: Add per-ROF OMP multithreading to seeding tracklet finding and selection by [@mconcas](https://github.com/mconcas)
 - [\#10190](https://github.com/AliceO2Group/AliceO2/pull/10190) 2022-11-01: TPC: N2 density update for STP, clang-format by [@wiechula](https://github.com/wiechula)
@@ -91,6 +93,7 @@
 - [\#10227](https://github.com/AliceO2Group/AliceO2/pull/10227) 2022-11-08: Generalization of collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
+- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10210](https://github.com/AliceO2Group/AliceO2/pull/10210) 2022-11-08: DPL: make sure DeviceSpec cannot be copied by [@ktf](https://github.com/ktf)
 - [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
