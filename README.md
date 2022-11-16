@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#10198](https://github.com/AliceO2Group/AliceO2/pull/10198) 2022-11-02: Adding protection to the fwdtrack table columns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
@@ -28,6 +27,7 @@
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10202](https://github.com/AliceO2Group/AliceO2/pull/10202) 2022-11-02: [ITS] Fix chip thickness type by [@fgrosa](https://github.com/fgrosa)
 - [\#10205](https://github.com/AliceO2Group/AliceO2/pull/10205) 2022-11-04: ZDC - Adjust EOV from CalibParam object by [@cortesep](https://github.com/cortesep)
@@ -69,7 +69,6 @@
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10198](https://github.com/AliceO2Group/AliceO2/pull/10198) 2022-11-02: Adding protection to the fwdtrack table columns by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10199](https://github.com/AliceO2Group/AliceO2/pull/10199) 2022-11-02: DPL: allow providing serialization method in incremental converter by [@ktf](https://github.com/ktf)
 - [\#10200](https://github.com/AliceO2Group/AliceO2/pull/10200) 2022-11-02: DPL: move ServiceRegistry::get out of line by [@ktf](https://github.com/ktf)
 - [\#10201](https://github.com/AliceO2Group/AliceO2/pull/10201) 2022-11-02: Fix link to the documentation page by [@vkucera](https://github.com/vkucera)
