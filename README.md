@@ -29,7 +29,6 @@
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10205](https://github.com/AliceO2Group/AliceO2/pull/10205) 2022-11-04: ZDC - Adjust EOV from CalibParam object by [@cortesep](https://github.com/cortesep)
 - [\#10206](https://github.com/AliceO2Group/AliceO2/pull/10206) 2022-11-03: Add IonTailCorrection to the dictionary by [@pzhristov](https://github.com/pzhristov)
 - [\#10207](https://github.com/AliceO2Group/AliceO2/pull/10207) 2022-11-09: Allow to set different thresholds for MID dead and noisy channels by [@dstocco](https://github.com/dstocco)
 - [\#10208](https://github.com/AliceO2Group/AliceO2/pull/10208) 2022-11-03: ITS: Change ccdb path for DCS config object by [@iravasen](https://github.com/iravasen)
