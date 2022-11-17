@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-03T08:00:59Z",
-            "title": "Disabling delta IDCs in pp by default",
-            "number": 10203,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-03T18:49:32Z",
             "title": "DPL: enable lossy dispatcher",
             "number": 10204,
@@ -3881,6 +3861,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally truncate TPC digits that fall beyond orbit limit",
+            "number": 10304,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/DigiParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/DigitContainer.cxx"
                   }
                 }
               ]
