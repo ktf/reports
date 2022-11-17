@@ -65,6 +65,7 @@
 - [\#10292](https://github.com/AliceO2Group/AliceO2/pull/10292) 2022-11-17: Use LOG(alarm) instead of std::cerr by [@dstocco](https://github.com/dstocco)
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
+- [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
