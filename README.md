@@ -27,6 +27,7 @@
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
+- [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10215](https://github.com/AliceO2Group/AliceO2/pull/10215) 2022-11-16: Protections added in DCS DPs processing by [@gvolpe79](https://github.com/gvolpe79)
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
