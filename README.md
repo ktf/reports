@@ -51,6 +51,7 @@
 - [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
 - [\#10268](https://github.com/AliceO2Group/AliceO2/pull/10268) 2022-11-14: optinally apply alignment in the BarrelAlignmentSpec by [@shahor02](https://github.com/shahor02)
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
+- [\#10271](https://github.com/AliceO2Group/AliceO2/pull/10271) 2022-11-18: Fit the full candidate with KF by [@mpuccio](https://github.com/mpuccio)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
