@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-26T08:11:19Z",
-            "title": "update of DGBCCandProducer",
-            "number": 1389,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGUD/DGHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-26T10:22:16Z",
             "title": "small changes to split the TPC post_calibration histogram from the existing tpcpid histogram    ",
             "number": 1390,
@@ -3539,6 +3499,56 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaTrackSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Rationalization of the skimming task when no derived data stored",
+            "number": 1489,
+            "author": {
+              "login": "victor-gonzalez"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/Productions/skimmingconf_20221115.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFiltering.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFullSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsNotStoredSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsRegisterSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsTrackSkimming.cxx"
                   }
                 }
               ]
