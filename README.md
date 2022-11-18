@@ -14,7 +14,6 @@
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10223](https://github.com/AliceO2Group/AliceO2/pull/10223) 2022-11-06: First working version of TPC CTF Skimming + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
@@ -29,8 +28,6 @@
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
-- [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
 - [\#10215](https://github.com/AliceO2Group/AliceO2/pull/10215) 2022-11-16: Protections added in DCS DPs processing by [@gvolpe79](https://github.com/gvolpe79)
 - [\#10216](https://github.com/AliceO2Group/AliceO2/pull/10216) 2022-11-07: ctpdev: ctp readout checking macros by [@lietava](https://github.com/lietava)
 - [\#10218](https://github.com/AliceO2Group/AliceO2/pull/10218) 2022-11-05: TPC CTF skimming of attached hits + related and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
