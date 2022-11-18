@@ -53,6 +53,7 @@
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
 - [\#10280](https://github.com/AliceO2Group/AliceO2/pull/10280) 2022-11-15: Fixes in ITS T2L matrix + debug output by [@shahor02](https://github.com/shahor02)
+- [\#10286](https://github.com/AliceO2Group/AliceO2/pull/10286) 2022-11-18: TPC: CM Pad-by-Pad option, load pad variations from CCDB, CM corrected digits by [@wiechula](https://github.com/wiechula)
 - [\#10287](https://github.com/AliceO2Group/AliceO2/pull/10287) 2022-11-17: [FOCAL-9] Write decoded ASIC header to tree by [@mfasDa](https://github.com/mfasDa)
 - [\#10292](https://github.com/AliceO2Group/AliceO2/pull/10292) 2022-11-17: Use LOG(alarm) instead of std::cerr by [@dstocco](https://github.com/dstocco)
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
