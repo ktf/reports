@@ -26,6 +26,7 @@
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
+- [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10220](https://github.com/AliceO2Group/AliceO2/pull/10220) 2022-11-05: TPC: several small changes by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -58,6 +59,7 @@
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
+- [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - EventVisualisation
 - [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
