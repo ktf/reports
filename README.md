@@ -30,7 +30,6 @@
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10209](https://github.com/AliceO2Group/AliceO2/pull/10209) 2022-11-03: Work on TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10211](https://github.com/AliceO2Group/AliceO2/pull/10211) 2022-11-08: [FOCAL] Add stand-alone decoder of pad data by [@mfasDa](https://github.com/mfasDa)
 - [\#10212](https://github.com/AliceO2Group/AliceO2/pull/10212) 2022-11-03: Fix fmt problem in ROOT macro by [@davidrohr](https://github.com/davidrohr)
 - [\#10213](https://github.com/AliceO2Group/AliceO2/pull/10213) 2022-11-04: TRD small fixes by [@martenole](https://github.com/martenole)
