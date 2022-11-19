@@ -9,7 +9,6 @@
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10221](https://github.com/AliceO2Group/AliceO2/pull/10221) 2022-11-06: Fix matching IRFrames span selection by [@shahor02](https://github.com/shahor02)
 - [\#10222](https://github.com/AliceO2Group/AliceO2/pull/10222) 2022-11-06: Fix typo in IR frame matching by [@davidrohr](https://github.com/davidrohr)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)

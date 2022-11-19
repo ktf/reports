@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-06T00:16:18Z",
-            "title": "Fix matching IRFrames span selection",
-            "number": 10221,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/src/IRFrameSelector.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-06T09:17:13Z",
             "title": "Fix typo in IR frame matching",
             "number": 10222,
@@ -3277,6 +3257,11 @@
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/O2GPUDPLDisplay.cxx"
+                  }
                 }
               ]
             }
@@ -3591,6 +3576,41 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/FT0/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC Track Model Compression: Store Bz field and max time bin with data",
+            "number": 10322,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/CompressedClusters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingCompression.cxx"
                   }
                 }
               ]
