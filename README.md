@@ -64,7 +64,6 @@
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10240](https://github.com/AliceO2Group/AliceO2/pull/10240) 2022-11-10: DPL: use consumeWhenAny inside defineByName by [@ktf](https://github.com/ktf)
 - [\#10244](https://github.com/AliceO2Group/AliceO2/pull/10244) 2022-11-11: DPL: Forward FMQ io-threads option by [@davidrohr](https://github.com/davidrohr)
@@ -80,6 +79,7 @@
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10311](https://github.com/AliceO2Group/AliceO2/pull/10311) 2022-11-18: DPL: fix warnings in ASoA.h by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
+- [\#10326](https://github.com/AliceO2Group/AliceO2/pull/10326) 2022-11-19: DPL: fix typo in documentation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
@@ -90,5 +90,4 @@
 - [\#10294](https://github.com/AliceO2Group/AliceO2/pull/10294) 2022-11-17: small fix for collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10306](https://github.com/AliceO2Group/AliceO2/pull/10306) 2022-11-17: CollisionContext: Option to ensure that a timeframe has at least one … by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#10225](https://github.com/AliceO2Group/AliceO2/pull/10225) 2022-11-07: DPL: cleanup copies of DeviceSpec by [@ktf](https://github.com/ktf)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
