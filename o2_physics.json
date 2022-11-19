@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-27T19:38:32Z",
-            "title": "PWGHF: B field setting from CCDB.",
-            "number": 1393,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFCandidateCreator2Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFCandidateCreator3Prong.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/HFTrackIndexSkimsCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsBfieldCCDB.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-26T12:48:11Z",
             "title": "PWGDQ/EM: add nSigma cuts pion/kaon/proton rejection, add MCSignals f…",
             "number": 1394,
@@ -3453,7 +3418,7 @@
                 },
                 {
                   "node": {
-                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/Productions/skimmingconf_20221115.h"
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/Productions/skimmingconf_20221115.cxx"
                   }
                 },
                 {
@@ -3463,7 +3428,17 @@
                 },
                 {
                   "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsFullSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsNotStoredSkimming.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TwoParticleCorrelations/TableProducer/twoParticleCorrelationsRegisterSkimming.cxx"
                   }
                 },
                 {
@@ -3549,6 +3524,31 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/TOF/tofSkimsTableCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "LF: Catch fitter exceptions",
+            "number": 1493,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
                   }
                 }
               ]
