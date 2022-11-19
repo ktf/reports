@@ -28,7 +28,6 @@
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10224](https://github.com/AliceO2Group/AliceO2/pull/10224) 2022-11-10: Add CTP lumi information to TPC SCD calibration by [@martenole](https://github.com/martenole)
 - [\#10229](https://github.com/AliceO2Group/AliceO2/pull/10229) 2022-11-16: TRD: Tracker: Add padrow crossing information by [@f3sch](https://github.com/f3sch)
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
