@@ -62,7 +62,6 @@
 - [\#10321](https://github.com/AliceO2Group/AliceO2/pull/10321) 2022-11-19: [FT0] Quick fix of errors in SYNTHETIC runs (set DataIsValid flag in … by [@mslupeck](https://github.com/mslupeck)
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#10228](https://github.com/AliceO2Group/AliceO2/pull/10228) 2022-11-09: Fix MFT-MCH-MID labeling for Event Display by [@pnwkw](https://github.com/pnwkw)
 - [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
