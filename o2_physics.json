@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-10-31T16:21:34Z",
-            "title": "kTVXinTRD and kTVXinEMC aliases added",
-            "number": 1405,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/TriggerAliases.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/TriggerAliases.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/upload_trigger_aliases_run3.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-10-31T20:23:20Z",
             "title": "PWGDQ/Tasks: change n sigma cuts for v0 selection",
             "number": 1406,
@@ -3699,6 +3669,36 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/NucleiSpectraTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Event selection adjusted for PbPb",
+            "number": 1505,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]
