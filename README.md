@@ -12,6 +12,7 @@
 - [\#10232](https://github.com/AliceO2Group/AliceO2/pull/10232) 2022-11-08: DPL Analysis: add possibility to set maximum size of output files by [@ktf](https://github.com/ktf)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -56,6 +57,7 @@
 - [\#10287](https://github.com/AliceO2Group/AliceO2/pull/10287) 2022-11-17: [FOCAL-9] Write decoded ASIC header to tree by [@mfasDa](https://github.com/mfasDa)
 - [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10292](https://github.com/AliceO2Group/AliceO2/pull/10292) 2022-11-17: Use LOG(alarm) instead of std::cerr by [@dstocco](https://github.com/dstocco)
+- [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
