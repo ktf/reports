@@ -54,6 +54,7 @@
 - [\#10280](https://github.com/AliceO2Group/AliceO2/pull/10280) 2022-11-15: Fixes in ITS T2L matrix + debug output by [@shahor02](https://github.com/shahor02)
 - [\#10286](https://github.com/AliceO2Group/AliceO2/pull/10286) 2022-11-18: TPC: CM Pad-by-Pad option, load pad variations from CCDB, CM corrected digits by [@wiechula](https://github.com/wiechula)
 - [\#10287](https://github.com/AliceO2Group/AliceO2/pull/10287) 2022-11-17: [FOCAL-9] Write decoded ASIC header to tree by [@mfasDa](https://github.com/mfasDa)
+- [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10292](https://github.com/AliceO2Group/AliceO2/pull/10292) 2022-11-17: Use LOG(alarm) instead of std::cerr by [@dstocco](https://github.com/dstocco)
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
@@ -94,6 +95,7 @@
 - [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10294](https://github.com/AliceO2Group/AliceO2/pull/10294) 2022-11-17: small fix for collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10306](https://github.com/AliceO2Group/AliceO2/pull/10306) 2022-11-17: CollisionContext: Option to ensure that a timeframe has at least one … by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
