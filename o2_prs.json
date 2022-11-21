@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-09T20:50:11Z",
-            "title": "EMCAL: drop direct infologger access",
-            "number": 10230,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/AnalysisClusterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/FullHistoryMerger.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-11-10T12:26:58Z",
-            "title": "Event Display: Display run type and visualisation file modification date",
-            "number": 10231,
-            "author": {
-              "login": "pnwkw"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSource.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/include/EventVisualisationBase/DataSourceOnline.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Base/src/DataSourceOnline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEventJSONSerializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/DataConverter/src/VisualisationEventROOTSerializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/O2DPLDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-08T20:29:12Z",
             "title": "DPL Analysis: add possibility to set maximum size of output files",
             "number": 10232,
@@ -3646,6 +3536,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix digit phase comments",
+            "number": 10331,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Digit.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FWDMatcher] Protection against invalid BC diff",
+            "number": 10332,
+            "author": {
+              "login": "rpezzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
                   }
                 }
               ]

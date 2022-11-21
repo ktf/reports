@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 - [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
@@ -32,7 +31,6 @@
 - [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
 - [\#10241](https://github.com/AliceO2Group/AliceO2/pull/10241) 2022-11-10: TPC: IDC processing change fatal to warning, add possibility to dump bad data by [@wiechula](https://github.com/wiechula)
@@ -71,7 +69,6 @@
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
 - [\#10329](https://github.com/AliceO2Group/AliceO2/pull/10329) 2022-11-21: Barrel alignment fixes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#10231](https://github.com/AliceO2Group/AliceO2/pull/10231) 2022-11-10: Event Display: Display run type and visualisation file modification date by [@pnwkw](https://github.com/pnwkw)
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
@@ -101,5 +98,3 @@
 - [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10294](https://github.com/AliceO2Group/AliceO2/pull/10294) 2022-11-17: small fix for collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10306](https://github.com/AliceO2Group/AliceO2/pull/10306) 2022-11-17: CollisionContext: Option to ensure that a timeframe has at least one … by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
