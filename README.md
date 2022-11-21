@@ -40,6 +40,7 @@
 - [\#10245](https://github.com/AliceO2Group/AliceO2/pull/10245) 2022-11-11: Residual aggregator output dir specified automatically by [@martenole](https://github.com/martenole)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
+- [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10260](https://github.com/AliceO2Group/AliceO2/pull/10260) 2022-11-12: IDCs: Add option to write IDCDelta to calibration file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10263](https://github.com/AliceO2Group/AliceO2/pull/10263) 2022-11-13: Rename nThreads option for TPC encoder by [@martenole](https://github.com/martenole)
@@ -90,6 +91,7 @@
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
+- [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10294](https://github.com/AliceO2Group/AliceO2/pull/10294) 2022-11-17: small fix for collision context tool by [@sawenzel](https://github.com/sawenzel)
