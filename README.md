@@ -29,6 +29,7 @@
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
+- [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10230](https://github.com/AliceO2Group/AliceO2/pull/10230) 2022-11-09: EMCAL: drop direct infologger access by [@ktf](https://github.com/ktf)
@@ -63,6 +64,7 @@
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10310](https://github.com/AliceO2Group/AliceO2/pull/10310) 2022-11-21: Fix TPC reco workflow / gpu workflow / tpc entropy encoder when no TPC data present and trigger mode is not set in the GRP. by [@davidrohr](https://github.com/davidrohr)
+- [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 - [\#10321](https://github.com/AliceO2Group/AliceO2/pull/10321) 2022-11-19: [FT0] Quick fix of errors in SYNTHETIC runs (set DataIsValid flag in … by [@mslupeck](https://github.com/mslupeck)
 - [\#10323](https://github.com/AliceO2Group/AliceO2/pull/10323) 2022-11-21: TPC CTF Skimming: Implement eta-cut on unassigned clusters by [@davidrohr](https://github.com/davidrohr)
