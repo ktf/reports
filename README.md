@@ -13,6 +13,7 @@
 - [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
+- [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
@@ -29,6 +30,7 @@
 - [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
 - [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
+- [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
@@ -67,6 +69,7 @@
 - [\#10323](https://github.com/AliceO2Group/AliceO2/pull/10323) 2022-11-21: TPC CTF Skimming: Implement eta-cut on unassigned clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
 - [\#10329](https://github.com/AliceO2Group/AliceO2/pull/10329) 2022-11-21: Barrel alignment fixes by [@shahor02](https://github.com/shahor02)
+- [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
