@@ -93,6 +93,7 @@
 - [\#10311](https://github.com/AliceO2Group/AliceO2/pull/10311) 2022-11-18: DPL: fix warnings in ASoA.h by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10326](https://github.com/AliceO2Group/AliceO2/pull/10326) 2022-11-19: DPL: fix typo in documentation by [@ktf](https://github.com/ktf)
+- [\#10330](https://github.com/AliceO2Group/AliceO2/pull/10330) 2022-11-21: DPL: set TimingInfo field accordingly on new Run by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
