@@ -29,6 +29,7 @@
 - [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
+- [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -67,6 +68,7 @@
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 - [\#10321](https://github.com/AliceO2Group/AliceO2/pull/10321) 2022-11-19: [FT0] Quick fix of errors in SYNTHETIC runs (set DataIsValid flag in … by [@mslupeck](https://github.com/mslupeck)
+- [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10323](https://github.com/AliceO2Group/AliceO2/pull/10323) 2022-11-21: TPC CTF Skimming: Implement eta-cut on unassigned clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
 - [\#10329](https://github.com/AliceO2Group/AliceO2/pull/10329) 2022-11-21: Barrel alignment fixes by [@shahor02](https://github.com/shahor02)
