@@ -72,6 +72,7 @@
 - [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10323](https://github.com/AliceO2Group/AliceO2/pull/10323) 2022-11-21: TPC CTF Skimming: Implement eta-cut on unassigned clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
+- [\#10327](https://github.com/AliceO2Group/AliceO2/pull/10327) 2022-11-22: fix in TOF matching (time) to account for integrated times by [@noferini](https://github.com/noferini)
 - [\#10328](https://github.com/AliceO2Group/AliceO2/pull/10328) 2022-11-22: L1phase calib summary histo added; warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#10329](https://github.com/AliceO2Group/AliceO2/pull/10329) 2022-11-21: Barrel alignment fixes by [@shahor02](https://github.com/shahor02)
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
