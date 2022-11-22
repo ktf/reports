@@ -15,7 +15,6 @@
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#10234](https://github.com/AliceO2Group/AliceO2/pull/10234) 2022-11-09: MCTruthContainer: possibility to register index without a label by [@sawenzel](https://github.com/sawenzel)
 - [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10243](https://github.com/AliceO2Group/AliceO2/pull/10243) 2022-11-15: TRD add pretrigger phase to digits by [@bazinski](https://github.com/bazinski)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
