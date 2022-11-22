@@ -32,6 +32,7 @@
 - [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
+- [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10241](https://github.com/AliceO2Group/AliceO2/pull/10241) 2022-11-10: TPC: IDC processing change fatal to warning, add possibility to dump bad data by [@wiechula](https://github.com/wiechula)
 - [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
@@ -79,6 +80,7 @@
 - [\#10332](https://github.com/AliceO2Group/AliceO2/pull/10332) 2022-11-22: [FWDMatcher] Protection against invalid BC diff by [@rpezzi](https://github.com/rpezzi)
 - [\#10333](https://github.com/AliceO2Group/AliceO2/pull/10333) 2022-11-22: TPC DCS config proxy by [@wiechula](https://github.com/wiechula)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
+- [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
