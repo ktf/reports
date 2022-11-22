@@ -66,6 +66,7 @@
 - [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
+- [\#10319](https://github.com/AliceO2Group/AliceO2/pull/10319) 2022-11-22: [FOCAL-9] Add pad mapping and fix in rootifier by [@mfasDa](https://github.com/mfasDa)
 - [\#10320](https://github.com/AliceO2Group/AliceO2/pull/10320) 2022-11-22: ITS DCS parser: add always run number to metadata by [@iravasen](https://github.com/iravasen)
 - [\#10321](https://github.com/AliceO2Group/AliceO2/pull/10321) 2022-11-19: [FT0] Quick fix of errors in SYNTHETIC runs (set DataIsValid flag in … by [@mslupeck](https://github.com/mslupeck)
 - [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
