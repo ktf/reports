@@ -34,7 +34,6 @@
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
 - [\#10243](https://github.com/AliceO2Group/AliceO2/pull/10243) 2022-11-15: TRD add pretrigger phase to digits by [@bazinski](https://github.com/bazinski)
 - [\#10245](https://github.com/AliceO2Group/AliceO2/pull/10245) 2022-11-11: Residual aggregator output dir specified automatically by [@martenole](https://github.com/martenole)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
