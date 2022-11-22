@@ -15,7 +15,6 @@
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10243](https://github.com/AliceO2Group/AliceO2/pull/10243) 2022-11-15: TRD add pretrigger phase to digits by [@bazinski](https://github.com/bazinski)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
@@ -33,7 +32,6 @@
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10235](https://github.com/AliceO2Group/AliceO2/pull/10235) 2022-11-09: GPU: Add experimental V5 TPC ZS with entropy-reduced DLBZS by [@davidrohr](https://github.com/davidrohr)
 - [\#10237](https://github.com/AliceO2Group/AliceO2/pull/10237) 2022-11-09: Do not cache DataProcessingContext & TimingInfo by [@ktf](https://github.com/ktf)
 - [\#10241](https://github.com/AliceO2Group/AliceO2/pull/10241) 2022-11-10: TPC: IDC processing change fatal to warning, add possibility to dump bad data by [@wiechula](https://github.com/wiechula)
 - [\#10242](https://github.com/AliceO2Group/AliceO2/pull/10242) 2022-11-10: ITS THR: added features for more flexibility + new run types by [@iravasen](https://github.com/iravasen)
