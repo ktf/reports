@@ -86,7 +86,6 @@
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10240](https://github.com/AliceO2Group/AliceO2/pull/10240) 2022-11-10: DPL: use consumeWhenAny inside defineByName by [@ktf](https://github.com/ktf)
 - [\#10244](https://github.com/AliceO2Group/AliceO2/pull/10244) 2022-11-11: DPL: Forward FMQ io-threads option by [@davidrohr](https://github.com/davidrohr)
 - [\#10247](https://github.com/AliceO2Group/AliceO2/pull/10247) 2022-11-11: Update COOKBOOK.md by [@sawenzel](https://github.com/sawenzel)
 - [\#10259](https://github.com/AliceO2Group/AliceO2/pull/10259) 2022-11-12: Add aod-writer options resdir and maxfilesize as command line options by [@pbuehler](https://github.com/pbuehler)
