@@ -74,6 +74,7 @@
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
+- [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
 - [\#10240](https://github.com/AliceO2Group/AliceO2/pull/10240) 2022-11-10: DPL: use consumeWhenAny inside defineByName by [@ktf](https://github.com/ktf)
