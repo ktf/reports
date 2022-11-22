@@ -63,6 +63,7 @@
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
+- [\#10307](https://github.com/AliceO2Group/AliceO2/pull/10307) 2022-11-22: TRD: QC: Move root output by [@f3sch](https://github.com/f3sch)
 - [\#10310](https://github.com/AliceO2Group/AliceO2/pull/10310) 2022-11-21: Fix TPC reco workflow / gpu workflow / tpc entropy encoder when no TPC data present and trigger mode is not set in the GRP. by [@davidrohr](https://github.com/davidrohr)
 - [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
@@ -81,6 +82,7 @@
 - [\#10333](https://github.com/AliceO2Group/AliceO2/pull/10333) 2022-11-22: TPC DCS config proxy by [@wiechula](https://github.com/wiechula)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
+- [\#10337](https://github.com/AliceO2Group/AliceO2/pull/10337) 2022-11-22: [EMCAL-841] Fix for interchanged energy and time in cell calibration by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
