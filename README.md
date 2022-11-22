@@ -79,6 +79,7 @@
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 - [\#10337](https://github.com/AliceO2Group/AliceO2/pull/10337) 2022-11-22: [EMCAL-841] Fix for interchanged energy and time in cell calibration by [@jokonig](https://github.com/jokonig)
+- [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
