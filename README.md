@@ -103,7 +103,6 @@
 ## Recent developments in O2 - Generators
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#10248](https://github.com/AliceO2Group/AliceO2/pull/10248) 2022-11-11: Digitizerworkflow: Make sure CCDB 'condition-not-after' is always ava… by [@sawenzel](https://github.com/sawenzel)
 - [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
