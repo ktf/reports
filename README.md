@@ -33,7 +33,6 @@
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10245](https://github.com/AliceO2Group/AliceO2/pull/10245) 2022-11-11: Residual aggregator output dir specified automatically by [@martenole](https://github.com/martenole)
 - [\#10250](https://github.com/AliceO2Group/AliceO2/pull/10250) 2022-11-11: GPU: Fix compilation issue with HIP+LOG(): workaround by [@mconcas](https://github.com/mconcas)
 - [\#10251](https://github.com/AliceO2Group/AliceO2/pull/10251) 2022-11-13: multiple fixes for barrel alignment by [@shahor02](https://github.com/shahor02)
 - [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
