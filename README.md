@@ -81,6 +81,7 @@
 - [\#10341](https://github.com/AliceO2Group/AliceO2/pull/10341) 2022-11-23: o2-sim: fail hard upon errors during loading cuts from JSON by [@sawenzel](https://github.com/sawenzel)
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10348](https://github.com/AliceO2Group/AliceO2/pull/10348) 2022-11-23: Special treatment for shifts of ZDC triggers at BC=0,3563 by [@shahor02](https://github.com/shahor02)
+- [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
