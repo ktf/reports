@@ -13,8 +13,8 @@
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
+- [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#10256](https://github.com/AliceO2Group/AliceO2/pull/10256) 2022-11-12: add helper to get nominal field by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
@@ -29,6 +29,7 @@
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
+- [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10260](https://github.com/AliceO2Group/AliceO2/pull/10260) 2022-11-12: IDCs: Add option to write IDCDelta to calibration file by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -77,6 +78,7 @@
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10348](https://github.com/AliceO2Group/AliceO2/pull/10348) 2022-11-23: Special treatment for shifts of ZDC triggers at BC=0,3563 by [@shahor02](https://github.com/shahor02)
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
+- [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
