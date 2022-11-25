@@ -83,7 +83,6 @@
 - [\#10351](https://github.com/AliceO2Group/AliceO2/pull/10351) 2022-11-24: Optional ITS,MFT ROF start delay + ad hoc global time adjustment param for ITS-TPC time by [@shahor02](https://github.com/shahor02)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
-- [\#10264](https://github.com/AliceO2Group/AliceO2/pull/10264) 2022-11-13: Don't truncate float calorimeter energies to int in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
