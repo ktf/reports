@@ -78,6 +78,7 @@
 - [\#10337](https://github.com/AliceO2Group/AliceO2/pull/10337) 2022-11-22: [EMCAL-841] Fix for interchanged energy and time in cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#10341](https://github.com/AliceO2Group/AliceO2/pull/10341) 2022-11-23: o2-sim: fail hard upon errors during loading cuts from JSON by [@sawenzel](https://github.com/sawenzel)
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
+- [\#10347](https://github.com/AliceO2Group/AliceO2/pull/10347) 2022-11-25: Replace CTF_METAFILES_DIR by EPN2EOS_METAFILES_DIR by [@martenole](https://github.com/martenole)
 - [\#10348](https://github.com/AliceO2Group/AliceO2/pull/10348) 2022-11-23: Special treatment for shifts of ZDC triggers at BC=0,3563 by [@shahor02](https://github.com/shahor02)
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
 - [\#10351](https://github.com/AliceO2Group/AliceO2/pull/10351) 2022-11-24: Optional ITS,MFT ROF start delay + ad hoc global time adjustment param for ITS-TPC time by [@shahor02](https://github.com/shahor02)
