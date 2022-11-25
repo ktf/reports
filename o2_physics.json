@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-06T09:49:12Z",
-            "title": "TOF: add more plots for the event time + more utils",
-            "number": 1430,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/alice3-pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/TableHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidBayes.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOF.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-07T16:29:19Z",
             "title": "PWGCF: fix multiplicity determination in femtoDreamProducerTask",
             "number": 1431,
@@ -3973,7 +3923,7 @@
                 },
                 {
                   "node": {
-                    "path": "Tools/PIDML/kaon_pid.cxx"
+                    "path": "Tools/PIDML/KaonPidTask.cxx"
                   }
                 }
               ]
@@ -4124,6 +4074,26 @@
                 {
                   "node": {
                     "path": "PWGEM/Tasks/phosPi0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton/Tasks: add configurable v0max_mee",
+            "number": 1530,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/v0gammaQA.cxx"
                   }
                 }
               ]
