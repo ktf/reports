@@ -4,6 +4,7 @@
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
+- [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
@@ -19,6 +20,7 @@
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10314](https://github.com/AliceO2Group/AliceO2/pull/10314) 2022-11-18: Fix: SYNTHETIC and NOISE run types were swapped by [@shahor02](https://github.com/shahor02)
@@ -93,6 +95,7 @@
 - [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
+- [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
@@ -103,6 +106,7 @@
 - [\#10353](https://github.com/AliceO2Group/AliceO2/pull/10353) 2022-11-24: Do not print addresses when dumping the Stacktrace by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
+- [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
 - [\#10258](https://github.com/AliceO2Group/AliceO2/pull/10258) 2022-11-21: CPV: add dpl ccdb fetcher to digitizer by [@sevdokim](https://github.com/sevdokim)
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
