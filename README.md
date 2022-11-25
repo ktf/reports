@@ -35,7 +35,6 @@
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10260](https://github.com/AliceO2Group/AliceO2/pull/10260) 2022-11-12: IDCs: Add option to write IDCDelta to calibration file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10262](https://github.com/AliceO2Group/AliceO2/pull/10262) 2022-11-14: ZDC - Better error reporting during data taking by [@cortesep](https://github.com/cortesep)
 - [\#10263](https://github.com/AliceO2Group/AliceO2/pull/10263) 2022-11-13: Rename nThreads option for TPC encoder by [@martenole](https://github.com/martenole)
 - [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
@@ -46,6 +45,7 @@
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
 - [\#10280](https://github.com/AliceO2Group/AliceO2/pull/10280) 2022-11-15: Fixes in ITS T2L matrix + debug output by [@shahor02](https://github.com/shahor02)
+- [\#10285](https://github.com/AliceO2Group/AliceO2/pull/10285) 2022-11-25: Fix MFT tracker for B=0  by [@rpezzi](https://github.com/rpezzi)
 - [\#10286](https://github.com/AliceO2Group/AliceO2/pull/10286) 2022-11-18: TPC: CM Pad-by-Pad option, load pad variations from CCDB, CM corrected digits by [@wiechula](https://github.com/wiechula)
 - [\#10287](https://github.com/AliceO2Group/AliceO2/pull/10287) 2022-11-17: [FOCAL-9] Write decoded ASIC header to tree by [@mfasDa](https://github.com/mfasDa)
 - [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
