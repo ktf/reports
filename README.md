@@ -82,12 +82,14 @@
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
 - [\#10351](https://github.com/AliceO2Group/AliceO2/pull/10351) 2022-11-24: Optional ITS,MFT ROF start delay + ad hoc global time adjustment param for ITS-TPC time by [@shahor02](https://github.com/shahor02)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
+- [\#10358](https://github.com/AliceO2Group/AliceO2/pull/10358) 2022-11-26: Add standalone CTP digit writer by [@shahor02](https://github.com/shahor02)
+- [\#10360](https://github.com/AliceO2Group/AliceO2/pull/10360) 2022-11-26: Set Alpide random noise to 10^-8 (was 10^-7) by [@shahor02](https://github.com/shahor02)
+- [\#10362](https://github.com/AliceO2Group/AliceO2/pull/10362) 2022-11-26: Report S,P.vertexer settings only once from pipeline 0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10265](https://github.com/AliceO2Group/AliceO2/pull/10265) 2022-11-14: Adjust Fairlogger-->InfoLogger Severity-->Level mapping by [@davidrohr](https://github.com/davidrohr)
 - [\#10272](https://github.com/AliceO2Group/AliceO2/pull/10272) 2022-11-15: DPL: exception on fatal by [@ktf](https://github.com/ktf)
 - [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
