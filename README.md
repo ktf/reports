@@ -15,6 +15,7 @@
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
+- [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10275](https://github.com/AliceO2Group/AliceO2/pull/10275) 2022-11-15: Move MC stack to DetectorsBase by [@sawenzel](https://github.com/sawenzel)
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
@@ -33,6 +34,7 @@
 - [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
+- [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10268](https://github.com/AliceO2Group/AliceO2/pull/10268) 2022-11-14: optinally apply alignment in the BarrelAlignmentSpec by [@shahor02](https://github.com/shahor02)
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
@@ -84,6 +86,7 @@
 - [\#10358](https://github.com/AliceO2Group/AliceO2/pull/10358) 2022-11-26: Add standalone CTP digit writer by [@shahor02](https://github.com/shahor02)
 - [\#10360](https://github.com/AliceO2Group/AliceO2/pull/10360) 2022-11-26: Set Alpide random noise to 10^-8 (was 10^-7) by [@shahor02](https://github.com/shahor02)
 - [\#10362](https://github.com/AliceO2Group/AliceO2/pull/10362) 2022-11-26: Report S,P.vertexer settings only once from pipeline 0 by [@shahor02](https://github.com/shahor02)
+- [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
