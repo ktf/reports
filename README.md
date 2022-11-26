@@ -14,6 +14,7 @@
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
+- [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -82,6 +83,7 @@
 - [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
 - [\#10351](https://github.com/AliceO2Group/AliceO2/pull/10351) 2022-11-24: Optional ITS,MFT ROF start delay + ad hoc global time adjustment param for ITS-TPC time by [@shahor02](https://github.com/shahor02)
+- [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10358](https://github.com/AliceO2Group/AliceO2/pull/10358) 2022-11-26: Add standalone CTP digit writer by [@shahor02](https://github.com/shahor02)
 - [\#10360](https://github.com/AliceO2Group/AliceO2/pull/10360) 2022-11-26: Set Alpide random noise to 10^-8 (was 10^-7) by [@shahor02](https://github.com/shahor02)
