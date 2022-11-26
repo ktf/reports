@@ -34,7 +34,6 @@
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10266](https://github.com/AliceO2Group/AliceO2/pull/10266) 2022-11-14: TRD: TRDTrackWriterSpec: Fix input labels for tree branches by [@f3sch](https://github.com/f3sch)
 - [\#10268](https://github.com/AliceO2Group/AliceO2/pull/10268) 2022-11-14: optinally apply alignment in the BarrelAlignmentSpec by [@shahor02](https://github.com/shahor02)
 - [\#10270](https://github.com/AliceO2Group/AliceO2/pull/10270) 2022-11-14: Fix: TRD CTF decoder --correct-trd-trigger-offset had no effect by [@shahor02](https://github.com/shahor02)
 - [\#10271](https://github.com/AliceO2Group/AliceO2/pull/10271) 2022-11-18: Fit the full candidate with KF by [@mpuccio](https://github.com/mpuccio)
