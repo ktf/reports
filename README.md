@@ -18,6 +18,7 @@
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
+- [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
@@ -36,6 +37,7 @@
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
+- [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
@@ -87,6 +89,7 @@
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
 - [\#10368](https://github.com/AliceO2Group/AliceO2/pull/10368) 2022-11-28: TPC zs Encoder: fix on the fly ion tail correction by [@davidrohr](https://github.com/davidrohr)
+- [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
