@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-22T07:37:22Z",
-            "title": "Make the track color configurable in EventDisplay",
-            "number": 10277,
-            "author": {
-              "login": "pnwkw"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Scripts/.o2eve_config"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/include/EventVisualisationView/EventManager.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/View/src/EventManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-16T09:10:19Z",
             "title": "Some fixes and small improvements for TRD",
             "number": 10278,
@@ -4319,8 +4289,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-11-28T21:58:26Z",
             "title": "Possibility to add EMC recalib for async",
             "number": 10372,
             "author": {
@@ -4511,6 +4481,36 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Adjust DLBZS format to what is implemented in the firmware",
+            "number": 10378,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppression.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
                   }
                 }
               ]
