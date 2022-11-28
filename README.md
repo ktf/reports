@@ -94,7 +94,6 @@
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10272](https://github.com/AliceO2Group/AliceO2/pull/10272) 2022-11-15: DPL: exception on fatal by [@ktf](https://github.com/ktf)
 - [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
