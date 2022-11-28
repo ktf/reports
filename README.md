@@ -90,11 +90,9 @@
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
 - [\#10368](https://github.com/AliceO2Group/AliceO2/pull/10368) 2022-11-28: TPC zs Encoder: fix on the fly ion tail correction by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
-- [\#10274](https://github.com/AliceO2Group/AliceO2/pull/10274) 2022-11-23: Add track size enlargement for EventDisplay screenshots by [@pnwkw](https://github.com/pnwkw)
 - [\#10277](https://github.com/AliceO2Group/AliceO2/pull/10277) 2022-11-22: Make the track color configurable in EventDisplay by [@pnwkw](https://github.com/pnwkw)
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Framework
-- [\#10273](https://github.com/AliceO2Group/AliceO2/pull/10273) 2022-11-15: Tolerance for creation-time fallback in CCDB query tstamp is configurable by [@shahor02](https://github.com/shahor02)
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 - [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
