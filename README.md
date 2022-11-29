@@ -19,6 +19,7 @@
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
+- [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10278](https://github.com/AliceO2Group/AliceO2/pull/10278) 2022-11-16: Some fixes and small improvements for TRD by [@martenole](https://github.com/martenole)
 - [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
@@ -93,6 +94,8 @@
 - [\#10370](https://github.com/AliceO2Group/AliceO2/pull/10370) 2022-11-28: Fix ITSTPC qc: filling of eta histo by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - EventVisualisation
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
+## Recent developments in O2 - Examples
+- [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
