@@ -51,6 +51,7 @@
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
+- [\#10302](https://github.com/AliceO2Group/AliceO2/pull/10302) 2022-11-29: TPC gain map using tracks: Perform log transform of Q by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10307](https://github.com/AliceO2Group/AliceO2/pull/10307) 2022-11-22: TRD: QC: Move root output by [@f3sch](https://github.com/f3sch)
