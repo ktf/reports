@@ -9,7 +9,6 @@
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
@@ -21,7 +20,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10299](https://github.com/AliceO2Group/AliceO2/pull/10299) 2022-11-16: Fix mask of MFTMCHMID by [@shahor02](https://github.com/shahor02)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
@@ -118,7 +116,6 @@
 ## Recent developments in O2 - Generators
 - [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
-- [\#10282](https://github.com/AliceO2Group/AliceO2/pull/10282) 2022-11-16: Collision context generalizations and use in transport sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10294](https://github.com/AliceO2Group/AliceO2/pull/10294) 2022-11-17: small fix for collision context tool by [@sawenzel](https://github.com/sawenzel)
 - [\#10306](https://github.com/AliceO2Group/AliceO2/pull/10306) 2022-11-17: CollisionContext: Option to ensure that a timeframe has at least one … by [@sawenzel](https://github.com/sawenzel)

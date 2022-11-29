@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-16T07:17:10Z",
-            "title": "Collision context generalizations and use in transport sim",
-            "number": 10282,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/DigitizationContext.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/CollisionContextTool.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-15T15:17:24Z",
             "title": "DPL: Add option to not drop old timeSlices based on oldestPossible via env variable",
             "number": 10283,
@@ -4431,7 +4381,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-687] Discard EMCAL calibration triggers",
+            "title": "[WIP][EMCAL-687] Discard EMCAL calibration triggers",
             "number": 10382,
             "author": {
               "login": "mfasDa"
@@ -4441,6 +4391,26 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL GUI: do culling of splines upfront",
+            "number": 10383,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
                   }
                 }
               ]
