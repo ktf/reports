@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-15T23:03:06Z",
-            "title": "Fixes in ITS T2L matrix + debug output",
-            "number": 10280,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/Controller.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensorITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensorTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/Controller.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-15T15:15:27Z",
             "title": "fix completion policies of calib output proxies (O2 part)",
             "number": 10281,
@@ -4461,6 +4421,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Definitions/GPUDefGPUParameters.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make sure calo table is sorted by BC",
+            "number": 10381,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
