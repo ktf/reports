@@ -107,6 +107,7 @@
 - [\#10330](https://github.com/AliceO2Group/AliceO2/pull/10330) 2022-11-21: DPL: set TimingInfo field accordingly on new Run by [@ktf](https://github.com/ktf)
 - [\#10353](https://github.com/AliceO2Group/AliceO2/pull/10353) 2022-11-24: Do not print addresses when dumping the Stacktrace by [@ktf](https://github.com/ktf)
 - [\#10363](https://github.com/AliceO2Group/AliceO2/pull/10363) 2022-11-26: DPL GUI: avoid crash while I find out why the metrics are not correct by [@ktf](https://github.com/ktf)
+- [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
