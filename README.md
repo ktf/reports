@@ -38,6 +38,7 @@
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
+- [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#10279](https://github.com/AliceO2Group/AliceO2/pull/10279) 2022-11-15: MCH: remove deIdsForAllMCH from elecmap lib (moved to MCHConstants lib) by [@aphecetche](https://github.com/aphecetche)
 - [\#10280](https://github.com/AliceO2Group/AliceO2/pull/10280) 2022-11-15: Fixes in ITS T2L matrix + debug output by [@shahor02](https://github.com/shahor02)
@@ -90,6 +91,8 @@
 - [\#10368](https://github.com/AliceO2Group/AliceO2/pull/10368) 2022-11-28: TPC zs Encoder: fix on the fly ion tail correction by [@davidrohr](https://github.com/davidrohr)
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10370](https://github.com/AliceO2Group/AliceO2/pull/10370) 2022-11-28: Fix ITSTPC qc: filling of eta histo by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#10376](https://github.com/AliceO2Group/AliceO2/pull/10376) 2022-11-29: TPC: fix o2-tpc-reco-workflow with input = compressed clusters from CTF and output = ClustersNative by [@davidrohr](https://github.com/davidrohr)
+- [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Examples
