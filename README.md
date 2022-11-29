@@ -100,7 +100,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10283](https://github.com/AliceO2Group/AliceO2/pull/10283) 2022-11-15: DPL: Add option to not drop old timeSlices based on oldestPossible via env variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10284](https://github.com/AliceO2Group/AliceO2/pull/10284) 2022-11-16: DPL: add helper to wrap algorithms by [@ktf](https://github.com/ktf)
 - [\#10288](https://github.com/AliceO2Group/AliceO2/pull/10288) 2022-11-25: Make HepMC and native status available for MC gen by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
