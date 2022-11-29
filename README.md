@@ -36,7 +36,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10287](https://github.com/AliceO2Group/AliceO2/pull/10287) 2022-11-17: [FOCAL-9] Write decoded ASIC header to tree by [@mfasDa](https://github.com/mfasDa)
 - [\#10289](https://github.com/AliceO2Group/AliceO2/pull/10289) 2022-11-21: [ITS, ITS3] Add first version of ITS3 descriptor in ITS geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10291](https://github.com/AliceO2Group/AliceO2/pull/10291) 2022-11-22: Remove stray GlobalFwdTrackReaderSpec file by [@rpezzi](https://github.com/rpezzi)
 - [\#10292](https://github.com/AliceO2Group/AliceO2/pull/10292) 2022-11-17: Use LOG(alarm) instead of std::cerr by [@dstocco](https://github.com/dstocco)
