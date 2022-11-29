@@ -75,6 +75,7 @@
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 - [\#10337](https://github.com/AliceO2Group/AliceO2/pull/10337) 2022-11-22: [EMCAL-841] Fix for interchanged energy and time in cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#10341](https://github.com/AliceO2Group/AliceO2/pull/10341) 2022-11-23: o2-sim: fail hard upon errors during loading cuts from JSON by [@sawenzel](https://github.com/sawenzel)
+- [\#10344](https://github.com/AliceO2Group/AliceO2/pull/10344) 2022-11-29: TPC: Add more CRU configuration parameters by [@wiechula](https://github.com/wiechula)
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10347](https://github.com/AliceO2Group/AliceO2/pull/10347) 2022-11-25: Replace CTF_METAFILES_DIR by EPN2EOS_METAFILES_DIR by [@martenole](https://github.com/martenole)
 - [\#10348](https://github.com/AliceO2Group/AliceO2/pull/10348) 2022-11-23: Special treatment for shifts of ZDC triggers at BC=0,3563 by [@shahor02](https://github.com/shahor02)
