@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -92,7 +91,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10290](https://github.com/AliceO2Group/AliceO2/pull/10290) 2022-11-16: Add test workflow for analysis by [@ktf](https://github.com/ktf)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10305](https://github.com/AliceO2Group/AliceO2/pull/10305) 2022-11-28: [OCTRL-731] Use config.Get instead of deprecated GetConfig in AliECS output by [@knopers8](https://github.com/knopers8)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
