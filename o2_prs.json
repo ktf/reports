@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-17T21:21:11Z",
-            "title": "TRD: QC: Add global track id to TrackQC",
-            "number": 10300,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/qc/include/TRDQC/Tracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-17T08:50:39Z",
             "title": "If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi…",
             "number": 10301,
@@ -4386,6 +4361,41 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/TimeClustering/src/ROFTimeClusterFinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "prototype for the CTP inputs storage in AOD",
+            "number": 10400,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/StandaloneAODProducerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/PHOS/workflow/src/StandaloneAODProducerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]
