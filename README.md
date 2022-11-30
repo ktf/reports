@@ -4,7 +4,6 @@
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
@@ -33,7 +32,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10293](https://github.com/AliceO2Group/AliceO2/pull/10293) 2022-11-21: Allow to set the MID HV from CCDB by [@dstocco](https://github.com/dstocco)
 - [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
