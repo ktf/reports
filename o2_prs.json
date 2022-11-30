@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-17T08:03:30Z",
-            "title": "Use LOG(alarm) instead of std::cerr",
-            "number": 10292,
-            "author": {
-              "login": "dstocco"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MID/Raw/src/DecodedDataAggregator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-21T10:34:49Z",
             "title": "Allow to set the MID HV from CCDB",
             "number": 10293,
@@ -4176,6 +4156,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally add extra time error to ITSTPC tracks",
+            "number": 10393,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITSParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
                   }
                 }
               ]
