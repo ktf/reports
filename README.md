@@ -32,7 +32,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10295](https://github.com/AliceO2Group/AliceO2/pull/10295) 2022-11-17: Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF by [@davidrohr](https://github.com/davidrohr)
 - [\#10298](https://github.com/AliceO2Group/AliceO2/pull/10298) 2022-11-17: optionally throttle CCDB logs to infologger by [@shahor02](https://github.com/shahor02)
 - [\#10300](https://github.com/AliceO2Group/AliceO2/pull/10300) 2022-11-17: TRD: QC: Add global track id to TrackQC by [@f3sch](https://github.com/f3sch)
 - [\#10302](https://github.com/AliceO2Group/AliceO2/pull/10302) 2022-11-29: TPC gain map using tracks: Perform log transform of Q by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -83,6 +82,7 @@
 - [\#10381](https://github.com/AliceO2Group/AliceO2/pull/10381) 2022-11-30: Make sure calo table is sorted by BC by [@nburmaso](https://github.com/nburmaso)
 - [\#10388](https://github.com/AliceO2Group/AliceO2/pull/10388) 2022-11-30: Report N contributors/ambiguous in p.vertex reader verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10389](https://github.com/AliceO2Group/AliceO2/pull/10389) 2022-11-30: Use cov.matrix eigenvalues for num.deriv. deltas, optionally gzip mille binary files by [@shahor02](https://github.com/shahor02)
+- [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#10301](https://github.com/AliceO2Group/AliceO2/pull/10301) 2022-11-17: If MFTMCH and MCHMID are enabled, enable MFTMCHMID as well in EventDi… by [@pnwkw](https://github.com/pnwkw)
 ## Recent developments in O2 - Examples
