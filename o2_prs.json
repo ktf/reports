@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-17T07:48:46Z",
-            "title": "small fix for collision context tool",
-            "number": 10294,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/src/CollisionContextTool.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-17T07:50:08Z",
             "title": "Fix TPC_WORKFLOW_FILTER_DIGITS_OUTSIDE_OF_TF",
             "number": 10295,
@@ -4151,6 +4131,36 @@
                 {
                   "node": {
                     "path": "Detectors/Align/src/Controller.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-830] Options to drop or redirect cells from LED events",
+            "number": 10395,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/CellRecalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/CellRecalibratorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/cell-recalibrator-workflow.cxx"
                   }
                 }
               ]
