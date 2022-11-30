@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-16T20:19:49Z",
-            "title": "Fix mask of MFTMCHMID",
-            "number": 10299,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalTrackID.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-17T21:21:11Z",
             "title": "TRD: QC: Add global track id to TrackQC",
             "number": 10300,
@@ -4381,6 +4361,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[MCH] adapt to variable TF size (for MC)",
+            "number": 10399,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/ROFTimeClusterFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/TimeClustering/src/ROFTimeClusterFinder.cxx"
                   }
                 }
               ]
