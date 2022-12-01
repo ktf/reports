@@ -75,6 +75,7 @@
 - [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
+- [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
