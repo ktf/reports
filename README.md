@@ -81,7 +81,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10305](https://github.com/AliceO2Group/AliceO2/pull/10305) 2022-11-28: [OCTRL-731] Use config.Get instead of deprecated GetConfig in AliECS output by [@knopers8](https://github.com/knopers8)
 - [\#10308](https://github.com/AliceO2Group/AliceO2/pull/10308) 2022-11-18: DPL: fix a few trivial warnings in the HistogramRegistry by [@ktf](https://github.com/ktf)
 - [\#10311](https://github.com/AliceO2Group/AliceO2/pull/10311) 2022-11-18: DPL: fix warnings in ASoA.h by [@ktf](https://github.com/ktf)
 - [\#10316](https://github.com/AliceO2Group/AliceO2/pull/10316) 2022-11-19: DPL: more cleanups for the HistogramRegistry by [@ktf](https://github.com/ktf)
