@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "HistogramRegistry: avoid unneded copies and allocations",
-            "number": 10309,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HistogramSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-11-21T09:03:53Z",
             "title": "Fix TPC reco workflow / gpu workflow / tpc entropy encoder when no TPC data present and trigger mode is not set in the GRP.",
@@ -4351,6 +4326,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix TPC digi time comparison",
+            "number": 10409,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/DigitContainer.cxx"
                   }
                 }
               ]
