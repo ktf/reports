@@ -31,7 +31,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10302](https://github.com/AliceO2Group/AliceO2/pull/10302) 2022-11-29: TPC gain map using tracks: Perform log transform of Q by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10303](https://github.com/AliceO2Group/AliceO2/pull/10303) 2022-11-18: Fixes for TPC CTF Skimming by [@davidrohr](https://github.com/davidrohr)
 - [\#10304](https://github.com/AliceO2Group/AliceO2/pull/10304) 2022-11-18: Optionally truncate TPC digits that fall beyond orbit limit by [@sawenzel](https://github.com/sawenzel)
 - [\#10307](https://github.com/AliceO2Group/AliceO2/pull/10307) 2022-11-22: TRD: QC: Move root output by [@f3sch](https://github.com/f3sch)
