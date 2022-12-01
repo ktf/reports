@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Fix order of run type names in ECSDataAdapters",
-            "number": 10312,
-            "author": {
-              "login": "pnwkw"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Parameters/include/DataFormatsParameters/ECSDataAdapters.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-11-18T15:01:12Z",
             "title": "GPU: Fix initialiation of GPU magnetic field if 0-field should be used but magnet current is not exactly 0",
@@ -4656,6 +4636,51 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Switch from degrees to radians, protection against bad covariances",
+            "number": 10412,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/include/Align/AlignConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableSensor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableVolume.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignmentTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/Controller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/GeometricalConstraint.cxx"
                   }
                 }
               ]
