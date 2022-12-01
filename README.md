@@ -73,6 +73,7 @@
 - [\#10385](https://github.com/AliceO2Group/AliceO2/pull/10385) 2022-12-01: [FOCAL-9] Force writing pad tree at the end of stream by [@mfasDa](https://github.com/mfasDa)
 - [\#10388](https://github.com/AliceO2Group/AliceO2/pull/10388) 2022-11-30: Report N contributors/ambiguous in p.vertex reader verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10389](https://github.com/AliceO2Group/AliceO2/pull/10389) 2022-11-30: Use cov.matrix eigenvalues for num.deriv. deltas, optionally gzip mille binary files by [@shahor02](https://github.com/shahor02)
+- [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
