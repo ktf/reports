@@ -12,7 +12,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 - [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
@@ -27,7 +26,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10315](https://github.com/AliceO2Group/AliceO2/pull/10315) 2022-11-21: TRD: Simplify link stats by [@martenole](https://github.com/martenole)
 - [\#10317](https://github.com/AliceO2Group/AliceO2/pull/10317) 2022-11-21: ctpdev: scalers reply by [@lietava](https://github.com/lietava)
 - [\#10318](https://github.com/AliceO2Group/AliceO2/pull/10318) 2022-11-20: Add countsFV0 to LumiInfo as backup for nominal FT0 lumi by [@shahor02](https://github.com/shahor02)
 - [\#10319](https://github.com/AliceO2Group/AliceO2/pull/10319) 2022-11-22: [FOCAL-9] Add pad mapping and fix in rootifier by [@mfasDa](https://github.com/mfasDa)
@@ -71,11 +69,13 @@
 - [\#10385](https://github.com/AliceO2Group/AliceO2/pull/10385) 2022-12-01: [FOCAL-9] Force writing pad tree at the end of stream by [@mfasDa](https://github.com/mfasDa)
 - [\#10388](https://github.com/AliceO2Group/AliceO2/pull/10388) 2022-11-30: Report N contributors/ambiguous in p.vertex reader verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10389](https://github.com/AliceO2Group/AliceO2/pull/10389) 2022-11-30: Use cov.matrix eigenvalues for num.deriv. deltas, optionally gzip mille binary files by [@shahor02](https://github.com/shahor02)
+- [\#10391](https://github.com/AliceO2Group/AliceO2/pull/10391) 2022-12-02: Fix material and thickness of OB CYSS elements by [@mario6829](https://github.com/mario6829)
 - [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
+- [\#10407](https://github.com/AliceO2Group/AliceO2/pull/10407) 2022-12-02: MID tracker does not need MagField by [@pillot](https://github.com/pillot)
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
 - [\#10412](https://github.com/AliceO2Group/AliceO2/pull/10412) 2022-12-02: Switch from degrees to radians, protection against bad covariances by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
