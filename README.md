@@ -68,6 +68,7 @@
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
+- [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
 - [\#10407](https://github.com/AliceO2Group/AliceO2/pull/10407) 2022-12-02: MID tracker does not need MagField by [@pillot](https://github.com/pillot)
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
