@@ -73,6 +73,7 @@
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
 - [\#10410](https://github.com/AliceO2Group/AliceO2/pull/10410) 2022-12-02: [ITS] Implement ITSBase configurable parameters by [@rpezzi](https://github.com/rpezzi)
 - [\#10412](https://github.com/AliceO2Group/AliceO2/pull/10412) 2022-12-02: Switch from degrees to radians, protection against bad covariances by [@shahor02](https://github.com/shahor02)
+- [\#10418](https://github.com/AliceO2Group/AliceO2/pull/10418) 2022-12-02: [EMCAL-798] Add input subspecification to offline calib workflow by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
