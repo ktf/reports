@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-19T07:47:46Z",
-            "title": "DPL: more cleanups for the HistogramRegistry",
-            "number": 10316,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/HistogramSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/HistogramSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-11-21T16:47:34Z",
-            "title": "ctpdev: scalers reply",
-            "number": 10317,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/CreateCTPConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/GetScalers.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/py/createCnts.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/py/pub_server.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/py/sub_client.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-20T14:45:20Z",
             "title": "Add countsFV0 to LumiInfo as backup for nominal FT0 lumi",
             "number": 10318,
@@ -4214,8 +4119,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-12-02T13:23:07Z",
             "title": "[ITS] Implement ITSBase configurable parameters",
             "number": 10410,
             "author": {
@@ -4821,6 +4726,81 @@
                 {
                   "node": {
                     "path": "Steer/src/CollisionContextTool.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Fix warning",
+            "number": 10416,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: move parseConfig / parseControl API to use std::string_view",
+            "number": 10417,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlServiceHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlServiceHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceConfigInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ControlServiceHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_DeviceConfigInfo.cxx"
                   }
                 }
               ]
