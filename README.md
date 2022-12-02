@@ -22,7 +22,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10319](https://github.com/AliceO2Group/AliceO2/pull/10319) 2022-11-22: [FOCAL-9] Add pad mapping and fix in rootifier by [@mfasDa](https://github.com/mfasDa)
 - [\#10320](https://github.com/AliceO2Group/AliceO2/pull/10320) 2022-11-22: ITS DCS parser: add always run number to metadata by [@iravasen](https://github.com/iravasen)
 - [\#10321](https://github.com/AliceO2Group/AliceO2/pull/10321) 2022-11-19: [FT0] Quick fix of errors in SYNTHETIC runs (set DataIsValid flag in … by [@mslupeck](https://github.com/mslupeck)
 - [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)

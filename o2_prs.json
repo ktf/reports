@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-22T10:13:23Z",
-            "title": "[FOCAL-9] Add pad mapping and fix in rootifier",
-            "number": 10319,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PadMapper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/run/rawReaderPadRootify.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/src/FOCALReconstructionLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/src/PadMapper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-22T09:18:49Z",
             "title": "ITS DCS parser: add always run number to metadata",
             "number": 10320,
@@ -4806,6 +4766,56 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: simple workflow to run ClusterQC",
+            "number": 10419,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/dcs/src/DCSProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Clusters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ClusterQCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ClusterQCSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-cluster-qc.cxx"
                   }
                 }
               ]
