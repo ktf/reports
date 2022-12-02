@@ -84,3 +84,4 @@
 - [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
 - [\#10402](https://github.com/AliceO2Group/AliceO2/pull/10402) 2022-12-02: DPL GUI: do not expose getFrameJSON by [@ktf](https://github.com/ktf)
 - [\#10404](https://github.com/AliceO2Group/AliceO2/pull/10404) 2022-12-01: DPL GUI: avoid reallocating buffers over and over again by [@ktf](https://github.com/ktf)
+- [\#10413](https://github.com/AliceO2Group/AliceO2/pull/10413) 2022-12-02: DPL: avoid regex recompilation by [@ktf](https://github.com/ktf)
