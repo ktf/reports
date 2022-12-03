@@ -11,7 +11,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
@@ -23,7 +22,6 @@
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10322](https://github.com/AliceO2Group/AliceO2/pull/10322) 2022-11-22: TPC Track Model Compression: Store Bz field and max time bin with data by [@davidrohr](https://github.com/davidrohr)
 - [\#10323](https://github.com/AliceO2Group/AliceO2/pull/10323) 2022-11-21: TPC CTF Skimming: Implement eta-cut on unassigned clusters by [@davidrohr](https://github.com/davidrohr)
 - [\#10325](https://github.com/AliceO2Group/AliceO2/pull/10325) 2022-11-20: Fix segfault in SVertexer + unrelated printout fix by [@shahor02](https://github.com/shahor02)
 - [\#10327](https://github.com/AliceO2Group/AliceO2/pull/10327) 2022-11-22: fix in TOF matching (time) to account for integrated times by [@noferini](https://github.com/noferini)
