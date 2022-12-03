@@ -86,3 +86,4 @@
 - [\#10404](https://github.com/AliceO2Group/AliceO2/pull/10404) 2022-12-01: DPL GUI: avoid reallocating buffers over and over again by [@ktf](https://github.com/ktf)
 - [\#10413](https://github.com/AliceO2Group/AliceO2/pull/10413) 2022-12-02: DPL: avoid regex recompilation by [@ktf](https://github.com/ktf)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
+- [\#10417](https://github.com/AliceO2Group/AliceO2/pull/10417) 2022-12-03: DPL: move parseConfig / parseControl API to use std::string_view by [@ktf](https://github.com/ktf)
