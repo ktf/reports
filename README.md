@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#10324](https://github.com/AliceO2Group/AliceO2/pull/10324) 2022-11-21: Several unrelated fixes / improvements by [@davidrohr](https://github.com/davidrohr)
 - [\#10334](https://github.com/AliceO2Group/AliceO2/pull/10334) 2022-11-21: Make sure detector CTF header default constructor is called by [@shahor02](https://github.com/shahor02)
 - [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
@@ -71,6 +70,7 @@
 - [\#10412](https://github.com/AliceO2Group/AliceO2/pull/10412) 2022-12-02: Switch from degrees to radians, protection against bad covariances by [@shahor02](https://github.com/shahor02)
 - [\#10418](https://github.com/AliceO2Group/AliceO2/pull/10418) 2022-12-02: [EMCAL-798] Add input subspecification to offline calib workflow by [@jokonig](https://github.com/jokonig)
 - [\#10419](https://github.com/AliceO2Group/AliceO2/pull/10419) 2022-12-04: TPC: simple workflow to run ClusterQC by [@wiechula](https://github.com/wiechula)
+- [\#10420](https://github.com/AliceO2Group/AliceO2/pull/10420) 2022-12-04: TPC: adding workflow for integrated cluster currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
