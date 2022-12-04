@@ -20,6 +20,7 @@
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
+- [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Detectors
 - [\#10327](https://github.com/AliceO2Group/AliceO2/pull/10327) 2022-11-22: fix in TOF matching (time) to account for integrated times by [@noferini](https://github.com/noferini)
 - [\#10328](https://github.com/AliceO2Group/AliceO2/pull/10328) 2022-11-22: L1phase calib summary histo added; warning fixes by [@peressounko](https://github.com/peressounko)
@@ -61,6 +62,8 @@
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
+- [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
+- [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
 - [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
 - [\#10407](https://github.com/AliceO2Group/AliceO2/pull/10407) 2022-12-02: MID tracker does not need MagField by [@pillot](https://github.com/pillot)
