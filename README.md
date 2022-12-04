@@ -67,6 +67,7 @@
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
 - [\#10410](https://github.com/AliceO2Group/AliceO2/pull/10410) 2022-12-02: [ITS] Implement ITSBase configurable parameters by [@rpezzi](https://github.com/rpezzi)
 - [\#10412](https://github.com/AliceO2Group/AliceO2/pull/10412) 2022-12-02: Switch from degrees to radians, protection against bad covariances by [@shahor02](https://github.com/shahor02)
+- [\#10414](https://github.com/AliceO2Group/AliceO2/pull/10414) 2022-12-04: Prepare residual aggregator for production by [@martenole](https://github.com/martenole)
 - [\#10418](https://github.com/AliceO2Group/AliceO2/pull/10418) 2022-12-02: [EMCAL-798] Add input subspecification to offline calib workflow by [@jokonig](https://github.com/jokonig)
 - [\#10419](https://github.com/AliceO2Group/AliceO2/pull/10419) 2022-12-04: TPC: simple workflow to run ClusterQC by [@wiechula](https://github.com/wiechula)
 - [\#10420](https://github.com/AliceO2Group/AliceO2/pull/10420) 2022-12-04: TPC: adding workflow for integrated cluster currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
