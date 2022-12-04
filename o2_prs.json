@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-21T09:03:20Z",
-            "title": "TPC CTF Skimming: Implement eta-cut on unassigned clusters",
-            "number": 10323,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/EntropyEncoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-21T09:03:09Z",
             "title": "Several unrelated fixes / improvements",
             "number": 10324,
@@ -4866,6 +4841,46 @@
                 {
                   "node": {
                     "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Write measurement record with pre-sigma constraint",
+            "number": 10423,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/AlignableVolume.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/Controller.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Align/src/GeometricalConstraint.cxx"
                   }
                 }
               ]
