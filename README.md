@@ -70,6 +70,7 @@
 - [\#10418](https://github.com/AliceO2Group/AliceO2/pull/10418) 2022-12-02: [EMCAL-798] Add input subspecification to offline calib workflow by [@jokonig](https://github.com/jokonig)
 - [\#10419](https://github.com/AliceO2Group/AliceO2/pull/10419) 2022-12-04: TPC: simple workflow to run ClusterQC by [@wiechula](https://github.com/wiechula)
 - [\#10420](https://github.com/AliceO2Group/AliceO2/pull/10420) 2022-12-04: TPC: adding workflow for integrated cluster currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10423](https://github.com/AliceO2Group/AliceO2/pull/10423) 2022-12-04: Write measurement record with pre-sigma constraint by [@shahor02](https://github.com/shahor02)
 - [\#10425](https://github.com/AliceO2Group/AliceO2/pull/10425) 2022-12-04: Use new ITS FLPs in raw2digit [O2-3443] by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
