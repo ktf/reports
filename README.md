@@ -9,7 +9,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 - [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
@@ -20,7 +19,6 @@
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10335](https://github.com/AliceO2Group/AliceO2/pull/10335) 2022-11-22: Optionally apply BC shift to triggered detectors in CTF decoding by [@shahor02](https://github.com/shahor02)
 - [\#10337](https://github.com/AliceO2Group/AliceO2/pull/10337) 2022-11-22: [EMCAL-841] Fix for interchanged energy and time in cell calibration by [@jokonig](https://github.com/jokonig)
 - [\#10341](https://github.com/AliceO2Group/AliceO2/pull/10341) 2022-11-23: o2-sim: fail hard upon errors during loading cuts from JSON by [@sawenzel](https://github.com/sawenzel)
 - [\#10344](https://github.com/AliceO2Group/AliceO2/pull/10344) 2022-11-29: TPC: Add more CRU configuration parameters by [@wiechula](https://github.com/wiechula)
