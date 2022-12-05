@@ -93,6 +93,7 @@
 - [\#10413](https://github.com/AliceO2Group/AliceO2/pull/10413) 2022-12-02: DPL: avoid regex recompilation by [@ktf](https://github.com/ktf)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10417](https://github.com/AliceO2Group/AliceO2/pull/10417) 2022-12-03: DPL: move parseConfig / parseControl API to use std::string_view by [@ktf](https://github.com/ktf)
+- [\#10422](https://github.com/AliceO2Group/AliceO2/pull/10422) 2022-12-05: DPL: minor fixes / optimisations by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
