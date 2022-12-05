@@ -63,6 +63,7 @@
 - [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
+- [\#10396](https://github.com/AliceO2Group/AliceO2/pull/10396) 2022-12-05: MFT-MCH refit : Removing remnants of old implementation and adding options by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
