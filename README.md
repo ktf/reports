@@ -78,11 +78,11 @@
 - [\#10420](https://github.com/AliceO2Group/AliceO2/pull/10420) 2022-12-04: TPC: adding workflow for integrated cluster currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10423](https://github.com/AliceO2Group/AliceO2/pull/10423) 2022-12-04: Write measurement record with pre-sigma constraint by [@shahor02](https://github.com/shahor02)
 - [\#10425](https://github.com/AliceO2Group/AliceO2/pull/10425) 2022-12-04: Use new ITS FLPs in raw2digit [O2-3443] by [@shahor02](https://github.com/shahor02)
+- [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10326](https://github.com/AliceO2Group/AliceO2/pull/10326) 2022-11-19: DPL: fix typo in documentation by [@ktf](https://github.com/ktf)
 - [\#10330](https://github.com/AliceO2Group/AliceO2/pull/10330) 2022-11-21: DPL: set TimingInfo field accordingly on new Run by [@ktf](https://github.com/ktf)
 - [\#10353](https://github.com/AliceO2Group/AliceO2/pull/10353) 2022-11-24: Do not print addresses when dumping the Stacktrace by [@ktf](https://github.com/ktf)
 - [\#10363](https://github.com/AliceO2Group/AliceO2/pull/10363) 2022-11-26: DPL GUI: avoid crash while I find out why the metrics are not correct by [@ktf](https://github.com/ktf)
