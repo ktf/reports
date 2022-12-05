@@ -69,6 +69,7 @@
 - [\#10423](https://github.com/AliceO2Group/AliceO2/pull/10423) 2022-12-04: Write measurement record with pre-sigma constraint by [@shahor02](https://github.com/shahor02)
 - [\#10425](https://github.com/AliceO2Group/AliceO2/pull/10425) 2022-12-04: Use new ITS FLPs in raw2digit [O2-3443] by [@shahor02](https://github.com/shahor02)
 - [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
+- [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10433](https://github.com/AliceO2Group/AliceO2/pull/10433) 2022-12-05: Change name to tpc-aggregator-ft if it is for SACs by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
