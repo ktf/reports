@@ -23,7 +23,6 @@
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10327](https://github.com/AliceO2Group/AliceO2/pull/10327) 2022-11-22: fix in TOF matching (time) to account for integrated times by [@noferini](https://github.com/noferini)
 - [\#10328](https://github.com/AliceO2Group/AliceO2/pull/10328) 2022-11-22: L1phase calib summary histo added; warning fixes by [@peressounko](https://github.com/peressounko)
 - [\#10329](https://github.com/AliceO2Group/AliceO2/pull/10329) 2022-11-21: Barrel alignment fixes by [@shahor02](https://github.com/shahor02)
 - [\#10331](https://github.com/AliceO2Group/AliceO2/pull/10331) 2022-11-21: TRD fix digit phase comments by [@bazinski](https://github.com/bazinski)
