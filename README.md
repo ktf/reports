@@ -57,6 +57,7 @@
 - [\#10396](https://github.com/AliceO2Group/AliceO2/pull/10396) 2022-12-05: MFT-MCH refit : Removing remnants of old implementation and adding options by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
+- [\#10399](https://github.com/AliceO2Group/AliceO2/pull/10399) 2022-12-05: [MCH] adapt to variable TF size (for MC) by [@pillot](https://github.com/pillot)
 - [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
 - [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
