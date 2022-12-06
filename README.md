@@ -19,7 +19,6 @@
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10341](https://github.com/AliceO2Group/AliceO2/pull/10341) 2022-11-23: o2-sim: fail hard upon errors during loading cuts from JSON by [@sawenzel](https://github.com/sawenzel)
 - [\#10344](https://github.com/AliceO2Group/AliceO2/pull/10344) 2022-11-29: TPC: Add more CRU configuration parameters by [@wiechula](https://github.com/wiechula)
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10347](https://github.com/AliceO2Group/AliceO2/pull/10347) 2022-11-25: Replace CTF_METAFILES_DIR by EPN2EOS_METAFILES_DIR by [@martenole](https://github.com/martenole)
@@ -71,6 +70,8 @@
 - [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
 - [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10433](https://github.com/AliceO2Group/AliceO2/pull/10433) 2022-12-05: Change name to tpc-aggregator-ft if it is for SACs by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
+- [\#10440](https://github.com/AliceO2Group/AliceO2/pull/10440) 2022-12-06: TPC: install TPCFastTransformInit.C by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
