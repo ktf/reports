@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-06T14:22:09Z",
-            "title": "PWGHF: new PID selection for candidate-selector-lc-to-k0s-p",
-            "number": 1513,
-            "author": {
-              "login": "DanielSamitz"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/TrackSelectorPID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-22T18:41:49Z",
             "title": "Bug-fix: Changing ccdbTimestamp to int64_t and neural network fetching",
             "number": 1514,
@@ -2656,6 +2631,26 @@
                 {
                   "node": {
                     "path": "PWGMM/Mult/Tasks/vertexing-fwd.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix required by o2 dev for tof pid",
+            "number": 1613,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
                   }
                 }
               ]
