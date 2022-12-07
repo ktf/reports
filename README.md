@@ -19,7 +19,6 @@
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10344](https://github.com/AliceO2Group/AliceO2/pull/10344) 2022-11-29: TPC: Add more CRU configuration parameters by [@wiechula](https://github.com/wiechula)
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10347](https://github.com/AliceO2Group/AliceO2/pull/10347) 2022-11-25: Replace CTF_METAFILES_DIR by EPN2EOS_METAFILES_DIR by [@martenole](https://github.com/martenole)
 - [\#10348](https://github.com/AliceO2Group/AliceO2/pull/10348) 2022-11-23: Special treatment for shifts of ZDC triggers at BC=0,3563 by [@shahor02](https://github.com/shahor02)
