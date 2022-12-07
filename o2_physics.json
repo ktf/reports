@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-11-22T16:08:55Z",
-            "title": "Event selection adjusted for PbPb",
-            "number": 1505,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/macros/upload_event_selection_params.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "PWGEM/Dilepton/Tasks: quick fix to v0gammaQA.cxx",
@@ -3101,6 +3071,46 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTPCFull.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPG: TPC Skimming and Skimming Light",
+            "number": 1605,
+            "author": {
+              "login": "AnnalenaKa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcTreeCreatorLight.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TPC/tpcTreeCreatorLight.h"
                   }
                 }
               ]
