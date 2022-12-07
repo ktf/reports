@@ -18,6 +18,7 @@
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
+- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
 - [\#10345](https://github.com/AliceO2Group/AliceO2/pull/10345) 2022-11-22: Fix TPC Entropy encoder with dictionary from CCDB tree object by [@davidrohr](https://github.com/davidrohr)
 - [\#10347](https://github.com/AliceO2Group/AliceO2/pull/10347) 2022-11-25: Replace CTF_METAFILES_DIR by EPN2EOS_METAFILES_DIR by [@martenole](https://github.com/martenole)
@@ -72,6 +73,7 @@
 - [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
 - [\#10440](https://github.com/AliceO2Group/AliceO2/pull/10440) 2022-12-06: TPC: install TPCFastTransformInit.C by [@wiechula](https://github.com/wiechula)
 - [\#10441](https://github.com/AliceO2Group/AliceO2/pull/10441) 2022-12-06: Log full value of the HMP DP in verbose mode by [@shahor02](https://github.com/shahor02)
+- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
@@ -87,6 +89,8 @@
 - [\#10417](https://github.com/AliceO2Group/AliceO2/pull/10417) 2022-12-03: DPL: move parseConfig / parseControl API to use std::string_view by [@ktf](https://github.com/ktf)
 - [\#10422](https://github.com/AliceO2Group/AliceO2/pull/10422) 2022-12-05: DPL: minor fixes / optimisations by [@ktf](https://github.com/ktf)
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
