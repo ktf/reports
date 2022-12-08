@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+- [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
@@ -86,6 +88,7 @@
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10417](https://github.com/AliceO2Group/AliceO2/pull/10417) 2022-12-03: DPL: move parseConfig / parseControl API to use std::string_view by [@ktf](https://github.com/ktf)
 - [\#10422](https://github.com/AliceO2Group/AliceO2/pull/10422) 2022-12-05: DPL: minor fixes / optimisations by [@ktf](https://github.com/ktf)
+- [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
