@@ -11,7 +11,6 @@
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10356](https://github.com/AliceO2Group/AliceO2/pull/10356) 2022-11-25: Update MCTrack ClassDef by [@sawenzel](https://github.com/sawenzel)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10364](https://github.com/AliceO2Group/AliceO2/pull/10364) 2022-11-29: TOF: Add unfied container for parameters on ccdb by [@njacazio](https://github.com/njacazio)
@@ -23,7 +22,6 @@
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
 - [\#10351](https://github.com/AliceO2Group/AliceO2/pull/10351) 2022-11-24: Optional ITS,MFT ROF start delay + ad hoc global time adjustment param for ITS-TPC time by [@shahor02](https://github.com/shahor02)
 - [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)

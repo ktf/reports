@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-25T11:53:58Z",
-            "title": "ctpdev: FV0 to lumi",
-            "number": 10349,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/LumiInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/RawDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-23T23:42:43Z",
             "title": "Fix TPC CTF IO test",
             "number": 10350,
@@ -4125,7 +4095,17 @@
                 },
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/PixelChipRecord.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/PixelHit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/TriggerRecord.h"
                   }
                 },
                 {
@@ -4150,7 +4130,17 @@
                 },
                 {
                   "node": {
+                    "path": "DataFormats/Detectors/FOCAL/src/PixelChipRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "DataFormats/Detectors/FOCAL/src/PixelHit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/src/TriggerRecord.cxx"
                   }
                 },
                 {
@@ -4411,6 +4401,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix copy constructor for TimeSlot",
+            "number": 10449,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlot.h"
                   }
                 }
               ]
