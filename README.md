@@ -21,6 +21,7 @@
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10349](https://github.com/AliceO2Group/AliceO2/pull/10349) 2022-11-25: ctpdev: FV0 to lumi by [@lietava](https://github.com/lietava)
 - [\#10350](https://github.com/AliceO2Group/AliceO2/pull/10350) 2022-11-23: Fix TPC CTF IO test by [@shahor02](https://github.com/shahor02)
@@ -74,6 +75,7 @@
 - [\#10441](https://github.com/AliceO2Group/AliceO2/pull/10441) 2022-12-06: Log full value of the HMP DP in verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10446](https://github.com/AliceO2Group/AliceO2/pull/10446) 2022-12-07: [EMCAL-798] Apply gain calibration to cell energies in offline calib by [@jokonig](https://github.com/jokonig)
+- [\#10447](https://github.com/AliceO2Group/AliceO2/pull/10447) 2022-12-08: Fixes for alignment by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
@@ -92,6 +94,8 @@
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
+- [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
