@@ -69,6 +69,7 @@
 - [\#10425](https://github.com/AliceO2Group/AliceO2/pull/10425) 2022-12-04: Use new ITS FLPs in raw2digit [O2-3443] by [@shahor02](https://github.com/shahor02)
 - [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
 - [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10433](https://github.com/AliceO2Group/AliceO2/pull/10433) 2022-12-05: Change name to tpc-aggregator-ft if it is for SACs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
 - [\#10440](https://github.com/AliceO2Group/AliceO2/pull/10440) 2022-12-06: TPC: install TPCFastTransformInit.C by [@wiechula](https://github.com/wiechula)
