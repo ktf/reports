@@ -19,6 +19,7 @@
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
+- [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 - [\#10364](https://github.com/AliceO2Group/AliceO2/pull/10364) 2022-11-29: TOF: Add unfied container for parameters on ccdb by [@njacazio](https://github.com/njacazio)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
@@ -71,12 +72,12 @@
 - [\#10448](https://github.com/AliceO2Group/AliceO2/pull/10448) 2022-12-09: TPC SCD calib: Ues time stamps for filenames and some fixes for mergi… by [@martenole](https://github.com/martenole)
 - [\#10449](https://github.com/AliceO2Group/AliceO2/pull/10449) 2022-12-09: Fix copy constructor for TimeSlot by [@martenole](https://github.com/martenole)
 - [\#10452](https://github.com/AliceO2Group/AliceO2/pull/10452) 2022-12-09: Multiple fixes for the alignment by [@shahor02](https://github.com/shahor02)
+- [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10363](https://github.com/AliceO2Group/AliceO2/pull/10363) 2022-11-26: DPL GUI: avoid crash while I find out why the metrics are not correct by [@ktf](https://github.com/ktf)
 - [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
 - [\#10402](https://github.com/AliceO2Group/AliceO2/pull/10402) 2022-12-02: DPL GUI: do not expose getFrameJSON by [@ktf](https://github.com/ktf)
 - [\#10404](https://github.com/AliceO2Group/AliceO2/pull/10404) 2022-12-01: DPL GUI: avoid reallocating buffers over and over again by [@ktf](https://github.com/ktf)
