@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-26T01:15:43Z",
-            "title": "Set Alpide random noise to 10^-8 (was 10^-7)",
-            "number": 10360,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/DPLDigitizerParam.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-28T15:33:55Z",
             "title": "Revert \"Fix workflow scripts to pass FST without O2DPG update\"",
             "number": 10361,
@@ -4231,6 +4211,51 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/clusters-to-tracks-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use recodata + ITS-V0 PV match",
+            "number": 10460,
+            "author": {
+              "login": "fmazzasc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/StrangenessTracker.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/StrangenessTrackingConfigParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/tracking/src/StrangenessTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/workflow/include/StrangenessTrackingWorkflow/StrangenessTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/workflow/src/StrangenessTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/StrangenessTracking/workflow/src/strangeness-tracking-workflow.cxx"
                   }
                 }
               ]
