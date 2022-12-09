@@ -20,7 +20,6 @@
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10362](https://github.com/AliceO2Group/AliceO2/pull/10362) 2022-11-26: Report S,P.vertexer settings only once from pipeline 0 by [@shahor02](https://github.com/shahor02)
 - [\#10364](https://github.com/AliceO2Group/AliceO2/pull/10364) 2022-11-29: TOF: Add unfied container for parameters on ccdb by [@njacazio](https://github.com/njacazio)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
