@@ -78,7 +78,6 @@
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10353](https://github.com/AliceO2Group/AliceO2/pull/10353) 2022-11-24: Do not print addresses when dumping the Stacktrace by [@ktf](https://github.com/ktf)
 - [\#10363](https://github.com/AliceO2Group/AliceO2/pull/10363) 2022-11-26: DPL GUI: avoid crash while I find out why the metrics are not correct by [@ktf](https://github.com/ktf)
 - [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
 - [\#10402](https://github.com/AliceO2Group/AliceO2/pull/10402) 2022-12-02: DPL GUI: do not expose getFrameJSON by [@ktf](https://github.com/ktf)
