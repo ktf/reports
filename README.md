@@ -72,6 +72,7 @@
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#10446](https://github.com/AliceO2Group/AliceO2/pull/10446) 2022-12-07: [EMCAL-798] Apply gain calibration to cell energies in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#10447](https://github.com/AliceO2Group/AliceO2/pull/10447) 2022-12-08: Fixes for alignment by [@shahor02](https://github.com/shahor02)
+- [\#10448](https://github.com/AliceO2Group/AliceO2/pull/10448) 2022-12-09: TPC SCD calib: Ues time stamps for filenames and some fixes for mergi… by [@martenole](https://github.com/martenole)
 - [\#10449](https://github.com/AliceO2Group/AliceO2/pull/10449) 2022-12-09: Fix copy constructor for TimeSlot by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
