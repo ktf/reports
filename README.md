@@ -71,6 +71,7 @@
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10446](https://github.com/AliceO2Group/AliceO2/pull/10446) 2022-12-07: [EMCAL-798] Apply gain calibration to cell energies in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#10447](https://github.com/AliceO2Group/AliceO2/pull/10447) 2022-12-08: Fixes for alignment by [@shahor02](https://github.com/shahor02)
+- [\#10449](https://github.com/AliceO2Group/AliceO2/pull/10449) 2022-12-09: Fix copy constructor for TimeSlot by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
