@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
-- [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
 - [\#10367](https://github.com/AliceO2Group/AliceO2/pull/10367) 2022-11-26: Make sure readers can read from alien by [@shahor02](https://github.com/shahor02)
@@ -22,7 +21,6 @@
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10355](https://github.com/AliceO2Group/AliceO2/pull/10355) 2022-11-26: Add an end of validity to the default MID HV CCDB object by [@dstocco](https://github.com/dstocco)
 - [\#10357](https://github.com/AliceO2Group/AliceO2/pull/10357) 2022-11-24: Fix swapped pitch and yaw angles in the AlignParam by [@shahor02](https://github.com/shahor02)
 - [\#10358](https://github.com/AliceO2Group/AliceO2/pull/10358) 2022-11-26: Add standalone CTP digit writer by [@shahor02](https://github.com/shahor02)
 - [\#10360](https://github.com/AliceO2Group/AliceO2/pull/10360) 2022-11-26: Set Alpide random noise to 10^-8 (was 10^-7) by [@shahor02](https://github.com/shahor02)
