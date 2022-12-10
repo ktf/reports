@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#10366](https://github.com/AliceO2Group/AliceO2/pull/10366) 2022-11-26: Fix in the creation of alignment object by [@shahor02](https://github.com/shahor02)
@@ -45,6 +46,7 @@
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10399](https://github.com/AliceO2Group/AliceO2/pull/10399) 2022-12-05: [MCH] adapt to variable TF size (for MC) by [@pillot](https://github.com/pillot)
+- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
 - [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
@@ -76,6 +78,7 @@
 - [\#10452](https://github.com/AliceO2Group/AliceO2/pull/10452) 2022-12-09: Multiple fixes for the alignment by [@shahor02](https://github.com/shahor02)
 - [\#10454](https://github.com/AliceO2Group/AliceO2/pull/10454) 2022-12-09: TPC fast transform: Add user defined number of knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10455](https://github.com/AliceO2Group/AliceO2/pull/10455) 2022-12-10: remove one print if not verbose mode by [@noferini](https://github.com/noferini)
+- [\#10462](https://github.com/AliceO2Group/AliceO2/pull/10462) 2022-12-10: TPC ICCs/IDCs: fixing completion policy for ICCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
@@ -83,6 +86,7 @@
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
+- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10402](https://github.com/AliceO2Group/AliceO2/pull/10402) 2022-12-02: DPL GUI: do not expose getFrameJSON by [@ktf](https://github.com/ktf)
 - [\#10404](https://github.com/AliceO2Group/AliceO2/pull/10404) 2022-12-01: DPL GUI: avoid reallocating buffers over and over again by [@ktf](https://github.com/ktf)
 - [\#10413](https://github.com/AliceO2Group/AliceO2/pull/10413) 2022-12-02: DPL: avoid regex recompilation by [@ktf](https://github.com/ktf)
