@@ -15,6 +15,7 @@
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
+- [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
@@ -61,6 +62,7 @@
 - [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10433](https://github.com/AliceO2Group/AliceO2/pull/10433) 2022-12-05: Change name to tpc-aggregator-ft if it is for SACs by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
 - [\#10440](https://github.com/AliceO2Group/AliceO2/pull/10440) 2022-12-06: TPC: install TPCFastTransformInit.C by [@wiechula](https://github.com/wiechula)
@@ -73,6 +75,7 @@
 - [\#10449](https://github.com/AliceO2Group/AliceO2/pull/10449) 2022-12-09: Fix copy constructor for TimeSlot by [@martenole](https://github.com/martenole)
 - [\#10452](https://github.com/AliceO2Group/AliceO2/pull/10452) 2022-12-09: Multiple fixes for the alignment by [@shahor02](https://github.com/shahor02)
 - [\#10454](https://github.com/AliceO2Group/AliceO2/pull/10454) 2022-12-09: TPC fast transform: Add user defined number of knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10455](https://github.com/AliceO2Group/AliceO2/pull/10455) 2022-12-10: remove one print if not verbose mode by [@noferini](https://github.com/noferini)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
