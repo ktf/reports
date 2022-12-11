@@ -78,6 +78,7 @@
 - [\#10462](https://github.com/AliceO2Group/AliceO2/pull/10462) 2022-12-10: TPC ICCs/IDCs: fixing completion policy for ICCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 - [\#10465](https://github.com/AliceO2Group/AliceO2/pull/10465) 2022-12-11: Fix SCD calib maxTracksPerCalibSlot=-1 option by [@martenole](https://github.com/martenole)
+- [\#10468](https://github.com/AliceO2Group/AliceO2/pull/10468) 2022-12-11: add method to get alignable volume by its label by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
