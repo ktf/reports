@@ -22,7 +22,6 @@
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-- [\#10368](https://github.com/AliceO2Group/AliceO2/pull/10368) 2022-11-28: TPC zs Encoder: fix on the fly ion tail correction by [@davidrohr](https://github.com/davidrohr)
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10370](https://github.com/AliceO2Group/AliceO2/pull/10370) 2022-11-28: Fix ITSTPC qc: filling of eta histo by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10375](https://github.com/AliceO2Group/AliceO2/pull/10375) 2022-11-29: PHOS calibrations check file path in device init by [@martenole](https://github.com/martenole)
