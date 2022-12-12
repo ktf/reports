@@ -79,6 +79,7 @@
 - [\#10467](https://github.com/AliceO2Group/AliceO2/pull/10467) 2022-12-11: Change cluster def to common side; bugfix by [@peressounko](https://github.com/peressounko)
 - [\#10468](https://github.com/AliceO2Group/AliceO2/pull/10468) 2022-12-11: add method to get alignable volume by its label by [@shahor02](https://github.com/shahor02)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
+- [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
