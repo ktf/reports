@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-28T17:25:27Z",
-            "title": "Fixes in the order of alignment application + for the barrel allignment",
-            "number": 10369,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/AlignParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/src/AlignParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/Controller.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableVolume.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/Controller.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/GeometryManager.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-28T21:52:19Z",
             "title": "Fix ITSTPC qc: filling of eta histo",
             "number": 10370,
@@ -4241,6 +4186,256 @@
                 {
                   "node": {
                     "path": "Detectors/Align/src/Controller.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-10] Move FOCAL code to Detectors/Upgrade",
+            "number": 10469,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/ErrorHandling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/Event.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/PixelChip.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/PixelChipRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/PixelHit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/include/DataFormatsFOCAL/TriggerRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/DataFormatsFOCALLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/ErrorHandling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/Event.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/PixelChip.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/PixelChipRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/PixelHit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FOCAL/src/TriggerRecord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/base/include/FOCALBase/EventReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/base/src/EventReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/base/src/FOCALBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PadData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PadDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PadMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PadWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PixelDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PixelLaneData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PixelMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/include/FOCALReconstruction/PixelWords.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/run/rawReaderPadRootify.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/FOCALReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PadData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PadDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PadMapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PadWord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PixelDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PixelLaneData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/reconstruction/src/PixelMapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/workflow/include/FOCALWorkflow/RawDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/workflow/src/RawDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/workflow/src/event-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/FOCAL/workflow/src/raw-decoder-workflow.cxx"
                   }
                 }
               ]
