@@ -73,6 +73,7 @@
 - [\#10454](https://github.com/AliceO2Group/AliceO2/pull/10454) 2022-12-09: TPC fast transform: Add user defined number of knots by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10455](https://github.com/AliceO2Group/AliceO2/pull/10455) 2022-12-10: remove one print if not verbose mode by [@noferini](https://github.com/noferini)
 - [\#10456](https://github.com/AliceO2Group/AliceO2/pull/10456) 2022-12-11: [EMCAL-798] Add gain calib flag to offline calibrator by [@jokonig](https://github.com/jokonig)
+- [\#10459](https://github.com/AliceO2Group/AliceO2/pull/10459) 2022-12-12: [MCH] load mag field from CCDB by [@pillot](https://github.com/pillot)
 - [\#10460](https://github.com/AliceO2Group/AliceO2/pull/10460) 2022-12-12: Use recodata + ITS-V0 PV match by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10462](https://github.com/AliceO2Group/AliceO2/pull/10462) 2022-12-10: TPC ICCs/IDCs: fixing completion policy for ICCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
