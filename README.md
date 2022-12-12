@@ -3,8 +3,8 @@
 ## Recent developments in O2 - Analysis
 - [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
+- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-- [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
@@ -79,8 +79,8 @@
 - [\#10465](https://github.com/AliceO2Group/AliceO2/pull/10465) 2022-12-11: Fix SCD calib maxTracksPerCalibSlot=-1 option by [@martenole](https://github.com/martenole)
 - [\#10467](https://github.com/AliceO2Group/AliceO2/pull/10467) 2022-12-11: Change cluster def to common side; bugfix by [@peressounko](https://github.com/peressounko)
 - [\#10468](https://github.com/AliceO2Group/AliceO2/pull/10468) 2022-12-11: add method to get alignable volume by its label by [@shahor02](https://github.com/shahor02)
+- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
-- [\#10371](https://github.com/AliceO2Group/AliceO2/pull/10371) 2022-11-29: Option to fowards MC tracks from O2-sim to external (DPL) consumer by [@sawenzel](https://github.com/sawenzel)
 - [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -95,6 +95,7 @@
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#10453](https://github.com/AliceO2Group/AliceO2/pull/10453) 2022-12-10: Improve simple source by [@ktf](https://github.com/ktf)
+- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
