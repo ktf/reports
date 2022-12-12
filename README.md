@@ -103,4 +103,5 @@
 ## Recent developments in O2 - Steer
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
+- [\#10436](https://github.com/AliceO2Group/AliceO2/pull/10436) 2022-12-12: Get MID HV from CCDB in simulations by [@dstocco](https://github.com/dstocco)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
