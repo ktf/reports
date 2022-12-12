@@ -21,6 +21,7 @@
 - [\#10451](https://github.com/AliceO2Group/AliceO2/pull/10451) 2022-12-11: FIT calibration: new features and fixes by [@afurs](https://github.com/afurs)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
+- [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
 - [\#10369](https://github.com/AliceO2Group/AliceO2/pull/10369) 2022-11-28: Fixes in the order of alignment application + for the barrel allignment by [@shahor02](https://github.com/shahor02)
 - [\#10370](https://github.com/AliceO2Group/AliceO2/pull/10370) 2022-11-28: Fix ITSTPC qc: filling of eta histo by [@chiarazampolli](https://github.com/chiarazampolli)
