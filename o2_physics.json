@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-28T09:30:05Z",
-            "title": "Update Resonance tasks",
-            "number": 1540,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/LFResonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/k892analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/lambda1520analysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/phianalysis.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/collisionCuts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-11-28T17:25:08Z",
-            "title": "Remove temporary fixes for ZDC in apass1/2",
-            "number": 1541,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-28T13:47:29Z",
             "title": "Remove useless configurables (already moved in qaEventTrackLiteProduc…",
             "number": 1542,
@@ -2746,6 +2671,61 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/lfpidqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPG: Add TRD efficiency",
+            "number": 1640,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrackLiteProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPG TOF: add hasTRD column",
+            "number": 1641,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofSkimsTableCreator.h"
                   }
                 }
               ]
