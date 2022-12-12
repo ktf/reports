@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-28T21:52:19Z",
-            "title": "Fix ITSTPC qc: filling of eta histo",
-            "number": 10370,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-29T07:47:04Z",
             "title": "Option to fowards MC tracks from O2-sim to external (DPL) consumer",
             "number": 10371,
@@ -4436,6 +4416,26 @@
                 {
                   "node": {
                     "path": "Detectors/Upgrades/FOCAL/workflow/src/raw-decoder-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Downgrade producer to produce o2*bc*",
+            "number": 10470,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
