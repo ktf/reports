@@ -21,7 +21,6 @@
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#10375](https://github.com/AliceO2Group/AliceO2/pull/10375) 2022-11-29: PHOS calibrations check file path in device init by [@martenole](https://github.com/martenole)
 - [\#10376](https://github.com/AliceO2Group/AliceO2/pull/10376) 2022-11-29: TPC: fix o2-tpc-reco-workflow with input = compressed clusters from CTF and output = ClustersNative by [@davidrohr](https://github.com/davidrohr)
 - [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 - [\#10381](https://github.com/AliceO2Group/AliceO2/pull/10381) 2022-11-30: Make sure calo table is sorted by BC by [@nburmaso](https://github.com/nburmaso)

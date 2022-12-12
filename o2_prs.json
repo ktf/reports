@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-29T10:14:38Z",
-            "title": "PHOS calibrations check file path in device init",
-            "number": 10375,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSEnergyCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/PHOSRunbyrunCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/calib/src/phos-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-11-29T09:15:46Z",
             "title": "TPC: fix o2-tpc-reco-workflow with input = compressed clusters from CTF and output = ClustersNative",
             "number": 10376,
@@ -4351,6 +4321,86 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Provide trivial MC engine and application",
+            "number": 10475,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TrivialMC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TrivialMC/include/DetectorsTrivialMC/O2TrivialMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TrivialMC/include/DetectorsTrivialMC/O2TrivialMCApplication.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TrivialMC/src/DetectorsTrivialMCLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/O2TrivialMCConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/gconfig/src/SimSetup.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/o2sim.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/g4DetermineUnknownPdgProperties.cxx"
                   }
                 }
               ]
