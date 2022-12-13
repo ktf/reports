@@ -8,7 +8,6 @@
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
@@ -21,7 +20,6 @@
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#10378](https://github.com/AliceO2Group/AliceO2/pull/10378) 2022-11-29: TPC: Adjust DLBZS format to what is implemented in the firmware by [@davidrohr](https://github.com/davidrohr)
 - [\#10381](https://github.com/AliceO2Group/AliceO2/pull/10381) 2022-11-30: Make sure calo table is sorted by BC by [@nburmaso](https://github.com/nburmaso)
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10385](https://github.com/AliceO2Group/AliceO2/pull/10385) 2022-12-01: [FOCAL-9] Force writing pad tree at the end of stream by [@mfasDa](https://github.com/mfasDa)
