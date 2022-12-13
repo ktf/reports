@@ -20,7 +20,6 @@
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#10381](https://github.com/AliceO2Group/AliceO2/pull/10381) 2022-11-30: Make sure calo table is sorted by BC by [@nburmaso](https://github.com/nburmaso)
 - [\#10384](https://github.com/AliceO2Group/AliceO2/pull/10384) 2022-12-04: tof digitizer reads params from ccdb and cleanup by [@noferini](https://github.com/noferini)
 - [\#10385](https://github.com/AliceO2Group/AliceO2/pull/10385) 2022-12-01: [FOCAL-9] Force writing pad tree at the end of stream by [@mfasDa](https://github.com/mfasDa)
 - [\#10387](https://github.com/AliceO2Group/AliceO2/pull/10387) 2022-12-04: [MFT] Bugfix and cleanup MFT track finder by [@rpezzi](https://github.com/rpezzi)
