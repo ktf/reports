@@ -79,7 +79,6 @@
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
-- [\#10379](https://github.com/AliceO2Group/AliceO2/pull/10379) 2022-11-29: fix sim example by [@sawenzel](https://github.com/sawenzel)
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10383](https://github.com/AliceO2Group/AliceO2/pull/10383) 2022-11-29: DPL GUI: do culling of splines upfront by [@ktf](https://github.com/ktf)
