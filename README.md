@@ -7,6 +7,7 @@
 ## Recent developments in O2 - Common
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
+- [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
@@ -77,6 +78,7 @@
 - [\#10468](https://github.com/AliceO2Group/AliceO2/pull/10468) 2022-12-11: add method to get alignable volume by its label by [@shahor02](https://github.com/shahor02)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
+- [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
