@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-11-29T21:57:36Z",
-            "title": "DPL GUI: do culling of splines upfront",
-            "number": 10383,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-04T20:28:56Z",
             "title": "tof digitizer reads params from ccdb and cleanup",
             "number": 10384,
@@ -3265,6 +3245,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterizerParam.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/PadsPEM.h"
                   }
                 },
@@ -3356,6 +3341,11 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/ClusterFinderGEMSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
                   }
                 }
               ]
@@ -4546,6 +4536,51 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/tools/GPUExtractPbPbCollision.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CcdbDownloader implementation, which doesn't affect CcdbApi",
+            "number": 10483,
+            "author": {
+              "login": "TrifleMichael"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApiDownloader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "doc/data/2021-11-o2_prs.json"
                   }
                 }
               ]
