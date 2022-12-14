@@ -4,6 +4,7 @@
 - [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
+- [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
@@ -95,6 +96,7 @@
 - [\#10453](https://github.com/AliceO2Group/AliceO2/pull/10453) 2022-12-10: Improve simple source by [@ktf](https://github.com/ktf)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
+- [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
