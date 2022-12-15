@@ -78,6 +78,7 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 - [\#10486](https://github.com/AliceO2Group/AliceO2/pull/10486) 2022-12-15: Fix BunchCrossings LUT to handle large BC spans by [@shahor02](https://github.com/shahor02)
+- [\#10494](https://github.com/AliceO2Group/AliceO2/pull/10494) 2022-12-15: ITS Calib: trivial fix to s-curve fit by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
