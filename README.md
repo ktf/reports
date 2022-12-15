@@ -23,7 +23,6 @@
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10391](https://github.com/AliceO2Group/AliceO2/pull/10391) 2022-12-02: Fix material and thickness of OB CYSS elements by [@mario6829](https://github.com/mario6829)
 - [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
