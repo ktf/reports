@@ -21,8 +21,8 @@
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10463](https://github.com/AliceO2Group/AliceO2/pull/10463) 2022-12-09: Fix clang-tidy reported issues by [@ktf](https://github.com/ktf)
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10387](https://github.com/AliceO2Group/AliceO2/pull/10387) 2022-12-04: [MFT] Bugfix and cleanup MFT track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10388](https://github.com/AliceO2Group/AliceO2/pull/10388) 2022-11-30: Report N contributors/ambiguous in p.vertex reader verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10389](https://github.com/AliceO2Group/AliceO2/pull/10389) 2022-11-30: Use cov.matrix eigenvalues for num.deriv. deltas, optionally gzip mille binary files by [@shahor02](https://github.com/shahor02)
 - [\#10391](https://github.com/AliceO2Group/AliceO2/pull/10391) 2022-12-02: Fix material and thickness of OB CYSS elements by [@mario6829](https://github.com/mario6829)
@@ -79,6 +79,7 @@
 - [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10477](https://github.com/AliceO2Group/AliceO2/pull/10477) 2022-12-14: [ITS, ITS3] Implement Dead Zones and Carbon Foam for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
+- [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
