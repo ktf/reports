@@ -95,6 +95,7 @@
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10489](https://github.com/AliceO2Group/AliceO2/pull/10489) 2022-12-15: DPL: add helpers to check missing lifetime timeframe outputs by [@ktf](https://github.com/ktf)
 - [\#10491](https://github.com/AliceO2Group/AliceO2/pull/10491) 2022-12-15: DPL: drop obsolete example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
