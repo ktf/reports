@@ -24,7 +24,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10393](https://github.com/AliceO2Group/AliceO2/pull/10393) 2022-12-01: Optionally add extra time error to ITSTPC tracks by [@shahor02](https://github.com/shahor02)
 - [\#10394](https://github.com/AliceO2Group/AliceO2/pull/10394) 2022-11-30: Optionally downscale MP output records in root format by [@shahor02](https://github.com/shahor02)
 - [\#10395](https://github.com/AliceO2Group/AliceO2/pull/10395) 2022-12-01: [EMCAL-830] Options to drop or redirect cells from LED events by [@mfasDa](https://github.com/mfasDa)
 - [\#10396](https://github.com/AliceO2Group/AliceO2/pull/10396) 2022-12-05: MFT-MCH refit : Removing remnants of old implementation and adding options by [@mcoquet642](https://github.com/mcoquet642)
