@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-04T15:24:53Z",
-            "title": "LFPID: add ccdb feature",
-            "number": 1580,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/lfTPCPID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-04T20:04:59Z",
             "title": "Propagatorqa added for performance optimisations",
             "number": 1581,
@@ -2651,6 +2631,46 @@
                 {
                   "node": {
                     "path": "Common/Tasks/multiplicityQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add BC to clusters; PHOS-CPV matching; added CPV qc hitograms; bugfix",
+            "number": 1680,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/CaloClusters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/caloClusterProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosCalibration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosCluQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosPi0.cxx"
                   }
                 }
               ]
