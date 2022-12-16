@@ -10,7 +10,6 @@
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
@@ -24,7 +23,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10399](https://github.com/AliceO2Group/AliceO2/pull/10399) 2022-12-05: [MCH] adapt to variable TF size (for MC) by [@pillot](https://github.com/pillot)
 - [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
