@@ -24,7 +24,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10396](https://github.com/AliceO2Group/AliceO2/pull/10396) 2022-12-05: MFT-MCH refit : Removing remnants of old implementation and adding options by [@mcoquet642](https://github.com/mcoquet642)
 - [\#10397](https://github.com/AliceO2Group/AliceO2/pull/10397) 2022-12-02: Updated TimeSlotCalibration interface by [@martenole](https://github.com/martenole)
 - [\#10398](https://github.com/AliceO2Group/AliceO2/pull/10398) 2022-12-04: MFT tracks: chi2 per number of degrees of freedom by [@rpezzi](https://github.com/rpezzi)
 - [\#10399](https://github.com/AliceO2Group/AliceO2/pull/10399) 2022-12-05: [MCH] adapt to variable TF size (for MC) by [@pillot](https://github.com/pillot)
