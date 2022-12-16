@@ -73,6 +73,7 @@
 - [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10477](https://github.com/AliceO2Group/AliceO2/pull/10477) 2022-12-14: [ITS, ITS3] Implement Dead Zones and Carbon Foam for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
+- [\#10479](https://github.com/AliceO2Group/AliceO2/pull/10479) 2022-12-16: TPC SCD map creation from unbinned residuals by [@martenole](https://github.com/martenole)
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 - [\#10486](https://github.com/AliceO2Group/AliceO2/pull/10486) 2022-12-15: Fix BunchCrossings LUT to handle large BC spans by [@shahor02](https://github.com/shahor02)
