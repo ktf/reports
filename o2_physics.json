@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-12-06T10:42:13Z",
-            "title": "Correction of a bug in filterPP.cxx + new cut in the CutsLibrary.h file",
-            "number": 1582,
-            "author": {
-              "login": "vfeuilla"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/filterPP.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Update taskMuonCharmBeautySeparation.cxx",
@@ -2666,6 +2641,41 @@
                 {
                   "node": {
                     "path": "Common/Tasks/eventSelectionQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PID: remove QA from TPC task to reduce memory usage",
+            "number": 1682,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPC.h"
                   }
                 }
               ]
