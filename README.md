@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
@@ -23,7 +22,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10401](https://github.com/AliceO2Group/AliceO2/pull/10401) 2022-12-04: ITS Calibration: small fixes and calculation of mpv by [@iravasen](https://github.com/iravasen)
 - [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
@@ -79,7 +77,6 @@
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10400](https://github.com/AliceO2Group/AliceO2/pull/10400) 2022-12-10: prototype for the CTP inputs storage in AOD by [@shahor02](https://github.com/shahor02)
 - [\#10402](https://github.com/AliceO2Group/AliceO2/pull/10402) 2022-12-02: DPL GUI: do not expose getFrameJSON by [@ktf](https://github.com/ktf)
 - [\#10404](https://github.com/AliceO2Group/AliceO2/pull/10404) 2022-12-01: DPL GUI: avoid reallocating buffers over and over again by [@ktf](https://github.com/ktf)
 - [\#10413](https://github.com/AliceO2Group/AliceO2/pull/10413) 2022-12-02: DPL: avoid regex recompilation by [@ktf](https://github.com/ktf)
