@@ -4,6 +4,7 @@
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#10416](https://github.com/AliceO2Group/AliceO2/pull/10416) 2022-12-02: DPL: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
@@ -88,6 +89,7 @@
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10489](https://github.com/AliceO2Group/AliceO2/pull/10489) 2022-12-15: DPL: add helpers to check missing lifetime timeframe outputs by [@ktf](https://github.com/ktf)
 - [\#10491](https://github.com/AliceO2Group/AliceO2/pull/10491) 2022-12-15: DPL: drop obsolete example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
