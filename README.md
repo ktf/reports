@@ -23,7 +23,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10403](https://github.com/AliceO2Group/AliceO2/pull/10403) 2022-12-02: Avoid using deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#10406](https://github.com/AliceO2Group/AliceO2/pull/10406) 2022-12-02: Add option to quit on successful sending by [@wiechula](https://github.com/wiechula)
 - [\#10407](https://github.com/AliceO2Group/AliceO2/pull/10407) 2022-12-02: MID tracker does not need MagField by [@pillot](https://github.com/pillot)
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
