@@ -74,6 +74,7 @@
 - [\#10494](https://github.com/AliceO2Group/AliceO2/pull/10494) 2022-12-15: ITS Calib: trivial fix to s-curve fit by [@iravasen](https://github.com/iravasen)
 - [\#10496](https://github.com/AliceO2Group/AliceO2/pull/10496) 2022-12-16: Optionally apply fixed BC shift to CTP data decoded from CTF by [@shahor02](https://github.com/shahor02)
 - [\#10498](https://github.com/AliceO2Group/AliceO2/pull/10498) 2022-12-16: TPC: Check if all input files are accessible by [@wiechula](https://github.com/wiechula)
+- [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -98,3 +99,4 @@
 - [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10436](https://github.com/AliceO2Group/AliceO2/pull/10436) 2022-12-12: Get MID HV from CCDB in simulations by [@dstocco](https://github.com/dstocco)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
+- [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
