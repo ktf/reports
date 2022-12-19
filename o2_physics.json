@@ -5,141 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-11T11:11:39Z",
-            "title": "PWGUD: Small modifications without changing the functionality",
-            "number": 1594,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/DGPIDSelector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-12-07T19:49:27Z",
-            "title": "PWGUD: Add possibility to produce UPC candidates using only ITS-TPC tracks",
-            "number": 1595,
-            "author": {
-              "login": "nburmaso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UPCCutparHolder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UPCCutparHolder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/UPCCandidateProducerQa.cpp"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-12-07T20:49:59Z",
-            "title": "PID: Remove QA option from pidTOF and pidTOFFull",
-            "number": 1596,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFbeta.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOFBeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-09T14:17:34Z",
             "title": "PWGEM/PhotonMeson: Add Background calculation to pi0QC task",
             "number": 1597,
@@ -2299,8 +2164,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-12-19T16:07:18Z",
             "title": "Add BC to clusters; PHOS-CPV matching; added CPV qc hitograms; bugfix",
             "number": 1680,
             "author": {
@@ -2634,8 +2499,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-12-19T16:14:00Z",
             "title": "typo fix",
             "number": 1692,
             "author": {
@@ -2666,6 +2531,91 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE: Validating and updating the HF-Jet framework",
+            "number": 1694,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehf.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix bin count",
+            "number": 1695,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/correlations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add MC assoc option to strangeness builders",
+            "number": 1696,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
                   }
                 }
               ]
