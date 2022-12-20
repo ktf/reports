@@ -23,7 +23,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10407](https://github.com/AliceO2Group/AliceO2/pull/10407) 2022-12-02: MID tracker does not need MagField by [@pillot](https://github.com/pillot)
 - [\#10409](https://github.com/AliceO2Group/AliceO2/pull/10409) 2022-12-01: Fix TPC digi time comparison by [@sawenzel](https://github.com/sawenzel)
 - [\#10410](https://github.com/AliceO2Group/AliceO2/pull/10410) 2022-12-02: [ITS] Implement ITSBase configurable parameters by [@rpezzi](https://github.com/rpezzi)
 - [\#10412](https://github.com/AliceO2Group/AliceO2/pull/10412) 2022-12-02: Switch from degrees to radians, protection against bad covariances by [@shahor02](https://github.com/shahor02)
