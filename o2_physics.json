@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-20T09:30:38Z",
-            "title": "Bug-fix: Setting log-level to debug for the application of the NN",
-            "number": 1604,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-09T07:53:29Z",
             "title": "DPG: TPC Skimming and Skimming Light",
             "number": 1605,
@@ -2624,8 +2599,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2022-12-20T12:36:45Z",
             "title": "Add per BC QA, add Nch profiles for MC centrality",
             "number": 1703,
             "author": {
@@ -2636,6 +2611,71 @@
                 {
                   "node": {
                     "path": "Common/Tasks/multiplicityQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/PhotonMeson: add pcm, phos skimmer and a neutral mesons task",
+            "number": 1704,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/CaloClusters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/caloClusterProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createEMReducedEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPHOS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGamma.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Utils/PCMUtilities.h"
                   }
                 }
               ]
