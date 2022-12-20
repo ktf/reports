@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Tracking QC: Add Efficiency vs Phi and Pt",
-            "number": 10408,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchITSTPCQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-12-01T16:59:05Z",
             "title": "Fix TPC digi time comparison",
@@ -4711,6 +4686,131 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/calibration/testWorkflow/HMPIDDCSDataProcessorSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: Adding PID",
+            "number": 10508,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/Dummy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/PIDBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/PIDParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/ccdbModelUpload.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/ML.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/PIDBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/PIDParameters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/TRDPIDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDTrackReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/src/TRDTrackReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.h"
                   }
                 }
               ]
