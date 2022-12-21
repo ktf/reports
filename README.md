@@ -72,6 +72,7 @@
 - [\#10496](https://github.com/AliceO2Group/AliceO2/pull/10496) 2022-12-16: Optionally apply fixed BC shift to CTP data decoded from CTF by [@shahor02](https://github.com/shahor02)
 - [\#10498](https://github.com/AliceO2Group/AliceO2/pull/10498) 2022-12-16: TPC: Check if all input files are accessible by [@wiechula](https://github.com/wiechula)
 - [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
+- [\#10503](https://github.com/AliceO2Group/AliceO2/pull/10503) 2022-12-21: TPC: cpad function for simple cluster drawing by [@wiechula](https://github.com/wiechula)
 - [\#10504](https://github.com/AliceO2Group/AliceO2/pull/10504) 2022-12-20: Optional q/pT cutoff for tracks used for TPC Vdrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
