@@ -75,7 +75,6 @@
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10417](https://github.com/AliceO2Group/AliceO2/pull/10417) 2022-12-03: DPL: move parseConfig / parseControl API to use std::string_view by [@ktf](https://github.com/ktf)
 - [\#10422](https://github.com/AliceO2Group/AliceO2/pull/10422) 2022-12-05: DPL: minor fixes / optimisations by [@ktf](https://github.com/ktf)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
