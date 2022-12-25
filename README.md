@@ -22,11 +22,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10414](https://github.com/AliceO2Group/AliceO2/pull/10414) 2022-12-04: Prepare residual aggregator for production by [@martenole](https://github.com/martenole)
-- [\#10419](https://github.com/AliceO2Group/AliceO2/pull/10419) 2022-12-04: TPC: simple workflow to run ClusterQC by [@wiechula](https://github.com/wiechula)
-- [\#10420](https://github.com/AliceO2Group/AliceO2/pull/10420) 2022-12-04: TPC: adding workflow for integrated cluster currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#10423](https://github.com/AliceO2Group/AliceO2/pull/10423) 2022-12-04: Write measurement record with pre-sigma constraint by [@shahor02](https://github.com/shahor02)
-- [\#10425](https://github.com/AliceO2Group/AliceO2/pull/10425) 2022-12-04: Use new ITS FLPs in raw2digit [O2-3443] by [@shahor02](https://github.com/shahor02)
 - [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
 - [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
