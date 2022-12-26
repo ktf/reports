@@ -9,7 +9,6 @@
 - [\#10458](https://github.com/AliceO2Group/AliceO2/pull/10458) 2022-12-10: Ability to use pre-fixed collision vertices in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -22,10 +21,7 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10426](https://github.com/AliceO2Group/AliceO2/pull/10426) 2022-12-05: Aply MP2 solution to matrices after loading it by [@shahor02](https://github.com/shahor02)
-- [\#10429](https://github.com/AliceO2Group/AliceO2/pull/10429) 2022-12-05: TPC residuals: Add possibillity to use more than one input file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#10433](https://github.com/AliceO2Group/AliceO2/pull/10433) 2022-12-05: Change name to tpc-aggregator-ft if it is for SACs by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
@@ -70,7 +66,6 @@
 ## Recent developments in O2 - Examples
 - [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10422](https://github.com/AliceO2Group/AliceO2/pull/10422) 2022-12-05: DPL: minor fixes / optimisations by [@ktf](https://github.com/ktf)
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#10453](https://github.com/AliceO2Group/AliceO2/pull/10453) 2022-12-10: Improve simple source by [@ktf](https://github.com/ktf)
@@ -84,7 +79,6 @@
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#10415](https://github.com/AliceO2Group/AliceO2/pull/10415) 2022-12-05: New features to construct digicontexts by [@sawenzel](https://github.com/sawenzel)
 - [\#10436](https://github.com/AliceO2Group/AliceO2/pull/10436) 2022-12-12: Get MID HV from CCDB in simulations by [@dstocco](https://github.com/dstocco)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 - [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
