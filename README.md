@@ -24,9 +24,6 @@
 - [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
-- [\#10439](https://github.com/AliceO2Group/AliceO2/pull/10439) 2022-12-06: TRD: CalibratorVdExB: Fix minimal entries init by [@f3sch](https://github.com/f3sch)
-- [\#10440](https://github.com/AliceO2Group/AliceO2/pull/10440) 2022-12-06: TPC: install TPCFastTransformInit.C by [@wiechula](https://github.com/wiechula)
-- [\#10441](https://github.com/AliceO2Group/AliceO2/pull/10441) 2022-12-06: Log full value of the HMP DP in verbose mode by [@shahor02](https://github.com/shahor02)
 - [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#10446](https://github.com/AliceO2Group/AliceO2/pull/10446) 2022-12-07: [EMCAL-798] Apply gain calibration to cell energies in offline calib by [@jokonig](https://github.com/jokonig)
@@ -63,11 +60,8 @@
 - [\#10503](https://github.com/AliceO2Group/AliceO2/pull/10503) 2022-12-21: TPC: cpad function for simple cluster drawing by [@wiechula](https://github.com/wiechula)
 - [\#10504](https://github.com/AliceO2Group/AliceO2/pull/10504) 2022-12-20: Optional q/pT cutoff for tracks used for TPC Vdrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10509](https://github.com/AliceO2Group/AliceO2/pull/10509) 2022-12-21: Fix TRD refit LT-integral calculation and material accounting by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - Examples
-- [\#10442](https://github.com/AliceO2Group/AliceO2/pull/10442) 2022-12-06: MCTrack proxy: option to pass source PID or to find socketfile by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
-- [\#10427](https://github.com/AliceO2Group/AliceO2/pull/10427) 2022-12-06: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#10453](https://github.com/AliceO2Group/AliceO2/pull/10453) 2022-12-10: Improve simple source by [@ktf](https://github.com/ktf)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
