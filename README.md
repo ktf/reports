@@ -60,6 +60,7 @@
 - [\#10503](https://github.com/AliceO2Group/AliceO2/pull/10503) 2022-12-21: TPC: cpad function for simple cluster drawing by [@wiechula](https://github.com/wiechula)
 - [\#10504](https://github.com/AliceO2Group/AliceO2/pull/10504) 2022-12-20: Optional q/pT cutoff for tracks used for TPC Vdrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10509](https://github.com/AliceO2Group/AliceO2/pull/10509) 2022-12-21: Fix TRD refit LT-integral calculation and material accounting by [@shahor02](https://github.com/shahor02)
+- [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Framework
 - [\#10424](https://github.com/AliceO2Group/AliceO2/pull/10424) 2022-12-08: Update AnalysisDataModel.h by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10453](https://github.com/AliceO2Group/AliceO2/pull/10453) 2022-12-10: Improve simple source by [@ktf](https://github.com/ktf)
