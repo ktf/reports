@@ -11,7 +11,6 @@
 ## Recent developments in O2 - DataFormats
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
-- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 - [\#10451](https://github.com/AliceO2Group/AliceO2/pull/10451) 2022-12-11: FIT calibration: new features and fixes by [@afurs](https://github.com/afurs)
@@ -24,9 +23,7 @@
 - [\#10432](https://github.com/AliceO2Group/AliceO2/pull/10432) 2022-12-08: ICCs: Add option to select charge type (qMax or qTot) by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10434](https://github.com/AliceO2Group/AliceO2/pull/10434) 2022-12-10: optimizing TOF event time maker by [@noferini](https://github.com/noferini)
 - [\#10437](https://github.com/AliceO2Group/AliceO2/pull/10437) 2022-12-09: First prototype of strangeness tracking workflow by [@fmazzasc](https://github.com/fmazzasc)
-- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10444](https://github.com/AliceO2Group/AliceO2/pull/10444) 2022-12-09: [FOCAL-10] Basic FOCAL raw decoding workflow by [@mfasDa](https://github.com/mfasDa)
-- [\#10446](https://github.com/AliceO2Group/AliceO2/pull/10446) 2022-12-07: [EMCAL-798] Apply gain calibration to cell energies in offline calib by [@jokonig](https://github.com/jokonig)
 - [\#10447](https://github.com/AliceO2Group/AliceO2/pull/10447) 2022-12-08: Fixes for alignment by [@shahor02](https://github.com/shahor02)
 - [\#10448](https://github.com/AliceO2Group/AliceO2/pull/10448) 2022-12-09: TPC SCD calib: Ues time stamps for filenames and some fixes for mergi… by [@martenole](https://github.com/martenole)
 - [\#10449](https://github.com/AliceO2Group/AliceO2/pull/10449) 2022-12-09: Fix copy constructor for TimeSlot by [@martenole](https://github.com/martenole)
@@ -71,7 +68,6 @@
 - [\#10489](https://github.com/AliceO2Group/AliceO2/pull/10489) 2022-12-15: DPL: add helpers to check missing lifetime timeframe outputs by [@ktf](https://github.com/ktf)
 - [\#10491](https://github.com/AliceO2Group/AliceO2/pull/10491) 2022-12-15: DPL: drop obsolete example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-- [\#10443](https://github.com/AliceO2Group/AliceO2/pull/10443) 2022-12-07: Fix status code usage in MCUtils by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10445](https://github.com/AliceO2Group/AliceO2/pull/10445) 2022-12-08: o2-sim: Generalized vertex sampling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#10436](https://github.com/AliceO2Group/AliceO2/pull/10436) 2022-12-12: Get MID HV from CCDB in simulations by [@dstocco](https://github.com/dstocco)
