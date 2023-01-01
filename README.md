@@ -7,19 +7,13 @@
 ## Recent developments in O2 - Common
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#10451](https://github.com/AliceO2Group/AliceO2/pull/10451) 2022-12-11: FIT calibration: new features and fixes by [@afurs](https://github.com/afurs)
 - [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10451](https://github.com/AliceO2Group/AliceO2/pull/10451) 2022-12-11: FIT calibration: new features and fixes by [@afurs](https://github.com/afurs)
-- [\#10456](https://github.com/AliceO2Group/AliceO2/pull/10456) 2022-12-11: [EMCAL-798] Add gain calib flag to offline calibrator by [@jokonig](https://github.com/jokonig)
 - [\#10459](https://github.com/AliceO2Group/AliceO2/pull/10459) 2022-12-12: [MCH] load mag field from CCDB by [@pillot](https://github.com/pillot)
 - [\#10460](https://github.com/AliceO2Group/AliceO2/pull/10460) 2022-12-12: Use recodata + ITS-V0 PV match by [@fmazzasc](https://github.com/fmazzasc)
-- [\#10465](https://github.com/AliceO2Group/AliceO2/pull/10465) 2022-12-11: Fix SCD calib maxTracksPerCalibSlot=-1 option by [@martenole](https://github.com/martenole)
 - [\#10466](https://github.com/AliceO2Group/AliceO2/pull/10466) 2022-12-13: Workflow for the study of TPC tracks moving effects by [@shahor02](https://github.com/shahor02)
-- [\#10467](https://github.com/AliceO2Group/AliceO2/pull/10467) 2022-12-11: Change cluster def to common side; bugfix by [@peressounko](https://github.com/peressounko)
-- [\#10468](https://github.com/AliceO2Group/AliceO2/pull/10468) 2022-12-11: add method to get alignable volume by its label by [@shahor02](https://github.com/shahor02)
 - [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
