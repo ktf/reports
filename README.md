@@ -1,21 +1,15 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - DataFormats
-- [\#10464](https://github.com/AliceO2Group/AliceO2/pull/10464) 2022-12-12: Refine gen status code usage by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10459](https://github.com/AliceO2Group/AliceO2/pull/10459) 2022-12-12: [MCH] load mag field from CCDB by [@pillot](https://github.com/pillot)
-- [\#10460](https://github.com/AliceO2Group/AliceO2/pull/10460) 2022-12-12: Use recodata + ITS-V0 PV match by [@fmazzasc](https://github.com/fmazzasc)
 - [\#10466](https://github.com/AliceO2Group/AliceO2/pull/10466) 2022-12-13: Workflow for the study of TPC tracks moving effects by [@shahor02](https://github.com/shahor02)
-- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
-- [\#10472](https://github.com/AliceO2Group/AliceO2/pull/10472) 2022-12-12: [FOCAL-10] Enable pixel mapping in build by [@mfasDa](https://github.com/mfasDa)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10477](https://github.com/AliceO2Group/AliceO2/pull/10477) 2022-12-14: [ITS, ITS3] Implement Dead Zones and Carbon Foam for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10479](https://github.com/AliceO2Group/AliceO2/pull/10479) 2022-12-16: TPC SCD map creation from unbinned residuals by [@martenole](https://github.com/martenole)
@@ -34,12 +28,10 @@
 - [\#10509](https://github.com/AliceO2Group/AliceO2/pull/10509) 2022-12-21: Fix TRD refit LT-integral calculation and material accounting by [@shahor02](https://github.com/shahor02)
 - [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Framework
-- [\#10471](https://github.com/AliceO2Group/AliceO2/pull/10471) 2022-12-12: Revert "prototype for the CTP inputs storage in AOD" by [@shahor02](https://github.com/shahor02)
 - [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10489](https://github.com/AliceO2Group/AliceO2/pull/10489) 2022-12-15: DPL: add helpers to check missing lifetime timeframe outputs by [@ktf](https://github.com/ktf)
 - [\#10491](https://github.com/AliceO2Group/AliceO2/pull/10491) 2022-12-15: DPL: drop obsolete example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#10436](https://github.com/AliceO2Group/AliceO2/pull/10436) 2022-12-12: Get MID HV from CCDB in simulations by [@dstocco](https://github.com/dstocco)
 - [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
