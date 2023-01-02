@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-04T13:52:36Z",
-            "title": "TPC: simple workflow to run ClusterQC",
-            "number": 10419,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/DigitDump.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/dcs/src/DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/qc/src/Clusters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/ClusterQCSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/ClusterQCSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-cluster-qc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-04T13:55:26Z",
             "title": "TPC: adding workflow for integrated cluster currents",
             "number": 10420,
@@ -4351,6 +4301,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Standalone/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Improve ROCm path auto-detection, if not set but /opt/rocm exists, just use it + unrelated improvements",
+            "number": 10519,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]
