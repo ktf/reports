@@ -9,7 +9,6 @@
 - [\#10480](https://github.com/AliceO2Group/AliceO2/pull/10480) 2022-12-15: FT0 calib&reco update by [@afurs](https://github.com/afurs)
 - [\#10485](https://github.com/AliceO2Group/AliceO2/pull/10485) 2022-12-15: [MCH] normalize the propagation of digits along the reconstruction chain by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10466](https://github.com/AliceO2Group/AliceO2/pull/10466) 2022-12-13: Workflow for the study of TPC tracks moving effects by [@shahor02](https://github.com/shahor02)
 - [\#10475](https://github.com/AliceO2Group/AliceO2/pull/10475) 2022-12-14: Provide trivial MC engine and application by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10477](https://github.com/AliceO2Group/AliceO2/pull/10477) 2022-12-14: [ITS, ITS3] Implement Dead Zones and Carbon Foam for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10479](https://github.com/AliceO2Group/AliceO2/pull/10479) 2022-12-16: TPC SCD map creation from unbinned residuals by [@martenole](https://github.com/martenole)
@@ -28,7 +27,6 @@
 - [\#10509](https://github.com/AliceO2Group/AliceO2/pull/10509) 2022-12-21: Fix TRD refit LT-integral calculation and material accounting by [@shahor02](https://github.com/shahor02)
 - [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Framework
-- [\#10473](https://github.com/AliceO2Group/AliceO2/pull/10473) 2022-12-13: DPL: drop need for DataTakingContext by [@ktf](https://github.com/ktf)
 - [\#10476](https://github.com/AliceO2Group/AliceO2/pull/10476) 2022-12-14: improve error message by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10489](https://github.com/AliceO2Group/AliceO2/pull/10489) 2022-12-15: DPL: add helpers to check missing lifetime timeframe outputs by [@ktf](https://github.com/ktf)
