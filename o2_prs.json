@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-05T08:21:38Z",
-            "title": "DPL: minor fixes / optimisations",
-            "number": 10422,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DeviceMetricsHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/GUISupport/src/FrameworkGUIDevicesGraph.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-04T15:22:56Z",
             "title": "Write measurement record with pre-sigma constraint",
             "number": 10423,
@@ -4341,6 +4316,51 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflowIO/src/TOFMatchableWriterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: introduce a O2DatabasePDG with all the customizations",
+            "number": 10522,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/Plugins.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/include/Framework/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/src/Plugin.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/TestWorkflows/src/o2AnalysisWorkflow.cxx"
                   }
                 }
               ]
