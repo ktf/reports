@@ -17,5 +17,6 @@
 - [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Framework
 - [\#10478](https://github.com/AliceO2Group/AliceO2/pull/10478) 2022-12-18: Change to using Collisions = Collisions_001 by [@ddobrigk](https://github.com/ddobrigk)
+- [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10502](https://github.com/AliceO2Group/AliceO2/pull/10502) 2022-12-19: Fix in the VDrift selection logic by [@shahor02](https://github.com/shahor02)
