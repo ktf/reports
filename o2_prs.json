@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "add passName in DigiParams",
-            "number": 10431,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/include/SimConfig/DigiParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TOFDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-12-08T14:47:53Z",
             "title": "ICCs: Add option to select charge type (qMax or qTot)",
@@ -4420,11 +4395,6 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TPCTrackStudy.cxx"
-                  }
-                },
-                {
-                  "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
                   }
                 },
@@ -4432,15 +4402,25 @@
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add metadata to AOD writer inputs",
+            "number": 10531,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
                   }
                 }
               ]
