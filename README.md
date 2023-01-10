@@ -6,6 +6,7 @@
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
+- [\#10457](https://github.com/AliceO2Group/AliceO2/pull/10457) 2023-01-10: Optimize St4-5 clustering - preparing comparaison between the 2 algorithms by [@grasseau](https://github.com/grasseau)
 - [\#10488](https://github.com/AliceO2Group/AliceO2/pull/10488) 2022-12-21: [ITS3, ITS] Add possibility to switch ITS3 version with configKeyValues by [@fgrosa](https://github.com/fgrosa)
 - [\#10492](https://github.com/AliceO2Group/AliceO2/pull/10492) 2022-12-21: Make sure MC particles are ordered by MC collision IDs by [@nburmaso](https://github.com/nburmaso)
 - [\#10493](https://github.com/AliceO2Group/AliceO2/pull/10493) 2022-12-28: TPC QC: Adds IDC0 scale and Draw Overview by [@sbhawani](https://github.com/sbhawani)
