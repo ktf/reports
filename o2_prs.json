@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-09T14:00:45Z",
-            "title": "First prototype of strangeness tracking workflow",
-            "number": 10437,
-            "author": {
-              "login": "fmazzasc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/ReconstructionDataFormatsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/macros/XiTrackingStudy.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/IndexTableUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/StrangenessTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/StrangenessTrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/src/StrangenessTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/src/StrangenessTrackingConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/src/StrangenessTrackingLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/include/StrangenessTrackingWorkflow/StrangenessTrackingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/include/StrangenessTrackingWorkflow/StrangenessTrackingWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/src/StrangenessTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/src/StrangenessTrackingWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/workflow/src/strangeness-tracking-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-05T21:24:05Z",
             "title": "TPC: Add option to shift TPC clusters during decoding",
             "number": 10438,
@@ -4566,6 +4456,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Allow usage of additional track information for TPC SCD map creation",
+            "number": 10537,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCResidualReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
                   }
                 }
               ]
