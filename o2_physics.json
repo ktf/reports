@@ -6,51 +6,6 @@
           "node": {
             "state": "CLOSED",
             "mergedAt": null,
-            "title": "PWGHF: add check on PDG code for Lc 1st daughter in MC.",
-            "number": 1661,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-12-19T21:27:33Z",
-            "title": "PWGHF: add check on PDG code for Lc 1st daughter in MC.",
-            "number": 1662,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskLc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
             "title": "hyperon reconstruct",
             "number": 1663,
             "author": {
@@ -2710,6 +2665,76 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/straRecoStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM: Add GammaTableProducer",
+            "number": 1761,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/GammaTableProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/produceMesonCalo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/emcclustermonitor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Single trigger for Z=2 + custom PID",
+            "number": 1762,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGLF/nucleiFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
                   }
                 }
               ]
