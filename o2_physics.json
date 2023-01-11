@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-15T01:45:12Z",
-            "title": "PID: fix definition of expected sigma",
-            "number": 1659,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/PID/TPCPIDResponse.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-15T07:43:09Z",
             "title": "DPG: add nTracks vs. PV contr. correlation w/o track selections.",
             "number": 1660,
@@ -2705,6 +2685,31 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: load and apply the TPC postcalibration from CCDB",
+            "number": 1759,
+            "author": {
+              "login": "zhangbiao-phy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]
