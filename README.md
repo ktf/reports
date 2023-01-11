@@ -13,12 +13,8 @@
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#10457](https://github.com/AliceO2Group/AliceO2/pull/10457) 2023-01-10: Optimize St4-5 clustering - preparing comparaison between the 2 algorithms by [@grasseau](https://github.com/grasseau)
-- [\#10488](https://github.com/AliceO2Group/AliceO2/pull/10488) 2022-12-21: [ITS3, ITS] Add possibility to switch ITS3 version with configKeyValues by [@fgrosa](https://github.com/fgrosa)
-- [\#10492](https://github.com/AliceO2Group/AliceO2/pull/10492) 2022-12-21: Make sure MC particles are ordered by MC collision IDs by [@nburmaso](https://github.com/nburmaso)
 - [\#10493](https://github.com/AliceO2Group/AliceO2/pull/10493) 2022-12-28: TPC QC: Adds IDC0 scale and Draw Overview by [@sbhawani](https://github.com/sbhawani)
 - [\#10500](https://github.com/AliceO2Group/AliceO2/pull/10500) 2023-01-04: TPC: adding number of clusters as type for integration by [@matthias-kleiner](https://github.com/matthias-kleiner)
-- [\#10503](https://github.com/AliceO2Group/AliceO2/pull/10503) 2022-12-21: TPC: cpad function for simple cluster drawing by [@wiechula](https://github.com/wiechula)
-- [\#10509](https://github.com/AliceO2Group/AliceO2/pull/10509) 2022-12-21: Fix TRD refit LT-integral calculation and material accounting by [@shahor02](https://github.com/shahor02)
 - [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
