@@ -1,10 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10534](https://github.com/AliceO2Group/AliceO2/pull/10534) 2023-01-10: Simplify code to get tables by [@ktf](https://github.com/ktf)
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
 - [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
+- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -24,6 +26,7 @@
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10515](https://github.com/AliceO2Group/AliceO2/pull/10515) 2023-01-08: DPL Analysis: use human-readable types in expression errors by [@aalkin](https://github.com/aalkin)
 - [\#10516](https://github.com/AliceO2Group/AliceO2/pull/10516) 2023-01-09: DPL Analysis: simplify Join and update Concat by [@aalkin](https://github.com/aalkin)
+- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
 - [\#10525](https://github.com/AliceO2Group/AliceO2/pull/10525) 2023-01-06: DPL: cleanup InputRecord::get by [@ktf](https://github.com/ktf)
 - [\#10531](https://github.com/AliceO2Group/AliceO2/pull/10531) 2023-01-10: Add metadata to AOD writer inputs by [@nburmaso](https://github.com/nburmaso)
@@ -31,3 +34,4 @@
 - [\#10534](https://github.com/AliceO2Group/AliceO2/pull/10534) 2023-01-10: Simplify code to get tables by [@ktf](https://github.com/ktf)
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
 - [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
+- [\#10541](https://github.com/AliceO2Group/AliceO2/pull/10541) 2023-01-11: [O2-3489] DPL Analysis: correctly account for offset when accessing sliced boolean column by [@aalkin](https://github.com/aalkin)
