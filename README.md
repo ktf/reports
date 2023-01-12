@@ -24,6 +24,7 @@
 - [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10500](https://github.com/AliceO2Group/AliceO2/pull/10500) 2023-01-04: TPC: adding number of clusters as type for integration by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10505](https://github.com/AliceO2Group/AliceO2/pull/10505) 2023-01-11: ITS Calib: compatibility with data produced with IB commissioning tools by [@iravasen](https://github.com/iravasen)
+- [\#10507](https://github.com/AliceO2Group/AliceO2/pull/10507) 2023-01-12: Fix timerange for Mean Photon Energy by [@gvolpe79](https://github.com/gvolpe79)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10513](https://github.com/AliceO2Group/AliceO2/pull/10513) 2022-12-27: collision version 001 fixup by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10524](https://github.com/AliceO2Group/AliceO2/pull/10524) 2023-01-12: [MCH] merge and relocate tracking workflows by [@pillot](https://github.com/pillot)
