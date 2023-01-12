@@ -9,6 +9,7 @@
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
+- [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
@@ -24,6 +25,7 @@
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10537](https://github.com/AliceO2Group/AliceO2/pull/10537) 2023-01-11: Allow usage of additional track information for TPC SCD map creation by [@martenole](https://github.com/martenole)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
+- [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10515](https://github.com/AliceO2Group/AliceO2/pull/10515) 2023-01-08: DPL Analysis: use human-readable types in expression errors by [@aalkin](https://github.com/aalkin)
