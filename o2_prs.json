@@ -5,176 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-11T13:45:48Z",
-            "title": "[EMCAL-798] Add gain calib flag to offline calibrator",
-            "number": 10456,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/OfflineCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-01-10T09:10:28Z",
-            "title": "Optimize St4-5 clustering - preparing comparaison between the 2 algorithms",
-            "number": 10457,
-            "author": {
-              "login": "grasseau"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterFinderGEM.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterPEM.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/PadsPEM.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/include/MCHClustering/clusterProcessing.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterFinderGEM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterFinderOriginal.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/ClusterPEM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/InspectModel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/InspectModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/PadsPEM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/clusterProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathUtil.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathUtil.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathieson.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathieson.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathiesonFit.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/mathiesonFit.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/poissonEM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Clustering/src/poissonEM.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/ClusterFinderGEMSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-10T10:36:33Z",
             "title": "Ability to use pre-fixed collision vertices in simulation",
             "number": 10458,
@@ -4066,6 +3896,66 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/macros/test/CheckVertices.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Actually fetch metadata in AOD writer",
+            "number": 10556,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Generic workflow to study tracking results.",
+            "number": 10557,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackingStudy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/GlobalTrackingStudyLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackingStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tracking-study-workflow.cxx"
                   }
                 }
               ]

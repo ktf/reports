@@ -20,7 +20,6 @@
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10457](https://github.com/AliceO2Group/AliceO2/pull/10457) 2023-01-10: Optimize St4-5 clustering - preparing comparaison between the 2 algorithms by [@grasseau](https://github.com/grasseau)
 - [\#10493](https://github.com/AliceO2Group/AliceO2/pull/10493) 2022-12-28: TPC QC: Adds IDC0 scale and Draw Overview by [@sbhawani](https://github.com/sbhawani)
 - [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10500](https://github.com/AliceO2Group/AliceO2/pull/10500) 2023-01-04: TPC: adding number of clusters as type for integration by [@matthias-kleiner](https://github.com/matthias-kleiner)
