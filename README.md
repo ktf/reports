@@ -36,6 +36,7 @@
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
+- [\#10557](https://github.com/AliceO2Group/AliceO2/pull/10557) 2023-01-13: Generic workflow to study tracking results. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
