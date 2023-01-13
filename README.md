@@ -49,6 +49,7 @@
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
 - [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
 - [\#10541](https://github.com/AliceO2Group/AliceO2/pull/10541) 2023-01-11: [O2-3489] DPL Analysis: correctly account for offset when accessing sliced boolean column by [@aalkin](https://github.com/aalkin)
+- [\#10546](https://github.com/AliceO2Group/AliceO2/pull/10546) 2023-01-13: DPL GUI: add compatibility with DebugGUI v0.7.0 by [@ktf](https://github.com/ktf)
 - [\#10550](https://github.com/AliceO2Group/AliceO2/pull/10550) 2023-01-12: DPL: fix missing includes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
