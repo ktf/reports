@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-17T12:44:27Z",
-            "title": "DPG: remove efficiency computed for all particle",
-            "number": 1684,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOFBeta.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-17T15:49:34Z",
             "title": "task for strangeness reco QA / PV studies",
             "number": 1685,
@@ -2760,6 +2735,26 @@
                 {
                   "node": {
                     "path": "Tutorials/src/usingPDGService.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "remove loading of full geometry (not req. by LUT)",
+            "number": 1784,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
                   }
                 }
               ]
