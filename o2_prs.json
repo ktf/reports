@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-11T15:22:59Z",
-            "title": "Fix SCD calib maxTracksPerCalibSlot=-1 option",
-            "number": 10465,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-13T16:15:44Z",
             "title": "Workflow for the study of TPC tracks moving effects",
             "number": 10466,
@@ -3876,6 +3851,26 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-10] Add option to process multiple files in pad rootifier",
+            "number": 10565,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/run/rawReaderPadRootify.cxx"
                   }
                 }
               ]
