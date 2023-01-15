@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-11T17:51:27Z",
-            "title": "Change cluster def to common side; bugfix",
-            "number": 10467,
-            "author": {
-              "login": "peressounko"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/base/include/PHOSBase/PHOSSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/base/src/Geometry.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/reconstruction/src/Clusterer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-11T17:32:48Z",
             "title": "add method to get alignable volume by its label",
             "number": 10468,
@@ -3861,6 +3831,51 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Calibration/src/BadChannelCalibrationDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ctp: trigger offsets and config tests",
+            "number": 10567,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/TestConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/RawDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
                   }
                 }
               ]
