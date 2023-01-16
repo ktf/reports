@@ -60,6 +60,7 @@
 - [\#10546](https://github.com/AliceO2Group/AliceO2/pull/10546) 2023-01-13: DPL GUI: add compatibility with DebugGUI v0.7.0 by [@ktf](https://github.com/ktf)
 - [\#10550](https://github.com/AliceO2Group/AliceO2/pull/10550) 2023-01-12: DPL: fix missing includes by [@ktf](https://github.com/ktf)
 - [\#10561](https://github.com/AliceO2Group/AliceO2/pull/10561) 2023-01-13: DPL: use transparent wrapper for LoadableServicePlugin by [@ktf](https://github.com/ktf)
+- [\#10569](https://github.com/AliceO2Group/AliceO2/pull/10569) 2023-01-16: DPL GUI: Try to get newly deprecated code to work by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
