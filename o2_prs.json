@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-14T10:12:33Z",
-            "title": "Provide trivial MC engine and application",
-            "number": 10475,
-            "author": {
-              "login": "benedikt-voelkel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/SimConfig/src/SimConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/O2TrivialMC/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/O2TrivialMC/include/O2TrivialMC/O2TrivialMCApplication.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/O2TrivialMC/include/O2TrivialMC/O2TrivialMCEngine.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/O2TrivialMC/src/O2TrivialMCLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/O2TrivialMCConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/SimSetup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/o2sim.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/g4DetermineUnknownPdgProperties.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-14T11:23:00Z",
             "title": "improve error message",
             "number": 10476,
@@ -3644,8 +3564,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-01-16T19:55:32Z",
             "title": "DPL Analysis: drop direct dependency on libPhysics",
             "number": 10570,
             "author": {
@@ -3836,6 +3756,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix compiler warnings",
+            "number": 10575,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/src/PadsPEM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Clustering/src/mathieson.cxx"
                   }
                 }
               ]

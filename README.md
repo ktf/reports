@@ -7,11 +7,13 @@
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
 - [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
 - [\#10561](https://github.com/AliceO2Group/AliceO2/pull/10561) 2023-01-13: DPL: use transparent wrapper for LoadableServicePlugin by [@ktf](https://github.com/ktf)
+- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
+- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
@@ -61,6 +63,7 @@
 - [\#10550](https://github.com/AliceO2Group/AliceO2/pull/10550) 2023-01-12: DPL: fix missing includes by [@ktf](https://github.com/ktf)
 - [\#10561](https://github.com/AliceO2Group/AliceO2/pull/10561) 2023-01-13: DPL: use transparent wrapper for LoadableServicePlugin by [@ktf](https://github.com/ktf)
 - [\#10569](https://github.com/AliceO2Group/AliceO2/pull/10569) 2023-01-16: DPL GUI: Try to get newly deprecated code to work by [@ktf](https://github.com/ktf)
+- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
