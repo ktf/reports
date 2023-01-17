@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-14T12:48:17Z",
-            "title": "[ITS, ITS3] Implement Dead Zones and Carbon Foam for ITS3 Inner Barrel",
-            "number": 10477,
-            "author": {
-              "login": "ChunzhengLab"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/IT3/simulation/include/ITS3Simulation/DescriptorInnerBarrelITS3.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/IT3/simulation/include/ITS3Simulation/ITS3Layer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/IT3/simulation/src/DescriptorInnerBarrelITS3.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/IT3/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/IT3/simulation/src/ITS3Layer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-18T22:08:12Z",
             "title": "Change to using Collisions = Collisions_001",
             "number": 10478,
@@ -3421,7 +3376,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "<WIP> ITS: Improve seeding with low multiplicity events",
+            "title": "ITS: Improve seeding with low multiplicity events",
             "number": 10568,
             "author": {
               "login": "mconcas"
@@ -3781,6 +3736,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix RDH error bits decoding",
+            "number": 10577,
+            "author": {
+              "login": "fapfap69"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/HmpidDecoder2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/HmpidEquipment.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/src/HmpidDecoder2.cxx"
                   }
                 }
               ]
