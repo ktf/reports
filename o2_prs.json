@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2022-12-14T16:48:48Z",
-            "title": "TPC: Improve TPC cluster counting tool and add afterglow counting",
-            "number": 10482,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataCompression/TPCClusterDecompressor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/tools/GPUExtractPbPbCollision.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "CcdbDownloader implementation, which doesn't affect CcdbApi",
@@ -3681,6 +3656,26 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/src/RawFileReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix detection of CCDB production server in CcdbApi",
+            "number": 10582,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
