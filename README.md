@@ -35,6 +35,7 @@
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10537](https://github.com/AliceO2Group/AliceO2/pull/10537) 2023-01-11: Allow usage of additional track information for TPC SCD map creation by [@martenole](https://github.com/martenole)
+- [\#10540](https://github.com/AliceO2Group/AliceO2/pull/10540) 2023-01-17: Discard TRD tracks with bad quality by [@martenole](https://github.com/martenole)
 - [\#10542](https://github.com/AliceO2Group/AliceO2/pull/10542) 2023-01-13: Temporarily remove alpide test and improve ITSRESPONSE location by [@mconcas](https://github.com/mconcas)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
