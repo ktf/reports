@@ -31,6 +31,7 @@
 - [\#10505](https://github.com/AliceO2Group/AliceO2/pull/10505) 2023-01-11: ITS Calib: compatibility with data produced with IB commissioning tools by [@iravasen](https://github.com/iravasen)
 - [\#10507](https://github.com/AliceO2Group/AliceO2/pull/10507) 2023-01-12: Fix timerange for Mean Photon Energy by [@gvolpe79](https://github.com/gvolpe79)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
+- [\#10520](https://github.com/AliceO2Group/AliceO2/pull/10520) 2023-01-18: [ITS3, ITS] Modify the description of carbon foam by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10524](https://github.com/AliceO2Group/AliceO2/pull/10524) 2023-01-12: [MCH] merge and relocate tracking workflows by [@pillot](https://github.com/pillot)
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
