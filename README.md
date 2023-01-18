@@ -46,6 +46,7 @@
 - [\#10557](https://github.com/AliceO2Group/AliceO2/pull/10557) 2023-01-13: Generic workflow to study tracking results. by [@shahor02](https://github.com/shahor02)
 - [\#10565](https://github.com/AliceO2Group/AliceO2/pull/10565) 2023-01-16: [FOCAL-10] Add option to process multiple files in pad rootifier by [@mfasDa](https://github.com/mfasDa)
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
+- [\#10573](https://github.com/AliceO2Group/AliceO2/pull/10573) 2023-01-18: Update for average TPC space charge distortion correction by [@martenole](https://github.com/martenole)
 - [\#10574](https://github.com/AliceO2Group/AliceO2/pull/10574) 2023-01-17: Consistently use the systematics alignment variance by [@mpuccio](https://github.com/mpuccio)
 - [\#10575](https://github.com/AliceO2Group/AliceO2/pull/10575) 2023-01-16: Fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
