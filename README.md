@@ -17,7 +17,6 @@
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10500](https://github.com/AliceO2Group/AliceO2/pull/10500) 2023-01-04: TPC: adding number of clusters as type for integration by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10505](https://github.com/AliceO2Group/AliceO2/pull/10505) 2023-01-11: ITS Calib: compatibility with data produced with IB commissioning tools by [@iravasen](https://github.com/iravasen)
 - [\#10507](https://github.com/AliceO2Group/AliceO2/pull/10507) 2023-01-12: Fix timerange for Mean Photon Energy by [@gvolpe79](https://github.com/gvolpe79)
@@ -81,5 +79,4 @@
 ## Recent developments in O2 - Generators
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
-- [\#10499](https://github.com/AliceO2Group/AliceO2/pull/10499) 2023-01-12: New developments for QED treatment in simulation by [@sawenzel](https://github.com/sawenzel)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
