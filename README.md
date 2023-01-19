@@ -27,6 +27,7 @@
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
+- [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10505](https://github.com/AliceO2Group/AliceO2/pull/10505) 2023-01-11: ITS Calib: compatibility with data produced with IB commissioning tools by [@iravasen](https://github.com/iravasen)
 - [\#10507](https://github.com/AliceO2Group/AliceO2/pull/10507) 2023-01-12: Fix timerange for Mean Photon Energy by [@gvolpe79](https://github.com/gvolpe79)
