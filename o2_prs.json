@@ -4,151 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[RFC] TRD: adding PID workflow",
-            "number": 10501,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/aod-producer-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/include/GlobalTrackingWorkflowHelpers/InputHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/ccdbModelUpload.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/ML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/PIDBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/PIDParameters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/TRDPIDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDPIDSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDPIDReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/TRDPIDWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/src/TRDPIDReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/src/TRDPIDWriterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDPIDSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-pid-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2022-12-19T10:09:57Z",
             "title": "Fix in the VDrift selection logic",
@@ -3701,6 +3556,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP]Changes for CRU suppression of zeroes",
+            "number": 10601,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
                   }
                 }
               ]
