@@ -26,6 +26,7 @@
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
+- [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#10500](https://github.com/AliceO2Group/AliceO2/pull/10500) 2023-01-04: TPC: adding number of clusters as type for integration by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10505](https://github.com/AliceO2Group/AliceO2/pull/10505) 2023-01-11: ITS Calib: compatibility with data produced with IB commissioning tools by [@iravasen](https://github.com/iravasen)
@@ -55,6 +56,7 @@
 - [\#10581](https://github.com/AliceO2Group/AliceO2/pull/10581) 2023-01-18: Skip data before TF start is fount in detect-tf0 mode by [@shahor02](https://github.com/shahor02)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10590](https://github.com/AliceO2Group/AliceO2/pull/10590) 2023-01-19: [MCH] activate time dispersion and time clustering in MC by [@pillot](https://github.com/pillot)
+- [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
