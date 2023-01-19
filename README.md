@@ -48,6 +48,7 @@
 - [\#10559](https://github.com/AliceO2Group/AliceO2/pull/10559) 2023-01-18: Upgrade MFT track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10565](https://github.com/AliceO2Group/AliceO2/pull/10565) 2023-01-16: [FOCAL-10] Add option to process multiple files in pad rootifier by [@mfasDa](https://github.com/mfasDa)
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
+- [\#10568](https://github.com/AliceO2Group/AliceO2/pull/10568) 2023-01-19: ITS: Improve seeding with low multiplicity events by [@mconcas](https://github.com/mconcas)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10573](https://github.com/AliceO2Group/AliceO2/pull/10573) 2023-01-18: Update for average TPC space charge distortion correction by [@martenole](https://github.com/martenole)
 - [\#10574](https://github.com/AliceO2Group/AliceO2/pull/10574) 2023-01-17: Consistently use the systematics alignment variance by [@mpuccio](https://github.com/mpuccio)
