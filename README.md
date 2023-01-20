@@ -60,6 +60,7 @@
 - [\#10590](https://github.com/AliceO2Group/AliceO2/pull/10590) 2023-01-19: [MCH] activate time dispersion and time clustering in MC by [@pillot](https://github.com/pillot)
 - [\#10591](https://github.com/AliceO2Group/AliceO2/pull/10591) 2023-01-19: Allow further track selection for TPC interpolation by [@martenole](https://github.com/martenole)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
+- [\#10598](https://github.com/AliceO2Group/AliceO2/pull/10598) 2023-01-20: Change lifetime::timeframe to sporadic in several places by [@davidrohr](https://github.com/davidrohr)
 - [\#10602](https://github.com/AliceO2Group/AliceO2/pull/10602) 2023-01-20: [FOCAL-10] Skip empty HBFs in decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
