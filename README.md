@@ -29,7 +29,6 @@
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10507](https://github.com/AliceO2Group/AliceO2/pull/10507) 2023-01-12: Fix timerange for Mean Photon Energy by [@gvolpe79](https://github.com/gvolpe79)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10520](https://github.com/AliceO2Group/AliceO2/pull/10520) 2023-01-18: [ITS3, ITS] Modify the description of carbon foam by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10524](https://github.com/AliceO2Group/AliceO2/pull/10524) 2023-01-12: [MCH] merge and relocate tracking workflows by [@pillot](https://github.com/pillot)
