@@ -54,11 +54,13 @@
 - [\#10573](https://github.com/AliceO2Group/AliceO2/pull/10573) 2023-01-18: Update for average TPC space charge distortion correction by [@martenole](https://github.com/martenole)
 - [\#10574](https://github.com/AliceO2Group/AliceO2/pull/10574) 2023-01-17: Consistently use the systematics alignment variance by [@mpuccio](https://github.com/mpuccio)
 - [\#10575](https://github.com/AliceO2Group/AliceO2/pull/10575) 2023-01-16: Fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
+- [\#10579](https://github.com/AliceO2Group/AliceO2/pull/10579) 2023-01-20: [EMCAL-565] Add energy interval above 4GeV for bad channel calib by [@jokonig](https://github.com/jokonig)
 - [\#10581](https://github.com/AliceO2Group/AliceO2/pull/10581) 2023-01-18: Skip data before TF start is fount in detect-tf0 mode by [@shahor02](https://github.com/shahor02)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10590](https://github.com/AliceO2Group/AliceO2/pull/10590) 2023-01-19: [MCH] activate time dispersion and time clustering in MC by [@pillot](https://github.com/pillot)
 - [\#10591](https://github.com/AliceO2Group/AliceO2/pull/10591) 2023-01-19: Allow further track selection for TPC interpolation by [@martenole](https://github.com/martenole)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
+- [\#10602](https://github.com/AliceO2Group/AliceO2/pull/10602) 2023-01-20: [FOCAL-10] Skip empty HBFs in decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#10506](https://github.com/AliceO2Group/AliceO2/pull/10506) 2023-01-11: [QC-898] Rename RAW channel type into RAWFMQ by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
