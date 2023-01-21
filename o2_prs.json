@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2022-12-21T17:30:32Z",
-            "title": "Fix TRD refit LT-integral calculation and material accounting",
-            "number": 10509,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-24T19:37:16Z",
             "title": "GPU: Add support for compressed clusters to standalone dump",
             "number": 10510,
@@ -3841,6 +3816,26 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflow/src/cluster-merge-integrator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-01-21T20:42:21Z",
+            "title": "GPU TPC: Fix sign of maxDriftTime when computing time window constraint",
+            "number": 10609,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
                   }
                 }
               ]
