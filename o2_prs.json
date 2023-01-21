@@ -5,131 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-12T15:19:31Z",
-            "title": "TRD: Adding PID",
-            "number": 10508,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/Dummy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/ccdbModelUpload.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/ML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/PIDBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/PIDParameters.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/TRDPIDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/io/src/TRDTrackReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/DataTypes/GPUTRDTrack.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2022-12-21T17:30:32Z",
             "title": "Fix TRD refit LT-integral calculation and material accounting",
             "number": 10509,
@@ -3896,6 +3771,76 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TOF: Adding workflow for integrated TOF currents",
+            "number": 10608,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFIntegratedClusterCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFIntegratedClusterCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFMergeIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFMergeIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/cluster-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/cluster-merge-integrator.cxx"
                   }
                 }
               ]

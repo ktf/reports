@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10534](https://github.com/AliceO2Group/AliceO2/pull/10534) 2023-01-10: Simplify code to get tables by [@ktf](https://github.com/ktf)
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
@@ -18,7 +17,6 @@
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
@@ -30,7 +28,6 @@
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10520](https://github.com/AliceO2Group/AliceO2/pull/10520) 2023-01-18: [ITS3, ITS] Modify the description of carbon foam by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10524](https://github.com/AliceO2Group/AliceO2/pull/10524) 2023-01-12: [MCH] merge and relocate tracking workflows by [@pillot](https://github.com/pillot)
 - [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
@@ -64,7 +61,6 @@
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
-- [\#10508](https://github.com/AliceO2Group/AliceO2/pull/10508) 2023-01-12: TRD: Adding PID by [@f3sch](https://github.com/f3sch)
 - [\#10515](https://github.com/AliceO2Group/AliceO2/pull/10515) 2023-01-08: DPL Analysis: use human-readable types in expression errors by [@aalkin](https://github.com/aalkin)
 - [\#10516](https://github.com/AliceO2Group/AliceO2/pull/10516) 2023-01-09: DPL Analysis: simplify Join and update Concat by [@aalkin](https://github.com/aalkin)
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
