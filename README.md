@@ -27,6 +27,7 @@
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
+- [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10520](https://github.com/AliceO2Group/AliceO2/pull/10520) 2023-01-18: [ITS3, ITS] Modify the description of carbon foam by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10524](https://github.com/AliceO2Group/AliceO2/pull/10524) 2023-01-12: [MCH] merge and relocate tracking workflows by [@pillot](https://github.com/pillot)
@@ -59,6 +60,7 @@
 - [\#10598](https://github.com/AliceO2Group/AliceO2/pull/10598) 2023-01-20: Change lifetime::timeframe to sporadic in several places by [@davidrohr](https://github.com/davidrohr)
 - [\#10602](https://github.com/AliceO2Group/AliceO2/pull/10602) 2023-01-20: [FOCAL-10] Skip empty HBFs in decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
+- [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#10515](https://github.com/AliceO2Group/AliceO2/pull/10515) 2023-01-08: DPL Analysis: use human-readable types in expression errors by [@aalkin](https://github.com/aalkin)
