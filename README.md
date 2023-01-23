@@ -60,6 +60,7 @@
 - [\#10591](https://github.com/AliceO2Group/AliceO2/pull/10591) 2023-01-19: Allow further track selection for TPC interpolation by [@martenole](https://github.com/martenole)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10598](https://github.com/AliceO2Group/AliceO2/pull/10598) 2023-01-20: Change lifetime::timeframe to sporadic in several places by [@davidrohr](https://github.com/davidrohr)
+- [\#10600](https://github.com/AliceO2Group/AliceO2/pull/10600) 2023-01-23: ITS: Add protection from bogus vtx coordinate by [@mconcas](https://github.com/mconcas)
 - [\#10602](https://github.com/AliceO2Group/AliceO2/pull/10602) 2023-01-20: [FOCAL-10] Skip empty HBFs in decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
