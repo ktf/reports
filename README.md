@@ -86,6 +86,7 @@
 - [\#10586](https://github.com/AliceO2Group/AliceO2/pull/10586) 2023-01-18: Improve error message, add one possible cause of failure that caused … by [@davidrohr](https://github.com/davidrohr)
 - [\#10613](https://github.com/AliceO2Group/AliceO2/pull/10613) 2023-01-23: DPL: add profiling policy for message size by [@ktf](https://github.com/ktf)
 - [\#10614](https://github.com/AliceO2Group/AliceO2/pull/10614) 2023-01-23: DPL: attempt at hiding boost deprecation message by [@ktf](https://github.com/ktf)
+- [\#10617](https://github.com/AliceO2Group/AliceO2/pull/10617) 2023-01-23: Revert "Add metadata to AOD writer inputs (#10531)" by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Generators
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
