@@ -37,6 +37,7 @@
 - [\#10540](https://github.com/AliceO2Group/AliceO2/pull/10540) 2023-01-17: Discard TRD tracks with bad quality by [@martenole](https://github.com/martenole)
 - [\#10542](https://github.com/AliceO2Group/AliceO2/pull/10542) 2023-01-13: Temporarily remove alpide test and improve ITSRESPONSE location by [@mconcas](https://github.com/mconcas)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
+- [\#10545](https://github.com/AliceO2Group/AliceO2/pull/10545) 2023-01-23: [FDD] Now propagate avg time for all the BCs in Rec  by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10551](https://github.com/AliceO2Group/AliceO2/pull/10551) 2023-01-16: [MFT] Bugfix minimal number of ROFs per MFT tracker thread by [@rpezzi](https://github.com/rpezzi)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
