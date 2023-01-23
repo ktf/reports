@@ -68,7 +68,6 @@
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#10516](https://github.com/AliceO2Group/AliceO2/pull/10516) 2023-01-09: DPL Analysis: simplify Join and update Concat by [@aalkin](https://github.com/aalkin)
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
 - [\#10525](https://github.com/AliceO2Group/AliceO2/pull/10525) 2023-01-06: DPL: cleanup InputRecord::get by [@ktf](https://github.com/ktf)
