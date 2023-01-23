@@ -64,6 +64,7 @@
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
+- [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#10516](https://github.com/AliceO2Group/AliceO2/pull/10516) 2023-01-09: DPL Analysis: simplify Join and update Concat by [@aalkin](https://github.com/aalkin)
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
