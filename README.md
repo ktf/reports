@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10534](https://github.com/AliceO2Group/AliceO2/pull/10534) 2023-01-10: Simplify code to get tables by [@ktf](https://github.com/ktf)
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
 - [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
@@ -10,7 +9,6 @@
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
@@ -70,7 +68,6 @@
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
 - [\#10525](https://github.com/AliceO2Group/AliceO2/pull/10525) 2023-01-06: DPL: cleanup InputRecord::get by [@ktf](https://github.com/ktf)
 - [\#10531](https://github.com/AliceO2Group/AliceO2/pull/10531) 2023-01-10: Add metadata to AOD writer inputs by [@nburmaso](https://github.com/nburmaso)
