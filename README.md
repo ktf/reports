@@ -68,7 +68,6 @@
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
 - [\#10525](https://github.com/AliceO2Group/AliceO2/pull/10525) 2023-01-06: DPL: cleanup InputRecord::get by [@ktf](https://github.com/ktf)
 - [\#10531](https://github.com/AliceO2Group/AliceO2/pull/10531) 2023-01-10: Add metadata to AOD writer inputs by [@nburmaso](https://github.com/nburmaso)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
