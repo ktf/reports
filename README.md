@@ -67,6 +67,7 @@
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
+- [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#10522](https://github.com/AliceO2Group/AliceO2/pull/10522) 2023-01-11: DPL: introduce a O2DatabasePDG with all the customizations by [@ktf](https://github.com/ktf)
 - [\#10523](https://github.com/AliceO2Group/AliceO2/pull/10523) 2023-01-05: DPL Analysis: fix unit tests by [@ktf](https://github.com/ktf)
