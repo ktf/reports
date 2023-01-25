@@ -15,7 +15,6 @@
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -28,7 +27,6 @@
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10527](https://github.com/AliceO2Group/AliceO2/pull/10527) 2023-01-07: Fix: revert ITS/MFT cluster dict. hashing to original murmur2 f-n by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10537](https://github.com/AliceO2Group/AliceO2/pull/10537) 2023-01-11: Allow usage of additional track information for TPC SCD map creation by [@martenole](https://github.com/martenole)
 - [\#10540](https://github.com/AliceO2Group/AliceO2/pull/10540) 2023-01-17: Discard TRD tracks with bad quality by [@martenole](https://github.com/martenole)
