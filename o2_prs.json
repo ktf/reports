@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-08T09:29:42Z",
-            "title": "Improvements for storage of outer track parameters and of cluster attachment of looping tracks",
-            "number": 10529,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-10T08:45:32Z",
             "title": "GPU: Fix cluster-attachment leg assignment for CE crossing tracks",
             "number": 10530,
@@ -3916,6 +3881,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TimesliceIndex.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-11] Drop empty timeframes in reader",
+            "number": 10629,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/Event.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/src/Event.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/EventReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/base/src/TestbeamAnalysis.cxx"
                   }
                 }
               ]
