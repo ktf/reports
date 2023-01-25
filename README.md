@@ -9,13 +9,11 @@
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
-- [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10528](https://github.com/AliceO2Group/AliceO2/pull/10528) 2023-01-10: Check/fix for wraps in InteracitonRecord arithmetic by [@shahor02](https://github.com/shahor02)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
