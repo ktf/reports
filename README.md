@@ -81,6 +81,7 @@
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10586](https://github.com/AliceO2Group/AliceO2/pull/10586) 2023-01-18: Improve error message, add one possible cause of failure that caused … by [@davidrohr](https://github.com/davidrohr)
+- [\#10605](https://github.com/AliceO2Group/AliceO2/pull/10605) 2023-01-25: DPL: Make sure that DPL proxy ready fast channels fast-enough in multi-channel setup by [@davidrohr](https://github.com/davidrohr)
 - [\#10613](https://github.com/AliceO2Group/AliceO2/pull/10613) 2023-01-23: DPL: add profiling policy for message size by [@ktf](https://github.com/ktf)
 - [\#10614](https://github.com/AliceO2Group/AliceO2/pull/10614) 2023-01-23: DPL: attempt at hiding boost deprecation message by [@ktf](https://github.com/ktf)
 - [\#10615](https://github.com/AliceO2Group/AliceO2/pull/10615) 2023-01-24: DPL: translate FairLogger's detail to Infologger's debug by [@knopers8](https://github.com/knopers8)
