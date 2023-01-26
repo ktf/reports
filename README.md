@@ -60,6 +60,7 @@
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
+- [\#10608](https://github.com/AliceO2Group/AliceO2/pull/10608) 2023-01-26: TOF: Adding workflow for integrated TOF currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 - [\#10616](https://github.com/AliceO2Group/AliceO2/pull/10616) 2023-01-25: TPC SAC: Changing name of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
