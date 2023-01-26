@@ -58,6 +58,7 @@
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
+- [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#10608](https://github.com/AliceO2Group/AliceO2/pull/10608) 2023-01-26: TOF: Adding workflow for integrated TOF currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10610](https://github.com/AliceO2Group/AliceO2/pull/10610) 2023-01-23: TRD raw reader improve RDH check by [@martenole](https://github.com/martenole)
 - [\#10616](https://github.com/AliceO2Group/AliceO2/pull/10616) 2023-01-25: TPC SAC: Changing name of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -88,4 +89,5 @@
 - [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
+- [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
