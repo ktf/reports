@@ -70,7 +70,6 @@
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10531](https://github.com/AliceO2Group/AliceO2/pull/10531) 2023-01-10: Add metadata to AOD writer inputs by [@nburmaso](https://github.com/nburmaso)
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10534](https://github.com/AliceO2Group/AliceO2/pull/10534) 2023-01-10: Simplify code to get tables by [@ktf](https://github.com/ktf)
 - [\#10536](https://github.com/AliceO2Group/AliceO2/pull/10536) 2023-01-10: DPL Analysis: initial support for enumerations by [@ktf](https://github.com/ktf)
