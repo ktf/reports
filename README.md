@@ -12,7 +12,6 @@
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)
@@ -85,8 +84,6 @@
 - [\#10617](https://github.com/AliceO2Group/AliceO2/pull/10617) 2023-01-23: Revert "Add metadata to AOD writer inputs (#10531)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#10539](https://github.com/AliceO2Group/AliceO2/pull/10539) 2023-01-14: Refine and add utilities for MCGenStatus by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
