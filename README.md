@@ -9,6 +9,7 @@
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
+- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Common
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
@@ -26,6 +27,7 @@
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
+- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#10533](https://github.com/AliceO2Group/AliceO2/pull/10533) 2023-01-10: Revert "Use https for alice-ccdb.cern.ch" by [@davidrohr](https://github.com/davidrohr)
 - [\#10537](https://github.com/AliceO2Group/AliceO2/pull/10537) 2023-01-11: Allow usage of additional track information for TPC SCD map creation by [@martenole](https://github.com/martenole)
@@ -67,6 +69,7 @@
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 - [\#10622](https://github.com/AliceO2Group/AliceO2/pull/10622) 2023-01-25: More work on space charge distortion correction maps by [@martenole](https://github.com/martenole)
 - [\#10627](https://github.com/AliceO2Group/AliceO2/pull/10627) 2023-01-26: Fix warning by [@ktf](https://github.com/ktf)
+- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
