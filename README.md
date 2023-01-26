@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
 - [\#10561](https://github.com/AliceO2Group/AliceO2/pull/10561) 2023-01-13: DPL: use transparent wrapper for LoadableServicePlugin by [@ktf](https://github.com/ktf)
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
@@ -70,7 +69,6 @@
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10538](https://github.com/AliceO2Group/AliceO2/pull/10538) 2023-01-10: PDG Database unittest by [@ktf](https://github.com/ktf)
 - [\#10541](https://github.com/AliceO2Group/AliceO2/pull/10541) 2023-01-11: [O2-3489] DPL Analysis: correctly account for offset when accessing sliced boolean column by [@aalkin](https://github.com/aalkin)
 - [\#10546](https://github.com/AliceO2Group/AliceO2/pull/10546) 2023-01-13: DPL GUI: add compatibility with DebugGUI v0.7.0 by [@ktf](https://github.com/ktf)
 - [\#10550](https://github.com/AliceO2Group/AliceO2/pull/10550) 2023-01-12: DPL: fix missing includes by [@ktf](https://github.com/ktf)
