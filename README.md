@@ -72,7 +72,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10546](https://github.com/AliceO2Group/AliceO2/pull/10546) 2023-01-13: DPL GUI: add compatibility with DebugGUI v0.7.0 by [@ktf](https://github.com/ktf)
 - [\#10550](https://github.com/AliceO2Group/AliceO2/pull/10550) 2023-01-12: DPL: fix missing includes by [@ktf](https://github.com/ktf)
 - [\#10561](https://github.com/AliceO2Group/AliceO2/pull/10561) 2023-01-13: DPL: use transparent wrapper for LoadableServicePlugin by [@ktf](https://github.com/ktf)
 - [\#10569](https://github.com/AliceO2Group/AliceO2/pull/10569) 2023-01-16: DPL GUI: Try to get newly deprecated code to work by [@ktf](https://github.com/ktf)
