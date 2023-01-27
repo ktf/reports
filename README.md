@@ -8,6 +8,7 @@
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
+- [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
@@ -87,6 +88,7 @@
 - [\#10617](https://github.com/AliceO2Group/AliceO2/pull/10617) 2023-01-23: Revert "Add metadata to AOD writer inputs (#10531)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
+- [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
