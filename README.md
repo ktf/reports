@@ -25,7 +25,6 @@
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10542](https://github.com/AliceO2Group/AliceO2/pull/10542) 2023-01-13: Temporarily remove alpide test and improve ITSRESPONSE location by [@mconcas](https://github.com/mconcas)
 - [\#10544](https://github.com/AliceO2Group/AliceO2/pull/10544) 2023-01-12: Include EMCAL and PHOS/CPV in fake CTP readout by [@mfasDa](https://github.com/mfasDa)
 - [\#10545](https://github.com/AliceO2Group/AliceO2/pull/10545) 2023-01-23: [FDD] Now propagate avg time for all the BCs in Rec  by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
