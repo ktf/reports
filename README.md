@@ -26,7 +26,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10545](https://github.com/AliceO2Group/AliceO2/pull/10545) 2023-01-23: [FDD] Now propagate avg time for all the BCs in Rec  by [@arvindkhuntia](https://github.com/arvindkhuntia)
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10551](https://github.com/AliceO2Group/AliceO2/pull/10551) 2023-01-16: [MFT] Bugfix minimal number of ROFs per MFT tracker thread by [@rpezzi](https://github.com/rpezzi)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
