@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-17T09:15:33Z",
-            "title": "Discard TRD tracks with bad quality",
-            "number": 10540,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-11T19:47:15Z",
             "title": "[O2-3489] DPL Analysis: correctly account for offset when accessing sliced boolean column",
             "number": 10541,
@@ -3821,6 +3791,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix typo in socket config preventing o2sim_mctracks_proxy to work",
+            "number": 10640,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/SimExamples/MCTrackToDPL/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_proxy.cxx"
                   }
                 }
               ]
