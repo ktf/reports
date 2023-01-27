@@ -68,6 +68,7 @@
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
+- [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
