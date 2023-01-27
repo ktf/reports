@@ -71,6 +71,7 @@
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
+- [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10541](https://github.com/AliceO2Group/AliceO2/pull/10541) 2023-01-11: [O2-3489] DPL Analysis: correctly account for offset when accessing sliced boolean column by [@aalkin](https://github.com/aalkin)
 - [\#10546](https://github.com/AliceO2Group/AliceO2/pull/10546) 2023-01-13: DPL GUI: add compatibility with DebugGUI v0.7.0 by [@ktf](https://github.com/ktf)
