@@ -13,6 +13,7 @@
 - [\#10548](https://github.com/AliceO2Group/AliceO2/pull/10548) 2023-01-12: FileFetcher run alien_cp in debug mode by [@shahor02](https://github.com/shahor02)
 - [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
+- [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - DataFormats
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)

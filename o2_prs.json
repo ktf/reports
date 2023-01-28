@@ -4,20 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Tracking QC: Add Efficiency vs Phi, Eta and Pt",
-            "number": 10547,
-            "author": {
-              "login": "jloemker"
-            },
-            "files": {
-              "edges": []
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-01-12T09:10:20Z",
             "title": "FileFetcher run alien_cp in debug mode",
@@ -2630,7 +2616,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Support for unpadded raw data",
+            "title": "[O2-3525] Support for unpadded raw data, RDHv7",
             "number": 10612,
             "author": {
               "login": "shahor02"
@@ -2660,6 +2646,11 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/MFT/simulation/src/digi2raw.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DecodingStat.h"
                   }
                 },
                 {
@@ -2709,6 +2700,11 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Raw/README.md"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/Raw/include/DetectorsRaw/RDHUtils.h"
                   }
                 },
@@ -2730,6 +2726,11 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/test/testRawReaderWriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
                   }
                 },
                 {
@@ -3738,8 +3739,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-01-28T01:44:53Z",
             "title": "Create DCAFitter under ./Common",
             "number": 10644,
             "author": {
@@ -3855,6 +3856,66 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/workflow/src/digits-to-clusters-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Revert \"Create DCAFitter under ./Common\"",
+            "number": 10647,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/FwdDCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/src/DCAFitterLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/src/DCAFitterN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/src/FwdDCAFitterN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/test/testDCAFitterN.cxx"
                   }
                 }
               ]
