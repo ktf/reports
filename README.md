@@ -65,6 +65,7 @@
 - [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10616](https://github.com/AliceO2Group/AliceO2/pull/10616) 2023-01-25: TPC SAC: Changing name of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
+- [\#10621](https://github.com/AliceO2Group/AliceO2/pull/10621) 2023-01-30: new structure to handle MCH processing errors by [@pillot](https://github.com/pillot)
 - [\#10622](https://github.com/AliceO2Group/AliceO2/pull/10622) 2023-01-25: More work on space charge distortion correction maps by [@martenole](https://github.com/martenole)
 - [\#10627](https://github.com/AliceO2Group/AliceO2/pull/10627) 2023-01-26: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
