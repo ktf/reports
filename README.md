@@ -29,7 +29,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10551](https://github.com/AliceO2Group/AliceO2/pull/10551) 2023-01-16: [MFT] Bugfix minimal number of ROFs per MFT tracker thread by [@rpezzi](https://github.com/rpezzi)
 - [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10555](https://github.com/AliceO2Group/AliceO2/pull/10555) 2023-01-15: ITS: add macro to check seeds by [@mconcas](https://github.com/mconcas)
 - [\#10557](https://github.com/AliceO2Group/AliceO2/pull/10557) 2023-01-13: Generic workflow to study tracking results. by [@shahor02](https://github.com/shahor02)
