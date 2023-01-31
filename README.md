@@ -15,7 +15,6 @@
 - [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - DataFormats
-- [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10554](https://github.com/AliceO2Group/AliceO2/pull/10554) 2023-01-12: FT0 reco: time calc default filter parameters are changed by [@afurs](https://github.com/afurs)
 - [\#10555](https://github.com/AliceO2Group/AliceO2/pull/10555) 2023-01-15: ITS: add macro to check seeds by [@mconcas](https://github.com/mconcas)
 - [\#10557](https://github.com/AliceO2Group/AliceO2/pull/10557) 2023-01-13: Generic workflow to study tracking results. by [@shahor02](https://github.com/shahor02)
 - [\#10558](https://github.com/AliceO2Group/AliceO2/pull/10558) 2023-01-19: [MFTAssessment] Add Histograms for fakes, primary tracks and others by [@rpezzi](https://github.com/rpezzi)
