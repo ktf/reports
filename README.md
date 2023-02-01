@@ -70,6 +70,7 @@
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 - [\#10645](https://github.com/AliceO2Group/AliceO2/pull/10645) 2023-01-27: Flag to allow duplicate processing by [@martenole](https://github.com/martenole)
 - [\#10651](https://github.com/AliceO2Group/AliceO2/pull/10651) 2023-01-31: Fix in detection of the CRU page end for RDHv7 ITS data by [@shahor02](https://github.com/shahor02)
+- [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
