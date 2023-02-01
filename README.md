@@ -26,7 +26,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10565](https://github.com/AliceO2Group/AliceO2/pull/10565) 2023-01-16: [FOCAL-10] Add option to process multiple files in pad rootifier by [@mfasDa](https://github.com/mfasDa)
 - [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10568](https://github.com/AliceO2Group/AliceO2/pull/10568) 2023-01-19: ITS: Improve seeding with low multiplicity events by [@mconcas](https://github.com/mconcas)
