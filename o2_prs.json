@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-18T20:12:49Z",
-            "title": "Upgrade MFT track finder",
-            "number": 10559,
-            "author": {
-              "login": "rpezzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/MFTTrackingParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/ROframe.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/Tracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/TrackerConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/src/IOUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/src/ROframe.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/tracking/src/TrackerConfig.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/include/MFTWorkflow/TrackerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-18T07:58:19Z",
             "title": "CCDBManager: Set condition-not-after in constructor when env variable…",
             "number": 10560,
@@ -4121,6 +4051,96 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/qc/src/Clusters.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Avoid exposing boost / DeviceInfo in metrics",
+            "number": 10659,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ClusterDecoderRawSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceMetricsInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlWebSocketHandler.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/LifetimeHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ResourcesMonitoringHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ServiceRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
