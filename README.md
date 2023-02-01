@@ -14,8 +14,6 @@
 - [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - DataFormats
-- [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)
-- [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
@@ -26,8 +24,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10566](https://github.com/AliceO2Group/AliceO2/pull/10566) 2023-01-24: MCH: properly configure the slot finalization by [@aferrero2707](https://github.com/aferrero2707)
-- [\#10567](https://github.com/AliceO2Group/AliceO2/pull/10567) 2023-01-16: ctp: trigger offsets and config tests by [@lietava](https://github.com/lietava)
 - [\#10568](https://github.com/AliceO2Group/AliceO2/pull/10568) 2023-01-19: ITS: Improve seeding with low multiplicity events by [@mconcas](https://github.com/mconcas)
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10573](https://github.com/AliceO2Group/AliceO2/pull/10573) 2023-01-18: Update for average TPC space charge distortion correction by [@martenole](https://github.com/martenole)
