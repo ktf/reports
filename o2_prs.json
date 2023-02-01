@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Changes for CRU suppression of zeroes",
-            "number": 10563,
-            "author": {
-              "login": "preghenella"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Please consider the following formatting changes to #10563",
@@ -4136,6 +4116,246 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0/FV0/TPC: adding workflows for integrated currents",
+            "number": 10663,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/cluster-integrator-reader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/cluster-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/cluster-merge-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/cluster-integrator-reader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/cluster-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/cluster-merge-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITIntegrateClusterReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITIntegrateClusterWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITMergeIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/src/FITIntegrateClusterReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/src/FITIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/src/FITIntegrateClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/src/FITMergeIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/include/TOFCalibration/TOFIntegratedClusterCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/src/TOFIntegratedClusterCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflow/src/TOFMergeIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflowIO/src/TOFIntegrateClusterReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CDBInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCFactorization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCFactorization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCDistributeIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCIntegrateClusterCurrent.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCIntegrateClusterReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCIntegrateClusterWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCMergeIntegrateClusterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCIntegrateClusterReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCIntegrateClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCMergeIntegrateClusterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/cluster-integrator-reader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/cluster-merge-integrator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-distribute-idc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-factorize-idc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-integrate-cluster-currents.cxx"
                   }
                 }
               ]
