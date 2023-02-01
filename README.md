@@ -27,7 +27,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10557](https://github.com/AliceO2Group/AliceO2/pull/10557) 2023-01-13: Generic workflow to study tracking results. by [@shahor02](https://github.com/shahor02)
 - [\#10558](https://github.com/AliceO2Group/AliceO2/pull/10558) 2023-01-19: [MFTAssessment] Add Histograms for fakes, primary tracks and others by [@rpezzi](https://github.com/rpezzi)
 - [\#10559](https://github.com/AliceO2Group/AliceO2/pull/10559) 2023-01-18: Upgrade MFT track finder by [@rpezzi](https://github.com/rpezzi)
 - [\#10565](https://github.com/AliceO2Group/AliceO2/pull/10565) 2023-01-16: [FOCAL-10] Add option to process multiple files in pad rootifier by [@mfasDa](https://github.com/mfasDa)
