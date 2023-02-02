@@ -55,6 +55,7 @@
 - [\#10622](https://github.com/AliceO2Group/AliceO2/pull/10622) 2023-01-25: More work on space charge distortion correction maps by [@martenole](https://github.com/martenole)
 - [\#10627](https://github.com/AliceO2Group/AliceO2/pull/10627) 2023-01-26: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
+- [\#10630](https://github.com/AliceO2Group/AliceO2/pull/10630) 2023-02-02: Add TTree aliases for scd map results by [@martenole](https://github.com/martenole)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10633](https://github.com/AliceO2Group/AliceO2/pull/10633) 2023-01-27: ITS-digi: Fatalise if response file not found by [@mconcas](https://github.com/mconcas)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
