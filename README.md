@@ -14,7 +14,6 @@
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
@@ -24,7 +23,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10573](https://github.com/AliceO2Group/AliceO2/pull/10573) 2023-01-18: Update for average TPC space charge distortion correction by [@martenole](https://github.com/martenole)
 - [\#10574](https://github.com/AliceO2Group/AliceO2/pull/10574) 2023-01-17: Consistently use the systematics alignment variance by [@mpuccio](https://github.com/mpuccio)
 - [\#10575](https://github.com/AliceO2Group/AliceO2/pull/10575) 2023-01-16: Fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
