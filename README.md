@@ -23,7 +23,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10574](https://github.com/AliceO2Group/AliceO2/pull/10574) 2023-01-17: Consistently use the systematics alignment variance by [@mpuccio](https://github.com/mpuccio)
 - [\#10575](https://github.com/AliceO2Group/AliceO2/pull/10575) 2023-01-16: Fix compiler warnings by [@davidrohr](https://github.com/davidrohr)
 - [\#10577](https://github.com/AliceO2Group/AliceO2/pull/10577) 2023-01-23: Fix RDH error bits decoding by [@fapfap69](https://github.com/fapfap69)
 - [\#10579](https://github.com/AliceO2Group/AliceO2/pull/10579) 2023-01-20: [EMCAL-565] Add energy interval above 4GeV for bad channel calib by [@jokonig](https://github.com/jokonig)
