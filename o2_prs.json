@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-23T08:41:00Z",
-            "title": "Fix RDH error bits decoding",
-            "number": 10577,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/HmpidDecoder2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/include/HMPIDReconstruction/HmpidEquipment.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/src/HmpidDecoder2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-18T08:44:44Z",
             "title": "DPL Analysis: add a static constexpr function to check if a Join contains certain component",
             "number": 10578,
@@ -4256,6 +4226,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS noise calibr: correct counting of total number of strobes in Norm mode",
+            "number": 10677,
+            "author": {
+              "login": "iravasen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibratorSpec.cxx"
                   }
                 }
               ]
