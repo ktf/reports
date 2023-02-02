@@ -59,6 +59,7 @@
 - [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
 - [\#10655](https://github.com/AliceO2Group/AliceO2/pull/10655) 2023-02-01: [EMCAL-830] Handling of MC labels by [@mfasDa](https://github.com/mfasDa)
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
+- [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
