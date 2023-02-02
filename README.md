@@ -82,6 +82,7 @@
 - [\#10615](https://github.com/AliceO2Group/AliceO2/pull/10615) 2023-01-24: DPL: translate FairLogger's detail to Infologger's debug by [@knopers8](https://github.com/knopers8)
 - [\#10617](https://github.com/AliceO2Group/AliceO2/pull/10617) 2023-01-23: Revert "Add metadata to AOD writer inputs (#10531)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
+- [\#10628](https://github.com/AliceO2Group/AliceO2/pull/10628) 2023-02-02: DPL: Fixes in timers by [@knopers8](https://github.com/knopers8)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
