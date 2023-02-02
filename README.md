@@ -14,6 +14,7 @@
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
+- [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10572](https://github.com/AliceO2Group/AliceO2/pull/10572) 2023-01-18: Misc. unrelated small fixes. by [@shahor02](https://github.com/shahor02)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
@@ -85,6 +86,7 @@
 - [\#10628](https://github.com/AliceO2Group/AliceO2/pull/10628) 2023-02-02: DPL: Fixes in timers by [@knopers8](https://github.com/knopers8)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
+- [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
