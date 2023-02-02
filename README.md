@@ -82,6 +82,7 @@
 - [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
+- [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
