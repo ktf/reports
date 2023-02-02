@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-18T15:18:35Z",
-            "title": "Update for average TPC space charge distortion correction",
-            "number": 10573,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/src/TPCInterpolationSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/SpacePointsCalibConfParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackResiduals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/macro/staticMapCreator.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackResiduals.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-17T12:23:02Z",
             "title": "Consistently use the systematics alignment variance",
             "number": 10574,
@@ -4271,6 +4216,51 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/pid/src/TRDPIDNoMLLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "dpl-workflow.sh can optionally be split into multiple invocations",
+            "number": 10673,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/include/CTPWorkflow/RecoWorkflow.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/CellRecalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackletConstructor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
