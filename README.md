@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10599](https://github.com/AliceO2Group/AliceO2/pull/10599) 2023-01-27: DPL: have separate include for RootMessageContext by [@ktf](https://github.com/ktf)
 - [\#10601](https://github.com/AliceO2Group/AliceO2/pull/10601) 2023-02-02: Changes for CRU suppression of zeroes by [@noferini](https://github.com/noferini)
@@ -10,7 +9,6 @@
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
@@ -72,7 +70,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10570](https://github.com/AliceO2Group/AliceO2/pull/10570) 2023-01-16: DPL Analysis: drop direct dependency on libPhysics by [@ktf](https://github.com/ktf)
 - [\#10578](https://github.com/AliceO2Group/AliceO2/pull/10578) 2023-01-18: DPL Analysis: add a static constexpr function to check if a Join contains certain component by [@aalkin](https://github.com/aalkin)
 - [\#10586](https://github.com/AliceO2Group/AliceO2/pull/10586) 2023-01-18: Improve error message, add one possible cause of failure that caused … by [@davidrohr](https://github.com/davidrohr)
 - [\#10599](https://github.com/AliceO2Group/AliceO2/pull/10599) 2023-01-27: DPL: have separate include for RootMessageContext by [@ktf](https://github.com/ktf)
