@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-23T14:42:19Z",
-            "title": "Separate cluster attachment chi2 from total chi2 selections",
-            "number": 10592,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackerTraits.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/run_trac_ca_its.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-19T13:56:47Z",
             "title": "[FOCAL-10] Fixes for merging pad and pixel data",
             "number": 10593,
@@ -4286,6 +4221,26 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Pass correct GCC toolchain to hipcc, since autodetection seems n…",
+            "number": 10692,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
                   }
                 }
               ]

@@ -21,7 +21,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10592](https://github.com/AliceO2Group/AliceO2/pull/10592) 2023-01-23: Separate cluster attachment chi2 from total chi2 selections by [@mpuccio](https://github.com/mpuccio)
 - [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10596](https://github.com/AliceO2Group/AliceO2/pull/10596) 2023-01-26: TPC IDC: optimizing outlier filtering by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10598](https://github.com/AliceO2Group/AliceO2/pull/10598) 2023-01-20: Change lifetime::timeframe to sporadic in several places by [@davidrohr](https://github.com/davidrohr)
