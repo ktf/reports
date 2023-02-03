@@ -64,7 +64,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10586](https://github.com/AliceO2Group/AliceO2/pull/10586) 2023-01-18: Improve error message, add one possible cause of failure that caused … by [@davidrohr](https://github.com/davidrohr)
 - [\#10599](https://github.com/AliceO2Group/AliceO2/pull/10599) 2023-01-27: DPL: have separate include for RootMessageContext by [@ktf](https://github.com/ktf)
 - [\#10605](https://github.com/AliceO2Group/AliceO2/pull/10605) 2023-01-25: DPL: Make sure that DPL proxy ready fast channels fast-enough in multi-channel setup by [@davidrohr](https://github.com/davidrohr)
 - [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
