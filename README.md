@@ -12,7 +12,6 @@
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10595](https://github.com/AliceO2Group/AliceO2/pull/10595) 2023-01-19: treat MC QED background labels as not valid by [@sawenzel](https://github.com/sawenzel)
 - [\#10604](https://github.com/AliceO2Group/AliceO2/pull/10604) 2023-01-22: account for pileup in TRD timing estimate by [@shahor02](https://github.com/shahor02)
 - [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
@@ -21,7 +20,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10593](https://github.com/AliceO2Group/AliceO2/pull/10593) 2023-01-19: [FOCAL-10] Fixes for merging pad and pixel data by [@mfasDa](https://github.com/mfasDa)
 - [\#10596](https://github.com/AliceO2Group/AliceO2/pull/10596) 2023-01-26: TPC IDC: optimizing outlier filtering by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10598](https://github.com/AliceO2Group/AliceO2/pull/10598) 2023-01-20: Change lifetime::timeframe to sporadic in several places by [@davidrohr](https://github.com/davidrohr)
 - [\#10600](https://github.com/AliceO2Group/AliceO2/pull/10600) 2023-01-23: ITS: Add protection from bogus vtx coordinate by [@mconcas](https://github.com/mconcas)
