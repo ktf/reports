@@ -58,6 +58,7 @@
 - [\#10678](https://github.com/AliceO2Group/AliceO2/pull/10678) 2023-02-03: fix for decoding unpadded ITS/MFT data with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10679](https://github.com/AliceO2Group/AliceO2/pull/10679) 2023-02-03: Several fixes and add readers/writers to dpl-workflow.sh that are needed for QC tasks, when workflow is split in multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
+- [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
