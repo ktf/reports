@@ -22,7 +22,6 @@
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10581](https://github.com/AliceO2Group/AliceO2/pull/10581) 2023-01-18: Skip data before TF start is fount in detect-tf0 mode by [@shahor02](https://github.com/shahor02)
 - [\#10585](https://github.com/AliceO2Group/AliceO2/pull/10585) 2023-01-18: o2-sim: Support for low energy neutron transport (Geant4 and Fluka) by [@sawenzel](https://github.com/sawenzel)
 - [\#10590](https://github.com/AliceO2Group/AliceO2/pull/10590) 2023-01-19: [MCH] activate time dispersion and time clustering in MC by [@pillot](https://github.com/pillot)
 - [\#10591](https://github.com/AliceO2Group/AliceO2/pull/10591) 2023-01-19: Allow further track selection for TPC interpolation by [@martenole](https://github.com/martenole)
