@@ -18,6 +18,7 @@
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
+- [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#10600](https://github.com/AliceO2Group/AliceO2/pull/10600) 2023-01-23: ITS: Add protection from bogus vtx coordinate by [@mconcas](https://github.com/mconcas)
 - [\#10601](https://github.com/AliceO2Group/AliceO2/pull/10601) 2023-02-02: Changes for CRU suppression of zeroes by [@noferini](https://github.com/noferini)
@@ -58,6 +59,7 @@
 - [\#10679](https://github.com/AliceO2Group/AliceO2/pull/10679) 2023-02-03: Several fixes and add readers/writers to dpl-workflow.sh that are needed for QC tasks, when workflow is split in multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#10682](https://github.com/AliceO2Group/AliceO2/pull/10682) 2023-02-04: Fix race condition when creating a folder on mac by [@ktf](https://github.com/ktf)
+- [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 - [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Examples
