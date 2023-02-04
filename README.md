@@ -48,6 +48,7 @@
 - [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
 - [\#10655](https://github.com/AliceO2Group/AliceO2/pull/10655) 2023-02-01: [EMCAL-830] Handling of MC labels by [@mfasDa](https://github.com/mfasDa)
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
+- [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
 - [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
@@ -57,6 +58,7 @@
 - [\#10679](https://github.com/AliceO2Group/AliceO2/pull/10679) 2023-02-03: Several fixes and add readers/writers to dpl-workflow.sh that are needed for QC tasks, when workflow is split in multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
+- [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
