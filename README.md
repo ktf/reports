@@ -48,6 +48,7 @@
 - [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
 - [\#10655](https://github.com/AliceO2Group/AliceO2/pull/10655) 2023-02-01: [EMCAL-830] Handling of MC labels by [@mfasDa](https://github.com/mfasDa)
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
+- [\#10663](https://github.com/AliceO2Group/AliceO2/pull/10663) 2023-02-04: FT0/FV0/TPC: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
