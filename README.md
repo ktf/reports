@@ -18,6 +18,7 @@
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
+- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#10600](https://github.com/AliceO2Group/AliceO2/pull/10600) 2023-01-23: ITS: Add protection from bogus vtx coordinate by [@mconcas](https://github.com/mconcas)
@@ -43,6 +44,7 @@
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 - [\#10645](https://github.com/AliceO2Group/AliceO2/pull/10645) 2023-01-27: Flag to allow duplicate processing by [@martenole](https://github.com/martenole)
+- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10651](https://github.com/AliceO2Group/AliceO2/pull/10651) 2023-01-31: Fix in detection of the CRU page end for RDHv7 ITS data by [@shahor02](https://github.com/shahor02)
 - [\#10653](https://github.com/AliceO2Group/AliceO2/pull/10653) 2023-02-02: MCH: add bpackets output in calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
@@ -83,3 +85,4 @@
 ## Recent developments in O2 - Steer
 - [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
+- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
