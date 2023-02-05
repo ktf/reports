@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10599](https://github.com/AliceO2Group/AliceO2/pull/10599) 2023-01-27: DPL: have separate include for RootMessageContext by [@ktf](https://github.com/ktf)
 - [\#10601](https://github.com/AliceO2Group/AliceO2/pull/10601) 2023-02-02: Changes for CRU suppression of zeroes by [@noferini](https://github.com/noferini)
 - [\#10606](https://github.com/AliceO2Group/AliceO2/pull/10606) 2023-01-20: [FOCAL-11] Provide simple base analysis task for TB events by [@mfasDa](https://github.com/mfasDa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
@@ -68,7 +67,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10599](https://github.com/AliceO2Group/AliceO2/pull/10599) 2023-01-27: DPL: have separate include for RootMessageContext by [@ktf](https://github.com/ktf)
 - [\#10605](https://github.com/AliceO2Group/AliceO2/pull/10605) 2023-01-25: DPL: Make sure that DPL proxy ready fast channels fast-enough in multi-channel setup by [@davidrohr](https://github.com/davidrohr)
 - [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10613](https://github.com/AliceO2Group/AliceO2/pull/10613) 2023-01-23: DPL: add profiling policy for message size by [@ktf](https://github.com/ktf)
