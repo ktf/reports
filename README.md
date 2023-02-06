@@ -22,7 +22,6 @@
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10600](https://github.com/AliceO2Group/AliceO2/pull/10600) 2023-01-23: ITS: Add protection from bogus vtx coordinate by [@mconcas](https://github.com/mconcas)
 - [\#10601](https://github.com/AliceO2Group/AliceO2/pull/10601) 2023-02-02: Changes for CRU suppression of zeroes by [@noferini](https://github.com/noferini)
 - [\#10602](https://github.com/AliceO2Group/AliceO2/pull/10602) 2023-01-20: [FOCAL-10] Skip empty HBFs in decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10603](https://github.com/AliceO2Group/AliceO2/pull/10603) 2023-01-20: ITS: Fix crash due to un-initialised vertex on some OSs by [@mconcas](https://github.com/mconcas)
