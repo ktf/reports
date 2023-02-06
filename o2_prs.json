@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-25T10:06:46Z",
-            "title": "DPL: Make sure that DPL proxy ready fast channels fast-enough in multi-channel setup",
-            "number": 10605,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-20T20:47:07Z",
             "title": "[FOCAL-11] Provide simple base analysis task for TB events",
             "number": 10606,
@@ -2854,8 +2834,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-02-06T14:21:27Z",
             "title": "[MFT] Move static arrays to be initialized before the processing starts",
             "number": 10665,
             "author": {
@@ -4066,6 +4046,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/workflow-setup.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Attempt at making TOF Compressor DPL compliant",
+            "number": 10705,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataAllocator.cxx"
                   }
                 }
               ]

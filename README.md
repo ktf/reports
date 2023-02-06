@@ -49,6 +49,7 @@
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#10663](https://github.com/AliceO2Group/AliceO2/pull/10663) 2023-02-04: FT0/FV0/TPC: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
+- [\#10665](https://github.com/AliceO2Group/AliceO2/pull/10665) 2023-02-06: [MFT] Move static arrays to be initialized before the processing starts by [@robincaron13](https://github.com/robincaron13)
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
 - [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
@@ -70,7 +71,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10605](https://github.com/AliceO2Group/AliceO2/pull/10605) 2023-01-25: DPL: Make sure that DPL proxy ready fast channels fast-enough in multi-channel setup by [@davidrohr](https://github.com/davidrohr)
 - [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10613](https://github.com/AliceO2Group/AliceO2/pull/10613) 2023-01-23: DPL: add profiling policy for message size by [@ktf](https://github.com/ktf)
 - [\#10614](https://github.com/AliceO2Group/AliceO2/pull/10614) 2023-01-23: DPL: attempt at hiding boost deprecation message by [@ktf](https://github.com/ktf)
