@@ -6,6 +6,7 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
+- [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 - [\#10644](https://github.com/AliceO2Group/AliceO2/pull/10644) 2023-01-28: Create DCAFitter under ./Common by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10649](https://github.com/AliceO2Group/AliceO2/pull/10649) 2023-01-29: add DCAFitter dedicated library by [@ddobrigk](https://github.com/ddobrigk)
@@ -80,8 +81,11 @@
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
+- [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10607](https://github.com/AliceO2Group/AliceO2/pull/10607) 2023-01-26: [ITS3] Fix digitization and clusterization and implement proper transformations for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Utilities
+- [\#10685](https://github.com/AliceO2Group/AliceO2/pull/10685) 2023-02-06: STDERR monitor: filter TInterpreter warnings by [@martenole](https://github.com/martenole)
