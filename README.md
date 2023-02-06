@@ -11,7 +11,6 @@
 - [\#10652](https://github.com/AliceO2Group/AliceO2/pull/10652) 2023-02-06: Sim evalmat for Run5 modules by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
@@ -22,7 +21,6 @@
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10616](https://github.com/AliceO2Group/AliceO2/pull/10616) 2023-01-25: TPC SAC: Changing name of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 - [\#10621](https://github.com/AliceO2Group/AliceO2/pull/10621) 2023-01-30: new structure to handle MCH processing errors by [@pillot](https://github.com/pillot)
@@ -67,7 +65,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10612](https://github.com/AliceO2Group/AliceO2/pull/10612) 2023-01-29: [O2-3525] Support for unpadded raw data, RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10613](https://github.com/AliceO2Group/AliceO2/pull/10613) 2023-01-23: DPL: add profiling policy for message size by [@ktf](https://github.com/ktf)
 - [\#10614](https://github.com/AliceO2Group/AliceO2/pull/10614) 2023-01-23: DPL: attempt at hiding boost deprecation message by [@ktf](https://github.com/ktf)
 - [\#10615](https://github.com/AliceO2Group/AliceO2/pull/10615) 2023-01-24: DPL: translate FairLogger's detail to Infologger's debug by [@knopers8](https://github.com/knopers8)
