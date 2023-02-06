@@ -42,6 +42,7 @@
 - [\#10633](https://github.com/AliceO2Group/AliceO2/pull/10633) 2023-01-27: ITS-digi: Fatalise if response file not found by [@mconcas](https://github.com/mconcas)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
+- [\#10643](https://github.com/AliceO2Group/AliceO2/pull/10643) 2023-02-06: Complain if more than output route by [@ktf](https://github.com/ktf)
 - [\#10645](https://github.com/AliceO2Group/AliceO2/pull/10645) 2023-01-27: Flag to allow duplicate processing by [@martenole](https://github.com/martenole)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10651](https://github.com/AliceO2Group/AliceO2/pull/10651) 2023-01-31: Fix in detection of the CRU page end for RDHv7 ITS data by [@shahor02](https://github.com/shahor02)
