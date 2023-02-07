@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
@@ -10,17 +9,16 @@
 - [\#10652](https://github.com/AliceO2Group/AliceO2/pull/10652) 2023-02-06: Sim evalmat for Run5 modules by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
+- [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10630](https://github.com/AliceO2Group/AliceO2/pull/10630) 2023-02-02: Add TTree aliases for scd map results by [@martenole](https://github.com/martenole)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10633](https://github.com/AliceO2Group/AliceO2/pull/10633) 2023-01-27: ITS-digi: Fatalise if response file not found by [@mconcas](https://github.com/mconcas)
@@ -53,6 +51,7 @@
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 - [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10690](https://github.com/AliceO2Group/AliceO2/pull/10690) 2023-02-07: ITS3: Base: Make ALPIDE pixel size configurable by [@f3sch](https://github.com/f3sch)
+- [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 - [\#10696](https://github.com/AliceO2Group/AliceO2/pull/10696) 2023-02-06: dpl-workflow: Add optional TOF/MCH readers / writers + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10697](https://github.com/AliceO2Group/AliceO2/pull/10697) 2023-02-06: uniformize MCH digits i/o for data and MC by [@pillot](https://github.com/pillot)
