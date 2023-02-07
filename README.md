@@ -57,6 +57,7 @@
 - [\#10684](https://github.com/AliceO2Group/AliceO2/pull/10684) 2023-02-06: Adding protections needed for QC by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 - [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
+- [\#10690](https://github.com/AliceO2Group/AliceO2/pull/10690) 2023-02-07: ITS3: Base: Make ALPIDE pixel size configurable by [@f3sch](https://github.com/f3sch)
 - [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 - [\#10696](https://github.com/AliceO2Group/AliceO2/pull/10696) 2023-02-06: dpl-workflow: Add optional TOF/MCH readers / writers + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10697](https://github.com/AliceO2Group/AliceO2/pull/10697) 2023-02-06: uniformize MCH digits i/o for data and MC by [@pillot](https://github.com/pillot)
