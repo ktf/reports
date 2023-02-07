@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-23T22:59:03Z",
-            "title": "Revert \"Add metadata to AOD writer inputs (#10531)\"",
-            "number": 10617,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-24T08:05:53Z",
             "title": "Fix outlier rejection for B=0 data",
             "number": 10618,
@@ -3711,6 +3691,46 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adapt TOF compressor to use DPL",
+            "number": 10717,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/include/TOFCompression/CompressorTaskOld.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/CompressorTaskOld.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
                   }
                 }
               ]
