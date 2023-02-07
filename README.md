@@ -45,6 +45,7 @@
 - [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
 - [\#10665](https://github.com/AliceO2Group/AliceO2/pull/10665) 2023-02-06: [MFT] Move static arrays to be initialized before the processing starts by [@robincaron13](https://github.com/robincaron13)
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
+- [\#10671](https://github.com/AliceO2Group/AliceO2/pull/10671) 2023-02-07: ITS3: Sim: Fix calculation of sensor width by [@f3sch](https://github.com/f3sch)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
 - [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10676](https://github.com/AliceO2Group/AliceO2/pull/10676) 2023-02-03: Allow map extraction for B=0 data by [@martenole](https://github.com/martenole)
