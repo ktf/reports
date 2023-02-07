@@ -63,6 +63,7 @@
 - [\#10698](https://github.com/AliceO2Group/AliceO2/pull/10698) 2023-02-06: Fix MeanVertex moving average time assignment by [@shahor02](https://github.com/shahor02)
 - [\#10709](https://github.com/AliceO2Group/AliceO2/pull/10709) 2023-02-07: TRD MC->raw uses default RDH unless overridden by [@shahor02](https://github.com/shahor02)
 - [\#10711](https://github.com/AliceO2Group/AliceO2/pull/10711) 2023-02-07: tof-reco-workflow: If input are upstream digits not from a ROOT file, we max actually write them to a ROOT file by [@davidrohr](https://github.com/davidrohr)
+- [\#10712](https://github.com/AliceO2Group/AliceO2/pull/10712) 2023-02-07: Better memory handling for sparse pp by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Examples
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
