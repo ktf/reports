@@ -64,7 +64,6 @@
 ## Recent developments in O2 - Examples
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10628](https://github.com/AliceO2Group/AliceO2/pull/10628) 2023-02-02: DPL: Fixes in timers by [@knopers8](https://github.com/knopers8)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
