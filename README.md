@@ -22,7 +22,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10621](https://github.com/AliceO2Group/AliceO2/pull/10621) 2023-01-30: new structure to handle MCH processing errors by [@pillot](https://github.com/pillot)
 - [\#10622](https://github.com/AliceO2Group/AliceO2/pull/10622) 2023-01-25: More work on space charge distortion correction maps by [@martenole](https://github.com/martenole)
 - [\#10627](https://github.com/AliceO2Group/AliceO2/pull/10627) 2023-01-26: Fix warning by [@ktf](https://github.com/ktf)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
@@ -69,7 +68,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
 - [\#10628](https://github.com/AliceO2Group/AliceO2/pull/10628) 2023-02-02: DPL: Fixes in timers by [@knopers8](https://github.com/knopers8)
 - [\#10632](https://github.com/AliceO2Group/AliceO2/pull/10632) 2023-01-26: Minor fixes by [@ktf](https://github.com/ktf)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
