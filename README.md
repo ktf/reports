@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10637](https://github.com/AliceO2Group/AliceO2/pull/10637) 2023-01-27: DPL: introduce device_state metric by [@ktf](https://github.com/ktf)
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
@@ -11,7 +10,6 @@
 - [\#10652](https://github.com/AliceO2Group/AliceO2/pull/10652) 2023-02-06: Sim evalmat for Run5 modules by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10629](https://github.com/AliceO2Group/AliceO2/pull/10629) 2023-01-26: [FOCAL-11] Drop empty timeframes in reader by [@mfasDa](https://github.com/mfasDa)
 - [\#10631](https://github.com/AliceO2Group/AliceO2/pull/10631) 2023-01-27: Update RunTypes for 2 new calib.types by [@shahor02](https://github.com/shahor02)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
@@ -64,7 +62,6 @@
 - [\#10711](https://github.com/AliceO2Group/AliceO2/pull/10711) 2023-02-07: tof-reco-workflow: If input are upstream digits not from a ROOT file, we max actually write them to a ROOT file by [@davidrohr](https://github.com/davidrohr)
 - [\#10712](https://github.com/AliceO2Group/AliceO2/pull/10712) 2023-02-07: Better memory handling for sparse pp by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Examples
-- [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10628](https://github.com/AliceO2Group/AliceO2/pull/10628) 2023-02-02: DPL: Fixes in timers by [@knopers8](https://github.com/knopers8)
@@ -77,7 +74,6 @@
 - [\#10702](https://github.com/AliceO2Group/AliceO2/pull/10702) 2023-02-06: DPL: demoting warning message for now by [@ktf](https://github.com/ktf)
 - [\#10705](https://github.com/AliceO2Group/AliceO2/pull/10705) 2023-02-07: Introduce DataAllocator::cookDeadBeef method by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#10685](https://github.com/AliceO2Group/AliceO2/pull/10685) 2023-02-06: STDERR monitor: filter TInterpreter warnings by [@martenole](https://github.com/martenole)
