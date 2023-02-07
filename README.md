@@ -21,7 +21,6 @@
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#10616](https://github.com/AliceO2Group/AliceO2/pull/10616) 2023-01-25: TPC SAC: Changing name of output by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10618](https://github.com/AliceO2Group/AliceO2/pull/10618) 2023-01-24: Fix outlier rejection for B=0 data by [@martenole](https://github.com/martenole)
 - [\#10621](https://github.com/AliceO2Group/AliceO2/pull/10621) 2023-01-30: new structure to handle MCH processing errors by [@pillot](https://github.com/pillot)
 - [\#10622](https://github.com/AliceO2Group/AliceO2/pull/10622) 2023-01-25: More work on space charge distortion correction maps by [@martenole](https://github.com/martenole)
