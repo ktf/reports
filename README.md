@@ -83,6 +83,7 @@
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
 - [\#10702](https://github.com/AliceO2Group/AliceO2/pull/10702) 2023-02-06: DPL: demoting warning message for now by [@ktf](https://github.com/ktf)
+- [\#10705](https://github.com/AliceO2Group/AliceO2/pull/10705) 2023-02-07: Introduce DataAllocator::cookDeadBeef method by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
