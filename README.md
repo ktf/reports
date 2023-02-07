@@ -70,7 +70,6 @@
 - [\#10623](https://github.com/AliceO2Group/AliceO2/pull/10623) 2023-01-25: Example how to use MCTrackNavigator in kinematics analysis by [@sawenzel](https://github.com/sawenzel)
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10614](https://github.com/AliceO2Group/AliceO2/pull/10614) 2023-01-23: DPL: attempt at hiding boost deprecation message by [@ktf](https://github.com/ktf)
 - [\#10615](https://github.com/AliceO2Group/AliceO2/pull/10615) 2023-01-24: DPL: translate FairLogger's detail to Infologger's debug by [@knopers8](https://github.com/knopers8)
 - [\#10617](https://github.com/AliceO2Group/AliceO2/pull/10617) 2023-01-23: Revert "Add metadata to AOD writer inputs (#10531)" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10620](https://github.com/AliceO2Group/AliceO2/pull/10620) 2023-01-24: DPL: fix inputs in GUI by [@ktf](https://github.com/ktf)
