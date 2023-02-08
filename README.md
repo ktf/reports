@@ -8,7 +8,6 @@
 - [\#10652](https://github.com/AliceO2Group/AliceO2/pull/10652) 2023-02-06: Sim evalmat for Run5 modules by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
@@ -17,7 +16,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 - [\#10642](https://github.com/AliceO2Group/AliceO2/pull/10642) 2023-02-06: Add some info to the Error mesage by [@fapfap69](https://github.com/fapfap69)
 - [\#10643](https://github.com/AliceO2Group/AliceO2/pull/10643) 2023-02-06: Complain if more than output route by [@ktf](https://github.com/ktf)

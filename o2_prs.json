@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-27T08:51:30Z",
-            "title": "[FOCAL-10, FOCAL-11] Fixes in pixel decoding",
-            "number": 10638,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/Event.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/PixelChip.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/PixelChipRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FOCAL/src/Event.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FOCAL/src/PixelChip.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/reconstruction/src/PixelDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/workflow/include/FOCALWorkflow/RawDecoderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/workflow/src/RawDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-01-27T09:04:43Z",
             "title": "Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures",
             "number": 10639,
@@ -3168,7 +3113,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: add test with slow producer and a wildcard",
             "number": 10722,
@@ -3705,6 +3650,46 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/SimReaderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: specify balancing in the CompletionPolicy",
+            "number": 10738,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CompletionPolicy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicyHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_SlowProducerWithWildCard.cxx"
                   }
                 }
               ]
