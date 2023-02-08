@@ -56,6 +56,7 @@
 - [\#10712](https://github.com/AliceO2Group/AliceO2/pull/10712) 2023-02-07: Better memory handling for sparse pp by [@mpuccio](https://github.com/mpuccio)
 - [\#10714](https://github.com/AliceO2Group/AliceO2/pull/10714) 2023-02-07: Remove unused includes by [@dstocco](https://github.com/dstocco)
 - [\#10716](https://github.com/AliceO2Group/AliceO2/pull/10716) 2023-02-08: add MCH errors merger, reader and writer by [@pillot](https://github.com/pillot)
+- [\#10717](https://github.com/AliceO2Group/AliceO2/pull/10717) 2023-02-08: Adapt TOF compressor to use DPL by [@ktf](https://github.com/ktf)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
 - [\#10726](https://github.com/AliceO2Group/AliceO2/pull/10726) 2023-02-08: [MFT] Use residual instead of measurement to make Mille records by [@arakotoz](https://github.com/arakotoz)
 - [\#10727](https://github.com/AliceO2Group/AliceO2/pull/10727) 2023-02-08: add initial and moved TPC cluster info to output tree by [@shahor02](https://github.com/shahor02)
