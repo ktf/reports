@@ -62,6 +62,7 @@
 - [\#10727](https://github.com/AliceO2Group/AliceO2/pull/10727) 2023-02-08: add initial and moved TPC cluster info to output tree by [@shahor02](https://github.com/shahor02)
 - [\#10729](https://github.com/AliceO2Group/AliceO2/pull/10729) 2023-02-08: TPC interpolation with additional ITS-TPC tracks by [@martenole](https://github.com/martenole)
 - [\#10730](https://github.com/AliceO2Group/AliceO2/pull/10730) 2023-02-08: Remove sync_misaligned, modernise sync by [@mpuccio](https://github.com/mpuccio)
+- [\#10733](https://github.com/AliceO2Group/AliceO2/pull/10733) 2023-02-08: Fix in stopping track accumulation when stat is ok by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
