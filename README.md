@@ -18,7 +18,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10633](https://github.com/AliceO2Group/AliceO2/pull/10633) 2023-01-27: ITS-digi: Fatalise if response file not found by [@mconcas](https://github.com/mconcas)
 - [\#10638](https://github.com/AliceO2Group/AliceO2/pull/10638) 2023-01-27: [FOCAL-10, FOCAL-11] Fixes in pixel decoding by [@mfasDa](https://github.com/mfasDa)
 - [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 - [\#10642](https://github.com/AliceO2Group/AliceO2/pull/10642) 2023-02-06: Add some info to the Error mesage by [@fapfap69](https://github.com/fapfap69)
