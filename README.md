@@ -60,6 +60,7 @@
 - [\#10712](https://github.com/AliceO2Group/AliceO2/pull/10712) 2023-02-07: Better memory handling for sparse pp by [@mpuccio](https://github.com/mpuccio)
 - [\#10714](https://github.com/AliceO2Group/AliceO2/pull/10714) 2023-02-07: Remove unused includes by [@dstocco](https://github.com/dstocco)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
+- [\#10729](https://github.com/AliceO2Group/AliceO2/pull/10729) 2023-02-08: TPC interpolation with additional ITS-TPC tracks by [@martenole](https://github.com/martenole)
 - [\#10730](https://github.com/AliceO2Group/AliceO2/pull/10730) 2023-02-08: Remove sync_misaligned, modernise sync by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Examples
 - [\#10640](https://github.com/AliceO2Group/AliceO2/pull/10640) 2023-01-27: Fix typo in socket config preventing o2sim_mctracks_proxy to work by [@sawenzel](https://github.com/sawenzel)
