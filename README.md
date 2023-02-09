@@ -16,7 +16,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10639](https://github.com/AliceO2Group/AliceO2/pull/10639) 2023-01-27: Temporary revert recent MFT tracking changes to check if they are responsible for fullCI failures by [@shahor02](https://github.com/shahor02)
 - [\#10642](https://github.com/AliceO2Group/AliceO2/pull/10642) 2023-02-06: Add some info to the Error mesage by [@fapfap69](https://github.com/fapfap69)
 - [\#10643](https://github.com/AliceO2Group/AliceO2/pull/10643) 2023-02-06: Complain if more than output route by [@ktf](https://github.com/ktf)
 - [\#10645](https://github.com/AliceO2Group/AliceO2/pull/10645) 2023-01-27: Flag to allow duplicate processing by [@martenole](https://github.com/martenole)
