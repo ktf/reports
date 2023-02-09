@@ -60,6 +60,7 @@
 - [\#10729](https://github.com/AliceO2Group/AliceO2/pull/10729) 2023-02-08: TPC interpolation with additional ITS-TPC tracks by [@martenole](https://github.com/martenole)
 - [\#10730](https://github.com/AliceO2Group/AliceO2/pull/10730) 2023-02-08: Remove sync_misaligned, modernise sync by [@mpuccio](https://github.com/mpuccio)
 - [\#10733](https://github.com/AliceO2Group/AliceO2/pull/10733) 2023-02-08: Fix in stopping track accumulation when stat is ok by [@shahor02](https://github.com/shahor02)
+- [\#10736](https://github.com/AliceO2Group/AliceO2/pull/10736) 2023-02-09: Install average map creation macro by [@martenole](https://github.com/martenole)
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
