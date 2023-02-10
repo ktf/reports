@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Revert \"Create DCAFitter under ./Common\"",
-            "number": 10647,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/FwdDCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/src/DCAFitterLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/src/DCAFitterN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/src/FwdDCAFitterN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/test/testDCAFitterN.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-01-28T15:44:53Z",
             "title": "Update clean-test.yml",
@@ -3806,6 +3746,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix bin initialization for MFT tracker",
+            "number": 10747,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/src/Tracker.cxx"
                   }
                 }
               ]
