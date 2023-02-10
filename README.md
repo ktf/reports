@@ -52,6 +52,7 @@
 - [\#10716](https://github.com/AliceO2Group/AliceO2/pull/10716) 2023-02-08: add MCH errors merger, reader and writer by [@pillot](https://github.com/pillot)
 - [\#10717](https://github.com/AliceO2Group/AliceO2/pull/10717) 2023-02-08: Adapt TOF compressor to use DPL by [@ktf](https://github.com/ktf)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
+- [\#10724](https://github.com/AliceO2Group/AliceO2/pull/10724) 2023-02-10: ITS3: Base: SegmentationSuperAlpide: Add Constructor for ROOT macros by [@f3sch](https://github.com/f3sch)
 - [\#10726](https://github.com/AliceO2Group/AliceO2/pull/10726) 2023-02-08: [MFT] Use residual instead of measurement to make Mille records by [@arakotoz](https://github.com/arakotoz)
 - [\#10727](https://github.com/AliceO2Group/AliceO2/pull/10727) 2023-02-08: add initial and moved TPC cluster info to output tree by [@shahor02](https://github.com/shahor02)
 - [\#10729](https://github.com/AliceO2Group/AliceO2/pull/10729) 2023-02-08: TPC interpolation with additional ITS-TPC tracks by [@martenole](https://github.com/martenole)
