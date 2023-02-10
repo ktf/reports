@@ -7,7 +7,6 @@
 - [\#10652](https://github.com/AliceO2Group/AliceO2/pull/10652) 2023-02-06: Sim evalmat for Run5 modules by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 - [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
@@ -15,7 +14,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10651](https://github.com/AliceO2Group/AliceO2/pull/10651) 2023-01-31: Fix in detection of the CRU page end for RDHv7 ITS data by [@shahor02](https://github.com/shahor02)
 - [\#10653](https://github.com/AliceO2Group/AliceO2/pull/10653) 2023-02-02: MCH: add bpackets output in calibrator by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10654](https://github.com/AliceO2Group/AliceO2/pull/10654) 2023-02-01:  [MFT] Reduce MaxRPhiBins to minimize memory size  by [@rpezzi](https://github.com/rpezzi)
@@ -71,7 +69,6 @@
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
-- [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10685](https://github.com/AliceO2Group/AliceO2/pull/10685) 2023-02-06: STDERR monitor: filter TInterpreter warnings by [@martenole](https://github.com/martenole)
