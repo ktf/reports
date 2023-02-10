@@ -61,6 +61,7 @@
 - [\#10736](https://github.com/AliceO2Group/AliceO2/pull/10736) 2023-02-09: Install average map creation macro by [@martenole](https://github.com/martenole)
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10741](https://github.com/AliceO2Group/AliceO2/pull/10741) 2023-02-10: ZDC: more channel fixes by [@sawenzel](https://github.com/sawenzel)
+- [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
