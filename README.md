@@ -16,7 +16,6 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-- [\#10645](https://github.com/AliceO2Group/AliceO2/pull/10645) 2023-01-27: Flag to allow duplicate processing by [@martenole](https://github.com/martenole)
 - [\#10650](https://github.com/AliceO2Group/AliceO2/pull/10650) 2023-02-05: Add drift time offset to VDrift calibration object by [@shahor02](https://github.com/shahor02)
 - [\#10651](https://github.com/AliceO2Group/AliceO2/pull/10651) 2023-01-31: Fix in detection of the CRU page end for RDHv7 ITS data by [@shahor02](https://github.com/shahor02)
 - [\#10653](https://github.com/AliceO2Group/AliceO2/pull/10653) 2023-02-02: MCH: add bpackets output in calibrator by [@aferrero2707](https://github.com/aferrero2707)
