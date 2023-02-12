@@ -15,7 +15,6 @@
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10655](https://github.com/AliceO2Group/AliceO2/pull/10655) 2023-02-01: [EMCAL-830] Handling of MC labels by [@mfasDa](https://github.com/mfasDa)
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#10663](https://github.com/AliceO2Group/AliceO2/pull/10663) 2023-02-04: FT0/FV0/TPC: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
