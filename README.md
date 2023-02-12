@@ -5,6 +5,7 @@
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
+- [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
@@ -54,6 +55,7 @@
 - [\#10733](https://github.com/AliceO2Group/AliceO2/pull/10733) 2023-02-08: Fix in stopping track accumulation when stat is ok by [@shahor02](https://github.com/shahor02)
 - [\#10736](https://github.com/AliceO2Group/AliceO2/pull/10736) 2023-02-09: Install average map creation macro by [@martenole](https://github.com/martenole)
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10741](https://github.com/AliceO2Group/AliceO2/pull/10741) 2023-02-10: ZDC: more channel fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
 - [\#10748](https://github.com/AliceO2Group/AliceO2/pull/10748) 2023-02-11: MFTTracker: fix initialization of precalculated arrays by [@shahor02](https://github.com/shahor02)
@@ -68,5 +70,6 @@
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
+- [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
 - [\#10685](https://github.com/AliceO2Group/AliceO2/pull/10685) 2023-02-06: STDERR monitor: filter TInterpreter warnings by [@martenole](https://github.com/martenole)
