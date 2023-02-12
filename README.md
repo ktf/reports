@@ -14,6 +14,7 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
+- [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#10663](https://github.com/AliceO2Group/AliceO2/pull/10663) 2023-02-04: FT0/FV0/TPC: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -59,6 +60,7 @@
 - [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
 - [\#10748](https://github.com/AliceO2Group/AliceO2/pull/10748) 2023-02-11: MFTTracker: fix initialization of precalculated arrays by [@shahor02](https://github.com/shahor02)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
+- [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
