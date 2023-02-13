@@ -16,7 +16,6 @@
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10656](https://github.com/AliceO2Group/AliceO2/pull/10656) 2023-02-01: GPU TPC: Accept RDH >= 6 for TPC GPU raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#10663](https://github.com/AliceO2Group/AliceO2/pull/10663) 2023-02-04: FT0/FV0/TPC: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10664](https://github.com/AliceO2Group/AliceO2/pull/10664) 2023-02-04: TPC: Improve cluster and track filter by [@wiechula](https://github.com/wiechula)
 - [\#10665](https://github.com/AliceO2Group/AliceO2/pull/10665) 2023-02-06: [MFT] Move static arrays to be initialized before the processing starts by [@robincaron13](https://github.com/robincaron13)
