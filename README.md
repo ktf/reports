@@ -5,6 +5,7 @@
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
+- [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
@@ -12,6 +13,7 @@
 - [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
+- [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
@@ -58,6 +60,7 @@
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10741](https://github.com/AliceO2Group/AliceO2/pull/10741) 2023-02-10: ZDC: more channel fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
+- [\#10744](https://github.com/AliceO2Group/AliceO2/pull/10744) 2023-02-13: TPC: Adding compression of integrated clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10748](https://github.com/AliceO2Group/AliceO2/pull/10748) 2023-02-11: MFTTracker: fix initialization of precalculated arrays by [@shahor02](https://github.com/shahor02)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
