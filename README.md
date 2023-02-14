@@ -19,7 +19,6 @@
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10665](https://github.com/AliceO2Group/AliceO2/pull/10665) 2023-02-06: [MFT] Move static arrays to be initialized before the processing starts by [@robincaron13](https://github.com/robincaron13)
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10671](https://github.com/AliceO2Group/AliceO2/pull/10671) 2023-02-07: ITS3: Sim: Fix calculation of sensor width by [@f3sch](https://github.com/f3sch)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
