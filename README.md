@@ -73,6 +73,8 @@
 - [\#10705](https://github.com/AliceO2Group/AliceO2/pull/10705) 2023-02-07: Introduce DataAllocator::cookDeadBeef method by [@ktf](https://github.com/ktf)
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10757](https://github.com/AliceO2Group/AliceO2/pull/10757) 2023-02-14: DPL: use primitive types for Variant::UInt64 types by [@ktf](https://github.com/ktf)
+- [\#10758](https://github.com/AliceO2Group/AliceO2/pull/10758) 2023-02-14: DPL: add button to profile allocations on macOS by [@ktf](https://github.com/ktf)
 - [\#10759](https://github.com/AliceO2Group/AliceO2/pull/10759) 2023-02-13: Fix typo in raw data parser for RDHv7 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
