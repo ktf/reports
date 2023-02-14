@@ -4,10 +4,10 @@
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
-- [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
+- [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
@@ -16,6 +16,7 @@
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
 - [\#10718](https://github.com/AliceO2Group/AliceO2/pull/10718) 2023-02-07: Demote to warning the negative Chi2 log by [@mpuccio](https://github.com/mpuccio)
+- [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -68,7 +69,6 @@
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
-- [\#10666](https://github.com/AliceO2Group/AliceO2/pull/10666) 2023-02-02: DPL: drop RawBufferContext by [@ktf](https://github.com/ktf)
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
