@@ -21,7 +21,6 @@
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10671](https://github.com/AliceO2Group/AliceO2/pull/10671) 2023-02-07: ITS3: Sim: Fix calculation of sensor width by [@f3sch](https://github.com/f3sch)
 - [\#10672](https://github.com/AliceO2Group/AliceO2/pull/10672) 2023-02-03: TRD: allow compilation w/o ONNXRuntime by [@aphecetche](https://github.com/aphecetche)
 - [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
@@ -70,6 +69,7 @@
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
+- [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
