@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-01-31T16:16:43Z",
-            "title": "Subscription change to be more general",
-            "number": 1892,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-01T08:03:44Z",
             "title": "Add event cut on TPC multiplicity, and corresponding loose cut on tracks",
             "number": 1893,
@@ -2631,6 +2606,41 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: reduce memory consumption and re-arrange selector table ToXiPi tasks",
+            "number": 1992,
+            "author": {
+              "login": "ZFederica"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
                   }
                 }
               ]
