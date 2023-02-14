@@ -19,6 +19,7 @@
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
+- [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10668](https://github.com/AliceO2Group/AliceO2/pull/10668) 2023-02-03: ITS-SV: fix aggressive rounding in determinant by [@mconcas](https://github.com/mconcas)
 - [\#10671](https://github.com/AliceO2Group/AliceO2/pull/10671) 2023-02-07: ITS3: Sim: Fix calculation of sensor width by [@f3sch](https://github.com/f3sch)
@@ -68,6 +69,7 @@
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
+- [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10667](https://github.com/AliceO2Group/AliceO2/pull/10667) 2023-02-02: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
@@ -80,6 +82,7 @@
 - [\#10757](https://github.com/AliceO2Group/AliceO2/pull/10757) 2023-02-14: DPL: use primitive types for Variant::UInt64 types by [@ktf](https://github.com/ktf)
 - [\#10758](https://github.com/AliceO2Group/AliceO2/pull/10758) 2023-02-14: DPL: add button to profile allocations on macOS by [@ktf](https://github.com/ktf)
 - [\#10759](https://github.com/AliceO2Group/AliceO2/pull/10759) 2023-02-13: Fix typo in raw data parser for RDHv7 by [@shahor02](https://github.com/shahor02)
+- [\#10764](https://github.com/AliceO2Group/AliceO2/pull/10764) 2023-02-14: Add missing formatter for RDHV7 parser by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
