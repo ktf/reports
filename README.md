@@ -19,9 +19,9 @@
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
+- [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10673](https://github.com/AliceO2Group/AliceO2/pull/10673) 2023-02-02: dpl-workflow.sh can optionally be split into multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10676](https://github.com/AliceO2Group/AliceO2/pull/10676) 2023-02-03: Allow map extraction for B=0 data by [@martenole](https://github.com/martenole)
 - [\#10677](https://github.com/AliceO2Group/AliceO2/pull/10677) 2023-02-03: ITS noise calibr: correct counting of total number of strobes in Norm mode by [@iravasen](https://github.com/iravasen)
 - [\#10678](https://github.com/AliceO2Group/AliceO2/pull/10678) 2023-02-03: fix for decoding unpadded ITS/MFT data with RDHv7 by [@shahor02](https://github.com/shahor02)
@@ -65,6 +65,7 @@
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
+- [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
