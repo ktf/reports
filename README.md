@@ -67,6 +67,7 @@
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 - [\#10772](https://github.com/AliceO2Group/AliceO2/pull/10772) 2023-02-15: Fix typo (eta sign) in track extrapolation to PHOS by [@shahor02](https://github.com/shahor02)
+- [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
