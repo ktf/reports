@@ -45,6 +45,7 @@
 - [\#10716](https://github.com/AliceO2Group/AliceO2/pull/10716) 2023-02-08: add MCH errors merger, reader and writer by [@pillot](https://github.com/pillot)
 - [\#10717](https://github.com/AliceO2Group/AliceO2/pull/10717) 2023-02-08: Adapt TOF compressor to use DPL by [@ktf](https://github.com/ktf)
 - [\#10720](https://github.com/AliceO2Group/AliceO2/pull/10720) 2023-02-13: Use ColumnDataHandler in MID digits merger to avoid code duplication by [@dstocco](https://github.com/dstocco)
+- [\#10721](https://github.com/AliceO2Group/AliceO2/pull/10721) 2023-02-15: Retrieve number of orbits in TF from GRP by [@dstocco](https://github.com/dstocco)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
 - [\#10724](https://github.com/AliceO2Group/AliceO2/pull/10724) 2023-02-10: ITS3: Base: SegmentationSuperAlpide: Add Constructor for ROOT macros by [@f3sch](https://github.com/f3sch)
 - [\#10726](https://github.com/AliceO2Group/AliceO2/pull/10726) 2023-02-08: [MFT] Use residual instead of measurement to make Mille records by [@arakotoz](https://github.com/arakotoz)
