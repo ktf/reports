@@ -22,7 +22,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#10682](https://github.com/AliceO2Group/AliceO2/pull/10682) 2023-02-04: Fix race condition when creating a folder on mac by [@ktf](https://github.com/ktf)
 - [\#10683](https://github.com/AliceO2Group/AliceO2/pull/10683) 2023-02-06: CMake: MCHWorkflow lib is not needed for CTF I/O. by [@aphecetche](https://github.com/aphecetche)
 - [\#10684](https://github.com/AliceO2Group/AliceO2/pull/10684) 2023-02-06: Adding protections needed for QC by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -68,6 +67,7 @@
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 - [\#10772](https://github.com/AliceO2Group/AliceO2/pull/10772) 2023-02-15: Fix typo (eta sign) in track extrapolation to PHOS by [@shahor02](https://github.com/shahor02)
 - [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
+- [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
