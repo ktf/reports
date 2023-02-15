@@ -22,7 +22,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10677](https://github.com/AliceO2Group/AliceO2/pull/10677) 2023-02-03: ITS noise calibr: correct counting of total number of strobes in Norm mode by [@iravasen](https://github.com/iravasen)
 - [\#10678](https://github.com/AliceO2Group/AliceO2/pull/10678) 2023-02-03: fix for decoding unpadded ITS/MFT data with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10679](https://github.com/AliceO2Group/AliceO2/pull/10679) 2023-02-03: Several fixes and add readers/writers to dpl-workflow.sh that are needed for QC tasks, when workflow is split in multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
