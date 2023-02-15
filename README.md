@@ -22,7 +22,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10679](https://github.com/AliceO2Group/AliceO2/pull/10679) 2023-02-03: Several fixes and add readers/writers to dpl-workflow.sh that are needed for QC tasks, when workflow is split in multiple invocations by [@davidrohr](https://github.com/davidrohr)
 - [\#10680](https://github.com/AliceO2Group/AliceO2/pull/10680) 2023-02-03: Add --onlyDet option to raw-file-reader-workflow by [@shahor02](https://github.com/shahor02)
 - [\#10682](https://github.com/AliceO2Group/AliceO2/pull/10682) 2023-02-04: Fix race condition when creating a folder on mac by [@ktf](https://github.com/ktf)
 - [\#10683](https://github.com/AliceO2Group/AliceO2/pull/10683) 2023-02-06: CMake: MCHWorkflow lib is not needed for CTF I/O. by [@aphecetche](https://github.com/aphecetche)
