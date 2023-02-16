@@ -58,6 +58,7 @@
 - [\#10744](https://github.com/AliceO2Group/AliceO2/pull/10744) 2023-02-13: TPC: Adding compression of integrated clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10748](https://github.com/AliceO2Group/AliceO2/pull/10748) 2023-02-11: MFTTracker: fix initialization of precalculated arrays by [@shahor02](https://github.com/shahor02)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
+- [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
@@ -86,3 +87,4 @@
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
