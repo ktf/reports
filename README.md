@@ -8,6 +8,7 @@
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
+- [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10687](https://github.com/AliceO2Group/AliceO2/pull/10687) 2023-02-06: Introduce helper function to load MClabels from a TTree/TFile by [@sawenzel](https://github.com/sawenzel)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
