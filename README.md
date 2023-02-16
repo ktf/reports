@@ -65,6 +65,7 @@
 - [\#10768](https://github.com/AliceO2Group/AliceO2/pull/10768) 2023-02-16: ITS3: Re-enable tracking workflow by [@mconcas](https://github.com/mconcas)
 - [\#10772](https://github.com/AliceO2Group/AliceO2/pull/10772) 2023-02-15: Fix typo (eta sign) in track extrapolation to PHOS by [@shahor02](https://github.com/shahor02)
 - [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
+- [\#10778](https://github.com/AliceO2Group/AliceO2/pull/10778) 2023-02-16: MCH: add (empty) error map to new clustering by [@aphecetche](https://github.com/aphecetche)
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
