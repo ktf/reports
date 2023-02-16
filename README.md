@@ -10,7 +10,6 @@
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
 - [\#10708](https://github.com/AliceO2Group/AliceO2/pull/10708) 2023-02-06: Fix length check by [@davidrohr](https://github.com/davidrohr)
 - [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
@@ -21,7 +20,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 - [\#10696](https://github.com/AliceO2Group/AliceO2/pull/10696) 2023-02-06: dpl-workflow: Add optional TOF/MCH readers / writers + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10697](https://github.com/AliceO2Group/AliceO2/pull/10697) 2023-02-06: uniformize MCH digits i/o for data and MC by [@pillot](https://github.com/pillot)
