@@ -77,6 +77,8 @@
 - [\#10765](https://github.com/AliceO2Group/AliceO2/pull/10765) 2023-02-14: DPL: add callback when exit was requested by [@ktf](https://github.com/ktf)
 - [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
 - [\#10777](https://github.com/AliceO2Group/AliceO2/pull/10777) 2023-02-16: Improve debugging by [@ktf](https://github.com/ktf)
+- [\#10785](https://github.com/AliceO2Group/AliceO2/pull/10785) 2023-02-16: DPL: introduce typesafe API for callbacks by [@ktf](https://github.com/ktf)
+- [\#10787](https://github.com/AliceO2Group/AliceO2/pull/10787) 2023-02-16: DPL Analysis: move static out of line by [@ktf](https://github.com/ktf)
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
