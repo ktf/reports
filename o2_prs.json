@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-07T09:55:13Z",
-            "title": "ITS3: Base: Make ALPIDE pixel size configurable",
-            "number": 10690,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SegmentationSuperAlpide.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SuperAlpideParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/src/ITS3BaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Upgrades/ITS3/base/src/SuperAlpideParams.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-07T21:46:12Z",
             "title": "Increase TRD dead time from 0.2 to 11 us",
             "number": 10691,
@@ -4019,8 +3979,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-02-16T14:02:53Z",
             "title": "Override TPC negative DeltaTBwd to 0",
             "number": 10789,
             "author": {
@@ -4031,6 +3991,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: add RDHv7 in showRDHs utility function",
+            "number": 10790,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/Decoder/src/RDHManip.cxx"
                   }
                 }
               ]

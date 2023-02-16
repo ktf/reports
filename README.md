@@ -21,7 +21,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10690](https://github.com/AliceO2Group/AliceO2/pull/10690) 2023-02-07: ITS3: Base: Make ALPIDE pixel size configurable by [@f3sch](https://github.com/f3sch)
 - [\#10691](https://github.com/AliceO2Group/AliceO2/pull/10691) 2023-02-07: Increase TRD dead time from 0.2 to 11 us by [@martenole](https://github.com/martenole)
 - [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 - [\#10696](https://github.com/AliceO2Group/AliceO2/pull/10696) 2023-02-06: dpl-workflow: Add optional TOF/MCH readers / writers + some fixes by [@davidrohr](https://github.com/davidrohr)
