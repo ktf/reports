@@ -23,7 +23,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10683](https://github.com/AliceO2Group/AliceO2/pull/10683) 2023-02-06: CMake: MCHWorkflow lib is not needed for CTF I/O. by [@aphecetche](https://github.com/aphecetche)
 - [\#10684](https://github.com/AliceO2Group/AliceO2/pull/10684) 2023-02-06: Adding protections needed for QC by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10688](https://github.com/AliceO2Group/AliceO2/pull/10688) 2023-02-04: FT0 reco: suppresing filter for event and channel selection by [@afurs](https://github.com/afurs)
 - [\#10689](https://github.com/AliceO2Group/AliceO2/pull/10689) 2023-02-03: Remove DCAFitter from DetectorsVertexing by [@ddobrigk](https://github.com/ddobrigk)
