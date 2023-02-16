@@ -86,5 +86,3 @@
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
-## Recent developments in O2 - Utilities
-- [\#10685](https://github.com/AliceO2Group/AliceO2/pull/10685) 2023-02-06: STDERR monitor: filter TInterpreter warnings by [@martenole](https://github.com/martenole)
