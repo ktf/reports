@@ -20,7 +20,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10693](https://github.com/AliceO2Group/AliceO2/pull/10693) 2023-02-04: add MCH preclusters reader/writer workflows by [@pillot](https://github.com/pillot)
 - [\#10696](https://github.com/AliceO2Group/AliceO2/pull/10696) 2023-02-06: dpl-workflow: Add optional TOF/MCH readers / writers + some fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10697](https://github.com/AliceO2Group/AliceO2/pull/10697) 2023-02-06: uniformize MCH digits i/o for data and MC by [@pillot](https://github.com/pillot)
 - [\#10698](https://github.com/AliceO2Group/AliceO2/pull/10698) 2023-02-06: Fix MeanVertex moving average time assignment by [@shahor02](https://github.com/shahor02)
@@ -78,6 +77,7 @@
 - [\#10765](https://github.com/AliceO2Group/AliceO2/pull/10765) 2023-02-14: DPL: add callback when exit was requested by [@ktf](https://github.com/ktf)
 - [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
 - [\#10777](https://github.com/AliceO2Group/AliceO2/pull/10777) 2023-02-16: Improve debugging by [@ktf](https://github.com/ktf)
+- [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
