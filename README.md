@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
@@ -66,7 +65,6 @@
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - Framework
-- [\#10694](https://github.com/AliceO2Group/AliceO2/pull/10694) 2023-02-06: More equivalency declarations by [@ddobrigk](https://github.com/ddobrigk)
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
 - [\#10702](https://github.com/AliceO2Group/AliceO2/pull/10702) 2023-02-06: DPL: demoting warning message for now by [@ktf](https://github.com/ktf)
 - [\#10705](https://github.com/AliceO2Group/AliceO2/pull/10705) 2023-02-07: Introduce DataAllocator::cookDeadBeef method by [@ktf](https://github.com/ktf)
