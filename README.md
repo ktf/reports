@@ -57,6 +57,7 @@
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 - [\#10768](https://github.com/AliceO2Group/AliceO2/pull/10768) 2023-02-16: ITS3: Re-enable tracking workflow by [@mconcas](https://github.com/mconcas)
+- [\#10769](https://github.com/AliceO2Group/AliceO2/pull/10769) 2023-02-17: Mft dcs config workflow deadmap by [@syano0822](https://github.com/syano0822)
 - [\#10771](https://github.com/AliceO2Group/AliceO2/pull/10771) 2023-02-16: Fix the RDH V7 by [@fapfap69](https://github.com/fapfap69)
 - [\#10772](https://github.com/AliceO2Group/AliceO2/pull/10772) 2023-02-15: Fix typo (eta sign) in track extrapolation to PHOS by [@shahor02](https://github.com/shahor02)
 - [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
@@ -64,6 +65,7 @@
 - [\#10779](https://github.com/AliceO2Group/AliceO2/pull/10779) 2023-02-16: Extra fixes for ITS/MFT decoding with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
+- [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - Framework
 - [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
 - [\#10702](https://github.com/AliceO2Group/AliceO2/pull/10702) 2023-02-06: DPL: demoting warning message for now by [@ktf](https://github.com/ktf)
