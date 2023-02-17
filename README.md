@@ -67,6 +67,7 @@
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
+- [\#10791](https://github.com/AliceO2Group/AliceO2/pull/10791) 2023-02-17: [MRRTF-209] Migrate MCH precluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 - [\#10794](https://github.com/AliceO2Group/AliceO2/pull/10794) 2023-02-17: Adapt EMC, PHS and CPV to RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
