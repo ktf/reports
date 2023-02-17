@@ -69,6 +69,7 @@
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 - [\#10794](https://github.com/AliceO2Group/AliceO2/pull/10794) 2023-02-17: Adapt EMC, PHS and CPV to RDHv7 by [@shahor02](https://github.com/shahor02)
+- [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - EventVisualisation
 - [\#10706](https://github.com/AliceO2Group/AliceO2/pull/10706) 2023-02-17: bulk generation of screenshots by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
