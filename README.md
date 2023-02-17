@@ -71,7 +71,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10706](https://github.com/AliceO2Group/AliceO2/pull/10706) 2023-02-17: bulk generation of screenshots by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10695](https://github.com/AliceO2Group/AliceO2/pull/10695) 2023-02-04: DPL: make adding distsubtimeframe & co stable by [@ktf](https://github.com/ktf)
 - [\#10702](https://github.com/AliceO2Group/AliceO2/pull/10702) 2023-02-06: DPL: demoting warning message for now by [@ktf](https://github.com/ktf)
 - [\#10705](https://github.com/AliceO2Group/AliceO2/pull/10705) 2023-02-07: Introduce DataAllocator::cookDeadBeef method by [@ktf](https://github.com/ktf)
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
@@ -87,6 +86,7 @@
 - [\#10785](https://github.com/AliceO2Group/AliceO2/pull/10785) 2023-02-16: DPL: introduce typesafe API for callbacks by [@ktf](https://github.com/ktf)
 - [\#10787](https://github.com/AliceO2Group/AliceO2/pull/10787) 2023-02-16: DPL Analysis: move static out of line by [@ktf](https://github.com/ktf)
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
+- [\#10795](https://github.com/AliceO2Group/AliceO2/pull/10795) 2023-02-17: DPL: cleanup unused variable in CMakeList.txt by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
