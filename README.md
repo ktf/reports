@@ -2,11 +2,13 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
+- [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10715](https://github.com/AliceO2Group/AliceO2/pull/10715) 2023-02-13: Add default copy assignment to prevent compiler warnings by [@dstocco](https://github.com/dstocco)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
+- [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10707](https://github.com/AliceO2Group/AliceO2/pull/10707) 2023-02-06: Fix missing variable initialization by [@davidrohr](https://github.com/davidrohr)
@@ -19,7 +21,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10698](https://github.com/AliceO2Group/AliceO2/pull/10698) 2023-02-06: Fix MeanVertex moving average time assignment by [@shahor02](https://github.com/shahor02)
 - [\#10706](https://github.com/AliceO2Group/AliceO2/pull/10706) 2023-02-17: bulk generation of screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#10709](https://github.com/AliceO2Group/AliceO2/pull/10709) 2023-02-07: TRD MC->raw uses default RDH unless overridden by [@shahor02](https://github.com/shahor02)
 - [\#10711](https://github.com/AliceO2Group/AliceO2/pull/10711) 2023-02-07: tof-reco-workflow: If input are upstream digits not from a ROOT file, we max actually write them to a ROOT file by [@davidrohr](https://github.com/davidrohr)
@@ -64,6 +65,7 @@
 - [\#10778](https://github.com/AliceO2Group/AliceO2/pull/10778) 2023-02-16: MCH: add (empty) error map to new clustering by [@aphecetche](https://github.com/aphecetche)
 - [\#10779](https://github.com/AliceO2Group/AliceO2/pull/10779) 2023-02-16: Extra fixes for ITS/MFT decoding with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
+- [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
@@ -81,6 +83,7 @@
 - [\#10765](https://github.com/AliceO2Group/AliceO2/pull/10765) 2023-02-14: DPL: add callback when exit was requested by [@ktf](https://github.com/ktf)
 - [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
 - [\#10777](https://github.com/AliceO2Group/AliceO2/pull/10777) 2023-02-16: Improve debugging by [@ktf](https://github.com/ktf)
+- [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10785](https://github.com/AliceO2Group/AliceO2/pull/10785) 2023-02-16: DPL: introduce typesafe API for callbacks by [@ktf](https://github.com/ktf)
 - [\#10787](https://github.com/AliceO2Group/AliceO2/pull/10787) 2023-02-16: DPL Analysis: move static out of line by [@ktf](https://github.com/ktf)
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
@@ -89,3 +92,4 @@
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
+- [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
