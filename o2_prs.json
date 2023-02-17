@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-06T08:32:19Z",
-            "title": "dpl-workflow: Add optional TOF/MCH readers / writers + some fixes",
-            "number": 10696,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-06T08:33:03Z",
             "title": "uniformize MCH digits i/o for data and MC",
             "number": 10697,
@@ -4046,6 +4016,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Prevent MID strips with only one point in common to be merged in the same precluster",
+            "number": 10796,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Clustering/src/PreClustersDE.cxx"
                   }
                 }
               ]
