@@ -70,6 +70,7 @@
 - [\#10791](https://github.com/AliceO2Group/AliceO2/pull/10791) 2023-02-17: [MRRTF-209] Migrate MCH precluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 - [\#10794](https://github.com/AliceO2Group/AliceO2/pull/10794) 2023-02-17: Adapt EMC, PHS and CPV to RDHv7 by [@shahor02](https://github.com/shahor02)
+- [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
