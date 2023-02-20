@@ -21,7 +21,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10706](https://github.com/AliceO2Group/AliceO2/pull/10706) 2023-02-17: bulk generation of screenshots by [@jmyrcha](https://github.com/jmyrcha)
 - [\#10709](https://github.com/AliceO2Group/AliceO2/pull/10709) 2023-02-07: TRD MC->raw uses default RDH unless overridden by [@shahor02](https://github.com/shahor02)
 - [\#10711](https://github.com/AliceO2Group/AliceO2/pull/10711) 2023-02-07: tof-reco-workflow: If input are upstream digits not from a ROOT file, we max actually write them to a ROOT file by [@davidrohr](https://github.com/davidrohr)
 - [\#10712](https://github.com/AliceO2Group/AliceO2/pull/10712) 2023-02-07: Better memory handling for sparse pp by [@mpuccio](https://github.com/mpuccio)
@@ -73,8 +72,6 @@
 - [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
-## Recent developments in O2 - EventVisualisation
-- [\#10706](https://github.com/AliceO2Group/AliceO2/pull/10706) 2023-02-17: bulk generation of screenshots by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
