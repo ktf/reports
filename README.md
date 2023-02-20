@@ -72,6 +72,7 @@
 - [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
+- [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
