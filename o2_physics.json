@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-07T08:32:38Z",
-            "title": "Fix compiler warnings / incorrect parameter type",
-            "number": 1939,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGLF/strangenessFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/FlowContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/GenericFramework/GFWWeights.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-07T00:20:27Z",
             "title": "Add covariance and total filtered events",
             "number": 1940,
@@ -2664,7 +2634,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Test",
             "number": 2038,
@@ -2672,10 +2642,29 @@
               "login": "vkucera"
             },
             "files": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[DPG] Add new task for performance studies via K0S peak",
+            "number": 2039,
+            "author": {
+              "login": "alessandrobalbino"
+            },
+            "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                    "path": "DPG/Tasks/AOTTrack/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/perfK0sResolution.cxx"
                   }
                 }
               ]
