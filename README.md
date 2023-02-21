@@ -19,7 +19,6 @@
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10714](https://github.com/AliceO2Group/AliceO2/pull/10714) 2023-02-07: Remove unused includes by [@dstocco](https://github.com/dstocco)
 - [\#10716](https://github.com/AliceO2Group/AliceO2/pull/10716) 2023-02-08: add MCH errors merger, reader and writer by [@pillot](https://github.com/pillot)
 - [\#10717](https://github.com/AliceO2Group/AliceO2/pull/10717) 2023-02-08: Adapt TOF compressor to use DPL by [@ktf](https://github.com/ktf)
 - [\#10720](https://github.com/AliceO2Group/AliceO2/pull/10720) 2023-02-13: Use ColumnDataHandler in MID digits merger to avoid code duplication by [@dstocco](https://github.com/dstocco)
