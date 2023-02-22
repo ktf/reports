@@ -67,6 +67,7 @@
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
 - [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
 - [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
+- [\#10813](https://github.com/AliceO2Group/AliceO2/pull/10813) 2023-02-22: ITS3: add CSSY in the ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Framework
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
