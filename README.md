@@ -17,7 +17,6 @@
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#10720](https://github.com/AliceO2Group/AliceO2/pull/10720) 2023-02-13: Use ColumnDataHandler in MID digits merger to avoid code duplication by [@dstocco](https://github.com/dstocco)
 - [\#10721](https://github.com/AliceO2Group/AliceO2/pull/10721) 2023-02-15: Retrieve number of orbits in TF from GRP by [@dstocco](https://github.com/dstocco)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
 - [\#10724](https://github.com/AliceO2Group/AliceO2/pull/10724) 2023-02-10: ITS3: Base: SegmentationSuperAlpide: Add Constructor for ROOT macros by [@f3sch](https://github.com/f3sch)
