@@ -15,6 +15,7 @@
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
+- [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#10720](https://github.com/AliceO2Group/AliceO2/pull/10720) 2023-02-13: Use ColumnDataHandler in MID digits merger to avoid code duplication by [@dstocco](https://github.com/dstocco)
 - [\#10721](https://github.com/AliceO2Group/AliceO2/pull/10721) 2023-02-15: Retrieve number of orbits in TF from GRP by [@dstocco](https://github.com/dstocco)
@@ -62,6 +63,7 @@
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10802](https://github.com/AliceO2Group/AliceO2/pull/10802) 2023-02-20: ITS3: Implement the 4th Layer for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
+- [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
 - [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
 - [\#10813](https://github.com/AliceO2Group/AliceO2/pull/10813) 2023-02-22: ITS3: add CSSY in the ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
