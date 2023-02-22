@@ -17,7 +17,6 @@
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#10721](https://github.com/AliceO2Group/AliceO2/pull/10721) 2023-02-15: Retrieve number of orbits in TF from GRP by [@dstocco](https://github.com/dstocco)
 - [\#10723](https://github.com/AliceO2Group/AliceO2/pull/10723) 2023-02-08: Generalize ZDC fast sim to include proton ML models by [@sawenzel](https://github.com/sawenzel)
 - [\#10724](https://github.com/AliceO2Group/AliceO2/pull/10724) 2023-02-10: ITS3: Base: SegmentationSuperAlpide: Add Constructor for ROOT macros by [@f3sch](https://github.com/f3sch)
 - [\#10725](https://github.com/AliceO2Group/AliceO2/pull/10725) 2023-02-16: MCH: add option to disable writing of all clusters by [@aphecetche](https://github.com/aphecetche)
@@ -68,6 +67,7 @@
 - [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
 - [\#10813](https://github.com/AliceO2Group/AliceO2/pull/10813) 2023-02-22: ITS3: add CSSY in the ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10814](https://github.com/AliceO2Group/AliceO2/pull/10814) 2023-02-22: Add lumi and time info to unbinned residuals by [@martenole](https://github.com/martenole)
+- [\#10817](https://github.com/AliceO2Group/AliceO2/pull/10817) 2023-02-22: ITS: install AlpideResponseData.root with explicit rule by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
