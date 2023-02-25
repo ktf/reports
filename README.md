@@ -1,8 +1,11 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+- [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
+- [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
@@ -84,6 +87,7 @@
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
 - [\#10795](https://github.com/AliceO2Group/AliceO2/pull/10795) 2023-02-17: DPL: cleanup unused variable in CMakeList.txt by [@ktf](https://github.com/ktf)
 - [\#10798](https://github.com/AliceO2Group/AliceO2/pull/10798) 2023-02-23: DPL: fix callback for DeviceStateChange so that it is actually invoked by [@ktf](https://github.com/ktf)
+- [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
 - [\#10739](https://github.com/AliceO2Group/AliceO2/pull/10739) 2023-02-12: TPC: Adding streamer for FastTransform in reconstruction by [@matthias-kleiner](https://github.com/matthias-kleiner)
