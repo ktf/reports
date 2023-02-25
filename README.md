@@ -55,6 +55,7 @@
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 - [\#10794](https://github.com/AliceO2Group/AliceO2/pull/10794) 2023-02-17: Adapt EMC, PHS and CPV to RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
+- [\#10797](https://github.com/AliceO2Group/AliceO2/pull/10797) 2023-02-25: ITS-SeedingVertexer: Use dynamic TimeFrame splitting for GPU vertexer by [@mconcas](https://github.com/mconcas)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10801](https://github.com/AliceO2Group/AliceO2/pull/10801) 2023-02-24: [MRRTF-210] Migrate MCH cluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10802](https://github.com/AliceO2Group/AliceO2/pull/10802) 2023-02-20: ITS3: Implement the 4th Layer for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
