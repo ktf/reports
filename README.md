@@ -70,7 +70,6 @@
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10827](https://github.com/AliceO2Group/AliceO2/pull/10827) 2023-02-24: TPC: Remove potentially problematic completion policy by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
-- [\#10738](https://github.com/AliceO2Group/AliceO2/pull/10738) 2023-02-09: DPL: specify balancing in the CompletionPolicy by [@ktf](https://github.com/ktf)
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10757](https://github.com/AliceO2Group/AliceO2/pull/10757) 2023-02-14: DPL: use primitive types for Variant::UInt64 types by [@ktf](https://github.com/ktf)
