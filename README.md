@@ -22,7 +22,6 @@
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10734](https://github.com/AliceO2Group/AliceO2/pull/10734) 2023-02-14: its-dcs-parser-workflow: adapted to new EOR data format by [@atriolo](https://github.com/atriolo)
 - [\#10735](https://github.com/AliceO2Group/AliceO2/pull/10735) 2023-02-14: Add T0 offset correction for average distortion maps by [@martenole](https://github.com/martenole)
 - [\#10736](https://github.com/AliceO2Group/AliceO2/pull/10736) 2023-02-09: Install average map creation macro by [@martenole](https://github.com/martenole)
 - [\#10737](https://github.com/AliceO2Group/AliceO2/pull/10737) 2023-02-09: Few improvements for ZDC fast sim by [@sawenzel](https://github.com/sawenzel)
