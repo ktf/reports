@@ -69,6 +69,7 @@
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10827](https://github.com/AliceO2Group/AliceO2/pull/10827) 2023-02-24: TPC: Remove potentially problematic completion policy by [@wiechula](https://github.com/wiechula)
+- [\#10836](https://github.com/AliceO2Group/AliceO2/pull/10836) 2023-02-26: ITS-GPU: Fix missing reset for buffer. by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
