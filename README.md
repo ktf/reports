@@ -65,6 +65,7 @@
 - [\#10807](https://github.com/AliceO2Group/AliceO2/pull/10807) 2023-02-23: TPC: releasing memory of aggregated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
 - [\#10809](https://github.com/AliceO2Group/AliceO2/pull/10809) 2023-02-24: ITS: Use a single TimeFrame for reco instance by [@mconcas](https://github.com/mconcas)
+- [\#10811](https://github.com/AliceO2Group/AliceO2/pull/10811) 2023-02-26: Few improvements for stdout by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10813](https://github.com/AliceO2Group/AliceO2/pull/10813) 2023-02-22: ITS3: add CSSY in the ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 - [\#10814](https://github.com/AliceO2Group/AliceO2/pull/10814) 2023-02-22: Add lumi and time info to unbinned residuals by [@martenole](https://github.com/martenole)
 - [\#10817](https://github.com/AliceO2Group/AliceO2/pull/10817) 2023-02-22: ITS: install AlpideResponseData.root with explicit rule by [@mconcas](https://github.com/mconcas)
