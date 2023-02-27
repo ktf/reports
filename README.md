@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -72,7 +71,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10757](https://github.com/AliceO2Group/AliceO2/pull/10757) 2023-02-14: DPL: use primitive types for Variant::UInt64 types by [@ktf](https://github.com/ktf)
 - [\#10758](https://github.com/AliceO2Group/AliceO2/pull/10758) 2023-02-14: DPL: add button to profile allocations on macOS by [@ktf](https://github.com/ktf)
 - [\#10759](https://github.com/AliceO2Group/AliceO2/pull/10759) 2023-02-13: Fix typo in raw data parser for RDHv7 by [@shahor02](https://github.com/shahor02)
