@@ -7,12 +7,12 @@
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
 - [\#10815](https://github.com/AliceO2Group/AliceO2/pull/10815) 2023-02-27: Support AO2D bcrange by [@mpuccio](https://github.com/mpuccio)
 - [\#10822](https://github.com/AliceO2Group/AliceO2/pull/10822) 2023-02-25: GPU: Fixes for compilation without O2 headers by [@davidrohr](https://github.com/davidrohr)
+- [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
@@ -22,7 +22,6 @@
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10741](https://github.com/AliceO2Group/AliceO2/pull/10741) 2023-02-10: ZDC: more channel fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
 - [\#10744](https://github.com/AliceO2Group/AliceO2/pull/10744) 2023-02-13: TPC: Adding compression of integrated clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -73,7 +72,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10740](https://github.com/AliceO2Group/AliceO2/pull/10740) 2023-02-14: Fix metadata messages in AOD by [@nburmaso](https://github.com/nburmaso)
 - [\#10743](https://github.com/AliceO2Group/AliceO2/pull/10743) 2023-02-09: Reset counter at new file by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10757](https://github.com/AliceO2Group/AliceO2/pull/10757) 2023-02-14: DPL: use primitive types for Variant::UInt64 types by [@ktf](https://github.com/ktf)
 - [\#10758](https://github.com/AliceO2Group/AliceO2/pull/10758) 2023-02-14: DPL: add button to profile allocations on macOS by [@ktf](https://github.com/ktf)
