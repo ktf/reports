@@ -6,14 +6,12 @@
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
 - [\#10815](https://github.com/AliceO2Group/AliceO2/pull/10815) 2023-02-27: Support AO2D bcrange by [@mpuccio](https://github.com/mpuccio)
 - [\#10822](https://github.com/AliceO2Group/AliceO2/pull/10822) 2023-02-25: GPU: Fixes for compilation without O2 headers by [@davidrohr](https://github.com/davidrohr)
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10745](https://github.com/AliceO2Group/AliceO2/pull/10745) 2023-02-14: GPU TPC: Some preparation for distortion correction during seeding by [@davidrohr](https://github.com/davidrohr)
 - [\#10753](https://github.com/AliceO2Group/AliceO2/pull/10753) 2023-02-12: Optionally expand TPC tracks cov.matrix in global tracking/refits by [@shahor02](https://github.com/shahor02)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
