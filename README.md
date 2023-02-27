@@ -21,6 +21,7 @@
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
+- [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10741](https://github.com/AliceO2Group/AliceO2/pull/10741) 2023-02-10: ZDC: more channel fixes by [@sawenzel](https://github.com/sawenzel)
 - [\#10742](https://github.com/AliceO2Group/AliceO2/pull/10742) 2023-02-10: Once aggregator stat. is ok, just ignore the data by [@shahor02](https://github.com/shahor02)
@@ -68,6 +69,7 @@
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10827](https://github.com/AliceO2Group/AliceO2/pull/10827) 2023-02-24: TPC: Remove potentially problematic completion policy by [@wiechula](https://github.com/wiechula)
 - [\#10836](https://github.com/AliceO2Group/AliceO2/pull/10836) 2023-02-26: ITS-GPU: Fix missing reset for buffer. by [@mconcas](https://github.com/mconcas)
+- [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
