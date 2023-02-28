@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Example macro to convert filling scheme files *.csv into *.root",
-            "number": 10751,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "macro/CreateBCPattern.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "scripts/datamodel-doc/ALICEO2includeFile.py"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-02-13T14:03:30Z",
             "title": "workflow: Avoid overwriting GEN_TOPO_MYDIR",
@@ -4551,6 +4526,101 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD: PID: Added LQND, PyTorch policy support and charge correction",
+            "number": 10852,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/Dummy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/LQND.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/include/TRDPID/PIDBase.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/ccdbModelUpload.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/ccdbPIDUpload.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/macros/makeTestLUTs.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/ML.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/PIDBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/TRDPIDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/pid/src/TRDPIDNoMLLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
                   }
                 }
               ]
