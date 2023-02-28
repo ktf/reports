@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
+- [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10782](https://github.com/AliceO2Group/AliceO2/pull/10782) 2023-02-16: workflows: check sourcing of all scripts by [@davidrohr](https://github.com/davidrohr)
@@ -85,6 +86,7 @@
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 - [\#10830](https://github.com/AliceO2Group/AliceO2/pull/10830) 2023-02-28: New callback registry by [@ktf](https://github.com/ktf)
 - [\#10839](https://github.com/AliceO2Group/AliceO2/pull/10839) 2023-02-28: DPL GUI: fix deprecated ImPlot API by [@ktf](https://github.com/ktf)
+- [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
 - [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
