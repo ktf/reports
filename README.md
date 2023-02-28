@@ -85,6 +85,7 @@
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
 - [\#10795](https://github.com/AliceO2Group/AliceO2/pull/10795) 2023-02-17: DPL: cleanup unused variable in CMakeList.txt by [@ktf](https://github.com/ktf)
 - [\#10798](https://github.com/AliceO2Group/AliceO2/pull/10798) 2023-02-23: DPL: fix callback for DeviceStateChange so that it is actually invoked by [@ktf](https://github.com/ktf)
+- [\#10821](https://github.com/AliceO2Group/AliceO2/pull/10821) 2023-02-28: AliECS dump: allow to enable/disable logging stdout and stderr separately by [@knopers8](https://github.com/knopers8)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 - [\#10830](https://github.com/AliceO2Group/AliceO2/pull/10830) 2023-02-28: New callback registry by [@ktf](https://github.com/ktf)
 - [\#10839](https://github.com/AliceO2Group/AliceO2/pull/10839) 2023-02-28: DPL GUI: fix deprecated ImPlot API by [@ktf](https://github.com/ktf)
