@@ -20,7 +20,6 @@
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
 - [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
