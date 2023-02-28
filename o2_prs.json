@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "GLO_QC (ITS-TPC matching): extend Chi2 range, pT histograms to TH1D and adding Phi and Eta vs pT",
-            "number": 10749,
-            "author": {
-              "login": "jloemker"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchITSTPCQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-02-11T20:16:36Z",
             "title": "gen_topo_helper_functions.sh is sourced from setenv.sh",
@@ -3879,8 +3854,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-02-28T09:14:37Z",
             "title": "[MRRTF-211] Migrate MCH track I/O to IO and DevIO libs",
             "number": 10833,
             "author": {
@@ -4536,6 +4511,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/qa/GPUQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: add abs v drift to laser qc",
+            "number": 10850,
+            "author": {
+              "login": "tklemenz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/Painter.cxx"
                   }
                 }
               ]
