@@ -21,7 +21,6 @@
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10755](https://github.com/AliceO2Group/AliceO2/pull/10755) 2023-02-12: Postfix for PR#10753: forgotten commig tested locally by [@shahor02](https://github.com/shahor02)
 - [\#10756](https://github.com/AliceO2Group/AliceO2/pull/10756) 2023-02-13: [MCH clustering] fixed memory leak by [@grasseau](https://github.com/grasseau)
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
@@ -91,5 +90,4 @@
 - [\#10839](https://github.com/AliceO2Group/AliceO2/pull/10839) 2023-02-28: DPL GUI: fix deprecated ImPlot API by [@ktf](https://github.com/ktf)
 - [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Steer
-- [\#10754](https://github.com/AliceO2Group/AliceO2/pull/10754) 2023-02-16: [MRRTF-208] Migrate MCH digit I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
