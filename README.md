@@ -68,6 +68,7 @@
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 - [\#10844](https://github.com/AliceO2Group/AliceO2/pull/10844) 2023-02-28: O2-3580: Add byproducts and custom target force response generation by [@mconcas](https://github.com/mconcas)
 - [\#10845](https://github.com/AliceO2Group/AliceO2/pull/10845) 2023-02-28: [EMCAL-904] Port correction for energy nonlinearity by [@mfasDa](https://github.com/mfasDa)
+- [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
