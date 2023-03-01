@@ -20,7 +20,6 @@
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10763](https://github.com/AliceO2Group/AliceO2/pull/10763) 2023-02-17: TPC: Update data processing to generic RDH by [@wiechula](https://github.com/wiechula)
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 - [\#10768](https://github.com/AliceO2Group/AliceO2/pull/10768) 2023-02-16: ITS3: Re-enable tracking workflow by [@mconcas](https://github.com/mconcas)
 - [\#10769](https://github.com/AliceO2Group/AliceO2/pull/10769) 2023-02-17: Mft dcs config workflow deadmap by [@syano0822](https://github.com/syano0822)
