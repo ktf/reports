@@ -73,7 +73,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10759](https://github.com/AliceO2Group/AliceO2/pull/10759) 2023-02-13: Fix typo in raw data parser for RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10764](https://github.com/AliceO2Group/AliceO2/pull/10764) 2023-02-14: Add missing formatter for RDHV7 parser by [@shahor02](https://github.com/shahor02)
 - [\#10765](https://github.com/AliceO2Group/AliceO2/pull/10765) 2023-02-14: DPL: add callback when exit was requested by [@ktf](https://github.com/ktf)
 - [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
