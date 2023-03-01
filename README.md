@@ -19,6 +19,7 @@
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
+- [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
 - [\#10760](https://github.com/AliceO2Group/AliceO2/pull/10760) 2023-02-15: TOF: extend parameter containers by [@njacazio](https://github.com/njacazio)
 - [\#10761](https://github.com/AliceO2Group/AliceO2/pull/10761) 2023-02-14: add missing include by [@wiechula](https://github.com/wiechula)
