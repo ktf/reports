@@ -13,14 +13,12 @@
 - [\#10822](https://github.com/AliceO2Group/AliceO2/pull/10822) 2023-02-25: GPU: Fixes for compilation without O2 headers by [@davidrohr](https://github.com/davidrohr)
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Detectors
-- [\#10762](https://github.com/AliceO2Group/AliceO2/pull/10762) 2023-02-14: Optionally bias TPC params on source level by [@shahor02](https://github.com/shahor02)
 - [\#10763](https://github.com/AliceO2Group/AliceO2/pull/10763) 2023-02-17: TPC: Update data processing to generic RDH by [@wiechula](https://github.com/wiechula)
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
 - [\#10768](https://github.com/AliceO2Group/AliceO2/pull/10768) 2023-02-16: ITS3: Re-enable tracking workflow by [@mconcas](https://github.com/mconcas)

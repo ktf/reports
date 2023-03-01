@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-14T16:15:08Z",
-            "title": "Optionally bias TPC params on source level",
-            "number": 10762,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/TrackTuneParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/TrackTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/src/TrackReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDGlobalTrackingSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-17T06:11:14Z",
             "title": "TPC: Update data processing to generic RDH",
             "number": 10763,
@@ -4611,6 +4546,71 @@
                 {
                   "node": {
                     "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[ITS, ITS3] Restore build level for material budget studies",
+            "number": 10863,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/DescriptorInnerBarrel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/ITSBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/DescriptorInnerBarrelITS2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/DescriptorInnerBarrelITS2.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/DescriptorInnerBarrelITS3Param.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/ITS3Layer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/DescriptorInnerBarrelITS3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/ITS3Layer.cxx"
                   }
                 }
               ]
