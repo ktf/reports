@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-14T16:15:24Z",
-            "title": "Add missing formatter for RDHV7 parser",
-            "number": 10764,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/src/RawParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/test_RawParser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-14T20:29:53Z",
             "title": "DPL: add callback when exit was requested",
             "number": 10765,
@@ -4741,6 +4711,36 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: more tests moved to catch2",
+            "number": 10865,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/unittest_SimpleOptionsRetriever.cxx"
                   }
                 }
               ]
