@@ -13,6 +13,7 @@
 - [\#10815](https://github.com/AliceO2Group/AliceO2/pull/10815) 2023-02-27: Support AO2D bcrange by [@mpuccio](https://github.com/mpuccio)
 - [\#10822](https://github.com/AliceO2Group/AliceO2/pull/10822) 2023-02-25: GPU: Fixes for compilation without O2 headers by [@davidrohr](https://github.com/davidrohr)
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
+- [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
@@ -67,6 +68,7 @@
 - [\#10845](https://github.com/AliceO2Group/AliceO2/pull/10845) 2023-02-28: [EMCAL-904] Port correction for energy nonlinearity by [@mfasDa](https://github.com/mfasDa)
 - [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
 - [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
+- [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10855](https://github.com/AliceO2Group/AliceO2/pull/10855) 2023-02-28: Optionally do not process CTF which was completely skimmed out by [@shahor02](https://github.com/shahor02)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
