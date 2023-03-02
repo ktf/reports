@@ -23,7 +23,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10771](https://github.com/AliceO2Group/AliceO2/pull/10771) 2023-02-16: Fix the RDH V7 by [@fapfap69](https://github.com/fapfap69)
 - [\#10772](https://github.com/AliceO2Group/AliceO2/pull/10772) 2023-02-15: Fix typo (eta sign) in track extrapolation to PHOS by [@shahor02](https://github.com/shahor02)
 - [\#10773](https://github.com/AliceO2Group/AliceO2/pull/10773) 2023-03-02: Add possibility to filter the collision BCs and merge digits in adjacent BCs by [@dstocco](https://github.com/dstocco)
 - [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
