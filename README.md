@@ -19,6 +19,7 @@
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
+- [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10767](https://github.com/AliceO2Group/AliceO2/pull/10767) 2023-02-14: Misc. small changes for ITS/MFT RDHv7 format and ITS/TPC matching by [@shahor02](https://github.com/shahor02)
@@ -67,6 +68,7 @@
 - [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
 - [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
 - [\#10855](https://github.com/AliceO2Group/AliceO2/pull/10855) 2023-02-28: Optionally do not process CTF which was completely skimmed out by [@shahor02](https://github.com/shahor02)
+- [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
 - [\#10863](https://github.com/AliceO2Group/AliceO2/pull/10863) 2023-03-02: [ITS, ITS3] Restore build level for material budget studies by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - EventVisualisation
