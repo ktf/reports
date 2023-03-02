@@ -71,7 +71,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10765](https://github.com/AliceO2Group/AliceO2/pull/10765) 2023-02-14: DPL: add callback when exit was requested by [@ktf](https://github.com/ktf)
 - [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
 - [\#10777](https://github.com/AliceO2Group/AliceO2/pull/10777) 2023-02-16: Improve debugging by [@ktf](https://github.com/ktf)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
