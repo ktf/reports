@@ -23,7 +23,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10774](https://github.com/AliceO2Group/AliceO2/pull/10774) 2023-02-15: Match all specs when writing decoded MID digits by [@dstocco](https://github.com/dstocco)
 - [\#10778](https://github.com/AliceO2Group/AliceO2/pull/10778) 2023-02-16: MCH: add (empty) error map to new clustering by [@aphecetche](https://github.com/aphecetche)
 - [\#10779](https://github.com/AliceO2Group/AliceO2/pull/10779) 2023-02-16: Extra fixes for ITS/MFT decoding with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
@@ -73,7 +72,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10775](https://github.com/AliceO2Group/AliceO2/pull/10775) 2023-02-15: DPL GUI: memory profiling button for devices too by [@ktf](https://github.com/ktf)
 - [\#10777](https://github.com/AliceO2Group/AliceO2/pull/10777) 2023-02-16: Improve debugging by [@ktf](https://github.com/ktf)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10785](https://github.com/AliceO2Group/AliceO2/pull/10785) 2023-02-16: DPL: introduce typesafe API for callbacks by [@ktf](https://github.com/ktf)
