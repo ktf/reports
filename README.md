@@ -53,6 +53,7 @@
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10825](https://github.com/AliceO2Group/AliceO2/pull/10825) 2023-03-01: MCH: added message with bad channels map for QC processing by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10827](https://github.com/AliceO2Group/AliceO2/pull/10827) 2023-02-24: TPC: Remove potentially problematic completion policy by [@wiechula](https://github.com/wiechula)
+- [\#10828](https://github.com/AliceO2Group/AliceO2/pull/10828) 2023-03-03: TRD: QC: correct calculation of tracklet length by [@f3sch](https://github.com/f3sch)
 - [\#10833](https://github.com/AliceO2Group/AliceO2/pull/10833) 2023-02-28: [MRRTF-211] Migrate MCH track I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10836](https://github.com/AliceO2Group/AliceO2/pull/10836) 2023-02-26: ITS-GPU: Fix missing reset for buffer. by [@mconcas](https://github.com/mconcas)
