@@ -23,7 +23,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10779](https://github.com/AliceO2Group/AliceO2/pull/10779) 2023-02-16: Extra fixes for ITS/MFT decoding with RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10780](https://github.com/AliceO2Group/AliceO2/pull/10780) 2023-02-15: Fix sign of saved MC track by [@shahor02](https://github.com/shahor02)
 - [\#10781](https://github.com/AliceO2Group/AliceO2/pull/10781) 2023-02-17: DPL: typesafe callback API by [@ktf](https://github.com/ktf)
 - [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
