@@ -62,6 +62,7 @@
 - [\#10863](https://github.com/AliceO2Group/AliceO2/pull/10863) 2023-03-02: [ITS, ITS3] Restore build level for material budget studies by [@fgrosa](https://github.com/fgrosa)
 - [\#10871](https://github.com/AliceO2Group/AliceO2/pull/10871) 2023-03-03: TPC: Move spline creation from map to separate function by [@wiechula](https://github.com/wiechula)
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
+- [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
 - [\#10877](https://github.com/AliceO2Group/AliceO2/pull/10877) 2023-03-03: set MCH cluster resolution in x and y separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
