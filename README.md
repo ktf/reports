@@ -64,6 +64,7 @@
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
 - [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
 - [\#10877](https://github.com/AliceO2Group/AliceO2/pull/10877) 2023-03-03: set MCH cluster resolution in x and y separately by [@pillot](https://github.com/pillot)
+- [\#10879](https://github.com/AliceO2Group/AliceO2/pull/10879) 2023-03-04: TPC: Adapt to changes in GPU QC by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
@@ -79,4 +80,5 @@
 - [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
+- [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
