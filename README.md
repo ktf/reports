@@ -81,3 +81,4 @@
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
 - [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
+- [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
