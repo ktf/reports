@@ -68,7 +68,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10785](https://github.com/AliceO2Group/AliceO2/pull/10785) 2023-02-16: DPL: introduce typesafe API for callbacks by [@ktf](https://github.com/ktf)
 - [\#10787](https://github.com/AliceO2Group/AliceO2/pull/10787) 2023-02-16: DPL Analysis: move static out of line by [@ktf](https://github.com/ktf)
 - [\#10788](https://github.com/AliceO2Group/AliceO2/pull/10788) 2023-02-16: DPL: do not have static string inline by [@ktf](https://github.com/ktf)
 - [\#10795](https://github.com/AliceO2Group/AliceO2/pull/10795) 2023-02-17: DPL: cleanup unused variable in CMakeList.txt by [@ktf](https://github.com/ktf)
