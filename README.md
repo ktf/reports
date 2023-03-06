@@ -12,6 +12,7 @@
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
+- [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
@@ -21,7 +22,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10792](https://github.com/AliceO2Group/AliceO2/pull/10792) 2023-02-22: TRD: QC: Write corrected charges by [@f3sch](https://github.com/f3sch)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
 - [\#10794](https://github.com/AliceO2Group/AliceO2/pull/10794) 2023-02-17: Adapt EMC, PHS and CPV to RDHv7 by [@shahor02](https://github.com/shahor02)
 - [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
@@ -81,3 +81,4 @@
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
 - [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10887](https://github.com/AliceO2Group/AliceO2/pull/10887) 2023-03-05: DPL: Fix compiler warning, do not shadow variable by [@davidrohr](https://github.com/davidrohr)
+- [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
