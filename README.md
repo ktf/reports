@@ -20,7 +20,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10790](https://github.com/AliceO2Group/AliceO2/pull/10790) 2023-02-16: MCH: add RDHv7 in showRDHs utility function by [@aphecetche](https://github.com/aphecetche)
 - [\#10791](https://github.com/AliceO2Group/AliceO2/pull/10791) 2023-02-17: [MRRTF-209] Migrate MCH precluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
 - [\#10792](https://github.com/AliceO2Group/AliceO2/pull/10792) 2023-02-22: TRD: QC: Write corrected charges by [@f3sch](https://github.com/f3sch)
 - [\#10793](https://github.com/AliceO2Group/AliceO2/pull/10793) 2023-02-17: ITS Pulse length scan + new run type IDs + new CDW versions by [@iravasen](https://github.com/iravasen)
