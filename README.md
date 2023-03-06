@@ -12,6 +12,7 @@
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
+- [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
@@ -77,5 +78,6 @@
 - [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
 - [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
+- [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10887](https://github.com/AliceO2Group/AliceO2/pull/10887) 2023-03-05: DPL: Fix compiler warning, do not shadow variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
