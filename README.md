@@ -66,7 +66,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10798](https://github.com/AliceO2Group/AliceO2/pull/10798) 2023-02-23: DPL: fix callback for DeviceStateChange so that it is actually invoked by [@ktf](https://github.com/ktf)
 - [\#10821](https://github.com/AliceO2Group/AliceO2/pull/10821) 2023-02-28: AliECS dump: allow to enable/disable logging stdout and stderr separately by [@knopers8](https://github.com/knopers8)
 - [\#10829](https://github.com/AliceO2Group/AliceO2/pull/10829) 2023-02-25: DPL: use catch2 for tests by [@ktf](https://github.com/ktf)
 - [\#10830](https://github.com/AliceO2Group/AliceO2/pull/10830) 2023-02-28: New callback registry by [@ktf](https://github.com/ktf)
