@@ -64,6 +64,7 @@
 - [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
 - [\#10877](https://github.com/AliceO2Group/AliceO2/pull/10877) 2023-03-03: set MCH cluster resolution in x and y separately by [@pillot](https://github.com/pillot)
 - [\#10879](https://github.com/AliceO2Group/AliceO2/pull/10879) 2023-03-04: TPC: Adapt to changes in GPU QC by [@davidrohr](https://github.com/davidrohr)
+- [\#10888](https://github.com/AliceO2Group/AliceO2/pull/10888) 2023-03-06: [MRRTF-214] exe to upload (default) bad channel and rejectlist to CCDB by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
