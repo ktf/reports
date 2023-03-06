@@ -11,6 +11,7 @@
 - [\#10822](https://github.com/AliceO2Group/AliceO2/pull/10822) 2023-02-25: GPU: Fixes for compilation without O2 headers by [@davidrohr](https://github.com/davidrohr)
 - [\#10841](https://github.com/AliceO2Group/AliceO2/pull/10841) 2023-02-27: GPU: Install GPUDebugStreamer.h include file by [@davidrohr](https://github.com/davidrohr)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
+- [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
