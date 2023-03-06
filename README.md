@@ -58,6 +58,7 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
 - [\#10863](https://github.com/AliceO2Group/AliceO2/pull/10863) 2023-03-02: [ITS, ITS3] Restore build level for material budget studies by [@fgrosa](https://github.com/fgrosa)
+- [\#10866](https://github.com/AliceO2Group/AliceO2/pull/10866) 2023-03-06: TRD fix ranges of plots in macro by [@bazinski](https://github.com/bazinski)
 - [\#10871](https://github.com/AliceO2Group/AliceO2/pull/10871) 2023-03-03: TPC: Move spline creation from map to separate function by [@wiechula](https://github.com/wiechula)
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
 - [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
