@@ -22,7 +22,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10796](https://github.com/AliceO2Group/AliceO2/pull/10796) 2023-02-19: Prevent MID strips with only one point in common to be merged in the same precluster by [@dstocco](https://github.com/dstocco)
 - [\#10797](https://github.com/AliceO2Group/AliceO2/pull/10797) 2023-02-25: ITS-SeedingVertexer: Use dynamic TimeFrame splitting for GPU vertexer by [@mconcas](https://github.com/mconcas)
 - [\#10799](https://github.com/AliceO2Group/AliceO2/pull/10799) 2023-02-17: ITS: Move up the configuration to initialise properly number of layers by [@fgrosa](https://github.com/fgrosa)
 - [\#10801](https://github.com/AliceO2Group/AliceO2/pull/10801) 2023-02-24: [MRRTF-210] Migrate MCH cluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
