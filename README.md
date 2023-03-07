@@ -24,8 +24,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10801](https://github.com/AliceO2Group/AliceO2/pull/10801) 2023-02-24: [MRRTF-210] Migrate MCH cluster I/O to IO and DevIO libs by [@aphecetche](https://github.com/aphecetche)
-- [\#10802](https://github.com/AliceO2Group/AliceO2/pull/10802) 2023-02-20: ITS3: Implement the 4th Layer for ITS3 Inner Barrel by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
@@ -67,6 +65,7 @@
 - [\#10893](https://github.com/AliceO2Group/AliceO2/pull/10893) 2023-03-06: Demote error messages to alarm by [@davidrohr](https://github.com/davidrohr)
 - [\#10895](https://github.com/AliceO2Group/AliceO2/pull/10895) 2023-03-06: [EMCAL-904] Fix sign of the scale correction for testbeam shaper nonlin with scale by [@mfasDa](https://github.com/mfasDa)
 - [\#10896](https://github.com/AliceO2Group/AliceO2/pull/10896) 2023-03-07: TRD: QC: fix swapped row/col by [@f3sch](https://github.com/f3sch)
+- [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
@@ -84,3 +83,4 @@
 - [\#10887](https://github.com/AliceO2Group/AliceO2/pull/10887) 2023-03-05: DPL: Fix compiler warning, do not shadow variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
+- [\#10902](https://github.com/AliceO2Group/AliceO2/pull/10902) 2023-03-07: Fix typo... by [@davidrohr](https://github.com/davidrohr)
