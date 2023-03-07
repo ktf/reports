@@ -65,6 +65,7 @@
 - [\#10889](https://github.com/AliceO2Group/AliceO2/pull/10889) 2023-03-07: [MRRTF-215] Small additions to ElecMap by [@aphecetche](https://github.com/aphecetche)
 - [\#10893](https://github.com/AliceO2Group/AliceO2/pull/10893) 2023-03-06: Demote error messages to alarm by [@davidrohr](https://github.com/davidrohr)
 - [\#10895](https://github.com/AliceO2Group/AliceO2/pull/10895) 2023-03-06: [EMCAL-904] Fix sign of the scale correction for testbeam shaper nonlin with scale by [@mfasDa](https://github.com/mfasDa)
+- [\#10896](https://github.com/AliceO2Group/AliceO2/pull/10896) 2023-03-07: TRD: QC: fix swapped row/col by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
