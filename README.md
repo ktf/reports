@@ -22,7 +22,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10817](https://github.com/AliceO2Group/AliceO2/pull/10817) 2023-02-22: ITS: install AlpideResponseData.root with explicit rule by [@mconcas](https://github.com/mconcas)
 - [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10825](https://github.com/AliceO2Group/AliceO2/pull/10825) 2023-03-01: MCH: added message with bad channels map for QC processing by [@aferrero2707](https://github.com/aferrero2707)
