@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-26T07:45:35Z",
-            "title": "Few improvements for stdout",
-            "number": 10811,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FIT/FV0/workflow/src/ReconstructionSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/src/DigitFilteringSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-01T09:20:23Z",
             "title": "TPC,TOF,FIT: disable branches for faster loop over TTree",
             "number": 10812,
@@ -4261,6 +4231,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid keeping large tree in memory when creating distortion maps",
+            "number": 10912,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/macro/staticMapCreator.C"
                   }
                 }
               ]
