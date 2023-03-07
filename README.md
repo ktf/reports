@@ -23,8 +23,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
-- [\#10809](https://github.com/AliceO2Group/AliceO2/pull/10809) 2023-02-24: ITS: Use a single TimeFrame for reco instance by [@mconcas](https://github.com/mconcas)
 - [\#10811](https://github.com/AliceO2Group/AliceO2/pull/10811) 2023-02-26: Few improvements for stdout by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#10812](https://github.com/AliceO2Group/AliceO2/pull/10812) 2023-03-01: TPC,TOF,FIT: disable branches for faster loop over TTree by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10813](https://github.com/AliceO2Group/AliceO2/pull/10813) 2023-02-22: ITS3: add CSSY in the ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
