@@ -15,14 +15,12 @@
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10818](https://github.com/AliceO2Group/AliceO2/pull/10818) 2023-02-23: Add CTP start/end time to GRPECS and its creator by [@shahor02](https://github.com/shahor02)
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
 - [\#10825](https://github.com/AliceO2Group/AliceO2/pull/10825) 2023-03-01: MCH: added message with bad channels map for QC processing by [@aferrero2707](https://github.com/aferrero2707)
 - [\#10827](https://github.com/AliceO2Group/AliceO2/pull/10827) 2023-02-24: TPC: Remove potentially problematic completion policy by [@wiechula](https://github.com/wiechula)
