@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-02-23T08:58:35Z",
-            "title": "DPG: add flag to keep only PV contrib. for dca studies.",
-            "number": 2047,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/qaImpPar.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "WIP : PWGJE Adding the functionality of hf-jets for inclusive jets",
@@ -2731,6 +2711,36 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateSelectorLcMl.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Workaround for triggerBC in apass2/3",
+            "number": 2149,
+            "author": {
+              "login": "ekryshen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/CCDB/macros/upload_trigger_aliases_run3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/eventSelectionQa.cxx"
                   }
                 }
               ]
