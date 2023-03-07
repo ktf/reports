@@ -23,7 +23,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
 - [\#10807](https://github.com/AliceO2Group/AliceO2/pull/10807) 2023-02-23: TPC: releasing memory of aggregated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10808](https://github.com/AliceO2Group/AliceO2/pull/10808) 2023-02-22: ATO-609: switch on track references for the ITS layers and every 15 c… by [@marslandALICE](https://github.com/marslandALICE)
 - [\#10809](https://github.com/AliceO2Group/AliceO2/pull/10809) 2023-02-24: ITS: Use a single TimeFrame for reco instance by [@mconcas](https://github.com/mconcas)
