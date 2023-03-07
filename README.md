@@ -24,7 +24,6 @@
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10804](https://github.com/AliceO2Group/AliceO2/pull/10804) 2023-02-19: use default RDH as generic header instead of v4 by [@shahor02](https://github.com/shahor02)
 - [\#10805](https://github.com/AliceO2Group/AliceO2/pull/10805) 2023-02-22: ctpdev: padding raw data by [@lietava](https://github.com/lietava)
 - [\#10806](https://github.com/AliceO2Group/AliceO2/pull/10806) 2023-02-20: ITS: Clear message when beam position is from CCDB by [@mconcas](https://github.com/mconcas)
 - [\#10807](https://github.com/AliceO2Group/AliceO2/pull/10807) 2023-02-23: TPC: releasing memory of aggregated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
