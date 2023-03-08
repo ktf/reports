@@ -20,6 +20,7 @@
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
+- [\#10874](https://github.com/AliceO2Group/AliceO2/pull/10874) 2023-03-08: [ITS, ITS3] Create topology-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
@@ -44,6 +45,7 @@
 - [\#10866](https://github.com/AliceO2Group/AliceO2/pull/10866) 2023-03-06: TRD fix ranges of plots in macro by [@bazinski](https://github.com/bazinski)
 - [\#10871](https://github.com/AliceO2Group/AliceO2/pull/10871) 2023-03-03: TPC: Move spline creation from map to separate function by [@wiechula](https://github.com/wiechula)
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
+- [\#10874](https://github.com/AliceO2Group/AliceO2/pull/10874) 2023-03-08: [ITS, ITS3] Create topology-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
 - [\#10877](https://github.com/AliceO2Group/AliceO2/pull/10877) 2023-03-03: set MCH cluster resolution in x and y separately by [@pillot](https://github.com/pillot)
 - [\#10879](https://github.com/AliceO2Group/AliceO2/pull/10879) 2023-03-04: TPC: Adapt to changes in GPU QC by [@davidrohr](https://github.com/davidrohr)
