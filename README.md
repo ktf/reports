@@ -55,6 +55,7 @@
 - [\#10899](https://github.com/AliceO2Group/AliceO2/pull/10899) 2023-03-07: Small change to compile on Ubuntu 22.04 by [@pzhristov](https://github.com/pzhristov)
 - [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
+- [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
