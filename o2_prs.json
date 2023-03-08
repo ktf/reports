@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-28T15:31:20Z",
-            "title": "AliECS dump: allow to enable/disable logging stdout and stderr separately",
-            "number": 10821,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/O2ControlHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FrameworkDataFlowToO2Control.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-25T18:19:45Z",
             "title": "GPU: Fixes for compilation without O2 headers",
             "number": 10822,
@@ -3169,7 +3144,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL GUI: avoid extra allocation to display metrics",
             "number": 10882,
@@ -4341,6 +4316,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove forward of RawHeaderStream from EMCALReconstruction",
+            "number": 10922,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RawHeaderStream.h"
                   }
                 }
               ]
