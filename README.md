@@ -20,6 +20,7 @@
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
+- [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10824](https://github.com/AliceO2Group/AliceO2/pull/10824) 2023-02-23: Add track status vrt PV to track stufy output by [@shahor02](https://github.com/shahor02)
@@ -56,6 +57,7 @@
 - [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
 - [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
+- [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
