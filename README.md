@@ -79,4 +79,5 @@
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10902](https://github.com/AliceO2Group/AliceO2/pull/10902) 2023-03-07: Fix typo... by [@davidrohr](https://github.com/davidrohr)
 - [\#10906](https://github.com/AliceO2Group/AliceO2/pull/10906) 2023-03-07: Improve relay choice by [@ktf](https://github.com/ktf)
+- [\#10921](https://github.com/AliceO2Group/AliceO2/pull/10921) 2023-03-09: Drop obsolete metric parsing by [@ktf](https://github.com/ktf)
 - [\#10923](https://github.com/AliceO2Group/AliceO2/pull/10923) 2023-03-08: DPL: adapt to new version of c++filt by [@ktf](https://github.com/ktf)
