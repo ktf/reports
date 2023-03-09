@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-24T17:55:05Z",
-            "title": "PWGHF: Add configurables for vertexer minimisation options",
-            "number": 2069,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorB0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorBplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorChic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorLb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorToXiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorX.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorXicc.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-27T11:58:59Z",
             "title": "[EMCAL-689] Seperate track matching monitor task from emcclustermonitor",
             "number": 2070,
@@ -2040,7 +1980,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffQA.cxx"
                   }
                 }
               ]
@@ -2569,6 +2519,41 @@
                 {
                   "node": {
                     "path": "PWGDQ/Core/CutsLibrary.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Specify minimal set of GH Action permissions",
+            "number": 2175,
+            "author": {
+              "login": "TimoWilken"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/code-formatting.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/codeowner-self-approval.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/mega-linter.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": ".github/workflows/stale.yml"
                   }
                 }
               ]
