@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-03T09:56:03Z",
-            "title": "TRD: QC: correct calculation of tracklet length",
-            "number": 10828,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/qc/src/Tracking.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-25T17:24:18Z",
             "title": "DPL: use catch2 for tests",
             "number": 10829,
@@ -4296,6 +4276,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MCH/Triggering/include/MCHTriggering/EventFinderParam.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Don't add writers when using global-reader",
+            "number": 10928,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
