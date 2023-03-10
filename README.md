@@ -64,7 +64,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10830](https://github.com/AliceO2Group/AliceO2/pull/10830) 2023-02-28: New callback registry by [@ktf](https://github.com/ktf)
 - [\#10839](https://github.com/AliceO2Group/AliceO2/pull/10839) 2023-02-28: DPL GUI: fix deprecated ImPlot API by [@ktf](https://github.com/ktf)
 - [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
