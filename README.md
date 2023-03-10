@@ -59,6 +59,7 @@
 - [\#10919](https://github.com/AliceO2Group/AliceO2/pull/10919) 2023-03-09: TPC QA: Remove obsolete functions, needed only for compatibility to old QC by [@davidrohr](https://github.com/davidrohr)
 - [\#10920](https://github.com/AliceO2Group/AliceO2/pull/10920) 2023-03-08: fix typo in the check of propagating to calorimeters by [@shahor02](https://github.com/shahor02)
 - [\#10925](https://github.com/AliceO2Group/AliceO2/pull/10925) 2023-03-08: GPU: Support multiple HIP target architectures in one build, and switch from deprecated --amdgpu-target to --offload-arch by [@davidrohr](https://github.com/davidrohr)
+- [\#10926](https://github.com/AliceO2Group/AliceO2/pull/10926) 2023-03-10: TRD pileup simulation fix by [@martenole](https://github.com/martenole)
 - [\#10927](https://github.com/AliceO2Group/AliceO2/pull/10927) 2023-03-09: tuning of some MCH reconstruction parameters by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
