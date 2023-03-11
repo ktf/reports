@@ -52,6 +52,7 @@
 - [\#10899](https://github.com/AliceO2Group/AliceO2/pull/10899) 2023-03-07: Small change to compile on Ubuntu 22.04 by [@pzhristov](https://github.com/pzhristov)
 - [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
+- [\#10912](https://github.com/AliceO2Group/AliceO2/pull/10912) 2023-03-11: Avoid keeping large tree in memory when creating distortion maps by [@martenole](https://github.com/martenole)
 - [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10916](https://github.com/AliceO2Group/AliceO2/pull/10916) 2023-03-09: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow by [@aphecetche](https://github.com/aphecetche)
