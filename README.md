@@ -13,7 +13,6 @@
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10842](https://github.com/AliceO2Group/AliceO2/pull/10842) 2023-03-01: Comment unused variables by [@dstocco](https://github.com/dstocco)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
@@ -22,7 +21,6 @@
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10835](https://github.com/AliceO2Group/AliceO2/pull/10835) 2023-02-27: Set RDHv7 as default + related fixes by [@shahor02](https://github.com/shahor02)
 - [\#10836](https://github.com/AliceO2Group/AliceO2/pull/10836) 2023-02-26: ITS-GPU: Fix missing reset for buffer. by [@mconcas](https://github.com/mconcas)
 - [\#10837](https://github.com/AliceO2Group/AliceO2/pull/10837) 2023-02-27: fix printing of the EventLabel by [@shahor02](https://github.com/shahor02)
 - [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
