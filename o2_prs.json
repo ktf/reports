@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-26T18:05:17Z",
-            "title": "ITS-GPU: Fix missing reset for buffer.",
-            "number": 10836,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexerTraitsGPU.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-27T09:22:08Z",
             "title": "fix printing of the EventLabel",
             "number": 10837,
@@ -3941,6 +3921,66 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-10] Add PAD trigger information in reconstruction",
+            "number": 10936,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/ErrorHandling.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/include/DataFormatsFOCAL/Event.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/src/ErrorHandling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FOCAL/src/Event.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PadWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/run/rawReaderPadRootify.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/PadWord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/workflow/src/RawDecoderSpec.cxx"
                   }
                 }
               ]
