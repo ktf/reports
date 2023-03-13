@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-26T21:06:26Z",
-            "title": "IDC calib-workflow: do not connect to FLPs that are not in the run",
-            "number": 10838,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-28T05:54:59Z",
             "title": "DPL GUI: fix deprecated ImPlot API",
             "number": 10839,
@@ -3976,6 +3956,46 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/run-workflow-on-inputlist.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility to use CCDBDownloader in CcdbApi",
+            "number": 10938,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
