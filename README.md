@@ -20,7 +20,6 @@
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 - [\#10844](https://github.com/AliceO2Group/AliceO2/pull/10844) 2023-02-28: O2-3580: Add byproducts and custom target force response generation by [@mconcas](https://github.com/mconcas)
 - [\#10845](https://github.com/AliceO2Group/AliceO2/pull/10845) 2023-02-28: [EMCAL-904] Port correction for energy nonlinearity by [@mfasDa](https://github.com/mfasDa)
 - [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
@@ -61,8 +60,6 @@
 - [\#10932](https://github.com/AliceO2Group/AliceO2/pull/10932) 2023-03-11: [EMCAL-688] EMCal/ClusterFactory: Add Exotic Cluster Check by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10933](https://github.com/AliceO2Group/AliceO2/pull/10933) 2023-03-11: Revert "[MRRTF-217] introduce StatusMap object and statusmap-creator-workflow" by [@davidrohr](https://github.com/davidrohr)
 - [\#10935](https://github.com/AliceO2Group/AliceO2/pull/10935) 2023-03-13: [EMCAL-688] ClusterFactory: Add lookup table between towerId and cell… by [@mhemmer-cern](https://github.com/mhemmer-cern)
-## Recent developments in O2 - EventVisualisation
-- [\#10840](https://github.com/AliceO2Group/AliceO2/pull/10840) 2023-02-26: Revert "bulk generation of screenshots" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
