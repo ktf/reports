@@ -57,8 +57,10 @@
 - [\#10927](https://github.com/AliceO2Group/AliceO2/pull/10927) 2023-03-09: tuning of some MCH reconstruction parameters by [@pillot](https://github.com/pillot)
 - [\#10932](https://github.com/AliceO2Group/AliceO2/pull/10932) 2023-03-11: [EMCAL-688] EMCal/ClusterFactory: Add Exotic Cluster Check by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10933](https://github.com/AliceO2Group/AliceO2/pull/10933) 2023-03-11: Revert "[MRRTF-217] introduce StatusMap object and statusmap-creator-workflow" by [@davidrohr](https://github.com/davidrohr)
+- [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10935](https://github.com/AliceO2Group/AliceO2/pull/10935) 2023-03-13: [EMCAL-688] ClusterFactory: Add lookup table between towerId and cell… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
+- [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
 - [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
@@ -77,3 +79,5 @@
 - [\#10923](https://github.com/AliceO2Group/AliceO2/pull/10923) 2023-03-08: DPL: adapt to new version of c++filt by [@ktf](https://github.com/ktf)
 - [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Steer
+- [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
