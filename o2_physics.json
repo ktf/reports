@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-02T00:06:26Z",
-            "title": "add skipping of TPConly tracks",
-            "number": 2105,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackPropagationTester.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-02T01:15:50Z",
             "title": "PWGCF: fix in FilterQA",
             "number": 2106,
@@ -2483,6 +2463,41 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TOF: Add all event times to skimmed data",
+            "number": 2212,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofOfflineCalib.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofSkimsTableCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/TOF/tofSkimsTableCreator.h"
                   }
                 }
               ]
