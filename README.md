@@ -19,7 +19,6 @@
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10844](https://github.com/AliceO2Group/AliceO2/pull/10844) 2023-02-28: O2-3580: Add byproducts and custom target force response generation by [@mconcas](https://github.com/mconcas)
 - [\#10845](https://github.com/AliceO2Group/AliceO2/pull/10845) 2023-02-28: [EMCAL-904] Port correction for energy nonlinearity by [@mfasDa](https://github.com/mfasDa)
 - [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
 - [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
