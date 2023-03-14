@@ -2,8 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Analysis
-- [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Common
 - [\#10853](https://github.com/AliceO2Group/AliceO2/pull/10853) 2023-03-11: TPC tracking: Add streamers for update track and reject clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
@@ -19,7 +17,6 @@
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10845](https://github.com/AliceO2Group/AliceO2/pull/10845) 2023-02-28: [EMCAL-904] Port correction for energy nonlinearity by [@mfasDa](https://github.com/mfasDa)
 - [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
 - [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
@@ -62,7 +59,6 @@
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
-- [\#10846](https://github.com/AliceO2Group/AliceO2/pull/10846) 2023-02-28: equivalence for Collisions by [@jgrosseo](https://github.com/jgrosseo)
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
 - [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)

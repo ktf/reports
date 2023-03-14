@@ -5,61 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-02-28T07:44:26Z",
-            "title": "[EMCAL-904] Port correction for energy nonlinearity",
-            "number": 10845,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/NonlinearityHandler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/EMCALBaseLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/NonlinearityHandler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-02-28T07:17:29Z",
-            "title": "equivalence for Collisions",
-            "number": 10846,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-02-28T09:02:47Z",
             "title": "GPU: Fix TPC track seeding could run out of physical TPC volume",
             "number": 10847,
@@ -4026,6 +3971,51 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/simulation/src/TrapConfig.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix invalid read bug during destructor",
+            "number": 10945,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-10] Add DetID for FOCAL",
+            "number": 10946,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/src/DetID.cxx"
                   }
                 }
               ]
