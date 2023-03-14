@@ -17,7 +17,6 @@
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10850](https://github.com/AliceO2Group/AliceO2/pull/10850) 2023-03-01: TPC: add abs v drift to laser qc by [@tklemenz](https://github.com/tklemenz)
 - [\#10851](https://github.com/AliceO2Group/AliceO2/pull/10851) 2023-02-28: ITS-GPU: remove synchronisation point by [@mconcas](https://github.com/mconcas)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10855](https://github.com/AliceO2Group/AliceO2/pull/10855) 2023-02-28: Optionally do not process CTF which was completely skimmed out by [@shahor02](https://github.com/shahor02)
