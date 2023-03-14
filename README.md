@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10853](https://github.com/AliceO2Group/AliceO2/pull/10853) 2023-03-11: TPC tracking: Add streamers for update track and reject clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
