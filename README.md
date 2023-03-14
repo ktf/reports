@@ -38,6 +38,7 @@
 - [\#10895](https://github.com/AliceO2Group/AliceO2/pull/10895) 2023-03-06: [EMCAL-904] Fix sign of the scale correction for testbeam shaper nonlin with scale by [@mfasDa](https://github.com/mfasDa)
 - [\#10896](https://github.com/AliceO2Group/AliceO2/pull/10896) 2023-03-07: TRD: QC: fix swapped row/col by [@f3sch](https://github.com/f3sch)
 - [\#10897](https://github.com/AliceO2Group/AliceO2/pull/10897) 2023-03-07: Stream operators for RDH v6 and v7 by [@mfasDa](https://github.com/mfasDa)
+- [\#10898](https://github.com/AliceO2Group/AliceO2/pull/10898) 2023-03-14: Allow to run the MID chamber efficiency workflow with matched MCH-MID tracks by [@dstocco](https://github.com/dstocco)
 - [\#10899](https://github.com/AliceO2Group/AliceO2/pull/10899) 2023-03-07: Small change to compile on Ubuntu 22.04 by [@pzhristov](https://github.com/pzhristov)
 - [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
