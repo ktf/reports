@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-02T01:15:50Z",
-            "title": "PWGCF: fix in FilterQA",
-            "number": 2106,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilterQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-03T12:56:53Z",
             "title": "CPV index protection added",
             "number": 2107,
@@ -2498,6 +2478,41 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/TOF/tofSkimsTableCreator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add EvSelBC to CEFP output + fixes in qa macros",
+            "number": 2213,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/cefpTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/filterTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/checkBCRange.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/macros/splitFile.C"
                   }
                 }
               ]
