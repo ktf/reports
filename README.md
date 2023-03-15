@@ -7,6 +7,7 @@
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
+- [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - DataFormats
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
@@ -14,6 +15,7 @@
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
+- [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
@@ -54,6 +56,7 @@
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 - [\#10941](https://github.com/AliceO2Group/AliceO2/pull/10941) 2023-03-15: MCH: read number of orbits in TF from CCDB by [@aphecetche](https://github.com/aphecetche)
+- [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
