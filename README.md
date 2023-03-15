@@ -15,7 +15,6 @@
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10855](https://github.com/AliceO2Group/AliceO2/pull/10855) 2023-02-28: Optionally do not process CTF which was completely skimmed out by [@shahor02](https://github.com/shahor02)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
 - [\#10863](https://github.com/AliceO2Group/AliceO2/pull/10863) 2023-03-02: [ITS, ITS3] Restore build level for material budget studies by [@fgrosa](https://github.com/fgrosa)
