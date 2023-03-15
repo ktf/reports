@@ -9,7 +9,6 @@
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - DataFormats
-- [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10860](https://github.com/AliceO2Group/AliceO2/pull/10860) 2023-03-01: error handling, print mag field after CCDB download by [@sawenzel](https://github.com/sawenzel)
 - [\#10874](https://github.com/AliceO2Group/AliceO2/pull/10874) 2023-03-08: [ITS, ITS3] Create topology-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
@@ -17,7 +16,6 @@
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
 - [\#10863](https://github.com/AliceO2Group/AliceO2/pull/10863) 2023-03-02: [ITS, ITS3] Restore build level for material budget studies by [@fgrosa](https://github.com/fgrosa)
 - [\#10866](https://github.com/AliceO2Group/AliceO2/pull/10866) 2023-03-06: TRD fix ranges of plots in macro by [@bazinski](https://github.com/bazinski)
