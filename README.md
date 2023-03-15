@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
@@ -16,7 +15,6 @@
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10854](https://github.com/AliceO2Group/AliceO2/pull/10854) 2023-03-02: o2-sim: Support for (ALICE3) field prototyping by [@sawenzel](https://github.com/sawenzel)
 - [\#10855](https://github.com/AliceO2Group/AliceO2/pull/10855) 2023-02-28: Optionally do not process CTF which was completely skimmed out by [@shahor02](https://github.com/shahor02)
 - [\#10858](https://github.com/AliceO2Group/AliceO2/pull/10858) 2023-03-02: FITRaw: large refactoring by [@afurs](https://github.com/afurs)
 - [\#10862](https://github.com/AliceO2Group/AliceO2/pull/10862) 2023-03-02: Create a stack copy of DPCOM using memcopy instead of operator= by [@shahor02](https://github.com/shahor02)
