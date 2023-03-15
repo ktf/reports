@@ -4,126 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL Analysis: Introduce slice cache service",
-            "number": 10861,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ArrowTableSlicingCache.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/CommonServices.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupSlicer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowSupport.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ArrowTableSlicingCache.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/InputRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ASoA.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_GroupSlicer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_IndexBuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Root2ArrowTable.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_TreeToTable.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-03-02T10:20:45Z",
             "title": "Create a stack copy of DPCOM using memcopy instead of operator=",
@@ -3831,6 +3711,56 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/workflow/include/FITWorkflow/FITDataReaderDPLSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CPV: read and write raw data with dataformat = 0x2",
+            "number": 10961,
+            "author": {
+              "login": "sevdokim"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/RawFormats.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/include/CPVReconstruction/RawReaderMemory.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/src/RawDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/reconstruction/src/RawReaderMemory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/include/CPVSimulation/RawWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/RawCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CPV/simulation/src/RawWriter.cxx"
                   }
                 }
               ]
