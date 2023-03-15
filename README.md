@@ -54,6 +54,7 @@
 - [\#10935](https://github.com/AliceO2Group/AliceO2/pull/10935) 2023-03-13: [EMCAL-688] ClusterFactory: Add lookup table between towerId and cell… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
+- [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
 - [\#10865](https://github.com/AliceO2Group/AliceO2/pull/10865) 2023-03-02: DPL: more tests moved to catch2 by [@ktf](https://github.com/ktf)
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
