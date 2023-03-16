@@ -60,6 +60,7 @@
 - [\#10960](https://github.com/AliceO2Group/AliceO2/pull/10960) 2023-03-16: FITRaw: hotfix for sampled raw data processing by [@afurs](https://github.com/afurs)
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
+- [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#10872](https://github.com/AliceO2Group/AliceO2/pull/10872) 2023-03-16: Improve metrics handling by [@ktf](https://github.com/ktf)
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
