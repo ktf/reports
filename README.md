@@ -53,6 +53,7 @@
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 - [\#10941](https://github.com/AliceO2Group/AliceO2/pull/10941) 2023-03-15: MCH: read number of orbits in TF from CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
+- [\#10951](https://github.com/AliceO2Group/AliceO2/pull/10951) 2023-03-16: GLO QC: Switch to TH1D for pT and extend Chi2 range by [@jloemker](https://github.com/jloemker)
 - [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
