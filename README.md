@@ -57,6 +57,7 @@
 - [\#10951](https://github.com/AliceO2Group/AliceO2/pull/10951) 2023-03-16: GLO QC: Switch to TH1D for pT and extend Chi2 range by [@jloemker](https://github.com/jloemker)
 - [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
 - [\#10959](https://github.com/AliceO2Group/AliceO2/pull/10959) 2023-03-16: TPC space charge: disabling writing some members to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#10960](https://github.com/AliceO2Group/AliceO2/pull/10960) 2023-03-16: FITRaw: hotfix for sampled raw data processing by [@afurs](https://github.com/afurs)
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
