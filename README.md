@@ -16,7 +16,6 @@
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Detectors
-- [\#10866](https://github.com/AliceO2Group/AliceO2/pull/10866) 2023-03-06: TRD fix ranges of plots in macro by [@bazinski](https://github.com/bazinski)
 - [\#10871](https://github.com/AliceO2Group/AliceO2/pull/10871) 2023-03-03: TPC: Move spline creation from map to separate function by [@wiechula](https://github.com/wiechula)
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
 - [\#10874](https://github.com/AliceO2Group/AliceO2/pull/10874) 2023-03-08: [ITS, ITS3] Create topology-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
