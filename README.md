@@ -6,6 +6,7 @@
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
+- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
@@ -51,6 +52,7 @@
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 - [\#10941](https://github.com/AliceO2Group/AliceO2/pull/10941) 2023-03-15: MCH: read number of orbits in TF from CCDB by [@aphecetche](https://github.com/aphecetche)
+- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10951](https://github.com/AliceO2Group/AliceO2/pull/10951) 2023-03-16: GLO QC: Switch to TH1D for pT and extend Chi2 range by [@jloemker](https://github.com/jloemker)
 - [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
@@ -74,8 +76,10 @@
 - [\#10923](https://github.com/AliceO2Group/AliceO2/pull/10923) 2023-03-08: DPL: adapt to new version of c++filt by [@ktf](https://github.com/ktf)
 - [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10948](https://github.com/AliceO2Group/AliceO2/pull/10948) 2023-03-14: TransitionState getters in ProcessingContext by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
 - [\#10930](https://github.com/AliceO2Group/AliceO2/pull/10930) 2023-03-16: [QC-384] flexible cycle duration by [@Barthelemy](https://github.com/Barthelemy)
+- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
