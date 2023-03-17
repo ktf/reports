@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-03-06T19:06:41Z",
-            "title": "Fix bug in jet filter where fiducial cut would not work properly",
-            "number": 2138,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/fullJetFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Dev: Add automode for cov mat filling",
@@ -2433,6 +2413,31 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/onTheFlyTOFPID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "clusterizer fix",
+            "number": 2245,
+            "author": {
+              "login": "peressounko"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/caloClusterProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Tasks/phosCalibration.cxx"
                   }
                 }
               ]
