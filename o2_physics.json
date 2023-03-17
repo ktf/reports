@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-05T17:41:58Z",
-            "title": "Separated EMCAL and DCAL triggers, option for fiducial cut in jet trigger, fixed jet finder filters",
-            "number": 2135,
-            "author": {
-              "login": "GijsvWeelden"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/fullJetFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/FullJetTriggerQATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-05T22:40:50Z",
             "title": "Expanding upon track selection request class",
             "number": 2136,
@@ -2448,6 +2413,31 @@
                 {
                   "node": {
                     "path": "EventFiltering/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixes for compilation warnings in filterPPWithAssociations and in tableReader",
+            "number": 2242,
+            "author": {
+              "login": "iarsene"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/filterPPwithAssociation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
