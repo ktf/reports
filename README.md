@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#10872](https://github.com/AliceO2Group/AliceO2/pull/10872) 2023-03-16: Improve metrics handling by [@ktf](https://github.com/ktf)
 - [\#10884](https://github.com/AliceO2Group/AliceO2/pull/10884) 2023-03-06: o2-sim: Check and fix timestamp before forking services by [@sawenzel](https://github.com/sawenzel)
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
@@ -65,7 +64,6 @@
 - [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10872](https://github.com/AliceO2Group/AliceO2/pull/10872) 2023-03-16: Improve metrics handling by [@ktf](https://github.com/ktf)
 - [\#10876](https://github.com/AliceO2Group/AliceO2/pull/10876) 2023-03-03: DPL: drop unneeded header by [@ktf](https://github.com/ktf)
 - [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
