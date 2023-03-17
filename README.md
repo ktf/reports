@@ -17,7 +17,6 @@
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10877](https://github.com/AliceO2Group/AliceO2/pull/10877) 2023-03-03: set MCH cluster resolution in x and y separately by [@pillot](https://github.com/pillot)
 - [\#10879](https://github.com/AliceO2Group/AliceO2/pull/10879) 2023-03-04: TPC: Adapt to changes in GPU QC by [@davidrohr](https://github.com/davidrohr)
 - [\#10888](https://github.com/AliceO2Group/AliceO2/pull/10888) 2023-03-06: [MRRTF-214] exe to upload (default) bad channel and rejectlist to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10889](https://github.com/AliceO2Group/AliceO2/pull/10889) 2023-03-07: [MRRTF-215] Small additions to ElecMap by [@aphecetche](https://github.com/aphecetche)
@@ -61,7 +60,6 @@
 - [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10878](https://github.com/AliceO2Group/AliceO2/pull/10878) 2023-03-04: DPL: Improve debug message for oldestPossible update, which was not c… by [@davidrohr](https://github.com/davidrohr)
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
 - [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10886](https://github.com/AliceO2Group/AliceO2/pull/10886) 2023-03-06: Misc fixes by [@ktf](https://github.com/ktf)
