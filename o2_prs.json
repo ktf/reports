@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-03T08:53:55Z",
-            "title": "TPC: Move spline creation from map to separate function",
-            "number": 10871,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/include/TPCReconstruction/TPCFastTransformHelperO2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/reconstruction/src/TPCFastTransformHelperO2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-16T11:35:25Z",
             "title": "Improve metrics handling",
             "number": 10872,
@@ -3476,6 +3451,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-565, EMCAL-566] Update bad cell and time calibration",
+            "number": 10971,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibExtractor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
                   }
                 }
               ]

@@ -19,7 +19,6 @@
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10871](https://github.com/AliceO2Group/AliceO2/pull/10871) 2023-03-03: TPC: Move spline creation from map to separate function by [@wiechula](https://github.com/wiechula)
 - [\#10873](https://github.com/AliceO2Group/AliceO2/pull/10873) 2023-03-03: TPC: add back Consume completion for raw processors by [@wiechula](https://github.com/wiechula)
 - [\#10874](https://github.com/AliceO2Group/AliceO2/pull/10874) 2023-03-08: [ITS, ITS3] Create topology-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10875](https://github.com/AliceO2Group/AliceO2/pull/10875) 2023-03-03: Fix aod producer segfault at emcal propagation by [@shahor02](https://github.com/shahor02)
