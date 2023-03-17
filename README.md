@@ -77,6 +77,7 @@
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10948](https://github.com/AliceO2Group/AliceO2/pull/10948) 2023-03-14: TransitionState getters in ProcessingContext by [@ktf](https://github.com/ktf)
+- [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
