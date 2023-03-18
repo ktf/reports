@@ -59,6 +59,7 @@
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 - [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
+- [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 ## Recent developments in O2 - Framework
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
 - [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
