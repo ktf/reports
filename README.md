@@ -17,7 +17,6 @@
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#10879](https://github.com/AliceO2Group/AliceO2/pull/10879) 2023-03-04: TPC: Adapt to changes in GPU QC by [@davidrohr](https://github.com/davidrohr)
 - [\#10888](https://github.com/AliceO2Group/AliceO2/pull/10888) 2023-03-06: [MRRTF-214] exe to upload (default) bad channel and rejectlist to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10889](https://github.com/AliceO2Group/AliceO2/pull/10889) 2023-03-07: [MRRTF-215] Small additions to ElecMap by [@aphecetche](https://github.com/aphecetche)
 - [\#10892](https://github.com/AliceO2Group/AliceO2/pull/10892) 2023-03-17: [ITS3]: Add a file to customize material budget LUT input for ITS3 IB by [@ChunzhengLab](https://github.com/ChunzhengLab)
