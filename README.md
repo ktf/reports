@@ -9,6 +9,7 @@
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10949](https://github.com/AliceO2Group/AliceO2/pull/10949) 2023-03-17: TreeStream operator<< takes const objects, const_casts internally by [@shahor02](https://github.com/shahor02)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
+- [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
@@ -16,6 +17,7 @@
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
+- [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10888](https://github.com/AliceO2Group/AliceO2/pull/10888) 2023-03-06: [MRRTF-214] exe to upload (default) bad channel and rejectlist to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10889](https://github.com/AliceO2Group/AliceO2/pull/10889) 2023-03-07: [MRRTF-215] Small additions to ElecMap by [@aphecetche](https://github.com/aphecetche)
@@ -60,6 +62,7 @@
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#10976](https://github.com/AliceO2Group/AliceO2/pull/10976) 2023-03-18: TPC: Adapt data format to DCS database by [@wiechula](https://github.com/wiechula)
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
+- [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10880](https://github.com/AliceO2Group/AliceO2/pull/10880) 2023-03-03: DPL: drop spurious message by [@ktf](https://github.com/ktf)
 - [\#10885](https://github.com/AliceO2Group/AliceO2/pull/10885) 2023-03-05: DPL: Fix / improve more debug messages by [@davidrohr](https://github.com/davidrohr)
