@@ -17,7 +17,6 @@
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10888](https://github.com/AliceO2Group/AliceO2/pull/10888) 2023-03-06: [MRRTF-214] exe to upload (default) bad channel and rejectlist to CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10889](https://github.com/AliceO2Group/AliceO2/pull/10889) 2023-03-07: [MRRTF-215] Small additions to ElecMap by [@aphecetche](https://github.com/aphecetche)
 - [\#10892](https://github.com/AliceO2Group/AliceO2/pull/10892) 2023-03-17: [ITS3]: Add a file to customize material budget LUT input for ITS3 IB by [@ChunzhengLab](https://github.com/ChunzhengLab)
 - [\#10893](https://github.com/AliceO2Group/AliceO2/pull/10893) 2023-03-06: Demote error messages to alarm by [@davidrohr](https://github.com/davidrohr)
@@ -62,6 +61,7 @@
 - [\#10976](https://github.com/AliceO2Group/AliceO2/pull/10976) 2023-03-18: TPC: Adapt data format to DCS database by [@wiechula](https://github.com/wiechula)
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
+- [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
