@@ -63,7 +63,6 @@
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10887](https://github.com/AliceO2Group/AliceO2/pull/10887) 2023-03-05: DPL: Fix compiler warning, do not shadow variable by [@davidrohr](https://github.com/davidrohr)
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
