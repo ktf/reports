@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
@@ -68,7 +67,6 @@
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
 - [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10902](https://github.com/AliceO2Group/AliceO2/pull/10902) 2023-03-07: Fix typo... by [@davidrohr](https://github.com/davidrohr)
