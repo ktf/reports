@@ -65,6 +65,7 @@
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10980](https://github.com/AliceO2Group/AliceO2/pull/10980) 2023-03-21: TransitionHandlingState check for TPC VDrift and ITS noise calib. by [@shahor02](https://github.com/shahor02)
+- [\#10983](https://github.com/AliceO2Group/AliceO2/pull/10983) 2023-03-21: Simplify TRD tracking QC and avoid crash in synch mode by [@martenole](https://github.com/martenole)
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
