@@ -60,9 +60,12 @@
 - [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#10972](https://github.com/AliceO2Group/AliceO2/pull/10972) 2023-03-20: HMP Clusterization workflow + multiple fixes by [@shahor02](https://github.com/shahor02)
+- [\#10975](https://github.com/AliceO2Group/AliceO2/pull/10975) 2023-03-21: Define TPC study tracks in the TPC sector frame by [@shahor02](https://github.com/shahor02)
 - [\#10976](https://github.com/AliceO2Group/AliceO2/pull/10976) 2023-03-18: TPC: Adapt data format to DCS database by [@wiechula](https://github.com/wiechula)
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
+- [\#10980](https://github.com/AliceO2Group/AliceO2/pull/10980) 2023-03-21: TransitionHandlingState check for TPC VDrift and ITS noise calib. by [@shahor02](https://github.com/shahor02)
+- [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10890](https://github.com/AliceO2Group/AliceO2/pull/10890) 2023-03-06: DPL: Remove duplicate debug message by [@davidrohr](https://github.com/davidrohr)
