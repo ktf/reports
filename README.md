@@ -66,6 +66,7 @@
 - [\#10983](https://github.com/AliceO2Group/AliceO2/pull/10983) 2023-03-21: Simplify TRD tracking QC and avoid crash in synch mode by [@martenole](https://github.com/martenole)
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
+- [\#10991](https://github.com/AliceO2Group/AliceO2/pull/10991) 2023-03-21: Remove duplicate ITS/VERTICES/0 output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
