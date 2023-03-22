@@ -69,6 +69,7 @@
 - [\#10989](https://github.com/AliceO2Group/AliceO2/pull/10989) 2023-03-21: Make PV reader verbosity levels more selective by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#10991](https://github.com/AliceO2Group/AliceO2/pull/10991) 2023-03-21: Remove duplicate ITS/VERTICES/0 output by [@shahor02](https://github.com/shahor02)
+- [\#10992](https://github.com/AliceO2Group/AliceO2/pull/10992) 2023-03-22: Fixes for CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
