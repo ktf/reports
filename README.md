@@ -17,7 +17,6 @@
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10893](https://github.com/AliceO2Group/AliceO2/pull/10893) 2023-03-06: Demote error messages to alarm by [@davidrohr](https://github.com/davidrohr)
 - [\#10894](https://github.com/AliceO2Group/AliceO2/pull/10894) 2023-03-10: [ITS3] Increase chip thickness as discussed in the TDR meeting by [@fgrosa](https://github.com/fgrosa)
 - [\#10895](https://github.com/AliceO2Group/AliceO2/pull/10895) 2023-03-06: [EMCAL-904] Fix sign of the scale correction for testbeam shaper nonlin with scale by [@mfasDa](https://github.com/mfasDa)
 - [\#10896](https://github.com/AliceO2Group/AliceO2/pull/10896) 2023-03-07: TRD: QC: fix swapped row/col by [@f3sch](https://github.com/f3sch)
