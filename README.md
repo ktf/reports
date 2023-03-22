@@ -19,7 +19,6 @@
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Detectors
-- [\#10894](https://github.com/AliceO2Group/AliceO2/pull/10894) 2023-03-10: [ITS3] Increase chip thickness as discussed in the TDR meeting by [@fgrosa](https://github.com/fgrosa)
 - [\#10895](https://github.com/AliceO2Group/AliceO2/pull/10895) 2023-03-06: [EMCAL-904] Fix sign of the scale correction for testbeam shaper nonlin with scale by [@mfasDa](https://github.com/mfasDa)
 - [\#10896](https://github.com/AliceO2Group/AliceO2/pull/10896) 2023-03-07: TRD: QC: fix swapped row/col by [@f3sch](https://github.com/f3sch)
 - [\#10897](https://github.com/AliceO2Group/AliceO2/pull/10897) 2023-03-07: Stream operators for RDH v6 and v7 by [@mfasDa](https://github.com/mfasDa)
