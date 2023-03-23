@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10949](https://github.com/AliceO2Group/AliceO2/pull/10949) 2023-03-17: TreeStream operator<< takes const objects, const_casts internally by [@shahor02](https://github.com/shahor02)
@@ -67,7 +66,6 @@
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 - [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10902](https://github.com/AliceO2Group/AliceO2/pull/10902) 2023-03-07: Fix typo... by [@davidrohr](https://github.com/davidrohr)
 - [\#10906](https://github.com/AliceO2Group/AliceO2/pull/10906) 2023-03-07: Improve relay choice by [@ktf](https://github.com/ktf)
 - [\#10921](https://github.com/AliceO2Group/AliceO2/pull/10921) 2023-03-09: Drop obsolete metric parsing by [@ktf](https://github.com/ktf)
