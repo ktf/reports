@@ -66,7 +66,6 @@
 - [\#10992](https://github.com/AliceO2Group/AliceO2/pull/10992) 2023-03-22: Fixes for CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10900](https://github.com/AliceO2Group/AliceO2/pull/10900) 2023-03-08: DPL: Fix backpressure for late timeslice stalls processing of oldestPossibleTimeslice of earlier timeslices, making full processing chain stuck by [@davidrohr](https://github.com/davidrohr)
 - [\#10901](https://github.com/AliceO2Group/AliceO2/pull/10901) 2023-03-07: DPL: Fixes for error handling in oldest possible timeslice sending by [@davidrohr](https://github.com/davidrohr)
 - [\#10902](https://github.com/AliceO2Group/AliceO2/pull/10902) 2023-03-07: Fix typo... by [@davidrohr](https://github.com/davidrohr)
 - [\#10906](https://github.com/AliceO2Group/AliceO2/pull/10906) 2023-03-07: Improve relay choice by [@ktf](https://github.com/ktf)
