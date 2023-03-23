@@ -18,7 +18,6 @@
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Detectors
-- [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
 - [\#10912](https://github.com/AliceO2Group/AliceO2/pull/10912) 2023-03-11: Avoid keeping large tree in memory when creating distortion maps by [@martenole](https://github.com/martenole)
 - [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
