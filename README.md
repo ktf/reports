@@ -19,7 +19,6 @@
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Detectors
-- [\#10898](https://github.com/AliceO2Group/AliceO2/pull/10898) 2023-03-14: Allow to run the MID chamber efficiency workflow with matched MCH-MID tracks by [@dstocco](https://github.com/dstocco)
 - [\#10899](https://github.com/AliceO2Group/AliceO2/pull/10899) 2023-03-07: Small change to compile on Ubuntu 22.04 by [@pzhristov](https://github.com/pzhristov)
 - [\#10903](https://github.com/AliceO2Group/AliceO2/pull/10903) 2023-03-07: Should not have newlines in info messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10905](https://github.com/AliceO2Group/AliceO2/pull/10905) 2023-03-07: [MRRTF-216] new ChannelCode class by [@aphecetche](https://github.com/aphecetche)
