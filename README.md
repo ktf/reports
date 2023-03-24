@@ -76,6 +76,7 @@
 - [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
+- [\#11006](https://github.com/AliceO2Group/AliceO2/pull/11006) 2023-03-24: DPL: more Boost::Test removal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
