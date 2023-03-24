@@ -18,6 +18,7 @@
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
+- [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
@@ -58,6 +59,7 @@
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10980](https://github.com/AliceO2Group/AliceO2/pull/10980) 2023-03-21: TransitionHandlingState check for TPC VDrift and ITS noise calib. by [@shahor02](https://github.com/shahor02)
+- [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10983](https://github.com/AliceO2Group/AliceO2/pull/10983) 2023-03-21: Simplify TRD tracking QC and avoid crash in synch mode by [@martenole](https://github.com/martenole)
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
