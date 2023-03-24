@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-15T19:30:15Z",
-            "title": "Remove direct slicer uses",
-            "number": 2169,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/correlations.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Tasks/tableReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-09T11:57:12Z",
             "title": "PWGDQ : Adding muon cuts",
             "number": 2170,
@@ -2400,6 +2370,36 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaEfficiency.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "speed up through table reserving",
+            "number": 2277,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackselection.cxx"
                   }
                 }
               ]
