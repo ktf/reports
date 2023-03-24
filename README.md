@@ -7,6 +7,7 @@
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
+- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
@@ -17,6 +18,7 @@
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
+- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#10912](https://github.com/AliceO2Group/AliceO2/pull/10912) 2023-03-11: Avoid keeping large tree in memory when creating distortion maps by [@martenole](https://github.com/martenole)
 - [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
@@ -74,8 +76,11 @@
 - [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#10930](https://github.com/AliceO2Group/AliceO2/pull/10930) 2023-03-16: [QC-384] flexible cycle duration by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
