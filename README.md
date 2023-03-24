@@ -57,6 +57,7 @@
 - [\#10975](https://github.com/AliceO2Group/AliceO2/pull/10975) 2023-03-21: Define TPC study tracks in the TPC sector frame by [@shahor02](https://github.com/shahor02)
 - [\#10976](https://github.com/AliceO2Group/AliceO2/pull/10976) 2023-03-18: TPC: Adapt data format to DCS database by [@wiechula](https://github.com/wiechula)
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
+- [\#10978](https://github.com/AliceO2Group/AliceO2/pull/10978) 2023-03-24: ITS-tracking: Fix missing memory clear in case of cosmics + dangerous resize by [@mconcas](https://github.com/mconcas)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10980](https://github.com/AliceO2Group/AliceO2/pull/10980) 2023-03-21: TransitionHandlingState check for TPC VDrift and ITS noise calib. by [@shahor02](https://github.com/shahor02)
 - [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
