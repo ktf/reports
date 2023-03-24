@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-03-08T09:42:24Z",
-            "title": "More fixes for split WF",
-            "number": 10909,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL Analysis: Add delayed exit callback to AOD reader",
@@ -3422,16 +3402,6 @@
                   "node": {
                     "path": "Detectors/TOF/compression/src/Compressor.cxx"
                   }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTaskOld.cxx"
-                  }
                 }
               ]
             }
@@ -3971,6 +3941,31 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/workflow/CCDBPopulatorSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CcdbApi: code reuse; more consistent header treatment for snapshots",
+            "number": 11009,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
