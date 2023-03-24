@@ -65,7 +65,6 @@
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 - [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#10906](https://github.com/AliceO2Group/AliceO2/pull/10906) 2023-03-07: Improve relay choice by [@ktf](https://github.com/ktf)
 - [\#10921](https://github.com/AliceO2Group/AliceO2/pull/10921) 2023-03-09: Drop obsolete metric parsing by [@ktf](https://github.com/ktf)
 - [\#10923](https://github.com/AliceO2Group/AliceO2/pull/10923) 2023-03-08: DPL: adapt to new version of c++filt by [@ktf](https://github.com/ktf)
 - [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
