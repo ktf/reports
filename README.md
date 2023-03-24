@@ -22,7 +22,6 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10912](https://github.com/AliceO2Group/AliceO2/pull/10912) 2023-03-11: Avoid keeping large tree in memory when creating distortion maps by [@martenole](https://github.com/martenole)
 - [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
 - [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10916](https://github.com/AliceO2Group/AliceO2/pull/10916) 2023-03-09: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow by [@aphecetche](https://github.com/aphecetche)
