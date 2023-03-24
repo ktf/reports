@@ -78,6 +78,7 @@
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
 - [\#11006](https://github.com/AliceO2Group/AliceO2/pull/11006) 2023-03-24: DPL: more Boost::Test removal by [@ktf](https://github.com/ktf)
 - [\#11007](https://github.com/AliceO2Group/AliceO2/pull/11007) 2023-03-24: DPL GUI: only keep two strings for the string metrics by [@ktf](https://github.com/ktf)
+- [\#11015](https://github.com/AliceO2Group/AliceO2/pull/11015) 2023-03-24: DPL: demote alarm messages when not running online. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
