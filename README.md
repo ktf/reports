@@ -10,7 +10,6 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-- [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10917](https://github.com/AliceO2Group/AliceO2/pull/10917) 2023-03-08: protection against >1 asin argument in track propagation by [@shahor02](https://github.com/shahor02)
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
@@ -22,8 +21,6 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10913](https://github.com/AliceO2Group/AliceO2/pull/10913) 2023-03-08: add missing subdirectory to produce MCH tracks devIO executables by [@pillot](https://github.com/pillot)
-- [\#10914](https://github.com/AliceO2Group/AliceO2/pull/10914) 2023-03-08: TPC: Split fecInPartition fied to 2 * 8 bits, to have a CMC field by [@davidrohr](https://github.com/davidrohr)
 - [\#10916](https://github.com/AliceO2Group/AliceO2/pull/10916) 2023-03-09: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#10918](https://github.com/AliceO2Group/AliceO2/pull/10918) 2023-03-08: Remove some log messages that appear to be leftover debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10919](https://github.com/AliceO2Group/AliceO2/pull/10919) 2023-03-09: TPC QA: Remove obsolete functions, needed only for compatibility to old QC by [@davidrohr](https://github.com/davidrohr)
