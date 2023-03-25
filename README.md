@@ -20,7 +20,6 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10918](https://github.com/AliceO2Group/AliceO2/pull/10918) 2023-03-08: Remove some log messages that appear to be leftover debug messages by [@davidrohr](https://github.com/davidrohr)
 - [\#10919](https://github.com/AliceO2Group/AliceO2/pull/10919) 2023-03-09: TPC QA: Remove obsolete functions, needed only for compatibility to old QC by [@davidrohr](https://github.com/davidrohr)
 - [\#10920](https://github.com/AliceO2Group/AliceO2/pull/10920) 2023-03-08: fix typo in the check of propagating to calorimeters by [@shahor02](https://github.com/shahor02)
 - [\#10922](https://github.com/AliceO2Group/AliceO2/pull/10922) 2023-03-13: Remove forward of RawHeaderStream from EMCALReconstruction by [@mfasDa](https://github.com/mfasDa)
