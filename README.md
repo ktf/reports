@@ -64,6 +64,7 @@
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 - [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
 - [\#11008](https://github.com/AliceO2Group/AliceO2/pull/11008) 2023-03-25: Optionally ask ccdb-populator to validate upload by [@shahor02](https://github.com/shahor02)
+- [\#11012](https://github.com/AliceO2Group/AliceO2/pull/11012) 2023-03-25: Selected workflows ready for start-stop-start with the run change by [@shahor02](https://github.com/shahor02)
 - [\#11014](https://github.com/AliceO2Group/AliceO2/pull/11014) 2023-03-25: TPC-TOF matches can be requested both via matches and tracks masks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10921](https://github.com/AliceO2Group/AliceO2/pull/10921) 2023-03-09: Drop obsolete metric parsing by [@ktf](https://github.com/ktf)
@@ -77,6 +78,7 @@
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
 - [\#11006](https://github.com/AliceO2Group/AliceO2/pull/11006) 2023-03-24: DPL: more Boost::Test removal by [@ktf](https://github.com/ktf)
 - [\#11007](https://github.com/AliceO2Group/AliceO2/pull/11007) 2023-03-24: DPL GUI: only keep two strings for the string metrics by [@ktf](https://github.com/ktf)
+- [\#11013](https://github.com/AliceO2Group/AliceO2/pull/11013) 2023-03-25: Fix typo in setting timingInfo.globalRunNumberChanged by [@shahor02](https://github.com/shahor02)
 - [\#11015](https://github.com/AliceO2Group/AliceO2/pull/11015) 2023-03-24: DPL: demote alarm messages when not running online. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
