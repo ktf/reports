@@ -80,6 +80,7 @@
 - [\#11007](https://github.com/AliceO2Group/AliceO2/pull/11007) 2023-03-24: DPL GUI: only keep two strings for the string metrics by [@ktf](https://github.com/ktf)
 - [\#11013](https://github.com/AliceO2Group/AliceO2/pull/11013) 2023-03-25: Fix typo in setting timingInfo.globalRunNumberChanged by [@shahor02](https://github.com/shahor02)
 - [\#11015](https://github.com/AliceO2Group/AliceO2/pull/11015) 2023-03-24: DPL: demote alarm messages when not running online. by [@ktf](https://github.com/ktf)
+- [\#11019](https://github.com/AliceO2Group/AliceO2/pull/11019) 2023-03-25: Revert "DPL GUI: only keep two strings for the string metrics" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
