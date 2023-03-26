@@ -21,7 +21,6 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#10920](https://github.com/AliceO2Group/AliceO2/pull/10920) 2023-03-08: fix typo in the check of propagating to calorimeters by [@shahor02](https://github.com/shahor02)
 - [\#10922](https://github.com/AliceO2Group/AliceO2/pull/10922) 2023-03-13: Remove forward of RawHeaderStream from EMCALReconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10925](https://github.com/AliceO2Group/AliceO2/pull/10925) 2023-03-08: GPU: Support multiple HIP target architectures in one build, and switch from deprecated --amdgpu-target to --offload-arch by [@davidrohr](https://github.com/davidrohr)
 - [\#10926](https://github.com/AliceO2Group/AliceO2/pull/10926) 2023-03-10: TRD pileup simulation fix by [@martenole](https://github.com/martenole)
