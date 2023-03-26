@@ -20,6 +20,7 @@
 - [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
+- [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#10925](https://github.com/AliceO2Group/AliceO2/pull/10925) 2023-03-08: GPU: Support multiple HIP target architectures in one build, and switch from deprecated --amdgpu-target to --offload-arch by [@davidrohr](https://github.com/davidrohr)
 - [\#10926](https://github.com/AliceO2Group/AliceO2/pull/10926) 2023-03-10: TRD pileup simulation fix by [@martenole](https://github.com/martenole)
@@ -66,6 +67,7 @@
 - [\#11008](https://github.com/AliceO2Group/AliceO2/pull/11008) 2023-03-25: Optionally ask ccdb-populator to validate upload by [@shahor02](https://github.com/shahor02)
 - [\#11012](https://github.com/AliceO2Group/AliceO2/pull/11012) 2023-03-25: Selected workflows ready for start-stop-start with the run change by [@shahor02](https://github.com/shahor02)
 - [\#11014](https://github.com/AliceO2Group/AliceO2/pull/11014) 2023-03-25: TPC-TOF matches can be requested both via matches and tracks masks by [@shahor02](https://github.com/shahor02)
+- [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
 - [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
