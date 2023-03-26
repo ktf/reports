@@ -10,6 +10,7 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
+- [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
@@ -82,6 +83,7 @@
 - [\#11013](https://github.com/AliceO2Group/AliceO2/pull/11013) 2023-03-25: Fix typo in setting timingInfo.globalRunNumberChanged by [@shahor02](https://github.com/shahor02)
 - [\#11015](https://github.com/AliceO2Group/AliceO2/pull/11015) 2023-03-24: DPL: demote alarm messages when not running online. by [@ktf](https://github.com/ktf)
 - [\#11019](https://github.com/AliceO2Group/AliceO2/pull/11019) 2023-03-25: Revert "DPL GUI: only keep two strings for the string metrics" by [@jgrosseo](https://github.com/jgrosseo)
+- [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
