@@ -62,6 +62,7 @@
 - [\#10994](https://github.com/AliceO2Group/AliceO2/pull/10994) 2023-03-23: Define o2::trd::TrackQC as messageable by [@martenole](https://github.com/martenole)
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 - [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
+- [\#10999](https://github.com/AliceO2Group/AliceO2/pull/10999) 2023-03-26: fix for TOF compressor by [@noferini](https://github.com/noferini)
 - [\#11008](https://github.com/AliceO2Group/AliceO2/pull/11008) 2023-03-25: Optionally ask ccdb-populator to validate upload by [@shahor02](https://github.com/shahor02)
 - [\#11012](https://github.com/AliceO2Group/AliceO2/pull/11012) 2023-03-25: Selected workflows ready for start-stop-start with the run change by [@shahor02](https://github.com/shahor02)
 - [\#11014](https://github.com/AliceO2Group/AliceO2/pull/11014) 2023-03-25: TPC-TOF matches can be requested both via matches and tracks masks by [@shahor02](https://github.com/shahor02)
