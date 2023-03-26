@@ -23,7 +23,6 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10926](https://github.com/AliceO2Group/AliceO2/pull/10926) 2023-03-10: TRD pileup simulation fix by [@martenole](https://github.com/martenole)
 - [\#10927](https://github.com/AliceO2Group/AliceO2/pull/10927) 2023-03-09: tuning of some MCH reconstruction parameters by [@pillot](https://github.com/pillot)
 - [\#10932](https://github.com/AliceO2Group/AliceO2/pull/10932) 2023-03-11: [EMCAL-688] EMCal/ClusterFactory: Add Exotic Cluster Check by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10933](https://github.com/AliceO2Group/AliceO2/pull/10933) 2023-03-11: Revert "[MRRTF-217] introduce StatusMap object and statusmap-creator-workflow" by [@davidrohr](https://github.com/davidrohr)
