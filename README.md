@@ -66,7 +66,6 @@
 - [\#11012](https://github.com/AliceO2Group/AliceO2/pull/11012) 2023-03-25: Selected workflows ready for start-stop-start with the run change by [@shahor02](https://github.com/shahor02)
 - [\#11014](https://github.com/AliceO2Group/AliceO2/pull/11014) 2023-03-25: TPC-TOF matches can be requested both via matches and tracks masks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#10923](https://github.com/AliceO2Group/AliceO2/pull/10923) 2023-03-08: DPL: adapt to new version of c++filt by [@ktf](https://github.com/ktf)
 - [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
