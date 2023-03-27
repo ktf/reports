@@ -13,7 +13,6 @@
 - [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10957](https://github.com/AliceO2Group/AliceO2/pull/10957) 2023-03-21: Update topolgy-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
@@ -25,7 +24,6 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10936](https://github.com/AliceO2Group/AliceO2/pull/10936) 2023-03-14: [FOCAL-10] Add PAD trigger information in reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#10939](https://github.com/AliceO2Group/AliceO2/pull/10939) 2023-03-14: [MCH] skip local chi2 calculation if not requested or not needed by [@pillot](https://github.com/pillot)
 - [\#10941](https://github.com/AliceO2Group/AliceO2/pull/10941) 2023-03-15: MCH: read number of orbits in TF from CCDB by [@aphecetche](https://github.com/aphecetche)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
