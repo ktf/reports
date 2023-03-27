@@ -25,7 +25,6 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10932](https://github.com/AliceO2Group/AliceO2/pull/10932) 2023-03-11: [EMCAL-688] EMCal/ClusterFactory: Add Exotic Cluster Check by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#10933](https://github.com/AliceO2Group/AliceO2/pull/10933) 2023-03-11: Revert "[MRRTF-217] introduce StatusMap object and statusmap-creator-workflow" by [@davidrohr](https://github.com/davidrohr)
 - [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10935](https://github.com/AliceO2Group/AliceO2/pull/10935) 2023-03-13: [EMCAL-688] ClusterFactory: Add lookup table between towerId and cell… by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -73,8 +72,8 @@
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
 - [\#11026](https://github.com/AliceO2Group/AliceO2/pull/11026) 2023-03-27: Add cosmic tracks input to alignment workflow by [@shahor02](https://github.com/shahor02)
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
+- [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10931](https://github.com/AliceO2Group/AliceO2/pull/10931) 2023-03-11: Fix remote gui by [@ktf](https://github.com/ktf)
 - [\#10940](https://github.com/AliceO2Group/AliceO2/pull/10940) 2023-03-14: DPL: Fix problem with input-proxy not sending DISTSTF for dpl ccdb backend, yielding incomplete TFs, and thus the error messages "Dropping..." + related fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10948](https://github.com/AliceO2Group/AliceO2/pull/10948) 2023-03-14: TransitionState getters in ProcessingContext by [@ktf](https://github.com/ktf)
