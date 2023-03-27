@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-10T09:58:32Z",
-            "title": "[EMCAL-903] Update gamma/jet trigger and EMCAL observables in jet finder",
-            "number": 2179,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGJE/fullJetFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/filterTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetfinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/FullJetTriggerQATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-10T03:32:54Z",
             "title": "PWGHF: Define version 001 of track-index skim creator tables to fix Run2 validation",
             "number": 2180,
@@ -2375,6 +2340,251 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorB0.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adapting to new DPL arrow table slicing cache",
+            "number": 2281,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/eventSelection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOFMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPCMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaEventTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGCF/CFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGCF/CFFilterTwoN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamDebugTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamDebugV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamPairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/femtoDreamPairTaskTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldDebugTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldDebugV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackPhi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackV0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPionAllPairTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPionPairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask4.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tutorial/CFTutorialTask5.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/v0gammaQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0D0bar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0D0barBarrelFullPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDminus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/k892analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/lambda1520analysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/phianalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta-hi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/dndeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/effpt-mft.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/run2dndeta.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tools/PIDML/KaonPidTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/src/eventMixing.cxx"
                   }
                 }
               ]
