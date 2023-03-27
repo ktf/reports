@@ -96,5 +96,4 @@
 - [\#10934](https://github.com/AliceO2Group/AliceO2/pull/10934) 2023-03-14: TPC: Updating space charge class by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
-- [\#10930](https://github.com/AliceO2Group/AliceO2/pull/10930) 2023-03-16: [QC-384] flexible cycle duration by [@Barthelemy](https://github.com/Barthelemy)
 - [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
