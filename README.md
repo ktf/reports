@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10949](https://github.com/AliceO2Group/AliceO2/pull/10949) 2023-03-17: TreeStream operator<< takes const objects, const_casts internally by [@shahor02](https://github.com/shahor02)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
@@ -25,7 +24,6 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10946](https://github.com/AliceO2Group/AliceO2/pull/10946) 2023-03-15: [FOCAL-10] Add DetID for FOCAL by [@mfasDa](https://github.com/mfasDa)
 - [\#10951](https://github.com/AliceO2Group/AliceO2/pull/10951) 2023-03-16: GLO QC: Switch to TH1D for pT and extend Chi2 range by [@jloemker](https://github.com/jloemker)
 - [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
@@ -69,7 +67,6 @@
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)
 - [\#10948](https://github.com/AliceO2Group/AliceO2/pull/10948) 2023-03-14: TransitionState getters in ProcessingContext by [@ktf](https://github.com/ktf)
 - [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
@@ -89,5 +86,3 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#10942](https://github.com/AliceO2Group/AliceO2/pull/10942) 2023-03-16: DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2 by [@davidrohr](https://github.com/davidrohr)

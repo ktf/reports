@@ -4,81 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-03-16T13:17:14Z",
-            "title": "DPL: Do not count up timeslice indices in all InjectorFunctions separately, but take oldestPossible timeslice from TimesliceIndexDev pull request2",
-            "number": 10942,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctp-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctp-qc-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ReadoutAdapter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_ExternalFairMQDeviceProxies.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_ExternalFairMQDeviceWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/DataSampling/src/DataSamplingReadoutAdapter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_mctracks_proxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: fix formatting of available inputs",
@@ -4056,6 +3981,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_TreeToTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[O2-3655] ITS-Vertexing: protect vertexing against variable number of ROF per TF",
+            "number": 11042,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
                   }
                 }
               ]
