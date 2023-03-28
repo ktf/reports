@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#10949](https://github.com/AliceO2Group/AliceO2/pull/10949) 2023-03-17: TreeStream operator<< takes const objects, const_casts internally by [@shahor02](https://github.com/shahor02)
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 - [\#10971](https://github.com/AliceO2Group/AliceO2/pull/10971) 2023-03-24: [EMCAL-565, EMCAL-566] Update bad cell and time calibration by [@jokonig](https://github.com/jokonig)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
@@ -67,7 +66,6 @@
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#10948](https://github.com/AliceO2Group/AliceO2/pull/10948) 2023-03-14: TransitionState getters in ProcessingContext by [@ktf](https://github.com/ktf)
 - [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
 - [\#10984](https://github.com/AliceO2Group/AliceO2/pull/10984) 2023-03-27: DPL Analysis: add nround() function for expressions by [@aalkin](https://github.com/aalkin)
