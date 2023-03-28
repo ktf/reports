@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-10T09:53:45Z",
-            "title": "[EMCAL-689] EMCal TM: Add missing fill histo",
-            "number": 2183,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/emctmmonitor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-22T20:58:30Z",
             "title": "PWGHF: Fix B0 workflow and modify PID selections in Dplus selector",
             "number": 2184,
@@ -2576,20 +2556,24 @@
               "login": "lucamicheletti93"
             },
             "files": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix case of 0 selected BCs",
+            "number": 2285,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
               "edges": [
                 {
                   "node": {
-                    "path": "PWGDQ/Macros/DQFitter.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Macros/configFit.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Macros/plot_library.py"
+                    "path": "EventFiltering/selectBCRange.cxx"
                   }
                 }
               ]
