@@ -28,7 +28,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10955](https://github.com/AliceO2Group/AliceO2/pull/10955) 2023-03-29: its-gpu: add tracklet-finder cell-finder neighbours-finder by [@mconcas](https://github.com/mconcas)
 - [\#10957](https://github.com/AliceO2Group/AliceO2/pull/10957) 2023-03-21: Update topolgy-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10959](https://github.com/AliceO2Group/AliceO2/pull/10959) 2023-03-16: TPC space charge: disabling writing some members to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10960](https://github.com/AliceO2Group/AliceO2/pull/10960) 2023-03-16: FITRaw: hotfix for sampled raw data processing by [@afurs](https://github.com/afurs)
