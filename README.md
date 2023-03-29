@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
+- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#10962](https://github.com/AliceO2Group/AliceO2/pull/10962) 2023-03-16: Add options for extra tolerances / cluster errors to TPC tracking, add macro to hide debug streamers and forward parameters by [@davidrohr](https://github.com/davidrohr)
 - [\#10971](https://github.com/AliceO2Group/AliceO2/pull/10971) 2023-03-24: [EMCAL-565, EMCAL-566] Update bad cell and time calibration by [@jokonig](https://github.com/jokonig)
@@ -13,6 +14,7 @@
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
+- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10957](https://github.com/AliceO2Group/AliceO2/pull/10957) 2023-03-21: Update topolgy-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
@@ -84,6 +86,7 @@
 - [\#11038](https://github.com/AliceO2Group/AliceO2/pull/11038) 2023-03-29: DPL: support DDS expendable tasks by [@ktf](https://github.com/ktf)
 - [\#11039](https://github.com/AliceO2Group/AliceO2/pull/11039) 2023-03-28: DPL GUI: fix usage of deprecated ImPlot API by [@ktf](https://github.com/ktf)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
+- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
