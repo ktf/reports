@@ -25,7 +25,6 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#10952](https://github.com/AliceO2Group/AliceO2/pull/10952) 2023-03-15: FITRaw: hotfix for padded data format by [@afurs](https://github.com/afurs)
 - [\#10957](https://github.com/AliceO2Group/AliceO2/pull/10957) 2023-03-21: Update topolgy-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10959](https://github.com/AliceO2Group/AliceO2/pull/10959) 2023-03-16: TPC space charge: disabling writing some members to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#10960](https://github.com/AliceO2Group/AliceO2/pull/10960) 2023-03-16: FITRaw: hotfix for sampled raw data processing by [@afurs](https://github.com/afurs)
