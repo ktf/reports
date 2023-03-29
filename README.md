@@ -65,6 +65,7 @@
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
 - [\#11026](https://github.com/AliceO2Group/AliceO2/pull/11026) 2023-03-27: Add cosmic tracks input to alignment workflow by [@shahor02](https://github.com/shahor02)
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
+- [\#11029](https://github.com/AliceO2Group/AliceO2/pull/11029) 2023-03-29: FIT: Validate uploads of DCS configs to CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
