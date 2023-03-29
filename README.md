@@ -82,6 +82,7 @@
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11035](https://github.com/AliceO2Group/AliceO2/pull/11035) 2023-03-28: Initialize run number with -1 to trigger run number change also in ca… by [@martenole](https://github.com/martenole)
 - [\#11037](https://github.com/AliceO2Group/AliceO2/pull/11037) 2023-03-28: DPL: sort expendable task after non expendable ones by [@ktf](https://github.com/ktf)
+- [\#11038](https://github.com/AliceO2Group/AliceO2/pull/11038) 2023-03-29: DPL: support DDS expendable tasks by [@ktf](https://github.com/ktf)
 - [\#11039](https://github.com/AliceO2Group/AliceO2/pull/11039) 2023-03-28: DPL GUI: fix usage of deprecated ImPlot API by [@ktf](https://github.com/ktf)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
