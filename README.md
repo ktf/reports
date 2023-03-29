@@ -26,6 +26,7 @@
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
+- [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#10957](https://github.com/AliceO2Group/AliceO2/pull/10957) 2023-03-21: Update topolgy-dictionary routine for ITS3 by [@lbariogl](https://github.com/lbariogl)
 - [\#10959](https://github.com/AliceO2Group/AliceO2/pull/10959) 2023-03-16: TPC space charge: disabling writing some members to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -67,6 +68,7 @@
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
+- [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
