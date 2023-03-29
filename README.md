@@ -69,6 +69,7 @@
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
+- [\#11057](https://github.com/AliceO2Group/AliceO2/pull/11057) 2023-03-29: MCH: introduce MCHEvaluation library by [@aphecetche](https://github.com/aphecetche)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
