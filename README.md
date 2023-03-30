@@ -18,7 +18,6 @@
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#10966](https://github.com/AliceO2Group/AliceO2/pull/10966) 2023-03-27: [ITS3] Restore tracker and make uniform input/output names by [@fgrosa](https://github.com/fgrosa)
 - [\#10979](https://github.com/AliceO2Group/AliceO2/pull/10979) 2023-03-19: Add T-offset to VDrift calibration by [@shahor02](https://github.com/shahor02)
 - [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
@@ -26,7 +25,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10966](https://github.com/AliceO2Group/AliceO2/pull/10966) 2023-03-27: [ITS3] Restore tracker and make uniform input/output names by [@fgrosa](https://github.com/fgrosa)
 - [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#10971](https://github.com/AliceO2Group/AliceO2/pull/10971) 2023-03-24: [EMCAL-565, EMCAL-566] Update bad cell and time calibration by [@jokonig](https://github.com/jokonig)
