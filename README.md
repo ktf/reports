@@ -25,7 +25,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10967](https://github.com/AliceO2Group/AliceO2/pull/10967) 2023-03-16: [EMCAL-688] Fix size of the lookup table by [@mfasDa](https://github.com/mfasDa)
 - [\#10968](https://github.com/AliceO2Group/AliceO2/pull/10968) 2023-03-17: ZDC raw decoder must used DPL CCDB fetcher by [@shahor02](https://github.com/shahor02)
 - [\#10971](https://github.com/AliceO2Group/AliceO2/pull/10971) 2023-03-24: [EMCAL-565, EMCAL-566] Update bad cell and time calibration by [@jokonig](https://github.com/jokonig)
 - [\#10972](https://github.com/AliceO2Group/AliceO2/pull/10972) 2023-03-20: HMP Clusterization workflow + multiple fixes by [@shahor02](https://github.com/shahor02)
