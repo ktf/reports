@@ -64,7 +64,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10969](https://github.com/AliceO2Group/AliceO2/pull/10969) 2023-03-17: DPL: Optional smoothened TF rate throttling by [@davidrohr](https://github.com/davidrohr)
 - [\#10970](https://github.com/AliceO2Group/AliceO2/pull/10970) 2023-03-22: Catch bad topologies by [@ktf](https://github.com/ktf)
 - [\#10984](https://github.com/AliceO2Group/AliceO2/pull/10984) 2023-03-27: DPL Analysis: add nround() function for expressions by [@aalkin](https://github.com/aalkin)
 - [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
