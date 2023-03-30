@@ -17,6 +17,7 @@
 - [\#11045](https://github.com/AliceO2Group/AliceO2/pull/11045) 2023-03-29: Update InteractionDiamondParam.h by [@sawenzel](https://github.com/sawenzel)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
+- [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#10961](https://github.com/AliceO2Group/AliceO2/pull/10961) 2023-03-16: CPV: read and write raw data with dataformat = 0x2 by [@sevdokim](https://github.com/sevdokim)
 - [\#10964](https://github.com/AliceO2Group/AliceO2/pull/10964) 2023-03-16: [FOCAL-10] Add missing streamer by [@mfasDa](https://github.com/mfasDa)
@@ -94,6 +95,7 @@
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11052](https://github.com/AliceO2Group/AliceO2/pull/11052) 2023-03-29: DPL: drop unneeded functions by [@ktf](https://github.com/ktf)
 - [\#11054](https://github.com/AliceO2Group/AliceO2/pull/11054) 2023-03-30: DPL: allow driver to run under DDS control by [@ktf](https://github.com/ktf)
+- [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
