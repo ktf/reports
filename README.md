@@ -92,6 +92,7 @@
 - [\#11052](https://github.com/AliceO2Group/AliceO2/pull/11052) 2023-03-29: DPL: drop unneeded functions by [@ktf](https://github.com/ktf)
 - [\#11054](https://github.com/AliceO2Group/AliceO2/pull/11054) 2023-03-30: DPL: allow driver to run under DDS control by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
+- [\#11061](https://github.com/AliceO2Group/AliceO2/pull/11061) 2023-03-30: DPL Analysis: fix memory issue due to creation of empty tables by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
