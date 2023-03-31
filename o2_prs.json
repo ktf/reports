@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-18T11:46:21Z",
-            "title": "CPV: remove padding data in RawDecoder.cxx",
-            "number": 10977,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/reconstruction/src/RawDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-24T16:09:47Z",
             "title": "ITS-tracking: Fix missing memory clear in case of cosmics + dangerous resize",
             "number": 10978,
@@ -3751,6 +3731,81 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Possibility to trigger endOfStream/shutdown from within data converter",
+            "number": 11077,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctp-proxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowScalers/src/ctp-qc-proxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/src/DCStoDPLconverter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/DCS/testWorkflow/src/dcs-config-proxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ReadoutAdapter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ExternalFairMQDeviceProxies.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ExternalFairMQDeviceWorkflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/DataSampling/src/DataSamplingReadoutAdapter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/MCTrackToDPL/run.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_proxy.cxx"
                   }
                 }
               ]
