@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-03-21T11:50:53Z",
-            "title": "TransitionHandlingState check for TPC VDrift and ITS noise calib.",
-            "number": 10980,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/calibration/include/ITSCalibration/NoiseCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/calibration/src/NoiseCalibratorSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCVDriftTglCalibSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "store ambiguous tracks only for tracks without collision",
@@ -3763,6 +3733,31 @@
                     "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
                   }
                 },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/jobutils2.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "jobutils: add shell definition in scripts",
+            "number": 11080,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
                 {
                   "node": {
                     "path": "Utilities/Tools/jobutils.sh"
