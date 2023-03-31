@@ -24,7 +24,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10972](https://github.com/AliceO2Group/AliceO2/pull/10972) 2023-03-20: HMP Clusterization workflow + multiple fixes by [@shahor02](https://github.com/shahor02)
 - [\#10975](https://github.com/AliceO2Group/AliceO2/pull/10975) 2023-03-21: Define TPC study tracks in the TPC sector frame by [@shahor02](https://github.com/shahor02)
 - [\#10976](https://github.com/AliceO2Group/AliceO2/pull/10976) 2023-03-18: TPC: Adapt data format to DCS database by [@wiechula](https://github.com/wiechula)
 - [\#10977](https://github.com/AliceO2Group/AliceO2/pull/10977) 2023-03-18: CPV: remove padding data in RawDecoder.cxx by [@sevdokim](https://github.com/sevdokim)
