@@ -57,6 +57,7 @@
 - [\#11044](https://github.com/AliceO2Group/AliceO2/pull/11044) 2023-03-30: Do not get B field from external file anymore, but from CCDB - O2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
+- [\#11055](https://github.com/AliceO2Group/AliceO2/pull/11055) 2023-03-31: Change cout + exit to LOGP(fatal) by [@wiechula](https://github.com/wiechula)
 - [\#11056](https://github.com/AliceO2Group/AliceO2/pull/11056) 2023-03-30: Relax some checks in raw-file-reader to digest CTP raw data by [@shahor02](https://github.com/shahor02)
 - [\#11057](https://github.com/AliceO2Group/AliceO2/pull/11057) 2023-03-29: MCH: introduce MCHEvaluation library by [@aphecetche](https://github.com/aphecetche)
 - [\#11062](https://github.com/AliceO2Group/AliceO2/pull/11062) 2023-03-31: [EMCAL-688] Add exception for uninitilised lookup table by [@mhemmer-cern](https://github.com/mhemmer-cern)
