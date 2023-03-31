@@ -84,6 +84,7 @@
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11061](https://github.com/AliceO2Group/AliceO2/pull/11061) 2023-03-30: DPL Analysis: fix memory issue due to creation of empty tables by [@aalkin](https://github.com/aalkin)
 - [\#11063](https://github.com/AliceO2Group/AliceO2/pull/11063) 2023-03-30: DPL GUI: show sending policy by [@ktf](https://github.com/ktf)
+- [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
