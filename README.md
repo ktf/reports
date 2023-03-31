@@ -60,7 +60,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#10984](https://github.com/AliceO2Group/AliceO2/pull/10984) 2023-03-27: DPL Analysis: add nround() function for expressions by [@aalkin](https://github.com/aalkin)
 - [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
 - [\#11006](https://github.com/AliceO2Group/AliceO2/pull/11006) 2023-03-24: DPL: more Boost::Test removal by [@ktf](https://github.com/ktf)
