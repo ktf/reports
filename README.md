@@ -85,6 +85,7 @@
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11052](https://github.com/AliceO2Group/AliceO2/pull/11052) 2023-03-29: DPL: drop unneeded functions by [@ktf](https://github.com/ktf)
+- [\#11053](https://github.com/AliceO2Group/AliceO2/pull/11053) 2023-03-31: DPL Analysis: Update combinations to use slice cache by [@aalkin](https://github.com/aalkin)
 - [\#11054](https://github.com/AliceO2Group/AliceO2/pull/11054) 2023-03-30: DPL: allow driver to run under DDS control by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11061](https://github.com/AliceO2Group/AliceO2/pull/11061) 2023-03-30: DPL Analysis: fix memory issue due to creation of empty tables by [@aalkin](https://github.com/aalkin)
