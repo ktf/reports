@@ -17,13 +17,11 @@
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10983](https://github.com/AliceO2Group/AliceO2/pull/10983) 2023-03-21: Simplify TRD tracking QC and avoid crash in synch mode by [@martenole](https://github.com/martenole)
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
@@ -56,6 +54,8 @@
 - [\#11062](https://github.com/AliceO2Group/AliceO2/pull/11062) 2023-03-31: [EMCAL-688] Add exception for uninitilised lookup table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
+- [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
+- [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
