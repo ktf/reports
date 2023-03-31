@@ -15,6 +15,7 @@
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
+- [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#10982](https://github.com/AliceO2Group/AliceO2/pull/10982) 2023-03-24: TRD noise calibration update by [@martenole](https://github.com/martenole)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
@@ -55,6 +56,7 @@
 - [\#11062](https://github.com/AliceO2Group/AliceO2/pull/11062) 2023-03-31: [EMCAL-688] Add exception for uninitilised lookup table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
+- [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
