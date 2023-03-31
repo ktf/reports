@@ -22,7 +22,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10983](https://github.com/AliceO2Group/AliceO2/pull/10983) 2023-03-21: Simplify TRD tracking QC and avoid crash in synch mode by [@martenole](https://github.com/martenole)
 - [\#10987](https://github.com/AliceO2Group/AliceO2/pull/10987) 2023-03-21: Fixes for duplicate output specs by [@shahor02](https://github.com/shahor02)
 - [\#10988](https://github.com/AliceO2Group/AliceO2/pull/10988) 2023-03-20: Do not check RDH packet counter in ITS/MFT decoder by [@shahor02](https://github.com/shahor02)
 - [\#10989](https://github.com/AliceO2Group/AliceO2/pull/10989) 2023-03-21: Make PV reader verbosity levels more selective by [@shahor02](https://github.com/shahor02)
