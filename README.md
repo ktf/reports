@@ -86,6 +86,7 @@
 - [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11074](https://github.com/AliceO2Group/AliceO2/pull/11074) 2023-03-31: DPL: Do only report run number changed for timeslices, not for timers by [@davidrohr](https://github.com/davidrohr)
+- [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
