@@ -17,6 +17,7 @@
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
+- [\#11089](https://github.com/AliceO2Group/AliceO2/pull/11089) 2023-04-02: Fix skimming when IRframes come from AO2Ds by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - DataFormats
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
