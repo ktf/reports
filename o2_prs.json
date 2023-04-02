@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-21T23:23:42Z",
-            "title": "Make PV reader verbosity levels more selective",
-            "number": 10989,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/readers/src/PrimaryVertexReaderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-22T12:35:36Z",
             "title": "Fix error introduced by adding FOCAL to DetID",
             "number": 10990,
@@ -3641,6 +3621,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix skimming when IRframes come from AO2Ds",
+            "number": 11089,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/IRFrameSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/IRFrameSelector.cxx"
                   }
                 }
               ]

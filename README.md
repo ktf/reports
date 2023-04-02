@@ -23,7 +23,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10989](https://github.com/AliceO2Group/AliceO2/pull/10989) 2023-03-21: Make PV reader verbosity levels more selective by [@shahor02](https://github.com/shahor02)
 - [\#10990](https://github.com/AliceO2Group/AliceO2/pull/10990) 2023-03-22: Fix error introduced by adding FOCAL to DetID by [@fgrosa](https://github.com/fgrosa)
 - [\#10991](https://github.com/AliceO2Group/AliceO2/pull/10991) 2023-03-21: Remove duplicate ITS/VERTICES/0 output by [@shahor02](https://github.com/shahor02)
 - [\#10992](https://github.com/AliceO2Group/AliceO2/pull/10992) 2023-03-22: Fixes for CTF skimming by [@shahor02](https://github.com/shahor02)
