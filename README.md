@@ -55,6 +55,7 @@
 - [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
 - [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
+- [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
