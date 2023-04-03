@@ -47,12 +47,15 @@
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
 - [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
+- [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
+## Recent developments in O2 - Examples
+- [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
@@ -80,6 +83,7 @@
 - [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11074](https://github.com/AliceO2Group/AliceO2/pull/11074) 2023-03-31: DPL: Do only report run number changed for timeslices, not for timers by [@davidrohr](https://github.com/davidrohr)
+- [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
 - [\#11086](https://github.com/AliceO2Group/AliceO2/pull/11086) 2023-04-02: DPL: Be even more clear about exit status by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
@@ -87,4 +91,5 @@
 ## Recent developments in O2 - Steer
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
+- [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11080](https://github.com/AliceO2Group/AliceO2/pull/11080) 2023-04-03: jobutils: add shell definition in scripts by [@mconcas](https://github.com/mconcas)
