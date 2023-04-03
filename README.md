@@ -22,7 +22,6 @@
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#10991](https://github.com/AliceO2Group/AliceO2/pull/10991) 2023-03-21: Remove duplicate ITS/VERTICES/0 output by [@shahor02](https://github.com/shahor02)
 - [\#10992](https://github.com/AliceO2Group/AliceO2/pull/10992) 2023-03-22: Fixes for CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#10994](https://github.com/AliceO2Group/AliceO2/pull/10994) 2023-03-23: Define o2::trd::TrackQC as messageable by [@martenole](https://github.com/martenole)
 - [\#10995](https://github.com/AliceO2Group/AliceO2/pull/10995) 2023-03-27: MCH: rename output of error merger to avoid duplicate name by [@aphecetche](https://github.com/aphecetche)
