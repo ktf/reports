@@ -5,7 +5,6 @@
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
@@ -61,7 +60,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#10997](https://github.com/AliceO2Group/AliceO2/pull/10997) 2023-03-26: DPL: improve metric sending by [@ktf](https://github.com/ktf)
 - [\#11000](https://github.com/AliceO2Group/AliceO2/pull/11000) 2023-03-23: DPL: workaround limit in number of possible in fly exceptions by [@ktf](https://github.com/ktf)
 - [\#11006](https://github.com/AliceO2Group/AliceO2/pull/11006) 2023-03-24: DPL: more Boost::Test removal by [@ktf](https://github.com/ktf)
 - [\#11007](https://github.com/AliceO2Group/AliceO2/pull/11007) 2023-03-24: DPL GUI: only keep two strings for the string metrics by [@ktf](https://github.com/ktf)
