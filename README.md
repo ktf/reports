@@ -23,7 +23,6 @@
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10994](https://github.com/AliceO2Group/AliceO2/pull/10994) 2023-03-23: Define o2::trd::TrackQC as messageable by [@martenole](https://github.com/martenole)
 - [\#10995](https://github.com/AliceO2Group/AliceO2/pull/10995) 2023-03-27: MCH: rename output of error merger to avoid duplicate name by [@aphecetche](https://github.com/aphecetche)
 - [\#10996](https://github.com/AliceO2Group/AliceO2/pull/10996) 2023-03-23: Fixes for the cosmic matcher by [@shahor02](https://github.com/shahor02)
 - [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
