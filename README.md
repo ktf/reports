@@ -18,6 +18,7 @@
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11089](https://github.com/AliceO2Group/AliceO2/pull/11089) 2023-04-02: Fix skimming when IRframes come from AO2Ds by [@mpuccio](https://github.com/mpuccio)
+- [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
@@ -90,6 +91,7 @@
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
 - [\#11086](https://github.com/AliceO2Group/AliceO2/pull/11086) 2023-04-02: DPL: Be even more clear about exit status by [@davidrohr](https://github.com/davidrohr)
+- [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
