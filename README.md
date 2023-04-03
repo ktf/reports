@@ -25,7 +25,6 @@
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
-- [\#10998](https://github.com/AliceO2Group/AliceO2/pull/10998) 2023-03-23: Track interpolation skip split clusters also for track extrapolation by [@martenole](https://github.com/martenole)
 - [\#10999](https://github.com/AliceO2Group/AliceO2/pull/10999) 2023-03-26: fix for TOF compressor by [@noferini](https://github.com/noferini)
 - [\#11008](https://github.com/AliceO2Group/AliceO2/pull/11008) 2023-03-25: Optionally ask ccdb-populator to validate upload by [@shahor02](https://github.com/shahor02)
 - [\#11010](https://github.com/AliceO2Group/AliceO2/pull/11010) 2023-03-28: TPC: Allow skipping sector numbers and side name in painter by [@wiechula](https://github.com/wiechula)
