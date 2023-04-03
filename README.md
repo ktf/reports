@@ -21,6 +21,7 @@
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
+- [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
 - [\#10992](https://github.com/AliceO2Group/AliceO2/pull/10992) 2023-03-22: Fixes for CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#10994](https://github.com/AliceO2Group/AliceO2/pull/10994) 2023-03-23: Define o2::trd::TrackQC as messageable by [@martenole](https://github.com/martenole)
@@ -53,6 +54,7 @@
 - [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
+- [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
