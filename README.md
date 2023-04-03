@@ -46,6 +46,7 @@
 - [\#11056](https://github.com/AliceO2Group/AliceO2/pull/11056) 2023-03-30: Relax some checks in raw-file-reader to digest CTP raw data by [@shahor02](https://github.com/shahor02)
 - [\#11057](https://github.com/AliceO2Group/AliceO2/pull/11057) 2023-03-29: MCH: introduce MCHEvaluation library by [@aphecetche](https://github.com/aphecetche)
 - [\#11062](https://github.com/AliceO2Group/AliceO2/pull/11062) 2023-03-31: [EMCAL-688] Add exception for uninitilised lookup table by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#11064](https://github.com/AliceO2Group/AliceO2/pull/11064) 2023-04-03: Fix material composition of IB CYSS volumes by [@mario6829](https://github.com/mario6829)
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
 - [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
