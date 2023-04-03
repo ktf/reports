@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
@@ -20,6 +21,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
+- [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Detectors
@@ -35,6 +37,7 @@
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#11029](https://github.com/AliceO2Group/AliceO2/pull/11029) 2023-03-29: FIT: Validate uploads of DCS configs to CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
+- [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11042](https://github.com/AliceO2Group/AliceO2/pull/11042) 2023-03-31: [O2-3655] ITS-Vertexing: protect vertexing against variable number of ROF per TF by [@mconcas](https://github.com/mconcas)
 - [\#11044](https://github.com/AliceO2Group/AliceO2/pull/11044) 2023-03-30: Do not get B field from external file anymore, but from CCDB - O2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
@@ -71,6 +74,7 @@
 - [\#11037](https://github.com/AliceO2Group/AliceO2/pull/11037) 2023-03-28: DPL: sort expendable task after non expendable ones by [@ktf](https://github.com/ktf)
 - [\#11038](https://github.com/AliceO2Group/AliceO2/pull/11038) 2023-03-29: DPL: support DDS expendable tasks by [@ktf](https://github.com/ktf)
 - [\#11039](https://github.com/AliceO2Group/AliceO2/pull/11039) 2023-03-28: DPL GUI: fix usage of deprecated ImPlot API by [@ktf](https://github.com/ktf)
+- [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
