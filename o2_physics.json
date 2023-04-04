@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-21T13:37:36Z",
-            "title": "Tutorials: a pair of example tasks where the configuration is inherited",
-            "number": 2231,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tutorials/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/IntermediateTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/consume.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/src/preprocess.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-17T12:56:11Z",
             "title": "Bugfix; fixed variable types in table.",
             "number": 2232,
@@ -2210,7 +2175,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: update toXiPi tasks",
+            "title": "PWGHF: adapt toXiPi tasks for ambig tracks and PV refit, use TrackParCov and minor changes",
             "number": 2310,
             "author": {
               "login": "ZFederica"
@@ -2890,6 +2855,56 @@
                 {
                   "node": {
                     "path": "PWGDQ/Tasks/tableReader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGEM-10] Add EMCal cluster cuts to new CutLibrary",
+            "number": 2333,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CutsLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/CutsLibrary.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/EMCPhotonCut.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Core/PWGEMPhotonMesonCoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGamma.cxx"
                   }
                 }
               ]
