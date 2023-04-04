@@ -5,7 +5,6 @@
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
@@ -20,7 +19,6 @@
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
@@ -93,10 +91,6 @@
 - [\#11094](https://github.com/AliceO2Group/AliceO2/pull/11094) 2023-04-03: DPL: only publish registered metrics by [@ktf](https://github.com/ktf)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-- [\#11002](https://github.com/AliceO2Group/AliceO2/pull/11002) 2023-03-24: MC: Improvements for consistent MeanVertex handling by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11080](https://github.com/AliceO2Group/AliceO2/pull/11080) 2023-04-03: jobutils: add shell definition in scripts by [@mconcas](https://github.com/mconcas)
