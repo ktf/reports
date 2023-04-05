@@ -22,6 +22,7 @@
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
+- [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
 - [\#11026](https://github.com/AliceO2Group/AliceO2/pull/11026) 2023-03-27: Add cosmic tracks input to alignment workflow by [@shahor02](https://github.com/shahor02)
@@ -52,6 +53,7 @@
 - [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)
 - [\#11097](https://github.com/AliceO2Group/AliceO2/pull/11097) 2023-04-05: [ITS3] Small improvements to ITS3 simulation by [@fgrosa](https://github.com/fgrosa)
 - [\#11098](https://github.com/AliceO2Group/AliceO2/pull/11098) 2023-04-04: Dump raw data of out-of-synct links, reset them at TF start by [@shahor02](https://github.com/shahor02)
+- [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#11102](https://github.com/AliceO2Group/AliceO2/pull/11102) 2023-04-04: Robustness improvements for MatLUT unit test by [@sawenzel](https://github.com/sawenzel)
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
