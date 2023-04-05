@@ -19,13 +19,11 @@
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
 - [\#11026](https://github.com/AliceO2Group/AliceO2/pull/11026) 2023-03-27: Add cosmic tracks input to alignment workflow by [@shahor02](https://github.com/shahor02)
 - [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
