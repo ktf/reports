@@ -26,7 +26,6 @@
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11012](https://github.com/AliceO2Group/AliceO2/pull/11012) 2023-03-25: Selected workflows ready for start-stop-start with the run change by [@shahor02](https://github.com/shahor02)
 - [\#11014](https://github.com/AliceO2Group/AliceO2/pull/11014) 2023-03-25: TPC-TOF matches can be requested both via matches and tracks masks by [@shahor02](https://github.com/shahor02)
 - [\#11018](https://github.com/AliceO2Group/AliceO2/pull/11018) 2023-03-26: FITRaw: hotfix for DPL CCDB fetcher by [@afurs](https://github.com/afurs)
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
@@ -60,6 +59,7 @@
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
+- [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -96,3 +96,4 @@
 ## Recent developments in O2 - Utilities
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11080](https://github.com/AliceO2Group/AliceO2/pull/11080) 2023-04-03: jobutils: add shell definition in scripts by [@mconcas](https://github.com/mconcas)
+- [\#11106](https://github.com/AliceO2Group/AliceO2/pull/11106) 2023-04-05: [QC-892] Simplify and update Data Sampling benchmark by [@knopers8](https://github.com/knopers8)
