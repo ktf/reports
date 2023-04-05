@@ -5,7 +5,6 @@
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11045](https://github.com/AliceO2Group/AliceO2/pull/11045) 2023-03-29: Update InteractionDiamondParam.h by [@sawenzel](https://github.com/sawenzel)
@@ -62,7 +61,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11035](https://github.com/AliceO2Group/AliceO2/pull/11035) 2023-03-28: Initialize run number with -1 to trigger run number change also in ca… by [@martenole](https://github.com/martenole)
 - [\#11037](https://github.com/AliceO2Group/AliceO2/pull/11037) 2023-03-28: DPL: sort expendable task after non expendable ones by [@ktf](https://github.com/ktf)
