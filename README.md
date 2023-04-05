@@ -65,7 +65,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11013](https://github.com/AliceO2Group/AliceO2/pull/11013) 2023-03-25: Fix typo in setting timingInfo.globalRunNumberChanged by [@shahor02](https://github.com/shahor02)
 - [\#11015](https://github.com/AliceO2Group/AliceO2/pull/11015) 2023-03-24: DPL: demote alarm messages when not running online. by [@ktf](https://github.com/ktf)
 - [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11019](https://github.com/AliceO2Group/AliceO2/pull/11019) 2023-03-25: Revert "DPL GUI: only keep two strings for the string metrics" by [@jgrosseo](https://github.com/jgrosseo)
