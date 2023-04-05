@@ -55,6 +55,7 @@
 - [\#11102](https://github.com/AliceO2Group/AliceO2/pull/11102) 2023-04-04: Robustness improvements for MatLUT unit test by [@sawenzel](https://github.com/sawenzel)
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
+- [\#11118](https://github.com/AliceO2Group/AliceO2/pull/11118) 2023-04-05: Fix: pattern iterator passed by reference by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
