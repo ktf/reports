@@ -5,7 +5,6 @@
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11041](https://github.com/AliceO2Group/AliceO2/pull/11041) 2023-03-28: Revert "DPL Analysis: Introduce slice cache service" by [@aalkin](https://github.com/aalkin)
@@ -65,7 +64,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11017](https://github.com/AliceO2Group/AliceO2/pull/11017) 2023-03-27: DPL: introduce DataTakingContext::deploymentMode by [@ktf](https://github.com/ktf)
 - [\#11019](https://github.com/AliceO2Group/AliceO2/pull/11019) 2023-03-25: Revert "DPL GUI: only keep two strings for the string metrics" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
