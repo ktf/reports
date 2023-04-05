@@ -62,7 +62,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11019](https://github.com/AliceO2Group/AliceO2/pull/11019) 2023-03-25: Revert "DPL GUI: only keep two strings for the string metrics" by [@jgrosseo](https://github.com/jgrosseo)
 - [\#11020](https://github.com/AliceO2Group/AliceO2/pull/11020) 2023-03-26: Fix messages by [@ktf](https://github.com/ktf)
 - [\#11032](https://github.com/AliceO2Group/AliceO2/pull/11032) 2023-03-28: DPL: use 64bit values for available_managed_shm_0 by [@ktf](https://github.com/ktf)
 - [\#11035](https://github.com/AliceO2Group/AliceO2/pull/11035) 2023-03-28: Initialize run number with -1 to trigger run number change also in ca… by [@martenole](https://github.com/martenole)
