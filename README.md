@@ -55,6 +55,7 @@
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)
+- [\#11097](https://github.com/AliceO2Group/AliceO2/pull/11097) 2023-04-05: [ITS3] Small improvements to ITS3 simulation by [@fgrosa](https://github.com/fgrosa)
 - [\#11098](https://github.com/AliceO2Group/AliceO2/pull/11098) 2023-04-04: Dump raw data of out-of-synct links, reset them at TF start by [@shahor02](https://github.com/shahor02)
 - [\#11102](https://github.com/AliceO2Group/AliceO2/pull/11102) 2023-04-04: Robustness improvements for MatLUT unit test by [@sawenzel](https://github.com/sawenzel)
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
@@ -95,6 +96,9 @@
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
+- [\#11113](https://github.com/AliceO2Group/AliceO2/pull/11113) 2023-04-05: DPL: introduce DefaultsHelpers by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#11110](https://github.com/AliceO2Group/AliceO2/pull/11110) 2023-04-05: Fix particle weight injection in GeneratorFromO2Kine by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11080](https://github.com/AliceO2Group/AliceO2/pull/11080) 2023-04-03: jobutils: add shell definition in scripts by [@mconcas](https://github.com/mconcas)
