@@ -95,6 +95,7 @@
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
 - [\#11113](https://github.com/AliceO2Group/AliceO2/pull/11113) 2023-04-05: DPL: introduce DefaultsHelpers by [@ktf](https://github.com/ktf)
+- [\#11121](https://github.com/AliceO2Group/AliceO2/pull/11121) 2023-04-06: DPL: reduce the maximum frequency of data_relayer metrics updates to 2Hz by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11110](https://github.com/AliceO2Group/AliceO2/pull/11110) 2023-04-05: Fix particle weight injection in GeneratorFromO2Kine by [@sawenzel](https://github.com/sawenzel)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
