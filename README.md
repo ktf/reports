@@ -43,6 +43,7 @@
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
 - [\#11072](https://github.com/AliceO2Group/AliceO2/pull/11072) 2023-04-05: MID: implement EOR request for calibration device by [@dstocco](https://github.com/dstocco)
+- [\#11073](https://github.com/AliceO2Group/AliceO2/pull/11073) 2023-04-06: [EMCAL-831, EMCAL-630] LEDMON reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
