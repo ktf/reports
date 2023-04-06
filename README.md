@@ -23,6 +23,7 @@
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
+- [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Detectors
 - [\#11024](https://github.com/AliceO2Group/AliceO2/pull/11024) 2023-03-27: Introduce links ROF synchronization to ITS/MFT raw decoder by [@shahor02](https://github.com/shahor02)
 - [\#11026](https://github.com/AliceO2Group/AliceO2/pull/11026) 2023-03-27: Add cosmic tracks input to alignment workflow by [@shahor02](https://github.com/shahor02)
@@ -59,6 +60,7 @@
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
+- [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11118](https://github.com/AliceO2Group/AliceO2/pull/11118) 2023-04-05: Fix: pattern iterator passed by reference by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
