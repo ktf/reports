@@ -26,7 +26,6 @@
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11029](https://github.com/AliceO2Group/AliceO2/pull/11029) 2023-03-29: FIT: Validate uploads of DCS configs to CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11042](https://github.com/AliceO2Group/AliceO2/pull/11042) 2023-03-31: [O2-3655] ITS-Vertexing: protect vertexing against variable number of ROF per TF by [@mconcas](https://github.com/mconcas)
@@ -64,6 +63,7 @@
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 - [\#11125](https://github.com/AliceO2Group/AliceO2/pull/11125) 2023-04-06: [EMCAL-688] Fix check if lookup table is initialised by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
+- [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
