@@ -26,7 +26,6 @@
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11028](https://github.com/AliceO2Group/AliceO2/pull/11028) 2023-03-27: [MFT] Update README.md by [@rpezzi](https://github.com/rpezzi)
 - [\#11029](https://github.com/AliceO2Group/AliceO2/pull/11029) 2023-03-29: FIT: Validate uploads of DCS configs to CCDB by [@andreasmolander](https://github.com/andreasmolander)
 - [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
