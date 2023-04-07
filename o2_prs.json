@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-03-27T14:37:42Z",
-            "title": "FST: use --onlyDet for rawReader and tfReader modes",
-            "number": 11033,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/raw-reader.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/tf-reader.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "DPL: avoid using a std::set",
@@ -3736,6 +3711,26 @@
                 {
                   "node": {
                     "path": "Detectors/FOCAL/workflow/src/RawDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS-vertexer: fix deltaphi calculation in tracklet selection",
+            "number": 11133,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
                   }
                 }
               ]
