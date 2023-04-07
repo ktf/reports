@@ -26,7 +26,6 @@
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11031](https://github.com/AliceO2Group/AliceO2/pull/11031) 2023-03-27: Remove accidentally commited debug flags by [@davidrohr](https://github.com/davidrohr)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11042](https://github.com/AliceO2Group/AliceO2/pull/11042) 2023-03-31: [O2-3655] ITS-Vertexing: protect vertexing against variable number of ROF per TF by [@mconcas](https://github.com/mconcas)
 - [\#11043](https://github.com/AliceO2Group/AliceO2/pull/11043) 2023-04-04: FITWorkflow: sampled rawdata timelife changed to sporadic by [@afurs](https://github.com/afurs)
