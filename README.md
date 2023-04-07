@@ -61,6 +61,7 @@
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11118](https://github.com/AliceO2Group/AliceO2/pull/11118) 2023-04-05: Fix: pattern iterator passed by reference by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
+- [\#11122](https://github.com/AliceO2Group/AliceO2/pull/11122) 2023-04-07: Treat ROF IR in the past as a separate (from IR in futute) error type by [@shahor02](https://github.com/shahor02)
 - [\#11125](https://github.com/AliceO2Group/AliceO2/pull/11125) 2023-04-06: [EMCAL-688] Fix check if lookup table is initialised by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
 - [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
