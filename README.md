@@ -66,6 +66,7 @@
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
 - [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
 - [\#11130](https://github.com/AliceO2Group/AliceO2/pull/11130) 2023-04-07: Fixes for sync. reco by [@shahor02](https://github.com/shahor02)
+- [\#11132](https://github.com/AliceO2Group/AliceO2/pull/11132) 2023-04-08: [FOCAL-10] Identify ECAL subsystems using source ID by [@mfasDa](https://github.com/mfasDa)
 - [\#11133](https://github.com/AliceO2Group/AliceO2/pull/11133) 2023-04-08: ITS-vertexer: fix deltaphi calculation in tracklet selection by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
