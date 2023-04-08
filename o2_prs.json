@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: avoid using a std::set",
-            "number": 11034,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ASoA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Expressions.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/Expressions.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-03-28T05:48:17Z",
             "title": "Initialize run number with -1 to trigger run number change also in ca…",
@@ -3741,6 +3706,61 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Silence BOOST deprecation note",
+            "number": 11134,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi_ConfigParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/LookUpTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ConfigurationOptionsRetriever.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceConfigInfo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ResourcesMonitoringHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ConfigParamStore.cxx"
                   }
                 }
               ]
