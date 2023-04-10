@@ -64,6 +64,7 @@
 - [\#11118](https://github.com/AliceO2Group/AliceO2/pull/11118) 2023-04-05: Fix: pattern iterator passed by reference by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 - [\#11122](https://github.com/AliceO2Group/AliceO2/pull/11122) 2023-04-07: Treat ROF IR in the past as a separate (from IR in futute) error type by [@shahor02](https://github.com/shahor02)
+- [\#11123](https://github.com/AliceO2Group/AliceO2/pull/11123) 2023-04-10: [EMCAL-842, EMCAL-912] Add more calibration objects to CalibLoader, use calib loader in reco workflow by [@mfasDa](https://github.com/mfasDa)
 - [\#11125](https://github.com/AliceO2Group/AliceO2/pull/11125) 2023-04-06: [EMCAL-688] Fix check if lookup table is initialised by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11127](https://github.com/AliceO2Group/AliceO2/pull/11127) 2023-04-07: Fix cluster preparation by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
