@@ -17,6 +17,7 @@
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
+- [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
@@ -107,6 +108,7 @@
 - [\#11113](https://github.com/AliceO2Group/AliceO2/pull/11113) 2023-04-05: DPL: introduce DefaultsHelpers by [@ktf](https://github.com/ktf)
 - [\#11121](https://github.com/AliceO2Group/AliceO2/pull/11121) 2023-04-06: DPL: reduce the maximum frequency of data_relayer metrics updates to 2Hz by [@ktf](https://github.com/ktf)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
+- [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11110](https://github.com/AliceO2Group/AliceO2/pull/11110) 2023-04-05: Fix particle weight injection in GeneratorFromO2Kine by [@sawenzel](https://github.com/sawenzel)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
