@@ -3391,7 +3391,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[EMCAL-842] Add more calibration objects to CalibLoader",
+            "title": "[EMCAL-842, EMCAL-912] Add more calibration objects to CalibLoader, use calib loader in reco workflow",
             "number": 11123,
             "author": {
               "login": "mfasDa"
@@ -3405,7 +3405,17 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/workflow/src/CalibLoader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
                   }
                 }
               ]
