@@ -25,7 +25,6 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#11044](https://github.com/AliceO2Group/AliceO2/pull/11044) 2023-03-30: Do not get B field from external file anymore, but from CCDB - O2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11055](https://github.com/AliceO2Group/AliceO2/pull/11055) 2023-03-31: Change cout + exit to LOGP(fatal) by [@wiechula](https://github.com/wiechula)
