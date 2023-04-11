@@ -12,6 +12,7 @@
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
+- [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
@@ -22,6 +23,7 @@
 - [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
+- [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
@@ -63,6 +65,7 @@
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
 - [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
 - [\#11130](https://github.com/AliceO2Group/AliceO2/pull/11130) 2023-04-07: Fixes for sync. reco by [@shahor02](https://github.com/shahor02)
+- [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11132](https://github.com/AliceO2Group/AliceO2/pull/11132) 2023-04-08: [FOCAL-10] Identify ECAL subsystems using source ID by [@mfasDa](https://github.com/mfasDa)
 - [\#11133](https://github.com/AliceO2Group/AliceO2/pull/11133) 2023-04-08: ITS-vertexer: fix deltaphi calculation in tracklet selection by [@mconcas](https://github.com/mconcas)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
