@@ -67,6 +67,7 @@
 - [\#11133](https://github.com/AliceO2Group/AliceO2/pull/11133) 2023-04-08: ITS-vertexer: fix deltaphi calculation in tracklet selection by [@mconcas](https://github.com/mconcas)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
+- [\#11143](https://github.com/AliceO2Group/AliceO2/pull/11143) 2023-04-11: CTFReader dateLimiter acts on injection rather than reading by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
