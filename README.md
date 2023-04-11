@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11045](https://github.com/AliceO2Group/AliceO2/pull/11045) 2023-03-29: Update InteractionDiamondParam.h by [@sawenzel](https://github.com/sawenzel)
 - [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 - [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
@@ -15,6 +14,7 @@
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
+- [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
