@@ -25,7 +25,6 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#11042](https://github.com/AliceO2Group/AliceO2/pull/11042) 2023-03-31: [O2-3655] ITS-Vertexing: protect vertexing against variable number of ROF per TF by [@mconcas](https://github.com/mconcas)
 - [\#11043](https://github.com/AliceO2Group/AliceO2/pull/11043) 2023-04-04: FITWorkflow: sampled rawdata timelife changed to sporadic by [@afurs](https://github.com/afurs)
 - [\#11044](https://github.com/AliceO2Group/AliceO2/pull/11044) 2023-03-30: Do not get B field from external file anymore, but from CCDB - O2 by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11049](https://github.com/AliceO2Group/AliceO2/pull/11049) 2023-03-28: Please consider the following formatting changes to #11048 by [@alibuild](https://github.com/alibuild)
