@@ -99,6 +99,7 @@
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
 - [\#11086](https://github.com/AliceO2Group/AliceO2/pull/11086) 2023-04-02: DPL: Be even more clear about exit status by [@davidrohr](https://github.com/davidrohr)
+- [\#11093](https://github.com/AliceO2Group/AliceO2/pull/11093) 2023-04-11: DPL Analysis: move sorting order validation code from Kernels.cxx by [@aalkin](https://github.com/aalkin)
 - [\#11094](https://github.com/AliceO2Group/AliceO2/pull/11094) 2023-04-03: DPL: only publish registered metrics by [@ktf](https://github.com/ktf)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
