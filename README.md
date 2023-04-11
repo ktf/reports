@@ -81,7 +81,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11037](https://github.com/AliceO2Group/AliceO2/pull/11037) 2023-03-28: DPL: sort expendable task after non expendable ones by [@ktf](https://github.com/ktf)
 - [\#11038](https://github.com/AliceO2Group/AliceO2/pull/11038) 2023-03-29: DPL: support DDS expendable tasks by [@ktf](https://github.com/ktf)
 - [\#11039](https://github.com/AliceO2Group/AliceO2/pull/11039) 2023-03-28: DPL GUI: fix usage of deprecated ImPlot API by [@ktf](https://github.com/ktf)
 - [\#11040](https://github.com/AliceO2Group/AliceO2/pull/11040) 2023-04-03: Strangeness Tracking in AO2D, act 3 by [@fmazzasc](https://github.com/fmazzasc)
