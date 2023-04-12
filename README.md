@@ -71,6 +71,7 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11143](https://github.com/AliceO2Group/AliceO2/pull/11143) 2023-04-11: CTFReader dateLimiter acts on injection rather than reading by [@shahor02](https://github.com/shahor02)
+- [\#11144](https://github.com/AliceO2Group/AliceO2/pull/11144) 2023-04-12: [FOCAL-10] Auto-determine whether timeframe has payload from either of the FOCAL-E subsystems by [@mfasDa](https://github.com/mfasDa)
 - [\#11145](https://github.com/AliceO2Group/AliceO2/pull/11145) 2023-04-11: ITS decoder: fixed bug with getNextChipData by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 - [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
