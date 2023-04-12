@@ -1,10 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Analysis
-- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
-- [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
@@ -79,8 +75,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11046](https://github.com/AliceO2Group/AliceO2/pull/11046) 2023-03-29: DPL Analysis: Introduce slice cache service by [@aalkin](https://github.com/aalkin)
-- [\#11047](https://github.com/AliceO2Group/AliceO2/pull/11047) 2023-03-29: DPL: fix rates by [@ktf](https://github.com/ktf)
 - [\#11052](https://github.com/AliceO2Group/AliceO2/pull/11052) 2023-03-29: DPL: drop unneeded functions by [@ktf](https://github.com/ktf)
 - [\#11053](https://github.com/AliceO2Group/AliceO2/pull/11053) 2023-03-31: DPL Analysis: Update combinations to use slice cache by [@aalkin](https://github.com/aalkin)
 - [\#11054](https://github.com/AliceO2Group/AliceO2/pull/11054) 2023-03-30: DPL: allow driver to run under DDS control by [@ktf](https://github.com/ktf)
