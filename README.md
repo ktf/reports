@@ -71,7 +71,6 @@
 - [\#11147](https://github.com/AliceO2Group/AliceO2/pull/11147) 2023-04-13: [EMCAL-914] Move error handling to dedicated functions by [@mfasDa](https://github.com/mfasDa)
 - [\#11150](https://github.com/AliceO2Group/AliceO2/pull/11150) 2023-04-13: [EMCAL-548] Configurable output subspecification for DigitsToCellConverter by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - EventVisualisation
-- [\#11050](https://github.com/AliceO2Group/AliceO2/pull/11050) 2023-03-29: o2-eve: 'Newest' data option to show merged synthetic/physics/cosmic by [@jmyrcha](https://github.com/jmyrcha)
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
