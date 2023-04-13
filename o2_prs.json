@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-31T07:37:40Z",
-            "title": "DPL Analysis: Update combinations to use slice cache",
-            "number": 11053,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/GroupedCombinations.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/benchmark_EventMixing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-30T05:12:36Z",
             "title": "DPL: allow driver to run under DDS control",
             "number": 11054,
@@ -3569,7 +3544,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[EMCAL-688] Remove old container init functions",
             "number": 11153,
@@ -3591,6 +3566,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/AnalysisClusterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-688] Add catch for InvalidCellIDException in getECross",
+            "number": 11154,
+            "author": {
+              "login": "mhemmer-cern"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/ClusterFactory.cxx"
                   }
                 }
               ]
