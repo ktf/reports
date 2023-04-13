@@ -13,7 +13,6 @@
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
@@ -23,7 +22,6 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#11051](https://github.com/AliceO2Group/AliceO2/pull/11051) 2023-03-29: Adapt RecoContainer to stop/start by [@shahor02](https://github.com/shahor02)
 - [\#11055](https://github.com/AliceO2Group/AliceO2/pull/11055) 2023-03-31: Change cout + exit to LOGP(fatal) by [@wiechula](https://github.com/wiechula)
 - [\#11056](https://github.com/AliceO2Group/AliceO2/pull/11056) 2023-03-30: Relax some checks in raw-file-reader to digest CTP raw data by [@shahor02](https://github.com/shahor02)
 - [\#11057](https://github.com/AliceO2Group/AliceO2/pull/11057) 2023-03-29: MCH: introduce MCHEvaluation library by [@aphecetche](https://github.com/aphecetche)
