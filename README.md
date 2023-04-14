@@ -69,12 +69,12 @@
 - [\#11150](https://github.com/AliceO2Group/AliceO2/pull/11150) 2023-04-13: [EMCAL-548] Configurable output subspecification for DigitsToCellConverter by [@mfasDa](https://github.com/mfasDa)
 - [\#11152](https://github.com/AliceO2Group/AliceO2/pull/11152) 2023-04-14: tof fix to recover tof compressor on epn by [@noferini](https://github.com/noferini)
 - [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
+- [\#11161](https://github.com/AliceO2Group/AliceO2/pull/11161) 2023-04-14: report MeanVertex being imposed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11061](https://github.com/AliceO2Group/AliceO2/pull/11061) 2023-03-30: DPL Analysis: fix memory issue due to creation of empty tables by [@aalkin](https://github.com/aalkin)
 - [\#11063](https://github.com/AliceO2Group/AliceO2/pull/11063) 2023-03-30: DPL GUI: show sending policy by [@ktf](https://github.com/ktf)
 - [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
