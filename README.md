@@ -22,7 +22,6 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 ## Recent developments in O2 - Detectors
-- [\#11057](https://github.com/AliceO2Group/AliceO2/pull/11057) 2023-03-29: MCH: introduce MCHEvaluation library by [@aphecetche](https://github.com/aphecetche)
 - [\#11062](https://github.com/AliceO2Group/AliceO2/pull/11062) 2023-03-31: [EMCAL-688] Add exception for uninitilised lookup table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11064](https://github.com/AliceO2Group/AliceO2/pull/11064) 2023-04-03: Fix material composition of IB CYSS volumes by [@mario6829](https://github.com/mario6829)
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
