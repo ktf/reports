@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11089](https://github.com/AliceO2Group/AliceO2/pull/11089) 2023-04-02: Fix skimming when IRframes come from AO2Ds by [@mpuccio](https://github.com/mpuccio)
@@ -75,7 +74,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11060](https://github.com/AliceO2Group/AliceO2/pull/11060) 2023-03-30: Fix warnings by [@ktf](https://github.com/ktf)
 - [\#11061](https://github.com/AliceO2Group/AliceO2/pull/11061) 2023-03-30: DPL Analysis: fix memory issue due to creation of empty tables by [@aalkin](https://github.com/aalkin)
 - [\#11063](https://github.com/AliceO2Group/AliceO2/pull/11063) 2023-03-30: DPL GUI: show sending policy by [@ktf](https://github.com/ktf)
 - [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
