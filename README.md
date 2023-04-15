@@ -22,7 +22,6 @@
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
-- [\#11064](https://github.com/AliceO2Group/AliceO2/pull/11064) 2023-04-03: Fix material composition of IB CYSS volumes by [@mario6829](https://github.com/mario6829)
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
 - [\#11072](https://github.com/AliceO2Group/AliceO2/pull/11072) 2023-04-05: MID: implement EOR request for calibration device by [@dstocco](https://github.com/dstocco)
