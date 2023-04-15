@@ -21,6 +21,7 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
+- [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11066](https://github.com/AliceO2Group/AliceO2/pull/11066) 2023-03-31: [EMCAL-911] Add container class for handling reconstructed cells by [@mfasDa](https://github.com/mfasDa)
 - [\#11069](https://github.com/AliceO2Group/AliceO2/pull/11069) 2023-03-31: ITS/MFT decoder registers empty ROFs with --allow-empty-rofs by [@shahor02](https://github.com/shahor02)
@@ -68,6 +69,7 @@
 - [\#11152](https://github.com/AliceO2Group/AliceO2/pull/11152) 2023-04-14: tof fix to recover tof compressor on epn by [@noferini](https://github.com/noferini)
 - [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
 - [\#11161](https://github.com/AliceO2Group/AliceO2/pull/11161) 2023-04-14: report MeanVertex being imposed by [@shahor02](https://github.com/shahor02)
+- [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
