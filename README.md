@@ -74,7 +74,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11063](https://github.com/AliceO2Group/AliceO2/pull/11063) 2023-03-30: DPL GUI: show sending policy by [@ktf](https://github.com/ktf)
 - [\#11070](https://github.com/AliceO2Group/AliceO2/pull/11070) 2023-03-31: DPL: Make log messages single-line and clearer by [@davidrohr](https://github.com/davidrohr)
 - [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11074](https://github.com/AliceO2Group/AliceO2/pull/11074) 2023-03-31: DPL: Do only report run number changed for timeslices, not for timers by [@davidrohr](https://github.com/davidrohr)
