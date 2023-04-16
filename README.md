@@ -74,6 +74,7 @@
 - [\#11154](https://github.com/AliceO2Group/AliceO2/pull/11154) 2023-04-15: [EMCAL-688] Add catch for InvalidCellIDException in getECross by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
 - [\#11161](https://github.com/AliceO2Group/AliceO2/pull/11161) 2023-04-14: report MeanVertex being imposed by [@shahor02](https://github.com/shahor02)
+- [\#11163](https://github.com/AliceO2Group/AliceO2/pull/11163) 2023-04-16: ITS Calibratrion: 2D scans, protection for EoS data drops by [@iravasen](https://github.com/iravasen)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
