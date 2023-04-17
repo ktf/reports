@@ -42,6 +42,7 @@
 - [\#11107](https://github.com/AliceO2Group/AliceO2/pull/11107) 2023-04-07: [O2-3662]: make getIRandDuration.C from O2DPG an executable by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
 - [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
+- [\#11111](https://github.com/AliceO2Group/AliceO2/pull/11111) 2023-04-17: [EMCAL-565, EMCAL-566]: Add start stop functionality to EMCal calib by [@jokonig](https://github.com/jokonig)
 - [\#11112](https://github.com/AliceO2Group/AliceO2/pull/11112) 2023-04-06: add protection for tof compressor by [@noferini](https://github.com/noferini)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
