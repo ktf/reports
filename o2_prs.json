@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-31T19:56:02Z",
-            "title": "DPL: Do only report run number changed for timeslices, not for timers",
-            "number": 11074,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/TimingInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CallbacksPolicy.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-03-31T18:34:21Z",
             "title": "Remove forgotten debug print",
             "number": 11075,
@@ -3741,6 +3711,31 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/include/TRDWorkflow/NoiseCalibSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Restore collision-sorting for tracks with ST",
+            "number": 11175,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]

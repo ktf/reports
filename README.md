@@ -86,7 +86,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11074](https://github.com/AliceO2Group/AliceO2/pull/11074) 2023-03-31: DPL: Do only report run number changed for timeslices, not for timers by [@davidrohr](https://github.com/davidrohr)
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
 - [\#11086](https://github.com/AliceO2Group/AliceO2/pull/11086) 2023-04-02: DPL: Be even more clear about exit status by [@davidrohr](https://github.com/davidrohr)
