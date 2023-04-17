@@ -25,7 +25,6 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11072](https://github.com/AliceO2Group/AliceO2/pull/11072) 2023-04-05: MID: implement EOR request for calibration device by [@dstocco](https://github.com/dstocco)
 - [\#11073](https://github.com/AliceO2Group/AliceO2/pull/11073) 2023-04-06: [EMCAL-831, EMCAL-630] LEDMON reconstruction by [@mfasDa](https://github.com/mfasDa)
 - [\#11075](https://github.com/AliceO2Group/AliceO2/pull/11075) 2023-03-31: Remove forgotten debug print by [@mconcas](https://github.com/mconcas)
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
