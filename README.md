@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
-- [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11089](https://github.com/AliceO2Group/AliceO2/pull/11089) 2023-04-02: Fix skimming when IRframes come from AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
@@ -87,7 +86,6 @@
 ## Recent developments in O2 - Examples
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11071](https://github.com/AliceO2Group/AliceO2/pull/11071) 2023-03-31: DPL: Improve / homogenize getting DeploymentType, Tune setting of PIPELINE_LENGTH and MAX_CHANNEL_AHEAD by [@davidrohr](https://github.com/davidrohr)
 - [\#11074](https://github.com/AliceO2Group/AliceO2/pull/11074) 2023-03-31: DPL: Do only report run number changed for timeslices, not for timers by [@davidrohr](https://github.com/davidrohr)
 - [\#11077](https://github.com/AliceO2Group/AliceO2/pull/11077) 2023-04-03: Possibility to trigger endOfStream/shutdown from within data converter by [@sawenzel](https://github.com/sawenzel)
 - [\#11084](https://github.com/AliceO2Group/AliceO2/pull/11084) 2023-04-01: DPL: In case of being killed with code 128, mention that most likely cause is using too much memory by [@davidrohr](https://github.com/davidrohr)
