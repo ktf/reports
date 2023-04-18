@@ -78,6 +78,7 @@
 - [\#11166](https://github.com/AliceO2Group/AliceO2/pull/11166) 2023-04-16: fix in TOF encoder (MC) in eventwords by [@noferini](https://github.com/noferini)
 - [\#11170](https://github.com/AliceO2Group/AliceO2/pull/11170) 2023-04-17: Fix in TPC NCrossedPadrows calc. for AO2D by [@shahor02](https://github.com/shahor02)
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
+- [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
