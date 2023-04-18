@@ -81,7 +81,6 @@
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-- [\#11086](https://github.com/AliceO2Group/AliceO2/pull/11086) 2023-04-02: DPL: Be even more clear about exit status by [@davidrohr](https://github.com/davidrohr)
 - [\#11093](https://github.com/AliceO2Group/AliceO2/pull/11093) 2023-04-11: DPL Analysis: move sorting order validation code from Kernels.cxx by [@aalkin](https://github.com/aalkin)
 - [\#11094](https://github.com/AliceO2Group/AliceO2/pull/11094) 2023-04-03: DPL: only publish registered metrics by [@ktf](https://github.com/ktf)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
