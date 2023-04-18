@@ -25,7 +25,6 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)

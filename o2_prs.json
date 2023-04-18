@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-02T11:40:56Z",
-            "title": "[EMCAL-911] Several fixes in the RecoContainer",
-            "number": 11083,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RecoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/test/testRecoContainer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-01T08:02:19Z",
             "title": "DPL: In case of being killed with code 128, mention that most likely cause is using too much memory",
             "number": 11084,
@@ -3766,6 +3736,36 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-840] Add container for EMCal time slew params",
+            "number": 11184,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/include/EMCALCalib/TimeCalibrationSlewingParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calib/src/TimeCalibrationSlewingParams.cxx"
                   }
                 }
               ]
