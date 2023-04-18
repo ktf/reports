@@ -25,7 +25,6 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11078](https://github.com/AliceO2Group/AliceO2/pull/11078) 2023-03-31: Update documentation for its3 sim and rec by [@lbariogl](https://github.com/lbariogl)
 - [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
