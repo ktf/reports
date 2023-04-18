@@ -11,6 +11,7 @@
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
+- [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
@@ -77,6 +78,7 @@
 - [\#11170](https://github.com/AliceO2Group/AliceO2/pull/11170) 2023-04-17: Fix in TPC NCrossedPadrows calc. for AO2D by [@shahor02](https://github.com/shahor02)
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
+- [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 - [\#11092](https://github.com/AliceO2Group/AliceO2/pull/11092) 2023-04-05: o2-eve: added cmd-line parameter to point to specific configuration f… by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
