@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-03-31T18:14:11Z",
-            "title": "Remove obsolete copy of DCAFitter",
-            "number": 11081,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DCAFitter/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/include/DetectorsVertexing/DCAFitterN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/DCAFitterN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/test/testDCAFitterN.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-01T09:04:34Z",
             "title": "TRD tracking fix pad row crossing check",
             "number": 11082,
@@ -3741,6 +3701,51 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/raw/include/FITRaw/RawWriterFIT.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Reduce logging",
+            "number": 11182,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/MeanVertexData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/workflow/src/MeanVertexCalibratorSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/LHCClockCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/calibration/testWorkflow/TOFDiagnosticCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/VdAndExBCalibSpec.h"
                   }
                 }
               ]

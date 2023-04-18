@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
-- [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11089](https://github.com/AliceO2Group/AliceO2/pull/11089) 2023-04-02: Fix skimming when IRframes come from AO2Ds by [@mpuccio](https://github.com/mpuccio)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
@@ -25,7 +24,6 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11081](https://github.com/AliceO2Group/AliceO2/pull/11081) 2023-03-31: Remove obsolete copy of DCAFitter by [@shahor02](https://github.com/shahor02)
 - [\#11083](https://github.com/AliceO2Group/AliceO2/pull/11083) 2023-04-02: [EMCAL-911] Several fixes in the RecoContainer by [@mfasDa](https://github.com/mfasDa)
 - [\#11087](https://github.com/AliceO2Group/AliceO2/pull/11087) 2023-04-03: [MID] require 3/4 chambers hit for both cathodes separately by [@pillot](https://github.com/pillot)
 - [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
