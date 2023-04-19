@@ -75,6 +75,7 @@
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
+- [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11093](https://github.com/AliceO2Group/AliceO2/pull/11093) 2023-04-11: DPL Analysis: move sorting order validation code from Kernels.cxx by [@aalkin](https://github.com/aalkin)
 - [\#11094](https://github.com/AliceO2Group/AliceO2/pull/11094) 2023-04-03: DPL: only publish registered metrics by [@ktf](https://github.com/ktf)
