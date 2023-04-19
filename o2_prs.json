@@ -4,91 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-04T09:59:09Z",
-            "title": "Workflow to filter out specific TPC tracks and clusters",
-            "number": 11090,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrizationWithError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TPCDataFilter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TPCTrackStudy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TPCDataFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/study/src/tpc-data-filter-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/readers/src/TrackReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TrackReaderWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Strings metrics",
@@ -3761,6 +3676,46 @@
                 {
                   "node": {
                     "path": "prodtests/pythia8.cfg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-12] Add structure for Pad pedestals",
+            "number": 11191,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadPedestal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/src/FOCALCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/src/PadPedestal.cxx"
                   }
                 }
               ]

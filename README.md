@@ -12,7 +12,6 @@
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -23,7 +22,6 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11090](https://github.com/AliceO2Group/AliceO2/pull/11090) 2023-04-04: Workflow to filter out specific TPC tracks and clusters by [@shahor02](https://github.com/shahor02)
 - [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)
 - [\#11097](https://github.com/AliceO2Group/AliceO2/pull/11097) 2023-04-05: [ITS3] Small improvements to ITS3 simulation by [@fgrosa](https://github.com/fgrosa)
 - [\#11098](https://github.com/AliceO2Group/AliceO2/pull/11098) 2023-04-04: Dump raw data of out-of-synct links, reset them at TF start by [@shahor02](https://github.com/shahor02)
