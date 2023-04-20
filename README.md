@@ -87,6 +87,7 @@
 - [\#11140](https://github.com/AliceO2Group/AliceO2/pull/11140) 2023-04-17: DPL Analysis: remove legacy slicing code by [@aalkin](https://github.com/aalkin)
 - [\#11141](https://github.com/AliceO2Group/AliceO2/pull/11141) 2023-04-16: DPL: improve substitution of timesliceN by [@ktf](https://github.com/ktf)
 - [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
+- [\#11198](https://github.com/AliceO2Group/AliceO2/pull/11198) 2023-04-20: DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11110](https://github.com/AliceO2Group/AliceO2/pull/11110) 2023-04-05: Fix particle weight injection in GeneratorFromO2Kine by [@sawenzel](https://github.com/sawenzel)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
