@@ -3016,7 +3016,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[FOCAL-12] Add structure for Pad pedestals",
+            "title": "[FOCAL-12] FOCAL Pad Pedestal DA",
             "number": 11191,
             "author": {
               "login": "mfasDa"
@@ -3046,6 +3046,26 @@
                 {
                   "node": {
                     "path": "Detectors/FOCAL/calib/src/PadPedestal.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calibration/include/FOCALCalibration/PadPedestalCalibDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calibration/src/PadPedestalCalibDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calibration/src/pad-pedestal-calibration-workflow.cxx"
                   }
                 }
               ]
@@ -3274,7 +3294,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "[WIP][FOCAL-12] Pedestal calibration DA for Pads",
             "number": 11201,
