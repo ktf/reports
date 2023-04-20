@@ -23,7 +23,6 @@
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)
 - [\#11097](https://github.com/AliceO2Group/AliceO2/pull/11097) 2023-04-05: [ITS3] Small improvements to ITS3 simulation by [@fgrosa](https://github.com/fgrosa)
 - [\#11098](https://github.com/AliceO2Group/AliceO2/pull/11098) 2023-04-04: Dump raw data of out-of-synct links, reset them at TF start by [@shahor02](https://github.com/shahor02)
 - [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
