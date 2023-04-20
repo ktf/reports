@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
-- [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
@@ -80,7 +79,6 @@
 - [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 - [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
