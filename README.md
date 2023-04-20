@@ -19,6 +19,7 @@
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
+- [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11107](https://github.com/AliceO2Group/AliceO2/pull/11107) 2023-04-07: [O2-3662]: make getIRandDuration.C from O2DPG an executable by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -67,6 +68,7 @@
 - [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
+- [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
