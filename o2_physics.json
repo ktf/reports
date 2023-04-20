@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-11T08:38:23Z",
-            "title": "Common: Restore table filled per track with vector of compatible collisions",
-            "number": 2346,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/CollisionAssociation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackToCollisionAssociator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-12T08:15:45Z",
             "title": "PWGHF: Adapt MC validation task to HF time-based definition of amb tracks",
             "number": 2347,
@@ -2974,6 +2949,41 @@
                 {
                   "node": {
                     "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add DCAxy/z distinction to LF stra dat mod",
+            "number": 2450,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadefinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/straRecoStudy.cxx"
                   }
                 }
               ]

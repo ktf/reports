@@ -21,7 +21,6 @@
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11107](https://github.com/AliceO2Group/AliceO2/pull/11107) 2023-04-07: [O2-3662]: make getIRandDuration.C from O2DPG an executable by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
 - [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
@@ -75,6 +74,8 @@
 - [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 - [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
 - [\#11203](https://github.com/AliceO2Group/AliceO2/pull/11203) 2023-04-20: ITS/TPC matching: protection for IR candidates going beyond last ITS ROF by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Examples
+- [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
