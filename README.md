@@ -10,7 +10,6 @@
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
@@ -21,7 +20,6 @@
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11101](https://github.com/AliceO2Group/AliceO2/pull/11101) 2023-04-05: Fix strangetrack labels reader, store them in AO2D by [@mpuccio](https://github.com/mpuccio)
 - [\#11102](https://github.com/AliceO2Group/AliceO2/pull/11102) 2023-04-04: Robustness improvements for MatLUT unit test by [@sawenzel](https://github.com/sawenzel)
 - [\#11103](https://github.com/AliceO2Group/AliceO2/pull/11103) 2023-04-05: [MRRTF-217] introduce StatusMap object and statusmap-creator-workflow… by [@aphecetche](https://github.com/aphecetche)
 - [\#11107](https://github.com/AliceO2Group/AliceO2/pull/11107) 2023-04-07: [O2-3662]: make getIRandDuration.C from O2DPG an executable by [@chiarazampolli](https://github.com/chiarazampolli)
