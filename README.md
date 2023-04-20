@@ -21,6 +21,7 @@
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
+- [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#11095](https://github.com/AliceO2Group/AliceO2/pull/11095) 2023-04-04: MCH: fix for nm calls by [@aphecetche](https://github.com/aphecetche)
 - [\#11097](https://github.com/AliceO2Group/AliceO2/pull/11097) 2023-04-05: [ITS3] Small improvements to ITS3 simulation by [@fgrosa](https://github.com/fgrosa)
@@ -73,6 +74,7 @@
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
 - [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
+- [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
