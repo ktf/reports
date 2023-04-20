@@ -78,8 +78,8 @@
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
+- [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11094](https://github.com/AliceO2Group/AliceO2/pull/11094) 2023-04-03: DPL: only publish registered metrics by [@ktf](https://github.com/ktf)
 - [\#11096](https://github.com/AliceO2Group/AliceO2/pull/11096) 2023-04-03: DPL: fix value name by [@ktf](https://github.com/ktf)
 - [\#11099](https://github.com/AliceO2Group/AliceO2/pull/11099) 2023-04-04: DPL: avoid overflow for the shmId metric by [@ktf](https://github.com/ktf)
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)

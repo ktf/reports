@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-03T21:24:17Z",
-            "title": "DPL: only publish registered metrics",
-            "number": 11094,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingStats.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingStats.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_FairMQ.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-04T09:11:10Z",
             "title": "MCH: fix for nm calls",
             "number": 11095,
@@ -3534,8 +3504,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-04-20T09:37:01Z",
             "title": "Fix processing of nodata=1/internal=1 ITS/MFT triggers",
             "number": 11194,
             "author": {
@@ -3561,6 +3531,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FST: added embedding option",
+            "number": 11195,
+            "author": {
+              "login": "sarahlapointe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/pythia8.cfg"
                   }
                 }
               ]
