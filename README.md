@@ -72,6 +72,7 @@
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
 - [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 - [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
+- [\#11203](https://github.com/AliceO2Group/AliceO2/pull/11203) 2023-04-20: ITS/TPC matching: protection for IR candidates going beyond last ITS ROF by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11104](https://github.com/AliceO2Group/AliceO2/pull/11104) 2023-04-04: DPL: fix rate unit by [@ktf](https://github.com/ktf)
 - [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
