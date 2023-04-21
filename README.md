@@ -9,7 +9,6 @@
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
 - [\#11117](https://github.com/AliceO2Group/AliceO2/pull/11117) 2023-04-06: [EMCAL-645] Add Cell MC Label information and handling by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 - [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
@@ -21,7 +20,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
 - [\#11111](https://github.com/AliceO2Group/AliceO2/pull/11111) 2023-04-17: [EMCAL-565, EMCAL-566]: Add start stop functionality to EMCal calib by [@jokonig](https://github.com/jokonig)
 - [\#11112](https://github.com/AliceO2Group/AliceO2/pull/11112) 2023-04-06: add protection for tof compressor by [@noferini](https://github.com/noferini)
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
