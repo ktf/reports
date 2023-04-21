@@ -78,7 +78,6 @@
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11105](https://github.com/AliceO2Group/AliceO2/pull/11105) 2023-04-05: [O2-3582] DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
 - [\#11113](https://github.com/AliceO2Group/AliceO2/pull/11113) 2023-04-05: DPL: introduce DefaultsHelpers by [@ktf](https://github.com/ktf)
 - [\#11121](https://github.com/AliceO2Group/AliceO2/pull/11121) 2023-04-06: DPL: reduce the maximum frequency of data_relayer metrics updates to 2Hz by [@ktf](https://github.com/ktf)
 - [\#11126](https://github.com/AliceO2Group/AliceO2/pull/11126) 2023-04-13: AliECS dump: set HOME to a directory that tasks can access by [@knopers8](https://github.com/knopers8)
