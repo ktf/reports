@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Common
 - [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
@@ -87,5 +88,6 @@
 - [\#11141](https://github.com/AliceO2Group/AliceO2/pull/11141) 2023-04-16: DPL: improve substitution of timesliceN by [@ktf](https://github.com/ktf)
 - [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
 - [\#11198](https://github.com/AliceO2Group/AliceO2/pull/11198) 2023-04-20: DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails by [@davidrohr](https://github.com/davidrohr)
+- [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Generators
 - [\#11116](https://github.com/AliceO2Group/AliceO2/pull/11116) 2023-04-06: ZDC: Inclusion of data-driven model for free nucleon spectators by [@sawenzel](https://github.com/sawenzel)
