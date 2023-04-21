@@ -21,7 +21,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11107](https://github.com/AliceO2Group/AliceO2/pull/11107) 2023-04-07: [O2-3662]: make getIRandDuration.C from O2DPG an executable by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11108](https://github.com/AliceO2Group/AliceO2/pull/11108) 2023-04-04: Workflow to study the ITS ROF bias wrt start of the TF by [@shahor02](https://github.com/shahor02)
 - [\#11109](https://github.com/AliceO2Group/AliceO2/pull/11109) 2023-04-15: ZDC - Introduction of RDH V7 by [@cortesep](https://github.com/cortesep)
 - [\#11111](https://github.com/AliceO2Group/AliceO2/pull/11111) 2023-04-17: [EMCAL-565, EMCAL-566]: Add start stop functionality to EMCal calib by [@jokonig](https://github.com/jokonig)
