@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[O2-3661] Get O2 compiling on M2 Macs",
-            "number": 11119,
-            "author": {
-              "login": "TimoWilken"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DCSDataPointHint.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/include/DetectorsDCS/DataPointGenerator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DataPointCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/DataPointGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/DCS/src/StringUtils.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-04-06T13:50:38Z",
             "title": "Ability to query (instantaneous) interaction rate from CTPScalers",
@@ -3811,6 +3766,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: fix devices idling at 100% CPU usage",
+            "number": 11220,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceState.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
