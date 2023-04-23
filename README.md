@@ -20,7 +20,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11118](https://github.com/AliceO2Group/AliceO2/pull/11118) 2023-04-05: Fix: pattern iterator passed by reference by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11120](https://github.com/AliceO2Group/AliceO2/pull/11120) 2023-04-06: Ability to query (instantaneous) interaction rate from CTPScalers by [@sawenzel](https://github.com/sawenzel)
 - [\#11122](https://github.com/AliceO2Group/AliceO2/pull/11122) 2023-04-07: Treat ROF IR in the past as a separate (from IR in futute) error type by [@shahor02](https://github.com/shahor02)
 - [\#11123](https://github.com/AliceO2Group/AliceO2/pull/11123) 2023-04-10: [EMCAL-842, EMCAL-912] Add more calibration objects to CalibLoader, use calib loader in reco workflow by [@mfasDa](https://github.com/mfasDa)
