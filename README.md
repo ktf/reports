@@ -74,6 +74,7 @@
 - [\#11203](https://github.com/AliceO2Group/AliceO2/pull/11203) 2023-04-20: ITS/TPC matching: protection for IR candidates going beyond last ITS ROF by [@shahor02](https://github.com/shahor02)
 - [\#11204](https://github.com/AliceO2Group/AliceO2/pull/11204) 2023-04-21: reduce the MID tracking chi2 cut by [@pillot](https://github.com/pillot)
 - [\#11208](https://github.com/AliceO2Group/AliceO2/pull/11208) 2023-04-22: fixing memory leak in tof compressor (epn mode) by [@noferini](https://github.com/noferini)
+- [\#11213](https://github.com/AliceO2Group/AliceO2/pull/11213) 2023-04-23: Fix deprecated sprintf by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
