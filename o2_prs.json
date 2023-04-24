@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-06T08:24:22Z",
-            "title": "DPL: reduce the maximum frequency of data_relayer metrics updates to 2Hz",
-            "number": 11121,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataRelayer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-07T07:28:55Z",
             "title": "Treat ROF IR in the past as a separate (from IR in futute) error type",
             "number": 11122,
@@ -3749,8 +3729,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-04-24T12:12:38Z",
             "title": "DPL: fix devices idling at 100% CPU usage",
             "number": 11220,
             "author": {
@@ -3783,6 +3763,36 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Fix processes spinning at 100% and unrelated fixes",
+            "number": 11222,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ChannelInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
