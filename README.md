@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
@@ -83,6 +84,7 @@
 - [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
 - [\#11198](https://github.com/AliceO2Group/AliceO2/pull/11198) 2023-04-20: DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails by [@davidrohr](https://github.com/davidrohr)
 - [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11212](https://github.com/AliceO2Group/AliceO2/pull/11212) 2023-04-22: DPL: make sure caching strategy is provided explicitly by [@ktf](https://github.com/ktf)
 - [\#11218](https://github.com/AliceO2Group/AliceO2/pull/11218) 2023-04-24: Reduce states overhead by [@ktf](https://github.com/ktf)
 - [\#11220](https://github.com/AliceO2Group/AliceO2/pull/11220) 2023-04-24: DPL: fix devices idling at 100% CPU usage by [@ktf](https://github.com/ktf)
