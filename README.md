@@ -20,7 +20,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11127](https://github.com/AliceO2Group/AliceO2/pull/11127) 2023-04-07: Fix cluster preparation by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11128](https://github.com/AliceO2Group/AliceO2/pull/11128) 2023-04-06: Fix typo in the switch between filtered and direct TPC output by [@shahor02](https://github.com/shahor02)
 - [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
 - [\#11130](https://github.com/AliceO2Group/AliceO2/pull/11130) 2023-04-07: Fixes for sync. reco by [@shahor02](https://github.com/shahor02)
