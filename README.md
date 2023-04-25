@@ -20,8 +20,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11129](https://github.com/AliceO2Group/AliceO2/pull/11129) 2023-04-06: ZDC fix formatting of log message by [@martenole](https://github.com/martenole)
-- [\#11130](https://github.com/AliceO2Group/AliceO2/pull/11130) 2023-04-07: Fixes for sync. reco by [@shahor02](https://github.com/shahor02)
 - [\#11131](https://github.com/AliceO2Group/AliceO2/pull/11131) 2023-04-11: Including MCS effects in secondary vertexing for forward tracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11132](https://github.com/AliceO2Group/AliceO2/pull/11132) 2023-04-08: [FOCAL-10] Identify ECAL subsystems using source ID by [@mfasDa](https://github.com/mfasDa)
 - [\#11133](https://github.com/AliceO2Group/AliceO2/pull/11133) 2023-04-08: ITS-vertexer: fix deltaphi calculation in tracklet selection by [@mconcas](https://github.com/mconcas)
