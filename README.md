@@ -75,7 +75,6 @@
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11126](https://github.com/AliceO2Group/AliceO2/pull/11126) 2023-04-13: AliECS dump: set HOME to a directory that tasks can access by [@knopers8](https://github.com/knopers8)
 - [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11140](https://github.com/AliceO2Group/AliceO2/pull/11140) 2023-04-17: DPL Analysis: remove legacy slicing code by [@aalkin](https://github.com/aalkin)
