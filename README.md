@@ -6,12 +6,10 @@
 - [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
 - [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11146](https://github.com/AliceO2Group/AliceO2/pull/11146) 2023-04-11: Fix for application of IRFrames margin by [@shahor02](https://github.com/shahor02)
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
@@ -19,7 +17,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11135](https://github.com/AliceO2Group/AliceO2/pull/11135) 2023-04-09: Trigger digits absId fix; time fix by [@peressounko](https://github.com/peressounko)
 - [\#11139](https://github.com/AliceO2Group/AliceO2/pull/11139) 2023-04-17: [EMCAL-688] Remove old container init functions by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11142](https://github.com/AliceO2Group/AliceO2/pull/11142) 2023-04-15: ITS-vertexer: Make cut on XY a configurable param by [@mconcas](https://github.com/mconcas)
@@ -68,7 +65,6 @@
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11134](https://github.com/AliceO2Group/AliceO2/pull/11134) 2023-04-08: Silence BOOST deprecation note by [@ktf](https://github.com/ktf)
 - [\#11136](https://github.com/AliceO2Group/AliceO2/pull/11136) 2023-04-10: DPL: use uv_now rather than uv_hrtime for metrics by [@ktf](https://github.com/ktf)
 - [\#11140](https://github.com/AliceO2Group/AliceO2/pull/11140) 2023-04-17: DPL Analysis: remove legacy slicing code by [@aalkin](https://github.com/aalkin)
 - [\#11141](https://github.com/AliceO2Group/AliceO2/pull/11141) 2023-04-16: DPL: improve substitution of timesliceN by [@ktf](https://github.com/ktf)
