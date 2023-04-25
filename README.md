@@ -55,6 +55,7 @@
 - [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
+- [\#11178](https://github.com/AliceO2Group/AliceO2/pull/11178) 2023-04-25: DCS: Do not use alignas for CCDB objects by [@davidrohr](https://github.com/davidrohr)
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 - [\#11182](https://github.com/AliceO2Group/AliceO2/pull/11182) 2023-04-21: Reduce logging by [@chiarazampolli](https://github.com/chiarazampolli)
