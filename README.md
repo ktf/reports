@@ -69,6 +69,7 @@
 - [\#11140](https://github.com/AliceO2Group/AliceO2/pull/11140) 2023-04-17: DPL Analysis: remove legacy slicing code by [@aalkin](https://github.com/aalkin)
 - [\#11141](https://github.com/AliceO2Group/AliceO2/pull/11141) 2023-04-16: DPL: improve substitution of timesliceN by [@ktf](https://github.com/ktf)
 - [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
+- [\#11186](https://github.com/AliceO2Group/AliceO2/pull/11186) 2023-04-26: DPL_REPORT_PROCESSING!=0 value used as downscaling factor for reporting by [@shahor02](https://github.com/shahor02)
 - [\#11198](https://github.com/AliceO2Group/AliceO2/pull/11198) 2023-04-20: DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails by [@davidrohr](https://github.com/davidrohr)
 - [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
@@ -78,3 +79,5 @@
 - [\#11220](https://github.com/AliceO2Group/AliceO2/pull/11220) 2023-04-24: DPL: fix devices idling at 100% CPU usage by [@ktf](https://github.com/ktf)
 - [\#11221](https://github.com/AliceO2Group/AliceO2/pull/11221) 2023-04-24: Revert "[O2-3582] DPL Analysis: update running workflow configuration" by [@aalkin](https://github.com/aalkin)
 - [\#11222](https://github.com/AliceO2Group/AliceO2/pull/11222) 2023-04-24: DPL: Fix processes spinning at 100% and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Generators
+- [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
