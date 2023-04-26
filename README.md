@@ -59,6 +59,7 @@
 - [\#11213](https://github.com/AliceO2Group/AliceO2/pull/11213) 2023-04-23: Fix deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#11214](https://github.com/AliceO2Group/AliceO2/pull/11214) 2023-04-24: [FOCAL-8] Adding debug mode for pad pedestal DA by [@mfasDa](https://github.com/mfasDa)
 - [\#11217](https://github.com/AliceO2Group/AliceO2/pull/11217) 2023-04-24: [FOCAL-13] Bad channel map for FOCAL-pads by [@mfasDa](https://github.com/mfasDa)
+- [\#11224](https://github.com/AliceO2Group/AliceO2/pull/11224) 2023-04-26: [O2-1787] First (rough) implementation of ITS services by [@mario6829](https://github.com/mario6829)
 - [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
