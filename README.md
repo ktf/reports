@@ -63,7 +63,6 @@
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11140](https://github.com/AliceO2Group/AliceO2/pull/11140) 2023-04-17: DPL Analysis: remove legacy slicing code by [@aalkin](https://github.com/aalkin)
 - [\#11141](https://github.com/AliceO2Group/AliceO2/pull/11141) 2023-04-16: DPL: improve substitution of timesliceN by [@ktf](https://github.com/ktf)
 - [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
 - [\#11186](https://github.com/AliceO2Group/AliceO2/pull/11186) 2023-04-26: DPL_REPORT_PROCESSING!=0 value used as downscaling factor for reporting by [@shahor02](https://github.com/shahor02)
