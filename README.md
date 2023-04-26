@@ -62,6 +62,7 @@
 - [\#11213](https://github.com/AliceO2Group/AliceO2/pull/11213) 2023-04-23: Fix deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#11214](https://github.com/AliceO2Group/AliceO2/pull/11214) 2023-04-24: [FOCAL-8] Adding debug mode for pad pedestal DA by [@mfasDa](https://github.com/mfasDa)
 - [\#11217](https://github.com/AliceO2Group/AliceO2/pull/11217) 2023-04-24: [FOCAL-13] Bad channel map for FOCAL-pads by [@mfasDa](https://github.com/mfasDa)
+- [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -79,5 +80,6 @@
 - [\#11220](https://github.com/AliceO2Group/AliceO2/pull/11220) 2023-04-24: DPL: fix devices idling at 100% CPU usage by [@ktf](https://github.com/ktf)
 - [\#11221](https://github.com/AliceO2Group/AliceO2/pull/11221) 2023-04-24: Revert "[O2-3582] DPL Analysis: update running workflow configuration" by [@aalkin](https://github.com/aalkin)
 - [\#11222](https://github.com/AliceO2Group/AliceO2/pull/11222) 2023-04-24: DPL: Fix processes spinning at 100% and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#11229](https://github.com/AliceO2Group/AliceO2/pull/11229) 2023-04-26: DPL: fix expendable tasks for the QC case by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
