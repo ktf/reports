@@ -16,7 +16,6 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-- [\#11142](https://github.com/AliceO2Group/AliceO2/pull/11142) 2023-04-15: ITS-vertexer: Make cut on XY a configurable param by [@mconcas](https://github.com/mconcas)
 - [\#11143](https://github.com/AliceO2Group/AliceO2/pull/11143) 2023-04-11: CTFReader dateLimiter acts on injection rather than reading by [@shahor02](https://github.com/shahor02)
 - [\#11144](https://github.com/AliceO2Group/AliceO2/pull/11144) 2023-04-12: [FOCAL-10] Auto-determine whether timeframe has payload from either of the FOCAL-E subsystems by [@mfasDa](https://github.com/mfasDa)
 - [\#11145](https://github.com/AliceO2Group/AliceO2/pull/11145) 2023-04-11: ITS decoder: fixed bug with getNextChipData by [@iravasen](https://github.com/iravasen)
