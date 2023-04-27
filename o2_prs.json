@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-11T18:15:29Z",
-            "title": "ITS decoder: fixed bug with getNextChipData",
-            "number": 11145,
-            "author": {
-              "login": "iravasen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-11T18:34:50Z",
             "title": "Fix for application of IRFrames margin",
             "number": 11146,
@@ -3896,6 +3876,36 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2DiamondWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final",
+            "number": 11245,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/STUDecoderError.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadBadChannelMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadPedestal.h"
                   }
                 }
               ]

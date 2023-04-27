@@ -18,7 +18,6 @@
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11145](https://github.com/AliceO2Group/AliceO2/pull/11145) 2023-04-11: ITS decoder: fixed bug with getNextChipData by [@iravasen](https://github.com/iravasen)
 - [\#11147](https://github.com/AliceO2Group/AliceO2/pull/11147) 2023-04-13: [EMCAL-914] Move error handling to dedicated functions by [@mfasDa](https://github.com/mfasDa)
 - [\#11148](https://github.com/AliceO2Group/AliceO2/pull/11148) 2023-04-13: ITS seeding: extend correct deltaphi calculation to trackleter by [@mconcas](https://github.com/mconcas)
 - [\#11149](https://github.com/AliceO2Group/AliceO2/pull/11149) 2023-04-14: Small optimisations for the strangeness tracking by [@mpuccio](https://github.com/mpuccio)
