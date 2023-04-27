@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-16T08:22:24Z",
-            "title": "[EMCAL-670] Quick fix for unsorted fIndexBCs_foundBC",
-            "number": 2398,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-14T15:59:49Z",
-            "title": "add a histogram for polarization in central barrel",
-            "number": 2399,
-            "author": {
-              "login": "zjxiongOvO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/HistogramsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-15T12:47:05Z",
             "title": "PWGCF: FemtoWorld adding nSigmaTPC vs p and nSigmaTOF vs p histograms for Phi meson daughters",
             "number": 2400,
@@ -3139,7 +3099,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Improve jet matching",
             "number": 2499,
@@ -3166,6 +3126,51 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetmatchingqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improve jet matching",
+            "number": 2500,
+            "author": {
+              "login": "qgp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetmatching.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetmatchingqa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGDQ/EM: TableReader SameEventPairing: Change format of required cfgPairCut. Optimise CPU, Memory.",
+            "number": 2501,
+            "author": {
+              "login": "feisenhu"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/tableReader.cxx"
                   }
                 }
               ]
