@@ -10,6 +10,7 @@
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
+- [\#11155](https://github.com/AliceO2Group/AliceO2/pull/11155) 2023-04-27: TRD preparations for start-stop-start mechanism by [@martenole](https://github.com/martenole)
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
@@ -27,6 +28,7 @@
 - [\#11151](https://github.com/AliceO2Group/AliceO2/pull/11151) 2023-04-15: TPCQC: adds Eta(phi)Vs pT histogram by [@sbhawani](https://github.com/sbhawani)
 - [\#11152](https://github.com/AliceO2Group/AliceO2/pull/11152) 2023-04-14: tof fix to recover tof compressor on epn by [@noferini](https://github.com/noferini)
 - [\#11154](https://github.com/AliceO2Group/AliceO2/pull/11154) 2023-04-15: [EMCAL-688] Add catch for InvalidCellIDException in getECross by [@mhemmer-cern](https://github.com/mhemmer-cern)
+- [\#11155](https://github.com/AliceO2Group/AliceO2/pull/11155) 2023-04-27: TRD preparations for start-stop-start mechanism by [@martenole](https://github.com/martenole)
 - [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
 - [\#11157](https://github.com/AliceO2Group/AliceO2/pull/11157) 2023-04-16: Add protection for DCS Tag 0 by [@wiechula](https://github.com/wiechula)
 - [\#11160](https://github.com/AliceO2Group/AliceO2/pull/11160) 2023-04-17: [ITS3] Introduce gap in phi and add more customizable parameters by [@fgrosa](https://github.com/fgrosa)
@@ -63,6 +65,7 @@
 - [\#11224](https://github.com/AliceO2Group/AliceO2/pull/11224) 2023-04-26: [O2-1787] First (rough) implementation of ITS services by [@mario6829](https://github.com/mario6829)
 - [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
+- [\#11234](https://github.com/AliceO2Group/AliceO2/pull/11234) 2023-04-27: [ITS] Adapt tracker to work with 8 layers for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11239](https://github.com/AliceO2Group/AliceO2/pull/11239) 2023-04-27: [EMCAL-840] Add TimeCalibSlewingParasm to LinkDef by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Examples
