@@ -57,6 +57,7 @@
 - [\#11214](https://github.com/AliceO2Group/AliceO2/pull/11214) 2023-04-24: [FOCAL-8] Adding debug mode for pad pedestal DA by [@mfasDa](https://github.com/mfasDa)
 - [\#11217](https://github.com/AliceO2Group/AliceO2/pull/11217) 2023-04-24: [FOCAL-13] Bad channel map for FOCAL-pads by [@mfasDa](https://github.com/mfasDa)
 - [\#11224](https://github.com/AliceO2Group/AliceO2/pull/11224) 2023-04-26: [O2-1787] First (rough) implementation of ITS services by [@mario6829](https://github.com/mario6829)
+- [\#11225](https://github.com/AliceO2Group/AliceO2/pull/11225) 2023-04-28: tof bug fix in filling diagnostic words by [@noferini](https://github.com/noferini)
 - [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11234](https://github.com/AliceO2Group/AliceO2/pull/11234) 2023-04-27: [ITS] Adapt tracker to work with 8 layers for ITS3 by [@fgrosa](https://github.com/fgrosa)
