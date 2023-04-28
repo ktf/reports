@@ -18,7 +18,6 @@
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11154](https://github.com/AliceO2Group/AliceO2/pull/11154) 2023-04-15: [EMCAL-688] Add catch for InvalidCellIDException in getECross by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11155](https://github.com/AliceO2Group/AliceO2/pull/11155) 2023-04-27: TRD preparations for start-stop-start mechanism by [@martenole](https://github.com/martenole)
 - [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
 - [\#11157](https://github.com/AliceO2Group/AliceO2/pull/11157) 2023-04-16: Add protection for DCS Tag 0 by [@wiechula](https://github.com/wiechula)
