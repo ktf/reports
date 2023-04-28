@@ -17,7 +17,6 @@
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11149](https://github.com/AliceO2Group/AliceO2/pull/11149) 2023-04-14: Small optimisations for the strangeness tracking by [@mpuccio](https://github.com/mpuccio)
 - [\#11150](https://github.com/AliceO2Group/AliceO2/pull/11150) 2023-04-13: [EMCAL-548] Configurable output subspecification for DigitsToCellConverter by [@mfasDa](https://github.com/mfasDa)
 - [\#11151](https://github.com/AliceO2Group/AliceO2/pull/11151) 2023-04-15: TPCQC: adds Eta(phi)Vs pT histogram by [@sbhawani](https://github.com/sbhawani)
 - [\#11152](https://github.com/AliceO2Group/AliceO2/pull/11152) 2023-04-14: tof fix to recover tof compressor on epn by [@noferini](https://github.com/noferini)
