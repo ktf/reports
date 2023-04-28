@@ -16,6 +16,7 @@
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
+- [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 - [\#11151](https://github.com/AliceO2Group/AliceO2/pull/11151) 2023-04-15: TPCQC: adds Eta(phi)Vs pT histogram by [@sbhawani](https://github.com/sbhawani)
 - [\#11152](https://github.com/AliceO2Group/AliceO2/pull/11152) 2023-04-14: tof fix to recover tof compressor on epn by [@noferini](https://github.com/noferini)
