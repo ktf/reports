@@ -58,6 +58,7 @@
 - [\#11238](https://github.com/AliceO2Group/AliceO2/pull/11238) 2023-04-28: [EMCAL-834] Checking active links per trigger by [@mpoghos](https://github.com/mpoghos)
 - [\#11239](https://github.com/AliceO2Group/AliceO2/pull/11239) 2023-04-27: [EMCAL-840] Add TimeCalibSlewingParasm to LinkDef by [@jokonig](https://github.com/jokonig)
 - [\#11245](https://github.com/AliceO2Group/AliceO2/pull/11245) 2023-04-28: [EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final by [@mfasDa](https://github.com/mfasDa)
+- [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -76,5 +77,6 @@
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11240](https://github.com/AliceO2Group/AliceO2/pull/11240) 2023-04-26: DPL: Automatically throttle TF processing logging by [@davidrohr](https://github.com/davidrohr)
+- [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
