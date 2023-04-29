@@ -59,6 +59,7 @@
 - [\#11239](https://github.com/AliceO2Group/AliceO2/pull/11239) 2023-04-27: [EMCAL-840] Add TimeCalibSlewingParasm to LinkDef by [@jokonig](https://github.com/jokonig)
 - [\#11245](https://github.com/AliceO2Group/AliceO2/pull/11245) 2023-04-28: [EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final by [@mfasDa](https://github.com/mfasDa)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#11258](https://github.com/AliceO2Group/AliceO2/pull/11258) 2023-04-29: Do not apply TPC vdrift T-offset outside of gpu-tracking to avoid double counting by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
