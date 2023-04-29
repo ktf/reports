@@ -17,7 +17,6 @@
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11156](https://github.com/AliceO2Group/AliceO2/pull/11156) 2023-04-13: ITS/MFT decoder fixes for TF-dependend links sets by [@shahor02](https://github.com/shahor02)
 - [\#11157](https://github.com/AliceO2Group/AliceO2/pull/11157) 2023-04-16: Add protection for DCS Tag 0 by [@wiechula](https://github.com/wiechula)
 - [\#11160](https://github.com/AliceO2Group/AliceO2/pull/11160) 2023-04-17: [ITS3] Introduce gap in phi and add more customizable parameters by [@fgrosa](https://github.com/fgrosa)
 - [\#11161](https://github.com/AliceO2Group/AliceO2/pull/11161) 2023-04-14: report MeanVertex being imposed by [@shahor02](https://github.com/shahor02)
