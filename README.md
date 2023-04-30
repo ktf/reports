@@ -11,6 +11,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
+- [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
 - [\#11181](https://github.com/AliceO2Group/AliceO2/pull/11181) 2023-04-20: FITRaw: CCDB channel map fetching for digit2raw via startTime field by [@afurs](https://github.com/afurs)
@@ -23,6 +24,7 @@
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11165](https://github.com/AliceO2Group/AliceO2/pull/11165) 2023-04-17: Fix matchingChi2 and invariant mass calculations by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11166](https://github.com/AliceO2Group/AliceO2/pull/11166) 2023-04-16: fix in TOF encoder (MC) in eventwords by [@noferini](https://github.com/noferini)
+- [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
 - [\#11170](https://github.com/AliceO2Group/AliceO2/pull/11170) 2023-04-17: Fix in TPC NCrossedPadrows calc. for AO2D by [@shahor02](https://github.com/shahor02)
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
 - [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
