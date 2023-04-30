@@ -9,7 +9,6 @@
 - [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11159](https://github.com/AliceO2Group/AliceO2/pull/11159) 2023-04-14: Fix P2 calculation for Z>1 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
