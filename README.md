@@ -66,6 +66,7 @@
 - [\#11255](https://github.com/AliceO2Group/AliceO2/pull/11255) 2023-05-01: ZDC Three small fixes in raw data handling by [@cortesep](https://github.com/cortesep)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11258](https://github.com/AliceO2Group/AliceO2/pull/11258) 2023-04-29: Do not apply TPC vdrift T-offset outside of gpu-tracking to avoid double counting by [@shahor02](https://github.com/shahor02)
+- [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -88,3 +89,5 @@
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
+## Recent developments in O2 - Steer
+- [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
