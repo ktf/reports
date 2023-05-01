@@ -87,6 +87,7 @@
 - [\#11240](https://github.com/AliceO2Group/AliceO2/pull/11240) 2023-04-26: DPL: Automatically throttle TF processing logging by [@davidrohr](https://github.com/davidrohr)
 - [\#11256](https://github.com/AliceO2Group/AliceO2/pull/11256) 2023-04-29: DPL: always run the first loop by [@ktf](https://github.com/ktf)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+- [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
 ## Recent developments in O2 - Steer
