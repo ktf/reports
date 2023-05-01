@@ -20,7 +20,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11163](https://github.com/AliceO2Group/AliceO2/pull/11163) 2023-04-16: ITS Calibratrion: 2D scans, protection for EoS data drops by [@iravasen](https://github.com/iravasen)
 - [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11165](https://github.com/AliceO2Group/AliceO2/pull/11165) 2023-04-17: Fix matchingChi2 and invariant mass calculations by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11166](https://github.com/AliceO2Group/AliceO2/pull/11166) 2023-04-16: fix in TOF encoder (MC) in eventwords by [@noferini](https://github.com/noferini)
