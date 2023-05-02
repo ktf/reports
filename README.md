@@ -18,7 +18,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11170](https://github.com/AliceO2Group/AliceO2/pull/11170) 2023-04-17: Fix in TPC NCrossedPadrows calc. for AO2D by [@shahor02](https://github.com/shahor02)
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
 - [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)

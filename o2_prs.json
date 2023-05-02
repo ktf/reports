@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-17T09:00:29Z",
-            "title": "Fix in TPC NCrossedPadrows calc. for AO2D",
-            "number": 11170,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-17T19:35:26Z",
             "title": "DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check",
             "number": 11171,
@@ -3771,6 +3751,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-13] Make BadChannelMap streamable",
+            "number": 11270,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadBadChannelMap.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/src/PadBadChannelMap.cxx"
                   }
                 }
               ]
