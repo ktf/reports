@@ -19,7 +19,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11166](https://github.com/AliceO2Group/AliceO2/pull/11166) 2023-04-16: fix in TOF encoder (MC) in eventwords by [@noferini](https://github.com/noferini)
 - [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
 - [\#11170](https://github.com/AliceO2Group/AliceO2/pull/11170) 2023-04-17: Fix in TPC NCrossedPadrows calc. for AO2D by [@shahor02](https://github.com/shahor02)
 - [\#11174](https://github.com/AliceO2Group/AliceO2/pull/11174) 2023-04-17: TRD noise update default parameter by [@martenole](https://github.com/martenole)
@@ -64,6 +63,7 @@
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11258](https://github.com/AliceO2Group/AliceO2/pull/11258) 2023-04-29: Do not apply TPC vdrift T-offset outside of gpu-tracking to avoid double counting by [@shahor02](https://github.com/shahor02)
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
+- [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
