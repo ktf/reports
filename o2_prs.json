@@ -5,136 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-30T11:38:44Z",
-            "title": "Add TPC to alignment framework + allow dummy envelops",
-            "number": 11168,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/Workflow/src/barrel-alignment-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignConfig.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetectorTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableSensorTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableVolume.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/Controller.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/macro/algconf.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetectorTOF.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetectorTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableDetectorTRD.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableSensorTPC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/AlignableVolume.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/src/Controller.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/GRPGeomHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/GRPGeomHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-17T12:08:05Z",
             "title": "GPU TPC: Improve debug output in case of mixed TPC ZS headers",
             "number": 11169,
@@ -3881,6 +3751,26 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: another attempt at fixing a race condition in readers",
+            "number": 11268,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
