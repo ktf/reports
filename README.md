@@ -66,7 +66,6 @@
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11171](https://github.com/AliceO2Group/AliceO2/pull/11171) 2023-04-17: DPL: Make DPLRawPageSequencer more robust against bad input data via sanity check by [@davidrohr](https://github.com/davidrohr)
 - [\#11186](https://github.com/AliceO2Group/AliceO2/pull/11186) 2023-04-26: DPL_REPORT_PROCESSING!=0 value used as downscaling factor for reporting by [@shahor02](https://github.com/shahor02)
 - [\#11198](https://github.com/AliceO2Group/AliceO2/pull/11198) 2023-04-20: DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails by [@davidrohr](https://github.com/davidrohr)
 - [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
