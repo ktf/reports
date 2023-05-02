@@ -10,7 +10,6 @@
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 - [\#11180](https://github.com/AliceO2Group/AliceO2/pull/11180) 2023-04-21: TOF: update param. container by [@njacazio](https://github.com/njacazio)
@@ -20,7 +19,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11164](https://github.com/AliceO2Group/AliceO2/pull/11164) 2023-04-15: PVertexing detects and rejects tracks with bad cov.matrix by [@shahor02](https://github.com/shahor02)
 - [\#11165](https://github.com/AliceO2Group/AliceO2/pull/11165) 2023-04-17: Fix matchingChi2 and invariant mass calculations by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11166](https://github.com/AliceO2Group/AliceO2/pull/11166) 2023-04-16: fix in TOF encoder (MC) in eventwords by [@noferini](https://github.com/noferini)
 - [\#11168](https://github.com/AliceO2Group/AliceO2/pull/11168) 2023-04-30: Add TPC to alignment framework + allow dummy envelops by [@shahor02](https://github.com/shahor02)
