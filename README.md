@@ -35,6 +35,7 @@
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
 - [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 - [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
+- [\#11199](https://github.com/AliceO2Group/AliceO2/pull/11199) 2023-05-02: Fix ST MC label as well by [@mpuccio](https://github.com/mpuccio)
 - [\#11203](https://github.com/AliceO2Group/AliceO2/pull/11203) 2023-04-20: ITS/TPC matching: protection for IR candidates going beyond last ITS ROF by [@shahor02](https://github.com/shahor02)
 - [\#11204](https://github.com/AliceO2Group/AliceO2/pull/11204) 2023-04-21: reduce the MID tracking chi2 cut by [@pillot](https://github.com/pillot)
 - [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
