@@ -3746,7 +3746,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Add laser track dEdx information",
+            "title": "TPC: Add laser track dEdx information, adapt calib time gain validity range",
             "number": 11274,
             "author": {
               "login": "wiechula"
@@ -3766,6 +3766,11 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/src/CalibLaserTracks.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/CalibratordEdxSpec.cxx"
                   }
                 }
               ]
