@@ -85,6 +85,7 @@
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
+- [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
