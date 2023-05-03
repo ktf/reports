@@ -18,7 +18,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11175](https://github.com/AliceO2Group/AliceO2/pull/11175) 2023-04-19: Restore collision-sorting for tracks with ST by [@mpuccio](https://github.com/mpuccio)
 - [\#11176](https://github.com/AliceO2Group/AliceO2/pull/11176) 2023-04-18: Workflow to print tracks/vertices matching to paricular timestamps by [@shahor02](https://github.com/shahor02)
 - [\#11177](https://github.com/AliceO2Group/AliceO2/pull/11177) 2023-04-20: TPC: Fixes for raw decoding of real DLBZS data by [@davidrohr](https://github.com/davidrohr)
 - [\#11178](https://github.com/AliceO2Group/AliceO2/pull/11178) 2023-04-25: DCS: Do not use alignas for CCDB objects by [@davidrohr](https://github.com/davidrohr)
@@ -86,6 +85,7 @@
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
+- [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
 ## Recent developments in O2 - Steer
