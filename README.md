@@ -14,7 +14,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11184](https://github.com/AliceO2Group/AliceO2/pull/11184) 2023-04-21: [EMCAL-840] Add container for EMCal time slew params by [@jokonig](https://github.com/jokonig)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
 - [\#11188](https://github.com/AliceO2Group/AliceO2/pull/11188) 2023-04-26: Improve Strangeness Tracking readability by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11191](https://github.com/AliceO2Group/AliceO2/pull/11191) 2023-04-21: [FOCAL-12] FOCAL Pad Pedestal DA by [@mfasDa](https://github.com/mfasDa)
