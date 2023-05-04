@@ -49,6 +49,7 @@
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
 - [\#11245](https://github.com/AliceO2Group/AliceO2/pull/11245) 2023-04-28: [EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final by [@mfasDa](https://github.com/mfasDa)
 - [\#11250](https://github.com/AliceO2Group/AliceO2/pull/11250) 2023-05-01: [EMCAL-797] Update energy axis range for bad channel histogram by [@jokonig](https://github.com/jokonig)
+- [\#11252](https://github.com/AliceO2Group/AliceO2/pull/11252) 2023-05-04: [EMCAL-518, EMCAL-613] Updates in EMCAL digitization by [@mfasDa](https://github.com/mfasDa)
 - [\#11254](https://github.com/AliceO2Group/AliceO2/pull/11254) 2023-05-01: Update some logging severities by [@martenole](https://github.com/martenole)
 - [\#11255](https://github.com/AliceO2Group/AliceO2/pull/11255) 2023-05-01: ZDC Three small fixes in raw data handling by [@cortesep](https://github.com/cortesep)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
