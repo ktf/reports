@@ -58,6 +58,7 @@
 - [\#11263](https://github.com/AliceO2Group/AliceO2/pull/11263) 2023-05-02: Extra ctf-writer options + suppress obsolete one in dpl-workflow by [@shahor02](https://github.com/shahor02)
 - [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11270](https://github.com/AliceO2Group/AliceO2/pull/11270) 2023-05-03: [FOCAL-13] Make BadChannelMap streamable by [@mfasDa](https://github.com/mfasDa)
+- [\#11273](https://github.com/AliceO2Group/AliceO2/pull/11273) 2023-05-04: Configuration of ev. time size by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
