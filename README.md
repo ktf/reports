@@ -6,7 +6,6 @@
 - [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-- [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
@@ -15,7 +14,6 @@
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-- [\#11183](https://github.com/AliceO2Group/AliceO2/pull/11183) 2023-04-18: Support to account for (TOF) latency in CTF skimming by [@shahor02](https://github.com/shahor02)
 - [\#11184](https://github.com/AliceO2Group/AliceO2/pull/11184) 2023-04-21: [EMCAL-840] Add container for EMCal time slew params by [@jokonig](https://github.com/jokonig)
 - [\#11185](https://github.com/AliceO2Group/AliceO2/pull/11185) 2023-04-19: [FOCAL-10] Use FEE ID to distinguish FOCAL-E systems by [@mfasDa](https://github.com/mfasDa)
 - [\#11188](https://github.com/AliceO2Group/AliceO2/pull/11188) 2023-04-26: Improve Strangeness Tracking readability by [@fmazzasc](https://github.com/fmazzasc)
