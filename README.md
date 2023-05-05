@@ -79,6 +79,7 @@
 - [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 - [\#11282](https://github.com/AliceO2Group/AliceO2/pull/11282) 2023-05-04: Demote TextDriverClient messages by [@ktf](https://github.com/ktf)
+- [\#11287](https://github.com/AliceO2Group/AliceO2/pull/11287) 2023-05-05: Document O2_NO_CATCHALL_EXCEPTIONS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
 ## Recent developments in O2 - Steer
