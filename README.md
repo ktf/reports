@@ -16,7 +16,6 @@
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11191](https://github.com/AliceO2Group/AliceO2/pull/11191) 2023-04-21: [FOCAL-12] FOCAL Pad Pedestal DA by [@mfasDa](https://github.com/mfasDa)
 - [\#11193](https://github.com/AliceO2Group/AliceO2/pull/11193) 2023-04-19: ITS/MFT decoder: move RU/link attachment logs to verbose mode. by [@shahor02](https://github.com/shahor02)
 - [\#11194](https://github.com/AliceO2Group/AliceO2/pull/11194) 2023-04-20: Fix processing of nodata=1/internal=1 ITS/MFT triggers by [@shahor02](https://github.com/shahor02)
 - [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
