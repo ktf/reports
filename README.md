@@ -13,6 +13,7 @@
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
+- [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#11188](https://github.com/AliceO2Group/AliceO2/pull/11188) 2023-04-26: Improve Strangeness Tracking readability by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11191](https://github.com/AliceO2Group/AliceO2/pull/11191) 2023-04-21: [FOCAL-12] FOCAL Pad Pedestal DA by [@mfasDa](https://github.com/mfasDa)
@@ -52,6 +53,7 @@
 - [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11270](https://github.com/AliceO2Group/AliceO2/pull/11270) 2023-05-03: [FOCAL-13] Make BadChannelMap streamable by [@mfasDa](https://github.com/mfasDa)
 - [\#11273](https://github.com/AliceO2Group/AliceO2/pull/11273) 2023-05-04: Configuration of ev. time size by [@njacazio](https://github.com/njacazio)
+- [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
