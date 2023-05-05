@@ -8,6 +8,7 @@
 ## Recent developments in O2 - Common
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
+- [\#11284](https://github.com/AliceO2Group/AliceO2/pull/11284) 2023-05-05: Do not expose boost to new ROOT by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
