@@ -85,3 +85,5 @@
 - [\#11216](https://github.com/AliceO2Group/AliceO2/pull/11216) 2023-04-26: Set particle weights correctly for GeneratorFromO2Kine by [@DanielSamitz](https://github.com/DanielSamitz)
 ## Recent developments in O2 - Steer
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Utilities
+- [\#11289](https://github.com/AliceO2Group/AliceO2/pull/11289) 2023-05-05: taskwrapper: switch off log monitoring by [@sawenzel](https://github.com/sawenzel)
