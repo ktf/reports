@@ -53,6 +53,7 @@
 - [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11267](https://github.com/AliceO2Group/AliceO2/pull/11267) 2023-05-05: Remove TPC starting row cut by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11270](https://github.com/AliceO2Group/AliceO2/pull/11270) 2023-05-03: [FOCAL-13] Make BadChannelMap streamable by [@mfasDa](https://github.com/mfasDa)
+- [\#11271](https://github.com/AliceO2Group/AliceO2/pull/11271) 2023-05-05: dev: creating decoding method which can be used also in QC ctp by [@lietava](https://github.com/lietava)
 - [\#11273](https://github.com/AliceO2Group/AliceO2/pull/11273) 2023-05-04: Configuration of ev. time size by [@njacazio](https://github.com/njacazio)
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11280](https://github.com/AliceO2Group/AliceO2/pull/11280) 2023-05-05: Added automatic saving of dead chips maps in CCDB by [@atriolo](https://github.com/atriolo)
