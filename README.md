@@ -55,6 +55,7 @@
 - [\#11271](https://github.com/AliceO2Group/AliceO2/pull/11271) 2023-05-05: dev: creating decoding method which can be used also in QC ctp by [@lietava](https://github.com/lietava)
 - [\#11273](https://github.com/AliceO2Group/AliceO2/pull/11273) 2023-05-04: Configuration of ev. time size by [@njacazio](https://github.com/njacazio)
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
+- [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11280](https://github.com/AliceO2Group/AliceO2/pull/11280) 2023-05-05: Added automatic saving of dead chips maps in CCDB by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
@@ -79,6 +80,7 @@
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
 - [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
+- [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11282](https://github.com/AliceO2Group/AliceO2/pull/11282) 2023-05-04: Demote TextDriverClient messages by [@ktf](https://github.com/ktf)
 - [\#11287](https://github.com/AliceO2Group/AliceO2/pull/11287) 2023-05-05: Document O2_NO_CATCHALL_EXCEPTIONS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
