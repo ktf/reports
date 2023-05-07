@@ -16,7 +16,6 @@
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11196](https://github.com/AliceO2Group/AliceO2/pull/11196) 2023-04-20: Decrease verbosity of links synchronization check by [@shahor02](https://github.com/shahor02)
 - [\#11199](https://github.com/AliceO2Group/AliceO2/pull/11199) 2023-05-02: Fix ST MC label as well by [@mpuccio](https://github.com/mpuccio)
 - [\#11203](https://github.com/AliceO2Group/AliceO2/pull/11203) 2023-04-20: ITS/TPC matching: protection for IR candidates going beyond last ITS ROF by [@shahor02](https://github.com/shahor02)
 - [\#11204](https://github.com/AliceO2Group/AliceO2/pull/11204) 2023-04-21: reduce the MID tracking chi2 cut by [@pillot](https://github.com/pillot)
