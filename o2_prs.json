@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-20T18:54:33Z",
-            "title": "Correctly apply Logger level in O2PrimaryServer",
-            "number": 11197,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-20T22:11:50Z",
             "title": "DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails",
             "number": 11198,
@@ -3856,6 +3836,31 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/include/Framework/Traits.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-565] Add minimum cell energy cut for bad channel analysis",
+            "number": 11297,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
                   }
                 }
               ]
