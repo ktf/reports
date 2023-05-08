@@ -4,66 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[WIP][FOCAL-12] Pedestal calibration DA for Pads",
-            "number": 11201,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadPedestal.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/src/FOCALCalibLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/src/PadPedestal.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/include/FOCALCalibration/PadPedestalCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/src/PadPedestalCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/src/pad-pedestal-calibration-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-04-20T18:54:15Z",
             "title": "FIxing Dataformats path for FOCAL in CODEOWNERS file",
@@ -3851,6 +3791,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/SpacePoints/macro/staticMapCreator.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add hyperhelium4 mass to the physics constants",
+            "number": 11301,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
                   }
                 }
               ]
