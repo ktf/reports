@@ -55,8 +55,10 @@
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11280](https://github.com/AliceO2Group/AliceO2/pull/11280) 2023-05-05: Added automatic saving of dead chips maps in CCDB by [@atriolo](https://github.com/atriolo)
 - [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
+- [\#11288](https://github.com/AliceO2Group/AliceO2/pull/11288) 2023-05-08: FT0reco: option for disabling time offset calibration by [@afurs](https://github.com/afurs)
 - [\#11290](https://github.com/AliceO2Group/AliceO2/pull/11290) 2023-05-06: Add time difference to debug stream also if VDrift is not calculated by [@shahor02](https://github.com/shahor02)
 - [\#11294](https://github.com/AliceO2Group/AliceO2/pull/11294) 2023-05-07: Adapt tpc-track-study to real data, change output format by [@shahor02](https://github.com/shahor02)
+- [\#11297](https://github.com/AliceO2Group/AliceO2/pull/11297) 2023-05-08: [EMCAL-565] Add minimum cell energy cut for bad channel analysis by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Examples
 - [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
