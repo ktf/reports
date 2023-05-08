@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-20T18:54:15Z",
-            "title": "FIxing Dataformats path for FOCAL in CODEOWNERS file",
-            "number": 11202,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CODEOWNERS"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-20T15:12:44Z",
             "title": "ITS/TPC matching: protection for IR candidates going beyond last ITS ROF",
             "number": 11203,
@@ -3811,6 +3791,36 @@
                 {
                   "node": {
                     "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove unused code to avoid issues with Xcode 14.3",
+            "number": 11302,
+            "author": {
+              "login": "pzhristov"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/BoostSerializer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/test/testBoostSerializer.cxx"
                   }
                 }
               ]
