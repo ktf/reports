@@ -58,8 +58,6 @@
 - [\#11290](https://github.com/AliceO2Group/AliceO2/pull/11290) 2023-05-06: Add time difference to debug stream also if VDrift is not calculated by [@shahor02](https://github.com/shahor02)
 - [\#11294](https://github.com/AliceO2Group/AliceO2/pull/11294) 2023-05-07: Adapt tpc-track-study to real data, change output format by [@shahor02](https://github.com/shahor02)
 - [\#11297](https://github.com/AliceO2Group/AliceO2/pull/11297) 2023-05-08: [EMCAL-565] Add minimum cell energy cut for bad channel analysis by [@jokonig](https://github.com/jokonig)
-## Recent developments in O2 - Examples
-- [\#11200](https://github.com/AliceO2Group/AliceO2/pull/11200) 2023-04-20: Create Readme.md by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 - [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
