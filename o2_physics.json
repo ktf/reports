@@ -4,141 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Add DCAxy/z distinction to LF stra dat mod",
-            "number": 2468,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/cascadefinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/straRecoStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-26T21:56:21Z",
-            "title": "instructions and scripts",
-            "number": 2469,
-            "author": {
-              "login": "mwinn2"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configAnalysisData.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configAnalysisMC.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configFilterPPDataRun2.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configFilterPPDataRun3.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configTableMakerDataRun2.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configTableMakerDataRun3.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configTableMakerMCRun2.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/configTableMakerMCRun3.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/readerConfiguration_dileptonMC.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/readerConfiguration_dileptons.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/readerConfiguration_reducedEvent.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/readerConfiguration_reducedEventMC.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/runAnalysis.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/runFilterPP.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/runTableMaker.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/writerConfiguration_dileptonMC.json"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Tutorials/PWGDQ/writerConfiguration_dileptons.json"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-04-27T16:08:40Z",
             "title": "Monte Carlo in FemtoDream",
@@ -3045,6 +2910,91 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/hyperRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: tasks ToXiPi stangenessTracking, selections QA, tree creator",
+            "number": 2570,
+            "author": {
+              "login": "ZFederica"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/AnalysisResults.root"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/dpl-config.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/dpl-config_mini.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/list_o2.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/log.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/script_o2.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/Dilepton: change double to float and replace McParticles_001",
+            "number": 2571,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/Dilepton/Tasks/smearing.cxx"
                   }
                 }
               ]
