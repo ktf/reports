@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-20T22:11:50Z",
-            "title": "DPL: RawPageSequencer will divert to forward method and correctly handle non 8kb pages, if the RDH check fails",
-            "number": 11198,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/DPLRawPageSequencer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-02T14:22:46Z",
             "title": "Fix ST MC label as well",
             "number": 11199,
@@ -3861,6 +3831,26 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-05-08T04:09:58Z",
+            "title": "GPURecoWorkflowSpec inits CorrMapsLoader only if tracks are requested",
+            "number": 11298,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]
