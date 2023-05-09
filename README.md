@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
 - [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
@@ -19,7 +17,6 @@
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
 - [\#11208](https://github.com/AliceO2Group/AliceO2/pull/11208) 2023-04-22: fixing memory leak in tof compressor (epn mode) by [@noferini](https://github.com/noferini)
 - [\#11209](https://github.com/AliceO2Group/AliceO2/pull/11209) 2023-04-25: [O2-3671] ITS-tracking: make road a template class by [@mconcas](https://github.com/mconcas)
 - [\#11213](https://github.com/AliceO2Group/AliceO2/pull/11213) 2023-04-23: Fix deprecated sprintf by [@ktf](https://github.com/ktf)
@@ -62,8 +59,6 @@
 - [\#11297](https://github.com/AliceO2Group/AliceO2/pull/11297) 2023-05-08: [EMCAL-565] Add minimum cell energy cut for bad channel analysis by [@jokonig](https://github.com/jokonig)
 - [\#11300](https://github.com/AliceO2Group/AliceO2/pull/11300) 2023-05-08: Drop boost usage in staticMapCreator.C by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#11205](https://github.com/AliceO2Group/AliceO2/pull/11205) 2023-04-21: [EMCAL-888] Removal of mask column in McCaloLabel table by [@mhemmer-cern](https://github.com/mhemmer-cern)
-- [\#11206](https://github.com/AliceO2Group/AliceO2/pull/11206) 2023-04-25: Update ZDC datamodel by [@njacazio](https://github.com/njacazio)
 - [\#11207](https://github.com/AliceO2Group/AliceO2/pull/11207) 2023-04-24: DPL Analysis: Cached unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11212](https://github.com/AliceO2Group/AliceO2/pull/11212) 2023-04-22: DPL: make sure caching strategy is provided explicitly by [@ktf](https://github.com/ktf)
 - [\#11218](https://github.com/AliceO2Group/AliceO2/pull/11218) 2023-04-24: Reduce states overhead by [@ktf](https://github.com/ktf)
