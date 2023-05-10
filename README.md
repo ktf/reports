@@ -57,7 +57,6 @@
 - [\#11300](https://github.com/AliceO2Group/AliceO2/pull/11300) 2023-05-08: Drop boost usage in staticMapCreator.C by [@martenole](https://github.com/martenole)
 - [\#11308](https://github.com/AliceO2Group/AliceO2/pull/11308) 2023-05-10: update MCH tracking limits by [@pillot](https://github.com/pillot)
 ## Recent developments in O2 - Framework
-- [\#11212](https://github.com/AliceO2Group/AliceO2/pull/11212) 2023-04-22: DPL: make sure caching strategy is provided explicitly by [@ktf](https://github.com/ktf)
 - [\#11218](https://github.com/AliceO2Group/AliceO2/pull/11218) 2023-04-24: Reduce states overhead by [@ktf](https://github.com/ktf)
 - [\#11220](https://github.com/AliceO2Group/AliceO2/pull/11220) 2023-04-24: DPL: fix devices idling at 100% CPU usage by [@ktf](https://github.com/ktf)
 - [\#11221](https://github.com/AliceO2Group/AliceO2/pull/11221) 2023-04-24: Revert "[O2-3582] DPL Analysis: update running workflow configuration" by [@aalkin](https://github.com/aalkin)
