@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-24T07:36:26Z",
-            "title": "[FOCAL-8] Adding debug mode for pad pedestal DA",
-            "number": 11214,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/include/FOCALCalibration/PadPedestalCalibDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/src/PadPedestalCalibDevice.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calibration/src/pad-pedestal-calibration-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[O2-3374] [rANS] ANS Entropy Coder Toolbox  and CTF-Coder Integration",
@@ -3776,6 +3746,31 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Workflow/src/ChannelCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add FOCAL to rawTF reader",
+            "number": 11317,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/TFReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Raw/TFReaderDD/src/tf-reader-workflow.cxx"
                   }
                 }
               ]
