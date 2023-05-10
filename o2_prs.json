@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-21T17:23:57Z",
-            "title": "calib-workflow: downscale tpc gainmap-tracks to 40 for 32 orbit TFs by default",
-            "number": 11210,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/calib-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-22T08:11:22Z",
             "title": "calib-workflow: apply tf downscaling also on gainmap calib",
             "number": 11211,
@@ -3761,6 +3741,61 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DefaultsHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Executable to generate global mapping as json files for MID",
+            "number": 11310,
+            "author": {
+              "login": "dstocco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/exe/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/exe/global-mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/include/MIDGlobalMapping/ExtendedMappingInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/include/MIDGlobalMapping/GlobalMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/GlobalMapping/src/GlobalMapper.cxx"
                   }
                 }
               ]
