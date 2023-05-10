@@ -16,7 +16,6 @@
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11209](https://github.com/AliceO2Group/AliceO2/pull/11209) 2023-04-25: [O2-3671] ITS-tracking: make road a template class by [@mconcas](https://github.com/mconcas)
 - [\#11213](https://github.com/AliceO2Group/AliceO2/pull/11213) 2023-04-23: Fix deprecated sprintf by [@ktf](https://github.com/ktf)
 - [\#11214](https://github.com/AliceO2Group/AliceO2/pull/11214) 2023-04-24: [FOCAL-8] Adding debug mode for pad pedestal DA by [@mfasDa](https://github.com/mfasDa)
 - [\#11217](https://github.com/AliceO2Group/AliceO2/pull/11217) 2023-04-24: [FOCAL-13] Bad channel map for FOCAL-pads by [@mfasDa](https://github.com/mfasDa)
