@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-24T07:36:14Z",
-            "title": "[FOCAL-13] Bad channel map for FOCAL-pads",
-            "number": 11217,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadBadChannelMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/src/FOCALCalibLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/src/PadBadChannelMap.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-24T05:24:46Z",
             "title": "Reduce states overhead",
             "number": 11218,
@@ -3321,6 +3286,26 @@
                 {
                   "node": {
                     "path": "Detectors/FIT/workflow/include/FITWorkflow/FITIntegrateClusterSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use shm-mlock-segment-on-creation only if in EPNSYNCMODE",
+            "number": 11320,
+            "author": {
+              "login": "chiarazampolli"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]

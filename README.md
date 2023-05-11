@@ -16,7 +16,6 @@
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11217](https://github.com/AliceO2Group/AliceO2/pull/11217) 2023-04-24: [FOCAL-13] Bad channel map for FOCAL-pads by [@mfasDa](https://github.com/mfasDa)
 - [\#11223](https://github.com/AliceO2Group/AliceO2/pull/11223) 2023-05-02: Fix wrong uniform_int_distribution usage by [@ktf](https://github.com/ktf)
 - [\#11224](https://github.com/AliceO2Group/AliceO2/pull/11224) 2023-04-26: [O2-1787] First (rough) implementation of ITS services by [@mario6829](https://github.com/mario6829)
 - [\#11225](https://github.com/AliceO2Group/AliceO2/pull/11225) 2023-04-28: tof bug fix in filling diagnostic words by [@noferini](https://github.com/noferini)
