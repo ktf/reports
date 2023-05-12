@@ -16,7 +16,6 @@
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11223](https://github.com/AliceO2Group/AliceO2/pull/11223) 2023-05-02: Fix wrong uniform_int_distribution usage by [@ktf](https://github.com/ktf)
 - [\#11224](https://github.com/AliceO2Group/AliceO2/pull/11224) 2023-04-26: [O2-1787] First (rough) implementation of ITS services by [@mario6829](https://github.com/mario6829)
 - [\#11225](https://github.com/AliceO2Group/AliceO2/pull/11225) 2023-04-28: tof bug fix in filling diagnostic words by [@noferini](https://github.com/noferini)
 - [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
@@ -58,7 +57,6 @@
 - [\#11317](https://github.com/AliceO2Group/AliceO2/pull/11317) 2023-05-12: Add FOCAL to rawTF reader by [@mfasDa](https://github.com/mfasDa)
 - [\#11324](https://github.com/AliceO2Group/AliceO2/pull/11324) 2023-05-12: FDD reco: changing severity level info -> debug by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Framework
-- [\#11222](https://github.com/AliceO2Group/AliceO2/pull/11222) 2023-04-24: DPL: Fix processes spinning at 100% and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11229](https://github.com/AliceO2Group/AliceO2/pull/11229) 2023-04-26: DPL: fix expendable tasks for the QC case by [@ktf](https://github.com/ktf)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
