@@ -56,7 +56,6 @@
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
 ## Recent developments in O2 - Framework
-- [\#11218](https://github.com/AliceO2Group/AliceO2/pull/11218) 2023-04-24: Reduce states overhead by [@ktf](https://github.com/ktf)
 - [\#11220](https://github.com/AliceO2Group/AliceO2/pull/11220) 2023-04-24: DPL: fix devices idling at 100% CPU usage by [@ktf](https://github.com/ktf)
 - [\#11221](https://github.com/AliceO2Group/AliceO2/pull/11221) 2023-04-24: Revert "[O2-3582] DPL Analysis: update running workflow configuration" by [@aalkin](https://github.com/aalkin)
 - [\#11222](https://github.com/AliceO2Group/AliceO2/pull/11222) 2023-04-24: DPL: Fix processes spinning at 100% and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
