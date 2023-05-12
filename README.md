@@ -55,8 +55,8 @@
 - [\#11308](https://github.com/AliceO2Group/AliceO2/pull/11308) 2023-05-10: update MCH tracking limits by [@pillot](https://github.com/pillot)
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
+- [\#11317](https://github.com/AliceO2Group/AliceO2/pull/11317) 2023-05-12: Add FOCAL to rawTF reader by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
-- [\#11221](https://github.com/AliceO2Group/AliceO2/pull/11221) 2023-04-24: Revert "[O2-3582] DPL Analysis: update running workflow configuration" by [@aalkin](https://github.com/aalkin)
 - [\#11222](https://github.com/AliceO2Group/AliceO2/pull/11222) 2023-04-24: DPL: Fix processes spinning at 100% and unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11229](https://github.com/AliceO2Group/AliceO2/pull/11229) 2023-04-26: DPL: fix expendable tasks for the QC case by [@ktf](https://github.com/ktf)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
