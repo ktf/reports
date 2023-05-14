@@ -8,6 +8,7 @@
 - [\#11284](https://github.com/AliceO2Group/AliceO2/pull/11284) 2023-05-05: Do not expose boost to new ROOT by [@ktf](https://github.com/ktf)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
+- [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
@@ -79,6 +80,7 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11292](https://github.com/AliceO2Group/AliceO2/pull/11292) 2023-05-08: DPL Analysis: fixes for issues with unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11303](https://github.com/AliceO2Group/AliceO2/pull/11303) 2023-05-10: DPL Analysis: make sure the slice functions are marked const by [@aalkin](https://github.com/aalkin)
+- [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
