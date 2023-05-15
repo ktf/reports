@@ -52,6 +52,7 @@
 - [\#11297](https://github.com/AliceO2Group/AliceO2/pull/11297) 2023-05-08: [EMCAL-565] Add minimum cell energy cut for bad channel analysis by [@jokonig](https://github.com/jokonig)
 - [\#11300](https://github.com/AliceO2Group/AliceO2/pull/11300) 2023-05-08: Drop boost usage in staticMapCreator.C by [@martenole](https://github.com/martenole)
 - [\#11308](https://github.com/AliceO2Group/AliceO2/pull/11308) 2023-05-10: update MCH tracking limits by [@pillot](https://github.com/pillot)
+- [\#11310](https://github.com/AliceO2Group/AliceO2/pull/11310) 2023-05-15: Executable to generate global mapping as json files for MID by [@dstocco](https://github.com/dstocco)
 - [\#11314](https://github.com/AliceO2Group/AliceO2/pull/11314) 2023-05-13: [ITS3] Use ALPIDE response for Vbb=0 by [@fgrosa](https://github.com/fgrosa)
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
