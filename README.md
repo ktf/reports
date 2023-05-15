@@ -18,7 +18,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11226](https://github.com/AliceO2Group/AliceO2/pull/11226) 2023-04-26: Reduce logging: Calib tasks should not log info messages per TF by [@davidrohr](https://github.com/davidrohr)
 - [\#11227](https://github.com/AliceO2Group/AliceO2/pull/11227) 2023-04-28: [ITS3] Update default parameters and adapt code to work with fourth layer by [@fgrosa](https://github.com/fgrosa)
 - [\#11232](https://github.com/AliceO2Group/AliceO2/pull/11232) 2023-05-01: TPC: Fixing drawing of SAC0 by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
