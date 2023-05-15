@@ -7,6 +7,7 @@
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
 - [\#11284](https://github.com/AliceO2Group/AliceO2/pull/11284) 2023-05-05: Do not expose boost to new ROOT by [@ktf](https://github.com/ktf)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
+- [\#11301](https://github.com/AliceO2Group/AliceO2/pull/11301) 2023-05-15: Add hyperhelium4 mass to the physics constants by [@ddobrigk](https://github.com/ddobrigk)
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
