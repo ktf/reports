@@ -57,6 +57,7 @@
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
 - [\#11317](https://github.com/AliceO2Group/AliceO2/pull/11317) 2023-05-12: Add FOCAL to rawTF reader by [@mfasDa](https://github.com/mfasDa)
+- [\#11322](https://github.com/AliceO2Group/AliceO2/pull/11322) 2023-05-15: [FOCAL-10] Allow event writer to run without dedicated subspecification by [@mfasDa](https://github.com/mfasDa)
 - [\#11324](https://github.com/AliceO2Group/AliceO2/pull/11324) 2023-05-12: FDD reco: changing severity level info -> debug by [@afurs](https://github.com/afurs)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11326](https://github.com/AliceO2Group/AliceO2/pull/11326) 2023-05-12: Revert "Remove TPC starting row cut" by [@chiarazampolli](https://github.com/chiarazampolli)
