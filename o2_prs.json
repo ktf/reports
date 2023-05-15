@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-04-28T07:58:19Z",
-            "title": "tof bug fix in filling diagnostic words",
-            "number": 11225,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-04-26T08:17:18Z",
             "title": "Reduce logging: Calib tasks should not log info messages per TF",
             "number": 11226,
@@ -3231,6 +3211,26 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/calib-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache",
+            "number": 11328,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowTableSlicingCache.cxx"
                   }
                 }
               ]
