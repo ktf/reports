@@ -84,6 +84,7 @@
 - [\#11303](https://github.com/AliceO2Group/AliceO2/pull/11303) 2023-05-10: DPL Analysis: make sure the slice functions are marked const by [@aalkin](https://github.com/aalkin)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
+- [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
