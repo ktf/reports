@@ -56,6 +56,7 @@
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
 - [\#11317](https://github.com/AliceO2Group/AliceO2/pull/11317) 2023-05-12: Add FOCAL to rawTF reader by [@mfasDa](https://github.com/mfasDa)
+- [\#11319](https://github.com/AliceO2Group/AliceO2/pull/11319) 2023-05-16: FDD: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11322](https://github.com/AliceO2Group/AliceO2/pull/11322) 2023-05-15: [FOCAL-10] Allow event writer to run without dedicated subspecification by [@mfasDa](https://github.com/mfasDa)
 - [\#11323](https://github.com/AliceO2Group/AliceO2/pull/11323) 2023-05-16: add protection in tof compres by [@noferini](https://github.com/noferini)
 - [\#11324](https://github.com/AliceO2Group/AliceO2/pull/11324) 2023-05-12: FDD reco: changing severity level info -> debug by [@afurs](https://github.com/afurs)
