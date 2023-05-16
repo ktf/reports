@@ -61,6 +61,7 @@
 - [\#11324](https://github.com/AliceO2Group/AliceO2/pull/11324) 2023-05-12: FDD reco: changing severity level info -> debug by [@afurs](https://github.com/afurs)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11326](https://github.com/AliceO2Group/AliceO2/pull/11326) 2023-05-12: Revert "Remove TPC starting row cut" by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11330](https://github.com/AliceO2Group/AliceO2/pull/11330) 2023-05-16: CPV: clusterize digits with common side by [@sevdokim](https://github.com/sevdokim)
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#11229](https://github.com/AliceO2Group/AliceO2/pull/11229) 2023-04-26: DPL: fix expendable tasks for the QC case by [@ktf](https://github.com/ktf)
