@@ -64,7 +64,6 @@
 - [\#11330](https://github.com/AliceO2Group/AliceO2/pull/11330) 2023-05-16: CPV: clusterize digits with common side by [@sevdokim](https://github.com/sevdokim)
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
-- [\#11229](https://github.com/AliceO2Group/AliceO2/pull/11229) 2023-04-26: DPL: fix expendable tasks for the QC case by [@ktf](https://github.com/ktf)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11240](https://github.com/AliceO2Group/AliceO2/pull/11240) 2023-04-26: DPL: Automatically throttle TF processing logging by [@davidrohr](https://github.com/davidrohr)
