@@ -11,7 +11,6 @@
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
 - [\#11242](https://github.com/AliceO2Group/AliceO2/pull/11242) 2023-05-01: fix Phi() method. Arguments of atan2 were swapped. by [@amorsch](https://github.com/amorsch)
 - [\#11248](https://github.com/AliceO2Group/AliceO2/pull/11248) 2023-04-28: add timestamp arg for GRPTool by [@noferini](https://github.com/noferini)
@@ -19,7 +18,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11233](https://github.com/AliceO2Group/AliceO2/pull/11233) 2023-04-27: EMCAL-915 by [@mfasDa](https://github.com/mfasDa)
 - [\#11234](https://github.com/AliceO2Group/AliceO2/pull/11234) 2023-04-27: [ITS] Adapt tracker to work with 8 layers for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11238](https://github.com/AliceO2Group/AliceO2/pull/11238) 2023-04-28: [EMCAL-834] Checking active links per trigger by [@mpoghos](https://github.com/mpoghos)
