@@ -18,7 +18,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11234](https://github.com/AliceO2Group/AliceO2/pull/11234) 2023-04-27: [ITS] Adapt tracker to work with 8 layers for ITS3 by [@fgrosa](https://github.com/fgrosa)
 - [\#11235](https://github.com/AliceO2Group/AliceO2/pull/11235) 2023-04-26: Rise error on non-increasing chip order and skip by [@shahor02](https://github.com/shahor02)
 - [\#11238](https://github.com/AliceO2Group/AliceO2/pull/11238) 2023-04-28: [EMCAL-834] Checking active links per trigger by [@mpoghos](https://github.com/mpoghos)
 - [\#11239](https://github.com/AliceO2Group/AliceO2/pull/11239) 2023-04-27: [EMCAL-840] Add TimeCalibSlewingParasm to LinkDef by [@jokonig](https://github.com/jokonig)
