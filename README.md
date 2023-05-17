@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
 - [\#11284](https://github.com/AliceO2Group/AliceO2/pull/11284) 2023-05-05: Do not expose boost to new ROOT by [@ktf](https://github.com/ktf)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
@@ -16,7 +15,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11238](https://github.com/AliceO2Group/AliceO2/pull/11238) 2023-04-28: [EMCAL-834] Checking active links per trigger by [@mpoghos](https://github.com/mpoghos)
 - [\#11239](https://github.com/AliceO2Group/AliceO2/pull/11239) 2023-04-27: [EMCAL-840] Add TimeCalibSlewingParasm to LinkDef by [@jokonig](https://github.com/jokonig)
 - [\#11241](https://github.com/AliceO2Group/AliceO2/pull/11241) 2023-05-01: CPV: extend format of CPV raw data trailer by [@sevdokim](https://github.com/sevdokim)
 - [\#11245](https://github.com/AliceO2Group/AliceO2/pull/11245) 2023-04-28: [EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final by [@mfasDa](https://github.com/mfasDa)
@@ -60,7 +58,6 @@
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
 - [\#11336](https://github.com/AliceO2Group/AliceO2/pull/11336) 2023-05-17: Disable TPC corrections for corrmap-lumi-inst<0 or corrmap-lumi-mean<0 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11237](https://github.com/AliceO2Group/AliceO2/pull/11237) 2023-04-26: DPL: introduce metric cpu_usage_fraction by [@ktf](https://github.com/ktf)
 - [\#11240](https://github.com/AliceO2Group/AliceO2/pull/11240) 2023-04-26: DPL: Automatically throttle TF processing logging by [@davidrohr](https://github.com/davidrohr)
 - [\#11249](https://github.com/AliceO2Group/AliceO2/pull/11249) 2023-05-01: Refactor libuv contexts by [@ktf](https://github.com/ktf)
 - [\#11256](https://github.com/AliceO2Group/AliceO2/pull/11256) 2023-04-29: DPL: always run the first loop by [@ktf](https://github.com/ktf)
@@ -81,6 +78,7 @@
 - [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
 - [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11338](https://github.com/AliceO2Group/AliceO2/pull/11338) 2023-05-17: DPL GUI: do not print unset metrics by [@ktf](https://github.com/ktf)
+- [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
