@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-01T09:51:14Z",
-            "title": "CPV: extend format of CPV raw data trailer",
-            "number": 11241,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CPV/include/DataFormatsCPV/RawFormats.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-01T09:51:47Z",
             "title": "fix Phi() method. Arguments of atan2 were swapped.",
             "number": 11242,
@@ -3166,6 +3146,31 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/macro/TPCFastTransformInit.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Prevent access to invalid TPC digit timebin",
+            "number": 11344,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
