@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-04-28T09:35:55Z",
-            "title": "[EMCAL-915, FOCAL-12, FOCAL-13] Make exception classes final",
-            "number": 11245,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/STUDecoderError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadBadChannelMap.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadPedestal.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[EMCAL-562] EMCAL/DCAL STU Decoder",
@@ -3071,6 +3041,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/src/IDCFourierTransform.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add macro to check TRD noise runs",
+            "number": 11348,
+            "author": {
+              "login": "tdietel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/CheckNoiseRun.C"
                   }
                 }
               ]
