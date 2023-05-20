@@ -11,7 +11,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11250](https://github.com/AliceO2Group/AliceO2/pull/11250) 2023-05-01: [EMCAL-797] Update energy axis range for bad channel histogram by [@jokonig](https://github.com/jokonig)
 - [\#11252](https://github.com/AliceO2Group/AliceO2/pull/11252) 2023-05-04: [EMCAL-518, EMCAL-613] Updates in EMCAL digitization by [@mfasDa](https://github.com/mfasDa)
 - [\#11254](https://github.com/AliceO2Group/AliceO2/pull/11254) 2023-05-01: Update some logging severities by [@martenole](https://github.com/martenole)
 - [\#11255](https://github.com/AliceO2Group/AliceO2/pull/11255) 2023-05-01: ZDC Three small fixes in raw data handling by [@cortesep](https://github.com/cortesep)
