@@ -50,6 +50,7 @@
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
 - [\#11336](https://github.com/AliceO2Group/AliceO2/pull/11336) 2023-05-17: Disable TPC corrections for corrmap-lumi-inst<0 or corrmap-lumi-mean<0 by [@shahor02](https://github.com/shahor02)
+- [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 - [\#11256](https://github.com/AliceO2Group/AliceO2/pull/11256) 2023-04-29: DPL: always run the first loop by [@ktf](https://github.com/ktf)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
