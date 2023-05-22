@@ -48,6 +48,7 @@
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
 - [\#11336](https://github.com/AliceO2Group/AliceO2/pull/11336) 2023-05-17: Disable TPC corrections for corrmap-lumi-inst<0 or corrmap-lumi-mean<0 by [@shahor02](https://github.com/shahor02)
 - [\#11342](https://github.com/AliceO2Group/AliceO2/pull/11342) 2023-05-22: [EMCAL-565, EMCAL-566] Change validity of ccdb objects to +1month by [@jokonig](https://github.com/jokonig)
+- [\#11344](https://github.com/AliceO2Group/AliceO2/pull/11344) 2023-05-22: Prevent access to invalid TPC digit timebin by [@davidrohr](https://github.com/davidrohr)
 - [\#11345](https://github.com/AliceO2Group/AliceO2/pull/11345) 2023-05-22: TPC IDCs: adding validity check before storing objects in CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
