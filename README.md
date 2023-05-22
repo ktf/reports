@@ -73,6 +73,7 @@
 - [\#11338](https://github.com/AliceO2Group/AliceO2/pull/11338) 2023-05-17: DPL GUI: do not print unset metrics by [@ktf](https://github.com/ktf)
 - [\#11339](https://github.com/AliceO2Group/AliceO2/pull/11339) 2023-05-17: DPL GUI: better ticks by [@ktf](https://github.com/ktf)
 - [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
+- [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
