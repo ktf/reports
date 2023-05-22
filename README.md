@@ -55,7 +55,6 @@
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
-- [\#11256](https://github.com/AliceO2Group/AliceO2/pull/11256) 2023-04-29: DPL: always run the first loop by [@ktf](https://github.com/ktf)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
