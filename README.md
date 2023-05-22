@@ -6,6 +6,7 @@
 - [\#11301](https://github.com/AliceO2Group/AliceO2/pull/11301) 2023-05-15: Add hyperhelium4 mass to the physics constants by [@ddobrigk](https://github.com/ddobrigk)
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
+- [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
@@ -71,6 +72,7 @@
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11328](https://github.com/AliceO2Group/AliceO2/pull/11328) 2023-05-20: DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache by [@aalkin](https://github.com/aalkin)
 - [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
+- [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
 - [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11337](https://github.com/AliceO2Group/AliceO2/pull/11337) 2023-05-19: DPL Analysis: method to return only filtered iterators from array index by [@aalkin](https://github.com/aalkin)
 - [\#11338](https://github.com/AliceO2Group/AliceO2/pull/11338) 2023-05-17: DPL GUI: do not print unset metrics by [@ktf](https://github.com/ktf)
