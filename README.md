@@ -48,6 +48,7 @@
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
 - [\#11336](https://github.com/AliceO2Group/AliceO2/pull/11336) 2023-05-17: Disable TPC corrections for corrmap-lumi-inst<0 or corrmap-lumi-mean<0 by [@shahor02](https://github.com/shahor02)
+- [\#11345](https://github.com/AliceO2Group/AliceO2/pull/11345) 2023-05-22: TPC IDCs: adding validity check before storing objects in CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
