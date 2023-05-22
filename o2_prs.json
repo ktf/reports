@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-01T14:25:17Z",
-            "title": "Improved debug messages / more sanity checks for TPC raw decoding",
-            "number": 11261,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/DPLRawPageSequencer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-01T15:43:22Z",
             "title": "GPU Workflow: Less downscaling of error messages",
             "number": 11262,
@@ -2966,6 +2936,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RecoContainer.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix aliasing problem in EMCAL cell type",
+            "number": 11364,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cell.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/src/Cell.cxx"
                   }
                 }
               ]
