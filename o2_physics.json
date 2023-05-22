@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-06T07:35:54Z",
-            "title": "Clean-up and finetuning of event selection",
-            "number": 2555,
-            "author": {
-              "login": "ekryshen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/CCDB/EventSelectionParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/eventSelection.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Tasks/eventSelectionQa.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-06T06:30:43Z",
             "title": "Add mass region checks and histos",
             "number": 2556,
@@ -2576,7 +2546,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Follow PR #2585",
+            "title": "PWGHF: Add TPC/TOF nSig hist in Xic task",
             "number": 2642,
             "author": {
               "login": "phymanshu"
@@ -3016,6 +2986,36 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: adding particle origin MC information to LcToK0sP tree creator",
+            "number": 2657,
+            "author": {
+              "login": "DanielSamitz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToK0sP.cxx"
                   }
                 }
               ]
