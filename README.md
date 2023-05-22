@@ -12,7 +12,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11258](https://github.com/AliceO2Group/AliceO2/pull/11258) 2023-04-29: Do not apply TPC vdrift T-offset outside of gpu-tracking to avoid double counting by [@shahor02](https://github.com/shahor02)
 - [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 - [\#11263](https://github.com/AliceO2Group/AliceO2/pull/11263) 2023-05-02: Extra ctf-writer options + suppress obsolete one in dpl-workflow by [@shahor02](https://github.com/shahor02)
@@ -55,7 +54,6 @@
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
-- [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
