@@ -12,7 +12,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 - [\#11263](https://github.com/AliceO2Group/AliceO2/pull/11263) 2023-05-02: Extra ctf-writer options + suppress obsolete one in dpl-workflow by [@shahor02](https://github.com/shahor02)
 - [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11267](https://github.com/AliceO2Group/AliceO2/pull/11267) 2023-05-05: Remove TPC starting row cut by [@fmazzasc](https://github.com/fmazzasc)
@@ -52,6 +51,7 @@
 - [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
+- [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11261](https://github.com/AliceO2Group/AliceO2/pull/11261) 2023-05-01: Improved debug messages / more sanity checks for TPC raw decoding by [@davidrohr](https://github.com/davidrohr)
 - [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
@@ -75,7 +75,5 @@
 - [\#11339](https://github.com/AliceO2Group/AliceO2/pull/11339) 2023-05-17: DPL GUI: better ticks by [@ktf](https://github.com/ktf)
 - [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
 - [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
-## Recent developments in O2 - Steer
-- [\#11260](https://github.com/AliceO2Group/AliceO2/pull/11260) 2023-05-01: Introduce 64 BC default ITS ROF shift, account in digitization by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
 - [\#11289](https://github.com/AliceO2Group/AliceO2/pull/11289) 2023-05-05: taskwrapper: switch off log monitoring by [@sawenzel](https://github.com/sawenzel)
