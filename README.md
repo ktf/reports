@@ -11,7 +11,6 @@
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11254](https://github.com/AliceO2Group/AliceO2/pull/11254) 2023-05-01: Update some logging severities by [@martenole](https://github.com/martenole)
 - [\#11255](https://github.com/AliceO2Group/AliceO2/pull/11255) 2023-05-01: ZDC Three small fixes in raw data handling by [@cortesep](https://github.com/cortesep)
 - [\#11257](https://github.com/AliceO2Group/AliceO2/pull/11257) 2023-04-29: Improve TF Rate limit smoothing + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 - [\#11258](https://github.com/AliceO2Group/AliceO2/pull/11258) 2023-04-29: Do not apply TPC vdrift T-offset outside of gpu-tracking to avoid double counting by [@shahor02](https://github.com/shahor02)
