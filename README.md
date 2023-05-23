@@ -52,6 +52,7 @@
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 - [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
+- [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
