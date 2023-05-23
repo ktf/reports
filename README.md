@@ -74,5 +74,6 @@
 - [\#11339](https://github.com/AliceO2Group/AliceO2/pull/11339) 2023-05-17: DPL GUI: better ticks by [@ktf](https://github.com/ktf)
 - [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
 - [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
+- [\#11359](https://github.com/AliceO2Group/AliceO2/pull/11359) 2023-05-23: DPL: fix driver callbacks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 - [\#11289](https://github.com/AliceO2Group/AliceO2/pull/11289) 2023-05-05: taskwrapper: switch off log monitoring by [@sawenzel](https://github.com/sawenzel)
