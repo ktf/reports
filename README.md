@@ -13,7 +13,6 @@
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11267](https://github.com/AliceO2Group/AliceO2/pull/11267) 2023-05-05: Remove TPC starting row cut by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11270](https://github.com/AliceO2Group/AliceO2/pull/11270) 2023-05-03: [FOCAL-13] Make BadChannelMap streamable by [@mfasDa](https://github.com/mfasDa)
 - [\#11271](https://github.com/AliceO2Group/AliceO2/pull/11271) 2023-05-05: dev: creating decoding method which can be used also in QC ctp by [@lietava](https://github.com/lietava)
@@ -57,7 +56,6 @@
 - [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
 - [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
