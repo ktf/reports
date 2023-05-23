@@ -53,7 +53,6 @@
 - [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11282](https://github.com/AliceO2Group/AliceO2/pull/11282) 2023-05-04: Demote TextDriverClient messages by [@ktf](https://github.com/ktf)
