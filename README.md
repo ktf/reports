@@ -57,7 +57,6 @@
 - [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
 - [\#11272](https://github.com/AliceO2Group/AliceO2/pull/11272) 2023-05-03: Allow using catch2 from QC by [@ktf](https://github.com/ktf)
 - [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
