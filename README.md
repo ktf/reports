@@ -11,8 +11,8 @@
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
+- [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11263](https://github.com/AliceO2Group/AliceO2/pull/11263) 2023-05-02: Extra ctf-writer options + suppress obsolete one in dpl-workflow by [@shahor02](https://github.com/shahor02)
 - [\#11266](https://github.com/AliceO2Group/AliceO2/pull/11266) 2023-05-02: Revert "[EMCAL-834] Checking active links per trigger" by [@davidrohr](https://github.com/davidrohr)
 - [\#11267](https://github.com/AliceO2Group/AliceO2/pull/11267) 2023-05-05: Remove TPC starting row cut by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11270](https://github.com/AliceO2Group/AliceO2/pull/11270) 2023-05-03: [FOCAL-13] Make BadChannelMap streamable by [@mfasDa](https://github.com/mfasDa)
@@ -52,6 +52,7 @@
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 - [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
+- [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#11264](https://github.com/AliceO2Group/AliceO2/pull/11264) 2023-05-10: DPL Analysis: update running workflow configuration by [@aalkin](https://github.com/aalkin)
 - [\#11265](https://github.com/AliceO2Group/AliceO2/pull/11265) 2023-05-02: DPL Analysis: consistently use accessor method by [@aalkin](https://github.com/aalkin)
