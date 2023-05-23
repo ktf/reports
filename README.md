@@ -13,7 +13,6 @@
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11273](https://github.com/AliceO2Group/AliceO2/pull/11273) 2023-05-04: Configuration of ev. time size by [@njacazio](https://github.com/njacazio)
 - [\#11274](https://github.com/AliceO2Group/AliceO2/pull/11274) 2023-05-05: TPC: Add laser track dEdx information, adapt calib time gain validity range by [@wiechula](https://github.com/wiechula)
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11280](https://github.com/AliceO2Group/AliceO2/pull/11280) 2023-05-05: Added automatic saving of dead chips maps in CCDB by [@atriolo](https://github.com/atriolo)
