@@ -10,6 +10,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
+- [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
@@ -43,14 +44,15 @@
 - [\#11345](https://github.com/AliceO2Group/AliceO2/pull/11345) 2023-05-22: TPC IDCs: adding validity check before storing objects in CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11346](https://github.com/AliceO2Group/AliceO2/pull/11346) 2023-05-23: TPC Painter: Add function for FEC coordinates by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#11348](https://github.com/AliceO2Group/AliceO2/pull/11348) 2023-05-23: Add macro to check TRD noise runs by [@tdietel](https://github.com/tdietel)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 - [\#11354](https://github.com/AliceO2Group/AliceO2/pull/11354) 2023-05-23: TPC IDCs: Adding function to get number of outliers for QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
+- [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-- [\#11275](https://github.com/AliceO2Group/AliceO2/pull/11275) 2023-05-03: DPL: drop old assertion by [@ktf](https://github.com/ktf)
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
 - [\#11282](https://github.com/AliceO2Group/AliceO2/pull/11282) 2023-05-04: Demote TextDriverClient messages by [@ktf](https://github.com/ktf)
 - [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
