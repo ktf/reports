@@ -54,6 +54,7 @@
 - [\#11361](https://github.com/AliceO2Group/AliceO2/pull/11361) 2023-05-24: ZDC: Prevent overflow/segfault problems due to very slow particles by [@sawenzel](https://github.com/sawenzel)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11373](https://github.com/AliceO2Group/AliceO2/pull/11373) 2023-05-24: Additional warning for TRD by [@martenole](https://github.com/martenole)
+- [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11278](https://github.com/AliceO2Group/AliceO2/pull/11278) 2023-05-06: AOD Producer: reserve table before filling by [@ktf](https://github.com/ktf)
