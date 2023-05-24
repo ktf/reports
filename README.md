@@ -7,6 +7,7 @@
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
+- [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
@@ -54,6 +55,7 @@
 - [\#11361](https://github.com/AliceO2Group/AliceO2/pull/11361) 2023-05-24: ZDC: Prevent overflow/segfault problems due to very slow particles by [@sawenzel](https://github.com/sawenzel)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11366](https://github.com/AliceO2Group/AliceO2/pull/11366) 2023-05-24: Cutoff very slow particles in TOF digitization by [@sawenzel](https://github.com/sawenzel)
+- [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
 - [\#11373](https://github.com/AliceO2Group/AliceO2/pull/11373) 2023-05-24: Additional warning for TRD by [@martenole](https://github.com/martenole)
 - [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
@@ -79,5 +81,7 @@
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+- [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 - [\#11289](https://github.com/AliceO2Group/AliceO2/pull/11289) 2023-05-05: taskwrapper: switch off log monitoring by [@sawenzel](https://github.com/sawenzel)
