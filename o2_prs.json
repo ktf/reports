@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-05T15:11:40Z",
-            "title": "Added automatic saving of dead chips maps in CCDB",
-            "number": 11280,
-            "author": {
-              "login": "atriolo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/DCSParserSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/DCSParserSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-04T13:58:30Z",
             "title": "GPU TPC ZS Decoder: remove bogus debug code",
             "number": 11281,
@@ -2946,6 +2921,46 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP][FOCAL-10] Merge HBFs which are distributed across timeframes",
+            "number": 11383,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/include/FOCALReconstruction/PixelMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/FOCALReconstructionLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/reconstruction/src/PixelMapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/workflow/include/FOCALWorkflow/RawDecoderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/workflow/src/RawDecoderSpec.cxx"
                   }
                 }
               ]
