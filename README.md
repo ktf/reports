@@ -58,6 +58,7 @@
 - [\#11373](https://github.com/AliceO2Group/AliceO2/pull/11373) 2023-05-24: Additional warning for TRD by [@martenole](https://github.com/martenole)
 - [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
+- [\#11381](https://github.com/AliceO2Group/AliceO2/pull/11381) 2023-05-24: extract mean lumi from TPC map (unless >0 override provided) by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11282](https://github.com/AliceO2Group/AliceO2/pull/11282) 2023-05-04: Demote TextDriverClient messages by [@ktf](https://github.com/ktf)
 - [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
