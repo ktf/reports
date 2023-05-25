@@ -7,11 +7,13 @@
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
+- [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
+- [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11288](https://github.com/AliceO2Group/AliceO2/pull/11288) 2023-05-08: FT0reco: option for disabling time offset calibration by [@afurs](https://github.com/afurs)
 - [\#11290](https://github.com/AliceO2Group/AliceO2/pull/11290) 2023-05-06: Add time difference to debug stream also if VDrift is not calculated by [@shahor02](https://github.com/shahor02)
@@ -59,6 +61,7 @@
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
 - [\#11379](https://github.com/AliceO2Group/AliceO2/pull/11379) 2023-05-24: Adapting MFT assessment histograms ranges and replacing one variable by [@robincaron13](https://github.com/robincaron13)
 - [\#11381](https://github.com/AliceO2Group/AliceO2/pull/11381) 2023-05-24: extract mean lumi from TPC map (unless >0 override provided) by [@shahor02](https://github.com/shahor02)
+- [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11386](https://github.com/AliceO2Group/AliceO2/pull/11386) 2023-05-25: Denote TRD eos message to info by [@martenole](https://github.com/martenole)
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
