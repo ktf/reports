@@ -84,5 +84,3 @@
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#11289](https://github.com/AliceO2Group/AliceO2/pull/11289) 2023-05-05: taskwrapper: switch off log monitoring by [@sawenzel](https://github.com/sawenzel)
