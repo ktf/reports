@@ -13,7 +13,6 @@
 - [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
 - [\#11288](https://github.com/AliceO2Group/AliceO2/pull/11288) 2023-05-08: FT0reco: option for disabling time offset calibration by [@afurs](https://github.com/afurs)
 - [\#11290](https://github.com/AliceO2Group/AliceO2/pull/11290) 2023-05-06: Add time difference to debug stream also if VDrift is not calculated by [@shahor02](https://github.com/shahor02)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
@@ -63,7 +62,6 @@
 - [\#11386](https://github.com/AliceO2Group/AliceO2/pull/11386) 2023-05-25: Denote TRD eos message to info by [@martenole](https://github.com/martenole)
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
 - [\#11287](https://github.com/AliceO2Group/AliceO2/pull/11287) 2023-05-05: Document O2_NO_CATCHALL_EXCEPTIONS by [@ktf](https://github.com/ktf)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11292](https://github.com/AliceO2Group/AliceO2/pull/11292) 2023-05-08: DPL Analysis: fixes for issues with unsorted slicing by [@aalkin](https://github.com/aalkin)
