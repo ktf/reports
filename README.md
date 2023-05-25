@@ -46,6 +46,7 @@
 - [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11348](https://github.com/AliceO2Group/AliceO2/pull/11348) 2023-05-23: Add macro to check TRD noise runs by [@tdietel](https://github.com/tdietel)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
+- [\#11351](https://github.com/AliceO2Group/AliceO2/pull/11351) 2023-05-25: Open DCA cut in SVertexer for He3 and He4 by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11353](https://github.com/AliceO2Group/AliceO2/pull/11353) 2023-05-21: [FOCAL-10] Fix chip position in Trigger Record if any subsystem is mi… by [@mfasDa](https://github.com/mfasDa)
 - [\#11354](https://github.com/AliceO2Group/AliceO2/pull/11354) 2023-05-23: TPC IDCs: Adding function to get number of outliers for QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
