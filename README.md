@@ -57,6 +57,7 @@
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
 - [\#11373](https://github.com/AliceO2Group/AliceO2/pull/11373) 2023-05-24: Additional warning for TRD by [@martenole](https://github.com/martenole)
 - [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#11375](https://github.com/AliceO2Group/AliceO2/pull/11375) 2023-05-25: [O2-1787] Add side bar in the Cage side panels. Fix small overlap with services by [@mario6829](https://github.com/mario6829)
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
 - [\#11379](https://github.com/AliceO2Group/AliceO2/pull/11379) 2023-05-24: Adapting MFT assessment histograms ranges and replacing one variable by [@robincaron13](https://github.com/robincaron13)
 - [\#11381](https://github.com/AliceO2Group/AliceO2/pull/11381) 2023-05-24: extract mean lumi from TPC map (unless >0 override provided) by [@shahor02](https://github.com/shahor02)
