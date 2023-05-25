@@ -60,6 +60,7 @@
 - [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
 - [\#11379](https://github.com/AliceO2Group/AliceO2/pull/11379) 2023-05-24: Adapting MFT assessment histograms ranges and replacing one variable by [@robincaron13](https://github.com/robincaron13)
 - [\#11381](https://github.com/AliceO2Group/AliceO2/pull/11381) 2023-05-24: extract mean lumi from TPC map (unless >0 override provided) by [@shahor02](https://github.com/shahor02)
+- [\#11386](https://github.com/AliceO2Group/AliceO2/pull/11386) 2023-05-25: Denote TRD eos message to info by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#11285](https://github.com/AliceO2Group/AliceO2/pull/11285) 2023-05-06: TPC corr.map scaling options by [@shahor02](https://github.com/shahor02)
 - [\#11287](https://github.com/AliceO2Group/AliceO2/pull/11287) 2023-05-05: Document O2_NO_CATCHALL_EXCEPTIONS by [@ktf](https://github.com/ktf)
