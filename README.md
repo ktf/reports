@@ -15,7 +15,6 @@
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11288](https://github.com/AliceO2Group/AliceO2/pull/11288) 2023-05-08: FT0reco: option for disabling time offset calibration by [@afurs](https://github.com/afurs)
 - [\#11290](https://github.com/AliceO2Group/AliceO2/pull/11290) 2023-05-06: Add time difference to debug stream also if VDrift is not calculated by [@shahor02](https://github.com/shahor02)
 - [\#11291](https://github.com/AliceO2Group/AliceO2/pull/11291) 2023-05-08: Add missing includes for gcc13.1 by [@wiechula](https://github.com/wiechula)
 - [\#11294](https://github.com/AliceO2Group/AliceO2/pull/11294) 2023-05-07: Adapt tpc-track-study to real data, change output format by [@shahor02](https://github.com/shahor02)
