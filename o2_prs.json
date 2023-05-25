@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-05T12:14:13Z",
-            "title": "Document O2_NO_CATCHALL_EXCEPTIONS",
-            "number": 11287,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/COOKBOOK.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-08T08:54:23Z",
             "title": "FT0reco: option for disabling time offset calibration",
             "number": 11288,
@@ -2831,6 +2811,46 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCFactorizeIDCSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix",
+            "number": 11390,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/DPLRawParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/raw-parser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/benchmark_RawParser.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/test_DPLRawParser.cxx"
                   }
                 }
               ]
