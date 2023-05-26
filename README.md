@@ -63,7 +63,6 @@
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11292](https://github.com/AliceO2Group/AliceO2/pull/11292) 2023-05-08: DPL Analysis: fixes for issues with unsorted slicing by [@aalkin](https://github.com/aalkin)
 - [\#11303](https://github.com/AliceO2Group/AliceO2/pull/11303) 2023-05-10: DPL Analysis: make sure the slice functions are marked const by [@aalkin](https://github.com/aalkin)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11328](https://github.com/AliceO2Group/AliceO2/pull/11328) 2023-05-20: DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache by [@aalkin](https://github.com/aalkin)
