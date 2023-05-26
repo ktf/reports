@@ -78,5 +78,6 @@
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
+- [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
