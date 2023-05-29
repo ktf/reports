@@ -14,7 +14,6 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11300](https://github.com/AliceO2Group/AliceO2/pull/11300) 2023-05-08: Drop boost usage in staticMapCreator.C by [@martenole](https://github.com/martenole)
 - [\#11308](https://github.com/AliceO2Group/AliceO2/pull/11308) 2023-05-10: update MCH tracking limits by [@pillot](https://github.com/pillot)
 - [\#11310](https://github.com/AliceO2Group/AliceO2/pull/11310) 2023-05-15: Executable to generate global mapping as json files for MID by [@dstocco](https://github.com/dstocco)
 - [\#11314](https://github.com/AliceO2Group/AliceO2/pull/11314) 2023-05-13: [ITS3] Use ALPIDE response for Vbb=0 by [@fgrosa](https://github.com/fgrosa)
