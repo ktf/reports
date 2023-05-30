@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-08T18:39:39Z",
-            "title": "Remove unused code to avoid issues with Xcode 14.3",
-            "number": 11302,
-            "author": {
-              "login": "pzhristov"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostSerializer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Utils/test/testBoostSerializer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-10T06:40:41Z",
             "title": "DPL Analysis: make sure the slice functions are marked const",
             "number": 11303,
@@ -3096,6 +3066,31 @@
                 {
                   "node": {
                     "path": "Detectors/FOCAL/reconstruction/src/PixelMapperV1.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: better error handling when matching completion policies",
+            "number": 11405,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataRelayer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
                   }
                 }
               ]
