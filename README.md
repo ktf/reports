@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-- [\#11301](https://github.com/AliceO2Group/AliceO2/pull/11301) 2023-05-15: Add hyperhelium4 mass to the physics constants by [@ddobrigk](https://github.com/ddobrigk)
 - [\#11302](https://github.com/AliceO2Group/AliceO2/pull/11302) 2023-05-08: Remove unused code to avoid issues with Xcode 14.3 by [@pzhristov](https://github.com/pzhristov)
 - [\#11309](https://github.com/AliceO2Group/AliceO2/pull/11309) 2023-05-14: DPL: Add deploymentMode OnlineAUX, and possibility to set the mode ex… by [@davidrohr](https://github.com/davidrohr)
 - [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
