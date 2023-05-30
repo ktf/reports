@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-14T22:22:59Z",
-            "title": "Correct usage of time configurables - i/oTOF",
-            "number": 2611,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/TableProducer/onTheFlyTOFPID.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-14T22:53:46Z",
             "title": "Add Light task not using partition",
             "number": 2612,
@@ -3010,6 +2990,41 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add track selector",
+            "number": 2713,
+            "author": {
+              "login": "sofiatomassini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/singletrackselector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/TableProducer/singleTrackSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Tasks/histogramtest.cxx"
                   }
                 }
               ]
