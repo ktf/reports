@@ -57,6 +57,7 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11386](https://github.com/AliceO2Group/AliceO2/pull/11386) 2023-05-25: Denote TRD eos message to info by [@martenole](https://github.com/martenole)
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
+- [\#11388](https://github.com/AliceO2Group/AliceO2/pull/11388) 2023-05-31: Strangeness tracking: fix mother mass calculation by [@creetz16](https://github.com/creetz16)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
