@@ -59,6 +59,7 @@
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 - [\#11388](https://github.com/AliceO2Group/AliceO2/pull/11388) 2023-05-31: Strangeness tracking: fix mother mass calculation by [@creetz16](https://github.com/creetz16)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
+- [\#11392](https://github.com/AliceO2Group/AliceO2/pull/11392) 2023-05-31: catch exception and abandon TF processing in ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
