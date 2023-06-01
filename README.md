@@ -12,6 +12,7 @@
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
+- [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 - [\#11319](https://github.com/AliceO2Group/AliceO2/pull/11319) 2023-05-16: FDD: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11322](https://github.com/AliceO2Group/AliceO2/pull/11322) 2023-05-15: [FOCAL-10] Allow event writer to run without dedicated subspecification by [@mfasDa](https://github.com/mfasDa)
