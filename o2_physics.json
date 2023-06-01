@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-17T10:30:30Z",
-            "title": "PWGLF: Adding 'TRD only' check for TOF",
-            "number": 2623,
-            "author": {
-              "login": "jloemker"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-17T10:28:56Z",
             "title": "Multiple fixes to mc finding",
             "number": 2624,
@@ -2995,6 +2975,41 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/cascqaanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[LF]: Move V0 Table in Data Model",
+            "number": 2725,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/v0qaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/v0qaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/CMakeLists.txt"
                   }
                 }
               ]
