@@ -13,7 +13,6 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
 - [\#11317](https://github.com/AliceO2Group/AliceO2/pull/11317) 2023-05-12: Add FOCAL to rawTF reader by [@mfasDa](https://github.com/mfasDa)
 - [\#11319](https://github.com/AliceO2Group/AliceO2/pull/11319) 2023-05-16: FDD: adding workflows for integrated currents by [@matthias-kleiner](https://github.com/matthias-kleiner)
