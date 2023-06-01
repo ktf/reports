@@ -13,7 +13,6 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11310](https://github.com/AliceO2Group/AliceO2/pull/11310) 2023-05-15: Executable to generate global mapping as json files for MID by [@dstocco](https://github.com/dstocco)
 - [\#11314](https://github.com/AliceO2Group/AliceO2/pull/11314) 2023-05-13: [ITS3] Use ALPIDE response for Vbb=0 by [@fgrosa](https://github.com/fgrosa)
 - [\#11315](https://github.com/AliceO2Group/AliceO2/pull/11315) 2023-05-11: [ITS] Adapt road to work with its3 with 4 layers by [@fgrosa](https://github.com/fgrosa)
 - [\#11316](https://github.com/AliceO2Group/AliceO2/pull/11316) 2023-05-12: Send MID calibration data at periodic intervals by [@dstocco](https://github.com/dstocco)
