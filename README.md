@@ -62,6 +62,7 @@
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
+- [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#11328](https://github.com/AliceO2Group/AliceO2/pull/11328) 2023-05-20: DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache by [@aalkin](https://github.com/aalkin)
@@ -81,5 +82,6 @@
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 - [\#11403](https://github.com/AliceO2Group/AliceO2/pull/11403) 2023-05-30: DPL GUI: increase update period by [@ktf](https://github.com/ktf)
 - [\#11405](https://github.com/AliceO2Group/AliceO2/pull/11405) 2023-05-30: DPL: better error handling when matching completion policies by [@ktf](https://github.com/ktf)
+- [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
