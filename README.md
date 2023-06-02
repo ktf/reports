@@ -60,6 +60,7 @@
 - [\#11392](https://github.com/AliceO2Group/AliceO2/pull/11392) 2023-05-31: catch exception and abandon TF processing in ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
+- [\#11397](https://github.com/AliceO2Group/AliceO2/pull/11397) 2023-06-02: 22ef had Scalers updated in CCDB, we can use those by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
