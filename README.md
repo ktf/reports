@@ -67,7 +67,6 @@
 - [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
 - [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
 ## Recent developments in O2 - Framework
-- [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
 - [\#11332](https://github.com/AliceO2Group/AliceO2/pull/11332) 2023-05-22: DPL: make sending policy per channel by [@ktf](https://github.com/ktf)
 - [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11337](https://github.com/AliceO2Group/AliceO2/pull/11337) 2023-05-19: DPL Analysis: method to return only filtered iterators from array index by [@aalkin](https://github.com/aalkin)
