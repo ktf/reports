@@ -15,7 +15,6 @@
 - [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11326](https://github.com/AliceO2Group/AliceO2/pull/11326) 2023-05-12: Revert "Remove TPC starting row cut" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11330](https://github.com/AliceO2Group/AliceO2/pull/11330) 2023-05-16: CPV: clusterize digits with common side by [@sevdokim](https://github.com/sevdokim)
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 - [\#11333](https://github.com/AliceO2Group/AliceO2/pull/11333) 2023-05-22: [EMCAL-565, EMCAL-566]: Switch to BasicCCDBManager in EMCal calibDB by [@jokonig](https://github.com/jokonig)
