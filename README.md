@@ -60,6 +60,8 @@
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
 - [\#11414](https://github.com/AliceO2Group/AliceO2/pull/11414) 2023-06-02: Space-charge: Add conversion of IDCs to space-charge density by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11418](https://github.com/AliceO2Group/AliceO2/pull/11418) 2023-06-02: [O2-1787] Implementation of the Closing Cross in ITS Cage by [@mario6829](https://github.com/mario6829)
+- [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
+- [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
 ## Recent developments in O2 - Framework
 - [\#11328](https://github.com/AliceO2Group/AliceO2/pull/11328) 2023-05-20: DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache by [@aalkin](https://github.com/aalkin)
 - [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
