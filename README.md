@@ -64,6 +64,7 @@
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
+- [\#11418](https://github.com/AliceO2Group/AliceO2/pull/11418) 2023-06-02: [O2-1787] Implementation of the Closing Cross in ITS Cage by [@mario6829](https://github.com/mario6829)
 ## Recent developments in O2 - Framework
 - [\#11328](https://github.com/AliceO2Group/AliceO2/pull/11328) 2023-05-20: DPL Analysis: avoid iterating over value cache if the argument is larger than the largest value in the cache by [@aalkin](https://github.com/aalkin)
 - [\#11329](https://github.com/AliceO2Group/AliceO2/pull/11329) 2023-05-15: DPL: fix the cpu_usage_fraction metric by [@ktf](https://github.com/ktf)
