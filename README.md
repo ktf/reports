@@ -17,7 +17,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11330](https://github.com/AliceO2Group/AliceO2/pull/11330) 2023-05-16: CPV: clusterize digits with common side by [@sevdokim](https://github.com/sevdokim)
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
 - [\#11333](https://github.com/AliceO2Group/AliceO2/pull/11333) 2023-05-22: [EMCAL-565, EMCAL-566]: Switch to BasicCCDBManager in EMCal calibDB by [@jokonig](https://github.com/jokonig)
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
