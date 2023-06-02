@@ -8,7 +8,6 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
@@ -16,7 +15,6 @@
 - [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11325](https://github.com/AliceO2Group/AliceO2/pull/11325) 2023-05-13: TPC: Improve SAC decoding by [@wiechula](https://github.com/wiechula)
 - [\#11326](https://github.com/AliceO2Group/AliceO2/pull/11326) 2023-05-12: Revert "Remove TPC starting row cut" by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11330](https://github.com/AliceO2Group/AliceO2/pull/11330) 2023-05-16: CPV: clusterize digits with common side by [@sevdokim](https://github.com/sevdokim)
 - [\#11331](https://github.com/AliceO2Group/AliceO2/pull/11331) 2023-05-16: TPC: More flexible raw calib updates by [@wiechula](https://github.com/wiechula)
