@@ -72,7 +72,6 @@
 - [\#11431](https://github.com/AliceO2Group/AliceO2/pull/11431) 2023-06-03: TPC residual aggregator: Don't write TForbits in meta file by [@martenole](https://github.com/martenole)
 - [\#11433](https://github.com/AliceO2Group/AliceO2/pull/11433) 2023-06-03: adapt matLUT layers to extra materials in ITS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11337](https://github.com/AliceO2Group/AliceO2/pull/11337) 2023-05-19: DPL Analysis: method to return only filtered iterators from array index by [@aalkin](https://github.com/aalkin)
 - [\#11338](https://github.com/AliceO2Group/AliceO2/pull/11338) 2023-05-17: DPL GUI: do not print unset metrics by [@ktf](https://github.com/ktf)
 - [\#11339](https://github.com/AliceO2Group/AliceO2/pull/11339) 2023-05-17: DPL GUI: better ticks by [@ktf](https://github.com/ktf)
