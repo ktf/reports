@@ -68,6 +68,9 @@
 - [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
 - [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
 - [\#11426](https://github.com/AliceO2Group/AliceO2/pull/11426) 2023-06-03: Return code is != 0 if storing fails by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11428](https://github.com/AliceO2Group/AliceO2/pull/11428) 2023-06-03: TPC interpolation store seed BEFORE changing it by [@martenole](https://github.com/martenole)
+- [\#11430](https://github.com/AliceO2Group/AliceO2/pull/11430) 2023-06-03: Avoid ROOT warning in EMCAL calib by [@martenole](https://github.com/martenole)
+- [\#11431](https://github.com/AliceO2Group/AliceO2/pull/11431) 2023-06-03: TPC residual aggregator: Don't write TForbits in meta file by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11337](https://github.com/AliceO2Group/AliceO2/pull/11337) 2023-05-19: DPL Analysis: method to return only filtered iterators from array index by [@aalkin](https://github.com/aalkin)
