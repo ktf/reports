@@ -17,7 +17,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11333](https://github.com/AliceO2Group/AliceO2/pull/11333) 2023-05-22: [EMCAL-565, EMCAL-566]: Switch to BasicCCDBManager in EMCal calibDB by [@jokonig](https://github.com/jokonig)
 - [\#11335](https://github.com/AliceO2Group/AliceO2/pull/11335) 2023-05-17: raw-tr-reader option to read only selected TFs by [@shahor02](https://github.com/shahor02)
 - [\#11336](https://github.com/AliceO2Group/AliceO2/pull/11336) 2023-05-17: Disable TPC corrections for corrmap-lumi-inst<0 or corrmap-lumi-mean<0 by [@shahor02](https://github.com/shahor02)
 - [\#11342](https://github.com/AliceO2Group/AliceO2/pull/11342) 2023-05-22: [EMCAL-565, EMCAL-566] Change validity of ccdb objects to +1month by [@jokonig](https://github.com/jokonig)
@@ -71,6 +70,7 @@
 - [\#11428](https://github.com/AliceO2Group/AliceO2/pull/11428) 2023-06-03: TPC interpolation store seed BEFORE changing it by [@martenole](https://github.com/martenole)
 - [\#11430](https://github.com/AliceO2Group/AliceO2/pull/11430) 2023-06-03: Avoid ROOT warning in EMCAL calib by [@martenole](https://github.com/martenole)
 - [\#11431](https://github.com/AliceO2Group/AliceO2/pull/11431) 2023-06-03: TPC residual aggregator: Don't write TForbits in meta file by [@martenole](https://github.com/martenole)
+- [\#11433](https://github.com/AliceO2Group/AliceO2/pull/11433) 2023-06-03: adapt matLUT layers to extra materials in ITS by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11334](https://github.com/AliceO2Group/AliceO2/pull/11334) 2023-05-16: DPL GUI: fix referencing object on stack by [@ktf](https://github.com/ktf)
 - [\#11337](https://github.com/AliceO2Group/AliceO2/pull/11337) 2023-05-19: DPL Analysis: method to return only filtered iterators from array index by [@aalkin](https://github.com/aalkin)
