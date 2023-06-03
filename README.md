@@ -64,6 +64,7 @@
 - [\#11414](https://github.com/AliceO2Group/AliceO2/pull/11414) 2023-06-02: Space-charge: Add conversion of IDCs to space-charge density by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11417](https://github.com/AliceO2Group/AliceO2/pull/11417) 2023-06-02: [MCH] add plots + print statistics + compare if ROFs are different by [@pillot](https://github.com/pillot)
 - [\#11418](https://github.com/AliceO2Group/AliceO2/pull/11418) 2023-06-02: [O2-1787] Implementation of the Closing Cross in ITS Cage by [@mario6829](https://github.com/mario6829)
+- [\#11422](https://github.com/AliceO2Group/AliceO2/pull/11422) 2023-06-03: [ITS3] Add possibility to enable deadzones only in 1st layer and add material on 3r layer by [@fgrosa](https://github.com/fgrosa)
 - [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
 - [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
 - [\#11426](https://github.com/AliceO2Group/AliceO2/pull/11426) 2023-06-03: Return code is != 0 if storing fails by [@chiarazampolli](https://github.com/chiarazampolli)
