@@ -72,7 +72,6 @@
 - [\#11433](https://github.com/AliceO2Group/AliceO2/pull/11433) 2023-06-03: adapt matLUT layers to extra materials in ITS by [@shahor02](https://github.com/shahor02)
 - [\#11435](https://github.com/AliceO2Group/AliceO2/pull/11435) 2023-06-04: keep track in the last refitted sector frame by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11339](https://github.com/AliceO2Group/AliceO2/pull/11339) 2023-05-17: DPL GUI: better ticks by [@ktf](https://github.com/ktf)
 - [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
 - [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
 - [\#11355](https://github.com/AliceO2Group/AliceO2/pull/11355) 2023-06-01: DPL Analysis: optimization: avoid doing a full iterator copy when combining selections by [@aalkin](https://github.com/aalkin)
