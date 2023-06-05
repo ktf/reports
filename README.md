@@ -56,6 +56,7 @@
 - [\#11399](https://github.com/AliceO2Group/AliceO2/pull/11399) 2023-06-02: Add protection for skipped MC particles; add filling PHOS MClabels by [@peressounko](https://github.com/peressounko)
 - [\#11400](https://github.com/AliceO2Group/AliceO2/pull/11400) 2023-06-02: Anglerecon by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
+- [\#11404](https://github.com/AliceO2Group/AliceO2/pull/11404) 2023-06-05: [FOCAL-10] Remove temporary mapper class by [@mfasDa](https://github.com/mfasDa)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
 - [\#11412](https://github.com/AliceO2Group/AliceO2/pull/11412) 2023-06-03: [MFT,MUON] Fix tracker and fwd matcher workflow for zero B field by [@robincaron13](https://github.com/robincaron13)
