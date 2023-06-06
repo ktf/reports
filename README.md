@@ -19,7 +19,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11345](https://github.com/AliceO2Group/AliceO2/pull/11345) 2023-05-22: TPC IDCs: adding validity check before storing objects in CCDB by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11346](https://github.com/AliceO2Group/AliceO2/pull/11346) 2023-05-23: TPC Painter: Add function for FEC coordinates by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11348](https://github.com/AliceO2Group/AliceO2/pull/11348) 2023-05-23: Add macro to check TRD noise runs by [@tdietel](https://github.com/tdietel)
