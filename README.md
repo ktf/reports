@@ -74,6 +74,7 @@
 - [\#11435](https://github.com/AliceO2Group/AliceO2/pull/11435) 2023-06-04: keep track in the last refitted sector frame by [@shahor02](https://github.com/shahor02)
 - [\#11439](https://github.com/AliceO2Group/AliceO2/pull/11439) 2023-06-06: Strangeness tracking: Mother mass calculation: pass arrays by reference by [@creetz16](https://github.com/creetz16)
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
+- [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 - [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
 - [\#11355](https://github.com/AliceO2Group/AliceO2/pull/11355) 2023-06-01: DPL Analysis: optimization: avoid doing a full iterator copy when combining selections by [@aalkin](https://github.com/aalkin)
