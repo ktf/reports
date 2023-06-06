@@ -20,7 +20,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11347](https://github.com/AliceO2Group/AliceO2/pull/11347) 2023-05-22: TPC IDCs: Add function to get frequencies from FFT by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11348](https://github.com/AliceO2Group/AliceO2/pull/11348) 2023-05-23: Add macro to check TRD noise runs by [@tdietel](https://github.com/tdietel)
 - [\#11350](https://github.com/AliceO2Group/AliceO2/pull/11350) 2023-05-20: [FOCAL-10] Dynamic pixel mapping by [@mfasDa](https://github.com/mfasDa)
 - [\#11351](https://github.com/AliceO2Group/AliceO2/pull/11351) 2023-05-25: Open DCA cut in SVertexer for He3 and He4 by [@fmazzasc](https://github.com/fmazzasc)
