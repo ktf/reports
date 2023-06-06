@@ -73,6 +73,7 @@
 - [\#11431](https://github.com/AliceO2Group/AliceO2/pull/11431) 2023-06-03: TPC residual aggregator: Don't write TForbits in meta file by [@martenole](https://github.com/martenole)
 - [\#11433](https://github.com/AliceO2Group/AliceO2/pull/11433) 2023-06-03: adapt matLUT layers to extra materials in ITS by [@shahor02](https://github.com/shahor02)
 - [\#11435](https://github.com/AliceO2Group/AliceO2/pull/11435) 2023-06-04: keep track in the last refitted sector frame by [@shahor02](https://github.com/shahor02)
+- [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#11341](https://github.com/AliceO2Group/AliceO2/pull/11341) 2023-05-17: DPL GUI: fix axis range by [@ktf](https://github.com/ktf)
 - [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
