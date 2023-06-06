@@ -8,6 +8,7 @@
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
+- [\#11442](https://github.com/AliceO2Group/AliceO2/pull/11442) 2023-06-06: use proc.ID in random string generation by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
@@ -83,5 +84,7 @@
 - [\#11405](https://github.com/AliceO2Group/AliceO2/pull/11405) 2023-05-30: DPL: better error handling when matching completion policies by [@ktf](https://github.com/ktf)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
