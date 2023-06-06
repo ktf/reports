@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-22T14:13:13Z",
-            "title": "Prevent access to invalid TPC digit timebin",
-            "number": 11344,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-22T07:41:05Z",
             "title": "TPC IDCs: adding validity check before storing objects in CCDB",
             "number": 11345,
@@ -3076,6 +3051,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CompletionPolicyHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "make init of QEDepem more robust",
+            "number": 11444,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/share/external/QEDepem.C"
                   }
                 }
               ]
