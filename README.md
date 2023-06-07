@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#11355](https://github.com/AliceO2Group/AliceO2/pull/11355) 2023-06-01: DPL Analysis: optimization: avoid doing a full iterator copy when combining selections by [@aalkin](https://github.com/aalkin)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
@@ -67,7 +66,6 @@
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
-- [\#11355](https://github.com/AliceO2Group/AliceO2/pull/11355) 2023-06-01: DPL Analysis: optimization: avoid doing a full iterator copy when combining selections by [@aalkin](https://github.com/aalkin)
 - [\#11359](https://github.com/AliceO2Group/AliceO2/pull/11359) 2023-05-23: DPL: fix driver callbacks by [@ktf](https://github.com/ktf)
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
