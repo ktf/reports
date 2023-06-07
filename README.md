@@ -69,7 +69,6 @@
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
-- [\#11352](https://github.com/AliceO2Group/AliceO2/pull/11352) 2023-05-22: DPL Analysis: add support for fixed size int8_t array and bitmap helper by [@aalkin](https://github.com/aalkin)
 - [\#11355](https://github.com/AliceO2Group/AliceO2/pull/11355) 2023-06-01: DPL Analysis: optimization: avoid doing a full iterator copy when combining selections by [@aalkin](https://github.com/aalkin)
 - [\#11359](https://github.com/AliceO2Group/AliceO2/pull/11359) 2023-05-23: DPL: fix driver callbacks by [@ktf](https://github.com/ktf)
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
