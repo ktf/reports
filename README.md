@@ -19,7 +19,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11361](https://github.com/AliceO2Group/AliceO2/pull/11361) 2023-05-24: ZDC: Prevent overflow/segfault problems due to very slow particles by [@sawenzel](https://github.com/sawenzel)
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11366](https://github.com/AliceO2Group/AliceO2/pull/11366) 2023-05-24: Cutoff very slow particles in TOF digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
