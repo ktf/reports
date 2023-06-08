@@ -65,6 +65,7 @@
 - [\#11439](https://github.com/AliceO2Group/AliceO2/pull/11439) 2023-06-06: Strangeness tracking: Mother mass calculation: pass arrays by reference by [@creetz16](https://github.com/creetz16)
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11451](https://github.com/AliceO2Group/AliceO2/pull/11451) 2023-06-08: TPC residual extraction: add TPC dEdx by [@martenole](https://github.com/martenole)
 - [\#11452](https://github.com/AliceO2Group/AliceO2/pull/11452) 2023-06-08: ITS-Studies: add skeleton of an entrypoint for generic ITS-related studies by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 - [\#11359](https://github.com/AliceO2Group/AliceO2/pull/11359) 2023-05-23: DPL: fix driver callbacks by [@ktf](https://github.com/ktf)
