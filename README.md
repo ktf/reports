@@ -66,6 +66,7 @@
 - [\#11451](https://github.com/AliceO2Group/AliceO2/pull/11451) 2023-06-08: TPC residual extraction: add TPC dEdx by [@martenole](https://github.com/martenole)
 - [\#11452](https://github.com/AliceO2Group/AliceO2/pull/11452) 2023-06-08: ITS-Studies: add skeleton of an entrypoint for generic ITS-related studies by [@mconcas](https://github.com/mconcas)
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
+- [\#11455](https://github.com/AliceO2Group/AliceO2/pull/11455) 2023-06-08: Skip ROF ramp up data by default, silence desync.message at ramp up by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
