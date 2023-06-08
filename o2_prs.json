@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-23T22:20:01Z",
-            "title": "Silence some compiler warnings",
-            "number": 11358,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/FIT/common/include/DataFormatsFIT/RawEventData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetectorTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetectorTPC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Align/include/Align/AlignableDetectorTRD.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-23T04:27:15Z",
             "title": "DPL: fix driver callbacks",
             "number": 11359,
@@ -3121,6 +3086,31 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add barrel track propagation to PV at AOD creation stage",
+            "number": 11458,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
