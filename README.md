@@ -19,7 +19,6 @@
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11356](https://github.com/AliceO2Group/AliceO2/pull/11356) 2023-05-29: [FOCAL-10] Replace code in PixelMapper with new dynamic version by [@mfasDa](https://github.com/mfasDa)
 - [\#11357](https://github.com/AliceO2Group/AliceO2/pull/11357) 2023-05-22: Fix for the HMPID cluster-writer by [@shahor02](https://github.com/shahor02)
 - [\#11358](https://github.com/AliceO2Group/AliceO2/pull/11358) 2023-05-23: Silence some compiler warnings by [@martenole](https://github.com/martenole)
 - [\#11360](https://github.com/AliceO2Group/AliceO2/pull/11360) 2023-05-23: MFT assessment must get B-field from CCDB instead of local file by [@shahor02](https://github.com/shahor02)
