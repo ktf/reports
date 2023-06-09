@@ -71,6 +71,7 @@
 - [\#11455](https://github.com/AliceO2Group/AliceO2/pull/11455) 2023-06-08: Skip ROF ramp up data by default, silence desync.message at ramp up by [@shahor02](https://github.com/shahor02)
 - [\#11457](https://github.com/AliceO2Group/AliceO2/pull/11457) 2023-06-08: Residual aggregator finalizes slots upon state transition and does no… by [@martenole](https://github.com/martenole)
 - [\#11460](https://github.com/AliceO2Group/AliceO2/pull/11460) 2023-06-08: Condtion ctf*root.part -> ctf.root renaming by creation of metafile by [@shahor02](https://github.com/shahor02)
+- [\#11464](https://github.com/AliceO2Group/AliceO2/pull/11464) 2023-06-09: TPC: Fix detection of old-style LinkZS in TPC raw2digit converter by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
