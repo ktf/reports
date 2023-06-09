@@ -18,6 +18,7 @@
 - [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
+- [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
 - [\#11462](https://github.com/AliceO2Group/AliceO2/pull/11462) 2023-06-09: GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
@@ -62,6 +63,7 @@
 - [\#11439](https://github.com/AliceO2Group/AliceO2/pull/11439) 2023-06-06: Strangeness tracking: Mother mass calculation: pass arrays by reference by [@creetz16](https://github.com/creetz16)
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
 - [\#11451](https://github.com/AliceO2Group/AliceO2/pull/11451) 2023-06-08: TPC residual extraction: add TPC dEdx by [@martenole](https://github.com/martenole)
 - [\#11452](https://github.com/AliceO2Group/AliceO2/pull/11452) 2023-06-08: ITS-Studies: add skeleton of an entrypoint for generic ITS-related studies by [@mconcas](https://github.com/mconcas)
