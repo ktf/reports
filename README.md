@@ -19,7 +19,6 @@
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 - [\#11462](https://github.com/AliceO2Group/AliceO2/pull/11462) 2023-06-09: GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11366](https://github.com/AliceO2Group/AliceO2/pull/11366) 2023-05-24: Cutoff very slow particles in TOF digitization by [@sawenzel](https://github.com/sawenzel)
 - [\#11369](https://github.com/AliceO2Group/AliceO2/pull/11369) 2023-05-24: o2-sim: Stop tracks when they reach max time of flight by [@sawenzel](https://github.com/sawenzel)
 - [\#11373](https://github.com/AliceO2Group/AliceO2/pull/11373) 2023-05-24: Additional warning for TRD by [@martenole](https://github.com/martenole)
 - [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
