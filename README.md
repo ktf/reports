@@ -18,6 +18,7 @@
 - [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
+- [\#11462](https://github.com/AliceO2Group/AliceO2/pull/11462) 2023-06-09: GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 - [\#11364](https://github.com/AliceO2Group/AliceO2/pull/11364) 2023-05-23: [EMCAL-551] Fix aliasing problem in EMCAL cell type by [@davidrohr](https://github.com/davidrohr)
 - [\#11366](https://github.com/AliceO2Group/AliceO2/pull/11366) 2023-05-24: Cutoff very slow particles in TOF digitization by [@sawenzel](https://github.com/sawenzel)
@@ -34,6 +35,7 @@
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 - [\#11388](https://github.com/AliceO2Group/AliceO2/pull/11388) 2023-05-31: Strangeness tracking: fix mother mass calculation by [@creetz16](https://github.com/creetz16)
 - [\#11389](https://github.com/AliceO2Group/AliceO2/pull/11389) 2023-06-08: TPC IDCs: Fix writing of delta IDCs to local files by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 - [\#11392](https://github.com/AliceO2Group/AliceO2/pull/11392) 2023-05-31: catch exception and abandon TF processing in ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -72,6 +74,7 @@
 - [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
+- [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 - [\#11403](https://github.com/AliceO2Group/AliceO2/pull/11403) 2023-05-30: DPL GUI: increase update period by [@ktf](https://github.com/ktf)
 - [\#11405](https://github.com/AliceO2Group/AliceO2/pull/11405) 2023-05-30: DPL: better error handling when matching completion policies by [@ktf](https://github.com/ktf)
