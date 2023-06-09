@@ -69,7 +69,6 @@
 - [\#11457](https://github.com/AliceO2Group/AliceO2/pull/11457) 2023-06-08: Residual aggregator finalizes slots upon state transition and does no… by [@martenole](https://github.com/martenole)
 - [\#11460](https://github.com/AliceO2Group/AliceO2/pull/11460) 2023-06-08: Condtion ctf*root.part -> ctf.root renaming by creation of metafile by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11365](https://github.com/AliceO2Group/AliceO2/pull/11365) 2023-05-24: DPL: use sporadic for expendable devices output by [@ktf](https://github.com/ktf)
 - [\#11372](https://github.com/AliceO2Group/AliceO2/pull/11372) 2023-05-23: DPL GUI: more fixes for the metrics GUI by [@ktf](https://github.com/ktf)
 - [\#11377](https://github.com/AliceO2Group/AliceO2/pull/11377) 2023-05-23: DPL: add cast to silence warning by [@ktf](https://github.com/ktf)
 - [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
@@ -78,6 +77,7 @@
 - [\#11405](https://github.com/AliceO2Group/AliceO2/pull/11405) 2023-05-30: DPL: better error handling when matching completion policies by [@ktf](https://github.com/ktf)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
+- [\#11443](https://github.com/AliceO2Group/AliceO2/pull/11443) 2023-06-09: DPL: hardened consumeWhenAny logic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer

@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-24T08:16:16Z",
-            "title": "DPL: use sporadic for expendable devices output",
-            "number": 11365,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-24T11:29:35Z",
             "title": "Cutoff very slow particles in TOF digitization",
             "number": 11366,
@@ -2504,8 +2484,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-06-09T08:19:53Z",
             "title": "DPL: hardened consumeWhenAny logic",
             "number": 11443,
             "author": {
@@ -3231,6 +3211,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improvements to CTP-FT0 triggering in MC",
+            "number": 11465,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/Configuration.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/simulation/src/Digitizer.cxx"
                   }
                 }
               ]
