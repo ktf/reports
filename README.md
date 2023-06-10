@@ -21,6 +21,7 @@
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
 - [\#11462](https://github.com/AliceO2Group/AliceO2/pull/11462) 2023-06-09: GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow by [@davidrohr](https://github.com/davidrohr)
+- [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 - [\#11374](https://github.com/AliceO2Group/AliceO2/pull/11374) 2023-05-24: TPC: Add boundary check for histogram filling by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -71,6 +72,7 @@
 - [\#11455](https://github.com/AliceO2Group/AliceO2/pull/11455) 2023-06-08: Skip ROF ramp up data by default, silence desync.message at ramp up by [@shahor02](https://github.com/shahor02)
 - [\#11457](https://github.com/AliceO2Group/AliceO2/pull/11457) 2023-06-08: Residual aggregator finalizes slots upon state transition and does no… by [@martenole](https://github.com/martenole)
 - [\#11460](https://github.com/AliceO2Group/AliceO2/pull/11460) 2023-06-08: Condtion ctf*root.part -> ctf.root renaming by creation of metafile by [@shahor02](https://github.com/shahor02)
+- [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11464](https://github.com/AliceO2Group/AliceO2/pull/11464) 2023-06-09: TPC: Fix detection of old-style LinkZS in TPC raw2digit converter by [@davidrohr](https://github.com/davidrohr)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11473](https://github.com/AliceO2Group/AliceO2/pull/11473) 2023-06-10: ctpdev: first hb lumi fix by [@lietava](https://github.com/lietava)
