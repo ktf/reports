@@ -24,7 +24,6 @@
 - [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11376](https://github.com/AliceO2Group/AliceO2/pull/11376) 2023-05-24: Optionally pause CTF writing if disk space is low by [@shahor02](https://github.com/shahor02)
 - [\#11379](https://github.com/AliceO2Group/AliceO2/pull/11379) 2023-05-24: Adapting MFT assessment histograms ranges and replacing one variable by [@robincaron13](https://github.com/robincaron13)
 - [\#11381](https://github.com/AliceO2Group/AliceO2/pull/11381) 2023-05-24: extract mean lumi from TPC map (unless >0 override provided) by [@shahor02](https://github.com/shahor02)
 - [\#11384](https://github.com/AliceO2Group/AliceO2/pull/11384) 2023-05-25: By default avoid MD5 calc. for epn2eos metadata by [@shahor02](https://github.com/shahor02)
