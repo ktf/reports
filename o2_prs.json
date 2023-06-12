@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-24T15:07:14Z",
-            "title": "extract mean lumi from TPC map (unless >0 override provided)",
-            "number": 11381,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-24T19:15:34Z",
             "title": "dpl-workflow: Enable wait of ctf-writer when disk full in sync reco",
             "number": 11382,
@@ -3451,6 +3431,36 @@
                 {
                   "node": {
                     "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CCDBDownloader: Added timeout settings",
+            "number": 11482,
+            "author": {
+              "login": "TrifleMichael"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
