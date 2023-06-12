@@ -73,6 +73,7 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11473](https://github.com/AliceO2Group/AliceO2/pull/11473) 2023-06-10: ctpdev: first hb lumi fix by [@lietava](https://github.com/lietava)
 - [\#11476](https://github.com/AliceO2Group/AliceO2/pull/11476) 2023-06-11: ITS: removed EoS / non EoS option + fit for pulse shape 2D scan by [@iravasen](https://github.com/iravasen)
+- [\#11477](https://github.com/AliceO2Group/AliceO2/pull/11477) 2023-06-12: Optional cut for TPCtracks.getX used for SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
