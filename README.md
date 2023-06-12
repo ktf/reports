@@ -85,5 +85,6 @@
 - [\#11443](https://github.com/AliceO2Group/AliceO2/pull/11443) 2023-06-09: DPL: hardened consumeWhenAny logic by [@ktf](https://github.com/ktf)
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
+- [\#11467](https://github.com/AliceO2Group/AliceO2/pull/11467) 2023-06-12: DPL: support more than one callback by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
