@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-01T09:26:44Z",
-            "title": "ZDC - Fix bug in data loss reporting",
-            "number": 11385,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/include/ZDCRaw/DumpRaw.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/DumpRaw.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-25T07:35:19Z",
             "title": "Denote TRD eos message to info",
             "number": 11386,
@@ -3481,6 +3456,36 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Some uncorrelated improvements",
+            "number": 11486,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/macros/CheckNoiseRun.C"
                   }
                 }
               ]
