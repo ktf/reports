@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-24T18:50:27Z",
-            "title": "Adapting MFT assessment histograms ranges and replacing one variable",
-            "number": 11379,
-            "author": {
-              "login": "robincaron13"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdAssessment.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwdAssessment.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/assessment/include/MFTAssessment/MFTAssessment.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-25T09:02:44Z",
             "title": "dpl-workflow: remove redundant default, which is in setenv.sh",
             "number": 11380,
@@ -3471,6 +3436,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/DataProcessingStates.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable by default 3-body vertexing",
+            "number": 11480,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/secondary-vertexing-workflow.cxx"
                   }
                 }
               ]
