@@ -72,6 +72,7 @@
 - [\#11477](https://github.com/AliceO2Group/AliceO2/pull/11477) 2023-06-12: Optional cut for TPCtracks.getX used for SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11478](https://github.com/AliceO2Group/AliceO2/pull/11478) 2023-06-12: TPC track interpolation optionally store outer parameter for debugging by [@martenole](https://github.com/martenole)
 - [\#11480](https://github.com/AliceO2Group/AliceO2/pull/11480) 2023-06-12: Enable by default 3-body vertexing by [@mpuccio](https://github.com/mpuccio)
+- [\#11486](https://github.com/AliceO2Group/AliceO2/pull/11486) 2023-06-12: Some uncorrelated improvements by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 - [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
