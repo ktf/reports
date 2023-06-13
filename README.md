@@ -10,7 +10,6 @@
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 - [\#11400](https://github.com/AliceO2Group/AliceO2/pull/11400) 2023-06-02: Anglerecon by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11412](https://github.com/AliceO2Group/AliceO2/pull/11412) 2023-06-03: [MFT,MUON] Fix tracker and fwd matcher workflow for zero B field by [@robincaron13](https://github.com/robincaron13)
 - [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
@@ -23,7 +22,6 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 - [\#11392](https://github.com/AliceO2Group/AliceO2/pull/11392) 2023-05-31: catch exception and abandon TF processing in ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
