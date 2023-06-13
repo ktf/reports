@@ -23,7 +23,6 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11391](https://github.com/AliceO2Group/AliceO2/pull/11391) 2023-05-25: AOD-Calo: Crash avoidance and error diagnostic by [@sawenzel](https://github.com/sawenzel)
 - [\#11392](https://github.com/AliceO2Group/AliceO2/pull/11392) 2023-05-31: catch exception and abandon TF processing in ITS/MFT raw data decoder by [@shahor02](https://github.com/shahor02)
 - [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
@@ -74,7 +73,6 @@
 - [\#11480](https://github.com/AliceO2Group/AliceO2/pull/11480) 2023-06-12: Enable by default 3-body vertexing by [@mpuccio](https://github.com/mpuccio)
 - [\#11486](https://github.com/AliceO2Group/AliceO2/pull/11486) 2023-06-12: Some uncorrelated improvements by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#11390](https://github.com/AliceO2Group/AliceO2/pull/11390) 2023-06-09: DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix by [@davidrohr](https://github.com/davidrohr)
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 - [\#11403](https://github.com/AliceO2Group/AliceO2/pull/11403) 2023-05-30: DPL GUI: increase update period by [@ktf](https://github.com/ktf)
 - [\#11405](https://github.com/AliceO2Group/AliceO2/pull/11405) 2023-05-30: DPL: better error handling when matching completion policies by [@ktf](https://github.com/ktf)

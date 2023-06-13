@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-09T06:27:55Z",
-            "title": "DPL: Add compile-time-optional raw buffer bounds check in DPLRawParser + related fix",
-            "number": 11390,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/DPLRawParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/src/RawParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/src/raw-parser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/RawPageTestData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/benchmark_RawParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/test_DPLRawParser.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-05-25T15:44:40Z",
             "title": "AOD-Calo: Crash avoidance and error diagnostic",
             "number": 11391,
@@ -3465,6 +3405,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "CCDB/src/CCDBDownloader.cxx"
                   }
                 }
@@ -3506,6 +3451,41 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC/calibration: Add dEdx calculation class",
+            "number": 11491,
+            "author": {
+              "login": "tubagundem"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
                   }
                 }
               ]
