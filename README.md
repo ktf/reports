@@ -66,6 +66,7 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11470](https://github.com/AliceO2Group/AliceO2/pull/11470) 2023-06-12: Enable strangeness tracking in production by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11473](https://github.com/AliceO2Group/AliceO2/pull/11473) 2023-06-10: ctpdev: first hb lumi fix by [@lietava](https://github.com/lietava)
+- [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11476](https://github.com/AliceO2Group/AliceO2/pull/11476) 2023-06-11: ITS: removed EoS / non EoS option + fit for pulse shape 2D scan by [@iravasen](https://github.com/iravasen)
 - [\#11477](https://github.com/AliceO2Group/AliceO2/pull/11477) 2023-06-12: Optional cut for TPCtracks.getX used for SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11478](https://github.com/AliceO2Group/AliceO2/pull/11478) 2023-06-12: TPC track interpolation optionally store outer parameter for debugging by [@martenole](https://github.com/martenole)
@@ -82,6 +83,7 @@
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 - [\#11467](https://github.com/AliceO2Group/AliceO2/pull/11467) 2023-06-12: DPL: support more than one callback by [@ktf](https://github.com/ktf)
+- [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
