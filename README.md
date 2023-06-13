@@ -22,7 +22,6 @@
 - [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-- [\#11386](https://github.com/AliceO2Group/AliceO2/pull/11386) 2023-05-25: Denote TRD eos message to info by [@martenole](https://github.com/martenole)
 - [\#11387](https://github.com/AliceO2Group/AliceO2/pull/11387) 2023-05-25: fix RDH version typo in the log message by [@shahor02](https://github.com/shahor02)
 - [\#11388](https://github.com/AliceO2Group/AliceO2/pull/11388) 2023-05-31: Strangeness tracking: fix mother mass calculation by [@creetz16](https://github.com/creetz16)
 - [\#11389](https://github.com/AliceO2Group/AliceO2/pull/11389) 2023-06-08: TPC IDCs: Fix writing of delta IDCs to local files by [@matthias-kleiner](https://github.com/matthias-kleiner)
