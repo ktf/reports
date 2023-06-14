@@ -60,6 +60,7 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11470](https://github.com/AliceO2Group/AliceO2/pull/11470) 2023-06-12: Enable strangeness tracking in production by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
+- [\#11472](https://github.com/AliceO2Group/AliceO2/pull/11472) 2023-06-14: GPU: Make the GPUWorkflowSpec able to run ITS tracking + unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#11473](https://github.com/AliceO2Group/AliceO2/pull/11473) 2023-06-10: ctpdev: first hb lumi fix by [@lietava](https://github.com/lietava)
 - [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11476](https://github.com/AliceO2Group/AliceO2/pull/11476) 2023-06-11: ITS: removed EoS / non EoS option + fit for pulse shape 2D scan by [@iravasen](https://github.com/iravasen)
