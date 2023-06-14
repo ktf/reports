@@ -69,6 +69,7 @@
 - [\#11478](https://github.com/AliceO2Group/AliceO2/pull/11478) 2023-06-12: TPC track interpolation optionally store outer parameter for debugging by [@martenole](https://github.com/martenole)
 - [\#11480](https://github.com/AliceO2Group/AliceO2/pull/11480) 2023-06-12: Enable by default 3-body vertexing by [@mpuccio](https://github.com/mpuccio)
 - [\#11486](https://github.com/AliceO2Group/AliceO2/pull/11486) 2023-06-12: Some uncorrelated improvements by [@martenole](https://github.com/martenole)
+- [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 - [\#11403](https://github.com/AliceO2Group/AliceO2/pull/11403) 2023-05-30: DPL GUI: increase update period by [@ktf](https://github.com/ktf)
