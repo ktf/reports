@@ -23,7 +23,6 @@
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11395](https://github.com/AliceO2Group/AliceO2/pull/11395) 2023-05-26: [EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask by [@mhemmer-cern](https://github.com/mhemmer-cern)
 - [\#11396](https://github.com/AliceO2Group/AliceO2/pull/11396) 2023-05-30: Reserve memory for tables before filling by [@nburmaso](https://github.com/nburmaso)
 - [\#11397](https://github.com/AliceO2Group/AliceO2/pull/11397) 2023-06-02: 22ef had Scalers updated in CCDB, we can use those by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11399](https://github.com/AliceO2Group/AliceO2/pull/11399) 2023-06-02: Add protection for skipped MC particles; add filling PHOS MClabels by [@peressounko](https://github.com/peressounko)
