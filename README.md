@@ -82,6 +82,7 @@
 - [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11479](https://github.com/AliceO2Group/AliceO2/pull/11479) 2023-06-13: DPL: drop unneeded index for the DataProcessingStates by [@ktf](https://github.com/ktf)
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
+- [\#11494](https://github.com/AliceO2Group/AliceO2/pull/11494) 2023-06-14: Allow setting condition-tf-per-query-multiplier from env var by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
