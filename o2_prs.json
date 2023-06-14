@@ -4,146 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Fix bogus wrong bunches diff message",
-            "number": 11393,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/include/DataFormatsGlobalTracking/RecoContainerCreateTracksVariadic.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "ZDC - EOR and Start-Stop-Start functionality of BaselineCalib workflow",
-            "number": 11394,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalib.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibEPNSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/BaselineCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/CalibParamZDC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibEPNSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/BaselineCalibSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/CalibParamZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/InterCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/NoiseCalibEPNSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/raw/src/RawReaderZDC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/simulation/src/Digitizer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-05-26T11:52:38Z",
             "title": "[EMCAL-889] AOD-Calo: Avoidance of crash during emcCorrectionTask",
@@ -3491,6 +3351,56 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TableBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Allow setting condition-tf-per-query-multiplier from env var",
+            "number": 11494,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GlobalTrackClusterReader: rate limiting with an external device",
+            "number": 11495,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/GlobalTrackClusterReader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonDataProcessors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
                   }
                 }
               ]
