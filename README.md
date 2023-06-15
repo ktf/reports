@@ -23,7 +23,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11404](https://github.com/AliceO2Group/AliceO2/pull/11404) 2023-06-05: [FOCAL-10] Remove temporary mapper class by [@mfasDa](https://github.com/mfasDa)
 - [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
 - [\#11411](https://github.com/AliceO2Group/AliceO2/pull/11411) 2023-06-08: ITS: add macro to check for track duplicates by [@tch285](https://github.com/tch285)
