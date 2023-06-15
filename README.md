@@ -24,7 +24,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11399](https://github.com/AliceO2Group/AliceO2/pull/11399) 2023-06-02: Add protection for skipped MC particles; add filling PHOS MClabels by [@peressounko](https://github.com/peressounko)
 - [\#11400](https://github.com/AliceO2Group/AliceO2/pull/11400) 2023-06-02: Anglerecon by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11402](https://github.com/AliceO2Group/AliceO2/pull/11402) 2023-05-30: MCHEvaluation: add track comparison workflow by [@aphecetche](https://github.com/aphecetche)
 - [\#11404](https://github.com/AliceO2Group/AliceO2/pull/11404) 2023-06-05: [FOCAL-10] Remove temporary mapper class by [@mfasDa](https://github.com/mfasDa)
