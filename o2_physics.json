@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-05-30T22:42:26Z",
-            "title": "Remove unnecessary histos from h-str filter",
-            "number": 2714,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/hStrangeCorrelationFilter.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-08T07:15:14Z",
             "title": "Adding kaon cut for the TPC skimming",
             "number": 2715,
@@ -2801,6 +2781,11 @@
                   "node": {
                     "path": "Tools/KFparticle/qaKFParticle.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Tools/KFparticle/qaKFParticleLc.cxx"
+                  }
                 }
               ]
             }
@@ -2895,6 +2880,26 @@
                 {
                   "node": {
                     "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Add histos correlation of generated and reconstructed quantities (pt,y) for D0",
+            "number": 2814,
+            "author": {
+              "login": "zconesa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskD0.cxx"
                   }
                 }
               ]
