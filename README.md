@@ -22,6 +22,7 @@
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 - [\#11399](https://github.com/AliceO2Group/AliceO2/pull/11399) 2023-06-02: Add protection for skipped MC particles; add filling PHOS MClabels by [@peressounko](https://github.com/peressounko)
 - [\#11400](https://github.com/AliceO2Group/AliceO2/pull/11400) 2023-06-02: Anglerecon by [@gvolpe79](https://github.com/gvolpe79)
@@ -69,6 +70,7 @@
 - [\#11480](https://github.com/AliceO2Group/AliceO2/pull/11480) 2023-06-12: Enable by default 3-body vertexing by [@mpuccio](https://github.com/mpuccio)
 - [\#11486](https://github.com/AliceO2Group/AliceO2/pull/11486) 2023-06-12: Some uncorrelated improvements by [@martenole](https://github.com/martenole)
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
+- [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 - [\#11398](https://github.com/AliceO2Group/AliceO2/pull/11398) 2023-05-26: DPL: fix data relayer state display by [@ktf](https://github.com/ktf)
 - [\#11403](https://github.com/AliceO2Group/AliceO2/pull/11403) 2023-05-30: DPL GUI: increase update period by [@ktf](https://github.com/ktf)
