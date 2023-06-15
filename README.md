@@ -23,7 +23,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11408](https://github.com/AliceO2Group/AliceO2/pull/11408) 2023-06-01: Allow setting material correction type for track interpolation by [@martenole](https://github.com/martenole)
 - [\#11411](https://github.com/AliceO2Group/AliceO2/pull/11411) 2023-06-08: ITS: add macro to check for track duplicates by [@tch285](https://github.com/tch285)
 - [\#11412](https://github.com/AliceO2Group/AliceO2/pull/11412) 2023-06-03: [MFT,MUON] Fix tracker and fwd matcher workflow for zero B field by [@robincaron13](https://github.com/robincaron13)
@@ -69,7 +68,6 @@
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
-- [\#11406](https://github.com/AliceO2Group/AliceO2/pull/11406) 2023-06-01: Fix new fairmq by [@ktf](https://github.com/ktf)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11443](https://github.com/AliceO2Group/AliceO2/pull/11443) 2023-06-09: DPL: hardened consumeWhenAny logic by [@ktf](https://github.com/ktf)
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
