@@ -23,7 +23,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11411](https://github.com/AliceO2Group/AliceO2/pull/11411) 2023-06-08: ITS: add macro to check for track duplicates by [@tch285](https://github.com/tch285)
 - [\#11412](https://github.com/AliceO2Group/AliceO2/pull/11412) 2023-06-03: [MFT,MUON] Fix tracker and fwd matcher workflow for zero B field by [@robincaron13](https://github.com/robincaron13)
 - [\#11414](https://github.com/AliceO2Group/AliceO2/pull/11414) 2023-06-02: Space-charge: Add conversion of IDCs to space-charge density by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11417](https://github.com/AliceO2Group/AliceO2/pull/11417) 2023-06-02: [MCH] add plots + print statistics + compare if ROFs are different by [@pillot](https://github.com/pillot)
