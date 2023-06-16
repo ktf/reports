@@ -59,6 +59,8 @@
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 - [\#11510](https://github.com/AliceO2Group/AliceO2/pull/11510) 2023-06-16: Fixes for cosmic tracking and alignment by [@shahor02](https://github.com/shahor02)
 - [\#11514](https://github.com/AliceO2Group/AliceO2/pull/11514) 2023-06-16: TPC Workflow: fix typo by [@davidrohr](https://github.com/davidrohr)
+- [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
+- [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11443](https://github.com/AliceO2Group/AliceO2/pull/11443) 2023-06-09: DPL: hardened consumeWhenAny logic by [@ktf](https://github.com/ktf)
