@@ -4,14 +4,11 @@
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11442](https://github.com/AliceO2Group/AliceO2/pull/11442) 2023-06-06: use proc.ID in random string generation by [@shahor02](https://github.com/shahor02)
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
-- [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
 - [\#11462](https://github.com/AliceO2Group/AliceO2/pull/11462) 2023-06-09: GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow by [@davidrohr](https://github.com/davidrohr)
