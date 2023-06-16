@@ -73,6 +73,7 @@
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
 - [\#11494](https://github.com/AliceO2Group/AliceO2/pull/11494) 2023-06-14: Allow setting condition-tf-per-query-multiplier from env var by [@shahor02](https://github.com/shahor02)
 - [\#11501](https://github.com/AliceO2Group/AliceO2/pull/11501) 2023-06-15: DPL: warn if we are unable to forward on a channel by [@ktf](https://github.com/ktf)
+- [\#11508](https://github.com/AliceO2Group/AliceO2/pull/11508) 2023-06-16: DPL: runNumber can never change to zero by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
