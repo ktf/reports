@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-03T10:44:55Z",
-            "title": "[MFT,MUON] Fix tracker and fwd matcher workflow for zero B field",
-            "number": 11412,
-            "author": {
-              "login": "robincaron13"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackFwd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-01T18:37:54Z",
             "title": "Fix cov matrix calculation for V0s and Cascades",
             "number": 11413,
@@ -3726,6 +3696,36 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FOCAL-12] Fixes in PadPedestal object for CCDB access",
+            "number": 11513,
+            "author": {
+              "login": "mfasDa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/include/FOCALCalib/PadPedestal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/src/FOCALCalibLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FOCAL/calib/src/PadPedestal.cxx"
                   }
                 }
               ]
