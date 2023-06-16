@@ -21,7 +21,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11414](https://github.com/AliceO2Group/AliceO2/pull/11414) 2023-06-02: Space-charge: Add conversion of IDCs to space-charge density by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11417](https://github.com/AliceO2Group/AliceO2/pull/11417) 2023-06-02: [MCH] add plots + print statistics + compare if ROFs are different by [@pillot](https://github.com/pillot)
 - [\#11418](https://github.com/AliceO2Group/AliceO2/pull/11418) 2023-06-02: [O2-1787] Implementation of the Closing Cross in ITS Cage by [@mario6829](https://github.com/mario6829)
 - [\#11422](https://github.com/AliceO2Group/AliceO2/pull/11422) 2023-06-03: [ITS3] Add possibility to enable deadzones only in 1st layer and add material on 3r layer by [@fgrosa](https://github.com/fgrosa)
