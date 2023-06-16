@@ -10,7 +10,6 @@
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11413](https://github.com/AliceO2Group/AliceO2/pull/11413) 2023-06-01: Fix cov matrix calculation for V0s and Cascades by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11415](https://github.com/AliceO2Group/AliceO2/pull/11415) 2023-06-02: Fix charges in the PDG database by [@vkucera](https://github.com/vkucera)
 - [\#11416](https://github.com/AliceO2Group/AliceO2/pull/11416) 2023-06-02: Fix rounding in InteractionRecord::ns2bc by [@shahor02](https://github.com/shahor02)
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
@@ -64,6 +63,7 @@
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 - [\#11510](https://github.com/AliceO2Group/AliceO2/pull/11510) 2023-06-16: Fixes for cosmic tracking and alignment by [@shahor02](https://github.com/shahor02)
+- [\#11514](https://github.com/AliceO2Group/AliceO2/pull/11514) 2023-06-16: TPC Workflow: fix typo by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11443](https://github.com/AliceO2Group/AliceO2/pull/11443) 2023-06-09: DPL: hardened consumeWhenAny logic by [@ktf](https://github.com/ktf)
