@@ -18,7 +18,6 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-- [\#11422](https://github.com/AliceO2Group/AliceO2/pull/11422) 2023-06-03: [ITS3] Add possibility to enable deadzones only in 1st layer and add material on 3r layer by [@fgrosa](https://github.com/fgrosa)
 - [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
 - [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
 - [\#11426](https://github.com/AliceO2Group/AliceO2/pull/11426) 2023-06-03: Return code is != 0 if storing fails by [@chiarazampolli](https://github.com/chiarazampolli)
