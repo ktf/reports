@@ -8,6 +8,7 @@
 - [\#11442](https://github.com/AliceO2Group/AliceO2/pull/11442) 2023-06-06: use proc.ID in random string generation by [@shahor02](https://github.com/shahor02)
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
+- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
@@ -17,6 +18,7 @@
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
+- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11424](https://github.com/AliceO2Group/AliceO2/pull/11424) 2023-06-02:  [O2-1788][O2-1787] Change M46J6 carbon fiber density by [@mconcas](https://github.com/mconcas)
 - [\#11425](https://github.com/AliceO2Group/AliceO2/pull/11425) 2023-06-02: correction of the  M46J carbon density by [@frmanso](https://github.com/frmanso)
@@ -59,6 +61,7 @@
 - [\#11514](https://github.com/AliceO2Group/AliceO2/pull/11514) 2023-06-16: TPC Workflow: fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
