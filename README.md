@@ -64,6 +64,7 @@
 - [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
+- [\#11522](https://github.com/AliceO2Group/AliceO2/pull/11522) 2023-06-19: Suppress negative start orbit warning for SYNTHETIC runs by [@davidrohr](https://github.com/davidrohr)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
