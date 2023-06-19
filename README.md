@@ -22,7 +22,6 @@
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11426](https://github.com/AliceO2Group/AliceO2/pull/11426) 2023-06-03: Return code is != 0 if storing fails by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11428](https://github.com/AliceO2Group/AliceO2/pull/11428) 2023-06-03: TPC interpolation store seed BEFORE changing it by [@martenole](https://github.com/martenole)
 - [\#11430](https://github.com/AliceO2Group/AliceO2/pull/11430) 2023-06-03: Avoid ROOT warning in EMCAL calib by [@martenole](https://github.com/martenole)
 - [\#11431](https://github.com/AliceO2Group/AliceO2/pull/11431) 2023-06-03: TPC residual aggregator: Don't write TForbits in meta file by [@martenole](https://github.com/martenole)
