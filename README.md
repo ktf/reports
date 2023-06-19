@@ -77,6 +77,7 @@
 - [\#11479](https://github.com/AliceO2Group/AliceO2/pull/11479) 2023-06-13: DPL: drop unneeded index for the DataProcessingStates by [@ktf](https://github.com/ktf)
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
 - [\#11494](https://github.com/AliceO2Group/AliceO2/pull/11494) 2023-06-14: Allow setting condition-tf-per-query-multiplier from env var by [@shahor02](https://github.com/shahor02)
+- [\#11499](https://github.com/AliceO2Group/AliceO2/pull/11499) 2023-06-19: DPL Analysis: fix warnings by [@aalkin](https://github.com/aalkin)
 - [\#11501](https://github.com/AliceO2Group/AliceO2/pull/11501) 2023-06-15: DPL: warn if we are unable to forward on a channel by [@ktf](https://github.com/ktf)
 - [\#11508](https://github.com/AliceO2Group/AliceO2/pull/11508) 2023-06-16: DPL: runNumber can never change to zero by [@martenole](https://github.com/martenole)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
