@@ -55,6 +55,7 @@
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
+- [\#11504](https://github.com/AliceO2Group/AliceO2/pull/11504) 2023-06-19: ALICE3-TRK: Add TRK services for including cold plate by [@mconcas](https://github.com/mconcas)
 - [\#11505](https://github.com/AliceO2Group/AliceO2/pull/11505) 2023-06-19: [O2-1787] Implementation of the Beam Pipe Support inside the ITS Cage on the A Side by [@mario6829](https://github.com/mario6829)
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 - [\#11507](https://github.com/AliceO2Group/AliceO2/pull/11507) 2023-06-19: ZDC - Update CCDB access in ZDC digitization by [@cortesep](https://github.com/cortesep)
