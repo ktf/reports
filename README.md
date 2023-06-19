@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
+- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11436](https://github.com/AliceO2Group/AliceO2/pull/11436) 2023-06-05: Introduce Run Summary by [@ktf](https://github.com/ktf)
 - [\#11442](https://github.com/AliceO2Group/AliceO2/pull/11442) 2023-06-06: use proc.ID in random string generation by [@shahor02](https://github.com/shahor02)
@@ -58,6 +59,7 @@
 - [\#11510](https://github.com/AliceO2Group/AliceO2/pull/11510) 2023-06-16: Fixes for cosmic tracking and alignment by [@shahor02](https://github.com/shahor02)
 - [\#11514](https://github.com/AliceO2Group/AliceO2/pull/11514) 2023-06-16: TPC Workflow: fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
+- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
@@ -74,6 +76,7 @@
 - [\#11494](https://github.com/AliceO2Group/AliceO2/pull/11494) 2023-06-14: Allow setting condition-tf-per-query-multiplier from env var by [@shahor02](https://github.com/shahor02)
 - [\#11501](https://github.com/AliceO2Group/AliceO2/pull/11501) 2023-06-15: DPL: warn if we are unable to forward on a channel by [@ktf](https://github.com/ktf)
 - [\#11508](https://github.com/AliceO2Group/AliceO2/pull/11508) 2023-06-16: DPL: runNumber can never change to zero by [@martenole](https://github.com/martenole)
+- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11521](https://github.com/AliceO2Group/AliceO2/pull/11521) 2023-06-17: DPL: Do not wait in consumeWhenAny if conditions for current timeslice have already been consumed by [@davidrohr](https://github.com/davidrohr)
 - [\#11525](https://github.com/AliceO2Group/AliceO2/pull/11525) 2023-06-19: DPL: Create consumeWhenAnyWithAllConditions completion policy, and revert consumeWhenAny to original behavior by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
