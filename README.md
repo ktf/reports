@@ -9,6 +9,7 @@
 - [\#11442](https://github.com/AliceO2Group/AliceO2/pull/11442) 2023-06-06: use proc.ID in random string generation by [@shahor02](https://github.com/shahor02)
 - [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
+- [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
