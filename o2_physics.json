@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-04T08:55:42Z",
-            "title": "PWGHF: name of DecLength histos fixed for Xic task",
-            "number": 2748,
-            "author": {
-              "login": "cterrevo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-04T18:12:33Z",
             "title": "LF: Update spectraTOF.cxx with complementary info",
             "number": 2749,
@@ -2791,6 +2771,36 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lambdakzeromcfinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Fix for Signal status in MC Rec in D0-hadron correlations and inplement event mixing",
+            "number": 2848,
+            "author": {
+              "login": "samrangy"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
                   }
                 }
               ]
