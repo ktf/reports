@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-06T18:35:49Z",
-            "title": "LF: spectra add FV0A",
-            "number": 2764,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-07T15:06:03Z",
             "title": "PWGDQ: Adding collision index for dilepton -hadron combination",
             "number": 2765,
@@ -2799,8 +2779,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-06-21T16:53:31Z",
             "title": "PWGHF: Fix use of wrong abs",
             "number": 2859,
             "author": {
@@ -3411,6 +3391,51 @@
                 {
                   "node": {
                     "path": "PWGHF/Utils/utilsDebugLcToK0sP.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move cascade task to data model + v0 post processing",
+            "number": 2864,
+            "author": {
+              "login": "ercolessi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/cascqaanalysis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascqaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/v0qaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/v0postprocessing.cxx"
                   }
                 }
               ]
