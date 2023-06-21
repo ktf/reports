@@ -88,7 +88,6 @@
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-- [\#11432](https://github.com/AliceO2Group/AliceO2/pull/11432) 2023-06-14: Enable using CCDB VDrift in TPC Digitizer by [@shahor02](https://github.com/shahor02)
 - [\#11456](https://github.com/AliceO2Group/AliceO2/pull/11456) 2023-06-13: FT0Digitizer: fixing misleading option --use-ccdb-ft0 by [@afurs](https://github.com/afurs)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11484](https://github.com/AliceO2Group/AliceO2/pull/11484) 2023-06-12: Adding a toy/test workflow that asks dpl-ccdb-fetcher for abitrary li… by [@sawenzel](https://github.com/sawenzel)
