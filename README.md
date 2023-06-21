@@ -85,6 +85,7 @@
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11521](https://github.com/AliceO2Group/AliceO2/pull/11521) 2023-06-17: DPL: Do not wait in consumeWhenAny if conditions for current timeslice have already been consumed by [@davidrohr](https://github.com/davidrohr)
 - [\#11525](https://github.com/AliceO2Group/AliceO2/pull/11525) 2023-06-19: DPL: Create consumeWhenAnyWithAllConditions completion policy, and revert consumeWhenAny to original behavior by [@davidrohr](https://github.com/davidrohr)
+- [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
