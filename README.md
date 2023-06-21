@@ -22,7 +22,6 @@
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11435](https://github.com/AliceO2Group/AliceO2/pull/11435) 2023-06-04: keep track in the last refitted sector frame by [@shahor02](https://github.com/shahor02)
 - [\#11439](https://github.com/AliceO2Group/AliceO2/pull/11439) 2023-06-06: Strangeness tracking: Mother mass calculation: pass arrays by reference by [@creetz16](https://github.com/creetz16)
 - [\#11440](https://github.com/AliceO2Group/AliceO2/pull/11440) 2023-06-06: Fix TRD sim param busy time by [@martenole](https://github.com/martenole)
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
