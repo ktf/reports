@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-06T08:26:39Z",
-            "title": "Strangeness tracking: Mother mass calculation: pass arrays by reference",
-            "number": 11439,
-            "author": {
-              "login": "creetz16"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/tracking/include/StrangenessTracking/StrangenessTracker.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-06T06:41:51Z",
             "title": "Fix TRD sim param busy time",
             "number": 11440,
@@ -3651,6 +3631,51 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/simulation/src/V3Cage.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[WIP] Add TRD Pulse Height",
+            "number": 11540,
+            "author": {
+              "login": "maroozm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/include/TRDCalibration/PulseHeight.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/calibration/src/PulseHeight.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/TRDPulseHeightSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
                   }
                 }
               ]
