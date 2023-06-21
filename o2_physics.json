@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-07T10:38:39Z",
-            "title": "PWGHF: bug fixes for correlatorDMesonPairs.cxx and taskCorrelationDMesonPairs.cxx",
-            "number": 2759,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorDMesonPairs.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-06T10:56:33Z",
             "title": "PWGCF: Remove unnecessary logging in FemtoDream",
             "number": 2760,
@@ -2872,11 +2847,6 @@
                   "node": {
                     "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
                   }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
                 }
               ]
             }
@@ -2906,6 +2876,36 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/PID/pidTOFFull.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Fix use of wrong abs",
+            "number": 2859,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0D0bar.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorD0D0barBarrelFullPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/TableProducer/correlatorDplusDminus.cxx"
                   }
                 }
               ]
