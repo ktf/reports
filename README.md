@@ -58,6 +58,7 @@
 - [\#11522](https://github.com/AliceO2Group/AliceO2/pull/11522) 2023-06-19: Suppress negative start orbit warning for SYNTHETIC runs by [@davidrohr](https://github.com/davidrohr)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11530](https://github.com/AliceO2Group/AliceO2/pull/11530) 2023-06-21: FV0 digit writer fix branch definitions by [@martenole](https://github.com/martenole)
+- [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11537](https://github.com/AliceO2Group/AliceO2/pull/11537) 2023-06-21: ITS simulation remove redundant void by [@martenole](https://github.com/martenole)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
@@ -81,6 +82,7 @@
 - [\#11521](https://github.com/AliceO2Group/AliceO2/pull/11521) 2023-06-17: DPL: Do not wait in consumeWhenAny if conditions for current timeslice have already been consumed by [@davidrohr](https://github.com/davidrohr)
 - [\#11525](https://github.com/AliceO2Group/AliceO2/pull/11525) 2023-06-19: DPL: Create consumeWhenAnyWithAllConditions completion policy, and revert consumeWhenAny to original behavior by [@davidrohr](https://github.com/davidrohr)
 - [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
+- [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Generators
 - [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
