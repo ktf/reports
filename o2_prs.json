@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-06T06:41:51Z",
-            "title": "Fix TRD sim param busy time",
-            "number": 11440,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/simulation/include/TRDSimulation/TRDSimParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-06T09:36:21Z",
             "title": "Forgot to check the update MD return code",
             "number": 11441,
@@ -3676,6 +3651,26 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/trd-tracking-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: enable core dumps when O2_NO_CATCHALL_EXCEPTIONS is defined",
+            "number": 11541,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]
