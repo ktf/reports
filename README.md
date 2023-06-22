@@ -21,7 +21,6 @@
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11449](https://github.com/AliceO2Group/AliceO2/pull/11449) 2023-06-09: CTP: RawDataReader params changesL filter added by [@lietava](https://github.com/lietava)
 - [\#11451](https://github.com/AliceO2Group/AliceO2/pull/11451) 2023-06-08: TPC residual extraction: add TPC dEdx by [@martenole](https://github.com/martenole)
