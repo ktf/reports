@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-08T08:43:48Z",
-            "title": "Added CleanFIT histograms per FIT detectors",
-            "number": 2776,
-            "author": {
-              "login": "akhatun"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/AQC/udQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-08T09:12:09Z",
             "title": "PWGHF: Remove Lc selection when filling the MC tree",
             "number": 2777,
@@ -3371,6 +3351,36 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/treeCreatorToXiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Nch at midrapidity quick estimate in centrality QA",
+            "number": 2876,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/Multiplicity.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/multiplicityTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/centralityQa.cxx"
                   }
                 }
               ]
