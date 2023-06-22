@@ -19,6 +19,7 @@
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
+- [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#11441](https://github.com/AliceO2Group/AliceO2/pull/11441) 2023-06-06: Forgot to check the update MD return code by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11448](https://github.com/AliceO2Group/AliceO2/pull/11448) 2023-06-09: Speed by [@gvolpe79](https://github.com/gvolpe79)
@@ -59,6 +60,7 @@
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11530](https://github.com/AliceO2Group/AliceO2/pull/11530) 2023-06-21: FV0 digit writer fix branch definitions by [@martenole](https://github.com/martenole)
 - [\#11537](https://github.com/AliceO2Group/AliceO2/pull/11537) 2023-06-21: ITS simulation remove redundant void by [@martenole](https://github.com/martenole)
+- [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
