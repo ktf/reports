@@ -81,8 +81,6 @@
 - [\#11525](https://github.com/AliceO2Group/AliceO2/pull/11525) 2023-06-19: DPL: Create consumeWhenAnyWithAllConditions completion policy, and revert consumeWhenAny to original behavior by [@davidrohr](https://github.com/davidrohr)
 - [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
-## Recent developments in O2 - Generators
-- [\#11444](https://github.com/AliceO2Group/AliceO2/pull/11444) 2023-06-06: make init of QEDepem more robust by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 - [\#11456](https://github.com/AliceO2Group/AliceO2/pull/11456) 2023-06-13: FT0Digitizer: fixing misleading option --use-ccdb-ft0 by [@afurs](https://github.com/afurs)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
