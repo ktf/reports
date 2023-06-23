@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-08T08:46:28Z",
-            "title": "TPC residual extraction: add TPC dEdx",
-            "number": 11451,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/include/SpacePoints/TrackInterpolation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-08T08:31:50Z",
             "title": "ITS-Studies: add skeleton of an entrypoint for generic ITS-related studies",
             "number": 11452,
@@ -3686,6 +3661,66 @@
                 {
                   "node": {
                     "path": "CCDB/test/testCcdbApiDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "WIP: TRD raw data display ",
+            "number": 11552,
+            "author": {
+              "login": "tdietel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/include/TRDQC/CoordinateTransformer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/include/TRDQC/RawDataManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/include/TRDQC/RawDisplay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/macros/DrawMCMs.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/CoordinateTransformer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/RawDataManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/RawDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/qc/src/TRDQCLinkDef.h"
                   }
                 }
               ]
