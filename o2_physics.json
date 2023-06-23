@@ -5,116 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-15T06:35:59Z",
-            "title": "[Common] Move code for track-to-collision association in dedicated class",
-            "number": 2785,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CollisionAssociation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/Core/CollisionAssociation.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/DataModel/CollisionAssociationTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/fwdtrackToCollisionAssociator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/trackToCollisionAssociator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/TableProducer/tableMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/candidateCreatorB0Reduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorDplusPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorB0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorBplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorSigmac0plusplus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorToXiPi.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Tasks/taskMcValidation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/TableProducer/trackPropagation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-12T08:53:12Z",
             "title": "PWGHF: add abs value in selections, use registry, add inv mass cut ToXiPi tasks",
             "number": 2786,
@@ -3406,6 +3296,31 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lambdakzeromcfinder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Cascade Task Update",
+            "number": 2885,
+            "author": {
+              "login": "nepeivodaRS"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascqaanalysis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/cascpostprocessing.cxx"
                   }
                 }
               ]
