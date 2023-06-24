@@ -4,7 +4,6 @@
 - [\#11454](https://github.com/AliceO2Group/AliceO2/pull/11454) 2023-06-09: DPL: early release of buffers in aod reader by [@ktf](https://github.com/ktf)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
@@ -18,7 +17,6 @@
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11453](https://github.com/AliceO2Group/AliceO2/pull/11453) 2023-06-08: Fixes in application of the IRFrame shift by [@shahor02](https://github.com/shahor02)
 - [\#11455](https://github.com/AliceO2Group/AliceO2/pull/11455) 2023-06-08: Skip ROF ramp up data by default, silence desync.message at ramp up by [@shahor02](https://github.com/shahor02)
 - [\#11457](https://github.com/AliceO2Group/AliceO2/pull/11457) 2023-06-08: Residual aggregator finalizes slots upon state transition and does no… by [@martenole](https://github.com/martenole)
 - [\#11458](https://github.com/AliceO2Group/AliceO2/pull/11458) 2023-06-13: Add barrel track propagation to PV at AOD creation stage by [@nburmaso](https://github.com/nburmaso)
