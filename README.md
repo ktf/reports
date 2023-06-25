@@ -34,6 +34,7 @@
 - [\#11477](https://github.com/AliceO2Group/AliceO2/pull/11477) 2023-06-12: Optional cut for TPCtracks.getX used for SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11478](https://github.com/AliceO2Group/AliceO2/pull/11478) 2023-06-12: TPC track interpolation optionally store outer parameter for debugging by [@martenole](https://github.com/martenole)
 - [\#11480](https://github.com/AliceO2Group/AliceO2/pull/11480) 2023-06-12: Enable by default 3-body vertexing by [@mpuccio](https://github.com/mpuccio)
+- [\#11485](https://github.com/AliceO2Group/AliceO2/pull/11485) 2023-06-25: Add TRD pulse height DPL device (dummy) by [@martenole](https://github.com/martenole)
 - [\#11486](https://github.com/AliceO2Group/AliceO2/pull/11486) 2023-06-12: Some uncorrelated improvements by [@martenole](https://github.com/martenole)
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
