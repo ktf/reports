@@ -84,3 +84,4 @@
 - [\#11488](https://github.com/AliceO2Group/AliceO2/pull/11488) 2023-06-13: generalization by [@sawenzel](https://github.com/sawenzel)
 - [\#11507](https://github.com/AliceO2Group/AliceO2/pull/11507) 2023-06-19: ZDC - Update CCDB access in ZDC digitization by [@cortesep](https://github.com/cortesep)
 - [\#11526](https://github.com/AliceO2Group/AliceO2/pull/11526) 2023-06-18: Revert "Enable using CCDB VDrift in TPC Digitizer" by [@shahor02](https://github.com/shahor02)
+- [\#11542](https://github.com/AliceO2Group/AliceO2/pull/11542) 2023-06-25: VDrift fetching in TPC digitization with ConsumeAfterConditions policy by [@shahor02](https://github.com/shahor02)
