@@ -76,6 +76,8 @@
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11553](https://github.com/AliceO2Group/AliceO2/pull/11553) 2023-06-24: Use pageCounter instead of packetCounter to detect packet loss by [@davidrohr](https://github.com/davidrohr)
 - [\#11555](https://github.com/AliceO2Group/AliceO2/pull/11555) 2023-06-26: DPL: Never do autoBind for DPL Channels by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+- [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11484](https://github.com/AliceO2Group/AliceO2/pull/11484) 2023-06-12: Adding a toy/test workflow that asks dpl-ccdb-fetcher for abitrary li… by [@sawenzel](https://github.com/sawenzel)
