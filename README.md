@@ -17,7 +17,6 @@
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11458](https://github.com/AliceO2Group/AliceO2/pull/11458) 2023-06-13: Add barrel track propagation to PV at AOD creation stage by [@nburmaso](https://github.com/nburmaso)
 - [\#11460](https://github.com/AliceO2Group/AliceO2/pull/11460) 2023-06-08: Condtion ctf*root.part -> ctf.root renaming by creation of metafile by [@shahor02](https://github.com/shahor02)
 - [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11464](https://github.com/AliceO2Group/AliceO2/pull/11464) 2023-06-09: TPC: Fix detection of old-style LinkZS in TPC raw2digit converter by [@davidrohr](https://github.com/davidrohr)
