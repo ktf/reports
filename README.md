@@ -77,7 +77,6 @@
 - [\#11553](https://github.com/AliceO2Group/AliceO2/pull/11553) 2023-06-24: Use pageCounter instead of packetCounter to detect packet loss by [@davidrohr](https://github.com/davidrohr)
 - [\#11555](https://github.com/AliceO2Group/AliceO2/pull/11555) 2023-06-26: DPL: Never do autoBind for DPL Channels by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-- [\#11456](https://github.com/AliceO2Group/AliceO2/pull/11456) 2023-06-13: FT0Digitizer: fixing misleading option --use-ccdb-ft0 by [@afurs](https://github.com/afurs)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11484](https://github.com/AliceO2Group/AliceO2/pull/11484) 2023-06-12: Adding a toy/test workflow that asks dpl-ccdb-fetcher for abitrary li… by [@sawenzel](https://github.com/sawenzel)
 - [\#11488](https://github.com/AliceO2Group/AliceO2/pull/11488) 2023-06-13: generalization by [@sawenzel](https://github.com/sawenzel)

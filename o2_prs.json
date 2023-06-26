@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-13T09:36:24Z",
-            "title": "FT0Digitizer: fixing misleading option --use-ccdb-ft0",
-            "number": 11456,
-            "author": {
-              "login": "afurs"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-08T18:56:00Z",
             "title": "Residual aggregator finalizes slots upon state transition and does no…",
             "number": 11457,
@@ -3691,6 +3671,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Mass function wrapper to O2DatabasePDG service",
+            "number": 11557,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_O2DatabasePDG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/include/Framework/O2DatabasePDGPlugin.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/src/Plugin.cxx"
                   }
                 }
               ]
