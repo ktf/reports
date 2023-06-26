@@ -17,7 +17,6 @@
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-- [\#11455](https://github.com/AliceO2Group/AliceO2/pull/11455) 2023-06-08: Skip ROF ramp up data by default, silence desync.message at ramp up by [@shahor02](https://github.com/shahor02)
 - [\#11457](https://github.com/AliceO2Group/AliceO2/pull/11457) 2023-06-08: Residual aggregator finalizes slots upon state transition and does no… by [@martenole](https://github.com/martenole)
 - [\#11458](https://github.com/AliceO2Group/AliceO2/pull/11458) 2023-06-13: Add barrel track propagation to PV at AOD creation stage by [@nburmaso](https://github.com/nburmaso)
 - [\#11460](https://github.com/AliceO2Group/AliceO2/pull/11460) 2023-06-08: Condtion ctf*root.part -> ctf.root renaming by creation of metafile by [@shahor02](https://github.com/shahor02)
