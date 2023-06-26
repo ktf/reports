@@ -41,6 +41,7 @@
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 - [\#11507](https://github.com/AliceO2Group/AliceO2/pull/11507) 2023-06-19: ZDC - Update CCDB access in ZDC digitization by [@cortesep](https://github.com/cortesep)
 - [\#11510](https://github.com/AliceO2Group/AliceO2/pull/11510) 2023-06-16: Fixes for cosmic tracking and alignment by [@shahor02](https://github.com/shahor02)
+- [\#11513](https://github.com/AliceO2Group/AliceO2/pull/11513) 2023-06-26: [FOCAL-12] Fixes in PadPedestal object for CCDB access by [@mfasDa](https://github.com/mfasDa)
 - [\#11514](https://github.com/AliceO2Group/AliceO2/pull/11514) 2023-06-16: TPC Workflow: fix typo by [@davidrohr](https://github.com/davidrohr)
 - [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
