@@ -7,7 +7,6 @@
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
@@ -16,7 +15,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11470](https://github.com/AliceO2Group/AliceO2/pull/11470) 2023-06-12: Enable strangeness tracking in production by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11472](https://github.com/AliceO2Group/AliceO2/pull/11472) 2023-06-14: GPU: Make the GPUWorkflowSpec able to run ITS tracking + unrelated changes by [@davidrohr](https://github.com/davidrohr)
