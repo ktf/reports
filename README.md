@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
@@ -53,8 +52,6 @@
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11466](https://github.com/AliceO2Group/AliceO2/pull/11466) 2023-06-09: DPL: fix plugin appending by [@ktf](https://github.com/ktf)
-- [\#11467](https://github.com/AliceO2Group/AliceO2/pull/11467) 2023-06-12: DPL: support more than one callback by [@ktf](https://github.com/ktf)
 - [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11479](https://github.com/AliceO2Group/AliceO2/pull/11479) 2023-06-13: DPL: drop unneeded index for the DataProcessingStates by [@ktf](https://github.com/ktf)
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
