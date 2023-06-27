@@ -7,7 +7,6 @@
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11481](https://github.com/AliceO2Group/AliceO2/pull/11481) 2023-06-14: Adjust Bits, account for FOCAL by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -17,7 +16,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11463](https://github.com/AliceO2Group/AliceO2/pull/11463) 2023-06-10: ITS-Studies: add k0sInvMass by [@mconcas](https://github.com/mconcas)
 - [\#11464](https://github.com/AliceO2Group/AliceO2/pull/11464) 2023-06-09: TPC: Fix detection of old-style LinkZS in TPC raw2digit converter by [@davidrohr](https://github.com/davidrohr)
 - [\#11465](https://github.com/AliceO2Group/AliceO2/pull/11465) 2023-06-09: Improvements to CTP-FT0 triggering in MC by [@sawenzel](https://github.com/sawenzel)
 - [\#11470](https://github.com/AliceO2Group/AliceO2/pull/11470) 2023-06-12: Enable strangeness tracking in production by [@fmazzasc](https://github.com/fmazzasc)
