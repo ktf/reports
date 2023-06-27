@@ -48,6 +48,7 @@
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11558](https://github.com/AliceO2Group/AliceO2/pull/11558) 2023-06-27: ITS-GPU: put standalone version at state of the art by [@mconcas](https://github.com/mconcas)
+- [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
