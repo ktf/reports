@@ -14,7 +14,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11470](https://github.com/AliceO2Group/AliceO2/pull/11470) 2023-06-12: Enable strangeness tracking in production by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11471](https://github.com/AliceO2Group/AliceO2/pull/11471) 2023-06-13: Distribution of CTP trigger within CollisionContext by [@sawenzel](https://github.com/sawenzel)
 - [\#11472](https://github.com/AliceO2Group/AliceO2/pull/11472) 2023-06-14: GPU: Make the GPUWorkflowSpec able to run ITS tracking + unrelated changes by [@davidrohr](https://github.com/davidrohr)
 - [\#11473](https://github.com/AliceO2Group/AliceO2/pull/11473) 2023-06-10: ctpdev: first hb lumi fix by [@lietava](https://github.com/lietava)
