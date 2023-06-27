@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-09T06:28:05Z",
-            "title": "dpl-workflow: Take NHBFPERTF and HIGH_RATE_PP into account when estimating max TF in flight",
-            "number": 11461,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-09T06:28:45Z",
             "title": "GPU: Output std::vector of ErrorCodes as GPU/ERRORQA in GPUWorkflow",
             "number": 11462,
@@ -3771,6 +3751,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix failing transformation test",
+            "number": 11562,
+            "author": {
+              "login": "bazinski"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/PadPlane.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/test/testCoordinateTransforms.cxx"
                   }
                 }
               ]
