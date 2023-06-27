@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-09T14:12:09Z",
-            "title": "sim_challenge: Correct configKeyValues",
-            "number": 11469,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/sim_challenge.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-12T20:46:16Z",
             "title": "Enable strangeness tracking in production",
             "number": 11470,
@@ -3721,6 +3701,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Use same binding everywhere to access CTPLumi input",
+            "number": 11570,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/EntropyDecoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/EntropyEncoderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflowIO/src/DigitWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
                   }
                 }
               ]
