@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-09T14:35:12Z",
-            "title": "TPC: Fix detection of old-style LinkZS in TPC raw2digit converter",
-            "number": 11464,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibProcessingHelper.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-09T15:25:06Z",
             "title": "Improvements to CTP-FT0 triggering in MC",
             "number": 11465,
@@ -3614,7 +3594,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Fix TRD geom transformation test",
             "number": 11563,
@@ -3656,6 +3636,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/base/src/TPCBaseLinkDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD fix pad coordinate test",
+            "number": 11565,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/src/PadPlane.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/test/testCoordinateTransforms.cxx"
                   }
                 }
               ]
