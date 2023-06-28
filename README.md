@@ -15,7 +15,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11476](https://github.com/AliceO2Group/AliceO2/pull/11476) 2023-06-11: ITS: removed EoS / non EoS option + fit for pulse shape 2D scan by [@iravasen](https://github.com/iravasen)
 - [\#11477](https://github.com/AliceO2Group/AliceO2/pull/11477) 2023-06-12: Optional cut for TPCtracks.getX used for SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11478](https://github.com/AliceO2Group/AliceO2/pull/11478) 2023-06-12: TPC track interpolation optionally store outer parameter for debugging by [@martenole](https://github.com/martenole)
@@ -54,7 +53,6 @@
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11475](https://github.com/AliceO2Group/AliceO2/pull/11475) 2023-06-13: Optionally combine entropy decoders to single device  by [@shahor02](https://github.com/shahor02)
 - [\#11479](https://github.com/AliceO2Group/AliceO2/pull/11479) 2023-06-13: DPL: drop unneeded index for the DataProcessingStates by [@ktf](https://github.com/ktf)
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
 - [\#11493](https://github.com/AliceO2Group/AliceO2/pull/11493) 2023-06-19: DPL Analysis: Table builder rework to reduce usage of `std::index_sequence` by [@aalkin](https://github.com/aalkin)
