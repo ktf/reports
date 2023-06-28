@@ -44,6 +44,7 @@
 - [\#11558](https://github.com/AliceO2Group/AliceO2/pull/11558) 2023-06-27: ITS-GPU: put standalone version at state of the art by [@mconcas](https://github.com/mconcas)
 - [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
 - [\#11562](https://github.com/AliceO2Group/AliceO2/pull/11562) 2023-06-27: TRD fix failing transformation test by [@bazinski](https://github.com/bazinski)
+- [\#11564](https://github.com/AliceO2Group/AliceO2/pull/11564) 2023-06-28: TPC: Updates in painter by [@wiechula](https://github.com/wiechula)
 - [\#11568](https://github.com/AliceO2Group/AliceO2/pull/11568) 2023-06-28: ZDC Fix TDC calibration by [@cortesep](https://github.com/cortesep)
 - [\#11570](https://github.com/AliceO2Group/AliceO2/pull/11570) 2023-06-28: Use same binding everywhere to access CTPLumi input by [@shahor02](https://github.com/shahor02)
 - [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
