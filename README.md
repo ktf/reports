@@ -47,6 +47,7 @@
 - [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
 - [\#11562](https://github.com/AliceO2Group/AliceO2/pull/11562) 2023-06-27: TRD fix failing transformation test by [@bazinski](https://github.com/bazinski)
 - [\#11570](https://github.com/AliceO2Group/AliceO2/pull/11570) 2023-06-28: Use same binding everywhere to access CTPLumi input by [@shahor02](https://github.com/shahor02)
+- [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
