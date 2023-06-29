@@ -77,6 +77,7 @@
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 - [\#11569](https://github.com/AliceO2Group/AliceO2/pull/11569) 2023-06-27: DPL: introduce the preLoopCallback by [@ktf](https://github.com/ktf)
 - [\#11577](https://github.com/AliceO2Group/AliceO2/pull/11577) 2023-06-29: DPL: optimize state flushing by [@ktf](https://github.com/ktf)
+- [\#11581](https://github.com/AliceO2Group/AliceO2/pull/11581) 2023-06-29: DPL: have dummy sink after AOD writer by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
