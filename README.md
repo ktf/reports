@@ -52,6 +52,7 @@
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
+- [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
 - [\#11492](https://github.com/AliceO2Group/AliceO2/pull/11492) 2023-06-14: Optionally prescale query for objects with non-default ccdb-query-rate by [@shahor02](https://github.com/shahor02)
 - [\#11493](https://github.com/AliceO2Group/AliceO2/pull/11493) 2023-06-19: DPL Analysis: Table builder rework to reduce usage of `std::index_sequence` by [@aalkin](https://github.com/aalkin)
