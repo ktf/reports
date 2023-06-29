@@ -48,6 +48,7 @@
 - [\#11570](https://github.com/AliceO2Group/AliceO2/pull/11570) 2023-06-28: Use same binding everywhere to access CTPLumi input by [@shahor02](https://github.com/shahor02)
 - [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
+- [\#11580](https://github.com/AliceO2Group/AliceO2/pull/11580) 2023-06-29: set actual VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
