@@ -6,26 +6,6 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: add FinerBinning hists and fix hist titles on taskCorrelationDMesonPairs",
-            "number": 2824,
-            "author": {
-              "login": "atavirag"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationDMesonPairs.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
             "title": "PWGHF:  B+ reduced workflow",
             "number": 2825,
             "author": {
@@ -3575,6 +3555,11 @@
                 },
                 {
                   "node": {
+                    "path": "PWGHF/HFC/Tasks/taskFlow.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGHF/HFL/Tasks/CMakeLists.txt"
                   }
                 },
@@ -3726,6 +3711,71 @@
                 {
                   "node": {
                     "path": "Common/Tools/handleParamTPCResponse.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWG-UD: Added parameter maxFITtime to DGCutparHolder",
+            "number": 2924,
+            "author": {
+              "login": "pbuehler"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGUD/diffractionFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/AQC/udQC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGCutparHolder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGCutparHolder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/DGSelector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UDHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCDataScanner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/Tasks/diffQA.cxx"
                   }
                 }
               ]
