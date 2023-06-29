@@ -4,6 +4,7 @@
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
+- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
@@ -40,6 +41,7 @@
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11545](https://github.com/AliceO2Group/AliceO2/pull/11545) 2023-06-27: Introducing iCell selections by [@mpuccio](https://github.com/mpuccio)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
+- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 - [\#11558](https://github.com/AliceO2Group/AliceO2/pull/11558) 2023-06-27: ITS-GPU: put standalone version at state of the art by [@mconcas](https://github.com/mconcas)
 - [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
 - [\#11562](https://github.com/AliceO2Group/AliceO2/pull/11562) 2023-06-27: TRD fix failing transformation test by [@bazinski](https://github.com/bazinski)
@@ -70,6 +72,7 @@
 - [\#11541](https://github.com/AliceO2Group/AliceO2/pull/11541) 2023-06-26: DPL: enable core dumps when O2_NO_CATCHALL_EXCEPTIONS is defined by [@ktf](https://github.com/ktf)
 - [\#11553](https://github.com/AliceO2Group/AliceO2/pull/11553) 2023-06-24: Use pageCounter instead of packetCounter to detect packet loss by [@davidrohr](https://github.com/davidrohr)
 - [\#11555](https://github.com/AliceO2Group/AliceO2/pull/11555) 2023-06-26: DPL: Never do autoBind for DPL Channels by [@ktf](https://github.com/ktf)
+- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 - [\#11569](https://github.com/AliceO2Group/AliceO2/pull/11569) 2023-06-27: DPL: introduce the preLoopCallback by [@ktf](https://github.com/ktf)
