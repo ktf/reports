@@ -80,7 +80,6 @@
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
-- [\#11488](https://github.com/AliceO2Group/AliceO2/pull/11488) 2023-06-13: generalization by [@sawenzel](https://github.com/sawenzel)
 - [\#11507](https://github.com/AliceO2Group/AliceO2/pull/11507) 2023-06-19: ZDC - Update CCDB access in ZDC digitization by [@cortesep](https://github.com/cortesep)
 - [\#11526](https://github.com/AliceO2Group/AliceO2/pull/11526) 2023-06-18: Revert "Enable using CCDB VDrift in TPC Digitizer" by [@shahor02](https://github.com/shahor02)
 - [\#11529](https://github.com/AliceO2Group/AliceO2/pull/11529) 2023-06-26: FT0Digitizer: hotfix for default value in --use-ft0-ccdb option by [@afurs](https://github.com/afurs)
