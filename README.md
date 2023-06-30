@@ -15,7 +15,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11487](https://github.com/AliceO2Group/AliceO2/pull/11487) 2023-06-27: MFT barrel positioning by [@frmanso](https://github.com/frmanso)
 - [\#11490](https://github.com/AliceO2Group/AliceO2/pull/11490) 2023-06-29: [EMCAL-565] Add fucntionality to only select specific trigger in calib by [@jokonig](https://github.com/jokonig)
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
@@ -77,6 +76,7 @@
 - [\#11576](https://github.com/AliceO2Group/AliceO2/pull/11576) 2023-06-29: DPL: add ability to specify metadata for the  data processor by [@ktf](https://github.com/ktf)
 - [\#11577](https://github.com/AliceO2Group/AliceO2/pull/11577) 2023-06-29: DPL: optimize state flushing by [@ktf](https://github.com/ktf)
 - [\#11581](https://github.com/AliceO2Group/AliceO2/pull/11581) 2023-06-29: DPL: have dummy sink after AOD writer by [@ktf](https://github.com/ktf)
+- [\#11587](https://github.com/AliceO2Group/AliceO2/pull/11587) 2023-06-30: DPL: Online mode should use default pipeline size of 512, since it mitigates some hangs we are seeing (which are still to be understood) by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer

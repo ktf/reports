@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-27T15:48:44Z",
-            "title": "MFT barrel positioning",
-            "number": 11487,
-            "author": {
-              "login": "frmanso"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/base/src/GeometryBuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-13T11:10:57Z",
             "title": "generalization",
             "number": 11488,
@@ -3596,6 +3576,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-06-30T06:47:24Z",
+            "title": "DPL: Online mode should use default pipeline size of 512, since it mitigates some hangs we are seeing (which are still to be understood)",
+            "number": 11587,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DefaultsHelpers.cxx"
                   }
                 }
               ]
