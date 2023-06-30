@@ -15,7 +15,6 @@
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-- [\#11490](https://github.com/AliceO2Group/AliceO2/pull/11490) 2023-06-29: [EMCAL-565] Add fucntionality to only select specific trigger in calib by [@jokonig](https://github.com/jokonig)
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
