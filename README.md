@@ -16,7 +16,6 @@
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
 - [\#11498](https://github.com/AliceO2Group/AliceO2/pull/11498) 2023-06-15: TPC: Add functionality to DCS values by [@wiechula](https://github.com/wiechula)
 - [\#11504](https://github.com/AliceO2Group/AliceO2/pull/11504) 2023-06-19: ALICE3-TRK: Add TRK services for including cold plate by [@mconcas](https://github.com/mconcas)
