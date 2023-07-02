@@ -14,6 +14,7 @@
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+- [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 - [\#11496](https://github.com/AliceO2Group/AliceO2/pull/11496) 2023-06-14: grp creator will fill RCT CCDB also for COSMIC runs by [@shahor02](https://github.com/shahor02)
 - [\#11497](https://github.com/AliceO2Group/AliceO2/pull/11497) 2023-06-15: ALICE3-TRK: Rewrite TRK simulation from scratch by [@mconcas](https://github.com/mconcas)
@@ -48,6 +49,7 @@
 - [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
 - [\#11580](https://github.com/AliceO2Group/AliceO2/pull/11580) 2023-06-29: set actual VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
+- [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Examples
 - [\#11515](https://github.com/AliceO2Group/AliceO2/pull/11515) 2023-06-16: Stability improvements for sim-as-service by [@sawenzel](https://github.com/sawenzel)
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
