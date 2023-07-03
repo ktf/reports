@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-21T06:37:05Z",
-            "title": "[PWGLF] Add switch for multiplicity estimator and qa",
-            "number": 2854,
-            "author": {
-              "login": "jikim1290"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/LFResonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Utils/collisionCuts.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-22T11:38:18Z",
             "title": "Add getters for pt/eta res in track smearer",
             "number": 2855,
@@ -3472,11 +3447,6 @@
                   "node": {
                     "path": "PWGLF/Tasks/AntimatterAbsorptionHMPID.cxx"
                   }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/CMakeLists.txt"
-                  }
                 }
               ]
             }
@@ -3541,7 +3511,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: change indexes and defult configurable value in toXiPi tasks",
+            "title": "PWGHF: change indexes in toXiPi tasks",
             "number": 2941,
             "author": {
               "login": "ZFederica"
@@ -3866,6 +3836,31 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: fix cascade and V0 PID in filters",
+            "number": 2954,
+            "author": {
+              "login": "ZFederica"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
                   }
                 }
               ]
