@@ -51,7 +51,6 @@
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11501](https://github.com/AliceO2Group/AliceO2/pull/11501) 2023-06-15: DPL: warn if we are unable to forward on a channel by [@ktf](https://github.com/ktf)
 - [\#11503](https://github.com/AliceO2Group/AliceO2/pull/11503) 2023-06-19: DPL Analysis: minor updates in Expressions; ncheckbit helper by [@aalkin](https://github.com/aalkin)
 - [\#11508](https://github.com/AliceO2Group/AliceO2/pull/11508) 2023-06-16: DPL: runNumber can never change to zero by [@martenole](https://github.com/martenole)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
