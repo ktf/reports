@@ -74,6 +74,7 @@
 - [\#11596](https://github.com/AliceO2Group/AliceO2/pull/11596) 2023-07-03: Misc RunSummary improvements by [@ktf](https://github.com/ktf)
 - [\#11597](https://github.com/AliceO2Group/AliceO2/pull/11597) 2023-07-03: DPL: add ability to lock a registry for thread safety by [@ktf](https://github.com/ktf)
 - [\#11599](https://github.com/AliceO2Group/AliceO2/pull/11599) 2023-07-03: DPL GUI: fix warning due to different 64 bit type by [@ktf](https://github.com/ktf)
+- [\#11601](https://github.com/AliceO2Group/AliceO2/pull/11601) 2023-07-03: DPL: move the nextTimeslice to the decongestion service by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
