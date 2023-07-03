@@ -70,6 +70,7 @@
 - [\#11577](https://github.com/AliceO2Group/AliceO2/pull/11577) 2023-06-29: DPL: optimize state flushing by [@ktf](https://github.com/ktf)
 - [\#11581](https://github.com/AliceO2Group/AliceO2/pull/11581) 2023-06-29: DPL: have dummy sink after AOD writer by [@ktf](https://github.com/ktf)
 - [\#11587](https://github.com/AliceO2Group/AliceO2/pull/11587) 2023-06-30: DPL: Online mode should use default pipeline size of 512, since it mitigates some hangs we are seeing (which are still to be understood) by [@davidrohr](https://github.com/davidrohr)
+- [\#11596](https://github.com/AliceO2Group/AliceO2/pull/11596) 2023-07-03: Misc RunSummary improvements by [@ktf](https://github.com/ktf)
 - [\#11599](https://github.com/AliceO2Group/AliceO2/pull/11599) 2023-07-03: DPL GUI: fix warning due to different 64 bit type by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
