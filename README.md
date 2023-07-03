@@ -16,7 +16,6 @@
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11504](https://github.com/AliceO2Group/AliceO2/pull/11504) 2023-06-19: ALICE3-TRK: Add TRK services for including cold plate by [@mconcas](https://github.com/mconcas)
 - [\#11505](https://github.com/AliceO2Group/AliceO2/pull/11505) 2023-06-19: [O2-1787] Implementation of the Beam Pipe Support inside the ITS Cage on the A Side by [@mario6829](https://github.com/mario6829)
 - [\#11506](https://github.com/AliceO2Group/AliceO2/pull/11506) 2023-06-15: Add debug output to TPC residual aggregator by [@martenole](https://github.com/martenole)
 - [\#11507](https://github.com/AliceO2Group/AliceO2/pull/11507) 2023-06-19: ZDC - Update CCDB access in ZDC digitization by [@cortesep](https://github.com/cortesep)
