@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-19T07:27:08Z",
-            "title": "[O2-1787] Implementation of the Beam Pipe Support inside the ITS Cage on the A Side",
-            "number": 11505,
-            "author": {
-              "login": "mario6829"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/include/ITSSimulation/V3Cage.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/V3Cage.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/simulation/src/V3Services.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-15T14:34:33Z",
             "title": "Add debug output to TPC residual aggregator",
             "number": 11506,
@@ -3246,6 +3211,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DecongestionService.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "EMCAL: If CTP not present, do not process CTP data",
+            "number": 11605,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/testWorkflow/EMCALChannelCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
                   }
                 }
               ]
