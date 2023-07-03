@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Improve simulation reproducibility with Geant4",
-            "number": 11500,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/ConfigurationMacroHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Stack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/VMCSeederService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/MCTrackToDPL/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-06-15T20:18:01Z",
             "title": "DPL: warn if we are unable to forward on a channel",
@@ -3531,6 +3476,26 @@
                 {
                   "node": {
                     "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS-gpu: fix warning due to changed constructor",
+            "number": 11600,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cu"
                   }
                 }
               ]
