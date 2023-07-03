@@ -53,7 +53,6 @@
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11503](https://github.com/AliceO2Group/AliceO2/pull/11503) 2023-06-19: DPL Analysis: minor updates in Expressions; ncheckbit helper by [@aalkin](https://github.com/aalkin)
 - [\#11508](https://github.com/AliceO2Group/AliceO2/pull/11508) 2023-06-16: DPL: runNumber can never change to zero by [@martenole](https://github.com/martenole)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11521](https://github.com/AliceO2Group/AliceO2/pull/11521) 2023-06-17: DPL: Do not wait in consumeWhenAny if conditions for current timeslice have already been consumed by [@davidrohr](https://github.com/davidrohr)
