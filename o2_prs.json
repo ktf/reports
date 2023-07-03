@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-15T14:34:33Z",
-            "title": "Add debug output to TPC residual aggregator",
-            "number": 11506,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tpcinterpolationworkflow/include/TPCInterpolationWorkflow/TPCResidualAggregatorSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-19T07:35:09Z",
             "title": "ZDC - Update CCDB access in ZDC digitization",
             "number": 11507,
@@ -3241,6 +3221,31 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: attempt at supporting multiple output proxies",
+            "number": 11606,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
                   }
                 }
               ]
