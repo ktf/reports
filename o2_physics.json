@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-21T20:22:32Z",
-            "title": "strangeness tab.prod.: add bachelor-baryon corr tagger",
-            "number": 2860,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/cascadelabelbuilder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/lambdakzerobuilder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-21T15:23:31Z",
             "title": "NucleiHistTask: Update",
             "number": 2861,
@@ -2635,6 +2605,11 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Common/TableProducer/PID/pidTPCFull.cxx"
                   }
                 },
@@ -3846,6 +3821,26 @@
                 {
                   "node": {
                     "path": "Common/Tasks/multiplicityQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Histos of detector-specific PID separate in charge",
+            "number": 2960,
+            "author": {
+              "login": "rosarioturrisi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
                   }
                 }
               ]
