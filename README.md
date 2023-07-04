@@ -43,6 +43,7 @@
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
 - [\#11580](https://github.com/AliceO2Group/AliceO2/pull/11580) 2023-06-29: set actual VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
+- [\#11598](https://github.com/AliceO2Group/AliceO2/pull/11598) 2023-07-04: Fix matLUT compactification + extraction of layers group covering R range. by [@shahor02](https://github.com/shahor02)
 - [\#11600](https://github.com/AliceO2Group/AliceO2/pull/11600) 2023-07-03: ITS-gpu: fix warning due to changed constructor by [@mconcas](https://github.com/mconcas)
 - [\#11605](https://github.com/AliceO2Group/AliceO2/pull/11605) 2023-07-03: EMCAL: If CTP not present, do not process CTP data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
