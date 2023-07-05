@@ -70,6 +70,7 @@
 - [\#11601](https://github.com/AliceO2Group/AliceO2/pull/11601) 2023-07-03: DPL: move the nextTimeslice to the decongestion service by [@ktf](https://github.com/ktf)
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11607](https://github.com/AliceO2Group/AliceO2/pull/11607) 2023-07-04: DPL GUI: add signposts to profiles by [@ktf](https://github.com/ktf)
+- [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
