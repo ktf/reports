@@ -17,7 +17,6 @@
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11516](https://github.com/AliceO2Group/AliceO2/pull/11516) 2023-06-16: Fix mass hypothesis for antiparticles by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11522](https://github.com/AliceO2Group/AliceO2/pull/11522) 2023-06-19: Suppress negative start orbit warning for SYNTHETIC runs by [@davidrohr](https://github.com/davidrohr)
