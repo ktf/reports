@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#11519](https://github.com/AliceO2Group/AliceO2/pull/11519) 2023-06-19: Use SHM in hit allocators only in compiled mode by [@sawenzel](https://github.com/sawenzel)
@@ -17,7 +16,6 @@
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11518](https://github.com/AliceO2Group/AliceO2/pull/11518) 2023-06-16: Adding SOX and EOX to RCT CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 - [\#11522](https://github.com/AliceO2Group/AliceO2/pull/11522) 2023-06-19: Suppress negative start orbit warning for SYNTHETIC runs by [@davidrohr](https://github.com/davidrohr)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
@@ -48,7 +46,6 @@
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-- [\#11517](https://github.com/AliceO2Group/AliceO2/pull/11517) 2023-06-19: Allow early release tables by [@ktf](https://github.com/ktf)
 - [\#11521](https://github.com/AliceO2Group/AliceO2/pull/11521) 2023-06-17: DPL: Do not wait in consumeWhenAny if conditions for current timeslice have already been consumed by [@davidrohr](https://github.com/davidrohr)
 - [\#11525](https://github.com/AliceO2Group/AliceO2/pull/11525) 2023-06-19: DPL: Create consumeWhenAnyWithAllConditions completion policy, and revert consumeWhenAny to original behavior by [@davidrohr](https://github.com/davidrohr)
 - [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
