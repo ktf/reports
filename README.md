@@ -5,17 +5,14 @@
 ## Recent developments in O2 - Analysis
 - [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11530](https://github.com/AliceO2Group/AliceO2/pull/11530) 2023-06-21: FV0 digit writer fix branch definitions by [@martenole](https://github.com/martenole)
 - [\#11532](https://github.com/AliceO2Group/AliceO2/pull/11532) 2023-06-23: Modified the MFT Config to CCDB workflow. If the workflow receives un… by [@syano0822](https://github.com/syano0822)
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
