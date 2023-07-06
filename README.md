@@ -15,7 +15,6 @@
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11522](https://github.com/AliceO2Group/AliceO2/pull/11522) 2023-06-19: Suppress negative start orbit warning for SYNTHETIC runs by [@davidrohr](https://github.com/davidrohr)
 - [\#11524](https://github.com/AliceO2Group/AliceO2/pull/11524) 2023-06-18: Fix creation of CTF metadata file by [@shahor02](https://github.com/shahor02)
 - [\#11530](https://github.com/AliceO2Group/AliceO2/pull/11530) 2023-06-21: FV0 digit writer fix branch definitions by [@martenole](https://github.com/martenole)
 - [\#11532](https://github.com/AliceO2Group/AliceO2/pull/11532) 2023-06-23: Modified the MFT Config to CCDB workflow. If the workflow receives un… by [@syano0822](https://github.com/syano0822)
