@@ -40,6 +40,7 @@
 - [\#11598](https://github.com/AliceO2Group/AliceO2/pull/11598) 2023-07-04: Fix matLUT compactification + extraction of layers group covering R range. by [@shahor02](https://github.com/shahor02)
 - [\#11600](https://github.com/AliceO2Group/AliceO2/pull/11600) 2023-07-03: ITS-gpu: fix warning due to changed constructor by [@mconcas](https://github.com/mconcas)
 - [\#11605](https://github.com/AliceO2Group/AliceO2/pull/11605) 2023-07-03: EMCAL: If CTP not present, do not process CTP data by [@davidrohr](https://github.com/davidrohr)
+- [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
