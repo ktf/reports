@@ -14,7 +14,6 @@
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - Detectors
-- [\#11532](https://github.com/AliceO2Group/AliceO2/pull/11532) 2023-06-23: Modified the MFT Config to CCDB workflow. If the workflow receives un… by [@syano0822](https://github.com/syano0822)
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11537](https://github.com/AliceO2Group/AliceO2/pull/11537) 2023-06-21: ITS simulation remove redundant void by [@martenole](https://github.com/martenole)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
