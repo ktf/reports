@@ -69,8 +69,8 @@
 - [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
+- [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Steer
-- [\#11529](https://github.com/AliceO2Group/AliceO2/pull/11529) 2023-06-26: FT0Digitizer: hotfix for default value in --use-ft0-ccdb option by [@afurs](https://github.com/afurs)
 - [\#11542](https://github.com/AliceO2Group/AliceO2/pull/11542) 2023-06-25: VDrift fetching in TPC digitization with ConsumeAfterConditions policy by [@shahor02](https://github.com/shahor02)
