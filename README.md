@@ -46,7 +46,6 @@
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11541](https://github.com/AliceO2Group/AliceO2/pull/11541) 2023-06-26: DPL: enable core dumps when O2_NO_CATCHALL_EXCEPTIONS is defined by [@ktf](https://github.com/ktf)
 - [\#11553](https://github.com/AliceO2Group/AliceO2/pull/11553) 2023-06-24: Use pageCounter instead of packetCounter to detect packet loss by [@davidrohr](https://github.com/davidrohr)
