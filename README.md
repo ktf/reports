@@ -44,6 +44,7 @@
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
+- [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
 - [\#11528](https://github.com/AliceO2Group/AliceO2/pull/11528) 2023-06-21: DPL Analysis: handle fully unassigned case by [@aalkin](https://github.com/aalkin)
 - [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
@@ -64,6 +65,7 @@
 - [\#11601](https://github.com/AliceO2Group/AliceO2/pull/11601) 2023-07-03: DPL: move the nextTimeslice to the decongestion service by [@ktf](https://github.com/ktf)
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11607](https://github.com/AliceO2Group/AliceO2/pull/11607) 2023-07-04: DPL GUI: add signposts to profiles by [@ktf](https://github.com/ktf)
+- [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
