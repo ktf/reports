@@ -40,6 +40,7 @@
 - [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
 - [\#11617](https://github.com/AliceO2Group/AliceO2/pull/11617) 2023-07-06: CalibLaserTracksSpec: protect for the case you get a condition object, by [@ktf](https://github.com/ktf)
 - [\#11620](https://github.com/AliceO2Group/AliceO2/pull/11620) 2023-07-06: Protect CTF reader against empty trees by [@shahor02](https://github.com/shahor02)
+- [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#11535](https://github.com/AliceO2Group/AliceO2/pull/11535) 2023-06-22: Several stability fixes for "simulation-as-as" service by [@sawenzel](https://github.com/sawenzel)
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
