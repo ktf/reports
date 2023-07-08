@@ -15,7 +15,6 @@
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11537](https://github.com/AliceO2Group/AliceO2/pull/11537) 2023-06-21: ITS simulation remove redundant void by [@martenole](https://github.com/martenole)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11545](https://github.com/AliceO2Group/AliceO2/pull/11545) 2023-06-27: Introducing iCell selections by [@mpuccio](https://github.com/mpuccio)
@@ -48,7 +47,6 @@
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11534](https://github.com/AliceO2Group/AliceO2/pull/11534) 2023-06-22: Add possibility to locally dump TFs on raw parser errors by [@wiechula](https://github.com/wiechula)
 - [\#11541](https://github.com/AliceO2Group/AliceO2/pull/11541) 2023-06-26: DPL: enable core dumps when O2_NO_CATCHALL_EXCEPTIONS is defined by [@ktf](https://github.com/ktf)
 - [\#11553](https://github.com/AliceO2Group/AliceO2/pull/11553) 2023-06-24: Use pageCounter instead of packetCounter to detect packet loss by [@davidrohr](https://github.com/davidrohr)
 - [\#11555](https://github.com/AliceO2Group/AliceO2/pull/11555) 2023-06-26: DPL: Never do autoBind for DPL Channels by [@ktf](https://github.com/ktf)
