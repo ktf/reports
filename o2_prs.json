@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-06-22T17:46:22Z",
-            "title": "Several stability fixes for \"simulation-as-as\" service",
-            "number": 11535,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2HitMerger.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2PrimaryServerDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDeviceRunner.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/SimAsService_biasing1/run.sh"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2-sim-client.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "wip: ITS-Studies: Add proto-MCKineReaderSpec task, TrackChecker skeleton",
@@ -3125,6 +3070,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_DataProcessingStats.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "do not try writingg CTP lumi if decoder does not send it",
+            "number": 11635,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTP/workflow/src/ctp-raw-decoder.cxx"
                   }
                 }
               ]
