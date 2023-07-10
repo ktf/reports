@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-29T13:25:02Z",
-            "title": "PWGEM: adding new dielectron PID cuts using post calibration",
-            "number": 2918,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-29T14:04:55Z",
             "title": "Fix logical bug + remove redundant table def",
             "number": 2919,
@@ -3196,6 +3176,31 @@
                 {
                   "node": {
                     "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PIDTOF: Add possibility to skip tracks that don't have ITS",
+            "number": 3018,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOF.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFFull.cxx"
                   }
                 }
               ]
