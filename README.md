@@ -71,5 +71,3 @@
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
-## Recent developments in O2 - Steer
-- [\#11542](https://github.com/AliceO2Group/AliceO2/pull/11542) 2023-06-25: VDrift fetching in TPC digitization with ConsumeAfterConditions policy by [@shahor02](https://github.com/shahor02)

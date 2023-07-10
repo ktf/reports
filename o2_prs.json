@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-25T10:37:21Z",
-            "title": "VDrift fetching in TPC digitization with ConsumeAfterConditions policy",
-            "number": 11542,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/SimpleDigitizerWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/DigitizerWorkflow/src/TPCDigitizerSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-23T07:41:02Z",
             "title": "Improved thread safety in construtor and destructor of the downloader",
             "number": 11543,
@@ -3200,6 +3175,31 @@
                 {
                   "node": {
                     "path": "Detectors/EMCAL/workflow/src/emc-offline-calib-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: consider dummy-sink dependent on everything so it is always put at the end of the workflow",
+            "number": 11642,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TopologyPolicy.cxx"
                   }
                 }
               ]
