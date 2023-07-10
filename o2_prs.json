@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-22T17:48:08Z",
-            "title": "Improve failure propagation/handling between sim service and control …",
-            "number": 11544,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "run/o2-sim-client.py"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2sim_parallel.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-27T16:24:51Z",
             "title": "Introducing iCell selections",
             "number": 11545,
@@ -2736,6 +2711,11 @@
                   "node": {
                     "path": "Detectors/ZDC/reconstruction/src/DigiReco.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/reconstruction/src/RecoConfigZDC.cxx"
+                  }
                 }
               ]
             }
@@ -3190,6 +3170,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD add additional helper functions",
+            "number": 11644,
+            "author": {
+              "login": "pestratm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/HelperMethods.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Tracklet64.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/src/Tracklet64.cxx"
                   }
                 }
               ]
