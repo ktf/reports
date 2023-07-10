@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-23T07:41:02Z",
-            "title": "Improved thread safety in construtor and destructor of the downloader",
-            "number": 11543,
-            "author": {
-              "login": "TrifleMichael"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CCDBDownloader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/test/testCcdbApiDownloader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-22T17:48:08Z",
             "title": "Improve failure propagation/handling between sim service and control …",
             "number": 11544,
@@ -3200,6 +3170,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/TopologyPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Residual aggregator avoid writing to same file for different calib slots",
+            "number": 11643,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/ResidualAggregator.cxx"
                   }
                 }
               ]
