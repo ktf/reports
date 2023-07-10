@@ -16,7 +16,6 @@
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#11537](https://github.com/AliceO2Group/AliceO2/pull/11537) 2023-06-21: ITS simulation remove redundant void by [@martenole](https://github.com/martenole)
 - [\#11538](https://github.com/AliceO2Group/AliceO2/pull/11538) 2023-06-22: TRD: Remove obsolete dummy functions by [@martenole](https://github.com/martenole)
 - [\#11545](https://github.com/AliceO2Group/AliceO2/pull/11545) 2023-06-27: Introducing iCell selections by [@mpuccio](https://github.com/mpuccio)
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
