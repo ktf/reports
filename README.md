@@ -29,6 +29,7 @@
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
 - [\#11580](https://github.com/AliceO2Group/AliceO2/pull/11580) 2023-06-29: set actual VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
+- [\#11590](https://github.com/AliceO2Group/AliceO2/pull/11590) 2023-07-10: FT3: build v3b version of the geometry by default by [@plariono](https://github.com/plariono)
 - [\#11598](https://github.com/AliceO2Group/AliceO2/pull/11598) 2023-07-04: Fix matLUT compactification + extraction of layers group covering R range. by [@shahor02](https://github.com/shahor02)
 - [\#11600](https://github.com/AliceO2Group/AliceO2/pull/11600) 2023-07-03: ITS-gpu: fix warning due to changed constructor by [@mconcas](https://github.com/mconcas)
 - [\#11605](https://github.com/AliceO2Group/AliceO2/pull/11605) 2023-07-03: EMCAL: If CTP not present, do not process CTP data by [@davidrohr](https://github.com/davidrohr)
@@ -40,6 +41,7 @@
 - [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
+- [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
