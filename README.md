@@ -71,5 +71,3 @@
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Generators
-- [\#11549](https://github.com/AliceO2Group/AliceO2/pull/11549) 2023-06-26: [MCGen] Only complain about status if real primary by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
