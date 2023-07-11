@@ -8,6 +8,7 @@
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
+- [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -44,6 +45,7 @@
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11637](https://github.com/AliceO2Group/AliceO2/pull/11637) 2023-07-11: FT0 calibration: protection from empty slots and EOV issue by [@afurs](https://github.com/afurs)
 - [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
+- [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
@@ -73,3 +75,4 @@
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
+- [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
