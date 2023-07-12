@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-24T14:16:49Z",
-            "title": "Use pageCounter instead of packetCounter to detect packet loss",
-            "number": 11553,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Utils/include/DPLUtils/RawParser.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/RawPageTestData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Utils/test/test_RawParser.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/TPCClusterFinder/GPUTPCCFDecodeZS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-25T05:50:57Z",
             "title": "HMPID: Do not segfault if fitter was not initialized",
             "number": 11554,
@@ -3395,6 +3345,61 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-565, EMCAL-566] Add gain calib factors to online calibration",
+            "number": 11653,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALTimeCalibData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALTimeCalibData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/testWorkflow/EMCALChannelCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/testWorkflow/emc-channel-calib-workflow.cxx"
                   }
                 }
               ]
