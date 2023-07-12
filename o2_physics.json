@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-01T22:56:22Z",
-            "title": "Fix interpolation if binning log",
-            "number": 2945,
-            "author": {
-              "login": "ddobrigk"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-02T10:12:50Z",
             "title": "Added rapidity asym part & corrected some QA histos",
             "number": 2946,
@@ -2735,6 +2710,61 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Hypertriton 3body decay analysis",
+            "number": 3045,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hypertriton3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hypertriton3bodyfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lambdakzerofinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/hypertriton3bodyMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/hypertriton3bodyanalysis.cxx"
                   }
                 }
               ]
