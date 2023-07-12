@@ -16,6 +16,7 @@
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
+- [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 - [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
@@ -44,6 +45,7 @@
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11637](https://github.com/AliceO2Group/AliceO2/pull/11637) 2023-07-11: FT0 calibration: protection from empty slots and EOV issue by [@afurs](https://github.com/afurs)
+- [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
 - [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
