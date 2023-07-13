@@ -10,7 +10,6 @@
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
@@ -19,7 +18,6 @@
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
-- [\#11554](https://github.com/AliceO2Group/AliceO2/pull/11554) 2023-06-25: HMPID: Do not segfault if fitter was not initialized by [@davidrohr](https://github.com/davidrohr)
 - [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 - [\#11558](https://github.com/AliceO2Group/AliceO2/pull/11558) 2023-06-27: ITS-GPU: put standalone version at state of the art by [@mconcas](https://github.com/mconcas)
 - [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
