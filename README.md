@@ -8,7 +8,6 @@
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-- [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
@@ -53,7 +52,6 @@
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 - [\#11569](https://github.com/AliceO2Group/AliceO2/pull/11569) 2023-06-27: DPL: introduce the preLoopCallback by [@ktf](https://github.com/ktf)
 - [\#11576](https://github.com/AliceO2Group/AliceO2/pull/11576) 2023-06-29: DPL: add ability to specify metadata for the  data processor by [@ktf](https://github.com/ktf)
