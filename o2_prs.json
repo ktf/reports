@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-29T10:41:13Z",
-            "title": "DPL Analysis: update AOD producers",
-            "number": 11556,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODMcProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-27T07:05:10Z",
             "title": "Add Mass function wrapper to O2DatabasePDG service",
             "number": 11557,
@@ -2309,12 +2264,52 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibEPN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/include/ZDCCalib/InterCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ZDC/calib/include/ZDCCalib/NoiseCalibSpec.h"
                   }
                 },
                 {
                   "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalibConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalibEPN.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/calib/src/InterCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/ZDC/calib/src/NoiseCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ZDC/macro/CreateInterCalibConfig.C"
                   }
                 },
                 {
@@ -2383,7 +2378,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: Do not create arrow-metrics in online/FST modes, where they are not needed",
             "number": 11633,
@@ -2394,7 +2389,7 @@
               "edges": [
                 {
                   "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]
@@ -3470,6 +3465,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/dcs/src/DCSConfigSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add pow function to CAMath",
+            "number": 11656,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
                   }
                 }
               ]

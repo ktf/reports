@@ -2,8 +2,6 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Analysis
-- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
@@ -18,7 +16,6 @@
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
-- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 - [\#11558](https://github.com/AliceO2Group/AliceO2/pull/11558) 2023-06-27: ITS-GPU: put standalone version at state of the art by [@mconcas](https://github.com/mconcas)
 - [\#11560](https://github.com/AliceO2Group/AliceO2/pull/11560) 2023-06-27: ITS: cleanup accessory timer by [@mconcas](https://github.com/mconcas)
 - [\#11562](https://github.com/AliceO2Group/AliceO2/pull/11562) 2023-06-27: TRD fix failing transformation test by [@bazinski](https://github.com/bazinski)
@@ -55,7 +52,6 @@
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11556](https://github.com/AliceO2Group/AliceO2/pull/11556) 2023-06-29: DPL Analysis: update AOD producers by [@aalkin](https://github.com/aalkin)
 - [\#11557](https://github.com/AliceO2Group/AliceO2/pull/11557) 2023-06-27: Add Mass function wrapper to O2DatabasePDG service by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 - [\#11569](https://github.com/AliceO2Group/AliceO2/pull/11569) 2023-06-27: DPL: introduce the preLoopCallback by [@ktf](https://github.com/ktf)
