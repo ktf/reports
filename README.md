@@ -34,6 +34,7 @@
 - [\#11609](https://github.com/AliceO2Group/AliceO2/pull/11609) 2023-07-06: Enable TRD gain calibration by default by [@martenole](https://github.com/martenole)
 - [\#11611](https://github.com/AliceO2Group/AliceO2/pull/11611) 2023-07-06: [MRRTF-221] Filterout digits by [@aphecetche](https://github.com/aphecetche)
 - [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
+- [\#11615](https://github.com/AliceO2Group/AliceO2/pull/11615) 2023-07-14: ITS-Studies: add average cluster size study by [@tch285](https://github.com/tch285)
 - [\#11617](https://github.com/AliceO2Group/AliceO2/pull/11617) 2023-07-06: CalibLaserTracksSpec: protect for the case you get a condition object, by [@ktf](https://github.com/ktf)
 - [\#11620](https://github.com/AliceO2Group/AliceO2/pull/11620) 2023-07-06: Protect CTF reader against empty trees by [@shahor02](https://github.com/shahor02)
 - [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
