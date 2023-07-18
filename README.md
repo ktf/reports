@@ -14,7 +14,6 @@
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 ## Recent developments in O2 - Detectors
-- [\#11567](https://github.com/AliceO2Group/AliceO2/pull/11567) 2023-06-29: ITS-GPU: Fix a bunch of codechecker complaints by [@mconcas](https://github.com/mconcas)
 - [\#11568](https://github.com/AliceO2Group/AliceO2/pull/11568) 2023-06-28: ZDC Fix TDC calibration by [@cortesep](https://github.com/cortesep)
 - [\#11570](https://github.com/AliceO2Group/AliceO2/pull/11570) 2023-06-28: Use same binding everywhere to access CTPLumi input by [@shahor02](https://github.com/shahor02)
 - [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
