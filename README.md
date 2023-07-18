@@ -46,6 +46,7 @@
 - [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11653](https://github.com/AliceO2Group/AliceO2/pull/11653) 2023-07-13: [EMCAL-565, EMCAL-566] Add gain calib factors to online calibration by [@jokonig](https://github.com/jokonig)
+- [\#11655](https://github.com/AliceO2Group/AliceO2/pull/11655) 2023-07-18: TPC: Add tag definitions by [@wiechula](https://github.com/wiechula)
 - [\#11657](https://github.com/AliceO2Group/AliceO2/pull/11657) 2023-07-17: ctpdev: dump raw on error by [@lietava](https://github.com/lietava)
 - [\#11658](https://github.com/AliceO2Group/AliceO2/pull/11658) 2023-07-14: Revert "TPC: Derivative map implementation (#11585)" by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
