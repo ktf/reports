@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-28T13:47:10Z",
-            "title": "ZDC Fix TDC calibration",
-            "number": 11568,
-            "author": {
-              "login": "cortesep"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/TDCCalibEPN.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/include/ZDCCalib/TDCCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalib.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibEPN.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibEPNSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ZDC/calib/src/TDCCalibSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-27T20:35:06Z",
             "title": "DPL: introduce the preLoopCallback",
             "number": 11569,
@@ -3615,6 +3565,41 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/EMCAL/src/ErrorTypeFEE.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PDG: Move `Mass` method in the header",
+            "number": 11668,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_O2DatabasePDG.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/include/Framework/O2DatabasePDGPlugin.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/PhysicsSupport/src/Plugin.cxx"
                   }
                 }
               ]
