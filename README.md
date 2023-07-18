@@ -1,7 +1,5 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
-## Recent developments in O2 - Algorithm
-- [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
@@ -53,7 +51,6 @@
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11566](https://github.com/AliceO2Group/AliceO2/pull/11566) 2023-06-28: DPL: handle exceptions in init by [@ktf](https://github.com/ktf)
 - [\#11569](https://github.com/AliceO2Group/AliceO2/pull/11569) 2023-06-27: DPL: introduce the preLoopCallback by [@ktf](https://github.com/ktf)
 - [\#11576](https://github.com/AliceO2Group/AliceO2/pull/11576) 2023-06-29: DPL: add ability to specify metadata for the  data processor by [@ktf](https://github.com/ktf)
 - [\#11577](https://github.com/AliceO2Group/AliceO2/pull/11577) 2023-06-29: DPL: optimize state flushing by [@ktf](https://github.com/ktf)
