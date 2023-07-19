@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-10T19:53:33Z",
-            "title": "track selection options added",
-            "number": 3020,
-            "author": {
-              "login": "hkoley"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/LFResonanceTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/LFResonanceInitializer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/lambda1520analysis.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-11T00:20:05Z",
-            "title": "PWGJE:testing new task layout to solve memory issues",
-            "number": 3021,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetfinderD0DataCharged.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/TableProducer/jetfinderhf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-10T23:50:05Z",
-            "title": "Extend data model, add derived processor function",
-            "number": 3022,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/DataModel/spectraTOF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/spectraDerivedMaker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/spectraTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-11T10:53:54Z",
             "title": "[EventFiltering] Improve selections for HF triggers that involve V0s and cascades",
             "number": 3023,
@@ -2861,6 +2766,81 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/FullJetTriggerQATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix DCAcut bug for MC reco distribution",
+            "number": 3120,
+            "author": {
+              "login": "giovannimalfattore"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Tasks/alice3-qa-singleparticle.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/LFNucleiBATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/PhotonMeson: replace PtEtaPhiMVector with PxPyPzMVector",
+            "number": 3121,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaConversions.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Update slimmed derived dataset",
+            "number": 3122,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFSlimNucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/nucleiSpectra.cxx"
                   }
                 }
               ]
