@@ -18,7 +18,6 @@
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11571](https://github.com/AliceO2Group/AliceO2/pull/11571) 2023-06-28: TRD noise run fixes by [@martenole](https://github.com/martenole)
 - [\#11573](https://github.com/AliceO2Group/AliceO2/pull/11573) 2023-06-27: Use nullptr to silence the o2checkcode in fullCI by [@shahor02](https://github.com/shahor02)
 - [\#11580](https://github.com/AliceO2Group/AliceO2/pull/11580) 2023-06-29: set actual VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)

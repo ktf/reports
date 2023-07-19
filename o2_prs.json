@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-28T11:20:13Z",
-            "title": "TRD noise run fixes",
-            "number": 11571,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/DataReaderTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DataReader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/DataReaderTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/include/TRDWorkflow/NoiseCalibSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/trd-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-28T05:56:03Z",
             "title": "Pass --require-ctp-lumi as global, --corrmap-lumi-mean/inst as local opts.",
             "number": 11572,
@@ -3595,6 +3555,56 @@
                 {
                   "node": {
                     "path": "CCDB/test/testCcdbApiDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC SpaceCharge: Adding static distortions",
+            "number": 11671,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/DataContainer3D.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceCharge.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceChargeHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/TriCubic.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/src/DataContainer3D.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/spacecharge/src/TriCubic.cxx"
                   }
                 }
               ]
