@@ -51,6 +51,7 @@
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11665](https://github.com/AliceO2Group/AliceO2/pull/11665) 2023-07-19: Mark MC particles reconstructed in calorimeters for storage by [@nburmaso](https://github.com/nburmaso)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
+- [\#11669](https://github.com/AliceO2Group/AliceO2/pull/11669) 2023-07-19: Process part of TF with wrong time span by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11583](https://github.com/AliceO2Group/AliceO2/pull/11583) 2023-07-03: o2-sim: Avoid hang for on-the-fly injection into DPL by [@sawenzel](https://github.com/sawenzel)
