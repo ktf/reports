@@ -46,6 +46,7 @@
 - [\#11657](https://github.com/AliceO2Group/AliceO2/pull/11657) 2023-07-17: ctpdev: dump raw on error by [@lietava](https://github.com/lietava)
 - [\#11658](https://github.com/AliceO2Group/AliceO2/pull/11658) 2023-07-14: Revert "TPC: Derivative map implementation (#11585)" by [@martenole](https://github.com/martenole)
 - [\#11660](https://github.com/AliceO2Group/AliceO2/pull/11660) 2023-07-18: Implementing derivative map to O2 by [@ChSonnabend](https://github.com/ChSonnabend)
+- [\#11665](https://github.com/AliceO2Group/AliceO2/pull/11665) 2023-07-19: Mark MC particles reconstructed in calorimeters for storage by [@nburmaso](https://github.com/nburmaso)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
