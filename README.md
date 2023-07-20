@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Common
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
+- [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
@@ -72,6 +73,7 @@
 - [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 - [\#11621](https://github.com/AliceO2Group/AliceO2/pull/11621) 2023-07-07: O2sim: add timeframe aggregation to kine-publisher by [@aalkin](https://github.com/aalkin)
+- [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
