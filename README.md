@@ -9,6 +9,7 @@
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 - [\#11656](https://github.com/AliceO2Group/AliceO2/pull/11656) 2023-07-17: GPU: Add pow function to CAMath by [@davidrohr](https://github.com/davidrohr)
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
+- [\#11676](https://github.com/AliceO2Group/AliceO2/pull/11676) 2023-07-20: Protection in angle2sector conversion by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11584](https://github.com/AliceO2Group/AliceO2/pull/11584) 2023-07-02: ctpdev: CTP RunManager class in separate file by [@lietava](https://github.com/lietava)
 - [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
