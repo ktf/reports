@@ -56,6 +56,7 @@
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 - [\#11669](https://github.com/AliceO2Group/AliceO2/pull/11669) 2023-07-19: Process part of TF with wrong time span by [@shahor02](https://github.com/shahor02)
 - [\#11671](https://github.com/AliceO2Group/AliceO2/pull/11671) 2023-07-20: TPC SpaceCharge: Adding static distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
 - [\#11675](https://github.com/AliceO2Group/AliceO2/pull/11675) 2023-07-20: Provide full spec in the log of duplicate input in merged w-flow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11578](https://github.com/AliceO2Group/AliceO2/pull/11578) 2023-06-29: O2sim: Add rate limiting to mctracks proxy by [@aalkin](https://github.com/aalkin)
