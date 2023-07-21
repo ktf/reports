@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-06-29T08:04:12Z",
-            "title": "DPL: optimize state flushing",
-            "number": 11577,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataProcessingStates.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataProcessingStates.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-06-29T07:59:05Z",
             "title": "O2sim: Add rate limiting to mctracks proxy",
             "number": 11578,
@@ -3563,8 +3538,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-07-21T07:48:16Z",
             "title": "Enable TRD PH processing by default",
             "number": 11672,
             "author": {
@@ -3710,6 +3685,26 @@
                 {
                   "node": {
                     "path": "Common/MathUtils/include/MathUtils/detail/trigonometric.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Avoid warnings when looking for MCEventHeader info",
+            "number": 11677,
+            "author": {
+              "login": "benedikt-voelkel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
