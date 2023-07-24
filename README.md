@@ -63,7 +63,6 @@
 ## Recent developments in O2 - Examples
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11587](https://github.com/AliceO2Group/AliceO2/pull/11587) 2023-06-30: DPL: Online mode should use default pipeline size of 512, since it mitigates some hangs we are seeing (which are still to be understood) by [@davidrohr](https://github.com/davidrohr)
 - [\#11596](https://github.com/AliceO2Group/AliceO2/pull/11596) 2023-07-03: Misc RunSummary improvements by [@ktf](https://github.com/ktf)
 - [\#11597](https://github.com/AliceO2Group/AliceO2/pull/11597) 2023-07-03: DPL: add ability to lock a registry for thread safety by [@ktf](https://github.com/ktf)
 - [\#11599](https://github.com/AliceO2Group/AliceO2/pull/11599) 2023-07-03: DPL GUI: fix warning due to different 64 bit type by [@ktf](https://github.com/ktf)
