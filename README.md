@@ -22,7 +22,6 @@
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11585](https://github.com/AliceO2Group/AliceO2/pull/11585) 2023-07-13: TPC: Derivative map implementation by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#11590](https://github.com/AliceO2Group/AliceO2/pull/11590) 2023-07-10: FT3: build v3b version of the geometry by default by [@plariono](https://github.com/plariono)
 - [\#11598](https://github.com/AliceO2Group/AliceO2/pull/11598) 2023-07-04: Fix matLUT compactification + extraction of layers group covering R range. by [@shahor02](https://github.com/shahor02)
 - [\#11600](https://github.com/AliceO2Group/AliceO2/pull/11600) 2023-07-03: ITS-gpu: fix warning due to changed constructor by [@mconcas](https://github.com/mconcas)
