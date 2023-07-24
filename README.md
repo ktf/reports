@@ -56,6 +56,7 @@
 - [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11675](https://github.com/AliceO2Group/AliceO2/pull/11675) 2023-07-20: Provide full spec in the log of duplicate input in merged w-flow by [@shahor02](https://github.com/shahor02)
+- [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11678](https://github.com/AliceO2Group/AliceO2/pull/11678) 2023-07-22: Restore setting VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
