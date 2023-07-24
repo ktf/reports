@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-14T08:00:37Z",
-            "title": "PWGCF: Change histograms naming in femtoWorldEfficiencyTask",
-            "number": 3065,
-            "author": {
-              "login": "alicja-pp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldEfficiencyTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-14T00:37:09Z",
             "title": "Add PiKaPr only in LF Qa",
             "number": 3066,
@@ -2756,6 +2736,31 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/FullJetTriggerQATask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add compatibility with \"skipTPCOnly\" option for TPC PID NN application",
+            "number": 3165,
+            "author": {
+              "login": "jezwilkinson"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTPCFull.cxx"
                   }
                 }
               ]
