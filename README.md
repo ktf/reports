@@ -58,6 +58,7 @@
 - [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11678](https://github.com/AliceO2Group/AliceO2/pull/11678) 2023-07-22: Restore setting VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
+- [\#11689](https://github.com/AliceO2Group/AliceO2/pull/11689) 2023-07-25: Fix MC labels for MID digits by [@dstocco](https://github.com/dstocco)
 - [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Examples
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
