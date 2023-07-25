@@ -35,6 +35,7 @@
 - [\#11620](https://github.com/AliceO2Group/AliceO2/pull/11620) 2023-07-06: Protect CTF reader against empty trees by [@shahor02](https://github.com/shahor02)
 - [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
+- [\#11631](https://github.com/AliceO2Group/AliceO2/pull/11631) 2023-07-25: ZDC Fixes on reconstruction for p-p 23zd runs by [@cortesep](https://github.com/cortesep)
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11637](https://github.com/AliceO2Group/AliceO2/pull/11637) 2023-07-11: FT0 calibration: protection from empty slots and EOV issue by [@afurs](https://github.com/afurs)
