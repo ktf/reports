@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-14T14:03:54Z",
-            "title": "PWGEM: add LS spectra in MCTemplates task, new MC signal, strong TPC …",
-            "number": 3074,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/MCSignalLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/Dilepton/Tasks/MCtemplates.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-17T07:41:08Z",
             "title": "Reduce evsel and bcsel table contents",
             "number": 3075,
@@ -2591,18 +2561,13 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGCF: FemtoWorld - fixing efficiency exceeding 1; FemtoUniverse - adding cuts to TrackTrackTask",
+            "title": "PWGCF: FemtoWorld - fixing efficiency exceeding 1 issue",
             "number": 3169,
             "author": {
               "login": "basiach"
             },
             "files": {
               "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack.cxx"
-                  }
-                },
                 {
                   "node": {
                     "path": "PWGCF/FemtoWorld/Tasks/femtoWorldEfficiencyTask.cxx"
@@ -2691,6 +2656,31 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/onTheFlyTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGCF: FemtoWorld - D0 analysis - corrected producer",
+            "number": 3174,
+            "author": {
+              "login": "kgwizdzi"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/TableProducer/femtoWorldProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackD0.cxx"
                   }
                 }
               ]
