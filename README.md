@@ -12,7 +12,6 @@
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11676](https://github.com/AliceO2Group/AliceO2/pull/11676) 2023-07-20: Protection in angle2sector conversion by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11592](https://github.com/AliceO2Group/AliceO2/pull/11592) 2023-07-03: PDG: Remove Lambda1520 by [@vkucera](https://github.com/vkucera)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
