@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-03T11:55:58Z",
-            "title": "ITS-gpu: fix warning due to changed constructor",
-            "number": 11600,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cu"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-03T18:04:44Z",
             "title": "DPL: move the nextTimeslice to the decongestion service",
             "number": 11601,
@@ -3719,7 +3699,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
@@ -3745,6 +3735,36 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU workflow: add possibility to dump bad TPC TFs",
+            "number": 11700,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
                   }
                 }
               ]
