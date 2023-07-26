@@ -83,3 +83,5 @@
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11697](https://github.com/AliceO2Group/AliceO2/pull/11697) 2023-07-25: DPL: fix formatting compatibility with RH* by [@ktf](https://github.com/ktf)
 - [\#11701](https://github.com/AliceO2Group/AliceO2/pull/11701) 2023-07-26: DPL: fix more formatting warnings by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Utilities
+- [\#11694](https://github.com/AliceO2Group/AliceO2/pull/11694) 2023-07-26: Add STDERRMON filter for histogram division by [@martenole](https://github.com/martenole)
