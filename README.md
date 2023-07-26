@@ -65,7 +65,6 @@
 ## Recent developments in O2 - Examples
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11601](https://github.com/AliceO2Group/AliceO2/pull/11601) 2023-07-03: DPL: move the nextTimeslice to the decongestion service by [@ktf](https://github.com/ktf)
 - [\#11604](https://github.com/AliceO2Group/AliceO2/pull/11604) 2023-07-03: DPL: update the nextTimeslice correctly in case of dropped data by [@davidrohr](https://github.com/davidrohr)
 - [\#11607](https://github.com/AliceO2Group/AliceO2/pull/11607) 2023-07-04: DPL GUI: add signposts to profiles by [@ktf](https://github.com/ktf)
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
