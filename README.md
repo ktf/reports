@@ -24,7 +24,6 @@
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-- [\#11605](https://github.com/AliceO2Group/AliceO2/pull/11605) 2023-07-03: EMCAL: If CTP not present, do not process CTP data by [@davidrohr](https://github.com/davidrohr)
 - [\#11609](https://github.com/AliceO2Group/AliceO2/pull/11609) 2023-07-06: Enable TRD gain calibration by default by [@martenole](https://github.com/martenole)
 - [\#11611](https://github.com/AliceO2Group/AliceO2/pull/11611) 2023-07-06: [MRRTF-221] Filterout digits by [@aphecetche](https://github.com/aphecetche)
 - [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
