@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "PWGHF: Fix for Signal status in MC Rec in D0-hadron correlations and implement event mixing",
-            "number": 3103,
-            "author": {
-              "login": "samrangy"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/TableProducer/correlatorD0Hadrons.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/HFC/Tasks/taskCorrelationD0Hadrons.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-07-24T07:28:36Z",
             "title": "Make O2DatabasePDG service class unambiguous",
@@ -2531,6 +2501,26 @@
                 {
                   "node": {
                     "path": "ALICE3/TableProducer/onTheFlyTOFPID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Remove CFCore dependency",
+            "number": 3203,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Tools/PIDML/CMakeLists.txt"
                   }
                 }
               ]
