@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-18T17:23:31Z",
-            "title": "Update single particle QA",
-            "number": 3101,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-qa-singleparticle.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-20T07:11:55Z",
-            "title": "PWGCF: FemtoUniverse - adding phi to the producer and creating a track-phi task",
-            "number": 3102,
-            "author": {
-              "login": "zchochul"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseObjectSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniversePhiSelection.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackPhi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWGHF: Fix for Signal status in MC Rec in D0-hadron correlations and implement event mixing",
@@ -2536,6 +2466,71 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/TableProducer/correlatorDsHadrons.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "LFPID: Improve logs, fix postcalib",
+            "number": 3201,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/lfTPCPID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "On-the-fly RICH PID and tracking corrections",
+            "number": 3202,
+            "author": {
+              "login": "NNicassio99"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/Core/DelphesO2TrackSmearer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/DataModel/OTFRICH.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/onTheFlyRichPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/onTheFlyTOFPID.cxx"
                   }
                 }
               ]
