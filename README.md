@@ -63,6 +63,7 @@
 - [\#11689](https://github.com/AliceO2Group/AliceO2/pull/11689) 2023-07-25: Fix MC labels for MID digits by [@dstocco](https://github.com/dstocco)
 - [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
+- [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 ## Recent developments in O2 - Examples
 - [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
