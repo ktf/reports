@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-19T11:55:36Z",
-            "title": "PWGEM/PhotonMeson: suppress warning",
-            "number": 3112,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/createPCM.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-20T06:55:56Z",
             "title": "[PWGDQ] Add histograms for muon pDCA studies",
             "number": 3113,
@@ -2495,6 +2475,36 @@
                 {
                   "node": {
                     "path": "Common/Tasks/qVectorsCorrection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Core: modify maximum bc offset for tracks to be considered in time-based reassociation",
+            "number": 3212,
+            "author": {
+              "login": "fgrosa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/CollisionAssociation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/fwdtrackToCollisionAssociator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackToCollisionAssociator.cxx"
                   }
                 }
               ]
