@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-20T09:06:53Z",
-            "title": "Fix DCAcut bug for MC reco distribution",
-            "number": 3120,
-            "author": {
-              "login": "giovannimalfattore"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/LFNucleiBATask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-19T19:16:43Z",
             "title": "PWGEM/PhotonMeson: replace PtEtaPhiMVector with PxPyPzMVector",
             "number": 3121,
@@ -2440,6 +2420,46 @@
                 {
                   "node": {
                     "path": "PWGUD/AQC/udQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add KF particle cascade builder path",
+            "number": 3220,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/kfPerformanceStudy.cxx"
                   }
                 }
               ]
