@@ -60,6 +60,7 @@
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11684](https://github.com/AliceO2Group/AliceO2/pull/11684) 2023-07-26: [O2-4001] rawTF -> raw converter by [@shahor02](https://github.com/shahor02)
 - [\#11685](https://github.com/AliceO2Group/AliceO2/pull/11685) 2023-07-26: FT0: updates on fuctions for event plane reconstruction by [@jikim1290](https://github.com/jikim1290)
+- [\#11686](https://github.com/AliceO2Group/AliceO2/pull/11686) 2023-07-28: ITS: added new calib scan: vresetd scan 1D and 2D + new minor features by [@iravasen](https://github.com/iravasen)
 - [\#11689](https://github.com/AliceO2Group/AliceO2/pull/11689) 2023-07-25: Fix MC labels for MID digits by [@dstocco](https://github.com/dstocco)
 - [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
