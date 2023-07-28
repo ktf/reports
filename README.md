@@ -65,10 +65,7 @@
 - [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
-## Recent developments in O2 - Examples
-- [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11608](https://github.com/AliceO2Group/AliceO2/pull/11608) 2023-07-07: O2sim: Aggregating mode for mctracks proxy by [@aalkin](https://github.com/aalkin)
 - [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 - [\#11621](https://github.com/AliceO2Group/AliceO2/pull/11621) 2023-07-07: O2sim: add timeframe aggregation to kine-publisher by [@aalkin](https://github.com/aalkin)
