@@ -25,7 +25,6 @@
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
-- [\#11611](https://github.com/AliceO2Group/AliceO2/pull/11611) 2023-07-06: [MRRTF-221] Filterout digits by [@aphecetche](https://github.com/aphecetche)
 - [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
 - [\#11615](https://github.com/AliceO2Group/AliceO2/pull/11615) 2023-07-14: ITS-Studies: add average cluster size study by [@tch285](https://github.com/tch285)
 - [\#11617](https://github.com/AliceO2Group/AliceO2/pull/11617) 2023-07-06: CalibLaserTracksSpec: protect for the case you get a condition object, by [@ktf](https://github.com/ktf)
@@ -67,7 +66,6 @@
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11709](https://github.com/AliceO2Group/AliceO2/pull/11709) 2023-07-28: Fix RecoConfigZDC class version by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11610](https://github.com/AliceO2Group/AliceO2/pull/11610) 2023-07-05: DPL: do not bind any port during workflow generation by [@ktf](https://github.com/ktf)
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 - [\#11621](https://github.com/AliceO2Group/AliceO2/pull/11621) 2023-07-07: O2sim: add timeframe aggregation to kine-publisher by [@aalkin](https://github.com/aalkin)
 - [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
