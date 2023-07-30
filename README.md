@@ -25,7 +25,6 @@
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
-- [\#11613](https://github.com/AliceO2Group/AliceO2/pull/11613) 2023-07-06: [FOCAL-12] Fix operator== by [@mfasDa](https://github.com/mfasDa)
 - [\#11615](https://github.com/AliceO2Group/AliceO2/pull/11615) 2023-07-14: ITS-Studies: add average cluster size study by [@tch285](https://github.com/tch285)
 - [\#11617](https://github.com/AliceO2Group/AliceO2/pull/11617) 2023-07-06: CalibLaserTracksSpec: protect for the case you get a condition object, by [@ktf](https://github.com/ktf)
 - [\#11620](https://github.com/AliceO2Group/AliceO2/pull/11620) 2023-07-06: Protect CTF reader against empty trees by [@shahor02](https://github.com/shahor02)
