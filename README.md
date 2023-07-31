@@ -64,6 +64,7 @@
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11709](https://github.com/AliceO2Group/AliceO2/pull/11709) 2023-07-28: Fix RecoConfigZDC class version by [@shahor02](https://github.com/shahor02)
+- [\#11711](https://github.com/AliceO2Group/AliceO2/pull/11711) 2023-07-31: minor fix for TOF noisy in sim by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 - [\#11614](https://github.com/AliceO2Group/AliceO2/pull/11614) 2023-07-06: DPL: print mnemonic name for enum, rather than id. by [@ktf](https://github.com/ktf)
 - [\#11621](https://github.com/AliceO2Group/AliceO2/pull/11621) 2023-07-07: O2sim: add timeframe aggregation to kine-publisher by [@aalkin](https://github.com/aalkin)
