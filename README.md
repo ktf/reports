@@ -55,6 +55,7 @@
 - [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11678](https://github.com/AliceO2Group/AliceO2/pull/11678) 2023-07-22: Restore setting VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
+- [\#11680](https://github.com/AliceO2Group/AliceO2/pull/11680) 2023-07-31: New MFT barrel by [@frmanso](https://github.com/frmanso)
 - [\#11684](https://github.com/AliceO2Group/AliceO2/pull/11684) 2023-07-26: [O2-4001] rawTF -> raw converter by [@shahor02](https://github.com/shahor02)
 - [\#11685](https://github.com/AliceO2Group/AliceO2/pull/11685) 2023-07-26: FT0: updates on fuctions for event plane reconstruction by [@jikim1290](https://github.com/jikim1290)
 - [\#11686](https://github.com/AliceO2Group/AliceO2/pull/11686) 2023-07-28: ITS: added new calib scan: vresetd scan 1D and 2D + new minor features by [@iravasen](https://github.com/iravasen)
