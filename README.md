@@ -1,6 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
+- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 ## Recent developments in O2 - Common
 - [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
@@ -18,6 +19,7 @@
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
+- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
@@ -40,6 +42,7 @@
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11653](https://github.com/AliceO2Group/AliceO2/pull/11653) 2023-07-13: [EMCAL-565, EMCAL-566] Add gain calib factors to online calibration by [@jokonig](https://github.com/jokonig)
+- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11655](https://github.com/AliceO2Group/AliceO2/pull/11655) 2023-07-18: TPC: Add tag definitions by [@wiechula](https://github.com/wiechula)
 - [\#11657](https://github.com/AliceO2Group/AliceO2/pull/11657) 2023-07-17: ctpdev: dump raw on error by [@lietava](https://github.com/lietava)
 - [\#11658](https://github.com/AliceO2Group/AliceO2/pull/11658) 2023-07-14: Revert "TPC: Derivative map implementation (#11585)" by [@martenole](https://github.com/martenole)
@@ -73,6 +76,7 @@
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
+- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
