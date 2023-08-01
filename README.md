@@ -68,6 +68,7 @@
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11709](https://github.com/AliceO2Group/AliceO2/pull/11709) 2023-07-28: Fix RecoConfigZDC class version by [@shahor02](https://github.com/shahor02)
 - [\#11711](https://github.com/AliceO2Group/AliceO2/pull/11711) 2023-07-31: minor fix for TOF noisy in sim by [@noferini](https://github.com/noferini)
+- [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 - [\#11621](https://github.com/AliceO2Group/AliceO2/pull/11621) 2023-07-07: O2sim: add timeframe aggregation to kine-publisher by [@aalkin](https://github.com/aalkin)
 - [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
