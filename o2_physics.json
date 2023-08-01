@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-23T15:34:47Z",
-            "title": "Prepare for dielectron studies",
-            "number": 3144,
-            "author": {
-              "login": "hscheid"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Core/DelphesO2TrackSmearer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-21T15:25:42Z",
             "title": "EventFiltering: fix soft pion selection for D* in Ds1+ decays",
             "number": 3145,
@@ -2515,6 +2495,246 @@
                 {
                   "node": {
                     "path": "Tutorials/PWGUD/UDTutorial_02b.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TrackSelectorPID, PWGHF: Remove dependencies on unnecessary tables",
+            "number": 3244,
+            "author": {
+              "login": "vkucera"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/TrackSelectorPID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorChicToJpsiGamma.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorD0Alice3Barrel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorD0Alice3Forward.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorD0ParametrizedPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorJpsi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorLcAlice3.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorLcParametrizedPid.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/candidateSelectorXToJpsiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/treeCreatorChicToJpsiGamma.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/TableProducer/treeCreatorXToJpsiPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/ALICE3/Tasks/taskQaPidRejection.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorBplusToD0PiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorD0PiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/dataCreatorDplusPiReduced.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/Tasks/taskXic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/CandidateSelectionTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorBplus.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorB0ToDPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorBplusToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorD0.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorDsToKKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLbToLcPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcMl.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorToXiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXicToPKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorXiccToPKPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorB0ToDPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorBplusToD0Pi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorD0ToKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDplusToPiKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorDsToKKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLbToLcPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToK0sP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorLcToPKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXicToPKPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorXiccToPKPiPi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/PWGHF/taskMini.cxx"
                   }
                 }
               ]
