@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-21T10:15:59Z",
-            "title": "PWGCF: FemtoWorld - Corrections to D0 analysis",
-            "number": 3138,
-            "author": {
-              "login": "kgwizdzi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/DataModel/FemtoWorldDerived.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/TableProducer/femtoWorldProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPairTaskTrackD0.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldPionAllPairTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWGJE jet matching - rework of jetmatching, and update of the QA tasks",
@@ -2530,6 +2495,26 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fill dca QA only for true primaries",
+            "number": 3238,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/onTheFlyTracker.cxx"
                   }
                 }
               ]
