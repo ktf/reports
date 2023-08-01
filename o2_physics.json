@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-20T20:18:15Z",
-            "title": "Update the default parameters",
-            "number": 3135,
-            "author": {
-              "login": "BongHwi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/TableProducer/LFResonanceInitializer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-20T23:22:03Z",
             "title": "Update track selection cuts",
             "number": 3136,
@@ -2505,6 +2485,46 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/lfTPCPID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add QA, datalink and Mc labels for 3body decay",
+            "number": 3235,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hypertriton3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hypertriton3bodyfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/hypertriton3bodyMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/hypertriton3bodyanalysis.cxx"
                   }
                 }
               ]
