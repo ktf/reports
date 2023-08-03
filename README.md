@@ -13,6 +13,7 @@
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11676](https://github.com/AliceO2Group/AliceO2/pull/11676) 2023-07-20: Protection in angle2sector conversion by [@shahor02](https://github.com/shahor02)
+- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
@@ -26,8 +27,8 @@
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
+- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11620](https://github.com/AliceO2Group/AliceO2/pull/11620) 2023-07-06: Protect CTF reader against empty trees by [@shahor02](https://github.com/shahor02)
 - [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11631](https://github.com/AliceO2Group/AliceO2/pull/11631) 2023-07-25: ZDC Fixes on reconstruction for p-p 23zd runs by [@cortesep](https://github.com/cortesep)
@@ -67,6 +68,7 @@
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11709](https://github.com/AliceO2Group/AliceO2/pull/11709) 2023-07-28: Fix RecoConfigZDC class version by [@shahor02](https://github.com/shahor02)
 - [\#11711](https://github.com/AliceO2Group/AliceO2/pull/11711) 2023-07-31: minor fix for TOF noisy in sim by [@noferini](https://github.com/noferini)
+- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
