@@ -4,7 +4,6 @@
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 ## Recent developments in O2 - Common
-- [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
@@ -72,7 +71,6 @@
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
-- [\#11622](https://github.com/AliceO2Group/AliceO2/pull/11622) 2023-07-20: DPL: Remove nOrbitsPerTF from DataTakingContext by [@knopers8](https://github.com/knopers8)
 - [\#11624](https://github.com/AliceO2Group/AliceO2/pull/11624) 2023-07-07: DPL: do not use arrow service if at P2 by [@ktf](https://github.com/ktf)
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)

@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-07-20T08:44:33Z",
-            "title": "DPL: Remove nOrbitsPerTF from DataTakingContext",
-            "number": 11622,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/DataTakingContext.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "ctpdev: RunManager.h removed from Configuration.h",
@@ -3241,7 +3216,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP][QC-869] Produce moving windows of selected merged objects",
+            "title": "[QC-869] Produce moving windows of selected merged objects",
             "number": 11705,
             "author": {
               "login": "knopers8"
@@ -3971,6 +3946,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/CompletionPolicyHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Suppress obsolete V0 and Cascade c-tors",
+            "number": 11722,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Cascade.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/V0.h"
                   }
                 }
               ]
