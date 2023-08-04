@@ -69,6 +69,7 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
+- [\#11724](https://github.com/AliceO2Group/AliceO2/pull/11724) 2023-08-04: Discard link TF data if one of its HBFs RDH has recovery flag by [@shahor02](https://github.com/shahor02)
 - [\#11725](https://github.com/AliceO2Group/AliceO2/pull/11725) 2023-08-04: Move StrangenessTracking to Vertexing dir. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
