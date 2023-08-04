@@ -25,6 +25,7 @@
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
+- [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
@@ -66,6 +67,7 @@
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11709](https://github.com/AliceO2Group/AliceO2/pull/11709) 2023-07-28: Fix RecoConfigZDC class version by [@shahor02](https://github.com/shahor02)
 - [\#11711](https://github.com/AliceO2Group/AliceO2/pull/11711) 2023-07-31: minor fix for TOF noisy in sim by [@noferini](https://github.com/noferini)
+- [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
