@@ -27,8 +27,8 @@
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
+- [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11627](https://github.com/AliceO2Group/AliceO2/pull/11627) 2023-07-07: TPC DLBZS reference decoder: fix nTimeBinSpan check by [@davidrohr](https://github.com/davidrohr)
 - [\#11630](https://github.com/AliceO2Group/AliceO2/pull/11630) 2023-07-08: ctpdev: RunManager.h removed; more info to IR error mesage by [@lietava](https://github.com/lietava)
 - [\#11631](https://github.com/AliceO2Group/AliceO2/pull/11631) 2023-07-25: ZDC Fixes on reconstruction for p-p 23zd runs by [@cortesep](https://github.com/cortesep)
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
@@ -74,6 +74,7 @@
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
 - [\#11724](https://github.com/AliceO2Group/AliceO2/pull/11724) 2023-08-04: Discard link TF data if one of its HBFs RDH has recovery flag by [@shahor02](https://github.com/shahor02)
 - [\#11725](https://github.com/AliceO2Group/AliceO2/pull/11725) 2023-08-04: Move StrangenessTracking to Vertexing dir. by [@shahor02](https://github.com/shahor02)
+- [\#11727](https://github.com/AliceO2Group/AliceO2/pull/11727) 2023-08-04: Fix typo in the raw file output name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
