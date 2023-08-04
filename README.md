@@ -76,7 +76,6 @@
 - [\#11725](https://github.com/AliceO2Group/AliceO2/pull/11725) 2023-08-04: Move StrangenessTracking to Vertexing dir. by [@shahor02](https://github.com/shahor02)
 - [\#11727](https://github.com/AliceO2Group/AliceO2/pull/11727) 2023-08-04: Fix typo in the raw file output name by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11629](https://github.com/AliceO2Group/AliceO2/pull/11629) 2023-07-07: DPL: remove wrong debug assertion by [@ktf](https://github.com/ktf)
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
