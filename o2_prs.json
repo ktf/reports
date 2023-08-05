@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-08T06:42:54Z",
-            "title": "ctpdev: RunManager.h removed; more info to IR error mesage",
-            "number": 11630,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Configuration.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/src/RawDataDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-25T15:11:20Z",
             "title": "ZDC Fixes on reconstruction for p-p 23zd runs",
             "number": 11631,
@@ -4016,6 +3991,46 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "HMP: Avoid sending Cluster dynamic data members in DPL message",
+            "number": 11730,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/include/DataFormatsHMP/Cluster.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/HMPID/src/Cluster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchHMP.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/HMPID/workflow/src/DigitsToClustersSpec.cxx"
                   }
                 }
               ]
