@@ -28,6 +28,7 @@
 - [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
+- [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11631](https://github.com/AliceO2Group/AliceO2/pull/11631) 2023-07-25: ZDC Fixes on reconstruction for p-p 23zd runs by [@cortesep](https://github.com/cortesep)
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
@@ -78,6 +79,7 @@
 - [\#11725](https://github.com/AliceO2Group/AliceO2/pull/11725) 2023-08-04: Move StrangenessTracking to Vertexing dir. by [@shahor02](https://github.com/shahor02)
 - [\#11727](https://github.com/AliceO2Group/AliceO2/pull/11727) 2023-08-04: Fix typo in the raw file output name by [@shahor02](https://github.com/shahor02)
 - [\#11728](https://github.com/AliceO2Group/AliceO2/pull/11728) 2023-08-05: [MFT] Fix z vertex histograms when filling reco MC tracks by [@robincaron13](https://github.com/robincaron13)
+- [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
