@@ -30,7 +30,6 @@
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11631](https://github.com/AliceO2Group/AliceO2/pull/11631) 2023-07-25: ZDC Fixes on reconstruction for p-p 23zd runs by [@cortesep](https://github.com/cortesep)
 - [\#11635](https://github.com/AliceO2Group/AliceO2/pull/11635) 2023-07-09: do not try writingg CTP lumi if decoder does not send it by [@shahor02](https://github.com/shahor02)
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11637](https://github.com/AliceO2Group/AliceO2/pull/11637) 2023-07-11: FT0 calibration: protection from empty slots and EOV issue by [@afurs](https://github.com/afurs)
