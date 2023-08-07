@@ -83,6 +83,7 @@
 - [\#11727](https://github.com/AliceO2Group/AliceO2/pull/11727) 2023-08-04: Fix typo in the raw file output name by [@shahor02](https://github.com/shahor02)
 - [\#11728](https://github.com/AliceO2Group/AliceO2/pull/11728) 2023-08-05: [MFT] Fix z vertex histograms when filling reco MC tracks by [@robincaron13](https://github.com/robincaron13)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
+- [\#11733](https://github.com/AliceO2Group/AliceO2/pull/11733) 2023-08-07: Disable check on data in the stopped ITS lanes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11634](https://github.com/AliceO2Group/AliceO2/pull/11634) 2023-07-09: DPL: do not update / flush metrics which are not enabled by [@ktf](https://github.com/ktf)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
