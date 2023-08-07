@@ -15,6 +15,7 @@
 ## Recent developments in O2 - DataFormats
 - [\#11636](https://github.com/AliceO2Group/AliceO2/pull/11636) 2023-07-11: Some work for TRD by [@martenole](https://github.com/martenole)
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
+- [\#11646](https://github.com/AliceO2Group/AliceO2/pull/11646) 2023-08-07: Dataformats/TPC: Add PID Response class by [@tubagundem](https://github.com/tubagundem)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
@@ -36,6 +37,7 @@
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11641](https://github.com/AliceO2Group/AliceO2/pull/11641) 2023-07-14: [EMCAL-742] Add rejection of EMCal L0 triggered events in calib histo exporter by [@jokonig](https://github.com/jokonig)
 - [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
+- [\#11646](https://github.com/AliceO2Group/AliceO2/pull/11646) 2023-08-07: Dataformats/TPC: Add PID Response class by [@tubagundem](https://github.com/tubagundem)
 - [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
