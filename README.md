@@ -31,7 +31,6 @@
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11637](https://github.com/AliceO2Group/AliceO2/pull/11637) 2023-07-11: FT0 calibration: protection from empty slots and EOV issue by [@afurs](https://github.com/afurs)
 - [\#11640](https://github.com/AliceO2Group/AliceO2/pull/11640) 2023-07-12: [EMCAL-834] Checking active links per trigger by [@mfasDa](https://github.com/mfasDa)
 - [\#11641](https://github.com/AliceO2Group/AliceO2/pull/11641) 2023-07-14: [EMCAL-742] Add rejection of EMCal L0 triggered events in calib histo exporter by [@jokonig](https://github.com/jokonig)
 - [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
