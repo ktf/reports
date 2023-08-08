@@ -81,6 +81,7 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11733](https://github.com/AliceO2Group/AliceO2/pull/11733) 2023-08-07: Disable check on data in the stopped ITS lanes by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
+- [\#11642](https://github.com/AliceO2Group/AliceO2/pull/11642) 2023-08-08: DPL: consider dummy-sink dependent on everything so it is always put at the end of the workflow by [@aalkin](https://github.com/aalkin)
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
