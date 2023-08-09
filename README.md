@@ -13,7 +13,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11646](https://github.com/AliceO2Group/AliceO2/pull/11646) 2023-08-07: Dataformats/TPC: Add PID Response class by [@tubagundem](https://github.com/tubagundem)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
@@ -31,7 +30,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11646](https://github.com/AliceO2Group/AliceO2/pull/11646) 2023-08-07: Dataformats/TPC: Add PID Response class by [@tubagundem](https://github.com/tubagundem)
 - [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
