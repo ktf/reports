@@ -76,6 +76,7 @@
 - [\#11728](https://github.com/AliceO2Group/AliceO2/pull/11728) 2023-08-05: [MFT] Fix z vertex histograms when filling reco MC tracks by [@robincaron13](https://github.com/robincaron13)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11733](https://github.com/AliceO2Group/AliceO2/pull/11733) 2023-08-07: Disable check on data in the stopped ITS lanes by [@shahor02](https://github.com/shahor02)
+- [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 - [\#11645](https://github.com/AliceO2Group/AliceO2/pull/11645) 2023-07-19: DPL: signpost update by [@ktf](https://github.com/ktf)
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
