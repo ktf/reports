@@ -30,7 +30,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11653](https://github.com/AliceO2Group/AliceO2/pull/11653) 2023-07-13: [EMCAL-565, EMCAL-566] Add gain calib factors to online calibration by [@jokonig](https://github.com/jokonig)

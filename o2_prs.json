@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-11T15:21:09Z",
-            "title": "Revert \"set actual VDrift as a reference for the CalibLaserTracks\"",
-            "number": 11647,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibLaserTracks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibLaserTracksSpec.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-11T15:21:46Z",
             "title": "CCDB: Enable multi-handle API by default in online mode, can be disabled otherwise",
             "number": 11648,
@@ -3731,6 +3706,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/include/Framework/GroupedCombinations.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: avoid ODC waiting indefinitely for the driver",
+            "number": 11747,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
                   }
                 }
               ]
