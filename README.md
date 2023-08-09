@@ -4,6 +4,7 @@
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
+- [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11649](https://github.com/AliceO2Group/AliceO2/pull/11649) 2023-07-11: DPL: Do not enable unneeded metrics for arrow and resource limiting in online modes by [@davidrohr](https://github.com/davidrohr)
 - [\#11656](https://github.com/AliceO2Group/AliceO2/pull/11656) 2023-07-17: GPU: Add pow function to CAMath by [@davidrohr](https://github.com/davidrohr)
@@ -88,6 +89,7 @@
 - [\#11701](https://github.com/AliceO2Group/AliceO2/pull/11701) 2023-07-26: DPL: fix more formatting warnings by [@ktf](https://github.com/ktf)
 - [\#11740](https://github.com/AliceO2Group/AliceO2/pull/11740) 2023-08-08: Improve memory rate limiting by [@ktf](https://github.com/ktf)
 - [\#11741](https://github.com/AliceO2Group/AliceO2/pull/11741) 2023-08-09: DPL: add O2_FORCE_SIGNPOSTS by [@ktf](https://github.com/ktf)
+- [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Utilities
