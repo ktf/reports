@@ -87,6 +87,7 @@
 - [\#11697](https://github.com/AliceO2Group/AliceO2/pull/11697) 2023-07-25: DPL: fix formatting compatibility with RH* by [@ktf](https://github.com/ktf)
 - [\#11701](https://github.com/AliceO2Group/AliceO2/pull/11701) 2023-07-26: DPL: fix more formatting warnings by [@ktf](https://github.com/ktf)
 - [\#11740](https://github.com/AliceO2Group/AliceO2/pull/11740) 2023-08-08: Improve memory rate limiting by [@ktf](https://github.com/ktf)
+- [\#11741](https://github.com/AliceO2Group/AliceO2/pull/11741) 2023-08-09: DPL: add O2_FORCE_SIGNPOSTS by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Utilities
