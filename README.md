@@ -30,7 +30,6 @@
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11643](https://github.com/AliceO2Group/AliceO2/pull/11643) 2023-07-10: Residual aggregator avoid writing to same file for different calib slots by [@martenole](https://github.com/martenole)
 - [\#11646](https://github.com/AliceO2Group/AliceO2/pull/11646) 2023-08-07: Dataformats/TPC: Add PID Response class by [@tubagundem](https://github.com/tubagundem)
 - [\#11647](https://github.com/AliceO2Group/AliceO2/pull/11647) 2023-07-11: Revert "set actual VDrift as a reference for the CalibLaserTracks" by [@davidrohr](https://github.com/davidrohr)
 - [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
