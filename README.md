@@ -13,7 +13,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
@@ -30,7 +29,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11650](https://github.com/AliceO2Group/AliceO2/pull/11650) 2023-07-19: FITRaw: refactoring + new raw data metric feature by [@afurs](https://github.com/afurs)
 - [\#11652](https://github.com/AliceO2Group/AliceO2/pull/11652) 2023-07-13: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 - [\#11653](https://github.com/AliceO2Group/AliceO2/pull/11653) 2023-07-13: [EMCAL-565, EMCAL-566] Add gain calib factors to online calibration by [@jokonig](https://github.com/jokonig)
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
