@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-13T08:03:00Z",
-            "title": "TRD gain calibration fix",
-            "number": 11652,
-            "author": {
-              "login": "glegras"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/GainCalibHistos.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/CalibratorGain.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/TrackBasedCalib.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-13T17:01:03Z",
             "title": "[EMCAL-565, EMCAL-566] Add gain calib factors to online calibration",
             "number": 11653,
@@ -3543,6 +3513,31 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/src/RawDumpSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optionally reject some TPC links in rawTF->raw conversion",
+            "number": 11752,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Raw/CMakeLists.txt"
+                  }
+                },
                 {
                   "node": {
                     "path": "Detectors/Raw/src/RawDumpSpec.cxx"
