@@ -76,6 +76,7 @@
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
+- [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
