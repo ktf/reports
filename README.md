@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
@@ -13,7 +12,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
 - [\#11664](https://github.com/AliceO2Group/AliceO2/pull/11664) 2023-08-11: TRD: PID: fixups by [@f3sch](https://github.com/f3sch)
@@ -29,7 +27,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11655](https://github.com/AliceO2Group/AliceO2/pull/11655) 2023-07-18: TPC: Add tag definitions by [@wiechula](https://github.com/wiechula)
 - [\#11657](https://github.com/AliceO2Group/AliceO2/pull/11657) 2023-07-17: ctpdev: dump raw on error by [@lietava](https://github.com/lietava)
 - [\#11658](https://github.com/AliceO2Group/AliceO2/pull/11658) 2023-07-14: Revert "TPC: Derivative map implementation (#11585)" by [@martenole](https://github.com/martenole)
@@ -80,7 +77,6 @@
 - [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 - [\#11752](https://github.com/AliceO2Group/AliceO2/pull/11752) 2023-08-10: Optionally reject some TPC links in rawTF->raw conversion by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11654](https://github.com/AliceO2Group/AliceO2/pull/11654) 2023-07-31: Hmpidao2d by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
