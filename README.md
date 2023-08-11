@@ -26,7 +26,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11657](https://github.com/AliceO2Group/AliceO2/pull/11657) 2023-07-17: ctpdev: dump raw on error by [@lietava](https://github.com/lietava)
 - [\#11658](https://github.com/AliceO2Group/AliceO2/pull/11658) 2023-07-14: Revert "TPC: Derivative map implementation (#11585)" by [@martenole](https://github.com/martenole)
 - [\#11660](https://github.com/AliceO2Group/AliceO2/pull/11660) 2023-07-18: Implementing derivative map to O2 by [@ChSonnabend](https://github.com/ChSonnabend)
 - [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
