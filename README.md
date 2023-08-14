@@ -11,7 +11,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11662](https://github.com/AliceO2Group/AliceO2/pull/11662) 2023-07-20: Optionally override magnet currents by [@shahor02](https://github.com/shahor02)
 - [\#11664](https://github.com/AliceO2Group/AliceO2/pull/11664) 2023-08-11: TRD: PID: fixups by [@f3sch](https://github.com/f3sch)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
@@ -26,7 +25,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11661](https://github.com/AliceO2Group/AliceO2/pull/11661) 2023-07-19: TRD new structure for Tracklet64 by [@martenole](https://github.com/martenole)
 - [\#11664](https://github.com/AliceO2Group/AliceO2/pull/11664) 2023-08-11: TRD: PID: fixups by [@f3sch](https://github.com/f3sch)
 - [\#11665](https://github.com/AliceO2Group/AliceO2/pull/11665) 2023-07-19: Mark MC particles reconstructed in calorimeters for storage by [@nburmaso](https://github.com/nburmaso)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
