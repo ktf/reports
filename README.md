@@ -71,6 +71,7 @@
 - [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 - [\#11752](https://github.com/AliceO2Group/AliceO2/pull/11752) 2023-08-10: Optionally reject some TPC links in rawTF->raw conversion by [@shahor02](https://github.com/shahor02)
 - [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
+- [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
