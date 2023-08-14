@@ -76,6 +76,7 @@
 - [\#11741](https://github.com/AliceO2Group/AliceO2/pull/11741) 2023-08-09: DPL: add O2_FORCE_SIGNPOSTS by [@ktf](https://github.com/ktf)
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 - [\#11747](https://github.com/AliceO2Group/AliceO2/pull/11747) 2023-08-09: DPL: avoid ODC waiting indefinitely for the driver by [@ktf](https://github.com/ktf)
+- [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Steer
