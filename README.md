@@ -10,7 +10,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
@@ -67,7 +66,6 @@
 - [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 - [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-- [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)

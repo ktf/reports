@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-27T08:51:52Z",
-            "title": "PDG: Move `Mass` method in the header",
-            "number": 11668,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/O2DatabasePDG.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_O2DatabasePDG.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/PhysicsSupport/include/Framework/O2DatabasePDGPlugin.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/PhysicsSupport/src/Plugin.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-19T21:11:20Z",
             "title": "Process part of TF with wrong time span",
             "number": 11669,
@@ -3401,6 +3366,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Enable TRD t0 monitoring by default",
+            "number": 11768,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
