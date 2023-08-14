@@ -10,7 +10,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 - [\#11668](https://github.com/AliceO2Group/AliceO2/pull/11668) 2023-07-27: PDG: Move `Mass` method in the header by [@vkucera](https://github.com/vkucera)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
@@ -22,7 +21,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 - [\#11669](https://github.com/AliceO2Group/AliceO2/pull/11669) 2023-07-19: Process part of TF with wrong time span by [@shahor02](https://github.com/shahor02)
 - [\#11671](https://github.com/AliceO2Group/AliceO2/pull/11671) 2023-07-20: TPC SpaceCharge: Adding static distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
