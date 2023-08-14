@@ -22,7 +22,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11665](https://github.com/AliceO2Group/AliceO2/pull/11665) 2023-07-19: Mark MC particles reconstructed in calorimeters for storage by [@nburmaso](https://github.com/nburmaso)
 - [\#11667](https://github.com/AliceO2Group/AliceO2/pull/11667) 2023-07-18: [EMCAL-834] Add name and title for link missing error by [@mfasDa](https://github.com/mfasDa)
 - [\#11669](https://github.com/AliceO2Group/AliceO2/pull/11669) 2023-07-19: Process part of TF with wrong time span by [@shahor02](https://github.com/shahor02)
 - [\#11671](https://github.com/AliceO2Group/AliceO2/pull/11671) 2023-07-20: TPC SpaceCharge: Adding static distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
