@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-18T15:40:36Z",
-            "title": "Implementing derivative map to O2",
-            "number": 11660,
-            "author": {
-              "login": "ChSonnabend"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CDBInterface.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CorrectionMapsLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CorrectionMapsHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/CorrectionMapsHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-19T12:26:23Z",
             "title": "TRD new structure for Tracklet64",
             "number": 11661,
@@ -3436,6 +3376,36 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/reconstruction/src/ChipMappingITS.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "O2sim: cleanups",
+            "number": 11760,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/SimExamples/McTracksToAOD/mctracks_to_aod_simple_task.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_mctracks_to_aod.cxx"
                   }
                 }
               ]
