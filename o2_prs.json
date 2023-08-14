@@ -5,106 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-11T07:26:08Z",
-            "title": "TRD: PID: fixups",
-            "number": 11664,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/PID.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/README.md"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/Dummy.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/LQND.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/ML.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/include/TRDPID/PIDParameters.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/ccdbModelUpload.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/ccdbPIDUpload.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/macros/makeTestLUTs.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/ML.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/PIDBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/TRDPIDLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/pid/src/TRDPIDNoMLLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-19T11:03:11Z",
             "title": "Mark MC particles reconstructed in calorimeters for storage",
             "number": 11665,
@@ -3426,6 +3326,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix/modernize void argument to silence code-checker",
+            "number": 11764,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/include/TPCMonitor/SimpleEventDisplayGUI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
                   }
                 }
               ]
