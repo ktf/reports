@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-07-21T07:19:40Z",
-            "title": "ITS-Studies: Add toggles for current studies + fixes",
-            "number": 11673,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/AvgClusSize.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/ITSStudiesConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/ImpactParameter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/include/ITSStudies/TrackCheck.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/AvgClusSize.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ImpactParameter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/TrackCheck.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-07-21T08:04:47Z",
             "title": "Geant4: Allow to provide custom G4 macro file",
             "number": 11674,
@@ -3406,6 +3336,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/tpc-miptrack-filter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Ancillary commits for multiple output routes",
+            "number": 11773,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/FairMQDeviceProxy.cxx"
                   }
                 }
               ]

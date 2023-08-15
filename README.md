@@ -22,7 +22,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11675](https://github.com/AliceO2Group/AliceO2/pull/11675) 2023-07-20: Provide full spec in the log of duplicate input in merged w-flow by [@shahor02](https://github.com/shahor02)
 - [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
