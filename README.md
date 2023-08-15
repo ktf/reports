@@ -64,6 +64,7 @@
 - [\#11755](https://github.com/AliceO2Group/AliceO2/pull/11755) 2023-08-14: ITS Thr Scan bug fix: swap of indices by [@iravasen](https://github.com/iravasen)
 - [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 - [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
+- [\#11764](https://github.com/AliceO2Group/AliceO2/pull/11764) 2023-08-15: Fix/modernize void argument to silence code-checker by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
