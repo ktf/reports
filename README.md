@@ -4,6 +4,7 @@
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
+- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11676](https://github.com/AliceO2Group/AliceO2/pull/11676) 2023-07-20: Protection in angle2sector conversion by [@shahor02](https://github.com/shahor02)
@@ -81,6 +82,7 @@
 - [\#11746](https://github.com/AliceO2Group/AliceO2/pull/11746) 2023-08-15: Fix missing const in GroupedCombinations by [@vkucera](https://github.com/vkucera)
 - [\#11747](https://github.com/AliceO2Group/AliceO2/pull/11747) 2023-08-09: DPL: avoid ODC waiting indefinitely for the driver by [@ktf](https://github.com/ktf)
 - [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
+- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 ## Recent developments in O2 - Steer
