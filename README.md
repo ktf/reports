@@ -21,7 +21,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11671](https://github.com/AliceO2Group/AliceO2/pull/11671) 2023-07-20: TPC SpaceCharge: Adding static distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11675](https://github.com/AliceO2Group/AliceO2/pull/11675) 2023-07-20: Provide full spec in the log of duplicate input in merged w-flow by [@shahor02](https://github.com/shahor02)
@@ -68,6 +67,7 @@
 - [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
 - [\#11764](https://github.com/AliceO2Group/AliceO2/pull/11764) 2023-08-15: Fix/modernize void argument to silence code-checker by [@shahor02](https://github.com/shahor02)
 - [\#11769](https://github.com/AliceO2Group/AliceO2/pull/11769) 2023-08-15: be explicit about signed char by [@sawenzel](https://github.com/sawenzel)
+- [\#11771](https://github.com/AliceO2Group/AliceO2/pull/11771) 2023-08-15: Fix: set missing gbtErrStatUpadated in accountLinkRecovery by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 - [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
