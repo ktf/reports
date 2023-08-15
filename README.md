@@ -20,7 +20,6 @@
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11669](https://github.com/AliceO2Group/AliceO2/pull/11669) 2023-07-19: Process part of TF with wrong time span by [@shahor02](https://github.com/shahor02)
 - [\#11671](https://github.com/AliceO2Group/AliceO2/pull/11671) 2023-07-20: TPC SpaceCharge: Adding static distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11673](https://github.com/AliceO2Group/AliceO2/pull/11673) 2023-07-21: ITS-Studies: Add toggles for current studies + fixes by [@mconcas](https://github.com/mconcas)
 - [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
