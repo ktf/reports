@@ -63,6 +63,7 @@
 - [\#11764](https://github.com/AliceO2Group/AliceO2/pull/11764) 2023-08-15: Fix/modernize void argument to silence code-checker by [@shahor02](https://github.com/shahor02)
 - [\#11769](https://github.com/AliceO2Group/AliceO2/pull/11769) 2023-08-15: be explicit about signed char by [@sawenzel](https://github.com/sawenzel)
 - [\#11771](https://github.com/AliceO2Group/AliceO2/pull/11771) 2023-08-15: Fix: set missing gbtErrStatUpadated in accountLinkRecovery by [@shahor02](https://github.com/shahor02)
+- [\#11772](https://github.com/AliceO2Group/AliceO2/pull/11772) 2023-08-16: TPC: several unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 - [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
