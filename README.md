@@ -81,6 +81,7 @@
 - [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
 - [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 - [\#11773](https://github.com/AliceO2Group/AliceO2/pull/11773) 2023-08-16: Ancillary commits for multiple output routes by [@ktf](https://github.com/ktf)
+- [\#11774](https://github.com/AliceO2Group/AliceO2/pull/11774) 2023-08-16: DPL: better debug printout of forward routes by [@ktf](https://github.com/ktf)
 - [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
