@@ -54,6 +54,7 @@
 - [\#11748](https://github.com/AliceO2Group/AliceO2/pull/11748) 2023-08-11: Update TRD workflow README by [@martenole](https://github.com/martenole)
 - [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 - [\#11752](https://github.com/AliceO2Group/AliceO2/pull/11752) 2023-08-10: Optionally reject some TPC links in rawTF->raw conversion by [@shahor02](https://github.com/shahor02)
+- [\#11753](https://github.com/AliceO2Group/AliceO2/pull/11753) 2023-08-16: TPC: changing CCDB path for new correction maps by [@matthias-kleiner](https://github.com/matthias-kleiner)
 - [\#11755](https://github.com/AliceO2Group/AliceO2/pull/11755) 2023-08-14: ITS Thr Scan bug fix: swap of indices by [@iravasen](https://github.com/iravasen)
 - [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 - [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
