@@ -20,7 +20,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11678](https://github.com/AliceO2Group/AliceO2/pull/11678) 2023-07-22: Restore setting VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11680](https://github.com/AliceO2Group/AliceO2/pull/11680) 2023-07-31: New MFT barrel by [@frmanso](https://github.com/frmanso)
