@@ -6,7 +6,6 @@
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 - [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
 - [\#11676](https://github.com/AliceO2Group/AliceO2/pull/11676) 2023-07-20: Protection in angle2sector conversion by [@shahor02](https://github.com/shahor02)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
@@ -22,8 +21,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11674](https://github.com/AliceO2Group/AliceO2/pull/11674) 2023-07-21: Geant4: Allow to provide custom G4 macro file by [@sawenzel](https://github.com/sawenzel)
-- [\#11675](https://github.com/AliceO2Group/AliceO2/pull/11675) 2023-07-20: Provide full spec in the log of duplicate input in merged w-flow by [@shahor02](https://github.com/shahor02)
 - [\#11677](https://github.com/AliceO2Group/AliceO2/pull/11677) 2023-07-24: Avoid warnings when looking for MCEventHeader info by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 - [\#11678](https://github.com/AliceO2Group/AliceO2/pull/11678) 2023-07-22: Restore setting VDrift as a reference for the CalibLaserTracks by [@shahor02](https://github.com/shahor02)
 - [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
