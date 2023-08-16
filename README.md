@@ -9,7 +9,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11706](https://github.com/AliceO2Group/AliceO2/pull/11706) 2023-08-05: Computation of global covariance for fwdtracks by [@mcoquet642](https://github.com/mcoquet642)
@@ -20,7 +19,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11679](https://github.com/AliceO2Group/AliceO2/pull/11679) 2023-07-24: ctpdev: lumi inputs as parameters by [@lietava](https://github.com/lietava)
 - [\#11680](https://github.com/AliceO2Group/AliceO2/pull/11680) 2023-07-31: New MFT barrel by [@frmanso](https://github.com/frmanso)
 - [\#11682](https://github.com/AliceO2Group/AliceO2/pull/11682) 2023-08-04: WIP: fast TPC space charge correction: shrink corrections outside of the TPC row by [@sgorbuno](https://github.com/sgorbuno)
 - [\#11684](https://github.com/AliceO2Group/AliceO2/pull/11684) 2023-07-26: [O2-4001] rawTF -> raw converter by [@shahor02](https://github.com/shahor02)
