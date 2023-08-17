@@ -20,7 +20,6 @@
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11685](https://github.com/AliceO2Group/AliceO2/pull/11685) 2023-07-26: FT0: updates on fuctions for event plane reconstruction by [@jikim1290](https://github.com/jikim1290)
 - [\#11686](https://github.com/AliceO2Group/AliceO2/pull/11686) 2023-07-28: ITS: added new calib scan: vresetd scan 1D and 2D + new minor features by [@iravasen](https://github.com/iravasen)
 - [\#11689](https://github.com/AliceO2Group/AliceO2/pull/11689) 2023-07-25: Fix MC labels for MID digits by [@dstocco](https://github.com/dstocco)
 - [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
