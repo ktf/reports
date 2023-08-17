@@ -19,7 +19,6 @@
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-- [\#11680](https://github.com/AliceO2Group/AliceO2/pull/11680) 2023-07-31: New MFT barrel by [@frmanso](https://github.com/frmanso)
 - [\#11682](https://github.com/AliceO2Group/AliceO2/pull/11682) 2023-08-04: WIP: fast TPC space charge correction: shrink corrections outside of the TPC row by [@sgorbuno](https://github.com/sgorbuno)
 - [\#11684](https://github.com/AliceO2Group/AliceO2/pull/11684) 2023-07-26: [O2-4001] rawTF -> raw converter by [@shahor02](https://github.com/shahor02)
 - [\#11685](https://github.com/AliceO2Group/AliceO2/pull/11685) 2023-07-26: FT0: updates on fuctions for event plane reconstruction by [@jikim1290](https://github.com/jikim1290)
@@ -64,6 +63,7 @@
 - [\#11771](https://github.com/AliceO2Group/AliceO2/pull/11771) 2023-08-15: Fix: set missing gbtErrStatUpadated in accountLinkRecovery by [@shahor02](https://github.com/shahor02)
 - [\#11772](https://github.com/AliceO2Group/AliceO2/pull/11772) 2023-08-16: TPC: several unrelated updates by [@wiechula](https://github.com/wiechula)
 - [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
+- [\#11780](https://github.com/AliceO2Group/AliceO2/pull/11780) 2023-08-17: Fix code checker error. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 - [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
