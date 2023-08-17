@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-- [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 - [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
@@ -65,7 +64,6 @@
 ## Recent developments in O2 - Examples
 - [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11687](https://github.com/AliceO2Group/AliceO2/pull/11687) 2023-08-08: DPL: remove aod-reader when not needed by [@aalkin](https://github.com/aalkin)
 - [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11697](https://github.com/AliceO2Group/AliceO2/pull/11697) 2023-07-25: DPL: fix formatting compatibility with RH* by [@ktf](https://github.com/ktf)
