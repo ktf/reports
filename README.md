@@ -66,7 +66,6 @@
 ## Recent developments in O2 - Examples
 - [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-- [\#11688](https://github.com/AliceO2Group/AliceO2/pull/11688) 2023-07-25: DPL: add DPL driver to the actual DDS DPL collection by [@ktf](https://github.com/ktf)
 - [\#11692](https://github.com/AliceO2Group/AliceO2/pull/11692) 2023-07-25: newhmpiddatamodel by [@gvolpe79](https://github.com/gvolpe79)
 - [\#11697](https://github.com/AliceO2Group/AliceO2/pull/11697) 2023-07-25: DPL: fix formatting compatibility with RH* by [@ktf](https://github.com/ktf)
 - [\#11701](https://github.com/AliceO2Group/AliceO2/pull/11701) 2023-07-26: DPL: fix more formatting warnings by [@ktf](https://github.com/ktf)
