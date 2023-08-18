@@ -20,7 +20,6 @@
 - [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11690](https://github.com/AliceO2Group/AliceO2/pull/11690) 2023-07-24: ALICE3: Excavate outer pipe  vacuum to host coldplate by [@mconcas](https://github.com/mconcas)
 - [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
