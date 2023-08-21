@@ -7,7 +7,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11706](https://github.com/AliceO2Group/AliceO2/pull/11706) 2023-08-05: Computation of global covariance for fwdtracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
@@ -76,7 +75,5 @@
 - [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
-## Recent developments in O2 - Steer
-- [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Utilities
 - [\#11705](https://github.com/AliceO2Group/AliceO2/pull/11705) 2023-08-21: [QC-869] Produce moving windows of selected merged objects by [@knopers8](https://github.com/knopers8)
