@@ -7,7 +7,6 @@
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - DataFormats
-- [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 - [\#11706](https://github.com/AliceO2Group/AliceO2/pull/11706) 2023-08-05: Computation of global covariance for fwdtracks by [@mcoquet642](https://github.com/mcoquet642)
 - [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
@@ -19,7 +18,6 @@
 - [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11695](https://github.com/AliceO2Group/AliceO2/pull/11695) 2023-08-07: Adding TRD t0 fitting procedure by [@luisabergmann](https://github.com/luisabergmann)
 - [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11703](https://github.com/AliceO2Group/AliceO2/pull/11703) 2023-08-05: [EMCAL-660] Add STU link support in getLinkAssignment by [@mfasDa](https://github.com/mfasDa)
