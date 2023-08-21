@@ -18,7 +18,6 @@
 - [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-- [\#11696](https://github.com/AliceO2Group/AliceO2/pull/11696) 2023-07-25: ctpdev: fix for dumping raw data at epn by [@lietava](https://github.com/lietava)
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11703](https://github.com/AliceO2Group/AliceO2/pull/11703) 2023-08-05: [EMCAL-660] Add STU link support in getLinkAssignment by [@mfasDa](https://github.com/mfasDa)
 - [\#11708](https://github.com/AliceO2Group/AliceO2/pull/11708) 2023-08-05: ZDC - Tuning of intercalibration workfow by [@cortesep](https://github.com/cortesep)
