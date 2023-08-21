@@ -83,5 +83,4 @@
 ## Recent developments in O2 - Steer
 - [\#11699](https://github.com/AliceO2Group/AliceO2/pull/11699) 2023-07-28: Adding (anti-)lithium4 particle by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Utilities
-- [\#11694](https://github.com/AliceO2Group/AliceO2/pull/11694) 2023-07-26: Add STDERRMON filter for histogram division by [@martenole](https://github.com/martenole)
 - [\#11705](https://github.com/AliceO2Group/AliceO2/pull/11705) 2023-08-21: [QC-869] Produce moving windows of selected merged objects by [@knopers8](https://github.com/knopers8)
