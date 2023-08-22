@@ -73,6 +73,7 @@
 - [\#11774](https://github.com/AliceO2Group/AliceO2/pull/11774) 2023-08-16: DPL: better debug printout of forward routes by [@ktf](https://github.com/ktf)
 - [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 - [\#11777](https://github.com/AliceO2Group/AliceO2/pull/11777) 2023-08-17: DPL: add API to stop / start devices by [@ktf](https://github.com/ktf)
+- [\#11781](https://github.com/AliceO2Group/AliceO2/pull/11781) 2023-08-22: DPL: optimise signposts implementation by [@ktf](https://github.com/ktf)
 - [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
