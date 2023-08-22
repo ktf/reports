@@ -77,5 +77,3 @@
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Utilities
-- [\#11705](https://github.com/AliceO2Group/AliceO2/pull/11705) 2023-08-21: [QC-869] Produce moving windows of selected merged objects by [@knopers8](https://github.com/knopers8)
