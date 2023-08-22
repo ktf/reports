@@ -17,6 +17,7 @@
 - [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
+- [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11702](https://github.com/AliceO2Group/AliceO2/pull/11702) 2023-07-28: ITS-Studies: expand lambda/proton study functionality by [@tch285](https://github.com/tch285)
 - [\#11703](https://github.com/AliceO2Group/AliceO2/pull/11703) 2023-08-05: [EMCAL-660] Add STU link support in getLinkAssignment by [@mfasDa](https://github.com/mfasDa)
