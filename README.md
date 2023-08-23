@@ -76,6 +76,7 @@
 - [\#11777](https://github.com/AliceO2Group/AliceO2/pull/11777) 2023-08-17: DPL: add API to stop / start devices by [@ktf](https://github.com/ktf)
 - [\#11781](https://github.com/AliceO2Group/AliceO2/pull/11781) 2023-08-22: DPL: optimise signposts implementation by [@ktf](https://github.com/ktf)
 - [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
+- [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
