@@ -19,7 +19,6 @@
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11711](https://github.com/AliceO2Group/AliceO2/pull/11711) 2023-07-31: minor fix for TOF noisy in sim by [@noferini](https://github.com/noferini)
 - [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11714](https://github.com/AliceO2Group/AliceO2/pull/11714) 2023-08-05: ITS TOT calibration: try to calculate slope in corner cases by [@iravasen](https://github.com/iravasen)
