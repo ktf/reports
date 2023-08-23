@@ -41,6 +41,7 @@
 - [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
 - [\#11745](https://github.com/AliceO2Group/AliceO2/pull/11745) 2023-08-11: TPC: Feature/o2 monitor occupancy by [@sidibu](https://github.com/sidibu)
 - [\#11748](https://github.com/AliceO2Group/AliceO2/pull/11748) 2023-08-11: Update TRD workflow README by [@martenole](https://github.com/martenole)
+- [\#11750](https://github.com/AliceO2Group/AliceO2/pull/11750) 2023-08-23: MFT chips alignment by [@frmanso](https://github.com/frmanso)
 - [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 - [\#11752](https://github.com/AliceO2Group/AliceO2/pull/11752) 2023-08-10: Optionally reject some TPC links in rawTF->raw conversion by [@shahor02](https://github.com/shahor02)
 - [\#11753](https://github.com/AliceO2Group/AliceO2/pull/11753) 2023-08-16: TPC: changing CCDB path for new correction maps by [@matthias-kleiner](https://github.com/matthias-kleiner)
