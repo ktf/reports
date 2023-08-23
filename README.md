@@ -80,5 +80,7 @@
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Steer
+- [\#11803](https://github.com/AliceO2Group/AliceO2/pull/11803) 2023-08-23: starting to parse the apass anchoring in TOF digitization by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Utilities
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
