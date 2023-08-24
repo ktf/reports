@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-03T09:10:24Z",
-            "title": "Do not report OldROF error in ROF ramp up stage",
-            "number": 11715,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RUDecodeData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RUDecodeData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-01T17:31:09Z",
             "title": "fix: dump to cwd",
             "number": 11716,
@@ -3311,7 +3281,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP][EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams",
+            "title": "[EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams",
             "number": 11813,
             "author": {
               "login": "mfasDa"
@@ -3351,6 +3321,26 @@
                 {
                   "node": {
                     "path": "GPU/TPCFastTransformation/TPCFastTransformGeo.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Fix unmanaged memory allocator",
+            "number": 11815,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
                   }
                 }
               ]

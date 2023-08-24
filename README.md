@@ -16,7 +16,6 @@
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
 - [\#11724](https://github.com/AliceO2Group/AliceO2/pull/11724) 2023-08-04: Discard link TF data if one of its HBFs RDH has recovery flag by [@shahor02](https://github.com/shahor02)
 - [\#11725](https://github.com/AliceO2Group/AliceO2/pull/11725) 2023-08-04: Move StrangenessTracking to Vertexing dir. by [@shahor02](https://github.com/shahor02)
