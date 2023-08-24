@@ -4,11 +4,9 @@
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 - [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
@@ -18,7 +16,6 @@
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11714](https://github.com/AliceO2Group/AliceO2/pull/11714) 2023-08-05: ITS TOT calibration: try to calculate slope in corner cases by [@iravasen](https://github.com/iravasen)
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
