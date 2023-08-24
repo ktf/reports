@@ -14,6 +14,7 @@
 - [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
+- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 - [\#11716](https://github.com/AliceO2Group/AliceO2/pull/11716) 2023-08-01: fix: dump to cwd by [@lietava](https://github.com/lietava)
@@ -48,6 +49,7 @@
 - [\#11780](https://github.com/AliceO2Group/AliceO2/pull/11780) 2023-08-17: Fix code checker error. by [@ktf](https://github.com/ktf)
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
+- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 - [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
