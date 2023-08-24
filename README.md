@@ -56,6 +56,7 @@
 - [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
+- [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 - [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
