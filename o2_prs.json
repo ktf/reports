@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-04T12:01:43Z",
-            "title": "ctpdev : inputs shifts",
-            "number": 11712,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/TriggerOffsetsParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/RawDataDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/src/RawDataDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/RawDecoderSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-03T09:37:10Z",
             "title": "Split SVs to index and kinematics parts, run str.tracking from SVertexer",
             "number": 11713,
@@ -3501,6 +3466,46 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/aggregator-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "move aod merger to O2",
+            "number": 11812,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodThinner.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/CMakeLists.txt"
                   }
                 }
               ]

@@ -8,7 +8,6 @@
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-- [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
@@ -19,7 +18,6 @@
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-- [\#11712](https://github.com/AliceO2Group/AliceO2/pull/11712) 2023-08-04: ctpdev : inputs shifts by [@lietava](https://github.com/lietava)
 - [\#11713](https://github.com/AliceO2Group/AliceO2/pull/11713) 2023-08-03: Split SVs to index and kinematics parts, run str.tracking from SVertexer by [@shahor02](https://github.com/shahor02)
 - [\#11714](https://github.com/AliceO2Group/AliceO2/pull/11714) 2023-08-05: ITS TOT calibration: try to calculate slope in corner cases by [@iravasen](https://github.com/iravasen)
 - [\#11715](https://github.com/AliceO2Group/AliceO2/pull/11715) 2023-08-03: Do not report OldROF error in ROF ramp up stage by [@shahor02](https://github.com/shahor02)
