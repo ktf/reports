@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-09T09:17:30Z",
-            "title": "PWG-UD: Added track.beta and track.betaerror to UD tables",
-            "number": 3282,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UPCHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/diffMCQA.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-07T17:56:14Z",
             "title": "PWGEM: Rework existing cut settings to be available with/out post calibration correction",
             "number": 3283,
@@ -3245,6 +3195,16 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGCF/FemtoUniverse/Core/FemtoUniverseParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerMCTruthTask.cxx"
                   }
                 },
@@ -3256,6 +3216,11 @@
                 {
                   "node": {
                     "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMcTruth.cxx"
                   }
                 }
               ]
@@ -3491,6 +3456,51 @@
                 {
                   "node": {
                     "path": "DPG/Tasks/AOTTrack/qaTrackSelection.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "A3: Move OTF to dedicated directory",
+            "number": 3384,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyRICHPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTOFPID.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "ALICE3/TableProducer/OTF/onTheFlyTracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
                   }
                 }
               ]
