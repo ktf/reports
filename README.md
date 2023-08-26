@@ -3,9 +3,11 @@
 ## Recent developments in O2 - Analysis
 - [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 - [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
+- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
+- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 - [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
@@ -71,6 +73,7 @@
 - [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
 - [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
 - [\#11808](https://github.com/AliceO2Group/AliceO2/pull/11808) 2023-08-24: Revert "DPL: handle spurious messages when in READY state (#11799)" by [@knopers8](https://github.com/knopers8)
+- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
