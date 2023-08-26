@@ -9,7 +9,6 @@
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 - [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-- [\#11722](https://github.com/AliceO2Group/AliceO2/pull/11722) 2023-08-04: Suppress obsolete V0 and Cascade c-tors by [@shahor02](https://github.com/shahor02)
 - [\#11730](https://github.com/AliceO2Group/AliceO2/pull/11730) 2023-08-06: HMP: Avoid sending Cluster dynamic data members in DPL message by [@shahor02](https://github.com/shahor02)
 - [\#11732](https://github.com/AliceO2Group/AliceO2/pull/11732) 2023-08-15: TPC: Trigger handling for non-interleaved data with dense format by [@wiechula](https://github.com/wiechula)
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
