@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-04T08:19:09Z",
-            "title": "Discard link TF data if one of its HBFs RDH has recovery flag",
-            "number": 11724,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/DecodingStat.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-04T00:25:17Z",
             "title": "Move StrangenessTracking to Vertexing dir.",
             "number": 11725,
@@ -3476,6 +3441,36 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition",
+            "number": 11824,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/RateLimiter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/RateLimiter.cxx"
                   }
                 }
               ]
