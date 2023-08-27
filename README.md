@@ -72,6 +72,7 @@
 - [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
 - [\#11808](https://github.com/AliceO2Group/AliceO2/pull/11808) 2023-08-24: Revert "DPL: handle spurious messages when in READY state (#11799)" by [@knopers8](https://github.com/knopers8)
 - [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
+- [\#11824](https://github.com/AliceO2Group/AliceO2/pull/11824) 2023-08-27: DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
