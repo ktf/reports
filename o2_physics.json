@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-08T11:52:35Z",
-            "title": "PWGMM: dndeta: skeleton of pure MC task to use with mctracks-to-aod",
-            "number": 3286,
-            "author": {
-              "login": "aalkin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGMM/Mult/Tasks/puremc-dndeta.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-08T13:46:12Z",
             "title": "Add ghost tracks for EM studies",
             "number": 3287,
@@ -3476,6 +3451,36 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/Tasks/pcmQCMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGEM/PhotonMeson: reduce dependency on centrality",
+            "number": 3388,
+            "author": {
+              "login": "dsekihat"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/DataModel/gammaTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createEMReducedEvent.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/TableProducer/createEMReducedMCEvent.cxx"
                   }
                 }
               ]
