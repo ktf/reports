@@ -52,6 +52,7 @@
 - [\#11800](https://github.com/AliceO2Group/AliceO2/pull/11800) 2023-08-28: ITS workflows to generate and parse ADAPOS data by [@iravasen](https://github.com/iravasen)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 - [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
+- [\#11810](https://github.com/AliceO2Group/AliceO2/pull/11810) 2023-08-28: TPC: Add SAC Zero Scaling  by [@mlesch](https://github.com/mlesch)
 - [\#11813](https://github.com/AliceO2Group/AliceO2/pull/11813) 2023-08-24: [EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams by [@mfasDa](https://github.com/mfasDa)
 - [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
 - [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
