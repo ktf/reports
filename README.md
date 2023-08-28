@@ -73,6 +73,7 @@
 - [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
 - [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
 - [\#11808](https://github.com/AliceO2Group/AliceO2/pull/11808) 2023-08-24: Revert "DPL: handle spurious messages when in READY state (#11799)" by [@knopers8](https://github.com/knopers8)
+- [\#11812](https://github.com/AliceO2Group/AliceO2/pull/11812) 2023-08-28: move aod merger to O2 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 - [\#11824](https://github.com/AliceO2Group/AliceO2/pull/11824) 2023-08-27: DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
