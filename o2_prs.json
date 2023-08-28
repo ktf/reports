@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-08-04T00:25:17Z",
-            "title": "Move StrangenessTracking to Vertexing dir.",
-            "number": 11725,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/StrangenessTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/include/StrangenessTracking/IndexTableUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/include/StrangenessTracking/StrangenessTracker.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/include/StrangenessTracking/StrangenessTrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTrackingConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTrackingLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Exclude GainCalibHistos from the Root dictionary",
@@ -3476,6 +3411,81 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/RateLimiter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Drop need to include ptree in ConfigurableParam.h",
+            "number": 11825,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParamHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Raw/test/testClosureCoDec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Simulation/test/testDigitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Triggering/test/testEventFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/test/testTPCParameters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCAverageGroup.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCFactorization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/SACFactorization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCGroupingParameter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/ApplyCCDBCalibSpec.cxx"
                   }
                 }
               ]
