@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Exclude GainCalibHistos from the Root dictionary",
-            "number": 11726,
-            "author": {
-              "login": "pzhristov"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/src/DataFormatsTRDLinkDef.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-08-04T14:34:34Z",
             "title": "Fix typo in the raw file output name",
@@ -3531,6 +3506,56 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/ApplyCCDBCalibSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib",
+            "number": 11826,
+            "author": {
+              "login": "jokonig"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibExtractor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALTimeCalibData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/calibration/src/EMCALTimeCalibData.cxx"
                   }
                 }
               ]
