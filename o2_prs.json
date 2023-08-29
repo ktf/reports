@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-05T00:49:05Z",
-            "title": "[MFT] Fix z vertex histograms when filling reco MC tracks",
-            "number": 11728,
-            "author": {
-              "login": "robincaron13"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-05T13:18:20Z",
             "title": "TPC: Add option to process only single sector",
             "number": 11729,
@@ -3556,6 +3536,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add support for thread sanitizer",
+            "number": 11828,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2CompileFlags.cmake"
                   }
                 }
               ]
