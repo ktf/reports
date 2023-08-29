@@ -76,6 +76,7 @@
 - [\#11812](https://github.com/AliceO2Group/AliceO2/pull/11812) 2023-08-28: move aod merger to O2 by [@jgrosseo](https://github.com/jgrosseo)
 - [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 - [\#11824](https://github.com/AliceO2Group/AliceO2/pull/11824) 2023-08-27: DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition by [@davidrohr](https://github.com/davidrohr)
+- [\#11827](https://github.com/AliceO2Group/AliceO2/pull/11827) 2023-08-29: DPL: fix performance regression when using output proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 - [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
