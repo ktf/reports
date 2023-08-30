@@ -18,7 +18,6 @@
 	- [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 	- [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
 	- [\#11745](https://github.com/AliceO2Group/AliceO2/pull/11745) 2023-08-11: TPC: Feature/o2 monitor occupancy by [@sidibu](https://github.com/sidibu)
 	- [\#11748](https://github.com/AliceO2Group/AliceO2/pull/11748) 2023-08-11: Update TRD workflow README by [@martenole](https://github.com/martenole)
@@ -79,7 +78,6 @@
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#11742](https://github.com/AliceO2Group/AliceO2/pull/11742) 2023-08-10: Write MC event weight into AO2D by [@nburmaso](https://github.com/nburmaso)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#11803](https://github.com/AliceO2Group/AliceO2/pull/11803) 2023-08-23: starting to parse the apass anchoring in TOF digitization by [@noferini](https://github.com/noferini)
