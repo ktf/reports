@@ -54,6 +54,7 @@
 	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
 	- [\#11834](https://github.com/AliceO2Group/AliceO2/pull/11834) 2023-08-30: Add TRD raw stat visualization macro by [@martenole](https://github.com/martenole)
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
+	- [\#11840](https://github.com/AliceO2Group/AliceO2/pull/11840) 2023-08-30: [EMCAL-565] Remove unnecessary print statement by [@jokonig](https://github.com/jokonig)
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
