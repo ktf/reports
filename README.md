@@ -56,7 +56,6 @@
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-	- [\#11741](https://github.com/AliceO2Group/AliceO2/pull/11741) 2023-08-09: DPL: add O2_FORCE_SIGNPOSTS by [@ktf](https://github.com/ktf)
 	- [\#11744](https://github.com/AliceO2Group/AliceO2/pull/11744) 2023-08-09: DPL Analysis: mitigate memory spike while writing histograms by [@ktf](https://github.com/ktf)
 	- [\#11746](https://github.com/AliceO2Group/AliceO2/pull/11746) 2023-08-15: Fix missing const in GroupedCombinations by [@vkucera](https://github.com/vkucera)
 	- [\#11747](https://github.com/AliceO2Group/AliceO2/pull/11747) 2023-08-09: DPL: avoid ODC waiting indefinitely for the driver by [@ktf](https://github.com/ktf)
