@@ -17,6 +17,7 @@
 - [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 - [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 - [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
+- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 - [\#11734](https://github.com/AliceO2Group/AliceO2/pull/11734) 2023-08-09: Avoid InputRecord include in TRD data formats lib by [@martenole](https://github.com/martenole)
 - [\#11737](https://github.com/AliceO2Group/AliceO2/pull/11737) 2023-08-09: [EMCAL-565, EMCAL-566]: Improvment in speed of EMCAL online calibrations by [@jokonig](https://github.com/jokonig)
@@ -50,6 +51,7 @@
 - [\#11807](https://github.com/AliceO2Group/AliceO2/pull/11807) 2023-08-30: fix in TOF CompressedDecoder by [@noferini](https://github.com/noferini)
 - [\#11810](https://github.com/AliceO2Group/AliceO2/pull/11810) 2023-08-28: TPC: Add SAC Zero Scaling  by [@mlesch](https://github.com/mlesch)
 - [\#11813](https://github.com/AliceO2Group/AliceO2/pull/11813) 2023-08-24: [EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams by [@mfasDa](https://github.com/mfasDa)
+- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 - [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
 - [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
 - [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
