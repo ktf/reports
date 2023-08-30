@@ -51,6 +51,7 @@
 - [\#11802](https://github.com/AliceO2Group/AliceO2/pull/11802) 2023-08-28: configure MCH track extrapolation tools with magnetic field by [@pillot](https://github.com/pillot)
 - [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 - [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
+- [\#11807](https://github.com/AliceO2Group/AliceO2/pull/11807) 2023-08-30: fix in TOF CompressedDecoder by [@noferini](https://github.com/noferini)
 - [\#11810](https://github.com/AliceO2Group/AliceO2/pull/11810) 2023-08-28: TPC: Add SAC Zero Scaling  by [@mlesch](https://github.com/mlesch)
 - [\#11813](https://github.com/AliceO2Group/AliceO2/pull/11813) 2023-08-24: [EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams by [@mfasDa](https://github.com/mfasDa)
 - [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
