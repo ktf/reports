@@ -51,6 +51,7 @@
 	- [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
 	- [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
+	- [\#11830](https://github.com/AliceO2Group/AliceO2/pull/11830) 2023-08-31: ZDC Make trigger condition single/double/triple configurable by [@cortesep](https://github.com/cortesep)
 	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
 	- [\#11834](https://github.com/AliceO2Group/AliceO2/pull/11834) 2023-08-30: Add TRD raw stat visualization macro by [@martenole](https://github.com/martenole)
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
