@@ -20,7 +20,6 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
 	- [\#11745](https://github.com/AliceO2Group/AliceO2/pull/11745) 2023-08-11: TPC: Feature/o2 monitor occupancy by [@sidibu](https://github.com/sidibu)
 	- [\#11748](https://github.com/AliceO2Group/AliceO2/pull/11748) 2023-08-11: Update TRD workflow README by [@martenole](https://github.com/martenole)
 	- [\#11750](https://github.com/AliceO2Group/AliceO2/pull/11750) 2023-08-23: MFT chips alignment by [@frmanso](https://github.com/frmanso)
