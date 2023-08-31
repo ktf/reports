@@ -9,6 +9,7 @@
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
+	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 	- [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
@@ -55,6 +56,7 @@
 	- [\#11834](https://github.com/AliceO2Group/AliceO2/pull/11834) 2023-08-30: Add TRD raw stat visualization macro by [@martenole](https://github.com/martenole)
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
 	- [\#11840](https://github.com/AliceO2Group/AliceO2/pull/11840) 2023-08-30: [EMCAL-565] Remove unnecessary print statement by [@jokonig](https://github.com/jokonig)
+	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
