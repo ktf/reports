@@ -18,6 +18,7 @@
 	- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 	- [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
+	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11743](https://github.com/AliceO2Group/AliceO2/pull/11743) 2023-08-09: quick fix by [@lietava](https://github.com/lietava)
 	- [\#11745](https://github.com/AliceO2Group/AliceO2/pull/11745) 2023-08-11: TPC: Feature/o2 monitor occupancy by [@sidibu](https://github.com/sidibu)
@@ -57,6 +58,7 @@
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
 	- [\#11840](https://github.com/AliceO2Group/AliceO2/pull/11840) 2023-08-30: [EMCAL-565] Remove unnecessary print statement by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
+	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
