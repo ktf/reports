@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-09T17:58:01Z",
-            "title": "DPL: avoid ODC waiting indefinitely for the driver",
-            "number": 11747,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DDSConfigHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-11T07:25:44Z",
             "title": "Update TRD workflow README",
             "number": 11748,
@@ -3601,6 +3581,41 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Hide clang thread analyser code to avoid clash with older version in",
+            "number": 11847,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ControlService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceRegistry.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ServiceRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/ThreadSafetyAnalysis.h"
                   }
                 }
               ]

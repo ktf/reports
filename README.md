@@ -60,7 +60,6 @@
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
-	- [\#11747](https://github.com/AliceO2Group/AliceO2/pull/11747) 2023-08-09: DPL: avoid ODC waiting indefinitely for the driver by [@ktf](https://github.com/ktf)
 	- [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
 	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11773](https://github.com/AliceO2Group/AliceO2/pull/11773) 2023-08-16: Ancillary commits for multiple output routes by [@ktf](https://github.com/ktf)
