@@ -4,6 +4,7 @@
 	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
+	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
@@ -57,6 +58,7 @@
 	- [\#11840](https://github.com/AliceO2Group/AliceO2/pull/11840) 2023-08-30: [EMCAL-565] Remove unnecessary print statement by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
+	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
