@@ -21,7 +21,6 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11751](https://github.com/AliceO2Group/AliceO2/pull/11751) 2023-08-10: Fix the name of CPV raw data output file by [@shahor02](https://github.com/shahor02)
 	- [\#11752](https://github.com/AliceO2Group/AliceO2/pull/11752) 2023-08-10: Optionally reject some TPC links in rawTF->raw conversion by [@shahor02](https://github.com/shahor02)
 	- [\#11753](https://github.com/AliceO2Group/AliceO2/pull/11753) 2023-08-16: TPC: changing CCDB path for new correction maps by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
