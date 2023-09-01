@@ -4,6 +4,7 @@
 	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
+	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
@@ -76,6 +77,7 @@
 	- [\#11829](https://github.com/AliceO2Group/AliceO2/pull/11829) 2023-08-29: DPL: allow end of stream when only timers are present by [@ktf](https://github.com/ktf)
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
+	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
