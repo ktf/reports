@@ -55,6 +55,8 @@
 	- [\#11849](https://github.com/AliceO2Group/AliceO2/pull/11849) 2023-09-02: optionally dump clusters in drawable format by [@shahor02](https://github.com/shahor02)
 	- [\#11850](https://github.com/AliceO2Group/AliceO2/pull/11850) 2023-09-02: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - EventVisualisation
+	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
