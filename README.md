@@ -20,7 +20,6 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11755](https://github.com/AliceO2Group/AliceO2/pull/11755) 2023-08-14: ITS Thr Scan bug fix: swap of indices by [@iravasen](https://github.com/iravasen)
 	- [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 	- [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
 	- [\#11764](https://github.com/AliceO2Group/AliceO2/pull/11764) 2023-08-15: Fix/modernize void argument to silence code-checker by [@shahor02](https://github.com/shahor02)
