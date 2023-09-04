@@ -12,7 +12,6 @@
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 	- [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
@@ -21,7 +20,6 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11754](https://github.com/AliceO2Group/AliceO2/pull/11754) 2023-08-18: TRD raw reader update QC statistics by [@martenole](https://github.com/martenole)
 	- [\#11755](https://github.com/AliceO2Group/AliceO2/pull/11755) 2023-08-14: ITS Thr Scan bug fix: swap of indices by [@iravasen](https://github.com/iravasen)
 	- [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 	- [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
