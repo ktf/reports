@@ -78,6 +78,7 @@
 	- [\#11829](https://github.com/AliceO2Group/AliceO2/pull/11829) 2023-08-29: DPL: allow end of stream when only timers are present by [@ktf](https://github.com/ktf)
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
+	- [\#11837](https://github.com/AliceO2Group/AliceO2/pull/11837) 2023-09-04: DPL: Hide ptree from ConfigParamRegistry by [@ktf](https://github.com/ktf)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
