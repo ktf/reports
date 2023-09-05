@@ -4,96 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "MCH: added option to output the time-clustered ROFs without filtering",
-            "number": 11762,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterFinderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterizerParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/TimeClusterFinderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/digits-to-timeclusters-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP]: ITS-Study: create pt resolution, add efficiency of sec study",
-            "number": 11763,
-            "author": {
-              "login": "Roberta-Ferioli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/ITSStudiesConfigParam.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/studies/src/TrackCheck.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/postprocessing/workflow/standalone-postprocessing-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-08-15T09:28:05Z",
-            "title": "Fix/modernize void argument to silence code-checker",
-            "number": 11764,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/include/TPCMonitor/SimpleEventDisplayGUI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/monitor/src/SimpleEventDisplayGUI.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-08-14T20:21:52Z",
             "title": "DPL: detect race conditions when sending oldest possible timeframes",
@@ -3546,6 +3456,66 @@
                 {
                   "node": {
                     "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[FDD] TCM trigger signals added to Simulation",
+            "number": 11862,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Alibot cleanup 11862",
+            "number": 11863,
+            "author": {
+              "login": "arvindkhuntia"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Disable rANS benchmarks unless required",
+            "number": 11864,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/rANS/CMakeLists.txt"
                   }
                 }
               ]
