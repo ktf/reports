@@ -59,7 +59,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
 	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11773](https://github.com/AliceO2Group/AliceO2/pull/11773) 2023-08-16: Ancillary commits for multiple output routes by [@ktf](https://github.com/ktf)
 	- [\#11774](https://github.com/AliceO2Group/AliceO2/pull/11774) 2023-08-16: DPL: better debug printout of forward routes by [@ktf](https://github.com/ktf)
