@@ -59,8 +59,6 @@
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
-## Recent developments in O2 - Examples
-	- [\#11760](https://github.com/AliceO2Group/AliceO2/pull/11760) 2023-08-16: O2sim: cleanups by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Framework
 	- [\#11765](https://github.com/AliceO2Group/AliceO2/pull/11765) 2023-08-14: DPL: detect race conditions when sending oldest possible timeframes by [@ktf](https://github.com/ktf)
 	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
