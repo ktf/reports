@@ -22,7 +22,6 @@
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11757](https://github.com/AliceO2Group/AliceO2/pull/11757) 2023-08-12: ctpconfig-per-run option -> ctpconfig-run-independent by [@shahor02](https://github.com/shahor02)
 	- [\#11759](https://github.com/AliceO2Group/AliceO2/pull/11759) 2023-08-14: extract info on chips mutual overlaps at the same layer by [@shahor02](https://github.com/shahor02)
 	- [\#11764](https://github.com/AliceO2Group/AliceO2/pull/11764) 2023-08-15: Fix/modernize void argument to silence code-checker by [@shahor02](https://github.com/shahor02)
 	- [\#11767](https://github.com/AliceO2Group/AliceO2/pull/11767) 2023-08-16: ITS-Study : Impact Parameter by [@apalasciano](https://github.com/apalasciano)
