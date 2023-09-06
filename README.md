@@ -21,6 +21,7 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
+	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 	- [\#11767](https://github.com/AliceO2Group/AliceO2/pull/11767) 2023-08-16: ITS-Study : Impact Parameter by [@apalasciano](https://github.com/apalasciano)
 	- [\#11769](https://github.com/AliceO2Group/AliceO2/pull/11769) 2023-08-15: be explicit about signed char by [@sawenzel](https://github.com/sawenzel)
@@ -84,6 +85,7 @@
 ## Recent developments in O2 - Steer
 	- [\#11803](https://github.com/AliceO2Group/AliceO2/pull/11803) 2023-08-23: starting to parse the apass anchoring in TOF digitization by [@noferini](https://github.com/noferini)
 	- [\#11809](https://github.com/AliceO2Group/AliceO2/pull/11809) 2023-09-06: [O2-4034] shift MCH MC digits by the same time offset as in data by [@pillot](https://github.com/pillot)
+	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
