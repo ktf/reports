@@ -83,6 +83,7 @@
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#11803](https://github.com/AliceO2Group/AliceO2/pull/11803) 2023-08-23: starting to parse the apass anchoring in TOF digitization by [@noferini](https://github.com/noferini)
+	- [\#11809](https://github.com/AliceO2Group/AliceO2/pull/11809) 2023-09-06: [O2-4034] shift MCH MC digits by the same time offset as in data by [@pillot](https://github.com/pillot)
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
