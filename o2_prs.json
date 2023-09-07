@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-15T13:56:52Z",
-            "title": "Fix: set missing gbtErrStatUpadated in accountLinkRecovery",
-            "number": 11771,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTLink.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-16T12:00:10Z",
             "title": "TPC: several unrelated updates",
             "number": 11772,
@@ -3446,6 +3426,51 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/HMPMatcherSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MFT: add ROF bias in BC and assessment histogram",
+            "number": 11871,
+            "author": {
+              "login": "robincaron13"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/GlobalFwdMatchingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/assessment/include/MFTAssessment/MFTAssessment.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/assessment/src/MFTAssessment.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/base/include/ITSMFTBase/DPLAlpideParam.h"
                   }
                 }
               ]

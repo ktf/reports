@@ -22,7 +22,6 @@
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
-	- [\#11771](https://github.com/AliceO2Group/AliceO2/pull/11771) 2023-08-15: Fix: set missing gbtErrStatUpadated in accountLinkRecovery by [@shahor02](https://github.com/shahor02)
 	- [\#11772](https://github.com/AliceO2Group/AliceO2/pull/11772) 2023-08-16: TPC: several unrelated updates by [@wiechula](https://github.com/wiechula)
 	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 	- [\#11780](https://github.com/AliceO2Group/AliceO2/pull/11780) 2023-08-17: Fix code checker error. by [@ktf](https://github.com/ktf)
