@@ -69,6 +69,7 @@
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11824](https://github.com/AliceO2Group/AliceO2/pull/11824) 2023-08-27: DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition by [@davidrohr](https://github.com/davidrohr)
 	- [\#11827](https://github.com/AliceO2Group/AliceO2/pull/11827) 2023-08-29: DPL: fix performance regression when using output proxy by [@ktf](https://github.com/ktf)
+	- [\#11828](https://github.com/AliceO2Group/AliceO2/pull/11828) 2023-09-07: Add support for thread sanitizer by [@ktf](https://github.com/ktf)
 	- [\#11829](https://github.com/AliceO2Group/AliceO2/pull/11829) 2023-08-29: DPL: allow end of stream when only timers are present by [@ktf](https://github.com/ktf)
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
