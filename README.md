@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
@@ -59,7 +58,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11770](https://github.com/AliceO2Group/AliceO2/pull/11770) 2023-08-15: DPL Analysis: avoid spurious message at the end of the processing by [@ktf](https://github.com/ktf)
 	- [\#11773](https://github.com/AliceO2Group/AliceO2/pull/11773) 2023-08-16: Ancillary commits for multiple output routes by [@ktf](https://github.com/ktf)
 	- [\#11774](https://github.com/AliceO2Group/AliceO2/pull/11774) 2023-08-16: DPL: better debug printout of forward routes by [@ktf](https://github.com/ktf)
 	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
