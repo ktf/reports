@@ -58,7 +58,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11774](https://github.com/AliceO2Group/AliceO2/pull/11774) 2023-08-16: DPL: better debug printout of forward routes by [@ktf](https://github.com/ktf)
 	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 	- [\#11777](https://github.com/AliceO2Group/AliceO2/pull/11777) 2023-08-17: DPL: add API to stop / start devices by [@ktf](https://github.com/ktf)
 	- [\#11781](https://github.com/AliceO2Group/AliceO2/pull/11781) 2023-08-22: DPL: optimise signposts implementation by [@ktf](https://github.com/ktf)
