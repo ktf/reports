@@ -53,6 +53,7 @@
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11869](https://github.com/AliceO2Group/AliceO2/pull/11869) 2023-09-06: TPCTrackStudy wf can process limited TFs, optionally use GPU track mo… by [@shahor02](https://github.com/shahor02)
+	- [\#11870](https://github.com/AliceO2Group/AliceO2/pull/11870) 2023-09-08: Update HMPMatcherSpec.cxx by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#11872](https://github.com/AliceO2Group/AliceO2/pull/11872) 2023-09-07: Set default min.stat of tpc-vdrift-tgl calib to 10000 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
