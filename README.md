@@ -23,7 +23,6 @@
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
-	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 	- [\#11780](https://github.com/AliceO2Group/AliceO2/pull/11780) 2023-08-17: Fix code checker error. by [@ktf](https://github.com/ktf)
 	- [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
 	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
@@ -61,7 +60,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
 	- [\#11777](https://github.com/AliceO2Group/AliceO2/pull/11777) 2023-08-17: DPL: add API to stop / start devices by [@ktf](https://github.com/ktf)
 	- [\#11781](https://github.com/AliceO2Group/AliceO2/pull/11781) 2023-08-22: DPL: optimise signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
