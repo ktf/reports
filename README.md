@@ -20,6 +20,7 @@
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
+	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Detectors
 	- [\#11776](https://github.com/AliceO2Group/AliceO2/pull/11776) 2023-08-16: Use raw data page full size for the CTP raw data dump by [@shahor02](https://github.com/shahor02)
@@ -50,6 +51,7 @@
 	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 	- [\#11849](https://github.com/AliceO2Group/AliceO2/pull/11849) 2023-09-02: optionally dump clusters in drawable format by [@shahor02](https://github.com/shahor02)
 	- [\#11850](https://github.com/AliceO2Group/AliceO2/pull/11850) 2023-09-02: TRD gain calibration fix by [@glegras](https://github.com/glegras)
+	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11869](https://github.com/AliceO2Group/AliceO2/pull/11869) 2023-09-06: TPCTrackStudy wf can process limited TFs, optionally use GPU track mo… by [@shahor02](https://github.com/shahor02)
