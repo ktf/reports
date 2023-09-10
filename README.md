@@ -6,6 +6,7 @@
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
+	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
@@ -76,6 +77,7 @@
 	- [\#11837](https://github.com/AliceO2Group/AliceO2/pull/11837) 2023-09-04: DPL: Hide ptree from ConfigParamRegistry by [@ktf](https://github.com/ktf)
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
+	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
