@@ -61,7 +61,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11777](https://github.com/AliceO2Group/AliceO2/pull/11777) 2023-08-17: DPL: add API to stop / start devices by [@ktf](https://github.com/ktf)
 	- [\#11781](https://github.com/AliceO2Group/AliceO2/pull/11781) 2023-08-22: DPL: optimise signposts implementation by [@ktf](https://github.com/ktf)
 	- [\#11791](https://github.com/AliceO2Group/AliceO2/pull/11791) 2023-08-18: DPL GUI: support deferred GUI closure, if available by [@ktf](https://github.com/ktf)
 	- [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
