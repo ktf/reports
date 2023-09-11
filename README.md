@@ -7,6 +7,7 @@
 	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
+	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
@@ -23,6 +24,7 @@
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
+	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
@@ -75,6 +77,7 @@
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
+	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Generators
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
