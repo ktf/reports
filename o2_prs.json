@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "[EMCAL- 834] Optimisation of cell-level compression",
-            "number": 11784,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cell.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/Cell.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/DataFormatsEMCALLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTF/test/test_ctf_io_emcal.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/CTFHelper.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-08-18T08:54:55Z",
             "title": "GPU TPC: Fix max allowed timebin check for triggered mode",
@@ -3541,6 +3496,31 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Expand MCTrack to contain proper energy property",
+            "number": 11884,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_hepmc_publisher.cxx"
                   }
                 }
               ]
