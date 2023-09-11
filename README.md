@@ -23,6 +23,7 @@
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
+	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 	- [\#11780](https://github.com/AliceO2Group/AliceO2/pull/11780) 2023-08-17: Fix code checker error. by [@ktf](https://github.com/ktf)
 	- [\#11782](https://github.com/AliceO2Group/AliceO2/pull/11782) 2023-08-17: [EMCAL-551] Increase Cell ClassDef version by [@mfasDa](https://github.com/mfasDa)
@@ -58,6 +59,7 @@
 	- [\#11870](https://github.com/AliceO2Group/AliceO2/pull/11870) 2023-09-08: Update HMPMatcherSpec.cxx by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#11871](https://github.com/AliceO2Group/AliceO2/pull/11871) 2023-09-08: MFT: add ROF bias in BC and assessment histogram by [@robincaron13](https://github.com/robincaron13)
 	- [\#11872](https://github.com/AliceO2Group/AliceO2/pull/11872) 2023-09-07: Set default min.stat of tpc-vdrift-tgl calib to 10000 by [@shahor02](https://github.com/shahor02)
+	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
