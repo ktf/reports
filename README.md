@@ -60,6 +60,8 @@
 	- [\#11871](https://github.com/AliceO2Group/AliceO2/pull/11871) 2023-09-08: MFT: add ROF bias in BC and assessment histogram by [@robincaron13](https://github.com/robincaron13)
 	- [\#11872](https://github.com/AliceO2Group/AliceO2/pull/11872) 2023-09-07: Set default min.stat of tpc-vdrift-tgl calib to 10000 by [@shahor02](https://github.com/shahor02)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
+	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
+	- [\#11883](https://github.com/AliceO2Group/AliceO2/pull/11883) 2023-09-12: ITS calib: number of points of the s-curve to ROOT trees by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
