@@ -26,6 +26,7 @@
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
+	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
@@ -62,6 +63,7 @@
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 	- [\#11878](https://github.com/AliceO2Group/AliceO2/pull/11878) 2023-09-12: optionally ensure RDH with SOX in o2-raw-data-dump-workflow by [@shahor02](https://github.com/shahor02)
 	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
+	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 	- [\#11883](https://github.com/AliceO2Group/AliceO2/pull/11883) 2023-09-12: ITS calib: number of points of the s-curve to ROOT trees by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
