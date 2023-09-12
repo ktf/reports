@@ -60,6 +60,7 @@
 	- [\#11871](https://github.com/AliceO2Group/AliceO2/pull/11871) 2023-09-08: MFT: add ROF bias in BC and assessment histogram by [@robincaron13](https://github.com/robincaron13)
 	- [\#11872](https://github.com/AliceO2Group/AliceO2/pull/11872) 2023-09-07: Set default min.stat of tpc-vdrift-tgl calib to 10000 by [@shahor02](https://github.com/shahor02)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
+	- [\#11878](https://github.com/AliceO2Group/AliceO2/pull/11878) 2023-09-12: optionally ensure RDH with SOX in o2-raw-data-dump-workflow by [@shahor02](https://github.com/shahor02)
 	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
 	- [\#11883](https://github.com/AliceO2Group/AliceO2/pull/11883) 2023-09-12: ITS calib: number of points of the s-curve to ROOT trees by [@iravasen](https://github.com/iravasen)
 ## Recent developments in O2 - EventVisualisation
@@ -93,3 +94,4 @@
 ## Recent developments in O2 - Utilities
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11864](https://github.com/AliceO2Group/AliceO2/pull/11864) 2023-09-05: Disable rANS benchmarks unless required by [@ktf](https://github.com/ktf)
+	- [\#11877](https://github.com/AliceO2Group/AliceO2/pull/11877) 2023-09-12: [rANS] Fix usage of parallel stl in librans benchmarks by [@MichaelLettrich](https://github.com/MichaelLettrich)
