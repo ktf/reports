@@ -15,7 +15,6 @@
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 	- [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11786](https://github.com/AliceO2Group/AliceO2/pull/11786) 2023-08-29: [EMCAL-843] Optimisation cell-level compression by [@mfasDa](https://github.com/mfasDa)
 	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 	- [\#11800](https://github.com/AliceO2Group/AliceO2/pull/11800) 2023-08-28: ITS workflows to generate and parse ADAPOS data by [@iravasen](https://github.com/iravasen)
