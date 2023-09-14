@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-08-21T13:18:32Z",
-            "title": "Fixes to make Hijing work with Run3 simulation chain",
-            "number": 11789,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTGenerator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Move to C++20",
@@ -3656,6 +3621,41 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/reconstruction/src/EventRecord.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Get rid of abseil dependency",
+            "number": 11889,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/rANS/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/HashTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/SparseHistogram.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/O2Dependencies.cmake"
                   }
                 }
               ]

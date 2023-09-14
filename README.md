@@ -15,7 +15,6 @@
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 	- [\#11801](https://github.com/AliceO2Group/AliceO2/pull/11801) 2023-08-22: Fix for getXatLabR for quasi-straight tracks by [@shahor02](https://github.com/shahor02)
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
@@ -27,7 +26,6 @@
 	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11792](https://github.com/AliceO2Group/AliceO2/pull/11792) 2023-08-24: ctpdevL CTP inputs decoding at CTF by [@lietava](https://github.com/lietava)
 	- [\#11800](https://github.com/AliceO2Group/AliceO2/pull/11800) 2023-08-28: ITS workflows to generate and parse ADAPOS data by [@iravasen](https://github.com/iravasen)
 	- [\#11802](https://github.com/AliceO2Group/AliceO2/pull/11802) 2023-08-28: configure MCH track extrapolation tools with magnetic field by [@pillot](https://github.com/pillot)
@@ -84,7 +82,6 @@
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#11789](https://github.com/AliceO2Group/AliceO2/pull/11789) 2023-08-21: Fixes to make Hijing work with Run3 simulation chain by [@sawenzel](https://github.com/sawenzel)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#11803](https://github.com/AliceO2Group/AliceO2/pull/11803) 2023-08-23: starting to parse the apass anchoring in TOF digitization by [@noferini](https://github.com/noferini)
