@@ -26,7 +26,6 @@
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#11802](https://github.com/AliceO2Group/AliceO2/pull/11802) 2023-08-28: configure MCH track extrapolation tools with magnetic field by [@pillot](https://github.com/pillot)
 	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
 	- [\#11807](https://github.com/AliceO2Group/AliceO2/pull/11807) 2023-08-30: fix in TOF CompressedDecoder by [@noferini](https://github.com/noferini)
