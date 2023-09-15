@@ -75,6 +75,7 @@
 	- [\#11832](https://github.com/AliceO2Group/AliceO2/pull/11832) 2023-08-30: DPL: fix thread annotations by [@ktf](https://github.com/ktf)
 	- [\#11837](https://github.com/AliceO2Group/AliceO2/pull/11837) 2023-09-04: DPL: Hide ptree from ConfigParamRegistry by [@ktf](https://github.com/ktf)
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
+	- [\#11846](https://github.com/AliceO2Group/AliceO2/pull/11846) 2023-09-15: DPL: handle spurious messages when in READY state, take two by [@ktf](https://github.com/ktf)
 	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
