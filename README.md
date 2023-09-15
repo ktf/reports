@@ -66,7 +66,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11821](https://github.com/AliceO2Group/AliceO2/pull/11821) 2023-09-04: o2-eve: performance fixes by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11799](https://github.com/AliceO2Group/AliceO2/pull/11799) 2023-08-23: DPL: handle spurious messages when in READY state by [@ktf](https://github.com/ktf)
 	- [\#11808](https://github.com/AliceO2Group/AliceO2/pull/11808) 2023-08-24: Revert "DPL: handle spurious messages when in READY state (#11799)" by [@knopers8](https://github.com/knopers8)
 	- [\#11812](https://github.com/AliceO2Group/AliceO2/pull/11812) 2023-08-28: move aod merger to O2 by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
@@ -82,6 +81,7 @@
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
+	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
 ## Recent developments in O2 - Generators
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
