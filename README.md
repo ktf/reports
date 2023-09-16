@@ -10,7 +10,6 @@
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11818](https://github.com/AliceO2Group/AliceO2/pull/11818) 2023-08-26: Incremental histo merging by [@ktf](https://github.com/ktf)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11806](https://github.com/AliceO2Group/AliceO2/pull/11806) 2023-08-24: TRD raw reader infinite loop protection by [@martenole](https://github.com/martenole)
 	- [\#11807](https://github.com/AliceO2Group/AliceO2/pull/11807) 2023-08-30: fix in TOF CompressedDecoder by [@noferini](https://github.com/noferini)
 	- [\#11810](https://github.com/AliceO2Group/AliceO2/pull/11810) 2023-08-28: TPC: Add SAC Zero Scaling  by [@mlesch](https://github.com/mlesch)
@@ -94,7 +92,6 @@
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
 	- [\#11897](https://github.com/AliceO2Group/AliceO2/pull/11897) 2023-09-15: Define alignable volumes for all detoctors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-	- [\#11804](https://github.com/AliceO2Group/AliceO2/pull/11804) 2023-08-23: Enforce FPE instead of NaN + some fixes for FPE by [@shahor02](https://github.com/shahor02)
 	- [\#11864](https://github.com/AliceO2Group/AliceO2/pull/11864) 2023-09-05: Disable rANS benchmarks unless required by [@ktf](https://github.com/ktf)
 	- [\#11877](https://github.com/AliceO2Group/AliceO2/pull/11877) 2023-09-12: [rANS] Fix usage of parallel stl in librans benchmarks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
