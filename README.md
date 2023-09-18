@@ -85,7 +85,6 @@
 ## Recent developments in O2 - Generators
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-	- [\#11809](https://github.com/AliceO2Group/AliceO2/pull/11809) 2023-09-06: [O2-4034] shift MCH MC digits by the same time offset as in data by [@pillot](https://github.com/pillot)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
 	- [\#11897](https://github.com/AliceO2Group/AliceO2/pull/11897) 2023-09-15: Define alignable volumes for all detoctors by [@shahor02](https://github.com/shahor02)
