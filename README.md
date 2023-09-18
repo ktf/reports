@@ -27,7 +27,6 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#11807](https://github.com/AliceO2Group/AliceO2/pull/11807) 2023-08-30: fix in TOF CompressedDecoder by [@noferini](https://github.com/noferini)
 	- [\#11810](https://github.com/AliceO2Group/AliceO2/pull/11810) 2023-08-28: TPC: Add SAC Zero Scaling  by [@mlesch](https://github.com/mlesch)
 	- [\#11813](https://github.com/AliceO2Group/AliceO2/pull/11813) 2023-08-24: [EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams by [@mfasDa](https://github.com/mfasDa)
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
