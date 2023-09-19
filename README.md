@@ -27,7 +27,6 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#11813](https://github.com/AliceO2Group/AliceO2/pull/11813) 2023-08-24: [EMCAL-797, EMCAL-565, EMCAL-566] Add optional downsampling to CalibratorSpec and CalibParams by [@mfasDa](https://github.com/mfasDa)
 	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
 	- [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
