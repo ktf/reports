@@ -16,7 +16,6 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#11816](https://github.com/AliceO2Group/AliceO2/pull/11816) 2023-08-30: TRD optionally write raw stats to file by [@martenole](https://github.com/martenole)
 	- [\#11819](https://github.com/AliceO2Group/AliceO2/pull/11819) 2023-08-25: ITS: run type digital scan no mask added + bug fix by [@iravasen](https://github.com/iravasen)
 	- [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
