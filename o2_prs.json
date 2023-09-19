@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-25T14:29:46Z",
-            "title": "ITS: run type digital scan no mask added + bug fix",
-            "number": 11819,
-            "author": {
-              "login": "iravasen"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdCalibratorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdCalibratorSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-25T21:50:37Z",
             "title": "Fix in passing TPC_CORR_SCALING to gpu-reconstruction",
             "number": 11820,
@@ -3646,6 +3621,26 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-09-19T20:11:32Z",
+            "title": "Fix missing cassert include",
+            "number": 11919,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurableParam.h"
                   }
                 }
               ]
