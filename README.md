@@ -58,6 +58,7 @@
 	- [\#11904](https://github.com/AliceO2Group/AliceO2/pull/11904) 2023-09-16: Adjust packet counter of fake RDH with SOX by [@shahor02](https://github.com/shahor02)
 	- [\#11908](https://github.com/AliceO2Group/AliceO2/pull/11908) 2023-09-18: GPU TPC: Add trigger word handling during GPU decoding by [@davidrohr](https://github.com/davidrohr)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
+	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#11827](https://github.com/AliceO2Group/AliceO2/pull/11827) 2023-08-29: DPL: fix performance regression when using output proxy by [@ktf](https://github.com/ktf)
 	- [\#11828](https://github.com/AliceO2Group/AliceO2/pull/11828) 2023-09-07: Add support for thread sanitizer by [@ktf](https://github.com/ktf)
