@@ -9,7 +9,6 @@
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11841](https://github.com/AliceO2Group/AliceO2/pull/11841) 2023-08-31: Fixes for ITS DCS DP workflow + related change in ConfigurableParam by [@shahor02](https://github.com/shahor02)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
@@ -27,7 +26,6 @@
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11830](https://github.com/AliceO2Group/AliceO2/pull/11830) 2023-08-31: ZDC Make trigger condition single/double/triple configurable by [@cortesep](https://github.com/cortesep)
 	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
 	- [\#11834](https://github.com/AliceO2Group/AliceO2/pull/11834) 2023-08-30: Add TRD raw stat visualization macro by [@martenole](https://github.com/martenole)

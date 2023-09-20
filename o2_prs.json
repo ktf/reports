@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-08-29T21:25:52Z",
-            "title": "[EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib",
-            "number": 11826,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/BoostHistogramUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibExtractor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALTimeCalibData.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALChannelData.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/src/EMCALTimeCalibData.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-29T09:42:43Z",
             "title": "DPL: fix performance regression when using output proxy",
             "number": 11827,
@@ -2384,7 +2334,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Robin hood flat map",
             "number": 11890,
@@ -3571,6 +3521,26 @@
                 {
                   "node": {
                     "path": "Framework/Utils/src/raw-proxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix compilation with new XCode 15",
+            "number": 11926,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ShmManager.h"
                   }
                 }
               ]
