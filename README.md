@@ -25,6 +25,7 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
+	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
 	- [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
@@ -59,6 +60,7 @@
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11904](https://github.com/AliceO2Group/AliceO2/pull/11904) 2023-09-16: Adjust packet counter of fake RDH with SOX by [@shahor02](https://github.com/shahor02)
 	- [\#11908](https://github.com/AliceO2Group/AliceO2/pull/11908) 2023-09-18: GPU TPC: Add trigger word handling during GPU decoding by [@davidrohr](https://github.com/davidrohr)
+	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Framework
 	- [\#11824](https://github.com/AliceO2Group/AliceO2/pull/11824) 2023-08-27: DPL Rate Limiter: Do not block stop of run if backpressure during STOP transition by [@davidrohr](https://github.com/davidrohr)
 	- [\#11827](https://github.com/AliceO2Group/AliceO2/pull/11827) 2023-08-29: DPL: fix performance regression when using output proxy by [@ktf](https://github.com/ktf)
