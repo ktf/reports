@@ -27,7 +27,6 @@
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-	- [\#11822](https://github.com/AliceO2Group/AliceO2/pull/11822) 2023-08-27: fix: rawdecoder by [@lietava](https://github.com/lietava)
 	- [\#11826](https://github.com/AliceO2Group/AliceO2/pull/11826) 2023-08-29: [EMCAL-565, EMCAL-566] Enable Multithreading for EMCal online calib by [@jokonig](https://github.com/jokonig)
 	- [\#11830](https://github.com/AliceO2Group/AliceO2/pull/11830) 2023-08-31: ZDC Make trigger condition single/double/triple configurable by [@cortesep](https://github.com/cortesep)
 	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
