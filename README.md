@@ -60,7 +60,6 @@
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#11827](https://github.com/AliceO2Group/AliceO2/pull/11827) 2023-08-29: DPL: fix performance regression when using output proxy by [@ktf](https://github.com/ktf)
 	- [\#11828](https://github.com/AliceO2Group/AliceO2/pull/11828) 2023-09-07: Add support for thread sanitizer by [@ktf](https://github.com/ktf)
 	- [\#11829](https://github.com/AliceO2Group/AliceO2/pull/11829) 2023-08-29: DPL: allow end of stream when only timers are present by [@ktf](https://github.com/ktf)
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
