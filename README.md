@@ -27,7 +27,6 @@
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
 	- [\#11834](https://github.com/AliceO2Group/AliceO2/pull/11834) 2023-08-30: Add TRD raw stat visualization macro by [@martenole](https://github.com/martenole)
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
 	- [\#11840](https://github.com/AliceO2Group/AliceO2/pull/11840) 2023-08-30: [EMCAL-565] Remove unnecessary print statement by [@jokonig](https://github.com/jokonig)
