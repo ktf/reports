@@ -41,6 +41,7 @@
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11863](https://github.com/AliceO2Group/AliceO2/pull/11863) 2023-09-19: [FDD] TCM trigger signals added to Simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
+	- [\#11866](https://github.com/AliceO2Group/AliceO2/pull/11866) 2023-09-21: MFT: LTF and CA tracking parameters refinement  by [@robincaron13](https://github.com/robincaron13)
 	- [\#11869](https://github.com/AliceO2Group/AliceO2/pull/11869) 2023-09-06: TPCTrackStudy wf can process limited TFs, optionally use GPU track mo… by [@shahor02](https://github.com/shahor02)
 	- [\#11870](https://github.com/AliceO2Group/AliceO2/pull/11870) 2023-09-08: Update HMPMatcherSpec.cxx by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#11871](https://github.com/AliceO2Group/AliceO2/pull/11871) 2023-09-08: MFT: add ROF bias in BC and assessment histogram by [@robincaron13](https://github.com/robincaron13)
