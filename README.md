@@ -25,6 +25,7 @@
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
+	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11830](https://github.com/AliceO2Group/AliceO2/pull/11830) 2023-08-31: ZDC Make trigger condition single/double/triple configurable by [@cortesep](https://github.com/cortesep)
 	- [\#11833](https://github.com/AliceO2Group/AliceO2/pull/11833) 2023-08-30: Fix code checker by [@ktf](https://github.com/ktf)
@@ -59,6 +60,7 @@
 	- [\#11908](https://github.com/AliceO2Group/AliceO2/pull/11908) 2023-09-18: GPU TPC: Add trigger word handling during GPU decoding by [@davidrohr](https://github.com/davidrohr)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
+	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#11829](https://github.com/AliceO2Group/AliceO2/pull/11829) 2023-08-29: DPL: allow end of stream when only timers are present by [@ktf](https://github.com/ktf)
 	- [\#11831](https://github.com/AliceO2Group/AliceO2/pull/11831) 2023-08-30: Hide ptree from PropertyTreeHelpers by [@ktf](https://github.com/ktf)
