@@ -74,6 +74,7 @@
 	- [\#11901](https://github.com/AliceO2Group/AliceO2/pull/11901) 2023-09-16: DPL: fix warning in aodMerger by [@ktf](https://github.com/ktf)
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
 	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
+	- [\#11925](https://github.com/AliceO2Group/AliceO2/pull/11925) 2023-09-21: DPL: inject missing data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
