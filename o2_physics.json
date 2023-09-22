@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-08-29T16:09:18Z",
-            "title": "PWG-UD: Updates of UDTables, UDCandProducer, and UDCandAnalyzer",
-            "number": 3400,
-            "author": {
-              "login": "pbuehler"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGUD/Core/UDHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/DataModel/UDTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGBCCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/TableProducer/DGCandProducer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGUD/Tasks/DGCandAnalyzer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "PWGHF: make the reduced data format for B hadrons self contained",
@@ -3256,6 +3216,26 @@
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreatorBplus.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix non-identified track histo. filling in case of no PID.",
+            "number": 3500,
+            "author": {
+              "login": "mfaggin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/qaMatchEff.cxx"
                   }
                 }
               ]
