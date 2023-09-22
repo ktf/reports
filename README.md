@@ -27,6 +27,7 @@
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
+	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#11838](https://github.com/AliceO2Group/AliceO2/pull/11838) 2023-08-30: [EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs by [@jokonig](https://github.com/jokonig)
@@ -65,6 +66,7 @@
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
 	- [\#11932](https://github.com/AliceO2Group/AliceO2/pull/11932) 2023-09-22: [EMCAL-795] Reject ALTRO bunches with impossible length and pages with impossible FEC ordering by [@mfasDa](https://github.com/mfasDa)
+	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11837](https://github.com/AliceO2Group/AliceO2/pull/11837) 2023-09-04: DPL: Hide ptree from ConfigParamRegistry by [@ktf](https://github.com/ktf)
