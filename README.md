@@ -64,6 +64,7 @@
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
+	- [\#11932](https://github.com/AliceO2Group/AliceO2/pull/11932) 2023-09-22: [EMCAL-795] Reject ALTRO bunches with impossible length and pages with impossible FEC ordering by [@mfasDa](https://github.com/mfasDa)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11837](https://github.com/AliceO2Group/AliceO2/pull/11837) 2023-09-04: DPL: Hide ptree from ConfigParamRegistry by [@ktf](https://github.com/ktf)
@@ -79,6 +80,7 @@
 	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
 	- [\#11925](https://github.com/AliceO2Group/AliceO2/pull/11925) 2023-09-21: DPL: inject missing data by [@ktf](https://github.com/ktf)
 	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
+	- [\#11933](https://github.com/AliceO2Group/AliceO2/pull/11933) 2023-09-22: DPL: do not inject DISTSUBTIMEFRAME by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#11839](https://github.com/AliceO2Group/AliceO2/pull/11839) 2023-09-04: Improvements for continuing a simulation from existing kinematics by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
