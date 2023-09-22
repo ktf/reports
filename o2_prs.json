@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-04T13:15:59Z",
-            "title": "DPL: Hide ptree from ConfigParamRegistry",
-            "number": 11837,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/ConfigParamRegistry.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-08-30T18:56:17Z",
             "title": "[EMCAL-565, EMCAL-566] Add optional shift to match CTP and EMC bcs",
             "number": 11838,
@@ -3064,8 +3044,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-09-22T14:25:55Z",
             "title": "Add labelled string array",
             "number": 11920,
             "author": {
@@ -3736,6 +3716,81 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFHelper.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCTrack: Generalize hit bit property",
+            "number": 11937,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCEventHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/MCTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/src/O2MCApplication.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Inspect_Hits/left_trace.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Inspect_Hits/primary_and_hits.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Inspect_Hits/secondary_and_hits.macro"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/checkStack.cxx"
                   }
                 }
               ]
