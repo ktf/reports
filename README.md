@@ -12,7 +12,6 @@
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
@@ -29,7 +28,6 @@
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11842](https://github.com/AliceO2Group/AliceO2/pull/11842) 2023-08-31: TRD always init gain calib histos by [@martenole](https://github.com/martenole)
 	- [\#11843](https://github.com/AliceO2Group/AliceO2/pull/11843) 2023-09-04: Change to BCs_001 by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#11844](https://github.com/AliceO2Group/AliceO2/pull/11844) 2023-09-01: [EMCAL-1038] Add multiple-include protection missing in various workf… by [@mfasDa](https://github.com/mfasDa)
 	- [\#11849](https://github.com/AliceO2Group/AliceO2/pull/11849) 2023-09-02: optionally dump clusters in drawable format by [@shahor02](https://github.com/shahor02)
