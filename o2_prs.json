@@ -4,46 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[EMCAL-788] EMCAL cell selection, on-the-fly calibration",
-            "number": 11845,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/EveWorkflowHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/include/EveWorkflow/O2DPLDisplay.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/EveWorkflowHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventVisualisation/Workflow/src/O2DPLDisplay.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-09-15T12:54:28Z",
             "title": "DPL: handle spurious messages when in READY state, take two",
@@ -3891,6 +3851,56 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Various changes needed for standalone multi-threading",
+            "number": 11945,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUNewCalibValues.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/GPUNewCalibValues.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
                   }
                 }
               ]
