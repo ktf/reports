@@ -24,6 +24,7 @@
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
+	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#11849](https://github.com/AliceO2Group/AliceO2/pull/11849) 2023-09-02: optionally dump clusters in drawable format by [@shahor02](https://github.com/shahor02)
 	- [\#11850](https://github.com/AliceO2Group/AliceO2/pull/11850) 2023-09-02: TRD gain calibration fix by [@glegras](https://github.com/glegras)
@@ -59,6 +60,7 @@
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 	- [\#11942](https://github.com/AliceO2Group/AliceO2/pull/11942) 2023-09-23: More GPU standalone multi-threading developments by [@davidrohr](https://github.com/davidrohr)
+	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
