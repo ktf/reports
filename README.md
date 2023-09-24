@@ -26,7 +26,6 @@
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11849](https://github.com/AliceO2Group/AliceO2/pull/11849) 2023-09-02: optionally dump clusters in drawable format by [@shahor02](https://github.com/shahor02)
 	- [\#11850](https://github.com/AliceO2Group/AliceO2/pull/11850) 2023-09-02: TRD gain calibration fix by [@glegras](https://github.com/glegras)
 	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
