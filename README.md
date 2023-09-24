@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
@@ -61,7 +60,6 @@
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 	- [\#11942](https://github.com/AliceO2Group/AliceO2/pull/11942) 2023-09-23: More GPU standalone multi-threading developments by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#11847](https://github.com/AliceO2Group/AliceO2/pull/11847) 2023-09-01: Hide clang thread analyser code to avoid clash with older version in by [@ktf](https://github.com/ktf)
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
