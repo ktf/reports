@@ -9,7 +9,6 @@
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
@@ -28,7 +27,6 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11852](https://github.com/AliceO2Group/AliceO2/pull/11852) 2023-09-09: PV extended class, use in the TrackStudy wf by [@shahor02](https://github.com/shahor02)
 	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11863](https://github.com/AliceO2Group/AliceO2/pull/11863) 2023-09-19: [FDD] TCM trigger signals added to Simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
