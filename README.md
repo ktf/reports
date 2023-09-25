@@ -73,6 +73,7 @@
 	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
 	- [\#11933](https://github.com/AliceO2Group/AliceO2/pull/11933) 2023-09-22: DPL: do not inject DISTSUBTIMEFRAME by [@ktf](https://github.com/ktf)
 	- [\#11938](https://github.com/AliceO2Group/AliceO2/pull/11938) 2023-09-22: GPU: Work towards running the multi-threaded GPU pipeline standalone by [@davidrohr](https://github.com/davidrohr)
+	- [\#11949](https://github.com/AliceO2Group/AliceO2/pull/11949) 2023-09-25: DPL: Rename reworkEnv to reworkTimeslicePlaceholder, apply it to channel-config to support standalone multi-threading with >1 GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
