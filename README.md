@@ -27,7 +27,6 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11853](https://github.com/AliceO2Group/AliceO2/pull/11853) 2023-09-03: Adjust online ITS reco prescaling for PbPb by [@shahor02](https://github.com/shahor02)
 	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11863](https://github.com/AliceO2Group/AliceO2/pull/11863) 2023-09-19: [FDD] TCM trigger signals added to Simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 	- [\#11866](https://github.com/AliceO2Group/AliceO2/pull/11866) 2023-09-21: MFT: LTF and CA tracking parameters refinement  by [@robincaron13](https://github.com/robincaron13)
