@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-05T07:04:50Z",
-            "title": "Fix disabling distortions corrections",
-            "number": 11856,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-05T20:12:38Z",
             "title": "CCDB: Fix log message",
             "number": 11857,
@@ -3719,8 +3694,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-09-25T21:03:58Z",
             "title": "DPL: inject firstTForbit and tfCounter when missing",
             "number": 11953,
             "author": {
@@ -3816,6 +3791,26 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-09-25T21:05:00Z",
+            "title": "FST: Make DD wait time configurable",
+            "number": 11956,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/start_tmux.sh"
                   }
                 }
               ]

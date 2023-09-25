@@ -27,7 +27,6 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11856](https://github.com/AliceO2Group/AliceO2/pull/11856) 2023-09-05: Fix disabling distortions corrections by [@shahor02](https://github.com/shahor02)
 	- [\#11863](https://github.com/AliceO2Group/AliceO2/pull/11863) 2023-09-19: [FDD] TCM trigger signals added to Simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 	- [\#11866](https://github.com/AliceO2Group/AliceO2/pull/11866) 2023-09-21: MFT: LTF and CA tracking parameters refinement  by [@robincaron13](https://github.com/robincaron13)
 	- [\#11869](https://github.com/AliceO2Group/AliceO2/pull/11869) 2023-09-06: TPCTrackStudy wf can process limited TFs, optionally use GPU track mo… by [@shahor02](https://github.com/shahor02)
@@ -76,6 +75,7 @@
 	- [\#11938](https://github.com/AliceO2Group/AliceO2/pull/11938) 2023-09-22: GPU: Work towards running the multi-threaded GPU pipeline standalone by [@davidrohr](https://github.com/davidrohr)
 	- [\#11949](https://github.com/AliceO2Group/AliceO2/pull/11949) 2023-09-25: DPL: Rename reworkEnv to reworkTimeslicePlaceholder, apply it to channel-config to support standalone multi-threading with >1 GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#11952](https://github.com/AliceO2Group/AliceO2/pull/11952) 2023-09-25: Denote deadbeef error to warning by [@martenole](https://github.com/martenole)
+	- [\#11953](https://github.com/AliceO2Group/AliceO2/pull/11953) 2023-09-25: DPL: inject firstTForbit and tfCounter when missing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#11861](https://github.com/AliceO2Group/AliceO2/pull/11861) 2023-09-06: Update Li4 values according to the iaea database by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
