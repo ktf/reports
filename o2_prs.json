@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Fix namespace pollution from `std` and `o2::constants`",
-            "number": 11851,
-            "author": {
-              "login": "vkucera"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/FIT/raw/include/FITRaw/DataBlockBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/SACDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/simulation/include/TPCSimulation/Digitizer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/McTracksToAOD/mctracks_to_aod_simple_task.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-09-09T00:32:55Z",
             "title": "PV extended class, use in the TrackStudy wf",
@@ -3924,8 +3879,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-09-25T11:04:20Z",
             "title": "dpl-workflow: Limit number of nodes in multiplicity computation to 230 to avoid downscaling",
             "number": 11950,
             "author": {
@@ -3936,6 +3891,41 @@
                 {
                   "node": {
                     "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Standalone multi-threading: Improve scheduling of calib updates and of synchronization the receival of late input data",
+            "number": 11951,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingClusterizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowPipeline.cxx"
                   }
                 }
               ]
