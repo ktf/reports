@@ -60,6 +60,7 @@
 	- [\#11942](https://github.com/AliceO2Group/AliceO2/pull/11942) 2023-09-23: More GPU standalone multi-threading developments by [@davidrohr](https://github.com/davidrohr)
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
+	- [\#11958](https://github.com/AliceO2Group/AliceO2/pull/11958) 2023-09-26: Suppres duplicate matches from ITS track clones on sector edges by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
