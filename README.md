@@ -48,6 +48,7 @@
 	- [\#11909](https://github.com/AliceO2Group/AliceO2/pull/11909) 2023-09-21: TPC: Add DCAr histograms to TPC QC Tracks component by [@wiechula](https://github.com/wiechula)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
+	- [\#11923](https://github.com/AliceO2Group/AliceO2/pull/11923) 2023-09-26: MFT: Removing overlaps of carbon plates by [@frmanso](https://github.com/frmanso)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
 	- [\#11931](https://github.com/AliceO2Group/AliceO2/pull/11931) 2023-09-25: o2-sim: Better VMC shutdown (via plugin code) by [@sawenzel](https://github.com/sawenzel)
