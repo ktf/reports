@@ -26,7 +26,6 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11863](https://github.com/AliceO2Group/AliceO2/pull/11863) 2023-09-19: [FDD] TCM trigger signals added to Simulation by [@arvindkhuntia](https://github.com/arvindkhuntia)
 	- [\#11866](https://github.com/AliceO2Group/AliceO2/pull/11866) 2023-09-21: MFT: LTF and CA tracking parameters refinement  by [@robincaron13](https://github.com/robincaron13)
 	- [\#11869](https://github.com/AliceO2Group/AliceO2/pull/11869) 2023-09-06: TPCTrackStudy wf can process limited TFs, optionally use GPU track mo… by [@shahor02](https://github.com/shahor02)
 	- [\#11870](https://github.com/AliceO2Group/AliceO2/pull/11870) 2023-09-08: Update HMPMatcherSpec.cxx by [@gvolpe79](https://github.com/gvolpe79)
@@ -37,6 +36,7 @@
 	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 	- [\#11883](https://github.com/AliceO2Group/AliceO2/pull/11883) 2023-09-12: ITS calib: number of points of the s-curve to ROOT trees by [@iravasen](https://github.com/iravasen)
+	- [\#11887](https://github.com/AliceO2Group/AliceO2/pull/11887) 2023-09-26: adjusting TOF calib info alignment to BC by [@noferini](https://github.com/noferini)
 	- [\#11888](https://github.com/AliceO2Group/AliceO2/pull/11888) 2023-09-22: TRD raw stats add TFID info by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11894](https://github.com/AliceO2Group/AliceO2/pull/11894) 2023-09-16: MCH: do not use sporadic for StatusMap message by [@aphecetche](https://github.com/aphecetche)
