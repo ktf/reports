@@ -79,11 +79,10 @@
 	- [\#11949](https://github.com/AliceO2Group/AliceO2/pull/11949) 2023-09-25: DPL: Rename reworkEnv to reworkTimeslicePlaceholder, apply it to channel-config to support standalone multi-threading with >1 GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#11952](https://github.com/AliceO2Group/AliceO2/pull/11952) 2023-09-25: Denote deadbeef error to warning by [@martenole](https://github.com/martenole)
 	- [\#11953](https://github.com/AliceO2Group/AliceO2/pull/11953) 2023-09-25: DPL: inject firstTForbit and tfCounter when missing by [@ktf](https://github.com/ktf)
+	- [\#11961](https://github.com/AliceO2Group/AliceO2/pull/11961) 2023-09-26: DPL: fix race condition with the delivery of region events by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-	- [\#11865](https://github.com/AliceO2Group/AliceO2/pull/11865) 2023-09-05: Account for first-orbit in collision-context creation by [@sawenzel](https://github.com/sawenzel)
 	- [\#11897](https://github.com/AliceO2Group/AliceO2/pull/11897) 2023-09-15: Define alignable volumes for all detoctors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-	- [\#11864](https://github.com/AliceO2Group/AliceO2/pull/11864) 2023-09-05: Disable rANS benchmarks unless required by [@ktf](https://github.com/ktf)
 	- [\#11877](https://github.com/AliceO2Group/AliceO2/pull/11877) 2023-09-12: [rANS] Fix usage of parallel stl in librans benchmarks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11927](https://github.com/AliceO2Group/AliceO2/pull/11927) 2023-09-21: Fix missing include by [@davidrohr](https://github.com/davidrohr)
