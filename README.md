@@ -26,7 +26,6 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11872](https://github.com/AliceO2Group/AliceO2/pull/11872) 2023-09-07: Set default min.stat of tpc-vdrift-tgl calib to 10000 by [@shahor02](https://github.com/shahor02)
 	- [\#11873](https://github.com/AliceO2Group/AliceO2/pull/11873) 2023-09-11: TPC: several fixes in laser vdrift and trigger handling by [@wiechula](https://github.com/wiechula)
 	- [\#11878](https://github.com/AliceO2Group/AliceO2/pull/11878) 2023-09-12: optionally ensure RDH with SOX in o2-raw-data-dump-workflow by [@shahor02](https://github.com/shahor02)
 	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
