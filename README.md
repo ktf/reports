@@ -68,6 +68,7 @@
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#11901](https://github.com/AliceO2Group/AliceO2/pull/11901) 2023-09-16: DPL: fix warning in aodMerger by [@ktf](https://github.com/ktf)
+	- [\#11906](https://github.com/AliceO2Group/AliceO2/pull/11906) 2023-09-27: DPL Analysis: Unified getter for a group of simple-typed columns by [@aalkin](https://github.com/aalkin)
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
 	- [\#11920](https://github.com/AliceO2Group/AliceO2/pull/11920) 2023-09-22: Add labelled string array by [@njacazio](https://github.com/njacazio)
 	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
