@@ -79,6 +79,7 @@
 	- [\#11952](https://github.com/AliceO2Group/AliceO2/pull/11952) 2023-09-25: Denote deadbeef error to warning by [@martenole](https://github.com/martenole)
 	- [\#11953](https://github.com/AliceO2Group/AliceO2/pull/11953) 2023-09-25: DPL: inject firstTForbit and tfCounter when missing by [@ktf](https://github.com/ktf)
 	- [\#11961](https://github.com/AliceO2Group/AliceO2/pull/11961) 2023-09-26: DPL: fix race condition with the delivery of region events by [@ktf](https://github.com/ktf)
+	- [\#11966](https://github.com/AliceO2Group/AliceO2/pull/11966) 2023-09-27: DPL: Do not inject at EndOfStream by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#11897](https://github.com/AliceO2Group/AliceO2/pull/11897) 2023-09-15: Define alignable volumes for all detoctors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
