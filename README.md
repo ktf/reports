@@ -7,7 +7,6 @@
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#11879](https://github.com/AliceO2Group/AliceO2/pull/11879) 2023-09-11: Static_assert check for hit property space by [@sawenzel](https://github.com/sawenzel)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 	- [\#11888](https://github.com/AliceO2Group/AliceO2/pull/11888) 2023-09-22: TRD raw stats add TFID info by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
