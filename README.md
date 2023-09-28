@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
@@ -59,7 +58,6 @@
 	- [\#11962](https://github.com/AliceO2Group/AliceO2/pull/11962) 2023-09-26: Add the noise map clear function in Detectors/ITSMFT/MFT/condition/sr… by [@syano0822](https://github.com/syano0822)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#11875](https://github.com/AliceO2Group/AliceO2/pull/11875) 2023-09-10: DPL Analysis: provide metadata to workflow construction by [@ktf](https://github.com/ktf)
 	- [\#11876](https://github.com/AliceO2Group/AliceO2/pull/11876) 2023-09-11: o2sim: propagate HepMC info for on-the-fly simulation by [@aalkin](https://github.com/aalkin)
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
