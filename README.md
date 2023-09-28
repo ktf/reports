@@ -56,6 +56,7 @@
 	- [\#11959](https://github.com/AliceO2Group/AliceO2/pull/11959) 2023-09-27: Avoid crashes when CTP is not loaded by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11962](https://github.com/AliceO2Group/AliceO2/pull/11962) 2023-09-26: Add the noise map clear function in Detectors/ITSMFT/MFT/condition/sr… by [@syano0822](https://github.com/syano0822)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
+	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
@@ -76,6 +77,5 @@
 ## Recent developments in O2 - Steer
 	- [\#11897](https://github.com/AliceO2Group/AliceO2/pull/11897) 2023-09-15: Define alignable volumes for all detoctors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-	- [\#11877](https://github.com/AliceO2Group/AliceO2/pull/11877) 2023-09-12: [rANS] Fix usage of parallel stl in librans benchmarks by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11927](https://github.com/AliceO2Group/AliceO2/pull/11927) 2023-09-21: Fix missing include by [@davidrohr](https://github.com/davidrohr)
