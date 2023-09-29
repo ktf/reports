@@ -54,6 +54,7 @@
 	- [\#11958](https://github.com/AliceO2Group/AliceO2/pull/11958) 2023-09-26: Suppres duplicate matches from ITS track clones on sector edges by [@shahor02](https://github.com/shahor02)
 	- [\#11959](https://github.com/AliceO2Group/AliceO2/pull/11959) 2023-09-27: Avoid crashes when CTP is not loaded by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11962](https://github.com/AliceO2Group/AliceO2/pull/11962) 2023-09-26: Add the noise map clear function in Detectors/ITSMFT/MFT/condition/sr… by [@syano0822](https://github.com/syano0822)
+	- [\#11969](https://github.com/AliceO2Group/AliceO2/pull/11969) 2023-09-29: AODProducer: Code cleanup and optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
