@@ -59,6 +59,7 @@
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
+	- [\#11981](https://github.com/AliceO2Group/AliceO2/pull/11981) 2023-09-29: fix in TOF matcher for calib by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
