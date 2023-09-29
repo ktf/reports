@@ -6,6 +6,7 @@
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
+	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 	- [\#11888](https://github.com/AliceO2Group/AliceO2/pull/11888) 2023-09-22: TRD raw stats add TFID info by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
@@ -54,6 +55,7 @@
 	- [\#11969](https://github.com/AliceO2Group/AliceO2/pull/11969) 2023-09-29: AODProducer: Code cleanup and optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
+	- [\#11975](https://github.com/AliceO2Group/AliceO2/pull/11975) 2023-09-29: [ITS3] Implement small fixes for ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 	- [\#11981](https://github.com/AliceO2Group/AliceO2/pull/11981) 2023-09-29: fix in TOF matcher for calib by [@noferini](https://github.com/noferini)
