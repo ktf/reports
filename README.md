@@ -22,6 +22,7 @@
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
+	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
@@ -58,6 +59,7 @@
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
+	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#11885](https://github.com/AliceO2Group/AliceO2/pull/11885) 2023-09-11: Revert "DPL Analysis: provide metadata to workflow construction" by [@ktf](https://github.com/ktf)
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
