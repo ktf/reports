@@ -24,7 +24,6 @@
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#11880](https://github.com/AliceO2Group/AliceO2/pull/11880) 2023-09-12: TPC: Fix displayed drift velocity, add proper t0 value by [@wiechula](https://github.com/wiechula)
 	- [\#11882](https://github.com/AliceO2Group/AliceO2/pull/11882) 2023-09-12: Fix TRD raw data stats trigger counter by [@martenole](https://github.com/martenole)
 	- [\#11883](https://github.com/AliceO2Group/AliceO2/pull/11883) 2023-09-12: ITS calib: number of points of the s-curve to ROOT trees by [@iravasen](https://github.com/iravasen)
 	- [\#11887](https://github.com/AliceO2Group/AliceO2/pull/11887) 2023-09-26: adjusting TOF calib info alignment to BC by [@noferini](https://github.com/noferini)
