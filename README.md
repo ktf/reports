@@ -6,7 +6,6 @@
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-	- [\#11888](https://github.com/AliceO2Group/AliceO2/pull/11888) 2023-09-22: TRD raw stats add TFID info by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
@@ -22,7 +21,6 @@
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#11888](https://github.com/AliceO2Group/AliceO2/pull/11888) 2023-09-22: TRD raw stats add TFID info by [@martenole](https://github.com/martenole)
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11894](https://github.com/AliceO2Group/AliceO2/pull/11894) 2023-09-16: MCH: do not use sporadic for StatusMap message by [@aphecetche](https://github.com/aphecetche)
 	- [\#11895](https://github.com/AliceO2Group/AliceO2/pull/11895) 2023-09-15: do not raise error if all hits of the chip are masked by [@shahor02](https://github.com/shahor02)
