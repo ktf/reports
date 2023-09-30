@@ -20,6 +20,7 @@
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
+	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11894](https://github.com/AliceO2Group/AliceO2/pull/11894) 2023-09-16: MCH: do not use sporadic for StatusMap message by [@aphecetche](https://github.com/aphecetche)
@@ -56,6 +57,7 @@
 	- [\#11979](https://github.com/AliceO2Group/AliceO2/pull/11979) 2023-09-30: Strangeness tracking: tighter cut on grid granularity by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11981](https://github.com/AliceO2Group/AliceO2/pull/11981) 2023-09-29: fix in TOF matcher for calib by [@noferini](https://github.com/noferini)
 	- [\#11985](https://github.com/AliceO2Group/AliceO2/pull/11985) 2023-09-29: Stop CTFreader asap to avoid empty run cycle by [@shahor02](https://github.com/shahor02)
+	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11899](https://github.com/AliceO2Group/AliceO2/pull/11899) 2023-09-15: Revert "Add labelled string array" by [@jgrosseo](https://github.com/jgrosseo)
 	- [\#11901](https://github.com/AliceO2Group/AliceO2/pull/11901) 2023-09-16: DPL: fix warning in aodMerger by [@ktf](https://github.com/ktf)
