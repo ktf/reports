@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-16T11:24:35Z",
-            "title": "GPU: Add a switch to enable/disable the TPC PID response during recon…",
-            "number": 11893,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-16T11:05:37Z",
             "title": "MCH: do not use sporadic for StatusMap message",
             "number": 11894,
@@ -3436,6 +3411,26 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/CalibratordEdxSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Check if FileFetcher is done for early stop on empty queue ",
+            "number": 11993,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/CTF/workflow/src/CTFReaderSpec.cxx"
                   }
                 }
               ]
