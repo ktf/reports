@@ -1,12 +1,10 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
@@ -23,7 +21,6 @@
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11892](https://github.com/AliceO2Group/AliceO2/pull/11892) 2023-09-14: Avoid exposing rANS internal details to ROOT by [@ktf](https://github.com/ktf)
 	- [\#11894](https://github.com/AliceO2Group/AliceO2/pull/11894) 2023-09-16: MCH: do not use sporadic for StatusMap message by [@aphecetche](https://github.com/aphecetche)
 	- [\#11895](https://github.com/AliceO2Group/AliceO2/pull/11895) 2023-09-15: do not raise error if all hits of the chip are masked by [@shahor02](https://github.com/shahor02)
 	- [\#11896](https://github.com/AliceO2Group/AliceO2/pull/11896) 2023-09-16: TPC SpaceCharge: add scaling of sc density per stack and IFC models by [@matthias-kleiner](https://github.com/matthias-kleiner)
