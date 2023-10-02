@@ -57,6 +57,7 @@
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
 	- [\#11999](https://github.com/AliceO2Group/AliceO2/pull/11999) 2023-10-02: Fix: CTPinputs from prev BC were filled for BCs w/o CTP input by [@shahor02](https://github.com/shahor02)
+	- [\#12000](https://github.com/AliceO2Group/AliceO2/pull/12000) 2023-10-02: ctpinputs-decoding-ctf to ignore-ctpinputs-decoding-ctf by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 	- [\#11906](https://github.com/AliceO2Group/AliceO2/pull/11906) 2023-09-27: DPL Analysis: Unified getter for a group of simple-typed columns by [@aalkin](https://github.com/aalkin)
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
