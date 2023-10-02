@@ -21,7 +21,6 @@
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11895](https://github.com/AliceO2Group/AliceO2/pull/11895) 2023-09-15: do not raise error if all hits of the chip are masked by [@shahor02](https://github.com/shahor02)
 	- [\#11896](https://github.com/AliceO2Group/AliceO2/pull/11896) 2023-09-16: TPC SpaceCharge: add scaling of sc density per stack and IFC models by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11902](https://github.com/AliceO2Group/AliceO2/pull/11902) 2023-09-16: Fix not exposing rANS to ROOT, and check that it is not the case by [@davidrohr](https://github.com/davidrohr)
 	- [\#11904](https://github.com/AliceO2Group/AliceO2/pull/11904) 2023-09-16: Adjust packet counter of fake RDH with SOX by [@shahor02](https://github.com/shahor02)
