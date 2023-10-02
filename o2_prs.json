@@ -4,61 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-09-15T10:51:58Z",
-            "title": "Revert \"Add labelled string array\"",
-            "number": 11899,
-            "author": {
-              "login": "jgrosseo"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/Variant.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/VariantJSONHelpers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/BoostOptionsRetriever.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ConfigParamsHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/PropertyTreeHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/test/test_Variants.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "[WIP] - ZDC Small fixes and improved printout in waveform calibration",
@@ -3490,6 +3435,16 @@
                 },
                 {
                   "node": {
+                    "path": "EventVisualisation/Geometry/simple_geom_HMP.root"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "EventVisualisation/Geometry/simple_geom_ITS.root"
+                  }
+                },
+                {
+                  "node": {
                     "path": "EventVisualisation/View/src/EventManager.cxx"
                   }
                 },
@@ -3571,6 +3526,26 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix: CTPinputs from prev BC were filled for BCs w/o CTP input",
+            "number": 11999,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
                   }
                 }
               ]
