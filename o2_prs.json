@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-16T11:06:03Z",
-            "title": "TPC SpaceCharge: add scaling of sc density per stack and IFC models",
-            "number": 11896,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/DataContainer3D.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceCharge.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/src/DataContainer3D.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/spacecharge/src/SpaceCharge.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-15T08:15:54Z",
             "title": "Define alignable volumes for all detoctors",
             "number": 11897,
@@ -3426,6 +3391,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add Alice3 absorber",
+            "number": 11996,
+            "author": {
+              "login": "jmunozme"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/include/Alice3DetectorsPassive/Absorber.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/Absorber.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/Passive/src/PassiveLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
                   }
                 }
               ]
