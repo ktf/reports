@@ -11,6 +11,7 @@
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11936](https://github.com/AliceO2Group/AliceO2/pull/11936) 2023-09-25: Extract both lumis from CTP CTF by [@shahor02](https://github.com/shahor02)
+	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
 	- [\#11948](https://github.com/AliceO2Group/AliceO2/pull/11948) 2023-09-24: Revert TOF CTF precompressed timeTDCInc to uint16_t by [@shahor02](https://github.com/shahor02)
@@ -20,7 +21,6 @@
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11909](https://github.com/AliceO2Group/AliceO2/pull/11909) 2023-09-21: TPC: Add DCAr histograms to TPC QC Tracks component by [@wiechula](https://github.com/wiechula)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 	- [\#11923](https://github.com/AliceO2Group/AliceO2/pull/11923) 2023-09-26: MFT: Removing overlaps of carbon plates by [@frmanso](https://github.com/frmanso)
@@ -31,6 +31,7 @@
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11936](https://github.com/AliceO2Group/AliceO2/pull/11936) 2023-09-25: Extract both lumis from CTP CTF by [@shahor02](https://github.com/shahor02)
+	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
 	- [\#11942](https://github.com/AliceO2Group/AliceO2/pull/11942) 2023-09-23: More GPU standalone multi-threading developments by [@davidrohr](https://github.com/davidrohr)
 	- [\#11944](https://github.com/AliceO2Group/AliceO2/pull/11944) 2023-09-25: ctpdev: adding input counters to CCDB by [@lietava](https://github.com/lietava)
@@ -60,6 +61,8 @@
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12002](https://github.com/AliceO2Group/AliceO2/pull/12002) 2023-10-03: Copy all lumi scaling settings between alternating CorrectionMapsLoaders by [@shahor02](https://github.com/shahor02)
 	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
+## Recent developments in O2 - Examples
+	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
 	- [\#11920](https://github.com/AliceO2Group/AliceO2/pull/11920) 2023-09-22: Add labelled string array by [@njacazio](https://github.com/njacazio)
@@ -74,5 +77,7 @@
 	- [\#11961](https://github.com/AliceO2Group/AliceO2/pull/11961) 2023-09-26: DPL: fix race condition with the delivery of region events by [@ktf](https://github.com/ktf)
 	- [\#11966](https://github.com/AliceO2Group/AliceO2/pull/11966) 2023-09-27: DPL: Do not inject at EndOfStream by [@davidrohr](https://github.com/davidrohr)
 	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#11927](https://github.com/AliceO2Group/AliceO2/pull/11927) 2023-09-21: Fix missing include by [@davidrohr](https://github.com/davidrohr)
