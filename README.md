@@ -61,7 +61,6 @@
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12002](https://github.com/AliceO2Group/AliceO2/pull/12002) 2023-10-03: Copy all lumi scaling settings between alternating CorrectionMapsLoaders by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#11906](https://github.com/AliceO2Group/AliceO2/pull/11906) 2023-09-27: DPL Analysis: Unified getter for a group of simple-typed columns by [@aalkin](https://github.com/aalkin)
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
 	- [\#11920](https://github.com/AliceO2Group/AliceO2/pull/11920) 2023-09-22: Add labelled string array by [@njacazio](https://github.com/njacazio)
 	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
