@@ -59,6 +59,7 @@
 	- [\#12000](https://github.com/AliceO2Group/AliceO2/pull/12000) 2023-10-02: ctpinputs-decoding-ctf to ignore-ctpinputs-decoding-ctf by [@lietava](https://github.com/lietava)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12002](https://github.com/AliceO2Group/AliceO2/pull/12002) 2023-10-03: Copy all lumi scaling settings between alternating CorrectionMapsLoaders by [@shahor02](https://github.com/shahor02)
+	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 	- [\#11917](https://github.com/AliceO2Group/AliceO2/pull/11917) 2023-09-20: DPL: treat ccdb-run-dependent as bool by [@ktf](https://github.com/ktf)
 	- [\#11920](https://github.com/AliceO2Group/AliceO2/pull/11920) 2023-09-22: Add labelled string array by [@njacazio](https://github.com/njacazio)
