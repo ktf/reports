@@ -18,6 +18,7 @@
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
+	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11908](https://github.com/AliceO2Group/AliceO2/pull/11908) 2023-09-18: GPU TPC: Add trigger word handling during GPU decoding by [@davidrohr](https://github.com/davidrohr)
 	- [\#11909](https://github.com/AliceO2Group/AliceO2/pull/11909) 2023-09-21: TPC: Add DCAr histograms to TPC QC Tracks component by [@wiechula](https://github.com/wiechula)
@@ -57,6 +58,7 @@
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
 	- [\#11999](https://github.com/AliceO2Group/AliceO2/pull/11999) 2023-10-02: Fix: CTPinputs from prev BC were filled for BCs w/o CTP input by [@shahor02](https://github.com/shahor02)
 	- [\#12000](https://github.com/AliceO2Group/AliceO2/pull/12000) 2023-10-02: ctpinputs-decoding-ctf to ignore-ctpinputs-decoding-ctf by [@lietava](https://github.com/lietava)
+	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12002](https://github.com/AliceO2Group/AliceO2/pull/12002) 2023-10-03: Copy all lumi scaling settings between alternating CorrectionMapsLoaders by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#11906](https://github.com/AliceO2Group/AliceO2/pull/11906) 2023-09-27: DPL Analysis: Unified getter for a group of simple-typed columns by [@aalkin](https://github.com/aalkin)
