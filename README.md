@@ -20,7 +20,6 @@
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11908](https://github.com/AliceO2Group/AliceO2/pull/11908) 2023-09-18: GPU TPC: Add trigger word handling during GPU decoding by [@davidrohr](https://github.com/davidrohr)
 	- [\#11909](https://github.com/AliceO2Group/AliceO2/pull/11909) 2023-09-21: TPC: Add DCAr histograms to TPC QC Tracks component by [@wiechula](https://github.com/wiechula)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
