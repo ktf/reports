@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Common
 	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
+	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
@@ -57,6 +58,7 @@
 	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
+	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#11999](https://github.com/AliceO2Group/AliceO2/pull/11999) 2023-10-02: Fix: CTPinputs from prev BC were filled for BCs w/o CTP input by [@shahor02](https://github.com/shahor02)
 	- [\#12000](https://github.com/AliceO2Group/AliceO2/pull/12000) 2023-10-02: ctpinputs-decoding-ctf to ignore-ctpinputs-decoding-ctf by [@lietava](https://github.com/lietava)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
