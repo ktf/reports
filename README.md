@@ -83,6 +83,7 @@
 	- [\#11961](https://github.com/AliceO2Group/AliceO2/pull/11961) 2023-09-26: DPL: fix race condition with the delivery of region events by [@ktf](https://github.com/ktf)
 	- [\#11966](https://github.com/AliceO2Group/AliceO2/pull/11966) 2023-09-27: DPL: Do not inject at EndOfStream by [@davidrohr](https://github.com/davidrohr)
 	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
+	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
