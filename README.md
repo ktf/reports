@@ -74,7 +74,6 @@
 ## Recent developments in O2 - Examples
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#11920](https://github.com/AliceO2Group/AliceO2/pull/11920) 2023-09-22: Add labelled string array by [@njacazio](https://github.com/njacazio)
 	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
 	- [\#11925](https://github.com/AliceO2Group/AliceO2/pull/11925) 2023-09-21: DPL: inject missing data by [@ktf](https://github.com/ktf)
 	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
