@@ -66,6 +66,7 @@
 	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
+	- [\#12010](https://github.com/AliceO2Group/AliceO2/pull/12010) 2023-10-04: [EMCAL-1048] Treat faulty memory size reported by RDH by [@mfasDa](https://github.com/mfasDa)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 	- [\#12013](https://github.com/AliceO2Group/AliceO2/pull/12013) 2023-10-04: MID: Downscale InfoLogger errors temporarily by [@davidrohr](https://github.com/davidrohr)
