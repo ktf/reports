@@ -5,6 +5,7 @@
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
+	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
@@ -22,6 +23,7 @@
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
+	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 	- [\#11923](https://github.com/AliceO2Group/AliceO2/pull/11923) 2023-09-26: MFT: Removing overlaps of carbon plates by [@frmanso](https://github.com/frmanso)
@@ -71,12 +73,12 @@
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 	- [\#12013](https://github.com/AliceO2Group/AliceO2/pull/12013) 2023-10-04: MID: Downscale InfoLogger errors temporarily by [@davidrohr](https://github.com/davidrohr)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
+	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#11921](https://github.com/AliceO2Group/AliceO2/pull/11921) 2023-09-20: DPL: Use ALIEN_PROC_ID to know we run on Grid by [@knopers8](https://github.com/knopers8)
 	- [\#11925](https://github.com/AliceO2Group/AliceO2/pull/11925) 2023-09-21: DPL: inject missing data by [@ktf](https://github.com/ktf)
 	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
 	- [\#11933](https://github.com/AliceO2Group/AliceO2/pull/11933) 2023-09-22: DPL: do not inject DISTSUBTIMEFRAME by [@ktf](https://github.com/ktf)
@@ -95,3 +97,4 @@
 ## Recent developments in O2 - Utilities
 	- [\#11927](https://github.com/AliceO2Group/AliceO2/pull/11927) 2023-09-21: Fix missing include by [@davidrohr](https://github.com/davidrohr)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
+	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)

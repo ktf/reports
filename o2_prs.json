@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-20T06:58:37Z",
-            "title": "DPL: Use ALIEN_PROC_ID to know we run on Grid",
-            "number": 11921,
-            "author": {
-              "login": "knopers8"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DefaultsHelpers.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-20T20:39:26Z",
             "title": "GPU TPC: Send TPC trigger words with orbit information",
             "number": 11922,
@@ -3401,6 +3381,126 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/unittest_DataSpecUtils.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-10-04T22:53:34Z",
+            "title": "Revert \"[rANS] Improve Robustness\"",
+            "number": 12021,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/internal/ExternalEntropyCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/internal/InplaceEntropyCoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/test/testCTFEntropyCoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/benchmarks/bench_ransHistogram.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/DenseHistogram.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/ReverseSymbolLookupTable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/containers/Symbol.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/encode/Encoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/encode/EncoderSymbolMapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/encode/SingleStreamEncoderImpl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/pack/DictionaryStreamReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/transform/algorithmImpl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/include/rANS/internal/transform/renorm.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/run/bin-encode-decode.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransHistograms.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransMetrics.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransPack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransSIMDEncoderKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransSparseVector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransSymbolTables.cxx"
                   }
                 }
               ]
