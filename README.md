@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Common
-	- [\#11919](https://github.com/AliceO2Group/AliceO2/pull/11919) 2023-09-19: Fix missing cassert include by [@ktf](https://github.com/ktf)
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
