@@ -7,7 +7,6 @@
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
-	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
