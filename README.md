@@ -5,6 +5,7 @@
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
+	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
 	- [\#11914](https://github.com/AliceO2Group/AliceO2/pull/11914) 2023-09-20: Avoid ambiguity in function name by [@ktf](https://github.com/ktf)
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
@@ -22,6 +23,7 @@
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
+	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
 	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
@@ -66,6 +68,7 @@
 	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
+	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
@@ -87,3 +90,4 @@
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#11927](https://github.com/AliceO2Group/AliceO2/pull/11927) 2023-09-21: Fix missing include by [@davidrohr](https://github.com/davidrohr)
+	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
