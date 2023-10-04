@@ -48,6 +48,7 @@
 	- [\#11975](https://github.com/AliceO2Group/AliceO2/pull/11975) 2023-09-29: [ITS3] Implement small fixes for ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
+	- [\#11978](https://github.com/AliceO2Group/AliceO2/pull/11978) 2023-10-04: ITS DCS parser: added configurable url to retrieve RCT headers by [@iravasen](https://github.com/iravasen)
 	- [\#11979](https://github.com/AliceO2Group/AliceO2/pull/11979) 2023-09-30: Strangeness tracking: tighter cut on grid granularity by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11980](https://github.com/AliceO2Group/AliceO2/pull/11980) 2023-09-30: TPC: add option to not sample first n TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11981](https://github.com/AliceO2Group/AliceO2/pull/11981) 2023-09-29: fix in TOF matcher for calib by [@noferini](https://github.com/noferini)
