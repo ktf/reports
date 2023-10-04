@@ -7,7 +7,6 @@
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - DataFormats
-	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
 	- [\#11928](https://github.com/AliceO2Group/AliceO2/pull/11928) 2023-09-21: Add TPC trigger info to CTF and corresponding reader and writer by [@shahor02](https://github.com/shahor02)
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
@@ -24,7 +23,6 @@
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 ## Recent developments in O2 - Detectors
-	- [\#11916](https://github.com/AliceO2Group/AliceO2/pull/11916) 2023-09-20: TPC: Trigger word with orbit by [@wiechula](https://github.com/wiechula)
 	- [\#11922](https://github.com/AliceO2Group/AliceO2/pull/11922) 2023-09-20: GPU TPC: Send TPC trigger words with orbit information by [@davidrohr](https://github.com/davidrohr)
 	- [\#11923](https://github.com/AliceO2Group/AliceO2/pull/11923) 2023-09-26: MFT: Removing overlaps of carbon plates by [@frmanso](https://github.com/frmanso)
 	- [\#11924](https://github.com/AliceO2Group/AliceO2/pull/11924) 2023-09-21: Fix TRD pile-up information by [@martenole](https://github.com/martenole)
