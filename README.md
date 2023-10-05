@@ -79,7 +79,6 @@
 ## Recent developments in O2 - Examples
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#11925](https://github.com/AliceO2Group/AliceO2/pull/11925) 2023-09-21: DPL: inject missing data by [@ktf](https://github.com/ktf)
 	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
 	- [\#11933](https://github.com/AliceO2Group/AliceO2/pull/11933) 2023-09-22: DPL: do not inject DISTSUBTIMEFRAME by [@ktf](https://github.com/ktf)
 	- [\#11938](https://github.com/AliceO2Group/AliceO2/pull/11938) 2023-09-22: GPU: Work towards running the multi-threaded GPU pipeline standalone by [@davidrohr](https://github.com/davidrohr)
