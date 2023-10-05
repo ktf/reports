@@ -3256,7 +3256,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "[WIP][EMCAL-1048] Handle artificial trailer markers in last word not comin…",
+            "title": " [EMCAL-1048] Consistent check fo RCU trailer and channel header integrity",
             "number": 12024,
             "author": {
               "login": "mfasDa"
@@ -3265,7 +3265,32 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Detectors/EMCAL/base/include/EMCALBase/RCUTrailer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/base/src/RCUTrailer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/AltroDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/EMCAL/reconstruction/src/RawReaderMemory.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/EMCAL/reconstruction/test/testMinorAltroDecodingError.cxx"
                   }
                 }
               ]
