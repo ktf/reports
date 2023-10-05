@@ -45,6 +45,7 @@
 	- [\#11969](https://github.com/AliceO2Group/AliceO2/pull/11969) 2023-09-29: AODProducer: Code cleanup and optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
 	- [\#11971](https://github.com/AliceO2Group/AliceO2/pull/11971) 2023-09-28: GPU SA MultiThreading: 2 more fixes by [@davidrohr](https://github.com/davidrohr)
+	- [\#11974](https://github.com/AliceO2Group/AliceO2/pull/11974) 2023-10-05: Adding plots to ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#11975](https://github.com/AliceO2Group/AliceO2/pull/11975) 2023-09-29: [ITS3] Implement small fixes for ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
