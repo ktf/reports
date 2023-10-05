@@ -72,6 +72,7 @@
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 	- [\#12013](https://github.com/AliceO2Group/AliceO2/pull/12013) 2023-10-04: MID: Downscale InfoLogger errors temporarily by [@davidrohr](https://github.com/davidrohr)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
+	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
@@ -91,6 +92,7 @@
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12016](https://github.com/AliceO2Group/AliceO2/pull/12016) 2023-10-04: DPL: drop ReadoutAdapter by [@ktf](https://github.com/ktf)
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
+	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
