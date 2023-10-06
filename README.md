@@ -82,7 +82,6 @@
 ## Recent developments in O2 - Examples
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#11930](https://github.com/AliceO2Group/AliceO2/pull/11930) 2023-09-21: Bump catch2 to 3.4.0 to try C++20 support by [@ktf](https://github.com/ktf)
 	- [\#11933](https://github.com/AliceO2Group/AliceO2/pull/11933) 2023-09-22: DPL: do not inject DISTSUBTIMEFRAME by [@ktf](https://github.com/ktf)
 	- [\#11938](https://github.com/AliceO2Group/AliceO2/pull/11938) 2023-09-22: GPU: Work towards running the multi-threaded GPU pipeline standalone by [@davidrohr](https://github.com/davidrohr)
 	- [\#11949](https://github.com/AliceO2Group/AliceO2/pull/11949) 2023-09-25: DPL: Rename reworkEnv to reworkTimeslicePlaceholder, apply it to channel-config to support standalone multi-threading with >1 GPU by [@davidrohr](https://github.com/davidrohr)
@@ -92,6 +91,7 @@
 	- [\#11966](https://github.com/AliceO2Group/AliceO2/pull/11966) 2023-09-27: DPL: Do not inject at EndOfStream by [@davidrohr](https://github.com/davidrohr)
 	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
+	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
 	- [\#12016](https://github.com/AliceO2Group/AliceO2/pull/12016) 2023-10-04: DPL: drop ReadoutAdapter by [@ktf](https://github.com/ktf)
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
