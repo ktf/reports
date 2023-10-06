@@ -7,7 +7,6 @@
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11936](https://github.com/AliceO2Group/AliceO2/pull/11936) 2023-09-25: Extract both lumis from CTP CTF by [@shahor02](https://github.com/shahor02)
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
@@ -22,7 +21,6 @@
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11936](https://github.com/AliceO2Group/AliceO2/pull/11936) 2023-09-25: Extract both lumis from CTP CTF by [@shahor02](https://github.com/shahor02)
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
 	- [\#11939](https://github.com/AliceO2Group/AliceO2/pull/11939) 2023-09-22: Fix TPC CTF in the linkdef by [@shahor02](https://github.com/shahor02)
