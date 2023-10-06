@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-25T11:46:32Z",
-            "title": "Extract both lumis from CTP CTF",
-            "number": 11936,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/CTF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/LumiInfo.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/reconstruction/include/CTPReconstruction/CTFHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CorrectionMapsLoader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-03T14:10:11Z",
             "title": "MCTrack: Generalize hit bit property",
             "number": 11937,
@@ -3576,6 +3531,31 @@
                 {
                   "node": {
                     "path": "Utilities/rANS/test/test_ransSymbolTables.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Store TFIDInfo TTree together with the vector",
+            "number": 12036,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/TreeStreamRedirector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/tfidinfo-writer-workflow.cxx"
                   }
                 }
               ]
