@@ -23,7 +23,6 @@
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11932](https://github.com/AliceO2Group/AliceO2/pull/11932) 2023-09-22: [EMCAL-795] Reject ALTRO bunches with impossible length and pages with impossible FEC ordering by [@mfasDa](https://github.com/mfasDa)
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
 	- [\#11936](https://github.com/AliceO2Group/AliceO2/pull/11936) 2023-09-25: Extract both lumis from CTP CTF by [@shahor02](https://github.com/shahor02)
