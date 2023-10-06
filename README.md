@@ -23,7 +23,6 @@
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11931](https://github.com/AliceO2Group/AliceO2/pull/11931) 2023-09-25: o2-sim: Better VMC shutdown (via plugin code) by [@sawenzel](https://github.com/sawenzel)
 	- [\#11932](https://github.com/AliceO2Group/AliceO2/pull/11932) 2023-09-22: [EMCAL-795] Reject ALTRO bunches with impossible length and pages with impossible FEC ordering by [@mfasDa](https://github.com/mfasDa)
 	- [\#11934](https://github.com/AliceO2Group/AliceO2/pull/11934) 2023-09-22: GPU TPC: Add option to downscale TPC dEdx computation by [@davidrohr](https://github.com/davidrohr)
 	- [\#11935](https://github.com/AliceO2Group/AliceO2/pull/11935) 2023-09-22: Add CTP Lumi inputs to its CTF header by [@shahor02](https://github.com/shahor02)
@@ -56,6 +55,7 @@
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
+	- [\#11998](https://github.com/AliceO2Group/AliceO2/pull/11998) 2023-10-06: Adding aluminium absorbers in front to chambers 2 and 4 by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#11999](https://github.com/AliceO2Group/AliceO2/pull/11999) 2023-10-02: Fix: CTPinputs from prev BC were filled for BCs w/o CTP input by [@shahor02](https://github.com/shahor02)
 	- [\#12000](https://github.com/AliceO2Group/AliceO2/pull/12000) 2023-10-02: ctpinputs-decoding-ctf to ignore-ctpinputs-decoding-ctf by [@lietava](https://github.com/lietava)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
@@ -77,6 +77,8 @@
 	- [\#12026](https://github.com/AliceO2Group/AliceO2/pull/12026) 2023-10-06: SVertexer: use mean vertex by [@f3sch](https://github.com/f3sch)
 	- [\#12027](https://github.com/AliceO2Group/AliceO2/pull/12027) 2023-10-05: uniform disable-strangeness-tracker opt., enable str.tracker by default by [@shahor02](https://github.com/shahor02)
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
+	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
+	- [\#12031](https://github.com/AliceO2Group/AliceO2/pull/12031) 2023-10-06: Add tracks time to trackStudy output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Examples
@@ -98,6 +100,7 @@
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#11937](https://github.com/AliceO2Group/AliceO2/pull/11937) 2023-10-03: MCTrack: Generalize hit bit property by [@sawenzel](https://github.com/sawenzel)
+	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
