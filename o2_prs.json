@@ -5,81 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-03T14:10:11Z",
-            "title": "MCTrack: Generalize hit bit property",
-            "number": 11937,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCEventHeader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/test/MCTrack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Detector.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Detector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Stack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Steer/src/O2MCApplication.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "macro/build_geometry.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Inspect_Hits/left_trace.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Inspect_Hits/primary_and_hits.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/SimExamples/Inspect_Hits/secondary_and_hits.macro"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/checkStack.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-22T19:52:00Z",
             "title": "GPU: Work towards running the multi-threaded GPU pipeline standalone",
             "number": 11938,
@@ -3556,6 +3481,36 @@
                 {
                   "node": {
                     "path": "Detectors/GlobalTrackingWorkflow/src/tfidinfo-writer-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD raw reader update",
+            "number": 12037,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/HelperMethods.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
                   }
                 }
               ]
