@@ -78,7 +78,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11938](https://github.com/AliceO2Group/AliceO2/pull/11938) 2023-09-22: GPU: Work towards running the multi-threaded GPU pipeline standalone by [@davidrohr](https://github.com/davidrohr)
 	- [\#11949](https://github.com/AliceO2Group/AliceO2/pull/11949) 2023-09-25: DPL: Rename reworkEnv to reworkTimeslicePlaceholder, apply it to channel-config to support standalone multi-threading with >1 GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#11952](https://github.com/AliceO2Group/AliceO2/pull/11952) 2023-09-25: Denote deadbeef error to warning by [@martenole](https://github.com/martenole)
 	- [\#11953](https://github.com/AliceO2Group/AliceO2/pull/11953) 2023-09-25: DPL: inject firstTForbit and tfCounter when missing by [@ktf](https://github.com/ktf)
