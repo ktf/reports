@@ -73,6 +73,7 @@
 	- [\#12031](https://github.com/AliceO2Group/AliceO2/pull/12031) 2023-10-06: Add tracks time to trackStudy output by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12036](https://github.com/AliceO2Group/AliceO2/pull/12036) 2023-10-07: Store TFIDInfo TTree together with the vector by [@shahor02](https://github.com/shahor02)
+	- [\#12040](https://github.com/AliceO2Group/AliceO2/pull/12040) 2023-10-07: add flag to tof compressor to skip large payloads by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
