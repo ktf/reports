@@ -43,6 +43,7 @@
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
+	- [\#11992](https://github.com/AliceO2Group/AliceO2/pull/11992) 2023-10-09: TPC: adding material type for dedx calibration as parameter by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#11998](https://github.com/AliceO2Group/AliceO2/pull/11998) 2023-10-06: Adding aluminium absorbers in front to chambers 2 and 4 by [@gvolpe79](https://github.com/gvolpe79)
