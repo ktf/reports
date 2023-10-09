@@ -59,6 +59,7 @@
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 	- [\#12013](https://github.com/AliceO2Group/AliceO2/pull/12013) 2023-10-04: MID: Downscale InfoLogger errors temporarily by [@davidrohr](https://github.com/davidrohr)
+	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12018](https://github.com/AliceO2Group/AliceO2/pull/12018) 2023-10-05: fine tuning TOF calib with FT0 by [@noferini](https://github.com/noferini)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
@@ -87,6 +88,7 @@
 	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
+	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12016](https://github.com/AliceO2Group/AliceO2/pull/12016) 2023-10-04: DPL: drop ReadoutAdapter by [@ktf](https://github.com/ktf)
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
@@ -95,5 +97,6 @@
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
+	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
