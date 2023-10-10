@@ -24,7 +24,6 @@
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11954](https://github.com/AliceO2Group/AliceO2/pull/11954) 2023-09-26: [EMCAL-1044] Sort towers in DDL according to FEC ID by [@mfasDa](https://github.com/mfasDa)
 	- [\#11958](https://github.com/AliceO2Group/AliceO2/pull/11958) 2023-09-26: Suppres duplicate matches from ITS track clones on sector edges by [@shahor02](https://github.com/shahor02)
 	- [\#11959](https://github.com/AliceO2Group/AliceO2/pull/11959) 2023-09-27: Avoid crashes when CTP is not loaded by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11962](https://github.com/AliceO2Group/AliceO2/pull/11962) 2023-09-26: Add the noise map clear function in Detectors/ITSMFT/MFT/condition/sr… by [@syano0822](https://github.com/syano0822)
