@@ -80,6 +80,7 @@
 	- [\#12041](https://github.com/AliceO2Group/AliceO2/pull/12041) 2023-10-07: Fix condition to trigger FATAL in ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12042](https://github.com/AliceO2Group/AliceO2/pull/12042) 2023-10-08: Make sure the ROF IR is decoded, otherwise abort link data by [@shahor02](https://github.com/shahor02)
 	- [\#12045](https://github.com/AliceO2Group/AliceO2/pull/12045) 2023-10-09: ITS Adapos: added a wait time of 30s between consecutive pushes to ccdb by [@iravasen](https://github.com/iravasen)
+	- [\#12046](https://github.com/AliceO2Group/AliceO2/pull/12046) 2023-10-10: Reduce peak memory usage of TrackerTraits::findTracks by [@ktf](https://github.com/ktf)
 	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
