@@ -84,7 +84,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11953](https://github.com/AliceO2Group/AliceO2/pull/11953) 2023-09-25: DPL: inject firstTForbit and tfCounter when missing by [@ktf](https://github.com/ktf)
 	- [\#11961](https://github.com/AliceO2Group/AliceO2/pull/11961) 2023-09-26: DPL: fix race condition with the delivery of region events by [@ktf](https://github.com/ktf)
 	- [\#11966](https://github.com/AliceO2Group/AliceO2/pull/11966) 2023-09-27: DPL: Do not inject at EndOfStream by [@davidrohr](https://github.com/davidrohr)
 	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
