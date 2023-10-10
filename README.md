@@ -6,6 +6,7 @@
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
+	- [\#12033](https://github.com/AliceO2Group/AliceO2/pull/12033) 2023-10-10: Flag if propation has failed in DCAFitterN by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12036](https://github.com/AliceO2Group/AliceO2/pull/12036) 2023-10-07: Store TFIDInfo TTree together with the vector by [@shahor02](https://github.com/shahor02)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
