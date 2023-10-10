@@ -57,6 +57,7 @@
 	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
+	- [\#12009](https://github.com/AliceO2Group/AliceO2/pull/12009) 2023-10-10: MatLUT: Option for fast layer lookup by [@sawenzel](https://github.com/sawenzel)
 	- [\#12010](https://github.com/AliceO2Group/AliceO2/pull/12010) 2023-10-04: [EMCAL-1048] Treat faulty memory size reported by RDH by [@mfasDa](https://github.com/mfasDa)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
@@ -83,6 +84,7 @@
 	- [\#12046](https://github.com/AliceO2Group/AliceO2/pull/12046) 2023-10-10: Reduce peak memory usage of TrackerTraits::findTracks by [@ktf](https://github.com/ktf)
 	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
+	- [\#12052](https://github.com/AliceO2Group/AliceO2/pull/12052) 2023-10-10: EMCAL: Downscale raw parser error messages by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
