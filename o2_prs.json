@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-25T21:40:21Z",
-            "title": "GPU Multi-Threading: Fix QC errors, and some general cleanup / improvements",
-            "number": 11955,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainTracking.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Interface/GPUO2Interface.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/qa/GPUQA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowInternal.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowPipeline.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-09-25T21:05:00Z",
             "title": "FST: Make DD wait time configurable",
             "number": 11956,
@@ -3746,6 +3686,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Vectored loadFileToMemory in CcdbApi",
+            "number": 12055,
+            "author": {
+              "login": "TrifleMichael"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/CcdbApi.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/test/testCcdbApiDownloader.cxx"
                   }
                 }
               ]
