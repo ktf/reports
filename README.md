@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Common
 	- [\#11968](https://github.com/AliceO2Group/AliceO2/pull/11968) 2023-09-29: Disable simulation shared mem on APPLE by [@sawenzel](https://github.com/sawenzel)
+	- [\#11984](https://github.com/AliceO2Group/AliceO2/pull/11984) 2023-10-11: TPC: Adding workflow for integrated DCAs for corrections and QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11996](https://github.com/AliceO2Group/AliceO2/pull/11996) 2023-10-03: Add Alice3 absorber by [@jmunozme](https://github.com/jmunozme)
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -40,6 +41,7 @@
 	- [\#11980](https://github.com/AliceO2Group/AliceO2/pull/11980) 2023-09-30: TPC: add option to not sample first n TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11981](https://github.com/AliceO2Group/AliceO2/pull/11981) 2023-09-29: fix in TOF matcher for calib by [@noferini](https://github.com/noferini)
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
+	- [\#11984](https://github.com/AliceO2Group/AliceO2/pull/11984) 2023-10-11: TPC: Adding workflow for integrated DCAs for corrections and QC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11985](https://github.com/AliceO2Group/AliceO2/pull/11985) 2023-09-29: Stop CTFreader asap to avoid empty run cycle by [@shahor02](https://github.com/shahor02)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
