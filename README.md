@@ -26,7 +26,6 @@
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11962](https://github.com/AliceO2Group/AliceO2/pull/11962) 2023-09-26: Add the noise map clear function in Detectors/ITSMFT/MFT/condition/sr… by [@syano0822](https://github.com/syano0822)
 	- [\#11965](https://github.com/AliceO2Group/AliceO2/pull/11965) 2023-10-02: [ITS3] Improve transformation of coordinates and digitisation by [@fgrosa](https://github.com/fgrosa)
 	- [\#11969](https://github.com/AliceO2Group/AliceO2/pull/11969) 2023-09-29: AODProducer: Code cleanup and optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#11970](https://github.com/AliceO2Group/AliceO2/pull/11970) 2023-09-28: ctpdevL input scalers by [@lietava](https://github.com/lietava)
