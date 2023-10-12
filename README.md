@@ -24,6 +24,7 @@
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
+	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11958](https://github.com/AliceO2Group/AliceO2/pull/11958) 2023-09-26: Suppres duplicate matches from ITS track clones on sector edges by [@shahor02](https://github.com/shahor02)
 	- [\#11959](https://github.com/AliceO2Group/AliceO2/pull/11959) 2023-09-27: Avoid crashes when CTP is not loaded by [@fmazzasc](https://github.com/fmazzasc)
@@ -86,6 +87,7 @@
 	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12052](https://github.com/AliceO2Group/AliceO2/pull/12052) 2023-10-10: EMCAL: Downscale raw parser error messages by [@davidrohr](https://github.com/davidrohr)
+	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
