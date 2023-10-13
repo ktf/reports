@@ -85,6 +85,7 @@
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12052](https://github.com/AliceO2Group/AliceO2/pull/12052) 2023-10-10: EMCAL: Downscale raw parser error messages by [@davidrohr](https://github.com/davidrohr)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
+	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
