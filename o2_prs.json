@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-27T15:01:34Z",
-            "title": "adjust TS size for TOF sync calib",
-            "number": 11973,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/aggregator-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-05T08:37:08Z",
             "title": "Adding plots to ITSTPC matching QC",
             "number": 11974,
@@ -3821,6 +3801,46 @@
                 {
                   "node": {
                     "path": "Detectors/Calibration/include/DetectorsCalibration/IntegratedClusterCalibrator.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Optimize ITS/TPC mathing memory usage",
+            "number": 12073,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchHMP.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/TPCITSMatchingSpec.cxx"
                   }
                 }
               ]
