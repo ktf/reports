@@ -98,6 +98,7 @@
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12054](https://github.com/AliceO2Group/AliceO2/pull/12054) 2023-10-11: DPL: If in OnlineMode, input proxies should only send EoS if they receive it by [@davidrohr](https://github.com/davidrohr)
+	- [\#12056](https://github.com/AliceO2Group/AliceO2/pull/12056) 2023-10-13: DPL Analysis: correctly account for extended table version with aod-spawner by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
