@@ -23,6 +23,7 @@
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
+	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#11974](https://github.com/AliceO2Group/AliceO2/pull/11974) 2023-10-05: Adding plots to ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#11975](https://github.com/AliceO2Group/AliceO2/pull/11975) 2023-09-29: [ITS3] Implement small fixes for ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
@@ -82,6 +83,7 @@
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
+	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
