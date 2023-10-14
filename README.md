@@ -12,7 +12,6 @@
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
@@ -25,8 +24,6 @@
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
-	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
 	- [\#11978](https://github.com/AliceO2Group/AliceO2/pull/11978) 2023-10-04: ITS DCS parser: added configurable url to retrieve RCT headers by [@iravasen](https://github.com/iravasen)
 	- [\#11979](https://github.com/AliceO2Group/AliceO2/pull/11979) 2023-09-30: Strangeness tracking: tighter cut on grid granularity by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#11980](https://github.com/AliceO2Group/AliceO2/pull/11980) 2023-09-30: TPC: add option to not sample first n TFs by [@matthias-kleiner](https://github.com/matthias-kleiner)

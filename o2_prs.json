@@ -5,101 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-28T09:53:20Z",
-            "title": "svertexer: bug fix for tpc-only tracks",
-            "number": 11976,
-            "author": {
-              "login": "f3sch"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-09-29T10:05:03Z",
-            "title": "[EMCAL-918, EMCAL-1045] Treatment of page corruptions",
-            "number": 11977,
-            "author": {
-              "login": "mfasDa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Constants.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/TriggerRecord.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/EMCAL/src/TriggerRecord.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/include/EMCALBase/RCUTrailer.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/base/src/RCUTrailer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RawDecodingError.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/include/EMCALReconstruction/RawReaderMemory.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/RawReaderMemory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/test/testRawDecodingError.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/include/EMCALWorkflow/RawToCellConverterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/RawToCellConverterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-04T12:52:31Z",
             "title": "ITS DCS parser: added configurable url to retrieve RCT headers",
             "number": 11978,
@@ -3881,6 +3786,46 @@
                 {
                   "node": {
                     "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Override DRM-id from DRM Header using FEEID",
+            "number": 12076,
+            "author": {
+              "login": "preghenella"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Please consider the following formatting changes to #12076",
+            "number": 12077,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
                   }
                 }
               ]
