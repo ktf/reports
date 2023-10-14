@@ -25,7 +25,6 @@
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#11974](https://github.com/AliceO2Group/AliceO2/pull/11974) 2023-10-05: Adding plots to ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#11975](https://github.com/AliceO2Group/AliceO2/pull/11975) 2023-09-29: [ITS3] Implement small fixes for ITS3 geometry by [@fgrosa](https://github.com/fgrosa)
 	- [\#11976](https://github.com/AliceO2Group/AliceO2/pull/11976) 2023-09-28: svertexer: bug fix for tpc-only tracks by [@f3sch](https://github.com/f3sch)
 	- [\#11977](https://github.com/AliceO2Group/AliceO2/pull/11977) 2023-09-29: [EMCAL-918, EMCAL-1045] Treatment of page corruptions by [@mfasDa](https://github.com/mfasDa)
