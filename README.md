@@ -11,6 +11,7 @@
 	- [\#12036](https://github.com/AliceO2Group/AliceO2/pull/12036) 2023-10-07: Store TFIDInfo TTree together with the vector by [@shahor02](https://github.com/shahor02)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
+	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 	- [\#11983](https://github.com/AliceO2Group/AliceO2/pull/11983) 2023-10-01: [EMCAL-1046] Swap HG and LG at overflow cut by [@mfasDa](https://github.com/mfasDa)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
