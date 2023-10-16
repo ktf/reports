@@ -12,7 +12,6 @@
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
-	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
@@ -24,7 +23,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
 	- [\#11992](https://github.com/AliceO2Group/AliceO2/pull/11992) 2023-10-09: TPC: adding material type for dedx calibration as parameter by [@matthias-kleiner](https://github.com/matthias-kleiner)

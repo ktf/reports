@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-09-30T17:12:13Z",
-            "title": "Fix CTP entropy encoder to handle dummy lumi inputs",
-            "number": 11986,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/GlobalTracking/src/RecoContainer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflow/src/EntropyEncoderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-01T10:48:44Z",
             "title": "GPU: More fixes for multi-threaded pipeline",
             "number": 11987,
@@ -3788,6 +3758,26 @@
             "mergedAt": null,
             "title": "DPL: do not send data headers together with the End Of Stream",
             "number": 12085,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use same workaround when sending EoS in multi output proxy",
+            "number": 12086,
             "author": {
               "login": "ktf"
             },
