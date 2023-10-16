@@ -23,7 +23,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
 	- [\#11992](https://github.com/AliceO2Group/AliceO2/pull/11992) 2023-10-09: TPC: adding material type for dedx calibration as parameter by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#11993](https://github.com/AliceO2Group/AliceO2/pull/11993) 2023-10-01: Check if FileFetcher is done for early stop on empty queue  by [@shahor02](https://github.com/shahor02)
