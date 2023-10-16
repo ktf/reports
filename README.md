@@ -78,6 +78,7 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
+	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
@@ -93,6 +94,7 @@
 	- [\#12053](https://github.com/AliceO2Group/AliceO2/pull/12053) 2023-10-13: Add support for containers by [@ktf](https://github.com/ktf)
 	- [\#12054](https://github.com/AliceO2Group/AliceO2/pull/12054) 2023-10-11: DPL: If in OnlineMode, input proxies should only send EoS if they receive it by [@davidrohr](https://github.com/davidrohr)
 	- [\#12056](https://github.com/AliceO2Group/AliceO2/pull/12056) 2023-10-13: DPL Analysis: correctly account for extended table version with aod-spawner by [@aalkin](https://github.com/aalkin)
+	- [\#12082](https://github.com/AliceO2Group/AliceO2/pull/12082) 2023-10-16: DPL: If we receive only the EoS for that run, we need to add to the c… by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
