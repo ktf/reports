@@ -24,7 +24,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#11985](https://github.com/AliceO2Group/AliceO2/pull/11985) 2023-09-29: Stop CTFreader asap to avoid empty run cycle by [@shahor02](https://github.com/shahor02)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
 	- [\#11988](https://github.com/AliceO2Group/AliceO2/pull/11988) 2023-09-30: ALPIDE event decoding: added  FLUSHED_INCOMPLETE and STROBE_EXTENDED by [@freidt](https://github.com/freidt)
 	- [\#11990](https://github.com/AliceO2Group/AliceO2/pull/11990) 2023-09-30: TrackStudy should process only selected sources by [@shahor02](https://github.com/shahor02)
