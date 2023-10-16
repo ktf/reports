@@ -22,6 +22,7 @@
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
+	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#11985](https://github.com/AliceO2Group/AliceO2/pull/11985) 2023-09-29: Stop CTFreader asap to avoid empty run cycle by [@shahor02](https://github.com/shahor02)
 	- [\#11986](https://github.com/AliceO2Group/AliceO2/pull/11986) 2023-09-30: Fix CTP entropy encoder to handle dummy lumi inputs by [@shahor02](https://github.com/shahor02)
@@ -72,6 +73,7 @@
 	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
+	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
