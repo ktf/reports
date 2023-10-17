@@ -89,6 +89,8 @@
 	- [\#12054](https://github.com/AliceO2Group/AliceO2/pull/12054) 2023-10-11: DPL: If in OnlineMode, input proxies should only send EoS if they receive it by [@davidrohr](https://github.com/davidrohr)
 	- [\#12056](https://github.com/AliceO2Group/AliceO2/pull/12056) 2023-10-13: DPL Analysis: correctly account for extended table version with aod-spawner by [@aalkin](https://github.com/aalkin)
 	- [\#12082](https://github.com/AliceO2Group/AliceO2/pull/12082) 2023-10-16: DPL: If we receive only the EoS for that run, we need to add to the c… by [@davidrohr](https://github.com/davidrohr)
+	- [\#12083](https://github.com/AliceO2Group/AliceO2/pull/12083) 2023-10-17: DPL: test matcher behaviour by [@ktf](https://github.com/ktf)
+	- [\#12088](https://github.com/AliceO2Group/AliceO2/pull/12088) 2023-10-17: DPL Analysis: make sure slice index with start==end is tested by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
