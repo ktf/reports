@@ -5,71 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-09T12:34:27Z",
-            "title": "TPC: adding material type for dedx calibration as parameter",
-            "number": 11992,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibdEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalibratordEdx.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibdEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CalibratordEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibdEdxSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/CalibratordEdxSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibdEdxSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/CalibratordEdxSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-calib-dEdx.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-calibrator-dEdx.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-01T16:04:36Z",
             "title": "Check if FileFetcher is done for early stop on empty queue ",
             "number": 11993,
@@ -3876,6 +3811,61 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTracker.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add finaliseOutputs callback for services",
+            "number": 12092,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CallbackService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ServiceSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/StreamContext.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ContextHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingContext.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/StreamContext.cxx"
                   }
                 }
               ]
