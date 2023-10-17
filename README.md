@@ -66,6 +66,7 @@
 	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
+	- [\#12072](https://github.com/AliceO2Group/AliceO2/pull/12072) 2023-10-17: Integrated currents: Adding check if any data has been received by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12073](https://github.com/AliceO2Group/AliceO2/pull/12073) 2023-10-16: Optimize ITS/TPC mathing memory usage by [@shahor02](https://github.com/shahor02)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
