@@ -77,7 +77,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
-	- [\#11995](https://github.com/AliceO2Group/AliceO2/pull/11995) 2023-10-03: Avoid injecting data unexpectedly by [@ktf](https://github.com/ktf)
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
 	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
