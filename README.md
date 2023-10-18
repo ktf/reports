@@ -72,6 +72,7 @@
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
+	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
