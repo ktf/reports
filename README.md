@@ -71,6 +71,7 @@
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
+	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
@@ -88,6 +89,7 @@
 	- [\#12088](https://github.com/AliceO2Group/AliceO2/pull/12088) 2023-10-17: DPL Analysis: make sure slice index with start==end is tested by [@aalkin](https://github.com/aalkin)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12096](https://github.com/AliceO2Group/AliceO2/pull/12096) 2023-10-18: Fixes for end of stream in input / output proxies by [@davidrohr](https://github.com/davidrohr)
+	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
