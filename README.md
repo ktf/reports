@@ -10,6 +10,7 @@
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12001](https://github.com/AliceO2Group/AliceO2/pull/12001) 2023-10-03: Make TRD raw reader more fault tolerant, allow fixing n time bins by [@martenole](https://github.com/martenole)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -85,6 +86,7 @@
 	- [\#12082](https://github.com/AliceO2Group/AliceO2/pull/12082) 2023-10-16: DPL: If we receive only the EoS for that run, we need to add to the c… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12083](https://github.com/AliceO2Group/AliceO2/pull/12083) 2023-10-17: DPL: test matcher behaviour by [@ktf](https://github.com/ktf)
 	- [\#12088](https://github.com/AliceO2Group/AliceO2/pull/12088) 2023-10-17: DPL Analysis: make sure slice index with start==end is tested by [@aalkin](https://github.com/aalkin)
+	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12096](https://github.com/AliceO2Group/AliceO2/pull/12096) 2023-10-18: Fixes for end of stream in input / output proxies by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
