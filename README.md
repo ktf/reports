@@ -72,8 +72,6 @@
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - EventVisualisation
-	- [\#11997](https://github.com/AliceO2Group/AliceO2/pull/11997) 2023-10-04: o2-eve: HMPID display, fix in display configuration file read by [@jmyrcha](https://github.com/jmyrcha)
 ## Recent developments in O2 - Framework
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
