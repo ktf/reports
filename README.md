@@ -63,6 +63,7 @@
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
 	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 	- [\#12099](https://github.com/AliceO2Group/AliceO2/pull/12099) 2023-10-19: TPC: Using PropagateToXBxByBz for residual gain map extraction by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12102](https://github.com/AliceO2Group/AliceO2/pull/12102) 2023-10-19: Remove obsolete TRD compressor files by [@martenole](https://github.com/martenole)
 	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
@@ -83,6 +84,7 @@
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12096](https://github.com/AliceO2Group/AliceO2/pull/12096) 2023-10-18: Fixes for end of stream in input / output proxies by [@davidrohr](https://github.com/davidrohr)
 	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
+	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12106](https://github.com/AliceO2Group/AliceO2/pull/12106) 2023-10-19: DPL: Fix new run detection in input proxy by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
@@ -90,3 +92,4 @@
 	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
+	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
