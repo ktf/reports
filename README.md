@@ -23,7 +23,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12018](https://github.com/AliceO2Group/AliceO2/pull/12018) 2023-10-05: fine tuning TOF calib with FT0 by [@noferini](https://github.com/noferini)
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
@@ -67,7 +66,6 @@
 	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12104](https://github.com/AliceO2Group/AliceO2/pull/12104) 2023-10-19: Port the same fix we have in the Run3 code by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12016](https://github.com/AliceO2Group/AliceO2/pull/12016) 2023-10-04: DPL: drop ReadoutAdapter by [@ktf](https://github.com/ktf)
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
@@ -88,7 +86,6 @@
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
-	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
