@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
 	- [\#12007](https://github.com/AliceO2Group/AliceO2/pull/12007) 2023-10-03: Fix macro tests when using boost 1.82 / 1.83 by [@ktf](https://github.com/ktf)
 	- [\#12011](https://github.com/AliceO2Group/AliceO2/pull/12011) 2023-10-04: [rANS] Improve Robustness by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -19,6 +21,7 @@
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
+	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
@@ -54,6 +57,7 @@
 	- [\#12040](https://github.com/AliceO2Group/AliceO2/pull/12040) 2023-10-07: add flag to tof compressor to skip large payloads by [@noferini](https://github.com/noferini)
 	- [\#12041](https://github.com/AliceO2Group/AliceO2/pull/12041) 2023-10-07: Fix condition to trigger FATAL in ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12042](https://github.com/AliceO2Group/AliceO2/pull/12042) 2023-10-08: Make sure the ROF IR is decoded, otherwise abort link data by [@shahor02](https://github.com/shahor02)
+	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12045](https://github.com/AliceO2Group/AliceO2/pull/12045) 2023-10-09: ITS Adapos: added a wait time of 30s between consecutive pushes to ccdb by [@iravasen](https://github.com/iravasen)
 	- [\#12046](https://github.com/AliceO2Group/AliceO2/pull/12046) 2023-10-10: Reduce peak memory usage of TrackerTraits::findTracks by [@ktf](https://github.com/ktf)
 	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
@@ -80,6 +84,7 @@
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
+	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12053](https://github.com/AliceO2Group/AliceO2/pull/12053) 2023-10-13: Add support for containers by [@ktf](https://github.com/ktf)
 	- [\#12054](https://github.com/AliceO2Group/AliceO2/pull/12054) 2023-10-11: DPL: If in OnlineMode, input proxies should only send EoS if they receive it by [@davidrohr](https://github.com/davidrohr)
