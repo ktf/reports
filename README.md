@@ -26,7 +26,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
 	- [\#12009](https://github.com/AliceO2Group/AliceO2/pull/12009) 2023-10-10: MatLUT: Option for fast layer lookup by [@sawenzel](https://github.com/sawenzel)
 	- [\#12010](https://github.com/AliceO2Group/AliceO2/pull/12010) 2023-10-04: [EMCAL-1048] Treat faulty memory size reported by RDH by [@mfasDa](https://github.com/mfasDa)
