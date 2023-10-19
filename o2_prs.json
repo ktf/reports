@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-04T08:04:02Z",
-            "title": "Decrease max error count, err->warn for *Wrong order/duplication*",
-            "number": 12012,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-04T10:57:23Z",
             "title": "MID: Downscale InfoLogger errors temporarily",
             "number": 12013,
@@ -3681,6 +3661,36 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Debug streamer: Add downsampling by tsalis",
+            "number": 12112,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/DebugStreamer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/DebugStreamer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
                   }
                 }
               ]

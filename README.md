@@ -23,7 +23,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12012](https://github.com/AliceO2Group/AliceO2/pull/12012) 2023-10-04: Decrease max error count, err->warn for *Wrong order/duplication* by [@shahor02](https://github.com/shahor02)
 	- [\#12013](https://github.com/AliceO2Group/AliceO2/pull/12013) 2023-10-04: MID: Downscale InfoLogger errors temporarily by [@davidrohr](https://github.com/davidrohr)
 	- [\#12015](https://github.com/AliceO2Group/AliceO2/pull/12015) 2023-10-09: Rewind input proxy by [@ktf](https://github.com/ktf)
 	- [\#12018](https://github.com/AliceO2Group/AliceO2/pull/12018) 2023-10-05: fine tuning TOF calib with FT0 by [@noferini](https://github.com/noferini)
