@@ -26,7 +26,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12003](https://github.com/AliceO2Group/AliceO2/pull/12003) 2023-10-05: [SVertexer] Sort tracks by their decayRef when nthreads>1 by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
