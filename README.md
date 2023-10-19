@@ -26,7 +26,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12004](https://github.com/AliceO2Group/AliceO2/pull/12004) 2023-10-03: check fill scheme to clean FT0 BC in TOF calibs by [@noferini](https://github.com/noferini)
 	- [\#12005](https://github.com/AliceO2Group/AliceO2/pull/12005) 2023-10-04: TRD PH calib send dummy message even if STOP requested by [@martenole](https://github.com/martenole)
 	- [\#12006](https://github.com/AliceO2Group/AliceO2/pull/12006) 2023-10-04: Fix deprecation warning by [@ktf](https://github.com/ktf)
 	- [\#12009](https://github.com/AliceO2Group/AliceO2/pull/12009) 2023-10-10: MatLUT: Option for fast layer lookup by [@sawenzel](https://github.com/sawenzel)
@@ -72,7 +71,9 @@
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
 	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
+	- [\#12099](https://github.com/AliceO2Group/AliceO2/pull/12099) 2023-10-19: TPC: Using PropagateToXBxByBz for residual gain map extraction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12102](https://github.com/AliceO2Group/AliceO2/pull/12102) 2023-10-19: Remove obsolete TRD compressor files by [@martenole](https://github.com/martenole)
+	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Framework
 	- [\#12008](https://github.com/AliceO2Group/AliceO2/pull/12008) 2023-10-04: DPL: improve message for missing data by [@ktf](https://github.com/ktf)
 	- [\#12014](https://github.com/AliceO2Group/AliceO2/pull/12014) 2023-10-06: DPL: change ExpirationHandler::Creator to use services by [@ktf](https://github.com/ktf)
