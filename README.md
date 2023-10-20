@@ -57,6 +57,7 @@
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
+	- [\#12089](https://github.com/AliceO2Group/AliceO2/pull/12089) 2023-10-20: ITS tracker: Reserve output buffers by [@mconcas](https://github.com/mconcas)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
 	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
@@ -65,6 +66,8 @@
 	- [\#12102](https://github.com/AliceO2Group/AliceO2/pull/12102) 2023-10-19: Remove obsolete TRD compressor files by [@martenole](https://github.com/martenole)
 	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12104](https://github.com/AliceO2Group/AliceO2/pull/12104) 2023-10-19: Port the same fix we have in the Run3 code by [@ktf](https://github.com/ktf)
+	- [\#12108](https://github.com/AliceO2Group/AliceO2/pull/12108) 2023-10-20: Adding also detector list by [@chiarazampolli](https://github.com/chiarazampolli)
+	- [\#12110](https://github.com/AliceO2Group/AliceO2/pull/12110) 2023-10-20: ITS: process hits from different MEBs + bug fix for scurve dump by [@iravasen](https://github.com/iravasen)
 	- [\#12113](https://github.com/AliceO2Group/AliceO2/pull/12113) 2023-10-20: TRD Kr cluster writing to EOS by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
