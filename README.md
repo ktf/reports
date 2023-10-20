@@ -11,6 +11,7 @@
 	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12095](https://github.com/AliceO2Group/AliceO2/pull/12095) 2023-10-19: Add protection for passing a root file as a list of files by [@ktf](https://github.com/ktf)
+	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -67,6 +68,7 @@
 	- [\#12107](https://github.com/AliceO2Group/AliceO2/pull/12107) 2023-10-20: TOF: fetching GRPECS for correct number of orbits per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12108](https://github.com/AliceO2Group/AliceO2/pull/12108) 2023-10-20: Adding also detector list by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12110](https://github.com/AliceO2Group/AliceO2/pull/12110) 2023-10-20: ITS: process hits from different MEBs + bug fix for scurve dump by [@iravasen](https://github.com/iravasen)
+	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12113](https://github.com/AliceO2Group/AliceO2/pull/12113) 2023-10-20: TRD Kr cluster writing to EOS by [@martenole](https://github.com/martenole)
 	- [\#12116](https://github.com/AliceO2Group/AliceO2/pull/12116) 2023-10-20: RawFileReader: Fix triggering CCDB message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Examples
