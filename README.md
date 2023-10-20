@@ -21,6 +21,7 @@
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
+	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#12022](https://github.com/AliceO2Group/AliceO2/pull/12022) 2023-10-05: Dont send CCDB if not calculated by [@peressounko](https://github.com/peressounko)
 	- [\#12024](https://github.com/AliceO2Group/AliceO2/pull/12024) 2023-10-06:  [EMCAL-1048] Consistent check fo RCU trailer and channel header integrity by [@mfasDa](https://github.com/mfasDa)
