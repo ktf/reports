@@ -11,6 +11,7 @@
 	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12095](https://github.com/AliceO2Group/AliceO2/pull/12095) 2023-10-19: Add protection for passing a root file as a list of files by [@ktf](https://github.com/ktf)
+	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
@@ -89,6 +90,7 @@
 	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12106](https://github.com/AliceO2Group/AliceO2/pull/12106) 2023-10-19: DPL: Fix new run detection in input proxy by [@davidrohr](https://github.com/davidrohr)
+	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
