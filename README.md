@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
-	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12033](https://github.com/AliceO2Group/AliceO2/pull/12033) 2023-10-10: Flag if propation has failed in DCAFitterN by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12036](https://github.com/AliceO2Group/AliceO2/pull/12036) 2023-10-07: Store TFIDInfo TTree together with the vector by [@shahor02](https://github.com/shahor02)
@@ -13,7 +12,6 @@
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12095](https://github.com/AliceO2Group/AliceO2/pull/12095) 2023-10-19: Add protection for passing a root file as a list of files by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
@@ -23,7 +21,6 @@
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12022](https://github.com/AliceO2Group/AliceO2/pull/12022) 2023-10-05: Dont send CCDB if not calculated by [@peressounko](https://github.com/peressounko)
 	- [\#12024](https://github.com/AliceO2Group/AliceO2/pull/12024) 2023-10-06:  [EMCAL-1048] Consistent check fo RCU trailer and channel header integrity by [@mfasDa](https://github.com/mfasDa)
 	- [\#12025](https://github.com/AliceO2Group/AliceO2/pull/12025) 2023-10-13: Macro to query or upload MID CCDB objects by [@dstocco](https://github.com/dstocco)
@@ -95,6 +92,5 @@
 ## Recent developments in O2 - Steer
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
-	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
