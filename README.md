@@ -66,7 +66,6 @@
 	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12104](https://github.com/AliceO2Group/AliceO2/pull/12104) 2023-10-19: Port the same fix we have in the Run3 code by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-	- [\#12016](https://github.com/AliceO2Group/AliceO2/pull/12016) 2023-10-04: DPL: drop ReadoutAdapter by [@ktf](https://github.com/ktf)
 	- [\#12017](https://github.com/AliceO2Group/AliceO2/pull/12017) 2023-10-04: DPL: Fix typo, should be != by [@davidrohr](https://github.com/davidrohr)
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
