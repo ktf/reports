@@ -52,6 +52,7 @@
 	- [\#12060](https://github.com/AliceO2Group/AliceO2/pull/12060) 2023-10-20: CPV,PHS: modernize cell, digit and cluster readers by [@sevdokim](https://github.com/sevdokim)
 	- [\#12061](https://github.com/AliceO2Group/AliceO2/pull/12061) 2023-10-20: TPC: Add EOV functionality by [@wiechula](https://github.com/wiechula)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
+	- [\#12068](https://github.com/AliceO2Group/AliceO2/pull/12068) 2023-10-20: TPC IDC: Adding check for default GPECS object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12072](https://github.com/AliceO2Group/AliceO2/pull/12072) 2023-10-17: Integrated currents: Adding check if any data has been received by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12073](https://github.com/AliceO2Group/AliceO2/pull/12073) 2023-10-16: Optimize ITS/TPC mathing memory usage by [@shahor02](https://github.com/shahor02)
