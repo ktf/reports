@@ -15,6 +15,7 @@
 ## Recent developments in O2 - DataFormats
 	- [\#12019](https://github.com/AliceO2Group/AliceO2/pull/12019) 2023-10-04: Fill N neares neighbours in T and Z for vtx study. by [@shahor02](https://github.com/shahor02)
 	- [\#12021](https://github.com/AliceO2Group/AliceO2/pull/12021) 2023-10-04: Revert "[rANS] Improve Robustness" by [@shahor02](https://github.com/shahor02)
+	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
@@ -74,6 +75,8 @@
 	- [\#12110](https://github.com/AliceO2Group/AliceO2/pull/12110) 2023-10-20: ITS: process hits from different MEBs + bug fix for scurve dump by [@iravasen](https://github.com/iravasen)
 	- [\#12113](https://github.com/AliceO2Group/AliceO2/pull/12113) 2023-10-20: TRD Kr cluster writing to EOS by [@martenole](https://github.com/martenole)
 	- [\#12116](https://github.com/AliceO2Group/AliceO2/pull/12116) 2023-10-20: RawFileReader: Fix triggering CCDB message by [@davidrohr](https://github.com/davidrohr)
+## Recent developments in O2 - Examples
+	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
 	- [\#12020](https://github.com/AliceO2Group/AliceO2/pull/12020) 2023-10-05: DPL: protect against multiple additions of 0xccdb queries by [@ktf](https://github.com/ktf)
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
@@ -91,6 +94,7 @@
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12106](https://github.com/AliceO2Group/AliceO2/pull/12106) 2023-10-19: DPL: Fix new run detection in input proxy by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
+	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Steer
