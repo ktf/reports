@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-20T18:34:33Z",
-            "title": "MatLUT: faster phi-sector determination; reduction of divisions",
-            "number": 12030,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/Ray.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/MatLayerCylSet.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-06T12:53:46Z",
             "title": "Add tracks time to trackStudy output",
             "number": 12031,
@@ -3331,6 +3306,31 @@
                 {
                   "node": {
                     "path": "Detectors/Base/src/MatLayerCylSet.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU Standalone multi-threading: fix a bug where gpu-reconstruction could segfault at shutdown",
+            "number": 12130,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowInternal.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowPipeline.cxx"
                   }
                 }
               ]
