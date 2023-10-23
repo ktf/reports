@@ -66,6 +66,7 @@
 	- [\#12113](https://github.com/AliceO2Group/AliceO2/pull/12113) 2023-10-20: TRD Kr cluster writing to EOS by [@martenole](https://github.com/martenole)
 	- [\#12116](https://github.com/AliceO2Group/AliceO2/pull/12116) 2023-10-20: RawFileReader: Fix triggering CCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12121](https://github.com/AliceO2Group/AliceO2/pull/12121) 2023-10-22: Flatten cell neighbours structure by [@mpuccio](https://github.com/mpuccio)
+	- [\#12123](https://github.com/AliceO2Group/AliceO2/pull/12123) 2023-10-23: Ctprecofix by [@lietava](https://github.com/lietava)
 	- [\#12124](https://github.com/AliceO2Group/AliceO2/pull/12124) 2023-10-22: Protect MatLut against dZ=0 by [@shahor02](https://github.com/shahor02)
 	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
