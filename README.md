@@ -24,7 +24,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12027](https://github.com/AliceO2Group/AliceO2/pull/12027) 2023-10-05: uniform disable-strangeness-tracker opt., enable str.tracker by default by [@shahor02](https://github.com/shahor02)
 	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 	- [\#12030](https://github.com/AliceO2Group/AliceO2/pull/12030) 2023-10-20: MatLUT: faster phi-sector determination; reduction of divisions by [@sawenzel](https://github.com/sawenzel)
