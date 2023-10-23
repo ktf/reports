@@ -69,6 +69,7 @@
 	- [\#12116](https://github.com/AliceO2Group/AliceO2/pull/12116) 2023-10-20: RawFileReader: Fix triggering CCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12121](https://github.com/AliceO2Group/AliceO2/pull/12121) 2023-10-22: Flatten cell neighbours structure by [@mpuccio](https://github.com/mpuccio)
 	- [\#12124](https://github.com/AliceO2Group/AliceO2/pull/12124) 2023-10-22: Protect MatLut against dZ=0 by [@shahor02](https://github.com/shahor02)
+	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Examples
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
