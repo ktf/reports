@@ -24,7 +24,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 	- [\#12030](https://github.com/AliceO2Group/AliceO2/pull/12030) 2023-10-20: MatLUT: faster phi-sector determination; reduction of divisions by [@sawenzel](https://github.com/sawenzel)
 	- [\#12031](https://github.com/AliceO2Group/AliceO2/pull/12031) 2023-10-06: Add tracks time to trackStudy output by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
@@ -70,6 +69,7 @@
 	- [\#12121](https://github.com/AliceO2Group/AliceO2/pull/12121) 2023-10-22: Flatten cell neighbours structure by [@mpuccio](https://github.com/mpuccio)
 	- [\#12124](https://github.com/AliceO2Group/AliceO2/pull/12124) 2023-10-22: Protect MatLut against dZ=0 by [@shahor02](https://github.com/shahor02)
 	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
+	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
@@ -91,8 +91,6 @@
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
-## Recent developments in O2 - Steer
-	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
