@@ -24,7 +24,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
 	- [\#12029](https://github.com/AliceO2Group/AliceO2/pull/12029) 2023-10-06: [EMCAL-791] Require CCDB access for EMCAL by default by [@mfasDa](https://github.com/mfasDa)
 	- [\#12030](https://github.com/AliceO2Group/AliceO2/pull/12030) 2023-10-20: MatLUT: faster phi-sector determination; reduction of divisions by [@sawenzel](https://github.com/sawenzel)
 	- [\#12031](https://github.com/AliceO2Group/AliceO2/pull/12031) 2023-10-06: Add tracks time to trackStudy output by [@shahor02](https://github.com/shahor02)
@@ -73,7 +72,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12032](https://github.com/AliceO2Group/AliceO2/pull/12032) 2023-10-20: Upgrades for Generators by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12028](https://github.com/AliceO2Group/AliceO2/pull/12028) 2023-10-06: DPL: Add option to raw-proxy to print input sizes per spec by [@davidrohr](https://github.com/davidrohr)
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12053](https://github.com/AliceO2Group/AliceO2/pull/12053) 2023-10-13: Add support for containers by [@ktf](https://github.com/ktf)
