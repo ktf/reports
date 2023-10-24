@@ -68,6 +68,7 @@
 	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
 	- [\#12132](https://github.com/AliceO2Group/AliceO2/pull/12132) 2023-10-24: Improve ITS/TPC afterburner memory management by [@shahor02](https://github.com/shahor02)
+	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Framework
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
