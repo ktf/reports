@@ -12,7 +12,6 @@
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - DataFormats
-	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
@@ -20,7 +19,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12040](https://github.com/AliceO2Group/AliceO2/pull/12040) 2023-10-07: add flag to tof compressor to skip large payloads by [@noferini](https://github.com/noferini)
 	- [\#12041](https://github.com/AliceO2Group/AliceO2/pull/12041) 2023-10-07: Fix condition to trigger FATAL in ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12042](https://github.com/AliceO2Group/AliceO2/pull/12042) 2023-10-08: Make sure the ROF IR is decoded, otherwise abort link data by [@shahor02](https://github.com/shahor02)

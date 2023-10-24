@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-10-07T15:46:08Z",
-            "title": "TRD raw reader update",
-            "number": 12037,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/HelperMethods.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/include/TRDReconstruction/CruRawReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/reconstruction/src/CruRawReader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "AOD to HepMC tool",
-            "number": 12038,
-            "author": {
-              "login": "cholmcc"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/AODToHepMC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/AODToHepMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/o2aod_mc_to_hepmc.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "WIP: Refactor MC part of AOD producers",
@@ -3151,6 +3081,46 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Add optional Free SHM report",
+            "number": 12137,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/RateLimiter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "dpl-workflow.sh: add more pipeline settings to async workflow",
+            "number": 12138,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
                   }
                 }
               ]
