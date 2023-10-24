@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
-	- [\#12033](https://github.com/AliceO2Group/AliceO2/pull/12033) 2023-10-10: Flag if propation has failed in DCAFitterN by [@shahor02](https://github.com/shahor02)
 	- [\#12035](https://github.com/AliceO2Group/AliceO2/pull/12035) 2023-10-07: [rANS] Improve Robustness  by [@MichaelLettrich](https://github.com/MichaelLettrich)
 	- [\#12036](https://github.com/AliceO2Group/AliceO2/pull/12036) 2023-10-07: Store TFIDInfo TTree together with the vector by [@shahor02](https://github.com/shahor02)
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
