@@ -5,151 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-07T01:44:23Z",
-            "title": "[rANS] Improve Robustness ",
-            "number": 12035,
-            "author": {
-              "login": "MichaelLettrich"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/EncodedBlocks.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/internal/ExternalEntropyCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/internal/InplaceEntropyCoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/Common/test/testCTFEntropyCoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/benchmarks/bench_ransHistogram.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/containers/DenseHistogram.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/containers/ReverseSymbolLookupTable.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/containers/Symbol.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/encode/Encoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/encode/EncoderSymbolMapper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/encode/SingleStreamEncoderImpl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/pack/DictionaryStreamReader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/transform/algorithmImpl.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/include/rANS/internal/transform/renorm.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/run/bin-encode-decode.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransHistograms.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransMetrics.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransPack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransSIMDEncoderKernels.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransSparseVector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Utilities/rANS/test/test_ransSymbolTables.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-10-07T01:45:07Z",
-            "title": "Store TFIDInfo TTree together with the vector",
-            "number": 12036,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/src/TreeStreamRedirector.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/src/tfidinfo-writer-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-07T15:46:08Z",
             "title": "TRD raw reader update",
             "number": 12037,
@@ -3251,6 +3106,51 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TRD kr fix file writing multiple times",
+            "number": 12135,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/io/include/TRDWorkflowIO/KrClusterWriterSpec.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "svertexer: adaptive mass windows",
+            "number": 12136,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexHypothesis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
                   }
                 }
               ]
