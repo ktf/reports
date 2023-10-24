@@ -10,6 +10,7 @@
 	- [\#12095](https://github.com/AliceO2Group/AliceO2/pull/12095) 2023-10-19: Add protection for passing a root file as a list of files by [@ktf](https://github.com/ktf)
 	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - DataFormats
 	- [\#12037](https://github.com/AliceO2Group/AliceO2/pull/12037) 2023-10-07: TRD raw reader update by [@martenole](https://github.com/martenole)
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
@@ -64,6 +65,7 @@
 	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
 	- [\#12132](https://github.com/AliceO2Group/AliceO2/pull/12132) 2023-10-24: Improve ITS/TPC afterburner memory management by [@shahor02](https://github.com/shahor02)
 	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
+	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
