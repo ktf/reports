@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-07T14:11:48Z",
-            "title": "add flag to tof compressor to skip large payloads",
-            "number": 12040,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/CompressorTask.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/CompressorTaskOld.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTaskOld.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-07T20:06:17Z",
             "title": "Fix condition to trigger FATAL in ITSTPC matching QC",
             "number": 12041,
@@ -2916,6 +2876,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/RateLimiter.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix o2sim_kine_publisher",
+            "number": 12140,
+            "author": {
+              "login": "DanielSamitz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
                   }
                 }
               ]

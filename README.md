@@ -19,7 +19,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12040](https://github.com/AliceO2Group/AliceO2/pull/12040) 2023-10-07: add flag to tof compressor to skip large payloads by [@noferini](https://github.com/noferini)
 	- [\#12041](https://github.com/AliceO2Group/AliceO2/pull/12041) 2023-10-07: Fix condition to trigger FATAL in ITSTPC matching QC by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12042](https://github.com/AliceO2Group/AliceO2/pull/12042) 2023-10-08: Make sure the ROF IR is decoded, otherwise abort link data by [@shahor02](https://github.com/shahor02)
 	- [\#12044](https://github.com/AliceO2Group/AliceO2/pull/12044) 2023-10-19: Adding cluster size to track extra by [@fmazzasc](https://github.com/fmazzasc)
