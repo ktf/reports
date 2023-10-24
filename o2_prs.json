@@ -4,36 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TPC PID response: New momentum intervals for e-K and e-p crossing bands and overriding electrons in e-d and e-t crossing bands added",
-            "number": 12034,
-            "author": {
-              "login": "tubagundem"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-10-07T01:44:23Z",
             "title": "[rANS] Improve Robustness ",
@@ -3231,6 +3201,56 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/ITS/tracking/src/TrackerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move Tsalis function to MathUtils",
+            "number": 12134,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Tsalis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/src/MathUtilsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/src/Tsalis.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/DebugStreamer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/DebugStreamer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
                   }
                 }
               ]
