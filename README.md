@@ -16,7 +16,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12045](https://github.com/AliceO2Group/AliceO2/pull/12045) 2023-10-09: ITS Adapos: added a wait time of 30s between consecutive pushes to ccdb by [@iravasen](https://github.com/iravasen)
 	- [\#12046](https://github.com/AliceO2Group/AliceO2/pull/12046) 2023-10-10: Reduce peak memory usage of TrackerTraits::findTracks by [@ktf](https://github.com/ktf)
 	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
@@ -61,6 +60,8 @@
 	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
 	- [\#12142](https://github.com/AliceO2Group/AliceO2/pull/12142) 2023-10-25: [EMCAL-565, EMCAL-566] Specify path for saving of calib histograms by [@jokonig](https://github.com/jokonig)
 	- [\#12144](https://github.com/AliceO2Group/AliceO2/pull/12144) 2023-10-25: TimeSlotCalibration creates output directory if needed by [@shahor02](https://github.com/shahor02)
+## Recent developments in O2 - Examples
+	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12053](https://github.com/AliceO2Group/AliceO2/pull/12053) 2023-10-13: Add support for containers by [@ktf](https://github.com/ktf)
