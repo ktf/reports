@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-07T20:06:17Z",
-            "title": "Fix condition to trigger FATAL in ITSTPC matching QC",
-            "number": 12041,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-08T19:38:09Z",
             "title": "Make sure the ROF IR is decoded, otherwise abort link data",
             "number": 12042,
@@ -2874,8 +2854,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-10-25T08:21:55Z",
             "title": "DPL: If rate limiter throttles since too little SHM available, do not…",
             "number": 12139,
             "author": {
@@ -2900,6 +2880,26 @@
             "number": 12140,
             "author": {
               "login": "DanielSamitz"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/o2sim_kine_publisher.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "O2sim: fix kine published only sending first <aggregate> events",
+            "number": 12141,
+            "author": {
+              "login": "aalkin"
             },
             "files": {
               "edges": [
