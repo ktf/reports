@@ -58,6 +58,7 @@
 	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
+	- [\#12144](https://github.com/AliceO2Group/AliceO2/pull/12144) 2023-10-25: TimeSlotCalibration creates output directory if needed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12053](https://github.com/AliceO2Group/AliceO2/pull/12053) 2023-10-13: Add support for containers by [@ktf](https://github.com/ktf)
