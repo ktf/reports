@@ -54,10 +54,12 @@
 	- [\#12124](https://github.com/AliceO2Group/AliceO2/pull/12124) 2023-10-22: Protect MatLut against dZ=0 by [@shahor02](https://github.com/shahor02)
 	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
+	- [\#12131](https://github.com/AliceO2Group/AliceO2/pull/12131) 2023-10-25: FT0: Process new trigger DP from DCS by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12132](https://github.com/AliceO2Group/AliceO2/pull/12132) 2023-10-24: Improve ITS/TPC afterburner memory management by [@shahor02](https://github.com/shahor02)
 	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
+	- [\#12142](https://github.com/AliceO2Group/AliceO2/pull/12142) 2023-10-25: [EMCAL-565, EMCAL-566] Specify path for saving of calib histograms by [@jokonig](https://github.com/jokonig)
 	- [\#12144](https://github.com/AliceO2Group/AliceO2/pull/12144) 2023-10-25: TimeSlotCalibration creates output directory if needed by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12048](https://github.com/AliceO2Group/AliceO2/pull/12048) 2023-10-10: DPL: When enumeration timeframe was rewinded, don't send a newer oldestPossible by [@davidrohr](https://github.com/davidrohr)
