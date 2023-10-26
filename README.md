@@ -55,6 +55,7 @@
 	- [\#12142](https://github.com/AliceO2Group/AliceO2/pull/12142) 2023-10-25: [EMCAL-565, EMCAL-566] Specify path for saving of calib histograms by [@jokonig](https://github.com/jokonig)
 	- [\#12144](https://github.com/AliceO2Group/AliceO2/pull/12144) 2023-10-25: TimeSlotCalibration creates output directory if needed by [@shahor02](https://github.com/shahor02)
 	- [\#12147](https://github.com/AliceO2Group/AliceO2/pull/12147) 2023-10-26: EMCAL: Do not try to write to /scratch/... file on non-EPN by default by [@davidrohr](https://github.com/davidrohr)
+	- [\#12150](https://github.com/AliceO2Group/AliceO2/pull/12150) 2023-10-26: TRD Kr writer avoid crash at EOR by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
