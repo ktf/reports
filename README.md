@@ -15,7 +15,6 @@
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12049](https://github.com/AliceO2Group/AliceO2/pull/12049) 2023-10-10: Warn about CTF/rawTF readers waiting for remote data to be copied by [@shahor02](https://github.com/shahor02)
 	- [\#12050](https://github.com/AliceO2Group/AliceO2/pull/12050) 2023-10-10: Relax type check for old dictionaries in compat mode, warn only. by [@shahor02](https://github.com/shahor02)
 	- [\#12052](https://github.com/AliceO2Group/AliceO2/pull/12052) 2023-10-10: EMCAL: Downscale raw parser error messages by [@davidrohr](https://github.com/davidrohr)
 	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
