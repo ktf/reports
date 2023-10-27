@@ -11,13 +11,11 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - DataFormats
-	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12057](https://github.com/AliceO2Group/AliceO2/pull/12057) 2023-10-12: Protection against bogus TRD PH values by [@martenole](https://github.com/martenole)
 	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12060](https://github.com/AliceO2Group/AliceO2/pull/12060) 2023-10-20: CPV,PHS: modernize cell, digit and cluster readers by [@sevdokim](https://github.com/sevdokim)
 	- [\#12061](https://github.com/AliceO2Group/AliceO2/pull/12061) 2023-10-20: TPC: Add EOV functionality by [@wiechula](https://github.com/wiechula)
