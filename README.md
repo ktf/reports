@@ -16,7 +16,6 @@
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12060](https://github.com/AliceO2Group/AliceO2/pull/12060) 2023-10-20: CPV,PHS: modernize cell, digit and cluster readers by [@sevdokim](https://github.com/sevdokim)
 	- [\#12061](https://github.com/AliceO2Group/AliceO2/pull/12061) 2023-10-20: TPC: Add EOV functionality by [@wiechula](https://github.com/wiechula)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
 	- [\#12068](https://github.com/AliceO2Group/AliceO2/pull/12068) 2023-10-20: TPC IDC: Adding check for default GPECS object by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -60,6 +59,7 @@
 	- [\#12148](https://github.com/AliceO2Group/AliceO2/pull/12148) 2023-10-26: [EMCAL-548] Load reco params from CCDB in digits to cell reconstruction by [@mfasDa](https://github.com/mfasDa)
 	- [\#12150](https://github.com/AliceO2Group/AliceO2/pull/12150) 2023-10-26: TRD Kr writer avoid crash at EOR by [@martenole](https://github.com/martenole)
 	- [\#12152](https://github.com/AliceO2Group/AliceO2/pull/12152) 2023-10-26: [EMCAL-742] Fix order of arguments in offline calib exporter by [@jokonig](https://github.com/jokonig)
+	- [\#12153](https://github.com/AliceO2Group/AliceO2/pull/12153) 2023-10-27: Update Geant4 config - skipUnknownParticles by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework

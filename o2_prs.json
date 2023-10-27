@@ -5,111 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-20T09:44:51Z",
-            "title": "CPV,PHS: modernize cell, digit and cluster readers",
-            "number": 12060,
-            "author": {
-              "login": "sevdokim"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/ClusterReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/include/CPVWorkflow/DigitReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/ClusterReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/cluster-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CPV/workflow/src/digit-reader-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/helpers/src/InputHelper.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/testsimulation/plot_dig_phos.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/CellReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/include/PHOSWorkflow/DigitReaderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/CellConverterSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/CellReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/ClusterizerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/PHOS/workflow/src/RecoWorkflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-20T09:50:03Z",
             "title": "TPC: Add EOV functionality",
             "number": 12061,
@@ -2674,8 +2569,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-10-27T13:04:50Z",
             "title": "Update Geant4 config - skipUnknownParticles",
             "number": 12153,
             "author": {
@@ -2734,8 +2629,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-10-27T13:06:36Z",
             "title": "Ignore checking for FairMQ version",
             "number": 12156,
             "author": {
@@ -2826,6 +2721,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix deprecation error / warning",
+            "number": 12160,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/cpulimit.c"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Tools/cpulimit/memrchr.c"
                   }
                 }
               ]
