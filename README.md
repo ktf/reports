@@ -75,6 +75,7 @@
 	- [\#12137](https://github.com/AliceO2Group/AliceO2/pull/12137) 2023-10-25: DPL: Add optional Free SHM report by [@davidrohr](https://github.com/davidrohr)
 	- [\#12139](https://github.com/AliceO2Group/AliceO2/pull/12139) 2023-10-25: DPL: If rate limiter throttles since too little SHM available, do not… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12145](https://github.com/AliceO2Group/AliceO2/pull/12145) 2023-10-26: DPL: More detailed message about FPE + avoid div by zero by [@sawenzel](https://github.com/sawenzel)
+	- [\#12159](https://github.com/AliceO2Group/AliceO2/pull/12159) 2023-10-27: DPL: propaedeutic for better GUI shutdown by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
