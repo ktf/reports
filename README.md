@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Analysis
+	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Common
 	- [\#12080](https://github.com/AliceO2Group/AliceO2/pull/12080) 2023-10-15: Debug streamer: add sampling by weight by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
@@ -28,6 +30,7 @@
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
+	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12089](https://github.com/AliceO2Group/AliceO2/pull/12089) 2023-10-20: ITS tracker: Reserve output buffers by [@mconcas](https://github.com/mconcas)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
@@ -66,6 +69,7 @@
 	- [\#12056](https://github.com/AliceO2Group/AliceO2/pull/12056) 2023-10-13: DPL Analysis: correctly account for extended table version with aod-spawner by [@aalkin](https://github.com/aalkin)
 	- [\#12082](https://github.com/AliceO2Group/AliceO2/pull/12082) 2023-10-16: DPL: If we receive only the EoS for that run, we need to add to the c… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12083](https://github.com/AliceO2Group/AliceO2/pull/12083) 2023-10-17: DPL: test matcher behaviour by [@ktf](https://github.com/ktf)
+	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12088](https://github.com/AliceO2Group/AliceO2/pull/12088) 2023-10-17: DPL Analysis: make sure slice index with start==end is tested by [@aalkin](https://github.com/aalkin)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12096](https://github.com/AliceO2Group/AliceO2/pull/12096) 2023-10-18: Fixes for end of stream in input / output proxies by [@davidrohr](https://github.com/davidrohr)
