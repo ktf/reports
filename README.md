@@ -10,6 +10,7 @@
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
+	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
@@ -76,6 +77,7 @@
 	- [\#12137](https://github.com/AliceO2Group/AliceO2/pull/12137) 2023-10-25: DPL: Add optional Free SHM report by [@davidrohr](https://github.com/davidrohr)
 	- [\#12139](https://github.com/AliceO2Group/AliceO2/pull/12139) 2023-10-25: DPL: If rate limiter throttles since too little SHM available, do not… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12145](https://github.com/AliceO2Group/AliceO2/pull/12145) 2023-10-26: DPL: More detailed message about FPE + avoid div by zero by [@sawenzel](https://github.com/sawenzel)
+	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 	- [\#12159](https://github.com/AliceO2Group/AliceO2/pull/12159) 2023-10-27: DPL: propaedeutic for better GUI shutdown by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
