@@ -66,7 +66,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12056](https://github.com/AliceO2Group/AliceO2/pull/12056) 2023-10-13: DPL Analysis: correctly account for extended table version with aod-spawner by [@aalkin](https://github.com/aalkin)
 	- [\#12082](https://github.com/AliceO2Group/AliceO2/pull/12082) 2023-10-16: DPL: If we receive only the EoS for that run, we need to add to the c… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12083](https://github.com/AliceO2Group/AliceO2/pull/12083) 2023-10-17: DPL: test matcher behaviour by [@ktf](https://github.com/ktf)
 	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
