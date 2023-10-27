@@ -16,7 +16,6 @@
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12059](https://github.com/AliceO2Group/AliceO2/pull/12059) 2023-10-13: [MatchITSTPCQC] Skip invalid MC labels by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12060](https://github.com/AliceO2Group/AliceO2/pull/12060) 2023-10-20: CPV,PHS: modernize cell, digit and cluster readers by [@sevdokim](https://github.com/sevdokim)
 	- [\#12061](https://github.com/AliceO2Group/AliceO2/pull/12061) 2023-10-20: TPC: Add EOV functionality by [@wiechula](https://github.com/wiechula)
 	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
