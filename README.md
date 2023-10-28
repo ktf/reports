@@ -19,7 +19,6 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12067](https://github.com/AliceO2Group/AliceO2/pull/12067) 2023-10-13: Add CTP Lumi to rawTF-reader outputs by [@shahor02](https://github.com/shahor02)
 	- [\#12068](https://github.com/AliceO2Group/AliceO2/pull/12068) 2023-10-20: TPC IDC: Adding check for default GPECS object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12069](https://github.com/AliceO2Group/AliceO2/pull/12069) 2023-10-28: TRD tracklet transformer does not reed ITS frames from file by default by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
