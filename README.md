@@ -82,6 +82,7 @@
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 	- [\#12159](https://github.com/AliceO2Group/AliceO2/pull/12159) 2023-10-27: DPL: propaedeutic for better GUI shutdown by [@ktf](https://github.com/ktf)
 	- [\#12163](https://github.com/AliceO2Group/AliceO2/pull/12163) 2023-10-28: DPL: cleanup DataInputDirector by [@ktf](https://github.com/ktf)
+	- [\#12166](https://github.com/AliceO2Group/AliceO2/pull/12166) 2023-10-28: DPL: use Catch2 for ROOT tests by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12097](https://github.com/AliceO2Group/AliceO2/pull/12097) 2023-10-20: Fix typo in subGeneratorID check by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
