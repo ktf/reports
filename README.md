@@ -20,6 +20,7 @@
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
+	- [\#12071](https://github.com/AliceO2Group/AliceO2/pull/12071) 2023-10-29: TPC dEdx: Send empty output in case of sampling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12072](https://github.com/AliceO2Group/AliceO2/pull/12072) 2023-10-17: Integrated currents: Adding check if any data has been received by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12073](https://github.com/AliceO2Group/AliceO2/pull/12073) 2023-10-16: Optimize ITS/TPC mathing memory usage by [@shahor02](https://github.com/shahor02)
 	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
