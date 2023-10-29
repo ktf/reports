@@ -19,7 +19,6 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12068](https://github.com/AliceO2Group/AliceO2/pull/12068) 2023-10-20: TPC IDC: Adding check for default GPECS object by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12069](https://github.com/AliceO2Group/AliceO2/pull/12069) 2023-10-28: TRD tracklet transformer does not reed ITS frames from file by default by [@martenole](https://github.com/martenole)
 	- [\#12070](https://github.com/AliceO2Group/AliceO2/pull/12070) 2023-10-14: TRD most probably track time is trigger time by [@martenole](https://github.com/martenole)
 	- [\#12072](https://github.com/AliceO2Group/AliceO2/pull/12072) 2023-10-17: Integrated currents: Adding check if any data has been received by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -63,6 +62,7 @@
 	- [\#12152](https://github.com/AliceO2Group/AliceO2/pull/12152) 2023-10-26: [EMCAL-742] Fix order of arguments in offline calib exporter by [@jokonig](https://github.com/jokonig)
 	- [\#12153](https://github.com/AliceO2Group/AliceO2/pull/12153) 2023-10-27: Update Geant4 config - skipUnknownParticles by [@sawenzel](https://github.com/sawenzel)
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
+	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
