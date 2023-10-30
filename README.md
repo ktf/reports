@@ -13,12 +13,10 @@
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12074](https://github.com/AliceO2Group/AliceO2/pull/12074) 2023-10-16: Improve FT0 interaction tag, use for TRD pileup, fix time getters of RecoContainer by [@shahor02](https://github.com/shahor02)
 	- [\#12075](https://github.com/AliceO2Group/AliceO2/pull/12075) 2023-10-15: adding protection in tof-compressor by [@noferini](https://github.com/noferini)
 	- [\#12077](https://github.com/AliceO2Group/AliceO2/pull/12077) 2023-10-14: Please consider the following formatting changes to #12076 by [@alibuild](https://github.com/alibuild)
 	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
