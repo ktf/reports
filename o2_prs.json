@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-10-16T06:54:22Z",
-            "title": "Avoid copy of tracks",
-            "number": 12078,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/TrackerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "TRD: DCS Chamber Status logic for processing",
@@ -2555,6 +2530,16 @@
                 },
                 {
                   "node": {
+                    "path": "Detectors/Calibration/src/DetectorsCalibrationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/src/IntegratedClusterCalibrator.cxx"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Detectors/TPC/calibration/include/TPCCalibration/RobustAverage.h"
                   }
                 },
@@ -2826,6 +2811,31 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/macro/PlotPbLumi.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve homegeneous_apply_ref",
+            "number": 12178,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/StructToTuple.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/test/test_StructToTuple.cxx"
                   }
                 }
               ]

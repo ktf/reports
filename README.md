@@ -17,7 +17,6 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12078](https://github.com/AliceO2Group/AliceO2/pull/12078) 2023-10-16: Avoid copy of tracks by [@ktf](https://github.com/ktf)
 	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12089](https://github.com/AliceO2Group/AliceO2/pull/12089) 2023-10-20: ITS tracker: Reserve output buffers by [@mconcas](https://github.com/mconcas)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
