@@ -52,7 +52,9 @@
 	- [\#12152](https://github.com/AliceO2Group/AliceO2/pull/12152) 2023-10-26: [EMCAL-742] Fix order of arguments in offline calib exporter by [@jokonig](https://github.com/jokonig)
 	- [\#12153](https://github.com/AliceO2Group/AliceO2/pull/12153) 2023-10-27: Update Geant4 config - skipUnknownParticles by [@sawenzel](https://github.com/sawenzel)
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
+	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework

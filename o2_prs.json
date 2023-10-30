@@ -4,51 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "TRD: DCS Chamber Status logic for processing",
-            "number": 12079,
-            "author": {
-              "login": "leo-barreto"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/include/TRDCalibration/DCSProcessor.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/macros/makeTRDCCDBEntryForDCS.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/macros/readTRDDCSentries.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/src/DCSProcessor.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/workflow/TRDDCSDataProcessorSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/calibration/workflow/trd-dcs-sim-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-10-15T19:35:35Z",
             "title": "Debug streamer: add sampling by weight",
@@ -2274,8 +2229,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-10-30T15:43:03Z",
             "title": "Matcherfix",
             "number": 12161,
             "author": {
@@ -2619,8 +2574,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-10-30T15:41:50Z",
             "title": "Drop old TOF compressor",
             "number": 12172,
             "author": {
@@ -2836,6 +2791,26 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/test/test_StructToTuple.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: flush messages immediately when notifying state change",
+            "number": 12179,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ControlService.cxx"
                   }
                 }
               ]
