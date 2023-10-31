@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12163](https://github.com/AliceO2Group/AliceO2/pull/12163) 2023-10-28: DPL: cleanup DataInputDirector by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
@@ -16,7 +15,6 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12089](https://github.com/AliceO2Group/AliceO2/pull/12089) 2023-10-20: ITS tracker: Reserve output buffers by [@mconcas](https://github.com/mconcas)
 	- [\#12091](https://github.com/AliceO2Group/AliceO2/pull/12091) 2023-10-18: [Strangeness Tracking] Fix cascade invariant masses by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12094](https://github.com/AliceO2Group/AliceO2/pull/12094) 2023-10-18: Fix various codechecker issues by [@ktf](https://github.com/ktf)
@@ -60,7 +58,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12087](https://github.com/AliceO2Group/AliceO2/pull/12087) 2023-10-27: Set TrackExtra001 as default by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12088](https://github.com/AliceO2Group/AliceO2/pull/12088) 2023-10-17: DPL Analysis: make sure slice index with start==end is tested by [@aalkin](https://github.com/aalkin)
 	- [\#12090](https://github.com/AliceO2Group/AliceO2/pull/12090) 2023-10-18: Correct ccdb output creation by [@ktf](https://github.com/ktf)
 	- [\#12096](https://github.com/AliceO2Group/AliceO2/pull/12096) 2023-10-18: Fixes for end of stream in input / output proxies by [@davidrohr](https://github.com/davidrohr)
