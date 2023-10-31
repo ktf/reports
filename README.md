@@ -53,6 +53,7 @@
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
 	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12169](https://github.com/AliceO2Group/AliceO2/pull/12169) 2023-10-31: Time-series: adding more variables to monitor by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
