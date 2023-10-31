@@ -55,6 +55,7 @@
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
+	- [\#12185](https://github.com/AliceO2Group/AliceO2/pull/12185) 2023-10-31: Fix warning on unused result by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
