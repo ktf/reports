@@ -57,6 +57,7 @@
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12185](https://github.com/AliceO2Group/AliceO2/pull/12185) 2023-10-31: Fix warning on unused result by [@ktf](https://github.com/ktf)
 	- [\#12187](https://github.com/AliceO2Group/AliceO2/pull/12187) 2023-11-01: [EMCAL-847] Create CTP Input digit for accepted IRs by [@mfasDa](https://github.com/mfasDa)
+	- [\#12191](https://github.com/AliceO2Group/AliceO2/pull/12191) 2023-11-01: ALPIDE Decoder: BUSY ON/OFF can be issued in between any valid data words by [@freidt](https://github.com/freidt)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
