@@ -9,6 +9,7 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
+	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 	- [\#12120](https://github.com/AliceO2Group/AliceO2/pull/12120) 2023-10-20: Add methods to get beam energy in GeV, getSqrtS returns GeV/nucl.pair by [@shahor02](https://github.com/shahor02)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
@@ -49,6 +50,7 @@
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
 	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12169](https://github.com/AliceO2Group/AliceO2/pull/12169) 2023-10-31: Time-series: adding more variables to monitor by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
