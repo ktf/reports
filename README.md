@@ -15,6 +15,7 @@
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
+	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
 	- [\#12099](https://github.com/AliceO2Group/AliceO2/pull/12099) 2023-10-19: TPC: Using PropagateToXBxByBz for residual gain map extraction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
@@ -49,6 +50,7 @@
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
 	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12165](https://github.com/AliceO2Group/AliceO2/pull/12165) 2023-11-02: Adding conversion from Fwdtrack to MCH coordinate systems by [@mcoquet642](https://github.com/mcoquet642)
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12169](https://github.com/AliceO2Group/AliceO2/pull/12169) 2023-10-31: Time-series: adding more variables to monitor by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
@@ -59,6 +61,8 @@
 	- [\#12187](https://github.com/AliceO2Group/AliceO2/pull/12187) 2023-11-01: [EMCAL-847] Create CTP Input digit for accepted IRs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12191](https://github.com/AliceO2Group/AliceO2/pull/12191) 2023-11-01: ALPIDE Decoder: BUSY ON/OFF can be issued in between any valid data words by [@freidt](https://github.com/freidt)
 	- [\#12194](https://github.com/AliceO2Group/AliceO2/pull/12194) 2023-11-02: fix: correction of the layout specifications by [@plariono](https://github.com/plariono)
+	- [\#12195](https://github.com/AliceO2Group/AliceO2/pull/12195) 2023-11-02: AOD: Fix memory access problem by [@sawenzel](https://github.com/sawenzel)
+	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
