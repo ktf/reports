@@ -16,7 +16,6 @@
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 	- [\#12099](https://github.com/AliceO2Group/AliceO2/pull/12099) 2023-10-19: TPC: Using PropagateToXBxByBz for residual gain map extraction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12102](https://github.com/AliceO2Group/AliceO2/pull/12102) 2023-10-19: Remove obsolete TRD compressor files by [@martenole](https://github.com/martenole)
@@ -63,7 +62,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12098](https://github.com/AliceO2Group/AliceO2/pull/12098) 2023-10-18: Make sure we notify DPL about non-DPL message sending by [@ktf](https://github.com/ktf)
 	- [\#12100](https://github.com/AliceO2Group/AliceO2/pull/12100) 2023-10-19: DPL: notify DPL about out of band data being sent by input proxy by [@ktf](https://github.com/ktf)
 	- [\#12106](https://github.com/AliceO2Group/AliceO2/pull/12106) 2023-10-19: DPL: Fix new run detection in input proxy by [@davidrohr](https://github.com/davidrohr)
 	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
