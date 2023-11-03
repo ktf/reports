@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-19T11:39:36Z",
-            "title": "Using http to access CCDB",
-            "number": 12103,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/testMacros/getRunParameters.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-19T21:25:40Z",
             "title": "Port the same fix we have in the Run3 code",
             "number": 12104,
@@ -2726,6 +2706,36 @@
                 {
                   "node": {
                     "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Refit with GPU track model was missing to constrain SinPhi",
+            "number": 12203,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Debug/GPUROOTDumpCore.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.cxx"
                   }
                 }
               ]

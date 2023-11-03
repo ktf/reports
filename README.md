@@ -17,7 +17,6 @@
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12103](https://github.com/AliceO2Group/AliceO2/pull/12103) 2023-10-19: Using http to access CCDB by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12104](https://github.com/AliceO2Group/AliceO2/pull/12104) 2023-10-19: Port the same fix we have in the Run3 code by [@ktf](https://github.com/ktf)
 	- [\#12107](https://github.com/AliceO2Group/AliceO2/pull/12107) 2023-10-20: TOF: fetching GRPECS for correct number of orbits per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12108](https://github.com/AliceO2Group/AliceO2/pull/12108) 2023-10-20: Adding also detector list by [@chiarazampolli](https://github.com/chiarazampolli)
