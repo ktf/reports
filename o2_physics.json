@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-20T21:45:44Z",
-            "title": "QA MC for PID: print histosize",
-            "number": 3668,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOFMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-21T13:28:35Z",
             "title": "TOF: clean up qaPIDTOFMC.cxx",
             "number": 3669,
@@ -3651,6 +3631,51 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/TableProducer/photonconversionbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "corrects for JOINABILITY",
+            "number": 3769,
+            "author": {
+              "login": "jikim1290"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/EventPlaneHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DataModel/Qvectors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/evtPlanesTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/qVectorsCorrection.cxx"
                   }
                 }
               ]
