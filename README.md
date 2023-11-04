@@ -16,6 +16,7 @@
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
+	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
 	- [\#12107](https://github.com/AliceO2Group/AliceO2/pull/12107) 2023-10-20: TOF: fetching GRPECS for correct number of orbits per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12108](https://github.com/AliceO2Group/AliceO2/pull/12108) 2023-10-20: Adding also detector list by [@chiarazampolli](https://github.com/chiarazampolli)
@@ -58,6 +59,7 @@
 	- [\#12194](https://github.com/AliceO2Group/AliceO2/pull/12194) 2023-11-02: fix: correction of the layout specifications by [@plariono](https://github.com/plariono)
 	- [\#12195](https://github.com/AliceO2Group/AliceO2/pull/12195) 2023-11-02: AOD: Fix memory access problem by [@sawenzel](https://github.com/sawenzel)
 	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
+	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
