@@ -3,6 +3,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#12163](https://github.com/AliceO2Group/AliceO2/pull/12163) 2023-10-28: DPL: cleanup DataInputDirector by [@ktf](https://github.com/ktf)
 	- [\#12186](https://github.com/AliceO2Group/AliceO2/pull/12186) 2023-11-01: quick fix for uint32_t ITSClusterSizes in AnalysisDataModel.h by [@dsekihat](https://github.com/dsekihat)
+	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Common
 	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -78,6 +79,7 @@
 	- [\#12189](https://github.com/AliceO2Group/AliceO2/pull/12189) 2023-11-01: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12197](https://github.com/AliceO2Group/AliceO2/pull/12197) 2023-11-02: DPL Analysis: add version to the table size by [@ktf](https://github.com/ktf)
 	- [\#12200](https://github.com/AliceO2Group/AliceO2/pull/12200) 2023-11-03: DPL: only listen to SIGUSR1 when the task is alive by [@ktf](https://github.com/ktf)
+	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Generators
 	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
