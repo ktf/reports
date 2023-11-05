@@ -64,7 +64,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12106](https://github.com/AliceO2Group/AliceO2/pull/12106) 2023-10-19: DPL: Fix new run detection in input proxy by [@davidrohr](https://github.com/davidrohr)
 	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12137](https://github.com/AliceO2Group/AliceO2/pull/12137) 2023-10-25: DPL: Add optional Free SHM report by [@davidrohr](https://github.com/davidrohr)
 	- [\#12139](https://github.com/AliceO2Group/AliceO2/pull/12139) 2023-10-25: DPL: If rate limiter throttles since too little SHM available, do not… by [@davidrohr](https://github.com/davidrohr)
