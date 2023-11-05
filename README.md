@@ -19,7 +19,6 @@
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-	- [\#12107](https://github.com/AliceO2Group/AliceO2/pull/12107) 2023-10-20: TOF: fetching GRPECS for correct number of orbits per TF by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12108](https://github.com/AliceO2Group/AliceO2/pull/12108) 2023-10-20: Adding also detector list by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12110](https://github.com/AliceO2Group/AliceO2/pull/12110) 2023-10-20: ITS: process hits from different MEBs + bug fix for scurve dump by [@iravasen](https://github.com/iravasen)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -62,6 +61,7 @@
 	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
+	- [\#12207](https://github.com/AliceO2Group/AliceO2/pull/12207) 2023-11-05: Make PV dbscan deltaT<0 mult. coef to ITS ROF + other adjustments by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
