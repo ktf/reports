@@ -59,6 +59,7 @@
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12207](https://github.com/AliceO2Group/AliceO2/pull/12207) 2023-11-05: Make PV dbscan deltaT<0 mult. coef to ITS ROF + other adjustments by [@shahor02](https://github.com/shahor02)
+	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
