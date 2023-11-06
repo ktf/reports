@@ -5,7 +5,6 @@
 	- [\#12186](https://github.com/AliceO2Group/AliceO2/pull/12186) 2023-11-01: quick fix for uint32_t ITSClusterSizes in AnalysisDataModel.h by [@dsekihat](https://github.com/dsekihat)
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Common
-	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
@@ -64,7 +63,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12109](https://github.com/AliceO2Group/AliceO2/pull/12109) 2023-10-20: DPL: Fixes for sending the 0xCCDB message by [@davidrohr](https://github.com/davidrohr)
 	- [\#12137](https://github.com/AliceO2Group/AliceO2/pull/12137) 2023-10-25: DPL: Add optional Free SHM report by [@davidrohr](https://github.com/davidrohr)
 	- [\#12139](https://github.com/AliceO2Group/AliceO2/pull/12139) 2023-10-25: DPL: If rate limiter throttles since too little SHM available, do not… by [@davidrohr](https://github.com/davidrohr)
 	- [\#12145](https://github.com/AliceO2Group/AliceO2/pull/12145) 2023-10-26: DPL: More detailed message about FPE + avoid div by zero by [@sawenzel](https://github.com/sawenzel)
