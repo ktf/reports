@@ -18,7 +18,6 @@
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 ## Recent developments in O2 - Detectors
-	- [\#12110](https://github.com/AliceO2Group/AliceO2/pull/12110) 2023-10-20: ITS: process hits from different MEBs + bug fix for scurve dump by [@iravasen](https://github.com/iravasen)
 	- [\#12112](https://github.com/AliceO2Group/AliceO2/pull/12112) 2023-10-20: Debug streamer: Add downsampling by tsalis by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12113](https://github.com/AliceO2Group/AliceO2/pull/12113) 2023-10-20: TRD Kr cluster writing to EOS by [@martenole](https://github.com/martenole)
 	- [\#12116](https://github.com/AliceO2Group/AliceO2/pull/12116) 2023-10-20: RawFileReader: Fix triggering CCDB message by [@davidrohr](https://github.com/davidrohr)
