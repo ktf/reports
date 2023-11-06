@@ -77,7 +77,5 @@
 	- [\#12197](https://github.com/AliceO2Group/AliceO2/pull/12197) 2023-11-02: DPL Analysis: add version to the table size by [@ktf](https://github.com/ktf)
 	- [\#12200](https://github.com/AliceO2Group/AliceO2/pull/12200) 2023-11-03: DPL: only listen to SIGUSR1 when the task is alive by [@ktf](https://github.com/ktf)
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
-## Recent developments in O2 - Generators
-	- [\#12111](https://github.com/AliceO2Group/AliceO2/pull/12111) 2023-10-20: hooks and configuration for POWHEG by [@amorsch](https://github.com/amorsch)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
