@@ -46,6 +46,7 @@
 	- [\#12165](https://github.com/AliceO2Group/AliceO2/pull/12165) 2023-11-02: Adding conversion from Fwdtrack to MCH coordinate systems by [@mcoquet642](https://github.com/mcoquet642)
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12169](https://github.com/AliceO2Group/AliceO2/pull/12169) 2023-10-31: Time-series: adding more variables to monitor by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12171](https://github.com/AliceO2Group/AliceO2/pull/12171) 2023-11-07: Changes needed for split async reco workflow by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
