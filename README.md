@@ -60,6 +60,7 @@
 	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
+	- [\#12203](https://github.com/AliceO2Group/AliceO2/pull/12203) 2023-11-08: GPU: Refit with GPU track model was missing to constrain SinPhi by [@davidrohr](https://github.com/davidrohr)
 	- [\#12207](https://github.com/AliceO2Group/AliceO2/pull/12207) 2023-11-05: Make PV dbscan deltaT<0 mult. coef to ITS ROF + other adjustments by [@shahor02](https://github.com/shahor02)
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
