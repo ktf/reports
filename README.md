@@ -85,5 +85,7 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
+	- [\#12216](https://github.com/AliceO2Group/AliceO2/pull/12216) 2023-11-08: DPL Analysis: prevent warning by [@aalkin](https://github.com/aalkin)
+	- [\#12217](https://github.com/AliceO2Group/AliceO2/pull/12217) 2023-11-08: Support new fmt. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
