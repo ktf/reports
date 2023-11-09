@@ -60,6 +60,7 @@
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12229](https://github.com/AliceO2Group/AliceO2/pull/12229) 2023-11-09: TPC timeseries: Adding pt from ITS-TPC track to tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
