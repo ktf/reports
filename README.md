@@ -8,7 +8,6 @@
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
@@ -16,7 +15,6 @@
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
-	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
@@ -24,7 +22,6 @@
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12128](https://github.com/AliceO2Group/AliceO2/pull/12128) 2023-10-23: Revert "Protect MatLut against dZ=0" by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12129](https://github.com/AliceO2Group/AliceO2/pull/12129) 2023-10-23: Revert "MatLUT: faster phi-sector determination; reduction of divisions" by [@shahor02](https://github.com/shahor02)
 	- [\#12131](https://github.com/AliceO2Group/AliceO2/pull/12131) 2023-10-25: FT0: Process new trigger DP from DCS by [@andreasmolander](https://github.com/andreasmolander)
