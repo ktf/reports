@@ -14,12 +14,14 @@
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
+	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - DataFormats
 	- [\#12127](https://github.com/AliceO2Group/AliceO2/pull/12127) 2023-10-27: TPC interpolation take track time from vertex time by [@martenole](https://github.com/martenole)
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
+	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12123](https://github.com/AliceO2Group/AliceO2/pull/12123) 2023-10-23: Ctprecofix by [@lietava](https://github.com/lietava)
@@ -61,8 +63,10 @@
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12203](https://github.com/AliceO2Group/AliceO2/pull/12203) 2023-11-08: GPU: Refit with GPU track model was missing to constrain SinPhi by [@davidrohr](https://github.com/davidrohr)
 	- [\#12207](https://github.com/AliceO2Group/AliceO2/pull/12207) 2023-11-05: Make PV dbscan deltaT<0 mult. coef to ITS ROF + other adjustments by [@shahor02](https://github.com/shahor02)
+	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
