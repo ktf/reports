@@ -22,7 +22,6 @@
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12131](https://github.com/AliceO2Group/AliceO2/pull/12131) 2023-10-25: FT0: Process new trigger DP from DCS by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12132](https://github.com/AliceO2Group/AliceO2/pull/12132) 2023-10-24: Improve ITS/TPC afterburner memory management by [@shahor02](https://github.com/shahor02)
 	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
