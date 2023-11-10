@@ -3556,13 +3556,28 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Keep dropping data while in ready, unless a new state was requested",
+            "title": "DPL: keep dropping data while in ready, unless a new state was requested",
             "number": 12232,
             "author": {
               "login": "ktf"
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataProcessingDevice.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DeviceState.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
