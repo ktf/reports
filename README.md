@@ -9,7 +9,6 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
@@ -25,7 +24,6 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
 	- [\#12136](https://github.com/AliceO2Group/AliceO2/pull/12136) 2023-11-02: svertexer: adaptive mass windows by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12142](https://github.com/AliceO2Group/AliceO2/pull/12142) 2023-10-25: [EMCAL-565, EMCAL-566] Specify path for saving of calib histograms by [@jokonig](https://github.com/jokonig)
@@ -63,6 +61,7 @@
 	- [\#12225](https://github.com/AliceO2Group/AliceO2/pull/12225) 2023-11-10: ITS: minor fixes to enable multiRof by [@mconcas](https://github.com/mconcas)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12229](https://github.com/AliceO2Group/AliceO2/pull/12229) 2023-11-09: TPC timeseries: Adding pt from ITS-TPC track to tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12234](https://github.com/AliceO2Group/AliceO2/pull/12234) 2023-11-10: Fix wrong index in test by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
