@@ -24,7 +24,6 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12135](https://github.com/AliceO2Group/AliceO2/pull/12135) 2023-10-24: TRD kr fix file writing multiple times by [@martenole](https://github.com/martenole)
 	- [\#12136](https://github.com/AliceO2Group/AliceO2/pull/12136) 2023-11-02: svertexer: adaptive mass windows by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12142](https://github.com/AliceO2Group/AliceO2/pull/12142) 2023-10-25: [EMCAL-565, EMCAL-566] Specify path for saving of calib histograms by [@jokonig](https://github.com/jokonig)
 	- [\#12144](https://github.com/AliceO2Group/AliceO2/pull/12144) 2023-10-25: TimeSlotCalibration creates output directory if needed by [@shahor02](https://github.com/shahor02)
@@ -89,5 +88,6 @@
 	- [\#12216](https://github.com/AliceO2Group/AliceO2/pull/12216) 2023-11-08: DPL Analysis: prevent warning by [@aalkin](https://github.com/aalkin)
 	- [\#12217](https://github.com/AliceO2Group/AliceO2/pull/12217) 2023-11-08: Support new fmt. by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
+	- [\#12228](https://github.com/AliceO2Group/AliceO2/pull/12228) 2023-11-10: More race conditions for exit 128 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
