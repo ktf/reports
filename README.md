@@ -7,6 +7,7 @@
 	- [\#12186](https://github.com/AliceO2Group/AliceO2/pull/12186) 2023-11-01: quick fix for uint32_t ITSClusterSizes in AnalysisDataModel.h by [@dsekihat](https://github.com/dsekihat)
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#12134](https://github.com/AliceO2Group/AliceO2/pull/12134) 2023-10-24: Move Tsallis function to MathUtils by [@martenole](https://github.com/martenole)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
@@ -14,6 +15,7 @@
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
@@ -21,6 +23,7 @@
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12132](https://github.com/AliceO2Group/AliceO2/pull/12132) 2023-10-24: Improve ITS/TPC afterburner memory management by [@shahor02](https://github.com/shahor02)
 	- [\#12133](https://github.com/AliceO2Group/AliceO2/pull/12133) 2023-10-24: Remove debug vector by [@mpuccio](https://github.com/mpuccio)
@@ -60,7 +63,10 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12225](https://github.com/AliceO2Group/AliceO2/pull/12225) 2023-11-10: ITS: minor fixes to enable multiRof by [@mconcas](https://github.com/mconcas)
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12229](https://github.com/AliceO2Group/AliceO2/pull/12229) 2023-11-09: TPC timeseries: Adding pt from ITS-TPC track to tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
+## Recent developments in O2 - EventVisualisation
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
@@ -84,5 +90,6 @@
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
 	- [\#12216](https://github.com/AliceO2Group/AliceO2/pull/12216) 2023-11-08: DPL Analysis: prevent warning by [@aalkin](https://github.com/aalkin)
 	- [\#12217](https://github.com/AliceO2Group/AliceO2/pull/12217) 2023-11-08: Support new fmt. by [@ktf](https://github.com/ktf)
+	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
