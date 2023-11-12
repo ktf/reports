@@ -51,6 +51,7 @@
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12203](https://github.com/AliceO2Group/AliceO2/pull/12203) 2023-11-08: GPU: Refit with GPU track model was missing to constrain SinPhi by [@davidrohr](https://github.com/davidrohr)
+	- [\#12205](https://github.com/AliceO2Group/AliceO2/pull/12205) 2023-11-12: TPC: adding option to use custom scalers (IDCs) for SC correction map scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12207](https://github.com/AliceO2Group/AliceO2/pull/12207) 2023-11-05: Make PV dbscan deltaT<0 mult. coef to ITS ROF + other adjustments by [@shahor02](https://github.com/shahor02)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
