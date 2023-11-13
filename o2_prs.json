@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-25T15:56:07Z",
-            "title": "[EMCAL-565, EMCAL-566] Specify path for saving of calib histograms",
-            "number": 12142,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALCalibParams.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/calibration/include/EMCALCalibration/EMCALChannelCalibrator.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-25T18:43:14Z",
             "title": "Update MCTrackToDPL example",
             "number": 12143,
@@ -3696,6 +3671,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: complain if inputs and outputs are incompatible",
+            "number": 12242,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.h"
                   }
                 }
               ]
