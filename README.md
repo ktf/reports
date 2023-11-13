@@ -68,7 +68,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-	- [\#12145](https://github.com/AliceO2Group/AliceO2/pull/12145) 2023-10-26: DPL: More detailed message about FPE + avoid div by zero by [@sawenzel](https://github.com/sawenzel)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
 	- [\#12159](https://github.com/AliceO2Group/AliceO2/pull/12159) 2023-10-27: DPL: propaedeutic for better GUI shutdown by [@ktf](https://github.com/ktf)
 	- [\#12163](https://github.com/AliceO2Group/AliceO2/pull/12163) 2023-10-28: DPL: cleanup DataInputDirector by [@ktf](https://github.com/ktf)
