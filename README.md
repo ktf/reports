@@ -67,8 +67,6 @@
 	- [\#12237](https://github.com/AliceO2Group/AliceO2/pull/12237) 2023-11-13: Change all workflows from require-ctp-lumi to lumi-type option by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
-## Recent developments in O2 - Examples
-	- [\#12143](https://github.com/AliceO2Group/AliceO2/pull/12143) 2023-10-25: Update MCTrackToDPL example by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 	- [\#12145](https://github.com/AliceO2Group/AliceO2/pull/12145) 2023-10-26: DPL: More detailed message about FPE + avoid div by zero by [@sawenzel](https://github.com/sawenzel)
 	- [\#12158](https://github.com/AliceO2Group/AliceO2/pull/12158) 2023-10-27: DPL: dump total wall time per device by [@ktf](https://github.com/ktf)
