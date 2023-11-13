@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-25T15:15:00Z",
-            "title": "TimeSlotCalibration creates output directory if needed",
-            "number": 12144,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-26T08:15:04Z",
             "title": "DPL: More detailed message about FPE + avoid div by zero",
             "number": 12145,
@@ -3711,6 +3691,41 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/qc/src/RawDisplay.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Keep code checker happy",
+            "number": 12244,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/OCDB2CCDB.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/OCDB2CCDBTrapConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/PrintTrapConfig.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/macros/Readocdb.C"
                   }
                 }
               ]
