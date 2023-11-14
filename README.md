@@ -23,6 +23,7 @@
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
@@ -52,6 +53,7 @@
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
 	- [\#12224](https://github.com/AliceO2Group/AliceO2/pull/12224) 2023-11-13: ALICE3: Set color scheme to resemble LOI schema by [@mconcas](https://github.com/mconcas)
 	- [\#12225](https://github.com/AliceO2Group/AliceO2/pull/12225) 2023-11-10: ITS: minor fixes to enable multiRof by [@mconcas](https://github.com/mconcas)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
