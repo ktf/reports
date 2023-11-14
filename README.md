@@ -89,5 +89,6 @@
 	- [\#12238](https://github.com/AliceO2Group/AliceO2/pull/12238) 2023-11-13: DPL: fix logic in the READY state flushing by [@ktf](https://github.com/ktf)
 	- [\#12240](https://github.com/AliceO2Group/AliceO2/pull/12240) 2023-11-13: DPL: print missing data when dropping timeframes by [@ktf](https://github.com/ktf)
 	- [\#12241](https://github.com/AliceO2Group/AliceO2/pull/12241) 2023-11-13: DPL: Do not drain messages before START, this can break the FST by [@davidrohr](https://github.com/davidrohr)
+	- [\#12249](https://github.com/AliceO2Group/AliceO2/pull/12249) 2023-11-14: DPL Proxies: add --sporadic-inputs / --sporadic-outputs option to proxies by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
