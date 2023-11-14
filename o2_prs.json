@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-27T13:04:50Z",
-            "title": "Update Geant4 config - skipUnknownParticles",
-            "number": 12153,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/g4config.in"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-27T20:20:16Z",
             "title": "Fix type comparison for C++20",
             "number": 12154,
@@ -3736,6 +3716,31 @@
                 {
                   "node": {
                     "path": "Framework/Utils/test/DPLOutputTest.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PVertexer cuts on ITS-only fraction only if global tracks present",
+            "number": 12253,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/PVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/PVertexer.cxx"
                   }
                 }
               ]

@@ -25,7 +25,6 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12153](https://github.com/AliceO2Group/AliceO2/pull/12153) 2023-10-27: Update Geant4 config - skipUnknownParticles by [@sawenzel](https://github.com/sawenzel)
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
 	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
