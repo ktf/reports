@@ -25,7 +25,6 @@
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12150](https://github.com/AliceO2Group/AliceO2/pull/12150) 2023-10-26: TRD Kr writer avoid crash at EOR by [@martenole](https://github.com/martenole)
 	- [\#12152](https://github.com/AliceO2Group/AliceO2/pull/12152) 2023-10-26: [EMCAL-742] Fix order of arguments in offline calib exporter by [@jokonig](https://github.com/jokonig)
 	- [\#12153](https://github.com/AliceO2Group/AliceO2/pull/12153) 2023-10-27: Update Geant4 config - skipUnknownParticles by [@sawenzel](https://github.com/sawenzel)
 	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
