@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-26T17:27:43Z",
-            "title": "[EMCAL-742] Fix order of arguments in offline calib exporter",
-            "number": 12152,
-            "author": {
-              "login": "jokonig"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/workflow/src/emc-offline-calib-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-27T13:04:50Z",
             "title": "Update Geant4 config - skipUnknownParticles",
             "number": 12153,
@@ -3711,6 +3691,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL Utils: drop obsolete utils",
+            "number": 12252,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Utils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/DPLBroadcaster.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/DPLGatherer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/DPLMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/src/DPLRouter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Utils/test/DPLOutputTest.cxx"
                   }
                 }
               ]
