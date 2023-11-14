@@ -17,7 +17,6 @@
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12239](https://github.com/AliceO2Group/AliceO2/pull/12239) 2023-11-14: SVertexer uses lowest TPC cluster R for TPC track minR + add photon to DCAFitter test by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#12154](https://github.com/AliceO2Group/AliceO2/pull/12154) 2023-10-27: Fix type comparison for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
