@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Notify DPL about dispatched out-of-band data",
-            "number": 12155,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/src/ctp-qc-proxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-10-27T13:06:36Z",
             "title": "Ignore checking for FairMQ version",
@@ -3751,6 +3731,31 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Move GPUReconstructionHIP to hip language",
+            "number": 12255,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip"
                   }
                 }
               ]
