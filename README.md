@@ -16,6 +16,7 @@
 	- [\#12218](https://github.com/AliceO2Group/AliceO2/pull/12218) 2023-11-09: TPC time series: Fixing bug when ITS-TPC track, but no ITS tracks exist by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12239](https://github.com/AliceO2Group/AliceO2/pull/12239) 2023-11-14: SVertexer uses lowest TPC cluster R for TPC track minR + add photon to DCAFitter test by [@shahor02](https://github.com/shahor02)
+	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
@@ -90,5 +91,9 @@
 	- [\#12240](https://github.com/AliceO2Group/AliceO2/pull/12240) 2023-11-13: DPL: print missing data when dropping timeframes by [@ktf](https://github.com/ktf)
 	- [\#12241](https://github.com/AliceO2Group/AliceO2/pull/12241) 2023-11-13: DPL: Do not drain messages before START, this can break the FST by [@davidrohr](https://github.com/davidrohr)
 	- [\#12249](https://github.com/AliceO2Group/AliceO2/pull/12249) 2023-11-14: DPL Proxies: add --sporadic-inputs / --sporadic-outputs option to proxies by [@ktf](https://github.com/ktf)
+	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
+	- [\#12252](https://github.com/AliceO2Group/AliceO2/pull/12252) 2023-11-14: DPL Utils: drop obsolete utils by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Generators
+	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12160](https://github.com/AliceO2Group/AliceO2/pull/12160) 2023-10-27: Fix deprecation error / warning by [@ktf](https://github.com/ktf)
