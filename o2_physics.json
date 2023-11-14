@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-02T17:28:58Z",
-            "title": "ALICE 3: Fix rich electron selection",
-            "number": 3764,
-            "author": {
-              "login": "hscheid"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "ALICE3/Tasks/alice3-dilepton.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "add task for efficiency studies using tag and probe",
@@ -3236,6 +3216,51 @@
                 {
                   "node": {
                     "path": "dependencies/O2PhysicsCompileFlags.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add HF Tagging jet task for track counting",
+            "number": 3864,
+            "author": {
+              "login": "hanseopark"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetTagging.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jettaggerhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jettaggerhfTC.cxx"
                   }
                 }
               ]
