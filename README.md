@@ -66,7 +66,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-	- [\#12159](https://github.com/AliceO2Group/AliceO2/pull/12159) 2023-10-27: DPL: propaedeutic for better GUI shutdown by [@ktf](https://github.com/ktf)
 	- [\#12163](https://github.com/AliceO2Group/AliceO2/pull/12163) 2023-10-28: DPL: cleanup DataInputDirector by [@ktf](https://github.com/ktf)
 	- [\#12166](https://github.com/AliceO2Group/AliceO2/pull/12166) 2023-10-28: DPL: use Catch2 for ROOT tests by [@ktf](https://github.com/ktf)
 	- [\#12175](https://github.com/AliceO2Group/AliceO2/pull/12175) 2023-10-30: Avoid duplicate dependency by [@ktf](https://github.com/ktf)
