@@ -26,7 +26,6 @@
 	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12157](https://github.com/AliceO2Group/AliceO2/pull/12157) 2023-10-27: Avoid temporary objects by [@ktf](https://github.com/ktf)
 	- [\#12161](https://github.com/AliceO2Group/AliceO2/pull/12161) 2023-10-30: Matcherfix by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12165](https://github.com/AliceO2Group/AliceO2/pull/12165) 2023-11-02: Adding conversion from Fwdtrack to MCH coordinate systems by [@mcoquet642](https://github.com/mcoquet642)
@@ -94,6 +93,7 @@
 	- [\#12249](https://github.com/AliceO2Group/AliceO2/pull/12249) 2023-11-14: DPL Proxies: add --sporadic-inputs / --sporadic-outputs option to proxies by [@ktf](https://github.com/ktf)
 	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 	- [\#12252](https://github.com/AliceO2Group/AliceO2/pull/12252) 2023-11-14: DPL Utils: drop obsolete utils by [@ktf](https://github.com/ktf)
+	- [\#12257](https://github.com/AliceO2Group/AliceO2/pull/12257) 2023-11-15: DPL: fix typo in message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
