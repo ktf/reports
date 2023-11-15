@@ -64,6 +64,7 @@
 	- [\#12237](https://github.com/AliceO2Group/AliceO2/pull/12237) 2023-11-13: Change all workflows from require-ctp-lumi to lumi-type option by [@shahor02](https://github.com/shahor02)
 	- [\#12239](https://github.com/AliceO2Group/AliceO2/pull/12239) 2023-11-14: SVertexer uses lowest TPC cluster R for TPC track minR + add photon to DCAFitter test by [@shahor02](https://github.com/shahor02)
 	- [\#12243](https://github.com/AliceO2Group/AliceO2/pull/12243) 2023-11-13: TRD display use nullptr by [@martenole](https://github.com/martenole)
+	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
