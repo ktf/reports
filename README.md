@@ -88,6 +88,7 @@
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12228](https://github.com/AliceO2Group/AliceO2/pull/12228) 2023-11-10: More race conditions for exit 128 by [@ktf](https://github.com/ktf)
 	- [\#12232](https://github.com/AliceO2Group/AliceO2/pull/12232) 2023-11-11: DPL: keep dropping data while in ready, unless a new state was requested by [@ktf](https://github.com/ktf)
+	- [\#12233](https://github.com/AliceO2Group/AliceO2/pull/12233) 2023-11-16: DPL Analysis: fix another source of warning by [@aalkin](https://github.com/aalkin)
 	- [\#12238](https://github.com/AliceO2Group/AliceO2/pull/12238) 2023-11-13: DPL: fix logic in the READY state flushing by [@ktf](https://github.com/ktf)
 	- [\#12240](https://github.com/AliceO2Group/AliceO2/pull/12240) 2023-11-13: DPL: print missing data when dropping timeframes by [@ktf](https://github.com/ktf)
 	- [\#12241](https://github.com/AliceO2Group/AliceO2/pull/12241) 2023-11-13: DPL: Do not drain messages before START, this can break the FST by [@davidrohr](https://github.com/davidrohr)
