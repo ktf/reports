@@ -7,6 +7,7 @@
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
+	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
 	- [\#12215](https://github.com/AliceO2Group/AliceO2/pull/12215) 2023-11-07: Add writing DYN tables by [@nzardosh](https://github.com/nzardosh)
@@ -91,5 +92,6 @@
 	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 	- [\#12252](https://github.com/AliceO2Group/AliceO2/pull/12252) 2023-11-14: DPL Utils: drop obsolete utils by [@ktf](https://github.com/ktf)
 	- [\#12257](https://github.com/AliceO2Group/AliceO2/pull/12257) 2023-11-15: DPL: fix typo in message by [@ktf](https://github.com/ktf)
+	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
