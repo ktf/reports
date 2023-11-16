@@ -26,7 +26,6 @@
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 ## Recent developments in O2 - Detectors
-	- [\#12164](https://github.com/AliceO2Group/AliceO2/pull/12164) 2023-10-29: TPC IDCs: Adding consistency check for received IDCs by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12165](https://github.com/AliceO2Group/AliceO2/pull/12165) 2023-11-02: Adding conversion from Fwdtrack to MCH coordinate systems by [@mcoquet642](https://github.com/mcoquet642)
 	- [\#12167](https://github.com/AliceO2Group/AliceO2/pull/12167) 2023-11-02: alice 3: add simplified magnet for matbud accounting by [@mconcas](https://github.com/mconcas)
 	- [\#12169](https://github.com/AliceO2Group/AliceO2/pull/12169) 2023-10-31: Time-series: adding more variables to monitor by [@matthias-kleiner](https://github.com/matthias-kleiner)
