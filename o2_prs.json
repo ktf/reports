@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-31T08:43:23Z",
-            "title": "Time-series: adding more variables to monitor",
-            "number": 12169,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/include/DetectorsCalibration/IntegratedClusterCalibrator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/DetectorsCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Calibration/src/IntegratedClusterCalibrator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/RobustAverage.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/RobustAverage.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-29T20:44:10Z",
             "title": "Fix override to calm down code checker",
             "number": 12170,
@@ -3741,6 +3696,51 @@
                 {
                   "node": {
                     "path": "CCDB/test/testCcdbApiDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Improved Event generator capsulation - native DPL eventgen",
+            "number": 12269,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/McTracksToAOD/run2.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/dpl_eventgen.cxx"
                   }
                 }
               ]
