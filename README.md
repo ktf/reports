@@ -17,6 +17,7 @@
 	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
+	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
@@ -34,6 +35,7 @@
 	- [\#12185](https://github.com/AliceO2Group/AliceO2/pull/12185) 2023-10-31: Fix warning on unused result by [@ktf](https://github.com/ktf)
 	- [\#12187](https://github.com/AliceO2Group/AliceO2/pull/12187) 2023-11-01: [EMCAL-847] Create CTP Input digit for accepted IRs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12191](https://github.com/AliceO2Group/AliceO2/pull/12191) 2023-11-01: ALPIDE Decoder: BUSY ON/OFF can be issued in between any valid data words by [@freidt](https://github.com/freidt)
+	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 	- [\#12194](https://github.com/AliceO2Group/AliceO2/pull/12194) 2023-11-02: fix: correction of the layout specifications by [@plariono](https://github.com/plariono)
 	- [\#12195](https://github.com/AliceO2Group/AliceO2/pull/12195) 2023-11-02: AOD: Fix memory access problem by [@sawenzel](https://github.com/sawenzel)
 	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
@@ -94,3 +96,5 @@
 	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Steer
+	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
