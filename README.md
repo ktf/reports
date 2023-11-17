@@ -26,6 +26,7 @@
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
+	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
@@ -94,6 +95,7 @@
 	- [\#12252](https://github.com/AliceO2Group/AliceO2/pull/12252) 2023-11-14: DPL Utils: drop obsolete utils by [@ktf](https://github.com/ktf)
 	- [\#12257](https://github.com/AliceO2Group/AliceO2/pull/12257) 2023-11-15: DPL: fix typo in message by [@ktf](https://github.com/ktf)
 	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
+	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
