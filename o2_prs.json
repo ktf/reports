@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-30T15:41:50Z",
-            "title": "Drop old TOF compressor",
-            "number": 12172,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/include/TOFCompression/CompressorTaskOld.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/CompressorTaskOld.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/compression/src/tof-compressor.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-30T19:50:41Z",
             "title": "Cells become track seeds",
             "number": 12173,
@@ -3741,6 +3706,36 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_FairMQ.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Some helper for TRD and debug output for ITS-TPC extrapolation",
+            "number": 12272,
+            "author": {
+              "login": "martenole"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Constants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TRD/include/DataFormatsTRD/Digit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
                   }
                 }
               ]
