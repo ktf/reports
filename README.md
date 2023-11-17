@@ -29,7 +29,6 @@
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
 	- [\#12177](https://github.com/AliceO2Group/AliceO2/pull/12177) 2023-11-01: ctpdev by [@lietava](https://github.com/lietava)
 	- [\#12183](https://github.com/AliceO2Group/AliceO2/pull/12183) 2023-11-13: Add the function to store ALPIDE information (MFTAlpideParam.roFrameL… by [@syano0822](https://github.com/syano0822)
