@@ -25,6 +25,7 @@
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
+	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
@@ -62,6 +63,7 @@
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 	- [\#12256](https://github.com/AliceO2Group/AliceO2/pull/12256) 2023-11-15: Preparing to next development for smaller memory footprint by [@mpuccio](https://github.com/mpuccio)
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
+	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
