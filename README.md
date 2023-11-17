@@ -26,7 +26,6 @@
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 ## Recent developments in O2 - Detectors
-	- [\#12171](https://github.com/AliceO2Group/AliceO2/pull/12171) 2023-11-07: Changes needed for split async reco workflow by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12172](https://github.com/AliceO2Group/AliceO2/pull/12172) 2023-10-30: Drop old TOF compressor by [@ktf](https://github.com/ktf)
 	- [\#12173](https://github.com/AliceO2Group/AliceO2/pull/12173) 2023-10-30: Cells become track seeds by [@mpuccio](https://github.com/mpuccio)
 	- [\#12176](https://github.com/AliceO2Group/AliceO2/pull/12176) 2023-10-30: GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header by [@davidrohr](https://github.com/davidrohr)
