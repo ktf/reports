@@ -64,6 +64,7 @@
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 	- [\#12256](https://github.com/AliceO2Group/AliceO2/pull/12256) 2023-11-15: Preparing to next development for smaller memory footprint by [@mpuccio](https://github.com/mpuccio)
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
+	- [\#12264](https://github.com/AliceO2Group/AliceO2/pull/12264) 2023-11-18: TPC: Fix usage of derivative map for scaling of space-charge corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
