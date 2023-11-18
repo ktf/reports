@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-10-30T12:59:19Z",
-            "title": "Avoid duplicate dependency",
-            "number": 12175,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-10-30T21:23:25Z",
             "title": "GPU: Fix standalone compilation, move ITS ExternalAllocator to separate header",
             "number": 12176,
@@ -3856,6 +3836,61 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/RecoWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Better pruning of events from Pythia8 and enable in HepMC",
+            "number": 12275,
+            "author": {
+              "login": "cholmcc"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorHepMCParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/include/Generators/GeneratorPythia8.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/HepMC/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/Pythia8/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/SimExamples/README.md"
                   }
                 }
               ]
