@@ -68,6 +68,7 @@
 	- [\#12264](https://github.com/AliceO2Group/AliceO2/pull/12264) 2023-11-18: TPC: Fix usage of derivative map for scaling of space-charge corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12270](https://github.com/AliceO2Group/AliceO2/pull/12270) 2023-11-19: svertexer tuning by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
+	- [\#12273](https://github.com/AliceO2Group/AliceO2/pull/12273) 2023-11-19: Update of the ALPIDE Protocol Extension definitions for RU FW v1.22.0 by [@freidt](https://github.com/freidt)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
