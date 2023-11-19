@@ -67,7 +67,6 @@
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
-	- [\#12179](https://github.com/AliceO2Group/AliceO2/pull/12179) 2023-11-06: DPL: flush messages immediately when notifying state change by [@ktf](https://github.com/ktf)
 	- [\#12186](https://github.com/AliceO2Group/AliceO2/pull/12186) 2023-11-01: quick fix for uint32_t ITSClusterSizes in AnalysisDataModel.h by [@dsekihat](https://github.com/dsekihat)
 	- [\#12189](https://github.com/AliceO2Group/AliceO2/pull/12189) 2023-11-01: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12197](https://github.com/AliceO2Group/AliceO2/pull/12197) 2023-11-02: DPL Analysis: add version to the table size by [@ktf](https://github.com/ktf)
