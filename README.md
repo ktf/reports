@@ -29,7 +29,6 @@
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12183](https://github.com/AliceO2Group/AliceO2/pull/12183) 2023-11-13: Add the function to store ALPIDE information (MFTAlpideParam.roFrameL… by [@syano0822](https://github.com/syano0822)
 	- [\#12185](https://github.com/AliceO2Group/AliceO2/pull/12185) 2023-10-31: Fix warning on unused result by [@ktf](https://github.com/ktf)
 	- [\#12187](https://github.com/AliceO2Group/AliceO2/pull/12187) 2023-11-01: [EMCAL-847] Create CTP Input digit for accepted IRs by [@mfasDa](https://github.com/mfasDa)
 	- [\#12191](https://github.com/AliceO2Group/AliceO2/pull/12191) 2023-11-01: ALPIDE Decoder: BUSY ON/OFF can be issued in between any valid data words by [@freidt](https://github.com/freidt)
