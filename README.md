@@ -59,6 +59,7 @@
 	- [\#12239](https://github.com/AliceO2Group/AliceO2/pull/12239) 2023-11-14: SVertexer uses lowest TPC cluster R for TPC track minR + add photon to DCAFitter test by [@shahor02](https://github.com/shahor02)
 	- [\#12243](https://github.com/AliceO2Group/AliceO2/pull/12243) 2023-11-13: TRD display use nullptr by [@martenole](https://github.com/martenole)
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
+	- [\#12247](https://github.com/AliceO2Group/AliceO2/pull/12247) 2023-11-20: [EMCAL-518] Handling of TOF in time sampling by [@mfasDa](https://github.com/mfasDa)
 	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12253](https://github.com/AliceO2Group/AliceO2/pull/12253) 2023-11-19: PVertexer cuts on ITS-only fraction only if global tracks present by [@shahor02](https://github.com/shahor02)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
