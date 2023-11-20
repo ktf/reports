@@ -69,6 +69,7 @@
 	- [\#12270](https://github.com/AliceO2Group/AliceO2/pull/12270) 2023-11-19: svertexer tuning by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 	- [\#12273](https://github.com/AliceO2Group/AliceO2/pull/12273) 2023-11-19: Update of the ALPIDE Protocol Extension definitions for RU FW v1.22.0 by [@freidt](https://github.com/freidt)
+	- [\#12274](https://github.com/AliceO2Group/AliceO2/pull/12274) 2023-11-20: Attach CTP digits reader to tpc-reco-workflow for --lumi-type 1 by [@shahor02](https://github.com/shahor02)
 	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
