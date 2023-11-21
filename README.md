@@ -106,5 +106,6 @@
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
+	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
