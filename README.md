@@ -17,7 +17,6 @@
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 	- [\#12198](https://github.com/AliceO2Group/AliceO2/pull/12198) 2023-11-02: Take out no longer needed static_assert by [@sawenzel](https://github.com/sawenzel)
 	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
@@ -32,7 +31,6 @@
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 	- [\#12194](https://github.com/AliceO2Group/AliceO2/pull/12194) 2023-11-02: fix: correction of the layout specifications by [@plariono](https://github.com/plariono)
 	- [\#12195](https://github.com/AliceO2Group/AliceO2/pull/12195) 2023-11-02: AOD: Fix memory access problem by [@sawenzel](https://github.com/sawenzel)
 	- [\#12196](https://github.com/AliceO2Group/AliceO2/pull/12196) 2023-11-02: Fix codechecker readability-braces-around-statements violations by [@sawenzel](https://github.com/sawenzel)
@@ -110,7 +108,5 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
-## Recent developments in O2 - Steer
-	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Utilities
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
