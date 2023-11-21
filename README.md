@@ -32,7 +32,6 @@
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12191](https://github.com/AliceO2Group/AliceO2/pull/12191) 2023-11-01: ALPIDE Decoder: BUSY ON/OFF can be issued in between any valid data words by [@freidt](https://github.com/freidt)
 	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
 	- [\#12194](https://github.com/AliceO2Group/AliceO2/pull/12194) 2023-11-02: fix: correction of the layout specifications by [@plariono](https://github.com/plariono)
 	- [\#12195](https://github.com/AliceO2Group/AliceO2/pull/12195) 2023-11-02: AOD: Fix memory access problem by [@sawenzel](https://github.com/sawenzel)
