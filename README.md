@@ -74,6 +74,8 @@
 	- [\#12283](https://github.com/AliceO2Group/AliceO2/pull/12283) 2023-11-21: Reset ITS track user field on output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
+## Recent developments in O2 - Examples
+	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
 	- [\#12189](https://github.com/AliceO2Group/AliceO2/pull/12189) 2023-11-01: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12197](https://github.com/AliceO2Group/AliceO2/pull/12197) 2023-11-02: DPL Analysis: add version to the table size by [@ktf](https://github.com/ktf)
@@ -100,5 +102,6 @@
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
+	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Steer
 	- [\#12192](https://github.com/AliceO2Group/AliceO2/pull/12192) 2023-11-17: ctpdev: special digi for emc by [@lietava](https://github.com/lietava)
