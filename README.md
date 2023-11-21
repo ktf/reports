@@ -73,6 +73,7 @@
 	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
 	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
 	- [\#12283](https://github.com/AliceO2Group/AliceO2/pull/12283) 2023-11-21: Reset ITS track user field on output by [@shahor02](https://github.com/shahor02)
+	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
