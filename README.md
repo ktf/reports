@@ -79,7 +79,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12189](https://github.com/AliceO2Group/AliceO2/pull/12189) 2023-11-01: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12197](https://github.com/AliceO2Group/AliceO2/pull/12197) 2023-11-02: DPL Analysis: add version to the table size by [@ktf](https://github.com/ktf)
 	- [\#12200](https://github.com/AliceO2Group/AliceO2/pull/12200) 2023-11-03: DPL: only listen to SIGUSR1 when the task is alive by [@ktf](https://github.com/ktf)
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
