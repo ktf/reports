@@ -17,7 +17,6 @@
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
@@ -30,7 +29,6 @@
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12199](https://github.com/AliceO2Group/AliceO2/pull/12199) 2023-11-04: New version of the track fitting by [@mpuccio](https://github.com/mpuccio)
 	- [\#12202](https://github.com/AliceO2Group/AliceO2/pull/12202) 2023-11-04: Fix HMP matched track indices in the AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12203](https://github.com/AliceO2Group/AliceO2/pull/12203) 2023-11-08: GPU: Refit with GPU track model was missing to constrain SinPhi by [@davidrohr](https://github.com/davidrohr)
 	- [\#12205](https://github.com/AliceO2Group/AliceO2/pull/12205) 2023-11-12: TPC: adding option to use custom scalers (IDCs) for SC correction map scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
