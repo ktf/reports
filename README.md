@@ -78,7 +78,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12200](https://github.com/AliceO2Group/AliceO2/pull/12200) 2023-11-03: DPL: only listen to SIGUSR1 when the task is alive by [@ktf](https://github.com/ktf)
 	- [\#12204](https://github.com/AliceO2Group/AliceO2/pull/12204) 2023-11-05: Add dynamic columns with generatorsID info to McCollision table by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12214](https://github.com/AliceO2Group/AliceO2/pull/12214) 2023-11-07: DPL: reset Oldest Possible Timeslice counters on new run by [@ktf](https://github.com/ktf)
