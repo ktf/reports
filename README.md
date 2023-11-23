@@ -105,5 +105,6 @@
 	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12293](https://github.com/AliceO2Group/AliceO2/pull/12293) 2023-11-21: Fix coding convention by [@ktf](https://github.com/ktf)
 	- [\#12295](https://github.com/AliceO2Group/AliceO2/pull/12295) 2023-11-22: Fix brace coding convention by [@sawenzel](https://github.com/sawenzel)
+	- [\#12299](https://github.com/AliceO2Group/AliceO2/pull/12299) 2023-11-23: test generator only when building with simulation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Utilities
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
