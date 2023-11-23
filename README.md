@@ -12,6 +12,7 @@
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
+	- [\#12311](https://github.com/AliceO2Group/AliceO2/pull/12311) 2023-11-23: PDG: Unify masses in `PhysicsConstants.h` and `O2DatabasePDG` by [@vkucera](https://github.com/vkucera)
 ## Recent developments in O2 - DataFormats
 	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
