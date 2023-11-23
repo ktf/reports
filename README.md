@@ -63,6 +63,7 @@
 	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12294](https://github.com/AliceO2Group/AliceO2/pull/12294) 2023-11-22: TPC Scaler: make InputSpec from ccdb time dependent by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12307](https://github.com/AliceO2Group/AliceO2/pull/12307) 2023-11-23: ZDC bugfix: zdc calib is sporadic, since it does not send every TF by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - EventVisualisation
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
