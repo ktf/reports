@@ -16,7 +16,6 @@
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
@@ -28,7 +27,6 @@
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12208](https://github.com/AliceO2Group/AliceO2/pull/12208) 2023-11-09: TPC: Prepare dead channel map for tracking, misc updates by [@wiechula](https://github.com/wiechula)
 	- [\#12209](https://github.com/AliceO2Group/AliceO2/pull/12209) 2023-11-16: TRD: TR deposit energy distance correction by [@JinjooSeo](https://github.com/JinjooSeo)
 	- [\#12210](https://github.com/AliceO2Group/AliceO2/pull/12210) 2023-11-06: AOD: Fix segfault when MC kinematics event is empty by [@sawenzel](https://github.com/sawenzel)
 	- [\#12213](https://github.com/AliceO2Group/AliceO2/pull/12213) 2023-11-07: C++20 fixes by [@ktf](https://github.com/ktf)
