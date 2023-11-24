@@ -22,6 +22,7 @@
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
+	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 ## Recent developments in O2 - Detectors
 	- [\#12221](https://github.com/AliceO2Group/AliceO2/pull/12221) 2023-11-22: TPC: Improve MC anchoring by [@wiechula](https://github.com/wiechula)
 	- [\#12222](https://github.com/AliceO2Group/AliceO2/pull/12222) 2023-11-14: TPC: Fix TimeGain calibration application: limit to fit range by [@wiechula](https://github.com/wiechula)
@@ -57,6 +58,7 @@
 	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12294](https://github.com/AliceO2Group/AliceO2/pull/12294) 2023-11-22: TPC Scaler: make InputSpec from ccdb time dependent by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12307](https://github.com/AliceO2Group/AliceO2/pull/12307) 2023-11-23: ZDC bugfix: zdc calib is sporadic, since it does not send every TF by [@davidrohr](https://github.com/davidrohr)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
