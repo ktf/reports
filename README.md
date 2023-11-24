@@ -68,7 +68,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12217](https://github.com/AliceO2Group/AliceO2/pull/12217) 2023-11-08: Support new fmt. by [@ktf](https://github.com/ktf)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12228](https://github.com/AliceO2Group/AliceO2/pull/12228) 2023-11-10: More race conditions for exit 128 by [@ktf](https://github.com/ktf)
 	- [\#12232](https://github.com/AliceO2Group/AliceO2/pull/12232) 2023-11-11: DPL: keep dropping data while in ready, unless a new state was requested by [@ktf](https://github.com/ktf)
@@ -90,6 +89,7 @@
 	- [\#12298](https://github.com/AliceO2Group/AliceO2/pull/12298) 2023-11-24: DPL: cleanups by [@aalkin](https://github.com/aalkin)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12306](https://github.com/AliceO2Group/AliceO2/pull/12306) 2023-11-24: DPL: edge validator for Lifetime::Sporadic by [@ktf](https://github.com/ktf)
+	- [\#12315](https://github.com/AliceO2Group/AliceO2/pull/12315) 2023-11-24: DPL: Improve debugging of bad topologies. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
