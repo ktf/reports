@@ -90,6 +90,7 @@
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12306](https://github.com/AliceO2Group/AliceO2/pull/12306) 2023-11-24: DPL: edge validator for Lifetime::Sporadic by [@ktf](https://github.com/ktf)
 	- [\#12315](https://github.com/AliceO2Group/AliceO2/pull/12315) 2023-11-24: DPL: Improve debugging of bad topologies. by [@ktf](https://github.com/ktf)
+	- [\#12316](https://github.com/AliceO2Group/AliceO2/pull/12316) 2023-11-24: DPL: introduce "resilient" tasks by [@ktf](https://github.com/ktf)
 	- [\#12317](https://github.com/AliceO2Group/AliceO2/pull/12317) 2023-11-24: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
