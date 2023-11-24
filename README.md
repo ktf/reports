@@ -85,6 +85,8 @@
 	- [\#12267](https://github.com/AliceO2Group/AliceO2/pull/12267) 2023-11-23: DPL Analysis: throw an exception for an invalid Preslice by [@aalkin](https://github.com/aalkin)
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
+	- [\#12290](https://github.com/AliceO2Group/AliceO2/pull/12290) 2023-11-24: Add writer for 2D array string case by [@njacazio](https://github.com/njacazio)
+	- [\#12298](https://github.com/AliceO2Group/AliceO2/pull/12298) 2023-11-24: DPL: cleanups by [@aalkin](https://github.com/aalkin)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12306](https://github.com/AliceO2Group/AliceO2/pull/12306) 2023-11-24: DPL: edge validator for Lifetime::Sporadic by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
