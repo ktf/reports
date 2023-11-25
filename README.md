@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+	- [\#12322](https://github.com/AliceO2Group/AliceO2/pull/12322) 2023-11-25: Fix more ambiguous operators by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
@@ -91,6 +93,7 @@
 	- [\#12317](https://github.com/AliceO2Group/AliceO2/pull/12317) 2023-11-24: DPL: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12318](https://github.com/AliceO2Group/AliceO2/pull/12318) 2023-11-24: DPL: fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12320](https://github.com/AliceO2Group/AliceO2/pull/12320) 2023-11-25: DPL: more operator== ambiguities fixed by [@ktf](https://github.com/ktf)
+	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
