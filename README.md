@@ -96,3 +96,4 @@
 ## Recent developments in O2 - Utilities
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
+	- [\#12327](https://github.com/AliceO2Group/AliceO2/pull/12327) 2023-11-26: EPN SHM Tool: region config was not passed to constructor by [@davidrohr](https://github.com/davidrohr)
