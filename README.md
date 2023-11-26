@@ -25,7 +25,6 @@
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 ## Recent developments in O2 - Detectors
-	- [\#12225](https://github.com/AliceO2Group/AliceO2/pull/12225) 2023-11-10: ITS: minor fixes to enable multiRof by [@mconcas](https://github.com/mconcas)
 	- [\#12226](https://github.com/AliceO2Group/AliceO2/pull/12226) 2023-11-10: C++20, fmt, and ROOT6.30.01 fixes by [@ktf](https://github.com/ktf)
 	- [\#12229](https://github.com/AliceO2Group/AliceO2/pull/12229) 2023-11-09: TPC timeseries: Adding pt from ITS-TPC track to tree by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12231](https://github.com/AliceO2Group/AliceO2/pull/12231) 2023-11-10: Switch all detector raw input lifetimes from optional to time frame by [@davidrohr](https://github.com/davidrohr)

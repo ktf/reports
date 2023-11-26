@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-10T07:30:32Z",
-            "title": "ITS: minor fixes to enable multiRof",
-            "number": 12225,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingConfigParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/TimeFrame.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-10T10:03:36Z",
             "title": "C++20, fmt, and ROOT6.30.01 fixes",
             "number": 12226,
@@ -3681,6 +3646,36 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT,TOF,TPC: Changing Lifetime to sporadic for several writers",
+            "number": 12325,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/workflow/include/FITWorkflow/FITIntegrateClusterWriterSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/workflowIO/src/TOFIntegrateClusterWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCIntegrateClusterWriterSpec.cxx"
                   }
                 }
               ]

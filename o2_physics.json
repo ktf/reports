@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-17T14:54:11Z",
-            "title": "PWGHF: fix filling of some MC histos and re-order some inv. mass histos for signal.",
-            "number": 3889,
-            "author": {
-              "login": "mfaggin"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskSigmac.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-17T11:51:17Z",
             "title": "[PWGLF] bugfix in momentum resolution: multiply pt_rec by charge",
             "number": 3890,
@@ -3340,6 +3320,31 @@
                 {
                   "node": {
                     "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectron.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Track propagation with ID",
+            "number": 3989,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Core/trackUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/trackPropagation.cxx"
                   }
                 }
               ]
