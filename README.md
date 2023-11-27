@@ -61,7 +61,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12233](https://github.com/AliceO2Group/AliceO2/pull/12233) 2023-11-16: DPL Analysis: fix another source of warning by [@aalkin](https://github.com/aalkin)
 	- [\#12238](https://github.com/AliceO2Group/AliceO2/pull/12238) 2023-11-13: DPL: fix logic in the READY state flushing by [@ktf](https://github.com/ktf)
 	- [\#12240](https://github.com/AliceO2Group/AliceO2/pull/12240) 2023-11-13: DPL: print missing data when dropping timeframes by [@ktf](https://github.com/ktf)
 	- [\#12241](https://github.com/AliceO2Group/AliceO2/pull/12241) 2023-11-13: DPL: Do not drain messages before START, this can break the FST by [@davidrohr](https://github.com/davidrohr)
