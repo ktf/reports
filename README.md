@@ -13,6 +13,7 @@
 	- [\#12311](https://github.com/AliceO2Group/AliceO2/pull/12311) 2023-11-23: PDG: Unify masses in `PhysicsConstants.h` and `O2DatabasePDG` by [@vkucera](https://github.com/vkucera)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
@@ -60,6 +61,7 @@
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12331](https://github.com/AliceO2Group/AliceO2/pull/12331) 2023-11-27: Misc fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12333](https://github.com/AliceO2Group/AliceO2/pull/12333) 2023-11-27: TPC: Fix issue in normalizing T0 offset by [@wiechula](https://github.com/wiechula)
+	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Examples
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
