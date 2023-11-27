@@ -53,11 +53,13 @@
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12300](https://github.com/AliceO2Group/AliceO2/pull/12300) 2023-11-27: TPC: Adding loading of distortions maps from CCDB for MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12307](https://github.com/AliceO2Group/AliceO2/pull/12307) 2023-11-23: ZDC bugfix: zdc calib is sporadic, since it does not send every TF by [@davidrohr](https://github.com/davidrohr)
+	- [\#12312](https://github.com/AliceO2Group/AliceO2/pull/12312) 2023-11-27: TPC timeseries: Propagating TPC track to TOF cluster by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12325](https://github.com/AliceO2Group/AliceO2/pull/12325) 2023-11-27: FIT,TOF,TPC: Fixing sporadic/timeframe lifetimes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
+	- [\#12331](https://github.com/AliceO2Group/AliceO2/pull/12331) 2023-11-27: Misc fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12333](https://github.com/AliceO2Group/AliceO2/pull/12333) 2023-11-27: TPC: Fix issue in normalizing T0 offset by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
