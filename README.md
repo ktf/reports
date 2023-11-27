@@ -52,6 +52,7 @@
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12294](https://github.com/AliceO2Group/AliceO2/pull/12294) 2023-11-22: TPC Scaler: make InputSpec from ccdb time dependent by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
+	- [\#12300](https://github.com/AliceO2Group/AliceO2/pull/12300) 2023-11-27: TPC: Adding loading of distortions maps from CCDB for MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12307](https://github.com/AliceO2Group/AliceO2/pull/12307) 2023-11-23: ZDC bugfix: zdc calib is sporadic, since it does not send every TF by [@davidrohr](https://github.com/davidrohr)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
@@ -93,6 +94,8 @@
 	- [\#12293](https://github.com/AliceO2Group/AliceO2/pull/12293) 2023-11-21: Fix coding convention by [@ktf](https://github.com/ktf)
 	- [\#12295](https://github.com/AliceO2Group/AliceO2/pull/12295) 2023-11-22: Fix brace coding convention by [@sawenzel](https://github.com/sawenzel)
 	- [\#12299](https://github.com/AliceO2Group/AliceO2/pull/12299) 2023-11-23: test generator only when building with simulation by [@sawenzel](https://github.com/sawenzel)
+## Recent developments in O2 - Steer
+	- [\#12300](https://github.com/AliceO2Group/AliceO2/pull/12300) 2023-11-27: TPC: Adding loading of distortions maps from CCDB for MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
