@@ -12,6 +12,7 @@
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12311](https://github.com/AliceO2Group/AliceO2/pull/12311) 2023-11-23: PDG: Unify masses in `PhysicsConstants.h` and `O2DatabasePDG` by [@vkucera](https://github.com/vkucera)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
+	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
@@ -100,3 +101,4 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
 	- [\#12327](https://github.com/AliceO2Group/AliceO2/pull/12327) 2023-11-26: EPN SHM Tool: region config was not passed to constructor by [@davidrohr](https://github.com/davidrohr)
+	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
