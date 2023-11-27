@@ -57,6 +57,7 @@
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
+	- [\#12325](https://github.com/AliceO2Group/AliceO2/pull/12325) 2023-11-27: FIT,TOF,TPC: Fixing sporadic/timeframe lifetimes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
