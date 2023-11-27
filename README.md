@@ -24,7 +24,6 @@
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12234](https://github.com/AliceO2Group/AliceO2/pull/12234) 2023-11-10: Fix wrong index in test by [@ktf](https://github.com/ktf)
 	- [\#12235](https://github.com/AliceO2Group/AliceO2/pull/12235) 2023-11-11: Discard ITS/MFT ROFs with impossible IRs by [@shahor02](https://github.com/shahor02)
 	- [\#12237](https://github.com/AliceO2Group/AliceO2/pull/12237) 2023-11-13: Change all workflows from require-ctp-lumi to lumi-type option by [@shahor02](https://github.com/shahor02)
 	- [\#12239](https://github.com/AliceO2Group/AliceO2/pull/12239) 2023-11-14: SVertexer uses lowest TPC cluster R for TPC track minR + add photon to DCAFitter test by [@shahor02](https://github.com/shahor02)
