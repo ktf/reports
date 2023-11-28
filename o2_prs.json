@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-13T15:41:49Z",
-            "title": "DPL: Do not drain messages before START, this can break the FST",
-            "number": 12241,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "DPL: add edge validation support after topology generation",
@@ -3371,6 +3351,31 @@
                 {
                   "node": {
                     "path": "Steer/DigitizerWorkflow/src/FT0DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "C++20 fixes",
+            "number": 12341,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/GlobalFwdTrack.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/Tracks.cxx"
                   }
                 }
               ]
