@@ -15,7 +15,6 @@
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
@@ -26,7 +25,6 @@
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12247](https://github.com/AliceO2Group/AliceO2/pull/12247) 2023-11-20: [EMCAL-518] Handling of TOF in time sampling by [@mfasDa](https://github.com/mfasDa)
 	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12253](https://github.com/AliceO2Group/AliceO2/pull/12253) 2023-11-19: PVertexer cuts on ITS-only fraction only if global tracks present by [@shahor02](https://github.com/shahor02)

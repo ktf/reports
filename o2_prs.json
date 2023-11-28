@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-16T09:11:25Z",
-            "title": "Ctpinp",
-            "number": 12246,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/PlotPbLumi.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-20T10:32:44Z",
             "title": "[EMCAL-518] Handling of TOF in time sampling",
             "number": 12247,
@@ -3346,6 +3321,51 @@
                 {
                   "node": {
                     "path": "Detectors/Vertexing/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Bring back seed-reproducible Geant4 simulation",
+            "number": 12346,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/include/CommonUtils/ConfigurationMacroHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Stack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/VMCSeederService.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2SimDevice.h"
                   }
                 }
               ]
