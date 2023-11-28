@@ -4,41 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Keep code checker happy",
-            "number": 12244,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/macros/OCDB2CCDB.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/macros/OCDB2CCDBTrapConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/macros/PrintTrapConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/base/macros/Readocdb.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-11-14T00:18:32Z",
             "title": "dpl-workflow.sh adds o2-tpc-scaler-workflow for --lumi-type=2 scaling",
@@ -3356,6 +3321,31 @@
                 {
                   "node": {
                     "path": "Utilities/DataCompression/include/DataCompression/dc_primitives.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix N ITS clusters extraction in SVertexer",
+            "number": 12344,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
                   }
                 }
               ]
