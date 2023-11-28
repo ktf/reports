@@ -29,6 +29,7 @@
 	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12253](https://github.com/AliceO2Group/AliceO2/pull/12253) 2023-11-19: PVertexer cuts on ITS-only fraction only if global tracks present by [@shahor02](https://github.com/shahor02)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
+	- [\#12255](https://github.com/AliceO2Group/AliceO2/pull/12255) 2023-11-28: GPU: Move GPUReconstructionHIP to hip language by [@mconcas](https://github.com/mconcas)
 	- [\#12256](https://github.com/AliceO2Group/AliceO2/pull/12256) 2023-11-15: Preparing to next development for smaller memory footprint by [@mpuccio](https://github.com/mpuccio)
 	- [\#12258](https://github.com/AliceO2Group/AliceO2/pull/12258) 2023-11-20: Add PID hypothesis in tracking by [@njacazio](https://github.com/njacazio)
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
