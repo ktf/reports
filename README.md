@@ -24,6 +24,7 @@
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
+	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12253](https://github.com/AliceO2Group/AliceO2/pull/12253) 2023-11-19: PVertexer cuts on ITS-only fraction only if global tracks present by [@shahor02](https://github.com/shahor02)
@@ -62,6 +63,7 @@
 	- [\#12333](https://github.com/AliceO2Group/AliceO2/pull/12333) 2023-11-27: TPC: Fix issue in normalizing T0 offset by [@wiechula](https://github.com/wiechula)
 	- [\#12335](https://github.com/AliceO2Group/AliceO2/pull/12335) 2023-11-28: TPC: fix inconsistent lifetime for CalDet calibrations by [@wiechula](https://github.com/wiechula)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
+	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12342](https://github.com/AliceO2Group/AliceO2/pull/12342) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12344](https://github.com/AliceO2Group/AliceO2/pull/12344) 2023-11-28: Fix N ITS clusters extraction in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12345](https://github.com/AliceO2Group/AliceO2/pull/12345) 2023-11-28: Fix debug mode for vertecer pushed be mistake by [@shahor02](https://github.com/shahor02)
