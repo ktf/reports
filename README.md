@@ -105,3 +105,4 @@
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
 	- [\#12327](https://github.com/AliceO2Group/AliceO2/pull/12327) 2023-11-26: EPN SHM Tool: region config was not passed to constructor by [@davidrohr](https://github.com/davidrohr)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
+	- [\#12343](https://github.com/AliceO2Group/AliceO2/pull/12343) 2023-11-28: More asymmetric operator== by [@ktf](https://github.com/ktf)
