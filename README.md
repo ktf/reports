@@ -42,6 +42,7 @@
 	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
 	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
 	- [\#12279](https://github.com/AliceO2Group/AliceO2/pull/12279) 2023-11-21: TPC timeseries: Adding delta track parameters at vertex by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12281](https://github.com/AliceO2Group/AliceO2/pull/12281) 2023-11-28: [EMCAL-1105, EMCAL-687] Reject EMCAL trigger classes for incomplete events by [@mfasDa](https://github.com/mfasDa)
 	- [\#12283](https://github.com/AliceO2Group/AliceO2/pull/12283) 2023-11-21: Reset ITS track user field on output by [@shahor02](https://github.com/shahor02)
 	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
