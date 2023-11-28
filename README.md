@@ -26,7 +26,6 @@
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Detectors
-	- [\#12243](https://github.com/AliceO2Group/AliceO2/pull/12243) 2023-11-13: TRD display use nullptr by [@martenole](https://github.com/martenole)
 	- [\#12246](https://github.com/AliceO2Group/AliceO2/pull/12246) 2023-11-16: Ctpinp by [@lietava](https://github.com/lietava)
 	- [\#12247](https://github.com/AliceO2Group/AliceO2/pull/12247) 2023-11-20: [EMCAL-518] Handling of TOF in time sampling by [@mfasDa](https://github.com/mfasDa)
 	- [\#12250](https://github.com/AliceO2Group/AliceO2/pull/12250) 2023-11-15: TPC timeseries: Add TPC only option by [@matthias-kleiner](https://github.com/matthias-kleiner)
