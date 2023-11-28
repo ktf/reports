@@ -91,7 +91,6 @@
 	- [\#12320](https://github.com/AliceO2Group/AliceO2/pull/12320) 2023-11-25: DPL: more operator== ambiguities fixed by [@ktf](https://github.com/ktf)
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#12248](https://github.com/AliceO2Group/AliceO2/pull/12248) 2023-11-14: Do not expose AODToHepMC.h to ROOT by [@ktf](https://github.com/ktf)
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
