@@ -28,6 +28,7 @@
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
+	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
@@ -70,6 +71,7 @@
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12350](https://github.com/AliceO2Group/AliceO2/pull/12350) 2023-11-29: Fix more enums used as int for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Examples
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
