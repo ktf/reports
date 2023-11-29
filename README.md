@@ -13,6 +13,7 @@
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
+	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
@@ -68,6 +69,7 @@
 	- [\#12342](https://github.com/AliceO2Group/AliceO2/pull/12342) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12344](https://github.com/AliceO2Group/AliceO2/pull/12344) 2023-11-28: Fix N ITS clusters extraction in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12345](https://github.com/AliceO2Group/AliceO2/pull/12345) 2023-11-28: Fix debug mode for vertecer pushed be mistake by [@shahor02](https://github.com/shahor02)
+	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12350](https://github.com/AliceO2Group/AliceO2/pull/12350) 2023-11-29: Fix more enums used as int for C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
