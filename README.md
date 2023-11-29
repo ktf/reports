@@ -27,7 +27,6 @@
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
-	- [\#12256](https://github.com/AliceO2Group/AliceO2/pull/12256) 2023-11-15: Preparing to next development for smaller memory footprint by [@mpuccio](https://github.com/mpuccio)
 	- [\#12258](https://github.com/AliceO2Group/AliceO2/pull/12258) 2023-11-20: Add PID hypothesis in tracking by [@njacazio](https://github.com/njacazio)
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
