@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-15T08:30:28Z",
-            "title": "TPC timeseries: Add TPC only option",
-            "number": 12250,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCTimeSeriesSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCTimeSeriesSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-time-series.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-14T18:07:07Z",
             "title": "DPL: reset the async queue on STOP",
             "number": 12251,
@@ -3376,6 +3346,26 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2023-11-29T09:08:58Z",
+            "title": "Fix more enums used as int for C++20",
+            "number": 12350,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/reconstruction/src/CookedTracker.cxx"
                   }
                 }
               ]
