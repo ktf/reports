@@ -28,7 +28,6 @@
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
-	- [\#12253](https://github.com/AliceO2Group/AliceO2/pull/12253) 2023-11-19: PVertexer cuts on ITS-only fraction only if global tracks present by [@shahor02](https://github.com/shahor02)
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 	- [\#12255](https://github.com/AliceO2Group/AliceO2/pull/12255) 2023-11-28: GPU: Move GPUReconstructionHIP to hip language by [@mconcas](https://github.com/mconcas)
 	- [\#12256](https://github.com/AliceO2Group/AliceO2/pull/12256) 2023-11-15: Preparing to next development for smaller memory footprint by [@mpuccio](https://github.com/mpuccio)
