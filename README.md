@@ -14,6 +14,7 @@
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
+	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12254](https://github.com/AliceO2Group/AliceO2/pull/12254) 2023-11-16: TPC PID response: Added an option to use nSigma by [@tubagundem](https://github.com/tubagundem)
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
@@ -92,6 +93,7 @@
 	- [\#12318](https://github.com/AliceO2Group/AliceO2/pull/12318) 2023-11-24: DPL: fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12320](https://github.com/AliceO2Group/AliceO2/pull/12320) 2023-11-25: DPL: more operator== ambiguities fixed by [@ktf](https://github.com/ktf)
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
