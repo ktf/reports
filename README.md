@@ -7,6 +7,7 @@
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
+	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12311](https://github.com/AliceO2Group/AliceO2/pull/12311) 2023-11-23: PDG: Unify masses in `PhysicsConstants.h` and `O2DatabasePDG` by [@vkucera](https://github.com/vkucera)
@@ -19,6 +20,7 @@
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
+	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
@@ -40,6 +42,7 @@
 	- [\#12279](https://github.com/AliceO2Group/AliceO2/pull/12279) 2023-11-21: TPC timeseries: Adding delta track parameters at vertex by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12281](https://github.com/AliceO2Group/AliceO2/pull/12281) 2023-11-28: [EMCAL-1105, EMCAL-687] Reject EMCAL trigger classes for incomplete events by [@mfasDa](https://github.com/mfasDa)
 	- [\#12283](https://github.com/AliceO2Group/AliceO2/pull/12283) 2023-11-21: Reset ITS track user field on output by [@shahor02](https://github.com/shahor02)
+	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12294](https://github.com/AliceO2Group/AliceO2/pull/12294) 2023-11-22: TPC Scaler: make InputSpec from ccdb time dependent by [@matthias-kleiner](https://github.com/matthias-kleiner)
