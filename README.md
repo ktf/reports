@@ -6,7 +6,6 @@
 	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
-	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
@@ -75,7 +74,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12251](https://github.com/AliceO2Group/AliceO2/pull/12251) 2023-11-14: DPL: reset the async queue on STOP by [@ktf](https://github.com/ktf)
 	- [\#12252](https://github.com/AliceO2Group/AliceO2/pull/12252) 2023-11-14: DPL Utils: drop obsolete utils by [@ktf](https://github.com/ktf)
 	- [\#12257](https://github.com/AliceO2Group/AliceO2/pull/12257) 2023-11-15: DPL: fix typo in message by [@ktf](https://github.com/ktf)
 	- [\#12262](https://github.com/AliceO2Group/AliceO2/pull/12262) 2023-11-20: Add PROCESS_SWITCH_FULL by [@qgp](https://github.com/qgp)
