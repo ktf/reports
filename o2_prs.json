@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-15T09:34:03Z",
-            "title": "DPL: fix typo in message",
-            "number": 12257,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/TimesliceIndex.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-20T10:14:39Z",
-            "title": "Add PID hypothesis in tracking",
-            "number": 12258,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchITSTPCQC.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchITSTPCQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-16T07:39:41Z",
             "title": "CCDBDownloader: Correcting malformed urls",
             "number": 12259,
@@ -3291,6 +3246,81 @@
                 {
                   "node": {
                     "path": "DataFormats/Detectors/TOF/src/CalibTimeSlewingParamTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add missing include for newer compilers",
+            "number": 12357,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MID/Base/include/MIDBase/DetectorParameters.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adding MFT cluster sizes and tracks flags to AO2D",
+            "number": 12358,
+            "author": {
+              "login": "lucamicheletti93"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/MFT/include/DataFormatsMFT/TrackMFT.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/ROframe.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/include/MFTTracking/TrackCA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/tracking/src/Tracker.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/MFT/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
                   }
                 }
               ]

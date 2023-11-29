@@ -27,7 +27,6 @@
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 ## Recent developments in O2 - Detectors
-	- [\#12258](https://github.com/AliceO2Group/AliceO2/pull/12258) 2023-11-20: Add PID hypothesis in tracking by [@njacazio](https://github.com/njacazio)
 	- [\#12260](https://github.com/AliceO2Group/AliceO2/pull/12260) 2023-11-15: Fix HMPID matching (reset all caches) by [@shahor02](https://github.com/shahor02)
 	- [\#12261](https://github.com/AliceO2Group/AliceO2/pull/12261) 2023-11-19: AOD-like global track selection for the TrackStudy by [@shahor02](https://github.com/shahor02)
 	- [\#12264](https://github.com/AliceO2Group/AliceO2/pull/12264) 2023-11-18: TPC: Fix usage of derivative map for scaling of space-charge corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -72,7 +71,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12257](https://github.com/AliceO2Group/AliceO2/pull/12257) 2023-11-15: DPL: fix typo in message by [@ktf](https://github.com/ktf)
 	- [\#12262](https://github.com/AliceO2Group/AliceO2/pull/12262) 2023-11-20: Add PROCESS_SWITCH_FULL by [@qgp](https://github.com/qgp)
 	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 	- [\#12267](https://github.com/AliceO2Group/AliceO2/pull/12267) 2023-11-23: DPL Analysis: throw an exception for an invalid Preslice by [@aalkin](https://github.com/aalkin)
