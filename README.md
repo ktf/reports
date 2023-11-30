@@ -68,7 +68,6 @@
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Examples
-	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
@@ -88,7 +87,6 @@
 	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12293](https://github.com/AliceO2Group/AliceO2/pull/12293) 2023-11-21: Fix coding convention by [@ktf](https://github.com/ktf)
@@ -97,7 +95,6 @@
 ## Recent developments in O2 - Steer
 	- [\#12300](https://github.com/AliceO2Group/AliceO2/pull/12300) 2023-11-27: TPC: Adding loading of distortions maps from CCDB for MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Utilities
-	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
 	- [\#12327](https://github.com/AliceO2Group/AliceO2/pull/12327) 2023-11-26: EPN SHM Tool: region config was not passed to constructor by [@davidrohr](https://github.com/davidrohr)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
