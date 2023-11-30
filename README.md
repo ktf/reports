@@ -26,7 +26,6 @@
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12273](https://github.com/AliceO2Group/AliceO2/pull/12273) 2023-11-19: Update of the ALPIDE Protocol Extension definitions for RU FW v1.22.0 by [@freidt](https://github.com/freidt)
 	- [\#12274](https://github.com/AliceO2Group/AliceO2/pull/12274) 2023-11-20: Attach CTP digits reader to tpc-reco-workflow for --lumi-type 1 by [@shahor02](https://github.com/shahor02)
 	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
 	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
