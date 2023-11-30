@@ -71,7 +71,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12267](https://github.com/AliceO2Group/AliceO2/pull/12267) 2023-11-23: DPL Analysis: throw an exception for an invalid Preslice by [@aalkin](https://github.com/aalkin)
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12290](https://github.com/AliceO2Group/AliceO2/pull/12290) 2023-11-24: Add writer for 2D array string case by [@njacazio](https://github.com/njacazio)
