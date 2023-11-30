@@ -28,8 +28,6 @@
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12264](https://github.com/AliceO2Group/AliceO2/pull/12264) 2023-11-18: TPC: Fix usage of derivative map for scaling of space-charge corrections by [@matthias-kleiner](https://github.com/matthias-kleiner)
-	- [\#12265](https://github.com/AliceO2Group/AliceO2/pull/12265) 2023-11-20: Disable muon propagation in AOD and fix covariances by [@mcoquet642](https://github.com/mcoquet642)
 	- [\#12270](https://github.com/AliceO2Group/AliceO2/pull/12270) 2023-11-19: svertexer tuning by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 	- [\#12273](https://github.com/AliceO2Group/AliceO2/pull/12273) 2023-11-19: Update of the ALPIDE Protocol Extension definitions for RU FW v1.22.0 by [@freidt](https://github.com/freidt)
