@@ -90,6 +90,7 @@
 	- [\#12318](https://github.com/AliceO2Group/AliceO2/pull/12318) 2023-11-24: DPL: fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12320](https://github.com/AliceO2Group/AliceO2/pull/12320) 2023-11-25: DPL: more operator== ambiguities fixed by [@ktf](https://github.com/ktf)
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
