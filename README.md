@@ -16,7 +16,6 @@
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12272](https://github.com/AliceO2Group/AliceO2/pull/12272) 2023-11-17: Some helper for TRD and debug output for ITS-TPC extrapolation by [@martenole](https://github.com/martenole)
 	- [\#12273](https://github.com/AliceO2Group/AliceO2/pull/12273) 2023-11-19: Update of the ALPIDE Protocol Extension definitions for RU FW v1.22.0 by [@freidt](https://github.com/freidt)
 	- [\#12274](https://github.com/AliceO2Group/AliceO2/pull/12274) 2023-11-20: Attach CTP digits reader to tpc-reco-workflow for --lumi-type 1 by [@shahor02](https://github.com/shahor02)
 	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
