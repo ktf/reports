@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 	- [\#12322](https://github.com/AliceO2Group/AliceO2/pull/12322) 2023-11-25: Fix more ambiguous operators by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
 	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
@@ -74,7 +73,6 @@
 	- [\#12269](https://github.com/AliceO2Group/AliceO2/pull/12269) 2023-11-21: Improved Event generator capsulation - native DPL eventgen by [@sawenzel](https://github.com/sawenzel)
 	- [\#12275](https://github.com/AliceO2Group/AliceO2/pull/12275) 2023-11-21: Better pruning of events from Pythia8 and enable in HepMC by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
-	- [\#12263](https://github.com/AliceO2Group/AliceO2/pull/12263) 2023-11-16: Make sure brace_constructible_size works in C++20 by [@ktf](https://github.com/ktf)
 	- [\#12267](https://github.com/AliceO2Group/AliceO2/pull/12267) 2023-11-23: DPL Analysis: throw an exception for an invalid Preslice by [@aalkin](https://github.com/aalkin)
 	- [\#12271](https://github.com/AliceO2Group/AliceO2/pull/12271) 2023-11-17: Avoid UUID conflicts when running with boost 1.83.0 by [@ktf](https://github.com/ktf)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
