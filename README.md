@@ -78,6 +78,8 @@
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
+	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
+	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
 	- [\#12288](https://github.com/AliceO2Group/AliceO2/pull/12288) 2023-11-21: Improvements for generating events from O2 kine file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12293](https://github.com/AliceO2Group/AliceO2/pull/12293) 2023-11-21: Fix coding convention by [@ktf](https://github.com/ktf)
@@ -90,3 +92,4 @@
 	- [\#12327](https://github.com/AliceO2Group/AliceO2/pull/12327) 2023-11-26: EPN SHM Tool: region config was not passed to constructor by [@davidrohr](https://github.com/davidrohr)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12343](https://github.com/AliceO2Group/AliceO2/pull/12343) 2023-11-28: More asymmetric operator== by [@ktf](https://github.com/ktf)
+	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
