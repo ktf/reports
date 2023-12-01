@@ -26,7 +26,6 @@
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12277](https://github.com/AliceO2Group/AliceO2/pull/12277) 2023-11-20: TPC: Speed up SACs, improved error messages, fix stream alignment by [@wiechula](https://github.com/wiechula)
 	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
 	- [\#12279](https://github.com/AliceO2Group/AliceO2/pull/12279) 2023-11-21: TPC timeseries: Adding delta track parameters at vertex by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12281](https://github.com/AliceO2Group/AliceO2/pull/12281) 2023-11-28: [EMCAL-1105, EMCAL-687] Reject EMCAL trigger classes for incomplete events by [@mfasDa](https://github.com/mfasDa)
@@ -79,6 +78,7 @@
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
+	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators

@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-20T07:54:16Z",
-            "title": "TPC: Speed up SACs, improved error messages, fix stream alignment",
-            "number": 12277,
-            "author": {
-              "login": "wiechula"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/SACDecoder.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/SACDecoder.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-21T13:24:54Z",
             "title": "TOF matching multi-threaded",
             "number": 12278,
@@ -2819,8 +2794,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2023-12-01T07:22:02Z",
             "title": "DPL: add support for Lifetime::sporadic to query builder",
             "number": 12363,
             "author": {
@@ -3276,6 +3251,26 @@
                 {
                   "node": {
                     "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make sure Mergers always use Lifetime::Sporadic",
+            "number": 12377,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/MergerBuilder.cxx"
                   }
                 }
               ]
