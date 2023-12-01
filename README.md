@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
-	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12311](https://github.com/AliceO2Group/AliceO2/pull/12311) 2023-11-23: PDG: Unify masses in `PhysicsConstants.h` and `O2DatabasePDG` by [@vkucera](https://github.com/vkucera)
@@ -16,7 +15,6 @@
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 	- [\#12375](https://github.com/AliceO2Group/AliceO2/pull/12375) 2023-12-01: Fix field regex to re-enable 2T sims by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - DataFormats
-	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
@@ -27,7 +25,6 @@
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12287](https://github.com/AliceO2Group/AliceO2/pull/12287) 2023-11-21: ITSMFT decoder sends vector<char> with chips status in TF by [@shahor02](https://github.com/shahor02)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12294](https://github.com/AliceO2Group/AliceO2/pull/12294) 2023-11-22: TPC Scaler: make InputSpec from ccdb time dependent by [@matthias-kleiner](https://github.com/matthias-kleiner)
