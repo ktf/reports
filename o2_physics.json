@@ -4,71 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-27T08:09:02Z",
-            "title": "PWGHF: Implement the possibility to apply proton PID for baryons in skimming",
-            "number": 3939,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/Core/SelectorCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateCreatorCascade.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/candidateSelectorLcToK0sP.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/Utils/utilsDebugLcToK0sP.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-22T17:42:12Z",
-            "title": "Add id hypo in dedx plot",
-            "number": 3940,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPCSignal.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "OPEN",
             "mergedAt": null,
             "title": "Fix the mult range parameter",
@@ -3286,6 +3221,51 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/hStrangeCorrelation.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add centrality estimators in the task",
+            "number": 4039,
+            "author": {
+              "login": "chiarapinto"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFHypernucleiTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hyperRecoTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: Update tree creator for Omega_c using ST",
+            "number": 4040,
+            "author": {
+              "login": "qgp"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
                   }
                 }
               ]
