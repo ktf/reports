@@ -45,6 +45,7 @@
 	- [\#12312](https://github.com/AliceO2Group/AliceO2/pull/12312) 2023-11-27: TPC timeseries: Propagating TPC track to TOF cluster by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
+	- [\#12319](https://github.com/AliceO2Group/AliceO2/pull/12319) 2023-12-01: TRD: Implementation of DCS Chamber Status processing and DPs update by [@leo-barreto](https://github.com/leo-barreto)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12325](https://github.com/AliceO2Group/AliceO2/pull/12325) 2023-11-27: FIT,TOF,TPC: Fixing sporadic/timeframe lifetimes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
