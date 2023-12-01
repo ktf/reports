@@ -15,6 +15,7 @@
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
+	- [\#12375](https://github.com/AliceO2Group/AliceO2/pull/12375) 2023-12-01: Fix field regex to re-enable 2T sims by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - DataFormats
 	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
