@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-27T22:11:46Z",
-            "title": "CcdbApi: Fixed logReading in vectoredLoadFileTomemory",
-            "number": 12276,
-            "author": {
-              "login": "TrifleMichael"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "CCDB/include/CCDB/CCDBDownloader.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CCDBDownloader.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "CCDB/src/CcdbApi.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-20T07:54:16Z",
             "title": "TPC: Speed up SACs, improved error messages, fix stream alignment",
             "number": 12277,
@@ -3266,6 +3236,31 @@
                 {
                   "node": {
                     "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Make sure PID is propagated to all global track params.",
+            "number": 12376,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
                   }
                 }
               ]
