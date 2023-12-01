@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
-	- [\#12280](https://github.com/AliceO2Group/AliceO2/pull/12280) 2023-11-21: TPC: fix fmt formatting error by [@wiechula](https://github.com/wiechula)
 	- [\#12284](https://github.com/AliceO2Group/AliceO2/pull/12284) 2023-11-29: ALICE 3: Add RICH + minor improvements by [@mconcas](https://github.com/mconcas)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
