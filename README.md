@@ -50,6 +50,7 @@
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 	- [\#12331](https://github.com/AliceO2Group/AliceO2/pull/12331) 2023-11-27: Misc fixes for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12332](https://github.com/AliceO2Group/AliceO2/pull/12332) 2023-12-01: SVertexer: add V0 Photontune by [@f3sch](https://github.com/f3sch)
 	- [\#12333](https://github.com/AliceO2Group/AliceO2/pull/12333) 2023-11-27: TPC: Fix issue in normalizing T0 offset by [@wiechula](https://github.com/wiechula)
 	- [\#12335](https://github.com/AliceO2Group/AliceO2/pull/12335) 2023-11-28: TPC: fix inconsistent lifetime for CalDet calibrations by [@wiechula](https://github.com/wiechula)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
