@@ -26,6 +26,7 @@
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
+	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
 	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
 	- [\#12279](https://github.com/AliceO2Group/AliceO2/pull/12279) 2023-11-21: TPC timeseries: Adding delta track parameters at vertex by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -63,6 +64,7 @@
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 	- [\#12360](https://github.com/AliceO2Group/AliceO2/pull/12360) 2023-11-30: TPC: Fix wrong reporting of error by [@wiechula](https://github.com/wiechula)
+	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Framework
 	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12290](https://github.com/AliceO2Group/AliceO2/pull/12290) 2023-11-24: Add writer for 2D array string case by [@njacazio](https://github.com/njacazio)
