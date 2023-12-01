@@ -28,7 +28,6 @@
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Detectors
-	- [\#12278](https://github.com/AliceO2Group/AliceO2/pull/12278) 2023-11-21: TOF matching multi-threaded by [@noferini](https://github.com/noferini)
 	- [\#12279](https://github.com/AliceO2Group/AliceO2/pull/12279) 2023-11-21: TPC timeseries: Adding delta track parameters at vertex by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12281](https://github.com/AliceO2Group/AliceO2/pull/12281) 2023-11-28: [EMCAL-1105, EMCAL-687] Reject EMCAL trigger classes for incomplete events by [@mfasDa](https://github.com/mfasDa)
 	- [\#12283](https://github.com/AliceO2Group/AliceO2/pull/12283) 2023-11-21: Reset ITS track user field on output by [@shahor02](https://github.com/shahor02)
