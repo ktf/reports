@@ -17,7 +17,6 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12385](https://github.com/AliceO2Group/AliceO2/pull/12385) 2023-12-02: Fix SimConfig to accept 0 field by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
-	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12289](https://github.com/AliceO2Group/AliceO2/pull/12289) 2023-11-21: Define missing TF3 data origin for upgrades by [@shahor02](https://github.com/shahor02)
 	- [\#12296](https://github.com/AliceO2Group/AliceO2/pull/12296) 2023-11-24: Clustersfit by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
@@ -70,7 +69,6 @@
 	- [\#12381](https://github.com/AliceO2Group/AliceO2/pull/12381) 2023-12-01: SVertexer: remove double param print by [@f3sch](https://github.com/f3sch)
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12286](https://github.com/AliceO2Group/AliceO2/pull/12286) 2023-11-21: DPL: actually pass session when creating Transport by [@ktf](https://github.com/ktf)
 	- [\#12290](https://github.com/AliceO2Group/AliceO2/pull/12290) 2023-11-24: Add writer for 2D array string case by [@njacazio](https://github.com/njacazio)
 	- [\#12297](https://github.com/AliceO2Group/AliceO2/pull/12297) 2023-11-24: DPL Analysis: adding extra AOD origins by [@aalkin](https://github.com/aalkin)
 	- [\#12298](https://github.com/AliceO2Group/AliceO2/pull/12298) 2023-11-24: DPL: cleanups by [@aalkin](https://github.com/aalkin)
@@ -102,3 +100,4 @@
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12343](https://github.com/AliceO2Group/AliceO2/pull/12343) 2023-11-28: More asymmetric operator== by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
+	- [\#12386](https://github.com/AliceO2Group/AliceO2/pull/12386) 2023-12-02: SHM tool: allow value of 0 for rc segment by [@davidrohr](https://github.com/davidrohr)
