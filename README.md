@@ -69,6 +69,7 @@
 	- [\#12361](https://github.com/AliceO2Group/AliceO2/pull/12361) 2023-12-01: FIT: Base TOF for sim hits on hit pos instead of fixed detector pos by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12364](https://github.com/AliceO2Group/AliceO2/pull/12364) 2023-12-01: [CTP] Add digit reader workflow by [@mfasDa](https://github.com/mfasDa)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+	- [\#12373](https://github.com/AliceO2Group/AliceO2/pull/12373) 2023-12-03: [MRRTF-220] Use statusmap (badchannels+rejectlist) by default by [@aphecetche](https://github.com/aphecetche)
 	- [\#12376](https://github.com/AliceO2Group/AliceO2/pull/12376) 2023-12-01: Make sure PID is propagated to all global track params. by [@shahor02](https://github.com/shahor02)
 	- [\#12380](https://github.com/AliceO2Group/AliceO2/pull/12380) 2023-12-02: TPC: Add lumi source to CorrMapParam by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12381](https://github.com/AliceO2Group/AliceO2/pull/12381) 2023-12-01: SVertexer: remove double param print by [@f3sch](https://github.com/f3sch)
