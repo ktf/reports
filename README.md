@@ -61,6 +61,7 @@
 	- [\#12348](https://github.com/AliceO2Group/AliceO2/pull/12348) 2023-12-02: Mantain the nextROF bit information by [@mpuccio](https://github.com/mpuccio)
 	- [\#12349](https://github.com/AliceO2Group/AliceO2/pull/12349) 2023-11-29: Change logging for readability by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12350](https://github.com/AliceO2Group/AliceO2/pull/12350) 2023-11-29: Fix more enums used as int for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12353](https://github.com/AliceO2Group/AliceO2/pull/12353) 2023-12-03: Fix more enums used as integers by [@ktf](https://github.com/ktf)
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
