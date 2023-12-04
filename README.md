@@ -75,7 +75,6 @@
 	- [\#12384](https://github.com/AliceO2Group/AliceO2/pull/12384) 2023-12-02: Store pTs of same track different versions by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12290](https://github.com/AliceO2Group/AliceO2/pull/12290) 2023-11-24: Add writer for 2D array string case by [@njacazio](https://github.com/njacazio)
 	- [\#12297](https://github.com/AliceO2Group/AliceO2/pull/12297) 2023-11-24: DPL Analysis: adding extra AOD origins by [@aalkin](https://github.com/aalkin)
 	- [\#12298](https://github.com/AliceO2Group/AliceO2/pull/12298) 2023-11-24: DPL: cleanups by [@aalkin](https://github.com/aalkin)
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
