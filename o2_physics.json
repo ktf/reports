@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-24T14:29:06Z",
-            "title": "PWGHF: Improve tree creator for Omega_c with ST",
-            "number": 3956,
-            "author": {
-              "login": "qgp"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/treeCreatorOmegacSt.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-11-23T22:33:01Z",
-            "title": "PWGEM/PhotonMeson: update for relaxed v0 cut",
-            "number": 3957,
-            "author": {
-              "login": "dsekihat"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/CutsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryElectron.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerPrimaryMuon.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/dalitzEEQC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/pcmQCMC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-24T06:21:53Z",
             "title": "PWGEM/PhotonMeson: add protection for mass",
             "number": 3958,
@@ -3100,6 +3030,16 @@
               "edges": [
                 {
                   "node": {
+                    "path": "Common/Core/TableHelper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Core/TableHelper.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "Common/TableProducer/PID/pidTOFBase.cxx"
                   }
                 }
@@ -3191,6 +3131,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/straRecoStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: add histograms and change filter-->testbit in toXiPi task",
+            "number": 4056,
+            "author": {
+              "login": "ZFederica"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateCreatorToXiPi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPG: add TOF selection",
+            "number": 4057,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/perfK0sResolution.cxx"
                   }
                 }
               ]
