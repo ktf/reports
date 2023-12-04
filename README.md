@@ -95,7 +95,6 @@
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Generators
-	- [\#12293](https://github.com/AliceO2Group/AliceO2/pull/12293) 2023-11-21: Fix coding convention by [@ktf](https://github.com/ktf)
 	- [\#12295](https://github.com/AliceO2Group/AliceO2/pull/12295) 2023-11-22: Fix brace coding convention by [@sawenzel](https://github.com/sawenzel)
 	- [\#12299](https://github.com/AliceO2Group/AliceO2/pull/12299) 2023-11-23: test generator only when building with simulation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
