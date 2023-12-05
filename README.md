@@ -75,7 +75,6 @@
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12298](https://github.com/AliceO2Group/AliceO2/pull/12298) 2023-11-24: DPL: cleanups by [@aalkin](https://github.com/aalkin)
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12305](https://github.com/AliceO2Group/AliceO2/pull/12305) 2023-11-23: DPL: add edge validator for expendable tasks by [@ktf](https://github.com/ktf)
 	- [\#12306](https://github.com/AliceO2Group/AliceO2/pull/12306) 2023-11-24: DPL: edge validator for Lifetime::Sporadic by [@ktf](https://github.com/ktf)
