@@ -74,6 +74,7 @@
 	- [\#12384](https://github.com/AliceO2Group/AliceO2/pull/12384) 2023-12-02: Store pTs of same track different versions by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
+	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 	- [\#12303](https://github.com/AliceO2Group/AliceO2/pull/12303) 2023-11-28: Adding MFT cluster size to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
@@ -92,12 +93,14 @@
 	- [\#12370](https://github.com/AliceO2Group/AliceO2/pull/12370) 2023-12-04: DPL: better message when child dies by [@ktf](https://github.com/ktf)
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
+	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12299](https://github.com/AliceO2Group/AliceO2/pull/12299) 2023-11-23: test generator only when building with simulation by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12300](https://github.com/AliceO2Group/AliceO2/pull/12300) 2023-11-27: TPC: Adding loading of distortions maps from CCDB for MC by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
+	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
 	- [\#12301](https://github.com/AliceO2Group/AliceO2/pull/12301) 2023-11-23: SHM Tool: Support configuring refCount size by [@davidrohr](https://github.com/davidrohr)
@@ -107,4 +110,5 @@
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12377](https://github.com/AliceO2Group/AliceO2/pull/12377) 2023-12-04: Make sure Mergers always use Lifetime::Sporadic by [@knopers8](https://github.com/knopers8)
 	- [\#12386](https://github.com/AliceO2Group/AliceO2/pull/12386) 2023-12-02: SHM tool: allow value of 0 for rc segment by [@davidrohr](https://github.com/davidrohr)
+	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
