@@ -86,6 +86,7 @@
 	- [\#12318](https://github.com/AliceO2Group/AliceO2/pull/12318) 2023-11-24: DPL: fixes for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12320](https://github.com/AliceO2Group/AliceO2/pull/12320) 2023-11-25: DPL: more operator== ambiguities fixed by [@ktf](https://github.com/ktf)
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
+	- [\#12329](https://github.com/AliceO2Group/AliceO2/pull/12329) 2023-12-06: DPL Analysis: consolidate slicing methods by [@aalkin](https://github.com/aalkin)
 	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
