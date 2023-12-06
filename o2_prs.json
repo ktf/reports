@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "[WIP] MCH: new ROF clustering method",
-            "number": 12302,
-            "author": {
-              "login": "aferrero2707"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/ROFTimeClusterFinderV2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterFinderSpecV2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/include/MCHTimeClustering/TimeClusterizerParamV2.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/MCHTimeClusteringLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/ROFTimeClusterFinder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/ROFTimeClusterFinderV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/TimeClusterFinderSpecV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/TimeClusterizerParamV2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/TimeClustering/src/digits-to-timeclusters-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Workflow/src/reco-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-11-28T11:39:31Z",
             "title": "Adding MFT cluster size to AO2D",
@@ -4166,6 +4096,46 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MCH: add some getDsIndices convenience functions",
+            "number": 12406,
+            "author": {
+              "login": "aphecetche"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/GlobalMapping/include/MCHGlobalMapping/DsIndex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/GlobalMapping/include/MCHGlobalMapping/Mapper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/GlobalMapping/src/DsIndex.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/GlobalMapping/src/Mapper.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/GlobalMapping/src/testGlobalMapper.cxx"
                   }
                 }
               ]
