@@ -28,7 +28,6 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12307](https://github.com/AliceO2Group/AliceO2/pull/12307) 2023-11-23: ZDC bugfix: zdc calib is sporadic, since it does not send every TF by [@davidrohr](https://github.com/davidrohr)
 	- [\#12308](https://github.com/AliceO2Group/AliceO2/pull/12308) 2023-11-28: Use a consistent unique FEE ID for MID by [@dstocco](https://github.com/dstocco)
 	- [\#12309](https://github.com/AliceO2Group/AliceO2/pull/12309) 2023-11-28: Improve dumping and debugging utilities for MID raw data by [@dstocco](https://github.com/dstocco)
 	- [\#12310](https://github.com/AliceO2Group/AliceO2/pull/12310) 2023-11-29: Also write cathode in the generated json file with MID mapping for muonview by [@dstocco](https://github.com/dstocco)
