@@ -66,6 +66,7 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12384](https://github.com/AliceO2Group/AliceO2/pull/12384) 2023-12-02: Store pTs of same track different versions by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
+	- [\#12391](https://github.com/AliceO2Group/AliceO2/pull/12391) 2023-12-07: Hmpid fix decoder bug by [@fapfap69](https://github.com/fapfap69)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
