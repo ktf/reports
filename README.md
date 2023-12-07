@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 ## Recent developments in O2 - Common
-	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
@@ -27,7 +26,6 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12313](https://github.com/AliceO2Group/AliceO2/pull/12313) 2023-11-24: add missing includes by [@sawenzel](https://github.com/sawenzel)
 	- [\#12314](https://github.com/AliceO2Group/AliceO2/pull/12314) 2023-11-24: TPC Time Series Bugfix: InputSpec was TimeFrame lifetime, while output was sporadic + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12319](https://github.com/AliceO2Group/AliceO2/pull/12319) 2023-12-01: TRD: Implementation of DCS Chamber Status processing and DPs update by [@leo-barreto](https://github.com/leo-barreto)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
