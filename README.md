@@ -70,6 +70,7 @@
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
+	- [\#12402](https://github.com/AliceO2Group/AliceO2/pull/12402) 2023-12-07: Add possibility to chain Trees in sub dirs of a file by [@wiechula](https://github.com/wiechula)
 	- [\#12411](https://github.com/AliceO2Group/AliceO2/pull/12411) 2023-12-07: FIT: Make digitizer config params non-static to make them usable by [@andreasmolander](https://github.com/andreasmolander)
 ## Recent developments in O2 - Framework
 	- [\#12315](https://github.com/AliceO2Group/AliceO2/pull/12315) 2023-11-24: DPL: Improve debugging of bad topologies. by [@ktf](https://github.com/ktf)
