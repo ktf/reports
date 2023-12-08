@@ -4,6 +4,7 @@
 	- [\#12322](https://github.com/AliceO2Group/AliceO2/pull/12322) 2023-11-25: Fix more ambiguous operators by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
+	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
@@ -87,6 +88,7 @@
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12404](https://github.com/AliceO2Group/AliceO2/pull/12404) 2023-12-06: DPL: improve crash reason message by [@ktf](https://github.com/ktf)
+	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
