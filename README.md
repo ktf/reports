@@ -4,6 +4,7 @@
 	- [\#12322](https://github.com/AliceO2Group/AliceO2/pull/12322) 2023-11-25: Fix more ambiguous operators by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
+	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12330](https://github.com/AliceO2Group/AliceO2/pull/12330) 2023-11-27: C++20 fixes by [@ktf](https://github.com/ktf)
@@ -69,7 +70,9 @@
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12402](https://github.com/AliceO2Group/AliceO2/pull/12402) 2023-12-07: Add possibility to chain Trees in sub dirs of a file by [@wiechula](https://github.com/wiechula)
+	- [\#12406](https://github.com/AliceO2Group/AliceO2/pull/12406) 2023-12-08: MCH: add some getDsIndices convenience functions by [@aphecetche](https://github.com/aphecetche)
 	- [\#12411](https://github.com/AliceO2Group/AliceO2/pull/12411) 2023-12-07: FIT: Make digitizer config params non-static to make them usable by [@andreasmolander](https://github.com/andreasmolander)
+	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 	- [\#12315](https://github.com/AliceO2Group/AliceO2/pull/12315) 2023-11-24: DPL: Improve debugging of bad topologies. by [@ktf](https://github.com/ktf)
 	- [\#12316](https://github.com/AliceO2Group/AliceO2/pull/12316) 2023-11-24: DPL: introduce "resilient" tasks by [@ktf](https://github.com/ktf)
@@ -85,6 +88,7 @@
 	- [\#12370](https://github.com/AliceO2Group/AliceO2/pull/12370) 2023-12-04: DPL: better message when child dies by [@ktf](https://github.com/ktf)
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
+	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12403](https://github.com/AliceO2Group/AliceO2/pull/12403) 2023-12-08: DPL Analysis: fix adjustTopology to accept new AOD origins by [@aalkin](https://github.com/aalkin)
