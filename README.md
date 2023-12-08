@@ -28,7 +28,6 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12319](https://github.com/AliceO2Group/AliceO2/pull/12319) 2023-12-01: TRD: Implementation of DCS Chamber Status processing and DPs update by [@leo-barreto](https://github.com/leo-barreto)
 	- [\#12324](https://github.com/AliceO2Group/AliceO2/pull/12324) 2023-11-27: Multiple fixes for NANs and fits stabilites by [@shahor02](https://github.com/shahor02)
 	- [\#12325](https://github.com/AliceO2Group/AliceO2/pull/12325) 2023-11-27: FIT,TOF,TPC: Fixing sporadic/timeframe lifetimes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
