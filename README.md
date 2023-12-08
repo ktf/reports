@@ -73,7 +73,6 @@
 	- [\#12422](https://github.com/AliceO2Group/AliceO2/pull/12422) 2023-12-08: GRP DCS ignores deltas of subthreshold curr., set min delta to 0.2 by [@shahor02](https://github.com/shahor02)
 	- [\#12426](https://github.com/AliceO2Group/AliceO2/pull/12426) 2023-12-08: Remove irrelevant Lifetime::Timeframe in the filter InputSpec by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12329](https://github.com/AliceO2Group/AliceO2/pull/12329) 2023-12-06: DPL Analysis: consolidate slicing methods by [@aalkin](https://github.com/aalkin)
 	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
