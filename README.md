@@ -70,6 +70,7 @@
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12402](https://github.com/AliceO2Group/AliceO2/pull/12402) 2023-12-07: Add possibility to chain Trees in sub dirs of a file by [@wiechula](https://github.com/wiechula)
 	- [\#12406](https://github.com/AliceO2Group/AliceO2/pull/12406) 2023-12-08: MCH: add some getDsIndices convenience functions by [@aphecetche](https://github.com/aphecetche)
+	- [\#12408](https://github.com/AliceO2Group/AliceO2/pull/12408) 2023-12-08: propagating DeltaTime TOF-TPConlyTrack in TOF matching by [@noferini](https://github.com/noferini)
 	- [\#12411](https://github.com/AliceO2Group/AliceO2/pull/12411) 2023-12-07: FIT: Make digitizer config params non-static to make them usable by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
