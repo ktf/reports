@@ -93,6 +93,7 @@
 	- [\#12404](https://github.com/AliceO2Group/AliceO2/pull/12404) 2023-12-06: DPL: improve crash reason message by [@ktf](https://github.com/ktf)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
+	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
