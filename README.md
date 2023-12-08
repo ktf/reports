@@ -87,8 +87,10 @@
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
+	- [\#12403](https://github.com/AliceO2Group/AliceO2/pull/12403) 2023-12-08: DPL Analysis: fix adjustTopology to accept new AOD origins by [@aalkin](https://github.com/aalkin)
 	- [\#12404](https://github.com/AliceO2Group/AliceO2/pull/12404) 2023-12-06: DPL: improve crash reason message by [@ktf](https://github.com/ktf)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
+	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
