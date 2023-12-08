@@ -72,6 +72,7 @@
 	- [\#12408](https://github.com/AliceO2Group/AliceO2/pull/12408) 2023-12-08: propagating DeltaTime TOF-TPConlyTrack in TOF matching by [@noferini](https://github.com/noferini)
 	- [\#12411](https://github.com/AliceO2Group/AliceO2/pull/12411) 2023-12-07: FIT: Make digitizer config params non-static to make them usable by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
+	- [\#12422](https://github.com/AliceO2Group/AliceO2/pull/12422) 2023-12-08: GRP DCS ignores deltas of subthreshold curr., set min delta to 0.2 by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12323](https://github.com/AliceO2Group/AliceO2/pull/12323) 2023-11-25: DPL: fix ambiguous operator for C++20 by [@ktf](https://github.com/ktf)
 	- [\#12329](https://github.com/AliceO2Group/AliceO2/pull/12329) 2023-12-06: DPL Analysis: consolidate slicing methods by [@aalkin](https://github.com/aalkin)
