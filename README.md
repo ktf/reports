@@ -26,7 +26,6 @@
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12325](https://github.com/AliceO2Group/AliceO2/pull/12325) 2023-11-27: FIT,TOF,TPC: Fixing sporadic/timeframe lifetimes by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12326](https://github.com/AliceO2Group/AliceO2/pull/12326) 2023-11-27: Fix parenthesis bug by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 	- [\#12331](https://github.com/AliceO2Group/AliceO2/pull/12331) 2023-11-27: Misc fixes for C++20 by [@ktf](https://github.com/ktf)
