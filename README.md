@@ -12,6 +12,7 @@
 	- [\#12375](https://github.com/AliceO2Group/AliceO2/pull/12375) 2023-12-01: Fix field regex to re-enable 2T sims by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12385](https://github.com/AliceO2Group/AliceO2/pull/12385) 2023-12-02: Fix SimConfig to accept 0 field by [@shahor02](https://github.com/shahor02)
+	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 	- [\#12328](https://github.com/AliceO2Group/AliceO2/pull/12328) 2023-11-28: FT0Calibration: slewing added + some bugfixes for time offset calib by [@afurs](https://github.com/afurs)
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
