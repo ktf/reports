@@ -27,7 +27,6 @@
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12342](https://github.com/AliceO2Group/AliceO2/pull/12342) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12344](https://github.com/AliceO2Group/AliceO2/pull/12344) 2023-11-28: Fix N ITS clusters extraction in SVertexer by [@shahor02](https://github.com/shahor02)
@@ -73,7 +72,6 @@
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12339](https://github.com/AliceO2Group/AliceO2/pull/12339) 2023-11-30: DPL Analysis: allow 4-byte origin in table metadata by [@aalkin](https://github.com/aalkin)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
@@ -90,7 +88,6 @@
 	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
 	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
-	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Utilities
