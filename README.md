@@ -26,7 +26,6 @@
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12335](https://github.com/AliceO2Group/AliceO2/pull/12335) 2023-11-28: TPC: fix inconsistent lifetime for CalDet calibrations by [@wiechula](https://github.com/wiechula)
 	- [\#12336](https://github.com/AliceO2Group/AliceO2/pull/12336) 2023-11-27: Revert "Improve simulation reproducibility with Geant4" by [@sawenzel](https://github.com/sawenzel)
 	- [\#12340](https://github.com/AliceO2Group/AliceO2/pull/12340) 2023-12-01: FT0: Use dead channel map in digitizer by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12341](https://github.com/AliceO2Group/AliceO2/pull/12341) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
