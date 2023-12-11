@@ -70,6 +70,7 @@
 	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12422](https://github.com/AliceO2Group/AliceO2/pull/12422) 2023-12-08: GRP DCS ignores deltas of subthreshold curr., set min delta to 0.2 by [@shahor02](https://github.com/shahor02)
+	- [\#12425](https://github.com/AliceO2Group/AliceO2/pull/12425) 2023-12-11: STFDecoder accept new dataSpec format by [@martenole](https://github.com/martenole)
 	- [\#12426](https://github.com/AliceO2Group/AliceO2/pull/12426) 2023-12-08: Remove irrelevant Lifetime::Timeframe in the filter InputSpec by [@shahor02](https://github.com/shahor02)
 	- [\#12428](https://github.com/AliceO2Group/AliceO2/pull/12428) 2023-12-09: Pass option to geometry generation for matlut production by [@shahor02](https://github.com/shahor02)
 	- [\#12429](https://github.com/AliceO2Group/AliceO2/pull/12429) 2023-12-10: GPU: Make O2 compile with C++20 + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
