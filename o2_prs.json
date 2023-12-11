@@ -5,51 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-27T18:48:04Z",
-            "title": "Revert \"Improve simulation reproducibility with Geant4\"",
-            "number": 12336,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/Utils/include/CommonUtils/ConfigurationMacroHelper.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/include/DetectorsBase/VMCSeederService.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/Stack.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Base/src/VMCSeederService.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "run/O2SimDevice.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-28T12:35:37Z",
             "title": "CCDB fix: fetch headers to RequestContext when reading snapshot",
             "number": 12337,
@@ -4061,6 +4016,26 @@
                 {
                   "node": {
                     "path": "GPU/Workflow/src/gpu-reco-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix missing dictionary entry for o2::fv0::MCLabel",
+            "number": 12440,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/DataFormatsFV0LinkDef.h"
                   }
                 }
               ]
