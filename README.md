@@ -82,6 +82,7 @@
 	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12444](https://github.com/AliceO2Group/AliceO2/pull/12444) 2023-12-12: DPL: add test to verify query builder with Lifetime::timeframe by [@ktf](https://github.com/ktf)
+	- [\#12447](https://github.com/AliceO2Group/AliceO2/pull/12447) 2023-12-12: DPL: improve test to check for broken case in QC by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
