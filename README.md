@@ -64,6 +64,7 @@
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 	- [\#12446](https://github.com/AliceO2Group/AliceO2/pull/12446) 2023-12-12: Fix sign in AltroDecoder by [@ktf](https://github.com/ktf)
+	- [\#12454](https://github.com/AliceO2Group/AliceO2/pull/12454) 2023-12-12: ITS-TPC matching uses minTPCRow per sector + params from CCDB by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
