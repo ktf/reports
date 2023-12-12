@@ -4,6 +4,7 @@
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
+	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Common
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
 	- [\#12347](https://github.com/AliceO2Group/AliceO2/pull/12347) 2023-11-29: DPL: mark dummy sink as resilient to expendable task failures by [@ktf](https://github.com/ktf)
@@ -85,6 +86,7 @@
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
 	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
+	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Steer
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
