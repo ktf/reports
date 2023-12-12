@@ -28,7 +28,6 @@
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12342](https://github.com/AliceO2Group/AliceO2/pull/12342) 2023-11-28: C++20 fixes by [@ktf](https://github.com/ktf)
 	- [\#12344](https://github.com/AliceO2Group/AliceO2/pull/12344) 2023-11-28: Fix N ITS clusters extraction in SVertexer by [@shahor02](https://github.com/shahor02)
 	- [\#12345](https://github.com/AliceO2Group/AliceO2/pull/12345) 2023-11-28: Fix debug mode for vertecer pushed be mistake by [@shahor02](https://github.com/shahor02)
 	- [\#12346](https://github.com/AliceO2Group/AliceO2/pull/12346) 2023-11-29: Bring back seed-reproducible Geant4 simulation by [@sawenzel](https://github.com/sawenzel)
