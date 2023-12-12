@@ -28,6 +28,7 @@
 	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
+	- [\#12359](https://github.com/AliceO2Group/AliceO2/pull/12359) 2023-12-12: Beam supports wings by [@frmanso](https://github.com/frmanso)
 	- [\#12360](https://github.com/AliceO2Group/AliceO2/pull/12360) 2023-11-30: TPC: Fix wrong reporting of error by [@wiechula](https://github.com/wiechula)
 	- [\#12361](https://github.com/AliceO2Group/AliceO2/pull/12361) 2023-12-01: FIT: Base TOF for sim hits on hit pos instead of fixed detector pos by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12364](https://github.com/AliceO2Group/AliceO2/pull/12364) 2023-12-01: [CTP] Add digit reader workflow by [@mfasDa](https://github.com/mfasDa)
