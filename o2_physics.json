@@ -1996,7 +1996,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "PWGHF: Add tree creator in B0 reduced task",
+            "title": "PWGHF: Add tree creator in B0 reduced task + fix bug in Dmeson ML selection",
             "number": 4118,
             "author": {
               "login": "AlexBigO"
@@ -2005,7 +2005,17 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGHF/Core/SelectorCuts.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGHF/D2H/DataModel/ReducedDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/D2H/TableProducer/candidateSelectorB0ToDPiReduced.cxx"
                   }
                 },
                 {
