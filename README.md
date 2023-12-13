@@ -5,6 +5,7 @@
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
+	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
@@ -56,6 +57,7 @@
 	- [\#12411](https://github.com/AliceO2Group/AliceO2/pull/12411) 2023-12-07: FIT: Make digitizer config params non-static to make them usable by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
+	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12422](https://github.com/AliceO2Group/AliceO2/pull/12422) 2023-12-08: GRP DCS ignores deltas of subthreshold curr., set min delta to 0.2 by [@shahor02](https://github.com/shahor02)
 	- [\#12425](https://github.com/AliceO2Group/AliceO2/pull/12425) 2023-12-11: STFDecoder accept new dataSpec format by [@martenole](https://github.com/martenole)
 	- [\#12426](https://github.com/AliceO2Group/AliceO2/pull/12426) 2023-12-08: Remove irrelevant Lifetime::Timeframe in the filter InputSpec by [@shahor02](https://github.com/shahor02)
@@ -86,6 +88,7 @@
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
 	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
+	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12436](https://github.com/AliceO2Group/AliceO2/pull/12436) 2023-12-13: [O2-4486] DPL Analysis: fix for string labeled array + update tests by [@aalkin](https://github.com/aalkin)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
