@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-11-29T17:26:40Z",
-            "title": "fixing rare condition when reading tof calib correction",
-            "number": 12356,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/src/CalibTimeSlewingParamTOF.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-29T20:43:17Z",
             "title": "Add missing include for newer compilers",
             "number": 12357,
@@ -4171,6 +4151,26 @@
                 {
                   "node": {
                     "path": "Detectors/ITSMFT/common/workflow/src/deadmap-builder-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Critical fix for TPC track output, remove all tracks that failed the fit",
+            "number": 12460,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
                   }
                 }
               ]

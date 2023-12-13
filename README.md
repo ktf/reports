@@ -15,7 +15,6 @@
 	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12365](https://github.com/AliceO2Group/AliceO2/pull/12365) 2023-12-04: Updates to ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
@@ -26,7 +25,6 @@
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12356](https://github.com/AliceO2Group/AliceO2/pull/12356) 2023-11-29: fixing rare condition when reading tof calib correction by [@noferini](https://github.com/noferini)
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12359](https://github.com/AliceO2Group/AliceO2/pull/12359) 2023-12-12: Beam supports wings by [@frmanso](https://github.com/frmanso)
