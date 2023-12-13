@@ -6,6 +6,7 @@
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
+	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
 	- [\#12375](https://github.com/AliceO2Group/AliceO2/pull/12375) 2023-12-01: Fix field regex to re-enable 2T sims by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12378](https://github.com/AliceO2Group/AliceO2/pull/12378) 2023-12-13: PDG: Add XiC0 to replace XiCZero by [@vkucera](https://github.com/vkucera)
@@ -23,6 +24,7 @@
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
+	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
 	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
@@ -62,6 +64,7 @@
 	- [\#12433](https://github.com/AliceO2Group/AliceO2/pull/12433) 2023-12-11: Fix error message by [@ktf](https://github.com/ktf)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
+	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12446](https://github.com/AliceO2Group/AliceO2/pull/12446) 2023-12-12: Fix sign in AltroDecoder by [@ktf](https://github.com/ktf)
 	- [\#12454](https://github.com/AliceO2Group/AliceO2/pull/12454) 2023-12-12: ITS-TPC matching uses minTPCRow per sector + params from CCDB by [@shahor02](https://github.com/shahor02)
 	- [\#12455](https://github.com/AliceO2Group/AliceO2/pull/12455) 2023-12-13: TPC residual extraction: add protection by [@martenole](https://github.com/martenole)
@@ -85,6 +88,7 @@
 	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12436](https://github.com/AliceO2Group/AliceO2/pull/12436) 2023-12-13: [O2-4486] DPL Analysis: fix for string labeled array + update tests by [@aalkin](https://github.com/aalkin)
+	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12444](https://github.com/AliceO2Group/AliceO2/pull/12444) 2023-12-12: DPL: add test to verify query builder with Lifetime::timeframe by [@ktf](https://github.com/ktf)
 	- [\#12447](https://github.com/AliceO2Group/AliceO2/pull/12447) 2023-12-12: DPL: improve test to check for broken case in QC by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
