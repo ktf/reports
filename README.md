@@ -68,6 +68,7 @@
 	- [\#12456](https://github.com/AliceO2Group/AliceO2/pull/12456) 2023-12-12: Fix missing argument in logging statement by [@ktf](https://github.com/ktf)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
 ## Recent developments in O2 - Framework
 	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
 	- [\#12370](https://github.com/AliceO2Group/AliceO2/pull/12370) 2023-12-04: DPL: better message when child dies by [@ktf](https://github.com/ktf)
