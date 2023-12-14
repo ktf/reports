@@ -28,7 +28,6 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12357](https://github.com/AliceO2Group/AliceO2/pull/12357) 2023-11-29: Add missing include for newer compilers by [@wiechula](https://github.com/wiechula)
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12359](https://github.com/AliceO2Group/AliceO2/pull/12359) 2023-12-12: Beam supports wings by [@frmanso](https://github.com/frmanso)
 	- [\#12360](https://github.com/AliceO2Group/AliceO2/pull/12360) 2023-11-30: TPC: Fix wrong reporting of error by [@wiechula](https://github.com/wiechula)
