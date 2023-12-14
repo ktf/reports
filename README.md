@@ -71,6 +71,7 @@
 	- [\#12455](https://github.com/AliceO2Group/AliceO2/pull/12455) 2023-12-13: TPC residual extraction: add protection by [@martenole](https://github.com/martenole)
 	- [\#12456](https://github.com/AliceO2Group/AliceO2/pull/12456) 2023-12-12: Fix missing argument in logging statement by [@ktf](https://github.com/ktf)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
+	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Framework
 	- [\#12358](https://github.com/AliceO2Group/AliceO2/pull/12358) 2023-12-02: Adding MFT cluster sizes and tracks flags to AO2D by [@lucamicheletti93](https://github.com/lucamicheletti93)
 	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
