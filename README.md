@@ -63,6 +63,7 @@
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12446](https://github.com/AliceO2Group/AliceO2/pull/12446) 2023-12-12: Fix sign in AltroDecoder by [@ktf](https://github.com/ktf)
+	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 	- [\#12454](https://github.com/AliceO2Group/AliceO2/pull/12454) 2023-12-12: ITS-TPC matching uses minTPCRow per sector + params from CCDB by [@shahor02](https://github.com/shahor02)
 	- [\#12455](https://github.com/AliceO2Group/AliceO2/pull/12455) 2023-12-13: TPC residual extraction: add protection by [@martenole](https://github.com/martenole)
 	- [\#12456](https://github.com/AliceO2Group/AliceO2/pull/12456) 2023-12-12: Fix missing argument in logging statement by [@ktf](https://github.com/ktf)
@@ -93,6 +94,7 @@
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12449](https://github.com/AliceO2Group/AliceO2/pull/12449) 2023-12-12: Re-enable caching property in BasicCCDBManager for digitization by [@sawenzel](https://github.com/sawenzel)
+	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12377](https://github.com/AliceO2Group/AliceO2/pull/12377) 2023-12-04: Make sure Mergers always use Lifetime::Sporadic by [@knopers8](https://github.com/knopers8)
