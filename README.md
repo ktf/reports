@@ -26,7 +26,6 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12360](https://github.com/AliceO2Group/AliceO2/pull/12360) 2023-11-30: TPC: Fix wrong reporting of error by [@wiechula](https://github.com/wiechula)
 	- [\#12361](https://github.com/AliceO2Group/AliceO2/pull/12361) 2023-12-01: FIT: Base TOF for sim hits on hit pos instead of fixed detector pos by [@andreasmolander](https://github.com/andreasmolander)
 	- [\#12364](https://github.com/AliceO2Group/AliceO2/pull/12364) 2023-12-01: [CTP] Add digit reader workflow by [@mfasDa](https://github.com/mfasDa)
 	- [\#12365](https://github.com/AliceO2Group/AliceO2/pull/12365) 2023-12-04: Updates to ZDC reconstruction by [@cortesep](https://github.com/cortesep)
