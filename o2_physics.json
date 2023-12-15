@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-05T11:09:39Z",
-            "title": "EventFiltering: add tag as generic signal from BDT (no prompt or nonprompt)",
-            "number": 4072,
-            "author": {
-              "login": "fgrosa"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterCharmHadronSignals.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGHF/HFFilterHelpers.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-05T11:36:57Z",
             "title": "PWGDQ: small fixes to JPsi-HF task",
             "number": 4073,
@@ -2546,6 +2516,31 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/nuclei_in_jets.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Adjust code to rename candidateSelectorLcMl -> candidateSelectorLcPidMl",
+            "number": 4172,
+            "author": {
+              "login": "saganatt"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/candidateSelectorLcPidMl.cxx"
                   }
                 }
               ]
