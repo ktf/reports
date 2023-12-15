@@ -67,6 +67,7 @@
 	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
 	- [\#12468](https://github.com/AliceO2Group/AliceO2/pull/12468) 2023-12-15: Fix PID assumption for TPC extra-/interpolation by [@martenole](https://github.com/martenole)
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#12473](https://github.com/AliceO2Group/AliceO2/pull/12473) 2023-12-15: Fixes for ITS/MFT dead map builder by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12370](https://github.com/AliceO2Group/AliceO2/pull/12370) 2023-12-04: DPL: better message when child dies by [@ktf](https://github.com/ktf)
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
