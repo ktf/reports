@@ -71,7 +71,6 @@
 	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
 ## Recent developments in O2 - Framework
-	- [\#12363](https://github.com/AliceO2Group/AliceO2/pull/12363) 2023-12-01: DPL: add support for Lifetime::sporadic to query builder by [@ktf](https://github.com/ktf)
 	- [\#12370](https://github.com/AliceO2Group/AliceO2/pull/12370) 2023-12-04: DPL: better message when child dies by [@ktf](https://github.com/ktf)
 	- [\#12372](https://github.com/AliceO2Group/AliceO2/pull/12372) 2023-11-30: DPL: ignored inputs are "Sporadic" by construction. by [@ktf](https://github.com/ktf)
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
