@@ -26,7 +26,6 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12366](https://github.com/AliceO2Group/AliceO2/pull/12366) 2023-12-07: Store ref vDrift with TPC residuals by [@martenole](https://github.com/martenole)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12373](https://github.com/AliceO2Group/AliceO2/pull/12373) 2023-12-03: [MRRTF-220] Use statusmap (badchannels+rejectlist) by default by [@aphecetche](https://github.com/aphecetche)
 	- [\#12376](https://github.com/AliceO2Group/AliceO2/pull/12376) 2023-12-01: Make sure PID is propagated to all global track params. by [@shahor02](https://github.com/shahor02)
