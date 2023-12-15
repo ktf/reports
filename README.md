@@ -17,7 +17,6 @@
 	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
-	- [\#12365](https://github.com/AliceO2Group/AliceO2/pull/12365) 2023-12-04: Updates to ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12380](https://github.com/AliceO2Group/AliceO2/pull/12380) 2023-12-02: TPC: Add lumi source to CorrMapParam by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
@@ -27,7 +26,6 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Detectors
-	- [\#12365](https://github.com/AliceO2Group/AliceO2/pull/12365) 2023-12-04: Updates to ZDC reconstruction by [@cortesep](https://github.com/cortesep)
 	- [\#12366](https://github.com/AliceO2Group/AliceO2/pull/12366) 2023-12-07: Store ref vDrift with TPC residuals by [@martenole](https://github.com/martenole)
 	- [\#12368](https://github.com/AliceO2Group/AliceO2/pull/12368) 2023-12-01: Include SOR when calculating IR by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12373](https://github.com/AliceO2Group/AliceO2/pull/12373) 2023-12-03: [MRRTF-220] Use statusmap (badchannels+rejectlist) by default by [@aphecetche](https://github.com/aphecetche)
