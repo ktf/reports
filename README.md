@@ -16,6 +16,7 @@
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
+	- [\#12461](https://github.com/AliceO2Group/AliceO2/pull/12461) 2023-12-16: TPC: Add missing include by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - DataFormats
 	- [\#12380](https://github.com/AliceO2Group/AliceO2/pull/12380) 2023-12-02: TPC: Add lumi source to CorrMapParam by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
@@ -25,6 +26,7 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 	- [\#12373](https://github.com/AliceO2Group/AliceO2/pull/12373) 2023-12-03: [MRRTF-220] Use statusmap (badchannels+rejectlist) by default by [@aphecetche](https://github.com/aphecetche)
 	- [\#12376](https://github.com/AliceO2Group/AliceO2/pull/12376) 2023-12-01: Make sure PID is propagated to all global track params. by [@shahor02](https://github.com/shahor02)
@@ -65,8 +67,10 @@
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
+	- [\#12466](https://github.com/AliceO2Group/AliceO2/pull/12466) 2023-12-16: Throw if svertexing with global tracks requested w/o asking TPC tracks. by [@shahor02](https://github.com/shahor02)
 	- [\#12468](https://github.com/AliceO2Group/AliceO2/pull/12468) 2023-12-15: Fix PID assumption for TPC extra-/interpolation by [@martenole](https://github.com/martenole)
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 	- [\#12473](https://github.com/AliceO2Group/AliceO2/pull/12473) 2023-12-15: Fixes for ITS/MFT dead map builder by [@shahor02](https://github.com/shahor02)
 	- [\#12475](https://github.com/AliceO2Group/AliceO2/pull/12475) 2023-12-16: Fix conflict: avoid device options with generic names in the workflow… by [@shahor02](https://github.com/shahor02)
 	- [\#12476](https://github.com/AliceO2Group/AliceO2/pull/12476) 2023-12-16: Eliminate new conflict in the option names by [@shahor02](https://github.com/shahor02)
