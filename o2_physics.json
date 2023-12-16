@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-05T19:24:02Z",
-            "title": "Split trk cov",
-            "number": 4080,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/QC/lfpropStudy.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-05T19:45:02Z",
             "title": "Add MC check",
             "number": 4081,
@@ -2531,6 +2511,36 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetfinderQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE+EM: Add EMCal ambiguous collision table and include in QC task",
+            "number": 4180,
+            "author": {
+              "login": "nstrangm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGEM/PhotonMeson/Tasks/emcalPi0QC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/EMCALMatchedCollisions.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
                   }
                 }
               ]
