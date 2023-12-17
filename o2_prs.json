@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-03T17:22:53Z",
-            "title": "[MRRTF-220] Use statusmap (badchannels+rejectlist) by default",
-            "number": 12373,
-            "author": {
-              "login": "aphecetche"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitFilterParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Status/include/MCHStatus/StatusMapCreatorParam.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-11-30T22:27:08Z",
             "title": " DPL: add temporary workaround to disable lifetime check via env variable @davidrohr",
             "number": 12374,
@@ -3976,6 +3951,26 @@
                 {
                   "node": {
                     "path": "Detectors/MUON/MID/Workflow/src/decoded-digits-writer-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "fix for TOF calib",
+            "number": 12477,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
                   }
                 }
               ]
