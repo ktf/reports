@@ -73,6 +73,7 @@
 	- [\#12473](https://github.com/AliceO2Group/AliceO2/pull/12473) 2023-12-15: Fixes for ITS/MFT dead map builder by [@shahor02](https://github.com/shahor02)
 	- [\#12475](https://github.com/AliceO2Group/AliceO2/pull/12475) 2023-12-16: Fix conflict: avoid device options with generic names in the workflow… by [@shahor02](https://github.com/shahor02)
 	- [\#12476](https://github.com/AliceO2Group/AliceO2/pull/12476) 2023-12-16: Eliminate new conflict in the option names by [@shahor02](https://github.com/shahor02)
+	- [\#12477](https://github.com/AliceO2Group/AliceO2/pull/12477) 2023-12-17: fix for TOF calib by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
