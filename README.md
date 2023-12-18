@@ -58,6 +58,7 @@
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12446](https://github.com/AliceO2Group/AliceO2/pull/12446) 2023-12-12: Fix sign in AltroDecoder by [@ktf](https://github.com/ktf)
+	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12452](https://github.com/AliceO2Group/AliceO2/pull/12452) 2023-12-14: Shared clusters, found clusters and crossed rows TASK for TPC QC by [@lauraser](https://github.com/lauraser)
 	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 	- [\#12454](https://github.com/AliceO2Group/AliceO2/pull/12454) 2023-12-12: ITS-TPC matching uses minTPCRow per sector + params from CCDB by [@shahor02](https://github.com/shahor02)
@@ -92,6 +93,7 @@
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12444](https://github.com/AliceO2Group/AliceO2/pull/12444) 2023-12-12: DPL: add test to verify query builder with Lifetime::timeframe by [@ktf](https://github.com/ktf)
 	- [\#12447](https://github.com/AliceO2Group/AliceO2/pull/12447) 2023-12-12: DPL: improve test to check for broken case in QC by [@ktf](https://github.com/ktf)
+	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
