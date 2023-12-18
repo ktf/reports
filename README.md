@@ -76,7 +76,6 @@
 	- [\#12476](https://github.com/AliceO2Group/AliceO2/pull/12476) 2023-12-16: Eliminate new conflict in the option names by [@shahor02](https://github.com/shahor02)
 	- [\#12477](https://github.com/AliceO2Group/AliceO2/pull/12477) 2023-12-17: fix for TOF calib by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
-	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
@@ -100,7 +99,6 @@
 	- [\#12449](https://github.com/AliceO2Group/AliceO2/pull/12449) 2023-12-12: Re-enable caching property in BasicCCDBManager for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
-	- [\#12374](https://github.com/AliceO2Group/AliceO2/pull/12374) 2023-11-30:  DPL: add temporary workaround to disable lifetime check via env variable @davidrohr by [@davidrohr](https://github.com/davidrohr)
 	- [\#12377](https://github.com/AliceO2Group/AliceO2/pull/12377) 2023-12-04: Make sure Mergers always use Lifetime::Sporadic by [@knopers8](https://github.com/knopers8)
 	- [\#12386](https://github.com/AliceO2Group/AliceO2/pull/12386) 2023-12-02: SHM tool: allow value of 0 for rc segment by [@davidrohr](https://github.com/davidrohr)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
