@@ -74,6 +74,7 @@
 	- [\#12475](https://github.com/AliceO2Group/AliceO2/pull/12475) 2023-12-16: Fix conflict: avoid device options with generic names in the workflow… by [@shahor02](https://github.com/shahor02)
 	- [\#12476](https://github.com/AliceO2Group/AliceO2/pull/12476) 2023-12-16: Eliminate new conflict in the option names by [@shahor02](https://github.com/shahor02)
 	- [\#12477](https://github.com/AliceO2Group/AliceO2/pull/12477) 2023-12-17: fix for TOF calib by [@noferini](https://github.com/noferini)
+	- [\#12478](https://github.com/AliceO2Group/AliceO2/pull/12478) 2023-12-19: Add workflow for ITS PID study by [@fmazzasc](https://github.com/fmazzasc)
 ## Recent developments in O2 - Framework
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
