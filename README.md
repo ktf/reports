@@ -8,7 +8,6 @@
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-	- [\#12378](https://github.com/AliceO2Group/AliceO2/pull/12378) 2023-12-13: PDG: Add XiC0 to replace XiCZero by [@vkucera](https://github.com/vkucera)
 	- [\#12379](https://github.com/AliceO2Group/AliceO2/pull/12379) 2023-12-14: PDG: Remove XiCZero by [@vkucera](https://github.com/vkucera)
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12385](https://github.com/AliceO2Group/AliceO2/pull/12385) 2023-12-02: Fix SimConfig to accept 0 field by [@shahor02](https://github.com/shahor02)
