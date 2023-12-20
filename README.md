@@ -24,6 +24,7 @@
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
+	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#12382](https://github.com/AliceO2Group/AliceO2/pull/12382) 2023-12-02: Multiple unrelated protections against FPE by [@shahor02](https://github.com/shahor02)
 	- [\#12384](https://github.com/AliceO2Group/AliceO2/pull/12384) 2023-12-02: Store pTs of same track different versions by [@shahor02](https://github.com/shahor02)
@@ -71,6 +72,7 @@
 	- [\#12476](https://github.com/AliceO2Group/AliceO2/pull/12476) 2023-12-16: Eliminate new conflict in the option names by [@shahor02](https://github.com/shahor02)
 	- [\#12477](https://github.com/AliceO2Group/AliceO2/pull/12477) 2023-12-17: fix for TOF calib by [@noferini](https://github.com/noferini)
 	- [\#12478](https://github.com/AliceO2Group/AliceO2/pull/12478) 2023-12-19: Add workflow for ITS PID study by [@fmazzasc](https://github.com/fmazzasc)
+	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
@@ -89,6 +91,7 @@
 	- [\#12444](https://github.com/AliceO2Group/AliceO2/pull/12444) 2023-12-12: DPL: add test to verify query builder with Lifetime::timeframe by [@ktf](https://github.com/ktf)
 	- [\#12447](https://github.com/AliceO2Group/AliceO2/pull/12447) 2023-12-12: DPL: improve test to check for broken case in QC by [@ktf](https://github.com/ktf)
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
+	- [\#12484](https://github.com/AliceO2Group/AliceO2/pull/12484) 2023-12-20: Fix CCDB DPL fetcher logging and refresh rate check by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Steer
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
