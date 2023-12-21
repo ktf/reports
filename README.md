@@ -24,7 +24,6 @@
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12384](https://github.com/AliceO2Group/AliceO2/pull/12384) 2023-12-02: Store pTs of same track different versions by [@shahor02](https://github.com/shahor02)
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12391](https://github.com/AliceO2Group/AliceO2/pull/12391) 2023-12-07: Hmpid fix decoder bug by [@fapfap69](https://github.com/fapfap69)
