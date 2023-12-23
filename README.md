@@ -69,6 +69,7 @@
 	- [\#12478](https://github.com/AliceO2Group/AliceO2/pull/12478) 2023-12-19: Add workflow for ITS PID study by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12488](https://github.com/AliceO2Group/AliceO2/pull/12488) 2023-12-21: TPC RefMap mean lumi allowed to be negative by [@shahor02](https://github.com/shahor02)
+	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
 	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
