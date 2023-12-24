@@ -1,7 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
@@ -23,7 +22,6 @@
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12388](https://github.com/AliceO2Group/AliceO2/pull/12388) 2023-12-04: Revert "TPC: Add lumi source to CorrMapParam" by [@shahor02](https://github.com/shahor02)
 	- [\#12391](https://github.com/AliceO2Group/AliceO2/pull/12391) 2023-12-07: Hmpid fix decoder bug by [@fapfap69](https://github.com/fapfap69)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
@@ -71,7 +69,6 @@
 	- [\#12488](https://github.com/AliceO2Group/AliceO2/pull/12488) 2023-12-21: TPC RefMap mean lumi allowed to be negative by [@shahor02](https://github.com/shahor02)
 	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
-	- [\#12387](https://github.com/AliceO2Group/AliceO2/pull/12387) 2023-12-12: TPC QA and PID information in the AO2D by [@miranov25](https://github.com/miranov25)
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
