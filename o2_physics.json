@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-11T17:53:44Z",
-            "title": "Update CMake for LF",
-            "number": 4130,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGLF/Tasks/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-12T08:38:04Z",
             "title": "PWGHF: fix cascade index in derived data production and adapt task toXiPi",
             "number": 4131,
@@ -2721,6 +2701,36 @@
                 {
                   "node": {
                     "path": "PWGCF/Tutorial/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fixed crash when merging",
+            "number": 4230,
+            "author": {
+              "login": "EmilGorm"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/FlowContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Core/GFWConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/GenericFramework/Tasks/flowGenericFramework.cxx"
                   }
                 }
               ]
