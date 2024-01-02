@@ -11,6 +11,7 @@
 	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12461](https://github.com/AliceO2Group/AliceO2/pull/12461) 2023-12-16: TPC: Add missing include by [@wiechula](https://github.com/wiechula)
+	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
@@ -20,6 +21,7 @@
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
+	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
 	- [\#12391](https://github.com/AliceO2Group/AliceO2/pull/12391) 2023-12-07: Hmpid fix decoder bug by [@fapfap69](https://github.com/fapfap69)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
