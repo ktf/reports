@@ -11,6 +11,7 @@
 	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12461](https://github.com/AliceO2Group/AliceO2/pull/12461) 2023-12-16: TPC: Add missing include by [@wiechula](https://github.com/wiechula)
+	- [\#12480](https://github.com/AliceO2Group/AliceO2/pull/12480) 2024-01-02: PDG: Update particle masses from ROOT v6-30-01-alice2 by [@vkucera](https://github.com/vkucera)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
@@ -96,3 +97,4 @@
 ## Recent developments in O2 - Utilities
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
+	- [\#12483](https://github.com/AliceO2Group/AliceO2/pull/12483) 2024-01-02: Adding a python utility to append GDML files with aux info by [@sawenzel](https://github.com/sawenzel)
