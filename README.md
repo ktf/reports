@@ -24,7 +24,6 @@
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12391](https://github.com/AliceO2Group/AliceO2/pull/12391) 2023-12-07: Hmpid fix decoder bug by [@fapfap69](https://github.com/fapfap69)
 	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
 	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
 	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)

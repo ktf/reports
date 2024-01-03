@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-07T12:30:13Z",
-            "title": "Hmpid fix decoder bug",
-            "number": 12391,
-            "author": {
-              "login": "fapfap69"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/reconstruction/src/HmpidDecoder2.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/HMPID/workflow/src/DataDecoderSpec2.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-05T10:53:23Z",
             "title": "DPL: explicit cast enum to float",
             "number": 12392,
@@ -4126,6 +4101,41 @@
                 {
                   "node": {
                     "path": "Detectors/CTP/workflowScalers/py/scalersCTP_v3.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Modif MCH Display + bad channels for DS",
+            "number": 12495,
+            "author": {
+              "login": "victorvalenciatorres"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Conditions/src/bad-channels-ccdb.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Contour/include/MCHContour/SVGWriter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Evaluation/CMakeLists.txt"
                   }
                 }
               ]
