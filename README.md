@@ -24,9 +24,6 @@
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12394](https://github.com/AliceO2Group/AliceO2/pull/12394) 2023-12-05: Align file-push consumers inputs to Sporadic sent by the proxy by [@shahor02](https://github.com/shahor02)
-	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
-	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12402](https://github.com/AliceO2Group/AliceO2/pull/12402) 2023-12-07: Add possibility to chain Trees in sub dirs of a file by [@wiechula](https://github.com/wiechula)
 	- [\#12406](https://github.com/AliceO2Group/AliceO2/pull/12406) 2023-12-08: MCH: add some getDsIndices convenience functions by [@aphecetche](https://github.com/aphecetche)
@@ -70,8 +67,6 @@
 	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 ## Recent developments in O2 - Framework
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
-	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
-	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12403](https://github.com/AliceO2Group/AliceO2/pull/12403) 2023-12-08: DPL Analysis: fix adjustTopology to accept new AOD origins by [@aalkin](https://github.com/aalkin)
 	- [\#12404](https://github.com/AliceO2Group/AliceO2/pull/12404) 2023-12-06: DPL: improve crash reason message by [@ktf](https://github.com/ktf)
@@ -88,12 +83,8 @@
 	- [\#12484](https://github.com/AliceO2Group/AliceO2/pull/12484) 2023-12-20: Fix CCDB DPL fetcher logging and refresh rate check by [@shahor02](https://github.com/shahor02)
 	- [\#12492](https://github.com/AliceO2Group/AliceO2/pull/12492) 2023-12-31: DPL: ignore SIGUSR1 until we are ready to handle it by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
-	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
-	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12449](https://github.com/AliceO2Group/AliceO2/pull/12449) 2023-12-12: Re-enable caching property in BasicCCDBManager for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
-	- [\#12399](https://github.com/AliceO2Group/AliceO2/pull/12399) 2023-12-05: Remove default Lifetime::Timeframe when instanciating an Output by [@ktf](https://github.com/ktf)
-	- [\#12400](https://github.com/AliceO2Group/AliceO2/pull/12400) 2023-12-05: Remove Lifetime specification from Output by [@ktf](https://github.com/ktf)
 	- [\#12483](https://github.com/AliceO2Group/AliceO2/pull/12483) 2024-01-02: Adding a python utility to append GDML files with aux info by [@sawenzel](https://github.com/sawenzel)
