@@ -23,6 +23,7 @@
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
+	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12406](https://github.com/AliceO2Group/AliceO2/pull/12406) 2023-12-08: MCH: add some getDsIndices convenience functions by [@aphecetche](https://github.com/aphecetche)
@@ -63,6 +64,7 @@
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12488](https://github.com/AliceO2Group/AliceO2/pull/12488) 2023-12-21: TPC RefMap mean lumi allowed to be negative by [@shahor02](https://github.com/shahor02)
 	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
+	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
