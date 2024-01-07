@@ -1,8 +1,6 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
-	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
@@ -28,15 +26,10 @@
 	- [\#12496](https://github.com/AliceO2Group/AliceO2/pull/12496) 2024-01-06: Fixing typo in global forward covariance conversion by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - Detectors
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
-	- [\#12406](https://github.com/AliceO2Group/AliceO2/pull/12406) 2023-12-08: MCH: add some getDsIndices convenience functions by [@aphecetche](https://github.com/aphecetche)
-	- [\#12408](https://github.com/AliceO2Group/AliceO2/pull/12408) 2023-12-08: propagating DeltaTime TOF-TPConlyTrack in TOF matching by [@noferini](https://github.com/noferini)
 	- [\#12410](https://github.com/AliceO2Group/AliceO2/pull/12410) 2023-12-12: Deep clear vectors of the timeframes by [@mpuccio](https://github.com/mpuccio)
-	- [\#12415](https://github.com/AliceO2Group/AliceO2/pull/12415) 2023-12-08: AODPRODUCER: disable propagation to PV for SV by [@f3sch](https://github.com/f3sch)
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
-	- [\#12422](https://github.com/AliceO2Group/AliceO2/pull/12422) 2023-12-08: GRP DCS ignores deltas of subthreshold curr., set min delta to 0.2 by [@shahor02](https://github.com/shahor02)
 	- [\#12425](https://github.com/AliceO2Group/AliceO2/pull/12425) 2023-12-11: STFDecoder accept new dataSpec format by [@martenole](https://github.com/martenole)
-	- [\#12426](https://github.com/AliceO2Group/AliceO2/pull/12426) 2023-12-08: Remove irrelevant Lifetime::Timeframe in the filter InputSpec by [@shahor02](https://github.com/shahor02)
 	- [\#12428](https://github.com/AliceO2Group/AliceO2/pull/12428) 2023-12-09: Pass option to geometry generation for matlut production by [@shahor02](https://github.com/shahor02)
 	- [\#12429](https://github.com/AliceO2Group/AliceO2/pull/12429) 2023-12-10: GPU: Make O2 compile with C++20 + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12433](https://github.com/AliceO2Group/AliceO2/pull/12433) 2023-12-11: Fix error message by [@ktf](https://github.com/ktf)
@@ -69,12 +62,7 @@
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
-	- [\#12393](https://github.com/AliceO2Group/AliceO2/pull/12393) 2023-12-08: Add asArrowTable() to Partition by [@saganatt](https://github.com/saganatt)
 	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
-	- [\#12403](https://github.com/AliceO2Group/AliceO2/pull/12403) 2023-12-08: DPL Analysis: fix adjustTopology to accept new AOD origins by [@aalkin](https://github.com/aalkin)
-	- [\#12405](https://github.com/AliceO2Group/AliceO2/pull/12405) 2023-12-08: DPL Analysis: add PresliceOptional by [@aalkin](https://github.com/aalkin)
-	- [\#12416](https://github.com/AliceO2Group/AliceO2/pull/12416) 2023-12-08: DPL: exit with 128 + signal number when dying due to a signal by [@ktf](https://github.com/ktf)
-	- [\#12418](https://github.com/AliceO2Group/AliceO2/pull/12418) 2023-12-08: DPL Analysis: add PresliceOptional (#12405) - method should be marked const by [@aalkin](https://github.com/aalkin)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12436](https://github.com/AliceO2Group/AliceO2/pull/12436) 2023-12-13: [O2-4486] DPL Analysis: fix for string labeled array + update tests by [@aalkin](https://github.com/aalkin)
