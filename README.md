@@ -5,14 +5,11 @@
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Common
-	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
-	- [\#12424](https://github.com/AliceO2Group/AliceO2/pull/12424) 2023-12-09: [O2-4488] Fix wrong automatic inclusion of RHC in run3 simulation by [@mconcas](https://github.com/mconcas)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12461](https://github.com/AliceO2Group/AliceO2/pull/12461) 2023-12-16: TPC: Add missing include by [@wiechula](https://github.com/wiechula)
 	- [\#12480](https://github.com/AliceO2Group/AliceO2/pull/12480) 2024-01-02: PDG: Update particle masses from ROOT v6-30-01-alice2 by [@vkucera](https://github.com/vkucera)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
 	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
@@ -25,12 +22,10 @@
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 	- [\#12496](https://github.com/AliceO2Group/AliceO2/pull/12496) 2024-01-06: Fixing typo in global forward covariance conversion by [@mcoquet642](https://github.com/mcoquet642)
 ## Recent developments in O2 - Detectors
-	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12410](https://github.com/AliceO2Group/AliceO2/pull/12410) 2023-12-12: Deep clear vectors of the timeframes by [@mpuccio](https://github.com/mpuccio)
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12425](https://github.com/AliceO2Group/AliceO2/pull/12425) 2023-12-11: STFDecoder accept new dataSpec format by [@martenole](https://github.com/martenole)
-	- [\#12428](https://github.com/AliceO2Group/AliceO2/pull/12428) 2023-12-09: Pass option to geometry generation for matlut production by [@shahor02](https://github.com/shahor02)
 	- [\#12429](https://github.com/AliceO2Group/AliceO2/pull/12429) 2023-12-10: GPU: Make O2 compile with C++20 + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12433](https://github.com/AliceO2Group/AliceO2/pull/12433) 2023-12-11: Fix error message by [@ktf](https://github.com/ktf)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
@@ -62,7 +57,6 @@
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
-	- [\#12401](https://github.com/AliceO2Group/AliceO2/pull/12401) 2023-12-09: DPL: drop lifetime member from Output by [@ktf](https://github.com/ktf)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12436](https://github.com/AliceO2Group/AliceO2/pull/12436) 2023-12-13: [O2-4486] DPL Analysis: fix for string labeled array + update tests by [@aalkin](https://github.com/aalkin)
