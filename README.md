@@ -21,6 +21,7 @@
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 	- [\#12496](https://github.com/AliceO2Group/AliceO2/pull/12496) 2024-01-06: Fixing typo in global forward covariance conversion by [@mcoquet642](https://github.com/mcoquet642)
+	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 	- [\#12410](https://github.com/AliceO2Group/AliceO2/pull/12410) 2023-12-12: Deep clear vectors of the timeframes by [@mpuccio](https://github.com/mpuccio)
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
@@ -56,6 +57,7 @@
 	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
+	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
