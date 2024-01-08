@@ -54,6 +54,7 @@
 	- [\#12478](https://github.com/AliceO2Group/AliceO2/pull/12478) 2023-12-19: Add workflow for ITS PID study by [@fmazzasc](https://github.com/fmazzasc)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12488](https://github.com/AliceO2Group/AliceO2/pull/12488) 2023-12-21: TPC RefMap mean lumi allowed to be negative by [@shahor02](https://github.com/shahor02)
+	- [\#12489](https://github.com/AliceO2Group/AliceO2/pull/12489) 2024-01-08: ITS-GPU: Fixup for running on PbPb in async mode by [@mconcas](https://github.com/mconcas)
 	- [\#12490](https://github.com/AliceO2Group/AliceO2/pull/12490) 2023-12-23: [EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin… by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
