@@ -27,7 +27,6 @@
 	- [\#12420](https://github.com/AliceO2Group/AliceO2/pull/12420) 2023-12-11: Allow OB ITSonly by [@ddobrigk](https://github.com/ddobrigk)
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12425](https://github.com/AliceO2Group/AliceO2/pull/12425) 2023-12-11: STFDecoder accept new dataSpec format by [@martenole](https://github.com/martenole)
-	- [\#12429](https://github.com/AliceO2Group/AliceO2/pull/12429) 2023-12-10: GPU: Make O2 compile with C++20 + unrelated fixes by [@davidrohr](https://github.com/davidrohr)
 	- [\#12433](https://github.com/AliceO2Group/AliceO2/pull/12433) 2023-12-11: Fix error message by [@ktf](https://github.com/ktf)
 	- [\#12434](https://github.com/AliceO2Group/AliceO2/pull/12434) 2023-12-11: Seeding improvements for digitization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12440](https://github.com/AliceO2Group/AliceO2/pull/12440) 2023-12-11: Fix missing dictionary entry for o2::fv0::MCLabel by [@sawenzel](https://github.com/sawenzel)
