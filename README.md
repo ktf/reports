@@ -54,6 +54,7 @@
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
+	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Framework
 	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
 	- [\#12435](https://github.com/AliceO2Group/AliceO2/pull/12435) 2023-12-12: Add V0 type uint8_t (able to flag standard V0s vs cascade V0s) by [@ddobrigk](https://github.com/ddobrigk)
@@ -65,6 +66,7 @@
 	- [\#12484](https://github.com/AliceO2Group/AliceO2/pull/12484) 2023-12-20: Fix CCDB DPL fetcher logging and refresh rate check by [@shahor02](https://github.com/shahor02)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12492](https://github.com/AliceO2Group/AliceO2/pull/12492) 2023-12-31: DPL: ignore SIGUSR1 until we are ready to handle it by [@ktf](https://github.com/ktf)
+	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Steer
