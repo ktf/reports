@@ -5,41 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-17T10:45:37Z",
-            "title": "[PWGCF]: FemtoUniverse - Adding centrality to producer, renaming trackMultKt to trackMultKtExtended; FemtoWorld -  adding TOF beta histograms and sel7 to EfficiencyTask",
-            "number": 4182,
-            "author": {
-              "login": "basiach"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/Tasks/femtoUniversePairTaskTrackTrackMultKtExtended.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoWorld/Tasks/femtoWorldEfficiencyTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-19T08:25:14Z",
             "title": "[Event plane] fix bug",
             "number": 4183,
@@ -2911,6 +2876,26 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/strangederivedbuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add tpcNCls and eta information for QA check",
+            "number": 4282,
+            "author": {
+              "login": "chengtt0406"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTPC.cxx"
                   }
                 }
               ]
