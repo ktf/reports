@@ -61,5 +61,6 @@
 ## Recent developments in O2 - Steer
 	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
+	- [\#12509](https://github.com/AliceO2Group/AliceO2/pull/12509) 2024-01-12: Account for first-orbit in collision-context creation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
 	- [\#12483](https://github.com/AliceO2Group/AliceO2/pull/12483) 2024-01-02: Adding a python utility to append GDML files with aux info by [@sawenzel](https://github.com/sawenzel)
