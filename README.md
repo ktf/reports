@@ -1,16 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Analysis
-	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
-	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Common
 	- [\#12461](https://github.com/AliceO2Group/AliceO2/pull/12461) 2023-12-16: TPC: Add missing include by [@wiechula](https://github.com/wiechula)
 	- [\#12480](https://github.com/AliceO2Group/AliceO2/pull/12480) 2024-01-02: PDG: Update particle masses from ROOT v6-30-01-alice2 by [@vkucera](https://github.com/vkucera)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
-	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12471](https://github.com/AliceO2Group/AliceO2/pull/12471) 2023-12-15: ITS MFT deadmaps using std::map objects instrad of TTree  by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
@@ -24,13 +20,9 @@
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
-	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12452](https://github.com/AliceO2Group/AliceO2/pull/12452) 2023-12-14: Shared clusters, found clusters and crossed rows TASK for TPC QC by [@lauraser](https://github.com/lauraser)
 	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
-	- [\#12455](https://github.com/AliceO2Group/AliceO2/pull/12455) 2023-12-13: TPC residual extraction: add protection by [@martenole](https://github.com/martenole)
-	- [\#12458](https://github.com/AliceO2Group/AliceO2/pull/12458) 2023-12-13: Fix brown paperbag indexing by [@ktf](https://github.com/ktf)
 	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
@@ -56,9 +48,6 @@
 	- [\#12506](https://github.com/AliceO2Group/AliceO2/pull/12506) 2024-01-10: TPC: Adding scaler weights for 1D-distortion fluctuation correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12507](https://github.com/AliceO2Group/AliceO2/pull/12507) 2024-01-11: Pass TPC corr. scaling mode on all workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12421](https://github.com/AliceO2Group/AliceO2/pull/12421) 2023-12-13: Add MCH clusters to AO2Ds by [@javierecc](https://github.com/javierecc)
-	- [\#12436](https://github.com/AliceO2Group/AliceO2/pull/12436) 2023-12-13: [O2-4486] DPL Analysis: fix for string labeled array + update tests by [@aalkin](https://github.com/aalkin)
-	- [\#12443](https://github.com/AliceO2Group/AliceO2/pull/12443) 2023-12-13: Create and pass v0 flag to AOD by [@shahor02](https://github.com/shahor02)
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12484](https://github.com/AliceO2Group/AliceO2/pull/12484) 2023-12-20: Fix CCDB DPL fetcher logging and refresh rate check by [@shahor02](https://github.com/shahor02)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
