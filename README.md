@@ -48,6 +48,7 @@
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12506](https://github.com/AliceO2Group/AliceO2/pull/12506) 2024-01-10: TPC: Adding scaler weights for 1D-distortion fluctuation correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12507](https://github.com/AliceO2Group/AliceO2/pull/12507) 2024-01-11: Pass TPC corr. scaling mode on all workflows by [@shahor02](https://github.com/shahor02)
+	- [\#12512](https://github.com/AliceO2Group/AliceO2/pull/12512) 2024-01-12: TPC: Using weights as default for IDC scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Framework
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
