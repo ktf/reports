@@ -22,10 +22,6 @@
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
-	- [\#12452](https://github.com/AliceO2Group/AliceO2/pull/12452) 2023-12-14: Shared clusters, found clusters and crossed rows TASK for TPC QC by [@lauraser](https://github.com/lauraser)
-	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
-	- [\#12459](https://github.com/AliceO2Group/AliceO2/pull/12459) 2023-12-14: ITS and MFT dead damp builder workflow by [@nicolovalle](https://github.com/nicolovalle)
-	- [\#12462](https://github.com/AliceO2Group/AliceO2/pull/12462) 2023-12-14: TPC: Add DCA histograms without min pT selection. by [@makor](https://github.com/makor)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12466](https://github.com/AliceO2Group/AliceO2/pull/12466) 2023-12-16: Throw if svertexing with global tracks requested w/o asking TPC tracks. by [@shahor02](https://github.com/shahor02)
 	- [\#12468](https://github.com/AliceO2Group/AliceO2/pull/12468) 2023-12-15: Fix PID assumption for TPC extra-/interpolation by [@martenole](https://github.com/martenole)
@@ -62,7 +58,6 @@
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Steer
-	- [\#12453](https://github.com/AliceO2Group/AliceO2/pull/12453) 2023-12-14: [EMCAL-1055] Require FIT trigger in digitization by [@mfasDa](https://github.com/mfasDa)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12509](https://github.com/AliceO2Group/AliceO2/pull/12509) 2024-01-12: Account for first-orbit in collision-context creation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
