@@ -7,6 +7,7 @@
 	- [\#12480](https://github.com/AliceO2Group/AliceO2/pull/12480) 2024-01-02: PDG: Update particle masses from ROOT v6-30-01-alice2 by [@vkucera](https://github.com/vkucera)
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
+	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12472](https://github.com/AliceO2Group/AliceO2/pull/12472) 2023-12-16: ctpdev: warning removal by [@lietava](https://github.com/lietava)
@@ -44,6 +45,7 @@
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
 	- [\#12519](https://github.com/AliceO2Group/AliceO2/pull/12519) 2024-01-12: Drop unused output by [@ktf](https://github.com/ktf)
 	- [\#12521](https://github.com/AliceO2Group/AliceO2/pull/12521) 2024-01-13: Set innerparam to the rigidity by [@mpuccio](https://github.com/mpuccio)
+	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12484](https://github.com/AliceO2Group/AliceO2/pull/12484) 2023-12-20: Fix CCDB DPL fetcher logging and refresh rate check by [@shahor02](https://github.com/shahor02)
