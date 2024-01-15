@@ -31,6 +31,7 @@
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
+	- [\#12498](https://github.com/AliceO2Group/AliceO2/pull/12498) 2024-01-15: Processing with ROF and vertex granularity by [@mpuccio](https://github.com/mpuccio)
 	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12506](https://github.com/AliceO2Group/AliceO2/pull/12506) 2024-01-10: TPC: Adding scaler weights for 1D-distortion fluctuation correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
