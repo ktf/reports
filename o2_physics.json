@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-03T19:16:51Z",
-            "title": "PWGCF: FemtoUniverse - Changing TPC TOF combined cut to TOF nSigma cut",
-            "number": 4235,
-            "author": {
-              "login": "basiach"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/FemtoUniverse/TableProducer/femtoUniverseProducerTask.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-08T09:03:38Z",
             "title": "[PWGDQ] Various fixes for muons ",
             "number": 4236,
@@ -2889,8 +2869,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-01-16T15:31:49Z",
             "title": "PWGEM: Fix error in MCTemplate task, renaming",
             "number": 4333,
             "author": {
@@ -2921,6 +2901,46 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/QC/efficiencyQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Introduce forward track propagation to UD",
+            "number": 4335,
+            "author": {
+              "login": "nburmaso"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGUD/Core/UPCHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/DataModel/UDTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/UPCCandidateProducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGUD/TableProducer/fwdTrackPropagation.cxx"
                   }
                 }
               ]
