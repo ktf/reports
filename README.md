@@ -60,6 +60,7 @@
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12515](https://github.com/AliceO2Group/AliceO2/pull/12515) 2024-01-12: DPL: remove need for special engineering type by [@ktf](https://github.com/ktf)
 	- [\#12526](https://github.com/AliceO2Group/AliceO2/pull/12526) 2024-01-16: DPL: Do not report dropping of timers (unneeded) by [@davidrohr](https://github.com/davidrohr)
+	- [\#12533](https://github.com/AliceO2Group/AliceO2/pull/12533) 2024-01-16: DPL GUI: add GUI to enable / disable driver signposts by [@ktf](https://github.com/ktf)
 	- [\#12536](https://github.com/AliceO2Group/AliceO2/pull/12536) 2024-01-16: DPL: discard timeframe in case there is nothing which needs processing by [@ktf](https://github.com/ktf)
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
