@@ -22,7 +22,6 @@
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12464](https://github.com/AliceO2Group/AliceO2/pull/12464) 2024-01-15: Take MID fake dead channels into account when building the masks by [@dstocco](https://github.com/dstocco)
 	- [\#12478](https://github.com/AliceO2Group/AliceO2/pull/12478) 2023-12-19: Add workflow for ITS PID study by [@fmazzasc](https://github.com/fmazzasc)
@@ -49,7 +48,6 @@
 	- [\#12527](https://github.com/AliceO2Group/AliceO2/pull/12527) 2024-01-16: Update TOF integral calculation when propagation is aborted by [@shahor02](https://github.com/shahor02)
 	- [\#12534](https://github.com/AliceO2Group/AliceO2/pull/12534) 2024-01-16: Disable testMatBudLUT on APPLE by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
-	- [\#12450](https://github.com/AliceO2Group/AliceO2/pull/12450) 2023-12-18: DPL: get rid of simplified CompletionPolicy by [@ktf](https://github.com/ktf)
 	- [\#12451](https://github.com/AliceO2Group/AliceO2/pull/12451) 2024-01-15: DPL: wait as long as possible for Sporadic inputs by [@ktf](https://github.com/ktf)
 	- [\#12469](https://github.com/AliceO2Group/AliceO2/pull/12469) 2024-01-16: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
