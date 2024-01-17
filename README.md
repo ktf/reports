@@ -1,5 +1,7 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
+## Recent developments in O2 - Algorithm
+	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
 	- [\#12469](https://github.com/AliceO2Group/AliceO2/pull/12469) 2024-01-16: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
@@ -10,6 +12,7 @@
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
+	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
@@ -46,6 +49,7 @@
 	- [\#12521](https://github.com/AliceO2Group/AliceO2/pull/12521) 2024-01-13: Set innerparam to the rigidity by [@mpuccio](https://github.com/mpuccio)
 	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12527](https://github.com/AliceO2Group/AliceO2/pull/12527) 2024-01-16: Update TOF integral calculation when propagation is aborted by [@shahor02](https://github.com/shahor02)
+	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12534](https://github.com/AliceO2Group/AliceO2/pull/12534) 2024-01-16: Disable testMatBudLUT on APPLE by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 	- [\#12451](https://github.com/AliceO2Group/AliceO2/pull/12451) 2024-01-15: DPL: wait as long as possible for Sporadic inputs by [@ktf](https://github.com/ktf)
