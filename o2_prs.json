@@ -4,76 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "ITS - first version for time-dependent dead maps - wip",
-            "number": 12442,
-            "author": {
-              "login": "nicolovalle"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/DeadMapBuilderSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/DeadMapBuilderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/its-deadmap-builder-workflow.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-12-13T13:53:26Z",
-            "title": "Create and pass v0 flag to AOD",
-            "number": 12443,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/DecayNBodyIndex.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2023-12-12T09:37:13Z",
             "title": "DPL: add test to verify query builder with Lifetime::timeframe",
@@ -3621,6 +3551,51 @@
                 {
                   "node": {
                     "path": "Utilities/Mergers/src/MergerAlgorithm.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: helper function to enable loggers from gdb / lldb",
+            "number": 12542,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/COOKBOOK.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix syntax of nEvents",
+            "number": 12543,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "run/SimExamples/McTracksToAOD/run_Pythia8.sh"
                   }
                 }
               ]
