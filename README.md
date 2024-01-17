@@ -47,6 +47,7 @@
 	- [\#12507](https://github.com/AliceO2Group/AliceO2/pull/12507) 2024-01-11: Pass TPC corr. scaling mode on all workflows by [@shahor02](https://github.com/shahor02)
 	- [\#12511](https://github.com/AliceO2Group/AliceO2/pull/12511) 2024-01-15: Switch off reading of BadChannel CCDB information in StatusMap Creator by [@lmassacr](https://github.com/lmassacr)
 	- [\#12512](https://github.com/AliceO2Group/AliceO2/pull/12512) 2024-01-12: TPC: Using weights as default for IDC scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
 	- [\#12519](https://github.com/AliceO2Group/AliceO2/pull/12519) 2024-01-12: Drop unused output by [@ktf](https://github.com/ktf)
 	- [\#12521](https://github.com/AliceO2Group/AliceO2/pull/12521) 2024-01-13: Set innerparam to the rigidity by [@mpuccio](https://github.com/mpuccio)
@@ -76,6 +77,7 @@
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
+	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12509](https://github.com/AliceO2Group/AliceO2/pull/12509) 2024-01-12: Account for first-orbit in collision-context creation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
