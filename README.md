@@ -13,6 +13,7 @@
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
+	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12463](https://github.com/AliceO2Group/AliceO2/pull/12463) 2023-12-19: Backport EMCAL simulation related changes by [@mfasDa](https://github.com/mfasDa)
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
@@ -68,6 +69,7 @@
 	- [\#12536](https://github.com/AliceO2Group/AliceO2/pull/12536) 2024-01-16: DPL: discard timeframe in case there is nothing which needs processing by [@ktf](https://github.com/ktf)
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12539](https://github.com/AliceO2Group/AliceO2/pull/12539) 2024-01-17: DPL: do not reset mDidDispatch too early by [@ktf](https://github.com/ktf)
+	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 ## Recent developments in O2 - Steer
