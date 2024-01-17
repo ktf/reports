@@ -70,6 +70,7 @@
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12539](https://github.com/AliceO2Group/AliceO2/pull/12539) 2024-01-17: DPL: do not reset mDidDispatch too early by [@ktf](https://github.com/ktf)
 	- [\#12540](https://github.com/AliceO2Group/AliceO2/pull/12540) 2024-01-17: DPL: optimize for the case debugging is disabled by [@ktf](https://github.com/ktf)
+	- [\#12542](https://github.com/AliceO2Group/AliceO2/pull/12542) 2024-01-17: DPL: helper function to enable loggers from gdb / lldb by [@ktf](https://github.com/ktf)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
