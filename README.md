@@ -15,6 +15,7 @@
 	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
+	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - DataFormats
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
@@ -55,6 +56,7 @@
 	- [\#12534](https://github.com/AliceO2Group/AliceO2/pull/12534) 2024-01-16: Disable testMatBudLUT on APPLE by [@sawenzel](https://github.com/sawenzel)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12547](https://github.com/AliceO2Group/AliceO2/pull/12547) 2024-01-17: Update AvgClusSize.cxx by [@cholmcc](https://github.com/cholmcc)
+	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Framework
 	- [\#12469](https://github.com/AliceO2Group/AliceO2/pull/12469) 2024-01-16: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
