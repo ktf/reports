@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-13T10:30:54Z",
-            "title": "TPC residual extraction: add protection",
-            "number": 12455,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-12T22:23:45Z",
             "title": "Fix missing argument in logging statement",
             "number": 12456,
@@ -3107,6 +3087,16 @@
                   "node": {
                     "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_WorkflowSerialization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
                 }
               ]
             }
@@ -3543,6 +3533,31 @@
             },
             "files": {
               "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve debugging of WorkflowImporter",
+            "number": 12555,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowSerializationHelpers.cxx"
+                  }
+                },
                 {
                   "node": {
                     "path": "Framework/Foundation/include/Framework/Signpost.h"
