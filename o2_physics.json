@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-10T17:12:11Z",
-            "title": "PWGEM: adjust TOF PID cut, momentum dependent",
-            "number": 4268,
-            "author": {
-              "login": "feisenhu"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/CutsLibrary.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-11T09:45:47Z",
             "title": "PWGCF: FemtoUniverse -- added full precision nSigmaTOF",
             "number": 4269,
@@ -2726,6 +2706,326 @@
                 {
                   "node": {
                     "path": "PWGHF/HFC/Tasks/taskCorrelationDMesonPairsTesting.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE: Implementing background subtraction for jets into the framework and adding self contained HF format",
+            "number": 4368,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/DataModel/DerivedTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/FastJetUtilities.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/FastJetUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetBkgSubUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetBkgSubUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetDerivedDataUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFindingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetHFUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetMatchingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetTaggingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/PWGJECoreLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/Jet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedDataHF.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubstructure.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetSubtraction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/emcalCorrectionTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/eventwiseConstituentSubtractor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddataproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddataproducerdummy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatatriggerproducer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jeteventweightmcd.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jeteventweightmcp.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderD0DataCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderD0MCDCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderD0MCPCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderLcDataCharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetmatching.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetmatchingmc.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetmatchingmcsub.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetmatchingsub.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jettaggerhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/rhoEstimator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/ChJetTriggerQATask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/FullJetTriggerQATask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTutorial.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTutorialSkeleton.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderfullQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfragmentation.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetmatchingqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehfoutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructureoutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetvalidationqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/nSubjettiness.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/phiInJets.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/trackJetqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/triggerCorrelations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/Skimming/jetProvider.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Tutorials/Skimming/jetSpectraReference.cxx"
                   }
                 }
               ]
