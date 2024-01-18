@@ -16,6 +16,7 @@
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
+	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12485](https://github.com/AliceO2Group/AliceO2/pull/12485) 2023-12-20: Optionally impose charge acc. to PID, use in TPC output by [@shahor02](https://github.com/shahor02)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
@@ -76,6 +77,7 @@
 	- [\#12540](https://github.com/AliceO2Group/AliceO2/pull/12540) 2024-01-17: DPL: optimize for the case debugging is disabled by [@ktf](https://github.com/ktf)
 	- [\#12542](https://github.com/AliceO2Group/AliceO2/pull/12542) 2024-01-17: DPL: helper function to enable loggers from gdb / lldb by [@ktf](https://github.com/ktf)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
+	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
