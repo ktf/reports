@@ -77,6 +77,7 @@
 	- [\#12540](https://github.com/AliceO2Group/AliceO2/pull/12540) 2024-01-17: DPL: optimize for the case debugging is disabled by [@ktf](https://github.com/ktf)
 	- [\#12542](https://github.com/AliceO2Group/AliceO2/pull/12542) 2024-01-17: DPL: helper function to enable loggers from gdb / lldb by [@ktf](https://github.com/ktf)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
+	- [\#12552](https://github.com/AliceO2Group/AliceO2/pull/12552) 2024-01-18: DPL: invoke fakeDispatch when creating data out of band in test by [@ktf](https://github.com/ktf)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
