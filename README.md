@@ -64,6 +64,7 @@
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12492](https://github.com/AliceO2Group/AliceO2/pull/12492) 2023-12-31: DPL: ignore SIGUSR1 until we are ready to handle it by [@ktf](https://github.com/ktf)
+	- [\#12499](https://github.com/AliceO2Group/AliceO2/pull/12499) 2024-01-19: DPL: get rid of warning by [@ktf](https://github.com/ktf)
 	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12515](https://github.com/AliceO2Group/AliceO2/pull/12515) 2024-01-12: DPL: remove need for special engineering type by [@ktf](https://github.com/ktf)
