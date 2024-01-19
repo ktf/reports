@@ -56,6 +56,7 @@
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12547](https://github.com/AliceO2Group/AliceO2/pull/12547) 2024-01-17: Update AvgClusSize.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
+	- [\#12560](https://github.com/AliceO2Group/AliceO2/pull/12560) 2024-01-19: [EMCAL-603] Treatment of access to uninitialized geometry by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
