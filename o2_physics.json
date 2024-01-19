@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-01-11T19:23:08Z",
-            "title": "PWGCF: trigger update",
-            "number": 4279,
-            "author": {
-              "login": "ariedel-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/PWGCF/CFFilterAll.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Update tableMaker.cxx",
@@ -2945,6 +2925,36 @@
                 {
                   "node": {
                     "path": "PWGCF/TableProducer/filterCorrelations.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGDQ: Include selection on the muon track type on track-efficiency-uncertainty code",
+            "number": 4379,
+            "author": {
+              "login": "zconesa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGDQ/DataModel/MchTrkEffTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/TableProducer/tableMakerMuonMchTrkEfficiency.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGDQ/Tasks/taskMuonMchTrkEfficiency.cxx"
                   }
                 }
               ]
