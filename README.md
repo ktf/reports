@@ -81,6 +81,8 @@
 	- [\#12554](https://github.com/AliceO2Group/AliceO2/pull/12554) 2024-01-18: DPL: make log messages optional as well by [@ktf](https://github.com/ktf)
 	- [\#12555](https://github.com/AliceO2Group/AliceO2/pull/12555) 2024-01-18: DPL: improve debugging of WorkflowImporter by [@ktf](https://github.com/ktf)
 	- [\#12558](https://github.com/AliceO2Group/AliceO2/pull/12558) 2024-01-18: DPL: do not run the check for the case data was not created nor dispatched by [@ktf](https://github.com/ktf)
+	- [\#12559](https://github.com/AliceO2Group/AliceO2/pull/12559) 2024-01-19: Fix formatting in tests by [@ktf](https://github.com/ktf)
+	- [\#12563](https://github.com/AliceO2Group/AliceO2/pull/12563) 2024-01-19: DPL: drop commented code by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
