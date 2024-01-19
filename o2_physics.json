@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-18T16:18:14Z",
-            "title": "Add TOF PID flags for match",
-            "number": 4287,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Common/DataModel/PIDResponse.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-12T14:26:57Z",
             "title": "PWGHF: fixing chi2PCA histogram in the Lc->pKpi task",
             "number": 4288,
@@ -2985,6 +2960,31 @@
                 {
                   "node": {
                     "path": "PWGLF/Tasks/chargedkstaranalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TOF: add QC check on good match",
+            "number": 4387,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/TableProducer/PID/pidTOFBase.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/AOTTrack/PID/qaPIDTOF.cxx"
                   }
                 }
               ]
