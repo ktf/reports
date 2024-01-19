@@ -29,7 +29,6 @@
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
-	- [\#12464](https://github.com/AliceO2Group/AliceO2/pull/12464) 2024-01-15: Take MID fake dead channels into account when building the masks by [@dstocco](https://github.com/dstocco)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12488](https://github.com/AliceO2Group/AliceO2/pull/12488) 2023-12-21: TPC RefMap mean lumi allowed to be negative by [@shahor02](https://github.com/shahor02)
 	- [\#12489](https://github.com/AliceO2Group/AliceO2/pull/12489) 2024-01-08: ITS-GPU: Fixup for running on PbPb in async mode by [@mconcas](https://github.com/mconcas)
