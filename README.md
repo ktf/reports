@@ -86,6 +86,7 @@
 ## Recent developments in O2 - Steer
 	- [\#12509](https://github.com/AliceO2Group/AliceO2/pull/12509) 2024-01-12: Account for first-orbit in collision-context creation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
+	- [\#12565](https://github.com/AliceO2Group/AliceO2/pull/12565) 2024-01-19: First orbit should be unsigned int by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
 	- [\#12483](https://github.com/AliceO2Group/AliceO2/pull/12483) 2024-01-02: Adding a python utility to append GDML files with aux info by [@sawenzel](https://github.com/sawenzel)
 	- [\#12549](https://github.com/AliceO2Group/AliceO2/pull/12549) 2024-01-17: Update bench_ransTPC.cxx by [@cholmcc](https://github.com/cholmcc)
