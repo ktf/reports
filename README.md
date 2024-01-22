@@ -63,6 +63,7 @@
 	- [\#12499](https://github.com/AliceO2Group/AliceO2/pull/12499) 2024-01-19: DPL: get rid of warning by [@ktf](https://github.com/ktf)
 	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
+	- [\#12510](https://github.com/AliceO2Group/AliceO2/pull/12510) 2024-01-22: AOD: Prepare Thinner for TPC-only V0s by [@f3sch](https://github.com/f3sch)
 	- [\#12515](https://github.com/AliceO2Group/AliceO2/pull/12515) 2024-01-12: DPL: remove need for special engineering type by [@ktf](https://github.com/ktf)
 	- [\#12526](https://github.com/AliceO2Group/AliceO2/pull/12526) 2024-01-16: DPL: Do not report dropping of timers (unneeded) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12533](https://github.com/AliceO2Group/AliceO2/pull/12533) 2024-01-16: DPL GUI: add GUI to enable / disable driver signposts by [@ktf](https://github.com/ktf)
