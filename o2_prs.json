@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-16T13:11:56Z",
-            "title": "Fix for unbound vars",
-            "number": 12474,
-            "author": {
-              "login": "chiarazampolli"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "prodtests/full-system-test/dpl-workflow.sh"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2023-12-16T13:19:26Z",
             "title": "Fix conflict: avoid device options with generic names in the workflow…",
             "number": 12475,
@@ -3591,6 +3571,31 @@
                 {
                   "node": {
                     "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Remove probably unnecessary and harmful completion policy",
+            "number": 12574,
+            "author": {
+              "login": "wiechula"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-krypton-clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-krypton-raw-filter.cxx"
                   }
                 }
               ]
