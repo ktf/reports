@@ -87,6 +87,7 @@
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
+	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12509](https://github.com/AliceO2Group/AliceO2/pull/12509) 2024-01-12: Account for first-orbit in collision-context creation by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
