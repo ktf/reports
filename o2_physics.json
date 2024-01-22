@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-15T16:23:21Z",
-            "title": "enable momentum-dependent Tsallis downscaling for V0 tree",
-            "number": 4317,
-            "author": {
-              "login": "jezwilkinson"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/TPC/tpcSkimsTableCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-15T17:27:05Z",
             "title": "adding residual TPC cut, test histos on pair mT, removing not needed …",
             "number": 4318,
@@ -3354,6 +3334,41 @@
                 {
                   "node": {
                     "path": "PWGJE/Tasks/jetsubstructureoutput.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "adding vertex and cent. cuts to the table producer, fixing a bug with…",
+            "number": 4417,
+            "author": {
+              "login": "glromane"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/Core/femto3dPairTask.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/DataModel/singletrackselector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/TableProducer/singleTrackSelector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/Femto3D/Tasks/femto3dPairTask.cxx"
                   }
                 }
               ]
