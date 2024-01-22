@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
@@ -57,7 +56,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12492](https://github.com/AliceO2Group/AliceO2/pull/12492) 2023-12-31: DPL: ignore SIGUSR1 until we are ready to handle it by [@ktf](https://github.com/ktf)
 	- [\#12499](https://github.com/AliceO2Group/AliceO2/pull/12499) 2024-01-19: DPL: get rid of warning by [@ktf](https://github.com/ktf)
@@ -80,6 +78,7 @@
 	- [\#12559](https://github.com/AliceO2Group/AliceO2/pull/12559) 2024-01-19: Fix formatting in tests by [@ktf](https://github.com/ktf)
 	- [\#12563](https://github.com/AliceO2Group/AliceO2/pull/12563) 2024-01-19: DPL: drop commented code by [@ktf](https://github.com/ktf)
 	- [\#12567](https://github.com/AliceO2Group/AliceO2/pull/12567) 2024-01-20: DPL: enable Signposts by default also on linux by [@ktf](https://github.com/ktf)
+	- [\#12570](https://github.com/AliceO2Group/AliceO2/pull/12570) 2024-01-22: DPL: fix typo in help message by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
