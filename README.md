@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Analysis
-	- [\#12469](https://github.com/AliceO2Group/AliceO2/pull/12469) 2024-01-16: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
@@ -58,7 +57,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12469](https://github.com/AliceO2Group/AliceO2/pull/12469) 2024-01-16: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12470](https://github.com/AliceO2Group/AliceO2/pull/12470) 2024-01-16: DPL Analysis: explicit slicing methods for Partition by [@aalkin](https://github.com/aalkin)
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12492](https://github.com/AliceO2Group/AliceO2/pull/12492) 2023-12-31: DPL: ignore SIGUSR1 until we are ready to handle it by [@ktf](https://github.com/ktf)
