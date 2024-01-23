@@ -5,176 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-20T21:19:17Z",
-            "title": "Optionally impose charge acc. to PID, use in TPC output",
-            "number": 12485,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTracking/src/MatchTPCITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/SpacePoints/src/TrackInterpolation.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TRD/workflow/src/TRDGlobalTrackingSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/Vertexing/StrangenessTracking/src/StrangenessTracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-01-09T13:50:50Z",
-            "title": "Port features needed for HF enriched MC productions",
-            "number": 12486,
-            "author": {
-              "login": "fcatalan92"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCGenProperties.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTrack.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCUtils.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/src/MCUtils.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/test/testMCGenId.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/simulation/test/testMCGenStatus.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/Generator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorExternalParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/PrimaryGenerator.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/PrimaryGeneratorParam.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/Generator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFromFile.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia8.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorTGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorsLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGenerator.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/PrimaryGeneratorParam.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-02T23:26:25Z",
             "title": "Update of datamodel-doc",
             "number": 12487,
@@ -3851,6 +3681,46 @@
                 {
                   "node": {
                     "path": "Detectors/Raw/src/RawFileReaderWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: improve logging for processing loop",
+            "number": 12585,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0 reco: rounding for mean times",
+            "number": 12586,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/reconstruction/src/CollisionTimeRecoTask.cxx"
                   }
                 }
               ]
