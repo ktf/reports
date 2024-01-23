@@ -85,6 +85,8 @@
 	- [\#12567](https://github.com/AliceO2Group/AliceO2/pull/12567) 2024-01-20: DPL: enable Signposts by default also on linux by [@ktf](https://github.com/ktf)
 	- [\#12570](https://github.com/AliceO2Group/AliceO2/pull/12570) 2024-01-22: DPL: fix typo in help message by [@ktf](https://github.com/ktf)
 	- [\#12572](https://github.com/AliceO2Group/AliceO2/pull/12572) 2024-01-22: DPL: fix formatting and format string by [@ktf](https://github.com/ktf)
+	- [\#12576](https://github.com/AliceO2Group/AliceO2/pull/12576) 2024-01-23: DPL: handle corner case for consumeWhenAll by [@ktf](https://github.com/ktf)
+	- [\#12577](https://github.com/AliceO2Group/AliceO2/pull/12577) 2024-01-23: DPL: add signposts to debug signals by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12486](https://github.com/AliceO2Group/AliceO2/pull/12486) 2024-01-09: Port features needed for HF enriched MC productions by [@fcatalan92](https://github.com/fcatalan92)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
