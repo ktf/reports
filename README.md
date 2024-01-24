@@ -88,6 +88,7 @@
 	- [\#12577](https://github.com/AliceO2Group/AliceO2/pull/12577) 2024-01-23: DPL: add signposts to debug signals by [@ktf](https://github.com/ktf)
 	- [\#12578](https://github.com/AliceO2Group/AliceO2/pull/12578) 2024-01-23: DPL: make sure we do not invoke user callback when Discarding by [@ktf](https://github.com/ktf)
 	- [\#12580](https://github.com/AliceO2Group/AliceO2/pull/12580) 2024-01-23: DPL: Easier serialization of STL containers with pointers to objects having ROOT dict by [@knopers8](https://github.com/knopers8)
+	- [\#12585](https://github.com/AliceO2Group/AliceO2/pull/12585) 2024-01-24: DPL: improve "Discard"  action by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
