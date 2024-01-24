@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-21T13:16:10Z",
-            "title": "TPC RefMap mean lumi allowed to be negative",
-            "number": 12488,
-            "author": {
-              "login": "shahor02"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/CorrectionMapsLoader.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-08T14:43:34Z",
             "title": "ITS-GPU: Fixup for running on PbPb in async mode",
             "number": 12489,
@@ -3701,6 +3681,31 @@
                 {
                   "node": {
                     "path": "Generators/src/GeneratorPythia8.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[QC-1089] Reset Merger state before each SOR",
+            "number": 12588,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/FullHistoryMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
                   }
                 }
               ]
