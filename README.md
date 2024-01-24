@@ -54,6 +54,7 @@
 	- [\#12560](https://github.com/AliceO2Group/AliceO2/pull/12560) 2024-01-19: [EMCAL-603] Treatment of access to uninitialized geometry by [@mfasDa](https://github.com/mfasDa)
 	- [\#12566](https://github.com/AliceO2Group/AliceO2/pull/12566) 2024-01-23: GLOQC: Add Cluster/Chi2 Efficiency Plots and DCAr_TPC vs P_T by [@f3sch](https://github.com/f3sch)
 	- [\#12574](https://github.com/AliceO2Group/AliceO2/pull/12574) 2024-01-23: TPC: Remove probably unnecessary and harmful completion policy by [@wiechula](https://github.com/wiechula)
+	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
