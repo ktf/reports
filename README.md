@@ -5,6 +5,7 @@
 ## Recent developments in O2 - Analysis
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
+	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12491](https://github.com/AliceO2Group/AliceO2/pull/12491) 2024-01-02: GPU: Don't support LOGP on GPU, and disable workarounds by [@davidrohr](https://github.com/davidrohr)
 	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
@@ -84,6 +85,7 @@
 	- [\#12567](https://github.com/AliceO2Group/AliceO2/pull/12567) 2024-01-20: DPL: enable Signposts by default also on linux by [@ktf](https://github.com/ktf)
 	- [\#12570](https://github.com/AliceO2Group/AliceO2/pull/12570) 2024-01-22: DPL: fix typo in help message by [@ktf](https://github.com/ktf)
 	- [\#12572](https://github.com/AliceO2Group/AliceO2/pull/12572) 2024-01-22: DPL: fix formatting and format string by [@ktf](https://github.com/ktf)
+	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12576](https://github.com/AliceO2Group/AliceO2/pull/12576) 2024-01-23: DPL: handle corner case for consumeWhenAll by [@ktf](https://github.com/ktf)
 	- [\#12577](https://github.com/AliceO2Group/AliceO2/pull/12577) 2024-01-23: DPL: add signposts to debug signals by [@ktf](https://github.com/ktf)
 	- [\#12578](https://github.com/AliceO2Group/AliceO2/pull/12578) 2024-01-23: DPL: make sure we do not invoke user callback when Discarding by [@ktf](https://github.com/ktf)
