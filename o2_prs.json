@@ -5,86 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-08T14:43:34Z",
-            "title": "ITS-GPU: Fixup for running on PbPb in async mode",
-            "number": 12489,
-            "author": {
-              "login": "mconcas"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TimeFrameGPU.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/src/Tracker.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Global/GPUChainITS.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/include/GPUWorkflow/GPUWorkflowSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Workflow/src/GPUWorkflowITS.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2023-12-23T13:24:05Z",
-            "title": "[EMCAL-889] AODProducerWorkflowSpec: Fix mcCaloCellLabelCursor fillin…",
-            "number": 12490,
-            "author": {
-              "login": "mhemmer-cern"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-02T07:05:57Z",
             "title": "GPU: Don't support LOGP on GPU, and disable workarounds",
             "number": 12491,
@@ -3706,6 +3626,61 @@
                 {
                   "node": {
                     "path": "Utilities/Mergers/src/IntegratingMerger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: command line option to enable signposts",
+            "number": 12589,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: use Signposts to debug oldest possible timeframe.",
+            "number": 12590,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
                   }
                 }
               ]

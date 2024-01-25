@@ -28,7 +28,6 @@
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 ## Recent developments in O2 - Detectors
-	- [\#12489](https://github.com/AliceO2Group/AliceO2/pull/12489) 2024-01-08: ITS-GPU: Fixup for running on PbPb in async mode by [@mconcas](https://github.com/mconcas)
 	- [\#12493](https://github.com/AliceO2Group/AliceO2/pull/12493) 2024-01-06: fix in TOF time slewing cal update by [@noferini](https://github.com/noferini)
 	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
 	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
