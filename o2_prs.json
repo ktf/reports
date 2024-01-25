@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2023-12-31T13:54:30Z",
-            "title": "DPL: ignore SIGUSR1 until we are ready to handle it",
-            "number": 12492,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/runDataProcessing.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-06T11:45:29Z",
             "title": "fix in TOF time slewing cal update",
             "number": 12493,
@@ -3671,6 +3651,36 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/workflow/src/CalibdEdxSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "o2-sim: Change way to create standalone MCHeader file",
+            "number": 12592,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/MCEventHeader.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/O2HitMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2sim_parallel.cxx"
                   }
                 }
               ]
