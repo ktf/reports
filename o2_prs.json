@@ -5,126 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-06T11:38:28Z",
-            "title": "Ctpdev: published CTP counters extended",
-            "number": 12494,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/RunManager.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/workflowScalers/py/scalersCTP_v3.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "Modif MCH Display + bad channels for DS",
-            "number": 12495,
-            "author": {
-              "login": "victorvalenciatorres"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Conditions/src/bad-channels-ccdb.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Contour/include/MCHContour/SVGWriter.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/MUON/MCH/Evaluation/CMakeLists.txt"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-01-06T11:40:20Z",
-            "title": "Fixing typo in global forward covariance conversion",
-            "number": 12496,
-            "author": {
-              "login": "mcoquet642"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Reconstruction/src/TrackFwd.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-01-08T09:48:59Z",
-            "title": "ctpdev: ctp scalers error cleaning",
-            "number": 12497,
-            "author": {
-              "login": "lietava"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/CTP/src/Scalers.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/CTP/macro/GetScalersForRun.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-15T08:47:46Z",
             "title": "Processing with ROF and vertex granularity",
             "number": 12498,
@@ -3676,6 +3556,126 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: make stacktrace level not atomic",
+            "number": 12594,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: allow signposts to be enabled via DPL_SIGNPOSTS",
+            "number": 12595,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: add o2-log utility (for Mac, Linux coming)",
+            "number": 12596,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/src/o2LogMac.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: support for Signposts in CCDB",
+            "number": 12597,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/CCDBSupport/src/CCDBHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/src/o2LogMac.cxx"
                   }
                 }
               ]

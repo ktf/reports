@@ -19,16 +19,11 @@
 	- [\#12575](https://github.com/AliceO2Group/AliceO2/pull/12575) 2024-01-22: Fix utility function and provide unit test by [@sawenzel](https://github.com/sawenzel)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
-	- [\#12496](https://github.com/AliceO2Group/AliceO2/pull/12496) 2024-01-06: Fixing typo in global forward covariance conversion by [@mcoquet642](https://github.com/mcoquet642)
-	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
-	- [\#12494](https://github.com/AliceO2Group/AliceO2/pull/12494) 2024-01-06: Ctpdev: published CTP counters extended by [@lietava](https://github.com/lietava)
-	- [\#12497](https://github.com/AliceO2Group/AliceO2/pull/12497) 2024-01-08: ctpdev: ctp scalers error cleaning by [@lietava](https://github.com/lietava)
 	- [\#12498](https://github.com/AliceO2Group/AliceO2/pull/12498) 2024-01-15: Processing with ROF and vertex granularity by [@mpuccio](https://github.com/mpuccio)
 	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 	- [\#12501](https://github.com/AliceO2Group/AliceO2/pull/12501) 2024-01-15: Drop --old option for real by [@ktf](https://github.com/ktf)
