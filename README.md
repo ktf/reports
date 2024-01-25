@@ -25,7 +25,6 @@
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12498](https://github.com/AliceO2Group/AliceO2/pull/12498) 2024-01-15: Processing with ROF and vertex granularity by [@mpuccio](https://github.com/mpuccio)
 	- [\#12500](https://github.com/AliceO2Group/AliceO2/pull/12500) 2024-01-10: Fix macros to compile with C++20 by [@ktf](https://github.com/ktf)
 	- [\#12501](https://github.com/AliceO2Group/AliceO2/pull/12501) 2024-01-15: Drop --old option for real by [@ktf](https://github.com/ktf)
 	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
