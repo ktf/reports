@@ -48,6 +48,7 @@
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12584](https://github.com/AliceO2Group/AliceO2/pull/12584) 2024-01-24: Avoid extra run call in the end of raw-reader cycle by [@shahor02](https://github.com/shahor02)
 	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
+	- [\#12598](https://github.com/AliceO2Group/AliceO2/pull/12598) 2024-01-26: GLOQC: Fix QC-1091 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
