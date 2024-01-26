@@ -85,6 +85,7 @@
 	- [\#12585](https://github.com/AliceO2Group/AliceO2/pull/12585) 2024-01-24: DPL: improve "Discard"  action by [@ktf](https://github.com/ktf)
 	- [\#12589](https://github.com/AliceO2Group/AliceO2/pull/12589) 2024-01-25: DPL: command line option to enable signposts by [@ktf](https://github.com/ktf)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
+	- [\#12593](https://github.com/AliceO2Group/AliceO2/pull/12593) 2024-01-26: Debug DataAllocator::matchDataHeader crash by [@martenole](https://github.com/martenole)
 	- [\#12594](https://github.com/AliceO2Group/AliceO2/pull/12594) 2024-01-25: DPL: make stacktrace level not atomic by [@ktf](https://github.com/ktf)
 	- [\#12595](https://github.com/AliceO2Group/AliceO2/pull/12595) 2024-01-25: DPL: allow signposts to be enabled via DPL_SIGNPOSTS by [@ktf](https://github.com/ktf)
 	- [\#12596](https://github.com/AliceO2Group/AliceO2/pull/12596) 2024-01-25: DPL: add o2-log utility (for Mac, Linux coming) by [@ktf](https://github.com/ktf)
