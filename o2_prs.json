@@ -5,56 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-10T23:07:49Z",
-            "title": "TPC: Adding scaler weights for 1D-distortion fluctuation correction",
-            "number": 12506,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/base/include/TPCBase/CDBTypes.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/include/TPCCalibration/TPCScaler.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCCalibrationLinkDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCScaler.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCScalerSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/TPCScalerSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TPC/workflow/src/tpc-scaler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-11T10:35:07Z",
             "title": "Pass TPC corr. scaling mode on all workflows",
             "number": 12507,
@@ -3496,6 +3446,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Move another macro to be compiled only",
+            "number": 12606,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/prototyping/CMakeLists.txt"
                   }
                 }
               ]
