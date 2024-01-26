@@ -46,6 +46,7 @@
 	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
 	- [\#12598](https://github.com/AliceO2Group/AliceO2/pull/12598) 2024-01-26: GLOQC: Fix QC-1091 by [@f3sch](https://github.com/f3sch)
 	- [\#12601](https://github.com/AliceO2Group/AliceO2/pull/12601) 2024-01-26: Move some macros in `COMPILE_ONLY` mode in tests to workaround ROOT issues with C++20 by [@mconcas](https://github.com/mconcas)
+	- [\#12606](https://github.com/AliceO2Group/AliceO2/pull/12606) 2024-01-26: Move another macro to be compiled only by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
