@@ -7,7 +7,6 @@
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
@@ -51,7 +50,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12503](https://github.com/AliceO2Group/AliceO2/pull/12503) 2024-01-12: DPL: detect when a Lifetime::Timeframe output is missing by [@ktf](https://github.com/ktf)
 	- [\#12510](https://github.com/AliceO2Group/AliceO2/pull/12510) 2024-01-22: AOD: Prepare Thinner for TPC-only V0s by [@f3sch](https://github.com/f3sch)
 	- [\#12515](https://github.com/AliceO2Group/AliceO2/pull/12515) 2024-01-12: DPL: remove need for special engineering type by [@ktf](https://github.com/ktf)
 	- [\#12526](https://github.com/AliceO2Group/AliceO2/pull/12526) 2024-01-16: DPL: Do not report dropping of timers (unneeded) by [@davidrohr](https://github.com/davidrohr)
