@@ -19,13 +19,11 @@
 	- [\#12575](https://github.com/AliceO2Group/AliceO2/pull/12575) 2024-01-22: Fix utility function and provide unit test by [@sawenzel](https://github.com/sawenzel)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12516](https://github.com/AliceO2Group/AliceO2/pull/12516) 2024-01-11: fix propagation of q!=1 tracks with 3D field by [@shahor02](https://github.com/shahor02)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Detectors
-	- [\#12502](https://github.com/AliceO2Group/AliceO2/pull/12502) 2024-01-10: Multiple changes for alignment with cosmic and TPC by [@shahor02](https://github.com/shahor02)
 	- [\#12506](https://github.com/AliceO2Group/AliceO2/pull/12506) 2024-01-10: TPC: Adding scaler weights for 1D-distortion fluctuation correction by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12507](https://github.com/AliceO2Group/AliceO2/pull/12507) 2024-01-11: Pass TPC corr. scaling mode on all workflows by [@shahor02](https://github.com/shahor02)
 	- [\#12511](https://github.com/AliceO2Group/AliceO2/pull/12511) 2024-01-15: Switch off reading of BadChannel CCDB information in StatusMap Creator by [@lmassacr](https://github.com/lmassacr)
