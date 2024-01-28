@@ -51,6 +51,7 @@
 ## Recent developments in O2 - Framework
 	- [\#12510](https://github.com/AliceO2Group/AliceO2/pull/12510) 2024-01-22: AOD: Prepare Thinner for TPC-only V0s by [@f3sch](https://github.com/f3sch)
 	- [\#12515](https://github.com/AliceO2Group/AliceO2/pull/12515) 2024-01-12: DPL: remove need for special engineering type by [@ktf](https://github.com/ktf)
+	- [\#12523](https://github.com/AliceO2Group/AliceO2/pull/12523) 2024-01-28: Data inspector by [@a-wolk](https://github.com/a-wolk)
 	- [\#12526](https://github.com/AliceO2Group/AliceO2/pull/12526) 2024-01-16: DPL: Do not report dropping of timers (unneeded) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12532](https://github.com/AliceO2Group/AliceO2/pull/12532) 2024-01-27: DPL: do not validate lifetime when consumer uses consumeWhenAny by [@ktf](https://github.com/ktf)
 	- [\#12533](https://github.com/AliceO2Group/AliceO2/pull/12533) 2024-01-16: DPL GUI: add GUI to enable / disable driver signposts by [@ktf](https://github.com/ktf)
