@@ -85,6 +85,7 @@
 	- [\#12595](https://github.com/AliceO2Group/AliceO2/pull/12595) 2024-01-25: DPL: allow signposts to be enabled via DPL_SIGNPOSTS by [@ktf](https://github.com/ktf)
 	- [\#12596](https://github.com/AliceO2Group/AliceO2/pull/12596) 2024-01-25: DPL: add o2-log utility (for Mac, Linux coming) by [@ktf](https://github.com/ktf)
 	- [\#12599](https://github.com/AliceO2Group/AliceO2/pull/12599) 2024-01-26: DPL: install o2-log in the proper place by [@ktf](https://github.com/ktf)
+	- [\#12600](https://github.com/AliceO2Group/AliceO2/pull/12600) 2024-01-28: DPL: do not update the new run flag unless we do process data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
