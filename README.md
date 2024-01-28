@@ -24,7 +24,6 @@
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12511](https://github.com/AliceO2Group/AliceO2/pull/12511) 2024-01-15: Switch off reading of BadChannel CCDB information in StatusMap Creator by [@lmassacr](https://github.com/lmassacr)
 	- [\#12512](https://github.com/AliceO2Group/AliceO2/pull/12512) 2024-01-12: TPC: Using weights as default for IDC scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
