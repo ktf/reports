@@ -25,7 +25,6 @@
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12512](https://github.com/AliceO2Group/AliceO2/pull/12512) 2024-01-12: TPC: Using weights as default for IDC scaling by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
 	- [\#12519](https://github.com/AliceO2Group/AliceO2/pull/12519) 2024-01-12: Drop unused output by [@ktf](https://github.com/ktf)
