@@ -5,96 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-17T16:57:55Z",
-            "title": "Deprecate (T)Pythia6",
-            "number": 12514,
-            "author": {
-              "login": "sawenzel"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/DecayConfig.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/G4Config.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/gconfig/src/SimSetup.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia6.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/include/Generators/GeneratorPythia6Param.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/pythia6.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/share/external/trigger_mpi.C"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorFactory.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia6.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Generators/src/GeneratorPythia6Param.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "cmake/O2RootMacroExclusionList.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2SimulationDependencies.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "doc/DetectorSimulation.md"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-12T05:53:50Z",
             "title": "DPL: remove need for special engineering type",
             "number": 12515,
@@ -2034,7 +1944,7 @@
         },
         {
           "node": {
-            "state": "OPEN",
+            "state": "CLOSED",
             "mergedAt": null,
             "title": "Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added",
             "number": 12569,
@@ -3501,6 +3411,36 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionKernels.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added",
+            "number": 12614,
+            "author": {
+              "login": "lmassacr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/DigitFiltering/include/MCHDigitFiltering/DigitFilterParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Status/include/MCHStatus/StatusMapCreatorParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Status/src/StatusMap.cxx"
                   }
                 }
               ]

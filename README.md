@@ -26,7 +26,6 @@
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 	- [\#12612](https://github.com/AliceO2Group/AliceO2/pull/12612) 2024-01-29: Hide unused variables by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12517](https://github.com/AliceO2Group/AliceO2/pull/12517) 2024-01-12: TRD TRAP: Fix bogus error message by [@martenole](https://github.com/martenole)
 	- [\#12519](https://github.com/AliceO2Group/AliceO2/pull/12519) 2024-01-12: Drop unused output by [@ktf](https://github.com/ktf)
 	- [\#12521](https://github.com/AliceO2Group/AliceO2/pull/12521) 2024-01-13: Set innerparam to the rigidity by [@mpuccio](https://github.com/mpuccio)
@@ -90,7 +89,6 @@
 	- [\#12599](https://github.com/AliceO2Group/AliceO2/pull/12599) 2024-01-26: DPL: install o2-log in the proper place by [@ktf](https://github.com/ktf)
 	- [\#12600](https://github.com/AliceO2Group/AliceO2/pull/12600) 2024-01-28: DPL: do not update the new run flag unless we do process data by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
-	- [\#12514](https://github.com/AliceO2Group/AliceO2/pull/12514) 2024-01-17: Deprecate (T)Pythia6 by [@sawenzel](https://github.com/sawenzel)
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
