@@ -2,6 +2,7 @@
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
+	- [\#12541](https://github.com/AliceO2Group/AliceO2/pull/12541) 2024-01-29: QC-479: merging supports vectors of TObject by [@justonedev1](https://github.com/justonedev1)
 ## Recent developments in O2 - Analysis
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
@@ -95,5 +96,6 @@
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12565](https://github.com/AliceO2Group/AliceO2/pull/12565) 2024-01-19: First orbit should be unsigned int by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
+	- [\#12541](https://github.com/AliceO2Group/AliceO2/pull/12541) 2024-01-29: QC-479: merging supports vectors of TObject by [@justonedev1](https://github.com/justonedev1)
 	- [\#12549](https://github.com/AliceO2Group/AliceO2/pull/12549) 2024-01-17: Update bench_ransTPC.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12588](https://github.com/AliceO2Group/AliceO2/pull/12588) 2024-01-24: [QC-1089] Reset Merger state before each SOR by [@knopers8](https://github.com/knopers8)
