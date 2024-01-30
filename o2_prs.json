@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-13T16:50:29Z",
-            "title": "Set innerparam to the rigidity",
-            "number": 12521,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-14T11:04:54Z",
             "title": "GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally",
             "number": 12522,
@@ -3434,8 +3414,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-01-30T14:10:46Z",
             "title": "Make sure the user routes are traced also on EoS",
             "number": 12617,
             "author": {
@@ -3551,6 +3531,31 @@
                 {
                   "node": {
                     "path": "Detectors/HMPID/reconstruction/src/HmpidDecoder2.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: avoid invoking matchDataHeader twice when sending data",
+            "number": 12621,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataAllocator.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataAllocator.cxx"
                   }
                 }
               ]
