@@ -8,7 +8,6 @@
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
@@ -27,7 +26,6 @@
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 	- [\#12612](https://github.com/AliceO2Group/AliceO2/pull/12612) 2024-01-29: Hide unused variables by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12522](https://github.com/AliceO2Group/AliceO2/pull/12522) 2024-01-14: GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally by [@davidrohr](https://github.com/davidrohr)
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12527](https://github.com/AliceO2Group/AliceO2/pull/12527) 2024-01-16: Update TOF integral calculation when propagation is aborted by [@shahor02](https://github.com/shahor02)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)

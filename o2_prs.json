@@ -5,166 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-14T11:04:54Z",
-            "title": "GPU: Cleanup, split compilation of kernels, and provide means to access O2Propagator in GPU code externally",
-            "number": 12522,
-            "author": {
-              "login": "davidrohr"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/EMCAL/reconstruction/src/StuDecoder.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDef.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefAPI.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/Common/GPUCommonDefSettings.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionDeviceBase.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionDeviceBase.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionKernels.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/GPUReconstructionKernels.template.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDA.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAInternals.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAKernels.cu"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/hip/GPUReconstructionHIP.hip"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Base/opencl/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Definitions/GPUDefOpenCL12Templates.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/cmake/kernel_helpers.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/cmake/vulkan_display.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/display/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "GPU/GPUTracking/kernels.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/FindO2GPU.cmake"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "dependencies/O2Dependencies.cmake"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-28T15:58:56Z",
             "title": "Data inspector",
             "number": 12523,
@@ -3556,6 +3396,26 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/DataAllocator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Update the lastRunNumberProcessed only if we actually processed something",
+            "number": 12622,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
                   }
                 }
               ]
