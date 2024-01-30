@@ -46,6 +46,7 @@
 	- [\#12606](https://github.com/AliceO2Group/AliceO2/pull/12606) 2024-01-26: Move another macro to be compiled only by [@ktf](https://github.com/ktf)
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 	- [\#12614](https://github.com/AliceO2Group/AliceO2/pull/12614) 2024-01-29: Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added by [@lmassacr](https://github.com/lmassacr)
+	- [\#12615](https://github.com/AliceO2Group/AliceO2/pull/12615) 2024-01-30: TPC timeseries: Adding new variables for skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
