@@ -20,7 +20,6 @@
 	- [\#12617](https://github.com/AliceO2Group/AliceO2/pull/12617) 2024-01-30: Make sure the user routes are traced also on EoS by [@ktf](https://github.com/ktf)
 	- [\#12619](https://github.com/AliceO2Group/AliceO2/pull/12619) 2024-01-31: Fixes / improvements / new options for floating-point consistency host / GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
@@ -28,7 +27,6 @@
 	- [\#12612](https://github.com/AliceO2Group/AliceO2/pull/12612) 2024-01-29: Hide unused variables by [@shahor02](https://github.com/shahor02)
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12527](https://github.com/AliceO2Group/AliceO2/pull/12527) 2024-01-16: Update TOF integral calculation when propagation is aborted by [@shahor02](https://github.com/shahor02)
 	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12534](https://github.com/AliceO2Group/AliceO2/pull/12534) 2024-01-16: Disable testMatBudLUT on APPLE by [@sawenzel](https://github.com/sawenzel)
@@ -92,7 +90,6 @@
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12565](https://github.com/AliceO2Group/AliceO2/pull/12565) 2024-01-19: First orbit should be unsigned int by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
 	- [\#12541](https://github.com/AliceO2Group/AliceO2/pull/12541) 2024-01-29: QC-479: merging supports vectors of TObject by [@justonedev1](https://github.com/justonedev1)
