@@ -50,7 +50,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12526](https://github.com/AliceO2Group/AliceO2/pull/12526) 2024-01-16: DPL: Do not report dropping of timers (unneeded) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12532](https://github.com/AliceO2Group/AliceO2/pull/12532) 2024-01-27: DPL: do not validate lifetime when consumer uses consumeWhenAny by [@ktf](https://github.com/ktf)
 	- [\#12533](https://github.com/AliceO2Group/AliceO2/pull/12533) 2024-01-16: DPL GUI: add GUI to enable / disable driver signposts by [@ktf](https://github.com/ktf)
 	- [\#12536](https://github.com/AliceO2Group/AliceO2/pull/12536) 2024-01-16: DPL: discard timeframe in case there is nothing which needs processing by [@ktf](https://github.com/ktf)
