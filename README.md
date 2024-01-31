@@ -1,14 +1,12 @@
 ## Recent AliPhysics releases
 ## Recent O2 releases
 ## Recent developments in O2 - Algorithm
-	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12541](https://github.com/AliceO2Group/AliceO2/pull/12541) 2024-01-29: QC-479: merging supports vectors of TObject by [@justonedev1](https://github.com/justonedev1)
 ## Recent developments in O2 - Analysis
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
@@ -27,7 +25,6 @@
 	- [\#12612](https://github.com/AliceO2Group/AliceO2/pull/12612) 2024-01-29: Hide unused variables by [@shahor02](https://github.com/shahor02)
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12531](https://github.com/AliceO2Group/AliceO2/pull/12531) 2024-01-17: GPU: Compile each CUDA kernel in separate compilation unig by [@davidrohr](https://github.com/davidrohr)
 	- [\#12534](https://github.com/AliceO2Group/AliceO2/pull/12534) 2024-01-16: Disable testMatBudLUT on APPLE by [@sawenzel](https://github.com/sawenzel)
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12547](https://github.com/AliceO2Group/AliceO2/pull/12547) 2024-01-17: Update AvgClusSize.cxx by [@cholmcc](https://github.com/cholmcc)
