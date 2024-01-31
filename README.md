@@ -18,6 +18,7 @@
 	- [\#12575](https://github.com/AliceO2Group/AliceO2/pull/12575) 2024-01-22: Fix utility function and provide unit test by [@sawenzel](https://github.com/sawenzel)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 	- [\#12617](https://github.com/AliceO2Group/AliceO2/pull/12617) 2024-01-30: Make sure the user routes are traced also on EoS by [@ktf](https://github.com/ktf)
+	- [\#12619](https://github.com/AliceO2Group/AliceO2/pull/12619) 2024-01-31: Fixes / improvements / new options for floating-point consistency host / GPU by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12525](https://github.com/AliceO2Group/AliceO2/pull/12525) 2024-01-17: ITSMFT time-evolving dead maps, builder and simulation by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
