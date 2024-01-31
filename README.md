@@ -44,6 +44,8 @@
 	- [\#12614](https://github.com/AliceO2Group/AliceO2/pull/12614) 2024-01-29: Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added by [@lmassacr](https://github.com/lmassacr)
 	- [\#12615](https://github.com/AliceO2Group/AliceO2/pull/12615) 2024-01-30: TPC timeseries: Adding new variables for skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12626](https://github.com/AliceO2Group/AliceO2/pull/12626) 2024-01-31: TPC: Add getter for output tree by [@wiechula](https://github.com/wiechula)
+	- [\#12628](https://github.com/AliceO2Group/AliceO2/pull/12628) 2024-01-31: TPC: Fix when no M-Shape correction map is set by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12631](https://github.com/AliceO2Group/AliceO2/pull/12631) 2024-01-31: TPC M-Shape correction: Suppress error message if default object is used by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
