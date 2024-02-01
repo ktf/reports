@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-17T14:05:27Z",
-            "title": "DPL: optimize for the case debugging is disabled",
-            "number": 12540,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/Signpost.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-29T15:56:37Z",
             "title": "QC-479: merging supports vectors of TObject",
             "number": 12541,
@@ -2934,8 +2914,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-02-01T13:49:26Z",
             "title": "Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw",
             "number": 12635,
             "author": {
@@ -3041,6 +3021,31 @@
                 {
                   "node": {
                     "path": "Framework/Foundation/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add tracks filtering on dedx to TPC tracking output",
+            "number": 12640,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMO2Output.cxx"
                   }
                 }
               ]
