@@ -79,6 +79,7 @@
 	- [\#12621](https://github.com/AliceO2Group/AliceO2/pull/12621) 2024-01-31: DPL: avoid invoking matchDataHeader twice when sending data by [@ktf](https://github.com/ktf)
 	- [\#12622](https://github.com/AliceO2Group/AliceO2/pull/12622) 2024-02-01: DPL: Update the lastRunNumberProcessed only if we actually processed something by [@davidrohr](https://github.com/davidrohr)
 	- [\#12632](https://github.com/AliceO2Group/AliceO2/pull/12632) 2024-02-01: DPL: avoid invoking matchDataHeader twice by [@ktf](https://github.com/ktf)
+	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
