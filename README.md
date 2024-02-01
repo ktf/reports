@@ -6,7 +6,6 @@
 	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
@@ -47,7 +46,6 @@
 	- [\#12628](https://github.com/AliceO2Group/AliceO2/pull/12628) 2024-01-31: TPC: Fix when no M-Shape correction map is set by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12631](https://github.com/AliceO2Group/AliceO2/pull/12631) 2024-01-31: TPC M-Shape correction: Suppress error message if default object is used by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
-	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12552](https://github.com/AliceO2Group/AliceO2/pull/12552) 2024-01-18: DPL: invoke fakeDispatch when creating data out of band in test by [@ktf](https://github.com/ktf)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12554](https://github.com/AliceO2Group/AliceO2/pull/12554) 2024-01-18: DPL: make log messages optional as well by [@ktf](https://github.com/ktf)
