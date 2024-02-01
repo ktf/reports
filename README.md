@@ -50,7 +50,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12536](https://github.com/AliceO2Group/AliceO2/pull/12536) 2024-01-16: DPL: discard timeframe in case there is nothing which needs processing by [@ktf](https://github.com/ktf)
 	- [\#12538](https://github.com/AliceO2Group/AliceO2/pull/12538) 2024-01-16: Revert "DPL Analysis: update index binding with type hash" by [@ktf](https://github.com/ktf)
 	- [\#12539](https://github.com/AliceO2Group/AliceO2/pull/12539) 2024-01-17: DPL: do not reset mDidDispatch too early by [@ktf](https://github.com/ktf)
 	- [\#12540](https://github.com/AliceO2Group/AliceO2/pull/12540) 2024-01-17: DPL: optimize for the case debugging is disabled by [@ktf](https://github.com/ktf)
