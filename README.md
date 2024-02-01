@@ -49,7 +49,6 @@
 ## Recent developments in O2 - Examples
 	- [\#12543](https://github.com/AliceO2Group/AliceO2/pull/12543) 2024-01-18: Fix syntax of nEvents by [@ddobrigk](https://github.com/ddobrigk)
 ## Recent developments in O2 - Framework
-	- [\#12542](https://github.com/AliceO2Group/AliceO2/pull/12542) 2024-01-17: DPL: helper function to enable loggers from gdb / lldb by [@ktf](https://github.com/ktf)
 	- [\#12545](https://github.com/AliceO2Group/AliceO2/pull/12545) 2024-01-17: DPL: account for the case in which outputs are not user created by [@ktf](https://github.com/ktf)
 	- [\#12552](https://github.com/AliceO2Group/AliceO2/pull/12552) 2024-01-18: DPL: invoke fakeDispatch when creating data out of band in test by [@ktf](https://github.com/ktf)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
