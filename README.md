@@ -87,6 +87,5 @@
 	- [\#12565](https://github.com/AliceO2Group/AliceO2/pull/12565) 2024-01-19: First orbit should be unsigned int by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Utilities
-	- [\#12549](https://github.com/AliceO2Group/AliceO2/pull/12549) 2024-01-17: Update bench_ransTPC.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12588](https://github.com/AliceO2Group/AliceO2/pull/12588) 2024-01-24: [QC-1089] Reset Merger state before each SOR by [@knopers8](https://github.com/knopers8)
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
