@@ -46,7 +46,6 @@
 	- [\#12642](https://github.com/AliceO2Group/AliceO2/pull/12642) 2024-02-02: fix DaughterTrackId in AODMcProducerHelpers by [@DanielSamitz](https://github.com/DanielSamitz)
 	- [\#12645](https://github.com/AliceO2Group/AliceO2/pull/12645) 2024-02-02: Add lowest TPC track pad-row to failed matches output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12552](https://github.com/AliceO2Group/AliceO2/pull/12552) 2024-01-18: DPL: invoke fakeDispatch when creating data out of band in test by [@ktf](https://github.com/ktf)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12554](https://github.com/AliceO2Group/AliceO2/pull/12554) 2024-01-18: DPL: make log messages optional as well by [@ktf](https://github.com/ktf)
 	- [\#12555](https://github.com/AliceO2Group/AliceO2/pull/12555) 2024-01-18: DPL: improve debugging of WorkflowImporter by [@ktf](https://github.com/ktf)
