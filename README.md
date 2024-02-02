@@ -3,7 +3,6 @@
 ## Recent developments in O2 - Algorithm
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Analysis
-	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
@@ -25,7 +24,6 @@
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 	- [\#12635](https://github.com/AliceO2Group/AliceO2/pull/12635) 2024-02-01: Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12546](https://github.com/AliceO2Group/AliceO2/pull/12546) 2024-01-17: Update HitAnalysis.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12547](https://github.com/AliceO2Group/AliceO2/pull/12547) 2024-01-17: Update AvgClusSize.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12560](https://github.com/AliceO2Group/AliceO2/pull/12560) 2024-01-19: [EMCAL-603] Treatment of access to uninitialized geometry by [@mfasDa](https://github.com/mfasDa)
