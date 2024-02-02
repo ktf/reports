@@ -80,6 +80,7 @@
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 	- [\#12639](https://github.com/AliceO2Group/AliceO2/pull/12639) 2024-02-01: DPL: properly install o2-log by [@ktf](https://github.com/ktf)
+	- [\#12647](https://github.com/AliceO2Group/AliceO2/pull/12647) 2024-02-02: DPL: fix circular dependency between expendable / resilient tasks and output proxy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
