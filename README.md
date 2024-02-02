@@ -24,7 +24,6 @@
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 	- [\#12635](https://github.com/AliceO2Group/AliceO2/pull/12635) 2024-02-01: Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12547](https://github.com/AliceO2Group/AliceO2/pull/12547) 2024-01-17: Update AvgClusSize.cxx by [@cholmcc](https://github.com/cholmcc)
 	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12560](https://github.com/AliceO2Group/AliceO2/pull/12560) 2024-01-19: [EMCAL-603] Treatment of access to uninitialized geometry by [@mfasDa](https://github.com/mfasDa)
 	- [\#12566](https://github.com/AliceO2Group/AliceO2/pull/12566) 2024-01-23: GLOQC: Add Cluster/Chi2 Efficiency Plots and DCAr_TPC vs P_T by [@f3sch](https://github.com/f3sch)
