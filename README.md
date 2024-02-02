@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
 	- [\#12558](https://github.com/AliceO2Group/AliceO2/pull/12558) 2024-01-18: DPL: do not run the check for the case data was not created nor dispatched by [@ktf](https://github.com/ktf)
@@ -25,7 +24,6 @@
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 	- [\#12635](https://github.com/AliceO2Group/AliceO2/pull/12635) 2024-02-01: Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Detectors
-	- [\#12551](https://github.com/AliceO2Group/AliceO2/pull/12551) 2024-01-18: Cleanup and perf optimization by [@sawenzel](https://github.com/sawenzel)
 	- [\#12560](https://github.com/AliceO2Group/AliceO2/pull/12560) 2024-01-19: [EMCAL-603] Treatment of access to uninitialized geometry by [@mfasDa](https://github.com/mfasDa)
 	- [\#12566](https://github.com/AliceO2Group/AliceO2/pull/12566) 2024-01-23: GLOQC: Add Cluster/Chi2 Efficiency Plots and DCAr_TPC vs P_T by [@f3sch](https://github.com/f3sch)
 	- [\#12574](https://github.com/AliceO2Group/AliceO2/pull/12574) 2024-01-23: TPC: Remove probably unnecessary and harmful completion policy by [@wiechula](https://github.com/wiechula)
