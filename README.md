@@ -44,6 +44,7 @@
 	- [\#12628](https://github.com/AliceO2Group/AliceO2/pull/12628) 2024-01-31: TPC: Fix when no M-Shape correction map is set by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12631](https://github.com/AliceO2Group/AliceO2/pull/12631) 2024-01-31: TPC M-Shape correction: Suppress error message if default object is used by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12642](https://github.com/AliceO2Group/AliceO2/pull/12642) 2024-02-02: fix DaughterTrackId in AODMcProducerHelpers by [@DanielSamitz](https://github.com/DanielSamitz)
+	- [\#12645](https://github.com/AliceO2Group/AliceO2/pull/12645) 2024-02-02: Add lowest TPC track pad-row to failed matches output by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12552](https://github.com/AliceO2Group/AliceO2/pull/12552) 2024-01-18: DPL: invoke fakeDispatch when creating data out of band in test by [@ktf](https://github.com/ktf)
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
