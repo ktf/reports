@@ -47,6 +47,7 @@
 	- [\#12642](https://github.com/AliceO2Group/AliceO2/pull/12642) 2024-02-02: fix DaughterTrackId in AODMcProducerHelpers by [@DanielSamitz](https://github.com/DanielSamitz)
 	- [\#12644](https://github.com/AliceO2Group/AliceO2/pull/12644) 2024-02-02: ITS MFT Time-evolving dead maps by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12645](https://github.com/AliceO2Group/AliceO2/pull/12645) 2024-02-02: Add lowest TPC track pad-row to failed matches output by [@shahor02](https://github.com/shahor02)
+	- [\#12649](https://github.com/AliceO2Group/AliceO2/pull/12649) 2024-02-02: Suppress breaks breaking CorrectionMapsLoader init by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12554](https://github.com/AliceO2Group/AliceO2/pull/12554) 2024-01-18: DPL: make log messages optional as well by [@ktf](https://github.com/ktf)
