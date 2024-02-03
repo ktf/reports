@@ -5,7 +5,6 @@
 ## Recent developments in O2 - Analysis
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
 	- [\#12558](https://github.com/AliceO2Group/AliceO2/pull/12558) 2024-01-18: DPL: do not run the check for the case data was not created nor dispatched by [@ktf](https://github.com/ktf)
 	- [\#12572](https://github.com/AliceO2Group/AliceO2/pull/12572) 2024-01-22: DPL: fix formatting and format string by [@ktf](https://github.com/ktf)
@@ -50,7 +49,6 @@
 	- [\#12649](https://github.com/AliceO2Group/AliceO2/pull/12649) 2024-02-02: Suppress breaks breaking CorrectionMapsLoader init by [@shahor02](https://github.com/shahor02)
 	- [\#12651](https://github.com/AliceO2Group/AliceO2/pull/12651) 2024-02-03: Always extract lowest padrow when matching check is asked by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12553](https://github.com/AliceO2Group/AliceO2/pull/12553) 2024-01-18: DPL: add Signposts for some of the DataProcessing / Stream callbacks by [@ktf](https://github.com/ktf)
 	- [\#12554](https://github.com/AliceO2Group/AliceO2/pull/12554) 2024-01-18: DPL: make log messages optional as well by [@ktf](https://github.com/ktf)
 	- [\#12555](https://github.com/AliceO2Group/AliceO2/pull/12555) 2024-01-18: DPL: improve debugging of WorkflowImporter by [@ktf](https://github.com/ktf)
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
