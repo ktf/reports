@@ -4,6 +4,7 @@
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Analysis
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
+	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Common
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
 	- [\#12558](https://github.com/AliceO2Group/AliceO2/pull/12558) 2024-01-18: DPL: do not run the check for the case data was not created nor dispatched by [@ktf](https://github.com/ktf)
@@ -83,6 +84,7 @@
 	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 	- [\#12639](https://github.com/AliceO2Group/AliceO2/pull/12639) 2024-02-01: DPL: properly install o2-log by [@ktf](https://github.com/ktf)
 	- [\#12647](https://github.com/AliceO2Group/AliceO2/pull/12647) 2024-02-02: DPL: fix circular dependency between expendable / resilient tasks and output proxy by [@ktf](https://github.com/ktf)
+	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 ## Recent developments in O2 - Generators
 	- [\#12571](https://github.com/AliceO2Group/AliceO2/pull/12571) 2024-01-22: User-defined particle filtering in Pythia8 events by [@sawenzel](https://github.com/sawenzel)
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
