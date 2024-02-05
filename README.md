@@ -52,7 +52,6 @@
 	- [\#12651](https://github.com/AliceO2Group/AliceO2/pull/12651) 2024-02-03: Always extract lowest padrow when matching check is asked by [@shahor02](https://github.com/shahor02)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12555](https://github.com/AliceO2Group/AliceO2/pull/12555) 2024-01-18: DPL: improve debugging of WorkflowImporter by [@ktf](https://github.com/ktf)
 	- [\#12556](https://github.com/AliceO2Group/AliceO2/pull/12556) 2024-01-22: DPL: use signposts to debug data creation by [@ktf](https://github.com/ktf)
 	- [\#12558](https://github.com/AliceO2Group/AliceO2/pull/12558) 2024-01-18: DPL: do not run the check for the case data was not created nor dispatched by [@ktf](https://github.com/ktf)
 	- [\#12559](https://github.com/AliceO2Group/AliceO2/pull/12559) 2024-01-19: Fix formatting in tests by [@ktf](https://github.com/ktf)
