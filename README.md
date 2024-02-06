@@ -55,6 +55,7 @@
 	- [\#12651](https://github.com/AliceO2Group/AliceO2/pull/12651) 2024-02-03: Always extract lowest padrow when matching check is asked by [@shahor02](https://github.com/shahor02)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
 	- [\#12659](https://github.com/AliceO2Group/AliceO2/pull/12659) 2024-02-06: TPC: Improve allowed number of bins and custom binning options by [@wiechula](https://github.com/wiechula)
+	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 	- [\#12567](https://github.com/AliceO2Group/AliceO2/pull/12567) 2024-01-20: DPL: enable Signposts by default also on linux by [@ktf](https://github.com/ktf)
 	- [\#12570](https://github.com/AliceO2Group/AliceO2/pull/12570) 2024-01-22: DPL: fix typo in help message by [@ktf](https://github.com/ktf)
