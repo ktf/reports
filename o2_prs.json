@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-22T12:57:35Z",
-            "title": "DPL: fix formatting and format string",
-            "number": 12572,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/CommonServices.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-24T20:45:15Z",
             "title": "DPL Analysis: update index binding with type hash",
             "number": 12573,
@@ -3366,6 +3346,31 @@
                 {
                   "node": {
                     "path": "Detectors/TPC/calibration/src/TPCScaler.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "bug fix when creating diagnostic frequency (clear was missing)",
+            "number": 12672,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TOF/src/Diagnostic.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
                   }
                 }
               ]
