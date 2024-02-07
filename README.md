@@ -59,7 +59,6 @@
 	- [\#12663](https://github.com/AliceO2Group/AliceO2/pull/12663) 2024-02-07: option to store dia TOF calib directly from digits by [@noferini](https://github.com/noferini)
 	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
-	- [\#12570](https://github.com/AliceO2Group/AliceO2/pull/12570) 2024-01-22: DPL: fix typo in help message by [@ktf](https://github.com/ktf)
 	- [\#12572](https://github.com/AliceO2Group/AliceO2/pull/12572) 2024-01-22: DPL: fix formatting and format string by [@ktf](https://github.com/ktf)
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12576](https://github.com/AliceO2Group/AliceO2/pull/12576) 2024-01-23: DPL: handle corner case for consumeWhenAll by [@ktf](https://github.com/ktf)
