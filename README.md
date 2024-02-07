@@ -26,6 +26,7 @@
 	- [\#12636](https://github.com/AliceO2Group/AliceO2/pull/12636) 2024-02-05: Added public member function to set MID track efficiency word by [@lucaquaglia15](https://github.com/lucaquaglia15)
 	- [\#12644](https://github.com/AliceO2Group/AliceO2/pull/12644) 2024-02-02: ITS MFT Time-evolving dead maps by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
+	- [\#12655](https://github.com/AliceO2Group/AliceO2/pull/12655) 2024-02-07: Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X by [@shahor02](https://github.com/shahor02)
 	- [\#12658](https://github.com/AliceO2Group/AliceO2/pull/12658) 2024-02-05: Avoid ambiguity in format_to by [@martenole](https://github.com/martenole)
 ## Recent developments in O2 - Detectors
 	- [\#12574](https://github.com/AliceO2Group/AliceO2/pull/12574) 2024-01-23: TPC: Remove probably unnecessary and harmful completion policy by [@wiechula](https://github.com/wiechula)
@@ -53,6 +54,7 @@
 	- [\#12649](https://github.com/AliceO2Group/AliceO2/pull/12649) 2024-02-02: Suppress breaks breaking CorrectionMapsLoader init by [@shahor02](https://github.com/shahor02)
 	- [\#12651](https://github.com/AliceO2Group/AliceO2/pull/12651) 2024-02-03: Always extract lowest padrow when matching check is asked by [@shahor02](https://github.com/shahor02)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
+	- [\#12655](https://github.com/AliceO2Group/AliceO2/pull/12655) 2024-02-07: Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X by [@shahor02](https://github.com/shahor02)
 	- [\#12659](https://github.com/AliceO2Group/AliceO2/pull/12659) 2024-02-06: TPC: Improve allowed number of bins and custom binning options by [@wiechula](https://github.com/wiechula)
 	- [\#12663](https://github.com/AliceO2Group/AliceO2/pull/12663) 2024-02-07: option to store dia TOF calib directly from digits by [@noferini](https://github.com/noferini)
 	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
