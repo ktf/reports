@@ -61,7 +61,6 @@
 	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
-	- [\#12580](https://github.com/AliceO2Group/AliceO2/pull/12580) 2024-01-23: DPL: Easier serialization of STL containers with pointers to objects having ROOT dict by [@knopers8](https://github.com/knopers8)
 	- [\#12585](https://github.com/AliceO2Group/AliceO2/pull/12585) 2024-01-24: DPL: improve "Discard"  action by [@ktf](https://github.com/ktf)
 	- [\#12589](https://github.com/AliceO2Group/AliceO2/pull/12589) 2024-01-25: DPL: command line option to enable signposts by [@ktf](https://github.com/ktf)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
