@@ -14,7 +14,6 @@
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
-	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
@@ -29,7 +28,6 @@
 	- [\#12660](https://github.com/AliceO2Group/AliceO2/pull/12660) 2024-02-08: [EMCAL-688] Inclusion of EMCal Cell and Cluster labels by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12584](https://github.com/AliceO2Group/AliceO2/pull/12584) 2024-01-24: Avoid extra run call in the end of raw-reader cycle by [@shahor02](https://github.com/shahor02)
 	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
 	- [\#12598](https://github.com/AliceO2Group/AliceO2/pull/12598) 2024-01-26: GLOQC: Fix QC-1091 by [@f3sch](https://github.com/f3sch)
@@ -60,6 +58,7 @@
 	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
 	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
+	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12585](https://github.com/AliceO2Group/AliceO2/pull/12585) 2024-01-24: DPL: improve "Discard"  action by [@ktf](https://github.com/ktf)
 	- [\#12589](https://github.com/AliceO2Group/AliceO2/pull/12589) 2024-01-25: DPL: command line option to enable signposts by [@ktf](https://github.com/ktf)
