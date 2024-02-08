@@ -28,6 +28,7 @@
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
 	- [\#12655](https://github.com/AliceO2Group/AliceO2/pull/12655) 2024-02-07: Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X by [@shahor02](https://github.com/shahor02)
 	- [\#12658](https://github.com/AliceO2Group/AliceO2/pull/12658) 2024-02-05: Avoid ambiguity in format_to by [@martenole](https://github.com/martenole)
+	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 	- [\#12574](https://github.com/AliceO2Group/AliceO2/pull/12574) 2024-01-23: TPC: Remove probably unnecessary and harmful completion policy by [@wiechula](https://github.com/wiechula)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
@@ -59,6 +60,7 @@
 	- [\#12663](https://github.com/AliceO2Group/AliceO2/pull/12663) 2024-02-07: option to store dia TOF calib directly from digits by [@noferini](https://github.com/noferini)
 	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
 	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
+	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Framework
 	- [\#12573](https://github.com/AliceO2Group/AliceO2/pull/12573) 2024-01-24: DPL Analysis: update index binding with type hash by [@aalkin](https://github.com/aalkin)
 	- [\#12576](https://github.com/AliceO2Group/AliceO2/pull/12576) 2024-01-23: DPL: handle corner case for consumeWhenAll by [@ktf](https://github.com/ktf)
