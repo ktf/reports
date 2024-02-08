@@ -30,7 +30,6 @@
 	- [\#12660](https://github.com/AliceO2Group/AliceO2/pull/12660) 2024-02-08: [EMCAL-688] Inclusion of EMCal Cell and Cluster labels by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12574](https://github.com/AliceO2Group/AliceO2/pull/12574) 2024-01-23: TPC: Remove probably unnecessary and harmful completion policy by [@wiechula](https://github.com/wiechula)
 	- [\#12581](https://github.com/AliceO2Group/AliceO2/pull/12581) 2024-01-25: Infologger Cleanup by [@martenole](https://github.com/martenole)
 	- [\#12584](https://github.com/AliceO2Group/AliceO2/pull/12584) 2024-01-24: Avoid extra run call in the end of raw-reader cycle by [@shahor02](https://github.com/shahor02)
 	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
