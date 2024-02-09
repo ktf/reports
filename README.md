@@ -26,6 +26,7 @@
 	- [\#12655](https://github.com/AliceO2Group/AliceO2/pull/12655) 2024-02-07: Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X by [@shahor02](https://github.com/shahor02)
 	- [\#12658](https://github.com/AliceO2Group/AliceO2/pull/12658) 2024-02-05: Avoid ambiguity in format_to by [@martenole](https://github.com/martenole)
 	- [\#12660](https://github.com/AliceO2Group/AliceO2/pull/12660) 2024-02-08: [EMCAL-688] Inclusion of EMCal Cell and Cluster labels by [@mhemmer-cern](https://github.com/mhemmer-cern)
+	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
 	- [\#12584](https://github.com/AliceO2Group/AliceO2/pull/12584) 2024-01-24: Avoid extra run call in the end of raw-reader cycle by [@shahor02](https://github.com/shahor02)
@@ -56,6 +57,7 @@
 	- [\#12660](https://github.com/AliceO2Group/AliceO2/pull/12660) 2024-02-08: [EMCAL-688] Inclusion of EMCal Cell and Cluster labels by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12663](https://github.com/AliceO2Group/AliceO2/pull/12663) 2024-02-07: option to store dia TOF calib directly from digits by [@noferini](https://github.com/noferini)
 	- [\#12664](https://github.com/AliceO2Group/AliceO2/pull/12664) 2024-02-06: AODProducer: fix logical inversion for prop-tracks by [@f3sch](https://github.com/f3sch)
+	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
