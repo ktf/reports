@@ -29,7 +29,6 @@
 	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12586](https://github.com/AliceO2Group/AliceO2/pull/12586) 2024-01-24: FT0 reco: rounding for mean times by [@afurs](https://github.com/afurs)
 	- [\#12598](https://github.com/AliceO2Group/AliceO2/pull/12598) 2024-01-26: GLOQC: Fix QC-1091 by [@f3sch](https://github.com/f3sch)
 	- [\#12601](https://github.com/AliceO2Group/AliceO2/pull/12601) 2024-01-26: Move some macros in `COMPILE_ONLY` mode in tests to workaround ROOT issues with C++20 by [@mconcas](https://github.com/mconcas)
 	- [\#12603](https://github.com/AliceO2Group/AliceO2/pull/12603) 2024-01-28: Add possibility to upload and query the MID fake dead list in ccdb by [@dstocco](https://github.com/dstocco)
