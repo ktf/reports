@@ -85,6 +85,7 @@
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 	- [\#12668](https://github.com/AliceO2Group/AliceO2/pull/12668) 2024-02-07: DPL Analysis: avoid extra cursorHelper methods by [@ktf](https://github.com/ktf)
 	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
+	- [\#12685](https://github.com/AliceO2Group/AliceO2/pull/12685) 2024-02-10: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
