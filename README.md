@@ -13,6 +13,7 @@
 	- [\#12619](https://github.com/AliceO2Group/AliceO2/pull/12619) 2024-01-31: Fixes / improvements / new options for floating-point consistency host / GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
+	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - DataFormats
 	- [\#12592](https://github.com/AliceO2Group/AliceO2/pull/12592) 2024-01-25: o2-sim: Change way to create standalone MCHeader file by [@sawenzel](https://github.com/sawenzel)
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
@@ -85,6 +86,7 @@
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 	- [\#12668](https://github.com/AliceO2Group/AliceO2/pull/12668) 2024-02-07: DPL Analysis: avoid extra cursorHelper methods by [@ktf](https://github.com/ktf)
 	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
+	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12685](https://github.com/AliceO2Group/AliceO2/pull/12685) 2024-02-10: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12587](https://github.com/AliceO2Group/AliceO2/pull/12587) 2024-01-24: Pythia8: improved determination of callback filename by [@sawenzel](https://github.com/sawenzel)
@@ -94,3 +96,4 @@
 ## Recent developments in O2 - Utilities
 	- [\#12588](https://github.com/AliceO2Group/AliceO2/pull/12588) 2024-01-24: [QC-1089] Reset Merger state before each SOR by [@knopers8](https://github.com/knopers8)
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
+	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
