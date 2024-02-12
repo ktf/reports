@@ -8,7 +8,6 @@
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 	- [\#12617](https://github.com/AliceO2Group/AliceO2/pull/12617) 2024-01-30: Make sure the user routes are traced also on EoS by [@ktf](https://github.com/ktf)
 	- [\#12619](https://github.com/AliceO2Group/AliceO2/pull/12619) 2024-01-31: Fixes / improvements / new options for floating-point consistency host / GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
@@ -64,7 +63,6 @@
 	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 	- [\#12593](https://github.com/AliceO2Group/AliceO2/pull/12593) 2024-01-26: Debug DataAllocator::matchDataHeader crash by [@martenole](https://github.com/martenole)
 	- [\#12594](https://github.com/AliceO2Group/AliceO2/pull/12594) 2024-01-25: DPL: make stacktrace level not atomic by [@ktf](https://github.com/ktf)
 	- [\#12595](https://github.com/AliceO2Group/AliceO2/pull/12595) 2024-01-25: DPL: allow signposts to be enabled via DPL_SIGNPOSTS by [@ktf](https://github.com/ktf)
