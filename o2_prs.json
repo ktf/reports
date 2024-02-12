@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-01-26T09:50:43Z",
-            "title": "Debug DataAllocator::matchDataHeader crash",
-            "number": 12593,
-            "author": {
-              "login": "martenole"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/src/DataAllocator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-01-25T19:14:17Z",
             "title": "DPL: make stacktrace level not atomic",
             "number": 12594,
@@ -3341,6 +3321,51 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/SendingPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Add prototype for SMatrixGPU testing",
+            "number": 12693,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/test/.gitignore"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/test/testSMatrixImp.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddHipifiedExecutable.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "cmake/O2AddTest.cmake"
                   }
                 }
               ]
