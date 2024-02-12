@@ -61,6 +61,7 @@
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12680](https://github.com/AliceO2Group/AliceO2/pull/12680) 2024-02-11: Fixes to make the split wf work again by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
+	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12589](https://github.com/AliceO2Group/AliceO2/pull/12589) 2024-01-25: DPL: command line option to enable signposts by [@ktf](https://github.com/ktf)
