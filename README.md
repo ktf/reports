@@ -64,7 +64,6 @@
 	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12589](https://github.com/AliceO2Group/AliceO2/pull/12589) 2024-01-25: DPL: command line option to enable signposts by [@ktf](https://github.com/ktf)
 	- [\#12590](https://github.com/AliceO2Group/AliceO2/pull/12590) 2024-01-25: DPL: use Signposts to debug oldest possible timeframe. by [@ktf](https://github.com/ktf)
 	- [\#12593](https://github.com/AliceO2Group/AliceO2/pull/12593) 2024-01-26: Debug DataAllocator::matchDataHeader crash by [@martenole](https://github.com/martenole)
 	- [\#12594](https://github.com/AliceO2Group/AliceO2/pull/12594) 2024-01-25: DPL: make stacktrace level not atomic by [@ktf](https://github.com/ktf)
