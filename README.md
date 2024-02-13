@@ -61,6 +61,7 @@
 	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
 	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
+	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12595](https://github.com/AliceO2Group/AliceO2/pull/12595) 2024-01-25: DPL: allow signposts to be enabled via DPL_SIGNPOSTS by [@ktf](https://github.com/ktf)
 	- [\#12596](https://github.com/AliceO2Group/AliceO2/pull/12596) 2024-01-25: DPL: add o2-log utility (for Mac, Linux coming) by [@ktf](https://github.com/ktf)
