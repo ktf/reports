@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-05T18:39:03Z",
-            "title": "PWGJE: Creating Lund declustering task",
-            "number": 4603,
-            "author": {
-              "login": "alicecaluisi"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/Tasks/jetLundReclustering.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-05T20:43:10Z",
             "title": "Proper initialization of the vector for colliding BCs",
             "number": 4604,
@@ -2409,8 +2384,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-02-13T18:03:39Z",
             "title": "PWGLF: V0 QC - change from V0 eta to daughter track eta flag",
             "number": 4696,
             "author": {
@@ -2561,6 +2536,181 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGJE : Fixing wrong dereferenced tables",
+            "number": 4703,
+            "author": {
+              "login": "nzardosh"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGJE/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetFindingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetHFUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Core/JetMatchingUtilities.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/DataModel/JetReducedData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderD0datacharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderD0mcdcharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderD0mcpcharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderdatacharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderdatafull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderdataneutral.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfinderhf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcdcharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcdfull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcdneutral.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcpcharged.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcpfull.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/JetFinders/jetfindermcpneutral.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/TableProducer/jetderiveddatawriter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetHadronRecoil.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetTutorial.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderfullQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetfinderhfQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetmatchingqa.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructure.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehf.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructurehfoutput.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGJE/Tasks/jetsubstructureoutput.cxx"
                   }
                 }
               ]
