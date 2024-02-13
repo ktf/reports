@@ -65,7 +65,6 @@
 	- [\#12691](https://github.com/AliceO2Group/AliceO2/pull/12691) 2024-02-13: Make hmp-matcher-workflow respect selected sources by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12597](https://github.com/AliceO2Group/AliceO2/pull/12597) 2024-02-01: DPL: support for Signposts in CCDB by [@ktf](https://github.com/ktf)
 	- [\#12599](https://github.com/AliceO2Group/AliceO2/pull/12599) 2024-01-26: DPL: install o2-log in the proper place by [@ktf](https://github.com/ktf)
 	- [\#12600](https://github.com/AliceO2Group/AliceO2/pull/12600) 2024-01-28: DPL: do not update the new run flag unless we do process data by [@ktf](https://github.com/ktf)
 	- [\#12610](https://github.com/AliceO2Group/AliceO2/pull/12610) 2024-02-01: Data inspector by [@a-wolk](https://github.com/a-wolk)
