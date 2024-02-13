@@ -13,6 +13,7 @@
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
+	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - DataFormats
 	- [\#12607](https://github.com/AliceO2Group/AliceO2/pull/12607) 2024-01-28: Use iterative e.loss correction if kin.E loss fraction exceeds 2.5% by [@shahor02](https://github.com/shahor02)
 	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
@@ -87,6 +88,7 @@
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12685](https://github.com/AliceO2Group/AliceO2/pull/12685) 2024-02-10: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 	- [\#12688](https://github.com/AliceO2Group/AliceO2/pull/12688) 2024-02-12: DPL: hide exception handling from header by [@ktf](https://github.com/ktf)
+	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
