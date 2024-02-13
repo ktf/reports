@@ -30,7 +30,6 @@
 	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 ## Recent developments in O2 - Detectors
-	- [\#12601](https://github.com/AliceO2Group/AliceO2/pull/12601) 2024-01-26: Move some macros in `COMPILE_ONLY` mode in tests to workaround ROOT issues with C++20 by [@mconcas](https://github.com/mconcas)
 	- [\#12603](https://github.com/AliceO2Group/AliceO2/pull/12603) 2024-01-28: Add possibility to upload and query the MID fake dead list in ccdb by [@dstocco](https://github.com/dstocco)
 	- [\#12604](https://github.com/AliceO2Group/AliceO2/pull/12604) 2024-01-29: Allow to detect bad channels from MID occupancy when no calibration trigger is found by [@dstocco](https://github.com/dstocco)
 	- [\#12606](https://github.com/AliceO2Group/AliceO2/pull/12606) 2024-01-26: Move another macro to be compiled only by [@ktf](https://github.com/ktf)
