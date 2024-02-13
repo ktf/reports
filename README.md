@@ -63,6 +63,7 @@
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 	- [\#12691](https://github.com/AliceO2Group/AliceO2/pull/12691) 2024-02-13: Make hmp-matcher-workflow respect selected sources by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
+	- [\#12697](https://github.com/AliceO2Group/AliceO2/pull/12697) 2024-02-13: its-study: add anomaly detection study by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - Framework
 	- [\#12610](https://github.com/AliceO2Group/AliceO2/pull/12610) 2024-02-01: Data inspector by [@a-wolk](https://github.com/a-wolk)
 	- [\#12617](https://github.com/AliceO2Group/AliceO2/pull/12617) 2024-01-30: Make sure the user routes are traced also on EoS by [@ktf](https://github.com/ktf)
