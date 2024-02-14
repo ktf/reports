@@ -85,6 +85,7 @@
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
 	- [\#12699](https://github.com/AliceO2Group/AliceO2/pull/12699) 2024-02-13: DPL: drop reference to the now obsolete non-critical label by [@ktf](https://github.com/ktf)
+	- [\#12701](https://github.com/AliceO2Group/AliceO2/pull/12701) 2024-02-14: DPL: make sure homogeneous_apply_ref complains when we are missing an explicit constructor by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
