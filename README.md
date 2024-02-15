@@ -59,6 +59,7 @@
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 	- [\#12691](https://github.com/AliceO2Group/AliceO2/pull/12691) 2024-02-13: Make hmp-matcher-workflow respect selected sources by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
+	- [\#12696](https://github.com/AliceO2Group/AliceO2/pull/12696) 2024-02-15: ALICE 3: Beam pipe vacuum vessel, IRIS vacuum vessel update by [@Cas1997](https://github.com/Cas1997)
 	- [\#12697](https://github.com/AliceO2Group/AliceO2/pull/12697) 2024-02-13: its-study: add anomaly detection study by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
