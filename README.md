@@ -30,7 +30,6 @@
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-	- [\#12614](https://github.com/AliceO2Group/AliceO2/pull/12614) 2024-01-29: Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added by [@lmassacr](https://github.com/lmassacr)
 	- [\#12615](https://github.com/AliceO2Group/AliceO2/pull/12615) 2024-01-30: TPC timeseries: Adding new variables for skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12620](https://github.com/AliceO2Group/AliceO2/pull/12620) 2024-02-05: Ignore the 'Error decoding the superpage' in QC-Task by [@fapfap69](https://github.com/fapfap69)
 	- [\#12626](https://github.com/AliceO2Group/AliceO2/pull/12626) 2024-01-31: TPC: Add getter for output tree by [@wiechula](https://github.com/wiechula)
