@@ -17,7 +17,6 @@
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12693](https://github.com/AliceO2Group/AliceO2/pull/12693) 2024-02-13: GPU: Add prototype for SMatrixGPU testing by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
-	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 	- [\#12612](https://github.com/AliceO2Group/AliceO2/pull/12612) 2024-01-29: Hide unused variables by [@shahor02](https://github.com/shahor02)
 	- [\#12624](https://github.com/AliceO2Group/AliceO2/pull/12624) 2024-01-31: Suppress more unused vars in the TrackUtils by [@shahor02](https://github.com/shahor02)
 	- [\#12635](https://github.com/AliceO2Group/AliceO2/pull/12635) 2024-02-01: Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw by [@shahor02](https://github.com/shahor02)
@@ -32,7 +31,6 @@
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-	- [\#12611](https://github.com/AliceO2Group/AliceO2/pull/12611) 2024-01-29: Workflow for relating and dumping MC and reco tracks info by [@shahor02](https://github.com/shahor02)
 	- [\#12614](https://github.com/AliceO2Group/AliceO2/pull/12614) 2024-01-29: Switch on reading of BadChannel CCDB information in StatusMap Creator with protection added by [@lmassacr](https://github.com/lmassacr)
 	- [\#12615](https://github.com/AliceO2Group/AliceO2/pull/12615) 2024-01-30: TPC timeseries: Adding new variables for skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12620](https://github.com/AliceO2Group/AliceO2/pull/12620) 2024-02-05: Ignore the 'Error decoding the superpage' in QC-Task by [@fapfap69](https://github.com/fapfap69)
