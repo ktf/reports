@@ -66,7 +66,6 @@
 	- [\#12697](https://github.com/AliceO2Group/AliceO2/pull/12697) 2024-02-13: its-study: add anomaly detection study by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Framework
-	- [\#12610](https://github.com/AliceO2Group/AliceO2/pull/12610) 2024-02-01: Data inspector by [@a-wolk](https://github.com/a-wolk)
 	- [\#12617](https://github.com/AliceO2Group/AliceO2/pull/12617) 2024-01-30: Make sure the user routes are traced also on EoS by [@ktf](https://github.com/ktf)
 	- [\#12621](https://github.com/AliceO2Group/AliceO2/pull/12621) 2024-01-31: DPL: avoid invoking matchDataHeader twice when sending data by [@ktf](https://github.com/ktf)
 	- [\#12622](https://github.com/AliceO2Group/AliceO2/pull/12622) 2024-02-01: DPL: Update the lastRunNumberProcessed only if we actually processed something by [@davidrohr](https://github.com/davidrohr)
