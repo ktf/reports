@@ -65,7 +65,6 @@
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12621](https://github.com/AliceO2Group/AliceO2/pull/12621) 2024-01-31: DPL: avoid invoking matchDataHeader twice when sending data by [@ktf](https://github.com/ktf)
 	- [\#12622](https://github.com/AliceO2Group/AliceO2/pull/12622) 2024-02-01: DPL: Update the lastRunNumberProcessed only if we actually processed something by [@davidrohr](https://github.com/davidrohr)
 	- [\#12632](https://github.com/AliceO2Group/AliceO2/pull/12632) 2024-02-01: DPL: avoid invoking matchDataHeader twice by [@ktf](https://github.com/ktf)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
