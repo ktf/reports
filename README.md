@@ -87,6 +87,7 @@
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12713](https://github.com/AliceO2Group/AliceO2/pull/12713) 2024-02-16: Framework: add condition in AOD merger to handle empty DFs in linked derived data by [@fgrosa](https://github.com/fgrosa)
+	- [\#12721](https://github.com/AliceO2Group/AliceO2/pull/12721) 2024-02-16: DPL: Improve Signposts by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
