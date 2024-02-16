@@ -4,6 +4,7 @@
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
 	- [\#12654](https://github.com/AliceO2Group/AliceO2/pull/12654) 2024-02-05: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
+	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
@@ -62,6 +63,7 @@
 	- [\#12705](https://github.com/AliceO2Group/AliceO2/pull/12705) 2024-02-16: its-gpu-tracking: Refactor kernels location by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
+	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12621](https://github.com/AliceO2Group/AliceO2/pull/12621) 2024-01-31: DPL: avoid invoking matchDataHeader twice when sending data by [@ktf](https://github.com/ktf)
@@ -87,6 +89,7 @@
 	- [\#12700](https://github.com/AliceO2Group/AliceO2/pull/12700) 2024-02-14: DPL: Pass the concept of expendable tasks in DPL to templates for ECS by [@knopers8](https://github.com/knopers8)
 	- [\#12701](https://github.com/AliceO2Group/AliceO2/pull/12701) 2024-02-14: DPL: make sure homogeneous_apply_ref complains when we are missing an explicit constructor by [@ktf](https://github.com/ktf)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
+	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12713](https://github.com/AliceO2Group/AliceO2/pull/12713) 2024-02-16: Framework: add condition in AOD merger to handle empty DFs in linked derived data by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
