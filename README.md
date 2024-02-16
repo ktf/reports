@@ -60,6 +60,7 @@
 	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
 	- [\#12696](https://github.com/AliceO2Group/AliceO2/pull/12696) 2024-02-15: ALICE 3: Beam pipe vacuum vessel, IRIS vacuum vessel update by [@Cas1997](https://github.com/Cas1997)
 	- [\#12697](https://github.com/AliceO2Group/AliceO2/pull/12697) 2024-02-13: its-study: add anomaly detection study by [@mconcas](https://github.com/mconcas)
+	- [\#12705](https://github.com/AliceO2Group/AliceO2/pull/12705) 2024-02-16: its-gpu-tracking: Refactor kernels location by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
