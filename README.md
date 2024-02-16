@@ -9,7 +9,6 @@
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12619](https://github.com/AliceO2Group/AliceO2/pull/12619) 2024-01-31: Fixes / improvements / new options for floating-point consistency host / GPU by [@davidrohr](https://github.com/davidrohr)
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
@@ -88,6 +87,7 @@
 	- [\#12700](https://github.com/AliceO2Group/AliceO2/pull/12700) 2024-02-14: DPL: Pass the concept of expendable tasks in DPL to templates for ECS by [@knopers8](https://github.com/knopers8)
 	- [\#12701](https://github.com/AliceO2Group/AliceO2/pull/12701) 2024-02-14: DPL: make sure homogeneous_apply_ref complains when we are missing an explicit constructor by [@ktf](https://github.com/ktf)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
+	- [\#12713](https://github.com/AliceO2Group/AliceO2/pull/12713) 2024-02-16: Framework: add condition in AOD merger to handle empty DFs in linked derived data by [@fgrosa](https://github.com/fgrosa)
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
