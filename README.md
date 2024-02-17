@@ -33,7 +33,6 @@
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
-	- [\#12626](https://github.com/AliceO2Group/AliceO2/pull/12626) 2024-01-31: TPC: Add getter for output tree by [@wiechula](https://github.com/wiechula)
 	- [\#12628](https://github.com/AliceO2Group/AliceO2/pull/12628) 2024-01-31: TPC: Fix when no M-Shape correction map is set by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12630](https://github.com/AliceO2Group/AliceO2/pull/12630) 2024-02-02: TPCQC added PID hypothesis to PID Task by [@HorstMa](https://github.com/HorstMa)
 	- [\#12631](https://github.com/AliceO2Group/AliceO2/pull/12631) 2024-01-31: TPC M-Shape correction: Suppress error message if default object is used by [@matthias-kleiner](https://github.com/matthias-kleiner)
