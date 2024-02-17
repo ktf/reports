@@ -31,6 +31,7 @@
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
+	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
 	- [\#12626](https://github.com/AliceO2Group/AliceO2/pull/12626) 2024-01-31: TPC: Add getter for output tree by [@wiechula](https://github.com/wiechula)
 	- [\#12628](https://github.com/AliceO2Group/AliceO2/pull/12628) 2024-01-31: TPC: Fix when no M-Shape correction map is set by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -67,6 +68,7 @@
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
+	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Framework
 	- [\#12632](https://github.com/AliceO2Group/AliceO2/pull/12632) 2024-02-01: DPL: avoid invoking matchDataHeader twice by [@ktf](https://github.com/ktf)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
