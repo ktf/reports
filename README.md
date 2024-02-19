@@ -34,7 +34,6 @@
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 ## Recent developments in O2 - Detectors
-	- [\#12631](https://github.com/AliceO2Group/AliceO2/pull/12631) 2024-01-31: TPC M-Shape correction: Suppress error message if default object is used by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12636](https://github.com/AliceO2Group/AliceO2/pull/12636) 2024-02-05: Added public member function to set MID track efficiency word by [@lucaquaglia15](https://github.com/lucaquaglia15)
 	- [\#12637](https://github.com/AliceO2Group/AliceO2/pull/12637) 2024-02-02: TPC: Adding PID from tracking to skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12642](https://github.com/AliceO2Group/AliceO2/pull/12642) 2024-02-02: fix DaughterTrackId in AODMcProducerHelpers by [@DanielSamitz](https://github.com/DanielSamitz)
