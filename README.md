@@ -10,7 +10,6 @@
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 ## Recent developments in O2 - Common
-	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
@@ -68,7 +67,6 @@
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
 ## Recent developments in O2 - Framework
-	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
 	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 	- [\#12639](https://github.com/AliceO2Group/AliceO2/pull/12639) 2024-02-01: DPL: properly install o2-log by [@ktf](https://github.com/ktf)
 	- [\#12647](https://github.com/AliceO2Group/AliceO2/pull/12647) 2024-02-02: DPL: fix circular dependency between expendable / resilient tasks and output proxy by [@ktf](https://github.com/ktf)
