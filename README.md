@@ -32,6 +32,7 @@
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
+	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
 	- [\#12636](https://github.com/AliceO2Group/AliceO2/pull/12636) 2024-02-05: Added public member function to set MID track efficiency word by [@lucaquaglia15](https://github.com/lucaquaglia15)
 	- [\#12637](https://github.com/AliceO2Group/AliceO2/pull/12637) 2024-02-02: TPC: Adding PID from tracking to skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
@@ -66,6 +67,7 @@
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
+	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Framework
 	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 	- [\#12639](https://github.com/AliceO2Group/AliceO2/pull/12639) 2024-02-01: DPL: properly install o2-log by [@ktf](https://github.com/ktf)
@@ -94,6 +96,7 @@
 ## Recent developments in O2 - Steer
 	- [\#12641](https://github.com/AliceO2Group/AliceO2/pull/12641) 2024-02-02: Avoid static vars in the ITS/MFT digitizer by [@shahor02](https://github.com/shahor02)
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
+	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
 	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
