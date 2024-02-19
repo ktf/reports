@@ -12,6 +12,7 @@
 ## Recent developments in O2 - Common
 	- [\#12629](https://github.com/AliceO2Group/AliceO2/pull/12629) 2024-01-31: GPU: Automatically disable math optimizations for TPC track model encoding/decoding code by [@davidrohr](https://github.com/davidrohr)
 	- [\#12633](https://github.com/AliceO2Group/AliceO2/pull/12633) 2024-02-02: DPL: make sure we correctly handle DPL created messages by [@ktf](https://github.com/ktf)
+	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
@@ -102,4 +103,5 @@
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 ## Recent developments in O2 - Utilities
 	- [\#12634](https://github.com/AliceO2Group/AliceO2/pull/12634) 2024-02-01: Fix double deletion in algorithm::deleteTCollections by [@mconcas](https://github.com/mconcas)
+	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
