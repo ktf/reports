@@ -18,7 +18,6 @@
 	- [\#12716](https://github.com/AliceO2Group/AliceO2/pull/12716) 2024-02-16: GPU: Add some sorting kernels to make deterministic debug mode more deterministic by [@davidrohr](https://github.com/davidrohr)
 	- [\#12718](https://github.com/AliceO2Group/AliceO2/pull/12718) 2024-02-16: GPU: Fix atomics on the host by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12635](https://github.com/AliceO2Group/AliceO2/pull/12635) 2024-02-01: Redefine calcMass2(pid1,pid2) to calcMass2PID to use in TTree::Draw by [@shahor02](https://github.com/shahor02)
 	- [\#12636](https://github.com/AliceO2Group/AliceO2/pull/12636) 2024-02-05: Added public member function to set MID track efficiency word by [@lucaquaglia15](https://github.com/lucaquaglia15)
 	- [\#12644](https://github.com/AliceO2Group/AliceO2/pull/12644) 2024-02-02: ITS MFT Time-evolving dead maps by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
