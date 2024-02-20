@@ -32,7 +32,6 @@
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Detectors
-	- [\#12637](https://github.com/AliceO2Group/AliceO2/pull/12637) 2024-02-02: TPC: Adding PID from tracking to skimmed data by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12642](https://github.com/AliceO2Group/AliceO2/pull/12642) 2024-02-02: fix DaughterTrackId in AODMcProducerHelpers by [@DanielSamitz](https://github.com/DanielSamitz)
 	- [\#12644](https://github.com/AliceO2Group/AliceO2/pull/12644) 2024-02-02: ITS MFT Time-evolving dead maps by [@nicolovalle](https://github.com/nicolovalle)
 	- [\#12645](https://github.com/AliceO2Group/AliceO2/pull/12645) 2024-02-02: Add lowest TPC track pad-row to failed matches output by [@shahor02](https://github.com/shahor02)
