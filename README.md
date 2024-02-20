@@ -65,6 +65,7 @@
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
+	- [\#12728](https://github.com/AliceO2Group/AliceO2/pull/12728) 2024-02-20: TPC residual aggregator stores unbinned residuals by default by [@martenole](https://github.com/martenole)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12733](https://github.com/AliceO2Group/AliceO2/pull/12733) 2024-02-20: Add README.md to `Detectors/AOD` by [@cholmcc](https://github.com/cholmcc)
 	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
