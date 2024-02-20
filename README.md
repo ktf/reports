@@ -67,6 +67,7 @@
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12733](https://github.com/AliceO2Group/AliceO2/pull/12733) 2024-02-20: Add README.md to `Detectors/AOD` by [@cholmcc](https://github.com/cholmcc)
+	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
 	- [\#12638](https://github.com/AliceO2Group/AliceO2/pull/12638) 2024-02-01: DPL: print out how to enable disabled signposts by [@ktf](https://github.com/ktf)
 	- [\#12639](https://github.com/AliceO2Group/AliceO2/pull/12639) 2024-02-01: DPL: properly install o2-log by [@ktf](https://github.com/ktf)
