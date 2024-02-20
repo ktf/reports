@@ -17,6 +17,7 @@
 	- [\#12710](https://github.com/AliceO2Group/AliceO2/pull/12710) 2024-02-19: alice 3: fix run 3 sim protection against run 5 detectors by [@mconcas](https://github.com/mconcas)
 	- [\#12716](https://github.com/AliceO2Group/AliceO2/pull/12716) 2024-02-16: GPU: Add some sorting kernels to make deterministic debug mode more deterministic by [@davidrohr](https://github.com/davidrohr)
 	- [\#12718](https://github.com/AliceO2Group/AliceO2/pull/12718) 2024-02-16: GPU: Fix atomics on the host by [@davidrohr](https://github.com/davidrohr)
+	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
 ## Recent developments in O2 - DataFormats
 	- [\#12636](https://github.com/AliceO2Group/AliceO2/pull/12636) 2024-02-05: Added public member function to set MID track efficiency word by [@lucaquaglia15](https://github.com/lucaquaglia15)
 	- [\#12644](https://github.com/AliceO2Group/AliceO2/pull/12644) 2024-02-02: ITS MFT Time-evolving dead maps by [@nicolovalle](https://github.com/nicolovalle)
@@ -65,6 +66,7 @@
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
+	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12733](https://github.com/AliceO2Group/AliceO2/pull/12733) 2024-02-20: Add README.md to `Detectors/AOD` by [@cholmcc](https://github.com/cholmcc)
 ## Recent developments in O2 - Framework
