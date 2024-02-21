@@ -5,66 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-13T22:18:28Z",
-            "title": "PWGJE: fixing bug in HF jets",
-            "number": 4705,
-            "author": {
-              "login": "nzardosh"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetHFUtilities.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/DataModel/JetReducedDataHF.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGJE/JetFinders/jetfinderhf.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-02-13T23:27:37Z",
-            "title": "Fix the PID selection method one and two",
-            "number": 4706,
-            "author": {
-              "login": "victor-gonzalez"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGCF/Core/AnalysisConfigurableCuts.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/TableProducer/dptdptfilter.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGCF/Tasks/dptdptcorrelations.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-14T11:32:20Z",
             "title": "[PWGLF] add ep analysis",
             "number": 4707,
@@ -2541,6 +2481,126 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/cascadeflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Change hypertriton 3body decay builder to a common task",
+            "number": 4805,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/Vtx3BodyTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/decay3bodybuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/hypertriton3bodyfinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyMCQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Nuspex/hypertriton3bodyanalysis.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGHF: D-h correlation analysis: post processing macros",
+            "number": 4806,
+            "author": {
+              "login": "scattaru"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/AnalysisExecution.sh"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/DhCorrelationExtraction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/DhCorrelationExtraction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/DhCorrelationFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/DhCorrelationFitter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/ExtractOutputCorrel.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/FitCorrel.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/GetRawYields.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/HFMassFitter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/HFMassFitter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/config_CorrAnalysis_DsToKKPi.json"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/HFC/Macros/config_massfitter_DsToKKPi.json"
                   }
                 }
               ]
