@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "CLOSED",
-            "mergedAt": null,
-            "title": "Use aggregate initialisation for JetFinder",
-            "number": 4699,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGJE/Core/JetFinder.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-02-13T18:44:26Z",
             "title": "PWGLF: fix typo in PDG codes",
@@ -2510,12 +2490,22 @@
               "edges": [
                 {
                   "node": {
+                    "path": "PWGHF/DataModel/CandidateReconstructionTables.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "PWGHF/TableProducer/candidateCreator2Prong.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "PWGHF/TableProducer/candidateCreator3Prong.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
                   }
                 }
               ]
@@ -2626,6 +2616,26 @@
                 {
                   "node": {
                     "path": "Common/TableProducer/qVectorsTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Fix PID selections on the negative track of Lambda",
+            "number": 4799,
+            "author": {
+              "login": "romainschotter"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/Strangeness/derivedlambdakzeroanalysis.cxx"
                   }
                 }
               ]
