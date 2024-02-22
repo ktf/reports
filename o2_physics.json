@@ -5,76 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-15T10:30:34Z",
-            "title": "PWGEM/PhotonMeson: Add EMC QC task and enable one collision in selected BC",
-            "number": 4718,
-            "author": {
-              "login": "nstrangm"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Core/HistogramsLibrary.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/TableProducer/skimmerGammaCalo.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGamma.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/Pi0EtaToGammaGammaMC.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGEM/PhotonMeson/Tasks/emcalQC.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-02-15T00:10:58Z",
-            "title": "Fix list of triggers",
-            "number": 4719,
-            "author": {
-              "login": "mpuccio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "EventFiltering/macros/checkSkimming.C"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-15T10:25:10Z",
             "title": "PWGCF: flow-pbpb: add QA histograms",
             "number": 4720,
@@ -2014,8 +1944,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-02-22T09:49:44Z",
             "title": "[event plane] adding gain equalization",
             "number": 4798,
             "author": {
@@ -2501,7 +2431,7 @@
           "node": {
             "state": "OPEN",
             "mergedAt": null,
-            "title": "Update lambdakzerobuilder.cxx",
+            "title": "PWGLF: lambdakzerobuilder -> change defaults",
             "number": 4816,
             "author": {
               "login": "ddobrigk"
@@ -2531,6 +2461,51 @@
                 {
                   "node": {
                     "path": "PWGMM/Mult/Tasks/dndeta.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "multiplicityPbPb.cxx (eta and zvtx cuts)",
+            "number": 4818,
+            "author": {
+              "login": "hhesouno"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGMM/Mult/Tasks/multiplicityPbPb.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Common: Multiplicity QA using derived data added",
+            "number": 4819,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Tasks/CMakeLists.txt"
                   }
                 }
               ]
