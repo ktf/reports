@@ -5,31 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-16T07:53:12Z",
-            "title": "PWGHF: Fix MC check to get charm mother information",
-            "number": 4730,
-            "author": {
-              "login": "AlexBigO"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/TableProducer/dataCreatorDplusPiReduced.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "PWGHF/D2H/Tasks/taskB0Reduced.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-15T18:18:00Z",
             "title": "Add track selections",
             "number": 4731,
@@ -2546,6 +2521,31 @@
                 {
                   "node": {
                     "path": "PWGEM/Dilepton/TableProducer/treeCreatorElectronMLDDA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Common: create a MC Collision tool for MC context",
+            "number": 4830,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DataModel/McCollisionExtra.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/TableProducer/mcCollsExtra.cxx"
                   }
                 }
               ]
