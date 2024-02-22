@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-15T14:12:52Z",
-            "title": "[PWGDQ] Fixing the calculation of the Psi EP in DQ flow framework",
-            "number": 4724,
-            "author": {
-              "login": "lucamicheletti93"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGDQ/Core/VarManager.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-02-15T14:53:21Z",
-            "title": "K0Perf: Add check on the ITS IB",
-            "number": 4725,
-            "author": {
-              "login": "njacazio"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DPG/Tasks/AOTTrack/V0Cascades/perfK0sResolution.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-15T15:21:58Z",
             "title": "PWGEM: bg reduction factor for treeCreator",
             "number": 4726,
@@ -2314,8 +2274,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-02-22T12:27:01Z",
             "title": "PWGHF: Implement extra MC checks in DPi creator",
             "number": 4815,
             "author": {
@@ -2412,6 +2372,11 @@
                   "node": {
                     "path": "Common/Tasks/CMakeLists.txt"
                   }
+                },
+                {
+                  "node": {
+                    "path": "Common/Tasks/multiplicityDerivedQa.cxx"
+                  }
                 }
               ]
             }
@@ -2491,6 +2456,76 @@
                 {
                   "node": {
                     "path": "PWGLF/TableProducer/QC/flowQC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "[PWGCF - FemtoDream] Include new template \"WrongCollision\"",
+            "number": 4824,
+            "author": {
+              "login": "gmantzar"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGCF/DataModel/FemtoDerived.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Core/femtoDreamParticleHisto.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/TableProducer/femtoDreamProducerTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGCF/FemtoDream/Tasks/femtoDreamDebugTrack.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FT0: new task is added into DPG section",
+            "number": 4825,
+            "author": {
+              "login": "afurs"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CODEOWNERS"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/FT0/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DPG/Tasks/FT0/ft0AnalysisTask.cxx"
                   }
                 }
               ]
