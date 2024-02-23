@@ -5,36 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-05T14:43:41Z",
-            "title": "DPL: move stuff out of line",
-            "number": 12654,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Core/CMakeLists.txt"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/include/Framework/AlgorithmSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Framework/Core/src/AlgorithmSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-07T09:53:13Z",
             "title": "Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X",
             "number": 12655,
@@ -4654,8 +4624,8 @@
         },
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
+            "state": "MERGED",
+            "mergedAt": "2024-02-23T15:05:34Z",
             "title": "[O2-4660] DPL: increase Dispatcher sending policy timeout",
             "number": 12746,
             "author": {
@@ -4866,6 +4836,31 @@
                 {
                   "node": {
                     "path": "Detectors/Base/include/DetectorsBase/Detector.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Hotfix for PID Hypothesis - switch to disable Canvas",
+            "number": 12755,
+            "author": {
+              "login": "HorstMa"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/PID.cxx"
                   }
                 }
               ]
