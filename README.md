@@ -72,6 +72,7 @@
 	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
 	- [\#12738](https://github.com/AliceO2Group/AliceO2/pull/12738) 2024-02-21: ALICE 3: Add FWD and BWD RICH + Fixes to TOFs and cosmetics by [@mconcas](https://github.com/mconcas)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
+	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 	- [\#12654](https://github.com/AliceO2Group/AliceO2/pull/12654) 2024-02-05: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
