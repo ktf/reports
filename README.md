@@ -36,7 +36,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12651](https://github.com/AliceO2Group/AliceO2/pull/12651) 2024-02-03: Always extract lowest padrow when matching check is asked by [@shahor02](https://github.com/shahor02)
 	- [\#12653](https://github.com/AliceO2Group/AliceO2/pull/12653) 2024-02-04: Always load CTP Lumi and use it to scale TPC cov.matrix extra errors by [@shahor02](https://github.com/shahor02)
 	- [\#12655](https://github.com/AliceO2Group/AliceO2/pull/12655) 2024-02-07: Adjust e.loss contribution to cov.mat+account for ITS/TPC PID difference at ref.X by [@shahor02](https://github.com/shahor02)
 	- [\#12659](https://github.com/AliceO2Group/AliceO2/pull/12659) 2024-02-06: TPC: Improve allowed number of bins and custom binning options by [@wiechula](https://github.com/wiechula)
