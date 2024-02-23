@@ -5,7 +5,6 @@
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
@@ -73,7 +72,6 @@
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12652](https://github.com/AliceO2Group/AliceO2/pull/12652) 2024-02-05: Add cluster size in layer by [@njacazio](https://github.com/njacazio)
 	- [\#12654](https://github.com/AliceO2Group/AliceO2/pull/12654) 2024-02-05: DPL: move stuff out of line by [@ktf](https://github.com/ktf)
 	- [\#12656](https://github.com/AliceO2Group/AliceO2/pull/12656) 2024-02-06: DPL: reduce helpers for makeHolder / makeHolderTypes by [@ktf](https://github.com/ktf)
 	- [\#12657](https://github.com/AliceO2Group/AliceO2/pull/12657) 2024-02-06: DPL Analysis: fix internal indices not properly bound when grouping is used by [@aalkin](https://github.com/aalkin)
