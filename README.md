@@ -5,6 +5,7 @@
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
+	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Common
 	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
@@ -81,6 +82,7 @@
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12713](https://github.com/AliceO2Group/AliceO2/pull/12713) 2024-02-16: Framework: add condition in AOD merger to handle empty DFs in linked derived data by [@fgrosa](https://github.com/fgrosa)
 	- [\#12721](https://github.com/AliceO2Group/AliceO2/pull/12721) 2024-02-16: DPL: Improve Signposts by [@ktf](https://github.com/ktf)
+	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
