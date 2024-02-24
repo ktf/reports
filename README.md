@@ -19,7 +19,6 @@
 	- [\#12741](https://github.com/AliceO2Group/AliceO2/pull/12741) 2024-02-21: GPU: Replace double constants by float constants by [@davidrohr](https://github.com/davidrohr)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12658](https://github.com/AliceO2Group/AliceO2/pull/12658) 2024-02-05: Avoid ambiguity in format_to by [@martenole](https://github.com/martenole)
 	- [\#12660](https://github.com/AliceO2Group/AliceO2/pull/12660) 2024-02-08: [EMCAL-688] Inclusion of EMCal Cell and Cluster labels by [@mhemmer-cern](https://github.com/mhemmer-cern)
 	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
@@ -64,6 +63,7 @@
 	- [\#12737](https://github.com/AliceO2Group/AliceO2/pull/12737) 2024-02-20: Update README.md with link to docs. by [@cholmcc](https://github.com/cholmcc)
 	- [\#12738](https://github.com/AliceO2Group/AliceO2/pull/12738) 2024-02-21: ALICE 3: Add FWD and BWD RICH + Fixes to TOFs and cosmetics by [@mconcas](https://github.com/mconcas)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
+	- [\#12743](https://github.com/AliceO2Group/AliceO2/pull/12743) 2024-02-24: GPU TPC Work on Cluster Error Estimation (New IFC formula + occupancy term for stochastic error) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
