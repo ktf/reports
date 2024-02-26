@@ -75,6 +75,7 @@
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
+	- [\#12768](https://github.com/AliceO2Group/AliceO2/pull/12768) 2024-02-26: Fix odc_expendable_task requirement in DDS XML by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
