@@ -7,7 +7,6 @@
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Common
-	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
@@ -89,5 +88,4 @@
 	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 ## Recent developments in O2 - Utilities
-	- [\#12662](https://github.com/AliceO2Group/AliceO2/pull/12662) 2024-02-19: [QC-136] Improve test coverage of Mergers by [@justonedev1](https://github.com/justonedev1)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
