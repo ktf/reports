@@ -18,7 +18,6 @@
 	- [\#12741](https://github.com/AliceO2Group/AliceO2/pull/12741) 2024-02-21: GPU: Replace double constants by float constants by [@davidrohr](https://github.com/davidrohr)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
@@ -28,7 +27,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12666](https://github.com/AliceO2Group/AliceO2/pull/12666) 2024-02-09: ctpdev: new exe for FirstOrbit/OrbitReset and shiftOrbit for CTP scalers by [@lietava](https://github.com/lietava)
 	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12680](https://github.com/AliceO2Group/AliceO2/pull/12680) 2024-02-11: Fixes to make the split wf work again by [@chiarazampolli](https://github.com/chiarazampolli)
