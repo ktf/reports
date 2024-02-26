@@ -17,6 +17,7 @@
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
 	- [\#12741](https://github.com/AliceO2Group/AliceO2/pull/12741) 2024-02-21: GPU: Replace double constants by float constants by [@davidrohr](https://github.com/davidrohr)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
+	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - DataFormats
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
@@ -58,6 +59,7 @@
 	- [\#12743](https://github.com/AliceO2Group/AliceO2/pull/12743) 2024-02-24: GPU TPC Work on Cluster Error Estimation (New IFC formula + occupancy term for stochastic error) by [@davidrohr](https://github.com/davidrohr)
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 	- [\#12758](https://github.com/AliceO2Group/AliceO2/pull/12758) 2024-02-24: outputs for the  ccdb-populator must be sporadic by [@shahor02](https://github.com/shahor02)
+	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
