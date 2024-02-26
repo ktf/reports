@@ -5,46 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-07T08:28:11Z",
-            "title": "option to store dia TOF calib directly from digits",
-            "number": 12663,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/GlobalTrackingWorkflow/tofworkflow/src/tof-reco-workflow.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflowIO/include/TOFWorkflowIO/TOFCalibWriterSpec.h"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflowIO/src/CalibInfoReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflowIO/src/DigitReaderSpec.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/workflowIO/src/TOFCalibWriterSpec.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-06T14:13:59Z",
             "title": "AODProducer: fix logical inversion for prop-tracks",
             "number": 12664,
@@ -4836,6 +4796,41 @@
                 {
                   "node": {
                     "path": "Framework/TestWorkflows/src/o2FairMQHeaderSizeTest.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: Add occupancy histogram bins +/-2 / uncorrected track yz and cluster x to debug streamers",
+            "number": 12764,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.cxx"
                   }
                 }
               ]
