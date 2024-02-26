@@ -4,7 +4,6 @@
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Analysis
-	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 ## Recent developments in O2 - Common
@@ -65,7 +64,6 @@
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 	- [\#12758](https://github.com/AliceO2Group/AliceO2/pull/12758) 2024-02-24: outputs for the  ccdb-populator must be sporadic by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12661](https://github.com/AliceO2Group/AliceO2/pull/12661) 2024-02-07: DPL Analysis: make BindingNodes constexpr by [@aalkin](https://github.com/aalkin)
 	- [\#12668](https://github.com/AliceO2Group/AliceO2/pull/12668) 2024-02-07: DPL Analysis: avoid extra cursorHelper methods by [@ktf](https://github.com/ktf)
 	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
