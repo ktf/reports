@@ -57,6 +57,7 @@
 	- [\#12744](https://github.com/AliceO2Group/AliceO2/pull/12744) 2024-02-23: Parallelize matched tracks refit by [@shahor02](https://github.com/shahor02)
 	- [\#12758](https://github.com/AliceO2Group/AliceO2/pull/12758) 2024-02-24: outputs for the  ccdb-populator must be sporadic by [@shahor02](https://github.com/shahor02)
 	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
+	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
