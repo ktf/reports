@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-21T14:19:59Z",
-            "title": "PWGHF: fix bug in cascade derived data",
-            "number": 4795,
-            "author": {
-              "login": "ZFederica"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "PWGHF/TableProducer/trackIndexSkimCreator.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-21T10:30:06Z",
             "title": "[PWGDQ] uncomment lines in PropagateMuon",
             "number": 4796,
@@ -2630,6 +2610,61 @@
                 {
                   "node": {
                     "path": "Common/Tasks/multiplicityDerivedQa.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "PWGLF: Changes to cascadebuilder KF cascade building + add task to study KF and DCA fitter cascades",
+            "number": 4895,
+            "author": {
+              "login": "creetz16"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/LFStrangenessTables.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/DataModel/kfStrangenessStudy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascadebuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/TableProducer/cascademcbuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/kfPerformanceStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "PWGLF/Tasks/QC/kfStrangenessStudy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "test"
                   }
                 }
               ]
