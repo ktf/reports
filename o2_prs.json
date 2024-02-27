@@ -5,26 +5,6 @@
         {
           "node": {
             "state": "MERGED",
-            "mergedAt": "2024-02-07T18:22:49Z",
-            "title": "TPC: Fixing timestamp in file name when storing scaler to file",
-            "number": 12671,
-            "author": {
-              "login": "matthias-kleiner"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Detectors/TPC/calibration/src/TPCScaler.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "state": "MERGED",
             "mergedAt": "2024-02-08T08:19:14Z",
             "title": "bug fix when creating diagnostic frequency (clear was missing)",
             "number": 12672,
@@ -4881,6 +4861,116 @@
                 {
                   "node": {
                     "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Next set of fixes / debug options for deterministic GPU mode",
+            "number": 12772,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/base/include/ITSBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUGeneralKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionConvert.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataCompression/GPUTPCCompressionTrackModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChain.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerDump.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPhysicalTrackModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPhysicalTrackModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMPropagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMSliceTrack.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGlobalDebugSortKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/kernels.cmake"
                   }
                 }
               ]

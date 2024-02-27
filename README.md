@@ -28,7 +28,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12671](https://github.com/AliceO2Group/AliceO2/pull/12671) 2024-02-07: TPC: Fixing timestamp in file name when storing scaler to file by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12672](https://github.com/AliceO2Group/AliceO2/pull/12672) 2024-02-08: bug fix when creating diagnostic frequency (clear was missing) by [@noferini](https://github.com/noferini)
 	- [\#12680](https://github.com/AliceO2Group/AliceO2/pull/12680) 2024-02-11: Fixes to make the split wf work again by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
