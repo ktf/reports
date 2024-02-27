@@ -81,6 +81,7 @@
 ## Recent developments in O2 - Generators
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
+	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
 	- [\#12677](https://github.com/AliceO2Group/AliceO2/pull/12677) 2024-02-09: Force digitisation when not in GRP by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
