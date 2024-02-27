@@ -60,7 +60,6 @@
 	- [\#12772](https://github.com/AliceO2Group/AliceO2/pull/12772) 2024-02-27: GPU: Next set of fixes / debug options for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12674](https://github.com/AliceO2Group/AliceO2/pull/12674) 2024-02-09: DPL Analysis: support both 17 and 20 c++std for type_name() by [@aalkin](https://github.com/aalkin)
 	- [\#12676](https://github.com/AliceO2Group/AliceO2/pull/12676) 2024-02-10: DPL: add SendingPolicy for the case destination is expendable by [@ktf](https://github.com/ktf)
 	- [\#12685](https://github.com/AliceO2Group/AliceO2/pull/12685) 2024-02-10: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 	- [\#12688](https://github.com/AliceO2Group/AliceO2/pull/12688) 2024-02-12: DPL: hide exception handling from header by [@ktf](https://github.com/ktf)
@@ -76,6 +75,7 @@
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
+	- [\#12747](https://github.com/AliceO2Group/AliceO2/pull/12747) 2024-02-27: DPL: drop support for serialising / deserializing schema by [@ktf](https://github.com/ktf)
 	- [\#12768](https://github.com/AliceO2Group/AliceO2/pull/12768) 2024-02-26: Fix odc_expendable_task requirement in DDS XML by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
