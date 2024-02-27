@@ -4,31 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "MERGED",
-            "mergedAt": "2024-02-08T08:19:14Z",
-            "title": "bug fix when creating diagnostic frequency (clear was missing)",
-            "number": 12672,
-            "author": {
-              "login": "noferini"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "DataFormats/Detectors/TOF/src/Diagnostic.cxx"
-                  }
-                },
-                {
-                  "node": {
-                    "path": "Detectors/TOF/base/src/WindowFiller.cxx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "CLOSED",
             "mergedAt": null,
             "title": "Revert \"DPL Analysis: make BindingNodes constexpr\"",
@@ -4971,6 +4946,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/kernels.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Ability to locally cache responses from CCDB header-only requests",
+            "number": 12773,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
                   }
                 }
               ]
