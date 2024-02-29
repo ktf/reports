@@ -30,7 +30,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12680](https://github.com/AliceO2Group/AliceO2/pull/12680) 2024-02-11: Fixes to make the split wf work again by [@chiarazampolli](https://github.com/chiarazampolli)
 	- [\#12681](https://github.com/AliceO2Group/AliceO2/pull/12681) 2024-02-08: Suppress excessive logging in the TrackMethods used by TPC QC by [@shahor02](https://github.com/shahor02)
 	- [\#12682](https://github.com/AliceO2Group/AliceO2/pull/12682) 2024-02-15: ALICE 3: Add ECal detector by [@mconcas](https://github.com/mconcas)
 	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
