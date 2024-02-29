@@ -61,7 +61,6 @@
 	- [\#12772](https://github.com/AliceO2Group/AliceO2/pull/12772) 2024-02-27: GPU: Next set of fixes / debug options for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12685](https://github.com/AliceO2Group/AliceO2/pull/12685) 2024-02-10: DPL: keep code checker happy by [@ktf](https://github.com/ktf)
 	- [\#12688](https://github.com/AliceO2Group/AliceO2/pull/12688) 2024-02-12: DPL: hide exception handling from header by [@ktf](https://github.com/ktf)
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
