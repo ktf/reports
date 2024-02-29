@@ -30,7 +30,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12684](https://github.com/AliceO2Group/AliceO2/pull/12684) 2024-02-12: [EMCAL-688] Add protection for MCClusterLabel access in case of nullptr by [@jokonig](https://github.com/jokonig)
 	- [\#12687](https://github.com/AliceO2Group/AliceO2/pull/12687) 2024-02-12: Enable TF throttling with readers, use in dpl-workflow  by [@shahor02](https://github.com/shahor02)
 	- [\#12691](https://github.com/AliceO2Group/AliceO2/pull/12691) 2024-02-13: Make hmp-matcher-workflow respect selected sources by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
 	- [\#12694](https://github.com/AliceO2Group/AliceO2/pull/12694) 2024-02-13: Add matches info tree to track-mc-study by [@shahor02](https://github.com/shahor02)
