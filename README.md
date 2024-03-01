@@ -61,7 +61,6 @@
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#12688](https://github.com/AliceO2Group/AliceO2/pull/12688) 2024-02-12: DPL: hide exception handling from header by [@ktf](https://github.com/ktf)
 	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
 	- [\#12699](https://github.com/AliceO2Group/AliceO2/pull/12699) 2024-02-13: DPL: drop reference to the now obsolete non-critical label by [@ktf](https://github.com/ktf)
