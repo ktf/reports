@@ -21,6 +21,7 @@
 	- [\#12761](https://github.com/AliceO2Group/AliceO2/pull/12761) 2024-02-26: Avoid using full geometry when possible by [@shahor02](https://github.com/shahor02)
 	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
+	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
@@ -61,6 +62,7 @@
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 	- [\#12789](https://github.com/AliceO2Group/AliceO2/pull/12789) 2024-03-01: Handling of wrong Alpide chip_on_module ID by [@shahor02](https://github.com/shahor02)
 	- [\#12790](https://github.com/AliceO2Group/AliceO2/pull/12790) 2024-03-01: ITS DCS Parser workflow: fixing defult url for rct object by [@atriolo](https://github.com/atriolo)
+	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
 	- [\#12699](https://github.com/AliceO2Group/AliceO2/pull/12699) 2024-02-13: DPL: drop reference to the now obsolete non-critical label by [@ktf](https://github.com/ktf)
