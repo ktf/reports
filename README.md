@@ -59,6 +59,7 @@
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 	- [\#12782](https://github.com/AliceO2Group/AliceO2/pull/12782) 2024-03-01: ITS NoiseCalib: Lifetime TimeFrame to Sporadic for 2 inputs by [@iravasen](https://github.com/iravasen)
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
+	- [\#12789](https://github.com/AliceO2Group/AliceO2/pull/12789) 2024-03-01: Handling of wrong Alpide chip_on_module ID by [@shahor02](https://github.com/shahor02)
 	- [\#12790](https://github.com/AliceO2Group/AliceO2/pull/12790) 2024-03-01: ITS DCS Parser workflow: fixing defult url for rct object by [@atriolo](https://github.com/atriolo)
 ## Recent developments in O2 - Framework
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
