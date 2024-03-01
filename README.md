@@ -10,7 +10,6 @@
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12693](https://github.com/AliceO2Group/AliceO2/pull/12693) 2024-02-13: GPU: Add prototype for SMatrixGPU testing by [@mconcas](https://github.com/mconcas)
 	- [\#12710](https://github.com/AliceO2Group/AliceO2/pull/12710) 2024-02-19: alice 3: fix run 3 sim protection against run 5 detectors by [@mconcas](https://github.com/mconcas)
 	- [\#12716](https://github.com/AliceO2Group/AliceO2/pull/12716) 2024-02-16: GPU: Add some sorting kernels to make deterministic debug mode more deterministic by [@davidrohr](https://github.com/davidrohr)
@@ -61,7 +60,6 @@
 	- [\#12774](https://github.com/AliceO2Group/AliceO2/pull/12774) 2024-02-27: Fix looping in the RawFileReaderWorkflow by [@shahor02](https://github.com/shahor02)
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
-	- [\#12690](https://github.com/AliceO2Group/AliceO2/pull/12690) 2024-02-13: DPL Analysis: make sure additional AOD origins are not skipped by [@aalkin](https://github.com/aalkin)
 	- [\#12695](https://github.com/AliceO2Group/AliceO2/pull/12695) 2024-02-13: DPL: fix lossy sending / forwarding policies by [@ktf](https://github.com/ktf)
 	- [\#12699](https://github.com/AliceO2Group/AliceO2/pull/12699) 2024-02-13: DPL: drop reference to the now obsolete non-critical label by [@ktf](https://github.com/ktf)
 	- [\#12700](https://github.com/AliceO2Group/AliceO2/pull/12700) 2024-02-14: DPL: Pass the concept of expendable tasks in DPL to templates for ECS by [@knopers8](https://github.com/knopers8)
