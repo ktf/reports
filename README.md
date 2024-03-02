@@ -10,7 +10,6 @@
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#12693](https://github.com/AliceO2Group/AliceO2/pull/12693) 2024-02-13: GPU: Add prototype for SMatrixGPU testing by [@mconcas](https://github.com/mconcas)
 	- [\#12710](https://github.com/AliceO2Group/AliceO2/pull/12710) 2024-02-19: alice 3: fix run 3 sim protection against run 5 detectors by [@mconcas](https://github.com/mconcas)
 	- [\#12716](https://github.com/AliceO2Group/AliceO2/pull/12716) 2024-02-16: GPU: Add some sorting kernels to make deterministic debug mode more deterministic by [@davidrohr](https://github.com/davidrohr)
 	- [\#12718](https://github.com/AliceO2Group/AliceO2/pull/12718) 2024-02-16: GPU: Fix atomics on the host by [@davidrohr](https://github.com/davidrohr)
