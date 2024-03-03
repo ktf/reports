@@ -29,7 +29,6 @@
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12697](https://github.com/AliceO2Group/AliceO2/pull/12697) 2024-02-13: its-study: add anomaly detection study by [@mconcas](https://github.com/mconcas)
 	- [\#12705](https://github.com/AliceO2Group/AliceO2/pull/12705) 2024-02-16: its-gpu-tracking: Refactor kernels location by [@mconcas](https://github.com/mconcas)
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
