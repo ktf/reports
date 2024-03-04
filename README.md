@@ -64,7 +64,6 @@
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12701](https://github.com/AliceO2Group/AliceO2/pull/12701) 2024-02-14: DPL: make sure homogeneous_apply_ref complains when we are missing an explicit constructor by [@ktf](https://github.com/ktf)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12713](https://github.com/AliceO2Group/AliceO2/pull/12713) 2024-02-16: Framework: add condition in AOD merger to handle empty DFs in linked derived data by [@fgrosa](https://github.com/fgrosa)
