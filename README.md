@@ -64,7 +64,6 @@
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
-	- [\#12700](https://github.com/AliceO2Group/AliceO2/pull/12700) 2024-02-14: DPL: Pass the concept of expendable tasks in DPL to templates for ECS by [@knopers8](https://github.com/knopers8)
 	- [\#12701](https://github.com/AliceO2Group/AliceO2/pull/12701) 2024-02-14: DPL: make sure homogeneous_apply_ref complains when we are missing an explicit constructor by [@ktf](https://github.com/ktf)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
@@ -77,6 +76,7 @@
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 	- [\#12768](https://github.com/AliceO2Group/AliceO2/pull/12768) 2024-02-26: Fix odc_expendable_task requirement in DDS XML by [@ktf](https://github.com/ktf)
 	- [\#12781](https://github.com/AliceO2Group/AliceO2/pull/12781) 2024-02-29: DPL: allow a given buffer to be deserialised multiple times by [@ktf](https://github.com/ktf)
+	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Generators
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
