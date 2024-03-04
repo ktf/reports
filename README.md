@@ -23,14 +23,12 @@
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Detectors
-	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
