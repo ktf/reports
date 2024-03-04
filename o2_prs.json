@@ -4,26 +4,6 @@
       "edges": [
         {
           "node": {
-            "state": "OPEN",
-            "mergedAt": null,
-            "title": "DPL: check for the maximum number of members supported for tasks",
-            "number": 12704,
-            "author": {
-              "login": "ktf"
-            },
-            "files": {
-              "edges": [
-                {
-                  "node": {
-                    "path": "Framework/Foundation/include/Framework/StructToTuple.h"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
             "state": "MERGED",
             "mergedAt": "2024-02-16T07:13:45Z",
             "title": "its-gpu-tracking: Refactor kernels location",
@@ -5060,6 +5040,11 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Base/GPUParam.h"
                   }
                 },
@@ -5110,12 +5095,22 @@
                 },
                 {
                   "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
                     "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
                   }
                 },
                 {
                   "node": {
                     "path": "GPU/GPUTracking/SliceTracker/GPUTPCGlobalTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
                   }
                 },
                 {
@@ -5181,6 +5176,26 @@
                 {
                   "node": {
                     "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "CCDBManager can use new Cache-Valid-Until header",
+            "number": 12805,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/include/CCDB/BasicCCDBManager.h"
                   }
                 }
               ]
