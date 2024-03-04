@@ -21,6 +21,7 @@
 	- [\#12775](https://github.com/AliceO2Group/AliceO2/pull/12775) 2024-02-28: GPU: And again more commits for deterministic GPU mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12784](https://github.com/AliceO2Group/AliceO2/pull/12784) 2024-02-29: GPU: CMake updates to pull in only the CXX files needed per kernel, and some fixes for deterministic mode on large TFs by [@davidrohr](https://github.com/davidrohr)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
+	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
 	- [\#12706](https://github.com/AliceO2Group/AliceO2/pull/12706) 2024-02-15: ctpdev: scalers orbit shift by [@lietava](https://github.com/lietava)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
@@ -62,6 +63,7 @@
 	- [\#12794](https://github.com/AliceO2Group/AliceO2/pull/12794) 2024-03-02: TPC: Fixing inverse for M-Shape distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
+	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - Framework
 	- [\#12707](https://github.com/AliceO2Group/AliceO2/pull/12707) 2024-02-15: DPL: allow extracting data from processing context directly using arguments by [@ktf](https://github.com/ktf)
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
