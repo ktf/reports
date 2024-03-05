@@ -27,6 +27,7 @@
 	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
+	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
 	- [\#12708](https://github.com/AliceO2Group/AliceO2/pull/12708) 2024-02-16: DPL: calibration workflow example by [@ktf](https://github.com/ktf)
 	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
@@ -54,6 +55,7 @@
 	- [\#12786](https://github.com/AliceO2Group/AliceO2/pull/12786) 2024-03-01: GPU: Make O2 propagator available to ITS Tracking by [@davidrohr](https://github.com/davidrohr)
 	- [\#12789](https://github.com/AliceO2Group/AliceO2/pull/12789) 2024-03-01: Handling of wrong Alpide chip_on_module ID by [@shahor02](https://github.com/shahor02)
 	- [\#12790](https://github.com/AliceO2Group/AliceO2/pull/12790) 2024-03-01: ITS DCS Parser workflow: fixing defult url for rct object by [@atriolo](https://github.com/atriolo)
+	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12792](https://github.com/AliceO2Group/AliceO2/pull/12792) 2024-03-01: Discard afterburner tracks by [@shahor02](https://github.com/shahor02)
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12794](https://github.com/AliceO2Group/AliceO2/pull/12794) 2024-03-02: TPC: Fixing inverse for M-Shape distortions by [@matthias-kleiner](https://github.com/matthias-kleiner)
