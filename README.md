@@ -8,7 +8,6 @@
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 ## Recent developments in O2 - Common
-	- [\#12710](https://github.com/AliceO2Group/AliceO2/pull/12710) 2024-02-19: alice 3: fix run 3 sim protection against run 5 detectors by [@mconcas](https://github.com/mconcas)
 	- [\#12716](https://github.com/AliceO2Group/AliceO2/pull/12716) 2024-02-16: GPU: Add some sorting kernels to make deterministic debug mode more deterministic by [@davidrohr](https://github.com/davidrohr)
 	- [\#12718](https://github.com/AliceO2Group/AliceO2/pull/12718) 2024-02-16: GPU: Fix atomics on the host by [@davidrohr](https://github.com/davidrohr)
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
@@ -21,14 +20,12 @@
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
 	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 ## Recent developments in O2 - Detectors
-	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12714](https://github.com/AliceO2Group/AliceO2/pull/12714) 2024-02-22: TPC IDCs: make 1D-IDCs more robust by [@matthias-kleiner](https://github.com/matthias-kleiner)
 	- [\#12715](https://github.com/AliceO2Group/AliceO2/pull/12715) 2024-02-15: Fix missing HBFUtilsInitialize plugins in various reader workflows by [@shahor02](https://github.com/shahor02)
 	- [\#12720](https://github.com/AliceO2Group/AliceO2/pull/12720) 2024-02-17: ITS3: TDR Implementation Pt.1 by [@f3sch](https://github.com/f3sch)
@@ -74,7 +71,6 @@
 	- [\#12788](https://github.com/AliceO2Group/AliceO2/pull/12788) 2024-03-04: DPL: drop special policy for Dispatcher by [@ktf](https://github.com/ktf)
 	- [\#12806](https://github.com/AliceO2Group/AliceO2/pull/12806) 2024-03-04: Add guards to DefaultsHelpers header by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Generators
-	- [\#12709](https://github.com/AliceO2Group/AliceO2/pull/12709) 2024-02-16: O2sim: update hepmc info propagation by [@aalkin](https://github.com/aalkin)
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
