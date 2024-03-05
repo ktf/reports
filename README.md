@@ -56,6 +56,7 @@
 	- [\#12798](https://github.com/AliceO2Group/AliceO2/pull/12798) 2024-03-04: Avoid dummy run() call in raw-tf-reader by [@shahor02](https://github.com/shahor02)
 	- [\#12800](https://github.com/AliceO2Group/AliceO2/pull/12800) 2024-03-04: Use lightweight MFT GeometryTGeo from ccdb instead of full geom by [@shahor02](https://github.com/shahor02)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
+	- [\#12809](https://github.com/AliceO2Group/AliceO2/pull/12809) 2024-03-05: Do not delete singleton instance of adopted ITS/MFT GeometryTGeo by [@shahor02](https://github.com/shahor02)
 ## Recent developments in O2 - Framework
 	- [\#12721](https://github.com/AliceO2Group/AliceO2/pull/12721) 2024-02-16: DPL: Improve Signposts by [@ktf](https://github.com/ktf)
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
