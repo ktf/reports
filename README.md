@@ -59,7 +59,6 @@
 	- [\#12809](https://github.com/AliceO2Group/AliceO2/pull/12809) 2024-03-05: Do not delete singleton instance of adopted ITS/MFT GeometryTGeo by [@shahor02](https://github.com/shahor02)
 	- [\#12819](https://github.com/AliceO2Group/AliceO2/pull/12819) 2024-03-06: TPC: Adding option to add time offset when writing pad status map by [@matthias-kleiner](https://github.com/matthias-kleiner)
 ## Recent developments in O2 - Framework
-	- [\#12721](https://github.com/AliceO2Group/AliceO2/pull/12721) 2024-02-16: DPL: Improve Signposts by [@ktf](https://github.com/ktf)
 	- [\#12724](https://github.com/AliceO2Group/AliceO2/pull/12724) 2024-02-24: DPL Analysis: rework the table iterator type hierachy by [@aalkin](https://github.com/aalkin)
 	- [\#12730](https://github.com/AliceO2Group/AliceO2/pull/12730) 2024-02-22: FT0: update for AOD table interface by [@afurs](https://github.com/afurs)
 	- [\#12746](https://github.com/AliceO2Group/AliceO2/pull/12746) 2024-02-23: [O2-4660] DPL: increase Dispatcher sending policy timeout by [@ktf](https://github.com/ktf)
