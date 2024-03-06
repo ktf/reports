@@ -20,13 +20,11 @@
 	- [\#12793](https://github.com/AliceO2Group/AliceO2/pull/12793) 2024-03-01: GPU: Clean up / remove dependencies to GPUTracking where possible by [@davidrohr](https://github.com/davidrohr)
 	- [\#12802](https://github.com/AliceO2Group/AliceO2/pull/12802) 2024-03-04: GPU TPC: Use qMax and <qMax> in cluster error estimation [WIP] by [@davidrohr](https://github.com/davidrohr)
 ## Recent developments in O2 - DataFormats
-	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12742](https://github.com/AliceO2Group/AliceO2/pull/12742) 2024-02-22: GPU: Clean up rounding, and use deterministic functions in GPUCA_NO_FAST_MATH mode by [@davidrohr](https://github.com/davidrohr)
 	- [\#12791](https://github.com/AliceO2Group/AliceO2/pull/12791) 2024-03-05: Ctpdev: ctpRateFetcher by [@lietava](https://github.com/lietava)
 	- [\#12803](https://github.com/AliceO2Group/AliceO2/pull/12803) 2024-03-06: TPC: unrelated minor updates by [@wiechula](https://github.com/wiechula)
 ## Recent developments in O2 - Detectors
-	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12725](https://github.com/AliceO2Group/AliceO2/pull/12725) 2024-02-17: Adding chamber information in the AOD by [@gvolpe79](https://github.com/gvolpe79)
 	- [\#12726](https://github.com/AliceO2Group/AliceO2/pull/12726) 2024-02-20: ALICE3: Add foundations for MID by [@mconcas](https://github.com/mconcas)
 	- [\#12728](https://github.com/AliceO2Group/AliceO2/pull/12728) 2024-02-20: TPC residual aggregator stores unbinned residuals by default by [@martenole](https://github.com/martenole)
@@ -74,7 +72,6 @@
 	- [\#12734](https://github.com/AliceO2Group/AliceO2/pull/12734) 2024-02-20: Clean- and speed-up of AODToHepMC utility by [@cholmcc](https://github.com/cholmcc)
 	- [\#12762](https://github.com/AliceO2Group/AliceO2/pull/12762) 2024-02-27: Fine-grained verbosity control for Primary generator + Pythia8 by [@sawenzel](https://github.com/sawenzel)
 ## Recent developments in O2 - Steer
-	- [\#12722](https://github.com/AliceO2Group/AliceO2/pull/12722) 2024-02-20: ITS3: TDR Implementation Pt.2: Production Code by [@f3sch](https://github.com/f3sch)
 	- [\#12729](https://github.com/AliceO2Group/AliceO2/pull/12729) 2024-02-19: Fixes in CTP digitizer for anchored MC by [@mfasDa](https://github.com/mfasDa)
 	- [\#12757](https://github.com/AliceO2Group/AliceO2/pull/12757) 2024-02-28: DPL: avoid TMessage usage by [@ktf](https://github.com/ktf)
 	- [\#12769](https://github.com/AliceO2Group/AliceO2/pull/12769) 2024-03-05: IT3: Support lightweight GeometryTGeo by [@f3sch](https://github.com/f3sch)
